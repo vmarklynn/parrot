@@ -1,0 +1,681 @@
+0:00:00	SPEAKER_01
+ starts no no there's another I don't know it starts with a p or something I forget the word for it but it's it's Typically when you but starting around 40 for most people It starts to harden and then it's just harder for the lens to shift things and the the symptom is typically that you You have to hold stuff further away to see in fact My brother's a Dermatological psychologist and he he came up with in a body-aged test Which gets down to sort of only three measurements that are good enough statistical predictors of all the rest of it and one of them is is the distance
+
+0:00:38	SPEAKER_00
+ We're alive by the way, so we got a good intro here. Oh, yeah, but oh, I am okay. Yeah, we can edit that out if you want No, it's okay. Okay, so This time the form
+
+0:00:49	SPEAKER_01
+ Discussion should be very short, right? It also should be later. Okay, because Jane is not here yet good point and That should be most interested in that It's probably least involved in the signal processing stuff so maybe we can just just I don't think we should go through an elaborate thing but Jose and I were just talking about the Speechless energy thing and I we didn't talk about the derivatives But I think you know the if I can if you don't mind my speaking for you for a bit Right now he's not really showing any kind of distinction, but we discussed a couple of the possible things that he can look at and one is that this is all in log energy and log energy is basically compressing the distances between things another is that he needs to play with the different temporal sizes He was he was taking everything over 200 milliseconds and he's gonna vary that number and also looking moving windows as we discussed before and The other thing is that the doing the Surracting of the mean and variance in the divided by the standard deviation and log domain may not be the right thing to do
+
+0:02:04	SPEAKER_00
+ Hi Jane, we just started. Did you take that might there?
+
+0:02:08	SPEAKER_01
+ Over the whole means of what between no between neither it's between the pauses for some segment and so he is He's making the constraint it has to be at least 200 milliseconds and so you take that and then he's Measuring at the frame level still the frame level what and then and then just normalizing with that larger amount And but one thing he was pointing out is when he he looked at a bunch of examples in log domain It is actually pretty hard to see the change and you can sort of see that because I was just putting on the board that You sort of have log x plus log x that's the log of x plus the log of two and it's just you know it diminishes the
+
+0:02:48	SPEAKER_04
+ Effective having two of them. Could you do like a CDF there instead? I mean we don't know that the distribution here is yes
+
+0:02:54	SPEAKER_01
+ Right so so what I was suggesting to him is that actually a pdf, but you know, but either way yeah Yeah, yeah Yeah, but I think also I think a good first indicator is when the the researcher looks at Examples of the data and cannot see a change in how big the the signal is when the two sweet then that's a problem right there So I think you should at least be able doing casual looking and get the sense Hey, there's something there and then you can play around with the measures and when he's looking in the log domain is not really seeing it So and when he's looking in the straight energy is that's a good place to start So that was that was the discussion we just had The other thing actually we can't had a question for Adam in this when you did the sampling Over the speech segments are sampling over the the individual channels north to the the Applicaticalization did you do it over just the entire everything in the mic channels?
+
+0:03:55	SPEAKER_00
+ You didn't try to find speech no, I just took over the entire entire entire channel
+
+0:04:00	SPEAKER_01
+ Sampled 10 minutes randomly right okay, so then that means that someone who didn't speak very much would be largely Represented by silence and someone who is who would be so the normalization factor probably is
+
+0:04:12	SPEAKER_00
+ Yeah, this was quite quick and dirty and it was just for listening okay for listening it seems to work really well
+
+0:04:18	SPEAKER_01
+ Yeah, yeah, yeah, but that's but it's not yeah, not a good matter Okay, so yeah, there there's a good chance then given that different people do talk different amounts Yeah, there is there there's still a lot more to be gained from gain normalization Yeah, that's absolutely if we can figure out a way to do it But we were agreed that in addition to that there should be stuff related to pitch and harmonics and so forth So we didn't talk at all about the other derivatives, but again, just just looking at I Think Liz has a very good point that in fact it would be much more graphic just to show Actually, you do have some distributions here for these cases you have some histograms and They don't look very separate
+
+0:05:05	SPEAKER_02
+ Separate this is the first debate to real free energy. Yeah, we thought to any kind of normalization Yeah, log energy. Sorry. These are the first pretty men's we come in to
+
+0:05:17	SPEAKER_00
+ Except it's hard to judge this because the they're not normalized. It's just number of frames. Yeah But yeah, you and so
+
+0:05:26	SPEAKER_04
+ What I mean is even if you use linear raw measure like raw energy or whatever maybe We shouldn't make any assumptions about distribution shape I'm just use the distribution to model the The mean you know rather than mean take some yeah, but and so Denise he's got that he's got some pictures
+
+0:05:49	SPEAKER_01
+ But he doesn't he doesn't do that he just in the derivatives, but not in the But he doesn't know what they look like
+
+0:05:56	SPEAKER_04
+ But he didn't have it for the energy for the drivies. Yeah, I mean there might be something there
+
+0:06:01	SPEAKER_05
+ Yeah
+
+0:06:03	SPEAKER_01
+ Interesting. Oh, yeah, that's a good did you have this sort of thing for just the just the The the unnormalized No, log energy. Okay. Yeah, so she's right. That's No, but it looks like yeah, that's that's because I mentioned scatter plots before but she's right I mean even before you get the scatter plots just looking at a single feature
+
+0:06:26	SPEAKER_02
+ Yeah, looking at the distribution is a good thing to do is cut to combine in different possibilities for the parameters I mean the the scatter plot combine in different True combination. Yeah, but what she's saying is which is right is young
+
+0:06:45	SPEAKER_01
+ I mean, let's start with the before we get complicated. Let's start with the most basic thing Which is we're arguing that if you take energy If you look at the energy that when two people are speaking at the same time usually There'll be more energy than one one is right. That's that's sort of hypothesis and the first way you'd look at that She's you know, absolutely right is that you would just take a look at the distribution of those two things much as you've plotted them here You know, but just but just just do it well in this case you have three of the silence and that's fine So with three colors or three shades or whatever just just look at those distributions and then given that as a base You can see if that gets improved you know or or or worsened by looking at regular energy looking at log energy We were just proposing that maybe it's you know tired of see with the log energy and Also these different normalizations do is a particular choice of normalization make it better But I had maybe made it too complicated by suggesting Early on that you look at scatter plots because that's looking at a distribution in two dimensions Let's start off just in one With this feature. I think that's probably the most basic thing for anything very complicated And then we I think we're agreed that pitch related things are are going to be a really likely candidate to help but since Your intuition from looking at some of the data is that when you looked at the regular energy that it did in fact usually go up When people were talking that's You know you should be able to come up with a measure which will match your intuition and she's right that having Having having this table with a whole bunch of things with the standard deviation the variance of it It's it's harder to interpret than just looking at the same kind of picture you have here
+
+0:08:30	SPEAKER_02
+ It could use but I found it in the in the missus fight That's several several times You have an speaker talking along We say high level of energy in the middle a zone of overlapping with Less energy and Going with another speaker with high energy and the overlapping zone has Less energy. Yeah, so there'll be some cases for which
+
+0:09:05	SPEAKER_01
+ But the so so there'll be This is one point to visual things that I mean that there'll be time there'll be overlap between the distributions The question is if it's a reasonable feature at all there's some separation. Yeah, especially locally
+
+0:09:21	SPEAKER_00
+ And the other thing about I was just gonna say that that right now we're just exploring Well, you would imagine eventually is that you'll feed all of these features into some Discirmative system. Yeah, and so even if if one of the features Does a good job at one type of overlap another feature might do a good job at another type of overlap?
+
+0:09:40	SPEAKER_01
+ Right, I mean the the reason I see just a scatter features is I used to do this a lot when we had 13 or 15 or 20 features to look at Because something is a good feature by itself You don't really know how it will behave in combination and so it's nice to have as many as many together at the same time as possible In some reasonable visual form there's cool graphic things that people have sometimes to put together three or four and some funny Funny way, but it's true that you shouldn't do any of that unless you know that the individual ones at least have have some
+
+0:10:12	SPEAKER_04
+ Normalizing I mean it's really important to pick a normalization that matches the distribution for that feature and it may not be the same For all the types of overlaps or the windows may not be the same I mean actually I was wondering right now you're taking all of the speech From the whole meeting and you're trying to find points of overlap But we don't really know which speakers overlapping which speak away So I mean another way would just be to take the speech from just say Morgan and just Jane and then just their overlaps by hand by cheating and looking at you know if you can detect something that way because if we can't do it that way There's no go-pro that we're gonna be able to do it that you know there might be something helpful and cleaner about looking at just Individuals and then that combination plus I think it has more elegant Then the right model will be easier to see that way so I don't know if you go through and you find Adam because he has a lot of overlaps and some other speaker who also has enough speech and just sort of look at those Three cases of Adam the other person and the overlaps maybe And just look at the distributions maybe there is a clear Pattern but we just can't see it because there's too many combinations of people That can overlap I had the same intuition last last week
+
+0:11:39	SPEAKER_03
+ I can't start with it's just your idea of simplifying starting with something that you can see you know without the extra layers
+
+0:11:47	SPEAKER_04
+ Right because if energy doesn't matter there like I don't think
+
+0:11:50	SPEAKER_02
+ To study individual to study individual
+
+0:11:56	SPEAKER_03
+ But just simple case and rid of one that has a lot of data so
+
+0:12:00	SPEAKER_04
+ Because what if it's the case and I don't think that was a great overlap by the way What if it's the case that when two people overlap the equate or you know There's a conservation of energy and everybody please talk more soft. I don't think
+
+0:12:13	SPEAKER_03
+ Or what equipment what if the equipment adjust somehow?
+
+0:12:16	SPEAKER_00
+ Yeah, well, but I think that's why I was saying about different types of overlap
+
+0:12:22	SPEAKER_04
+ There there are different Types and within those types like as Jose was saying that sounded like a back channel overlap meaning the kind that's a friendly Encouragement like great. Yeah, and it doesn't take you to take the floor But some of those as you showed I think can be discriminated by the duration of the overlap so It actually this new student Don who Adam has met and he was at one of our meetings He's getting his feet wet and then he'll be starting again in mid-January He's interested in trying to distinguish the types of overlap I don't know if he taught me yet, but in sort of home name
+
+0:13:00	SPEAKER_02
+ No, you don't consider that possibility This is a general study of the overlapping
+
+0:13:06	SPEAKER_04
+ Yeah, so it might be something that we can help by categorizing some of them and then I would actually still recommend that he do the overall
+
+0:13:15	SPEAKER_01
+ Thing because it would be the quickest thing for him to do he could he already has all this stuff in place He has his to Graham mechanism has the stuff that subtracted and all he has to do is change it From from log to plane energy and plot the histogram and look at it And then he should go on and do the other stuff
+
+0:13:32	SPEAKER_04
+ Yeah, no, I didn't mean that that for you to do that, but I was thinking if If Don and I are trying to get categories and we made some data for you and we say this is what we think is going So you don't have to worry about it and here's three types of overlap we'll do the little thing for you
+
+0:13:47	SPEAKER_02
+ Consume different class of overlap
+
+0:13:49	SPEAKER_04
+ Yeah, that we will be working on anyway Then maybe you can try some different things for those three cases
+
+0:13:55	SPEAKER_02
+ This is a thing I commend with you before that we have a great variation of the situation of overlapping and The behavioral for energies it locked the energy is not the same all the time
+
+0:14:07	SPEAKER_01
+ But I guess I was saying that right now From the means that you gave I don't have any sense of whether Even you know there are any significant number of cases for which there's distinct and I would imagine there should be some You know, there should be the distributions should be somewhat separate And I would still guess that if they're not separated at all That there's some there's most likely something wrong in the way that we're measuring But For instance, I mean I wouldn't expect that it was very common Overall that when two people were talking at the same time that it was that it really was lower Although sometimes as you say would Yeah, no that was that was the joke
+
+0:14:56	SPEAKER_04
+ Yeah No, it's where you would never know that unless you actually go and look yeah, right
+
+0:15:02	SPEAKER_00
+ Yeah, let if I turn that light off the flickering is annoying me. Okay
+
+0:15:06	SPEAKER_04
+ They might be the case though that the significant energy just as I was saying comes in the non-back channel cases Because it that most people when they're talking don't change their own Energy when they get a back to because they're not really predicting the back channel and sometimes it's a nod and sometimes it's them Mm-hmm and the um-hmm is really usually very low energy So maybe those don't actually have much difference in energy, but All the other cases might and the back channels are sort of easy to spot in terms of their words
+
+0:15:35	SPEAKER_01
+ And again what the what difference there was would kind of be lost in taking the log so
+
+0:15:40	SPEAKER_04
+ Well, it would be lost no matter what you do
+
+0:15:44	SPEAKER_01
+ No, if it's if it's
+
+0:15:46	SPEAKER_04
+ Even if you take the log you can your model just has a more sensitive
+
+0:15:49	SPEAKER_00
+ Sure, but tone might be very Yeah, your mm-hmm tone is gonna be very different Right you could imagine doing specialized ones for different types of back channels if you could if you had a good model for it
+
+0:16:02	SPEAKER_01
+ You're if you're I guess my point is if you're doing essentially a linear separation taking the log first doesn't fact make it harder to Right so it's so if you so if they're close things it does it's a non-linear operation It doesn't fact change the distinction if you're doing a not if you're doing some fancy thing then and yeah And right now we're essentially doing this linear thing by looking across here and saying we're gonna cut it here Um, and that's the indicator of getting but anyway yet we're not disagreeing on any of this we should look at it more more finally but I think that This often happens you do fairly complicated things and then you stand back when you realize you haven't done something simple so If you generated something like that just for the energy and see and then as as as says when they have Uh a smaller a more coherent groups to look at that would be another interesting thing later And then that should give us some indication between those she give us some indication of whether there's anything to be achieved from energy at all And then you can move on to the more pitch-related stuff Not consider the local yeah, but then have you started looking at the pitch-related stuff?
+
+0:17:10	SPEAKER_01
+ Pitch-related I'm an assidine. I am preparing the program parents. I don't I don't be
+
+0:17:14	SPEAKER_02
+ Because I saw you remain and yeah, I agree with you. It's better to I suppose it's better to consider the energy this kind of parameter
+
+0:17:24	SPEAKER_01
+ Oh, that's not what I meant. No, no, I I well we certainly should see this but I I think that the harm I certainly wasn't saying this was better than the Harmonicity and pitch-related things. I was just saying I won't with the yeah, okay
+
+0:17:39	SPEAKER_02
+ Yeah, I was just saying understood that I had to finish my the moment with I'm concentrating my energy
+
+0:17:48	SPEAKER_01
+ Okay, okay, but I think like all these derivatives and second derivative is now these are the very fancy things I think I just sort of look at the energy and then get into the harmonicity Okay, so maybe we're trying to compress the meeting I know Adam had some forum stuff you wanted to talk about and did you have some?
+
+0:18:09	SPEAKER_03
+ I wanted to ask just something at the end of this topic so when I presented my results about the Distribution of overlaps in the speakers and the profiles of speakers at the bottom of that I did have a proposal and I planned to go through with it of Coating the types of overlaps of people were involved in just with reference to speaker style So you know with reference and you know, I said that in my Yeah, you know, I so I was like people may have different amounts of being overlapped with or overlapping But that in itself is not informative without knowing what types of overlap they're involved is So I was planning to do a taxonomy of types of overlaps to that So but I you know, it's like it sounds like you also have something in that direction is we have nothing
+
+0:18:48	SPEAKER_04
+ You know basically we got his environment set up. He's he's a doubly You know, so It's mostly that if we had to label it ourselves we would or we have to get started But it it would be much better if you can do it you'd be much better at doing it also because you know, I I'm not I Don't have a good feel for how they should be sorted out and I really didn't want to Go into that. I didn't have to so if you're willing to do that it would be interesting though to talk
+
+0:19:17	SPEAKER_00
+ Maybe not the meeting but at some other time about what are the classes?
+
+0:19:21	SPEAKER_04
+ I think that's a research effort in and of itself. Yeah, it would be interesting But I don't know how it'll turn out and
+
+0:19:27	SPEAKER_03
+ Oh, you know, so we also with reference to a purpose too that we
+
+0:19:33	SPEAKER_04
+ Still have some funding for this project like probably if we had to hire some like an undergrad because Don is being covered half time on something else. I mean You were not paying him the full our a ship for all the time so If it got to where we want it we needed someone to do that. I don't think there's really enough data
+
+0:19:54	SPEAKER_03
+ Where we see this is a prototype to use the already transcribed meeting is I think another problem
+
+0:19:59	SPEAKER_02
+ There we we can consider is the duration I know besides the class with overlap the duration because it's possible some Some classes has a type of duration duration very short And we have a rapping with speech is possible to have and it's interesting I think to consider the the window to the normalization conversation window because if we have a type of a kind of overlap Like channel overlap with a short duration if possible And to normal that if we normalize with a consider only the window and by the left Side and the right side of the rapping with a very small window If the effect of the normalization is bigger In that's a rapping sound very short I mean that you have you have a channel you have a rapping sound very short and you consider A All the chance to normalize this very short For example, hmm And the energy is not a height I think if you consider all the chance to normalize and the Chinese bigger Compared with the with the rapping duration the effect is stronger I mean the the effect of normalization with the mean and the at the very end is different that if you consider only a eh window to compare with the the duration of the rapping
+
+0:22:00	SPEAKER_01
+ You want it around the overlapping part to include something that's not in the overlapping But I don't know
+
+0:22:08	SPEAKER_04
+ Well, it's a sliding window right so if you take the the measure in the center of the overlap Yeah, you know they're better but something but if your window is really huge then yeah Yeah, this is the portion of the
+
+0:22:20	SPEAKER_02
+ This is the thing to consider only the more windowed Yeah, so
+
+0:22:25	SPEAKER_04
+ Yeah, they're the overlapping so you know you shouldn't be more than like you should definitely not be three times as big of your And your back channel then you're gonna have a wash and hopefully it's more like I'm not sure that's necessarily true
+
+0:22:37	SPEAKER_03
+ It isn't empirical because because it because
+
+0:22:40	SPEAKER_01
+ Again if you're just compensating for the gain you know the fact that this this gain thing was crude And the game with someone is speaking relatively consistent level just to give an extreme example All you're doing is compensating for that And these still and then if you look at the frame with respect to that It still should should Change
+
+0:23:01	SPEAKER_04
+ Yeah, it depends how different your normalization is as you slide your window across
+
+0:23:07	SPEAKER_00
+ I mean we're also talking about a couple different things I mean one is your analysis window and then the other is any sort of normalization that you're doing And they could be quite different
+
+0:23:17	SPEAKER_01
+ Yeah
+
+0:23:19	SPEAKER_04
+ Or last week anyway, we have to look at that be great if if you're marking those and That it is definitely true that we need to have the time marks and I was assuming that will be inherited because If you have the words and they're roughly aligned in time The Then you know this student and I would be looking at the time Marks coming classifying all the frames inside those as whatever label
+
+0:23:46	SPEAKER_03
+ So it wouldn't be I wasn't planning to label the time marks. I was thinking that would help think you need to engineering side
+
+0:23:52	SPEAKER_04
+ Yeah, that should be linked to the words which are linked to times
+
+0:23:56	SPEAKER_00
+ Well, we're not anytime soon gonna go first alignment so Um, it's not hand-marked then we're not gonna get the times
+
+0:24:04	SPEAKER_04
+ Well, we wouldn't be able to do any work without a fourth lemon anyway So somehow if once he gets going we're gonna have to come up with one Yes, I mean, whatever you would do a very bad one with broadcast news
+
+0:24:17	SPEAKER_01
+ Well again for the close mic stop That might be good enough to come up take this take the switchboard system. Yeah
+
+0:24:25	SPEAKER_00
+ Maybe worth a try it would be interesting to see what we get
+
+0:24:29	SPEAKER_04
+ There's a lot of work you can't do without that. I mean how would you You'd have to go in and measure every starting stop point next real word Yeah, you're interested in anything before it Anyway, so that'd be great
+
+0:24:43	SPEAKER_01
+ Yes, something we should talk about later maybe not just now but should talk about our options as far as the Transcription
+
+0:24:57	SPEAKER_00
+ Yep, if IBM doesn't we have to turn
+
+0:24:59	SPEAKER_04
+ We'll do that later. I can't keep recording
+
+0:25:01	SPEAKER_05
+ Yeah, right
+
+0:25:03	SPEAKER_01
+ I'll talk about later. So Forms forms
+
+0:25:11	SPEAKER_00
+ Next iteration of forms. Oh good So it's two pages per person. Nope one's a digit form one's a speaker form. Oh So one is one time only speaker form and the other is the digits. So don't fill these out This is just a suggestion for what the new forms would look like So he incorporate the changes that we talked about
+
+0:25:40	SPEAKER_03
+ And why did you switch the order of the date and time fields? I'm which one on the new one time comes for us in then date, but I thought oh you mean on the digit form
+
+0:25:50	SPEAKER_00
+ It's rather a low-level question because the user fills out the first three fields and I fill out the rest So it wasn't intentional. It's an interesting observation, but it wasn't intentional Because the date is when you actually read the digits and the time and excuse me the time is when you actually read the digits But I'm filling out the date beforehand if you look at the form in front of you that you're going to fill out when you read the digits You'll see I've already filled in the date, but not the time
+
+0:26:16	SPEAKER_03
+ I always assumed so the time is supposed to be pretty exact because I just been taking the beginning time. Yeah, I mean
+
+0:26:21	SPEAKER_00
+ Yeah, I've noticed that the forms the the reason I put the time in is so the person who's extracting the digits meaning me We'll know where to look in the meeting. Oh Dear, we've been messing up your forms. I know
+
+0:26:35	SPEAKER_01
+ Yep
+
+0:26:38	SPEAKER_03
+ Well, I'm saying we started the meeting 30 I put 230 and I guess everything was going to 30
+
+0:26:42	SPEAKER_00
+ No, it's about 5050 actually it's about one thirty each about one third of them are blank about one third of them are when the digits are read and about one third of them are when the meeting starts
+
+0:26:52	SPEAKER_03
+ So this would be a radical suggestion, but I could put instructions Yeah, either that or maybe you could maybe write down one people Start reading did is not at the meeting. I can't do that. Yeah, he's been setting stuff up and going away
+
+0:27:04	SPEAKER_00
+ I see some reason he doesn't want to sit through every meeting. Yeah, but that is the reason name email and time are where they are And then the others are later on
+
+0:27:12	SPEAKER_02
+ Okay The seat is number
+
+0:27:21	SPEAKER_04
+ For official use only
+
+0:27:25	SPEAKER_03
+ Actually, you could very professional. Well, that does raise another question, which is why is the professional use only line not higher? Why doesn't it come in at the point of date and see? Oh, why is we're feeling in other things? Well because If you're your professional use you're going to already have the date and this what which form are you talking about?
+
+0:27:45	SPEAKER_03
+ Well, I'm comparing the new one with the old one. This is the digit form. Oh, you're talking about the digit form. The digit form doesn't the digit
+
+0:27:50	SPEAKER_00
+ No, that's all right. The digit form doesn't have a four official use only line. It just has a line Which is what you're supposed to read So in the digits form everything above the line is a fill-in form and everything below the line is digits that the user reads
+
+0:28:03	SPEAKER_03
+ Okay All right, I didn't mean to do real discussion. You really wanted to start with this other form. No, either way is fine
+
+0:28:10	SPEAKER_00
+ I just you just started talking about something and I didn't know which form you were for it
+
+0:28:14	SPEAKER_03
+ I was comparing so this is so I was looking at the change first So it's like we started with this now. We've got a new version of it with with the So the digit form we had one already now the the fields are slightly different
+
+0:28:25	SPEAKER_01
+ So the main thing that the person fills out is the name and email and time right
+
+0:28:33	SPEAKER_00
+ You do the rest yep just as as I have for all the others and there's an addition of the native language
+
+0:28:39	SPEAKER_03
+ Which is a very redundant this one has native language and this one does too
+
+0:28:43	SPEAKER_00
+ That's because the one the digit form that has native language is the old form not the new form
+
+0:28:48	SPEAKER_03
+ I'll catch up here I see
+
+0:28:54	SPEAKER_01
+ South Midland North
+
+0:28:56	SPEAKER_00
+ Yeah, this is the problem with these categories. I picked those categories from timmit. I don't know what those are
+
+0:29:02	SPEAKER_04
+ Actually the only way I know is from working with the date of a minute of figure it out. So I was like
+
+0:29:07	SPEAKER_01
+ Kansas and North's midland like like Illinois, but yeah, I mean so what accent are we speaking?
+
+0:29:15	SPEAKER_00
+ Western
+
+0:29:17	SPEAKER_02
+ Hmm, but yeah for me Hollywood if language is spani Spanish The regino is the center of Spain the
+
+0:29:28	SPEAKER_00
+ Yeah, I mean you could call whatever you want for the foreign language we couldn't Classify every single one. So I just left it blank and you can put whatever
+
+0:29:36	SPEAKER_02
+ It's different the span spani language from the north of Spain to south of the west and
+
+0:29:42	SPEAKER_00
+ So I'm not sure what to do about the region field for English variety You know when I wrote I was writing those down I was thinking you know these are great if you're a linguist Actually, I don't know how to I don't know how to categorize
+
+0:29:57	SPEAKER_04
+ This wasn't developed by this region for it if you're a T.I. RMIT
+
+0:30:01	SPEAKER_01
+ Yeah 1985
+
+0:30:03	SPEAKER_00
+ So I guess my only question was if if you were a south midland speaking Region person would you know it is that what you would call yourself?
+
+0:30:13	SPEAKER_01
+ I don't know yeah, you know, I think if you're talking if you're thinking in terms of places as opposed to names different names people have given to different ways of talking I would think North Midwest and South Midwest would be more common saying midland, right? I mean I yeah
+
+0:30:29	SPEAKER_04
+ The usage we can give him like a little map with the regions and they just No, I'm sorry Because it takes less time and it's sort of cute The side that's a little you know, it doesn't have to have all the detail
+
+0:30:45	SPEAKER_01
+ But what if you move five times and
+
+0:30:47	SPEAKER_03
+ Well, I was thinking you could have a great multiple one and then the amount of time so roughly so if you could say you know 10 years
+
+0:30:53	SPEAKER_00
+ Well, five years in the west coast or something. I think we don't want to get that level of detail At this form. I think that's all right if we want to follow up
+
+0:31:02	SPEAKER_04
+ But I mean I as I said, I don't think there's a huge benefit to this region thing it it gets The problem is that for some things it's really clear and usually listen to it You can tell right away if it's in New York or Boston accent but New York and Boston are two Well, I guess they have NYC, but New England has a bunch of very different dialects and and so does
+
+0:31:27	SPEAKER_00
+ Yeah, so I picked these regions because we had talked about timet and those are right from timet
+
+0:31:31	SPEAKER_04
+ These would be satisfying like a speech Research community if we release the database, but as to whether subjects know where they're from. I'm not sure because um, I know that they had to fill this out for switchboard. This is I almost exactly the same as switchboard Regents or very close. Yeah Um, and I don't know how they feel better But if midland Yeah, midlands the one that's Difficult, I guess Also north west so you got Oregon Washington, they're Oregon now which You people don't know if it's western or northern yeah, I certainly don't mean that I'm saying I don't even know what I speak
+
+0:32:11	SPEAKER_00
+ Oh, what is speaking am I speaking western?
+
+0:32:16	SPEAKER_04
+ Oh, what's what's northern I think originally it was north Northwest west
+
+0:32:23	SPEAKER_00
+ But yeah, so this is a real problem. I don't know what to do about it
+
+0:32:26	SPEAKER_03
+ I would not a characterized mine either and and so I would think I would say I've got a mix of California and Ohio
+
+0:32:35	SPEAKER_00
+ I think at the first level for example, we speak the same our our dialects Or whatever you region are the same, but I don't know what it is
+
+0:32:43	SPEAKER_04
+ So you have a like techno speak a techno speak a geek region I mean you can sort of identify You're deepening, but maybe that maybe we could Leave this and see what people see what people choose and then
+
+0:33:02	SPEAKER_03
+ Let them just fill in I mean, I don't know what else we can do. I'm wondering about a question like where are you from mostly?
+
+0:33:09	SPEAKER_01
+ But I'm not even actually though. I really am confused by northern I really am I mean if if you're in New England that's north if you're if you're
+
+0:33:19	SPEAKER_03
+ I'm not sure
+
+0:33:21	SPEAKER_01
+ Scandinavian the Minnesota areas north yeah, that's that's also North Midland right and yeah, of course that's very different from like Michigan and Oregon, Washington are our western but they're also northern I don't hope
+
+0:33:35	SPEAKER_04
+ Well, there are No, probably a few people in there hardly any subjects from Sorry
+
+0:33:46	SPEAKER_01
+ I should put a little map and say put an X really yeah really
+
+0:33:50	SPEAKER_04
+ We could ask where they're from yeah, we went Well, we sort of we
+
+0:33:57	SPEAKER_00
+ People end up saying that it you know, well, I like the idea of asking what variety of English do you speak as opposed to where you're from? Because if we start asking where we're from again, you have to start saying well is that the language you speak or is that just where you're from?
+
+0:34:11	SPEAKER_04
+ I mean it gives us good information. I'm where they're from but that doesn't tell us anything I mean so so I would say Germany
+
+0:34:19	SPEAKER_00
+ You know am I speaking with the German accent? I don't think so I'm thinking where are you from mostly?
+
+0:34:24	SPEAKER_03
+ Okay, yeah, you know then you have some some kind of subjective amount of time factored into it
+
+0:34:29	SPEAKER_00
+ Yeah, I guess I could try to put squeeze in a little map. I mean there's not a lot of room So yeah lost in New York City the South and regular I think of those Northern is the only one that I don't even know what they're meeting
+
+0:34:48	SPEAKER_04
+ So let's make it up. I mean who cares right we can make up our own so we can say Northwest Rest of west or something West
+
+0:34:56	SPEAKER_00
+ Yeah, I don't think the Northwest people speak any differently than my dad
+
+0:35:01	SPEAKER_01
+ You come from the Louisiana purchase
+
+0:35:04	SPEAKER_02
+ Usually here people here and know what is the kind of Lamb English language that that's exactly what we're arguing about we don't know
+
+0:35:14	SPEAKER_04
+ It's harder in America than anywhere
+
+0:35:17	SPEAKER_00
+ It's some of them are very obvious if you if you talk to someone speaking with a southern draw you know Yeah, or Boston or Boston can a
+
+0:35:25	SPEAKER_04
+ Washington and those people if you ask them to self-identify their accent. They know they know very well They know they don't speak the same as the and they're proud of it. Yeah, it's Boston New England Well, depends for you
+
+0:35:40	SPEAKER_00
+ I guess that's the problem with these categories
+
+0:35:43	SPEAKER_03
+ Why can't we just say character right? Characterize your accent if you can and and so I would say I don't know Right, which probably would be a question with this really strong coloration would know and it's actually good main or something
+
+0:35:56	SPEAKER_04
+ I was thinking something along that line because if you don't know Then you know ruling out the fact that you're totally in after something if somebody doesn't know it probably means their accent is a very strong compared to I mean it was
+
+0:36:09	SPEAKER_01
+ That long ago that we had somebody here who was from Texas who was absolutely sure that he didn't have any accent And and had he had a pretty
+
+0:36:17	SPEAKER_00
+ Okay, so I propose take out northern ad don't know
+
+0:36:22	SPEAKER_03
+ Oh, yeah, I would say more or sweepingly. How would you characterize your accent?
+
+0:36:27	SPEAKER_00
+ So you want to change the instructions also not just say region
+
+0:36:31	SPEAKER_03
+ Well, I think this discussion has made me think that's something to consider
+
+0:36:34	SPEAKER_00
+ I don't know if I if I read this form I think they're gonna ask it They're gonna answer the same way if you say what's variety of English do you speak region?
+
+0:36:41	SPEAKER_00
+ As if you say what variety of region region do you speak please characterize your accent?
+
+0:36:45	SPEAKER_03
+ They're gonna answer the same way. Well, I was not sure that I so I was suggesting not having the options just having them
+
+0:36:52	SPEAKER_00
+ Oh, I see what we talked about with that is is so that they would understand the granularity
+
+0:36:57	SPEAKER_03
+ Yes, but if as Liz is suggesting people who have strong accents know That they do
+
+0:37:03	SPEAKER_00
+ I mean that's what I had before and you told me to list the region To listen to
+
+0:37:08	SPEAKER_01
+ Yeah last week last week I was sort of arguing for having a wide open and everybody said No, but then we're really hard to interpret because some people say things and I mean I had it wide open last week
+
+0:37:17	SPEAKER_00
+ And then said Tim it and that's what the other is for no, I mean what if we put in both ways of asking them
+
+0:37:23	SPEAKER_04
+ So one is region and another one is if you had to characterize yourself your accent won't they answer the same thing? Well, they might not answer only one of the questions
+
+0:37:32	SPEAKER_03
+ But if you know they might say other region because they don't know what category to use, but they might have something because it is easier to learn from what they say
+
+0:37:40	SPEAKER_04
+ as to which ones a better way to ask it because I really don't know this is just a small thing but
+
+0:37:47	SPEAKER_01
+ Says variety and then it gives things that have American is one of the choices but then says region but region actually just applies to
+
+0:37:55	SPEAKER_00
+ US right right I mean that's why I put the other in what we thought about okay
+
+0:38:00	SPEAKER_03
+ We just we sort of thought yes, I mean last me my collection was that we felt people would have the less that there's so many types of varieties of these other languages and we are not going to have that many subjects from these different Language groups and that is a huge waste of space
+
+0:38:18	SPEAKER_00
+ Okay, so I mean I the way I had it last time was region was blank. It just said region calling And I think that's the best way to do it because because of the problems we're talking about But what we said last week was no put in a list so I put in a list so should we go back to It's a little smaller while certainly dropping northern I think it's right because none of us know what that is and keeping other
+
+0:38:40	SPEAKER_04
+ And then maybe this north midland we call it north midwest south midwest Yes, I think so yeah, that would help me yeah, unless you're from midland
+
+0:38:53	SPEAKER_01
+ Or midland middle is midwest one word Texas or midland can There's a town
+
+0:39:02	SPEAKER_04
+ But yeah, so Kansas would be south midland right yeah and wouldn't yeah in Colorado Yeah The dropping north so it would be Western it's just one big Of course you have a huge variation in dialects, but that's true
+
+0:39:24	SPEAKER_00
+ So I mean the only one yeah Well, I shouldn't say that I have no clue. I was gonna say the only one that doesn't have a huge variety is New York City But I have no idea whether it does or not. It does seem I mean
+
+0:39:32	SPEAKER_03
+ I would think that these categories would be more would be easier for an analyst to put in rather than the subject himself
+
+0:39:39	SPEAKER_00
+ I think that that was what happened with timid
+
+0:39:42	SPEAKER_01
+ Was that it was a new York west of west of New York City and Pennsylvania and That's new in No, it's not
+
+0:39:56	SPEAKER_03
+ I think one of the midlands no no pencil vanes. It goes under other definitely under other
+
+0:40:02	SPEAKER_04
+ Well, you know Pennsylvania has a pretty strong diet
+
+0:40:04	SPEAKER_01
+ Yeah, Pennsylvania is not new England and New Jersey is not new England and Maryland is not okay
+
+0:40:09	SPEAKER_00
+ So none of those are the sound other suggestion Rather than have the circle fill in forms say region open pern eg southern comma western close pern colon
+
+0:40:20	SPEAKER_04
+ Okay, that's good
+
+0:40:22	SPEAKER_01
+ I like that. That's just to see what we hear on the subject Tired of this that we were green No, I think you like it
+
+0:40:30	SPEAKER_00
+ Actually, maybe we do one non-English one as well Southern Cockney Yeah, is that a real accent? Sure. Yeah, how do you spell it?
+
+0:40:40	SPEAKER_00
+ Cockney
+
+0:40:41	SPEAKER_01
+ Any why? Yeah, I live her
+
+0:40:45	SPEAKER_04
+ River Pudley and yeah, actually Liverpool. Yeah, it's
+
+0:40:49	SPEAKER_00
+ Okay, we'll do it that way. Actually, I like that a lot Because that gets at both of the things we were trying to do the granularity and the person can just self-assess and we don't have to argue about what these regions are
+
+0:41:00	SPEAKER_03
+ And see on the subjects now I have one suggestion on the next section So you have native language you have a region and then you have time spent in English between country Now I wonder if it might be useful to have another open field saying which one parenthesis s closed parenthesis Because if they spent time in and Britain and America Yes, it doesn't have to be so at all exact just in the same open field Yep, just which one I think it's fine with an s which one optional s
+
+0:41:35	SPEAKER_01
+ Okay We uh Yeah, yeah, okay Um any any other
+
+0:41:45	SPEAKER_00
+ Open mic topics I should go right to the digits um, did you guys get my email on the multi-trans? The okay, isn't that wonderful? Yeah, so I have a version also which actually displays all the channels
+
+0:41:58	SPEAKER_03
+ But it's hideously slow so you this is dance patches
+
+0:42:02	SPEAKER_00
+ What the ones I applied that you can actually do are dance because it doesn't slow it down Just uses a lot of memory Slow does that mean to you know the one that's installed is fine. It's not slow at all I wrote another version which instead of having the one pain with the one view It has multiple paints with the views But the problem with it is the drawing of those waveforms is so slow that every time you do anything it just crawls It's really bad As you play as you move as you scroll just about anything and it was so slow it was not usable And this will be so that's why I didn't install it in the pursuit
+
+0:42:40	SPEAKER_03
+ Because in terms of like disentangling overlaps and things
+
+0:42:43	SPEAKER_00
+ So I think the one that Dan has is usable enough It doesn't display the others it displays just the mixed signal But you can listen to any of them
+
+0:42:52	SPEAKER_03
+ He also has version control, which is not a nice
+
+0:42:55	SPEAKER_00
+ Hey, so you know he suggested that but he didn't it's not installed
+
+0:42:58	SPEAKER_04
+ I thought it was in those patches. No, okay So is there any hope or actually displaying
+
+0:43:03	SPEAKER_00
+ Um, not if we're gonna use tickle tk At least not if we're gonna use snack and you would have to do something ourselves
+
+0:43:12	SPEAKER_03
+ Well, or use the one that crawls
+
+0:43:14	SPEAKER_04
+ Well, I probably would be trying to use the Whatever there
+
+0:43:20	SPEAKER_00
+ Well, we see how Dan's works and if it if we really need the display
+
+0:43:25	SPEAKER_04
+ I mean, I'm just wondering if we can display things other than the waveforms So suppose we have a feature feature stream and it's just you know, you know, dimensional feature varying in time And we want to plot that instead of the whole waveform that might be faster right
+
+0:43:41	SPEAKER_00
+ We could do that but that would mean changing the code I mean, this isn't a program we wrote. This is a program that we got from someone else and we've done patches on
+
+0:43:50	SPEAKER_04
+ Well, I'll talk to you about it. See, but it's definitely great to have that one
+
+0:43:54	SPEAKER_01
+ If there was some is there some way to have someone write patches in something faster and link it in or something or not easily
+
+0:44:03	SPEAKER_00
+ Yes, we could do that you could you can write widgets and see yeah and try to do it that way But I just don't think it let's try it with Dan's and if that isn't enough We can do it otherwise. I think it is because when I was playing with it the mix signal has it all in there And so it's really it's not too bad to find places in the in the stream Where things are happening and so I don't think it'll be bad also case that that
+
+0:44:26	SPEAKER_03
+ doesn't multi wave thing is proposed to the so Dan proposed it to the transcriber central people and it's likely that So and they responded favorably because it will be incorporated in the future version They said that the only reason they hadn't had the multi the parallel Stream one before it was simply that they hadn't had time to do it and So it's likely that this this may be energy to the child this central they may well not have had much demand for it
+
+0:44:53	SPEAKER_04
+ Well, that's that's true. Yeah, so you mean they could they could do it and it would be
+
+0:44:58	SPEAKER_03
+ Oh, no, I mean that is that that his so this one that we now have Does have the status of potentially being incorporated likely being incorporated in central code now that now if we develop further
+
+0:45:12	SPEAKER_00
+ Then I don't I mean I think if one of us sat down and coded it so that it could be displayed fast enough I'm sure they would be quite willing to incorporate it, but it's not a trivial task. Yeah
+
+0:45:27	SPEAKER_03
+ I just like the idea of it being something that's you know tied back into the original so that people can However, I also understand that you can have widgets that are very useful for the purpose
+
+0:45:42	SPEAKER_00
+ Anyway, show you digits
+
+0:45:44	SPEAKER_01
+ Yeah, let's do digits And then we'll turn off the mics and then I have one other thing to discuss
+
+0:45:54	SPEAKER_04
+ Like you I go first or I can't stay for the discussion Okay, well should we you want to go do digits or do you want to just skip digits? No, I can do digits then But I don't want to bud in all right you go ahead But if there's something on the rest of the I'll be around I So I Or we can talk about it. Why don't you read the digits? Yeah, right? Oh, this is the new one Yeah, all right This is transcript 2751 2770 92544 04016 05907 17908382 3407 3 0 64377 689 8495 0 0 810634 42559 6707 80533
+
+0:47:08	SPEAKER_02
+ transcript 2711 that's 273 75768 7000 97444 01019 0017 22934 1745 701 566 429 506 780 756 159 044 05 228 102 718
+
+0:47:56	SPEAKER_00
+ Transcript 2651 2670 4 71365 8308 96056 0 1 2 0 2 4382 52077 676 22137 255 3571538 48110
+
+0:48:30	SPEAKER_01
+ transcript 2671-2690 5 6 70830 922 0360704 06 1 2710124 3 40672 6478 74830 9 0 10899 319 42775 5752
+
+0:49:11	SPEAKER_03
+ transcript 2691-2710 6978 9 0 0268224 1408 2333 3 4924506 5 606 84134 934 086
+
+0:49:39	None
+ 0 1 2 3 5271848 6662071 8
+
+0:49:50	None
+ 8 8 8 8
+

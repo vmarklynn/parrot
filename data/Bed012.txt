@@ -1,0 +1,1887 @@
+0:00:00	None
+ Hello.
+
+0:00:07	SPEAKER_01
+ I just put it to the back and to the front.
+
+0:00:19	SPEAKER_01
+ It is, but it doesn't sit on the seat. I just put it to the back and to the front.
+
+0:00:38	SPEAKER_01
+ Is it picking me up? I should be five.
+
+0:00:51	SPEAKER_01
+ Hello. Test in.
+
+0:01:04	SPEAKER_01
+ Tested enough? Oh, I'm a testing machine.
+
+0:01:11	SPEAKER_02
+ I guess this is more or less known to get you up to day, Jono.
+
+0:01:29	SPEAKER_02
+ This is what is a meeting for me.
+
+0:01:37	SPEAKER_01
+ Did you add more stuff to it? Why? I don't know.
+
+0:01:42	SPEAKER_01
+ There were notes in the middle.
+
+0:01:47	SPEAKER_02
+ This is, so we thought that we can write up an element for each of the situation.
+
+0:02:08	SPEAKER_02
+ We observed it in the base. What is the situation like at the entity that is mentioned?
+
+0:02:23	SPEAKER_02
+ It is a stable. It is a forth going all the way through parking, location hotel, car, restroom, riots, fair strikes or disasters.
+
+0:02:37	SPEAKER_01
+ This is a situation where all the things can be happening right now.
+
+0:02:41	SPEAKER_01
+ Or what is the situation type?
+
+0:02:45	SPEAKER_02
+ That is just specifying the input for the...
+
+0:02:53	SPEAKER_01
+ Why are you specifying an XML?
+
+0:02:56	SPEAKER_02
+ It forces us to be specific about the values here.
+
+0:03:03	SPEAKER_02
+ This is what the input is going to be.
+
+0:03:08	SPEAKER_01
+ This is a schema.
+
+0:03:10	SPEAKER_01
+ Jono, this is what JavaBase takes.
+
+0:03:15	SPEAKER_02
+ We are sure going to interface to get an XML document from somewhere.
+
+0:03:22	SPEAKER_02
+ That XML document will say we were able to observe that the element of the location that the car is near.
+
+0:03:36	SPEAKER_01
+ This is a situation context. Is that what the situation is for?
+
+0:03:41	SPEAKER_02
+ This is just an XML document which defines a set of possible permissible XML structures which we view as input into the basenet.
+
+0:03:58	SPEAKER_01
+ We can possibly run one of them transformations to put in the JavaBase or whatever it wants.
+
+0:04:08	SPEAKER_02
+ Are you talking about the structure?
+
+0:04:12	SPEAKER_02
+ When you observe a node...
+
+0:04:15	SPEAKER_01
+ When you say the input to the JavaBase, it takes a certain format.
+
+0:04:19	SPEAKER_01
+ Which I don't think is this. Although I don't know.
+
+0:04:23	SPEAKER_02
+ No, it is certainly not this.
+
+0:04:25	SPEAKER_01
+ You can just run a XML.
+
+0:04:28	SPEAKER_01
+ Yeah, you can run it into the JavaBase format.
+
+0:04:32	SPEAKER_02
+ That's no problem.
+
+0:04:36	SPEAKER_02
+ I even think that once you have this running as a module, what you want is you want to say, give me the posterior probabilities of the go there, note when this is happening.
+
+0:04:55	SPEAKER_02
+ The person said this, the car is there, it's raining and this is happening.
+
+0:04:59	SPEAKER_02
+ With this you can specify what's happening in the situation and what's happening with the user.
+
+0:05:05	SPEAKER_02
+ After we've done through the situation, we get the user vector.
+
+0:05:12	SPEAKER_01
+ So this is...
+
+0:05:16	SPEAKER_01
+ So this is just a specification of all the possible inputs.
+
+0:05:19	SPEAKER_02
+ And all the possible outputs too.
+
+0:05:24	SPEAKER_02
+ So we have, for example, the go there decision node, which has two elements going there, and it's posterior probability and not going there, and it's posterior probability.
+
+0:05:42	SPEAKER_02
+ Because the output is always going to be all the decision notes and all the...
+
+0:05:47	SPEAKER_02
+ all the posterior probabilities for all the values.
+
+0:05:51	SPEAKER_01
+ And then we just look at the struct that we want to look at in terms of...
+
+0:05:55	SPEAKER_01
+ we're only asking about one of the...
+
+0:05:58	SPEAKER_01
+ So like, if I'm just interested in the going there node, I would just pull that information out of the struct that gets returned, that Java Bayes would output.
+
+0:06:10	SPEAKER_02
+ Pretty much yes, but I think it's a little bit more complex.
+
+0:06:17	SPEAKER_02
+ If I understand correctly, it always gives you all the posterior probabilities for all the values of all the decision notes.
+
+0:06:25	SPEAKER_02
+ So when we input something, we always get the posterior probabilities for all of these.
+
+0:06:35	SPEAKER_02
+ So there's no way of telling it not to tell us about the eva values.
+
+0:06:41	SPEAKER_01
+ Yeah, okay, that's...
+
+0:06:43	SPEAKER_02
+ Yeah, you're right.
+
+0:06:44	SPEAKER_02
+ So we get this whole list of things, and the question is, what to do with it?
+
+0:06:54	SPEAKER_02
+ What to hand on?
+
+0:06:56	SPEAKER_02
+ How to interpret it, in a sense?
+
+0:06:59	SPEAKER_02
+ So you said, if I'm only interested in whether he wants to go there or not, then I'd just look at that node...
+
+0:07:05	SPEAKER_02
+ Look at that struct in the output, right?
+
+0:07:08	SPEAKER_02
+ Yeah.
+
+0:07:09	SPEAKER_02
+ Look at that struct in the output, even though I wouldn't call it a struct, but...
+
+0:07:14	SPEAKER_01
+ Well, it's an XML structure that's being returned, right?
+
+0:07:17	SPEAKER_02
+ So every part of the structure is a struct?
+
+0:07:21	SPEAKER_01
+ Yeah, I just abbreviated it to struct in my head, starting going with that.
+
+0:07:28	SPEAKER_02
+ That element or struct?
+
+0:07:30	SPEAKER_02
+ Not a C struct.
+
+0:07:31	SPEAKER_01
+ That's not what I was talking about.
+
+0:07:32	SPEAKER_02
+ Yeah.
+
+0:07:33	SPEAKER_02
+ Okay.
+
+0:07:34	SPEAKER_02
+ And the reason is, I think it's a little bit more complex, so we can even think about it as an interesting problem in and of itself, is...
+
+0:07:51	SPEAKER_02
+ So the...
+
+0:07:55	SPEAKER_02
+ Let's look at an example.
+
+0:07:58	SPEAKER_01
+ Well, we're going to just take the structure that's outputted, and then run another transformation on it that would just dump the one that we wanted out.
+
+0:08:09	SPEAKER_02
+ Yeah, we'd need to prune, right?
+
+0:08:13	SPEAKER_02
+ Throw things away.
+
+0:08:15	SPEAKER_01
+ Well, actually, you don't even need to do that with XML.
+
+0:08:17	SPEAKER_01
+ Can't you just look at one specific...
+
+0:08:18	SPEAKER_01
+ Yeah, exactly.
+
+0:08:19	SPEAKER_02
+ The...
+
+0:08:20	SPEAKER_02
+ Circus allows you to say, just give me the value of that and that, and that.
+
+0:08:26	SPEAKER_02
+ But we don't really know what we're interested in before we look at the complete, at the overall result.
+
+0:08:33	SPEAKER_02
+ So the person said, um...
+
+0:08:37	SPEAKER_02
+ Where is x?
+
+0:08:38	SPEAKER_02
+ And so, we want to know, um, is...
+
+0:08:45	SPEAKER_02
+ does he want info on this, or know the location, or does he want to go there?
+
+0:08:55	SPEAKER_02
+ Let's assume this is our question.
+
+0:08:57	SPEAKER_02
+ Sure.
+
+0:08:59	SPEAKER_02
+ So...
+
+0:09:02	SPEAKER_02
+ Um...
+
+0:09:06	SPEAKER_02
+ Let's do this in parallel.
+
+0:09:15	None
+ So we get...
+
+0:09:24	SPEAKER_02
+ So we get...
+
+0:09:45	SPEAKER_02
+ Okay.
+
+0:10:02	SPEAKER_02
+ Let's assume this is the output.
+
+0:10:19	SPEAKER_02
+ So we should be able to conclude from that that, I mean, it's always going to give us a value of how likely we think it is that he wants to go there and does want to go there.
+
+0:10:34	SPEAKER_02
+ Or how likely it is that he wants to get information, but maybe should just reverse this to make it a little bit more delicate.
+
+0:10:44	SPEAKER_02
+ So does he want to know where it is, or does he want to go there?
+
+0:10:53	SPEAKER_01
+ He wants to know where it is.
+
+0:10:59	SPEAKER_02
+ Right.
+
+0:11:01	SPEAKER_02
+ I tend to agree.
+
+0:11:02	SPEAKER_02
+ And if it's...
+
+0:11:03	SPEAKER_02
+ Well, I mean, you mean...
+
+0:11:05	SPEAKER_02
+ If there's sort of a clear winner here, and this is pretty...
+
+0:11:14	SPEAKER_02
+ indifferent, then we might conclude that he actually wants to just know where...
+
+0:11:28	SPEAKER_02
+ He does want to go there.
+
+0:11:31	SPEAKER_01
+ And I curiously, is there a reason why we wouldn't combine these three nodes into one smaller subnet that would just basically be the question for...
+
+0:11:46	SPEAKER_01
+ We have where as x is the question, right?
+
+0:11:48	SPEAKER_01
+ That would just be info on a location based upon...
+
+0:11:52	SPEAKER_02
+ Or go there.
+
+0:11:53	SPEAKER_02
+ A lot of people ask that if they actually just want to go there.
+
+0:11:57	SPEAKER_02
+ People come up to you on campus and say, well, it's the library.
+
+0:12:00	SPEAKER_02
+ You're going to say, go down that way.
+
+0:12:02	SPEAKER_02
+ You're not going to say it's 500 yards away from you, or it's north of you, or...
+
+0:12:07	SPEAKER_01
+ Well, I mean, so you just have three decisions for the final node that would link these three nodes in the...
+
+0:12:14	SPEAKER_01
+ in the...
+
+0:12:15	SPEAKER_01
+ Not together.
+
+0:12:18	SPEAKER_02
+ I don't know what to understand, but you mean...
+
+0:12:20	SPEAKER_02
+ But again, in this given this input, we also, in some situations, may want to postulate an opinion with a person who wants to go there now, the nicest way, use a cab, wants to know where it is because he wants something fixed there because he wants to visit it, or whatever.
+
+0:12:44	SPEAKER_02
+ So all I'm saying is, whatever our input is, we're always going to get the full output.
+
+0:12:52	SPEAKER_02
+ And some things will always be sort of...
+
+0:12:59	SPEAKER_02
+ too not significant enough.
+
+0:13:02	SPEAKER_01
+ Or it'll be tight.
+
+0:13:03	SPEAKER_01
+ It'll be hard inside.
+
+0:13:04	SPEAKER_01
+ But I guess the thing is...
+
+0:13:07	SPEAKER_01
+ This is another smaller case of reasoning in the case of uncertainty, which makes me think, Bayesnet should be the way to solve these things.
+
+0:13:15	SPEAKER_01
+ So if you had, for every construction, right?
+
+0:13:17	SPEAKER_01
+ Oh.
+
+0:13:18	SPEAKER_01
+ You could say, well, here's the where is construction.
+
+0:13:20	SPEAKER_01
+ And for the where is construction, we know we need to look at this node that merges these three things together as for to decide the response.
+
+0:13:27	SPEAKER_01
+ And since we have a finite number of constructions that we can deal with, we can have a finite number of nodes.
+
+0:13:33	SPEAKER_02
+ Okay.
+
+0:13:34	SPEAKER_01
+ So if we had to deal with arbitrary language, it wouldn't make any sense to do that because there'd be no way to generate the nodes for every possible sentence.
+
+0:13:41	SPEAKER_01
+ But since we can only deal with a finite amount of stuff.
+
+0:13:44	SPEAKER_02
+ So basically, the idea is to feed the output of that, believe in it, into another belief net.
+
+0:13:50	SPEAKER_01
+ Yeah. So basically, take these three things and then put them into another belief net.
+
+0:13:53	SPEAKER_02
+ But why only those three?
+
+0:13:55	SPEAKER_02
+ Well, I mean, for the where is question.
+
+0:13:57	SPEAKER_01
+ So we'd have a node for the where is question.
+
+0:14:00	SPEAKER_02
+ Yeah. But we believe that all the decision nodes can be relevant for the where is.
+
+0:14:07	SPEAKER_02
+ And how do I get to, or do I tell you something about?
+
+0:14:12	None
+ You can come in if you want.
+
+0:14:16	SPEAKER_01
+ Is Putin online here?
+
+0:14:18	None
+ Yes, it is allowed.
+
+0:14:19	SPEAKER_01
+ Is that actually you're not wearing your headphones?
+
+0:14:23	None
+ All right, just say I'll be back.
+
+0:14:29	SPEAKER_01
+ Well, I see, I don't know if this is a good idea or not.
+
+0:14:32	SPEAKER_01
+ I'm just throwing it out.
+
+0:14:34	SPEAKER_01
+ But it seems like we could have, I mean, we could put all of the information that could possibly be relevant into the where is node answer.
+
+0:14:43	SPEAKER_01
+ Node thing stuff.
+
+0:14:47	SPEAKER_01
+ And, okay.
+
+0:14:51	SPEAKER_02
+ I mean, let's not forget we're going to get some very strong input from these, from these discourse things, right?
+
+0:15:02	SPEAKER_02
+ So tell me the location of X.
+
+0:15:06	SPEAKER_02
+ Or where is X located?
+
+0:15:10	SPEAKER_01
+ Wait.
+
+0:15:11	SPEAKER_01
+ Yeah, I know, but the base net would be able to, the way that's on the, on the nodes in the base net would be able to deal with that, wouldn't it?
+
+0:15:17	SPEAKER_01
+ Here's a, oh, I'll wait until you're plugged in.
+
+0:15:22	SPEAKER_01
+ Oh, don't sit there. Sit here.
+
+0:15:24	SPEAKER_01
+ You know how you don't like that one.
+
+0:15:26	SPEAKER_00
+ It's okay.
+
+0:15:27	SPEAKER_01
+ That's the weird one.
+
+0:15:29	SPEAKER_01
+ That's someone that's painful.
+
+0:15:30	SPEAKER_01
+ It hurts.
+
+0:15:31	SPEAKER_01
+ You're so bad.
+
+0:15:35	SPEAKER_01
+ I'm happy that they're recording that.
+
+0:15:38	SPEAKER_01
+ That headphone.
+
+0:15:39	SPEAKER_01
+ The headphone that you have to put on backwards with the little thing, and a little, a little phone block on it.
+
+0:15:45	SPEAKER_01
+ It's a painful, painful microphone.
+
+0:15:49	SPEAKER_02
+ I think it's called the crown.
+
+0:15:52	SPEAKER_02
+ The crown.
+
+0:15:53	SPEAKER_02
+ Yeah.
+
+0:15:54	SPEAKER_02
+ It was just the Sony.
+
+0:15:56	SPEAKER_00
+ The crown?
+
+0:15:57	SPEAKER_00
+ Is that the actual name?
+
+0:15:59	SPEAKER_00
+ Mm-hmm.
+
+0:16:00	SPEAKER_01
+ The manufacturer.
+
+0:16:02	SPEAKER_01
+ I don't see a manufacturer on it.
+
+0:16:04	SPEAKER_01
+ Oh, here it is.
+
+0:16:05	SPEAKER_01
+ This thingy.
+
+0:16:06	SPEAKER_01
+ Yeah, it's the crown.
+
+0:16:09	SPEAKER_01
+ The crown of pain.
+
+0:16:11	SPEAKER_01
+ You're on that?
+
+0:16:13	SPEAKER_01
+ Are you, are you my, is your mic on?
+
+0:16:15	SPEAKER_01
+ Okay.
+
+0:16:16	SPEAKER_01
+ So you've been working with these guys, you know what's going on.
+
+0:16:19	SPEAKER_01
+ Yes, I have.
+
+0:16:20	SPEAKER_01
+ I do.
+
+0:16:21	SPEAKER_00
+ No, I do.
+
+0:16:22	SPEAKER_00
+ It's a lot.
+
+0:16:23	SPEAKER_00
+ So where are we?
+
+0:16:25	SPEAKER_02
+ We're discussing this.
+
+0:16:26	SPEAKER_00
+ I don't think you can handle French.
+
+0:16:28	SPEAKER_02
+ So, we have something coming in.
+
+0:16:34	SPEAKER_02
+ Person says where is X, and we get a certain, we have a situation vector, and a user vector, and everything is fine.
+
+0:16:41	SPEAKER_02
+ And, and, and, and, and, or.
+
+0:16:43	SPEAKER_01
+ Did you just take the microphone actually in the T?
+
+0:16:46	SPEAKER_01
+ You know what?
+
+0:16:48	SPEAKER_00
+ And, I'm not drinking tea, what are you talking about?
+
+0:16:51	SPEAKER_02
+ Oh, yeah, sorry.
+
+0:16:53	SPEAKER_02
+ Let's just assume our base net just has three decision notes for the time being.
+
+0:16:57	SPEAKER_02
+ These three, he wants to know something about it.
+
+0:16:59	SPEAKER_02
+ He wants to know where it is, he wants to go there.
+
+0:17:02	SPEAKER_01
+ In terms of these would be how we would answer the question where is, right?
+
+0:17:06	SPEAKER_01
+ We, this is, this is what he's, it seemed like he explained it to me earlier.
+
+0:17:11	SPEAKER_01
+ We were, we want to know how to answer the question where is X.
+
+0:17:14	SPEAKER_02
+ No, I can, I can do the timing note in here too, and say okay.
+
+0:17:17	SPEAKER_01
+ Well, yeah, but in this, let's just deal with the simple case of, we're not worrying about timing or anything.
+
+0:17:21	SPEAKER_01
+ We just want to know how we should answer where is X.
+
+0:17:23	SPEAKER_01
+ Okay.
+
+0:17:24	SPEAKER_02
+ And, um, okay, and go there has two values, right?
+
+0:17:32	SPEAKER_02
+ Go there and not go there.
+
+0:17:34	SPEAKER_02
+ Let's assume those are the posterior probabilities of that.
+
+0:17:37	SPEAKER_02
+ InfoOn has two false and location.
+
+0:17:39	SPEAKER_02
+ So he wants to know something about it, and he wants to know something, he wants to know where it is, has these values.
+
+0:17:47	SPEAKER_02
+ And, um, Oh, I see why we can't do that.
+
+0:17:51	SPEAKER_02
+ And, um, in this case, we would probably all agree that he wants to go there.
+
+0:17:57	SPEAKER_02
+ I'll believe that things he wants to go there, right?
+
+0:18:00	SPEAKER_02
+ In the, whatever, if we have something like this here, and this, like that, and maybe here also some,
+
+0:18:14	SPEAKER_00
+ should probably make them happen. Yeah.
+
+0:18:18	SPEAKER_02
+ Something like that.
+
+0:18:21	SPEAKER_02
+ Then we would guess, aha, he, our belief net has stronger beliefs that he wants to know where it is, then actually wants to go there.
+
+0:18:30	SPEAKER_02
+ Right?
+
+0:18:31	SPEAKER_01
+ The, the, this is assumed though that they're evenly weighted.
+
+0:18:34	SPEAKER_01
+ Like, I guess they are evenly weighted.
+
+0:18:38	SPEAKER_00
+ The different decision nodes, you mean?
+
+0:18:40	SPEAKER_01
+ Yeah, they go there, the info on the location.
+
+0:18:42	SPEAKER_00
+ Well, yeah, this is making the assumption.
+
+0:18:45	SPEAKER_00
+ Yes.
+
+0:18:47	SPEAKER_02
+ I mean, by differently weighted, they don't fit into anything really anymore.
+
+0:18:50	SPEAKER_00
+ Or I mean, why do we, if we trusted the go there node more, much more than we trusted the other ones, then we would conclude even in the situation that he wanted to go there.
+
+0:18:59	SPEAKER_00
+ So in that sense, we weighed them equally.
+
+0:19:02	SPEAKER_00
+ Okay.
+
+0:19:03	SPEAKER_00
+ Makes sense.
+
+0:19:06	SPEAKER_01
+ So the, but I guess the, the question that I was at, or wondering, or maybe Robert was proposing to me, is how do we make the decision on as to which one to listen to?
+
+0:19:16	SPEAKER_00
+ Yeah, so the final decision is the combination of these three.
+
+0:19:20	SPEAKER_00
+ So again, it's, it's some kind of a, base net.
+
+0:19:23	SPEAKER_01
+ Yeah, actually.
+
+0:19:25	SPEAKER_01
+ Okay, so then the question, is that my question is to you then would be?
+
+0:19:30	SPEAKER_01
+ So the only reason we can make all these smaller base nets, because we know we can only deal with a finite set of constructions.
+
+0:19:36	SPEAKER_01
+ Because if we're just taking arbitrary language, then we couldn't have a node for every possible question, you know?
+
+0:19:42	SPEAKER_00
+ A decision on a February possible question, you mean?
+
+0:19:47	SPEAKER_01
+ Well, in the case of, yeah, in the case of any piece of language, we wouldn't be able to answer it with this system, if we just, because we wouldn't have the correct node, basically what you're proposing is a, where is node, right?
+
+0:20:00	SPEAKER_01
+ Yeah.
+
+0:20:01	SPEAKER_01
+ And if we, and if someone says, you know, something in Mandarin, yeah, to the system, we would know which node to look at to answer that question, right?
+
+0:20:09	SPEAKER_01
+ Yeah.
+
+0:20:10	SPEAKER_01
+ So, but if we have a finite, what?
+
+0:20:12	SPEAKER_02
+ I don't see a point.
+
+0:20:14	SPEAKER_02
+ What, what, what I am thinking of what we're about to propose here is, we're always going to get the whole list of values in their parts here, probabilities.
+
+0:20:25	SPEAKER_02
+ And now we need an expert system, or a belief net, or something that interprets that.
+
+0:20:30	SPEAKER_02
+ That looks at all the values and says, the winner is, timing now go there.
+
+0:20:38	SPEAKER_02
+ Go there timing now.
+
+0:20:40	SPEAKER_02
+ Or the winner is info on function off.
+
+0:20:44	SPEAKER_02
+ So, you want to know something about it and what it does.
+
+0:20:48	SPEAKER_02
+ Right?
+
+0:20:51	SPEAKER_02
+ Regardless of, yeah, but the input,
+
+0:20:53	SPEAKER_01
+ but how does the expert, how does the expert system know which one to declare the winner, if it doesn't know what question it is, and how that question should be answered?
+
+0:21:05	SPEAKER_02
+ Based on what the question was, so what the discourse, the autonomy, the situation, and the user model gave us, we came up with these values for these decisions.
+
+0:21:14	SPEAKER_01
+ Yeah, I know, but how do we wait what we get out?
+
+0:21:19	SPEAKER_01
+ As which ones are important?
+
+0:21:26	SPEAKER_01
+ So, if we were to do it with a base net, we'd have to have a node for every question that we knew how to deal with, that would take all of the inputs and wait them appropriately for that question.
+
+0:21:38	SPEAKER_01
+ Does that make sense?
+
+0:21:40	SPEAKER_01
+ Yeah, it may.
+
+0:21:42	SPEAKER_00
+ I mean, are you seeing that what happens if you try to scale this up to a situation where we're just dealing with arbitrary language?
+
+0:21:47	SPEAKER_00
+ Is that your point?
+
+0:21:49	SPEAKER_01
+ Well, no, I guess my question is, is the reason that we can make a node, or okay, so let me see if I'm confused.
+
+0:21:55	SPEAKER_01
+ Are we going to make a node for every question?
+
+0:21:57	SPEAKER_01
+ Does that make sense or not?
+
+0:21:59	SPEAKER_01
+ Every question?
+
+0:22:02	SPEAKER_00
+ Every construction.
+
+0:22:05	SPEAKER_00
+ I don't necessarily, I would think.
+
+0:22:08	SPEAKER_00
+ I mean, it's not based on constructions, it's based on things like, there's going to be a node for code, there are not, and there's going to be a node for attribute approach.
+
+0:22:16	SPEAKER_01
+ So someone asked a question.
+
+0:22:18	SPEAKER_01
+ How do we decide how to answer it?
+
+0:22:23	SPEAKER_02
+ Well, look at, look, face yourself with this question, you get this, this is what you get.
+
+0:22:32	SPEAKER_02
+ And now you have to make a decision, what do we think?
+
+0:22:35	SPEAKER_02
+ What does this tell us?
+
+0:22:37	SPEAKER_02
+ I'm not knowing what was asked and what happened, and whether the person was a tourist or a local, because all of these factors have presumably already gone into making these posterior probabilities.
+
+0:22:50	SPEAKER_02
+ Yeah.
+
+0:22:52	SPEAKER_02
+ What we need is a just a mechanism that says,
+
+0:22:54	SPEAKER_01
+ there is, I just don't think a winner take all type of thing is the,
+
+0:23:01	SPEAKER_00
+ I mean, in general, like, we won't just have those three, right? We'll have like many, many nodes.
+
+0:23:06	SPEAKER_00
+ So we have to like, so that it's no longer possible to just look at the nodes themselves and figure out what the person is trying to say.
+
+0:23:13	SPEAKER_02
+ Because there are interdependencies, right?
+
+0:23:17	SPEAKER_02
+ No, so if, for example, the go there, posterior probability is so high, if it has a risk of certain height, then all of this becomes relevant.
+
+0:23:30	SPEAKER_02
+ So even if the function or the history of something is scoring pretty good on the true node, true value.
+
+0:23:39	SPEAKER_01
+ I don't know about that, because I would suggest that, I mean, do they have to be mutual?
+
+0:23:44	SPEAKER_01
+ Do they have to be mutual exclusive?
+
+0:23:47	SPEAKER_02
+ I think to some extent, they are, or maybe they're not.
+
+0:23:54	SPEAKER_01
+ Because the way you describe what I meant, they weren't mutually exclusive to me.
+
+0:24:00	SPEAKER_02
+ Well, if he doesn't want to go there, even if the enter posterior probability, so go there is no, enter is high, and info on this.
+
+0:24:12	SPEAKER_01
+ Wait, I just added the other three that you had in the, those three nodes, they didn't seem like they were mutually exclusive.
+
+0:24:17	SPEAKER_01
+ No, there's no.
+
+0:24:19	SPEAKER_01
+ So yeah, but some things would drop out, and some things would still be important.
+
+0:24:31	SPEAKER_01
+ But I guess what's confusing me is if we have a base net to deal with, another base net to deal with this stuff, yeah, is the only reason, okay, so I guess if we have another base net to deal with this stuff, the only reason we can design it is because we know what each question is asking.
+
+0:24:52	SPEAKER_00
+ Yeah, that's true.
+
+0:24:56	SPEAKER_01
+ And then so with the only reason, the way we would know what question is asking is based upon, oh, so let's say I had a construction parser, and I would know what each construction, the communicative intent of the construction was, and so then I would know how to wait the nodes appropriately in response.
+
+0:25:11	SPEAKER_01
+ So no matter what they said, if I could map it onto a where is construction, I could say, ah, well, the intent here was where is, and I could look at those.
+
+0:25:20	SPEAKER_00
+ Yeah, yeah, I mean, sure.
+
+0:25:25	SPEAKER_00
+ You do need to know, do you need to have that kind of animation?
+
+0:25:30	SPEAKER_02
+ Yeah, I'm also agreeing that a simple, take the ones where we have a clear winner, forget about the ones where it's all sort of middle ground, prune those out and just hand over the ones where we have a winner.
+
+0:25:47	SPEAKER_02
+ Because that would be the easiest way.
+
+0:25:49	SPEAKER_02
+ We just compose as an output on X-Route-Best message that says, go there, now enter historical information, and not care whether that's consistent with anything.
+
+0:26:05	SPEAKER_02
+ Right? In this case, we say, definitely doesn't want to go there.
+
+0:26:09	SPEAKER_02
+ He just wants to know where it is, or let's call this, let's look at, he wants to know something about the history of, so he said, tell me something about the history of that.
+
+0:26:21	SPEAKER_02
+ Now, the, but for some reason, the endpoint approach gets a really high score, too.
+
+0:26:29	SPEAKER_02
+ We can't expect this to be sort of open, 3333, open, 3333, open, 3333, right?
+
+0:26:38	SPEAKER_02
+ Somebody needs to sap that, or no, there needs to be some knowledge that...
+
+0:26:46	SPEAKER_01
+ Well, yeah, but the BayesNet that would merge, and realize I had my hand in between my mouth and my, my, my, my, my, my, my, my, my, my, my, my, so then the BayesNet that would merge, there, that would make the decision between go there, info on location, would have a node to tell you, which one of those three you wanted, and based upon that node, then you would look at the other stuff.
+
+0:27:09	SPEAKER_01
+ I mean, does that make sense?
+
+0:27:12	SPEAKER_02
+ Sort of one of those, that's, it's more like a decision tree, if you want. You first look at the real ones, and then...
+
+0:27:20	SPEAKER_01
+ Yeah, I didn't intend to say that every possible, okay, there was confusion there, I didn't intend to say every possible thing should go into the BayesNet because some of the things aren't relevant in the BayesNet for a specific question, like the endpoint is not necessarily relevant in the BayesNet for where is until after you've decided whether you want to go there or not.
+
+0:27:38	SPEAKER_02
+ Right.
+
+0:27:41	SPEAKER_01
+ Show us the way, Bosch.
+
+0:27:44	SPEAKER_01
+ I just see other things that, yeah,
+
+0:27:46	SPEAKER_00
+ when you're asking specific questions, you don't even, like if you're asked a various question, you may not even look, like, ask for the posterior probability of the EVA node, right?
+
+0:27:57	SPEAKER_00
+ Because that's what, I mean, in the BayesNet, you always ask for the posterior probability of a specific node.
+
+0:28:01	SPEAKER_00
+ So, I mean, you may not even bother to compute things you don't need.
+
+0:28:05	SPEAKER_02
+ And we're always computing all?
+
+0:28:07	SPEAKER_00
+ No. You can compute the posterior probability of one subset of the nodes given some other nodes, but totally ignore some other nodes also.
+
+0:28:15	SPEAKER_00
+ Basically, things you ignore get marginalized over.
+
+0:28:18	SPEAKER_02
+ Yeah, but that's, that's a shifting the problem.
+
+0:28:20	SPEAKER_02
+ Then you would have to make a decision, okay?
+
+0:28:22	SPEAKER_02
+ Yeah, that's a various question, which is a node to our query?
+
+0:28:26	SPEAKER_00
+ Yes.
+
+0:28:28	SPEAKER_00
+ Well, I think that's what you want to do, right?
+
+0:28:31	SPEAKER_01
+ Well, eventually you still have to pick up which ones you're looking at.
+
+0:28:35	SPEAKER_01
+ So, it's pretty much the same problem.
+
+0:28:37	SPEAKER_02
+ Yeah, it's apples and oranges.
+
+0:28:40	SPEAKER_02
+ I mean, maybe it just makes a difference in terms of performance, computational times.
+
+0:28:45	SPEAKER_02
+ Either you always have to compute all the posterior probabilities for all the values, all nodes, and then prune the ones you think that are the same.
+
+0:28:51	SPEAKER_02
+ The ones you think that are irrelevant, or you just make a priori estimate of what you think might be relevant and query those.
+
+0:29:03	SPEAKER_00
+ Yeah.
+
+0:29:05	None
+ So basically you'd have a decision tree query go there.
+
+0:29:08	None
+ If that's false, query this one, if that's true, query that one, and just basically do a binary search through the...
+
+0:29:14	None
+ I don't know if it would necessarily be that complicated, but...
+
+0:29:18	SPEAKER_01
+ Well, in the case of go there, it would be, in the case, because if you needed to...
+
+0:29:38	SPEAKER_01
+ If go there was true, you'd want to know what endpoint was, and if it was false, you'd want to look at either info on our history.
+
+0:29:45	SPEAKER_00
+ Yeah.
+
+0:29:48	SPEAKER_00
+ That's true, I guess.
+
+0:29:49	SPEAKER_00
+ Yeah, so in a way you would have that.
+
+0:29:52	None
+ Awesome.
+
+0:29:54	None
+ Some would be boggled by the hug and software.
+
+0:29:57	None
+ Okay, why is that?
+
+0:29:58	SPEAKER_01
+ I can't figure out how to get the probabilities into it.
+
+0:30:02	SPEAKER_01
+ Like, I'd look at...
+
+0:30:04	SPEAKER_01
+ It's some way...
+
+0:30:05	SPEAKER_01
+ It's boggling me.
+
+0:30:07	SPEAKER_01
+ Okay.
+
+0:30:08	SPEAKER_01
+ All right.
+
+0:30:10	SPEAKER_01
+ But hopefully it's...
+
+0:30:15	SPEAKER_01
+ Oh yeah, I just think I haven't figured out what the terms in Huggin' Mean versus what Java-based terms are.
+
+0:30:24	SPEAKER_01
+ Okay.
+
+0:30:26	SPEAKER_02
+ By the way, do we know whether Jury and Nancy are coming?
+
+0:30:29	SPEAKER_00
+ Or...
+
+0:30:30	SPEAKER_00
+ They should come and they're done their stuff, basically, whenever that is.
+
+0:30:34	SPEAKER_00
+ So...
+
+0:30:35	SPEAKER_01
+ What do they need to do left?
+
+0:30:38	SPEAKER_00
+ I guess Jury needs to enter Marx, but I don't know if he's going to do that now or later, but if he's going to enter Marx, he's going to take him away, I guess, and he won't be here.
+
+0:30:46	SPEAKER_00
+ And what's Nancy doing?
+
+0:30:48	SPEAKER_00
+ Nancy...
+
+0:30:49	SPEAKER_00
+ She was sort of finishing up the calculation of Marx and his signing of grades, but I don't know if she should be here.
+
+0:30:56	SPEAKER_00
+ Well, or she should be free after that, so...
+
+0:30:59	SPEAKER_00
+ Assuming she's coming to this meeting.
+
+0:31:02	SPEAKER_00
+ I don't know if she knows about it.
+
+0:31:05	SPEAKER_01
+ She's on the email, let's try it.
+
+0:31:08	SPEAKER_00
+ Okay.
+
+0:31:11	SPEAKER_02
+ Okay.
+
+0:31:13	SPEAKER_02
+ Because...
+
+0:31:16	SPEAKER_02
+ Basically, what we also have decided prior to this meeting is that we would have a re-run of the three of us sitting together.
+
+0:31:27	SPEAKER_02
+ Okay.
+
+0:31:28	SPEAKER_02
+ So, we're going to come to this week, again, and finish up the values of this.
+
+0:31:36	SPEAKER_02
+ So we have...
+
+0:31:38	SPEAKER_02
+ Believe it or not, we have all the bottom ones here.
+
+0:31:43	SPEAKER_02
+ Well, either the bunch of notes or...
+
+0:31:46	SPEAKER_02
+ Yeah.
+
+0:31:48	SPEAKER_02
+ Actually, what we have is this line.
+
+0:31:52	SPEAKER_01
+ Right?
+
+0:31:53	SPEAKER_01
+ What do the stretchers do? So, for instance, this location now has two inputs.
+
+0:31:59	SPEAKER_00
+ Four.
+
+0:32:00	SPEAKER_00
+ Those are the bottom things are inputs also.
+
+0:32:03	SPEAKER_01
+ Oh, I see.
+
+0:32:06	SPEAKER_01
+ Okay, that makes a lot more sense to me now.
+
+0:32:09	SPEAKER_01
+ Because I thought it was like that one in Stuart's book about...
+
+0:32:14	SPEAKER_01
+ Alarm in the dog.
+
+0:32:16	SPEAKER_01
+ Yeah, or the earthquake in the alarm.
+
+0:32:18	SPEAKER_00
+ Sorry, yeah, I'm confusing too.
+
+0:32:20	SPEAKER_01
+ Yeah, there's a dog one too, but that's in Java Bay, isn't it?
+
+0:32:22	SPEAKER_01
+ Maybe.
+
+0:32:23	SPEAKER_01
+ Or there's something about bowel problems or something with the dog.
+
+0:32:28	SPEAKER_02
+ And we have all the top ones, all the ones to which no arrows are pointing.
+
+0:32:36	SPEAKER_02
+ What we're missing are the...
+
+0:32:39	SPEAKER_02
+ These arrows are pointing where we're combining top ones.
+
+0:32:46	SPEAKER_02
+ So we have to come up with values for this.
+
+0:32:49	SPEAKER_02
+ This, this, this, this, and so forth.
+
+0:32:53	SPEAKER_02
+ And maybe this fiddle around with it a little bit more.
+
+0:33:01	SPEAKER_02
+ And then it's just edges.
+
+0:33:06	SPEAKER_02
+ Many of edges.
+
+0:33:12	SPEAKER_02
+ And we won't meet next Monday.
+
+0:33:17	SPEAKER_01
+ So...
+
+0:33:19	SPEAKER_01
+ Just a memorial day.
+
+0:33:20	SPEAKER_00
+ Yeah, it would be next Tuesday, I guess.
+
+0:33:23	SPEAKER_01
+ When's Jerry leaving for Italy?
+
+0:33:25	SPEAKER_01
+ On Friday.
+
+0:33:26	SPEAKER_01
+ Which Friday?
+
+0:33:27	SPEAKER_01
+ This Friday.
+
+0:33:28	SPEAKER_00
+ Oh, this Friday?
+
+0:33:29	SPEAKER_01
+ As in four days?
+
+0:33:30	SPEAKER_01
+ Yeah.
+
+0:33:31	SPEAKER_01
+ Or three days?
+
+0:33:32	SPEAKER_00
+ How long has he gone for?
+
+0:33:34	SPEAKER_01
+ Two weeks.
+
+0:33:35	SPEAKER_00
+ Italy, huh?
+
+0:33:38	SPEAKER_00
+ What's there?
+
+0:33:42	SPEAKER_02
+ That's a country.
+
+0:33:46	SPEAKER_02
+ Billings.
+
+0:33:47	SPEAKER_02
+ People.
+
+0:33:48	SPEAKER_01
+ It does not account for anything.
+
+0:33:49	SPEAKER_00
+ He's just visiting.
+
+0:33:50	SPEAKER_00
+ Right.
+
+0:33:51	SPEAKER_00
+ Just visiting.
+
+0:33:52	SPEAKER_00
+ Vacation.
+
+0:33:57	SPEAKER_00
+ Let's be honest, please.
+
+0:33:59	SPEAKER_02
+ You can't really do that.
+
+0:34:01	SPEAKER_02
+ Do you guys...
+
+0:34:02	SPEAKER_02
+ Yeah.
+
+0:34:03	SPEAKER_02
+ So part of what we actually want to do is sort of sketch out what we want to surprise him with when he comes back.
+
+0:34:09	SPEAKER_02
+ I think we should disappoint him.
+
+0:34:11	SPEAKER_02
+ Or have a finished construction parser and working belief net.
+
+0:34:16	SPEAKER_01
+ That wouldn't be disappointing.
+
+0:34:18	SPEAKER_01
+ I think we should absolutely know work for the two weeks that he's gone.
+
+0:34:22	SPEAKER_02
+ Well, that's actually what I had planned.
+
+0:34:24	SPEAKER_02
+ Personally, I had sort of sketched it out in my mind that you guys do a lot of work and I do nothing.
+
+0:34:29	SPEAKER_02
+ And then I sort of...
+
+0:34:30	SPEAKER_02
+ Oh, that sounds good too.
+
+0:34:32	SPEAKER_02
+ Sort of bask in your glory.
+
+0:34:39	SPEAKER_02
+ But you guys have any vacation plans because I myself am going to be gone.
+
+0:34:46	SPEAKER_02
+ But this is actually not really important just this weekend.
+
+0:34:49	SPEAKER_02
+ So we're going to go and get this.
+
+0:34:50	SPEAKER_01
+ I want to be this guy this weekend too.
+
+0:34:53	SPEAKER_02
+ But we're all going to be here on Tuesday again.
+
+0:34:56	SPEAKER_02
+ Looks like it.
+
+0:34:58	SPEAKER_02
+ Okay, then let's meet again next Tuesday and finish up this base net.
+
+0:35:05	SPEAKER_02
+ And once we have finished it, I guess we can...
+
+0:35:11	SPEAKER_02
+ And that's going to be more...
+
+0:35:12	SPEAKER_02
+ Just you and me because Baskara is doing probabilistic, reclusive, structured, object oriented.
+
+0:35:23	SPEAKER_01
+ Killing machines.
+
+0:35:26	SPEAKER_02
+ Reasoning machines.
+
+0:35:28	SPEAKER_01
+ And...
+
+0:35:29	SPEAKER_01
+ Killing, reasoning.
+
+0:35:30	SPEAKER_01
+ What's the difference?
+
+0:35:31	SPEAKER_01
+ I think next Tuesday is it the whole group meeting or just working on it?
+
+0:35:36	SPEAKER_02
+ The whole group and we present our results.
+
+0:35:39	SPEAKER_02
+ A final definite.
+
+0:35:41	SPEAKER_01
+ So when you're saying we need to do a run of...
+
+0:35:47	SPEAKER_01
+ Like just working out the rest of the...
+
+0:35:49	SPEAKER_02
+ Yeah, we should do this the upcoming days.
+
+0:35:51	SPEAKER_02
+ So this weekend.
+
+0:35:52	SPEAKER_01
+ When you say the whole group, you mean the four of us and Keith?
+
+0:35:56	SPEAKER_02
+ And Ami might...
+
+0:35:58	SPEAKER_01
+ Be here and it's possible that Nancy will be here.
+
+0:36:07	SPEAKER_01
+ So...
+
+0:36:08	SPEAKER_01
+ Yeah.
+
+0:36:10	SPEAKER_02
+ Because once we have the...
+
+0:36:12	SPEAKER_01
+ You just have to explain it to me then on Tuesday how it's all going to work out.
+
+0:36:16	SPEAKER_01
+ Yeah.
+
+0:36:19	SPEAKER_02
+ We were.
+
+0:36:22	SPEAKER_02
+ Okay.
+
+0:36:23	SPEAKER_02
+ Because once we have it sort of up and running then we can start defining the interfaces and then feed stuff into it and get stuff out of it and then hook it up to some fake construction parser.
+
+0:36:35	SPEAKER_01
+ That you will have in about nine months or so, yeah.
+
+0:36:40	SPEAKER_01
+ And the first bad version will be done in nine months.
+
+0:36:44	SPEAKER_02
+ Yeah, I can worry about the ontology interface and you can...
+
+0:36:47	SPEAKER_02
+ Keith can worry about the discourse.
+
+0:36:49	SPEAKER_02
+ I mean this is pretty... I mean I hope everybody knows that these are just going to be dummy values, right?
+
+0:36:58	SPEAKER_02
+ With...
+
+0:37:00	SPEAKER_02
+ So if the endpoint...
+
+0:37:02	SPEAKER_02
+ If the go there is yes and no then go there discourse will just be 50-50, right?
+
+0:37:08	SPEAKER_00
+ What do you mean if the go there says no then the go there is...
+
+0:37:12	SPEAKER_00
+ I don't understand.
+
+0:37:15	SPEAKER_00
+ Like the go there depends on all those four things.
+
+0:37:19	SPEAKER_02
+ Yeah. But what are the values of the go there discourse?
+
+0:37:22	SPEAKER_00
+ Well it depends on this situation.
+
+0:37:24	SPEAKER_00
+ The discourse is strongly indicating that...
+
+0:37:26	SPEAKER_00
+ Yeah. But we have no discourse input.
+
+0:37:28	SPEAKER_00
+ Oh I see.
+
+0:37:29	SPEAKER_00
+ So you're specifically in our situation D and R are going to be...
+
+0:37:32	SPEAKER_00
+ Yeah.
+
+0:37:33	SPEAKER_00
+ Sure.
+
+0:37:34	SPEAKER_01
+ So far we have...
+
+0:37:35	SPEAKER_01
+ Is that what the Keith knows?
+
+0:37:37	SPEAKER_01
+ Yeah.
+
+0:37:38	SPEAKER_01
+ Okay. And you're taking it out for now.
+
+0:37:40	SPEAKER_02
+ Well this is D...
+
+0:37:42	SPEAKER_02
+ Okay.
+
+0:37:43	SPEAKER_02
+ This I can...
+
+0:37:45	SPEAKER_02
+ What the D's are.
+
+0:37:46	SPEAKER_02
+ I can get it in here.
+
+0:37:47	SPEAKER_02
+ So we have the...
+
+0:37:50	SPEAKER_02
+ Let's call it Keith, John O.
+
+0:37:54	None
+ Note.
+
+0:37:57	SPEAKER_02
+ Note.
+
+0:37:58	SPEAKER_02
+ There is an H somewhere.
+
+0:38:01	SPEAKER_02
+ There you go.
+
+0:38:03	SPEAKER_00
+ People that have the same problem with my name.
+
+0:38:06	SPEAKER_02
+ And...
+
+0:38:08	SPEAKER_01
+ This is the H before the A or after the A.
+
+0:38:12	SPEAKER_01
+ Oh and my name before the A.
+
+0:38:14	SPEAKER_01
+ Okay good.
+
+0:38:15	SPEAKER_01
+ Because when you said people have the same problem with it.
+
+0:38:17	SPEAKER_01
+ Because my age goes after the A.
+
+0:38:19	SPEAKER_01
+ People have a worse problem with my name.
+
+0:38:21	SPEAKER_01
+ I always have to check every time I send you an email.
+
+0:38:24	SPEAKER_01
+ A past email if yours to make sure I'm spilling your name correctly.
+
+0:38:27	SPEAKER_01
+ That's good.
+
+0:38:29	SPEAKER_01
+ I worry about you.
+
+0:38:31	SPEAKER_02
+ I appreciate that.
+
+0:38:33	SPEAKER_02
+ But when you abbreviate yourself as the busman, you don't use any H.
+
+0:38:38	SPEAKER_00
+ Busman?
+
+0:38:39	SPEAKER_00
+ Yeah, it's because of the chest player name Michael Busman.
+
+0:38:41	SPEAKER_00
+ Busman, who is my hero?
+
+0:38:43	SPEAKER_00
+ Okay.
+
+0:38:44	SPEAKER_01
+ You're a geek.
+
+0:38:47	SPEAKER_01
+ It's okay.
+
+0:38:50	SPEAKER_01
+ How do you pronounce your name?
+
+0:38:52	SPEAKER_01
+ Eva.
+
+0:38:53	SPEAKER_01
+ Eva?
+
+0:38:54	SPEAKER_01
+ Yeah.
+
+0:38:55	SPEAKER_01
+ Not Eva.
+
+0:38:56	SPEAKER_01
+ What if I were to call you Eva?
+
+0:38:58	SPEAKER_01
+ I probably still respond to it.
+
+0:39:00	SPEAKER_01
+ I thought people would call me Eva but...
+
+0:39:02	SPEAKER_01
+ I don't know.
+
+0:39:03	SPEAKER_01
+ And I just Eva, Eva.
+
+0:39:04	SPEAKER_01
+ Like if I take the V and pronounce it like it was a German V.
+
+0:39:09	SPEAKER_02
+ Which is F.
+
+0:39:11	SPEAKER_01
+ Yeah.
+
+0:39:12	SPEAKER_01
+ No idea.
+
+0:39:13	SPEAKER_01
+ Loist.
+
+0:39:15	SPEAKER_01
+ What?
+
+0:39:17	SPEAKER_01
+ It sounds like an F.
+
+0:39:18	SPEAKER_02
+ There's also an F in German which is why...
+
+0:39:20	SPEAKER_02
+ It's just a difference between voice and unvoiced.
+
+0:39:22	None
+ Okay.
+
+0:39:28	SPEAKER_01
+ As long as that's okay.
+
+0:39:30	SPEAKER_01
+ I mean I might slip out and say it accidentally.
+
+0:39:32	SPEAKER_00
+ That's all I'm saying.
+
+0:39:33	SPEAKER_00
+ It's fine.
+
+0:39:34	SPEAKER_00
+ Yeah, it doesn't matter what those nodes are anyway because we'll just make the weights here for now.
+
+0:39:38	SPEAKER_02
+ Yeah.
+
+0:39:39	SPEAKER_02
+ We'll make them 0 for now because who knows what they come up with.
+
+0:39:44	SPEAKER_02
+ What's going to come in there?
+
+0:39:46	SPEAKER_02
+ Okay.
+
+0:39:48	SPEAKER_02
+ And...
+
+0:39:50	SPEAKER_02
+ Then...
+
+0:39:58	SPEAKER_02
+ Should we start on Thursday?
+
+0:40:02	SPEAKER_02
+ And not meet tomorrow?
+
+0:40:05	SPEAKER_02
+ Sure.
+
+0:40:14	SPEAKER_02
+ I'll send an email.
+
+0:40:16	SPEAKER_02
+ Make a time suggestion.
+
+0:40:17	SPEAKER_01
+ Maybe it's okay so that we have one node per construction.
+
+0:40:22	SPEAKER_01
+ Because even in people, like they don't know what you're talking about if you're using some sort of strange construction.
+
+0:40:29	SPEAKER_02
+ Yeah, they would still sort of get the closest best fit.
+
+0:40:32	SPEAKER_01
+ Yeah, but I mean that's what the construction parts would do.
+
+0:40:35	SPEAKER_01
+ If you said something completely arbitrary, it would find the closest construction.
+
+0:40:38	SPEAKER_01
+ But if you said something that was completely...
+
+0:40:40	SPEAKER_01
+ Or theoretically the construction parts would do that.
+
+0:40:42	SPEAKER_01
+ If you said something for which there was no construction whatsoever, people wouldn't have any idea what you're talking about.
+
+0:40:48	SPEAKER_01
+ Like bust dog, fried egg.
+
+0:40:51	SPEAKER_01
+ Or if you've something Chinese for sure.
+
+0:40:54	SPEAKER_01
+ Or something in the internet.
+
+0:40:56	SPEAKER_01
+ Or Cantonese is the case maybe.
+
+0:41:02	SPEAKER_01
+ What do you think about that, boss?
+
+0:41:04	SPEAKER_00
+ I mean...
+
+0:41:06	SPEAKER_00
+ Well...
+
+0:41:07	SPEAKER_00
+ But how many constructions could we possibly have nodes for?
+
+0:41:13	SPEAKER_01
+ In this system or in...
+
+0:41:15	SPEAKER_00
+ No, we...
+
+0:41:16	SPEAKER_00
+ Like when people do this...
+
+0:41:17	SPEAKER_01
+ Oh, and how many constructions do people have?
+
+0:41:19	SPEAKER_00
+ Yeah.
+
+0:41:20	SPEAKER_00
+ I have no idea.
+
+0:41:21	SPEAKER_00
+ Is it considered to be like...
+
+0:41:23	SPEAKER_00
+ Are they considered to be like very...
+
+0:41:24	SPEAKER_00
+ Every now and then is the construction.
+
+0:41:25	SPEAKER_00
+ Okay, so it's like...
+
+0:41:26	SPEAKER_00
+ Thousands.
+
+0:41:27	SPEAKER_01
+ Any form meaning pair to my understanding is a construction.
+
+0:41:31	SPEAKER_01
+ And form starts at the level of...
+
+0:41:34	SPEAKER_01
+ Or actually maybe even sounds.
+
+0:41:36	SPEAKER_01
+ Yeah.
+
+0:41:37	SPEAKER_01
+ And goes upwards until you get the die transitive construction.
+
+0:41:41	SPEAKER_01
+ And then of course, I guess maybe there can be...
+
+0:41:43	SPEAKER_01
+ Can there be combinations of the die...
+
+0:41:45	SPEAKER_01
+ Yeah.
+
+0:41:46	SPEAKER_01
+ The giving a speech construction.
+
+0:41:49	SPEAKER_02
+ Retaric for construction, sir.
+
+0:41:58	SPEAKER_02
+ But I mean...
+
+0:42:00	SPEAKER_02
+ You know, you can probably count the ways.
+
+0:42:03	SPEAKER_02
+ It's probably...
+
+0:42:04	SPEAKER_01
+ I would definitely say it's finite.
+
+0:42:05	SPEAKER_01
+ Yeah.
+
+0:42:06	SPEAKER_01
+ And at least if you're a compiler, that's all that really matters.
+
+0:42:08	SPEAKER_01
+ As long as your analysis is finite.
+
+0:42:11	SPEAKER_00
+ How's this sound going to be finite again?
+
+0:42:14	SPEAKER_01
+ No, I can't think of a way it would be infinite.
+
+0:42:17	SPEAKER_01
+ Well, you can come up with new constructions.
+
+0:42:20	SPEAKER_01
+ Yeah.
+
+0:42:21	SPEAKER_01
+ If your brain is totally non-deterministic, then perhaps there's a way to get an infinite number of constructions.
+
+0:42:28	SPEAKER_01
+ You have to worry about...
+
+0:42:30	SPEAKER_00
+ What do you mean the fact that you can't say that it's impossible?
+
+0:42:32	SPEAKER_01
+ Right.
+
+0:42:33	SPEAKER_01
+ Because if you have a fixed number of neurons...
+
+0:42:35	SPEAKER_01
+ Yeah.
+
+0:42:36	SPEAKER_01
+ So the best case scenario would be the number of...
+
+0:42:41	SPEAKER_01
+ Or the worst case scenario is the number of constructions equals the number of neurons.
+
+0:42:44	SPEAKER_00
+ Well, two to the power of the number of neurons.
+
+0:42:46	SPEAKER_01
+ But still, finite.
+
+0:42:56	SPEAKER_02
+ Okay.
+
+0:42:57	SPEAKER_01
+ No, wait, not necessarily.
+
+0:42:58	SPEAKER_01
+ Is it...
+
+0:42:59	SPEAKER_01
+ We can end the meeting.
+
+0:43:00	SPEAKER_01
+ I just...
+
+0:43:01	SPEAKER_01
+ Can't you use different levels of activation across...
+
+0:43:04	SPEAKER_01
+ Hmm.
+
+0:43:05	SPEAKER_01
+...lots of different neurons to specify different values?
+
+0:43:08	None
+ Yeah.
+
+0:43:10	SPEAKER_00
+ There's a bandwidth issue, right?
+
+0:43:13	SPEAKER_00
+ Yeah.
+
+0:43:14	SPEAKER_00
+ You can't do better than...
+
+0:43:16	SPEAKER_02
+...totally, by some other words, it gets really tough for a future.
+
+0:43:20	None
+ Transcribers, too.
+
+0:43:50	None
+ Transcribers, please.
+

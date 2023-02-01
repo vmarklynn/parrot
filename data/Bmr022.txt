@@ -1,0 +1,2358 @@
+0:00:00	SPEAKER_06
+ Okay, here we go.
+
+0:00:04	SPEAKER_05
+ So I definitely have to leave it through 30 today.
+
+0:00:07	SPEAKER_05
+ We're definitely have to go to T.
+
+0:00:09	SPEAKER_05
+ Yeah, they're having birthday cake and so I can't miss that.
+
+0:00:13	SPEAKER_05
+ I'm a May birthday, yeah.
+
+0:00:14	SPEAKER_05
+ So I've told me.
+
+0:00:15	SPEAKER_05
+ Yeah.
+
+0:00:16	SPEAKER_06
+ I'm okay.
+
+0:00:20	SPEAKER_03
+ So, only a couple of agenda items since no one sent me email for agenda items.
+
+0:00:25	SPEAKER_03
+ The first is the IBM transcripts.
+
+0:00:30	SPEAKER_03
+ I'd like to mention, I spoke with several of you about this, but just brainstorm a little bit of what we can do with it.
+
+0:00:36	SPEAKER_03
+ So we got back the IBM transcript and the accuracy looks okay.
+
+0:00:39	SPEAKER_03
+ There are, I mean, there are areas which are clearly wrong and there are a lot of areas where they put question marks where the acoustics weren't very good.
+
+0:00:46	SPEAKER_03
+ And I think that's fine.
+
+0:00:47	SPEAKER_03
+ Putting question marks is better than doing it wrong.
+
+0:00:49	SPEAKER_03
+ The big problem was they had the wrong number of beeps in it.
+
+0:00:52	SPEAKER_03
+ Oops.
+
+0:00:53	SPEAKER_03
+ So it didn't align.
+
+0:00:55	SPEAKER_03
+ And that's exactly what I was afraid of.
+
+0:00:57	SPEAKER_03
+ And I went in and more or less by hand corrected it by loading it.
+
+0:01:02	SPEAKER_03
+ I wrote a script that will convert it to the multi-channel trans format.
+
+0:01:06	SPEAKER_03
+ Looked it in channel trans and found the places where it got unsynchronized.
+
+0:01:11	SPEAKER_03
+ And then either, in this case, only had to remove beeps because that was always the error.
+
+0:01:17	SPEAKER_03
+ Is that they put it in extraneous beeps.
+
+0:01:19	SPEAKER_03
+ But it's not easy to do because the whole thing gets offset and basically it's assigning the wrong speaker to the text and it all gets on the line.
+
+0:01:28	SPEAKER_03
+ So it's very difficult to do.
+
+0:01:30	SPEAKER_03
+ So it took me several hours just to do that.
+
+0:01:33	SPEAKER_05
+ Just one hour of speech.
+
+0:01:36	SPEAKER_05
+ And a few hours to do that.
+
+0:01:38	SPEAKER_03
+ It took me a couple hours to write the scripts and then it probably took me maybe 45 minutes just going through it.
+
+0:01:46	SPEAKER_03
+ Now obviously it will be a lot faster from now on because now I sort of understand how it works.
+
+0:01:51	SPEAKER_03
+ But I think if we had some way, some tool that made it easier to insert and delete beeps, it would make it a lot easier.
+
+0:01:58	SPEAKER_03
+ Because one of the problems is that it takes a very long time when you make a change to load it back up in the channel transcribe.
+
+0:02:04	SPEAKER_01
+ That's true.
+
+0:02:05	SPEAKER_01
+ I've noticed that.
+
+0:02:06	SPEAKER_04
+ One of the things that I've said that I thought would be a good idea would be if we used different beeps.
+
+0:02:11	SPEAKER_04
+ So for example, if we alternated between two beeps, a high and a low.
+
+0:02:16	SPEAKER_04
+ Well, into me mail.
+
+0:02:17	SPEAKER_03
+ I didn't just say that.
+
+0:02:19	SPEAKER_03
+ Yeah.
+
+0:02:20	SPEAKER_03
+ Because then.
+
+0:02:21	SPEAKER_03
+ So this is the other approach, which is what do we do in the future to try to make this less common.
+
+0:02:26	SPEAKER_03
+ But it's still going to happen.
+
+0:02:28	SPEAKER_01
+ Well, then the other possibility was that we provide them with a file that already has a beeps in it or something.
+
+0:02:33	SPEAKER_04
+ Sort of a text template, but I don't know how.
+
+0:02:36	SPEAKER_03
+ We don't know what their process is.
+
+0:02:38	SPEAKER_03
+ So I had two ideas. The first was to provide them a text template that had both the beeps in it and the speaker IDs.
+
+0:02:44	SPEAKER_03
+ You know, just mail, female, English, non-English, one, two, three, four.
+
+0:02:48	SPEAKER_03
+ And they just filled it in.
+
+0:02:51	SPEAKER_05
+ How many beeps are there and how many do it where they were off?
+
+0:02:56	SPEAKER_03
+ It was like 120 and they had 123 or something like that.
+
+0:03:01	SPEAKER_03
+ All right.
+
+0:03:02	SPEAKER_03
+ And it seems a lot more than that.
+
+0:03:03	SPEAKER_03
+ Well, I don't remember.
+
+0:03:04	SPEAKER_03
+ It was three off.
+
+0:03:06	SPEAKER_05
+ Yeah, and it was a hundredish.
+
+0:03:08	SPEAKER_05
+ So if you get one off, everything's off because of the letter, right?
+
+0:03:14	SPEAKER_05
+ Yep.
+
+0:03:15	SPEAKER_05
+ And this is all in one file that's continuing.
+
+0:03:17	SPEAKER_05
+ So I just make it multiple files.
+
+0:03:19	SPEAKER_05
+ How would that help?
+
+0:03:20	SPEAKER_05
+ Because then if they have one off, then it would only screw up that file.
+
+0:03:24	SPEAKER_03
+ Oh, you mean just break the one hour into a few chunks?
+
+0:03:27	SPEAKER_05
+ Yeah.
+
+0:03:28	SPEAKER_05
+ I mean, it seems like if you just make one mistake, then everything is off.
+
+0:03:31	SPEAKER_04
+ So the only question about that that I have is, I think Brian has to put all this stuff onto a tape.
+
+0:03:36	SPEAKER_04
+ So I don't know whether I'm sure they would send them.
+
+0:03:40	SPEAKER_04
+ I guess you could send them multiple tapes.
+
+0:03:44	SPEAKER_05
+ Yeah, just say, okay, there's 10 sentences.
+
+0:03:47	SPEAKER_05
+ I mean, maybe there's other things to do that are more clever, but this just seems to be sort of the obvious thing.
+
+0:03:52	SPEAKER_05
+ Because again, if you make one mistake, then everything after that mistake is off.
+
+0:03:57	SPEAKER_04
+ And will the only other issue we have to worry about reassembling them in the proper order?
+
+0:04:02	SPEAKER_03
+ Yeah.
+
+0:04:03	SPEAKER_03
+ I mean, just naming schemes, we'll get, we can definitely do that.
+
+0:04:08	SPEAKER_03
+ So one question is, are there good places in the files where we can really do that?
+
+0:04:13	SPEAKER_03
+ Well, the other thing makes it so someone will have to go through and listen to them and make a place to break them.
+
+0:04:20	SPEAKER_00
+ The other thing you can do, this is on the mix signal, are these the individual?
+
+0:04:25	SPEAKER_00
+ The ones with the beeps that they're getting, that they made mistakes on is...
+
+0:04:29	SPEAKER_03
+ They are plates from the individual.
+
+0:04:32	SPEAKER_00
+ If it's individual, we can probably run a forced alignment where you include the beeps as words, and pretty much figure out where the errors are.
+
+0:04:45	SPEAKER_00
+ I don't think we could do it on the mix signal, because it, but on the individual channels, that would probably work if they have enough words in the transcript.
+
+0:04:54	SPEAKER_00
+ Yeah, we, in fact, that's pretty quick to run.
+
+0:04:57	SPEAKER_00
+ We could try it, because if a beep is treated as a...
+
+0:05:03	SPEAKER_03
+ You mean, so actually put the wave file in with beep in it, and have a beep model.
+
+0:05:09	SPEAKER_00
+ Well, the beep model, actually, you could train a beep model, that's a good idea.
+
+0:05:14	SPEAKER_00
+ It would be very good.
+
+0:05:15	SPEAKER_03
+ Yes, it would be.
+
+0:05:16	SPEAKER_03
+ It's very, very regular.
+
+0:05:17	SPEAKER_05
+ Yeah, so...
+
+0:05:18	SPEAKER_05
+ Kind of low variance, wouldn't it?
+
+0:05:19	SPEAKER_05
+ Yeah, I'm very concerned.
+
+0:05:20	SPEAKER_05
+ Yeah, I'm very concerned.
+
+0:05:24	SPEAKER_00
+ I mean, that might actually work, because I guess the trick is figuring out where it doesn't align.
+
+0:05:29	SPEAKER_00
+ But if it's a problem of extra beeps, rather than missing beeps, then that's easier.
+
+0:05:37	SPEAKER_04
+ It could be some missing ones.
+
+0:05:40	SPEAKER_03
+ But it's just in this case, they were not.
+
+0:05:43	SPEAKER_03
+ So I think Chuck had a good explanation for it, which I liked, which is they're listening to it, and so they write something down.
+
+0:05:48	SPEAKER_03
+ Let's say they miss it, they rewind.
+
+0:05:51	SPEAKER_03
+ Well, they hear the beep again.
+
+0:05:52	SPEAKER_03
+ Was that beep, or was that a different beep?
+
+0:05:54	SPEAKER_03
+ So that's why Chuck was suggesting different tones.
+
+0:05:56	SPEAKER_03
+ My original thought was you could have a different tone for each speaker.
+
+0:05:59	SPEAKER_03
+ There's plenty of tone space, and that might help cue the transcriptionist, give him a little cue about where they are.
+
+0:06:07	SPEAKER_05
+ Or you could have a sending tones or something.
+
+0:06:11	SPEAKER_04
+ What do you mean?
+
+0:06:14	SPEAKER_04
+ Increasingly high frequency.
+
+0:06:16	SPEAKER_00
+ Each speaker in the meeting say beep and record it at one point.
+
+0:06:20	SPEAKER_05
+ I think I do know if you have a hundred or something, just sort of move them up a half tone or something for each one.
+
+0:06:27	SPEAKER_03
+ That's what I was saying, is that you could have each speaker.
+
+0:06:29	SPEAKER_03
+ You could have their own tone.
+
+0:06:31	SPEAKER_03
+ And since there are no more than 10 speakers or so per meeting, there's plenty of tone space.
+
+0:06:37	SPEAKER_05
+ Okay, yeah.
+
+0:06:38	SPEAKER_05
+ So that might work, too.
+
+0:06:40	SPEAKER_05
+ Yeah, I was just thinking, actually, temporarily, just an increasing tone.
+
+0:06:44	SPEAKER_05
+ So that they would really have a sense of whether they were going forward or backward or.
+
+0:06:48	SPEAKER_01
+ So just truly, chromatically up, follow through the entire meeting.
+
+0:06:52	SPEAKER_01
+ Interesting.
+
+0:06:53	SPEAKER_01
+ Oh, it'd be impossible to miss order them.
+
+0:06:56	SPEAKER_00
+ Yeah.
+
+0:06:57	SPEAKER_00
+ But I guess you'd still get the mistake that you mentioned because the person, I mean, if that's some of the errors, those would probably stay the same.
+
+0:07:04	SPEAKER_00
+ Regardless.
+
+0:07:05	SPEAKER_03
+ Yeah, Chuck's suggestion of just two beeps is nice, because then you could have them actually transcribe HB for LB, pi beep or low beep.
+
+0:07:12	SPEAKER_04
+ And then when we get them back, if we see two LBs, that's probably better.
+
+0:07:15	SPEAKER_00
+ Yeah, you have like scratch my other idea.
+
+0:07:17	SPEAKER_00
+ Sounded each check.
+
+0:07:18	SPEAKER_00
+ Yeah.
+
+0:07:19	SPEAKER_00
+ That's a good idea, alternating.
+
+0:07:20	SPEAKER_00
+ Yeah.
+
+0:07:21	SPEAKER_04
+ And it seems like it would help them, you know, if they just finished a long passage and they heard one beep and then they hear it again, they know it's the same beep versus if they heard it.
+
+0:07:31	SPEAKER_00
+ Yeah, that's a good error checking.
+
+0:07:34	SPEAKER_03
+ Yeah, I do do one for each person in the meeting.
+
+0:07:39	SPEAKER_03
+ You can only hire people with perfect pitch and they're a flat.
+
+0:07:42	SPEAKER_03
+ Yeah.
+
+0:07:43	SPEAKER_03
+ That was great.
+
+0:07:45	SPEAKER_05
+ Great idea.
+
+0:07:46	SPEAKER_05
+ Yeah.
+
+0:07:47	SPEAKER_05
+ Now two is probably better than when I was suggesting, because what I was suggesting, in order to make a through a reasonable range for the whole thing, you'd have to have the tonal differences between the two kind of small and actually what the large.
+
+0:07:59	SPEAKER_01
+ You have to have the acoustics of dogs.
+
+0:08:02	SPEAKER_01
+ You're right.
+
+0:08:03	SPEAKER_03
+ So I think certainly doing two beeps is no brainer.
+
+0:08:08	SPEAKER_03
+ And then the other question is if they can, if they do something on a computer in a format we can handle, we could give them a text file that was a template with speaker ID and beeps already in it.
+
+0:08:20	SPEAKER_03
+ And then they could just fill that in.
+
+0:08:22	SPEAKER_04
+ Maybe I should write to Brian and tell him what the problem was and what our proposed solutions are.
+
+0:08:27	SPEAKER_04
+ Yeah.
+
+0:08:28	SPEAKER_04
+ See what he thinks would work best with them.
+
+0:08:30	SPEAKER_05
+ I mean, what's going wrong in the other end?
+
+0:08:32	SPEAKER_05
+ What are they doing?
+
+0:08:33	SPEAKER_03
+ Well, as I said, I think we don't actually know, but I think Chuck's hypothesis was a good one, which is you listen to something, you write down what you thought you heard, but you want to listen to it against who you rewind.
+
+0:08:43	SPEAKER_03
+ And then you hear the beep again and you say, well, is that that beep or is that a new beep?
+
+0:08:47	SPEAKER_03
+ I don't remember.
+
+0:08:48	SPEAKER_03
+ And so, you know, a couple times they got it wrong.
+
+0:08:50	SPEAKER_04
+ And there are some cases where there's very little speech before you hear a beep.
+
+0:08:54	SPEAKER_04
+ So here, a little bit of speech beep, a little bit of speech beep.
+
+0:08:57	SPEAKER_04
+ Maybe three of those in a row was at three beeps, was at two beeps.
+
+0:09:01	SPEAKER_04
+ So they have the, Brian said the setup that they have is they've got headphones, and I guess they have a computer, and they have a foot pedal, which lets them quickly scan back and forth through the tape.
+
+0:09:15	SPEAKER_04
+ It makes the tape go real fast forward or fast backward.
+
+0:09:18	SPEAKER_04
+ And so they can hear something, then step on the pedal and quickly rewind and go back in here again.
+
+0:09:23	SPEAKER_04
+ And so they're, I think they're probably going over and over sections, and then they get confused about whether they already put that beep or if they heard, you know, three beeps in a row, was at three or two.
+
+0:09:35	SPEAKER_01
+ It's a shame we can't really give a number.
+
+0:09:38	SPEAKER_01
+ So it would be a number and a beep.
+
+0:09:40	SPEAKER_01
+ It's a shame we can't do that.
+
+0:09:42	SPEAKER_03
+ Well, that's an interesting idea.
+
+0:09:44	SPEAKER_03
+ We could, but then that starts getting pretty long.
+
+0:09:48	SPEAKER_04
+ No, no, no, but wait, maybe what we have instead of a beep is a synthesized number, and they put the number in when they hear it.
+
+0:09:58	SPEAKER_04
+ So placing the beep with 23, 24, and then they have to transcribe what that number is each time.
+
+0:10:06	SPEAKER_01
+ Wow, that also be shorter than time.
+
+0:10:08	SPEAKER_04
+ Yeah, just a two, three, two, four, that way.
+
+0:10:10	SPEAKER_04
+ Well, they would have to have a mark.
+
+0:10:12	SPEAKER_04
+ Be some kind of mark in front of it.
+
+0:10:14	SPEAKER_05
+ Well, because there's distinguishing between 23, that's your indicator there and 23 that somebody happens to say.
+
+0:10:20	SPEAKER_04
+ Well, it would have to be either obviously a sounding synthesized.
+
+0:10:27	SPEAKER_04
+ They might miss that, right?
+
+0:10:28	SPEAKER_01
+ Or maybe it could be a quick and a number.
+
+0:10:31	SPEAKER_04
+ Or a beep in the number.
+
+0:10:32	SPEAKER_04
+ Well, it's sequential.
+
+0:10:33	SPEAKER_03
+ And then you just do the number.
+
+0:10:34	SPEAKER_03
+ Right, you go sequential.
+
+0:10:35	SPEAKER_03
+ So unless you got pretty unlucky, what the person was saying and the number.
+
+0:10:41	SPEAKER_04
+ In fact, we could put it at the beginning of each other.
+
+0:10:44	SPEAKER_04
+ We could say beep one, and then they'll hear the speed.
+
+0:10:47	SPEAKER_05
+ I think having a beep too is good.
+
+0:10:50	SPEAKER_03
+ So beep number.
+
+0:10:51	SPEAKER_03
+ Or a number beep.
+
+0:10:52	SPEAKER_03
+ It's just getting pretty long.
+
+0:10:53	SPEAKER_03
+ You know, the other answers are very short.
+
+0:10:55	SPEAKER_03
+ And so you're going to be talking beep number.
+
+0:10:57	SPEAKER_03
+ Yes, beep number.
+
+0:10:59	SPEAKER_01
+ No.
+
+0:11:00	SPEAKER_01
+ Well, if it saves time.
+
+0:11:02	SPEAKER_01
+ Yeah, and I think it would actually happen.
+
+0:11:04	SPEAKER_03
+ And when they transcribe this meeting, it's going to be really impossible.
+
+0:11:07	SPEAKER_03
+ We're saying beep.
+
+0:11:09	SPEAKER_05
+ Yeah, yeah, for instance.
+
+0:11:10	SPEAKER_04
+ But see, that would definitely keep.
+
+0:11:12	SPEAKER_04
+ It's not a bad idea.
+
+0:11:13	SPEAKER_04
+ Yeah.
+
+0:11:14	SPEAKER_04
+ Yeah, keep things from getting out of sequence.
+
+0:11:17	SPEAKER_04
+ If they heard it over again, they would know it would be obvious from their transcript, whether they did that one or not.
+
+0:11:20	SPEAKER_03
+ That would help get them synchronized.
+
+0:11:22	SPEAKER_03
+ Yeah.
+
+0:11:23	SPEAKER_01
+ It might be helpful to them in terms of.
+
+0:11:25	SPEAKER_01
+ I think it would be.
+
+0:11:26	SPEAKER_03
+ And we have plenty of digit data.
+
+0:11:27	SPEAKER_03
+ So yeah.
+
+0:11:28	SPEAKER_03
+ They would know their place, darn it.
+
+0:11:30	SPEAKER_03
+ It was transcriptionists need to know their place.
+
+0:11:33	SPEAKER_05
+ It sounds like a short conversation with Brian.
+
+0:11:36	SPEAKER_05
+ It might be helpful to get a sense of it.
+
+0:11:38	SPEAKER_03
+ Yeah, the numbers are a good idea.
+
+0:11:40	SPEAKER_03
+ Yeah.
+
+0:11:41	SPEAKER_03
+ And then, I think the transcript, I think it would be very helpful.
+
+0:11:45	SPEAKER_02
+ Just instead of the sequential number, perhaps just a speaker idea or something, just say, speaker one or just one, two, three, four, four speakers or something, it could be helpful.
+
+0:11:55	SPEAKER_03
+ Yeah, you don't have to, you could keep them short or just go one through ten, one through ten or one through twenty.
+
+0:12:02	SPEAKER_01
+ And then also, I mean, I don't know what their set up is, but your template idea might be a way of, we could actually build the numbers into a template.
+
+0:12:10	SPEAKER_03
+ Yep.
+
+0:12:11	SPEAKER_04
+ I'll talk to Brian.
+
+0:12:14	SPEAKER_03
+ Yeah, single digit numbers that also appeals to me so that you don't have to, you know, one hundred twenty four.
+
+0:12:22	SPEAKER_03
+ Well, even one thousand, three hundred forty two.
+
+0:12:26	SPEAKER_05
+ You're saying it's about an hour meeting and there were hundred and twenty-three.
+
+0:12:29	SPEAKER_03
+ I don't remember.
+
+0:12:30	SPEAKER_03
+ It's a track we're saying there was more than that, four beeps than that.
+
+0:12:33	SPEAKER_04
+ I was thinking there was only order of fifteen hundred segments, but maybe I'm...
+
+0:12:37	SPEAKER_00
+ There must be because otherwise you're going to call.
+
+0:12:40	SPEAKER_00
+ I think it should be more than that.
+
+0:12:41	SPEAKER_00
+ That was at least forty five minutes, right?
+
+0:12:43	SPEAKER_00
+ That's right.
+
+0:12:44	SPEAKER_00
+ Was it that?
+
+0:12:45	SPEAKER_00
+ I just don't recall.
+
+0:12:46	SPEAKER_00
+ That's the shortest meeting we have.
+
+0:12:47	SPEAKER_00
+ Most of them are double ladder.
+
+0:12:48	None
+ Yep.
+
+0:12:49	SPEAKER_05
+ Well, I was just wondering what the average length of a segment they're hearing.
+
+0:12:54	SPEAKER_05
+ Yeah.
+
+0:12:55	SPEAKER_00
+ No, no.
+
+0:12:56	SPEAKER_03
+ Easy enough to figure out.
+
+0:12:57	SPEAKER_00
+ So if there are in the hundredth and that were thousands of these, there must be in the high hundreds of them at least.
+
+0:13:05	SPEAKER_00
+ That's getting a little cumbersome for them to tie it up.
+
+0:13:08	SPEAKER_00
+ I would just one five.
+
+0:13:10	SPEAKER_00
+ But yeah, if they recycled for...
+
+0:13:12	SPEAKER_05
+ Yeah, if it didn't mod ten.
+
+0:13:14	SPEAKER_05
+ My point was, you know, it's a big difference to me if there's a thousand of those hundred.
+
+0:13:17	SPEAKER_05
+ If there's a thousand, then that means that this is only happening three times out of a thousand, which means even just splitting it up into a few files, we'd probably take nearly all the time there would be no.
+
+0:13:28	SPEAKER_05
+ If it's a hundred, then that's not the issue, but if it's a hundred, then the average length of each one is pretty, pretty long, and so having a little thing at the front of it is no big deal.
+
+0:13:38	SPEAKER_05
+ So you're right.
+
+0:13:39	SPEAKER_03
+ It's what's curious.
+
+0:13:40	SPEAKER_03
+ More than that.
+
+0:13:41	SPEAKER_03
+ I mean, it was a 45 minute meeting.
+
+0:13:42	SPEAKER_03
+ And it certainly was not a minute of chunk.
+
+0:13:44	SPEAKER_03
+ It was a few seconds of chunk.
+
+0:13:46	SPEAKER_00
+ That's what I...
+
+0:13:47	SPEAKER_00
+ Yeah, so I'm just going to survive.
+
+0:13:48	SPEAKER_03
+ So I'm just going to go overhead to type.
+
+0:13:49	SPEAKER_03
+ I'm just missing remembering.
+
+0:13:50	SPEAKER_01
+ Well, and the other thing is maybe the numbers would help them keep their place in the transcriptions.
+
+0:13:55	SPEAKER_03
+ It might make the transcript faster.
+
+0:13:56	SPEAKER_03
+ I mean, I mean, I...
+
+0:13:57	SPEAKER_03
+ Quick conversation with Brian would be good.
+
+0:13:59	SPEAKER_03
+ Okay.
+
+0:14:04	SPEAKER_03
+ Another of that.
+
+0:14:09	SPEAKER_00
+ Actually, if it is...
+
+0:14:12	SPEAKER_00
+ I mean, it's not a bad idea to try the alignment.
+
+0:14:16	SPEAKER_00
+ If there's only like three of them, then if you align, the first point at which things get messed up is sort of the location of the first problem.
+
+0:14:25	SPEAKER_00
+ And then the second... I mean, you could do it that way.
+
+0:14:30	SPEAKER_00
+ It would be able to handle any errors.
+
+0:14:33	SPEAKER_00
+ So if they make on the average that many, and it costs them more time to do something different than what they're doing, which I don't know.
+
+0:14:40	SPEAKER_00
+ But if it does, then you could try doing it as a post-process.
+
+0:14:44	SPEAKER_00
+ And have a student or a transcriber run this alignment, or we could do it.
+
+0:14:49	SPEAKER_00
+ You know, actually, what all we would...
+
+0:14:51	SPEAKER_00
+ And then we could iteratively figure out where the problems are.
+
+0:14:55	SPEAKER_00
+ You know, there's always...
+
+0:14:56	SPEAKER_00
+ It's like a little work, but not any real human.
+
+0:14:58	SPEAKER_00
+ Right.
+
+0:14:59	SPEAKER_04
+ I mean, that's what we want to do.
+
+0:15:00	SPEAKER_04
+ In terms of the alignment, actually, all we would need is...
+
+0:15:02	SPEAKER_04
+ We wouldn't even need words.
+
+0:15:03	SPEAKER_04
+ We would need a general speech model and a beep model.
+
+0:15:05	SPEAKER_04
+ Because all we're really concerned about is missing beeps or too many beeps.
+
+0:15:09	SPEAKER_00
+ Well, of course, the forced alignment will run fat.
+
+0:15:12	SPEAKER_00
+ Otherwise, it'll take forever.
+
+0:15:14	SPEAKER_00
+ I mean, to really run regular things.
+
+0:15:15	SPEAKER_04
+ Well, I guess what I'm thinking of is that a lot of times, there will be... they'll put in question marks that represent some unknown amount of speech.
+
+0:15:24	SPEAKER_04
+ So we're going to have to have some kind of...
+
+0:15:26	SPEAKER_00
+ Yeah, then we just map it to a reject model.
+
+0:15:28	SPEAKER_00
+ And in fact, that's what we do now.
+
+0:15:30	SPEAKER_00
+ Because it's even after Jane listens where we have an expert, can't even tell what they're talking about.
+
+0:15:36	SPEAKER_00
+ So that's okay.
+
+0:15:37	SPEAKER_00
+ We just map that to a reject model.
+
+0:15:38	SPEAKER_04
+ But what I was thinking is map all the speech to the reject model.
+
+0:15:41	SPEAKER_04
+ And then you have a beep model.
+
+0:15:43	SPEAKER_00
+ Yeah, so talking, of course, still...
+
+0:15:45	SPEAKER_00
+ The forced alignment might not work then, although we can try it.
+
+0:15:48	SPEAKER_00
+ Well, but all the beeps...
+
+0:15:49	SPEAKER_05
+ Well, the beep model is what's really...
+
+0:15:51	SPEAKER_05
+ You'd have really good...
+
+0:15:52	SPEAKER_05
+ The beep model is really nice.
+
+0:15:53	SPEAKER_04
+ We really do match.
+
+0:15:54	SPEAKER_05
+ So it's really just doing a keyword like a spotting for beep with...
+
+0:15:57	SPEAKER_00
+ We're going to edit it all, grab the next beep in other words.
+
+0:15:59	SPEAKER_00
+ It'll be... you'll get back another offset.
+
+0:16:02	SPEAKER_00
+ I mean, let's think of that.
+
+0:16:04	SPEAKER_00
+ And then I realize, well, recognize we'll just go along and line up all the beeps.
+
+0:16:08	SPEAKER_00
+ And then there'll be all the extra beeps at the end if there were more beeps than you want it.
+
+0:16:12	SPEAKER_00
+ So you need the word...
+
+0:16:14	SPEAKER_00
+ So you need the word to...
+
+0:16:15	SPEAKER_04
+ To tell it we're a call it wrong.
+
+0:16:18	SPEAKER_04
+ I'm not suggesting that we don't have anything between the beeps.
+
+0:16:21	SPEAKER_04
+ Oh.
+
+0:16:22	SPEAKER_04
+ But what I'm saying is what's between the beeps we don't really care about.
+
+0:16:25	SPEAKER_00
+ I think you do care about it.
+
+0:16:27	SPEAKER_00
+ Unless you want to know if they're...
+
+0:16:29	SPEAKER_00
+ Otherwise, you just count up the total number of...
+
+0:16:32	SPEAKER_03
+ And we could do that with word count.
+
+0:16:34	SPEAKER_03
+ Right, we already know that we're three short.
+
+0:16:36	SPEAKER_03
+ And so if we just did...
+
+0:16:38	SPEAKER_03
+ Speak beep and non-beap, all you would get is that you have three mistakes, but you wouldn't tell you which ones were wrong.
+
+0:16:46	SPEAKER_00
+ Right.
+
+0:16:47	SPEAKER_03
+ You need some of the words in there so that you can say, well, this segment matches this one, this segment matches this one, and this one doesn't match at all unless we insert a beep.
+
+0:16:57	SPEAKER_00
+ And the only thing I'm worried about with that approach is that if we need to figure out the beep alignment problem before the transcribers do the corrections here, then we're in trouble.
+
+0:17:09	SPEAKER_00
+ In other words, if the transcripts aren't sort of good enough that the aligner constraints are good enough to sort of show you where the errors are, then it wouldn't work.
+
+0:17:19	SPEAKER_00
+ But it might work.
+
+0:17:20	SPEAKER_00
+ It might work to do this if their transcripts are pretty close on the words that usually get recognized correctly, which are the function words.
+
+0:17:27	SPEAKER_03
+ Well, actually, you know, there's an even easier way.
+
+0:17:29	SPEAKER_03
+ We don't really need a beep model.
+
+0:17:31	SPEAKER_03
+ Just extract the segments and do a forced alignment.
+
+0:17:35	SPEAKER_03
+ Right, you can say that the score is good if you say it matches.
+
+0:17:37	SPEAKER_00
+ Right, the individual segments between the beeps.
+
+0:17:40	SPEAKER_00
+ If beeps were like the segments that we get from the transcription tool already, that's what we have done, and it works very well.
+
+0:17:49	SPEAKER_00
+ You can see these segments align and these don't.
+
+0:17:52	SPEAKER_00
+ Then you just have to go back in and figure out where the endpoints of those segments are because some of them will be wrong.
+
+0:17:57	SPEAKER_00
+ Right.
+
+0:17:58	SPEAKER_00
+ Because the beeps were missing by definition.
+
+0:18:00	SPEAKER_00
+ So do you get a score for each alignment?
+
+0:18:02	SPEAKER_00
+ You get, definitely when they don't align at all, it fails.
+
+0:18:09	SPEAKER_00
+ I mean, that's how we found a lot of problems before with words being on the wrong place or something.
+
+0:18:16	SPEAKER_00
+ So a fail alignment is a very good indicator that the words don't match up.
+
+0:18:20	SPEAKER_04
+ And just wondering what it means to fail.
+
+0:18:22	SPEAKER_04
+ Is it the likelihood scores below some threshold?
+
+0:18:24	SPEAKER_00
+ Yeah, it's a, right.
+
+0:18:26	SPEAKER_00
+ You can't match up the, that's why you actually need the text in order to force you to try to match something that gives you a moment.
+
+0:18:31	SPEAKER_00
+ So it's just an idea if it turns out that, I mean, I also like this idea of high and low beeps or, but if, suppose we get one or two errors still per, you know, per transcript, then we might want to try some approach like that.
+
+0:18:51	SPEAKER_03
+ Well, the numbered ones would make it a lot easier because you could then really localize where the, right.
+
+0:18:55	SPEAKER_00
+ So if that doesn't add time for them, it'd be great.
+
+0:19:02	SPEAKER_05
+ Yeah, I think we'll just ask them.
+
+0:19:03	SPEAKER_05
+ Again, especially if there's 100, many hundreds or thousands, I still think it would cut the incidence of this lot if it was possible to break it into a couple of files.
+
+0:19:13	SPEAKER_05
+ Because it, you know.
+
+0:19:14	SPEAKER_00
+ I guess also even for the transcribers, it's quicker to load a smaller file.
+
+0:19:20	SPEAKER_03
+ Yeah, I mean, we could certainly break the meat. We could certainly break 20-inch pieces.
+
+0:19:26	SPEAKER_05
+ And we've already broken them into chunks. So if you have a thousand chunks, then just accumulate it to get 10 things per 100 or, you know, that's true.
+
+0:19:34	SPEAKER_05
+ And then it would be, you know, every now and then it'll be a, a beep missing.
+
+0:19:41	SPEAKER_01
+ So someone's going to talk to Brian.
+
+0:19:43	SPEAKER_03
+ I think that was Chuck.
+
+0:19:44	SPEAKER_03
+ Oh, yeah.
+
+0:19:46	SPEAKER_01
+ I also looked over the text and I was impressed by the accuracy. It looks really good.
+
+0:19:50	SPEAKER_03
+ Yeah, it does look good. I found several errors, but they were not significant.
+
+0:19:54	SPEAKER_03
+ They were all things that I could easily listen to.
+
+0:19:57	SPEAKER_03
+ And sometimes convince myself they said one thing and sometimes the other.
+
+0:20:01	SPEAKER_00
+ I haven't looked at these because I was gone last week.
+
+0:20:06	SPEAKER_00
+ But, but Don had told me that there's a difference in some of the conventions.
+
+0:20:10	SPEAKER_00
+ Oh, yes.
+
+0:20:11	SPEAKER_00
+ But those are all easy things, right?
+
+0:20:13	SPEAKER_01
+ Yeah.
+
+0:20:14	SPEAKER_01
+ And Brian actually forwarded me in advance. He worked very nicely, worked out, set a convention which is intermediate between ours and the ones that they're used to.
+
+0:20:23	SPEAKER_01
+ Okay.
+
+0:20:24	SPEAKER_00
+ Which is really a good, so we can just map them.
+
+0:20:27	SPEAKER_00
+ It'll talk great.
+
+0:20:32	SPEAKER_03
+ Okay.
+
+0:20:36	SPEAKER_03
+ We still haven't really sat down and talked about file reorganization and directory reorganization.
+
+0:20:44	SPEAKER_03
+ So we still have to do that.
+
+0:20:45	SPEAKER_03
+ But I don't think we need to do that in this meeting.
+
+0:20:48	SPEAKER_03
+ But it is something that needs to get done.
+
+0:20:51	SPEAKER_03
+ And I want to also coordinate it with Dave so that we do a level zero back up right after.
+
+0:20:57	SPEAKER_03
+ So we don't waste a lot of tapes.
+
+0:21:01	SPEAKER_03
+ So let's try to do that sometime.
+
+0:21:08	SPEAKER_03
+ We also still have to make a decision about my issues.
+
+0:21:12	SPEAKER_03
+ What we want to do with that.
+
+0:21:15	SPEAKER_01
+ I thought we were going to get two more of the.
+
+0:21:18	SPEAKER_03
+ And just swap them in and out.
+
+0:21:20	SPEAKER_03
+ Yeah, we could certainly do that.
+
+0:21:22	SPEAKER_02
+ So one note.
+
+0:21:23	SPEAKER_03
+ So Morgan, just to.
+
+0:21:26	SPEAKER_03
+ I think you weren't at the meeting last week.
+
+0:21:31	SPEAKER_00
+ Apparently a bunch of the EDU folks really hate this style might.
+
+0:21:35	SPEAKER_00
+ Well, they didn't say hate, but they.
+
+0:21:38	SPEAKER_03
+ They come on time to their meetings in order to not be left the last person who has to sit by us.
+
+0:21:43	SPEAKER_03
+ That's that's a fairly strong indication of dislike.
+
+0:21:47	SPEAKER_00
+ Which one is the crowd?
+
+0:21:49	SPEAKER_03
+ The people you like three or four people who really like them and all the others.
+
+0:21:53	SPEAKER_03
+ And the number of the Sony ones and just unplug them and plug them in.
+
+0:21:56	SPEAKER_03
+ The only thing is that when you fill out the digit forms, you have to be sure to indicate which mic was actually used.
+
+0:22:02	SPEAKER_03
+ So that's easy to do.
+
+0:22:05	SPEAKER_03
+ It moves us away from this uniform.
+
+0:22:07	SPEAKER_03
+ All the mics are the same, which some people had said was a benefit.
+
+0:22:13	SPEAKER_01
+ The other thing too is you said that the acoustic quality of the one that you're wearing, the fancy one is actually somewhat better than.
+
+0:22:20	SPEAKER_01
+ It is.
+
+0:22:21	SPEAKER_01
+ So I don't know if it's a noticeable difference, but it is.
+
+0:22:24	SPEAKER_01
+ I personally really prefer that model.
+
+0:22:27	SPEAKER_01
+ So I think we've got this problem of people having different.
+
+0:22:31	SPEAKER_05
+ You know, there are so many things about this that are not uniform.
+
+0:22:34	SPEAKER_05
+ I think having some modicum of uniformity is a good thing, but you're just not going to.
+
+0:22:39	SPEAKER_05
+ I mean, we've.
+
+0:22:42	SPEAKER_05
+ For instance, just the fact that people sit in different positions, different times.
+
+0:22:47	SPEAKER_05
+ Exactly where they put it with respect to their mouth is different each time.
+
+0:22:53	SPEAKER_05
+ I just don't.
+
+0:22:55	SPEAKER_05
+ I mean, I think we're getting rid of major differences.
+
+0:22:57	SPEAKER_05
+ Like we're not using the lapel anymore and so forth, but the other stuff is just going to.
+
+0:23:01	SPEAKER_05
+ Some very ability we're going to have to accept.
+
+0:23:04	SPEAKER_01
+ I understand.
+
+0:23:05	SPEAKER_01
+ It's fun.
+
+0:23:06	SPEAKER_01
+ I would say that I find this model easier to adjust.
+
+0:23:09	SPEAKER_01
+ That's one of the reasons I don't like these because I keep bending it.
+
+0:23:13	SPEAKER_05
+ Yeah, I happen to like the old one better, but yeah, what about just a different headband thing?
+
+0:23:19	SPEAKER_00
+ Or even if we can attach two headband like we have lots of choices of microphones.
+
+0:23:25	SPEAKER_00
+ So I mean, can we keep the microphones and just somehow attach a more comfortable thing over your head?
+
+0:23:33	SPEAKER_00
+ That's my problem with this one.
+
+0:23:35	SPEAKER_00
+ The ear thing comes out to here.
+
+0:23:37	SPEAKER_00
+ It doesn't even fit over my ear.
+
+0:23:39	SPEAKER_00
+ For some of the others, their ears were shaped in a way that didn't hold the...
+
+0:23:45	SPEAKER_03
+ So we can go microphone shopping and get more microphones.
+
+0:23:49	SPEAKER_03
+ I'm not sure what we should do.
+
+0:23:51	SPEAKER_05
+ I mean, here's another argument against worrying too much about uniformity.
+
+0:23:55	SPEAKER_05
+ We have something like 45 hours of data collected.
+
+0:23:59	SPEAKER_05
+ We're also going to be integrating this corpus stuff that's being done at UW with entirely different microphones.
+
+0:24:05	SPEAKER_05
+ So I think getting away from the little pal, having close mounted mics, having people adjust them as comfortable as they can...
+
+0:24:15	SPEAKER_03
+ Well, I agree with that.
+
+0:24:17	SPEAKER_03
+ So my feeling is we should get mics that people like.
+
+0:24:21	SPEAKER_03
+ And so my feeling is going out and buying a few more mics is fine.
+
+0:24:25	SPEAKER_03
+ So should I just go do that?
+
+0:24:27	SPEAKER_03
+ And then also should we go ahead and get another wireless system for whatever it's going to be?
+
+0:24:35	SPEAKER_05
+ Another wireless system.
+
+0:24:37	SPEAKER_05
+ You mean another transmitter?
+
+0:24:39	SPEAKER_03
+ No, actually we need another box because each box in the back room can only take six.
+
+0:24:45	SPEAKER_05
+ Oh, to get rid of the wired things.
+
+0:24:47	SPEAKER_05
+ Yes, absolutely.
+
+0:24:49	SPEAKER_05
+ With the exception of forgetting the chains, the batteries from time to time, we've really had no trouble with this at all.
+
+0:24:55	SPEAKER_05
+ And the wired stuff is just going to continue to degrade.
+
+0:24:59	SPEAKER_05
+ Nobody will remember how to repair a gym box or a gym let.
+
+0:25:07	SPEAKER_03
+ Okay, then I will just go do that and send the bill to whoever will pay.
+
+0:25:15	SPEAKER_00
+ I have a quick question about microphones.
+
+0:25:17	SPEAKER_00
+ I got this crazy idea that in the future people will just walk around with the microphones that they use for their cell phones, you know, these little boom ones, like, and really go to meetings with close talking mics if they're their own personal microphone.
+
+0:25:35	SPEAKER_00
+ And so I'm wondering if we can get a couple though.
+
+0:25:37	SPEAKER_00
+ I don't know how good quality there are, but it would be really interesting to see if they're good enough.
+
+0:25:41	SPEAKER_00
+ Do you mean the kind of hang from the ear or something?
+
+0:25:43	SPEAKER_00
+ They kind of guys that like to look like they're really cool at airports.
+
+0:25:47	SPEAKER_05
+ Yeah, I don't know that one.
+
+0:25:49	SPEAKER_05
+ It's a cell phone.
+
+0:25:51	SPEAKER_00
+ Oh, yeah, you do.
+
+0:25:53	SPEAKER_00
+ You cannot know that.
+
+0:25:55	SPEAKER_00
+ They're probably talking to nobody.
+
+0:25:57	SPEAKER_00
+ They have little headsets or what are they?
+
+0:25:59	SPEAKER_00
+ They wear the heads.
+
+0:26:01	None
+ Well, there you go.
+
+0:26:01	SPEAKER_03
+ Yes, that looks sort of like that.
+
+0:26:03	SPEAKER_03
+ That one's even bigger than most of the ones I've seen.
+
+0:26:05	SPEAKER_05
+ So where does the mic go?
+
+0:26:07	SPEAKER_01
+ How do you wear that?
+
+0:26:09	SPEAKER_05
+ You put it over the corner of your ear.
+
+0:26:11	SPEAKER_01
+ I'm having a microphone, a headphone problem here.
+
+0:26:13	SPEAKER_04
+ There's another kind which goes in your ear and it hangs down.
+
+0:26:15	SPEAKER_04
+ There's a little bit of that I've seen here.
+
+0:26:17	SPEAKER_00
+ Okay, so whatever people sort of wear to use, yeah, something like with their cell phones, it'd be really great.
+
+0:26:25	SPEAKER_00
+ I think if we can argue to that.
+
+0:26:27	SPEAKER_00
+ It's interesting to see people who like that.
+
+0:26:29	SPEAKER_01
+ The acoustics on this are really better than when I talk into it directly.
+
+0:26:33	SPEAKER_03
+ Yeah, the biggest issue is the stupid cable that Sony, the connector that Sony has, it's non-standard and so you can't just plug something in.
+
+0:26:41	SPEAKER_03
+ You need to get it wide.
+
+0:26:43	SPEAKER_05
+ Oh, I'm sorry. You're talking about that as a possible thing to plug into the Sony's.
+
+0:26:47	SPEAKER_00
+ Just as an example for the future of the fact that maybe people will wear those microphones or some people might to meet.
+
+0:26:55	SPEAKER_00
+ Well, some people will, yeah.
+
+0:26:57	SPEAKER_00
+ I'm not saying there's not a far-filed microphone application, but I always wondered how well they would work.
+
+0:27:03	SPEAKER_04
+ It is an interesting idea.
+
+0:27:05	SPEAKER_04
+ I think the building adapter that went from, because I think mine looks like this too, with this dial plug that went to that, right, then we just have adapters and people plug them in.
+
+0:27:13	SPEAKER_03
+ You could use the...
+
+0:27:15	SPEAKER_03
+ I don't know if you can or not.
+
+0:27:17	SPEAKER_03
+ It's just an idea.
+
+0:27:19	SPEAKER_03
+ Well, I mean, another is be a better idea than redoing the wiring all the time.
+
+0:27:23	SPEAKER_05
+ Another side of that is that in principle, if it all comes together, supposedly we're going to get two iran boards, a little later on in the year.
+
+0:27:35	SPEAKER_05
+ And so we're going to want to be thinking in terms of some wireless connection to it.
+
+0:27:41	SPEAKER_05
+ So we have some kind of little something.
+
+0:27:45	SPEAKER_05
+ And we have a wireless connection.
+
+0:27:47	SPEAKER_05
+ This board is doing the computation for the recognition.
+
+0:27:51	SPEAKER_05
+ And so we want to be able to show off to somebody.
+
+0:27:53	SPEAKER_05
+ We have a base station somewhere, and you're wandering around hands-free.
+
+0:27:59	SPEAKER_04
+ I don't understand. So there's a mic that plugs into the iran board?
+
+0:28:03	SPEAKER_05
+ No. No. What I'm saying is that we're going to have to put together some kind of a little superstructure, some sort of demo box that doesn't do a whole lot, but it somehow connects to remotely to this iran board, which will be doing the real computation.
+
+0:28:19	SPEAKER_05
+ Oh, nice.
+
+0:28:21	SPEAKER_05
+ No, we're not going to attempt to build...
+
+0:28:23	SPEAKER_05
+ Do the real work of building a portable device that's little that is doing all the computation we want to do for the recognition and the far-field-like compensation and all that stuff.
+
+0:28:35	SPEAKER_05
+ So we're going to do all that on this powerful board.
+
+0:28:39	SPEAKER_05
+ And have some wireless connection to it.
+
+0:28:41	SPEAKER_05
+ And then the question is, what does it look like?
+
+0:28:43	SPEAKER_05
+ Does it look like something that you hold like this, or do we make a big deal out of it that you hold it at arms length so that you can see some display, or do we have one of these?
+
+0:28:55	SPEAKER_05
+ I don't know. So it's these are all possibilities.
+
+0:28:59	SPEAKER_03
+ What I was envisioning was a PDA with a cellular link and with one of the short-range wireless.
+
+0:29:07	SPEAKER_03
+ Just to capture the audio on the PDA and set the audio over the wireless net.
+
+0:29:13	SPEAKER_05
+ Yeah. Bluetooth sort of thing.
+
+0:29:15	SPEAKER_03
+ Bluetooth is shorter range, but you could use Bluetooth.
+
+0:29:19	SPEAKER_03
+ Whatever the network guys already have hooked up for this floor, I don't remember what it's called.
+
+0:29:27	SPEAKER_03
+ Okay, then another issue on file reorganization is making data available to people outside XC.
+
+0:29:35	SPEAKER_03
+ So specifically the UW folks have been wanting to get access to it.
+
+0:29:39	SPEAKER_03
+ So I think the right thing to do for that is figure out how to do CVS without compromising security.
+
+0:29:45	SPEAKER_03
+ Some SSH tunneled CVS.
+
+0:29:49	SPEAKER_04
+ Well, I'll give them access.
+
+0:29:53	SPEAKER_04
+ I was reading through some of the CVS documentation and you can just substitute CVS for your RSH command.
+
+0:29:57	SPEAKER_03
+ Yes, except that the command has to not take a password because it's non-interactive.
+
+0:30:05	SPEAKER_03
+ And so the only way to do that is with S-host switches and secure.
+
+0:30:09	SPEAKER_03
+ So we still have to sort of look at it a little bit.
+
+0:30:13	SPEAKER_03
+ I mean, I'm sure it's been solved and I just haven't found the solution yet.
+
+0:30:17	SPEAKER_03
+ It's going to be a problem a lot of people have.
+
+0:30:21	SPEAKER_05
+ Well, we're talking about fairly limited group.
+
+0:30:25	SPEAKER_05
+ Is it a small enough group that they could just have accounts?
+
+0:30:29	SPEAKER_03
+ Not really because then we have the coordination issue.
+
+0:30:33	SPEAKER_03
+ I mean, so one thing they could do, I mean, I guess that's true.
+
+0:30:35	SPEAKER_03
+ They could simply log into XC.
+
+0:30:37	SPEAKER_03
+ Yeah, they're going to have to have everything locally.
+
+0:30:39	SPEAKER_04
+ If they use SSH, they have to have an account.
+
+0:30:41	SPEAKER_03
+ Yeah, except they could share one.
+
+0:30:45	SPEAKER_03
+ The SSH accounts and the user accounts don't have to be similar.
+
+0:30:53	SPEAKER_03
+ So, I mean, there are lots of ways of doing it.
+
+0:30:57	SPEAKER_03
+ But if we can't figure out a remote way of doing it, just letting them log into XC might be okay.
+
+0:31:03	SPEAKER_03
+ So the intention was to put everything except the audio files themselves under revision control.
+
+0:31:09	SPEAKER_03
+ And the audio files, it's not worth doing because they're too big.
+
+0:31:11	SPEAKER_03
+ You're never going to be copying them around and making working copies of them.
+
+0:31:15	SPEAKER_03
+ Right.
+
+0:31:17	SPEAKER_03
+ And then the other issue, Jane and I spoke of briefly, is just general permission issues.
+
+0:31:23	SPEAKER_03
+ That right now lots of people create the files and then we have group meeting recorder.
+
+0:31:27	SPEAKER_03
+ But that means anyone in the meeting recorder group can overwrite the files.
+
+0:31:31	SPEAKER_03
+ And so that's pretty coarse level of granularity.
+
+0:31:35	SPEAKER_03
+ So we might want to think about doing a meeting recorder user owner for those files.
+
+0:31:40	SPEAKER_03
+ And then doing group slightly differently.
+
+0:31:42	SPEAKER_03
+ But I think what we have now.
+
+0:31:44	SPEAKER_00
+ I think what we have now.
+
+0:31:46	SPEAKER_00
+ I mean, if you just have one user that...
+
+0:31:50	SPEAKER_03
+ Another option is to make a non-make it owned by a not real user.
+
+0:31:58	SPEAKER_03
+ And then only root will be able to do it.
+
+0:32:00	SPEAKER_03
+ But root is pretty tightly controlled here.
+
+0:32:04	SPEAKER_03
+ So I don't think that's a good solution.
+
+0:32:06	SPEAKER_01
+ There are scripts that run and when it's finished compressing, would it be possible for the script to change the permissions on the file to be more straight?
+
+0:32:16	SPEAKER_03
+ Yes, but if you do that then someone who isn't the owner can't unchange it.
+
+0:32:22	SPEAKER_01
+ But after the meeting's done, would they want to?
+
+0:32:26	SPEAKER_03
+ Yeah, as I said, it's just a question of, do you want to have to track down root if you have to make any change?
+
+0:32:32	SPEAKER_00
+ But it doesn't have to be root. It could be some other user that we all can SUX too.
+
+0:32:36	SPEAKER_00
+ That's true.
+
+0:32:38	SPEAKER_03
+ Yeah, security issues with that.
+
+0:32:40	SPEAKER_00
+ That's true.
+
+0:32:42	SPEAKER_00
+ I mean...
+
+0:32:43	SPEAKER_04
+ So we do with doctor speech though, right?
+
+0:32:45	SPEAKER_03
+ No, with doctor speech it's just a group.
+
+0:32:47	SPEAKER_03
+ So there are lots of different owners of the files, but the group is always doctor speech or real usually.
+
+0:32:53	SPEAKER_04
+ But there is a user doctor speech, right?
+
+0:32:57	SPEAKER_04
+ I mean, I SUX to doctor speech.
+
+0:32:59	SPEAKER_04
+ Oh, do you?
+
+0:33:00	SPEAKER_04
+ Well, that's what I meant.
+
+0:33:02	SPEAKER_00
+ A directory on that.
+
+0:33:03	SPEAKER_00
+ User like meeting root or something.
+
+0:33:05	SPEAKER_00
+ Okay.
+
+0:33:06	SPEAKER_00
+ I know.
+
+0:33:10	SPEAKER_03
+ I mean, I'm not too worried because the group is pretty small.
+
+0:33:14	SPEAKER_03
+ But yeah.
+
+0:33:16	SPEAKER_01
+ It also seems like once it's been stored that night, it's possible to recover from backups.
+
+0:33:21	SPEAKER_01
+ So the main risk is avoiding it being accidentally deleted during the day that it was recorded.
+
+0:33:28	SPEAKER_03
+ Well, you then also just have the general problem of permission on the other files.
+
+0:33:35	SPEAKER_03
+ Do you want people checking out a transcript file when they find an error and correcting it, or do you want it to go through you?
+
+0:33:43	SPEAKER_01
+ Yeah.
+
+0:33:45	SPEAKER_01
+ Yeah.
+
+0:33:46	SPEAKER_01
+ And I prefer it to go through me.
+
+0:33:48	SPEAKER_03
+ If that means that you're going to have to be available for people all the time who say there's an error here, rather than just them just going in and correcting it.
+
+0:33:56	SPEAKER_04
+ Well, it's CVS, though. You don't actually have to do it that way.
+
+0:33:59	SPEAKER_03
+ Well, but you have a choice.
+
+0:34:01	SPEAKER_03
+ Either you let people do it themselves or you don't.
+
+0:34:04	SPEAKER_04
+ What I'm saying is that it can be the case that people can do it themselves and it can be reviewed.
+
+0:34:10	SPEAKER_04
+ Right?
+
+0:34:11	SPEAKER_04
+ Right.
+
+0:34:12	SPEAKER_04
+ I mean, it's not like it's one or the other.
+
+0:34:14	SPEAKER_06
+ We can do both.
+
+0:34:15	SPEAKER_03
+ Yeah, you can do both.
+
+0:34:16	SPEAKER_03
+ Right.
+
+0:34:17	SPEAKER_03
+ So you can get email.
+
+0:34:18	SPEAKER_03
+ Send email to Jane that someone has done a, right?
+
+0:34:21	SPEAKER_01
+ I want to also say that, you know, this is my view on this is that once it's in a file, once it's in a final version and I'm working toward all these final versions, then it can go into this next row, this next row, but it's sort of counterproductive to have changes made, which I would be making if I just got in that far on the file.
+
+0:34:38	SPEAKER_03
+ You know, it's, it's, well, so you don't have to release it to the world until you're ready to.
+
+0:34:43	SPEAKER_03
+ That's right.
+
+0:34:44	SPEAKER_03
+ So the question is, so you would keep it in a separate file structure until you were ready to put it in the repository.
+
+0:34:51	SPEAKER_00
+ Or just keep the lock on.
+
+0:34:55	SPEAKER_00
+ Yeah, just keep the lock on.
+
+0:34:57	SPEAKER_00
+ Check it out.
+
+0:34:58	SPEAKER_00
+ Check it out and don't let anyone check it out.
+
+0:34:59	SPEAKER_00
+ No, it doesn't, the CVS doesn't work that way.
+
+0:35:00	SPEAKER_04
+ Oh, it doesn't.
+
+0:35:01	SPEAKER_04
+ There's no, there's no lock when you check something out, not like RCS.
+
+0:35:04	SPEAKER_04
+ No, there's everybody can check out anything.
+
+0:35:07	SPEAKER_04
+ Oh, the C stands for concurrent.
+
+0:35:09	SPEAKER_00
+ Why not use RCS at that point?
+
+0:35:10	SPEAKER_00
+ Because it's not remote.
+
+0:35:11	SPEAKER_00
+ It's not remote.
+
+0:35:14	SPEAKER_03
+ The nice thing about CVS is, is you can be on a different machine.
+
+0:35:18	SPEAKER_00
+ But at that point, we only want probably Jane to be in control anyway.
+
+0:35:24	SPEAKER_03
+ I know because UW wants to have access to these files.
+
+0:35:28	SPEAKER_03
+ That's the whole point.
+
+0:35:29	SPEAKER_00
+ But not to modify them right, just to read them.
+
+0:35:31	SPEAKER_03
+ Well, if they, and if they record a meeting and they'd create a key file and they find an error in their key file, they shouldn't have to tell us about that so that they can create correct an error in one of their files.
+
+0:35:43	SPEAKER_03
+ So that's why I want to do it.
+
+0:35:44	SPEAKER_03
+ So that's why I want to do it.
+
+0:35:45	SPEAKER_01
+ Oh, key files different.
+
+0:35:46	SPEAKER_01
+ Different than what?
+
+0:35:48	SPEAKER_01
+ Well, key file has the extra attributes that if you notice that there are lots of spikes on channel so and so it's useful as a repository for putting it there.
+
+0:35:55	SPEAKER_01
+ And also if you notice that there was an extra speaker and didn't get mentioned in the key file, but they were only there for a second, but it's useful to mention that they're there.
+
+0:36:04	SPEAKER_01
+ So I think that the key files use it for notations related to the meeting.
+
+0:36:07	SPEAKER_03
+ But the meetings are going to be the same way.
+
+0:36:09	SPEAKER_03
+ So UW records a meeting.
+
+0:36:10	SPEAKER_03
+ We transcribe it.
+
+0:36:11	SPEAKER_03
+ Yeah.
+
+0:36:12	SPEAKER_03
+ A few months later, they listened to it and they say, oh, they got that acronym wrong.
+
+0:36:17	SPEAKER_00
+ Yeah.
+
+0:36:18	None
+ Why?
+
+0:36:18	SPEAKER_00
+ Why?
+
+0:36:19	SPEAKER_00
+ Well, it's sort of not really question about permissions, but more of procedure.
+
+0:36:24	SPEAKER_00
+ Either those all go through Jane or through someone or they all don't.
+
+0:36:28	SPEAKER_00
+ But it's sort of, and if they all do, then there isn't a problem, right?
+
+0:36:32	SPEAKER_00
+ Because once they give us the data, it's ours.
+
+0:36:35	SPEAKER_00
+ And if they want to make change it, I mean, ours to sort of transcribe and annotate.
+
+0:36:40	SPEAKER_03
+ And if they want to make change it, it would be nice to be one repository.
+
+0:36:45	SPEAKER_03
+ And if we don't let them modify their own data, they're not going to store their data in our repository, or if we make it inconvenient for them to change their data.
+
+0:36:54	SPEAKER_03
+ So then if they, you know, I'm just looking at the other way around.
+
+0:36:56	SPEAKER_03
+ So let's say we,
+
+0:36:57	SPEAKER_00
+ And they use RCS at that point, where you can really lock a file. I mean, I'm worried if you can't lock a file, this to me sounds very scary.
+
+0:37:09	SPEAKER_00
+ And if they have accounts here and they're modifying, if they're, if they're so closely linked that they're actually modifying transcripts and key files, then they could do it by, you know, secure shelling into Xe under RCS at that point.
+
+0:37:24	SPEAKER_03
+ Well, I don't see a real difference between RCS and any other system.
+
+0:37:27	SPEAKER_03
+ I mean, it's just mechanisms.
+
+0:37:28	SPEAKER_03
+ The nice thing about CVS is that you can have multiple people modifying.
+
+0:37:32	SPEAKER_03
+ And if the changes don't overlap each other, they can just do it.
+
+0:37:37	SPEAKER_03
+ So the problem with RCS is that if two people want to modify a file at the same time they can't, because the granularity of locking is at the file level.
+
+0:37:47	SPEAKER_05
+ What does CVS do if they, if they do overlap?
+
+0:37:50	SPEAKER_03
+ There are lots of different policies for dealing with it.
+
+0:37:53	SPEAKER_04
+ But typically a person has to mediate, you know, which changes actually get you to go through.
+
+0:37:59	SPEAKER_02
+ Yeah, to go through which one is.
+
+0:38:01	SPEAKER_00
+ So maybe there is a way in CVS to effectively lock something.
+
+0:38:06	SPEAKER_00
+ If you don't want people to make any changes.
+
+0:38:09	SPEAKER_03
+ At the repository level there certainly is.
+
+0:38:11	SPEAKER_03
+ You can mark a file as you can't check this out.
+
+0:38:15	SPEAKER_00
+ Oh, so CVS is pretty good.
+
+0:38:18	SPEAKER_00
+ And you can use CVS and, you know, just have remote access.
+
+0:38:22	SPEAKER_00
+ But then it's up to whoever is sort of responsible for that level of transcription to decide how and when to put these blocks.
+
+0:38:30	SPEAKER_03
+ But it's just like source code, right?
+
+0:38:32	SPEAKER_03
+ So that when you're developing it and it's really rough, you don't put it in the repository.
+
+0:38:36	SPEAKER_03
+ You wait to the point where you're ready to release it.
+
+0:38:38	SPEAKER_03
+ And then you put it in the repository.
+
+0:38:40	SPEAKER_03
+ Yes, so there were other people on there.
+
+0:38:41	SPEAKER_04
+ Maybe the model, it's a little bit different.
+
+0:38:43	SPEAKER_04
+ CVS, when you check something out, you actually create your own directory with copies of everything in it.
+
+0:38:48	SPEAKER_04
+ And that's what you work on.
+
+0:38:50	SPEAKER_04
+ So until you're ready to check it in, nobody sees anything you've done.
+
+0:38:54	SPEAKER_04
+ And then when you check it in, it puts sort of, you know, every change you've done.
+
+0:38:57	SPEAKER_04
+ Right.
+
+0:38:58	SPEAKER_00
+ It goes into the central.
+
+0:38:59	SPEAKER_00
+ So if that's, I guess it depends on James, you know, if that's, if that model works for the transcripts, then that's fine.
+
+0:39:08	SPEAKER_00
+ But if that allows someone to come in and modify while you're modifying, and they turn out to be changes that, you know, would have better to wait until your version came out then.
+
+0:39:21	SPEAKER_00
+ That's really up to you, not up to software.
+
+0:39:23	SPEAKER_01
+ I also think that the type of change varies.
+
+0:39:26	SPEAKER_01
+ I think it's a very good point because what if the, what if one set of changes, one person was making was with reference to some typographical convention.
+
+0:39:35	SPEAKER_01
+ And the other person, quite unknowingly, was changing it the other way around.
+
+0:39:40	SPEAKER_01
+ And you could end up with a real mess in terms of like consistency of conventions across a file.
+
+0:39:44	SPEAKER_01
+ There is an argument to be made for having a single editor editing at that level.
+
+0:39:47	SPEAKER_01
+ Well, yeah, there would have to be somebody to enforce the consistency.
+
+0:39:50	SPEAKER_01
+ That's right.
+
+0:39:51	SPEAKER_01
+ I also like, this is a phraseology of this level of, I don't remember how you put it, but this at this level of transcription or whatever, it means like they're different layers of whatever and different types of conventions.
+
+0:40:02	SPEAKER_01
+ And if it were an acronym, then I would, I think that it would make sense for them to have input into that level of things.
+
+0:40:10	SPEAKER_01
+ But I wouldn't want to be changing.
+
+0:40:11	SPEAKER_03
+ I'm just, imagine that we reverse this, and they were keeping the repository, and we were collecting meetings and sending them to them.
+
+0:40:17	SPEAKER_03
+ If I found an error, and I sent them email and said, here's this error, and I didn't get a response for a couple of weeks, I would stop sending them to my data, and I would start collecting it here, and we would end up with two corpora.
+
+0:40:28	SPEAKER_03
+ Well.
+
+0:40:29	SPEAKER_03
+ And I don't want that to happen.
+
+0:40:30	SPEAKER_03
+ I do.
+
+0:40:31	SPEAKER_03
+ So we have to make it convenient for them to make changes that they want to make.
+
+0:40:35	SPEAKER_01
+ Well, I see now we're back into the same situation as when we're talking about allowing people to edit the transcripts to become public. This question of how easy or how hard to modify and how that impacts the amount of changing that's done.
+
+0:40:48	SPEAKER_01
+ And I think that it's, I have received some suggestions for change which I've made.
+
+0:40:55	SPEAKER_01
+ And I think with an acronym, that's a clear case where it would be easy change to incorporate.
+
+0:41:00	SPEAKER_01
+ But it would worry me to have people having free reign to change these things because of the need to have consistent conventions and people who are only just visiting the data might not have a sense of a larger system.
+
+0:41:14	SPEAKER_00
+ Yeah, that's what I would be worried about.
+
+0:41:16	SPEAKER_04
+ Well, I think there are probably ways that you can say that only certain users are allowed to change things.
+
+0:41:22	SPEAKER_04
+ So we can probably restrict it to be casual users, or just browsing can just get it read-only, can't check into the archive, or as we could say other people, these people are allowed to actually submit changes.
+
+0:41:35	SPEAKER_04
+ I think one thing that's probably everybody would agree on is that there will never be a point where we can say that for sure there's no problems with any of the transcripts.
+
+0:41:46	SPEAKER_04
+ I mean, there's, you know, some things are going to get overlooked at some point, or somebody's going to want to make a change somehow.
+
+0:41:52	SPEAKER_04
+ So we need to have some mechanism for handling changes in the future.
+
+0:41:58	SPEAKER_01
+ I agree, but I have to also add one other thing which is before I forget it, which is Adam's point about when you were reviewing the IBM transcripts, this is mentioned at the beginning of the meeting, you said that there were some places where it wasn't what was written already, but you could see how they might have thought that's what it said.
+
+0:42:13	SPEAKER_01
+ So it's not just a right and wrong thing.
+
+0:42:15	SPEAKER_01
+ Sometimes they're true, there are absolutely stresses where there is no, if you were at the meeting and you could ask the person, maybe, you know, they could have told you, but five minutes later they might not have been able to tell you, even if they were listening to it.
+
+0:42:27	SPEAKER_01
+ So sometimes it isn't right and wrong, sometimes it's multiple interpretations.
+
+0:42:31	SPEAKER_01
+ Good point.
+
+0:42:32	SPEAKER_01
+ But of course this does raise the possibility of allowing an extra annotation for, you know, alternative interpretations of a stretch.
+
+0:42:39	SPEAKER_01
+ But I just wanted to say it isn't simply right or wrong, or overlooked or not overlooked.
+
+0:42:43	SPEAKER_01
+ Sometimes they're truly ambiguous and nice to have a notation for that.
+
+0:42:48	SPEAKER_00
+ I mean, I like that idea because even a casual user can always send email to whoever's in charge and say, you know, we'd like these changes and, you know, hopefully we'll give them a response.
+
+0:43:00	SPEAKER_00
+ And if they really do it a lot and they say, we're a casual user, but we want a chance to change the transcripts.
+
+0:43:05	SPEAKER_00
+ And we can face that.
+
+0:43:07	SPEAKER_00
+ You can write 100.
+
+0:43:09	SPEAKER_00
+ I don't really see the people at UW that I know of right now making huge, investing huge amounts of time and changing transcripts.
+
+0:43:16	SPEAKER_00
+ But it could be wrong.
+
+0:43:17	SPEAKER_03
+ We could not transcripts, but it would be nice to have one mechanism for all the files.
+
+0:43:21	SPEAKER_03
+ And they're certainly going to want to change tools.
+
+0:43:24	SPEAKER_03
+ And so, you know, it's the same as source code.
+
+0:43:26	SPEAKER_03
+ You release source code at some point.
+
+0:43:28	SPEAKER_03
+ And either you have to do everything or you share responsibility.
+
+0:43:32	SPEAKER_04
+ Yeah, I mean, a lot of the open source projects face the same problem.
+
+0:43:35	SPEAKER_04
+ Right.
+
+0:43:36	SPEAKER_04
+ You know, anybody can check out the code, but not everybody can check it in.
+
+0:43:40	SPEAKER_00
+ Right. And there's some happy medium and we don't know what that is yet until we get feedback from people.
+
+0:43:46	SPEAKER_00
+ But what if it's okay to just handle it with sort of a person in charge of the philosophy behind it?
+
+0:43:53	SPEAKER_00
+ And some people with permissions maybe buy request to make changes.
+
+0:43:57	SPEAKER_00
+ That we don't just give people permissions if they're not going to make changes.
+
+0:44:00	SPEAKER_00
+ Because I've overwritten a file by mistake not wanting to have done that because I didn't think I had permission when I did.
+
+0:44:07	SPEAKER_00
+ And then just seeing if that is enough to handle the transcript changes.
+
+0:44:15	SPEAKER_00
+ I'm just worried about letting everybody go in and make changes.
+
+0:44:18	SPEAKER_00
+ Because it's really easy when you're trying to run the linements and there's a word you want to fix to go in and do that and then mess up other things.
+
+0:44:27	SPEAKER_00
+ If you don't know the overall philosophy behind the conventions.
+
+0:44:32	SPEAKER_04
+ There is also the possibility, remember in CBS when we talk about making changes, there's sort of two types that can be made to your local or to the global.
+
+0:44:41	SPEAKER_04
+ And so people can make changes to their local and they screw those up.
+
+0:44:44	SPEAKER_04
+ Exactly.
+
+0:44:45	SPEAKER_04
+ And that's only on them. It's the checking in part that you really care about.
+
+0:44:50	SPEAKER_04
+ And that we can control with who can check things in and stuff.
+
+0:44:54	SPEAKER_04
+ So I think we can do this.
+
+0:44:55	SPEAKER_00
+ Yeah, start by making it a really tight control and then as people really need the control, you can...
+
+0:45:00	SPEAKER_00
+ They can still check it out.
+
+0:45:01	SPEAKER_00
+ Asher chain weather.
+
+0:45:02	SPEAKER_04
+ Yeah, because they can still check out full copies and make whatever changes they want to their local copies.
+
+0:45:06	SPEAKER_04
+ And it won't affect the global official ones at all.
+
+0:45:10	SPEAKER_03
+ But what I want to avoid is ending up with two corpora.
+
+0:45:13	SPEAKER_03
+ Yes. And so if you make it too hard for them to check back in, they'll check it out once.
+
+0:45:18	SPEAKER_03
+ They'll make all the changes. They'll never tell us about the changes and we'll get two different corpora.
+
+0:45:25	SPEAKER_00
+ I think we're already going to...
+
+0:45:27	SPEAKER_00
+ I mean, there's already some chance that different annotations, different places, you know.
+
+0:45:32	SPEAKER_00
+ But you can control that by knowing you're making two corpora or knowing that you're adding annotations on one version and you don't have the latest corrections maybe at that point.
+
+0:45:43	SPEAKER_00
+ And then you finish the project and you realize that there were corrections made on your originals and then you have to merge them.
+
+0:45:50	SPEAKER_00
+ And the thing that makes it okay to do that is knowing where the sync time boundaries are.
+
+0:45:56	SPEAKER_00
+ Because you can automatically pretty much merge things if you've only got 20 words or so in an utterance.
+
+0:46:01	SPEAKER_00
+ It's when you get the whole meeting.
+
+0:46:03	SPEAKER_00
+ And the sync times have changed.
+
+0:46:05	SPEAKER_00
+ Or you can't correspond to a previous version with sync times that you get in trouble.
+
+0:46:10	SPEAKER_00
+ So...
+
+0:46:17	SPEAKER_00
+ Was there anything else?
+
+0:46:19	SPEAKER_00
+ Nope.
+
+0:46:20	SPEAKER_03
+ Should we do some digits?
+
+0:46:25	SPEAKER_03
+ Transcript L116?
+
+0:46:28	SPEAKER_00
+ Are we doing them simultaneously or what?
+
+0:46:31	SPEAKER_00
+ I wasn't planning on doing it simultaneously.
+
+0:46:33	SPEAKER_03
+ Transcript L116?
+
+0:46:35	SPEAKER_03
+ 826-445-199.
+
+0:46:38	SPEAKER_03
+ 1-311-8736-7117.
+
+0:46:41	SPEAKER_03
+ 828-380-382-9.
+
+0:46:45	SPEAKER_03
+ 2-758-430997.
+
+0:46:49	SPEAKER_03
+ 094-484-474.
+
+0:46:52	SPEAKER_03
+ 764-1889-87.
+
+0:46:56	SPEAKER_03
+ 3246-431-928.
+
+0:46:59	SPEAKER_03
+ 476-24045-9651.
+
+0:47:04	SPEAKER_00
+ Transcript L117-758-513-0714.
+
+0:47:11	SPEAKER_00
+ 2-694-5623-7044.
+
+0:47:15	SPEAKER_00
+ 7-513-74815.
+
+0:47:19	SPEAKER_00
+ 626-75376.
+
+0:47:23	SPEAKER_00
+ 806-976-142.
+
+0:47:26	SPEAKER_00
+ 1-39-852310.
+
+0:47:29	SPEAKER_00
+ 884-4295.
+
+0:47:32	SPEAKER_00
+ 461-103-224.
+
+0:47:36	SPEAKER_04
+ Transcript L-127.
+
+0:47:39	SPEAKER_04
+ 282-276-864.
+
+0:47:43	SPEAKER_04
+ 883-206-262.
+
+0:47:47	SPEAKER_04
+ 8756-7617-00.
+
+0:47:51	SPEAKER_04
+ 78-3075-275-383.
+
+0:47:56	SPEAKER_04
+ 557-308-5957.
+
+0:48:00	SPEAKER_04
+ 1-482-896670.
+
+0:48:04	SPEAKER_04
+ 2936-92150580.
+
+0:48:09	SPEAKER_04
+ 976-603-976.
+
+0:48:13	SPEAKER_01
+ Transcript L129-0900539255.
+
+0:48:19	SPEAKER_01
+ 6-037-709-889.
+
+0:48:24	SPEAKER_01
+ 075-969-1182.
+
+0:48:28	SPEAKER_01
+ 687-251144.
+
+0:48:31	SPEAKER_01
+ 04455-275-055-7530679.
+
+0:48:39	SPEAKER_01
+ 178-4-3-278.
+
+0:48:42	SPEAKER_01
+ 637-5128-4.
+
+0:48:46	SPEAKER_02
+ Transcript L-128-8-432-36107-6.
+
+0:48:54	SPEAKER_02
+ 046-696509.
+
+0:48:58	SPEAKER_02
+ 628-7817702.
+
+0:49:03	SPEAKER_02
+ 979-210-055-1.
+
+0:49:08	SPEAKER_02
+ 3047-9615.
+
+0:49:13	SPEAKER_02
+ 2072-6060-6742.
+
+0:49:18	SPEAKER_02
+ 3-524-06-6028-382-27196.
+
+0:49:28	SPEAKER_02
+ Oops!
+
+0:49:34	SPEAKER_03
+ Ouch!
+

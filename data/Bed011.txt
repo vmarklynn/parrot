@@ -1,0 +1,1668 @@
+0:00:00	SPEAKER_04
+ No, can you give me the
+
+0:00:06	SPEAKER_01
+ three, two, five, four, one, six, zero, zero, three, nine, six, seven, eight, five, three, two, seven, three, three, one, seven, nine, three, nine, five, seven, six, two, one, two, one, six, four, seven, zero, nine, three, four, three, six, one, four, nine, zero, one, six, zero, six, four,
+
+0:00:46	SPEAKER_00
+ OK, so, can you read your numbers? Zero, one, nine, four, five, zero, five, eight, five eight, nine, four, two, eight, eight, seven, three, seven, four, seven, six, five, one, seven, eight, eight, three, nine, four, one, three, zero, two, 9, 2, 8, 1, 3, 4, 5, 6, 5, 6, 6, 7, 8, 6, 8, 8, 7, 5, 6, 8, 9, 5, 6, 8, 9, 5, 4, 0, 8, 8, 7, 7, 9, 9, 4, 9, 3, 9, 4, 7, 0, 1, 7, 8, 0, 1, 4, 3.
+
+0:01:28	SPEAKER_02
+ Yeah, let's get started. Hopefully Nassio come as not, she won't.
+
+0:01:40	SPEAKER_06
+ Robert, do you have any way to turn off your screen saver on there so that it's not going off every, it seems to have about a two minute?
+
+0:01:49	SPEAKER_04
+ Yeah, it's not that I didn't try.
+
+0:01:53	SPEAKER_04
+ And I told it to stay on forever and ever but if it's not plugged in it just doesn't obey my commands.
+
+0:01:59	SPEAKER_04
+ Okay.
+
+0:02:00	None
+ Has a mind.
+
+0:02:01	SPEAKER_04
+ Got it, but I just sort of keep on wailing.
+
+0:02:09	SPEAKER_04
+ We just be working on it as intensely so it doesn't happen.
+
+0:02:14	SPEAKER_04
+ We'll see.
+
+0:02:15	SPEAKER_04
+ Should we plunge right into it?
+
+0:02:19	SPEAKER_02
+ Yeah, I think so.
+
+0:02:21	SPEAKER_04
+ So what I've tried to do here is list all the decision notes that we have identified on this side, commented and what they're about in sort of the properties we may give them.
+
+0:02:38	SPEAKER_04
+ And here are the tasks to be implemented via our data collection.
+
+0:02:48	SPEAKER_04
+ So all of these tasks, the reading is all of these tasks more or less imply that the user wants to go there, sometimes for the other.
+
+0:03:01	SPEAKER_04
+ And inadequately for example here we have our Eva intention and these are the data tasks where we can assume the person would like to enter view or just approach the thing analogously the same on the object information.
+
+0:03:23	SPEAKER_04
+ We can see that we have sort of created these tasks before we came up with our decision notes.
+
+0:03:29	SPEAKER_04
+ So there's a lot of things where we have no analogous tasks and that may or may not be a problem.
+
+0:03:38	SPEAKER_04
+ So we've changed the tasks slightly if we feel that we should have data for sort of for every decision notes trying to implant the intention of going to a place now, going to place later on the same tool, trying to plan the intention of going sometime on the next tour or the next day or whenever.
+
+0:04:04	SPEAKER_04
+ I think that might be overdoing it.
+
+0:04:06	SPEAKER_02
+ So let me pop up a level and make sure that we're all oriented the same.
+
+0:04:15	SPEAKER_02
+ So what we're going to do today is two related things.
+
+0:04:21	SPEAKER_02
+ One of them is to work on the semantics of the belief net which is going to be the main inference engine for the system making decisions and decisions are going to turn out the B parameter choices for calls on other modules.
+
+0:04:47	SPEAKER_02
+ So the natural language understanding thing is we think we only have to choose parameters but a fairly large set of parameters.
+
+0:04:57	SPEAKER_02
+ So to do that we need to do two things, one of which is figure out what all the choices are which we've done a fair amount.
+
+0:05:07	SPEAKER_02
+ Then we need to figure out what influences choices and finally we have to do some technical work on the actual belief relations and presumably estimates of the probabilities and stuff.
+
+0:05:16	SPEAKER_02
+ We are going to do the probabilities stuff today.
+
+0:05:20	SPEAKER_02
+ Technical stuff will do another day probably next week.
+
+0:05:25	SPEAKER_02
+ We are going to worry about all the decisions and the things that contribute to them.
+
+0:05:33	SPEAKER_02
+ And we're also sort of in the same process going to work with FAY on what there should be in the dialogues.
+
+0:05:41	SPEAKER_02
+ So one of the steps that's coming up real soon is to actually get subjects in here and have them actually record like this, record dialogues more or less.
+
+0:05:58	SPEAKER_02
+ And depending on what FAY sort of provokes them to say we'll get information on different things.
+
+0:06:07	SPEAKER_02
+ So if you get people who defraise them and so for Keith and people worrying about what constructions people use we have some ways to affect that by the way the dialogues go.
+
+0:06:23	SPEAKER_02
+ So what Robert kindly did is to lay out a table of the kinds of things that that might come up and the kinds of decisions.
+
+0:06:39	SPEAKER_02
+ So on the left are decision nodes and discrete values.
+
+0:06:48	SPEAKER_02
+ So if we're right you can get by with just this middle column worth of decisions and it's not all that many and it's perfectly feasible technically to build belief nets that we'll do that.
+
+0:07:03	SPEAKER_02
+ Andy has a handout.
+
+0:07:05	SPEAKER_04
+ Yeah maybe it was too fast plunging in there because we have two updates.
+
+0:07:10	SPEAKER_04
+ You can look at this if you want.
+
+0:07:12	SPEAKER_04
+ These are what are subjects going to have to fill out.
+
+0:07:16	SPEAKER_04
+ Any comments are thinking can still be made and the changes will be put in correspondingly.
+
+0:07:21	SPEAKER_04
+ Let me summarize in two sentences mainly for EWAS benefit who probably has not heard about the data collection.
+
+0:07:27	SPEAKER_04
+ Or have you heard about it?
+
+0:07:29	SPEAKER_04
+ No.
+
+0:07:30	SPEAKER_04
+ Okay we're going to put this in front of people.
+
+0:07:32	SPEAKER_04
+ They give us some information on themselves.
+
+0:07:35	SPEAKER_04
+ Then they will read a task where lots of German words are sort of thrown in between.
+
+0:07:43	SPEAKER_04
+ And they have to read isolated proper names.
+
+0:07:47	SPEAKER_04
+ And these are.
+
+0:07:48	SPEAKER_04
+ I don't see a release.
+
+0:07:49	SPEAKER_02
+ No this is not a release form.
+
+0:07:50	SPEAKER_02
+ This is a speaker.
+
+0:07:51	SPEAKER_02
+ Okay fine.
+
+0:07:52	SPEAKER_04
+ The release form is over there in that box.
+
+0:07:55	SPEAKER_04
+ Alright, fair enough.
+
+0:07:57	SPEAKER_04
+ And then they're going to have to choose from one of these tasks which are listed here.
+
+0:08:10	SPEAKER_04
+ They pick a couple say three six is what effect.
+
+0:08:15	SPEAKER_04
+ Six different things they sort of think they would do if they were in Hydeburg or traveling someplace.
+
+0:08:24	SPEAKER_04
+ Then they have a map like this very sketchy simplified map.
+
+0:08:29	SPEAKER_04
+ They can take notes on that map.
+
+0:08:32	SPEAKER_04
+ And then they call this computer system that works perfectly on in a sense everything.
+
+0:08:37	SPEAKER_04
+ And this is a fictional system obviously.
+
+0:08:41	SPEAKER_04
+ Yeah the computer system sits right in front of you that's.
+
+0:08:43	SPEAKER_04
+ And she does know everything.
+
+0:08:46	SPEAKER_04
+ And she has a way of making this machine talk.
+
+0:08:50	SPEAKER_04
+ So she can copy sentences into a window or type really fast and this machine will use speech synthesis to produce that.
+
+0:08:58	SPEAKER_04
+ So if you ask how do I get to the castle then several seconds later it will come out of here in order to get to the castle you do okay.
+
+0:09:07	SPEAKER_04
+ And then after three tests the system breaks down.
+
+0:09:11	SPEAKER_04
+ And Fay comes on the phone as a human operator.
+
+0:09:15	SPEAKER_04
+ And says sorry the system broke down but let's continue.
+
+0:09:18	SPEAKER_04
+ And we sort of get the idea what people do when they think they speak to a machine and what people say when they think they speak to a human or no or assume they speak to a human.
+
+0:09:31	SPEAKER_04
+ That's the data collection.
+
+0:09:36	SPEAKER_04
+ And Fay has some 30 subjects lined up something.
+
+0:09:42	SPEAKER_04
+ And they're ready to roll and we're going to start tomorrow at 3, 4, 1.
+
+0:09:49	SPEAKER_01
+ Tomorrow?
+
+0:09:50	SPEAKER_01
+ Well we don't know for sure because we don't know whether that person is coming up.
+
+0:09:54	SPEAKER_04
+ Okay run for it.
+
+0:09:55	SPEAKER_04
+ And we're still looking for a room on the sixth floor because they stole away that conference room behind our backs.
+
+0:10:05	SPEAKER_02
+ There are these.
+
+0:10:06	SPEAKER_02
+ Oh I see we have the yeah it's tricky.
+
+0:10:09	SPEAKER_02
+ Let's let's get it offline.
+
+0:10:11	SPEAKER_04
+ It's happening.
+
+0:10:12	SPEAKER_04
+ David and Jane and Laila are working on that as we speak.
+
+0:10:16	SPEAKER_04
+ Okay.
+
+0:10:17	SPEAKER_04
+ There was the data collection in a nutshell.
+
+0:10:22	SPEAKER_04
+ And I can report it.
+
+0:10:31	SPEAKER_04
+ So I did this but I also tried to do this.
+
+0:10:36	SPEAKER_04
+ So if I click on here is this wonderful.
+
+0:10:39	SPEAKER_04
+ We get to the belief net just focusing on the go their note.
+
+0:10:47	SPEAKER_04
+ And elegantly this would be sort of the reason note and the timing note and so forth.
+
+0:10:53	SPEAKER_04
+ And what happened is that design wise I'd sort of notice that we can we still get a lot of errors from a lot of points to one of the sub go there user go there situation notes.
+
+0:11:09	SPEAKER_04
+ So I came up with a couple of additional notes here where whether the user is thrifty or not and what is budget is currently like is going to result in some financial state of the user.
+
+0:11:21	SPEAKER_04
+ How much willing is he willing to spend or can spend being the same with this just the money available which may influence us whether he wants to go there if it's you're charging tons of dollars for admission or is going to cost a lot of whatever 22 million to fly to international space station.
+
+0:11:42	SPEAKER_04
+ Not all of you can do that.
+
+0:11:45	SPEAKER_04
+ So and this actually turned out to be pretty key because it's having specified sort of these this this intermediate level and sort of noticing that everything that happens here let's go to our favorite end point one is again more or less we have than the situation notes contributing to the end point situation note which contributes to the end point and so forth.
+
+0:12:17	SPEAKER_04
+ I can now sort of draw straight lines from these to here meaning it of course goes with the sub S everything that comes from situation everything that comes from user goes with the sub U and whatever was specified for the so called key note or the discourse would comes from the parser construction parser will contribute to the D and the ontology to the sub O note and one just sort of has to watch which also final decision notes so it doesn't make sense to figure out whether he wants to interview or approach an object if he never wants to go there in the first place.
+
+0:12:55	SPEAKER_04
+ This makes the design thing fairly simple and now all that's left to do then is the CPT's the conditional probabilities for the likelihood of a person having enough money actually wanting to go a place if it costs you know and and once Baskara has finished his classwork that's what we're going to end up doing you get involved in that process too and and for now the question is how much of these decisions do we want to build and explicitly into our data collection so one could sort of think of you know we could call this C or you know people who visit the zoo we could call it visit the zoo tomorrow so we have a tension of seeing something but not now but later.
+
+0:14:04	SPEAKER_02
+ So let's see I think that from one point of view all these places are the same so that that in terms of the linguistics and stuff there may be a few different kinds of places so it seems to me that we ought to decide you know what things are actually going to matter to us and so the zoo in the university in the castle etc are all big-ish things that you know have different parts to them and one of them might be fine.
+
+0:14:50	SPEAKER_04
+ The reason why we did it that way as a reminder is no person is going to do all of them they're just going to select to their preferences.
+
+0:15:01	SPEAKER_02
+ Oh yeah I usually visit zoos or I usually visit castles or I usually the point is to build a system that's got everything in it that might happen you do one thing to build a system that had the most data on a relatively confined set of things should do something else and the speech people for example are going to do better if they if things come up repeatedly.
+
+0:15:35	SPEAKER_02
+ Now of course if everybody says exactly the same thing then it's not interesting so all of them say there's a kind of question of what we're trying to accomplish and I think my temptation for the data gathering would be to you know these persons only going to do it once you have to worry about them being bored so if it's one service one luxury item one bigish place and so forth and so on then my guess is that the data is going to be easier to handle.
+
+0:16:17	SPEAKER_02
+ Of course you have this I get a possible danger that somehow there are certain constructions that people use when talking about a museum that they wouldn't talk about with the university and stuff but I guess my temptation is to go for simpler you know less variation but
+
+0:16:38	SPEAKER_06
+ I don't know what other people think about this in terms of so I don't exactly understand like I guess we're trying to limit the tale of our ontology of types of places that someone could go right but who is it that has to care about this or what component of the system
+
+0:16:54	SPEAKER_02
+ oh well I think there are two places where it comes up one is in the people who are going to take this and try to do speech with it lots of pronunciations of the same thing are going to give you better data than you know a few pronunciations of lots more things that's one.
+
+0:17:18	SPEAKER_06
+ So we would rather just ask and have a bunch of people talk about the zoo and assume that the constructions they use there will give us everything we need to know about these sort of big zoo castle whatever type things these bigger places.
+
+0:17:35	SPEAKER_06
+ Yeah this is an action for speech data people saying zoo over and over again and over
+
+0:17:39	SPEAKER_02
+ two. So this is a question for you and you know if we do we probably will actually try to build a prototype probably we could get by with the prototype only handling a few of them anyway.
+
+0:17:58	SPEAKER_05
+ So yeah this was sort of these are all different sort of activities but I think I got the
+
+0:18:09	SPEAKER_04
+ point and I think I like it we can do put them in a more hierarchical fashion so go to place and then give them a choice either the symphony type or opera type or the tourist side type or the nightclub disco type person and they say yeah this is on that go to biggest place this is what I would do then we have the fixed thing and then maybe do something the other day thing.
+
+0:18:35	SPEAKER_04
+ So my question is I guess to some extent we should you just have to try it out see if it works it would be challenging in a sense try to make it so so complex that they even really should schedule or plan it more complex thing in terms of okay you know they should get the feeling that there are these six things they have to do and they can be done maybe in two days.
+
+0:19:07	SPEAKER_04
+ Well I think they make these decisions can I go there tomorrow or influences.
+
+0:19:12	SPEAKER_02
+ Well I think it's easy enough to set that up if that's your expectation so the system could say well I would like to set up your program for two days in a Heidelberg you know let's first think about all the things you might like to do.
+
+0:19:30	SPEAKER_02
+ So there I mean I'm sure that if that's what you did then they would start telling you about that and then you could get into various things about ordering if you wanted.
+
+0:19:42	SPEAKER_04
+ But I think this is part of the instructors job and that can be done sort of to say okay now we've picked these six tasks now you have you can call the system and you have two days.
+
+0:19:54	SPEAKER_02
+ I'm sorry but we have to help we have to decide fate we'll carry out whatever we decide but we have to decide you know what is the appropriate scenario that's what we're going to talk about.
+
+0:20:05	None
+ Yeah.
+
+0:20:06	SPEAKER_05
+ So we have two different scenarios in the early one is a plan of the only kind of human functions on the spot.
+
+0:20:13	SPEAKER_04
+ Yeah but I don't I'm not really interested in sort of face planning capabilities but it's more the how do people phrase these planning requests.
+
+0:20:24	SPEAKER_04
+ So are we going to masquerade the system as this as you said simple response system I have one question I get one response or should we allow for a certain level of complexity and I think the data would be nicer if we get temporal references.
+
+0:20:40	SPEAKER_02
+ So Keith what do you think?
+
+0:20:44	SPEAKER_06
+ Well it seems yeah I mean off the top of my head it kind of seems like you would probably just want you know richer data more complex stuff going on people trying to do more complex things I mean you know if our goal is to really sort of be able to handle a whole bunch of different stuff than throwing harder situations that people will get them to do more linguistic more interesting linguistic stuff but I mean I'm not really sure because I don't fully understand like what our choices are ways to do this here.
+
+0:21:16	SPEAKER_04
+ We have tested this and have you heard listen to the first two or the second person is was faced with exactly this kind of setup.
+
+0:21:25	SPEAKER_06
+ I started to listen to one and it was just like sort of depressing sort of listening to the beginning part and the person was just sort of reading off a script or something.
+
+0:21:35	SPEAKER_04
+ Oh okay that was the first person.
+
+0:21:37	SPEAKER_06
+ First of all it wasn't very good.
+
+0:21:39	SPEAKER_04
+ So it is already with this setup and that particular subject it got pretty complex.
+
+0:21:49	SPEAKER_04
+ So I suggest we make some fine tuning of these get sort of run through ten or so subjects and then take a breather and see whether we want to make it more complex or not depending on what sort of results we're getting.
+
+0:22:04	SPEAKER_06
+ Yeah in fact I am just you know today next couple days going to start really diving into this data I basically looked at one of the files you know one of these you gave me those dozens of files and I looked at one of them which is about ten sentences found fifteen twenty different construction types that we would have to look for and so on and like all right well let's start here.
+
+0:22:25	SPEAKER_06
+ So I haven't really gone into the you know looked at all of the stuff that's going on so I don't really right I mean once I start doing that I'll have more to say about this kind of thing.
+
+0:22:34	SPEAKER_02
+ Okay well you did say something important which is that you can probably keep yourself fairly well occupied with the simple cases for quite a while.
+
+0:22:46	SPEAKER_02
+ Yeah although obviously so that's not so does suggest that now I have looked at all the data and it's actually at least to an amateur quite redundant.
+
+0:22:59	SPEAKER_02
+ Yeah it was very stylized and quite a lot of people said more or less the same thing.
+
+0:23:04	SPEAKER_06
+ I did sort of scan it at first and notice that and then looked into tail at one of them but yeah I noticed that too.
+
+0:23:10	SPEAKER_02
+ So we want to do more than that.
+
+0:23:13	SPEAKER_04
+ And with this we're getting more no question.
+
+0:23:17	SPEAKER_04
+ So do we want to get going beyond more?
+
+0:23:20	SPEAKER_02
+ Well okay so let's take let's I think your suggestion is good which is we'll do a batch okay and say how long is it going to be till you have ten subjects a couple days or the week or I don't have a few friends.
+
+0:23:36	SPEAKER_01
+ I can yeah I mean I think I probably scheduled ten people whenever.
+
+0:23:43	SPEAKER_02
+ Well it's up to you I mean I we don't have any huge time pressures just when you have
+
+0:23:49	SPEAKER_01
+ the yeah. I would say maybe two weeks.
+
+0:23:52	SPEAKER_02
+ Oh okay so let's do this let's plan next Monday okay to have a review of what we have so far.
+
+0:24:02	SPEAKER_04
+ And no transcriptions of course.
+
+0:24:06	SPEAKER_02
+ No I won't have the transcriptions but what we should be able to do and I don't know if you'll have time to do this but it would be great if you could not transcribe it all but pick out some stuff.
+
+0:24:22	SPEAKER_02
+ I mean we could listen just sit here and listen to it all.
+
+0:24:25	SPEAKER_02
+ Are you going to have the audio on the website?
+
+0:24:29	SPEAKER_02
+ Okay.
+
+0:24:30	SPEAKER_04
+ Until we reach the gig up by a thing and David Johnson kills me and we're going to put it on the website yeah.
+
+0:24:36	SPEAKER_02
+ Oh we can get I mean you can buy another disc for $200 right I mean it's okay so I
+
+0:24:42	SPEAKER_04
+ won't take care of David Johnson. Okay.
+
+0:24:45	SPEAKER_04
+ He's been solving all our problems so it's wonderful.
+
+0:24:50	SPEAKER_02
+ So anyway so if you can think of a way to point us to interesting things sort of as you're doing this or something make notes or something that this is you know something worth looking at and other than that yeah I guess we'll just have to listen although I guess it's only 10 minutes each right roughly.
+
+0:25:21	SPEAKER_01
+ I guess I'm not sure how long it's actually.
+
+0:25:23	SPEAKER_04
+ The reading test is a lot shorter therefore it's cut by 50% and the reading nobody's interested in that.
+
+0:25:29	SPEAKER_04
+ Right we don't care about that at all.
+
+0:25:31	SPEAKER_04
+ So it's actually like five minutes dialogue.
+
+0:25:34	SPEAKER_02
+ My guess is it's going to be 10.
+
+0:25:38	SPEAKER_04
+ 10 minutes as long.
+
+0:25:39	SPEAKER_02
+ I understand but people it feels like a long time.
+
+0:25:42	SPEAKER_04
+ It feels like forever when you're doing it but then it turns out to be three minutes and 45 seconds.
+
+0:25:47	SPEAKER_02
+ Could be.
+
+0:25:48	SPEAKER_02
+ Okay.
+
+0:25:49	SPEAKER_02
+ I was thinking people would you know hesitate whatever whatever it is we'll do with it.
+
+0:25:54	SPEAKER_02
+ Yeah it's not.
+
+0:25:55	SPEAKER_02
+ Okay so that'll be on the webpage.
+
+0:25:59	SPEAKER_02
+ That's great.
+
+0:26:00	SPEAKER_02
+ But anyway yeah so I think it's a good idea to start with the sort of relatively straightforward response system and then if we want to get them to start doing multiple step planning with a whole bunch of things and then organize them and tell them which things are near each other and you know any of that stuff.
+
+0:26:27	SPEAKER_02
+ Which things would you like to do Tuesday morning?
+
+0:26:34	SPEAKER_02
+ So yeah that seems pretty straightforward.
+
+0:26:40	SPEAKER_01
+ But were you saying that?
+
+0:26:42	SPEAKER_04
+ I need those back by the way.
+
+0:26:44	None
+ Okay.
+
+0:26:45	SPEAKER_02
+ That's for if anyone.
+
+0:26:51	SPEAKER_01
+ Maybe one thing we should do is go through this list and sort of select things that are categories and then offer only one member of that category.
+
+0:26:56	SPEAKER_02
+ That's what I was suggesting for the first round.
+
+0:26:58	SPEAKER_02
+ Yeah.
+
+0:26:59	SPEAKER_01
+ Okay.
+
+0:27:00	SPEAKER_01
+ So rather than having a zoom in.
+
+0:27:01	SPEAKER_01
+ And then I mean they could be alternate versions of the same.
+
+0:27:03	SPEAKER_01
+ They could but it would be one of data on difference.
+
+0:27:06	SPEAKER_02
+ Yeah.
+
+0:27:07	SPEAKER_02
+ But.
+
+0:27:08	SPEAKER_01
+ Like one person gets the version with the zoo as a choice.
+
+0:27:18	SPEAKER_04
+ The person don't get it.
+
+0:27:19	SPEAKER_04
+ I mean this is what we did it because when we gave them just three tasks for part A and
+
+0:27:25	SPEAKER_01
+ three tasks for part B. They just want to be able to choose both zoo and say touring the castle.
+
+0:27:30	SPEAKER_04
+ Exactly.
+
+0:27:31	SPEAKER_04
+ This is limiting the choices but yeah right okay sorry.
+
+0:27:34	SPEAKER_04
+ But I think this approach worked very well but the person was able to look at it and say okay this is what I would actually do.
+
+0:27:40	SPEAKER_04
+ Okay.
+
+0:27:41	SPEAKER_01
+ Yeah.
+
+0:27:42	SPEAKER_01
+ Okay.
+
+0:27:43	SPEAKER_01
+ He was vicious.
+
+0:27:44	SPEAKER_01
+ Okay.
+
+0:27:45	SPEAKER_04
+ We got it.
+
+0:27:46	SPEAKER_04
+ We got to disallow traveling to zoos and castles at the same time sort of.
+
+0:27:51	SPEAKER_01
+ I mean they are significantly different but.
+
+0:27:55	SPEAKER_04
+ But no they're sort of this is where tour becomes you know tours maybe a bit different.
+
+0:28:01	SPEAKER_04
+ And these are just places where you enter much like here but we can.
+
+0:28:08	SPEAKER_02
+ Yeah.
+
+0:28:09	SPEAKER_02
+ In fact if you use the right verb for each in common like it you know attend a theater symphony or opera as a group and tour the university castle or zoo all of these do have this kind of tour aspect about the way you would go to them.
+
+0:28:27	SPEAKER_02
+ And the movie theater is probably also a tent etc.
+
+0:28:34	SPEAKER_02
+ So it may turn out to be not so many different kinds of things and then what we would expect is that the sentence types would their responses would tend to be grouped according to the kind of activity you would expect.
+
+0:28:55	SPEAKER_05
+ It seems that the different between going to see something and change my.
+
+0:29:02	SPEAKER_02
+ Oh absolutely.
+
+0:29:03	SPEAKER_04
+ Yeah.
+
+0:29:04	SPEAKER_04
+ Yeah this is where the function itself is definitely different in the getting information or stuff.
+
+0:29:13	SPEAKER_04
+ Okay.
+
+0:29:16	SPEAKER_04
+ But this is open.
+
+0:29:17	SPEAKER_04
+ So since people are going to still pick something we're not going to get any significant amount of redundancy and for reasons we don't want it really in that sense.
+
+0:29:28	SPEAKER_04
+ And we would be ultimately more interested in getting all the possible ways of people asking or for different things with a computer.
+
+0:29:41	SPEAKER_04
+ And so if you can think of any other sort of high level tasks a tourist may do just always just mail them to us and we'll sneak them into the collection.
+
+0:29:53	SPEAKER_04
+ We're not going to do much statistical stuff with it.
+
+0:29:57	SPEAKER_04
+ We don't have enough.
+
+0:29:58	SPEAKER_04
+ But it seems like since we are getting towards subject 50 subjects and if we can keep it up to a sort of five fourish per week rate we may even reach the 100 before Faye takes herself to Chicago.
+
+0:30:17	SPEAKER_01
+ That means that 100 people have to be interested.
+
+0:30:21	SPEAKER_02
+ Good luck.
+
+0:30:25	SPEAKER_02
+ These are all people from campus so far.
+
+0:30:29	SPEAKER_02
+ So we don't know how many we can get next door at the shelter for example.
+
+0:30:34	SPEAKER_02
+ For ten bucks probably quite a few.
+
+0:30:37	SPEAKER_02
+ That's right.
+
+0:30:39	SPEAKER_02
+ All right, so let's go back then to the chart with all the decisions and stuff and see how we're doing.
+
+0:30:47	SPEAKER_02
+ People think that this is going to cover what we need or should we be thinking about more.
+
+0:30:56	SPEAKER_04
+ Okay, in terms of decision notes.
+
+0:30:58	SPEAKER_04
+ Yep.
+
+0:30:59	SPEAKER_04
+ I mean go there is a yes or no.
+
+0:31:02	SPEAKER_04
+ Right?
+
+0:31:03	SPEAKER_04
+ Yep.
+
+0:31:04	SPEAKER_04
+ I'm also interested in this property line here.
+
+0:31:07	SPEAKER_04
+ So if you look at, sorry, look at that.
+
+0:31:12	SPEAKER_04
+ Timing was, I have these three.
+
+0:31:16	SPEAKER_04
+ Do we need a final differentiation there?
+
+0:31:19	SPEAKER_04
+ Now later on the same tour, sometimes on the next tour.
+
+0:31:23	SPEAKER_06
+ What's this idea of next tour?
+
+0:31:24	SPEAKER_04
+ I mean, it's sort of the next day.
+
+0:31:27	SPEAKER_04
+ So you're doing something now and you're planning to do these three four things and you can do something immediately you can sort of tag it on to that tour or you can say this is something I want to do sometime in my life.
+
+0:31:43	SPEAKER_06
+ Okay.
+
+0:31:44	SPEAKER_06
+ So this tour is sort of just like the idea of current round of touristness.
+
+0:31:50	SPEAKER_02
+ Yeah, probably between stuff's back at the hotel.
+
+0:31:53	SPEAKER_02
+ Okay.
+
+0:31:54	SPEAKER_02
+ I mean, if you want to be precise about it, you know, and I think that's the way tours do organize their lives.
+
+0:32:00	SPEAKER_02
+ Sure.
+
+0:32:01	SPEAKER_02
+ Sure.
+
+0:32:02	SPEAKER_02
+ So you can go on then we'll go off and okay.
+
+0:32:04	SPEAKER_05
+ So all tours of eight tour happens only within one day.
+
+0:32:07	SPEAKER_02
+ Yes.
+
+0:32:08	SPEAKER_05
+ It's too early to move.
+
+0:32:09	SPEAKER_06
+ Right.
+
+0:32:10	SPEAKER_06
+ For this.
+
+0:32:11	SPEAKER_06
+ Okay.
+
+0:32:12	SPEAKER_06
+ Just to be totally clear.
+
+0:32:13	SPEAKER_04
+ Well, my visit to Prague, there were some nights where I had never went back to the hotel.
+
+0:32:18	SPEAKER_06
+ So whether that's a two day tour or not, I think you just spend the whole time at Uflekland.
+
+0:32:25	SPEAKER_02
+ We will not ask you more.
+
+0:32:27	SPEAKER_04
+ That's enough.
+
+0:32:28	SPEAKER_04
+ I don't know.
+
+0:32:32	SPEAKER_04
+ What does the English cognate if you want for Zank Nimalans talk?
+
+0:32:37	SPEAKER_04
+ Kind of ano.
+
+0:32:39	SPEAKER_04
+ Sort of.
+
+0:32:40	SPEAKER_04
+ We'll do it.
+
+0:32:41	SPEAKER_04
+ When you say on that date, it means it'll never happen.
+
+0:32:43	SPEAKER_04
+ Right.
+
+0:32:44	SPEAKER_04
+ Okay.
+
+0:32:45	SPEAKER_04
+ Do you have an expression?
+
+0:32:46	SPEAKER_04
+ Probably.
+
+0:32:47	SPEAKER_06
+ Not that I know, I've actually.
+
+0:32:50	SPEAKER_04
+ Yeah, I went out.
+
+0:32:52	SPEAKER_04
+ Yeah.
+
+0:32:53	SPEAKER_04
+ We'll do it when he'll pres us over.
+
+0:32:54	SPEAKER_04
+ So maybe that should be another.
+
+0:32:56	SPEAKER_04
+ Yeah.
+
+0:32:58	SPEAKER_04
+ Property in there.
+
+0:33:03	SPEAKER_04
+ Okay.
+
+0:33:04	SPEAKER_04
+ The reason why do we go there in the first place, I see the foreset scene for meeting people for running errands or doing business.
+
+0:33:20	SPEAKER_04
+ Entertainment is a good one in there, I think.
+
+0:33:23	SPEAKER_04
+ I agree.
+
+0:33:26	SPEAKER_06
+ So business is supposed to be sort of like professional type stuff.
+
+0:33:33	SPEAKER_06
+ Right?
+
+0:33:34	SPEAKER_06
+ Yeah.
+
+0:33:35	None
+ Okay.
+
+0:33:36	SPEAKER_04
+ I mean, this is an old, a general thing he sort of had it in there.
+
+0:33:49	SPEAKER_04
+ Who is the, is the person?
+
+0:33:51	SPEAKER_04
+ So it might be a tourist.
+
+0:33:52	SPEAKER_04
+ It might be a businessman.
+
+0:33:53	SPEAKER_04
+ Yeah.
+
+0:33:54	SPEAKER_04
+ So it's a good system, what's the sort of go-toism?
+
+0:33:56	SPEAKER_06
+ Yeah, or both.
+
+0:33:57	SPEAKER_06
+ Yeah.
+
+0:33:58	SPEAKER_06
+ I mean, like, for example, my father is about to travel to Prague.
+
+0:34:00	SPEAKER_06
+ He'll be there for two weeks.
+
+0:34:01	SPEAKER_06
+ He's going to, he's there to teach a course at the business school, but he also is touring around, so I may have some.
+
+0:34:07	SPEAKER_06
+ Sure.
+
+0:34:08	None
+ He's doing things.
+
+0:34:09	SPEAKER_05
+ Okay.
+
+0:34:10	SPEAKER_05
+ Okay.
+
+0:34:11	SPEAKER_05
+ What do you have in mind, the number of socializing people?
+
+0:34:15	SPEAKER_04
+ Just meeting people, basically.
+
+0:34:17	SPEAKER_04
+ I want to meet someone somewhere, which puts a very heavy constraint on the Eva, you know, because then if you're meeting somebody at the town hall, you're not entering it.
+
+0:34:27	SPEAKER_04
+ Usually you just want to approach it.
+
+0:34:30	SPEAKER_06
+ So, I mean, does this capture, like, where do you put exchange money as an errand, right?
+
+0:34:35	SPEAKER_06
+ So I go to a movie, where is now entertainment, Dineout is?
+
+0:34:41	SPEAKER_02
+ No, I, well, I didn't.
+
+0:34:43	SPEAKER_02
+ Well, I, let, let, well, we'll put it somewhere, but, but, I would say that if Dineout is a special, if you're doing it for that purpose, then it's entertainment.
+
+0:34:54	SPEAKER_02
+ Yeah.
+
+0:34:55	SPEAKER_02
+ And we'll also, as, as you, further along, we'll get into business about, well, you're, you know, this is going over a meal time, do you want to stop for a meal or pick up food or something, and that's different.
+
+0:35:06	SPEAKER_02
+ That's, that's sort of part of the, that's not a destination reason, that's sort of, um, a song.
+
+0:35:13	SPEAKER_04
+ That goes with the energy depletion function.
+
+0:35:15	SPEAKER_04
+ Right.
+
+0:35:16	SPEAKER_04
+ Yes.
+
+0:35:17	SPEAKER_04
+ Okay.
+
+0:35:18	SPEAKER_06
+ End point.
+
+0:35:19	SPEAKER_06
+ Bad laugh.
+
+0:35:21	SPEAKER_04
+ End point is pretty clear.
+
+0:35:23	SPEAKER_04
+ Um, mode, uh, I have phone three drive their walk there or, or be driven, which means bus taxi art.
+
+0:35:33	SPEAKER_04
+ Okay.
+
+0:35:34	SPEAKER_00
+ The public transport in general.
+
+0:35:36	SPEAKER_04
+ Yeah.
+
+0:35:37	SPEAKER_04
+ Yeah.
+
+0:35:38	SPEAKER_02
+ Obviously, taxis are very different than buses, but on the other hand, the system doesn't have any public transport.
+
+0:35:45	SPEAKER_02
+ The planar system doesn't have any public transport in it yet.
+
+0:35:49	SPEAKER_04
+ So this granularity would suffice, I think, if we say the person, probably based on the adherence, in this situation, we can conclude once drive their walk there or use some other form of transportation.
+
+0:36:03	SPEAKER_06
+ How much of hydrogen bill can you get around by public transport?
+
+0:36:06	SPEAKER_06
+ I mean, in terms of the interesting bits, there's lots of bits where you don't really, I've only, I was there 10 years ago for a day, so I don't remember, but, you're good.
+
+0:36:14	SPEAKER_06
+ I mean, like, sort of the touristy bits.
+
+0:36:16	SPEAKER_02
+ You can't get to the philosophers way very well, but, I mean, there are hikes that you can't get to.
+
+0:36:21	SPEAKER_02
+ But, yeah.
+
+0:36:22	SPEAKER_02
+ But I think other things, you can't, if I remember right.
+
+0:36:26	SPEAKER_00
+ So it's like biking there, part of the timing?
+
+0:36:28	SPEAKER_04
+ Yeah.
+
+0:36:29	SPEAKER_04
+ And we actually biking should be, should be a separate point because we have a very strong bicycle planning component.
+
+0:36:36	SPEAKER_04
+ Oh.
+
+0:36:37	SPEAKER_04
+ So, uh, bicycle should be in there.
+
+0:36:40	SPEAKER_04
+ But, will we have, I mean, is this realistic?
+
+0:36:46	SPEAKER_04
+ Yeah.
+
+0:36:47	SPEAKER_02
+ Okay, we can leave that.
+
+0:36:49	SPEAKER_04
+ Yeah.
+
+0:36:50	SPEAKER_04
+ We can sort of drive.
+
+0:36:53	SPEAKER_06
+ I would lump it with walk because it will matter, right?
+
+0:36:56	SPEAKER_06
+ Yeah.
+
+0:36:57	SPEAKER_06
+ Like that.
+
+0:36:58	SPEAKER_02
+ Skateboards, I'm going to write it right anyway.
+
+0:37:02	SPEAKER_02
+ Scooters, right?
+
+0:37:03	SPEAKER_04
+ Right.
+
+0:37:04	SPEAKER_04
+ All right.
+
+0:37:06	SPEAKER_04
+ Okay, length is, you want to get this over with as fast as possible.
+
+0:37:13	SPEAKER_04
+ You want to use some part of what, of the time you have.
+
+0:37:20	SPEAKER_04
+ They can, but we should just make a decision whether we feel that they want to use some substantial or some fraction of their time.
+
+0:37:29	SPEAKER_04
+ You know, they want to do it so badly that they are willing to spend, you know, the necessary and plus time.
+
+0:37:36	SPEAKER_04
+ And, um, and, you know, if we feel that they want to do nothing but that thing, then, you know, we should point out that to the planner that they probably want to use all the time they have.
+
+0:37:52	SPEAKER_04
+ So stretch out that visit.
+
+0:37:55	SPEAKER_06
+ Wow, it seems like this would be really hard to guess. I mean, on the part of the system, it seems like it.
+
+0:38:00	SPEAKER_06
+ I mean, you're talking about rather than having the user decide this, you're supposed to figure it out.
+
+0:38:05	SPEAKER_04
+ The user can always say it, right?
+
+0:38:07	SPEAKER_04
+ It's just sort of, we hand over these parameters.
+
+0:38:10	SPEAKER_04
+ If we make, if we have a feeling that they are important and that we can actually infer them to a significant degree, all we ask.
+
+0:38:19	SPEAKER_02
+ Yeah, and part of the system design is that if it looks to be important and you can't figure it out, then you ask.
+
+0:38:25	SPEAKER_02
+ But hopefully you don't ask, you know, all these things all the time.
+
+0:38:29	SPEAKER_02
+ Yeah, yeah, yeah.
+
+0:38:30	SPEAKER_02
+ But there's definitely a back-off position to asking.
+
+0:38:34	SPEAKER_04
+ And if no part of the system ever comes up with the idea that this could be important, no planner is ever going to ask for it.
+
+0:38:42	SPEAKER_04
+ And I like the idea that, you know, sort of, Jerry pushed this idea from the very beginning that it's part of the understanding business to sort of make a good question of what's sort of important in this general picture, what you need.
+
+0:38:55	SPEAKER_04
+ If you want a simulated, for example, what parameters would you need for the simulation?
+
+0:38:59	SPEAKER_04
+ And timing, a length would definitely be part of it.
+
+0:39:04	SPEAKER_04
+ Costs, little money, some money, lots of money.
+
+0:39:10	SPEAKER_04
+ Actually, maybe, yeah, okay.
+
+0:39:15	SPEAKER_06
+ You could say some there.
+
+0:39:21	None
+ I must say that this one looks a bit strange to me.
+
+0:39:25	None
+ It's like a problem here.
+
+0:39:27	None
+ If I go to a sped us.
+
+0:39:29	None
+ I'm willing to lose.
+
+0:39:33	SPEAKER_02
+ I think there are different things where you have a choice, for example, this interacts with, you're willing to take a taxi.
+
+0:39:45	SPEAKER_02
+ You know, if you're going to the opera, are you going to look for the best seats or the peanut gallery or whatever?
+
+0:39:55	SPEAKER_02
+ So I think there are a variety of things in which tourists really do have different styles eating another one.
+
+0:40:07	SPEAKER_04
+ What my sort of sentiment is there.
+
+0:40:11	SPEAKER_04
+ I once had to write a charter for a student organization.
+
+0:40:16	SPEAKER_04
+ And they had wanted me to define what the quorum is going to be.
+
+0:40:20	SPEAKER_04
+ I looked at the other ones and they were 10% of the student body as we present at the general meeting.
+
+0:40:25	SPEAKER_04
+ Otherwise, it's not.
+
+0:40:26	SPEAKER_04
+ And I wrote in there enough people have to be there.
+
+0:40:31	SPEAKER_04
+ And it was hardly debated, but people agreed with me that everybody probably has a good feeling whether it was a farce joke, whether there were enough people.
+
+0:40:39	SPEAKER_04
+ And if you go to Turkey, you will find when people go shopping, they will say, how much she's you want and they say, enough.
+
+0:40:46	SPEAKER_04
+ This used all over the place because the person is adding the cheese nose.
+
+0:40:50	SPEAKER_04
+ That person has two kids and a husband that dislikes cheese.
+
+0:40:55	SPEAKER_04
+ And so the middle part is always sort of the golden way, right?
+
+0:41:00	SPEAKER_04
+ You can really make it as cheap as possible or you can say, I don't care.
+
+0:41:06	SPEAKER_04
+ Money is no object.
+
+0:41:08	SPEAKER_04
+ Money is no object.
+
+0:41:09	SPEAKER_04
+ Or you say, this one is spent enough or the sufficient or the appropriate amount.
+
+0:41:15	SPEAKER_04
+ But then again, this may turn out to be insufficient for all purposes.
+
+0:41:21	SPEAKER_04
+ But this is my first guess.
+
+0:41:23	SPEAKER_04
+ In much of the same way as how should the route be?
+
+0:41:28	SPEAKER_04
+ Should it be the easiest route, even if it's a little bit longer?
+
+0:41:32	SPEAKER_04
+ No steep incline nations go the normal way.
+
+0:41:36	SPEAKER_04
+ Whatever that again means, or does the person want to rough it?
+
+0:41:41	SPEAKER_06
+ There's a couple of different ways you can interpret these things.
+
+0:41:45	SPEAKER_06
+ I want to go there and I don't care if it's really hard or if you're an extreme sport person.
+
+0:41:51	SPEAKER_06
+ I want to go there and I insist on it being the hard way.
+
+0:41:55	SPEAKER_06
+ I assume we're going for the first interpretation.
+
+0:41:58	SPEAKER_06
+ Something like, I'll go with, I don't know.
+
+0:42:02	SPEAKER_02
+ He was going for the second one, actually.
+
+0:42:05	SPEAKER_05
+ We'll sort that out.
+
+0:42:07	SPEAKER_03
+ What's the answer sign?
+
+0:42:12	SPEAKER_04
+ Absolutely.
+
+0:42:14	SPEAKER_04
+ Well, this is all sort of trouble of my head.
+
+0:42:19	SPEAKER_04
+ No research behind that.
+
+0:42:21	SPEAKER_04
+ Object information, do I want to know anything about that object?
+
+0:42:25	SPEAKER_04
+ Is it the true or false?
+
+0:42:28	SPEAKER_04
+ If I care about it being open accessible or not, I don't think there's any middle ground there.
+
+0:42:36	SPEAKER_04
+ Either I want to know where it is or not.
+
+0:42:39	SPEAKER_04
+ I want to know if it's history or not.
+
+0:42:42	SPEAKER_04
+ Or I want to know what it's good for or not.
+
+0:42:47	SPEAKER_04
+ Maybe one could put scales in there too.
+
+0:42:51	SPEAKER_04
+ What you were saying?
+
+0:42:54	SPEAKER_04
+ One could put scales in there.
+
+0:42:57	SPEAKER_02
+ Yeah, right.
+
+0:42:59	SPEAKER_02
+ Object becomes entity, right?
+
+0:43:02	SPEAKER_04
+ Yep, that's true.
+
+0:43:03	SPEAKER_04
+ I have to do it now.
+
+0:43:06	SPEAKER_04
+ That's the wrong shortcut anyhow.
+
+0:43:15	SPEAKER_02
+ And we think that's it, interestingly enough, that, you know, or something very close to what is going to be enough.
+
+0:43:33	SPEAKER_02
+ Going to be enough.
+
+0:43:36	SPEAKER_02
+ And...
+
+0:43:47	None
+ Don't run.
+
+0:43:50	SPEAKER_04
+ Yep.
+
+0:43:56	SPEAKER_02
+ Okay.
+
+0:43:59	SPEAKER_02
+ So I think the order of things is that Robert will clean this up a little bit, although it looks pretty good.
+
+0:44:10	SPEAKER_04
+ Well, this is the part that needs to work.
+
+0:44:14	SPEAKER_02
+ Right, so in parallel, three things are going to happen.
+
+0:44:22	SPEAKER_02
+ Robert and even Busker are going to actually build a belief net that has CPTs and tries to infer this from various kinds of information.
+
+0:44:35	SPEAKER_02
+ And Faye is going to start collecting data.
+
+0:44:40	SPEAKER_02
+ And we're going to start thinking about what constructions we want to do to make a data collection.
+
+0:44:52	SPEAKER_06
+ Do you mean eliciting particular constructions?
+
+0:44:57	SPEAKER_06
+ What kinds of things we want to get people talking about?
+
+0:45:01	SPEAKER_02
+ Well, semantically speaking.
+
+0:45:04	SPEAKER_02
+ Both of us constructions are primarily semantic, right?
+
+0:45:09	SPEAKER_06
+ Right.
+
+0:45:11	SPEAKER_06
+ So from my point of view, I'm trying to care about this syntax.
+
+0:45:17	SPEAKER_02
+ Well, that too.
+
+0:45:20	SPEAKER_02
+ But if we make sure that we get them talking about temporal order, that would be great.
+
+0:45:29	SPEAKER_02
+ And if they use prepositional phrases or subordinate clauses or whatever.
+
+0:45:34	SPEAKER_02
+ Whatever form they use is fine.
+
+0:45:38	SPEAKER_02
+ So we're probably going to try to look at it as what semantic constructions do we want them to cause motion?
+
+0:45:49	SPEAKER_02
+ I don't know.
+
+0:45:51	SPEAKER_02
+ Something like that.
+
+0:45:53	SPEAKER_02
+ But this is actually a conversation you and I have to have about your thesis fantasies and how all this fits into that.
+
+0:46:04	SPEAKER_04
+ Well, I will send you the German tourist data because I have not been able to dig out all this stuff out of the 30 DVDs.
+
+0:46:16	SPEAKER_06
+ Is that roughly the equivalent of what I've seen in English?
+
+0:46:19	SPEAKER_06
+ No, not at all.
+
+0:46:21	SPEAKER_04
+ Dialogues.
+
+0:46:22	SPEAKER_04
+ Smartcom human, Wizard of Oz.
+
+0:46:25	SPEAKER_06
+ Okay, same.
+
+0:46:27	SPEAKER_06
+ Got it.
+
+0:46:28	SPEAKER_06
+ What have I got now?
+
+0:46:30	SPEAKER_06
+ What are the files that you sent me are the user side of some interaction with Faye?
+
+0:46:37	SPEAKER_06
+ Is that what it is?
+
+0:46:38	SPEAKER_06
+ With nothing.
+
+0:46:39	SPEAKER_06
+ Just talking into a box and not hearing anything back.
+
+0:46:43	SPEAKER_04
+ Some data I collected in a couple of weeks for training recognizers that you can't have a way back when.
+
+0:46:51	SPEAKER_04
+ Nothing to write home report.
+
+0:46:54	SPEAKER_04
+ And this ontology note is probably something that I will try to expand once we have the full ontology API.
+
+0:47:05	SPEAKER_04
+ What can we expect to get from the ontology?
+
+0:47:08	SPEAKER_04
+ And hopefully you can also try to find out sooner or later in the course of the summer what we can expect to get from the discourse that might, not the discourse, the utterance, as it were, in terms of...
+
+0:47:23	SPEAKER_02
+ Right, but we're not expecting keys to actually build a parser.
+
+0:47:27	SPEAKER_02
+ No, no, no, no.
+
+0:47:28	SPEAKER_02
+ Okay.
+
+0:47:29	SPEAKER_02
+ We are expecting Jono to build a parser.
+
+0:47:31	SPEAKER_06
+ By the end of the summer, too.
+
+0:47:33	SPEAKER_06
+ No.
+
+0:47:34	SPEAKER_06
+ No.
+
+0:47:35	SPEAKER_02
+ But sort of...
+
+0:47:37	SPEAKER_02
+ He's hoping to do this for his master's thesis by a year from now.
+
+0:47:41	SPEAKER_02
+ Still pretty formidable actually.
+
+0:47:43	SPEAKER_02
+ Absolutely.
+
+0:47:44	SPEAKER_02
+ Limited.
+
+0:47:46	SPEAKER_02
+ I mean, the idea is...
+
+0:47:48	SPEAKER_02
+ Well, the hope is that the parser itself is pretty robust, but it's not popular.
+
+0:47:55	SPEAKER_02
+ Right, right.
+
+0:47:56	SPEAKER_06
+ All business proof, you know, so that's what I talked about.
+
+0:47:58	SPEAKER_06
+ It's like infrastructure, yeah.
+
+0:48:01	SPEAKER_06
+ Right.
+
+0:48:02	SPEAKER_06
+ Sometimes I have to talk to some subset of the people in this group at least about what sort of construction I'm looking for.
+
+0:48:09	SPEAKER_06
+ I mean, you know, obviously, like just, again, looking at this one thing, you know, I saw things from sort of as general as argument structure constructions.
+
+0:48:17	SPEAKER_06
+ Oh, you know, I have to do verb phrase.
+
+0:48:19	SPEAKER_06
+ I have to do unbounded dependencies, you know, which are a variety of constructions in instantiate that.
+
+0:48:26	SPEAKER_06
+ On the other hand, I have to have, you know, this particular fixed expressions or semi-fixed expressions like get plus path expression.
+
+0:48:37	SPEAKER_06
+ Or, you know, how do I get there?
+
+0:48:39	SPEAKER_06
+ How do I get in?
+
+0:48:40	SPEAKER_06
+ How do I get away?
+
+0:48:41	SPEAKER_06
+ Right.
+
+0:48:42	SPEAKER_06
+ And all that kind of stuff.
+
+0:48:43	SPEAKER_06
+ So there's a variety of sort of different sorts of constructions.
+
+0:48:46	SPEAKER_06
+ And it is sort of like anything goes like.
+
+0:48:49	SPEAKER_02
+ Okay, so this is, I think, we're going to mainly work on with George.
+
+0:48:52	SPEAKER_02
+ Okay.
+
+0:48:53	SPEAKER_02
+ And here, let me put some of what I think is, is, so the idea is, first of all, I misspoke when I said we thought you should do the constructions.
+
+0:49:03	SPEAKER_02
+ Because apparently for a linguist, that means to do completely and perfectly.
+
+0:49:06	SPEAKER_02
+ So what I meant was do a first cut app.
+
+0:49:12	SPEAKER_02
+ Okay, because we do want to get them perfectly, but I think we're going to have to do a first cut of a lot of them to see how they interact.
+
+0:49:19	SPEAKER_06
+ Right, exactly.
+
+0:49:20	SPEAKER_06
+ Now, we talked about this before, right?
+
+0:49:21	SPEAKER_06
+ And I mean, it would be completely out of the question to really do more than say, like, oh, I don't know, 10 over the summer.
+
+0:49:27	SPEAKER_06
+ But, you know, obviously we need to get sort of a general view of what things look like.
+
+0:49:32	SPEAKER_02
+ Right. So the idea is going to be to do sort of like Nancy did in some of these papers where you do enough of them so you can go from top to bottom.
+
+0:49:44	SPEAKER_02
+ So you can do, you know, have a complete story of some piece of dialogue.
+
+0:49:51	SPEAKER_02
+ And that's going to be much more useful than having all of the causal constructions and nothing else.
+
+0:49:59	SPEAKER_02
+ Or something like that. So the trick is going to be to take this and pick a sort of lattice of constructions, some lexical and some phrasal.
+
+0:50:12	SPEAKER_02
+ And, you know, whatever you need in order to be able to then by hand, you know, explain some fraction of the utterances.
+
+0:50:24	SPEAKER_02
+ And so exactly which ones that partly depend on your research interests and a bunch of other things.
+
+0:50:30	SPEAKER_06
+ Sure. Okay. But I mean, in terms of the sort of level of analysis, you know, these don't necessarily have to be more complex than like the out of construction and the BCP paper.
+
+0:50:39	SPEAKER_06
+ Correct. It's just like, you know, half a page on your drawing.
+
+0:50:41	SPEAKER_02
+ Oh, yeah, yeah. Half a page is what we'd like.
+
+0:50:43	SPEAKER_02
+ Yeah. And if there's something that really requires a lot more than that, then it does and we have to do it.
+
+0:50:48	SPEAKER_06
+ Yeah. For the first cut, that should be fine.
+
+0:50:52	SPEAKER_04
+ Yeah. We could sit down and think of sort of the the ideal speaker utterances.
+
+0:50:59	SPEAKER_04
+ And I mean, two or three that follow each other. So where we can also sort of once we have everything up and running, show the tremendous insane inferencing capabilities of our system.
+
+0:51:15	SPEAKER_04
+ So, you know, as the smart people have just there's standard demo dialogue, which is what the system survives and nothing but that we could also sort of have the analogy of our sample sentences, the ideal sentences where we have complete construction coverage.
+
+0:51:34	SPEAKER_04
+ And sort of they mention I say sort of the how do I get to X?
+
+0:51:39	SPEAKER_04
+ Yeah. It's definitely going to be a major one.
+
+0:51:42	SPEAKER_06
+ Yeah. That's about six times in this little one here.
+
+0:51:45	SPEAKER_04
+ Where is X? Might be another one, which is not too complicated.
+
+0:51:50	SPEAKER_04
+ And tell me something about X.
+
+0:51:53	SPEAKER_04
+ Yeah.
+
+0:51:54	SPEAKER_04
+ And hey, that's already covering 80% of the system's functionality.
+
+0:51:59	SPEAKER_02
+ Right. That's not covering 80% of the intellectual interest.
+
+0:52:02	SPEAKER_04
+ Yeah.
+
+0:52:03	SPEAKER_04
+ No, we can throw in an out of film construction if you want.
+
+0:52:05	SPEAKER_02
+ No, no, no. Well, the thing is there's a lot that needs to be done.
+
+0:52:09	SPEAKER_02
+ To get this right. Okay.
+
+0:52:12	SPEAKER_02
+ Are we done?
+
+0:52:14	SPEAKER_04
+ I have one bit of news.
+
+0:52:16	SPEAKER_04
+ Yes.
+
+0:52:18	SPEAKER_04
+ The action planner guy has wrote has written a lengthy proposal on how he wants to do the action planning.
+
+0:52:29	SPEAKER_04
+ And I responded to him also rather lengthy how he should do the action planning.
+
+0:52:34	SPEAKER_02
+ And action planning meaning discourse modeling.
+
+0:52:36	SPEAKER_04
+ Yes. And I tacked on a little paragraph about the fact that the whole world calls that much of a dialogue manager.
+
+0:52:44	SPEAKER_04
+ Right.
+
+0:52:45	SPEAKER_04
+ Wouldn't it make sense to do this here too?
+
+0:52:47	SPEAKER_04
+ And also, Rainer Mumalaka is going to be visiting us shortly, most likely in the beginning of June.
+
+0:52:54	SPEAKER_04
+ How've we gone?
+
+0:52:55	SPEAKER_04
+ Yeah. He's just in a conference somewhere and he uses to make it through town.
+
+0:52:59	SPEAKER_04
+ And then making me incapable of going to an AACL for which I had funding.
+
+0:53:08	SPEAKER_04
+ But no no Pittsburgh this year.
+
+0:53:14	SPEAKER_04
+ What is the center Barbara who's going to show a lot of people?
+
+0:53:23	SPEAKER_04
+ That's something I would probably should go.
+
+0:53:26	SPEAKER_02
+ That's one you should probably go to.
+
+0:53:29	SPEAKER_06
+ How much does it cost?
+
+0:53:30	SPEAKER_02
+ I haven't planned to go.
+
+0:53:34	SPEAKER_02
+ Probably we can pay for it.
+
+0:53:38	SPEAKER_02
+ Student rate shouldn't be very high.
+
+0:53:43	SPEAKER_02
+ So if we all decided it's a good idea for you to go then you're right.
+
+0:53:47	SPEAKER_02
+ I mean, I don't have a feeling one way or the other at the moment.
+
+0:53:49	SPEAKER_02
+ Okay.
+
+0:53:50	SPEAKER_02
+ Probably is.
+
+0:53:52	SPEAKER_02
+ Okay. Great.
+
+0:54:22	None
+ Thank you.
+

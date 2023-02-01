@@ -1,0 +1,1896 @@
+0:00:00	SPEAKER_06
+ I don't know.
+
+0:00:02	SPEAKER_06
+ I can't do the crash.
+
+0:00:03	SPEAKER_06
+ I think I'm going to say.
+
+0:00:04	SPEAKER_06
+ Wow.
+
+0:00:05	SPEAKER_01
+ I'm going to say that.
+
+0:00:06	SPEAKER_01
+ Hello.
+
+0:00:07	SPEAKER_01
+ Hello.
+
+0:00:09	SPEAKER_01
+ Hi.
+
+0:00:10	SPEAKER_01
+ Well, maybe it's a turning off.
+
+0:00:12	SPEAKER_03
+ It's a turning on.
+
+0:00:13	SPEAKER_03
+ I'm not turning.
+
+0:00:14	SPEAKER_03
+ I'm going to turn it over.
+
+0:00:15	SPEAKER_03
+ So I can't figure out how to tell.
+
+0:00:17	SPEAKER_03
+ If it's the car or the sentence in illegal,
+
+0:00:21	None
+ I don't know how to tell it. I think it's you.
+
+0:00:25	None
+ Yeah, I'll have a good mind.
+
+0:00:27	SPEAKER_01
+ Oh.
+
+0:00:30	None
+ Okay.
+
+0:00:31	None
+ Okay.
+
+0:00:34	SPEAKER_04
+ Okay.
+
+0:00:37	SPEAKER_04
+ Okay.
+
+0:00:38	SPEAKER_04
+ So, I guess we are going to do the digits at the end.
+
+0:00:45	SPEAKER_02
+ General tree.
+
+0:00:47	SPEAKER_02
+ Okay.
+
+0:00:48	SPEAKER_00
+ 75.
+
+0:00:49	SPEAKER_00
+ Yes, sir.
+
+0:00:50	SPEAKER_04
+ Yeah, that's the mic over there.
+
+0:00:54	None
+ It's a written.
+
+0:00:57	SPEAKER_04
+ Mike, the guy who's here.
+
+0:01:00	SPEAKER_04
+ The channel.
+
+0:01:01	SPEAKER_01
+ The channel 4.
+
+0:01:04	SPEAKER_00
+ Yes.
+
+0:01:06	SPEAKER_00
+ Oh.
+
+0:01:07	SPEAKER_04
+ Yes.
+
+0:01:08	SPEAKER_04
+ And I'm channel 2.
+
+0:01:10	SPEAKER_04
+ I think we're channel 1.
+
+0:01:11	SPEAKER_04
+ I think I'm channel 1.
+
+0:01:12	SPEAKER_04
+ Oh, I'm channel 1.
+
+0:01:13	SPEAKER_04
+ Channel 1?
+
+0:01:14	SPEAKER_04
+ Yes.
+
+0:01:15	None
+ Okay.
+
+0:01:16	SPEAKER_04
+ Okay.
+
+0:01:17	SPEAKER_04
+ So, I also copied the results that we all got in the mail.
+
+0:01:23	SPEAKER_04
+ I think from OGI.
+
+0:01:26	SPEAKER_04
+ Go through them also.
+
+0:01:29	SPEAKER_04
+ So, where are we on our runs?
+
+0:01:36	SPEAKER_02
+ So, we, so as I was already said, we mainly focused on four kind of features.
+
+0:01:49	SPEAKER_02
+ The PLP, the PLP with Jerasda, the MSG and the MFCC from the business.
+
+0:01:58	SPEAKER_02
+ Over.
+
+0:01:59	SPEAKER_02
+ And we focused for the test part on the English and the Italian.
+
+0:02:11	SPEAKER_02
+ We've trained several neural networks on the DIA digits English.
+
+0:02:18	SPEAKER_02
+ And on the Italian data and also on the broad English French and Spanish databases.
+
+0:02:30	SPEAKER_02
+ So, there is a result tables here for the tandem approach.
+
+0:02:36	SPEAKER_02
+ And actually what we've observed is that if the network is trained on the task data, it works pretty well.
+
+0:02:53	SPEAKER_04
+ Okay.
+
+0:02:54	SPEAKER_04
+ I'm sorry.
+
+0:02:55	SPEAKER_04
+ There's a pausing for a photo from the front of the room.
+
+0:02:59	SPEAKER_04
+ Yeah.
+
+0:03:00	SPEAKER_04
+ It's longer.
+
+0:03:01	SPEAKER_04
+ We're pausing for a photo opportunity here.
+
+0:03:06	SPEAKER_03
+ So, wait, wait, wait, wait.
+
+0:03:08	SPEAKER_01
+ Yeah.
+
+0:03:09	SPEAKER_01
+ Okay.
+
+0:03:16	SPEAKER_04
+ Let me give you a black screen.
+
+0:03:19	SPEAKER_04
+ Facing this one.
+
+0:03:26	SPEAKER_04
+ Okay, this could be a good section for our silencing section.
+
+0:03:33	SPEAKER_04
+ Musical chairs, everybody.
+
+0:03:36	SPEAKER_04
+ So, you were saying about the training data.
+
+0:03:41	SPEAKER_02
+ Yeah.
+
+0:03:42	SPEAKER_02
+ So, if the network is trained on the task data, tandem works pretty well.
+
+0:03:49	SPEAKER_02
+ And actually we have results are similar.
+
+0:03:54	SPEAKER_06
+ Do you mean if it's trained only on the data from just that task, that language?
+
+0:04:00	SPEAKER_02
+ Yes, but actually we didn't train network on both types of data.
+
+0:04:07	SPEAKER_02
+ I mean phonetically balanced data and task data.
+
+0:04:13	SPEAKER_02
+ We only did either task data or wrote data.
+
+0:04:20	SPEAKER_02
+ Yeah.
+
+0:04:23	SPEAKER_04
+ So, how, I mean, clearly it's going to be good then, but the question is how much worse is it if you have broad data?
+
+0:04:31	SPEAKER_04
+ I mean, from what I saw from the early results, I guess last week, was that if you trained on one language and tested on another, say that the results were relatively poor.
+
+0:04:46	SPEAKER_04
+ But the question is if you train on one language, but you have a broad coverage and then test on another, because that improves things in comparison.
+
+0:04:58	SPEAKER_02
+ So, you use the same language, you mean?
+
+0:05:00	SPEAKER_04
+ No, no, definitely.
+
+0:05:01	SPEAKER_04
+ So, if you train on TI digits and test on Italian digits, you do poorly.
+
+0:05:07	SPEAKER_04
+ Say, I don't know if the numbers in front of me, so I'm just imagining.
+
+0:05:11	SPEAKER_04
+ Yeah, but I did not do that.
+
+0:05:13	SPEAKER_04
+ So, you did not?
+
+0:05:14	SPEAKER_04
+ We train on 10 minutes and test on Italian digits.
+
+0:05:17	SPEAKER_02
+ No, we did, for kind of testing, actually, the first testing is with task data.
+
+0:05:25	SPEAKER_02
+ So, with net strain on task data, so for Italian, on the Italian speech data curve, the second test is trained on a single language, but the broad database, but the same language as the task data.
+
+0:05:44	SPEAKER_02
+ But for Italian, we choose Spanish, which we assume is close to Italian.
+
+0:05:49	SPEAKER_02
+ The third test is by using the tree language database.
+
+0:05:56	SPEAKER_02
+ And the fourth is...
+
+0:05:58	SPEAKER_04
+ In S3 languages, that's including the...
+
+0:06:00	SPEAKER_04
+ This includes the one that it's...
+
+0:06:02	SPEAKER_04
+ Yeah.
+
+0:06:03	SPEAKER_06
+ But not digits, I mean.
+
+0:06:05	SPEAKER_06
+ The three languages is not digits, it's the broad data.
+
+0:06:09	SPEAKER_06
+ Yeah, data, okay.
+
+0:06:10	SPEAKER_02
+ And the fourth test is excluding from these three languages, the language that is the task language.
+
+0:06:18	SPEAKER_04
+ Oh, okay, yeah, so that's what I wanted to know.
+
+0:06:20	SPEAKER_04
+ And just wasn't saying it very well.
+
+0:06:21	SPEAKER_02
+ Yeah.
+
+0:06:22	SPEAKER_02
+ So, for the digits, for example, when we go from the digits training to the limit training, we lose around 10%.
+
+0:06:38	SPEAKER_02
+ The error rate increases...
+
+0:06:42	SPEAKER_02
+ Right.
+
+0:06:43	SPEAKER_02
+...of 10% relative.
+
+0:06:46	SPEAKER_02
+ So this is not so bad.
+
+0:06:48	SPEAKER_02
+ And then when we jump to the multilingual data, it's...
+
+0:06:52	SPEAKER_02
+ It becomes worse and...
+
+0:06:54	SPEAKER_04
+ Well, how much?
+
+0:06:56	SPEAKER_02
+ Around, let's say, 20% further.
+
+0:07:01	SPEAKER_02
+ So...
+
+0:07:02	SPEAKER_02
+ Yeah.
+
+0:07:04	SPEAKER_02
+ 12% further.
+
+0:07:06	SPEAKER_02
+ So 30% further, yeah.
+
+0:07:08	SPEAKER_06
+ And so remind me that multilingual stuff is just the broad data, right?
+
+0:07:12	SPEAKER_06
+ Yeah, it's not the digits.
+
+0:07:13	SPEAKER_06
+ So it's the combination of two things there.
+
+0:07:17	SPEAKER_06
+ It's removing the task-specific training and it's adding other languages.
+
+0:07:24	SPEAKER_02
+ Yeah, okay.
+
+0:07:25	SPEAKER_02
+ But the first step is already a regular task is specific.
+
+0:07:28	SPEAKER_02
+ So the building.
+
+0:07:30	SPEAKER_02
+ Yeah, okay.
+
+0:07:32	SPEAKER_02
+ So basically, when it's trained on the multilingual broad data or number, so the ratio of error rates with baseline error rate is around 1.1.
+
+0:07:51	SPEAKER_04
+ Yeah.
+
+0:07:52	SPEAKER_04
+ And it's something like 1.3 of the...
+
+0:07:56	SPEAKER_04
+ If you compare everything to the first case, it's the baseline.
+
+0:07:59	SPEAKER_04
+ You get something like 1.1 for the using the same language with a different task.
+
+0:08:04	SPEAKER_04
+ Something like 1.3 for three languages, a lot of stuff.
+
+0:08:10	SPEAKER_02
+ Same language we are for English at 0.8.
+
+0:08:16	SPEAKER_02
+ So it improves compared to the baseline.
+
+0:08:19	SPEAKER_02
+ But...
+
+0:08:21	SPEAKER_02
+ That's good.
+
+0:08:22	SPEAKER_04
+ I meant something different by baseline.
+
+0:08:25	SPEAKER_04
+ So let me...
+
+0:08:28	SPEAKER_04
+ Okay, fine.
+
+0:08:31	SPEAKER_04
+ Let's use the conventional meaning of baseline.
+
+0:08:33	SPEAKER_04
+ By baseline here, I meant using the task-specific data.
+
+0:08:37	SPEAKER_04
+ Okay.
+
+0:08:38	SPEAKER_04
+ But because that's what you were just doing with this 10%.
+
+0:08:41	SPEAKER_04
+ Yes.
+
+0:08:42	SPEAKER_04
+ I just trying to understand that.
+
+0:08:43	SPEAKER_04
+ So if we call a factor just 1, just normalize to 1, the word error rate that you have for using TI digits as training and TI digits as test.
+
+0:08:54	SPEAKER_04
+ Different words, I'm sure, but the same task and so on.
+
+0:09:00	SPEAKER_04
+ If you call that one, then what you're saying is that the word error rate for the same language but using different training data and you're testing on TI digit and so forth, it's 1.1.
+
+0:09:11	SPEAKER_04
+ Yeah, it's around 1.1.
+
+0:09:13	SPEAKER_04
+ Right. And if you do go to three languages including the English, it's something like 1.3.
+
+0:09:21	SPEAKER_04
+ That's what you were just saying, I think.
+
+0:09:24	SPEAKER_02
+ More, actually.
+
+0:09:26	SPEAKER_02
+ 1.4?
+
+0:09:27	SPEAKER_02
+ Yeah.
+
+0:09:29	SPEAKER_02
+ So it's an additional 30%.
+
+0:09:31	SPEAKER_02
+ What would you say?
+
+0:09:32	SPEAKER_02
+ Around 1.4.
+
+0:09:33	SPEAKER_04
+ Okay. And if you exclude English from this combination of that.
+
+0:09:38	SPEAKER_02
+ If we exclude English, there is not much difference with the data with English.
+
+0:09:46	SPEAKER_04
+ So, that's interesting.
+
+0:09:49	SPEAKER_04
+ You see because, so that's important. So what it's saying here is just that yes, there is a reduction in performance when you don't have task data.
+
+0:10:06	SPEAKER_04
+ Wait a minute.
+
+0:10:07	SPEAKER_04
+ Wait a minute.
+
+0:10:13	SPEAKER_04
+ Actually, it's interesting. So when you go to a different task, there's actually not so different.
+
+0:10:19	SPEAKER_04
+ So what's the difference between 2 and 3? Between the 1.1 case and the 1.4 case, I'm confused.
+
+0:10:27	SPEAKER_03
+ It's multilingual.
+
+0:10:29	SPEAKER_02
+ Yeah, the only difference is that it's multilingual.
+
+0:10:34	SPEAKER_04
+ Because in both of those cases, you don't have the same task.
+
+0:10:39	SPEAKER_04
+ So is the training data for this 1.4 case? Does it include the training data for the 1.1 case?
+
+0:10:47	SPEAKER_02
+ Yeah.
+
+0:10:49	SPEAKER_02
+ Yeah, I'm proud to fit you.
+
+0:10:55	SPEAKER_02
+ How much bigger is it?
+
+0:11:02	SPEAKER_02
+ It's 2 times, actually.
+
+0:11:09	SPEAKER_02
+ The multilingual databases are 2 times the broad English data.
+
+0:11:18	SPEAKER_02
+ We just wanted to keep it.
+
+0:11:22	SPEAKER_04
+ So it's 2 times.
+
+0:11:25	SPEAKER_04
+ So it includes the broad English data.
+
+0:11:32	SPEAKER_04
+ So that's timet, basically.
+
+0:11:34	SPEAKER_04
+ So it's band limited timet.
+
+0:11:38	SPEAKER_04
+ This is all Angular sampling.
+
+0:11:41	SPEAKER_04
+ So your band limited timet gave you almost as good a result as using TI digits on a TI digits test.
+
+0:11:52	SPEAKER_04
+ But when you add in more training data, it keeps the neural net the same size.
+
+0:11:58	SPEAKER_04
+ It performs worse on the TI digits.
+
+0:12:03	SPEAKER_04
+ Now all of this is noisy TI digits, I assume?
+
+0:12:07	SPEAKER_04
+ Yeah, both training and test.
+
+0:12:10	SPEAKER_04
+ Yeah, okay.
+
+0:12:16	SPEAKER_04
+ Well, we made this need to...
+
+0:12:22	SPEAKER_04
+ So it's interesting that going to a different task didn't seem to hurt us that much.
+
+0:12:26	SPEAKER_04
+ Going to a different language...
+
+0:12:33	SPEAKER_04
+ It doesn't seem to matter.
+
+0:12:34	SPEAKER_04
+ The difference between 3 and 4 is not particularly great.
+
+0:12:37	SPEAKER_04
+ So that means that whether you have the language in or not is not such a big deal.
+
+0:12:42	SPEAKER_04
+ It sounds like we may need to have more of things that are similar to a target language.
+
+0:12:53	SPEAKER_04
+ I mean, you have the same number of parameters in the neural net.
+
+0:12:57	SPEAKER_04
+ You haven't increased the size of the neural net.
+
+0:12:59	SPEAKER_04
+ And maybe there's just not enough complexity to it to represent the very increased variability in the training set.
+
+0:13:07	SPEAKER_04
+ That could be.
+
+0:13:10	SPEAKER_04
+ So what about... So these are results that you're describing now that are pretty similar for the different features?
+
+0:13:18	SPEAKER_02
+ Let me check.
+
+0:13:21	SPEAKER_02
+ So this was for the PLP.
+
+0:13:26	SPEAKER_02
+ For the PLP with Geras, that we...
+
+0:13:31	SPEAKER_02
+ This is quite the same tendency with the slight increase of the error rate.
+
+0:13:38	SPEAKER_02
+ If we go to the team it, and then it gets worse with the mid-deling.
+
+0:13:45	SPEAKER_02
+ Yeah, there is a difference actually between PLP and Geras, that Geras seems to perform better with the I-limit-matched condition, but slightly worse for the well-matched condition.
+
+0:14:06	SPEAKER_04
+ I have a suggestion actually, you know, to lay us slightly.
+
+0:14:09	SPEAKER_04
+ Would you mind running in the other room and making copies of this?
+
+0:14:13	SPEAKER_04
+ Because we're all sort of... If we could look at it while we're talking, I think, I'll sing a song or dance or something like that.
+
+0:14:21	SPEAKER_04
+ So go ahead.
+
+0:14:23	SPEAKER_06
+ What you're going to ask someone my question.
+
+0:14:30	SPEAKER_04
+ This way and to slide it to the left, yeah.
+
+0:14:34	SPEAKER_06
+ What was this number 40?
+
+0:14:39	SPEAKER_06
+ It was roughly the same as this one, he said.
+
+0:14:41	SPEAKER_06
+ You had the two language versus the three language.
+
+0:14:44	SPEAKER_06
+ That's what he was saying.
+
+0:14:45	SPEAKER_04
+ Or he removed English.
+
+0:14:47	SPEAKER_04
+ Sometimes actually depends on what features you're using.
+
+0:14:51	SPEAKER_04
+ Yeah.
+
+0:14:52	SPEAKER_04
+ But it sounds like... I mean, that's interesting because it seems like what it's saying is not so much that you got hurt because you didn't have so much representation of English because in the other case, you don't get hurt anymore, at least when.
+
+0:15:11	SPEAKER_04
+ It seems like it might simply be a case that you have something that is just much more diverse but you have the same number of parameters representing it.
+
+0:15:21	SPEAKER_06
+ I wonder were all three of these nets using the same output, this multi-language...
+
+0:15:29	SPEAKER_06
+ labeling.
+
+0:15:31	SPEAKER_04
+ It's using 64 phonemes from sample.
+
+0:15:36	None
+ Okay.
+
+0:15:39	SPEAKER_06
+ So this would, from this you would say, well, it doesn't really matter if we could finish into the training of the neural net if there's going to be, you know, finish in the test data, right?
+
+0:15:51	SPEAKER_04
+ Well, it sounds...
+
+0:15:53	SPEAKER_04
+ We have to be careful because we haven't done a good result yet, comparing different bad results.
+
+0:15:59	SPEAKER_04
+ I think it does suggest that it's not so much cross language as cross type of speech.
+
+0:16:12	SPEAKER_04
+ It's...
+
+0:16:24	SPEAKER_04
+ But we did, oh yeah, the other thing I was asking though is that I think that in the case...
+
+0:16:28	SPEAKER_04
+ Yeah, you do have to be careful because of compounded results.
+
+0:16:31	SPEAKER_04
+ I think they got some earlier results in which you trained on one language and tested on another and you didn't have three, you just had one language, so you trained on one type of digits and tested on another.
+
+0:16:42	SPEAKER_04
+ Wasn't there something of that where you say trained on Spanish and tested on TI digits or the other way around?
+
+0:16:49	SPEAKER_04
+ No.
+
+0:16:50	SPEAKER_04
+ Not there was something like that that he showed me last week.
+
+0:16:54	SPEAKER_04
+ The way to where you could...
+
+0:16:55	SPEAKER_04
+ Yeah, that would be interesting.
+
+0:16:58	SPEAKER_04
+ This may have been what I was asking before stuff, but...
+
+0:17:01	SPEAKER_04
+ Wasn't there something that you did where you trained on one language and tested on another?
+
+0:17:07	SPEAKER_04
+ No mixture, but just...
+
+0:17:15	SPEAKER_02
+ Hello.
+
+0:17:17	SPEAKER_04
+ We've never just trained on one language.
+
+0:17:19	SPEAKER_02
+ Training on the single language and testing on one language.
+
+0:17:22	SPEAKER_02
+ Yeah.
+
+0:17:23	SPEAKER_02
+ Right, so the only test that's similar to this is training on two languages.
+
+0:17:29	SPEAKER_04
+ But we've done a bunch of things where we just trained on one language, right?
+
+0:17:32	SPEAKER_04
+ I mean, you haven't done all your tests on multiple languages.
+
+0:17:36	SPEAKER_02
+ No, either this is test with the same language, but from the broad data or its test with different languages.
+
+0:17:50	SPEAKER_02
+ The list of different languages.
+
+0:17:52	SPEAKER_06
+ Did you do different languages from digits?
+
+0:17:57	SPEAKER_02
+ No, you mean training digits on one language and using the net to recognize digits on another language?
+
+0:18:08	SPEAKER_06
+ No.
+
+0:18:11	SPEAKER_04
+ See, I thought you showed me something like that last week.
+
+0:18:14	SPEAKER_04
+ You had a little...
+
+0:18:16	SPEAKER_02
+ No, I didn't think so.
+
+0:18:19	None
+ What?
+
+0:18:29	SPEAKER_03
+ He's almost sorry.
+
+0:18:31	SPEAKER_04
+ So, I mean, what's this table that we're looking at is...
+
+0:18:38	SPEAKER_04
+ Is all testing for TI digits?
+
+0:18:43	SPEAKER_02
+ So, you have basically two parts, the upper part is for TI digits.
+
+0:18:49	SPEAKER_02
+ And it's divided into three rows of four rows each.
+
+0:18:55	SPEAKER_02
+ Yeah.
+
+0:18:56	SPEAKER_02
+ The first four rows is well matched, then the second group of four rows is mismatched.
+
+0:19:02	SPEAKER_02
+ Finally, I'm mismatched.
+
+0:19:04	SPEAKER_02
+ And then the lower part is for Italian, and it's the same thing.
+
+0:19:10	SPEAKER_06
+ So, the upper part is training TI digits?
+
+0:19:14	SPEAKER_02
+ It's the HTK results.
+
+0:19:16	SPEAKER_02
+ I mean, so it's HTK training testings with different kinds of features and what appears in the left column is the networks that are used for doing this.
+
+0:19:31	SPEAKER_02
+ So...
+
+0:19:40	SPEAKER_04
+ What was it that you had done last week when you showed your number?
+
+0:19:45	SPEAKER_04
+ Why?
+
+0:19:46	SPEAKER_04
+ When you showed me the table last week?
+
+0:19:48	SPEAKER_02
+ It was part of these results.
+
+0:19:52	SPEAKER_06
+ So, where is the baseline for the TI digits located in here?
+
+0:20:01	SPEAKER_02
+ You mean the HTK or a baseline?
+
+0:20:04	SPEAKER_02
+ Yeah.
+
+0:20:05	SPEAKER_02
+ It's the 100 number.
+
+0:20:07	SPEAKER_02
+ All these numbers are in the ratio with respect to the baseline.
+
+0:20:12	SPEAKER_04
+ So, this is where it aerates, so a high number is bad.
+
+0:20:16	SPEAKER_02
+ Yeah, this is a world aerarade ratio.
+
+0:20:20	SPEAKER_06
+ Okay.
+
+0:20:22	SPEAKER_02
+ So, 70.2 means that we reduce the aerarade to 30%.
+
+0:20:27	SPEAKER_02
+ Okay.
+
+0:20:29	SPEAKER_04
+ Okay.
+
+0:20:31	SPEAKER_04
+ So, if we take...
+
+0:20:35	SPEAKER_04
+ Let's see, POP with online normalization and delta-delts.
+
+0:20:42	SPEAKER_04
+ So, that's the thing you have circled here in the second column.
+
+0:20:48	SPEAKER_04
+ And multi-english refers to what?
+
+0:20:51	SPEAKER_02
+ To demit.
+
+0:20:54	SPEAKER_02
+ Then you have MF, MF and ME, which are from French, Spanish and English.
+
+0:21:02	SPEAKER_02
+ Actually, I forgot to say that the multilingual net are trained on features without the derivatives.
+
+0:21:15	SPEAKER_02
+ But with increased frame numbers.
+
+0:21:24	SPEAKER_02
+ And we can see on the first line of the table that it's less worse when we don't use delta, but it's not that much.
+
+0:21:34	SPEAKER_04
+ So, I'm sorry, Mr. Watts-MF, does an ME?
+
+0:21:37	SPEAKER_02
+ Multi-french with this Spanish.
+
+0:21:40	SPEAKER_04
+ So, it's a broader vocabulary.
+
+0:21:46	SPEAKER_04
+ Okay.
+
+0:21:47	SPEAKER_04
+ So, I think what I saw in the smaller chart that I was thinking of was...
+
+0:21:52	SPEAKER_04
+ There were some numbers I saw, I think, that included these multiple languages.
+
+0:21:57	SPEAKER_04
+ And I was seeing that it got worse.
+
+0:22:00	SPEAKER_04
+ I think that was almost.
+
+0:22:02	SPEAKER_04
+ You had some very limited results at that point, which showed having in these other languages.
+
+0:22:07	SPEAKER_04
+ In fact, it might have been just this last category having two languages broad that were where English was removed.
+
+0:22:14	SPEAKER_04
+ So, that was cross-language, and the result was quite poor.
+
+0:22:18	SPEAKER_04
+ What I hadn't seen yet was that if you had it in the English, it's still poor.
+
+0:22:25	SPEAKER_04
+ Yeah.
+
+0:22:27	SPEAKER_04
+ Now, what's the noise condition of the training data?
+
+0:22:32	SPEAKER_04
+ Well, I think this is what you were explaining. Noise condition is the same. It's the same Aurora noises in all these cases.
+
+0:22:40	SPEAKER_04
+ You have the training.
+
+0:22:41	SPEAKER_04
+ So, there's not a statistically strong, statistically different noise characteristic between...
+
+0:22:48	SPEAKER_04
+ No, these are the training attest.
+
+0:22:50	SPEAKER_04
+ And yet, we're seeing some kind of data.
+
+0:22:52	SPEAKER_02
+ At least for the first...
+
+0:22:54	SPEAKER_02
+ Well matched.
+
+0:22:56	SPEAKER_04
+ So, there's some kind of an effect from having this broader coverage.
+
+0:23:03	SPEAKER_04
+ Now, I guess what we should do by doing with this is try testing these on this same sort of thing.
+
+0:23:13	SPEAKER_04
+ You probably must have this lined up to do to try the same...
+
+0:23:16	SPEAKER_04
+ With the exact same training, do testing on the other languages.
+
+0:23:24	SPEAKER_04
+ Oh well, you have it here for the Italian.
+
+0:23:29	SPEAKER_04
+ That's right.
+
+0:23:31	SPEAKER_02
+ So, for the Italian, the results are stranger.
+
+0:23:41	SPEAKER_02
+ So, what appears is that perhaps Spanish is not very close to Italian, because when using the network training on Spanish, your rate is almost twice the baseline error rate.
+
+0:23:57	SPEAKER_04
+ Well, I mean, let's see.
+
+0:24:02	SPEAKER_04
+ Is there any difference in...
+
+0:24:04	SPEAKER_04
+ So, you're saying that when you train on English and test on...
+
+0:24:14	SPEAKER_04
+ No, you don't have training on English.
+
+0:24:16	SPEAKER_02
+ There is another difference is that the noises are different.
+
+0:24:21	SPEAKER_02
+ For the Italian part, I mean the networks are trained with noise from...
+
+0:24:31	SPEAKER_02
+ or the ATGETs.
+
+0:24:35	SPEAKER_02
+ And the noise...
+
+0:24:36	SPEAKER_02
+ Perhaps the noise are quite different from the noises in the speech that Italian.
+
+0:24:41	SPEAKER_04
+ Do we have any test sets in any other language that have the same noise as in...
+
+0:24:54	SPEAKER_04
+ You are...
+
+0:25:01	SPEAKER_06
+ Can I add something real quick?
+
+0:25:03	SPEAKER_06
+ In the upper part, the English stuff, it looks like the very best number is 60.9.
+
+0:25:10	SPEAKER_06
+ And that's in the third section in the upper part under PLP, J. Rosta, for the middle column.
+
+0:25:17	SPEAKER_06
+ Yeah.
+
+0:25:19	SPEAKER_06
+ Is that a noisy condition?
+
+0:25:21	SPEAKER_05
+ Yeah.
+
+0:25:24	SPEAKER_06
+ So, that's matched training. Is that what that is?
+
+0:25:27	SPEAKER_02
+ It's not a third part, so it's an I-limy smashed.
+
+0:25:32	SPEAKER_02
+ So, training...
+
+0:25:33	SPEAKER_06
+ So, why do you get your best number in...
+
+0:25:37	SPEAKER_06
+ Wouldn't you get your best number in the clean case?
+
+0:25:40	SPEAKER_03
+ It's relative to the baseline mismatching.
+
+0:25:44	SPEAKER_06
+ Oh, okay. So, these are not...
+
+0:25:46	SPEAKER_06
+ Okay. All right. I see.
+
+0:25:48	SPEAKER_06
+ Yeah.
+
+0:25:49	SPEAKER_06
+ Okay.
+
+0:25:51	SPEAKER_06
+ And then, so, in the...
+
+0:25:54	SPEAKER_06
+ In the non-mismatched clean case, your best one was under MFCC.
+
+0:26:00	SPEAKER_06
+ That's 61.4.
+
+0:26:02	SPEAKER_02
+ Yeah. But it's not a clean case.
+
+0:26:04	SPEAKER_02
+ It's a noisy case, but training and test noises are the same.
+
+0:26:10	SPEAKER_06
+ Oh, so this upper third?
+
+0:26:12	SPEAKER_06
+ Yeah.
+
+0:26:13	SPEAKER_06
+ That's still noisy?
+
+0:26:15	SPEAKER_06
+ Yeah.
+
+0:26:16	SPEAKER_06
+ Okay.
+
+0:26:18	SPEAKER_02
+ So, it's always noisy, basically.
+
+0:26:22	SPEAKER_02
+ What?
+
+0:26:23	SPEAKER_02
+ Nice.
+
+0:26:29	SPEAKER_04
+ Okay.
+
+0:26:31	SPEAKER_04
+ So, I think this will take some...
+
+0:26:36	SPEAKER_04
+ Looking at, thinking about it.
+
+0:26:38	SPEAKER_04
+ What is currently running that's...
+
+0:26:42	SPEAKER_04
+ That just filling in holes here?
+
+0:26:45	SPEAKER_02
+ No, we don't plan to fill the holes, but...
+
+0:26:48	SPEAKER_02
+ Actually, there is something important.
+
+0:26:50	SPEAKER_02
+ Is that we made a lot of assumption concerning the online normalization.
+
+0:26:57	SPEAKER_02
+ And we just noticed recently that the approach that we were using was not leading to very good results when we use the straight features to HDK.
+
+0:27:19	SPEAKER_02
+ So, basically, if you look at the left of the table, the first row with 86, 143 and 75, these are the results we obtained for Italian with straight PLP features using online normalization.
+
+0:27:48	SPEAKER_02
+ And the...
+
+0:27:51	SPEAKER_02
+ What's in the table just at the left of the PLP 12 online normalization column.
+
+0:27:57	SPEAKER_02
+ So, the number 79, 54 and 42 are the results obtained by PDIBA with...
+
+0:28:05	SPEAKER_02
+...is online normalization.
+
+0:28:08	SPEAKER_02
+ Where is that 79?
+
+0:28:10	SPEAKER_04
+ It's just sort of sitting right on the column line.
+
+0:28:14	SPEAKER_04
+ Oh, I see.
+
+0:28:16	SPEAKER_02
+ Yeah. So, these are the results of OGI with online normalization and straight features to HDK.
+
+0:28:23	SPEAKER_02
+ And the previous result, 86 and so on, yes.
+
+0:28:27	SPEAKER_02
+ With our features, straight to HDK.
+
+0:28:30	SPEAKER_02
+ So, what we see there is that the way we were doing this was not correct, but still the networks are very good.
+
+0:28:40	SPEAKER_02
+ When we use the networks, our numbers are better.
+
+0:28:45	SPEAKER_04
+ So, do you know what was wrong with the online normalization?
+
+0:28:48	SPEAKER_02
+ Yeah, there were different things.
+
+0:28:51	SPEAKER_02
+ Basically, my fourth thing is the alpha values, so the recursion part.
+
+0:29:06	SPEAKER_02
+ I used 0.5%, which was the default value in the programs here.
+
+0:29:13	SPEAKER_02
+ And the pretty values are 5%.
+
+0:29:16	SPEAKER_02
+ So, it adapts more quickly.
+
+0:29:20	SPEAKER_02
+ But, yeah, I assume that this was not important because previous results from Dan and show that basically both values give the same results.
+
+0:29:36	SPEAKER_02
+ It was true on TI digits, but not true on Italian.
+
+0:29:42	SPEAKER_02
+ Second thing is the initialization of the stuff.
+
+0:29:47	SPEAKER_02
+ Actually, what we were doing is to start the recursion from the beginning of the iterations and using initial values that are the global mean and variance.
+
+0:30:00	SPEAKER_02
+ Measure that across the world database.
+
+0:30:02	SPEAKER_02
+ And pretty bad, it's something different is that she initialized the values of the mean and variance by computing this on the 25 first frames of each other.
+
+0:30:20	SPEAKER_02
+ There were other minor differences, the fact that she used 15 DCT instead of 13 and that she used C0 instead of log energy.
+
+0:30:32	SPEAKER_02
+ But the main difference is concerns the recursion.
+
+0:30:36	SPEAKER_02
+ So, I changed the code and now we have a baseline that's similar to the OGI baseline.
+
+0:30:44	SPEAKER_02
+ It's slightly different because I don't exactly initialize the same way she does.
+
+0:30:52	SPEAKER_02
+ Actually, I don't wait to have 25 frames before computing the mean and variance to start the recursion.
+
+0:31:04	SPEAKER_02
+ I use our line scheme and only start the recursion after the 25th frame.
+
+0:31:11	SPEAKER_02
+ But it's similar.
+
+0:31:15	SPEAKER_02
+ I retrained the networks with these, well, the networks are retraining with these new features.
+
+0:31:31	SPEAKER_02
+ So, basically what I expect is that these numbers will a little bit go down but perhaps not so much because I think the neural networks learn perhaps to, even if the feature sound is normalized, it will learn how to normalize.
+
+0:31:49	SPEAKER_04
+ I think that given the pressure of time, we probably want to draw some conclusions from this, do some reductions in what we're looking at and make some strong decisions for what we're going to do testing on for next week.
+
+0:32:03	SPEAKER_04
+ Did you have something going on on the side with multi-band?
+
+0:32:08	SPEAKER_02
+ No, we plan to start this. So, actually, we have discussed what we could do more as a research.
+
+0:32:22	SPEAKER_02
+ We were thinking perhaps that the way we use the tandem is not, well, there is basically perhaps a flow in the stuff because we train the networks.
+
+0:32:40	SPEAKER_02
+ What we ask is the network is to put the decision boundary somewhere in the space and ask the network to put one side of the particular phoneme at one side of the boundary decision boundary and one for another phoneme at the other side.
+
+0:33:03	SPEAKER_02
+ So, there is kind of reduction of the information there that's not correct because if we change task and if the phonemes are not in the same context and the new task, obviously the decision boundaries should not be at the same place.
+
+0:33:23	SPEAKER_02
+ But the way the network gives the features is that it removes completely information from the features by placing the decision boundaries that optimal places for one kind of data.
+
+0:33:43	SPEAKER_02
+ But this is not the case for another kind of data. So, what we were thinking about is perhaps one way to solve this problem is to increase the number of outputs of the neural networks.
+
+0:34:00	SPEAKER_02
+ Doing something like phonemes within contexts, well, basically context dependent phonemes.
+
+0:34:13	SPEAKER_04
+ Maybe. I mean, I think you could make the same argument, be justice legitimate for hybrid systems as well. But we know that things get better with context dependent versions.
+
+0:34:28	SPEAKER_04
+ Yeah, but here it's something different. We want to have features. Yeah. But it's still true that what you're doing is you're ignoring, you're coming up with something to represent whether it's distribution, probably distribution or features.
+
+0:34:45	SPEAKER_04
+ If you're coming up with a set of variables that are representing things that vary over context and you're putting it all together, ignoring the differences in context. That's true for the hybrid system, the street for a tandem system.
+
+0:35:01	SPEAKER_04
+ So for that reason, when you in the hybrid system, when you incorporate context one way or another, you do get better scores. Yeah. Okay. But it's a big deal to get that.
+
+0:35:15	SPEAKER_04
+ I'm sort of. And once you the other thing is that once you represent start representing more and more context, it is much more specific to a particular task in language.
+
+0:35:32	SPEAKER_04
+ So the acoustics essentially particular context, for instance, you may have some kinds of context that will never occur in one language and will occur frequently in the others.
+
+0:35:47	SPEAKER_04
+ The issue of getting enough training for a particular kind of context becomes harder. We already actually don't have a huge amount of training data.
+
+0:35:58	SPEAKER_02
+ Yeah, but. I mean, the way we do it now is that we have a neural network and basically the network is trained almost to give binary decisions.
+
+0:36:16	SPEAKER_02
+ Right. And binary decisions about phonemes. Almost. But I mean, it does give a distribution. Yeah.
+
+0:36:30	SPEAKER_04
+ And it is true that if there's two phones that are very similar that they may prefer one that it will give a reasonably high value to the other two. Yeah. Sure. But.
+
+0:36:48	SPEAKER_02
+ Basically, it's almost binary decisions and the idea of using more classes is to get something that's less binary decision. Oh, no, but it would still be even more of a binary decision.
+
+0:37:02	SPEAKER_04
+ It would be more of one because then you would say that in that this phone in this context is a one, but the same phone in a slightly different context is a zero. That would be even even more distinct for binary decision. I have to think you'd want to go the other way and have fewer classes.
+
+0:37:19	SPEAKER_04
+ I mean, for instance, the thing I was arguing for before, but again, which I don't think we have time to try is something in which you would modify the code so you could train to have several outputs on and use articulatory features.
+
+0:37:31	SPEAKER_04
+ Because then that would go that would be much broader and cover many different situations. If you got a very, very fine category. Yeah, but I think.
+
+0:37:38	SPEAKER_02
+ Yeah, perhaps you're right, but you have more classes. So you have more information in your features. So you have more information in the posterials vector, which means that.
+
+0:37:56	SPEAKER_02
+ But still information is relevant because it's information that absolutely discriminates if it's posterior to discriminate amongst phonemes in context.
+
+0:38:08	SPEAKER_04
+ Well, it's an interesting. So I mean, we could disagree about it length, but the real thing is if you're interested in it, you'll probably try it and we'll see.
+
+0:38:16	SPEAKER_04
+ But, but what I'm more concerned with now and this operational level is, you know, what do we do in four or five days? And so we have to be concerned with, are we going to look at any combinations of things?
+
+0:38:31	SPEAKER_04
+ You know, once the nets get retrained, so you have this problem out of it. Are we going to look at multi-band, are we going to look at combinations of things?
+
+0:38:40	SPEAKER_04
+ What questions are we going to ask? Now that we should probably turn shortly to this. So, gee, I know how are we going to combine with what they've been focusing on?
+
+0:38:52	SPEAKER_04
+ We haven't been doing any of the LDA roster sort of thing. And they, although they don't talk about it in this note, there's the issue of the.
+
+0:39:04	SPEAKER_04
+ New law business versus the logarithm. So, so what is going on right now? What's right? You've got nets retraining.
+
+0:39:15	SPEAKER_00
+ Is there any HTK training? I'm trying the HTK with PLP 12 online delta delta MSG feature together.
+
+0:39:29	SPEAKER_04
+ Combination, I see. But the combination is so. MSG and PLP. And is this with the revised online normalization?
+
+0:39:40	SPEAKER_04
+ With the old one. So it's using all the nets for that. But again, we have the hope that we have the hope that it maybe is not making too much difference.
+
+0:39:51	SPEAKER_02
+ So there is this combination, yeah, working on combination, obviously. I will start to work on multi-band. And we plan to work also on the idea of using both features and net outputs.
+
+0:40:10	SPEAKER_02
+ And we think that with this approach, perhaps we could reduce the number of outputs of neural network. So get simple networks because we still have the features.
+
+0:40:27	SPEAKER_02
+ So we have come up with different kind of broad phonetic categories. And we have basically we have three types of broad phonetic classes.
+
+0:40:43	SPEAKER_02
+ Well, something using a base of articulation, which leads to nine, I think, broad classes. Another which is based on manner, which is something also like nine classes.
+
+0:40:56	SPEAKER_02
+ And then something that combined both. And we have 25, 27, broad classes.
+
+0:41:06	SPEAKER_04
+ So like back forwards, front forwards. So what should you do? So you have two nets or three nets? How many nets do you have?
+
+0:41:18	SPEAKER_02
+ For a moment, we don't have nets. I mean, it's just we're just changing the labels to retrain nets with fewer outputs. Right. And then I didn't understand.
+
+0:41:31	SPEAKER_04
+ The software currently just has allows for I think the one one hot output. So you're having multiple nets and combining them. Or how are you how are you coming up with if you say, if you have a place characteristic and a manner characteristic, how do you?
+
+0:41:51	SPEAKER_02
+ It's the single net one. Oh, it's just one net. It's one net with 27 outputs if we have 27 classes. So it's basically a standard net with fewer classes.
+
+0:42:07	SPEAKER_04
+ So you're sort of going the other way of what you were saying a bit ago. Yeah, but I think yeah, including the features. Yeah, I don't think this will work alone.
+
+0:42:16	SPEAKER_02
+ I think it will get worse because well, I believe the effect that of to reducing too much information is basically what happens.
+
+0:42:27	SPEAKER_02
+ And I think if you include that plus the other feature. Yeah, because there's perhaps one important thing that the net brings and what I show show that is the distinction between speech and silence because these nets are trained on well controlled condition.
+
+0:42:42	SPEAKER_02
+ I mean, the labels are obtained on clean speech. We had no is after. So this is one thing. But perhaps something intermediary using also some broad classes could could bring some much more information.
+
+0:42:59	SPEAKER_04
+ So again, we have these broad classes and well, somewhat, I mean 27 is 64 basically. And you have the original features with your POP or something. Then just to remind me, all of that goes into that all of that is transformed by KL or something.
+
+0:43:20	SPEAKER_02
+ So we'll probably be one single KL to transform everything.
+
+0:43:33	SPEAKER_04
+ Well, no, I do something that you know, so there's a question of whether you would write whether you would transform together or just one. Yeah, I want to try it both ways. That's interesting. So that's something that you haven't trained yet, but are preparing to train. Yeah.
+
+0:43:53	SPEAKER_04
+ So I think you know, we need to choose the choose the experiments carefully.
+
+0:44:04	SPEAKER_04
+ We get key questions answered before then and leave other ones aside, even if it's in complete tables someplace. It's really time to choose. Let me pass this out, by the way.
+
+0:44:25	SPEAKER_04
+ Did I interrupt you with or other things that you want?
+
+0:44:46	SPEAKER_04
+ Something I asked, so they're doing the VAD, I guess they mean voice activity section. So against the silence. So they've just trained up in that, which has two outputs, I believe.
+
+0:45:00	SPEAKER_04
+ I asked he and I asked he and I, whether they compared that to just taking the nets we already had and summing up the probabilities to get the speech voice activity detection or else just using the silence if there's anyone silence up.
+
+0:45:19	SPEAKER_04
+ And he didn't think they had, but on the other hand, maybe they can get by with a smaller net and maybe sometimes you don't run the other. Maybe there's a computational advantage to having a separate net anyway.
+
+0:45:33	SPEAKER_04
+ So the results look pretty good. I mean, not uniformly. I mean, there's an example or two that you can find where it made it slightly worse, but in all but a couple examples.
+
+0:45:50	SPEAKER_00
+ They have a question of the result. How are trying the LDA filter? How are trying the LDA filter?
+
+0:46:03	SPEAKER_00
+ I'm sorry, don't understand the question. The LDA filter needs some trying set to obtain the filter. Maybe I don't know exactly how.
+
+0:46:14	SPEAKER_00
+ Training. Training with the training test of each understanding.
+
+0:46:23	SPEAKER_00
+ For example, LDA filter needs a set of trying to obtain the filter. Maybe for the Italian, for the EU and for Finnish. These filter are obtained with the own training set.
+
+0:46:46	SPEAKER_04
+ Yes, I don't know. That's a very good question. Where does the LDA come from? In earlier experiments, they had taken LDA from a completely different database.
+
+0:46:59	SPEAKER_00
+ Yeah, because maybe it's the same situation that the neural network is running with the own.
+
+0:47:06	SPEAKER_04
+ So that's a good question. Where does it come from? Yeah, I don't know. But to tell you the truth, I wasn't actually looking at the LDA so much when I was looking at it. I was mostly thinking about the VAD.
+
+0:47:21	SPEAKER_00
+ What is ASP? Oh, that's the features. I don't understand what you're saying. What is the difference between ASP and baseline over?
+
+0:47:38	SPEAKER_04
+ Because there's baseline error above it. And this is mostly better than baseline, although in some cases it's a little less.
+
+0:47:56	SPEAKER_04
+ So it's basically ASP is 23 ml, minus 13. Yeah, it says what it is, but I don't know how that's different from the baseline.
+
+0:48:04	SPEAKER_02
+ I think this is the same point we were at when we were at the CZ row, using CZ row instead of luck energy. It should be that.
+
+0:48:16	SPEAKER_06
+ They say in here that the VAD is not used as an additional feature. Does anybody know how they're using it?
+
+0:48:22	SPEAKER_04
+ So what they're doing here is if you look down at the block diagram, they get an estimate of whether it's speech or silence, then they have a median filter of it.
+
+0:48:35	SPEAKER_04
+ So basically they're trying to find stretches. The median filter is enforcing and having some continuity. You find stretches where the combination of the frame wise VAD and the median filters say that the stretch of silence. And then it's going through and destroying the data away.
+
+0:48:56	SPEAKER_04
+ So it's throwing out frames. The median filter is enforcing that it's not going to be single cases of frames.
+
+0:49:10	SPEAKER_04
+ So it's throwing out frames. And the thing is what I don't understand is how they're doing this with HTK. That's what I was just going to ask. How can this throw out frames?
+
+0:49:20	SPEAKER_04
+ You can, right? It stretches again. For single frames I think it'd be pretty hard. If you say speech starts here, speech ends there.
+
+0:49:31	SPEAKER_02
+ Yeah, you can basically remove the frames from the feature files.
+
+0:49:36	SPEAKER_04
+ Yeah, so I mean in the decoding, you're saying we're going to decode from here to here. I think they're treating it like, well, it's not isolated words, but connected.
+
+0:49:48	SPEAKER_06
+ In the text they say that this is a tentative block background of a possible configuration we could think of.
+
+0:49:55	SPEAKER_06
+ So that sort of sounds like they're not doing that yet.
+
+0:49:58	SPEAKER_04
+ Well, no, they have numbers though, right? So I think they're doing something like that. I think that they're, I think what I mean by that is they're trying to come up with a block diagram that's plausible for the standard.
+
+0:50:11	SPEAKER_04
+ From the point of view of reducing the number of bits you have to transmit, it's not a bad idea to do that.
+
+0:50:20	SPEAKER_06
+ I'm just wondering what exactly did they do up in this table if it wasn't this?
+
+0:50:27	SPEAKER_04
+ But it's the thing is that I certainly would be tricky about it in transmitting voice for listening to is that these kinds of things cut speech off a lot.
+
+0:50:44	SPEAKER_06
+ Plus it's going to introduce delays.
+
+0:50:47	SPEAKER_04
+ It does introduce delays, but they're claiming that it's within the boundaries of it. And the LDA introduces delays. And what he's suggesting this here is a parallel path so that it doesn't introduce any more delay.
+
+0:51:01	SPEAKER_04
+ It introduces 200 milliseconds of delay, but at the same time the LDA down here.
+
+0:51:07	SPEAKER_04
+ What's the difference between TLDA and SLDA?
+
+0:51:10	SPEAKER_04
+ It's a temporal spectrum. Oh, thank you. You wouldn't know that.
+
+0:51:17	SPEAKER_04
+ So the temporal LDA does in fact include the same.
+
+0:51:22	SPEAKER_04
+ So I think by saying this is a tentative block diagram I think means if you construct it this way this delay would work out in that way.
+
+0:51:31	SPEAKER_04
+ It clearly did actually remove silent sections because they got these word error results.
+
+0:51:42	SPEAKER_04
+ So I think that it's nice to do that in this because in fact it's going to give a better word error result.
+
+0:51:49	SPEAKER_04
+ And therefore what helps with an evaluation was to whether this would actually be in a final standard.
+
+0:51:54	SPEAKER_04
+ I don't know. As you know part of the problem with evaluation right now is that the word models are pretty bad and nobody wants has approached improving them.
+
+0:52:04	SPEAKER_04
+ So it's possible that a lot of the problems with so many insertions and so forth would go away if there were better word models.
+
+0:52:11	SPEAKER_04
+ So this might just be a temporary thing. But on the other hand, maybe it's a decent idea.
+
+0:52:18	SPEAKER_04
+ The question that we're going to want to go through next week when Henrik shows up I guess is given that we've been, look at what we've been trying. We're looking at by then I guess combinations of features and multi-band.
+
+0:52:34	SPEAKER_04
+ And we've been looking at cross language, cross task issues.
+
+0:52:41	SPEAKER_04
+ And they've been not so much looking at the cross task multiple language issues.
+
+0:52:48	SPEAKER_04
+ But they've been looking at these issues, the online normalization and the voice activity detection.
+
+0:52:56	SPEAKER_04
+ And I guess when he comes here we're going to have to start deciding about what do we choose from what we've looked at to blend with some group of things, what they've looked at.
+
+0:53:07	SPEAKER_04
+ And once we choose that, how do we split up the effort? Because we still have, even once we choose, we've still got another month or so.
+
+0:53:18	SPEAKER_04
+ I mean there's holidays in the way but I think the evaluation data comes January 31st. So there's still a fair amount of time to do things together.
+
+0:53:27	SPEAKER_04
+ It's just that there probably should be somewhat more coherent between the two sites.
+
+0:53:32	SPEAKER_06
+ When they remove the silence range, do they insert some kind of a marker so that the recognizer knows when it's time to backtrace it?
+
+0:53:40	SPEAKER_04
+ Well see there, I think they're, I don't know the specifics of how they're doing it.
+
+0:53:49	SPEAKER_04
+ They're getting around the way the recognizer works because they're not allowed to change the scripts.
+
+0:53:56	SPEAKER_04
+ So the recognizer I believe so. Maybe they're just inserting some dummy frames or something?
+
+0:54:02	SPEAKER_04
+ You know that's what I had thought but I don't think they are.
+
+0:54:06	SPEAKER_04
+ I mean that's sort of what I had imagined would happen is that on the other side yeah you put some low level noise or something.
+
+0:54:13	SPEAKER_04
+ Probably don't want all zeros, most of the guys just don't like zeros but you know put some epsilon in or some random variable in or something.
+
+0:54:22	SPEAKER_06
+ Some constant vector. I mean not a constant.
+
+0:54:26	SPEAKER_04
+ Or something divide by the variance of that but I mean it's...
+
+0:54:31	SPEAKER_06
+ But something that what I mean is something that is very distinguishable from speech so that the silence model in HDK will always pick it up.
+
+0:54:40	SPEAKER_04
+ Yeah so that's what I thought they would do or else. Maybe there is some indicator until it's starting to stop.
+
+0:54:48	SPEAKER_04
+ I don't know but whatever they did I mean they have to play within the roles of the specific variation.
+
+0:54:54	SPEAKER_04
+ We can find out.
+
+0:54:56	SPEAKER_06
+ You got to do something otherwise if it's just a bunch of speech stuck together.
+
+0:55:00	SPEAKER_06
+ No they're...
+
+0:55:02	SPEAKER_04
+ Yeah.
+
+0:55:03	SPEAKER_04
+ They would do badly and they did badly right?
+
+0:55:05	SPEAKER_04
+ Yeah.
+
+0:55:06	None
+ Yeah.
+
+0:55:08	SPEAKER_04
+ So okay so I think this brings me up to date a bit.
+
+0:55:14	SPEAKER_04
+ I have play things other people have to date a bit.
+
+0:55:19	SPEAKER_04
+ I think I want to look at these numbers offline a little bit and take a bit and talk to everybody outside of this meeting.
+
+0:55:28	SPEAKER_04
+ But I mean it sounds like...
+
+0:55:33	SPEAKER_04
+ I mean they're the usual number of little problems and bugs and so forth but it sounds like they're getting ironed out.
+
+0:55:39	SPEAKER_04
+ Now we seem to be kind of in a position to actually look at stuff and compare things.
+
+0:55:46	SPEAKER_04
+ That's pretty good.
+
+0:55:49	SPEAKER_04
+ I don't know what the...
+
+0:55:51	SPEAKER_04
+ One of the things I wonder about coming back to the first results you talked about is...
+
+0:55:56	SPEAKER_04
+ how much things could be helped by more parameters and how many more parameters we can afford to have...
+
+0:56:08	SPEAKER_04
+ in terms of the computational limits.
+
+0:56:11	SPEAKER_04
+ Because when we go to twice as much data and have the same number of parameters, particularly when it's twice as much data and it's quite diverse, I wonder if having twice as many parameters would help.
+
+0:56:27	SPEAKER_04
+ It's kind of a bigger hidden layer.
+
+0:56:32	SPEAKER_04
+ But I doubt it would help by 40%.
+
+0:56:40	SPEAKER_04
+ But it's curious.
+
+0:56:44	SPEAKER_04
+ How are we doing on resources to ask them?
+
+0:56:50	SPEAKER_02
+ I think we're all right.
+
+0:56:53	SPEAKER_02
+ There's much problems we can.
+
+0:56:56	SPEAKER_02
+ Computation?
+
+0:56:58	SPEAKER_02
+ Well, this table took more than five days to get...
+
+0:57:04	SPEAKER_04
+ Were you folks using Jin?
+
+0:57:08	SPEAKER_04
+ That just died, you know.
+
+0:57:11	SPEAKER_02
+ No, you were using Jin, perhaps.
+
+0:57:14	SPEAKER_04
+ That's good.
+
+0:57:17	SPEAKER_04
+ We're going to get a replacement server that will be a faster server.
+
+0:57:22	SPEAKER_04
+ 750 megahertz.
+
+0:57:25	SPEAKER_04
+ But it won't be installed for a little while.
+
+0:57:32	SPEAKER_01
+ Do we have that big UIVM machine?
+
+0:57:38	SPEAKER_04
+ We have the little tiny IBM machine that might someday grow up to be a big IBM machine.
+
+0:57:44	SPEAKER_04
+ It's got slots for 8.
+
+0:57:47	SPEAKER_04
+ IBM was donating 5.
+
+0:57:49	SPEAKER_04
+ I think we only got 2 so far processors.
+
+0:57:53	SPEAKER_04
+ We originally hope we were getting 800 megahertz processors.
+
+0:57:56	SPEAKER_04
+ They end up in 550.
+
+0:57:58	SPEAKER_04
+ So instead of having 8 processors that were 800 megahertz, we end up with 2 that are 5 or 15 megahertz.
+
+0:58:03	SPEAKER_04
+ And more are supposed to come soon.
+
+0:58:05	SPEAKER_04
+ And there's only a moderate amount of memory.
+
+0:58:07	SPEAKER_04
+ So I don't think anybody has been sufficiently excited by it to spend much time with it.
+
+0:58:17	SPEAKER_04
+ But hopefully they'll get us some more parts soon.
+
+0:58:24	SPEAKER_04
+ Yeah, I think that'll be, once we get a populated, that'll be a nice machine.
+
+0:58:27	SPEAKER_04
+ I mean, we will ultimately get 8 processors in there.
+
+0:58:30	SPEAKER_04
+ And a nice amount of memory.
+
+0:58:33	SPEAKER_04
+ So it will be a pretty fast Linux machine.
+
+0:58:36	SPEAKER_01
+ And if we can do things, not Linux, some of the machines we have going already, like, sweet, it seems pretty fast.
+
+0:58:45	SPEAKER_01
+ I think 5 is pretty fast, too.
+
+0:58:48	SPEAKER_04
+ Yeah, I mean, you can check with Dave Johnson.
+
+0:58:51	SPEAKER_04
+ I think the machine is just sitting there.
+
+0:58:53	SPEAKER_04
+ And it does have 2 processors.
+
+0:58:56	SPEAKER_04
+ Somebody could do, you know, check out the multi-threading libraries.
+
+0:59:02	SPEAKER_04
+ I mean, it's possible that the, I guess, a prudent thing to do would be for somebody to do the work on getting our code running on that machine with 2 processors, and then, you know, the right 5 rate, there's going to be debugging hassles.
+
+0:59:18	SPEAKER_04
+ Then we'd be set for when we did have 5 or 8.
+
+0:59:20	SPEAKER_04
+ They have it really be useful.
+
+0:59:24	SPEAKER_04
+ Notice how I said somebody in my head, you direction.
+
+0:59:27	SPEAKER_04
+ That's one thing you don't get in these recordings.
+
+0:59:30	SPEAKER_04
+ You don't get the visuals.
+
+0:59:33	SPEAKER_01
+ Mostly the, you know, that work training that are, slow down or the HDK runs, that are slow down.
+
+0:59:41	SPEAKER_04
+ I think, yes.
+
+0:59:44	SPEAKER_04
+ You're right. I mean, I think you're sort of held up by both, right?
+
+0:59:48	SPEAKER_04
+ If the neural net trainings were 100 times faster, you still wouldn't be anything running through you as 100 times faster, because you'd be stuck by the HDK training.
+
+0:59:58	SPEAKER_04
+ But if the HDK, I mean, I think they're both, it sounded like they were roughly equal.
+
+1:00:02	SPEAKER_04
+ So that's not right?
+
+1:00:05	SPEAKER_01
+ Because I think that'll be running Linux and sweet, sweet, and fudge already running Linux.
+
+1:00:11	SPEAKER_01
+ So I could try to get the neural network trainings with the HDK stuff running under Linux, to start with, I'm wondering which one I should pick first.
+
+1:00:20	SPEAKER_04
+ Probably the neural net, this is probably, it's, it's, well, I don't know, they both, HDK we use for this Aurora stuff.
+
+1:00:35	SPEAKER_04
+ I think it's not clear yet what we're going to use for trainings.
+
+1:00:40	SPEAKER_04
+ Well, is the trainings, is it the training that takes the time or the decoding?
+
+1:00:45	SPEAKER_04
+ Is it about equal?
+
+1:00:47	SPEAKER_04
+ Training the two for HDK?
+
+1:00:50	SPEAKER_02
+ For, yeah, for the Aurora.
+
+1:00:53	SPEAKER_02
+ Training is longer.
+
+1:00:56	SPEAKER_04
+ Okay.
+
+1:00:59	SPEAKER_04
+ I don't know how we can, I don't know how to, do we have HDK source?
+
+1:01:05	SPEAKER_04
+ Yeah.
+
+1:01:08	SPEAKER_04
+ You would think that would fairly trivially, the training would anyway.
+
+1:01:12	SPEAKER_04
+ The testing, I don't think would parallelize all that well, but I think that you could certainly do distributed sort of, and though it's the each individual sentence, it's going to be tricky to parallelize, but you could split up the sentences and tell them.
+
+1:01:32	SPEAKER_06
+ They have a thing for doing that, they have for a while in HDK, and you can parallelize the training in a hundred and several machines, and it just basically keeps counts, and then there's something, a final thing that you run, and it accumulates all the counts together.
+
+1:01:46	SPEAKER_06
+ I see.
+
+1:01:47	SPEAKER_06
+ I don't know what their scripts are set up to do for their Aurora stuff,
+
+1:01:50	SPEAKER_04
+ but something we haven't really settled on yet is other than this Aurora stuff, what do we do, large vocabulary training slash testing for tandem systems, because we haven't really done much for tandem systems for larger stuff.
+
+1:02:05	SPEAKER_04
+ We had this one collaboration with CMU and we used Sphinx.
+
+1:02:08	SPEAKER_04
+ We're also going to be collaborating with SRI, and we have theirs.
+
+1:02:13	SPEAKER_04
+ So, I don't know.
+
+1:02:18	SPEAKER_04
+ So, I think the advantage of going with the neural net thing is that we're going to use the neural net training no matter what, for a lot of things we're doing, whereas exactly which HMM, the SRI mixture based HMM thing we use is going to depend.
+
+1:02:38	SPEAKER_04
+ So, with that, maybe we should go to R,
+
+1:02:42	None
+ digit recitation. Task.
+
+1:02:54	SPEAKER_04
+ It's about 1150.
+
+1:02:59	None
+ And...
+
+1:03:07	SPEAKER_04
+ I can start over here.
+
+1:03:10	SPEAKER_04
+ 2011-2030.
+
+1:03:15	SPEAKER_04
+ 0690601423051081.
+
+1:03:20	SPEAKER_04
+ 4004722617428789759.
+
+1:03:37	SPEAKER_04
+ 0103010322430101556924063703.
+
+1:03:57	SPEAKER_00
+ And, transcript number 19912010908276193342055305163274891090737312374743.
+
+1:04:24	SPEAKER_00
+ 25316616005679196951.
+
+1:04:42	SPEAKER_06
+ Transcript 2071-209012084641536603789290900581.
+
+1:05:02	SPEAKER_06
+ 1153564275603654045556779194086031091218100.
+
+1:05:28	SPEAKER_03
+ Transcript 2051-207000220432213469567808837702861051020219270502.
+
+1:05:56	SPEAKER_03
+ 263983405725610882849647400.
+
+1:06:15	None
+ Transcript 1971-199091010101.
+
+1:06:25	SPEAKER_04
+ 315-074-560338367.
+
+1:06:46	SPEAKER_01
+ 35074560338163359187.
+
+1:07:02	SPEAKER_02
+ Transcript 2031-20501012122663273497905606002.
+
+1:07:20	SPEAKER_02
+ 81294791650834053120607305264881.
+
+1:07:39	SPEAKER_02
+ 786748619490.
+
+1:07:53	SPEAKER_01
+ 810101063531.
+
+1:08:17	SPEAKER_01
+ 810101010106.
+
+1:08:27	SPEAKER_04
+ 8naden1010107.
+
+1:08:54	SPEAKER_04
+ Does everyone sign the consent form before in previous meetings?
+
+1:09:01	SPEAKER_04
+ So you don't have to do it again each time?
+
+1:09:19	SPEAKER_04
+ The government could only give you two Donna, it's 18, her eyes, and her eyes cannot show it again, I think it's an unrisk campaign
+
