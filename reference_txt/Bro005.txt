@@ -1,0 +1,1 @@
+The participants went over the results of the most recent experiments, discussing future directions to take. Adding in more languages was still decreasing model performance. The best network consisted of the TIMIT and noise. The team thought that they should try to reduce their dependence on noise in the data. The Professor outlined how they could continue their experimentation.
