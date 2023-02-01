@@ -1,0 +1,693 @@
+0:00:30	None
+ So....
+
+0:00:37	SPEAKER_02
+ Bock's coming.
+
+0:00:41	SPEAKER_02
+ 2019 o'clock, Okay now.
+
+0:00:56	None
+ Okay.
+
+0:01:03	SPEAKER_01
+ Hey everybody, welcome to the detailed design meeting.
+
+0:01:13	SPEAKER_01
+ Let's see, our agenda.
+
+0:01:19	SPEAKER_01
+ Last time we discussed the squishy fruitiness of our remote controls and how we might pursue that.
+
+0:01:28	SPEAKER_01
+ And I think it looks like we've come up with some ideas.
+
+0:01:32	SPEAKER_01
+ And we also talked about materials we'd use and what kind of chip would be necessary.
+
+0:01:39	SPEAKER_01
+ So, for later in the meeting I've done a spreadsheet of production costs.
+
+0:01:45	SPEAKER_01
+ So we'll take a look at that and see if it's changed at all from when we last discussed it.
+
+0:01:55	SPEAKER_01
+ So, actually, yeah.
+
+0:02:04	SPEAKER_01
+ You guys want to give a prototype presentation?
+
+0:02:09	SPEAKER_02
+ Okay, well, so our design looks something like this.
+
+0:02:15	SPEAKER_02
+ This being the wheel that you use to change channels or volume or whatever.
+
+0:02:20	SPEAKER_02
+ So, the button serves as the power button if you hold it down and you just tap on it.
+
+0:02:25	SPEAKER_02
+ I think it brings up the menu.
+
+0:02:28	SPEAKER_02
+ And the base of the remote control, which has a squishy sponge you'd ever feel, is interchangeable.
+
+0:02:35	SPEAKER_02
+ So, you can change the color according to, you know, the suit your living room or whatever.
+
+0:02:39	SPEAKER_02
+ I can change the vegetable.
+
+0:02:41	SPEAKER_02
+ Yeah, I can change the vegetable.
+
+0:02:42	SPEAKER_01
+ It was that broccoli.
+
+0:02:43	SPEAKER_02
+ Yeah, broccoli.
+
+0:02:45	SPEAKER_02
+ So, this snaps off and you can put on whichever one you want.
+
+0:02:51	SPEAKER_02
+ This is not to scale because it would have the battery inside it.
+
+0:02:54	SPEAKER_02
+ It's a mango.
+
+0:02:55	SPEAKER_02
+ It's trendy fruit.
+
+0:02:56	SPEAKER_02
+ It's not just ordinary fruits.
+
+0:02:57	SPEAKER_02
+ You don't have orange.
+
+0:02:58	SPEAKER_02
+ You have mango.
+
+0:02:59	SPEAKER_02
+ I guess strawberries, not just trans-eat.
+
+0:03:02	SPEAKER_02
+ Very bright strawberry.
+
+0:03:03	SPEAKER_02
+ So, we'll come up with a variety of trendy and exciting fruit designs for the remote control.
+
+0:03:10	SPEAKER_02
+ And the people will be encouraged to buy three or five of them because they'll need to switch them up.
+
+0:03:14	SPEAKER_02
+ It's been a little bit difficult to make sure that it's hand-holdable and that the user can use it.
+
+0:03:22	SPEAKER_02
+ You know, it's not too big.
+
+0:03:24	SPEAKER_02
+ But we think that this size will be okay.
+
+0:03:29	SPEAKER_02
+ And we will have to fit the battery case in there somehow.
+
+0:03:33	SPEAKER_02
+ And I guess the only other thing that we really didn't talk about was design yet, actually, would be the thing, the locator.
+
+0:03:44	SPEAKER_02
+ So, the locator is just chip it inside there.
+
+0:03:46	SPEAKER_02
+ Okay. So, that's just...
+
+0:03:47	SPEAKER_02
+ The beeper is also inside there too, somewhere.
+
+0:03:49	SPEAKER_02
+ So, you have to have a button on your...
+
+0:03:51	SPEAKER_02
+ You have to attach the button to the...
+
+0:03:53	SPEAKER_02
+ Yeah, we didn't design that.
+
+0:03:54	SPEAKER_00
+ Yeah, we have that...
+
+0:03:55	SPEAKER_02
+ But it would be coordinating with that.
+
+0:03:58	SPEAKER_02
+ Yeah.
+
+0:03:59	SPEAKER_02
+ Hit that...
+
+0:04:00	SPEAKER_02
+ You know, match the handset.
+
+0:04:02	SPEAKER_02
+ Get up the broccoli.
+
+0:04:04	SPEAKER_02
+ Mango.
+
+0:04:06	SPEAKER_02
+ Ta-da.
+
+0:04:08	SPEAKER_01
+ If you want to look in your project documents folder, there's a Excel spreadsheet.
+
+0:04:20	SPEAKER_01
+ The only one that's in there, production costs.
+
+0:04:25	SPEAKER_01
+ And if you open it up, I've just stuck the numbers in.
+
+0:04:29	SPEAKER_01
+ There's a real challenge there.
+
+0:04:31	SPEAKER_01
+ But if I missed anything that we've gone over, or if you see something in that, it has changed.
+
+0:04:39	SPEAKER_01
+ I mean, we decided on batteries.
+
+0:04:41	SPEAKER_01
+ And the regular chip would be necessary for the more advanced iPod-like button.
+
+0:04:52	SPEAKER_01
+ I said, Uncurved or flat.
+
+0:04:55	SPEAKER_01
+ I think that's what you have there.
+
+0:04:57	SPEAKER_01
+ For the plastic part would be...
+
+0:04:59	SPEAKER_02
+ My impression was that flat meant like one of the square remotes.
+
+0:05:03	SPEAKER_02
+ But it's really not very clear.
+
+0:05:05	SPEAKER_02
+ Because you've got single curve and double curve.
+
+0:05:08	SPEAKER_02
+ I don't know what that means.
+
+0:05:10	SPEAKER_02
+ One side is curved and then the other side is curved.
+
+0:05:14	SPEAKER_01
+ Well, if we're talking about the area just...
+
+0:05:20	SPEAKER_01
+ I don't know.
+
+0:05:21	SPEAKER_01
+ I guess we'd have to contact the company that makes them and see.
+
+0:05:28	SPEAKER_01
+ So what else?
+
+0:05:29	SPEAKER_01
+ There's plastic for that area around the button.
+
+0:05:33	SPEAKER_01
+ And then rubber would be the squishy, like saying, right?
+
+0:05:38	SPEAKER_01
+ And lots of special colors, actually.
+
+0:05:43	SPEAKER_01
+ School wheel.
+
+0:05:44	SPEAKER_01
+ Do you see anything that I've missed?
+
+0:05:46	SPEAKER_02
+ No, I think that's all right.
+
+0:05:48	SPEAKER_01
+ Okay.
+
+0:05:49	SPEAKER_01
+ So that would make our total of 11.9, which is...
+
+0:05:54	SPEAKER_01
+ And less than 12.5, which means we'd be making more of a profit.
+
+0:05:59	SPEAKER_01
+ And if we saw a lot of squishy things...
+
+0:06:02	SPEAKER_01
+ Ooh, yeah.
+
+0:06:05	SPEAKER_01
+ Okay.
+
+0:06:08	None
+ So...
+
+0:06:11	SPEAKER_00
+ Hmm.
+
+0:06:20	SPEAKER_01
+ What did you work on?
+
+0:06:30	SPEAKER_02
+ I've got some evaluation criteria.
+
+0:06:33	SPEAKER_02
+ Okay.
+
+0:06:34	SPEAKER_02
+ I've got the presentation.
+
+0:06:36	SPEAKER_02
+ Silence.
+
+0:06:37	SPEAKER_02
+ Okay.
+
+0:06:40	SPEAKER_02
+ All right.
+
+0:06:49	SPEAKER_02
+ What happens is we have to decide whether this whole project we've been working on, and actually meet the standards we were set at the start.
+
+0:07:06	SPEAKER_02
+ Okay.
+
+0:07:07	SPEAKER_02
+ The method is...
+
+0:07:14	SPEAKER_02
+ Well, I've analyzed the user requirements and integrated them to the TransFunding Marketing reports and in our company's strategy marketing.
+
+0:07:25	SPEAKER_02
+ And the findings were that we needed to look in a certain way, feel in a certain way.
+
+0:07:32	SPEAKER_02
+ And this is everything's listed down.
+
+0:07:35	SPEAKER_02
+ Looking in a certain way, feel in a certain way.
+
+0:07:38	SPEAKER_02
+ It has to be technologically and overtive.
+
+0:07:41	SPEAKER_02
+ And it has to be easy to use.
+
+0:07:43	SPEAKER_02
+ These are all things we looked at at the start.
+
+0:07:46	SPEAKER_02
+ And criteria that have to be met.
+
+0:07:48	SPEAKER_02
+ We have to use a table.
+
+0:07:50	SPEAKER_02
+ I'll show you that later together to decide whether it meets the standards.
+
+0:07:54	SPEAKER_02
+ And we have therefore in total, we have five...
+
+0:08:03	SPEAKER_02
+ We have 11 points according to which this should be evaluated.
+
+0:08:09	SPEAKER_02
+ And the quite...
+
+0:08:11	SPEAKER_02
+ Well, basically the findings are the same as the evaluation criteria.
+
+0:08:15	SPEAKER_02
+ I would like to show you the table we have to use.
+
+0:08:19	SPEAKER_02
+ No? This is the table.
+
+0:08:25	SPEAKER_02
+ Can you see this here?
+
+0:08:28	SPEAKER_02
+ So the questions I've given you...
+
+0:08:31	SPEAKER_02
+ Could you write that down?
+
+0:08:32	SPEAKER_02
+ True is one and four is seven.
+
+0:08:38	SPEAKER_02
+ And we'll just go through each point together.
+
+0:08:46	SPEAKER_02
+ I think if each of us gives an opinion, then they can be mixed somehow.
+
+0:08:50	SPEAKER_02
+ I don't know how it works, exactly.
+
+0:08:52	None
+ Yeah.
+
+0:08:52	SPEAKER_00
+ I've been told...
+
+0:08:53	SPEAKER_02
+ Is it possible that we can bring this up on our own?
+
+0:08:57	SPEAKER_02
+ Yeah, it's in the...
+
+0:08:59	SPEAKER_02
+ It's in the project documents.
+
+0:09:01	SPEAKER_02
+ Is it meeting three minutes now?
+
+0:09:03	SPEAKER_02
+ It's called evaluation criteria.
+
+0:09:07	SPEAKER_02
+ And it's...
+
+0:09:10	SPEAKER_02
+ Under evaluation.
+
+0:09:12	SPEAKER_01
+ The PowerPoint one.
+
+0:09:14	SPEAKER_01
+ Yeah, okay, cool.
+
+0:09:16	SPEAKER_02
+ We found that open.
+
+0:09:24	SPEAKER_02
+ So it was...
+
+0:09:27	SPEAKER_02
+ Yeah, choose one.
+
+0:09:34	SPEAKER_02
+ Choose one and four is seven.
+
+0:09:35	SPEAKER_02
+ Do you want us to discuss this together?
+
+0:09:37	SPEAKER_02
+ Do you want us to do it, sing?
+
+0:09:39	SPEAKER_01
+ We can do it separately and then discuss it.
+
+0:09:42	SPEAKER_01
+ If that's what people want to do.
+
+0:09:50	SPEAKER_02
+ So it's actually a scale.
+
+0:09:52	SPEAKER_01
+ Wait, one is true and...
+
+0:09:56	SPEAKER_01
+ So these are the questions we're answering.
+
+0:09:58	SPEAKER_01
+ Yes.
+
+0:09:59	SPEAKER_02
+ And one is...
+
+0:10:00	SPEAKER_02
+ If it's fancy, you put one.
+
+0:10:01	SPEAKER_01
+ One, right.
+
+0:10:02	SPEAKER_02
+ If it's really unfancy, it's...
+
+0:10:04	SPEAKER_01
+ If it's somewhere in between, you put four.
+
+0:10:06	SPEAKER_01
+ Yeah, something.
+
+0:10:07	SPEAKER_01
+ Yeah.
+
+0:10:37	SPEAKER_02
+ Does it feel fancy?
+
+0:11:02	SPEAKER_02
+ It feels like a video.
+
+0:11:09	None
+ No.
+
+0:11:18	SPEAKER_02
+ There should already be questions.
+
+0:11:20	SPEAKER_02
+ Should be more.
+
+0:11:35	None
+ The black two is easy to insert.
+
+0:11:53	SPEAKER_02
+ I'm going to say yes.
+
+0:11:57	SPEAKER_02
+ Yes.
+
+0:11:58	SPEAKER_02
+ Very, very true.
+
+0:11:59	SPEAKER_02
+ I imagine there's somewhere on the front.
+
+0:12:01	SPEAKER_02
+ There's a little case that you still don't know.
+
+0:12:31	None
+ I'm going to say yes.
+
+0:12:38	None
+ I'm going to say yes.
+
+0:12:45	None
+ I'm going to say yes.
+
+0:12:52	None
+ I'm going to say yes.
+
+0:13:05	SPEAKER_02
+ I'm going to say yes.
+
+0:13:14	SPEAKER_01
+ I don't think so.
+
+0:13:24	SPEAKER_02
+ Unless you feel you need it.
+
+0:13:33	SPEAKER_02
+ So, 1.1, we're just going to circle.
+
+0:13:47	SPEAKER_02
+ 2.
+
+0:14:05	SPEAKER_02
+ 1.5 to 13.
+
+0:14:26	SPEAKER_02
+ So, 1 was 2 and 7 was false.
+
+0:14:36	SPEAKER_01
+ So, we do have about the same thing.
+
+0:14:44	SPEAKER_02
+ I was thinking 1 means no points.
+
+0:15:14	SPEAKER_02
+ OK.
+
+0:15:28	SPEAKER_02
+ So, starting again, 1.1.
+
+0:15:31	SPEAKER_02
+ So, 1.2.
+
+0:15:46	SPEAKER_02
+ 1.3.
+
+0:16:04	SPEAKER_02
+ 1.4.
+
+0:16:25	SPEAKER_02
+ 1.2.
+
+0:16:44	SPEAKER_02
+ 1.3.
+
+0:17:05	SPEAKER_02
+ 2.4.3.
+
+0:17:15	SPEAKER_02
+ OK.
+
+0:17:23	SPEAKER_01
+ So, 1.3.
+
+0:17:44	SPEAKER_02
+ 1.3.
+
+0:18:02	SPEAKER_02
+ 1.3.
+
+0:18:23	SPEAKER_02
+ 1.3.
+
+0:18:41	SPEAKER_01
+ 1.3.
+
+0:19:02	SPEAKER_02
+ 1.3.
+
+0:19:20	SPEAKER_02
+ 1.3.
+
+0:19:41	SPEAKER_02
+ 1.3.
+
+0:19:59	SPEAKER_01
+ 1.3.
+
+0:20:20	SPEAKER_01
+ 1.3.
+
+0:20:38	SPEAKER_02
+ 1.3.
+
+0:20:59	SPEAKER_01
+ 1.3.
+
+0:21:17	SPEAKER_01
+ 1.3.
+
+0:21:38	SPEAKER_01
+ 1.3.
+
+0:21:56	SPEAKER_02
+ 1.3.
+
+0:22:17	SPEAKER_02
+ 1.3.
+
+0:22:35	SPEAKER_02
+ 1.3.
+
+0:22:56	SPEAKER_02
+ 1.3.
+
+0:23:14	SPEAKER_02
+ 1.3.
+
+0:23:35	SPEAKER_01
+ 1.3.
+
+0:23:53	SPEAKER_01
+ 1.3.
+
+0:24:14	SPEAKER_01
+ 1.3.
+
+0:24:32	SPEAKER_01
+ 1.3.
+
+0:24:53	SPEAKER_02
+ 1.3.
+
+0:25:11	SPEAKER_02
+ 1.3.
+
+0:25:32	SPEAKER_02
+ 1.3.
+
+0:25:50	SPEAKER_01
+ 1.3.
+
+0:26:11	SPEAKER_02
+ 1.3.
+
+0:26:29	SPEAKER_02
+ 1.3.
+
+0:26:50	SPEAKER_02
+ 1.3.
+
+0:27:08	SPEAKER_02
+ 1.3.
+
+0:27:29	SPEAKER_01
+ 1.3.
+
+0:27:47	SPEAKER_02
+ 1.3.
+
+0:28:08	SPEAKER_02
+ 1.3.
+
+0:28:26	SPEAKER_01
+ 1.3.
+
+0:28:47	SPEAKER_02
+ 1.3.
+
+0:29:05	SPEAKER_02
+ 1.3.
+
+0:29:26	SPEAKER_02
+ 1.3.
+
+0:29:44	SPEAKER_02
+ 1.3.
+
+0:30:05	SPEAKER_02
+ 1.3.
+
+0:30:23	SPEAKER_02
+ 1.3.
+
+0:30:44	SPEAKER_02
+ 1.3.
+
+0:31:02	SPEAKER_02
+ 1.3.
+
+0:31:23	SPEAKER_01
+ 1.3.
+
+0:31:41	SPEAKER_01
+ 1.3.
+
+0:32:02	SPEAKER_01
+ 1.3.
+
+0:32:20	SPEAKER_02
+ 1.3.
+
+0:32:41	SPEAKER_01
+ 1.3.
+
+0:32:59	None
+ 1.3.
+

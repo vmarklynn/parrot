@@ -1,0 +1,1074 @@
+0:00:30	SPEAKER_02
+ Okay everybody is ready. Good morning again. So today we're going to have a second meeting.
+
+0:00:48	SPEAKER_02
+ Oh Michael. Hi you're late. You have a good reason for that. Yes. Very good.
+
+0:00:59	SPEAKER_02
+ Okay let's have a look to the agenda today. So we're going to have a meeting about the functional design.
+
+0:01:10	SPEAKER_02
+ So first before starting I'm just going to go quickly through the minutes of previous meeting.
+
+0:01:19	SPEAKER_02
+ So basically we were not decided if we should go for universal or specific remote control but I have new inputs for about that topics.
+
+0:01:33	SPEAKER_02
+ I'm going to go into share with you. And basically we decided to go to individual actions for each of you.
+
+0:01:42	SPEAKER_02
+ So industrial designer should work. We're supposed to work on the working design. You should be prepared. Something for us.
+
+0:01:54	SPEAKER_02
+ The UE guy also worked on that. And for our marketing expert should deliver some specs.
+
+0:02:05	SPEAKER_02
+ Alright so we are going to go through three of your individual presentations. But first we'd like quickly to decide to give a name to the project.
+
+0:02:17	SPEAKER_02
+ So I just put it quickly or remote. But if you have any other names that we could decide for just to keep something fun for our project we could discuss quickly.
+
+0:02:33	SPEAKER_02
+ Any ideas? What are the power stick? Power stick. Yeah. What else?
+
+0:02:45	SPEAKER_03
+ What else? Maybe a Spanish name.
+
+0:02:50	SPEAKER_00
+ We're supposed to select into the US market because there's a lot of Spanish speakers there. Maybe something that sounds cool in English but sounds funny and Spanish.
+
+0:03:05	SPEAKER_03
+ And then A. M-A. D-O. D-O. It doesn't sound cool for me. But maybe for Spanish for I for... What does it mean in Spanish? Control.
+
+0:03:23	SPEAKER_03
+ Because it also sounds like the man's tool. Because men like to have control of the remote.
+
+0:03:38	SPEAKER_00
+ So let's go for Mando. Yeah. Objection. Great. Maybe we could have the fonts, you know, especially so you have man in one font and then the O is like...
+
+0:03:55	SPEAKER_02
+ I think you don't want to cut women out of the potential buyers. They're the most TV watcher so we should be careful.
+
+0:04:10	SPEAKER_02
+ Something that should be addressed later. We should go to... Is it the product of the... It will be international. That's the thing we need to know who we're selling it to before we can really decide on that.
+
+0:04:28	SPEAKER_02
+ So we want to start. Maybe as to the... Maybe as to the market here. Okay. So you have your slides somewhere? Yeah. Should be in participant 4.
+
+0:04:46	SPEAKER_02
+ Yes, one? Yeah.
+
+0:04:53	SPEAKER_03
+ Yeah. That's coming. Okay. Great. Okay. So yeah, I will give a brief outline about what I prepare for this meeting.
+
+0:05:22	SPEAKER_03
+ For the functional requirements and especially for the... For the user requirements. I prepare a marketing report and just to find the weaknesses and the improvements we could do to the current remote controls.
+
+0:05:43	SPEAKER_03
+ And also I did a study with... For the incorporation of new technologies it seems that the remote controls have been have remained the same for the last 5-10 years. There is no significant difference between the first new controls.
+
+0:06:07	SPEAKER_03
+ Okay. Next slide. Okay. Well, most of the people think that remote controls are ugly, directly. So they admit that they should spend more money in a fancier remote control, which is good. It's interesting point.
+
+0:06:29	SPEAKER_03
+ Also, the people are worried about the RSI disease, which is if you repeat the same movement, which is not very appropriate device, you will have problems when you will get all.
+
+0:06:49	SPEAKER_03
+ So, people are worried about the shape of the remote control. They are also... They get angry very often because they lost the remote control very often.
+
+0:07:06	SPEAKER_03
+ So, I think it would be a good point to find a solution to any beep, any alarm or something incorporated with the remote control every time it gets lost.
+
+0:07:21	SPEAKER_03
+ And also, I found that the younger people are the more interested they are in incorporating new technologies in the remote control.
+
+0:07:34	SPEAKER_03
+ Okay. So, in my opinion, the mando should be very small because the smaller it is, the more like the... the lauglier is to get lost, lauglier or more lauglier.
+
+0:07:55	SPEAKER_03
+ People are so complain because they all have the same size of the buttons, which are not very used, like memorizing channels or all these kind of actions which are not very often.
+
+0:08:14	SPEAKER_03
+ But they shouldn't have the same importance in the remote control. Also, the design should fit the hand shape.
+
+0:08:28	SPEAKER_03
+ So, it may be interesting to think in both prototypes for right and left-handed people.
+
+0:08:36	SPEAKER_00
+ The thing is, most mercantiles are used by more than one person. Unless you are targeting single people, you can cut out a lot of your market.
+
+0:08:53	SPEAKER_03
+ Anyway, I think it could be interesting to release a small fraction of... this could be a remote control design.
+
+0:09:05	SPEAKER_01
+ A universal design, which is good for both the hands.
+
+0:09:09	SPEAKER_00
+ Yeah, still straight for your hand, but not for a particular hand.
+
+0:09:13	SPEAKER_01
+ Yeah, whether it's left-handed or right-handed, but don't you think that the two points are clashing when you are saying design should fit the hand shape and it should not be very small?
+
+0:09:23	SPEAKER_01
+ Sorry?
+
+0:09:24	SPEAKER_01
+ The first and the third point they are clashing.
+
+0:09:26	SPEAKER_00
+ Well, it can still be a bit. It can still extend past the hand.
+
+0:09:29	SPEAKER_00
+ Yeah.
+
+0:09:30	SPEAKER_01
+ So, fitting the hand doesn't mean much.
+
+0:09:33	SPEAKER_00
+ Well, this room right here is very thin and long, so instead of having... you might have it bigger or maybe with some finger mould or something.
+
+0:09:45	SPEAKER_01
+ So, design should be similar to that traditional ones.
+
+0:09:47	SPEAKER_01
+ Little sleek, longer.
+
+0:09:50	SPEAKER_03
+ No, I was thinking of something like... something like the shape of the panel.
+
+0:09:56	SPEAKER_00
+ Yeah, something like a grip, maybe. You could even have some buttons on the side or something.
+
+0:10:03	SPEAKER_03
+ It shouldn't be symmetrical, not any more.
+
+0:10:06	SPEAKER_03
+ That's good.
+
+0:10:08	SPEAKER_02
+ And then finally...
+
+0:10:09	SPEAKER_03
+ And finally, the incorporation of LCD or a species recognition system in the remote control could also be interesting, but I don't know if the budget could be large enough.
+
+0:10:21	SPEAKER_02
+ Yeah, first I'm just wondering about the LCD stuff.
+
+0:10:26	SPEAKER_03
+ Most of the young people to 30 years old were really interested in this kind of technology.
+
+0:10:33	SPEAKER_02
+ Yeah, so maybe it's a good time for me to bring you to some new information.
+
+0:10:40	SPEAKER_02
+ We had new requirements from the head of thesis of the company.
+
+0:10:46	SPEAKER_02
+ And so they wanted to... they would like to be restricted to TV.
+
+0:10:53	SPEAKER_02
+ Yeah.
+
+0:10:54	SPEAKER_02
+ I don't know if you had this information already.
+
+0:10:56	SPEAKER_02
+ No.
+
+0:10:57	SPEAKER_02
+ So they want... has to restrict the remote control to TV only because of time limitations.
+
+0:11:04	SPEAKER_03
+ Actually, this marketing report is restricted to TV remote control.
+
+0:11:10	SPEAKER_02
+ Excellent.
+
+0:11:11	SPEAKER_02
+ So we have also to focus more on the internet aspects because... well, well, tilletext is how data now.
+
+0:11:21	SPEAKER_02
+ And finally, it should be clear that the corporate image, that means colorless and logos of the car our company, should be clearly identified in the product.
+
+0:11:32	SPEAKER_00
+ So we're still working on this 25 euro price point because I think actually having looked at some of the remotes out there, this is quite a low price.
+
+0:11:45	SPEAKER_00
+ If we're... maybe I can get to this in my presentation though.
+
+0:11:49	SPEAKER_02
+ Yeah, yeah. So maybe you can jump to your presentations right now.
+
+0:11:53	SPEAKER_02
+ Okay, so let's keep in mind about this last point about LCD and speech.
+
+0:11:58	SPEAKER_00
+ Yeah. I think even if it was within budget to speech record system, it might be a bit difficult because if you think...
+
+0:12:05	SPEAKER_00
+ if you're watching TV, you're going to have a lot of this background noise from the TV which might interfere with...
+
+0:12:10	SPEAKER_02
+ Sorry, what is your following?
+
+0:12:12	SPEAKER_00
+ Put it in three.
+
+0:12:14	SPEAKER_00
+ You might have some background noise from the TV which will make the speech recognition much better.
+
+0:12:18	SPEAKER_03
+ Yeah, but you should be able to activate or disactivate.
+
+0:12:22	SPEAKER_00
+ Yeah, yeah. Press a button to talk and the TV. 10 and 50 seconds off.
+
+0:12:28	SPEAKER_01
+ No, it could be command control kind of thing. It recognizes particular sequence and then it gets activated.
+
+0:12:35	SPEAKER_01
+ Means you should say like there's that remote control being on or beyond kind of thing.
+
+0:12:42	SPEAKER_01
+ And then remote control comes into the picture for the speech recognition.
+
+0:12:46	SPEAKER_01
+ Because this kind of thing means speeches there from the TV also. So there should be something command control.
+
+0:12:52	SPEAKER_01
+ You start and then you stop.
+
+0:12:54	SPEAKER_01
+ Yeah.
+
+0:12:55	SPEAKER_01
+ It's like VIA editor you are having two modes, similarly. Otherwise it's just like idle.
+
+0:12:59	SPEAKER_02
+ Okay, okay.
+
+0:13:01	SPEAKER_00
+ Okay, so could I describe the mouse maybe a bit easier to...
+
+0:13:04	None
+ Sorry.
+
+0:13:04	SPEAKER_00
+ Could I use the mouse or...
+
+0:13:06	SPEAKER_00
+ Yeah. Thanks.
+
+0:13:10	SPEAKER_00
+ Okay.
+
+0:13:12	SPEAKER_02
+ The wheel doesn't work.
+
+0:13:14	SPEAKER_00
+ Great.
+
+0:13:16	SPEAKER_00
+ Okay, so well researching this topic.
+
+0:13:21	SPEAKER_00
+ First of all, just thought of a couple of things that I would like to see in a remote and just look to see if they're actually available in any current remote.
+
+0:13:28	SPEAKER_00
+ And then also search for which of the top rated remote controls on opinions.com which is a, you know, a customer written basically review site.
+
+0:13:41	SPEAKER_00
+ So there's a pretty wide range of remote controls this day.
+
+0:13:48	SPEAKER_00
+ And this remote control on the right here is one of the more extravagant, but it's not really...
+
+0:13:54	SPEAKER_00
+ It's by no means on its own in being so expensive.
+
+0:13:59	SPEAKER_00
+ There are a lot of expensive remote control about that.
+
+0:14:01	SPEAKER_00
+ It looks like a PDE.
+
+0:14:03	SPEAKER_00
+ Yeah, it does.
+
+0:14:04	SPEAKER_00
+ Well, basically all the functions are controlled through the LCD screen except for the really, really kind of main functions which have a couple of their own buttons.
+
+0:14:16	SPEAKER_00
+ And if you look at a lot of the universal remotes out on the market, I know we're working on television remotes, but a lot of the universal remotes out there have LCD screens which kind of helps when you're using multiple devices, I suppose, you can have multiple kind of functions, different functions on the screen at different times.
+
+0:14:37	SPEAKER_00
+ But the thing that I find most interesting about this remote control, and it's kind of difficult to see in this light, but it has a scroll wheel on it, which is kind of like a mouse scroll wheel, which I think is really kind of important design aspect.
+
+0:14:53	SPEAKER_00
+ Because the thing is, what we, this presentation about is what we want the remote control to actually do. And obviously the simplest thing that a remote control does is it just changes the channel.
+
+0:15:06	SPEAKER_00
+ Now, I think that a scroll wheel is actually a pretty handy way of changing the channel because I know when I use the remote to change the channel, I very rarely use the numbers on the pad.
+
+0:15:22	SPEAKER_00
+ I rarely use the up and down because most channels are, you know, two digit numbers and you have to press, you know, a special button to enter a two digit number and then the number so it's just, it's annoying.
+
+0:15:33	SPEAKER_00
+ So I think a scroll wheel is quite handy. Now, the scroll wheel is much more useful if you have an LCD screen and it springs us to the point you were mentioning before about the internet capability.
+
+0:15:49	SPEAKER_00
+ One possibility, if we, now we need to still talk about the price point because obviously a lot of this stuff can't be done for 25 euro, but one possibility is to download program information into the LCD screen.
+
+0:16:02	SPEAKER_00
+ So then instead of actually saying, I want to, I want to go to channel 37 because I know this program's on, you know, often you don't know what channel it's on or you don't know what's on.
+
+0:16:12	SPEAKER_00
+ If you have a list of programs on your LCD screen, you just scroll to that program rather than to a channel.
+
+0:16:19	SPEAKER_00
+ So if you think about it's kind of like, you know, mobile phones now you don't use, you don't remember people's phone number, you remember the name and you go find that name and ring it.
+
+0:16:27	SPEAKER_00
+ So this would be pretty kind of anything to have, but we really need to discuss the price.
+
+0:16:33	SPEAKER_00
+ So I mean there are, there are a, this is another multi-purpose remote control where it's, it's, it's very simple. There's only a few buttons, but what each of those buttons does, something different in a different context.
+
+0:16:48	SPEAKER_00
+ So this is something else we might want to get to is really kind of limiting the number of buttons because this is the top rating universal remote control on, on the opinions.
+
+0:16:57	SPEAKER_00
+ It's really maybe worth thinking about limiting the number of buttons as much as possible because really I think people want to be able to find the button they're looking for without even looking at the remote control and give them all the same before about having different size buttons for different, you know, frequently used tasks.
+
+0:17:15	SPEAKER_00
+ I think also, you know, the location and shape of the buttons is important, but also the number of buttons. So if you have too many buttons it increases the difficulty of finding.
+
+0:17:27	SPEAKER_01
+ But what is one problem means then the user has to understand each of that functionality.
+
+0:17:32	SPEAKER_01
+ Yeah, well, because the same button is doing to anything.
+
+0:17:35	SPEAKER_00
+ Well, we will have a bit of a simpler task in that we're only doing a television remote control. I think maybe one option is to have, you know, a little flip open door that, that you have hidden most of the time, but contains the extra buttons like say the number buttons, for instance.
+
+0:17:55	SPEAKER_00
+ I would, if I had my perfect remote control, I would probably just have no numbers at all on it because they're just in the way they don't really do anything. Maybe, you know, although I do also find flip open doors a bit of a pain because sometimes they can break off or whatever.
+
+0:18:10	SPEAKER_00
+ But maybe a door that you can permanently remove or permanently have on would be good.
+
+0:18:16	SPEAKER_00
+ But I think definitely you need to keep the buttons down to a minimum, but not not like that kind of interfere with the functionality of the device.
+
+0:18:27	SPEAKER_03
+ I think I think that the transition to this to this new remote control should then be very very abrupt, very hard because if people see a remote, see a remote control without numbers, they will think it's very difficult to learn, very difficult to.
+
+0:18:45	SPEAKER_03
+ Very different to.
+
+0:18:48	SPEAKER_00
+ Traditions on how you market it. If you have the right advertisements showing how easy it is and how you can, you know, navigate to a program without the numbers and people might say, that looks pretty easy.
+
+0:19:02	SPEAKER_00
+ Okay. Can you continue? Please, mate.
+
+0:19:04	SPEAKER_00
+ Okay. So I think one of the really kind of useful things you can do with internet connectivity would be to have this a program driven interface rather than the channel number.
+
+0:19:15	SPEAKER_00
+ So if we can have a high priced remote control, I think that would really be worth something that would be worth implementing.
+
+0:19:23	SPEAKER_00
+ There's the LCD screen, which maybe is too expensive.
+
+0:19:29	SPEAKER_00
+ But I think also the scroll wheel I haven't mentioned in here, the scroll wheel could be used without an LCD screen just for changing channel numbers easily.
+
+0:19:37	SPEAKER_00
+ I think even that, I mean, that would be a fairly cheap thing compared to an LCD screen to implement.
+
+0:19:42	SPEAKER_00
+ I'm both in it would be quite useful as well.
+
+0:19:44	SPEAKER_00
+ And the other thing, you said we need to keep it just television, but I think one, maybe one option, since this is supposed to be a kind of a fashionable device, is, you know, there's a certain kind of cool or well factor that you can kind of, you know, you can have with technology and maybe we want to make it something that's extensible to do other tasks. Say you have like, another little kind of base unit that can also receive signals as well as the television where you can say, change the lighting in the room.
+
+0:20:16	SPEAKER_00
+ You know, that would be something maybe you could sell as an extra so that it doesn't have to be part of the initial development.
+
+0:20:23	SPEAKER_00
+ You can, you know, you're also selling the potential of the device and you say potentially you can then do other cool stuff like, change the lights, I'm not close the windows, whatever turn the heating on.
+
+0:20:33	SPEAKER_00
+ And I think that's something we may need to have as as at least as an optional extra to kind of make our product cool since we say we're putting the fashion in electronics.
+
+0:20:43	SPEAKER_02
+ Okay. Okay, thanks.
+
+0:20:46	SPEAKER_02
+ Yeah, man, you want to go. Yeah. Give me.
+
+0:20:54	SPEAKER_01
+ So most of the things that you are discussing about a speech recognition, I mean, this is my own. Yeah, it should be great.
+
+0:21:04	SPEAKER_02
+ Nope, but that one.
+
+0:21:07	SPEAKER_01
+ You are too. Okay, so the working design is user interface could be of two times.
+
+0:21:17	SPEAKER_01
+ One is the usual press buttons, which are there so that the user feels that he's knowing doing some he's knowing about the technology.
+
+0:21:26	SPEAKER_01
+ So he's pretty comfortable if he wants to get this and on top of that there, there could be a speech recognition technology also being sitting on the on the remote.
+
+0:21:36	SPEAKER_01
+ So the old kind of users who don't want to have any changes, it can.
+
+0:21:42	SPEAKER_01
+ It can be useful for them and the new users as our marketing expert was saying they can use the new guest mode, which is speech recognition kind of thing.
+
+0:21:52	SPEAKER_02
+ Okay, sorry to interrupt you, but we have seen before that there is a new way of interacting that use will.
+
+0:21:58	SPEAKER_01
+ That's right. So anyway, that didn't come into my mind.
+
+0:22:02	SPEAKER_01
+ So that is a possibility. These could be other kind of interfaces means we can have depending on the cost, how much we can afford.
+
+0:22:10	SPEAKER_01
+ We can have different kind of interfaces. So speed buttons are something which is very everybody's familiar with.
+
+0:22:16	SPEAKER_01
+ So if you go to the market and you say that buttons are there, the people know what it is.
+
+0:22:21	SPEAKER_01
+ And on top of that, if we are having extra functionality, they are willing to shell the 25 euros money, which we are thinking.
+
+0:22:28	SPEAKER_01
+ Otherwise, we are just like others in the market. So anyway, that is the first user interface could be of more than one type.
+
+0:22:35	SPEAKER_01
+ And yeah, that means we can do the online changes, which cannot be done now actually.
+
+0:22:40	SPEAKER_01
+ So apart from a speech, we can have this crawl kind of thing with the buttons.
+
+0:22:44	SPEAKER_01
+ Now for buttons, normal requirements like bitcoding and all those things are required.
+
+0:22:49	SPEAKER_01
+ And for voice, limited vocabulary, automatic speech recognition system is required.
+
+0:22:54	SPEAKER_01
+ And we require a microphone also to be sitting there on the remote.
+
+0:22:58	SPEAKER_02
+ Yeah, that increases the cost also.
+
+0:23:01	SPEAKER_01
+ That's right. But we have to see how much, what kind of microphones and stuff like that.
+
+0:23:08	SPEAKER_02
+ Do you think that performance of such systems are enough to target?
+
+0:23:13	SPEAKER_02
+ Well, of such technologies is enough.
+
+0:23:16	SPEAKER_01
+ Yes, if it is limited vocabulary, usually it is enough.
+
+0:23:20	SPEAKER_01
+ Okay. We can target, means we can target 95% accuracy or somewhere 90%.
+
+0:23:27	SPEAKER_02
+ I imagine also that the microphone will be an ambient microphone.
+
+0:23:32	SPEAKER_02
+ That's right.
+
+0:23:33	SPEAKER_02
+ Because you are not going to speak into any of these different modes.
+
+0:23:35	SPEAKER_01
+ No, it could be a little bit.
+
+0:23:36	SPEAKER_02
+ So it could be a few centimeters.
+
+0:23:38	SPEAKER_02
+ That's right.
+
+0:23:39	SPEAKER_00
+ But one other thing that speech recognition could really blow out the price for is when you want to sell into other markets.
+
+0:23:46	SPEAKER_00
+ So because I'm not sure exactly where we're going to sell this but I presume it's not just going to be English-speaking countries.
+
+0:23:51	SPEAKER_00
+ Yeah.
+
+0:23:52	SPEAKER_00
+ So then you have to train models for.
+
+0:23:55	SPEAKER_01
+ It's more like, means there are different speech technologies which are existing.
+
+0:23:59	SPEAKER_01
+ So a DTW could be kind of, which is the easiest.
+
+0:24:02	SPEAKER_01
+ So you have to store some templates on the chip itself.
+
+0:24:07	SPEAKER_01
+ And it's just dynamic time-wapping where you try to find out what it is.
+
+0:24:12	SPEAKER_01
+ So you start having a model which is to be trained and being a microcontroller.
+
+0:24:16	SPEAKER_02
+ Okay, we should discuss that later after this slide.
+
+0:24:21	SPEAKER_02
+ This is a very important issue.
+
+0:24:24	SPEAKER_02
+ That's right.
+
+0:24:25	SPEAKER_02
+ Discussion.
+
+0:24:26	SPEAKER_02
+ Okay, next.
+
+0:24:27	SPEAKER_02
+ It's finished.
+
+0:24:29	SPEAKER_02
+ No, no.
+
+0:24:30	SPEAKER_01
+ Components.
+
+0:24:31	SPEAKER_01
+ Components.
+
+0:24:32	SPEAKER_01
+ So we'll go to the next slide.
+
+0:24:35	SPEAKER_01
+ Yes, sure.
+
+0:24:36	SPEAKER_01
+ Yeah, so this is the design which we are thinking.
+
+0:24:39	SPEAKER_01
+ So we are having the power button and the switch which is not much and then we are having the bulb with us which is to indicate whether the power is on or not.
+
+0:24:50	SPEAKER_01
+ And then there are two kind of things which can be.
+
+0:24:53	SPEAKER_01
+ So one is the button interface which has not been shown because of lack of time.
+
+0:24:58	SPEAKER_01
+ So we could not put that.
+
+0:25:00	SPEAKER_01
+ So now where the ASR decoder is sitting.
+
+0:25:02	SPEAKER_01
+ Similarly, there are different kind of interfaces which could be there.
+
+0:25:05	SPEAKER_01
+ So there is ASR decoder which could be there and then there could be another scroll button, scroll, scroller and then there could be buttons.
+
+0:25:13	SPEAKER_01
+ And all of them they will just do the decoding and put it in the map.
+
+0:25:16	SPEAKER_01
+ Put it in the proper message format and then there is the chip which is sitting.
+
+0:25:20	SPEAKER_01
+ The green one and it converts it into bitcodes and that bitcodes are sent by the infrared device to the receiver.
+
+0:25:27	SPEAKER_02
+ Okay.
+
+0:25:28	SPEAKER_01
+ So this is the easiest design that they could be.
+
+0:25:31	SPEAKER_01
+ So in ASR decoder we can have things in parallel to have different technologies.
+
+0:25:37	SPEAKER_01
+ So this was the, my personal preference was that we can have ASR sitting there on the remote control.
+
+0:25:44	SPEAKER_00
+ Yeah, I guess you could actually train the remote control as you are using it by saying you know, turn volume up and you press the first button like people teach sound language the kids well.
+
+0:25:55	SPEAKER_01
+ Yeah, but as soon as you try to put a microchip kind of thing or something the price will go up.
+
+0:26:01	SPEAKER_01
+ So these are the slight problems.
+
+0:26:04	SPEAKER_01
+ So your opinion is that we should go for because the reason is that if we go into the market means though I don't have much idea,
+
+0:26:14	SPEAKER_03
+ but as he the marketing expert presentation was if you can sell a specific condition remote control for 25 euros every one will buy it.
+
+0:26:24	SPEAKER_00
+ So if you go to just because I'm the, you know, well if I was using remote control to say turn the volume up because I can't hear it very well. I don't really want to you know drown out what people are saying by talking you know when I'm when I'm instead of pressing up on the remote control.
+
+0:26:42	SPEAKER_00
+ You know if there's some, there's some dialogue all of a sudden that I can't hear.
+
+0:26:45	SPEAKER_00
+ Yeah.
+
+0:26:46	SPEAKER_00
+ I'm trying to actually find out what's being said.
+
+0:26:48	SPEAKER_00
+ So maybe speak track dish and get in the way more than I tell.
+
+0:26:50	SPEAKER_03
+ Okay. So yeah, but you know the average frequency of passion bottoms.
+
+0:26:56	SPEAKER_03
+ It's about, well, depends if it's a remote control.
+
+0:26:59	SPEAKER_03
+ It's about 80, 80, 80 passes per hour or something like that.
+
+0:27:04	SPEAKER_00
+ Maybe if the remote control is something that you don't actually have to pick up anymore that would be a useful feature of the speech recognition.
+
+0:27:10	SPEAKER_00
+ If you can leave it sitting on the table and you don't actually have to find it then.
+
+0:27:15	SPEAKER_02
+ Okay, gentlemen, we have to take some decisions right now.
+
+0:27:21	SPEAKER_02
+ So if I kind of summarize everything we say.
+
+0:27:27	SPEAKER_02
+ We're targeting TV.
+
+0:27:30	SPEAKER_02
+ We need to have remote control which is fancy, which is easy to handle to spoil not too big.
+
+0:27:44	SPEAKER_02
+ We have a good shape for that.
+
+0:27:46	SPEAKER_02
+ A good shape. Yes.
+
+0:27:47	SPEAKER_02
+ We should bring new technologies for young people.
+
+0:27:50	SPEAKER_02
+ And as we have also requirements to use to push through to all the internet.
+
+0:27:57	SPEAKER_02
+ Maybe this is something we can stick to it.
+
+0:27:59	SPEAKER_02
+ And also very interesting things I have seen on one of our competitors.
+
+0:28:07	SPEAKER_02
+ Is this wheel that we can use to navigate.
+
+0:28:10	SPEAKER_02
+ So my feeling is that regarding costs, budgets we have and target price.
+
+0:28:18	SPEAKER_02
+ It's not possible to go to LCD.
+
+0:28:22	SPEAKER_02
+ And also to go to automatic speech recognition technologies.
+
+0:28:27	SPEAKER_02
+ First, why not to go to LCD?
+
+0:28:29	SPEAKER_02
+ Because in fact, as we are targeting a TV, in fact we can use TV screen as a screen to feedback, to give some feedback information about what we could have.
+
+0:28:42	SPEAKER_00
+ Well, it depends if we don't, unless we have some input, some video input to the TV, or we have control over the TV, then we can't actually display that.
+
+0:28:51	SPEAKER_00
+ If we produce the TV is then, then, you know, we can put menus up there.
+
+0:28:56	SPEAKER_00
+ But otherwise we need to actually have some kind of something sitting in between the video signal and the TV to superimpose those menus.
+
+0:29:04	SPEAKER_00
+ So that's an extra.
+
+0:29:05	SPEAKER_02
+ Yeah, that's right. Don't contact with people in TV or systems that exist.
+
+0:29:12	SPEAKER_00
+ Well, this is another question.
+
+0:29:14	SPEAKER_00
+ We still haven't really defined the remote.
+
+0:29:17	SPEAKER_00
+ You said we're focusing on TV, but is it still kind of like a universal remote in that it's a replacement remote control?
+
+0:29:24	SPEAKER_00
+ Or is there something for our own line of televisions?
+
+0:29:28	SPEAKER_00
+ Because that really makes a big difference.
+
+0:29:31	SPEAKER_00
+ Even if we have contacts, we can't really produce remote control that can bring up menus on other companies TVs.
+
+0:29:38	SPEAKER_00
+ It's just there are too many TVs out there.
+
+0:29:41	SPEAKER_02
+ Yeah, that's a good point.
+
+0:29:42	SPEAKER_02
+ What could be the cost of...
+
+0:29:46	SPEAKER_02
+ Well, could we feed the targets in terms of cost if we go to LCD and remote control?
+
+0:29:56	SPEAKER_00
+ For 25 euros?
+
+0:29:58	SPEAKER_00
+ I think it's impossible.
+
+0:30:01	SPEAKER_00
+ But I think it will be good to know if there is any leverage in a leeway in that 25 euros.
+
+0:30:10	SPEAKER_00
+ Because for 25 euros I think all we can really do is provide a very basic remote control.
+
+0:30:14	SPEAKER_00
+ And that seems to be kind of against the philosophy of our company, which is putting the fashion into electronics.
+
+0:30:21	SPEAKER_00
+ So I'd like to know if there's any chance of increasing the unit price.
+
+0:30:29	SPEAKER_02
+ So you mean we should target something maybe which is which would be more expensive, but really fancy in terms to have really netted value?
+
+0:30:40	SPEAKER_00
+ Yeah, because...
+
+0:30:41	SPEAKER_02
+ So regarding the automatic speech recognition, I think this is...
+
+0:30:45	SPEAKER_03
+ What would be the goal of putting an LCD in a remote control?
+
+0:30:50	SPEAKER_03
+ What kind of information?
+
+0:30:53	SPEAKER_00
+ Because you can have things like the program name instead of the channel numbers.
+
+0:30:56	SPEAKER_03
+ But most of the TVs, no where they show the...
+
+0:31:00	SPEAKER_03
+ They actually tell it text.
+
+0:31:02	SPEAKER_02
+ Well, because they have to let this on it.
+
+0:31:05	SPEAKER_02
+ You have a teletext signal that you can...
+
+0:31:10	SPEAKER_03
+ Yeah, most of the TVs have teletext, no where they...
+
+0:31:15	SPEAKER_02
+ They have to... most of them have teletext, but we want to get to it well.
+
+0:31:20	SPEAKER_02
+ One of our requirements is to move to teletext through the user of the internet.
+
+0:31:26	SPEAKER_02
+ So to...
+
+0:31:28	SPEAKER_00
+ You get a lot more information.
+
+0:31:29	SPEAKER_02
+ It draws more easily the teletext, for instance, through your remote control.
+
+0:31:36	SPEAKER_03
+ So what would appear in the LCD?
+
+0:31:41	SPEAKER_00
+ So you could have the name of the program, you could have...
+
+0:31:45	SPEAKER_00
+ Start time, you know where it's up to.
+
+0:31:47	SPEAKER_00
+ All the programs you could have...
+
+0:31:49	SPEAKER_00
+ You could have even a little image of, you know, the main actors or something.
+
+0:31:54	SPEAKER_00
+ So you can quickly just kind of...
+
+0:31:56	SPEAKER_02
+ I don't know if this information is available from teletext also.
+
+0:32:00	SPEAKER_00
+ Well, no, but there are other electronic program guides.
+
+0:32:03	SPEAKER_00
+ They may not have pictures, but maybe they do.
+
+0:32:06	SPEAKER_02
+ It also depends on the country.
+
+0:32:08	SPEAKER_02
+ The same reason that we cannot overlay information on the TV.
+
+0:32:13	SPEAKER_02
+ We couldn't grab information with Giznads there.
+
+0:32:18	SPEAKER_00
+ No, but I mean with the internet you have flexibility of where you get your information from, so it may be possible that there are people out there providing that.
+
+0:32:25	SPEAKER_02
+ So that means we need an extra internet connection to use the remote control, if you want to browse.
+
+0:32:30	SPEAKER_02
+ In addition to the TV.
+
+0:32:32	SPEAKER_02
+ Or it should be a special TV connection.
+
+0:32:34	SPEAKER_00
+ Well, I think if we're gonna... I think we would definitely need the internet connection.
+
+0:32:39	SPEAKER_00
+ Because even with... I don't think you could even get teletext information from the TV on to the remote control.
+
+0:32:44	SPEAKER_00
+ Especially if we don't control the TV. I don't know, we need to find that out.
+
+0:32:47	SPEAKER_02
+ Okay, we need to close the meeting.
+
+0:32:50	SPEAKER_02
+ So just a small thing.
+
+0:32:52	SPEAKER_01
+ What kind of market we are targeting?
+
+0:32:54	SPEAKER_01
+ Is it that we are targeting the replacement remote market?
+
+0:32:57	SPEAKER_01
+ Or what?
+
+0:32:58	SPEAKER_01
+ So the remote has gone bad and the person wants to buy a new remote or because the cost of LCD thing could be as high as the TV itself.
+
+0:33:06	SPEAKER_01
+ That is very important.
+
+0:33:07	SPEAKER_00
+ No, no.
+
+0:33:08	SPEAKER_00
+ If it's a really small TV, you know.
+
+0:33:10	SPEAKER_02
+ People go through buying another remote control when they broke.
+
+0:33:14	SPEAKER_01
+ Okay.
+
+0:33:15	SPEAKER_02
+ They broke the whole and they want to go for universal one.
+
+0:33:18	SPEAKER_02
+ And they take the fanciest they can have.
+
+0:33:20	SPEAKER_02
+ Okay.
+
+0:33:21	SPEAKER_02
+ So this is... that we should target.
+
+0:33:23	SPEAKER_02
+ So the... the... the... the commitment is following.
+
+0:33:29	SPEAKER_02
+ We don't go for speech recognition technology.
+
+0:33:32	SPEAKER_02
+ The LCD is still on this... is still open to discussion.
+
+0:33:37	SPEAKER_02
+ Is this up to you to go through this... this way and to report...
+
+0:33:43	SPEAKER_02
+ report me back next meeting?
+
+0:33:46	SPEAKER_03
+ So...
+
+0:33:47	SPEAKER_03
+ I think that the Space Organization technology...
+
+0:33:49	SPEAKER_03
+ It's a bit cheaper. It's cheaper than the LCD.
+
+0:33:52	SPEAKER_02
+ Yeah, but not sure.
+
+0:33:54	SPEAKER_02
+ Maybe it's cheaper, but we have no...
+
+0:33:56	SPEAKER_03
+ Because with the LCD you need more requirements.
+
+0:33:59	SPEAKER_03
+ You need internet connection.
+
+0:34:01	SPEAKER_03
+ You need more things, but...
+
+0:34:03	SPEAKER_03
+ For the Space Organization you don't need anything.
+
+0:34:06	SPEAKER_00
+ You have to say...
+
+0:34:07	SPEAKER_03
+ Channel 50.
+
+0:34:08	SPEAKER_00
+ And that's it.
+
+0:34:09	SPEAKER_00
+ I think the top of people that are going to want to buy a very stylish remote control...
+
+0:34:13	SPEAKER_00
+ with lots of new technologies.
+
+0:34:14	SPEAKER_00
+ The kind of people that are going to have, you know, a wireless internet connection maybe or...
+
+0:34:18	SPEAKER_03
+ But then we should move to another target.
+
+0:34:21	SPEAKER_03
+ Because I have $25.
+
+0:34:23	SPEAKER_00
+ I need to find out... Can we increase the price point of this remote control?
+
+0:34:27	SPEAKER_00
+ Because otherwise we need...
+
+0:34:28	SPEAKER_02
+ Okay, this is an open question for you.
+
+0:34:31	None
+ Yeah.
+
+0:34:32	SPEAKER_02
+ This is up to you to tell us.
+
+0:34:35	SPEAKER_02
+ But I'm definitely not keen on...
+
+0:34:37	SPEAKER_02
+ To move to another target?
+
+0:34:39	SPEAKER_02
+ No, no, no.
+
+0:34:40	SPEAKER_02
+ I'm definitely not keen on going to speed-roaching technologies.
+
+0:34:45	SPEAKER_02
+ I'm not keen enough.
+
+0:34:47	SPEAKER_02
+ I'm not sure that we have a product... really that work.
+
+0:34:51	SPEAKER_02
+ It's kind of hard to guarantee that you're going to...
+
+0:34:54	SPEAKER_02
+ Yeah.
+
+0:34:55	SPEAKER_02
+ How to guarantee such preferences is very hard.
+
+0:34:59	SPEAKER_03
+ The expert said 95%.
+
+0:35:03	SPEAKER_00
+ 95% is not good enough.
+
+0:35:05	SPEAKER_02
+ It's very bad.
+
+0:35:06	SPEAKER_02
+ So, this is the end of this discussion.
+
+0:35:09	SPEAKER_02
+ Next meeting...
+
+0:35:11	SPEAKER_02
+ You're on the task you have to work on.
+
+0:35:14	SPEAKER_02
+ So, you have to work on the component concepts.
+
+0:35:18	SPEAKER_02
+ Okay.
+
+0:35:19	SPEAKER_02
+ You have to work on user interface.
+
+0:35:22	SPEAKER_02
+ And you have to go through a trend-watching.
+
+0:35:26	SPEAKER_02
+ Okay.
+
+0:35:27	SPEAKER_02
+ So, the question is still open about the LCD thing.
+
+0:35:33	SPEAKER_02
+ I hope that next meeting we will...
+
+0:35:37	SPEAKER_02
+ We take some decisions that are there.
+
+0:35:40	SPEAKER_02
+ Thanks.
+
+0:35:41	SPEAKER_02
+ Okay, bye.
+
+0:36:11	None
+ Okay.
+

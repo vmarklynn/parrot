@@ -1,0 +1,963 @@
+0:00:00	None
+ I was supposed to change seats.
+
+0:00:03	None
+ I see you now, since when?
+
+0:00:05	None
+ It did.
+
+0:00:06	None
+ I hope it disappeared.
+
+0:00:08	None
+ I did it no longer somewhere.
+
+0:00:10	SPEAKER_01
+ And it disappeared.
+
+0:00:12	SPEAKER_01
+ And who's the thing in the jadez this?
+
+0:00:15	SPEAKER_01
+ There you go.
+
+0:00:16	SPEAKER_01
+ Me too.
+
+0:00:17	None
+ I should be sure.
+
+0:00:19	None
+ Okay.
+
+0:00:34	SPEAKER_03
+ Okay.
+
+0:00:36	SPEAKER_03
+ Agnes, you can help me for the spite when I talk to you.
+
+0:00:40	SPEAKER_03
+ Okay.
+
+0:00:41	SPEAKER_03
+ Welcome back.
+
+0:00:43	SPEAKER_03
+ I hope you have fresh air and fresh time.
+
+0:00:48	SPEAKER_03
+ Now the meeting actually we gathering here to discuss about the functional design meeting.
+
+0:00:59	SPEAKER_03
+ Okay.
+
+0:01:00	SPEAKER_03
+ And we receive some information from all of you.
+
+0:01:04	SPEAKER_03
+ And it's in the, I think, in the sharing folder.
+
+0:01:08	SPEAKER_03
+ And I will invite the Christine and the aid and Agnes to discuss about on the various subjects.
+
+0:01:17	SPEAKER_03
+ So can you go to the next slide?
+
+0:01:20	SPEAKER_03
+ Yeah.
+
+0:01:21	SPEAKER_03
+ The agent of the meeting is opening.
+
+0:01:24	SPEAKER_03
+ Then I'm going to talk about the project management, what I'm going to do.
+
+0:01:29	SPEAKER_03
+ And of course, I'm doing the project management and secretary both to take the minutes of the meeting.
+
+0:01:35	SPEAKER_03
+ And there are three presentations.
+
+0:01:37	SPEAKER_03
+ One is new project requirements.
+
+0:01:40	SPEAKER_03
+ And the second one about decision on remote control functions.
+
+0:01:44	SPEAKER_03
+ And finally, we are closing and the meeting time will be 40 minutes.
+
+0:01:49	SPEAKER_03
+ So you have to be very quick.
+
+0:01:52	SPEAKER_03
+ And I have come up with management, come with the new proposal.
+
+0:01:56	SPEAKER_03
+ Okay.
+
+0:01:57	SPEAKER_03
+ And I have to discuss a few points on this.
+
+0:01:59	SPEAKER_03
+ Burt says new insights in the aim of your project.
+
+0:02:05	SPEAKER_03
+ The one is the teletext becomes outmodel.
+
+0:02:10	SPEAKER_03
+ Okay, because of the computer systems and new technology.
+
+0:02:15	SPEAKER_03
+ So we don't need to consider really about the teletext and all in our new project design.
+
+0:02:21	SPEAKER_03
+ And the second one is about the remote control.
+
+0:02:26	SPEAKER_03
+ Should be used only for the TV.
+
+0:02:29	SPEAKER_03
+ That's what our management says.
+
+0:02:33	SPEAKER_03
+ And the third point, it's very, very important to establish or marketing or corporate image with this new project or new product.
+
+0:02:49	SPEAKER_03
+ So I will invite Agnes, can you go to the third slide?
+
+0:02:54	SPEAKER_02
+ No, this is the third slide.
+
+0:02:57	SPEAKER_03
+ Okay, this is it.
+
+0:02:59	SPEAKER_03
+ So I will invite Christine to discuss about the functional design.
+
+0:03:05	SPEAKER_01
+ Okay, do you want to open the ear part?
+
+0:03:15	SPEAKER_02
+ Disadvant.
+
+0:03:16	SPEAKER_01
+ Number two.
+
+0:03:19	SPEAKER_01
+ That's it.
+
+0:03:24	SPEAKER_02
+ John Thomas or John Mita?
+
+0:03:26	SPEAKER_02
+ I'll do it.
+
+0:03:27	SPEAKER_01
+ I'll see.
+
+0:03:28	SPEAKER_01
+ Thanks.
+
+0:03:31	SPEAKER_01
+ So, well, I figured we should identify some user requirements.
+
+0:03:39	SPEAKER_01
+ And from my experience, I want to, and from research I did, the device has to turn the television on and off.
+
+0:03:49	SPEAKER_01
+ The first time you press on the big button, you can't have like waffling on this point.
+
+0:03:55	SPEAKER_01
+ You know, really, and needs to be able to find it because one of the biggest problems with remote control is finding them.
+
+0:04:04	SPEAKER_01
+ So, I also, since we have to establish our corporate image on the basis of this new product, that would better look at things that are popular and go beyond those, as I said, in first meeting.
+
+0:04:17	SPEAKER_01
+ And then we might want to talk eventually about the materials that are appropriate to use in the construction, especially in the outside of the product so that it gives the appearance and is reliable and so forth.
+
+0:04:33	SPEAKER_01
+ I did a little history on the remote controls and when they were invented and so forth.
+
+0:04:40	SPEAKER_01
+ So, I guess this guy at Zenith created the Flashmatic, which I kind of liked the idea because it made me think of, maybe the remote control made a big flash when you turn the TV on and off, that might be interesting.
+
+0:04:54	SPEAKER_01
+ And so, it was highly directional flashlight that you could turn the picture on and off and the sound on and off and change channels.
+
+0:05:06	SPEAKER_01
+ So, I think those are still requirements we have today, 50 years later.
+
+0:05:13	SPEAKER_01
+ And it was really a pioneering innovation but it was sensitive to the sun so that it would start off by the, it would easily cause some problems.
+
+0:05:27	SPEAKER_01
+ So, I, in addition to looking at the functional grinds, so all these devices are examples of where they represent examples that are available today.
+
+0:05:43	SPEAKER_01
+ I think the one in the middle is really something to keep in mind.
+
+0:05:48	SPEAKER_01
+ It'd be easy to find and it would, you could throw it at things if the TV didn't turn on and off, you could use it for something else.
+
+0:06:01	SPEAKER_01
+ And since I'm not really an industrial designer, I didn't really know what to do with this slide.
+
+0:06:07	SPEAKER_01
+ But I just took some different schematics and I put them into this and I guess this is what a slide might look like if you were doing a circuit board.
+
+0:06:19	SPEAKER_01
+ I don't know why we were asked to do this.
+
+0:06:23	SPEAKER_01
+ So, personal preferences, I think we could, I'm really thinking outside the box here and I think that we should consider perhaps having a size, a remote control that changes in size depending on the user preference.
+
+0:06:40	SPEAKER_01
+ So, something that's very, very flexible and inflatable and then you could shrink it.
+
+0:06:44	SPEAKER_01
+ I think you could either be, you could go either one extreme, be very colorful or you could make it clear and kind of blend in with things.
+
+0:06:53	SPEAKER_01
+ So, you didn't have to have a problem with the decoration of the user's home.
+
+0:07:01	SPEAKER_01
+ I think it needs to be waterproof because sometimes they fall into cups and you know, it might be out by the swimming pool or something like that.
+
+0:07:12	SPEAKER_01
+ If you, one of my requirements was about it needs to tell you when it's done its job or not because after time I keep pushing on the remote control and I don't know if it's actually understood my message.
+
+0:07:24	SPEAKER_01
+ So, I think it should give you some sort of an oral cue and of course I never want to replace the battery.
+
+0:07:30	SPEAKER_01
+ So, those are my preferences and that's my presentation.
+
+0:07:34	SPEAKER_03
+ Let me interrupt you. If you can add other facilities, other future like, unbreakable.
+
+0:07:41	SPEAKER_03
+ Yes.
+
+0:07:42	SPEAKER_03
+ Because especially today you know, you have the family and the kids, the kids throughout and they play with the remote.
+
+0:07:50	SPEAKER_03
+ Run over it with the car.
+
+0:07:51	SPEAKER_03
+ Yes.
+
+0:07:52	SPEAKER_03
+ Okay, so if you can add the future for your fabric whatever in your outline design with unbreakable.
+
+0:08:00	SPEAKER_03
+ I think that will give a lot of advantage for our product.
+
+0:08:04	SPEAKER_03
+ Good idea.
+
+0:08:05	SPEAKER_01
+ Good idea.
+
+0:08:06	SPEAKER_01
+ I'll, I'll, I'll, I'll, I'll, you can add it in that.
+
+0:08:08	SPEAKER_01
+ Yes.
+
+0:08:09	SPEAKER_01
+ Okay.
+
+0:08:10	SPEAKER_03
+ Okay. Thank you, Christine.
+
+0:08:21	SPEAKER_03
+ And any questions or clarifications or any discussion on the functional design?
+
+0:08:30	SPEAKER_02
+ Do you have any preconceived ideas in terms of materials?
+
+0:08:36	SPEAKER_02
+ Because for example, in the unbreakable thing doing something plastic would be harder where it's having something like, I know, steal our titanium.
+
+0:08:45	SPEAKER_02
+ It's not titanium, it's economically viable.
+
+0:08:49	SPEAKER_01
+ Be heavy too.
+
+0:08:50	SPEAKER_01
+ Yeah.
+
+0:08:51	SPEAKER_01
+ No, I haven't really, I want to feedback.
+
+0:08:56	SPEAKER_01
+ I think we need to rate rank these.
+
+0:08:58	SPEAKER_01
+ Yeah.
+
+0:08:59	SPEAKER_01
+ But we'll see what your personal preferences are in your thoughts.
+
+0:09:01	SPEAKER_02
+ No, I was wondering whether that you had any.
+
+0:09:04	SPEAKER_01
+ I like titanium. It's light.
+
+0:09:06	SPEAKER_01
+ Yeah.
+
+0:09:07	SPEAKER_02
+ Expensive.
+
+0:09:08	SPEAKER_02
+ Yeah.
+
+0:09:09	SPEAKER_01
+ Marketing comes from the process.
+
+0:09:11	SPEAKER_01
+ Who said we were, you know, nobody told me how much what our financial objective is.
+
+0:09:15	SPEAKER_01
+ So, I'm.
+
+0:09:16	SPEAKER_01
+ Yeah.
+
+0:09:17	SPEAKER_01
+ It'd be hard to inflate something and made out titanium.
+
+0:09:20	SPEAKER_03
+ Yeah, the, I'm sorry because the last meeting we supposed to discuss about the financial thing.
+
+0:09:25	SPEAKER_03
+ Let me go quickly.
+
+0:09:26	SPEAKER_03
+ Maybe if I can go back.
+
+0:09:28	SPEAKER_03
+ I know what a project plan and the budget.
+
+0:09:33	SPEAKER_03
+ So, I can close this until.
+
+0:09:39	SPEAKER_03
+ I'm closing there.
+
+0:09:42	None
+ Okay.
+
+0:10:10	None
+ So, let me see where this file.
+
+0:10:17	SPEAKER_03
+ That's Christine's.
+
+0:10:24	SPEAKER_00
+ This is Christine.
+
+0:10:51	SPEAKER_03
+ That's mine.
+
+0:10:58	SPEAKER_00
+ I think we're.
+
+0:11:01	SPEAKER_00
+ I will say you may.
+
+0:11:02	SPEAKER_03
+ Okay.
+
+0:11:03	SPEAKER_03
+ The project may be the project.
+
+0:11:05	SPEAKER_03
+ A. Okay.
+
+0:11:06	SPEAKER_03
+ Or the end of the day.
+
+0:11:07	SPEAKER_03
+ The company wants to make at least the 50 million euro.
+
+0:11:12	SPEAKER_03
+ Okay.
+
+0:11:13	SPEAKER_03
+ And of course, the price will be very reasonable on the sale side.
+
+0:11:18	SPEAKER_03
+ Okay. That may be you.
+
+0:11:21	SPEAKER_03
+ They will talk to you about how much of the price and what's the, how much it's cost for the manufacturing and how much it's going to be.
+
+0:11:26	SPEAKER_03
+ We sell in the market.
+
+0:11:28	SPEAKER_03
+ Okay.
+
+0:11:29	SPEAKER_03
+ Then you can come back with your feedback.
+
+0:11:31	SPEAKER_03
+ And I have one maybe the suggestion or opinion.
+
+0:11:35	SPEAKER_03
+ This remote control.
+
+0:11:36	SPEAKER_03
+ Okay.
+
+0:11:37	SPEAKER_03
+ It can be for like a universal to use for any TV.
+
+0:11:42	SPEAKER_03
+ Okay.
+
+0:11:43	SPEAKER_03
+ And it will be slip.
+
+0:11:45	SPEAKER_03
+ Okay.
+
+0:11:46	SPEAKER_03
+ Not fat.
+
+0:11:48	SPEAKER_03
+ Not fat.
+
+0:11:49	SPEAKER_01
+ Not fat.
+
+0:11:52	SPEAKER_01
+ It might be hard to find them.
+
+0:11:55	SPEAKER_03
+ But let's try it.
+
+0:11:56	SPEAKER_03
+ Okay.
+
+0:11:57	SPEAKER_03
+ Okay.
+
+0:11:58	SPEAKER_03
+ With the different the designs.
+
+0:11:59	SPEAKER_03
+ Okay.
+
+0:12:00	SPEAKER_03
+ The functional designs.
+
+0:12:01	SPEAKER_03
+ Okay.
+
+0:12:02	SPEAKER_03
+ So any other questions?
+
+0:12:05	SPEAKER_00
+ From her side, I don't think there's too many more questions.
+
+0:12:09	SPEAKER_00
+ Okay.
+
+0:12:10	SPEAKER_03
+ Thank you, Christine.
+
+0:12:11	SPEAKER_03
+ For time being.
+
+0:12:12	SPEAKER_03
+ So then.
+
+0:12:14	SPEAKER_03
+ Okay.
+
+0:12:16	SPEAKER_00
+ From the marketing side, just to give an idea what the management is looking for.
+
+0:12:21	SPEAKER_00
+ They're looking for a remote control to have a.
+
+0:12:27	SPEAKER_00
+ I have a sales price of 25 euro.
+
+0:12:31	SPEAKER_00
+ With a production price of a 12 and a half euro.
+
+0:12:37	SPEAKER_00
+ For what?
+
+0:12:38	SPEAKER_00
+ I think for what we're trying to find which one we're looking for.
+
+0:12:41	SPEAKER_00
+ I don't think that price is exactly in the market.
+
+0:12:45	SPEAKER_00
+ Okay.
+
+0:12:46	SPEAKER_00
+ I'll explain myself here now in a sense that in a in the recent surveys.
+
+0:12:53	SPEAKER_00
+ From the ages from 15 to 35 80 percent are willing to spend more money for something as fancy as trendy.
+
+0:13:00	SPEAKER_00
+ 25 euros.
+
+0:13:02	SPEAKER_00
+ That's a pretty reasonable price.
+
+0:13:04	SPEAKER_00
+ That's a market price right now.
+
+0:13:06	SPEAKER_00
+ Now if we're going to take a risk.
+
+0:13:08	SPEAKER_00
+ And push this up a bit, make it more expensive.
+
+0:13:11	SPEAKER_00
+ But give them added things that they don't have now.
+
+0:13:14	SPEAKER_00
+ Yep.
+
+0:13:15	SPEAKER_00
+ Then it could possibly sell.
+
+0:13:16	SPEAKER_00
+ Obviously the risk is there.
+
+0:13:18	SPEAKER_00
+ Too expensive.
+
+0:13:19	SPEAKER_00
+ They're not going to buy.
+
+0:13:20	SPEAKER_00
+ But I think there's one other thing interesting.
+
+0:13:24	SPEAKER_00
+ Two things that are interesting.
+
+0:13:26	SPEAKER_00
+ Is that from the 15 to 35 year old group, which always spends more money on trendy new things.
+
+0:13:33	SPEAKER_00
+ Speech recognition is requested.
+
+0:13:36	SPEAKER_00
+ We're talking between 75 to 90 percent of this group is willing to pay for a speech recognition on a remote.
+
+0:13:45	SPEAKER_00
+ Obviously we can't make a remote into a computer, but maybe simple commands.
+
+0:13:50	SPEAKER_00
+ I don't know.
+
+0:13:51	SPEAKER_00
+ The louder, softer, on, off.
+
+0:13:56	SPEAKER_00
+ That might be a possibility, even though a customer to be the first on the market to produce this.
+
+0:14:02	SPEAKER_00
+ 35 percent say they're too difficult to use.
+
+0:14:06	SPEAKER_00
+ So we have to figure out a way of making it more user friendly.
+
+0:14:10	SPEAKER_00
+ 50 percent say they can't find the remote half of the time.
+
+0:14:15	SPEAKER_00
+ So maybe one word speech recognition command say remote.
+
+0:14:19	SPEAKER_00
+ And there's a BB beep and they can find it through ten tons of newspapers, magazines, whatever you have at home.
+
+0:14:26	SPEAKER_00
+ But in the cost that the management is looking for, that's not going to be possible.
+
+0:14:31	SPEAKER_00
+ But if it's trendy, if it's fancy, it's got some color to it.
+
+0:14:34	SPEAKER_00
+ It's very easy to use.
+
+0:14:36	SPEAKER_00
+ If it's got simple remote speech remote control, like I said, louder, softer, change channel, on, off.
+
+0:14:45	SPEAKER_00
+ Remote and it goes BB beep.
+
+0:14:46	SPEAKER_00
+ I can find my remote without spending half a day looking for it and getting all upset because I can't turn the TV on.
+
+0:14:52	SPEAKER_00
+ So we have to look at it in this global idea with the ideas of the industrial design.
+
+0:15:00	SPEAKER_00
+ But price obviously we have to talk about.
+
+0:15:03	SPEAKER_03
+ Yeah.
+
+0:15:04	SPEAKER_03
+ So what do you think about the design statistic?
+
+0:15:09	SPEAKER_03
+ Do you think you can make it or?
+
+0:15:14	SPEAKER_01
+ I'm sorry.
+
+0:15:16	SPEAKER_03
+ What do you think about the design, what he was talking about?
+
+0:15:21	SPEAKER_03
+ Speech recognition.
+
+0:15:23	SPEAKER_01
+ Well, training is always an issue with commands.
+
+0:15:31	SPEAKER_01
+ So we can perhaps do it if the user is willing to spend some time in the training process, it could reduce the overall cost.
+
+0:15:50	SPEAKER_01
+ Not sure how.
+
+0:15:52	SPEAKER_01
+ But anyway, I think also that this might impact the battery life.
+
+0:16:01	SPEAKER_01
+ And so maybe what we'll have to do is add something where you can recharge it wirelessly.
+
+0:16:13	SPEAKER_01
+ So that you know, send power to it.
+
+0:16:17	SPEAKER_01
+ Or maybe set it out in the sun and it gets from the light, a solar cell inside there so that you have enough juice to do all these fancy things.
+
+0:16:31	SPEAKER_02
+ It seems also like with the speech recognition, yeah, it's a great feature, but if you're watching TV, there's a lot of ambient sound and it's words.
+
+0:16:39	SPEAKER_02
+ It's not just noise is like something hitting.
+
+0:16:42	SPEAKER_02
+ It's actual speech, so then you have to make sure that the speech recognizer is good enough to filter out the TV speech and the user speech.
+
+0:16:52	SPEAKER_02
+ Otherwise, you can say remote.
+
+0:16:54	SPEAKER_02
+ But if someone on the screen is saying the same thing, all of a sudden you have someone in a movie saying off and your screen dies because they've triggered the remote control and it's turned off your TV.
+
+0:17:05	SPEAKER_02
+ So I think if we can find a speech recognizer that can handle those types of problems, then yeah, if you're a really good marketing gimmick, but I think we seriously need to consider how that would impact the situation.
+
+0:17:19	SPEAKER_02
+ Very good point.
+
+0:17:21	SPEAKER_00
+ Well, with speech recognition, I'm not that good at that idea, but if it's a one word recognition, because I know with telephones and cars and things, I've seen it in the States, a guy friend of mine says, call mom and it calls up mom.
+
+0:17:39	SPEAKER_00
+ The radio can be on and everything, because I think with speech recognition, if the remote or like the telephone, it has exact word that it has to hear.
+
+0:17:51	SPEAKER_00
+ I don't think it would come through a sentence on a television.
+
+0:17:54	SPEAKER_00
+ If somebody's speaking on the television, they're not going to stop and say, remote.
+
+0:17:59	SPEAKER_00
+ So I think that something could be designed to recognize single word. Like the great idea if we can design it.
+
+0:18:08	SPEAKER_00
+ This is years ago in the United States, we're driving down and he's called home on the telephone called immediately.
+
+0:18:13	SPEAKER_00
+ So that's kind of cute.
+
+0:18:17	SPEAKER_03
+ What I can suggest you, Christian, if you need some technical feedback or some training about this facility, especially for the speech recognition, I can recommend you some companies like Inter or IBM, because they're already in this speech recognition part.
+
+0:18:41	SPEAKER_03
+ You can maybe have some technical backup from them, some kind of technical tie up.
+
+0:18:48	SPEAKER_03
+ If you want, I can coordinate to get some information.
+
+0:18:53	SPEAKER_03
+ You can let me know.
+
+0:18:55	SPEAKER_03
+ So what kind of details you require to add this future in this project? I don't think it's the difficult.
+
+0:19:13	SPEAKER_03
+ We need to know how much is the time frame you need to download, apart from what you have today.
+
+0:19:21	SPEAKER_01
+ Okay, we'll find that out.
+
+0:19:25	SPEAKER_00
+ From your side, you're going to have to go back to management and be more precise. What do they want?
+
+0:19:32	SPEAKER_00
+ A risk, take a risk on the market, something that's going to cost more, but could very easily make a boom in the market.
+
+0:19:39	SPEAKER_00
+ Because it has to be something totally different, it has to be totally new, something that nobody has right now.
+
+0:19:45	SPEAKER_03
+ It's going to cost. But end of the day, you're the sales guy. So I will come back and sit on your head because you're going to do your sales position.
+
+0:19:54	SPEAKER_03
+ Of course, it's good to tell the management how much it's cost is and how much you're going to benefit.
+
+0:20:01	SPEAKER_03
+ So I don't mind to convey the management to spend some more money on the project, if you can make out of it.
+
+0:20:11	SPEAKER_03
+ Obviously, the money from the bottom line is positive.
+
+0:20:15	SPEAKER_03
+ I don't mind to convince the management. The management says, they don't want certain facilities, which it's already world.
+
+0:20:24	SPEAKER_03
+ They want something new. I think a speech recognition, definitely they're likely.
+
+0:20:29	SPEAKER_03
+ I don't think they say no for that. I hope I can convince the management on that.
+
+0:20:36	SPEAKER_03
+ So if you have any new ideas, you can always come up and tell me if you need any special coordination between any technical companies which you can hide the technology backup for your functional design or technical design.
+
+0:20:55	SPEAKER_03
+ Then I'm ready to do that. And what's your comments about?
+
+0:21:07	SPEAKER_02
+ Well, I mean, maybe if I go through my presentation, you can sort of see what the user perspective is and how it ties into the other two comments.
+
+0:21:15	SPEAKER_03
+ So you finish it so I can handle to a technique.
+
+0:21:27	SPEAKER_03
+ Where are you here? Participant 3.
+
+0:21:37	SPEAKER_02
+ No, you're in trouble.
+
+0:21:47	SPEAKER_02
+ Okay. So it would be hard.
+
+0:22:08	SPEAKER_02
+ Okay. So basically the method that we usually use in user interface design is that we need to look at what people don't like about existing products in our case existing remote controls.
+
+0:22:21	SPEAKER_02
+ And then what the good ideas are and what the bad ideas are and why they're bad and good, which isn't always as obvious.
+
+0:22:27	SPEAKER_02
+ We seem to have intuitions about why things are good or things are bad, but when you look technically at how it works, sometimes that's not the case.
+
+0:22:36	SPEAKER_02
+ Then we need to decide what functionalities we really want to keep because that'll feed into both ed's work and Christine's work.
+
+0:22:44	SPEAKER_02
+ And then what the remote control should look like obviously once we've got a good idea of what the functionalities are.
+
+0:22:51	SPEAKER_02
+ So in terms of the functionalities that we need, you obviously need to be able to turn the TV on and off.
+
+0:22:55	SPEAKER_02
+ You need to change channels both by directly going to a specific channel or by channel surfing.
+
+0:23:00	SPEAKER_02
+ You need to be able to control the volume and then control any menus on the TV to regulate contrast or whatever.
+
+0:23:12	SPEAKER_02
+ So the problems that people have expressed is that there's too many buttons on remote controls in general.
+
+0:23:17	SPEAKER_02
+ The buttons it's not clear what they're supposed to do.
+
+0:23:21	SPEAKER_02
+ Often you need to know specific button sequences to get certain functionalities done, which you don't necessarily always remember, especially if it's a functionality that you don't use very often.
+
+0:23:33	SPEAKER_02
+ And that the buttons are too small.
+
+0:23:36	SPEAKER_02
+ So here we've got two examples where here on the left hand side you can see a remote control that has lots and lots of buttons.
+
+0:23:45	SPEAKER_02
+ And a lot of cases are tiny. They're hard to see. And okay, they're labeled, but the labels don't necessarily tell you too much.
+
+0:23:54	SPEAKER_02
+ Whereas on the other side you have a much simpler remote control that I think basically has the minimum functionalities that are needed.
+
+0:24:03	SPEAKER_02
+ And it sort of looks simpler and just less imposing when you first look at it.
+
+0:24:08	SPEAKER_02
+ So I would be inclined to go sort of towards this in terms of design rather than this. And if there's specific functionalities that require more buttons, then we can figure out how to do it with existing buttons.
+
+0:24:21	SPEAKER_02
+ So my personal preferences are to keep the number of buttons to limit or to a minimum, sorry, make frequently used buttons bigger and more strategically placed.
+
+0:24:30	SPEAKER_02
+ So like the on button being really obvious when the channel changing and the volume and to keep the design basically sleek and simple, which I think ties into what Christina and Ed have both said fairly reasonably.
+
+0:24:46	SPEAKER_02
+ So that's pretty much it.
+
+0:24:50	SPEAKER_02
+ I don't know if you guys have any questions or.
+
+0:24:58	SPEAKER_01
+ It seems very understandable clearly your research in an hours, heading in the same direction.
+
+0:25:08	SPEAKER_01
+ And the only thing that I saw missing from your research that we found was this ability to find the dog on thing when you need it.
+
+0:25:21	SPEAKER_01
+ So that's true. So you know, but that's okay. That's why we're all here at the table. So that if we think of it and our research should indicate certain things and.
+
+0:25:30	SPEAKER_01
+ Yeah, it's complimentary.
+
+0:25:32	SPEAKER_01
+ I also think that.
+
+0:25:36	SPEAKER_01
+ The the the feel of it is when you hold it is something that was expressed more in in in my design.
+
+0:25:51	SPEAKER_01
+ And that's logical and normal because those are the parameters that industrial designers more thinking about the look in the field.
+
+0:25:59	SPEAKER_02
+ And that's definitely a very important factor, especially to use or you're going to be buying the thing and I'm using it almost on a daily basis in a lot of cases, I think.
+
+0:26:11	SPEAKER_01
+ Okay, so I don't have any questions. Sounds good.
+
+0:26:15	SPEAKER_03
+ So anybody need any help for time being on this subject. So please come back to me and Christian, maybe I can try to help you to get some the technical.
+
+0:26:30	SPEAKER_03
+ The companies to help you for make a design slim.
+
+0:26:34	SPEAKER_03
+ Okay, and to add some futures like what we're talking about the speech recognition at all.
+
+0:26:40	SPEAKER_02
+ Should we maybe make a decision about what features we actually want to include because we throw in a lot of features onto the table, but.
+
+0:26:47	SPEAKER_02
+ Do we actually want to incorporate all of them or.
+
+0:26:52	SPEAKER_01
+ Have we missed anything? Do you want to go back and look at the closing slide? Maybe that would provide some guidance.
+
+0:26:58	SPEAKER_01
+ Sure.
+
+0:27:13	SPEAKER_01
+ Doesn't really tell us.
+
+0:27:15	SPEAKER_03
+ Not a lady.
+
+0:27:17	SPEAKER_01
+ Well, it says individual actions. It says user, so I'm supposed to do the components concept. Supposed to work on the user interface concept and you're supposed to keep watching the trends.
+
+0:27:31	SPEAKER_01
+ And specific instructions will be sent by our coach.
+
+0:27:35	SPEAKER_01
+ I think we should do as many features as start with all of them right now and eliminate them later in the process. That's my suggestion.
+
+0:27:45	SPEAKER_03
+ Okay, that would be great.
+
+0:27:48	SPEAKER_03
+ And I'll send you the minutes of.
+
+0:27:50	SPEAKER_02
+ You can object if you want.
+
+0:27:52	SPEAKER_02
+ No, I'm just thinking in terms of time.
+
+0:27:54	SPEAKER_02
+ I'm just.
+
+0:27:55	SPEAKER_00
+ Yes, now I'm objecting.
+
+0:27:57	SPEAKER_02
+ No, I mean, I was just thinking is it really practical to start designing something with features that we're just going to end up throwing away?
+
+0:28:04	SPEAKER_02
+ I mean, it takes a lot of time and effort for everyone to consider different features.
+
+0:28:13	SPEAKER_02
+ And if we spend that time and effort on features that we're not going to use, maybe it's better to spend it on the thinking more about features that we actually do want.
+
+0:28:23	SPEAKER_01
+ I don't get it.
+
+0:28:24	None
+ We get it.
+
+0:28:24	SPEAKER_01
+ I'm for after the meeting because our meeting time has run out.
+
+0:28:27	SPEAKER_01
+ Somebody else has got to use this room and you know, we can't hang out here.
+
+0:28:30	SPEAKER_01
+ Yeah, talk about this.
+
+0:28:31	SPEAKER_03
+ So.
+
+0:28:32	SPEAKER_03
+ Okay, what will this love will take for lunch break?
+
+0:28:34	SPEAKER_03
+ Okay, then we can discuss further more.
+
+0:28:37	SPEAKER_03
+ Okay, with our ideas and then we will come back again in the next meeting.
+
+0:28:41	SPEAKER_03
+ So thanks for coming and I'll send you minutes of meeting and please put your all information in the sharing folder so everybody can share the information.
+
+0:28:51	SPEAKER_03
+ Okay, so let's go for lunch time.
+
+0:28:54	SPEAKER_03
+ Agreed.
+
+0:28:55	SPEAKER_02
+ Agreed.
+
+0:29:12	None
+ Okay.
+

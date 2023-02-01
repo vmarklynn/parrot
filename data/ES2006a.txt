@@ -1,0 +1,549 @@
+0:00:00	SPEAKER_02
+ Okay, so this is our first meeting of this design project and I am glad to show you the agenda for the meeting. I don't know if it was sent round to all of you.
+
+0:00:30	SPEAKER_02
+ I don't know, anyway. This is the plan for today's meeting is firstly just to introduce the project briefly, although I'm sure you've actually got some of the information already. Then the main purpose is to so that we get to know each other a little bit more.
+
+0:00:49	SPEAKER_02
+ Then we want to practice using some of the tools that we'll be using during the course of the design project and the meetings, specifically the whiteboard over there.
+
+0:01:04	SPEAKER_02
+ Then we need to go through the specifics of our project plan and discuss, come up with some preliminary ideas about it. Then that's it. We've got 25 minutes to do that until 11.25. Any questions?
+
+0:01:27	SPEAKER_02
+ No, at this point.
+
+0:01:34	SPEAKER_02
+ This is our project. What we're aiming to do is to create a new remote control for television. We want it to be something original, something trendy and also something user-friendly.
+
+0:01:52	SPEAKER_02
+ It has to be quite intuitive that people are able to use this project.
+
+0:02:18	SPEAKER_02
+ The method that we're going to use to complete the project that has three components, such as the functional design of the remote control, the way we'll do that is to work individually, initially, and then come together for meetings to work on that. Similarly, with the conceptual design, we'll start off by working individually with our own expertise and our own laptops, and then we'll bring what we've done together. Then the detailed design will come after that.
+
+0:03:05	SPEAKER_01
+ I'm a bit confused about what's the difference between the functional design and conceptual design. Is it just more detail?
+
+0:03:18	SPEAKER_02
+ I think we're talking that the functional design is more your area of things where you'll be, we want to look at what functions we need, it never might control, and what specific things it has to do, but the conceptual design is perhaps bigger than that and includes there. How it will be done?
+
+0:03:48	SPEAKER_01
+ Where do we identify the components of our product? I think it's in the conceptual design phase that we identify. It's in the conceptual design phase that we identify the components of our product.
+
+0:04:04	SPEAKER_02
+ I think we'll start that initially with the functional design already.
+
+0:04:08	SPEAKER_02
+ Okay, so that's just a brief overview of the project itself. What I'd like us to do now is simultaneously introduce ourselves and start using some of the tools that we're using for the project. Specifically the whiteboard. So each person in turn, I'd like us to go up to the whiteboard, the pens just underneath it there, and draw your favourite animal, and then tell everyone what your favourite characteristics of that animal are, and while you're doing that tell us your name, what your role is, and perhaps how your animal relates to the role that you're taking in this project.
+
+0:05:08	SPEAKER_02
+ Would you like to go first?
+
+0:05:12	SPEAKER_03
+ I do have a choice.
+
+0:05:24	SPEAKER_03
+ Cool.
+
+0:05:27	SPEAKER_02
+ You don't have to hurry, we've got plenty of time.
+
+0:05:30	SPEAKER_03
+ So my name's Katz, and I'm really not very good at this whole drawing when I say...
+
+0:05:50	SPEAKER_03
+ Okay, that's not no-one.
+
+0:06:00	SPEAKER_03
+ Oh, good thing.
+
+0:06:10	SPEAKER_03
+ This is a rabbit.
+
+0:06:20	SPEAKER_04
+ At first I thought it was going to be Katz.
+
+0:06:27	SPEAKER_03
+ There are four sheepish moon- fazendo-asmegaes.
+
+0:06:42	SPEAKER_03
+ Okay, excellent. And what's your role within the team? I am the, I need my notebook.
+
+0:06:53	SPEAKER_03
+ Top the number. Thank you. Okay, cool. I am the marketing expert.
+
+0:06:58	SPEAKER_03
+ So, like, I'm going to be doing the apparently according to the little guy on the computer that knows everything.
+
+0:07:06	SPEAKER_03
+ The user requirements specification of the functional design, trend-wotting in the conceptual design, and products of valuation in the detailed design.
+
+0:07:19	SPEAKER_03
+ Okay. So, yeah.
+
+0:07:22	SPEAKER_02
+ And more about yourself. You're from Ankenlester.
+
+0:07:26	SPEAKER_03
+ Second year. Well, what else do you want to know?
+
+0:07:31	SPEAKER_03
+ I like sports. Yeah, aerobics, kickboxing, spinning, but not with rabbits.
+
+0:07:43	SPEAKER_03
+ Not with rabbits, no, no, no, and bats. I like bats as well.
+
+0:07:48	SPEAKER_03
+ And yeah, and I like cold tails, especially pink ones.
+
+0:07:52	SPEAKER_02
+ Okay. Thanks for all to match the rabbit.
+
+0:08:04	SPEAKER_04
+ Okay. So, my name is Marika.
+
+0:08:08	SPEAKER_04
+ Mr. Penn.
+
+0:08:13	SPEAKER_02
+ If you haven't got enough room, there's only a razor there and you can wrap it.
+
+0:08:18	SPEAKER_04
+ Yeah, well, Marika can make it smaller.
+
+0:08:22	SPEAKER_04
+ So, I'm the interface designer in this project.
+
+0:08:26	SPEAKER_04
+ And my favorite animal, I mean, I'm not so sure because I'm not so, so very familiar with all kinds of animals, but I do like dogs.
+
+0:08:36	SPEAKER_04
+ Oh, sorry, maybe I shouldn't have said it beforehand.
+
+0:08:38	SPEAKER_04
+ Hmm.
+
+0:08:44	SPEAKER_04
+ Well, there are different kinds of dogs, but okay.
+
+0:08:58	SPEAKER_00
+ That's a better dog. It's like a dog.
+
+0:09:01	SPEAKER_03
+ It's a bit more impressive than my mother. I think it needs four legs if it's going to work.
+
+0:09:05	SPEAKER_04
+ Yeah, maybe it has some cool foot patches.
+
+0:09:09	SPEAKER_04
+ Yeah, and I do like dogs because they are good friends.
+
+0:09:15	SPEAKER_04
+ Two people and they are loyal.
+
+0:09:21	SPEAKER_04
+ Well, as compared to some other animals, they're really much more fun because they are not so independent.
+
+0:09:28	SPEAKER_04
+ Yeah, maybe the fact that they protect their home as well.
+
+0:09:36	SPEAKER_04
+ Yeah. What it has to do with my role in the project is hard to say.
+
+0:09:42	SPEAKER_04
+ I hope to be loyal to the project and not to let people doing similar projects know the details or projects or something.
+
+0:09:52	SPEAKER_02
+ Yeah, where are you from?
+
+0:09:54	SPEAKER_04
+ I'm from Estonia.
+
+0:09:59	SPEAKER_04
+ So, is there anything else you would like to know?
+
+0:10:02	SPEAKER_04
+ Oh, right, my roles.
+
+0:10:05	SPEAKER_04
+ So, in the different stages of the design, so at first I will be responsible for designing the technical functions of the remote control.
+
+0:10:20	SPEAKER_04
+ Then in the conceptual design stage, I need to come up with interface concept.
+
+0:10:31	SPEAKER_04
+ And then in the last stage, I will be responsible for the use interface design.
+
+0:10:38	SPEAKER_04
+ Thank you.
+
+0:10:50	SPEAKER_00
+ I'll do some.
+
+0:10:53	SPEAKER_00
+ I'll rub the features.
+
+0:10:56	SPEAKER_00
+ I'll rub the drawings there.
+
+0:10:59	SPEAKER_01
+ My name is Gaurav.
+
+0:11:09	SPEAKER_01
+ My favourite animal, one of my favourite animals is a cow.
+
+0:11:14	SPEAKER_01
+ I have a lot of no idea how to draw.
+
+0:11:17	SPEAKER_02
+ Good luck.
+
+0:11:21	SPEAKER_01
+ This is going to be...
+
+0:11:23	SPEAKER_03
+ We're not just like a big brown body and then some really skinny legs and just some bones.
+
+0:11:29	SPEAKER_01
+ Let me draw the body first.
+
+0:11:35	SPEAKER_01
+ And then what a long tail.
+
+0:11:39	SPEAKER_01
+ On a long face.
+
+0:11:42	SPEAKER_03
+ It looks like you.
+
+0:11:44	SPEAKER_01
+ And there is some grass there.
+
+0:11:47	SPEAKER_01
+ So, this is what I like about.
+
+0:11:50	SPEAKER_01
+ I think it keeps sitting there eating grass that do not disturb anybody.
+
+0:11:56	SPEAKER_01
+ They're kind of put this in a way.
+
+0:12:00	SPEAKER_01
+ So, yeah, I like cows.
+
+0:12:05	SPEAKER_01
+ My role in the project is the industrial designer.
+
+0:12:10	SPEAKER_01
+ So, I'm supposed to design all the details of the product, how it works and whatever it will take.
+
+0:12:20	SPEAKER_01
+ During the functional role, what are the various functions that have to be found by it.
+
+0:12:24	SPEAKER_01
+ During the conceptual design, what are the various components of it.
+
+0:12:29	SPEAKER_01
+ And finally, I'm not to show what was the last part.
+
+0:12:34	SPEAKER_01
+ The detailed design, I guess it will again be identification of the components and how they integrate with each other.
+
+0:12:43	SPEAKER_01
+ I'm from India.
+
+0:12:46	SPEAKER_01
+ I'm doing my PhD in Cyclingistics.
+
+0:12:49	SPEAKER_01
+ I sit at the Department of Psychology.
+
+0:12:52	SPEAKER_01
+ Yeah.
+
+0:12:54	SPEAKER_04
+ Thank you.
+
+0:12:55	SPEAKER_02
+ Thanks.
+
+0:12:56	SPEAKER_02
+ Now it's my turn, I'll be here soon.
+
+0:13:10	SPEAKER_02
+ This is like a carbon.
+
+0:13:13	SPEAKER_02
+ It looks really cute.
+
+0:13:15	SPEAKER_02
+ Yeah.
+
+0:13:16	SPEAKER_02
+ I like the cow.
+
+0:13:17	SPEAKER_02
+ I'm Jen.
+
+0:13:19	SPEAKER_02
+ I like dogs too, but I can't do that already because I can't do a dog as well as you can.
+
+0:13:25	SPEAKER_02
+ I like.
+
+0:13:28	SPEAKER_00
+ I like.
+
+0:13:35	SPEAKER_03
+ Is that a listen?
+
+0:13:45	SPEAKER_01
+ No way.
+
+0:13:52	SPEAKER_04
+ Wow.
+
+0:13:55	SPEAKER_02
+ It's a gecko.
+
+0:13:58	SPEAKER_02
+ Oh, a gecko.
+
+0:13:59	SPEAKER_03
+ Okay.
+
+0:14:00	SPEAKER_03
+ Yeah.
+
+0:14:01	SPEAKER_03
+ Is there a difference?
+
+0:14:02	SPEAKER_04
+ Are they also like lizards or are they yet?
+
+0:14:04	SPEAKER_02
+ Yeah, they are.
+
+0:14:05	SPEAKER_02
+ They are kind of lizard.
+
+0:14:06	SPEAKER_02
+ And I like geckos because they remind me of warm places.
+
+0:14:12	SPEAKER_02
+ And where I was living in Cambodia, they used to live in my house and they were on the ceiling and they would make little geckos.
+
+0:14:21	SPEAKER_04
+ I hope you don't like snakes, do you?
+
+0:14:24	SPEAKER_02
+ I don't like snakes.
+
+0:14:25	SPEAKER_02
+ I can't.
+
+0:14:26	SPEAKER_02
+ Okay.
+
+0:14:27	SPEAKER_02
+ We have nasty snakes.
+
+0:14:28	SPEAKER_02
+ It's very fun.
+
+0:14:29	SPEAKER_02
+ I was really young.
+
+0:14:30	SPEAKER_02
+ I'm from Melbourne.
+
+0:14:34	SPEAKER_02
+ And I'm your project manager for today.
+
+0:14:39	SPEAKER_02
+ And my role is basically to keep things going and make sure that you all work together in a productive way.
+
+0:14:48	SPEAKER_02
+ So that by the end of the day we come up with a great product.
+
+0:14:53	SPEAKER_02
+ Wonderful.
+
+0:14:54	None
+ Okay.
+
+0:14:55	SPEAKER_00
+ Thank you.
+
+0:14:56	SPEAKER_02
+ So let's see what's next in the PowerPoint presentation.
+
+0:15:12	SPEAKER_02
+ I just thought about this that we could even put much more proficient in.
+
+0:15:19	SPEAKER_02
+ Okay.
+
+0:15:20	SPEAKER_02
+ So this is the overall budget for our project.
+
+0:15:29	SPEAKER_02
+ We're planning to sell these remote controls for...
+
+0:15:34	SPEAKER_02
+ Let's make that go away.
+
+0:15:35	SPEAKER_02
+ That means we've got five minutes.
+
+0:15:37	SPEAKER_02
+ We're planning to sell the remote controls for 25 euros each.
+
+0:15:44	SPEAKER_02
+ And with that we're aiming for a profit of 50 million euros.
+
+0:15:51	SPEAKER_02
+ And that's selling them on the international market, not just in the UK.
+
+0:15:57	SPEAKER_02
+ So to do that, our finance people estimate that we need production costs of maximum 12 and a half euros so that we can reach that profit target.
+
+0:16:28	SPEAKER_02
+ So that's something to keep in mind when we're designing.
+
+0:16:36	SPEAKER_02
+ Okay.
+
+0:16:41	SPEAKER_02
+ Let me just skip ahead to say that's the last thing.
+
+0:16:48	SPEAKER_02
+ Okay.
+
+0:16:49	SPEAKER_02
+ We've only got a couple of minutes.
+
+0:16:51	SPEAKER_02
+ Does anyone have any first ideas to bounce around about what we're thinking of this?
+
+0:16:59	SPEAKER_04
+ Yeah, I'm just wondering whether there is any special feature that we want to have.
+
+0:17:06	SPEAKER_04
+ Want this remote control as opposed to the already existing ones.
+
+0:17:19	SPEAKER_02
+ I think that's probably something that's best if we take away with this.
+
+0:17:24	SPEAKER_02
+ But if we all have a think when we go away from the meeting, what specific things could be included in this remote control?
+
+0:17:34	SPEAKER_01
+ I think in the beginning one thing was that was mentioned was that should be trendy user friendly and original.
+
+0:17:43	SPEAKER_01
+ So I think your point is relevant as far as the originality is concerned that we should provide some features that are quite unique to this.
+
+0:17:52	SPEAKER_03
+ Yeah, I was looking at the website and the other things that they've made and I like put down some inspirational words like that I got from looking at the pictures.
+
+0:18:03	SPEAKER_03
+ So the motto is we put the fashion in electronics and so it's something that is sleek and stylish but it's still functional.
+
+0:18:13	SPEAKER_03
+ So I'm kind of thinking like those phones that they have, the new generation ones where they don't actually have any buttons on them and stuff like that.
+
+0:18:23	SPEAKER_03
+ So it's something adding towards that so it's not overly, I don't know what most of them do on my own account.
+
+0:18:33	SPEAKER_02
+ So perhaps some sort of menu based thing or something that's a little less crowded than this.
+
+0:18:41	SPEAKER_03
+ I mean theoretically you can do all kinds of things with your TV.
+
+0:18:45	SPEAKER_03
+ But what do most people do? They turn it on. They watch certain specified channels and then they turn it off again.
+
+0:18:52	SPEAKER_01
+ There is a lot of functionality in there that is not used 90% of the time but will be used 10% of time.
+
+0:18:58	SPEAKER_02
+ There's no need to have buttons on it to do that. Maybe to do it could be one button for a menu or something that's really nice.
+
+0:19:04	SPEAKER_02
+ And then use that.
+
+0:19:05	SPEAKER_03
+ So if you're a kind of sad case that knows how your making tool works then that's fine and you can do it on the screen rather than everybody else having to have these buttons which is confusing.
+
+0:19:15	SPEAKER_03
+ Excellent. Because if you look at the train it's just very like there's no extra bits on it, the train on the website.
+
+0:19:25	SPEAKER_03
+ I don't know if I haven't had that up on the theme.
+
+0:19:28	SPEAKER_03
+ But it is just like a long, like thing used to moving people but it looks really pretty too.
+
+0:19:38	SPEAKER_02
+ Great.
+
+0:19:39	SPEAKER_02
+ Any other immediate thoughts?
+
+0:19:48	SPEAKER_01
+ We can aim for, I mean we can think about all these little things but we can aim for something that gives a high battery life.
+
+0:19:54	SPEAKER_01
+ Although I don't think that it's a huge problem for a motor controls and even battery life every now and then you need to replace the batteries.
+
+0:20:08	SPEAKER_04
+ Even though it has to be original we shouldn't go too far away from the usual ones because otherwise the new users will just have a lot of problems with learning.
+
+0:20:20	SPEAKER_01
+ So it should fit in as well.
+
+0:20:25	SPEAKER_01
+ It's like a fancy whip.
+
+0:20:26	SPEAKER_02
+ It's a teeter type of a bit.
+
+0:20:29	SPEAKER_02
+ You can't access because you have no idea how to get in but the design is not very great.
+
+0:20:35	SPEAKER_02
+ Okay so we need to wrap it up now so that we can go away and get on with some of this.
+
+0:20:42	SPEAKER_02
+ We've got another meeting in 30 minutes so you'll be getting specific instructions once you go back to your workspace.
+
+0:20:53	SPEAKER_02
+ Basically you're looking at the working design.
+
+0:20:58	SPEAKER_02
+ You're looking at the technical functions design and for your experience the user requirements specification like I said at the start.
+
+0:21:08	SPEAKER_02
+ Okay, thanks for that.
+
+0:21:12	SPEAKER_02
+ Thank you.
+
+0:21:13	SPEAKER_02
+ I'll see you in half an hour.
+
+0:21:16	SPEAKER_02
+ See you.
+
+0:21:17	SPEAKER_02
+ Carry the laptops back again.
+
+0:21:18	SPEAKER_02
+ Do we need to unplug things?
+
+0:21:20	SPEAKER_02
+ Probably.
+

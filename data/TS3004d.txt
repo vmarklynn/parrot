@@ -1,0 +1,1065 @@
+0:00:00	SPEAKER_03
+ if you please want to sit down and I'm gonna show you
+
+0:00:04	SPEAKER_00
+ sure
+
+0:00:06	SPEAKER_02
+ it's not safe yet
+
+0:00:08	SPEAKER_00
+ okay
+
+0:00:14	SPEAKER_02
+ so
+
+0:00:18	None
+ okay it's gonna be beautiful drawing
+
+0:00:32	SPEAKER_03
+ so just so this is our agenda you're going to show your prototype presentation after me
+
+0:00:48	SPEAKER_01
+ oops
+
+0:00:52	SPEAKER_03
+ oh yeah so these are the
+
+0:01:00	SPEAKER_01
+ oh okay
+
+0:01:04	SPEAKER_03
+ so these are the last notes we made if anything doesn't look right just say to me I don't know if people didn't report
+
+0:01:16	SPEAKER_02
+ you know we're doing the speech recognition because didn't have enough time to design the inside as well
+
+0:01:26	SPEAKER_03
+ okay but still possible financially so if you want to okay then we're gonna put it in
+
+0:01:36	SPEAKER_02
+ yeah we have to design the inside then but
+
+0:01:38	SPEAKER_01
+ are we making a slide open like underneath or fold open
+
+0:01:44	SPEAKER_03
+ slide open is quite usual for remote control
+
+0:01:48	SPEAKER_01
+ yeah like underneath you can slide it open and you can and maybe that's stronger as well yeah that's it's okay
+
+0:01:56	SPEAKER_02
+ okay I think that's better and you have a lot of room inside so you can make it very easy to use because you can write a lot of comments besides
+
+0:02:06	SPEAKER_03
+ okay so this is okay I'll cool to you
+
+0:02:10	SPEAKER_02
+ no we're gonna use advanced chips then
+
+0:02:14	SPEAKER_03
+ okay so that's just how much that is okay for the speech yeah I think so I don't know no you have a different chip for speech recognition okay so I'll read it calculated that and still in the
+
+0:02:28	SPEAKER_02
+ butch it's okay
+
+0:02:30	None
+ good so you can show your prototype if you want to
+
+0:02:40	SPEAKER_01
+ yeah together yeah let's do it together I'll give comments okay yeah we just made a word file with the basic elements the look and feel model well the form the case as drawn there simply a square with round corners so that's basically it the materials should be hard plastic color changeable and also transparent color and transparent or just transparent I don't know then the elements we have the functions are just basic like I've pointed a mere mute function on off function text functions this is the switch channel okay cool and this is the the numpad and the logo is over here in the mic okay and scroll you'll know you operate that with your pointing finger so you hold it like this in your right hand and
+
+0:04:06	SPEAKER_03
+ so how many things do you need for the microphone speech recognition
+
+0:04:12	SPEAKER_02
+ only one button to say it's a specification of that but I can imagine that you have to input your voice or something
+
+0:04:22	SPEAKER_01
+ yeah maybe you have to configure it
+
+0:04:26	SPEAKER_02
+ yes you need options to figure it and after that you don't need them anymore so you can put it on the back as well if you
+
+0:04:32	SPEAKER_01
+ yeah you can all have around the slide function I don't know okay well we haven't had time to design that the slides
+
+0:04:40	SPEAKER_02
+ we also don't know how many buttons are required or what kind of buttons but you have a lot of room if you can slide it open yeah you can put it on the back I can imagine you need at least four buttons or something so enough room
+
+0:04:56	SPEAKER_01
+ the position yeah you're right
+
+0:05:00	SPEAKER_02
+ you wrote this so well name the main zap buttons armor center this was the most important thing so best read place best read place buttons text buttons mute buttons archicadder and at the place they usually are easy to find the enough button is bit bigger so it stands out that why you don't have to make it right because it will show up a score we lose on the left side it's basically the standard place for score
+
+0:05:36	SPEAKER_01
+ but it's not impossible to use it if you're left handed so because you can use your thumb then
+
+0:05:46	SPEAKER_00
+ just one thing now you need to have more one two you've got one two three four five six seven eight nine but you missed the zero and the two
+
+0:05:58	SPEAKER_02
+ strides
+
+0:06:00	SPEAKER_04
+ I'm just so you get that
+
+0:06:04	SPEAKER_00
+ okay but it's rather important
+
+0:06:08	SPEAKER_02
+ we just missed that well just okay back to later the foreign well you have taken that from the iPod other popular technical device so it should be popular with the buttons creating if you that are all round shapes not around its corners okay so that now you get a bit of round feeling no use hard plastic since that allows us to use the 2D buttons non-rober buttons color changeable well and the backlight thing the thing that lights up we have decided in the channel buttons there's a little color around it okay and also in the numpad there's also color around the light behind it
+
+0:07:08	SPEAKER_03
+ and we still can choose what color you want how do you want to implement that maybe on the second level as well
+
+0:07:18	SPEAKER_01
+ yeah these are just basic functions so all the non-basic
+
+0:07:22	SPEAKER_03
+ okay just draw the second level which is we need that as well
+
+0:07:26	SPEAKER_00
+ okay there's one function I use daily and it's not on the basic functions it's to switch to your score PlayStation or DVD player okay maybe we use this button for that yeah maybe or you can lay it beneath and the other yeah as well
+
+0:07:48	SPEAKER_03
+ do you make your device maybe just draw second level one and say all options that are still left or something a second level
+
+0:07:56	SPEAKER_01
+ new
+
+0:07:58	SPEAKER_03
+ just here
+
+0:08:02	SPEAKER_00
+ how does the second level come out it's light so it's light I think yeah you can maybe
+
+0:08:08	SPEAKER_02
+ you can do it with the claps open but I think that's not solid no that's not good
+
+0:08:14	SPEAKER_03
+ yeah that's right
+
+0:08:16	SPEAKER_02
+ it doesn't even have to slide all the way up so what do we need the speech functions buttons
+
+0:08:24	SPEAKER_01
+ yeah just
+
+0:08:26	SPEAKER_02
+ menu menu button with maybe arrows so you can roll in the navigate the menu oh my god I think we can even put we have one for zero and one for the more digit so this is the video channel PlayStation that's used pretty often yeah but you have PlayStation
+
+0:09:04	SPEAKER_01
+ you use it every day basic
+
+0:09:08	None
+ external you want to save the files yeah
+
+0:09:20	None
+ drawing so here are multiple speech buttons I don't know how many doesn't really
+
+0:09:30	SPEAKER_02
+ it doesn't matter that it's stable what else what else menu buttons
+
+0:09:38	SPEAKER_00
+ yeah it's with the arrows
+
+0:09:40	SPEAKER_02
+ like things best if we do where do we
+
+0:09:48	SPEAKER_01
+ like a normal
+
+0:09:50	SPEAKER_02
+ like on the normal
+
+0:09:52	SPEAKER_01
+ like this
+
+0:09:54	SPEAKER_02
+ yeah within the middle a menu button well you don't have any anything on how many buttons speech you cry so it can't really
+
+0:10:06	None
+ design it maybe one button to switch the color of your lets and you can hold it
+
+0:10:18	SPEAKER_02
+ and hold it and then
+
+0:10:22	SPEAKER_03
+ we can use the colors which you can maybe we just make it three buttons
+
+0:10:28	SPEAKER_00
+ all the colors on it red yeah if you have enough place and then we can do that we can put those here color buttons
+
+0:10:42	None
+ and then we choose green blue and red ok ok that's
+
+0:10:58	SPEAKER_01
+ so did we miss anything
+
+0:11:00	SPEAKER_02
+ maybe some text that is probably that there's volume
+
+0:11:06	SPEAKER_00
+ ok yeah yeah but there's one text that
+
+0:11:12	SPEAKER_02
+ is on here ok
+
+0:11:16	SPEAKER_00
+ that's the one that you use if you search for a page like 700 and it's counting from 100 to 200 you will switch to your television
+
+0:11:30	SPEAKER_01
+ and back yeah but then you can switch back to normal
+
+0:11:36	SPEAKER_03
+ you just switch it off
+
+0:11:38	SPEAKER_01
+ and then just put it on the extra button and if you press it again you get the the stage is yeah but if you are in a second stage the third stage is switch teletext off so
+
+0:11:56	SPEAKER_04
+ you can switch back from
+
+0:11:58	SPEAKER_00
+ the second to turn off just remember where it was it doesn't clear the page if you turn teletext on you set the screen on it still stays ok ok
+
+0:12:14	SPEAKER_03
+ maybe it's not
+
+0:12:16	SPEAKER_02
+ the way
+
+0:12:18	SPEAKER_00
+ that's a functionality for the
+
+0:12:20	None
+ television yeah I think as well but
+
+0:12:22	SPEAKER_01
+ oh yeah that's maybe one yeah we can discuss about no the remote can send like the code for 700
+
+0:12:34	SPEAKER_02
+ page 700 to the television
+
+0:12:36	SPEAKER_03
+ if you switch it yeah that's true
+
+0:12:40	SPEAKER_02
+ yeah I know do we need to fix that
+
+0:12:44	SPEAKER_00
+ or those new TVs do collect all the pages yeah those memories not every
+
+0:12:54	None
+ television yeah this logo for volume yeah that's fine
+
+0:13:02	None
+ so that's it is this pretty much it yeah I thought about one thing
+
+0:13:08	SPEAKER_00
+ the buttons from which material are they now just like your telephone yeah just hard plastic because it's very expensive to make it from a different material if you use it a couple of years sometimes the numbers on the buttons are slide away and maybe we can describe the numbers below or above or shall we just turn it on the buttons I think just
+
+0:13:38	SPEAKER_02
+ if you do it above or below it takes
+
+0:13:42	SPEAKER_00
+ too much space
+
+0:13:44	SPEAKER_02
+ yeah I don't think just lays this for a
+
+0:13:48	SPEAKER_01
+ yeah I think you have a
+
+0:13:50	SPEAKER_00
+ problem more often with rubber buttons yeah we have rubber buttons okay fine
+
+0:13:56	SPEAKER_03
+ yeah okay
+
+0:13:58	None
+ yeah yeah I don't know what this means but I think we just evaluated this one
+
+0:14:16	SPEAKER_00
+ yeah I made some criteria okay you made some good evaluate or model okay I didn't don't think
+
+0:14:26	None
+ you have some usability criteria okay I know all the criteria as we just argue about
+
+0:14:34	SPEAKER_00
+ in the bottom look at feel
+
+0:14:40	SPEAKER_01
+ evaluation is
+
+0:14:42	None
+ yeah evaluation presentation it's not here
+
+0:14:48	SPEAKER_00
+ yeah
+
+0:14:50	None
+ yeah it's not here it doesn't matter it only had two pages or something well I looked in the reports from the marketing strategy or the new needs and the market, the Italians how they think about it and the research about the the the users and that kind of stuff and I made some criteria and we have to test the criteria from one to zero we can give it a number and then we can give herself an average for our model and these are all the same I found or I wrote down and we have to discuss
+
+0:15:56	SPEAKER_03
+ if we give it one or a seven I think if you have a kind of
+
+0:16:02	SPEAKER_00
+ I pulled idea why beautiful the difference between a beautiful fancy look and feel is the outside beautiful like the I pulled or something and the colors and that kind of stuff
+
+0:16:20	SPEAKER_02
+ I think if you can get the I-POP look then it's beautiful
+
+0:16:26	SPEAKER_00
+ yes what kind of basic colors where you thought of the basic colors are black or green or yellow
+
+0:16:38	SPEAKER_02
+ how do we make maybe a company colors
+
+0:16:42	SPEAKER_03
+ black
+
+0:16:44	SPEAKER_00
+ yellow light
+
+0:16:46	SPEAKER_03
+ no really
+
+0:16:48	SPEAKER_02
+ but just a bit of yellow black white maybe black white
+
+0:16:56	SPEAKER_00
+ and what colors should the buttons be
+
+0:17:00	SPEAKER_03
+ different colors the same as the cover
+
+0:17:06	SPEAKER_01
+ can you change those with the switch
+
+0:17:10	SPEAKER_03
+ just make them black
+
+0:17:12	SPEAKER_02
+ or grey just dark grey
+
+0:17:16	SPEAKER_00
+ what number do we give at beautiful is really subjective because it has to do lots with the colors we have changeable phones for everyone is something beautiful
+
+0:17:32	SPEAKER_03
+ give it one it's perfect
+
+0:17:36	SPEAKER_02
+ I think it's just what you want it's hard to decide for us it's a lot better than current for motor controls
+
+0:17:44	SPEAKER_03
+ okay just 52
+
+0:17:48	SPEAKER_00
+ okay the fancy look and feel that's about our flashing lights and the background lights from the buttons and we can change the colors so that's really fancy
+
+0:18:02	SPEAKER_01
+ one more thing are we changing are they on the slide panel or no backlight slide panel
+
+0:18:14	SPEAKER_03
+ no it's only on the behind the numbers
+
+0:18:18	SPEAKER_01
+ and the switch channel is
+
+0:18:20	SPEAKER_03
+ this here
+
+0:18:22	SPEAKER_02
+ yeah but it's on this here
+
+0:18:24	SPEAKER_00
+ it's pretty cool if you slide it open it lights up that's really fancy but I don't know if it's reachable
+
+0:18:34	SPEAKER_02
+ of course it's reachable then we do it maybe just some light to light it all up you can see what's really there not just on the buttons or something just the green light
+
+0:18:50	SPEAKER_03
+ or from blue light
+
+0:18:52	SPEAKER_01
+ just backlight not the buttons and the normal backlight also not the buttons behind the buttons
+
+0:19:02	SPEAKER_02
+ so the buttons are just great yeah that's only here
+
+0:19:06	SPEAKER_00
+ okay fine so I think it's very fancy
+
+0:19:10	SPEAKER_02
+ yeah so I've done a lot of detail in light
+
+0:19:14	SPEAKER_00
+ so yeah and you can also choose in light so
+
+0:19:18	SPEAKER_03
+ yeah this is one
+
+0:19:20	SPEAKER_00
+ I think this one
+
+0:19:22	SPEAKER_03
+ okay next this is a difficult one because we don't
+
+0:19:26	SPEAKER_00
+ we don't know about we should test it
+
+0:19:30	SPEAKER_03
+ it's very easy to use the second layer is not easy to use it's that's
+
+0:19:36	SPEAKER_01
+ no but you don't have to use that and you don't have to pay attention to that second layer that's the main thing
+
+0:19:42	SPEAKER_02
+ that's so good about
+
+0:19:44	SPEAKER_00
+ I think it's easy to use learnable it's not as fast as a usual remote control because I think the scroll wheel it's very handy but the first time you get this thing in your hands is not to use the scroll wheel see for it and up or down but the rest of it is very easy
+
+0:20:04	SPEAKER_03
+ because there's so
+
+0:20:06	SPEAKER_02
+ yeah I think it's very clear
+
+0:20:08	SPEAKER_01
+ so a few information that you can easily decide what buttons for what function
+
+0:20:14	SPEAKER_02
+ the second part like speech as that will be hard to learn so it is learnable
+
+0:20:20	SPEAKER_03
+ and first of all it's very easy to use and I think it's scroll wheel easy to use as well if you have ever used a different kind of yeah
+
+0:20:32	SPEAKER_00
+ we've got two or three new things and maybe learnable is in compare of old fashioned remote controls so we have speech scroll wheel and the slide you must slide it and that's not normal and a normal remote controls less than easy to use because
+
+0:21:00	SPEAKER_03
+ used use comes after manual
+
+0:21:02	SPEAKER_02
+ so just give it it to maybe it's free then learnable
+
+0:21:06	SPEAKER_03
+ no but definitely better than
+
+0:21:10	SPEAKER_01
+ normal then the one you showed is just all buttons
+
+0:21:14	SPEAKER_02
+ and you don't know then a tool
+
+0:21:18	SPEAKER_03
+ okay
+
+0:21:20	SPEAKER_00
+ new feature is technological innovative speech function and the new scroll wheel and the slide I think the slide is pretty new it's not new
+
+0:21:34	SPEAKER_03
+ I only saw it in a telephone not in a digital oh I already have a VCR and it's
+
+0:21:40	SPEAKER_02
+ from 1988 and the other
+
+0:21:42	SPEAKER_00
+ slide and it's also the buttons come out as well okay and the lightning is scroll wheel
+
+0:21:52	SPEAKER_02
+ different colors
+
+0:21:54	SPEAKER_00
+ yeah different fronts for remote control I think that's new too yeah so we have a pretty new yeah no games it's not a one it's a two again it's not LCD
+
+0:22:06	SPEAKER_02
+ we also have the home station we are forgetting about that now
+
+0:22:10	SPEAKER_03
+ oh yeah that's why
+
+0:22:12	SPEAKER_01
+ it's rechargeable
+
+0:22:14	SPEAKER_02
+ yeah we didn't draw that too
+
+0:22:16	SPEAKER_03
+ but that's more like now
+
+0:22:18	SPEAKER_01
+ yeah just draw it afterwards
+
+0:22:20	SPEAKER_03
+ it's a good thing if you can you save it on the same in the same map as the other ones
+
+0:22:26	SPEAKER_02
+ in the project map
+
+0:22:28	SPEAKER_03
+ just save save us save us
+
+0:22:34	SPEAKER_01
+ well it's already in the fall like number seven
+
+0:22:38	SPEAKER_03
+ yeah smart words yeah but this one this one is not yet in the I think it is
+
+0:22:46	SPEAKER_01
+ it's not in the yeah I think it is
+
+0:22:50	SPEAKER_02
+ run titles yeah it doesn't matter
+
+0:22:54	SPEAKER_04
+ save you still see the
+
+0:22:58	SPEAKER_03
+ all the research and you feature so we give it a two or also again a one no I think if you have games on it then you get one
+
+0:23:08	SPEAKER_00
+ we are not extra ordinary new
+
+0:23:10	SPEAKER_03
+ it's always still a two targeted audience we are the targeted audience
+
+0:23:16	SPEAKER_00
+ we we we we search for a young group
+
+0:23:20	SPEAKER_03
+ young enough 40 so we are exactly the targeted group
+
+0:23:24	SPEAKER_00
+ yeah but did we reach with our style the targeted audience
+
+0:23:30	SPEAKER_03
+ that's my question you get the fancy things for younger people and the aesthetic things for older people
+
+0:23:36	SPEAKER_01
+ we've got a one for fancy looking and that's what attracts the young audience so
+
+0:23:42	SPEAKER_00
+ yeah the only point is that we don't have that's already that's this question
+
+0:23:52	SPEAKER_01
+ yeah but that's basically not handy and I don't see yeah so we targeted it
+
+0:24:02	SPEAKER_00
+ but we didn't follow the latest trends
+
+0:24:06	SPEAKER_01
+ no yeah you could make a a front latest trends
+
+0:24:12	SPEAKER_04
+ a front
+
+0:24:14	SPEAKER_00
+ these are the only like the trend
+
+0:24:18	SPEAKER_02
+ or something all right
+
+0:24:22	SPEAKER_00
+ you get different different front yeah so we have like a fruit but then I'll kind of front but spongy will never be no so we give herself a three or something
+
+0:24:38	SPEAKER_03
+ yeah
+
+0:24:40	SPEAKER_00
+ let's what's the average?
+
+0:24:46	SPEAKER_03
+ 11 divided by 6 yeah this is 1.83
+
+0:24:54	SPEAKER_00
+ upper, face score
+
+0:24:56	SPEAKER_01
+ no I don't know
+
+0:24:58	SPEAKER_02
+ we're not too hard on ourselves this is a power indicator okay you can see how far it's
+
+0:25:04	SPEAKER_00
+ charged up and then you need a button to go
+
+0:25:10	SPEAKER_01
+ oh yeah that's still yeah but we have to make a speaker
+
+0:25:14	SPEAKER_03
+ then too if you want to make it
+
+0:25:16	SPEAKER_01
+ be maybe we have to skip that one that's no one's in but we can do it underneath the logo
+
+0:25:24	SPEAKER_02
+ if you do a speaker is very small as well yeah okay
+
+0:25:30	SPEAKER_03
+ so I just got a financial so um
+
+0:25:38	SPEAKER_01
+ you saved it
+
+0:25:40	SPEAKER_00
+ yeah I did save it
+
+0:25:52	SPEAKER_03
+ okay let's have a look at this one here the production cost of it if I forgot anything it's just a battery yeah there are some things that they didn't mention because recharge is not on the list okay so I think we are pretty much in the right direction because it's 12.3 euro
+
+0:26:14	SPEAKER_01
+ okay but it's uh
+
+0:26:18	SPEAKER_03
+ so this is a regolith ship and uh as sample speaker okay so that's both
+
+0:26:24	SPEAKER_00
+ no that's perfect uh 12.3
+
+0:26:26	SPEAKER_03
+ yeah and single curve
+
+0:26:28	SPEAKER_01
+ does it include a home station or no that's not on the list
+
+0:26:32	SPEAKER_03
+ but can we make that for uh
+
+0:26:34	SPEAKER_01
+ 20 cents yeah we can probably
+
+0:26:38	SPEAKER_03
+ I just the button I was wondering if this special color maybe was um different fonts
+
+0:26:46	SPEAKER_02
+ but standard font
+
+0:26:48	SPEAKER_03
+ I think special for yeah it's hard to say but maybe we have to yeah what is okay special color you can skip this one because it's all quite normal you get different ones at all so you can put the recharge in but this is expensive the sample speaker
+
+0:27:10	SPEAKER_00
+ yeah yeah it's four it's four euros
+
+0:27:16	SPEAKER_02
+ oh damn is that uh included it's 12 euro so yeah that's
+
+0:27:22	SPEAKER_01
+ kind of weird that we have some information now afterwards
+
+0:27:28	SPEAKER_03
+ yeah no okay so this is pretty much head this way damn solace so uh what's just I just want to yeah we just made it so we can do the projects if your evaluation now for
+
+0:27:46	SPEAKER_00
+ everything together
+
+0:27:48	SPEAKER_03
+ okay we can do some discussion about this what's the room for creativity sure yes okay both the room for creativity
+
+0:28:20	SPEAKER_02
+ yeah thanks I think everyone just shared already
+
+0:28:26	SPEAKER_01
+ yeah if we got a high mark for innovativeness or innovativity
+
+0:28:36	SPEAKER_02
+ we probably have been not afraid about it
+
+0:28:40	SPEAKER_00
+ yeah we could make a lot of different remote controls yeah so it's creativity okay so
+
+0:28:50	None
+ the leadership wasn't the real leadership then of course there was okay what do you have to say about that no
+
+0:29:02	SPEAKER_02
+ yeah
+
+0:29:04	SPEAKER_03
+ yeah yeah yeah
+
+0:29:10	SPEAKER_01
+ yeah just normal discussion I think not yeah one leader or something one leader to
+
+0:29:22	SPEAKER_02
+ check the time
+
+0:29:24	SPEAKER_01
+ yeah and make notes
+
+0:29:26	SPEAKER_03
+ yeah I know
+
+0:29:28	SPEAKER_02
+ so more like a secretary
+
+0:29:32	None
+ yeah okay next one teamwork the third meeting I think that one was pretty hard you were not all agree with that
+
+0:29:48	SPEAKER_01
+ we had so much information that we get through email
+
+0:29:52	SPEAKER_02
+ and just we got the wrong information at the wrong time I think that was the biggest problem like the prices if you knew that before we could
+
+0:30:06	SPEAKER_00
+ get really quicker yeah because the prices could be 20 euro
+
+0:30:12	SPEAKER_02
+ something that if you had 15 euro then we would discourage
+
+0:30:18	SPEAKER_03
+ yeah
+
+0:30:20	SPEAKER_01
+ yeah finance so we're basically just
+
+0:30:24	SPEAKER_03
+ lucky to get the price right
+
+0:30:26	SPEAKER_00
+ but the team wearables okay yeah everybody could speak their opinion
+
+0:30:32	SPEAKER_02
+ I think everyone listen to each other yeah like marketing then we have to include them in the design
+
+0:30:40	SPEAKER_03
+ yeah okay yeah what I have to say about
+
+0:30:46	None
+ means the smart board is okay did you pen is horrible and if you use it but if you want to download it
+
+0:30:54	SPEAKER_02
+ to your computer it doesn't work digital pen smart board would be very very good
+
+0:31:04	SPEAKER_01
+ yeah it would be faster
+
+0:31:06	SPEAKER_00
+ it would be
+
+0:31:08	SPEAKER_02
+ more hard to make yeah it should be more accurate precise and I think it would be great if you could edit it from just with a mouse when
+
+0:31:22	SPEAKER_03
+ it's hitting yeah not just
+
+0:31:28	SPEAKER_01
+ it's the same for the presentation
+
+0:31:30	None
+ yeah no use to draw on the board itself it's just
+
+0:31:38	SPEAKER_01
+ just closed out yeah just old-fashioned kind of blackboard style but you might as well do it in normal computer style
+
+0:31:48	SPEAKER_02
+ yeah even hard to draw like this then blackboard
+
+0:31:52	SPEAKER_01
+ still and it's far too slow this way
+
+0:31:56	SPEAKER_02
+ yeah okay but not as main function
+
+0:32:00	SPEAKER_03
+ no I guess I think yeah okay
+
+0:32:04	SPEAKER_00
+ digital pen
+
+0:32:08	SPEAKER_03
+ so we made it in time we made it very good we did it the budget yeah
+
+0:32:18	SPEAKER_02
+ new ideas found
+
+0:32:22	SPEAKER_00
+ new ideas what's the metaphor for
+
+0:32:26	SPEAKER_03
+ the better know what I mean
+
+0:32:28	SPEAKER_02
+ just
+
+0:32:30	None
+ I just think if you do it to gather or to work together or new ideas for
+
+0:32:40	SPEAKER_03
+ remote control probably no for the project
+
+0:32:44	SPEAKER_02
+ for my favorite for your text
+
+0:32:50	SPEAKER_00
+ no for the prototype new ideas
+
+0:32:54	SPEAKER_01
+ yeah but still you could make a fancy you could make a prototype because we don't have any sizes and
+
+0:33:06	SPEAKER_03
+ well it's for the next team yeah
+
+0:33:10	SPEAKER_01
+ you can possibly do that in such a short time I think
+
+0:33:18	SPEAKER_02
+ yeah this is the idea phase
+
+0:33:22	SPEAKER_01
+ yeah just brainstorming
+
+0:33:24	None
+ yeah details
+
+0:33:42	SPEAKER_01
+ so are we finished?
+
+0:33:44	SPEAKER_03
+ yes I think just
+
+0:33:46	SPEAKER_01
+ just write the final report
+
+0:33:48	SPEAKER_03
+ okay quite early only four minutes left
+
+0:33:54	SPEAKER_02
+ okay well what do we have to do then we are for the way we were done at
+
+0:34:02	SPEAKER_01
+ four o'clock it's now quarter past three
+
+0:34:10	SPEAKER_00
+ I should take some pictures
+
+0:34:12	SPEAKER_02
+ okay
+
+0:34:14	SPEAKER_00
+ we can do it afterwards
+
+0:34:16	None
+ yes let's play my sweeper I found it as well
+
+0:34:22	SPEAKER_02
+ tada
+
+0:34:24	None
+ tada tada one two three four five six seven cameras
+
+0:34:54	SPEAKER_01
+ not bad
+
+0:35:24	None
+ okay okay so did we see it
+
+0:36:26	SPEAKER_01
+ yeah now we can look at this this is we're probably not supposed to look at this the old versions yeah from the previous group
+
+0:36:48	SPEAKER_02
+ they went for a touch device but also different devices yeah then also the
+
+0:37:02	SPEAKER_01
+ with the handy here are the basic functions and here are the selecting of devices
+
+0:37:10	SPEAKER_02
+ yeah for touch fees for all our stuff I do agree with that
+
+0:37:22	None
+ so so so so so English is not so hard by the way
+
+0:37:44	SPEAKER_01
+ no
+
+0:37:48	SPEAKER_00
+ I'm breaking a world record here I'm going to
+
+0:37:54	None
+ go on later I've got a problem Paul you do?
+
+0:38:04	SPEAKER_00
+ yes
+
+0:38:06	SPEAKER_02
+ you have to make a choice no it's your choice
+
+0:38:10	SPEAKER_00
+ whoa that's pretty quick
+
+0:38:12	SPEAKER_02
+ don't
+
+0:38:14	SPEAKER_00
+ just take one
+
+0:38:18	SPEAKER_02
+ just take one yeah it's the lower one
+
+0:38:26	SPEAKER_00
+ what's this?
+
+0:38:28	SPEAKER_02
+ a bomb or no no no no open one is the bomb yes
+
+0:38:36	SPEAKER_00
+ I'm new earth four in a row
+
+0:38:56	SPEAKER_02
+ no that's too much work
+
+0:39:00	SPEAKER_00
+ go on is that prefuse work?
+
+0:39:06	SPEAKER_02
+ yeah this one I challenge you
+
+0:39:12	SPEAKER_00
+ oh that's so stupid no that doesn't work
+
+0:39:20	SPEAKER_02
+ no you got to use the magic pen hmm what if I put one there that's stupid we'll see
+
+0:39:38	SPEAKER_00
+ okay
+
+0:39:40	SPEAKER_02
+ I don't agree
+
+0:39:44	SPEAKER_04
+ hmm
+
+0:39:56	SPEAKER_02
+ sorry you had two choices that's going to be draw or not hmm
+
+0:40:18	SPEAKER_00
+ too bad
+
+0:40:20	SPEAKER_02
+ I'll put it here
+
+0:40:24	SPEAKER_04
+ yeah then we're going to
+
+0:40:26	SPEAKER_02
+ put it there no one wins difficult choice right here or there
+
+0:40:38	SPEAKER_01
+ this is a very interesting design
+
+0:40:42	SPEAKER_04
+ okay
+
+0:40:46	SPEAKER_00
+ probably it's just the same as normal
+
+0:40:54	SPEAKER_01
+ we'll have a LCD yeah I think
+
+0:40:58	SPEAKER_02
+ then do it correctly
+
+0:41:02	SPEAKER_04
+ there's two designs
+
+0:41:04	SPEAKER_02
+ yeah LCD is free
+
+0:41:12	SPEAKER_00
+ okay wait I'm going to draw something you must what?
+
+0:41:18	SPEAKER_02
+ okay I'm going to cast what you're drawing okay I'm blank no not a new one I did just done I did
+
+0:41:30	SPEAKER_04
+ I know one a house
+
+0:41:34	None
+ yeah you have to use the pen you have to save everything you know that not everything yeah everything
+
+0:41:44	SPEAKER_03
+ pen
+
+0:41:46	SPEAKER_02
+ pen select pen
+
+0:41:54	SPEAKER_01
+ once you know what we do in our spare time
+
+0:41:56	SPEAKER_02
+ okay it's a house a plant
+
+0:42:02	SPEAKER_00
+ no it's only you can know it only I can know it
+
+0:42:10	SPEAKER_02
+ it's a very hard to draw okay that makes it easier I think I know no wrong I think I know what you're trying to do it's wrong already
+
+0:42:40	SPEAKER_00
+ it's very
+
+0:42:48	SPEAKER_02
+ yeah you missed the right side
+
+0:42:54	None
+ fuck no no a little bit maybe
+
+0:43:18	SPEAKER_02
+ see where you're wrong now the entrance
+
+0:43:24	SPEAKER_01
+ warning finish meeting now
+
+0:43:26	SPEAKER_00
+ all right okay the entrance is more to the left warning warning you're correct okay but I think this part yeah but
+
+0:43:42	SPEAKER_02
+ I think oh no you're made another mistake
+
+0:43:46	SPEAKER_00
+ oh yeah there are a lot of mistakes because the walls are thick like this no
+
+0:43:54	SPEAKER_02
+ okay not that one but there's a big hole here as well
+
+0:44:00	SPEAKER_00
+ oh it's true that's the kind of big mistake they're walking behind the walls
+
+0:44:06	SPEAKER_02
+ warning finish meeting now the ice I think we have to finish the meeting
+
+0:44:14	SPEAKER_01
+ okay
+
+0:44:16	SPEAKER_00
+ okay this is a hard one oh
+
+0:44:24	SPEAKER_01
+ bing bing bing what does it say feel in the questionnaire what now
+
+0:44:36	SPEAKER_02
+ come on
+
+0:44:40	None
+ finish meeting finish meeting and fill in the questionnaire
+
+0:44:50	None
+ okay no more chit chat
+
+0:44:54	SPEAKER_04
+ chit chat
+
+0:44:56	SPEAKER_02
+ over there yeah I'm gonna be a son lonely clean that up later
+
+0:45:10	SPEAKER_00
+ this is my inner space look at this edit it smiley
+
+0:45:28	None
+ don't oh
+

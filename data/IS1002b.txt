@@ -1,0 +1,1782 @@
+0:00:00	None
+ I was the paper.
+
+0:00:02	None
+ Yeah, it was the paper.
+
+0:00:04	None
+ Maybe a paper which is used to give a presentation.
+
+0:00:08	None
+ Who doesn't have to give a presentation?
+
+0:00:10	None
+ We all do. We can switch around as that will keep these.
+
+0:00:14	None
+ Okay. All right, just walk these.
+
+0:00:18	None
+ No.
+
+0:00:19	None
+ Okay.
+
+0:00:20	None
+ I see that it moved too long.
+
+0:00:22	SPEAKER_04
+ Okay, so you'll click for me and stuff like that.
+
+0:00:26	None
+ So you can stay seated for years.
+
+0:00:28	SPEAKER_04
+ Yeah.
+
+0:00:29	None
+ Okay.
+
+0:00:30	SPEAKER_04
+ I hate these things.
+
+0:00:33	SPEAKER_02
+ Uh-huh.
+
+0:00:34	None
+ That's a great opportunity then to learn how to be patient.
+
+0:00:39	None
+ Not my thing.
+
+0:00:42	None
+ Yeah.
+
+0:00:43	None
+ It's a new thing to learn there, isn't it?
+
+0:00:45	None
+ Yeah.
+
+0:00:46	None
+ Sorry for holding a sunboss.
+
+0:00:47	SPEAKER_03
+ A couple of the tech guys got a little delayed there.
+
+0:00:52	SPEAKER_00
+ Sorry. I understand you guys have a lot of work to do.
+
+0:00:55	SPEAKER_03
+ That's right. We certainly do.
+
+0:00:56	SPEAKER_03
+ We boss.
+
+0:00:58	None
+ Me, I'm not technically enough to work a clip.
+
+0:01:06	None
+ It just clearly doesn't work.
+
+0:01:10	SPEAKER_02
+ Yeah. This thing.
+
+0:01:13	None
+ Yeah, we understand why you're a project manager.
+
+0:01:15	SPEAKER_04
+ Not technical director, don't we?
+
+0:01:17	SPEAKER_04
+ Yes, we do.
+
+0:01:19	None
+ Oh, that's meant to be in there.
+
+0:01:21	None
+ Uh-huh.
+
+0:01:22	None
+ I see.
+
+0:01:23	None
+ Oh.
+
+0:01:24	None
+ I know it clips.
+
+0:01:25	None
+ That's so good.
+
+0:01:26	None
+ Wow.
+
+0:01:27	None
+ Cheers, guys.
+
+0:01:29	SPEAKER_00
+ Okay.
+
+0:01:31	SPEAKER_00
+ So, we are here to talk about functional design.
+
+0:01:37	SPEAKER_00
+ Now, hopefully we've all got a better idea from then we did leaving the last meeting as to what it is we are up to now.
+
+0:01:45	SPEAKER_00
+ So here's an agenda.
+
+0:01:48	SPEAKER_00
+ Uh-huh.
+
+0:01:49	SPEAKER_00
+ A lopen.
+
+0:01:50	SPEAKER_00
+ You should know that I'll be taking minutes during all the meetings because I was struggling to last time.
+
+0:01:55	SPEAKER_00
+ Uh-huh.
+
+0:01:56	SPEAKER_00
+ And that will be easier for me now because I'm not actually giving the whole presentation.
+
+0:01:59	SPEAKER_00
+ Uh-huh.
+
+0:02:00	SPEAKER_00
+ The additional points are just the stuff that we sent and it that I forwarded on from upper management, having a few bright ideas to make our lives painful.
+
+0:02:08	SPEAKER_00
+ Um-uh.
+
+0:02:09	SPEAKER_00
+ Now, you can all give your presentations.
+
+0:02:12	SPEAKER_00
+ We can talk about their requirements.
+
+0:02:14	SPEAKER_00
+ And hopefully come to some decisions.
+
+0:02:18	SPEAKER_00
+ Right.
+
+0:02:19	SPEAKER_00
+ 40 minutes for this meeting.
+
+0:02:20	SPEAKER_00
+ So I've got more time than the last one.
+
+0:02:22	SPEAKER_00
+ So here's the additional points.
+
+0:02:23	SPEAKER_00
+ I just wanted to put those in there to see if you guys had any comments on them.
+
+0:02:29	SPEAKER_00
+ Uh-uh.
+
+0:02:30	SPEAKER_00
+ Did you all receive that email?
+
+0:02:31	SPEAKER_00
+ Yeah.
+
+0:02:32	SPEAKER_00
+ So does anyone have any overall?
+
+0:02:36	SPEAKER_02
+ Well, I thought- What comes up for me is that if we're going to- if we're going to be marketing a product that is going to be, uh, having no teletext, people are very comfortable with the idea of having teletext and using teletext.
+
+0:02:52	SPEAKER_02
+ And so we're not- we're going to be a new product without something that people are very comfortable having right now.
+
+0:02:59	SPEAKER_02
+ So that's from a marketing perspective.
+
+0:03:01	SPEAKER_02
+ I-I see- I see a lack.
+
+0:03:04	SPEAKER_02
+ And so we have to go, I think in the other direction, what are we going to have that makes this thing better?
+
+0:03:09	SPEAKER_00
+ Well, that first point could also be an opportunity because in seeing that teletext becoming outdated, some sort of remote control that can work with the internet, there is the opportunity that's presented against.
+
+0:03:19	SPEAKER_02
+ Yeah, no, I agree with you.
+
+0:03:20	SPEAKER_02
+ So what I'm talking about is I see that one side we're eliminating something.
+
+0:03:23	SPEAKER_02
+ So we have to come up with another side which is what are we going to be targeting our market, uh, that identifies our product as better than because it doesn't have teletext, it has to have to- to that.
+
+0:03:33	SPEAKER_02
+ So that's- That's- that was my reaction.
+
+0:03:35	SPEAKER_00
+ Yeah, but we are sort of being dictated that this should only be for the television.
+
+0:03:39	SPEAKER_00
+ So we're quite fixed.
+
+0:03:40	SPEAKER_00
+ Yeah.
+
+0:03:41	SPEAKER_00
+ So they probably in terms of marketing are looking for something that's- that's a cost winner rather than a fantastic new featured product.
+
+0:03:48	SPEAKER_00
+ Okay.
+
+0:03:49	SPEAKER_04
+ Yeah, but we're designing only the remod.
+
+0:03:51	SPEAKER_04
+ We're not designing the T-E-V.
+
+0:03:52	SPEAKER_04
+ Hmm.
+
+0:03:53	SPEAKER_04
+ So we're going to be removing the teletext out of any T-V.
+
+0:03:56	SPEAKER_04
+ Yeah.
+
+0:03:57	SPEAKER_04
+ Yeah.
+
+0:03:58	SPEAKER_04
+ People use our remote with.
+
+0:03:59	SPEAKER_04
+ That's right.
+
+0:04:00	SPEAKER_04
+ I think so.
+
+0:04:01	SPEAKER_00
+ Which is- There's also the potential for market- There's a market here for lost text.
+
+0:04:05	SPEAKER_00
+ For example, someone that just goes to the shop that once a replacement, once it's- It's possible 25 euros is a selling price.
+
+0:04:12	SPEAKER_00
+ We really have to innovate here, I guess.
+
+0:04:14	SPEAKER_02
+ That's what I'm- That's what I'm talking about.
+
+0:04:16	SPEAKER_02
+ Is- Is that we have to find something that is going to be very attractive about this product because somebody- Some people are going to be happy- Unhappy because they- They can't access their teletext.
+
+0:04:25	SPEAKER_02
+ Hmm.
+
+0:04:26	SPEAKER_02
+ Okay.
+
+0:04:27	SPEAKER_02
+ Because we're talking about 80% or 90% or 95% of the televisions out there are- are teletexts.
+
+0:04:33	None
+ Yeah.
+
+0:04:34	SPEAKER_02
+ So- So it's- It's nothing I'm criticizing the product at all.
+
+0:04:38	SPEAKER_02
+ It's just- When we eliminate that, then what do we bring?
+
+0:04:41	SPEAKER_02
+ What are we bringing to take the place of this?
+
+0:04:43	SPEAKER_02
+ And we have to- In my opinion, we have to double up.
+
+0:04:45	SPEAKER_02
+ If we lose one, we need to bring two.
+
+0:04:48	SPEAKER_02
+ Or three.
+
+0:04:49	None
+ Okay.
+
+0:04:50	SPEAKER_00
+ I think that- That last point is probably quite straightforward.
+
+0:04:55	SPEAKER_00
+ Obviously, the- The- It has to be branded.
+
+0:04:59	SPEAKER_04
+ So the- The double-lar will be a- Or-
+
+0:05:02	SPEAKER_00
+ On the product, yeah. I think- Can you hand the-
+
+0:05:06	None
+ Can you hand the- Can you hand the- I think Rolls Royce might mine, but don't worry.
+
+0:05:10	SPEAKER_03
+ I think- Yeah.
+
+0:05:12	SPEAKER_03
+ One of the things that we should also keep in mind when we're doing this- I mean, our company slogan is we put the fashion in electronics, right?
+
+0:05:19	SPEAKER_03
+ So I think our kind of- Our target here is to have some kind of very like sleek, nice looking remote.
+
+0:05:27	SPEAKER_03
+ And we want it to be functional as well.
+
+0:05:29	SPEAKER_03
+ But I think one of the main selling points is that we don't want it to be clunky like- Like this thing here.
+
+0:05:35	SPEAKER_03
+ We don't want a big clunker. We want something that looks nice and- It's fashionable and- So-
+
+0:05:42	SPEAKER_02
+ So you have this? Yeah.
+
+0:05:45	SPEAKER_00
+ So we have three presentations and I think we'll go in- Order of participant number here.
+
+0:05:53	SPEAKER_00
+ So we can have a look at the working design first.
+
+0:05:56	SPEAKER_00
+ From participant two. That's- Yes, we know if- That's fine.
+
+0:06:01	SPEAKER_03
+ Okay, so- And now- That's a click on us.
+
+0:06:10	SPEAKER_03
+ So you all know me. I'm the industrial designer.
+
+0:06:14	SPEAKER_03
+ And we have some basic components that our remote is going to need.
+
+0:06:18	SPEAKER_03
+ Just basically every remote will need them.
+
+0:06:20	SPEAKER_03
+ We need some kind of power- Power source.
+
+0:06:24	SPEAKER_03
+ We have to decide on our user interface, which is his department.
+
+0:06:27	SPEAKER_03
+ But the user interface is also a major component.
+
+0:06:31	SPEAKER_03
+ We need a programmable digital signal processor to- To take the input from the user and translate that into- Into electronic signal, which we pass to the infrared LED, Which you aim at the television, which- And it receives that signal.
+
+0:06:49	SPEAKER_03
+ You need an on-off switch.
+
+0:06:51	SPEAKER_03
+ I don't know how that got in there.
+
+0:06:53	SPEAKER_03
+ And we also need to- If we want a universal remote, we need to have encryption codes for the different makes of TVs.
+
+0:07:02	SPEAKER_03
+ So we need to know all the different signals.
+
+0:07:06	SPEAKER_03
+ And so that I'll require some memory as well.
+
+0:07:11	SPEAKER_03
+ So here's just a basic layout of how- How the remote would work.
+
+0:07:17	SPEAKER_03
+ You have the power sources in the upper right-hand corner there.
+
+0:07:21	SPEAKER_03
+ And you can see that we have the user interface here, Which is connected to the chip, which does all of our signal processing.
+
+0:07:28	SPEAKER_03
+ And then passes that signal on to the infrared LED.
+
+0:07:32	SPEAKER_03
+ And that signal is then emitted and received by the television at the photo transistor.
+
+0:07:38	SPEAKER_03
+ So those are the basic components that need to go into this.
+
+0:07:42	SPEAKER_03
+ And everything else is pretty much open to move around.
+
+0:07:47	SPEAKER_02
+ Would just be considered just a standard- I think any- This is not cutting edge technology we're talking here.
+
+0:07:57	SPEAKER_02
+ We're talking about existing technology.
+
+0:07:59	SPEAKER_02
+ Right. Nothing's been modified or upgraded or- Yeah, this is just-
+
+0:08:02	SPEAKER_03
+ New discoveries. This is just a basic layout of all the components that are going to be absolutely necessary to ever work in remote.
+
+0:08:10	SPEAKER_03
+ We can add things in like if we wanted some voice recognition.
+
+0:08:13	SPEAKER_03
+ I mean, that- I mean, that you can kind of say what- Would fall under the user interface in the digital signal processing chip.
+
+0:08:22	SPEAKER_00
+ Okay.
+
+0:08:23	SPEAKER_00
+ Do we have an idea of costs of different components?
+
+0:08:25	SPEAKER_03
+ Well, the most costly components are going to be the chip.
+
+0:08:29	SPEAKER_03
+ And the- It could also- Basically the user interface and the casing are going to be expensive as well.
+
+0:08:36	SPEAKER_03
+ The LED and the transistors and everything else are, you know, they're pretty cheap.
+
+0:08:41	SPEAKER_03
+ So depending on what we want our functionality to be, the chip could be expensive or it could be cheap.
+
+0:08:47	SPEAKER_03
+ Depending on the amount of memory we need in there and stuff like that.
+
+0:08:51	SPEAKER_03
+ Do we have any gold- Do you have any gold-park figures for that yet?
+
+0:08:56	SPEAKER_03
+ I don't have any figures right now.
+
+0:08:58	SPEAKER_03
+ Okay.
+
+0:08:59	SPEAKER_03
+ We have to wait until we get to more specific design phase for that.
+
+0:09:02	SPEAKER_03
+ Yeah.
+
+0:09:03	SPEAKER_03
+ But- And I think a significant part of the cost could be the actual- The actual casing itself and, you know, the- The buttons and things like that.
+
+0:09:16	SPEAKER_03
+ The shell.
+
+0:09:17	SPEAKER_03
+ Yeah, basically.
+
+0:09:18	SPEAKER_03
+ Okay.
+
+0:09:21	SPEAKER_00
+ Okay.
+
+0:09:23	SPEAKER_03
+ So yeah, that's all I have really.
+
+0:09:25	SPEAKER_00
+ Okay, thanks.
+
+0:09:30	SPEAKER_00
+ And we have participant three of which I believe is Pedro.
+
+0:09:34	SPEAKER_03
+ I-
+
+0:09:40	SPEAKER_00
+ You can give you that. Click on.
+
+0:09:44	SPEAKER_00
+ And you want to get- We were fighting over it.
+
+0:09:49	SPEAKER_00
+ It was almost more fun.
+
+0:09:50	SPEAKER_00
+ You're a slideshow.
+
+0:09:51	SPEAKER_00
+ It's what you want to do here.
+
+0:09:53	SPEAKER_00
+ Just go up to view.
+
+0:09:54	SPEAKER_00
+ Click down here.
+
+0:09:56	SPEAKER_00
+ Okay.
+
+0:09:57	SPEAKER_04
+ That's the one.
+
+0:09:59	SPEAKER_04
+ So yeah, function design.
+
+0:10:01	SPEAKER_04
+ You guys know me, Pedro.
+
+0:10:04	SPEAKER_04
+ And what I found is we want to do fashion.
+
+0:10:10	SPEAKER_04
+ And I think honestly we should keep technology low and just simple basically.
+
+0:10:15	SPEAKER_04
+ And try to aim for design.
+
+0:10:18	SPEAKER_04
+ It's basically a case will- Will cost the same if it looks good or bad.
+
+0:10:23	SPEAKER_04
+ So we have to make it look good.
+
+0:10:26	SPEAKER_04
+ Something cute and small.
+
+0:10:29	SPEAKER_04
+ The big chunk of remotes are dead in the 80s.
+
+0:10:32	SPEAKER_04
+ So we should just go for something that people like to actually look at.
+
+0:10:37	SPEAKER_04
+ And although most people will buy televisions and everything for- That have loads of loads of little functions and everything.
+
+0:10:47	SPEAKER_04
+ And they mostly end up using simple functions and little things.
+
+0:10:52	SPEAKER_04
+ And most of people won't get too mad of actually having to go to the- To the television to for instance tune in their stations.
+
+0:11:01	SPEAKER_04
+ There's no need to have that in the remote.
+
+0:11:03	SPEAKER_04
+ So as for what I would recommend for the- The interference design and I will change the colors on the logo.
+
+0:11:14	SPEAKER_04
+ But we should go for the user oriented device.
+
+0:11:19	SPEAKER_04
+ So simple controls and good ergonomics.
+
+0:11:22	SPEAKER_04
+ And although I still here recommending the teletext, so I'll remove that I guess.
+
+0:11:29	SPEAKER_04
+ But we should go for-
+
+0:11:31	SPEAKER_00
+ I think what the management recommendation was less that there's a worry that- The teletext would become outdated rather than we shouldn't have it.
+
+0:11:39	SPEAKER_00
+ So I still think of it's cheap enough functionality wise to include.
+
+0:11:43	SPEAKER_00
+ It really should be in there.
+
+0:11:45	SPEAKER_00
+ Because otherwise we're just going to- I mean even if it's necessary or not, if you're given the choice between a remote West teletext or without, when it really, if it isn't more expensive for us to make, because as far as I understand it, it can be operated with the same set of buttons.
+
+0:12:04	SPEAKER_00
+ Right, so it should be in there.
+
+0:12:06	SPEAKER_03
+ It's just the cost of an extra button.
+
+0:12:08	SPEAKER_03
+ I mean software wise there's really no difference.
+
+0:12:11	SPEAKER_02
+ Okay.
+
+0:12:12	SPEAKER_02
+ I have maybe a silly question.
+
+0:12:14	SPEAKER_02
+ In the very beginning it's said with the advent of computers there's going to be- it's going to be outmoded teletext.
+
+0:12:21	SPEAKER_02
+ I don't understand how those two things are connected.
+
+0:12:23	SPEAKER_02
+ How does computers and teletext, how, why is one eliminating the need of the other?
+
+0:12:30	SPEAKER_02
+ I don't understand that.
+
+0:12:31	SPEAKER_00
+ Well maybe what we're getting into here is the idea of internet through the TV, for example.
+
+0:12:36	SPEAKER_00
+ So that might clear on what we're doing.
+
+0:12:38	SPEAKER_04
+ Yeah, the doer basically aiming at saying that you would use a couple of years ago, teletext would be the easiest way to check like for scheduling, the scheduling in the next program and stuff like that.
+
+0:12:48	SPEAKER_03
+ It's not what you're watching even if there's commercials, you know.
+
+0:12:51	SPEAKER_04
+ Okay.
+
+0:12:52	SPEAKER_04
+ And now you can look at it internet, but I still think teletext is very more convenient until we have the same commodities.
+
+0:12:58	SPEAKER_02
+ Yeah, because I don't see the crossover between computers and television.
+
+0:13:01	SPEAKER_02
+ I mean I do see the crossover in some sense, but- But it's not happening yet.
+
+0:13:05	SPEAKER_02
+ Well, the remote is used for television.
+
+0:13:08	SPEAKER_02
+ So if we make the crossover and we're going to view television on computers, then we're losing the necessity of the remote.
+
+0:13:14	SPEAKER_00
+ Well, there is, for example, in digital TV systems, you have, you can press a button and you can buy things in Adverts, and you can view through a catalog, for example.
+
+0:13:23	SPEAKER_00
+ A family member remains, it's got a system where you just, and there's other features, for example, in other systems, where you can pause live TV and things like that.
+
+0:13:32	SPEAKER_00
+ It just features from the internet, from computers that are coming into the TV, start under the covers.
+
+0:13:38	SPEAKER_00
+ Okay.
+
+0:13:39	SPEAKER_00
+ But you still use it through a teletext, so- Okay.
+
+0:13:42	SPEAKER_00
+ And the things to think here are that there's going to be more functionality.
+
+0:13:45	SPEAKER_04
+ Yeah, but we're not, I mean, in command for that.
+
+0:13:48	SPEAKER_04
+ That's the thing, all of those require other commands with more complexity and more software.
+
+0:13:53	SPEAKER_03
+ I think a lot of this proprietary anyways, you're not going to be able to, you know, like, command a TV with our remote.
+
+0:13:59	SPEAKER_00
+ I don't think.
+
+0:14:00	SPEAKER_00
+ But still, there's an opportunity, if it's, for example, a trainable one, then we're just simply having looking up down the left right, an okay button or something like that, mate.
+
+0:14:09	SPEAKER_00
+ Mate, too, as well, and future-proofing it.
+
+0:14:12	SPEAKER_04
+ Yeah, but we wouldn't increase the price to try to make it a trainable one, so.
+
+0:14:17	SPEAKER_04
+ Okay.
+
+0:14:18	SPEAKER_04
+ Well, I don't know.
+
+0:14:19	SPEAKER_04
+ One way or the other teletext was there, but I guess we can remove it or, you know, make two separate.
+
+0:14:25	SPEAKER_03
+ I think if it's possible, you should try to, you know, have a talk with management about that, just, you know.
+
+0:14:31	SPEAKER_02
+ I don't see the logic.
+
+0:14:34	SPEAKER_02
+ I don't see the logic in elimination of teletext.
+
+0:14:37	SPEAKER_02
+ But I'm not a tech mind either.
+
+0:14:39	SPEAKER_02
+ I just don't see the crossover between computers and, and, and, we're designing something for a television.
+
+0:14:44	SPEAKER_02
+ Okay.
+
+0:14:45	SPEAKER_00
+ I'll communicate that back to those guys that, and the message really want to be sending to them is that although teletext may become outdated, there's no logic in not having it in there anyway.
+
+0:14:55	SPEAKER_00
+ If it doesn't affect the price.
+
+0:14:57	SPEAKER_00
+ We're selling it to an existing market.
+
+0:14:59	SPEAKER_00
+ So, the reason why I think that, is to words here, is in terms of thinking of ways to feature for a system for future systems that have something else other than teletext,
+
+0:15:09	SPEAKER_04
+ maybe. Yeah, but we're not putting something in the place of teletext.
+
+0:15:14	SPEAKER_02
+ Yeah, and, and, and we're also marketing a product.
+
+0:15:17	SPEAKER_02
+ What I'm seeing is, is a mid range cost product.
+
+0:15:20	SPEAKER_02
+ So, so we can't go and pump a whole bunch of technology into this thing, because all of a sudden we're going to have cost overruns.
+
+0:15:27	SPEAKER_02
+ So, we're going to have a whole bunch of teletext again.
+
+0:15:30	SPEAKER_00
+ What are we adding to the product that makes it marketable?
+
+0:15:33	SPEAKER_00
+ So, for keeping it basic, what we're looking to sell it basically is it's just being very easy to use, looking exceptionally good.
+
+0:15:41	SPEAKER_00
+ That sort of thing, because we really don't have anything else there, do we?
+
+0:15:45	SPEAKER_02
+ I don't, I don't see it.
+
+0:15:46	SPEAKER_02
+ And to me, if I'm going to market a product for, for beauty, for, for design, I'm going to, I'm going to try to market it at a much higher price.
+
+0:15:53	SPEAKER_02
+ I need to make it special with a high price tag.
+
+0:15:55	SPEAKER_02
+ I don't want to make it economically competitive.
+
+0:15:58	SPEAKER_02
+ I want, I want to market it as exclusive.
+
+0:16:01	SPEAKER_02
+ So, I would market this product at, at, at 89 euros and come up with some really beautiful exterior design.
+
+0:16:08	SPEAKER_02
+ Or something that, but, but I don't think we have that flexibility.
+
+0:16:11	SPEAKER_00
+ The same as cheap and functionality is basic.
+
+0:16:13	SPEAKER_00
+ Then, 25 euros is probably a high price for a commoner garden standard, standard TV.
+
+0:16:19	SPEAKER_00
+ So, the place, the place we're going to justify that cost is through, through design, through making it a, a sleek elegant, high priced, basic remote.
+
+0:16:30	SPEAKER_00
+ Does that make sense?
+
+0:16:32	SPEAKER_02
+ No, I, I understand what you're saying.
+
+0:16:34	SPEAKER_02
+ But what I, what I'm, okay, we probably need to move along.
+
+0:16:37	SPEAKER_02
+ Yeah, my concern is trying to find a marketing niche for this product.
+
+0:16:40	SPEAKER_02
+ And if I'm coming in with a, with, with 25 euros, which is mid market price, then what am I going to give these people for this?
+
+0:16:49	SPEAKER_02
+ Yeah.
+
+0:16:50	SPEAKER_02
+ So, that's just my question, but we can keep talking.
+
+0:16:52	SPEAKER_00
+ Okay. So, can I cut into you now?
+
+0:16:55	SPEAKER_04
+ Well, no, I would, I would advocate for continuous teletext and those would be the basic commands.
+
+0:17:01	SPEAKER_04
+ As for really the case of design, maybe I'll come up with more concrete ideas right now.
+
+0:17:06	SPEAKER_04
+ It's just the idea of simplicity and slickiness, right?
+
+0:17:11	SPEAKER_03
+ Right.
+
+0:17:12	SPEAKER_03
+ I'm just thinking, you know, with all these universal remotes that are out there, how many people, how many people actually use every feature that are, you know, like these trainable remotes and things like that, where, you know, it's just so confusing to do, to use all these functions, where I think the largest portion of the market is just going to, you know, they lost their TV remote, they need another one that will work with their TV, they want something that looks nice, that isn't going to break when they drop it, that, you know, that maybe it's, it's ergonomic, it feels good in your hand, something like that.
+
+0:17:48	SPEAKER_03
+ I think that's going to be where you're going to find the biggest, you know, market share.
+
+0:17:52	SPEAKER_00
+ So we're looking for something that looks good and just works, rather than looking for any special features.
+
+0:17:57	SPEAKER_03
+ I think the more bells and whistles we add, it's just going to cut into our, into our profits, because I think as we, as we add costs for things like, for, like, if we had the voice recognition and things like that, I think, you know, what percentage of the, of the, of the market is actually going to use that?
+
+0:18:15	SPEAKER_03
+ Maybe 5 percent.
+
+0:18:18	SPEAKER_00
+ Well, we can talk a lot more potentially in the market, actually in presentation about this.
+
+0:18:22	SPEAKER_00
+ Yeah, okay.
+
+0:18:23	SPEAKER_00
+ I'm sorry.
+
+0:18:24	SPEAKER_00
+ I'm sorry, boss.
+
+0:18:25	SPEAKER_00
+ I'm not the boss.
+
+0:18:27	SPEAKER_02
+ Okay.
+
+0:18:28	SPEAKER_02
+ Pedro, I just want to say quickly, I would really like it when you can come up with some more bells and whistles, huh?
+
+0:18:34	SPEAKER_02
+ You know, things come to my mind is something that's voice activated.
+
+0:18:41	SPEAKER_02
+ I know we're getting into some, some big money on this.
+
+0:18:44	SPEAKER_00
+ I think that's probably a question more for, is that for over here?
+
+0:18:47	SPEAKER_00
+ Yeah, yeah, yeah.
+
+0:18:48	SPEAKER_02
+ Okay.
+
+0:18:49	SPEAKER_02
+ Well, that's kind of both of us.
+
+0:18:50	SPEAKER_02
+ It's the interface.
+
+0:18:51	SPEAKER_02
+ Because, and I think, a voice activated, I think of, of, how many times I've, I've lost my, my remote and I can't find it.
+
+0:18:59	SPEAKER_02
+ So some way that I can, I can find my remote by, I think in a month.
+
+0:19:03	SPEAKER_00
+ Clapping my hands or something.
+
+0:19:04	SPEAKER_02
+ Oh, and so, so, but that's just something.
+
+0:19:09	SPEAKER_02
+ I'm trying to find some bells and whistles, because when I talk about, taking out teletext, it's like, what are we going to put in?
+
+0:19:15	SPEAKER_02
+ What makes this thing attractive?
+
+0:19:16	SPEAKER_02
+ And it's only for televisions.
+
+0:19:18	SPEAKER_02
+ So, every, our, our competition out there has got these, these multiple adapters, where they can use them for their VCRs, their DVDs, their, their televisions.
+
+0:19:28	SPEAKER_02
+ And we're coming out with one remote for television only.
+
+0:19:31	SPEAKER_02
+ And so, to me, we have to make this a really special product.
+
+0:19:34	SPEAKER_02
+ I, I don't, I really have to say, I don't see the market niche for this product.
+
+0:19:38	SPEAKER_02
+ At this price, I don't see it yet.
+
+0:19:40	SPEAKER_02
+ I, I go along with this because this is what we're given to try to market.
+
+0:19:43	SPEAKER_02
+ But I, I don't see the market niche for this product.
+
+0:19:46	SPEAKER_02
+ Without, without some really, something really special to identify it as, as unique in the market.
+
+0:19:54	SPEAKER_04
+ Well, that should be designed.
+
+0:19:56	SPEAKER_04
+ Yeah.
+
+0:19:57	SPEAKER_04
+ That should be the design, basically.
+
+0:19:58	SPEAKER_04
+ I think technology, we, we're not in the price range to do it.
+
+0:20:02	SPEAKER_04
+ We don't have the money to do it towards technology.
+
+0:20:07	SPEAKER_04
+ So we should, we should do it in the box.
+
+0:20:09	SPEAKER_02
+ Yeah.
+
+0:20:10	SPEAKER_02
+ Okay. Well.
+
+0:20:11	SPEAKER_02
+ So, so that's up to you then.
+
+0:20:13	SPEAKER_02
+ Just to make this box in something that's just absolutely extraordinary.
+
+0:20:16	SPEAKER_02
+ Okay.
+
+0:20:17	SPEAKER_02
+ We make it in the form of a gun.
+
+0:20:21	SPEAKER_02
+ We can sell it in the United States.
+
+0:20:23	SPEAKER_00
+ I have a question for you.
+
+0:20:26	SPEAKER_00
+ Does any of the features that Peter is spoken about here have any implications we might not have thought about it on in terms of just pure functionality?
+
+0:20:37	SPEAKER_00
+ I don't know.
+
+0:20:39	SPEAKER_00
+ I don't know the work or the cost of that.
+
+0:20:40	SPEAKER_03
+ I think all these things are pretty standard.
+
+0:20:41	SPEAKER_03
+ I think we'll be okay.
+
+0:20:42	SPEAKER_03
+ Okay.
+
+0:20:43	SPEAKER_00
+ Okay.
+
+0:20:44	SPEAKER_00
+ Cheers.
+
+0:20:45	SPEAKER_00
+ I need to put this one.
+
+0:20:53	None
+ Right.
+
+0:20:54	SPEAKER_02
+ You know, for marketing, marketing for me is, and how do I go here?
+
+0:21:06	SPEAKER_02
+ Okay.
+
+0:21:07	SPEAKER_02
+ You can just click.
+
+0:21:08	None
+ Go.
+
+0:21:09	SPEAKER_04
+ There.
+
+0:21:10	SPEAKER_04
+ You just get off that.
+
+0:21:11	SPEAKER_04
+ You just click.
+
+0:21:12	SPEAKER_04
+ Anyway.
+
+0:21:13	SPEAKER_03
+ Aha.
+
+0:21:14	SPEAKER_03
+ Yeah.
+
+0:21:15	SPEAKER_02
+ What for me is it's, I don't know what I'm marketing right now.
+
+0:21:22	SPEAKER_02
+ Okay.
+
+0:21:23	SPEAKER_02
+ Until you spoke and when I wrote this, I don't know what I'm marketing.
+
+0:21:25	SPEAKER_02
+ I just know that I was identified as a, we identified ourselves as a developer, as a manufacturer, and as a distributor to other wholesalers.
+
+0:21:38	SPEAKER_02
+ And so the 25 euros that we've identified as the sale price is a wholesale price, rather than a retail price.
+
+0:21:47	SPEAKER_02
+ That's what we decided here.
+
+0:21:50	SPEAKER_02
+ So what I did is I decided that this needs to be a product in a sense can market itself.
+
+0:21:58	SPEAKER_02
+ So what we've identified here as our main marketing strategy is in design.
+
+0:22:04	SPEAKER_02
+ We're making the most beautiful, attractive, whatever we decided is.
+
+0:22:09	SPEAKER_02
+ So that means we have about seven more minutes or ten minutes left.
+
+0:22:13	SPEAKER_02
+ So I would like to have a product that we can sell easily.
+
+0:22:20	SPEAKER_02
+ So I say inspiration.
+
+0:22:21	SPEAKER_02
+ So having something beauty, something attractive, something that in a sense will sell itself.
+
+0:22:27	SPEAKER_02
+ Innovation, I think, fits into what we're talking about here with design.
+
+0:22:32	SPEAKER_02
+ Cutting edge technology, I don't think we're going to have that.
+
+0:22:35	SPEAKER_02
+ These were ideas I was putting together, unless we come up with some new age product, as far as the casing is concerned.
+
+0:22:44	SPEAKER_02
+ I want to make this thing something that I can identify as special in some way.
+
+0:22:49	SPEAKER_02
+ So maybe we can have some, I talked about environmentally sensitive.
+
+0:22:53	SPEAKER_02
+ Maybe we have a product that can be identified in some way as advantageous in the home.
+
+0:22:58	SPEAKER_02
+ I don't know.
+
+0:23:00	SPEAKER_02
+ These are just thoughts.
+
+0:23:01	SPEAKER_02
+ I wanted to talk about who we are as a corporation.
+
+0:23:06	SPEAKER_02
+ That we're new, we're aggressive, we're competitive, we're trying to provide a product from a new perspective rather than from an old corporate line.
+
+0:23:15	SPEAKER_02
+ So to me, it's about selling our identity, our corporate identity, along with the product.
+
+0:23:22	SPEAKER_02
+ What I found is that the projected costs are competitive.
+
+0:23:30	SPEAKER_02
+ We're kind of in the middle of the market.
+
+0:23:33	SPEAKER_02
+ But what I'm seeing is that the market is ready for, I identified new technology.
+
+0:23:38	SPEAKER_02
+ But again, because what I see is budget restrictions and limitations, I don't know that we can bring any new technology into this thing.
+
+0:23:45	SPEAKER_02
+ If we could have a technological something.
+
+0:23:49	SPEAKER_02
+ I have an idea.
+
+0:23:50	SPEAKER_03
+ Please.
+
+0:23:52	SPEAKER_03
+ And it's kind of along the lines of environmentally sensitive.
+
+0:23:54	SPEAKER_03
+ And it may even fit into ergonomics and even kind of address the issue of losing the remote.
+
+0:24:01	SPEAKER_03
+ What we are saying is a kind of an issue.
+
+0:24:04	SPEAKER_03
+ What we can do is, well, you know that batteries throwing, robots run through batteries like crazy.
+
+0:24:10	SPEAKER_03
+ Yeah.
+
+0:24:11	SPEAKER_03
+ And solar.
+
+0:24:12	SPEAKER_03
+ For some people, well, maybe not a solar remote.
+
+0:24:15	SPEAKER_03
+ But instead, what about if we had like a power cradle?
+
+0:24:18	SPEAKER_03
+ Like a cradle that is there to hold the remote when you're not using it.
+
+0:24:23	SPEAKER_03
+ So you'll always know where the remote is because you have to put it back there to charge the remote.
+
+0:24:27	SPEAKER_03
+ And we can instead of having, instead of having replaceable batteries, we'll just have a power cell that stays there for the life of the remote.
+
+0:24:34	SPEAKER_03
+ You never have to go through all these different batteries.
+
+0:24:40	SPEAKER_03
+ And also, you can, I think it's a good opportunity for the user design, not just for the user design, but also for the look and feel of the remote as a whole.
+
+0:24:52	SPEAKER_03
+ You know, you could have some kind of neat little, you know, a sexy design for a cradle and the remote itself.
+
+0:25:00	SPEAKER_03
+ Well, I like it.
+
+0:25:01	SPEAKER_02
+ I like the idea, but we're talking about in cost is going to probably double.
+
+0:25:05	SPEAKER_03
+ It would increase the cost.
+
+0:25:06	SPEAKER_02
+ But boy, we can sell this thing because there's no batteries.
+
+0:25:09	SPEAKER_02
+ It's environmentally sensitive.
+
+0:25:10	SPEAKER_02
+ We can identify it as a safer product in some form.
+
+0:25:13	SPEAKER_03
+ And you could page through a moat if you lose it.
+
+0:25:15	SPEAKER_03
+ Maybe there's a button on the cradle.
+
+0:25:16	SPEAKER_03
+ Yeah, that's right.
+
+0:25:17	SPEAKER_02
+ I really see.
+
+0:25:18	SPEAKER_00
+ But the question is, can we make this for less than 1250?
+
+0:25:22	SPEAKER_02
+ No, no, no, we have to change the end cost.
+
+0:25:24	SPEAKER_00
+ I don't necessarily have to change the end cost because can we do that without changing it 1250 per product if we basically can sell more based on this?
+
+0:25:38	SPEAKER_01
+ Yeah, that's going to be up to these guys.
+
+0:25:40	SPEAKER_01
+ Well, my reaction is no.
+
+0:25:42	SPEAKER_03
+ What I can do is I can look into how we'll page around.
+
+0:25:45	SPEAKER_03
+ I can look into how much this might increase our costs.
+
+0:25:48	SPEAKER_03
+ And you can look into what kind of effect an increased cost is going to have on our final numbers.
+
+0:25:55	SPEAKER_00
+ Yeah, they can certainly push for more expensive products.
+
+0:25:58	SPEAKER_02
+ Well, see, I'm an advocate to make this an exclusive product.
+
+0:26:02	SPEAKER_02
+ You know, let's sell this thing wholesale for 50 euros.
+
+0:26:06	SPEAKER_02
+ 60 euros.
+
+0:26:07	SPEAKER_02
+ Let's make this thing really exclusive, environmentally sensitive, high tech design, ergonomics, all of this.
+
+0:26:14	SPEAKER_02
+ Just make this thing, yeah, the Rolls-Royce of remote controls.
+
+0:26:19	SPEAKER_02
+ Every home's got to have, if you don't have one, hey, what kind of remote do you have?
+
+0:26:23	SPEAKER_02
+ Oh, you've got one of those.
+
+0:26:25	SPEAKER_02
+ Oh, fantastic.
+
+0:26:26	SPEAKER_02
+ I want one of those, too.
+
+0:26:27	SPEAKER_02
+ I just don't have enough money right now.
+
+0:26:29	SPEAKER_03
+ I just don't know about that because in order to do that, in order to price it at that kind of level, I think we need to have every functionality that all the other competitors are offering, like being able to operate, you know, the DVD player and, you know, the stereo system and all that, which is a pretty basic function that we've opted out of.
+
+0:26:50	SPEAKER_03
+ And additionally, we're maybe not supporting teletext.
+
+0:26:55	SPEAKER_00
+ Now, I think we can see with certainty now that we are supporting teletext.
+
+0:26:59	SPEAKER_03
+ I do think there are some basic features that we don't have that a lot of other remotes are going to have.
+
+0:27:05	SPEAKER_02
+ One thing I don't understand is they've given us this package, okay?
+
+0:27:10	SPEAKER_02
+ Now, in my opinion, we need to give them a package back, okay?
+
+0:27:13	SPEAKER_02
+ They say, okay, here you go.
+
+0:27:15	SPEAKER_02
+ They gave us a foundation of what they want.
+
+0:27:19	SPEAKER_02
+ And it's our place to kind of analyze and evaluate.
+
+0:27:22	SPEAKER_02
+ I don't think it's our place to create their product for them.
+
+0:27:24	SPEAKER_02
+ Maybe it is.
+
+0:27:25	SPEAKER_02
+ I don't know what kind of role we have in a corporate ladder.
+
+0:27:29	SPEAKER_02
+ But to me, it's like, okay, here's our ideas, okay?
+
+0:27:33	SPEAKER_02
+ And then let them look at those ideas and they say, well, we can raise the price 20%.
+
+0:27:39	SPEAKER_02
+ You know, we like this idea, this idea, no.
+
+0:27:42	SPEAKER_02
+ But to me, it's about a choice.
+
+0:27:44	SPEAKER_02
+ Do we follow their directives or do we make presentations back and then discuss?
+
+0:27:51	SPEAKER_02
+ Because I do not see the market niche for the product that they're handing us right now.
+
+0:27:56	SPEAKER_02
+ I don't see it.
+
+0:27:57	SPEAKER_03
+ I have to disagree, though.
+
+0:27:59	SPEAKER_03
+ I think our market niche is basically people who have lost their remote or have broken their remote and don't want to send back to the manufacturer.
+
+0:28:09	SPEAKER_03
+ They just want to run out to the store and get a remote.
+
+0:28:11	SPEAKER_03
+ And then they're going to look on the shelf and they're going to see ours is the nicest looking remote.
+
+0:28:15	SPEAKER_03
+ It does what they need.
+
+0:28:16	SPEAKER_03
+ These aren't...
+
+0:28:17	SPEAKER_00
+ I think that... To get to back to another point, sorry, for cutting in, but I think it's important to remember that this remote has to work with multiple TVs, yeah, because it's selling on its own.
+
+0:28:27	SPEAKER_00
+ It's not going to be specifically for HITRASHI TVs or...
+
+0:28:30	SPEAKER_00
+ What are you going to do?
+
+0:28:31	SPEAKER_00
+ So technologically, if I understand that, TVs, TV remotes working exactly the same way as video remotes and DVD remotes.
+
+0:28:40	SPEAKER_00
+ All you need to do is train them to the individual one or all you need to do is know they're like some four-digit code.
+
+0:28:46	SPEAKER_00
+ So saying that it works with all TVs is equivalent to saying that it'll work with DVDs.
+
+0:28:51	SPEAKER_02
+ No, they've identified the product is not working for anything with televisions.
+
+0:28:55	SPEAKER_02
+ They've identified this product remote.
+
+0:28:56	SPEAKER_02
+ That's why I say I don't see the market niche for this.
+
+0:28:59	SPEAKER_02
+ If we were going to have a product that worked for DVDs, VCRs and everything, then I can see the market niche.
+
+0:29:06	SPEAKER_02
+ But we're only identified as going for televisions without teletext.
+
+0:29:11	SPEAKER_02
+ And it's like, whoa, in my opinion, we have to go with something that's extremely exclusive.
+
+0:29:15	SPEAKER_02
+ Well, here's the thing marketable because who wants just a television remote?
+
+0:29:19	SPEAKER_02
+ I don't.
+
+0:29:20	SPEAKER_03
+ Well, here's my thing about that.
+
+0:29:22	SPEAKER_03
+ If you're in the market for this ultimate remote, you're not going to go for just a television remote.
+
+0:29:28	SPEAKER_03
+ If it can't control your DVD player and if you can't get that all-in-one ultimate remote that just...
+
+0:29:37	SPEAKER_03
+ You can throw all your other remotes away.
+
+0:29:39	SPEAKER_03
+ I'm not going to buy a 75-year-old remote.
+
+0:29:43	SPEAKER_02
+ I have a tendency to agree with you.
+
+0:29:45	SPEAKER_02
+ I really do.
+
+0:29:46	SPEAKER_02
+ That's why I say I question the marketability of the product.
+
+0:29:49	SPEAKER_02
+ I really question where we create the demand.
+
+0:29:52	SPEAKER_00
+ We're looking for something basic.
+
+0:29:54	SPEAKER_00
+ One thing that you said really struck a chord with me here, and that we're carrying the corporate identity with the product, but we're actually looking for a large profit at the same time, where I've been inclined to go back to a reliable management and say, let's just cut down our profit, expect it on this product, because we are actually branding our company here, we're selling more than just the product.
+
+0:30:13	SPEAKER_00
+ We're trying to get MindShare about a real reaction to the people who are going to buy consumer electronics.
+
+0:30:19	SPEAKER_00
+ We want people to eventually say, oh, that's real reacting.
+
+0:30:22	SPEAKER_00
+ That's a good make. It's reliable.
+
+0:30:25	SPEAKER_00
+ And we're going to win MindShare by either being a fantastic product or for it working.
+
+0:30:32	SPEAKER_00
+ It just being good, reasonable price and solid.
+
+0:30:36	SPEAKER_00
+ So if we can put an emphasis here on not breaking, I think that's in itself.
+
+0:30:41	SPEAKER_00
+ That's extremely big.
+
+0:30:43	SPEAKER_02
+ If you drop the cost, now if you make good to the other side of the cost scale, and you make it less expensive, then all of a sudden now we're going into a new market area.
+
+0:30:53	SPEAKER_02
+ So we can say low cost, good design, beautiful, what did I do?
+
+0:31:00	SPEAKER_02
+ But what I'm saying is right now we're middle market.
+
+0:31:03	SPEAKER_00
+ It's 25 euros and mid market price for remote.
+
+0:31:07	SPEAKER_02
+ Yeah, for multi-function remote, that's a mid market price.
+
+0:31:11	SPEAKER_02
+ Interdiscount right now, you can buy them on sale sometimes for about 18, 19 euro.
+
+0:31:18	SPEAKER_02
+ And that's for the multi-functions, DVD, VCR, catchalls.
+
+0:31:23	SPEAKER_02
+ And they have them in a little box in the middle.
+
+0:31:26	SPEAKER_02
+ And this is the consciousness that most people have about replacement remote controls.
+
+0:31:31	SPEAKER_02
+ So to me, to market only a television remote control, we have to change consciousness.
+
+0:31:37	SPEAKER_02
+ We have to have something that will change people's thinking to identify this as advantageous.
+
+0:31:42	SPEAKER_02
+ And I don't know what that is.
+
+0:31:44	SPEAKER_02
+ It's got to be low cost or high cost with special design features.
+
+0:31:48	SPEAKER_00
+ Well, that would be inclined to say if we can make the design better than any comparable remote while reducing the cost, then that's the way we really should play it.
+
+0:31:58	SPEAKER_00
+ If we can take it down to 15 rather than 25 and make a low profit margin on it, but we're really doing that to sell the brand.
+
+0:32:07	SPEAKER_00
+ We have five minutes left.
+
+0:32:09	SPEAKER_00
+ Well, back to sell for real reactions.
+
+0:32:12	SPEAKER_00
+ And I can communicate this to the more senior people within the company here to get reactions.
+
+0:32:20	SPEAKER_03
+ What about the idea that I had with Cradle?
+
+0:32:24	SPEAKER_03
+ How do you feel about that?
+
+0:32:27	SPEAKER_03
+ Well, everybody feel that.
+
+0:32:29	SPEAKER_02
+ We're talking about the other end now.
+
+0:32:31	SPEAKER_02
+ I like it.
+
+0:32:32	SPEAKER_02
+ I like the idea.
+
+0:32:33	SPEAKER_03
+ We have to find out the other end.
+
+0:32:36	SPEAKER_00
+ The problem with that in my mind, I just think off hand is a consumer.
+
+0:32:40	SPEAKER_00
+ Would I want to buy that?
+
+0:32:41	SPEAKER_00
+ And I think maybe not because I've got a remote and I'll take it to different chairs.
+
+0:32:47	SPEAKER_00
+ I'll take it to different, I don't want to go over somewhere and put it down.
+
+0:32:50	SPEAKER_00
+ If it's going to be somewhere that you put it down, then it needs to be at the side of your armchair.
+
+0:32:55	SPEAKER_00
+ And that implies that there's only one TV user.
+
+0:32:58	SPEAKER_00
+ So it's very good for some people.
+
+0:33:00	SPEAKER_03
+ It would last for several hours on its own power.
+
+0:33:04	SPEAKER_03
+ But when you're done with it, you put it back in the crib.
+
+0:33:06	SPEAKER_00
+ But it takes away the ease of use of the remote to set an excuse.
+
+0:33:09	SPEAKER_00
+ You have to sort of remember.
+
+0:33:10	SPEAKER_00
+ You have to shift down the side of the couch to find it and put it back.
+
+0:33:13	SPEAKER_00
+ I think in my mind, it doesn't seem like something that, oh, I really want it because of that fact.
+
+0:33:23	SPEAKER_00
+ But I don't know, that's just my opinion.
+
+0:33:25	SPEAKER_02
+ Well, I think, again, we have a cost issue here.
+
+0:33:28	SPEAKER_02
+ If we're going to go in this direction to me, we're going to the other side of the cost range.
+
+0:33:32	SPEAKER_02
+ Are we going to make this selling the cost as a high tech, environmentally sensitive, whatever, are we going to go to the lower side of the range?
+
+0:33:43	SPEAKER_02
+ Again, I don't see our market niche in the middle for our product yet.
+
+0:33:47	SPEAKER_00
+ I don't see it yet.
+
+0:33:48	SPEAKER_00
+ So what do we think maybe we should petro, do you have any opinion on that?
+
+0:33:53	SPEAKER_04
+ We should keep it simple, medium-low cost area and make it look good.
+
+0:34:02	SPEAKER_02
+ A question I have in, because I think I agree with you on, we've got to make a debauches.
+
+0:34:08	SPEAKER_02
+ The box is going to sell it, I think, the outside casing.
+
+0:34:11	SPEAKER_02
+ Can we have multiple designs, have a modern, have a traditional, have a, you know, and so instead of them all looking the same, people can have maybe four or five different designs they can choose from.
+
+0:34:24	SPEAKER_02
+ I don't know what that creates cost or...
+
+0:34:26	SPEAKER_03
+ Well, the problem with that is we may end up with a whole bunch of inventory of a...
+
+0:34:31	SPEAKER_03
+ Yeah, one over another design.
+
+0:34:32	SPEAKER_03
+...over another design.
+
+0:34:33	SPEAKER_03
+ Yeah, okay.
+
+0:34:34	SPEAKER_04
+ So, it's a bit complicated.
+
+0:34:36	SPEAKER_03
+ But what we could do is some kind of...
+
+0:34:41	None
+ Well, I mean...
+
+0:34:44	SPEAKER_03
+ Yeah, we need to, I mean, have a few designs to look at and then come up with something that I think we all agree is, you know, the best fit.
+
+0:34:54	SPEAKER_03
+ I think what's really important is it has to look good, it has to feel...
+
+0:34:58	SPEAKER_03
+ It has to feel good in your hand, it has to be durable, it has to...
+
+0:35:02	SPEAKER_03
+ And I think it's really important that it doesn't look cheap.
+
+0:35:06	SPEAKER_03
+ I think we have to make sure that people look at it and feel like it's like a quality remote, even though the cost may be a lot.
+
+0:35:14	SPEAKER_02
+ What about a remote that doesn't maybe look like a remote?
+
+0:35:23	SPEAKER_02
+ Just an idea.
+
+0:35:24	SPEAKER_02
+ Just, okay, because I mean we all know what a remote looks like on the outside or selling these things everywhere.
+
+0:35:29	SPEAKER_02
+ Maybe that could be part of our design exclusivity as we make a remote that doesn't even look like a remote.
+
+0:35:34	SPEAKER_02
+ It opens like a telephone.
+
+0:35:36	SPEAKER_03
+ Or what if it looks like a pen?
+
+0:35:38	SPEAKER_02
+ Doesn't matter, yeah.
+
+0:35:39	SPEAKER_02
+ I'm just just talking about some point or something to make this thing unique.
+
+0:35:42	SPEAKER_02
+ That's the thing, I'm going to keep thumping up.
+
+0:35:44	SPEAKER_02
+ I'll sell whatever you guys designed.
+
+0:35:46	SPEAKER_02
+ I don't have a problem selling a product.
+
+0:35:47	SPEAKER_02
+ That's not the issue.
+
+0:35:48	SPEAKER_02
+ I give you ideas, you guys create a product.
+
+0:35:50	SPEAKER_02
+ Once you have the finished product, I'll find a way to sell it.
+
+0:35:53	SPEAKER_02
+ Don't worry about it.
+
+0:35:54	SPEAKER_02
+ I just give you these things now because these are my thoughts and feelings.
+
+0:35:57	SPEAKER_03
+ Just to touch on my point one last time that I had brought up, unless you guys are die hard against the fact that it's possible that it reduces the usability of the remote in the fact that you can't lose it on your own, I think it still might be a good idea to investigate having a power cradle.
+
+0:36:23	SPEAKER_03
+ Because in a certain sense, it almost, for me, I would want to have that just because I know at the end of when I'm done watching TV that when I'm done, oh, I better go find the remote and put it back where it belongs.
+
+0:36:36	SPEAKER_03
+ Maybe that's just some people that like that.
+
+0:36:38	SPEAKER_00
+ There's all sorts of remote controls.
+
+0:36:40	SPEAKER_00
+ I remember that this hasn't been done in a while, I think, but as a watch.
+
+0:36:45	SPEAKER_00
+ As a watch.
+
+0:36:46	SPEAKER_00
+ Yeah, there's remote control watches.
+
+0:36:48	SPEAKER_00
+ But I think there are, sorry, 80s things so it might not be easy to market in it.
+
+0:36:53	SPEAKER_00
+ But the two watches came along that it might be cheaper to make.
+
+0:36:56	SPEAKER_00
+ Now those things might have been expensive for all I know.
+
+0:36:59	SPEAKER_02
+ One thing I just thought about when you were saying that is it, our target market is going to be someone who has lost or broken.
+
+0:37:06	SPEAKER_02
+ That's what I was saying.
+
+0:37:07	SPEAKER_02
+ Who's lost or broken their remote.
+
+0:37:10	SPEAKER_02
+ So how many remotes do they want to buy?
+
+0:37:13	SPEAKER_02
+ Can we sell them a remote that can maybe guarantee they will not need to buy another one?
+
+0:37:20	SPEAKER_02
+ And so with this kind of system or a locator or something, to think about how have people been losing or breaking their remotes?
+
+0:37:28	SPEAKER_02
+ How does this happen?
+
+0:37:29	SPEAKER_02
+ In a small presumably.
+
+0:37:31	SPEAKER_02
+ And then design the product maybe some component of the product that can identify this as the last one you'll ever need to buy.
+
+0:37:38	SPEAKER_00
+ Well, if we're going down that, then we don't need to go.
+
+0:37:41	SPEAKER_00
+ It strikes me that the locator feature might actually be quite expensive to make.
+
+0:37:46	SPEAKER_00
+ Whereas actually just putting it in the power cradle might not be too expensive at all because that's just done with mobile phones.
+
+0:37:52	SPEAKER_00
+ We have the low-speed system.
+
+0:37:54	SPEAKER_00
+ So we have actually similar products that we can take from and potentially cut costs there.
+
+0:37:58	SPEAKER_00
+ We need to look into whether we can do that.
+
+0:38:01	SPEAKER_00
+ But I think we have some mobile phone based products checking quickly or internet.
+
+0:38:07	SPEAKER_00
+ We really need to finish up here.
+
+0:38:09	SPEAKER_02
+ We can make it in a shape of a coffee pot.
+
+0:38:13	SPEAKER_00
+ Yeah, we have the power adapter products.
+
+0:38:16	SPEAKER_00
+ We sell power adapter products.
+
+0:38:17	SPEAKER_00
+ So for example, there's nothing stopping us.
+
+0:38:20	SPEAKER_02
+ I think it's telling us to stop from meeting.
+
+0:38:22	SPEAKER_02
+ So we have the, we probably have online in our system.
+
+0:38:26	SPEAKER_02
+ We have the ability to create this we're talking about.
+
+0:38:29	SPEAKER_00
+ Yeah, without it being too, in fact we can cut costs through using the manufacturing that's already going to be in place.
+
+0:38:35	SPEAKER_02
+ If we can create this we have probably five or six or seven really strong marketing characteristics.
+
+0:38:40	SPEAKER_03
+ I think one of the things that we can put right on the boxes never buy another battery.
+
+0:38:44	SPEAKER_03
+ Yeah, you know, something like that.
+
+0:38:46	SPEAKER_00
+ Okay, thanks guys.
+
+0:38:50	SPEAKER_02
+ Oh, that's not what I want.
+
+0:38:54	SPEAKER_02
+ Oh, look at here.
+
+0:38:59	None
+ We need to leave.
+
+0:39:01	None
+ We have to leave.
+
+0:39:02	None
+ But I don't want to leave.
+
+0:39:03	None
+ I like it.
+
