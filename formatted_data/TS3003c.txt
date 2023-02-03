@@ -1,0 +1,431 @@
+SPEAKER_03: Just received a little beep.
+SPEAKER_03: I don't know what it was.
+None: Okay.
+SPEAKER_03: Not good afternoon.
+SPEAKER_03: This is our third meeting already.
+SPEAKER_03: I hope you enjoyed your lunch.
+SPEAKER_03: I did.
+SPEAKER_03: Anyway.
+SPEAKER_03: Presentation 3.
+SPEAKER_03: Okay. This is the second phase.
+SPEAKER_03: We're going to discuss today.
+SPEAKER_03: That's the conceptual design meeting.
+SPEAKER_03: And a few points of interest in this meeting are the conceptual specification of components, conceptual specification of design, and also trend-watching.
+SPEAKER_03: These are hopefully the points you addressed in your presentations.
+SPEAKER_03: You're going to show me in a few minutes.
+SPEAKER_03: But first, I'll show you the agenda.
+SPEAKER_03: First, the opening.
+SPEAKER_03: Then we have three presentations.
+SPEAKER_03: After that, we have to come to a decision on remote control concepts.
+SPEAKER_03: How are we going to make it?
+SPEAKER_03: And then we're closing.
+SPEAKER_03: We have about 40 minutes.
+SPEAKER_03: So I suggest let's get started.
+SPEAKER_03: Did someone encounter any problems during the preparation?
+SPEAKER_03: No. Everything fine?
+SPEAKER_03: That's nice.
+SPEAKER_03: Then a little thing about the last meeting.
+SPEAKER_03: These are the points we agreed on.
+SPEAKER_03: The requirements and the target market.
+SPEAKER_03: The requirements are data text, docking station, audio signal, small screen, with some extra button information.
+SPEAKER_03: We're going to use default materials.
+SPEAKER_03: Does somebody have any comments on these requirements?
+SPEAKER_03: Maybe.
+SPEAKER_03: These are just the things we thought of.
+SPEAKER_03: So maybe if you figured something else or thought of something else, just let me know.
+SPEAKER_03: Maybe you can work it out.
+SPEAKER_03: And we're going to target the 62 to 80-year-old customers.
+SPEAKER_03: So now I've already noticed what we're doing.
+SPEAKER_03: And I suggest let's get started with presentations.
+SPEAKER_03: So we keep the same lineup as last time.
+SPEAKER_03: Sure.
+SPEAKER_03: Okay.
+SPEAKER_01: I'll start off then.
+SPEAKER_01: Okay.
+SPEAKER_01: I'm going to inform you about the trend watching I've done over the past few days.
+SPEAKER_01: We've done some market research.
+SPEAKER_01: We distributed some more UNCAT questionnaires.
+SPEAKER_01: And besides that, I deployed some trend watchers to Milan and Paris.
+SPEAKER_01: To, well, get all of the news trends.
+SPEAKER_01: And I've consulted some additional trend watchers after the original trend watchers return to the market.
+SPEAKER_01: About what the best design would be.
+SPEAKER_01: Okay.
+SPEAKER_01: These are some overall findings.
+SPEAKER_01: The most important thing is the fancy design.
+SPEAKER_01: The research indicated that that was by far the most important factor.
+SPEAKER_01: Inovitiveness was about half as important as the fancy design.
+SPEAKER_01: This means functions which are not featured in other remote controls.
+SPEAKER_01: About half as important as the inovitiveness was easy to use.
+SPEAKER_01: For our group, we're focusing on the people of 60 to 80 years old.
+SPEAKER_01: This is, these factors are slightly more equal.
+SPEAKER_01: Okay. These are some more group specific findings.
+SPEAKER_01: The older people prefer dark colors.
+SPEAKER_01: They like recognizable shapes.
+SPEAKER_01: And familiar material and our surveys have indicated that especially wood is pretty much the material for older people.
+SPEAKER_01: This is, this image will give you a little bit of an impression about the look and feel that the remote you have.
+SPEAKER_01: This leads us to some personal preferences.
+SPEAKER_01: The remote control and the docking station should blend in the room.
+SPEAKER_01: So this would mean no eye catching designs.
+SPEAKER_01: Just keep it simple.
+SPEAKER_01: The docking station and the small screen would be our main points of interest because this would be the inovitiveness in the remote control.
+SPEAKER_01: So this would be very important that we at least include these features.
+SPEAKER_01: Well, the trend watchers, I consulted, advised that it should be the remote control and the docking station should be telephone shaped.
+SPEAKER_01: So you could imagine that the remote control will be standing up straight in the docking station.
+SPEAKER_01: This is not really, this is pretty much a new shape to older people.
+SPEAKER_01: So they would prefer a design where the remote control just lies flat in the docking station.
+SPEAKER_01: So it would be kind of more telephone shaped.
+SPEAKER_01: Besides that, we would advise to bring two additions.
+SPEAKER_01: One with a wood like collar and maybe feel.
+SPEAKER_01: And one with a gray black collar.
+SPEAKER_01: The wood like for the more exclusive people.
+SPEAKER_01: People with more money.
+SPEAKER_01: The gray black collar for, well, people with less means.
+SPEAKER_01: That would be all.
+SPEAKER_03: Okay, thank you.
+SPEAKER_03: Any questions about the trends?
+SPEAKER_03: Okay, we're going to the next one.
+SPEAKER_00: Okay, yeah, this is some of my research about designing of intvates.
+SPEAKER_00: Last meeting we had about using a few bit.
+SPEAKER_00: That's what I want to do in our design.
+SPEAKER_00: Finding a directive way to control the remote control.
+SPEAKER_00: I found something about speech recognition.
+SPEAKER_00: Maybe we can use that.
+SPEAKER_00: And using a little display.
+SPEAKER_00: Findings.
+SPEAKER_00: You have just a focus on the primary functions.
+SPEAKER_00: You can only button the sound for on off shifting up a channel or down shifting ground.
+SPEAKER_00: We need some new interactive functions which attract people for using it.
+SPEAKER_00: Like speech recognition and special button for selecting sub titles.
+SPEAKER_00: Just what we mentioned last meeting.
+SPEAKER_00: And overall, use a friendly, so using large bitters.
+SPEAKER_00: It's possible to make a quite cheap system for speech recognition.
+SPEAKER_00: You can think about when you lost your remote control.
+SPEAKER_00: You can call it a signal.
+SPEAKER_00: And for shifting up a channel or for putting out the sound or something, you can just give a sound off.
+SPEAKER_00: And the television of the sound off.
+SPEAKER_00: I was thinking about a special button for sub titles.
+SPEAKER_00: Just one button.
+SPEAKER_00: To keep it simple.
+SPEAKER_00: One push on the button.
+SPEAKER_00: Double push.
+SPEAKER_00: Double click.
+SPEAKER_00: You get big sub titles for people.
+SPEAKER_00: You can read small sub titles.
+SPEAKER_00: We have to keep in general buttons.
+SPEAKER_00: The buttons we have to use.
+SPEAKER_00: The sound is higher and lower.
+SPEAKER_00: The numbers are 0 to 9.
+SPEAKER_00: And the general button, one button for shifting down a channel.
+SPEAKER_00: Also, we want to use a little display for displaying the functions of the buttons.
+SPEAKER_00: We can build in a function which shows the channel or which the television is on.
+SPEAKER_00: We can put an off button in this corner.
+SPEAKER_00: Almost all remote controls are using an off button on that place.
+SPEAKER_00: So people will recognize the buttons.
+SPEAKER_00: Display, or just a small display, you can put it on top.
+SPEAKER_00: It's the most blazer people most often look at.
+SPEAKER_00: And special button for shifting down a channel.
+SPEAKER_00: On the top of the button, you can easily shift up or shift down.
+SPEAKER_00: You can use a little display for the buttons.
+SPEAKER_00: And overall design, we have to discuss about the form of it.
+SPEAKER_03: Thank you.
+SPEAKER_02: Okay.
+SPEAKER_02: The docking station would become obsolete, so I don't think it's really an option.
+SPEAKER_02: For the casing, the manufacturing department can deliver a flat casing.
+SPEAKER_02: Single or double curved casing.
+SPEAKER_02: It's really up to the design that we're going to use.
+SPEAKER_02: It doesn't imply any technical restrictions.
+SPEAKER_02: I thought of that later, a rubber belt like an anti-slip.
+SPEAKER_02: For the buttons, we can use plastic or rubber.
+SPEAKER_02: And the chip set.
+SPEAKER_02: It's as simple here, but it should be advanced because we're using an LCD screen.
+SPEAKER_02: And as the trend watch presentation showed, people like wood, but it raises the price and it doesn't really fit the image.
+SPEAKER_02: Unless we would start two product lines.
+SPEAKER_02: The form should follow function overall.
+SPEAKER_02: Well, the kinetic energy source is rather fancy, but depends on what we want.
+SPEAKER_02: I think we should discuss that.
+SPEAKER_02: For the case, the supplement and the buttons really depends on the designer.
+SPEAKER_02: And the chip set really should be advanced because otherwise, it would really be a simple remote control.
+SPEAKER_03: That's it.
+SPEAKER_03: Thank you.
+SPEAKER_03: So that brings us to the discussion about our concepts.
+SPEAKER_03: Okay.
+SPEAKER_03: So these are the points we have to discuss.
+SPEAKER_03: First, I think we can talk about the energy source since that's has a pretty big influence on production price and image.
+SPEAKER_03: So I think first of all, we have to see it is possible to introduce kinetic energy.
+SPEAKER_02: Yes, there are four options. We could use the basic normal battery, a hand dynamo, but I don't think that's really an option.
+SPEAKER_02: You don't want to swing before you can watch television.
+SPEAKER_02: Solar cells, but not every room is very light, so it's not a very good option or the kinetic energy.
+SPEAKER_03: Yeah.
+SPEAKER_01: And how exactly does the kinetic energy work?
+SPEAKER_01: You basically shake your remote and then it powers up.
+SPEAKER_01: Yeah.
+SPEAKER_01: Well, personally, I don't think that older people like to shake their remote control before they use it.
+SPEAKER_01: Yeah, that's true.
+SPEAKER_01: And besides that, you mentioned it would make the docking station obsolete.
+SPEAKER_01: And I think our docking station could be one of the marketing issues with which we could get great popularity for a product.
+SPEAKER_00: Yeah.
+SPEAKER_00: What's the function?
+SPEAKER_00: Yeah, for allowing up the batteries.
+SPEAKER_01: Yeah, you could load up the batteries.
+SPEAKER_01: You could insert the, find the lost remote control function in there.
+SPEAKER_00: Okay, but I won't use much energy.
+SPEAKER_00: I believe just a small display, so I believe it will run on one battery for six months or more.
+SPEAKER_00: I believe one battery is just enough.
+SPEAKER_03: Well, I think elderly people just like to have everything in place.
+SPEAKER_03: And I don't think they like remote just playing everywhere in their rooms.
+SPEAKER_03: So maybe a docking station will help them give the remote a place.
+SPEAKER_03: And also what you said, you can introduce a voice recognition by finding back your remote.
+SPEAKER_03: But I think it's more efficient and cheaper to put it in the docking station.
+SPEAKER_03: So you have a button on your docking station which you can push and then it starts beeping.
+SPEAKER_00: Okay.
+SPEAKER_03: And then we can still use the voice recognition, but maybe then for only the channels.
+SPEAKER_01: I'm wondering, what will the voice recognition mean for the production price?
+SPEAKER_03: Yeah, that's a good point.
+SPEAKER_02: I don't have any informational pricing, so I'll have to ask the manufacturing department.
+SPEAKER_01: Because in our earlier market research, if you'd allow me to push your flat board, go ahead.
+SPEAKER_01: So it was open here.
+SPEAKER_01: We also asked if people would pay more for speed recognition in a remote control.
+SPEAKER_01: Like you can see here, our target group would not do that.
+SPEAKER_01: So if that would increase the price for which we're selling our remote control, I would greatly advise not to do it.
+SPEAKER_01: I think that would be better to insert in our other product that is meant for the younger people.
+SPEAKER_02: But that would also go for the LCD screen then, I guess.
+SPEAKER_02: It's a bit higher percentage, but.
+SPEAKER_01: Well, this is, yeah, but this is here. The question was, would you prefer it?
+SPEAKER_01: So that doesn't really mean they wouldn't pay extra for it.
+SPEAKER_01: And on top of that, the LCD screen would help in making the remote control easier to use.
+SPEAKER_01: Yeah, and I think a voice recognition function would not make the remote control much easier to use.
+SPEAKER_03: No, I think that's a good point.
+SPEAKER_00: But it's a rich here about a large LCD display or just a small one we want to use.
+SPEAKER_01: Well, this was for like an LCD screen like you would have on the most advanced mobile phones.
+SPEAKER_01: Okay, so pretty large.
+SPEAKER_03: I personally think the LCD screen we want to use with the extra information, I think nobody has anything against it.
+SPEAKER_03: Because it's just some extra information and it's easy to ignore as well.
+SPEAKER_03: So if you don't want to use it, you just don't use it.
+SPEAKER_03: And, yeah, I think maybe we have to discard the voice recognition because it will increase cost significantly.
+SPEAKER_03: And I don't think it will be a lot easier to use as well.
+SPEAKER_03: So that brings us back to the energy if we don't have voice recognition.
+SPEAKER_03: It will, it won't use a lot of energy to use.
+SPEAKER_03: So in that case we could use kinetic energy, but I think just a simple battery which you can reload on a docking station is just as good and much cheaper as well.
+SPEAKER_03: And that's the best choice.
+SPEAKER_03: Okay, let me just choose for the battery.
+SPEAKER_03: That brings us to the chip.
+SPEAKER_02: Well, there isn't any choice there because we're using the display so it's got to be advanced.
+SPEAKER_03: Okay, that's what's the funst chip.
+SPEAKER_03: And then we get to the point of the case which brings us a little bit back to the marketing as well.
+SPEAKER_03: If you want to choose for wood or the black and grey or both.
+SPEAKER_03: As we saw there is not, wood is a lot more expensive to produce.
+SPEAKER_03: But I think it will attract elderly people when they have something exclusive which they can show off to their grandkids.
+SPEAKER_03: They have a new remote control.
+SPEAKER_01: I think the most important factor there is the wooden collar. So it wouldn't actually have to be wood.
+SPEAKER_01: Yeah, it's just wood colored.
+SPEAKER_03: But wood collar was a lot more expensive?
+SPEAKER_02: I don't know.
+SPEAKER_02: I'll have to.
+SPEAKER_03: I think so because it's a lot more difficult to handle and to get in the right shape.
+SPEAKER_00: Is it possible to make a changeable case?
+SPEAKER_00: You've got mobile phones.
+SPEAKER_00: Like Nokia mobile phones.
+SPEAKER_00: When you can change the case of it.
+SPEAKER_00: It's the case.
+SPEAKER_00: Yeah, maybe it's possible.
+SPEAKER_00: Possibility.
+SPEAKER_00: You have just to make one standard remote control.
+SPEAKER_03: You can sell the case.
+SPEAKER_03: I think that's a very good option.
+SPEAKER_03: Because then you can advertise as well with the...
+SPEAKER_03: Give your grandfather a new case for his remote control or whatever.
+SPEAKER_03: Because it's something extra.
+SPEAKER_03: And then you can make a new one.
+SPEAKER_03: And then you can make a new one.
+SPEAKER_03: And then you can make a new one.
+SPEAKER_03: And then you can make a new one.
+SPEAKER_01: And then you can make a new one.
+SPEAKER_01: We would have to look carefully into the design though.
+SPEAKER_01: Because we would have to make one control which would fit in with a wooden cover and a plastic cover.
+SPEAKER_01: Or a original one.
+SPEAKER_03: Or a standard one.
+SPEAKER_03: So you should just be designed two different telephones.
+SPEAKER_03: Or which you can supply remote control.
+SPEAKER_03: Or which you can apply different case covers.
+SPEAKER_01: Well, no, I think so.
+SPEAKER_01: We should then just design one remote.
+SPEAKER_01: But it would have to be fancy with either a wood cover or a plastic one.
+SPEAKER_01: Okay.
+SPEAKER_01: But that shouldn't be too much of a problem.
+SPEAKER_03: So everybody is okay with the changing covers?
+SPEAKER_03: That's a good option.
+SPEAKER_03: Changing case covers.
+SPEAKER_01: I heard our industrial designer talk about a flat single and double curved.
+SPEAKER_01: Yes. Could you explain it a little more?
+SPEAKER_02: Well, the general, like most older remotes are flat, just straight.
+SPEAKER_02: And are the manufacturing department can also do they have a single curved or double curved case?
+SPEAKER_01: And would single curves and double curved mean?
+SPEAKER_02: It would just only affect the form for as far as I know.
+SPEAKER_02: So it's really just up to the design department what we're going to use.
+SPEAKER_02: It doesn't really matter for the price or the functionality.
+SPEAKER_01: So we can pretty much just pick one you like.
+SPEAKER_01: Okay. That's good.
+SPEAKER_03: But the form has to be, it has to be possible to stand up.
+SPEAKER_03: Or just only to lay down.
+SPEAKER_03: The cover of the docking station is also on top of the television then.
+SPEAKER_01: Well, or besides it.
+SPEAKER_03: And you can just click it in. That's okay.
+SPEAKER_03: So the interface, what type of interface do we want to use?
+SPEAKER_03: Maybe you can make a little drawing of it on the board.
+SPEAKER_00: Somebody have ideas for a forum where we can just use the regular forum of it.
+SPEAKER_00: It's not quite a fancy show.
+SPEAKER_01: You said you wanted to put the changing channels button on the right side so your thumb would be easily...
+SPEAKER_01: Well, I think that was a very good point because I pointed out earlier that a lot of remote calls are as I.
+SPEAKER_01: So it would be great for that.
+SPEAKER_01: I thought maybe we could just make one of those buttons on both the left and the right side.
+SPEAKER_01: For left-handed users.
+SPEAKER_00: Yeah, it's possible to program it.
+SPEAKER_00: So you got on the left side or on the right side buttons for shifting or pins shifting up.
+SPEAKER_00: On the other side buttons for shifting for the sound.
+SPEAKER_01: Well, that could do that.
+SPEAKER_01: I'm not sure if that would be very good for the ease of use.
+SPEAKER_03: Use a few.
+SPEAKER_03: It would be a lot more difficult than that.
+SPEAKER_01: But it would make changing channels and changing volume buttons on both sides.
+SPEAKER_01: So it would certainly yield great options for the design of the remote.
+SPEAKER_01: Because it could be made all symmetrical and stuff.
+SPEAKER_03: Yeah, but you have extra buttons so people can get confused.
+SPEAKER_01: Yeah, that is true.
+SPEAKER_03: Especially if they have the same writings on it.
+SPEAKER_00: Or you have to make a left...
+SPEAKER_03: You can make a remote which you can flip over and use on the same functions as the normal one.
+SPEAKER_00: You mean...
+SPEAKER_03: Let's see.
+SPEAKER_03: Blank one.
+SPEAKER_03: Then you get...
+SPEAKER_03: Here's a little LCD screen.
+SPEAKER_03: Now I have to think.
+SPEAKER_03: It's a plus and a minus.
+SPEAKER_03: No, it's not very handy, I think.
+SPEAKER_03: Because the plus and a minus will be opposite.
+SPEAKER_03: No, that's not going to work.
+SPEAKER_03: I guess.
+SPEAKER_03: Maybe it's...
+SPEAKER_03: Is it a problem that left-handed persons use a different hand?
+SPEAKER_03: I think the functions are that basic that nobody should have any problems with choosing a channel.
+SPEAKER_00: It's just using your thumb.
+SPEAKER_03: I think we could just leave it a normal shape.
+SPEAKER_03: But maybe we have to make it a bit more fancy in another way.
+SPEAKER_02: I think we should start by choosing a case because that's the basis you're building on.
+SPEAKER_02: So I could draw them out.
+SPEAKER_02: Let's get this flat case.
+SPEAKER_02: From the side, so this is rather normal.
+SPEAKER_02: The single curved, so I'm not really sure what they're going to look like, but I think it's something like this.
+SPEAKER_02: So this type should be better for you or better.
+SPEAKER_02: Should prevent.
+SPEAKER_02: Rebet it to straight injury a bit.
+SPEAKER_02: And the double curved looks something like this, I guess.
+SPEAKER_02: So those are the three options we have.
+SPEAKER_03: I should just... the single curved.
+SPEAKER_03: Because maybe the curve is pretty good to put the screen in.
+SPEAKER_03: So that elderly people can use the remote control and at the same time look easily at the screen because it's a bit of an angle.
+SPEAKER_00: What you say is...
+SPEAKER_00: You got a curved...
+SPEAKER_00: I believe.
+SPEAKER_00: So you want to put this play over here?
+SPEAKER_00: No.
+SPEAKER_03: Yeah, thanks.
+SPEAKER_03: But now it's...
+SPEAKER_03: Do you have an upside down or...
+SPEAKER_00: That's top.
+SPEAKER_00: Maybe it's possible to make this side like...
+SPEAKER_00: Color...
+SPEAKER_00: To make this side like...
+SPEAKER_00: A bit like...
+SPEAKER_00: So in the form of your hand.
+SPEAKER_00: So the remote control...
+SPEAKER_00: I have to play in your hand.
+SPEAKER_00: So get your mouse.
+SPEAKER_00: And the buttons for...
+SPEAKER_00: Changing the channel over here.
+SPEAKER_03: Yeah, that's a good one.
+SPEAKER_03: But I think it's better to put the screen on top.
+SPEAKER_03: So just flip it 180 degrees and run.
+SPEAKER_00: And you get...
+SPEAKER_00: This play...
+SPEAKER_03: That's about here.
+SPEAKER_03: If you can have this one you turn it like this and then flip it upside down.
+SPEAKER_00: I don't know.
+SPEAKER_03: Because maybe your hand is in the way if you have to display here.
+SPEAKER_02: It's more logical to have it on top as well because...
+SPEAKER_02: Like on your mobile phone.
+SPEAKER_02: It's always a ball.
+SPEAKER_00: So...
+SPEAKER_02: Yeah.
+SPEAKER_03: Maybe you should just start on a blank page.
+SPEAKER_03: So then we get...
+SPEAKER_03: Here's...
+SPEAKER_03: This is the curve.
+SPEAKER_00: Five minutes.
+SPEAKER_03: Here the display and then buttons.
+SPEAKER_03: And then we can...
+SPEAKER_03: I'm a little bit off here and here maybe.
+SPEAKER_03: Just that's for left hand and right hand users.
+SPEAKER_03: And then the rest of the buttons over here.
+SPEAKER_00: On the off button, still on the top.
+SPEAKER_03: Yeah, still here.
+SPEAKER_01: And I'd prefer the corners to be round.
+SPEAKER_01: Yeah.
+SPEAKER_01: Yeah.
+SPEAKER_03: A bit more friendly.
+SPEAKER_03: Yeah.
+SPEAKER_01: And the on the on the on.
+SPEAKER_03: Okay.
+SPEAKER_03: Supplements.
+SPEAKER_03: That's okay.
+SPEAKER_03: That's very nice.
+SPEAKER_03: Then...
+SPEAKER_03: We've got a general idea of the concepts and the materials we're going to use.
+SPEAKER_03: So now for the next meeting, we'll have to look at a field design.
+SPEAKER_03: It's important that the corporate design image is going to be in the remote.
+SPEAKER_03: So check out the corporate website maybe.
+SPEAKER_03: The user interface design.
+SPEAKER_03: It's the same story.
+SPEAKER_03: And product evaluation.
+SPEAKER_03: So the industrial designer and user interface designer are going to work together on this one.
+SPEAKER_03: But you're going to get your instructions, I think, send it by the coach.
+SPEAKER_03: So just...
+SPEAKER_03: I will put these minutes in the folder.
+SPEAKER_03: Okay.
+SPEAKER_03: And then we're going to try to finish our project and make a good design for all the grandfathers and grandmothers.
+SPEAKER_03: Which one?
+SPEAKER_03: Let's see.
+SPEAKER_03: I'm not sure if you're going to start right away to work together or...
+SPEAKER_03: I think you're going to fill in the questionnaires first.
+SPEAKER_03: And then you'll get a message.
+SPEAKER_03: So that's basically it.
+SPEAKER_03: Maybe this one.
+SPEAKER_03: Maybe you can save this one in the...
+SPEAKER_03: The folder's group.
+SPEAKER_03: It's here.
+SPEAKER_03: Smart boy.
+SPEAKER_03: There it is.
+SPEAKER_03: So if you want to have a look at it, it's over there in the project folder.
+SPEAKER_03: And then I guess we'll start in 30 minutes again.
+SPEAKER_03: Thank you.
+SPEAKER_03: Okay.
+SPEAKER_03: Right on time.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+SPEAKER_00: Okay.
+SPEAKER_02: Okay.

@@ -1,0 +1,355 @@
+SPEAKER_03: if you please want to sit down and I'm gonna show you
+SPEAKER_00: sure
+SPEAKER_02: it's not safe yet
+SPEAKER_00: okay
+SPEAKER_02: so
+None: okay it's gonna be beautiful drawing
+SPEAKER_03: so just so this is our agenda you're going to show your prototype presentation after me
+SPEAKER_01: oops
+SPEAKER_03: oh yeah so these are the
+SPEAKER_01: oh okay
+SPEAKER_03: so these are the last notes we made if anything doesn't look right just say to me I don't know if people didn't report
+SPEAKER_02: you know we're doing the speech recognition because didn't have enough time to design the inside as well
+SPEAKER_03: okay but still possible financially so if you want to okay then we're gonna put it in
+SPEAKER_02: yeah we have to design the inside then but
+SPEAKER_01: are we making a slide open like underneath or fold open
+SPEAKER_03: slide open is quite usual for remote control
+SPEAKER_01: yeah like underneath you can slide it open and you can and maybe that's stronger as well yeah that's it's okay
+SPEAKER_02: okay I think that's better and you have a lot of room inside so you can make it very easy to use because you can write a lot of comments besides
+SPEAKER_03: okay so this is okay I'll cool to you
+SPEAKER_02: no we're gonna use advanced chips then
+SPEAKER_03: okay so that's just how much that is okay for the speech yeah I think so I don't know no you have a different chip for speech recognition okay so I'll read it calculated that and still in the
+SPEAKER_02: butch it's okay
+None: good so you can show your prototype if you want to
+SPEAKER_01: yeah together yeah let's do it together I'll give comments okay yeah we just made a word file with the basic elements the look and feel model well the form the case as drawn there simply a square with round corners so that's basically it the materials should be hard plastic color changeable and also transparent color and transparent or just transparent I don't know then the elements we have the functions are just basic like I've pointed a mere mute function on off function text functions this is the switch channel okay cool and this is the the numpad and the logo is over here in the mic okay and scroll you'll know you operate that with your pointing finger so you hold it like this in your right hand and
+SPEAKER_03: so how many things do you need for the microphone speech recognition
+SPEAKER_02: only one button to say it's a specification of that but I can imagine that you have to input your voice or something
+SPEAKER_01: yeah maybe you have to configure it
+SPEAKER_02: yes you need options to figure it and after that you don't need them anymore so you can put it on the back as well if you
+SPEAKER_01: yeah you can all have around the slide function I don't know okay well we haven't had time to design that the slides
+SPEAKER_02: we also don't know how many buttons are required or what kind of buttons but you have a lot of room if you can slide it open yeah you can put it on the back I can imagine you need at least four buttons or something so enough room
+SPEAKER_01: the position yeah you're right
+SPEAKER_02: you wrote this so well name the main zap buttons armor center this was the most important thing so best read place best read place buttons text buttons mute buttons archicadder and at the place they usually are easy to find the enough button is bit bigger so it stands out that why you don't have to make it right because it will show up a score we lose on the left side it's basically the standard place for score
+SPEAKER_01: but it's not impossible to use it if you're left handed so because you can use your thumb then
+SPEAKER_00: just one thing now you need to have more one two you've got one two three four five six seven eight nine but you missed the zero and the two
+SPEAKER_02: strides
+SPEAKER_04: I'm just so you get that
+SPEAKER_00: okay but it's rather important
+SPEAKER_02: we just missed that well just okay back to later the foreign well you have taken that from the iPod other popular technical device so it should be popular with the buttons creating if you that are all round shapes not around its corners okay so that now you get a bit of round feeling no use hard plastic since that allows us to use the 2D buttons non-rober buttons color changeable well and the backlight thing the thing that lights up we have decided in the channel buttons there's a little color around it okay and also in the numpad there's also color around the light behind it
+SPEAKER_03: and we still can choose what color you want how do you want to implement that maybe on the second level as well
+SPEAKER_01: yeah these are just basic functions so all the non-basic
+SPEAKER_03: okay just draw the second level which is we need that as well
+SPEAKER_00: okay there's one function I use daily and it's not on the basic functions it's to switch to your score PlayStation or DVD player okay maybe we use this button for that yeah maybe or you can lay it beneath and the other yeah as well
+SPEAKER_03: do you make your device maybe just draw second level one and say all options that are still left or something a second level
+SPEAKER_01: new
+SPEAKER_03: just here
+SPEAKER_00: how does the second level come out it's light so it's light I think yeah you can maybe
+SPEAKER_02: you can do it with the claps open but I think that's not solid no that's not good
+SPEAKER_03: yeah that's right
+SPEAKER_02: it doesn't even have to slide all the way up so what do we need the speech functions buttons
+SPEAKER_01: yeah just
+SPEAKER_02: menu menu button with maybe arrows so you can roll in the navigate the menu oh my god I think we can even put we have one for zero and one for the more digit so this is the video channel PlayStation that's used pretty often yeah but you have PlayStation
+SPEAKER_01: you use it every day basic
+None: external you want to save the files yeah
+None: drawing so here are multiple speech buttons I don't know how many doesn't really
+SPEAKER_02: it doesn't matter that it's stable what else what else menu buttons
+SPEAKER_00: yeah it's with the arrows
+SPEAKER_02: like things best if we do where do we
+SPEAKER_01: like a normal
+SPEAKER_02: like on the normal
+SPEAKER_01: like this
+SPEAKER_02: yeah within the middle a menu button well you don't have any anything on how many buttons speech you cry so it can't really
+None: design it maybe one button to switch the color of your lets and you can hold it
+SPEAKER_02: and hold it and then
+SPEAKER_03: we can use the colors which you can maybe we just make it three buttons
+SPEAKER_00: all the colors on it red yeah if you have enough place and then we can do that we can put those here color buttons
+None: and then we choose green blue and red ok ok that's
+SPEAKER_01: so did we miss anything
+SPEAKER_02: maybe some text that is probably that there's volume
+SPEAKER_00: ok yeah yeah but there's one text that
+SPEAKER_02: is on here ok
+SPEAKER_00: that's the one that you use if you search for a page like 700 and it's counting from 100 to 200 you will switch to your television
+SPEAKER_01: and back yeah but then you can switch back to normal
+SPEAKER_03: you just switch it off
+SPEAKER_01: and then just put it on the extra button and if you press it again you get the the stage is yeah but if you are in a second stage the third stage is switch teletext off so
+SPEAKER_04: you can switch back from
+SPEAKER_00: the second to turn off just remember where it was it doesn't clear the page if you turn teletext on you set the screen on it still stays ok ok
+SPEAKER_03: maybe it's not
+SPEAKER_02: the way
+SPEAKER_00: that's a functionality for the
+None: television yeah I think as well but
+SPEAKER_01: oh yeah that's maybe one yeah we can discuss about no the remote can send like the code for 700
+SPEAKER_02: page 700 to the television
+SPEAKER_03: if you switch it yeah that's true
+SPEAKER_02: yeah I know do we need to fix that
+SPEAKER_00: or those new TVs do collect all the pages yeah those memories not every
+None: television yeah this logo for volume yeah that's fine
+None: so that's it is this pretty much it yeah I thought about one thing
+SPEAKER_00: the buttons from which material are they now just like your telephone yeah just hard plastic because it's very expensive to make it from a different material if you use it a couple of years sometimes the numbers on the buttons are slide away and maybe we can describe the numbers below or above or shall we just turn it on the buttons I think just
+SPEAKER_02: if you do it above or below it takes
+SPEAKER_00: too much space
+SPEAKER_02: yeah I don't think just lays this for a
+SPEAKER_01: yeah I think you have a
+SPEAKER_00: problem more often with rubber buttons yeah we have rubber buttons okay fine
+SPEAKER_03: yeah okay
+None: yeah yeah I don't know what this means but I think we just evaluated this one
+SPEAKER_00: yeah I made some criteria okay you made some good evaluate or model okay I didn't don't think
+None: you have some usability criteria okay I know all the criteria as we just argue about
+SPEAKER_00: in the bottom look at feel
+SPEAKER_01: evaluation is
+None: yeah evaluation presentation it's not here
+SPEAKER_00: yeah
+None: yeah it's not here it doesn't matter it only had two pages or something well I looked in the reports from the marketing strategy or the new needs and the market, the Italians how they think about it and the research about the the the users and that kind of stuff and I made some criteria and we have to test the criteria from one to zero we can give it a number and then we can give herself an average for our model and these are all the same I found or I wrote down and we have to discuss
+SPEAKER_03: if we give it one or a seven I think if you have a kind of
+SPEAKER_00: I pulled idea why beautiful the difference between a beautiful fancy look and feel is the outside beautiful like the I pulled or something and the colors and that kind of stuff
+SPEAKER_02: I think if you can get the I-POP look then it's beautiful
+SPEAKER_00: yes what kind of basic colors where you thought of the basic colors are black or green or yellow
+SPEAKER_02: how do we make maybe a company colors
+SPEAKER_03: black
+SPEAKER_00: yellow light
+SPEAKER_03: no really
+SPEAKER_02: but just a bit of yellow black white maybe black white
+SPEAKER_00: and what colors should the buttons be
+SPEAKER_03: different colors the same as the cover
+SPEAKER_01: can you change those with the switch
+SPEAKER_03: just make them black
+SPEAKER_02: or grey just dark grey
+SPEAKER_00: what number do we give at beautiful is really subjective because it has to do lots with the colors we have changeable phones for everyone is something beautiful
+SPEAKER_03: give it one it's perfect
+SPEAKER_02: I think it's just what you want it's hard to decide for us it's a lot better than current for motor controls
+SPEAKER_03: okay just 52
+SPEAKER_00: okay the fancy look and feel that's about our flashing lights and the background lights from the buttons and we can change the colors so that's really fancy
+SPEAKER_01: one more thing are we changing are they on the slide panel or no backlight slide panel
+SPEAKER_03: no it's only on the behind the numbers
+SPEAKER_01: and the switch channel is
+SPEAKER_03: this here
+SPEAKER_02: yeah but it's on this here
+SPEAKER_00: it's pretty cool if you slide it open it lights up that's really fancy but I don't know if it's reachable
+SPEAKER_02: of course it's reachable then we do it maybe just some light to light it all up you can see what's really there not just on the buttons or something just the green light
+SPEAKER_03: or from blue light
+SPEAKER_01: just backlight not the buttons and the normal backlight also not the buttons behind the buttons
+SPEAKER_02: so the buttons are just great yeah that's only here
+SPEAKER_00: okay fine so I think it's very fancy
+SPEAKER_02: yeah so I've done a lot of detail in light
+SPEAKER_00: so yeah and you can also choose in light so
+SPEAKER_03: yeah this is one
+SPEAKER_00: I think this one
+SPEAKER_03: okay next this is a difficult one because we don't
+SPEAKER_00: we don't know about we should test it
+SPEAKER_03: it's very easy to use the second layer is not easy to use it's that's
+SPEAKER_01: no but you don't have to use that and you don't have to pay attention to that second layer that's the main thing
+SPEAKER_02: that's so good about
+SPEAKER_00: I think it's easy to use learnable it's not as fast as a usual remote control because I think the scroll wheel it's very handy but the first time you get this thing in your hands is not to use the scroll wheel see for it and up or down but the rest of it is very easy
+SPEAKER_03: because there's so
+SPEAKER_02: yeah I think it's very clear
+SPEAKER_01: so a few information that you can easily decide what buttons for what function
+SPEAKER_02: the second part like speech as that will be hard to learn so it is learnable
+SPEAKER_03: and first of all it's very easy to use and I think it's scroll wheel easy to use as well if you have ever used a different kind of yeah
+SPEAKER_00: we've got two or three new things and maybe learnable is in compare of old fashioned remote controls so we have speech scroll wheel and the slide you must slide it and that's not normal and a normal remote controls less than easy to use because
+SPEAKER_03: used use comes after manual
+SPEAKER_02: so just give it it to maybe it's free then learnable
+SPEAKER_03: no but definitely better than
+SPEAKER_01: normal then the one you showed is just all buttons
+SPEAKER_02: and you don't know then a tool
+SPEAKER_03: okay
+SPEAKER_00: new feature is technological innovative speech function and the new scroll wheel and the slide I think the slide is pretty new it's not new
+SPEAKER_03: I only saw it in a telephone not in a digital oh I already have a VCR and it's
+SPEAKER_02: from 1988 and the other
+SPEAKER_00: slide and it's also the buttons come out as well okay and the lightning is scroll wheel
+SPEAKER_02: different colors
+SPEAKER_00: yeah different fronts for remote control I think that's new too yeah so we have a pretty new yeah no games it's not a one it's a two again it's not LCD
+SPEAKER_02: we also have the home station we are forgetting about that now
+SPEAKER_03: oh yeah that's why
+SPEAKER_01: it's rechargeable
+SPEAKER_02: yeah we didn't draw that too
+SPEAKER_03: but that's more like now
+SPEAKER_01: yeah just draw it afterwards
+SPEAKER_03: it's a good thing if you can you save it on the same in the same map as the other ones
+SPEAKER_02: in the project map
+SPEAKER_03: just save save us save us
+SPEAKER_01: well it's already in the fall like number seven
+SPEAKER_03: yeah smart words yeah but this one this one is not yet in the I think it is
+SPEAKER_01: it's not in the yeah I think it is
+SPEAKER_02: run titles yeah it doesn't matter
+SPEAKER_04: save you still see the
+SPEAKER_03: all the research and you feature so we give it a two or also again a one no I think if you have games on it then you get one
+SPEAKER_00: we are not extra ordinary new
+SPEAKER_03: it's always still a two targeted audience we are the targeted audience
+SPEAKER_00: we we we we search for a young group
+SPEAKER_03: young enough 40 so we are exactly the targeted group
+SPEAKER_00: yeah but did we reach with our style the targeted audience
+SPEAKER_03: that's my question you get the fancy things for younger people and the aesthetic things for older people
+SPEAKER_01: we've got a one for fancy looking and that's what attracts the young audience so
+SPEAKER_00: yeah the only point is that we don't have that's already that's this question
+SPEAKER_01: yeah but that's basically not handy and I don't see yeah so we targeted it
+SPEAKER_00: but we didn't follow the latest trends
+SPEAKER_01: no yeah you could make a a front latest trends
+SPEAKER_04: a front
+SPEAKER_00: these are the only like the trend
+SPEAKER_02: or something all right
+SPEAKER_00: you get different different front yeah so we have like a fruit but then I'll kind of front but spongy will never be no so we give herself a three or something
+SPEAKER_03: yeah
+SPEAKER_00: let's what's the average?
+SPEAKER_03: 11 divided by 6 yeah this is 1.83
+SPEAKER_00: upper, face score
+SPEAKER_01: no I don't know
+SPEAKER_02: we're not too hard on ourselves this is a power indicator okay you can see how far it's
+SPEAKER_00: charged up and then you need a button to go
+SPEAKER_01: oh yeah that's still yeah but we have to make a speaker
+SPEAKER_03: then too if you want to make it
+SPEAKER_01: be maybe we have to skip that one that's no one's in but we can do it underneath the logo
+SPEAKER_02: if you do a speaker is very small as well yeah okay
+SPEAKER_03: so I just got a financial so um
+SPEAKER_01: you saved it
+SPEAKER_00: yeah I did save it
+SPEAKER_03: okay let's have a look at this one here the production cost of it if I forgot anything it's just a battery yeah there are some things that they didn't mention because recharge is not on the list okay so I think we are pretty much in the right direction because it's 12.3 euro
+SPEAKER_01: okay but it's uh
+SPEAKER_03: so this is a regolith ship and uh as sample speaker okay so that's both
+SPEAKER_00: no that's perfect uh 12.3
+SPEAKER_03: yeah and single curve
+SPEAKER_01: does it include a home station or no that's not on the list
+SPEAKER_03: but can we make that for uh
+SPEAKER_01: 20 cents yeah we can probably
+SPEAKER_03: I just the button I was wondering if this special color maybe was um different fonts
+SPEAKER_02: but standard font
+SPEAKER_03: I think special for yeah it's hard to say but maybe we have to yeah what is okay special color you can skip this one because it's all quite normal you get different ones at all so you can put the recharge in but this is expensive the sample speaker
+SPEAKER_00: yeah yeah it's four it's four euros
+SPEAKER_02: oh damn is that uh included it's 12 euro so yeah that's
+SPEAKER_01: kind of weird that we have some information now afterwards
+SPEAKER_03: yeah no okay so this is pretty much head this way damn solace so uh what's just I just want to yeah we just made it so we can do the projects if your evaluation now for
+SPEAKER_00: everything together
+SPEAKER_03: okay we can do some discussion about this what's the room for creativity sure yes okay both the room for creativity
+SPEAKER_02: yeah thanks I think everyone just shared already
+SPEAKER_01: yeah if we got a high mark for innovativeness or innovativity
+SPEAKER_02: we probably have been not afraid about it
+SPEAKER_00: yeah we could make a lot of different remote controls yeah so it's creativity okay so
+None: the leadership wasn't the real leadership then of course there was okay what do you have to say about that no
+SPEAKER_02: yeah
+SPEAKER_03: yeah yeah yeah
+SPEAKER_01: yeah just normal discussion I think not yeah one leader or something one leader to
+SPEAKER_02: check the time
+SPEAKER_01: yeah and make notes
+SPEAKER_03: yeah I know
+SPEAKER_02: so more like a secretary
+None: yeah okay next one teamwork the third meeting I think that one was pretty hard you were not all agree with that
+SPEAKER_01: we had so much information that we get through email
+SPEAKER_02: and just we got the wrong information at the wrong time I think that was the biggest problem like the prices if you knew that before we could
+SPEAKER_00: get really quicker yeah because the prices could be 20 euro
+SPEAKER_02: something that if you had 15 euro then we would discourage
+SPEAKER_03: yeah
+SPEAKER_01: yeah finance so we're basically just
+SPEAKER_03: lucky to get the price right
+SPEAKER_00: but the team wearables okay yeah everybody could speak their opinion
+SPEAKER_02: I think everyone listen to each other yeah like marketing then we have to include them in the design
+SPEAKER_03: yeah okay yeah what I have to say about
+None: means the smart board is okay did you pen is horrible and if you use it but if you want to download it
+SPEAKER_02: to your computer it doesn't work digital pen smart board would be very very good
+SPEAKER_01: yeah it would be faster
+SPEAKER_00: it would be
+SPEAKER_02: more hard to make yeah it should be more accurate precise and I think it would be great if you could edit it from just with a mouse when
+SPEAKER_03: it's hitting yeah not just
+SPEAKER_01: it's the same for the presentation
+None: yeah no use to draw on the board itself it's just
+SPEAKER_01: just closed out yeah just old-fashioned kind of blackboard style but you might as well do it in normal computer style
+SPEAKER_02: yeah even hard to draw like this then blackboard
+SPEAKER_01: still and it's far too slow this way
+SPEAKER_02: yeah okay but not as main function
+SPEAKER_03: no I guess I think yeah okay
+SPEAKER_00: digital pen
+SPEAKER_03: so we made it in time we made it very good we did it the budget yeah
+SPEAKER_02: new ideas found
+SPEAKER_00: new ideas what's the metaphor for
+SPEAKER_03: the better know what I mean
+SPEAKER_02: just
+None: I just think if you do it to gather or to work together or new ideas for
+SPEAKER_03: remote control probably no for the project
+SPEAKER_02: for my favorite for your text
+SPEAKER_00: no for the prototype new ideas
+SPEAKER_01: yeah but still you could make a fancy you could make a prototype because we don't have any sizes and
+SPEAKER_03: well it's for the next team yeah
+SPEAKER_01: you can possibly do that in such a short time I think
+SPEAKER_02: yeah this is the idea phase
+SPEAKER_01: yeah just brainstorming
+None: yeah details
+SPEAKER_01: so are we finished?
+SPEAKER_03: yes I think just
+SPEAKER_01: just write the final report
+SPEAKER_03: okay quite early only four minutes left
+SPEAKER_02: okay well what do we have to do then we are for the way we were done at
+SPEAKER_01: four o'clock it's now quarter past three
+SPEAKER_00: I should take some pictures
+SPEAKER_02: okay
+SPEAKER_00: we can do it afterwards
+None: yes let's play my sweeper I found it as well
+SPEAKER_02: tada
+None: tada tada one two three four five six seven cameras
+SPEAKER_01: not bad
+None: okay okay so did we see it
+SPEAKER_01: yeah now we can look at this this is we're probably not supposed to look at this the old versions yeah from the previous group
+SPEAKER_02: they went for a touch device but also different devices yeah then also the
+SPEAKER_01: with the handy here are the basic functions and here are the selecting of devices
+SPEAKER_02: yeah for touch fees for all our stuff I do agree with that
+None: so so so so so English is not so hard by the way
+SPEAKER_01: no
+SPEAKER_00: I'm breaking a world record here I'm going to
+None: go on later I've got a problem Paul you do?
+SPEAKER_00: yes
+SPEAKER_02: you have to make a choice no it's your choice
+SPEAKER_00: whoa that's pretty quick
+SPEAKER_02: don't
+SPEAKER_00: just take one
+SPEAKER_02: just take one yeah it's the lower one
+SPEAKER_00: what's this?
+SPEAKER_02: a bomb or no no no no open one is the bomb yes
+SPEAKER_00: I'm new earth four in a row
+SPEAKER_02: no that's too much work
+SPEAKER_00: go on is that prefuse work?
+SPEAKER_02: yeah this one I challenge you
+SPEAKER_00: oh that's so stupid no that doesn't work
+SPEAKER_02: no you got to use the magic pen hmm what if I put one there that's stupid we'll see
+SPEAKER_00: okay
+SPEAKER_02: I don't agree
+SPEAKER_04: hmm
+SPEAKER_02: sorry you had two choices that's going to be draw or not hmm
+SPEAKER_00: too bad
+SPEAKER_02: I'll put it here
+SPEAKER_04: yeah then we're going to
+SPEAKER_02: put it there no one wins difficult choice right here or there
+SPEAKER_01: this is a very interesting design
+SPEAKER_04: okay
+SPEAKER_00: probably it's just the same as normal
+SPEAKER_01: we'll have a LCD yeah I think
+SPEAKER_02: then do it correctly
+SPEAKER_04: there's two designs
+SPEAKER_02: yeah LCD is free
+SPEAKER_00: okay wait I'm going to draw something you must what?
+SPEAKER_02: okay I'm going to cast what you're drawing okay I'm blank no not a new one I did just done I did
+SPEAKER_04: I know one a house
+None: yeah you have to use the pen you have to save everything you know that not everything yeah everything
+SPEAKER_03: pen
+SPEAKER_02: pen select pen
+SPEAKER_01: once you know what we do in our spare time
+SPEAKER_02: okay it's a house a plant
+SPEAKER_00: no it's only you can know it only I can know it
+SPEAKER_02: it's a very hard to draw okay that makes it easier I think I know no wrong I think I know what you're trying to do it's wrong already
+SPEAKER_00: it's very
+SPEAKER_02: yeah you missed the right side
+None: fuck no no a little bit maybe
+SPEAKER_02: see where you're wrong now the entrance
+SPEAKER_01: warning finish meeting now
+SPEAKER_00: all right okay the entrance is more to the left warning warning you're correct okay but I think this part yeah but
+SPEAKER_02: I think oh no you're made another mistake
+SPEAKER_00: oh yeah there are a lot of mistakes because the walls are thick like this no
+SPEAKER_02: okay not that one but there's a big hole here as well
+SPEAKER_00: oh it's true that's the kind of big mistake they're walking behind the walls
+SPEAKER_02: warning finish meeting now the ice I think we have to finish the meeting
+SPEAKER_01: okay
+SPEAKER_00: okay this is a hard one oh
+SPEAKER_01: bing bing bing what does it say feel in the questionnaire what now
+SPEAKER_02: come on
+None: finish meeting finish meeting and fill in the questionnaire
+None: okay no more chit chat
+SPEAKER_04: chit chat
+SPEAKER_02: over there yeah I'm gonna be a son lonely clean that up later
+SPEAKER_00: this is my inner space look at this edit it smiley
+None: don't oh

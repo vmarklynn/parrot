@@ -1,0 +1,675 @@
+SPEAKER_03: Okay.
+SPEAKER_04: Okay.
+SPEAKER_04: Welcome to our detailed design meeting.
+SPEAKER_04: I'm pretty excited.
+SPEAKER_04: Let's start.
+SPEAKER_04: It's approximately 1540 or something like that.
+None: Okay.
+SPEAKER_04: The agenda, we're going to do an opening and then I'll talk about the minutes from the last meeting what we did just fast.
+SPEAKER_04: Then we'll have the prototype presentation and look at the evaluation criteria.
+SPEAKER_04: We'll look at the finances and finally do production evaluation and clothes.
+SPEAKER_04: So starting off with the last one, I don't have it here, but we talked about energy.
+SPEAKER_04: We're going to use a kinetic battery.
+SPEAKER_04: We want to use a simple chip because we're not going to need a shovel.
+SPEAKER_04: I'm going to need a scroll, we're choosing a latex case in fruity colors that's curved.
+SPEAKER_04: And we're using push buttons with a supplement of an on-screen menu.
+SPEAKER_04: Then sounded like we had set eight or nine buttons, including five preset channels.
+SPEAKER_04: Okay.
+SPEAKER_04: Let's do the look and field design presentation first.
+SPEAKER_02: Right, well we made three different prototypes and I guess we'll start with this one.
+SPEAKER_02: We have our colors not fixed, but this is the general shape.
+SPEAKER_02: You hold it either like this in your left hand or you switch it over and it's easily adaptable to either hand.
+SPEAKER_02: You can push the buttons with your thumb like a mobile phone or you can push them with your index finger with your other hand.
+SPEAKER_02: Or even then there's a whole variety.
+SPEAKER_02: You can hold it like this and press it with your same index finger.
+SPEAKER_02: We have the on-off button at the tip, very visible, very big.
+SPEAKER_02: We have our up and down buttons which are also going to be our channel selectors and we have our little menu button here.
+SPEAKER_02: If you push, if you're just pushing these normally, they're the menu buttons.
+SPEAKER_02: If the volume buttons are either if you press select once, they become channel changing buttons, you can press select three times, the menu with the other features and possibly also with your TV channel choices shows up and you have your five presets down here.
+SPEAKER_02: If people want to grab hold of that, see how it feels in your hand.
+SPEAKER_02: Let's our number one prototype.
+SPEAKER_02: Do you want to present the potato or shall I peel off the varsity?
+SPEAKER_04: The exact little lightning bolt in it, very cute.
+SPEAKER_00: This one's nice.
+SPEAKER_00: It's not presented.
+SPEAKER_00: It's an ergonomic shape.
+SPEAKER_00: It fits in your hand.
+SPEAKER_00: It's designed to be used to be in your left hand or in your right hand.
+SPEAKER_00: I've come here just for four buttons on this one.
+SPEAKER_00: The two blue buttons here are just in the volume.
+SPEAKER_00: You can follow them down on the other side here.
+SPEAKER_00: The other one is outdoor channel.
+SPEAKER_00: Channel now.
+SPEAKER_00: This moves between your favorite channels.
+SPEAKER_00: This middle button here is our pion screen menu.
+SPEAKER_00: When you work in your pion screen menu, you use the other four buttons.
+SPEAKER_00: Another guy to know the menu is the state of the middle button.
+SPEAKER_04: That's basically it.
+SPEAKER_04: On off.
+SPEAKER_00: That would be one of your channels.
+SPEAKER_00: It turns off.
+SPEAKER_01: Could the middle button of the on screen menu function as a power button?
+SPEAKER_00: No, it would make it hard to do it.
+SPEAKER_02: If you press and held it, maybe.
+SPEAKER_01: You can call it down.
+SPEAKER_02: It would be on off.
+SPEAKER_02: It's the possibility.
+SPEAKER_02: Finally, we have the Martian or the pair.
+SPEAKER_02: Either way, it's a bit different.
+SPEAKER_02: Just a little bit more of a creative feel.
+SPEAKER_02: You have the on off toggle stem on the top.
+SPEAKER_02: We have the five preset seats.
+SPEAKER_02: Then you have all the sides to make it a little bit more three-dimensional.
+SPEAKER_02: You have your channel changing volume changing buttons on your menu button right here in the middle.
+SPEAKER_02: That's for your consideration as well.
+SPEAKER_02: Plus, it's an interesting talking point to have standing up.
+SPEAKER_02: We figured it could stand up like this on your table if you wanted it to if I made the bottom part.
+SPEAKER_02: Sorry, what's the yellow one in the middle?
+SPEAKER_02: The menu select button.
+SPEAKER_04: Very interesting.
+SPEAKER_00: That was my favorite.
+SPEAKER_00: I think we were thinking that normally we'd go for fruity colors, but we'd go for
+SPEAKER_02: a fruity color. Maybe we're also thinking that you're sort of middle-aged man for an example customer might not want a fruity color or a fruity color.
+SPEAKER_02: That was when we were talking about that a little bit when we got that email.
+SPEAKER_02: We're talking about a fruity color.
+SPEAKER_00: Maybe when you press it, a little beep goes off.
+SPEAKER_00: That's true.
+SPEAKER_02: There might be something that you can do in the short of word in the chip to make it make a noise or something, but it would take a lot more development than we have this after.
+SPEAKER_04: That's a fair evaluation.
+SPEAKER_04: We've decided not to worry about that for now.
+SPEAKER_04: Well, the designs are very bright, so you're right.
+SPEAKER_02: Do people have a preference as far as feeling functionality?
+SPEAKER_01: I feel like this is similar to what already exists.
+SPEAKER_01: I'm not sure if you're trying to think of something new and fun, but I'm initially drawn to.
+SPEAKER_01: It's comfortable and not different.
+SPEAKER_01: I also like the side buttons on that one.
+SPEAKER_04: I think that's kind of neat.
+SPEAKER_02: Could we have an extra button on the top for Anos?
+SPEAKER_04: Why don't we do a product evaluation using your criteria?
+SPEAKER_01: I think we're supposed to have one that we do it for.
+SPEAKER_01: I was a little vague on what exactly I'm supposed to do, but I have to write something on the whiteboard.
+SPEAKER_04: Do you need this or just write on the whiteboard?
+SPEAKER_01: No, I actually don't have a PowerPointy thing.
+SPEAKER_01: I think it would be redundant.
+SPEAKER_04: It's kind of like a joystick kind of thing.
+SPEAKER_04: Hey.
+SPEAKER_04: Maybe a little smaller than that.
+SPEAKER_04: No, I kind of like it. That's hard to miss.
+SPEAKER_04: Oh, it does.
+SPEAKER_04: It's kind of like...
+SPEAKER_00: Oh, okay.
+SPEAKER_04: There. It could have a stem like that because I do kind of like the stem.
+None: Yeah.
+SPEAKER_04: It almost helps you keep a grip too because it goes in between things.
+SPEAKER_04: Just a... I like this one.
+SPEAKER_02: Okay. That would be a little thing for the potatoes.
+SPEAKER_02: I like the idea of a...
+SPEAKER_02: I mean, that's really gotten the simplicity of the buttons down that one.
+SPEAKER_04: I am worried about like using a menu.
+SPEAKER_04: It's not like within menus there are sub menus.
+SPEAKER_04: And so how do you get back to the main menu?
+SPEAKER_04: Well, on the ION menu, every time you want to go back, you hit the menu button.
+SPEAKER_04: And you back there.
+SPEAKER_04: That is a menu button separate from a select button.
+SPEAKER_04: Whereas if this one's both the menu and the select button.
+SPEAKER_00: It's the...
+SPEAKER_00: You have to down button so you can scroll down for this.
+SPEAKER_00: Okay.
+SPEAKER_00: You find the choice that you want.
+SPEAKER_00: So you just...
+SPEAKER_03: You just provide money.
+SPEAKER_02: Could these be used for going sub menu?
+SPEAKER_02: Yeah, so maybe it could be one of those if you press down and hold for two seconds.
+SPEAKER_02: Then it brings you back one level or something.
+SPEAKER_04: Well, as long as we have that in mind as we're designing it.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay, so which one are we sort of roughly looking at to address?
+SPEAKER_01: Whether or not it meets our necessities.
+SPEAKER_01: The yellow we want is that potato?
+SPEAKER_01: Are we leaning towards the potato?
+SPEAKER_01: Okay, well we can obviously change it after we go through these different ones.
+SPEAKER_01: So basically what we need to do is some of the things that we've talked about before.
+SPEAKER_01: We need to make sure that that remote actually does conform to the things that we said it was going to.
+SPEAKER_01: So what we sort of want to do is we each need to separately rank each of the following things.
+SPEAKER_01: And then I'll tabulate in average just to make sure that it doesn't meet that.
+SPEAKER_01: So we'll just go through them one at a time and we'll just go around and each of you can tell me on a scale of one to seven with one being really extremely true.
+SPEAKER_01: And seven being not true at all or false.
+SPEAKER_01: If the remote that we've created conforms to the following criteria.
+SPEAKER_01: So we can do this one first.
+SPEAKER_01: First you want to know if it meets the fancy look and feel objective.
+SPEAKER_01: So like in my opinion, for now at least the yellow one is probably somewhere in the middle.
+SPEAKER_01: So I'm going to say it's like the three.
+SPEAKER_01: That's just my opinion.
+SPEAKER_01: Yeah.
+SPEAKER_01: What is each of you?
+SPEAKER_04: I kind of think it's unique enough that I'd give it a one or two.
+SPEAKER_01: Okay.
+SPEAKER_01: Well, give it the number.
+SPEAKER_04: I will give it a one.
+SPEAKER_02: I don't know if it's creative.
+SPEAKER_02: I don't know if fancy is the word I would use.
+SPEAKER_02: I don't know if any of them are fancy.
+SPEAKER_02: I'd say two because unique.
+SPEAKER_01: And two.
+SPEAKER_01: Awesome.
+SPEAKER_01: All right. And same sort of scale for functionality.
+SPEAKER_01: Functional.
+SPEAKER_01: I think it's extremely functional.
+SPEAKER_00: I'm going to give it a one.
+SPEAKER_00: One.
+SPEAKER_00: Okay.
+SPEAKER_04: Functional.
+SPEAKER_04: I think it'll get everything done.
+SPEAKER_04: I think it might be a little confusing first.
+SPEAKER_03: Well, there's some other.
+SPEAKER_04: Okay. Then I'm going to give it a two.
+SPEAKER_01: We want to know next if it's technologically innovative.
+SPEAKER_01: Did you give it a functional?
+SPEAKER_01: Yeah.
+SPEAKER_01: She said it.
+SPEAKER_01: Is it technologically innovative?
+SPEAKER_01: Not really.
+SPEAKER_01: I mean, not so much because we don't have the LCD screen.
+SPEAKER_01: We don't have fancy chip.
+SPEAKER_01: Other than what it looks like, I don't know if it's...
+SPEAKER_01: Well, the kinetic battery.
+SPEAKER_01: The kinetic battery is a big one.
+SPEAKER_02: How many people have noticed that though?
+SPEAKER_04: But we know it's there.
+SPEAKER_04: And you'll be like, hey, I have never changed the battery.
+SPEAKER_01: And if it's made of latex, that whole idea, that's pretty cool.
+SPEAKER_01: I'll give it a three.
+SPEAKER_01: Because it could have picked a lot of features.
+SPEAKER_02: I would say that it's...
+SPEAKER_02: Yeah.
+SPEAKER_02: Like fancy versus creative.
+SPEAKER_02: It's different.
+SPEAKER_02: Which is that even innovative?
+SPEAKER_02: I don't know.
+SPEAKER_02: I don't know.
+SPEAKER_01: I don't know.
+SPEAKER_00: It's a thermonodicase.
+SPEAKER_00: It's not unique.
+SPEAKER_00: It's just...
+SPEAKER_00: It's just for fucking...
+SPEAKER_00: So I'll give it a three.
+SPEAKER_04: I think I'm going to go with four as well.
+SPEAKER_01: Okay.
+SPEAKER_04: I really like the kinetic battery.
+SPEAKER_01: Next, is it easy to use?
+SPEAKER_01: Just so you know, easy to learn will be separate.
+SPEAKER_01: Is it all?
+SPEAKER_01: Okay.
+SPEAKER_01: Overlapped them.
+SPEAKER_01: I think it's really easy to use.
+SPEAKER_01: Okay.
+SPEAKER_01: Two.
+SPEAKER_02: I'll give it a one.
+SPEAKER_02: Pretty hard to mess up.
+SPEAKER_01: I'll say two.
+SPEAKER_01: All right.
+SPEAKER_01: We next want to see if it has a spongy quality.
+SPEAKER_01: And if indeed it's made of latex or rubber.
+SPEAKER_01: It's spongy all the way.
+SPEAKER_04: Give it one.
+SPEAKER_00: Yeah.
+SPEAKER_00: One of the bounces when you drop it.
+SPEAKER_02: Ooh.
+SPEAKER_02: Then you could...
+SPEAKER_02: It'd be how you could break, so we...
+SPEAKER_04: It'd be less impact.
+SPEAKER_00: And what do you give it?
+None: Okay.
+SPEAKER_01: All right.
+SPEAKER_01: And the next is...
+SPEAKER_01: Does it integrate some notion of fruits and vegetables?
+SPEAKER_01: Well, is it going to be yellow?
+SPEAKER_02: It might be, who that's our corporate color is this?
+SPEAKER_04: That's right.
+SPEAKER_04: Yeah, corporate color.
+SPEAKER_04: We didn't keep that in.
+SPEAKER_02: We might not keep it yellow.
+SPEAKER_04: Well, if we...
+SPEAKER_04: I know it would make it a little less...
+SPEAKER_04: It's more confusing, but if we had all the buttons in black and the design and the outside and yellow, that would be our corporate one.
+SPEAKER_04: And then we could also have alternative colors.
+SPEAKER_04: One and more conservative one.
+SPEAKER_01: One that's more fruity.
+SPEAKER_00: Yeah, it's more like a silvery kind of white or something.
+SPEAKER_00: Yeah.
+SPEAKER_04: And can we have like an RR inscribed on the bottom or something?
+SPEAKER_04: Sure.
+SPEAKER_01: All right.
+SPEAKER_01: So I think it...
+SPEAKER_02: It was inspired by the potato.
+SPEAKER_02: Yeah.
+SPEAKER_04: I think it's kind of mango-y too.
+SPEAKER_04: Ooh.
+SPEAKER_01: I think it was a little one.
+SPEAKER_02: The mango kind of put me over.
+SPEAKER_01: That's so much more sure.
+SPEAKER_01: What's everyone's number?
+SPEAKER_01: One.
+SPEAKER_01: Oh, it's a...
+SPEAKER_01: One.
+SPEAKER_01: All right.
+SPEAKER_01: And does the design match the appropriate behavior?
+SPEAKER_01: Remember earlier we discussed that people don't use a lot of buttons that they use the channel for being in the volume the most.
+SPEAKER_01: I think we really took that into account a lot.
+SPEAKER_01: So I'm going to give it a one.
+SPEAKER_02: Yeah.
+SPEAKER_02: Me too.
+SPEAKER_01: Do you say one, Rose?
+SPEAKER_01: Yes.
+SPEAKER_03: Okay.
+SPEAKER_01: I'm also...
+SPEAKER_01: We talked earlier about RSI and wanting to prevent any sort of like carpal tunneling kind of thing.
+SPEAKER_01: Do we think that the latex sort of grip appropriately takes that into account?
+SPEAKER_01: I think I'll give it a two because I almost feel like no matter what you do, something is going to happen.
+SPEAKER_04: And if it's repetitive movement, it is going to be only four buttons that you're constantly pushing.
+SPEAKER_04: But I'm worth the rest.
+SPEAKER_04: I like how it fits in the hand though.
+SPEAKER_04: I'd go with the two.
+SPEAKER_02: I'll say two as well because older people that aren't used to like texting, but if I might mind a bit, you cry at first.
+SPEAKER_02: But...
+SPEAKER_00: You're all in positive two.
+SPEAKER_01: All right, awesome.
+SPEAKER_01: And the ease of learning it.
+SPEAKER_01: I know you were saying that you were a little bit nervous about that.
+SPEAKER_01: I don't know.
+SPEAKER_01: It's sort of a reminding of the iPod.
+SPEAKER_01: I just got my NICELET RED, the instruction book, and I'm doing okay.
+SPEAKER_01: So...
+SPEAKER_01: And I'm not good at learning technology.
+SPEAKER_01: So I'll give it a two.
+SPEAKER_02: The menu system and the fact that multiple buttons are used for different things might be a bit confusing.
+SPEAKER_02: But I think if it's one of those things that it might take you five minutes to figure out, but you'll have it afterwards.
+SPEAKER_02: So I think I'd give it a two, I guess.
+SPEAKER_00: I think it's probably a little harder than most of them, because you have to use the menu system and you have to tell it what you've done over.
+SPEAKER_00: Oh, good point.
+SPEAKER_00: I think that everyone can pass through.
+SPEAKER_00: Once you've learned how to use it, I think that you want to give it a four.
+SPEAKER_00: Okay.
+SPEAKER_04: I think it'd give it a four, too.
+SPEAKER_04: Pretty high learning curve, it'll be easy once you've done it, but...
+SPEAKER_01: All right.
+SPEAKER_01: Also, earlier we had something about losing it, and so now we're not addressing that at all.
+SPEAKER_04: So...
+SPEAKER_04: I think we can kind of say we addressed it with color.
+SPEAKER_04: Okay.
+SPEAKER_01: So in terms of not losing it, do you think that on a scale of one to seven, how easy or hard is it to lose?
+SPEAKER_01: I'm going to give it a four, because I think that you can still...
+SPEAKER_01: In between somewhere where you can't see it, you're kind of not going to find it, but anywhere else it's going to stand out.
+SPEAKER_02: I said give it a three.
+SPEAKER_02: This depends how tidy you are normally who you're giving it a four.
+SPEAKER_00: Okay.
+SPEAKER_03: Small, too.
+SPEAKER_01: All right.
+SPEAKER_01: We also said simplicity.
+SPEAKER_01: How well does it address just being simple?
+SPEAKER_02: It's useful to use or simple on design.
+SPEAKER_01: I think overall, because we had said before, our two main things were simplicity and fashion, so those are the next few things we're going to look at.
+SPEAKER_01: Separate from fancy, like that sort of thing.
+SPEAKER_01: It wants to be simple, but it's not totally totally simple, so I'm going to give it a two.
+SPEAKER_02: I want to give it a three, I guess.
+SPEAKER_01: Three.
+SPEAKER_01: All right.
+SPEAKER_01: It's fashionable.
+SPEAKER_04: It's totally fashionable.
+SPEAKER_01: It's hot.
+SPEAKER_01: I mean, it's a mango.
+SPEAKER_01: Mom.
+SPEAKER_01: I mean, how fashionable can you make a road?
+SPEAKER_01: I think it's bringing technology and fashion together really well.
+SPEAKER_02: I don't know.
+SPEAKER_02: I don't think it's quite as fashionable as my robot or both.
+SPEAKER_02: I do like the little animation.
+SPEAKER_01: Yeah, the toggle on off switch.
+SPEAKER_01: It's really appealing.
+SPEAKER_01: Number of two.
+SPEAKER_01: I think it's a good one.
+SPEAKER_01: And does it meet our demographic need for international appeal?
+SPEAKER_01: That whole thing.
+SPEAKER_01: I just said it would serve our audience.
+SPEAKER_01: I don't see why not.
+SPEAKER_04: I think as long as we offer in at least three different color arrangements.
+SPEAKER_04: Yeah, that's good.
+SPEAKER_04: So I'll give it a two.
+SPEAKER_02: Yeah.
+SPEAKER_02: All right.
+SPEAKER_01: Does anyone have any other features that they think are important that we didn't talk about?
+SPEAKER_04: Well, we didn't we didn't address the fact that it does need to have a corporate logo.
+SPEAKER_04: So let's make sure we keep that in mind that we have that one of our colored concepts is corporate and has an RR on it.
+SPEAKER_04: Well, I think all of us have an RR.
+SPEAKER_04: Yeah.
+SPEAKER_01: And so we're going to do that.
+SPEAKER_01: So it will address it.
+SPEAKER_01: Fine.
+SPEAKER_01: Okay.
+SPEAKER_03: Okay.
+SPEAKER_04: Okay.
+SPEAKER_04: Now we're going to look at finances.
+SPEAKER_04: I have an Excel sheet that we're actually going to calculate the costs.
+SPEAKER_04: So let me add it out of this first.
+SPEAKER_04: Okay.
+SPEAKER_04: All right.
+SPEAKER_03: I know.
+SPEAKER_03: Okay.
+SPEAKER_04: Okay.
+SPEAKER_04: Hand dynamo.
+SPEAKER_04: We're using a kinetic battery, right?
+SPEAKER_02: Oh, we're using a kinetic battery, right?
+SPEAKER_04: We're using a kinetic battery, right?
+SPEAKER_04: Yeah.
+SPEAKER_04: And we're having one per one.
+SPEAKER_04: One.
+SPEAKER_04: Okay.
+SPEAKER_04: Electronics.
+SPEAKER_02: Single.
+SPEAKER_02: Simple.
+SPEAKER_02: Simple, rather.
+SPEAKER_04: Okay.
+SPEAKER_04: Yeah.
+SPEAKER_03: A case.
+SPEAKER_04: A double curved.
+SPEAKER_04: Yeah.
+SPEAKER_02: It's very curvy.
+SPEAKER_02: Okay.
+SPEAKER_02: Yeah.
+SPEAKER_02: I didn't get a picture of it.
+SPEAKER_01: So I don't really know.
+SPEAKER_02: Our case material supplements.
+SPEAKER_02: We just get the plastic and.
+SPEAKER_02: No, we, we, the plastic is, the plastic for the inside is assumed.
+SPEAKER_01: The supplement is the wool.
+SPEAKER_01: Oh, I guess it was rubber rather than rubber and special collar, right?
+SPEAKER_04: one special color? Yeah we're using, we're gonna need at least two special colors. I don't
+SPEAKER_01: know what the basic colors are. Well but we know that we're having at least three colors.
+SPEAKER_02: Well are we talking about on each color combination or we know that like we'll have yellow and black, is that two special colors? I don't know or that white and black bandage or... I guess this is three.
+SPEAKER_04: Maybe the RR will be in color as well so yeah. Interface. We're doing push buttons. Yep. And how many buttons do we have?
+SPEAKER_04: Sex, sex, sex, sex, sex. Anything else? No. Oh we'll... do we want...
+SPEAKER_02: Oh button in special colors? I didn't get information on that. Oh wait. Oh buttons. Oh so um so the case material
+SPEAKER_04: will just have one color right? Well the buttons will be in special colors. But if we're making multiple
+SPEAKER_02: varieties of... this is where I'm getting confused. We're saying per unit. Per unit. Okay so each unit
+SPEAKER_04: will only have one color. All right in each unit. But the cases could have up to three... I mean the buttons could be up to three colors? That's how it's designed there. I like it like that. Okay.
+SPEAKER_04: Special form. They're all kind of just push buttons. No I think they're fun. Special material. We want
+SPEAKER_02: them rubber as well probably. Yeah. Oh I have to do it per button. Do I? No I don't think so. I think they're all gonna be rubber than it. That's what it matters. Yeah because for the whole
+SPEAKER_01: case material it's only one. Yeah. I mean it's two to make it rubber. Okay. Oh wait so maybe.
+SPEAKER_04: 13.7. Uh oh. Yeah. What can we... Okay let's have our buttons. I'll be one color. I kind of like the about that would do. It's only gonna burn us down to 13.3 anyway. All right.
+SPEAKER_04: Okay. Are we sure this is double curved? Maybe it's single. We have to know what
+SPEAKER_03: the idea is. I don't know. I didn't get any pictures. It's single curved. What's not? Yeah. Okay. It's
+SPEAKER_04: a kinetic battery that's kind of expensive but we have a simple chip. Single curve. Case material is rubber and it's a special color. Yeah. But that's important. That is important.
+SPEAKER_02: Six buttons. How did we get all the tests? What did you just change? What was it was 13 and that was 15.
+SPEAKER_04: No okay maybe not. I don't know what just happened. Now it's 12. Oh. 12.5. Hey.
+SPEAKER_04: So we're okay. I think then. Yeah. Yeah. Okay. We're all set.
+SPEAKER_04: I saved that to our big shared folder. So you know. Okay. Back to agenda.
+SPEAKER_04: Are the costs under 1250 euro? Yes. Yeah. I are. Let's move on to the project evaluation.
+SPEAKER_04: Project process. So I was faction with for example the room for creativity, leadership, teamwork, the means and you know ideas found. So I guess what we're going to talk about here is just evaluating how we created this project, the information we got and used how we used it if we were able to use our creativity with the information. How well I guess I let it. How well we worked together as a team, the digital pen, the whiteboard. Okay. I felt very creative. I enjoyed making the prototype.
+SPEAKER_00: I think we've been successful in that to almost all the other models for the 777 stuff.
+SPEAKER_00: Yeah.
+SPEAKER_00: With some of the things that we've been doing, yes, the best.
+SPEAKER_02: I think we could have done even better with a little bit more information like once a single curve case, how many colors, what the colors count, things. But given what we had I think we did we did really well.
+SPEAKER_02: I think we worked together pretty well.
+SPEAKER_01: Yeah. I mean if I had had more market research other than the person best of us maybe we could have
+SPEAKER_02: taken that into account. But the fruit is the most stimulated by creativity.
+SPEAKER_01: I know I really did the whole mango ideas. No. I mean, do you think that the pen was a little distracting for me personally. Like it's heaviness. I mean like just being so conscious of turning the pages, I don't know. That was a bit of a distraction. But with the last one, like I chose not to do a power of wink. And I think it made sense to hear so I like that I had the option to do that and just to take my own note and what sort of thing.
+SPEAKER_04: I think we all made very significant contributions. I don't think anybody dominated it, which I thought was really good. Like each of us was able to, like, could you have had your information and I tried to facilitate it without like taking it over.
+SPEAKER_04: Little fish waters.
+SPEAKER_01: I'm really cute. I kind of want one.
+SPEAKER_02: Can we work at this as the back go remote? Should we have that somewhere on the packaging?
+SPEAKER_01: I have a little problem. Trying to think of a good pun that I could add there.
+SPEAKER_01: I know. Let's take a look at it like a large angle.
+SPEAKER_01: I like the RR that's going to be etched in.
+SPEAKER_02: Yes. Hopefully not with just my thinking out at one point.
+SPEAKER_02: I'm going to use for a little gadget.
+SPEAKER_02: Oh thanks to Ian for the design of that one.
+SPEAKER_04: Okay. What's it like? My ideas. My ideas.
+SPEAKER_02: My ideas. People should really base their votes on towards the vegetable.
+SPEAKER_04: Definitely.
+SPEAKER_04: Or at least be creative enough to think of tug-of-switches.
+SPEAKER_02: I am really into the idea of kinetic batteries now.
+SPEAKER_02: Oh, I'm still excited about them.
+SPEAKER_02: Can anyone know they existed?
+SPEAKER_02: I knew you could get watches that had them, like, really quite expensive watches.
+SPEAKER_02: That just never need a battery because you're always moving your wrist.
+SPEAKER_02: But in other things, I think it would be really good.
+SPEAKER_02: Yeah.
+SPEAKER_04: Okay, closing.
+SPEAKER_04: At the cost of the budget.
+SPEAKER_04: With the project evaluated.
+SPEAKER_04: That was a final questionnaire meeting summary.
+SPEAKER_04: So this is a great product, kids.
+SPEAKER_04: I think we've created something really interesting and that we have a market for it.
+SPEAKER_04: Especially if we can produce it at 12.3, which we hope.
+SPEAKER_04: Yeah. Make sure in your questionnaire to put down criticisms of both the process and the the final results.
+SPEAKER_04: Yeah, I do like the Martian route.
+SPEAKER_04: If we could choose more than one, that would be my second choice.
+SPEAKER_01: Oh, that would definitely be my second choice.
+SPEAKER_01: Although the twat toggle.
+SPEAKER_04: I'm afraid I would break it.
+SPEAKER_04: I would break it.
+SPEAKER_02: I think I would break it.
+SPEAKER_02: It started because I wanted to have it as a stem.
+SPEAKER_02: That's funny.
+SPEAKER_02: It started as a pair, but it started looking word-world like fortune.
+SPEAKER_02: I'm looking like a penguin.
+SPEAKER_01: I'm like, I'm going to go.
+SPEAKER_03: No, I can't.
+SPEAKER_01: I like that it stands on.
+SPEAKER_02: Well, maybe I should market it to some remote control company.
+SPEAKER_02: I'm going to buy it.
+SPEAKER_02: So our art.
+SPEAKER_02: Oh, it's a little sad.
+SPEAKER_03: It's a little sad.
+SPEAKER_04: Okay.
+SPEAKER_04: Congratulations.
+SPEAKER_01: Nothing will come up until after our meeting.
+SPEAKER_01: It's supposed to be over at five.
+SPEAKER_01: I'm...
+SPEAKER_04: I got more master classes than anybody else.
+SPEAKER_04: We think we can take a master's class.
+SPEAKER_02: That's really funny that you got spammed in your work.
+SPEAKER_04: But check it out.
+SPEAKER_04: So like, there are all these links that are going.
+SPEAKER_04: But you need to keep in mind your knowledge management.
+SPEAKER_04: Just want to make sure you do.
+SPEAKER_01: No, the first time I used something like I didn't realize it was a joke.
+SPEAKER_01: And I was like, why didn't she send it to us?
+SPEAKER_01: It's very work relevant because it's- It's a spam a lot.
+SPEAKER_04: Yeah, definitely.
+SPEAKER_04: I'm very sad that I didn't get any links to the corporate website.
+SPEAKER_01: Here, you can see what's in there.
+SPEAKER_02: You can see the corporate website.
+SPEAKER_02: You can just see what's- It's paration about ticket for his- Wow.
+SPEAKER_02: Yeah.
+SPEAKER_01: It's really deep.
+SPEAKER_01: It takes a little while.
+SPEAKER_01: I'm getting excited to load.
+SPEAKER_01: That's like, something is pretty cool.
+SPEAKER_01: Yeah, that's a very live excel.
+SPEAKER_01: It's one of my favorite programs.
+SPEAKER_01: It's like, inspiration.
+SPEAKER_01: Basically, I'm going to give you two sentences on fashion and that kind of thing.
+SPEAKER_01: See?
+SPEAKER_01: You miss out that much.
+SPEAKER_02: Yeah, my inspiration from- From last time is- The interior of our remote control being taken apart bit by bit.
+SPEAKER_02: Talking about circuit ports.
+SPEAKER_02: I learned a lot actually.
+SPEAKER_01: No, why not?
+SPEAKER_02: I could probably take apart a remote control now if I really needed to.
+SPEAKER_01: That's almost cooler.
+SPEAKER_01: I got a whole table and everything.
+SPEAKER_02: I don't have all of those circuits and chips and trans ponders and- I wrote it all down because I thought it would be relevant.
+SPEAKER_02: Like all the different parts of the inside of our remote control.
+SPEAKER_02: But then they're like, you don't actually need this.
+SPEAKER_02: You just like, my name was like,
+SPEAKER_01: would you prefer an LCD screen or a multifunction remote control that I didn't have any kind of table?
+SPEAKER_01: Like, it's awesome.
+SPEAKER_01: I'm glad they asked that question and didn't report there as well.
+SPEAKER_02: It's really interesting though.
+SPEAKER_04: I thought it was a little tricky having to hand around this thing.
+SPEAKER_04: Yeah.
+SPEAKER_04: We had a lot of- Otherwise, the technology out today was kind of cool.
+SPEAKER_02: That was really- How is it?
+SPEAKER_02: Emails?
+SPEAKER_00: Would you use the whiteboard to make it?
+SPEAKER_00: No.
+SPEAKER_04: Although I don't see how we could have very a lot, at least for me.
+SPEAKER_04: I- I-
+SPEAKER_02: Yeah. If I had gotten pictures of the different parts of the case, the different looks of the case, I would have probably drawn them up.
+SPEAKER_01: So we weren't like voting on anything.
+SPEAKER_01: I think usually, like, great boards are good.
+SPEAKER_01: And you're like crossing ideas or like, if we had like a brain- They don't put a brain-
+SPEAKER_02: They don't put a brain-
+None: They don't put a brain- They don't put a brain- They don't put a brain- They don't put a brain- They don't put a brain- They don't put a brain- They don't put a brain- They don't put a brain-
+SPEAKER_04: Yes. And these might have- And these might have-
+None: And these might have- And these might have- And these might have- Made us more- Willing to like, take notes-
+SPEAKER_01: woulding to like-
+None: take notes- Or write them up here, Woulding to like, take notes-
+None: take notes- And to like, write them up here- Gleich surges-
+None: to like- Is like,ich surges-
+SPEAKER_02: names- Since we're all gonna thank you for that.
+SPEAKER_02: Look- And instead of- know it's up on the whiteboard.
+SPEAKER_02: Would have been all right, but everyone needs their own specific notes to get.
+SPEAKER_04: Now when you were creating your prototypes here, did you work together or did you do separate projects?
+SPEAKER_00: We worked together, but we were like, like, sort of like different projects and then discussed
+SPEAKER_02: how the body was going to work. We just kind of started out by each taking a color of clay and just pulling around with it and I came out with that rhombus shape and he came out with a sort of potato-y mango shape and then just went from there really.
+SPEAKER_02: Cool, that was fun.
+SPEAKER_02: So well done with the management.
+SPEAKER_02: I felt well managed.
+SPEAKER_03: Oh, thank you.
+SPEAKER_00: I think we could go out and see how it was.
+SPEAKER_00: It's possible keeping our machines to find.
+SPEAKER_00: It's like in the actually...
+SPEAKER_00: You did a good job with making fun decisions with them.
+SPEAKER_00: I was really worried at the end of the last meeting that we weren't getting, we didn't
+SPEAKER_02: get to do it. I'm not usually a very decisive person, so it helped to have people say this needs to be
+None: down to five minutes. I found that we could have used another five or ten minutes.
+SPEAKER_04: Especially last time.
+SPEAKER_04: I think the last time we had a lot of information, but at the same time not quite enough.
+SPEAKER_04: We couldn't answer every single question.
+SPEAKER_02: I felt the first two meetings that I was coming in with no information.
+SPEAKER_02: It made me really...
+SPEAKER_02: I don't know.
+SPEAKER_02: Throwing together a power point out of no information.
+SPEAKER_02: Last time it was like the opposite.
+SPEAKER_04: It was interesting what came out later, when I was doing the breakdown on the agenda that they gave me, that more points came out from your presentation.
+SPEAKER_04: I am a little disappointed that we didn't do something for losing the room out.
+SPEAKER_02: That was a big point.
+SPEAKER_02: In order to talk about that, we would have had to have actual knowledge about circuit boards.
+SPEAKER_01: Even when we were creating from the Excel file, there was an option to select to somehow have it included.
+SPEAKER_01: There was no way we could be like, yeah, I haven't included.
+SPEAKER_01: There was no way for us to have been down that it was really there.
+SPEAKER_02: I think we were just getting over in through the essay with the task.
+SPEAKER_02: It was interesting.
+SPEAKER_02: I got into it.
+SPEAKER_02: I was like, I'm designing a remote control.
+SPEAKER_04: It was interesting though that they put that 50% of people say they have frustration with losing their remote.
+SPEAKER_04: They didn't provide us with information too.
+SPEAKER_04: I know that people have things they can put on their keys that you press it and it'll beep.
+SPEAKER_04: I'm sure that would require some kind of technology that I just don't know what it is.
+SPEAKER_02: I think there are some of those in the commercial remotes that have things so you won't lose them.
+SPEAKER_02: I don't know.
+SPEAKER_02: We were talking about it in my household at least.
+SPEAKER_02: There's only about two places that the remote is ever.
+SPEAKER_02: There's only one TV and there's only one TV.
+SPEAKER_01: That's the same you never got all these keys.
+SPEAKER_01: I always do anyway.
+SPEAKER_01: You lose them in your pocket.
+SPEAKER_01: You just won't forget that or you'll put it down somewhere that made sense.
+SPEAKER_01: Remember there's always ways to lose things?
+SPEAKER_04: It depends on how organized you are personally.
+SPEAKER_02: Yeah, I guess what the set of the house is too.
+SPEAKER_02: I am notorious for losing my keys.
+SPEAKER_02: I guess I've just never lost the remote.
+SPEAKER_02: I put my keys in the refrigerator the other day.
+SPEAKER_02: I find them putting groceries away.
+SPEAKER_02: You're taking stuff on the bag and putting them in the refrigerator.
+SPEAKER_02: In fact, my room can't get in.
+SPEAKER_04: Yeah, it can get in.
+SPEAKER_04: Look all around the kitchen.
+SPEAKER_02: Definitely in the vegetable drawer.
+SPEAKER_01: I always do the alleviate in my coat and using a different coat.
+SPEAKER_03: Yep.
+SPEAKER_02: I guess it's good we don't really carry robots around that much.
+SPEAKER_03: Yeah.
+SPEAKER_01: Can't always take it into the other room.
+SPEAKER_02: Maybe it was our little robot when we could have had a robot alien pair or whatever he is.
+SPEAKER_02: Have a little voice.
+SPEAKER_02: I am located.
+SPEAKER_02: A GPS.
+SPEAKER_02: A turtle GPS.
+SPEAKER_03: Yeah.
+SPEAKER_02: How about if it's sitting still for a minute?
+SPEAKER_04: We should make one that walks by itself.
+SPEAKER_04: It really could get up and walk away.
+SPEAKER_04: Or like some crazy like electro magnet that you push it in and it will go zoomed into the TV and stick there.
+SPEAKER_02: Or just a wheel, you know.
+SPEAKER_02: Just if you...
+SPEAKER_02: Why do you have to ever vote for your robot?
+SPEAKER_04: Well, but if you could attach them to the TV then you can do that.
+SPEAKER_03: I'll pass the possibility.
+None: Okay.
+SPEAKER_04: Sorry, I'm just trying to update my minutes.
+SPEAKER_04: I decided to...
+SPEAKER_04: You know how I sent you the email saying that PowerPoint in minutes will be complimentary.
+SPEAKER_04: Yeah.
+SPEAKER_04: So I'm just going to make a full minute so that it will include all of the agenda and all that.
+SPEAKER_04: Wow.
+SPEAKER_04: Because it seems a little more useful.
+SPEAKER_02: So you can look, the most typing and organizing to do.
+SPEAKER_04: But I didn't have like information to swap the area there.
+SPEAKER_02: So I guess.
+SPEAKER_02: How much of your PowerPoint was already done for you?
+SPEAKER_04: Every meeting.
+SPEAKER_04: Most of it.
+SPEAKER_04: I added slides.
+SPEAKER_04: Okay, I added a couple slides each time, but that was better.
+SPEAKER_02: I didn't think about adding slides because I would just get slides with titles on them and fill them all in.
+SPEAKER_02: Didn't even think about adding more.
+SPEAKER_04: Well, the thing was you would provide you an agenda with like several points, but it wouldn't have a slide for each point.
+SPEAKER_04: And that's the only way I remember that I need to go over that point.
+SPEAKER_04: I know personally when I do PowerPoint, that's what I do.
+SPEAKER_04: I had it once, even if it was just like the title of it, like the three presentations.
+SPEAKER_04: I'm not going to do anything right.
+SPEAKER_01: You have to have a slogan on it or can I just be like.
+SPEAKER_01: The slogan on it?
+SPEAKER_01: No, definitely.
+SPEAKER_01: It could go around the other side.
+SPEAKER_02: No, I don't think we need to.
+SPEAKER_02: It would be R and R.
+SPEAKER_02: It's definitely the yellow and black one.
+SPEAKER_02: Is it yellow or blue?
+SPEAKER_04: Or yellow and blue?
+SPEAKER_04: Let me go to the webpage.
+SPEAKER_04: Yeah, it's just kind of going by the webpage because they didn't give me any clear.
+SPEAKER_01: Like yellow and red.
+SPEAKER_01: It's black.
+None: Great.
+SPEAKER_02: Better than black doesn't look so bumbly to you.
+SPEAKER_01: I really understand the reason I'm like news clubbing.
+SPEAKER_02: Finish meeting now.
+SPEAKER_04: Wasn't it interesting that I thought it was interesting that our marketing expert did not agree with the marketing choices.
+SPEAKER_01: I was just thinking you're really doing like a really big market evaluation.
+SPEAKER_01: You wouldn't just have like one set of the source.
+SPEAKER_01: They weren't so not backed up.
+SPEAKER_01: We did a survey.
+SPEAKER_01: This is what people said.
+SPEAKER_03: Yeah, I don't know.
+SPEAKER_02: People are stupid.
+SPEAKER_02: I guess it's sort of like gray isn't it?
+SPEAKER_02: Yellow and gray but then the slogans and blue.
+SPEAKER_01: Well, we got some gray and we got some blue buttons.
+SPEAKER_02: We're good.
+SPEAKER_02: Yeah.
+SPEAKER_02: Well, we don't have the right color clay anyway.
+SPEAKER_04: Maybe it's like, I don't know.
+SPEAKER_02: Well, we're not sadly going to actually be producing this.
+SPEAKER_01: If they ever come out with potato, potato bag of the same fur votes.
+SPEAKER_01: I'm going to have to clean it into electoral property.
+SPEAKER_01: Yeah.
+SPEAKER_02: I can't believe the whole day is done.
+SPEAKER_02: I don't feel like it's been out of here.
+SPEAKER_02: I can't suck this.
+SPEAKER_02: I don't know.
+SPEAKER_02: I'm sorry.

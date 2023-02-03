@@ -1,0 +1,772 @@
+SPEAKER_01: Okay, good afternoon again.
+SPEAKER_01: So we should have our final meeting about the detailed design of the product of the remote control.
+SPEAKER_01: So it is there, Jennifer today.
+SPEAKER_01: I'm just going to go quickly through the minutes of the last meeting.
+SPEAKER_01: Then we have a presentation of prototype V2.
+SPEAKER_01: Sounds interesting.
+SPEAKER_01: And I will have a presentation of a variation criteria by our marketing experts.
+SPEAKER_01: Then we have to go through finance evaluation of the cost of the thing.
+SPEAKER_01: And hopefully we should fit the target of 12.5 euro.
+SPEAKER_01: Okay, so let's go.
+SPEAKER_01: If I go quickly to the minutes of the last meeting.
+SPEAKER_01: So we went through, we took this following decisions.
+SPEAKER_01: No LCD, no speech recognition technology.
+SPEAKER_01: We went through a bad analog in field for the remote control.
+SPEAKER_01: We went through the use of wheels and buttons.
+SPEAKER_01: And also the use of a base station for battery charging and also to call the remote control when it is lost.
+SPEAKER_01: Okay.
+SPEAKER_01: Good.
+SPEAKER_01: So guys, let's present us this wonderful thing.
+SPEAKER_03: Okay, so we can go to the slides.
+SPEAKER_01: Oh yeah, sorry.
+SPEAKER_01: Oh, no, no, sorry.
+SPEAKER_03: Which is the final design.
+SPEAKER_03: Okay, so Michael, you can go ahead.
+SPEAKER_00: Yeah, so following our decision to make a yellow, well, to make a banana.
+SPEAKER_01: Yeah, can you show it to the camera maybe?
+SPEAKER_00: Okay, so we actually have.
+SPEAKER_03: You can pull it out first.
+SPEAKER_00: Well, first, first of all, we made an attractive base station with a banana leaf look and feel.
+SPEAKER_00: And bananas, it's in there, you know, nicely weighted so that it's not going to tip over.
+SPEAKER_00: And this is the remote itself.
+SPEAKER_00: It's kind of, it's ergonomic if it's in the hand, rather well.
+SPEAKER_00: We've got the two scroll wheels here, which, you know, won on the left for the volume and the one on the right for the channel.
+SPEAKER_00: And underneath, we have the turbo button, which is in like a nice trigger position for, you know, for pressing quite naturally.
+SPEAKER_01: Where's the use of the turbo button already?
+SPEAKER_00: This is when you, when you are scrolling through the channels, you can tell it to skip the past channels that you're, yeah, yeah.
+SPEAKER_01: Then you stop when you stop, it stops.
+SPEAKER_00: Yeah, well, when you stop scrolling the wheel, it stops.
+SPEAKER_00: But normally with it will just stay on its station briefly so you can see.
+SPEAKER_03: And we do have one more functionality.
+SPEAKER_03: If you take the banana as such and you press the turbo button, so it's switch on the, switch on the TV TV here.
+SPEAKER_00: Which one?
+SPEAKER_00: The turbo button.
+SPEAKER_00: So rather than having an extra button for, for the on or switch, we just use the turbo button.
+SPEAKER_00: Where's this button for?
+SPEAKER_00: This is the teletext button.
+SPEAKER_00: Okay.
+SPEAKER_00: So once you press that, then you get teletext and you can use the channel selector scroll wheel as a, to navigate.
+SPEAKER_00: To navigate.
+SPEAKER_02: You want to go to page 700?
+SPEAKER_00: Yeah.
+SPEAKER_01: Comment wheeled, CZ.
+SPEAKER_00: Well, then you can, you have like a little number selection thing.
+SPEAKER_00: You press the teletext button to move between the field and then you can just scroll the number back and forth.
+SPEAKER_00: So you have, you scroll to seven and then zero, zero.
+SPEAKER_02: And then you can, uh, uh, standing.
+SPEAKER_02: Can you repeat it?
+SPEAKER_00: Well, you can, you can press, press the teletext button.
+SPEAKER_00: Yeah.
+SPEAKER_03: Then both the, you can scroll buttons there for teletext closing.
+SPEAKER_03: And you can tell it, okay, okay, once you press that teletext button, then the scroll buttons, they are more for teletext.
+SPEAKER_03: They are no more for channel volume.
+SPEAKER_03: I see.
+SPEAKER_02: Okay.
+SPEAKER_00: And this is the, uh, the infrared port.
+SPEAKER_00: That's right.
+SPEAKER_00: Also the top of the banana.
+SPEAKER_00: Yeah.
+SPEAKER_00: And then we have in the, uh, in the base station, we have the button at the front for, uh, calling, for calling the, uh, banana.
+SPEAKER_01: Yeah.
+SPEAKER_01: And the leaf's place, rolls of antennas.
+SPEAKER_00: Actually they do.
+SPEAKER_00: Oh.
+SPEAKER_00: It's, yeah, that's, uh, that's form and function in the one, in the one.
+SPEAKER_03: So it always means whatever the rays goes back, they, they get reflected and then you're having a better coverage.
+SPEAKER_03: It's like antennas.
+SPEAKER_03: Yeah.
+SPEAKER_00: So, um, but yeah, that's, um, that's just like, that's an attractive, uh, by stage.
+SPEAKER_01: Great.
+SPEAKER_00: So, okay.
+SPEAKER_03: So what else?
+SPEAKER_03: And for the power source, we are having solar cells and rechargeable batteries in this and, uh, the base station is going to have the input from the, uh, power line for, for charging the batteries.
+SPEAKER_02: Is it really weight?
+SPEAKER_02: Is it light or it is very light?
+SPEAKER_02: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: It's about the weight of a banana.
+SPEAKER_00: Okay.
+SPEAKER_00: You know, to give you the correct look and feel.
+SPEAKER_03: Yeah.
+SPEAKER_03: And we have put these different colors so that people don't mistake them.
+SPEAKER_03: Mistake it as a banana.
+SPEAKER_03: Otherwise it's, you know, yeah, I think.
+SPEAKER_00: I think a child would try to eat it anyway.
+SPEAKER_00: So maybe we should consider that.
+SPEAKER_00: There may be health and safety aspects.
+SPEAKER_03: Oh, yeah.
+SPEAKER_03: Mm-hmm.
+SPEAKER_03: Or we didn't think of that yet.
+SPEAKER_01: Yeah.
+SPEAKER_01: So for the power source, apparently you use, till you, you want to use both solar cells.
+SPEAKER_01: Oh, yeah.
+SPEAKER_01: That's right.
+SPEAKER_01: I mean, okay.
+SPEAKER_00: I don't really know if the solar cells are actually necessary anymore for a recharging base station.
+SPEAKER_01: Well, are you going to place them?
+SPEAKER_03: It'll, it'll always be a top somewhere there.
+SPEAKER_00: If I was going to place them, I'd put them on the, on the top here since that's like.
+SPEAKER_00: Do you have any left or right face?
+SPEAKER_00: You are.
+SPEAKER_00: Yeah, I don't, I really don't think it's necessary to have the solar cells.
+SPEAKER_03: Yeah, because now we are having rechargeable batteries.
+SPEAKER_03: Okay.
+SPEAKER_01: So that is.
+SPEAKER_01: What would be the autonomy?
+SPEAKER_00: Roughly.
+SPEAKER_00: The what?
+SPEAKER_01: Sorry.
+None: The autonomy.
+SPEAKER_01: Autonomy.
+SPEAKER_01: What do you mean?
+SPEAKER_00: Hold on, that, hold on, hold on.
+SPEAKER_00: The battery is now.
+SPEAKER_00: Hold on, hold on.
+SPEAKER_00: Hold on.
+SPEAKER_01: Hold on.
+SPEAKER_01: Hold on.
+SPEAKER_01: Hold on.
+SPEAKER_00: Hold on.
+SPEAKER_03: Hold on.
+SPEAKER_03: Hold on.
+SPEAKER_03: Yeah.
+SPEAKER_00: You should get a little bit of a weight.
+SPEAKER_00: No, no, no, no, no.
+SPEAKER_03: It should be worse.
+SPEAKER_03: No, most of the time it's not being used.
+SPEAKER_01: Yeah, so it's.
+SPEAKER_00: Yeah, but when you're looking at it on the basis of time, people, when they'll leave it on the couch so.
+SPEAKER_03: No, eight or eight or ten hours of working.
+SPEAKER_03: Okay.
+SPEAKER_01: If you're just leaving like that, it'll be much longer.
+SPEAKER_01: Yeah.
+SPEAKER_03: Weeks.
+None: Yeah, that's right.
+SPEAKER_01: All right.
+SPEAKER_03: Next slide.
+None: Yeah.
+SPEAKER_03: And we are having the speakers, regular chip for control, pricing is was a factor, so that's why we have gone for our regular chip only, not the advanced chip. And that's it.
+SPEAKER_01: Okay, okay, great, this is look at all the ways.
+SPEAKER_01: That's right. Okay, that's very sums, very good.
+SPEAKER_01: Nothing else to add.
+SPEAKER_02: Yeah, I like it. Maybe the thing that convinced me the less is the multi-functional buttons.
+SPEAKER_02: Looks a bit...
+SPEAKER_03: Do you want to have more functional buttons?
+SPEAKER_02: The buttons change, they are functional depending if it's not made or not, we want to keep
+SPEAKER_03: it simple so that this button is what tele-tanks, which is usually also the case. That usually there is a tele-tanks button and once you press that, the channel buttons, they become the scrolling buttons.
+SPEAKER_02: And the volume button will become...
+SPEAKER_03: It's up to you, means.
+SPEAKER_03: Well, in fact, both could be useful in that case. Let's say this can move the larger digits and this can move the smaller digits.
+SPEAKER_00: Or can move between positions in the number.
+SPEAKER_02: What about people who want to use digits?
+SPEAKER_02: But, real buttons?
+SPEAKER_03: Yeah, so there was a constraint that the surface area which we have on this banana on one side, because of the shape.
+SPEAKER_03: So we are targeting a segment which is just a very trendy kind of thing that they don't care about the buttons anymore.
+SPEAKER_02: And...
+SPEAKER_02: Have you thought about configuration and all this kind of stuff?
+SPEAKER_02: Also, it's automatic.
+SPEAKER_02: Yeah.
+SPEAKER_02: Okay.
+SPEAKER_02: It's very good.
+SPEAKER_01: Yeah.
+SPEAKER_02: We are living in a wonderful world.
+SPEAKER_01: Yeah.
+SPEAKER_01: Ben and Zib we were.
+SPEAKER_01: Okay.
+SPEAKER_02: So...
+SPEAKER_01: We have to go through now the vibrations.
+SPEAKER_01: Yeah.
+SPEAKER_01: So, your slide is already.
+SPEAKER_01: Oh, you're four if I...
+SPEAKER_01: So this is one.
+SPEAKER_01: Which one is this one?
+None: Yeah.
+None: Okay.
+SPEAKER_02: I constructed a list of criteria.
+SPEAKER_02: Based on the general user requirements.
+SPEAKER_02: And is criteria is...
+SPEAKER_02: We'll be evaluated.
+SPEAKER_02: It's a logical criteria.
+SPEAKER_02: So we must...
+SPEAKER_02: Users must say if it's true or if it's false in a scale ranging from 0 to 7.
+SPEAKER_03: Why this range vector of 7?
+SPEAKER_02: Because it...
+SPEAKER_02: Actually, sorry.
+SPEAKER_02: Usually I see this.
+SPEAKER_02: It's from 1 to 7.
+SPEAKER_02: It's from 1 to 7.
+SPEAKER_02: Because it should be an even scale.
+SPEAKER_02: And 5 is to show and 9 is too long.
+SPEAKER_03: Okay.
+SPEAKER_03: Okay, fine.
+SPEAKER_03: I'm going to be...
+SPEAKER_01: So, in order to have enough granularity.
+SPEAKER_01: Yeah.
+SPEAKER_01: The variance is...
+SPEAKER_01: Okay.
+SPEAKER_02: That's many.
+SPEAKER_02: Okay.
+SPEAKER_02: Great.
+SPEAKER_02: I'm answering your question.
+SPEAKER_02: Okay.
+SPEAKER_02: Go ahead.
+SPEAKER_02: And that's the criteria I found more useful.
+SPEAKER_02: I think I could write the criteria on the whiteboard.
+SPEAKER_02: And we all four could range.
+SPEAKER_02: Okay.
+SPEAKER_02: Yeah.
+SPEAKER_02: Could evaluate the...
+SPEAKER_02: Okay.
+SPEAKER_03: So you can say fancy.
+SPEAKER_03: Handy.
+SPEAKER_03: Handy.
+None: Okay.
+SPEAKER_02: Let's evaluate if it's fancy or...
+SPEAKER_03: Yeah, it's fancy.
+SPEAKER_03: According to me.
+SPEAKER_02: Seven, but...
+SPEAKER_01: Yeah.
+SPEAKER_01: Six.
+SPEAKER_03: Seven.
+SPEAKER_02: Seven by me.
+SPEAKER_02: Six.
+SPEAKER_02: I will tell you seven.
+SPEAKER_02: It's quite fancy.
+SPEAKER_03: So you can add seven plus six plus seven plus...
+SPEAKER_03: No way.
+SPEAKER_01: Yeah.
+SPEAKER_00: Five.
+SPEAKER_00: Five.
+SPEAKER_00: Five.
+SPEAKER_00: Maybe six.
+SPEAKER_01: Okay.
+SPEAKER_01: Six from five.
+SPEAKER_01: Handy.
+SPEAKER_03: Again, add your up seven.
+SPEAKER_00: Seven.
+SPEAKER_00: I'd give it a six.
+SPEAKER_00: I think it's probably more handy than my current remote.
+SPEAKER_00: Yeah.
+SPEAKER_00: Because of the scroll wells.
+SPEAKER_00: But maybe loses a point for not having the extra buttons when you real...
+SPEAKER_00: If you do need them for some reason.
+SPEAKER_00: But you know, you can always use your other remote.
+SPEAKER_01: So seven, seven.
+SPEAKER_00: Seven.
+SPEAKER_01: Six.
+SPEAKER_01: Six multiplied.
+SPEAKER_01: Functional.
+SPEAKER_03: I'll give five.
+SPEAKER_02: I would say...
+SPEAKER_00: Well, depends when you say functional.
+SPEAKER_00: The main it does what we wanted to do or what it does what.
+SPEAKER_00: It does, you know.
+SPEAKER_00: Everything every coffee.
+SPEAKER_00: Everything remote control.
+SPEAKER_01: Does it have all the capabilities?
+SPEAKER_01: Yeah.
+SPEAKER_02: It does it compared to the all...
+SPEAKER_00: That's right.
+SPEAKER_03: Remote control.
+SPEAKER_03: S-B-4.
+SPEAKER_03: The standards.
+SPEAKER_03: What is available in the market of the shell?
+SPEAKER_03: I have to say four.
+SPEAKER_02: Actually, I didn't know what are the real specification of a universal...
+SPEAKER_02: Well, it's not a universal.
+SPEAKER_02: It's not a universal...
+SPEAKER_04: But it's for all kind of TVs.
+SPEAKER_01: Yeah.
+SPEAKER_00: Well, all TVs, but only TVs.
+SPEAKER_01: So it's universal, but 40.
+SPEAKER_01: So four.
+SPEAKER_01: Five.
+SPEAKER_03: Four.
+SPEAKER_03: Four.
+SPEAKER_03: Four.
+SPEAKER_03: So four point two.
+SPEAKER_03: Just four.
+SPEAKER_00: Four.
+SPEAKER_00: But it's four.
+SPEAKER_00: Obviously, there are some outliers.
+SPEAKER_01: Okay, cool.
+SPEAKER_01: Cool device.
+SPEAKER_03: There I'll give it seven.
+SPEAKER_02: It means cool features like...
+SPEAKER_02: New features, actually.
+SPEAKER_03: But...
+SPEAKER_03: While a TV, the most important feature which I felt was the locator, which is a cool feature.
+SPEAKER_03: And then the scroll buttons are again cool features.
+SPEAKER_03: We don't have LCD for it, but...
+SPEAKER_03: That we decided we don't want to have.
+SPEAKER_01: Yeah.
+SPEAKER_01: Seven.
+SPEAKER_02: I'll say five.
+SPEAKER_02: I'll say five.
+SPEAKER_01: Six.
+SPEAKER_01: Seven.
+SPEAKER_01: Two six.
+SPEAKER_01: Yeah.
+SPEAKER_01: I say six seven.
+SPEAKER_01: So it's...
+SPEAKER_00: You have seven?
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: Okay.
+SPEAKER_00: Definitely easy.
+SPEAKER_00: You make least seven.
+SPEAKER_00: Seven.
+SPEAKER_01: Seven.
+SPEAKER_01: Seven.
+SPEAKER_01: And you?
+None: Five.
+SPEAKER_01: I'll tell you.
+SPEAKER_01: Seven.
+None: I'll tell you.
+None: I'll tell you.
+SPEAKER_04: I'll tell you.
+SPEAKER_04: I'll tell you.
+SPEAKER_00: All right.
+SPEAKER_00: Now here's the $60 million question.
+SPEAKER_00: Well, $25.
+SPEAKER_00: $25 Euro question.
+SPEAKER_01: Of course, I would buy the mine cover.
+SPEAKER_01: Thank you.
+SPEAKER_00: What do you guys want?
+SPEAKER_02: Of course, the more difficult question for the end.
+SPEAKER_03: I'll say five.
+SPEAKER_01: $25 Euro.
+SPEAKER_02: I find it quite cheap, actually.
+SPEAKER_02: I don't know if...
+SPEAKER_02: The price of your living Switzerland or your living...
+SPEAKER_01: Yeah.
+SPEAKER_01: So the target price is for all Europe, only for rich countries.
+SPEAKER_01: It's more targeting UK or...
+SPEAKER_02: I don't know.
+SPEAKER_02: The initial specifications were for the whole Europe or...
+SPEAKER_01: So this is selling cost, not production cost.
+SPEAKER_02: Yeah, this is the initial specification.
+SPEAKER_02: Yeah, sure.
+SPEAKER_01: Um...
+SPEAKER_01: About...
+SPEAKER_02: About the six.
+SPEAKER_02: It's quite cheap, actually.
+SPEAKER_00: I'd say two.
+SPEAKER_00: What?
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't think I'm going to make a group table.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_03: It would be nice.
+SPEAKER_03: It would be handy, actually, if you see.
+SPEAKER_03: It is handy.
+SPEAKER_00: It's so handy.
+SPEAKER_00: It's handy, but it's terrible.
+SPEAKER_03: Anybody who comes to your home, he at least asks one.
+SPEAKER_03: So what is this?
+SPEAKER_00: Yeah, but it's not a positive thing.
+SPEAKER_03: It's a very positive thing, actually, like that.
+SPEAKER_00: It's handy.
+SPEAKER_00: It's ergonomic, but it's a banana.
+SPEAKER_01: Don't forget...
+SPEAKER_01: Oh, targeting also.
+SPEAKER_01: Wow.
+SPEAKER_00: Actually, maybe it's an eye.
+SPEAKER_01: Eye would buy this.
+SPEAKER_01: No, well, yeah.
+SPEAKER_01: Eye would be...
+SPEAKER_01: Yogg.
+SPEAKER_01: Not turning that your eye would be.
+SPEAKER_01: Like a teenager, for instance.
+SPEAKER_00: No, it's eye.
+SPEAKER_00: Eye would buy this.
+SPEAKER_00: You're...
+SPEAKER_01: You're a crazy teenager and you like fun things.
+SPEAKER_01: You want to flaunt with your girlfriend or something.
+SPEAKER_01: Yeah, you want to show the beautiful banana you have?
+SPEAKER_03: On my beat and some other kind of thing, but...
+SPEAKER_00: Still, I'd say two.
+SPEAKER_00: I don't think I, at any stage in my life, I would want to ban on or my control, really.
+SPEAKER_00: Yeah, crazy.
+SPEAKER_00: I can say maybe there isn't market for it.
+SPEAKER_01: Oh, yeah, no, no.
+SPEAKER_03: So you say two.
+SPEAKER_03: Eye is a five.
+SPEAKER_01: I say five.
+SPEAKER_01: You say?
+SPEAKER_02: I change the question.
+SPEAKER_02: So what's your question?
+SPEAKER_02: So, yeah, I've loaded...
+SPEAKER_02: You don't have to reload?
+SPEAKER_01: Yeah, I think so.
+SPEAKER_00: Okay, so it depends if...
+SPEAKER_02: Yeah, it's two different situations.
+SPEAKER_02: If you really need an universal remote control or if you...
+SPEAKER_02: Good change your remote control for a new one.
+SPEAKER_00: Yeah, if I had to spend 25 euro.
+SPEAKER_00: If that was like my limit, maybe I would buy it.
+SPEAKER_00: Because the other 25 euro remote controls are probably going to look worse than a banana.
+SPEAKER_03: And they might not be as easy as that.
+SPEAKER_00: Yeah, this is going to, you know, handy to use.
+SPEAKER_02: So, what now?
+SPEAKER_02: I stick with it.
+SPEAKER_00: I go...
+SPEAKER_00: Although it still has the word, of course, at the beginning.
+SPEAKER_00: So, I don't know.
+SPEAKER_00: Well, I give it a...
+SPEAKER_00: I give it a four now.
+SPEAKER_02: So we are...
+SPEAKER_02: Six, six, five, four.
+SPEAKER_02: Six?
+SPEAKER_02: So it's now five point five.
+SPEAKER_04: Yeah.
+SPEAKER_03: Okay.
+SPEAKER_01: So, last question, will I change my remote control for a man, the man, the man, the...
+SPEAKER_01: Zero?
+SPEAKER_01: No, we can't.
+SPEAKER_01: So one.
+SPEAKER_02: Actually, yeah.
+SPEAKER_01: Well, if it's the same thing, I will.
+SPEAKER_01: I'll put two.
+SPEAKER_00: I'd say three.
+SPEAKER_00: I mean, my remote control is going to, at home, is pretty terrible.
+SPEAKER_00: If it was, change my remote control of my DVD player for a man, the man, the man, the man, would be more inclined to.
+SPEAKER_00: For the TV.
+SPEAKER_00: But, because it's really bad.
+SPEAKER_00: But, I'd say three.
+SPEAKER_03: I would still give it five.
+SPEAKER_03: Five?
+SPEAKER_02: Yeah.
+SPEAKER_02: Two, three.
+SPEAKER_04: It's a romantic, really.
+SPEAKER_01: I would say two.
+SPEAKER_01: And two.
+SPEAKER_01: So it's three point five.
+SPEAKER_01: Yeah, three point five.
+SPEAKER_01: Who is the Adlier?
+SPEAKER_02: Do you set five?
+SPEAKER_02: No, I set five.
+SPEAKER_01: You set five.
+SPEAKER_01: He's the Adlier.
+SPEAKER_01: Okay, just do some.
+SPEAKER_02: I don't know if it's...
+SPEAKER_00: It's not very promising, but, you know...
+SPEAKER_02: Because there are more...
+SPEAKER_02: Yeah.
+SPEAKER_02: We shouldn't sound like that.
+SPEAKER_01: Well, maybe we should...
+SPEAKER_02: Because the last two questions are much more important than the rest, actually.
+SPEAKER_02: Otherwise, we would not sell.
+SPEAKER_00: So some formula you're using that says you have to sound the most?
+SPEAKER_02: No, I didn't prepare anything.
+SPEAKER_00: Well, just leave it at that then.
+SPEAKER_01: Yeah.
+SPEAKER_01: So maybe we should stick to a general feeling.
+SPEAKER_01: Yeah.
+SPEAKER_01: We can have out of these numbers.
+SPEAKER_01: Which is that.
+SPEAKER_01: Well, we should go for it.
+SPEAKER_02: Do you want me to sound?
+SPEAKER_00: No, I think it's not...
+SPEAKER_00: I think it's...
+SPEAKER_00: You just lose information if you're sound.
+SPEAKER_01: Okay.
+SPEAKER_01: So let's move on.
+SPEAKER_01: Let's move on.
+SPEAKER_01: Yeah, sure.
+SPEAKER_01: Okay, sound, now you have to estimate the cost.
+SPEAKER_01: Okay.
+SPEAKER_01: So I prepare an exit...
+SPEAKER_01: an exit sheet.
+SPEAKER_01: Well, we're going to calculate the production cost.
+SPEAKER_01: We should...
+SPEAKER_01: We should be below 12.5.
+SPEAKER_01: So I already put some numbers here.
+SPEAKER_01: Okay.
+SPEAKER_01: We're going to go through...
+SPEAKER_01: So this is the number...
+SPEAKER_01: number of components we need for this thing.
+SPEAKER_01: So it appears that there were things that we didn't thought about.
+SPEAKER_01: And also things that I forget to put like solar cells.
+SPEAKER_00: Oh, we decided against the solar cells.
+SPEAKER_00: So yes, finally we say no.
+SPEAKER_01: Okay, so let's go...
+SPEAKER_01: Let's go...
+SPEAKER_01: Let's go through all the lights.
+SPEAKER_01: So how did the demo...
+SPEAKER_01: This is something we didn't thought about.
+SPEAKER_00: But...
+SPEAKER_00: You mean, charging it by shaking the banana?
+SPEAKER_01: Yeah.
+SPEAKER_03: I think rechargeable batteries will take care of the power thing.
+SPEAKER_03: Yeah.
+SPEAKER_01: Yeah.
+SPEAKER_01: To bring the cost.
+SPEAKER_01: Okay, so we'll stick to battery one.
+SPEAKER_01: Yeah.
+SPEAKER_01: Not kinetic.
+SPEAKER_01: Also, why don't you see the difference between kinetic and handino?
+SPEAKER_00: Well, maybe Donomo is like...
+SPEAKER_00: You have to actually...
+SPEAKER_01: Oh, you have to...
+SPEAKER_01: Okay, see, so kinetic is really shaking the banana.
+SPEAKER_01: Yeah.
+SPEAKER_01: Crazy.
+SPEAKER_01: Okay, so...
+SPEAKER_01: So it's better than I thought.
+SPEAKER_01: Oh, that's fun.
+SPEAKER_01: Let's go ahead.
+SPEAKER_01: So we only have one for battery and then for electronics.
+SPEAKER_01: So I didn't put anything for the moment.
+SPEAKER_03: So we have the regular chip on the print.
+SPEAKER_03: Yeah.
+SPEAKER_03: Which is one.
+SPEAKER_03: Yeah.
+SPEAKER_01: And that's it.
+SPEAKER_01: Okay.
+SPEAKER_03: So we hit...
+SPEAKER_03: And we have sample speaker.
+SPEAKER_03: Yeah.
+SPEAKER_03: Well, the cost of that is very...
+SPEAKER_01: Oh, yeah, yeah, yeah.
+SPEAKER_01: The cost is crazy.
+SPEAKER_00: Well, actually, that sample speaker is not...
+SPEAKER_00: We're not using that.
+SPEAKER_00: We're just using the...
+SPEAKER_00: The beep.
+SPEAKER_00: The very beep, simple beep.
+SPEAKER_00: That sample thing is like the voice recording and everything.
+SPEAKER_00: Okay.
+SPEAKER_00: So I'll remove it.
+SPEAKER_00: Yeah, I say that...
+SPEAKER_00: Yeah.
+SPEAKER_03: And we have...
+SPEAKER_01: So don't we need the...
+SPEAKER_01: Well, there is no listing for radio frequency.
+SPEAKER_01: Radio frequency thing.
+SPEAKER_01: Yeah.
+SPEAKER_03: So we will put some extra.
+SPEAKER_03: If there is...
+SPEAKER_03: Yeah, maybe.
+SPEAKER_01: We'll see later.
+SPEAKER_01: Okay, so for the case...
+SPEAKER_01: I put single-curve.
+SPEAKER_01: Okay.
+SPEAKER_03: To reduce the cost.
+SPEAKER_03: It's okay.
+SPEAKER_00: Well, wait a second.
+SPEAKER_00: Because we think...
+SPEAKER_00: It's double-curve.
+SPEAKER_00: It's got a...
+SPEAKER_00: Oh, it's got all that direction, so don't worry.
+SPEAKER_00: Well, yeah, it's monotonic.
+SPEAKER_00: But...
+SPEAKER_00: It's got all the direction.
+SPEAKER_00: It's got... but if you hold it...
+SPEAKER_00: If you hold it that way...
+SPEAKER_00: That's two-curve.
+SPEAKER_00: One on the side, one on that side.
+SPEAKER_00: But the...
+SPEAKER_00: Up on the sides.
+None: Okay.
+None: Where is this actually?
+None: I mean, this probably...
+SPEAKER_02: I put one here.
+SPEAKER_00: This probably actually costs more than three.
+SPEAKER_00: Yeah.
+SPEAKER_01: So let's put one here in the back-er instead of single-curve.
+SPEAKER_01: Okay.
+SPEAKER_01: All right.
+SPEAKER_01: So we stick to plastic.
+SPEAKER_01: It costs nothing.
+SPEAKER_00: That's right.
+SPEAKER_00: Well, wait a minute.
+SPEAKER_00: No, didn't we say we wanted to rob a...
+SPEAKER_01: No, two...
+SPEAKER_01: No.
+SPEAKER_00: Well, if you drop it...
+SPEAKER_01: Two expensive.
+SPEAKER_01: Two expensive.
+SPEAKER_00: Well, we need to get...
+SPEAKER_00: We're ready at 11.
+SPEAKER_00: We'll come back.
+SPEAKER_00: We'll come back and see if we can fill it in.
+SPEAKER_01: Okay.
+SPEAKER_01: So I put trouble in one.
+SPEAKER_01: Okay.
+SPEAKER_01: So special color.
+SPEAKER_01: You know?
+SPEAKER_01: Yeah.
+SPEAKER_01: For the interface, we have...
+SPEAKER_03: We don't have any push buttons.
+SPEAKER_03: No, we have two push buttons.
+SPEAKER_03: We have three.
+SPEAKER_03: No, that is a scroll wheel.
+SPEAKER_03: It'll be put in that.
+SPEAKER_01: No, no.
+SPEAKER_01: We have two scrolls and we have three push buttons.
+SPEAKER_01: Okay.
+SPEAKER_03: Okay.
+SPEAKER_02: Actually, I was gonna...
+SPEAKER_02: When you wrote regular chip, you should put two because there is another chip here.
+SPEAKER_01: No, it's not a chip.
+SPEAKER_01: This is just radio frequency sync.
+SPEAKER_01: Yeah.
+SPEAKER_01: The chip.
+SPEAKER_03: No.
+SPEAKER_03: There's no chip there.
+SPEAKER_03: It just...
+SPEAKER_03: I made the signal.
+SPEAKER_03: It's just...
+SPEAKER_03: And the receiver...
+SPEAKER_03: Exhausted and...
+SPEAKER_02: Yeah.
+SPEAKER_02: It does nothing.
+None: Actually.
+SPEAKER_03: No.
+SPEAKER_00: It seems the signal is...
+SPEAKER_00: Oh, yeah.
+SPEAKER_00: Contactable.
+SPEAKER_00: It's a recharge, I think.
+SPEAKER_01: Okay.
+SPEAKER_01: We didn't think thought about integrated scroll wheel push buttons.
+SPEAKER_00: Well, I actually did think about it myself, but I thought, you know...
+SPEAKER_00: Because you could potentially...
+SPEAKER_00: You know, you could be pushing it down as you scroll it for...
+SPEAKER_00: Instead of a turbo.
+SPEAKER_00: Yeah.
+SPEAKER_00: But, you know, the turbo button does add that extra class.
+SPEAKER_01: Yeah.
+SPEAKER_00: You know.
+SPEAKER_00: So, I mean, if we're over budget, then maybe we could rethink that.
+SPEAKER_01: Okay.
+SPEAKER_01: So, no LCD.
+SPEAKER_01: So, for...
+SPEAKER_01: We have no button suplements, right?
+SPEAKER_01: Yeah.
+SPEAKER_01: No.
+SPEAKER_01: Well, in fact, couldn't we consider this button as a button suplement?
+SPEAKER_01: Because...
+SPEAKER_01: Oh, no.
+SPEAKER_01: These are for colors.
+SPEAKER_01: And special forms, special colors, and special materials.
+SPEAKER_01: No, we're not...
+SPEAKER_01: We don't need anything special.
+SPEAKER_01: Okay.
+SPEAKER_03: So, we are over-object.
+SPEAKER_03: Yeah.
+SPEAKER_03: So, first thing we should take care of is...
+SPEAKER_00: Make it plastic and forever.
+SPEAKER_00: Make it plastic and forever.
+SPEAKER_00: Let it be plastic.
+SPEAKER_00: And then we're basically on budget, except for, you know, $0.10.
+SPEAKER_03: And that much money will be required for the base station, which is not there.
+SPEAKER_01: Yeah.
+None: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_01: So, maybe...
+SPEAKER_01: In fact, we have to put two here.
+SPEAKER_01: Because it costs nothing.
+None: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: The base station is made out of many...
+SPEAKER_03: Yeah.
+SPEAKER_03:...maybe 90 centums for the remaining things, which the card and everything is available.
+SPEAKER_01: Exactly.
+SPEAKER_01: So, we have margin for that stuff.
+SPEAKER_00: That's right.
+SPEAKER_00: Is that included charging, circuitry, and...
+SPEAKER_00: Okay.
+SPEAKER_01: Yeah, maybe.
+SPEAKER_01: Okay, good.
+SPEAKER_01: Yeah.
+SPEAKER_01: Why?
+SPEAKER_01: Exempt.
+SPEAKER_00: So, what do we do with the extra profits?
+SPEAKER_01: We'll invest in R&D.
+SPEAKER_00: Okay.
+SPEAKER_00: Let me extort it.
+SPEAKER_01: Yeah.
+SPEAKER_01: So, well, we're under the cost.
+SPEAKER_01: So, we can go through two project evaluation.
+SPEAKER_02: Okay, so now we have a product which nobody would buy.
+SPEAKER_02: Would...
+SPEAKER_02: Yeah, it would buy.
+SPEAKER_01: Sorry.
+SPEAKER_01: No, we have a product.
+SPEAKER_01: Yeah, because none of us would buy.
+SPEAKER_01: No, it's people in Milan and in Paris.
+SPEAKER_00: And we'll try to kind of buy it.
+SPEAKER_00: Massively, yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: We're not in Milan or Paris.
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: You have been in Milan a couple of times, so.
+SPEAKER_02: Actually, there were a lot of batteries.
+SPEAKER_02: And you said the lowest.
+SPEAKER_00: The lowest is expensive.
+SPEAKER_02: This is what we would choose.
+SPEAKER_02: The touchable battery.
+SPEAKER_02: Yeah, because I'm sick of...
+SPEAKER_01: Yeah, but what about that is?
+SPEAKER_01: Extra battery, yeah.
+SPEAKER_01: Okay, so, I'm going to...
+SPEAKER_01: Yeah.
+SPEAKER_00: Okay, so, project versus.
+None: Wow.
+None: In fact, I didn't know...
+SPEAKER_01: I didn't know really what to say here.
+SPEAKER_01: If you have any ideas or what we can say.
+SPEAKER_01: So, I don't understand what they mean by a satisfaction.
+SPEAKER_01: An example.
+SPEAKER_01: Should it be more like a status of these meetings, in fact.
+SPEAKER_00: Yeah.
+SPEAKER_01: Yeah, well, in fact, we use a little bit of the white ball and the digital pen, not that much.
+SPEAKER_00: I think we had a fair bit of creativity.
+SPEAKER_01: Oh, yeah, it's really creative.
+SPEAKER_00: But I think one thing we missed out of this sole process was a...
+SPEAKER_00: Like a focus group with the actual people we're targeting.
+SPEAKER_00: We needed some of these kind of young trans artists to come in and play with the banana.
+SPEAKER_00: And, you know, see if they...
+SPEAKER_00: They liked it.
+SPEAKER_00: See if they like it.
+SPEAKER_01: Yeah, maybe we should go through, yeah, in the innovation.
+SPEAKER_00: Because, yeah, the evaluation for us is kind of pointless.
+SPEAKER_01: So, maybe you should do kind of evaluation in the streets like asking to young people.
+SPEAKER_01: Do you like to have a banana as a remote control?
+SPEAKER_00: Because it would also be interesting to find out if we have a market in really young children as well.
+SPEAKER_00: To see, you know, how to market this thing.
+SPEAKER_00: Because, you know, well, I mean, maybe you don't want to give all your kids their own remote because they'll be changing the channel all the time.
+SPEAKER_00: You know, maybe in some households where there is, you know, TV for each kid.
+SPEAKER_00: Then, you know, banana remote control could be fun for them as well.
+SPEAKER_00: Might as well draw a face on it.
+SPEAKER_00: So, but I think that's something we need to work on next time is really finding out more about the target market.
+SPEAKER_01: Yeah.
+SPEAKER_01: Any new ideas we could investigate next time, don't know, around cheese?
+SPEAKER_03: Yeah, the cost of the thing can be made more than, maybe.
+SPEAKER_03: Because I think it's just the optimal what we have done for the cost which we are looking forward to.
+SPEAKER_00: Yeah, I think there are ways we could maybe simplify the interface.
+SPEAKER_00: Well, just the circuit board that we're using inside, I don't know how complicated our needs are.
+SPEAKER_00: I mean, what we have is two push buttons and two scroll goes.
+SPEAKER_00: Do we really need an integrated circuit to process that?
+SPEAKER_02: So, I'm more general remote control instead of just focusing on TV.
+SPEAKER_02: The complexity shouldn't be much higher.
+SPEAKER_00: You said if it goes for DVD, then I can also say for mood lighting and stuff that would be rather cool.
+SPEAKER_00: I think that's actually something that should be in version two.
+SPEAKER_00: Is the ability to control things up in the TV and not just electronic equipment, but the whole environment of the room.
+SPEAKER_01: Okay.
+SPEAKER_01: Very good.
+SPEAKER_03: So, what else?
+SPEAKER_01: Well done. I think we can go home.
+SPEAKER_01: Home? I'm pleased that is right.
+SPEAKER_01: Yeah, maybe we can ask the production department to make a real prototype that we can use at home to evaluate.
+SPEAKER_01: Okay, so thanks very much.
+SPEAKER_04: Bye. Thank you. Bye.
+None: We didn't get the proper design that we didn't get fried in it so quickly.
+None: Yeah, we can also...
+None: Was it longer than the others?
+None: Okay.
+None: Okay.

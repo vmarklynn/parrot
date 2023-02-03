@@ -1,0 +1,244 @@
+SPEAKER_04: All right.
+SPEAKER_04: So I wanted to mention a couple little bits of news.
+SPEAKER_04: Heenick is supposed to come for a couple days next week.
+SPEAKER_04: I don't know which days yet.
+SPEAKER_04: So hopefully we'll have some intensive time to work with people.
+SPEAKER_04: One thing is that we're starting to talk about maybe having Sunil come here for some chunk of the summer.
+SPEAKER_04: So that may or may not happen.
+SPEAKER_04: But if he does, since actually Pradhiva is going to be off at IBM, the effort will pretty much shift here.
+SPEAKER_04: Because Sunil will be here and other people are working in other things, I think.
+SPEAKER_04: So that's my news.
+SPEAKER_04: All right.
+SPEAKER_03: I need to have this.
+SPEAKER_04: Okay.
+SPEAKER_04: There you go.
+SPEAKER_03: It will be some time in December, July or August.
+SPEAKER_04: Yeah.
+SPEAKER_04: I mean, it may not happen.
+SPEAKER_04: I think he wants some experience someplace else.
+SPEAKER_04: He's thinking of going someplace.
+SPEAKER_04: But Pradhiva is getting her experience going to IBM and he may come here.
+SPEAKER_04: But I don't know.
+SPEAKER_04: Maybe June.
+SPEAKER_04: Maybe earlier.
+SPEAKER_04: But anyway, Heenick will be here next week.
+SPEAKER_04: Maybe he'll know more about it.
+SPEAKER_03: Well, the news, more specifically for Aurora.
+SPEAKER_03: So I guess there was again a conference call, but they're on a decide on everything yet.
+SPEAKER_03: For the VAD, they probably they will do something like having some kind of idealized VAD that they could run on the channel zero of the speech that car and then take the same and points and apply them on channel one.
+SPEAKER_04: Also take a real VAD, apply it to the clean.
+SPEAKER_03: Yeah, to the clean.
+SPEAKER_03: I think they're there.
+SPEAKER_03: Points for the noisy.
+SPEAKER_03: Okay.
+SPEAKER_03: But I'm not sure this is decided yet.
+SPEAKER_04: And when they're talking about it, do you have the impression that they're talking about a particular VAD which everybody would use or just that everybody would use the same procedure?
+SPEAKER_03: Pradhiva is the same VAD for everybody.
+SPEAKER_05: So they would just provide that as part of the data?
+SPEAKER_05: Maybe.
+SPEAKER_03: But does it still?
+SPEAKER_04: It sounds like they're still arguing.
+SPEAKER_03: Yeah.
+SPEAKER_03: They're decided.
+SPEAKER_03: Yeah.
+SPEAKER_03: Nothing much.
+SPEAKER_03: Yeah.
+SPEAKER_03: Probably these weightings, they will apply the same kind of weighting scheme for the IDG sheets then for the pitch that car.
+SPEAKER_03: So it would be weighting of, it would be an average of improvements rather than average of whatever rates which would make the more clean parts of the IDG it's more important than they are right now.
+SPEAKER_04: Okay.
+SPEAKER_04: But it sounds like none of this is really decided that this is how things are leaning.
+SPEAKER_03: I think they will tend to good this way.
+SPEAKER_03: Yeah.
+SPEAKER_03: We have the result for the tandem with MSG also.
+SPEAKER_03: So it was.
+SPEAKER_03: Yeah.
+SPEAKER_03: There is no surprise.
+SPEAKER_03: So there is no significant improvement.
+SPEAKER_03: Yeah.
+SPEAKER_03: Basically that's all.
+SPEAKER_03: We've started to work on some kind of report of the work.
+SPEAKER_03: So we've not much.
+SPEAKER_03: Yeah.
+SPEAKER_04: You have a lunch talk sometime.
+SPEAKER_04: It's next week.
+SPEAKER_04: Next week?
+SPEAKER_05: Okay.
+SPEAKER_05: How about the thing you guys were working on before?
+SPEAKER_05: Boyz, 10 boys.
+SPEAKER_00: Yes, but this week I am beginning to write the report.
+SPEAKER_00: I stopped it.
+SPEAKER_00: You stopped working on it.
+SPEAKER_04: Okay.
+SPEAKER_04: So it sounds like basically things are slowing down a bit and trying to collate results.
+SPEAKER_03: Something from it?
+SPEAKER_03: Yeah.
+SPEAKER_03: Right now Sunil seems to be in India actually.
+SPEAKER_03: Right.
+SPEAKER_03: So there is no progress from their side.
+SPEAKER_04: Right.
+SPEAKER_04: But that's where it puts it on us to do it.
+SPEAKER_04: I'm sorry?
+SPEAKER_04: Yeah.
+SPEAKER_04: I mean, who was looking at the combination of spectrosatraction approaches with what we had?
+SPEAKER_03: Sunil was working on this.
+SPEAKER_03: He sent a bunch of results.
+SPEAKER_03: I don't know what the status of this.
+SPEAKER_03: I guess it was just the result that he sent.
+SPEAKER_04: Again.
+SPEAKER_03: He just used spectrosatraction and the LDA filters, I guess.
+SPEAKER_03: And it was not better than what we had before.
+SPEAKER_03: Then he tried to put the online normalization.
+SPEAKER_03: It did not improve further putting the online normalization.
+SPEAKER_03: Yeah.
+SPEAKER_04: Okay.
+SPEAKER_04: Well.
+SPEAKER_04: Yeah.
+SPEAKER_04: So I guess nothing has ever happened about making the standardized place where the software sits so that people can work with it.
+SPEAKER_04: No.
+SPEAKER_03: Okay.
+SPEAKER_03: Well, I sent mail to start the process.
+SPEAKER_03: And I guess we should have to.
+SPEAKER_03: What we know most what we have to put in this.
+SPEAKER_04: Yeah.
+SPEAKER_04: So I guess.
+SPEAKER_04: Yeah.
+SPEAKER_04: Okay.
+SPEAKER_04: Well, let's come back to this later.
+SPEAKER_04: Did you get a chance to do any more stuff with the.
+SPEAKER_05: No.
+SPEAKER_05: I didn't.
+SPEAKER_05: Are you talking about.
+SPEAKER_05: Is DK here?
+SPEAKER_05: No.
+SPEAKER_05: This week I have been my whole time taking up with the meeting recorder stuff.
+SPEAKER_05: Okay.
+SPEAKER_05: Discrash.
+SPEAKER_05: Okay.
+SPEAKER_04: Covering things.
+SPEAKER_04: It's maybe a very short meeting.
+SPEAKER_04: Anything from your side?
+SPEAKER_02: Okay.
+SPEAKER_01: There.
+SPEAKER_01: Yeah.
+SPEAKER_01: Well, one thing in the paper, Avandano and his collaborators wrote is that they tried doing channel normalization on the reverberant speech by subtracting the mean of the log spectral magnitude over a two-second window.
+SPEAKER_01: But they didn't do anything with the phase.
+SPEAKER_01: And they said perhaps that limited their approach that they did not try to normalize the phase anyway.
+SPEAKER_01: So I'm going to start thinking about ways that the that the phase could be used.
+SPEAKER_01: If the channel and the reverberation is multiplicative in the frequency domain with the speech spectrum, then the phases should be additive.
+SPEAKER_01: So just subtracting the mean of the phase would help.
+SPEAKER_01: But I don't know.
+SPEAKER_01: I get the impression that they tried to do some things with the phase and they were in success.
+SPEAKER_05: Okay.
+SPEAKER_05: Well, you know, there is one other thing.
+SPEAKER_05: Stefan showed me a paper yesterday where for the Italian system they had done a series of experiments playing around with the number of iterations that I talked about last week.
+SPEAKER_05: And so there was a whole series of those that they had done.
+SPEAKER_05: They didn't think reported timing for those.
+SPEAKER_05: But it turns out that the processing was not the best in their series of experiments.
+SPEAKER_05: Maybe it's because they wanted to use the same number of iterations across all different languages.
+SPEAKER_05: And this was only done on Italian.
+SPEAKER_05: Sure. Who's the hey?
+SPEAKER_05: I don't know who did it.
+SPEAKER_05: You know, Stefan, who is that?
+SPEAKER_03: I don't know.
+SPEAKER_03: But it's the company who prepared the Italian database.
+SPEAKER_03: So it was is it Alcatel or?
+SPEAKER_03: I think so.
+SPEAKER_03: I don't know.
+SPEAKER_05: So, you know, there wasn't a huge difference in terms of the performance across all the different experiments that they did.
+SPEAKER_05: But it varied a little bit.
+SPEAKER_05: And so I guess the main thing that I take out of that is that I think that for our purposes here we could definitely, you know, decrease the number of iterations that we do.
+SPEAKER_05: And at least while we're, you know, working on all different kinds of variations and that will let us, you know, come through a lot more experiments.
+SPEAKER_05: So I still have to send everybody a pointer about how to run the HTK system on the Linux boxes and about changing the number of iterations of it.
+SPEAKER_05: So you can do that.
+SPEAKER_05: So the other thing that I was thinking about maybe trying out next is, oh, the other experiment that they had in that paper was playing with a number of Gaussian's per state.
+SPEAKER_03: So I think it was playing with a number of states per word.
+SPEAKER_03: They had 16, 17, 18.
+SPEAKER_03: It was a number of states.
+SPEAKER_03: Yeah, because it was around between 16 and 20 or...
+SPEAKER_05: Okay.
+SPEAKER_05: I should look at that more carefully because I wonder what they did about.
+SPEAKER_05: Okay, I was thinking it was Gaussian's.
+SPEAKER_03: So, and...
+SPEAKER_03: Okay.
+SPEAKER_03: Apparently they had better results when they increased the number of states from 18 to 20.
+SPEAKER_05: Yeah.
+SPEAKER_05: So the thing I was thinking about was, you know, the number of insertions really goes up when you start adding all the noise in.
+SPEAKER_05: And maybe the thing to do next would be to try to make the silence model more powerful.
+SPEAKER_05: And then increasing the number of Gaussian to the number of states, different things like that.
+SPEAKER_05: So it's probably the next little thing I'll play with when I get a chance.
+SPEAKER_04: Okay.
+SPEAKER_04: Let's see.
+SPEAKER_04: Why don't we...
+SPEAKER_04: There aren't any other major things.
+SPEAKER_04: Why don't we do the digits and then turn the mic off?
+SPEAKER_00: Okay.
+SPEAKER_04: So I'll start.
+SPEAKER_04: I got transcript L64.
+SPEAKER_04: 4461.
+SPEAKER_04: 3536.
+SPEAKER_04: 6237.
+SPEAKER_04: 5, 529.
+SPEAKER_04: 1, 8, 438.
+SPEAKER_04: 2.
+SPEAKER_04: 8, 117.
+SPEAKER_04: 50462.
+SPEAKER_04: 8.
+SPEAKER_04: 168.
+SPEAKER_04: 350.
+SPEAKER_04: 895.
+SPEAKER_04: 6868.
+SPEAKER_04: 69.
+SPEAKER_04: 306.
+SPEAKER_04: 9858.
+SPEAKER_04: 4238.
+SPEAKER_04: 9363.
+SPEAKER_04: 06407.
+SPEAKER_04: 473.
+SPEAKER_02: Transcript L-65.
+SPEAKER_02: 336901451.
+SPEAKER_02: 6928.
+SPEAKER_02: 0406.
+SPEAKER_02: 0307.
+SPEAKER_02: 501.
+SPEAKER_02: 4382.
+SPEAKER_02: 606892959.
+SPEAKER_02: 7778759896120.
+SPEAKER_02: 8501308482.
+SPEAKER_02: 482596251291.
+SPEAKER_05: Transcript L-66.
+SPEAKER_05: 8732013553.
+SPEAKER_05: 286-020668.
+SPEAKER_05: 732353-3702.
+SPEAKER_05: 246395750.
+SPEAKER_05: 7230444681856481178.
+SPEAKER_05: 442525771.
+SPEAKER_05: 2795985574.
+SPEAKER_01: Transcript L-67.
+SPEAKER_01: 715667505.
+SPEAKER_01: 16607299.
+SPEAKER_01: I'll read that again.
+SPEAKER_01: 16607299653.
+SPEAKER_01: 3044512712.
+SPEAKER_01: 87318913555.
+SPEAKER_01: 566043480.
+SPEAKER_01: 8678510669.
+SPEAKER_01: 1 225 7186 9953.
+SPEAKER_01: 248488 470.
+SPEAKER_03: Transcript L-68.
+SPEAKER_03: 502 156214.
+SPEAKER_03: 819251328.
+SPEAKER_03: 3 432104155.
+SPEAKER_03: 285094 5901.
+SPEAKER_03: 84228269.
+SPEAKER_03: 7346100.
+SPEAKER_03: 07703246.
+SPEAKER_03: 64241396.
+SPEAKER_00: Transcript L-669.
+SPEAKER_00: 5976863594.
+SPEAKER_00: 665698535.
+SPEAKER_00: 67139718.
+SPEAKER_00: I'm sorry, 79861168913.
+SPEAKER_00: 879554 859.
+SPEAKER_00: 9594185.
+SPEAKER_00: 40463312.
+SPEAKER_00: 8656105285243.

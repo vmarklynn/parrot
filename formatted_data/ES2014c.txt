@@ -1,0 +1,493 @@
+None: Gastron החiezont exunkne� Volcanconich == Redron Van Nova
+None: funded D.
+SPEAKER_00: plant de Atщё Janeone Allen Eheri watches kinda press check soft pat blrrz...
+None:  witnessingseason o cosmos ok m m m m m Ok, so...
+SPEAKER_03: Right, well, from the last meeting, I was trying to send you the minutes, but it didn't work out too well.
+SPEAKER_03: So, maybe in sort of a quick summary of the last meeting, I can quickly give you what we had.
+SPEAKER_03: Right, so...
+SPEAKER_03: I should have had a close look at that.
+SPEAKER_03: Right, so we had the fact that we're going to have the level, the company level in its color scheme, cooperated on to the device, that I want device.
+SPEAKER_03: We had made our decisions about...
+SPEAKER_03: made our decisions about the device itself that was going to be simple to make it a little less complete project in time.
+SPEAKER_03: We're going to have effectively two pages, a front page, which had the features that the customers wanted, and then the backup features on the second page, so that it would meet the technical requirements and the customers wouldn't have to look at them too often, only as and when required.
+SPEAKER_03: So, basically what decisions have we made?
+SPEAKER_03: Have there been any changes?
+SPEAKER_02: I think we all have a presentation again, so we'll go ahead and give those.
+SPEAKER_02: Three presentations, yes.
+SPEAKER_03: So, to go physical.
+SPEAKER_03: Yep, fine.
+SPEAKER_02: I'll see if it's a little more smooth in the last one.
+None: Okay, let's go.
+None: Basically, before the components design, the way the remote is going to work is the same idea as before.
+SPEAKER_02: We still have the user interface, which is all the buttons we're going to incorporate.
+SPEAKER_02: Then there is a chip and still a sender.
+SPEAKER_02: So, yes, there's just this and that.
+SPEAKER_02: I think we've been the power supply as well.
+SPEAKER_02: I'll go into my findings in each of these areas.
+SPEAKER_02: First in the power supply, we have the option of just the standard battery.
+SPEAKER_02: There's a dynamo.
+SPEAKER_02: If you think of the old torches, which you wind up, there's a kinetic option, which is if you've seen those new watches, which you power up by waving around.
+SPEAKER_02: It just requires a small amount of movement.
+SPEAKER_02: Which would mean the batteries wouldn't have to be replaced.
+SPEAKER_02: That's one option, but I was going to cast a little more.
+SPEAKER_02: Then the solar cells, there's a final option.
+SPEAKER_02: For the buttons, we have an integrated push button.
+SPEAKER_02: Just to say all these are supplied by real reaction.
+SPEAKER_02: So, I guess for the ease of quickness needs, we should take them from at least one of these options.
+SPEAKER_02: So, for the buttons, there's an integrated push button.
+SPEAKER_02: I guess it's just the same as the stand ones.
+SPEAKER_02: It says it's similar to the button and mouse for normal, for like modern computer.
+SPEAKER_02: There's a scroll wheel, which is, you know, the new mouse, which is called the Santa section, which you can scroll up and down, which may be for the volume.
+SPEAKER_02: Do that.
+SPEAKER_02: One issue for the buttons is, depending on which material we use, if we use rubber buttons, then it requires a rubber case.
+SPEAKER_02: That's where we have to go into consideration.
+SPEAKER_02: Moving on to the...
+SPEAKER_02: What would be the cost to do, do we know?
+SPEAKER_02: That's on the neck.
+SPEAKER_02: I think there wasn't too much difference in the cost, but the relatively actual buttons, but it does affect the printer's circuit board.
+SPEAKER_02: Which is an excitation.
+SPEAKER_02: Basically for the circuit board, which is the middle, let's just see it down there for chips, like the workings of the actual remote.
+SPEAKER_02: The firm supplies a simple, irregular, and advanced circuit board.
+SPEAKER_02: And there's different prices according to each.
+SPEAKER_02: So if we've got a scroll wheel for one of the buttons, that would require us slightly more advanced circuit board, and if we just had a standard push button.
+SPEAKER_02: One final thing for camera for some information on the speech recognition, there's a small unit available through the company, which obviously would be an extra cost, but it wouldn't affect the size of the remote too much.
+SPEAKER_02: And I guess that would require more advanced circuit boards.
+SPEAKER_02: There is an extra price in that sense.
+SPEAKER_02: There isn't so many extra costs in that sense.
+SPEAKER_02: I'm going to my personal preferences.
+SPEAKER_02: I thought it was possible for power we could use kinetic, which is the idea of the watches.
+SPEAKER_02: You move the remote around to power that.
+SPEAKER_02: And this would avoid the batches running out, having to replace batches and such.
+SPEAKER_02: For the buttons, I thought we'd probably get away just having the standard push buttons, rather than the scroll wheel.
+SPEAKER_02: And for the circuit board, again depends on which features we want in the actual, in your note.
+SPEAKER_02: So if we wanted the scroll wheel and wanted the voice recognition, then we'd have to get a more costly circuit board.
+SPEAKER_02: So with the circuit board you were going for the...
+None: It kind of depends.
+SPEAKER_03: If we're going to have a speech recognition, we'd have to probably get an advanced one and guessing.
+SPEAKER_02: But I don't know, so that was something we'd have to do.
+SPEAKER_02: But are we going for that?
+SPEAKER_02: That's the worst decision for us.
+SPEAKER_02: So we will do that.
+SPEAKER_03: So we will make that decision now, in a sense, that this is the point at which we're discussing that issue.
+SPEAKER_03: So we're not be best to...
+SPEAKER_03: Rather than, I mean, one way is to do each of the presentations and then make decisions going back to the various presentations, as they were, the other way would be to do the presentation and then make the decision at that point in time.
+SPEAKER_00: You have probably better ones, you're discussing it straight away.
+SPEAKER_03: Because at that point in, you've got the details up there.
+SPEAKER_03: So if we wanted to know, for instance, that the scroll wheel required the regular or what required advance, then if we were able to see that down and we could make the decision at that point in time, and then that would be the end of that issue.
+SPEAKER_00: Does that make sense?
+SPEAKER_00: I have a lot of information there, so I might not be very clear.
+SPEAKER_00: Unless you want to forget back in the years.
+SPEAKER_02: Pretty, yeah.
+SPEAKER_02: As I say, it only specified that we need more advance, or for the scroll wheel, and the voice recognition came as a piece of information.
+SPEAKER_02: Now the scroll wheel required the regular, so that...
+SPEAKER_02: Just a bit of a long way, if I like to, but the scroll requires a minimum likelihood chip, which is in a higher price range.
+SPEAKER_03: Okay.
+SPEAKER_03: The display requires an advance chip, the display required an advance chip,
+SPEAKER_02: which in turn is more expensive.
+SPEAKER_03: Okay.
+SPEAKER_02: So we can now do that push-button and just require the simple chip, so that we can get the price down.
+SPEAKER_00: Yeah, the progress of the click and sexy, I think the scroll wheel is maybe a bit kind of bulky. I've got the pictures, so I've seen the pictures, we have the sticker off the side of it.
+SPEAKER_02: Right.
+SPEAKER_02: Okay.
+SPEAKER_03: So we're going for...
+SPEAKER_03: Okay.
+SPEAKER_03: So, transfer word is...
+SPEAKER_01: So we go for the simple one, or...
+SPEAKER_03: Yeah, simple push-button.
+SPEAKER_02: We did everyone get this from the speech recognition.
+SPEAKER_02: There was basically what we said before, the idea that you were calling a sad message and then it picks up a message and it applies to you.
+SPEAKER_02: So it is basically the concept we discussed before.
+SPEAKER_02: But then we don't know for sure whether it would require more complicated circuit, or I guess it would, then I forgot the definite information.
+SPEAKER_02: Maybe we should go more with this, rather than...
+SPEAKER_03: So we go for the simple push-button.
+SPEAKER_03: So effectively we're going for the simple printed circuit board.
+SPEAKER_03: How are we going for the regular?
+SPEAKER_02: If it's just a patch button, then it just needs the simple circuit.
+SPEAKER_03: But is there any other...
+SPEAKER_03: I mean, okay, that's true for that element.
+SPEAKER_03: But we have to take all of them into consideration.
+SPEAKER_03: And so if there is one element that requires more expensive one, or say the regular one, or the more advanced, then that would have to be the same for all of them.
+SPEAKER_01: So I suppose we need to find out what circuit boards back requires, maybe we should really do this.
+SPEAKER_00: But we're not allowed to put that.
+SPEAKER_00: It doesn't seem to send out a signal to the tele, it's like a parent just reply in your message.
+SPEAKER_02: So maybe that would be something, so I don't think it would affect our circuit.
+SPEAKER_02: No.
+SPEAKER_02: Okay, so we have a simple circuit board and that would be an extra, that would be the decision.
+SPEAKER_00: And I don't think you could really perform any of the more functions with this.
+SPEAKER_00: Because the example that they've given me is good morning coffee machine, good morning dual.
+SPEAKER_00: And I'd be useful to see like, where are you in the mood?
+SPEAKER_00: Here I am.
+SPEAKER_00: Sure.
+SPEAKER_00: I think that's maybe as far as that one.
+SPEAKER_00: Could go.
+SPEAKER_03: Okay.
+SPEAKER_02: Yeah, that makes sense.
+SPEAKER_02: So we stick the simple circuit board and then think the speech recognition is nice, too.
+SPEAKER_00: Yeah, just as if I'm waiting to find it.
+SPEAKER_03: Simple circuit board, simple push button.
+SPEAKER_03: Okay.
+SPEAKER_03: Can you, you were wanting to go for the kinetic power supply?
+SPEAKER_02: Yeah, I thought so just for, just for ease of loving to replace the batteries.
+SPEAKER_03: And how does it get charged up?
+SPEAKER_02: I think it works on the basis they have some kind of ball bearings inside.
+SPEAKER_02: There's someone watching this which you kind of, you shape to power that.
+SPEAKER_02: Somehow the mechanism inside, the power's out for your movement.
+SPEAKER_02: So you use the metal and then that powers out to ease it.
+SPEAKER_03: Okay.
+SPEAKER_03: So the speech recognition was, are we going for a speech recognition?
+SPEAKER_03: No.
+SPEAKER_03: Was that required the advanced?
+SPEAKER_00: I think it would be helpful to find it.
+SPEAKER_00: I don't think it.
+SPEAKER_00: Yeah.
+SPEAKER_02: Which I didn't affect the circuit board, just to find it.
+SPEAKER_02: Just to the core.
+SPEAKER_03: I had speech recognition requires an advanced work.
+SPEAKER_02: Although that's where I thought, but maybe it doesn't know.
+SPEAKER_02: Oh.
+SPEAKER_02: Okay.
+SPEAKER_03: Speech recognition, you reckon then is, is just an efficient thing.
+SPEAKER_03: It's simple.
+SPEAKER_03: And so we would want it in as an extra because it doesn't appear to cost too much.
+SPEAKER_03: And that be.
+SPEAKER_02: Okay, shall I pass it in here?
+SPEAKER_03: That wouldn't really cost any more, would it?
+SPEAKER_00: Just check what it says.
+SPEAKER_00: Actually, I don't think it really says anything about the cost, but it says it's already in the coffee machines.
+SPEAKER_00: So I get already.
+SPEAKER_02: I see me with the cost, thanks for that.
+SPEAKER_02: Maybe we'll find out how much like this cost.
+SPEAKER_03: And then after change, change on everything at the last minute.
+SPEAKER_03: Okay.
+SPEAKER_03: Okay.
+None: Okay.
+None: Okay.
+SPEAKER_00: That was quick.
+SPEAKER_00: Okay.
+SPEAKER_00: Sort of.
+SPEAKER_00: Very brief presentation.
+SPEAKER_00: So I'm looking at the remodels out there at the minute, and on them are particularly sleek and sexy.
+SPEAKER_00: I haven't actually got the examples of this raw bottom there.
+SPEAKER_00: But there's some curve cases that you can see.
+SPEAKER_00: All in half, quite a lot of buttons there.
+SPEAKER_00: They seem to just have the number of buttons.
+SPEAKER_01: Is that more of this?
+SPEAKER_00: It just seems to be skipping on with that.
+SPEAKER_02: Yeah, I've found that, and then you just try and get it back.
+SPEAKER_00: Have you right clicked and then go into a previous one?
+SPEAKER_00: Oh, sorry.
+SPEAKER_00: There wasn't much more to say about that.
+SPEAKER_00: Another remodels I looked at, one of the models that did actually have voice recognition where it was connected to the remote control functions.
+SPEAKER_00: And it was quite a swish model where it can control forward devices to be able to start a live video, DVD, audio.
+SPEAKER_00: So that's a bit of competition there.
+SPEAKER_00: So, I mean, maybe it's better not to try and compete with that sort of thing.
+SPEAKER_00: And just to mark it, it is a completely different view point.
+SPEAKER_00: It's the kind of finely lost control of a lot of them trying to compete with the functions.
+SPEAKER_00: The scroll buttons, as I've already mentioned, there's examples of those, but they don't look as sleek as other models.
+SPEAKER_00: And there's no real advantage.
+SPEAKER_00: And because it impacts on other materials in the price, it's not great.
+SPEAKER_03: So, are you saying the scroll buttons?
+SPEAKER_00: Yeah.
+SPEAKER_00: There was a specialist type of remodeling that we could think about.
+SPEAKER_00: There was children's remodeling, they just had a very limited range of buttons in the world, bright and colorful, and you could program them so that they could only look at certain channels.
+SPEAKER_00: But I don't know if that's really an uphill.
+SPEAKER_02: I guess we're going for the biggest market and maybe not.
+SPEAKER_02: Was it specified that we went for the biggest?
+SPEAKER_03: Well, we're going for the international market rather than a local market, but that wouldn't necessarily preclude.
+SPEAKER_03: The one thing that you can often do with products is you can make small modifications.
+SPEAKER_03: You have your basic model, which you would sell at, whatever.
+SPEAKER_03: And then you could have additional features in, you know, like a, you know, model one, model two, a model three, and therefore you can subdivide your market up.
+SPEAKER_03: But that's really more in your fields.
+SPEAKER_02: It's more like a, a, a next step, maybe, a new for hours.
+SPEAKER_03: You know, you could add on for an extra package, but on this basic one, I'm reckoning that we're going for the basic model to be discussed here, and that you would have for future reference, the possibility of adding in extra features at extra cost, to take care of specialist market segments.
+SPEAKER_00: Okay.
+SPEAKER_03: So, so what are we deciding to do here?
+SPEAKER_00: I think because there's already a very good voice recognition technology out there, because hours might not cover the same functions that the media fans do.
+SPEAKER_00: They might have a good idea to market it as a, and find a function.
+SPEAKER_03: Yeah, find a function rather than as a speech function to find your remote.
+SPEAKER_02: Yeah.
+SPEAKER_02: So, okay.
+SPEAKER_02: So, they're going for the international market.
+SPEAKER_02: And some, so maybe all the people might not like speech recognition.
+SPEAKER_02: Oh yeah.
+SPEAKER_00: So, so, there's some languages, might not be compatible.
+SPEAKER_02: Yeah, it would make it quite complicated, where, as these keeps, they've had the same problem.
+SPEAKER_00: Yeah, because I think your program, this one, is a good idea to see whatever you want to your question.
+SPEAKER_01: Yeah, and as is quite a cheap device, I don't know how much we're going to put into it.
+SPEAKER_03: So, you'd have a finder feature rather than a voice recognition feature.
+SPEAKER_03: Yeah.
+SPEAKER_03: And you're talking about scroll buttons.
+SPEAKER_00: Yeah, I think we've decided that it's going to increase the cost in the everyday real, and it's going to be increased from the sleepness of it.
+SPEAKER_03: All right, so we're just going to have the rubber buttons, is that right?
+SPEAKER_00: And just to be aware that there are kind of specialist functions and specialist remote, but we probably don't want to focus on those, like, such as the digital.
+SPEAKER_03: Okay, so not to be focused on.
+SPEAKER_00: Yeah.
+SPEAKER_00: There was a mention, just as kind of a warning about button design, just to avoid ambiguity.
+SPEAKER_00: So, I'll give you the example of, say, your volume buttons were up and down, that might both have a V on for volume.
+SPEAKER_00: Let's think how they did this.
+SPEAKER_03: Good, in flip it around at 90 degrees, 180 degrees, and never up and down.
+SPEAKER_03: An upside down V.
+SPEAKER_03: So, that would show that volume was going up, whereas the one underneath it, see the volume going down.
+SPEAKER_00: I think the thing was that if you decide to do this, to have triangular buttons, somebody might look at this one and see, all this triangular button is pointing up, and that's the first thing that they see.
+SPEAKER_00: Right.
+SPEAKER_00: I will, no, they might see this pointing down.
+SPEAKER_00: I think, right, that's going to turn the volume down, whereas the actual buttons pointing up, so the function is going to turn the button up.
+SPEAKER_00: Be careful what you put on the buttons and be careful of the shape that you make them, because it might be kind of too contradictory and kind of shaped.
+SPEAKER_02: So, maybe we can have some volume written on the side, then up and down on the button design.
+SPEAKER_03: You could have volume up and volume up, down.
+SPEAKER_03: And because the idea was to have limited, it was to have sizable about of information on it, and limited number of buttons, because there were 16 buttons, wasn't there?
+SPEAKER_02: Yeah, that's a big one.
+SPEAKER_00: And I think that's all I had to see before.
+SPEAKER_00: So, what was the decision on the design of the volume button?
+SPEAKER_02: I'm going to go to the design of all the buttons at the moment, or we're going to...
+SPEAKER_01: I've got some things to say about possible design things.
+None: Okay.
+None: You're trying to do it too.
+None: Right.
+SPEAKER_01: I've been looking at some trends in sort of this fashion on top of doing the research into the remote control market.
+SPEAKER_01: The one that's the one I talked about last time that we'd sort of asked people about remote controls, what was good about them, what was bad, what they used.
+SPEAKER_01: And we've also been looking at sort of fashion, what people are wanting out of, consumer goods at the moment.
+SPEAKER_01: So, we've had people in Paris and Milan watching via fashion trends.
+SPEAKER_03: You know where they're yourself.
+SPEAKER_01: Just to summarize, the most important things that came out of the remote control market investigation, the most important thing was that the things sort of lock and fell fancy rather than dysfunctional.
+SPEAKER_01: And second, there should be some technological innovation.
+SPEAKER_01: And then third and less important than the other two, there should be an ease of use as well.
+SPEAKER_01: And apparently, the fashion trends, other people want sort of clothes and shoes and things with fruit and vegetables.
+SPEAKER_01: But the field of the material should be spongy, which is country to last year, partly.
+SPEAKER_01: I'm sure it must have been not spooked last year.
+SPEAKER_01: So, we need to emphasize the fancy design on our remote control above all else.
+SPEAKER_01: And then also try and add in technological innovation, which could be our sort of find a thing with a hand clap.
+SPEAKER_01: And then we need to make it easy to use as a third priority.
+SPEAKER_01: So, perhaps, few of your buttons and functions as we've discussed.
+SPEAKER_01: And then maybe find a way to incorporate these trends so that we sort of capture people's imaginations.
+SPEAKER_01: So maybe we could make the buttons shaped like fruit and veg or the buttons could be spongy somehow.
+SPEAKER_01: Maybe we could make them out of rubber rather than sort of hard plastic.
+SPEAKER_01: And then, to even whacky than that, we could maybe have a fruit or vegetable shaped remote, say in the shape of a banana or something like that.
+SPEAKER_01: Right, so maybe a banana or a courgette or something.
+SPEAKER_01: How far we actually want to go along and sort of follow the trends?
+SPEAKER_01: Do you think the trends are particularly important for this type of gadget or do they not matter that much?
+SPEAKER_00: I think if you start making the buttons fruit shaped, it might make it more complicated to use.
+SPEAKER_03: Well, you were just talking about, you've got to be careful about how you shape your buttons because you're going to miss direct people.
+SPEAKER_03: I would have thought the functionality because the people get cheesed off by having to read instructions, etc.
+SPEAKER_00: So maybe just one button, say the standby button is quite kind of separate from all the other functions.
+SPEAKER_00: Maybe that could be a little apple.
+SPEAKER_00: I wouldn't get in the way of like kind of one nine and it wouldn't cook a number.
+SPEAKER_03: Stand by button.
+SPEAKER_03: No, that incorporates the trend both at the same time not confusing people.
+SPEAKER_03: If you're looking for functionality.
+SPEAKER_02: I guess maybe fruit vegetables, maybe pop in the moment.
+SPEAKER_03: But what are they going to be next year?
+SPEAKER_03: But okay, but you can incorporate that.
+SPEAKER_03: If you change all the buttons, then you've got the problem that this year's fruit and veg next year's I was going to see animals are elephants or whatever.
+SPEAKER_03: That means you're constantly changing your production schedule and you've got to make different molds and everything else.
+SPEAKER_03: Not a good idea.
+SPEAKER_01: I would suggest...
+SPEAKER_01: What were the timescare we're thinking of selling the product over?
+SPEAKER_02: The series we're listening to the remote control market is the kind of thing which takes those kinds of passion trends.
+SPEAKER_02: So it keeps us something which is maybe more universal.
+SPEAKER_00: As far as it's quite a subtle design.
+SPEAKER_02: We can make a little design of changes.
+SPEAKER_02: The spongy feel is...
+SPEAKER_03: Well, yeah.
+SPEAKER_02: Maybe saw the rabbit's design in the kid.
+SPEAKER_03: Was that in the sort of fashion sense?
+SPEAKER_03: The spongy feel was that sort of fashion it was, wasn't it?
+SPEAKER_00: So...
+SPEAKER_00: So you can have a couple of cases as well as buttons.
+SPEAKER_00: And that you can make them curved or double curved.
+SPEAKER_02: Oh yeah, one of the things that if you had rubber buttons and you had a rubber case.
+SPEAKER_02: Oh no, no, sorry.
+SPEAKER_02: So if you use a rubber double-cute case and you must use rubber buttons.
+SPEAKER_02: That's the only way.
+SPEAKER_02: If you have the rubber case and you have to have a rubber button, you need to get rid of it.
+SPEAKER_03: Rubber buttons require rubber case.
+SPEAKER_00: Scrolling.
+SPEAKER_00: Rubber buttons, whether it's spongy feel.
+SPEAKER_03: Have everything rubber.
+SPEAKER_03: The main problem is how frequently do the fashion change?
+SPEAKER_03: Because in essence, in the production, you want things to stay...
+SPEAKER_03: You want to basically mint them out.
+SPEAKER_03: Because if you've got fashion changes and that you're incorporating, then it means that your stock is...
+SPEAKER_03: It lasts your stock and therefore you're selling it or having to sell it at a discounted rate.
+SPEAKER_03: Which you wouldn't want to do, whereas if you kept the product the same.
+SPEAKER_03: But you could have a difference from year to year.
+SPEAKER_03: It seems to me that you could incorporate a fashion statement if you like, rather than changing the whole...
+SPEAKER_03: You're just changing one aspect, like this down by button or something like that.
+SPEAKER_03: And especially because then you could make it something that...
+SPEAKER_02: As soon as you may be unlimited, if I raise last put a logo on the edge.
+SPEAKER_03: Well, you might be limited in space.
+SPEAKER_03: Or you two are obviously going to find out fairly quickly when you move over to your kit modelling stage as to how much...
+SPEAKER_03: How pliable is plasticine?
+SPEAKER_02: The cases, like changing the fashion, like the Nokia phones, where you could take the case and off the outside.
+SPEAKER_02: Wherever that would be too much to incorporate in production.
+SPEAKER_02: Wherever that would just be...
+SPEAKER_02: That's making it more complicated.
+SPEAKER_03: So you're talking about changing the casing.
+SPEAKER_02: Yeah, the actual saw, the look from the outside, so the buttons were stay the same.
+SPEAKER_02: And the general function of the...
+SPEAKER_02: The motor stayed the same, but then you could change the way it would.
+SPEAKER_00: Yeah, and then you could have...
+SPEAKER_00: Or you still would have to have the logo on every new case.
+SPEAKER_00: But you could have like pink cases for the old ones.
+SPEAKER_03: Yeah, you could do a colour change, so that for you...
+SPEAKER_03: I mean, that's effectively what they did with the mobile phones, was to have some in blue, some in red, some in rather than all in black, which for you want as long as it's black.
+SPEAKER_03: So...
+SPEAKER_00: So they're supposed to use the company in classical...
+SPEAKER_03: Yes, oh, that's true, no, I don't mind.
+SPEAKER_00: I mean, why don't you both put it in like clash with anything?
+SPEAKER_03: Well, not necessarily, because you could have your company...
+SPEAKER_03: Or may be finishing up.
+SPEAKER_03: You could have your company badge, and I mean, a lot of computers, for instance, like when you've got there, it actually has a sort of stick-on badge.
+SPEAKER_03: So what you would all...
+SPEAKER_03: All you would really need, whether the casing be any colour, could be any colour, but that badge would then have to stick out top of it, so that, in a sense, with a logo like that, because it's on a white background, the only colour that it might not stick out some well on, would be a white casing, because you're sort of...
+SPEAKER_03: You're badging it, and in fact, a lot of companies get somebody else to make them, and literally just badge them themselves with their own badge over the top.
+SPEAKER_03: And in fact, the way they've got that there, even if you had that on a white, dominant colour of the windows badge, you'd still be able to see it clearly from, you know, a white casing product, so...
+SPEAKER_02: Where have we got the big and the market, how this can like, second-year market selling their cases?
+SPEAKER_02: It might be, since, you can see...
+SPEAKER_00: Well...
+SPEAKER_00: What if it's for younger people?
+SPEAKER_00: Like, with born generation.
+SPEAKER_00: That's what I think would probably go down well.
+SPEAKER_00: And the market, I say, a child's being on that side of it, isn't it?
+SPEAKER_01: I mean, if people say that it's the look, or the fancy looking thing around, yeah, I'm not convinced on whether having change would cover this would be something that people buy into.
+SPEAKER_01: I think with the mobiles, it's a communication device, people see you with it all about,
+SPEAKER_02: the spurs were a bit of a keep going over it. In the house, isn't it?
+SPEAKER_01: Yes, of course.
+SPEAKER_00: Okay, so if we just went for one colour, it looks like...
+SPEAKER_03: So don't change case.
+SPEAKER_03: Change case colour, and we're sort of saying no to that.
+SPEAKER_00: Did we decide on the other case?
+SPEAKER_00: Did the spongey feel odd?
+SPEAKER_00: Did we think that that might go as a trend?
+SPEAKER_01: Well, it was different last year.
+SPEAKER_01: The trend was different last year, partly.
+SPEAKER_01: It was not as much a film, but...
+SPEAKER_01: I don't know whether the trend would change.
+SPEAKER_01: I don't know whether it's one of those things that...
+SPEAKER_01: Like sort of having all group shaped keys that probably would go out very quickly.
+SPEAKER_01: Yeah.
+SPEAKER_01: Just the fact that it was a rubber case is probably less...
+SPEAKER_01: Less of a sort of...
+SPEAKER_01:...sensri-snold.
+SPEAKER_03: If you're going for a fashion trend like that, then you'd have to have interchangeable cases so that you could...
+SPEAKER_03: Or because otherwise someone's going to have to buy a complete new, rather than just a case.
+SPEAKER_02: This seems to make sense to me, which is maybe stick with a standard rubber case as well.
+SPEAKER_02: Okay.
+SPEAKER_00: Well, haven't we talked about the curvature of the case?
+SPEAKER_00: This flat, single-curve, and this double-curve?
+SPEAKER_02: I'm not exactly sure.
+SPEAKER_02: Maybe a case gives it like a more aesthetic feel.
+SPEAKER_02: A double-curve would require...
+SPEAKER_02:...to perform miracles for the past.
+SPEAKER_02: But it seems like...
+SPEAKER_03: When you say, when you say,
+SPEAKER_01: double-curve, what exactly does that mean?
+SPEAKER_00: I'm not exactly sure. I'll show you.
+SPEAKER_00: There's a more set up on.
+SPEAKER_00: See how...
+SPEAKER_00: Let's just get up together.
+SPEAKER_00: See how the one...
+SPEAKER_00:...I'm not...
+SPEAKER_03: One thing to consider is that...
+SPEAKER_03: In some ways you want...
+SPEAKER_03: By having a fairly standard case, it means they can all fit together on top of each other for storage purposes and shops, and it makes it easier...
+SPEAKER_03:...if you can store them up on top of each other.
+SPEAKER_03: Whereas if you do fancy things, you then have to put it in a packaging box.
+SPEAKER_03: That does that.
+SPEAKER_03: And the cost of packaging could be quite important...
+SPEAKER_03:...of either the total cost of the product.
+SPEAKER_02: So should we just work out what we decided on the after?
+SPEAKER_02: So...
+SPEAKER_00: It's not very clear up there, but it's like someone who has kind of bulges...
+SPEAKER_00:...and sets one on the end.
+SPEAKER_00: When it's a curvy...
+SPEAKER_00: I don't know if a double-curve is maybe...
+SPEAKER_00:...it comes off slightly...
+SPEAKER_01: That's right, so I don't worry.
+SPEAKER_00: But it is a kind of sleek look if you've got curves in there.
+SPEAKER_03: So you want to go for curves, more curves?
+SPEAKER_03: We're meant to be finishing this meeting in about a minute or so.
+SPEAKER_00: Yeah, okay, so you should be...
+SPEAKER_00: You're going for a single curve just to compromise.
+SPEAKER_03: Okay, curve to a double curve to a single curve.
+SPEAKER_02: So did we decide on the kinetic power supply?
+SPEAKER_02: Do you have to go around?
+SPEAKER_02: Yeah.
+SPEAKER_00: And the other one is...
+SPEAKER_00: The other one is...
+SPEAKER_00: I don't really know much about the classical logo yet,
+SPEAKER_02: but possibly it's thicker. Yeah, it was like...
+SPEAKER_02:...we're going to give the simple circuit board just to keep the car stand.
+SPEAKER_02: I think we can't buy...
+SPEAKER_02:...by not having anything to come here to keep the car.
+SPEAKER_02: Yeah, and the voice recognition...
+SPEAKER_00:...we're going to use that car, we're just to find it.
+SPEAKER_00: Yeah, yeah.
+SPEAKER_02: We can always decide against it if something comes up.
+SPEAKER_02: That's just a bit...
+SPEAKER_01:...like something to be like.
+SPEAKER_01: Okay.
+SPEAKER_01: And then are we going for sort of one button?
+SPEAKER_01: Yeah, that sounds...
+SPEAKER_00:...like you wouldn't do too much harm in a couple of years.
+SPEAKER_00: What sort of shape do you want?
+SPEAKER_03: So we've got spongy feel buttons as well, have we?
+SPEAKER_03: Or was that...
+SPEAKER_01: That's rubber buttons.
+SPEAKER_03: So it's rubber buttons, so it's not really spongy feel buttons.
+SPEAKER_03: It's just rubber buttons.
+SPEAKER_03: Yeah.
+SPEAKER_03: With the rubber case...
+SPEAKER_03:...and the standby button is going to be different.
+SPEAKER_01: Yeah, okay.
+SPEAKER_00: I think an apple would be a good recognisable shape...
+SPEAKER_00:...if you start getting all busy.
+SPEAKER_03: Okay, so what shape are we making the standby button?
+SPEAKER_03: Apple.
+SPEAKER_00: Apple.
+SPEAKER_00: Sorry?
+SPEAKER_00: Should we vote on it?
+SPEAKER_00: We'll go for it.
+SPEAKER_01: We'll go for it.
+SPEAKER_01: It's quite big one as well.
+SPEAKER_01: Big apple.
+SPEAKER_01: What could be red?
+SPEAKER_01: Could be red apple.
+SPEAKER_01: Yeah.
+SPEAKER_01: I don't know why.
+SPEAKER_00: A red apple?
+SPEAKER_00: Yeah, because we want to incorporate a bit of colour if we can.
+SPEAKER_00: Once we find out.
+SPEAKER_02: Okay, and then we're going to...
+SPEAKER_02: You're going to work on keeping the buttons like that simple.
+SPEAKER_02: Just like the...
+SPEAKER_02: Just working out what we're going to do for the next time.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah, that seems pretty straightforward.
+SPEAKER_00: Yeah.
+SPEAKER_00: Because more so we'll just be kind of...
+SPEAKER_00:...mimly circular or a very clean.
+SPEAKER_03: Okay.
+SPEAKER_03: So what was that last thing you got in there?
+SPEAKER_00: Just to keep the shape of the buttons simple.
+SPEAKER_03: Right, do I have...
+SPEAKER_03:...much option on that.
+SPEAKER_03: I thought you were going for a single curve and...
+SPEAKER_00:...I was just the...
+SPEAKER_00:...shaped of the buttons.
+SPEAKER_03: Alright.
+SPEAKER_02: And so yeah, just keeping the...
+SPEAKER_02:...sort of the labelling and labeling of them pervious and what's wrong?
+SPEAKER_02: Yeah.
+SPEAKER_02: Having sort of something.
+SPEAKER_03: Alright, so the shape of the buttons...
+SPEAKER_03:...simple.
+SPEAKER_03: Okay, so...
+SPEAKER_03: That's that, I guess.
+SPEAKER_03: You know, go away and get these things sorted out.
+SPEAKER_03: I guess you two are on plasticine duty or whatever.
+SPEAKER_03: Okay, so...
+SPEAKER_02:...then...
+SPEAKER_02:...looks like it.
+None: Okay.
+SPEAKER_03: Okay.

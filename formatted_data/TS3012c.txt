@@ -1,0 +1,950 @@
+SPEAKER_02: Did you manage?
+SPEAKER_03: Yeah.
+SPEAKER_03: Quite?
+SPEAKER_03: Okay.
+SPEAKER_03: We'll see you.
+SPEAKER_03: Yeah.
+SPEAKER_00: Hello.
+SPEAKER_00: I do.
+SPEAKER_00: So what were you guys discussing?
+SPEAKER_00: No, it's just, I was a few good manage.
+SPEAKER_00: Yeah.
+SPEAKER_00: Did you find anything new?
+SPEAKER_03: No, nothing special.
+SPEAKER_03: I have a lot of work for the...
+SPEAKER_03: Great.
+SPEAKER_03: I'm having a lot of fun with you.
+SPEAKER_02: Hey, everything alright?
+SPEAKER_01: Just a little bit of time.
+SPEAKER_01: Okay.
+SPEAKER_01: I hope it's something we can work with.
+SPEAKER_03: I have the same.
+SPEAKER_03: Do you have a lot of film information?
+SPEAKER_02: Do you have a lot of new information?
+SPEAKER_01: Well, I heard that there was a new component, speech recognition component, which was...
+SPEAKER_01: That's true.
+SPEAKER_01: We were up to standard, so we might use that.
+SPEAKER_01: I put that in my drawing, but again, I did not have that much time, so...
+SPEAKER_02: I have a lot of film.
+SPEAKER_02: I've made a complete list of...
+SPEAKER_02: Everything that we can use.
+SPEAKER_02: All the components that are available.
+SPEAKER_01: Okay, that's just super.
+SPEAKER_02: I still don't have any finance information, but these will have a lot more to go on now.
+SPEAKER_01: Okay, if I'm just too bad.
+SPEAKER_01: You need to...
+SPEAKER_01: Yeah, I have to start it first.
+SPEAKER_01: Okay.
+SPEAKER_00: Okay, we'll go again.
+SPEAKER_00: Well, second phase, conceptual design.
+SPEAKER_00: It's fine.
+SPEAKER_00: Everybody knows what we're talking about, so...
+SPEAKER_00: Yeah.
+SPEAKER_00: Take you past a minute, so the last meeting again.
+SPEAKER_00: Again, you get your three-present date to see what you came up with.
+SPEAKER_00: So, too bad we don't have any finance information, apparently.
+SPEAKER_00: So, it's too bad.
+SPEAKER_00: So, then we'll just have to go on the information that we have to make the...
+SPEAKER_00: Make final decision on a conceptual design.
+SPEAKER_00: There we go.
+SPEAKER_00: Anyway, last...
+SPEAKER_00: We'll discuss the last time.
+SPEAKER_00: You'll remember that.
+SPEAKER_00: We have to keep the electronics size in mind.
+SPEAKER_00: So, it goes for you.
+SPEAKER_00: We have to have an easy design with big buttons, which are durable.
+SPEAKER_00: And there are people actually willing to spend money to do...
+SPEAKER_00: To get more features.
+SPEAKER_00: Among those features, LCD screen, our voice recognition are very popular.
+SPEAKER_00: So, we have to make a move on that area, I guess.
+SPEAKER_00: Especially when the new component is applicable in our product will be fine.
+SPEAKER_00: Anyways, well, DeltaX wasn't important.
+SPEAKER_00: And that's what I took.
+SPEAKER_00: The consumer, yeah, we aim for young consumers, so that's fine.
+SPEAKER_00: And, well, actually...
+SPEAKER_00: Yeah, we did need some more data on finances, but we still don't have that apparently.
+SPEAKER_00: That's too bad.
+SPEAKER_00: Yeah, we need to...
+SPEAKER_00: We are going to implement the beep and the flash thing to recover your remote.
+SPEAKER_00: So, while these interchangeable covers are apparently, which will make it a more fashionable product.
+SPEAKER_00: Going decisions anyway.
+SPEAKER_00: This will have to do this after the...
+SPEAKER_00: After you give your presentation, so just close this one now.
+SPEAKER_00: And let's...
+SPEAKER_00: Let's see.
+SPEAKER_00: Where's the nerdy?
+SPEAKER_00: Where's the lot to tell?
+SPEAKER_00: You had a lot to go on, so let you go first.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay.
+SPEAKER_02: Let's see, my...
+SPEAKER_02: The presentation is...
+None: Okay.
+SPEAKER_02: This, I mentioned before, every feature of our remote control needs to have their own operating and electronic devices.
+SPEAKER_02: We need to take care of that.
+SPEAKER_02: Then, warning, there has to be a chip in our remote control.
+SPEAKER_02: And the chip requirements needed for a normal button is just a simple chip.
+SPEAKER_02: Scroll wheel, regular, and LCD is an advanced.
+SPEAKER_02: Of course, this is more expensive than this.
+SPEAKER_02: So, we have to decide on that in a minute.
+SPEAKER_02: The available components for energy are...
+SPEAKER_02: We have a basic battery, a hand-in-dynamo, like in old torches.
+SPEAKER_02: We have a kinetic provision.
+SPEAKER_02: Then, you have to shake your remote control to get energy.
+SPEAKER_02: And we have solar cells.
+SPEAKER_02: I suggest that we decide on that one immediately.
+SPEAKER_02: Then, I have all lists.
+SPEAKER_02: So, my personal favorite is the kinetic provision, because...
+SPEAKER_02: Is it a provider enough energy?
+SPEAKER_00: I think so.
+SPEAKER_00: Yes.
+SPEAKER_00: Also, if we were to choose the LCD option, Yes.
+SPEAKER_00: Would you give it a turn here?
+SPEAKER_00: Okay.
+SPEAKER_02: Because I have information.
+SPEAKER_02: You take the remote control, you pick it up at least two times a day.
+SPEAKER_02: So, then it's already shaken and gives longer.
+SPEAKER_02: Sure, if it's shaken enough.
+SPEAKER_01: Because I don't really see people shaking their remote control.
+SPEAKER_00: No, I don't think so, because watches can go on kinetic energy, because they move all the time.
+SPEAKER_00: But I'm sure...
+SPEAKER_00: I mean, remote's lies still, I think, like 99% of the time.
+SPEAKER_00: So, I don't think that's a...
+SPEAKER_00: The other turns were solar cells, and I don't think that's applicable.
+SPEAKER_02: Other options are solar cells, hand-in-dynamo, and basic battery.
+SPEAKER_02: I think...
+SPEAKER_02: Why shouldn't we take a basic battery?
+SPEAKER_03: Rechargeable, maybe.
+SPEAKER_03: Only a basic battery.
+SPEAKER_00: Okay, but I think everybody knows how to use that.
+SPEAKER_00: It's common.
+SPEAKER_00: And it's available everywhere, so why should...
+SPEAKER_02: But I think this rules out our rechargeable units.
+SPEAKER_02: This is really a basic battery.
+SPEAKER_00: A really basic battery.
+SPEAKER_00: Normal battery.
+SPEAKER_00: Yeah, it wasn't in the options of rechargeable module wash.
+SPEAKER_02: Okay, that's noted now.
+SPEAKER_00: Okay, of course you could place rechargeable batteries, but that's up to the consumer itself.
+SPEAKER_02: Okay, but then we don't offer rechargements function.
+SPEAKER_02: That's what it's...
+SPEAKER_00: Well, it's not in the list, so we can choose from it.
+SPEAKER_00: Exactly.
+SPEAKER_00: Well, it's like other batteries.
+SPEAKER_02: Next one is curving.
+SPEAKER_02: We can make a model that has one curve, two or three.
+SPEAKER_02: And...
+SPEAKER_02: There's being...
+SPEAKER_02: The shape.
+SPEAKER_02: Of course, the more...
+SPEAKER_02: The more expensive.
+SPEAKER_01: The more expensive.
+SPEAKER_01: The more control itself.
+SPEAKER_01: Okay.
+SPEAKER_01: I was thinking along the line of one curve, I'll show that in my design.
+SPEAKER_01: Okay, we'll get back to that later.
+SPEAKER_00: Yeah, I think one curve is...
+SPEAKER_00: But what are the implications of using some of the more curves?
+SPEAKER_00: It gets more expensive.
+SPEAKER_00: More expensive.
+SPEAKER_00: Okay, so I think with the actually that we had there, it's two curves, I suppose.
+SPEAKER_02: Okay.
+SPEAKER_02: And I believe even that the number of options we have on putting things in it goes down to decreases.
+SPEAKER_02: Okay.
+SPEAKER_02: Exactly.
+SPEAKER_02: Material.
+SPEAKER_02: I have to offer a plastic rubber wood or titanium.
+SPEAKER_02: If we choose plastic, we cannot choose solar cells for energy.
+SPEAKER_02: If we choose titanium, we cannot use more than one curve.
+SPEAKER_02: But we don't have any...
+SPEAKER_00: One curve, I have.
+SPEAKER_01: Okay, I'd go for plastic because I have a couple of curves in my design.
+SPEAKER_01: Let's get back to it.
+SPEAKER_00: Okay, we have...
+SPEAKER_00: So I think we can rule out...
+SPEAKER_00: I'm not sure we can do anything.
+SPEAKER_00: I will do that when you get your design.
+SPEAKER_02: But I think wood is not an option either.
+SPEAKER_00: No, wood is not an option.
+SPEAKER_00: No, it's stylish.
+SPEAKER_00: You can change the covers anyway.
+SPEAKER_02: My personal thought was, Robert, because I had an email, I believe it was from you.
+SPEAKER_02: Yeah, keeping my control.
+SPEAKER_00: It's a follow-up control.
+SPEAKER_00: Followed a lot in the ground, so you don't want it to break.
+SPEAKER_00: So you either have rubber edges or a rubber rule control, it's very durable.
+SPEAKER_01: It doesn't have to be unbreakable because we...
+SPEAKER_01: You don't have to be unbreakable.
+SPEAKER_00: Do you need to keep selling these things?
+SPEAKER_00: It's not supposed to...
+SPEAKER_00: Yeah, break after one use.
+SPEAKER_00: Okay, well that...
+SPEAKER_00: They follow a lot.
+SPEAKER_02: Definitely true.
+SPEAKER_02: I think we have to decide in this anyway.
+SPEAKER_02: Because if you make removable covers, it has to be one of those materials.
+SPEAKER_02: We have no more than this.
+SPEAKER_01: Well, we'll rubber actually protect the remote control itself.
+SPEAKER_00: Well, yeah, for example, if you take hard plastic, if it falls at my crack, and rubber kind of...
+SPEAKER_01: Yeah, but then you buy a new cover.
+SPEAKER_01: But...
+SPEAKER_00: I'm not sure if it's the entire cover you change.
+SPEAKER_03: Are we focusing very much on the covers now?
+SPEAKER_00: I think it's just...
+SPEAKER_00: Now we're going for the basic design.
+SPEAKER_00: Everyone, I expand our options, be fashionable, then we can get changeable covers.
+SPEAKER_00: But I think the basic thing...
+SPEAKER_00: Let's just rule out wood for now and continue.
+SPEAKER_03: But are we focusing on the younger people or the elder people?
+SPEAKER_00: We're definitely focusing on the younger people.
+SPEAKER_00: Because that was our main goal.
+SPEAKER_02: Then...
+SPEAKER_02: I proceed, but I need to know after this meeting.
+SPEAKER_02: Okay, okay, we go.
+SPEAKER_02: In the face, I have four things to offer.
+SPEAKER_02: Normal push buttons, of course.
+SPEAKER_02: We have a lot of expertise on that one.
+SPEAKER_02: We have a large history, our company, on push buttons.
+SPEAKER_02: Scroll wheels, those can be pushed as well, although that is more expensive.
+SPEAKER_02: Liquid crystal, color display.
+SPEAKER_02: And...
+SPEAKER_02: Okay, and if we use rubber, I already mentioned that we can only use rubber buttons.
+SPEAKER_02: So rubber can only match with rubber.
+SPEAKER_02: Which one of those are we going to use?
+SPEAKER_02: Push buttons, that's...
+SPEAKER_00: I think...
+SPEAKER_00: Yeah, of course we're going to use...
+SPEAKER_00: Yeah, I did go on the thought of a scroll wheel, actually.
+SPEAKER_00: I'm still deciding on what could you use it for?
+SPEAKER_00: I think the channel...
+SPEAKER_00: I think that would be annoying, because it might accidentally scroll on to another channel.
+SPEAKER_00: I think a push button for channel would be better.
+SPEAKER_00: I mean, for a volume control, it's a smoother motion.
+SPEAKER_00: You can just increase or decrease.
+SPEAKER_01: Is it really necessary?
+SPEAKER_01: No, thanks a lot.
+SPEAKER_03: I haven't taken it to consideration.
+SPEAKER_03: The younger people need one.
+SPEAKER_03: My investigation turns out that the younger people want a little bit of material that is...
+SPEAKER_03: Flashy, yeah.
+SPEAKER_02: I think so.
+SPEAKER_02: It's not that much.
+SPEAKER_02: If we take a normal scroll wheel without pushing, then it's not expensive.
+SPEAKER_02: We can do that.
+SPEAKER_02: But why would we use it?
+SPEAKER_02: We don't need it.
+SPEAKER_00: If it's not a wide-putting...
+SPEAKER_00: If it's not something people are looking for or it's useful, I think they are looking for it.
+SPEAKER_02: Of course we have a young target group, so they might find that...
+SPEAKER_02: It's cruel.
+SPEAKER_00: It's not useful.
+SPEAKER_00: I don't think it gives an extra function to the robot anyway.
+SPEAKER_02: So push buttons, we will use LCD screen.
+SPEAKER_02: Perhaps...
+SPEAKER_00: You get on the LCD screen.
+SPEAKER_00: Is it expensive?
+SPEAKER_02: I only know that if we are using that we need an advanced chip in it.
+SPEAKER_02: And that is small.
+SPEAKER_00: And how much more expensive is that?
+SPEAKER_00: I have no idea.
+SPEAKER_00: I have no absolute numbers.
+SPEAKER_00: Absolutely.
+SPEAKER_00: But it just more expensive and takes more room, I suppose.
+SPEAKER_02: But I don't think the room is really an issue.
+SPEAKER_00: No, thanks an issue.
+SPEAKER_00: Okay.
+SPEAKER_00: Let's go for it.
+SPEAKER_00: Because it is very hot in our target group, I think we should take into consideration to build an LCD screen in it.
+SPEAKER_01: I have two designs, one including an LCD screen, which is basically the deluxe edition.
+SPEAKER_01: And then I also have a standard edition, which we can also choose to do.
+SPEAKER_01: We can also choose to do that.
+SPEAKER_00: We can basically have the same functionality but lacks the LCD screen.
+SPEAKER_00: Exactly.
+SPEAKER_00: We'll pick from that.
+SPEAKER_00: We'll just combine everything later.
+SPEAKER_02: The first one is the chip, that is no longer an option, it has to be an advanced one now.
+SPEAKER_02: Because we have an infrared sender, I think that is basic.
+SPEAKER_02: Basically it.
+SPEAKER_02: Otherwise it is not a remote control.
+SPEAKER_02: And we have the sample sensor and speaker, the voice recognition thing.
+SPEAKER_02: Are we going to do that?
+SPEAKER_02: What else?
+SPEAKER_00: I would ask you if it is expensive but apparently you don't have any data.
+SPEAKER_02: I only have a relative...
+SPEAKER_00: What was the exact one you got on the new computer?
+SPEAKER_01: I got the new computer that is relatively small.
+SPEAKER_00: So we can implement it.
+SPEAKER_00: Yes, so why if it is small and we can't...
+SPEAKER_00: Why shouldn't we?
+SPEAKER_00: Yeah.
+SPEAKER_00: And there is...
+SPEAKER_00: That goes over my own world.
+SPEAKER_00: What was the last number of how many people were interested in voice recognition?
+SPEAKER_00: I thought it was hard for different countries of course.
+SPEAKER_00: The most of them.
+SPEAKER_00: You had to program it yourself, I suppose.
+SPEAKER_00: Their own voice.
+SPEAKER_03: More than 60%.
+SPEAKER_00: More than 60% of the people would like a recognition.
+SPEAKER_03: Mino for 70% I think.
+SPEAKER_03: I have to look it up.
+SPEAKER_00: If it is small, if it fits, if people like it, why not?
+SPEAKER_02: But don't we have any information about the scroll wheel?
+SPEAKER_02: If people would like that.
+SPEAKER_02: No, of course that is the same story.
+SPEAKER_02: It is not necessary.
+SPEAKER_02: Like an LCD, but it adds something to the...
+SPEAKER_00: Yeah, we got some data on people that are interested in that.
+SPEAKER_00: And I don't think the scroll wheel offers new functionality.
+SPEAKER_00: Whereas speech recognition and LCD screen do offer new functionality in your product.
+SPEAKER_02: But I think we now already have to implement an advanced chip.
+SPEAKER_02: I think so because if...
+SPEAKER_00: I think we're...
+SPEAKER_00: Especially if you're going...
+SPEAKER_00: Maybe if you have the two editions you want to give out, probably you have one with speech recognition.
+SPEAKER_01: Well, they basically can have speech recognition.
+SPEAKER_01: It's mainly focused on the LCD aspect.
+SPEAKER_00: Hold on a minute, were you finished?
+SPEAKER_00: No.
+SPEAKER_00: But that's okay.
+SPEAKER_00: Because if there's something else...
+SPEAKER_00: Did you want it to see them?
+SPEAKER_02: Did you have all the materials or everything?
+SPEAKER_02: This was the last one.
+SPEAKER_02: I have a solution.
+SPEAKER_00: Just go for the design from now.
+SPEAKER_00: Just have a seat for a second.
+SPEAKER_00: We'll combine everything.
+SPEAKER_01: So this is basically the deluxe edition?
+SPEAKER_00: Why is it squared?
+SPEAKER_00: Why did you pick square?
+SPEAKER_00: It's basically...
+SPEAKER_01: It has some futuristic...
+SPEAKER_01: Ten-chill.
+SPEAKER_01: I don't really know, but I just thought that...
+SPEAKER_01: In normal remote controls you have like smooth curves and this and that.
+SPEAKER_01: And this is something new.
+SPEAKER_01: This is something different, something fresh.
+SPEAKER_00: It's true.
+SPEAKER_01: And basically what you can see here is that it has a little...
+SPEAKER_01: Yeah, that's a gap.
+SPEAKER_01: Which you can put your finger in.
+SPEAKER_00: Okay, so just...
+SPEAKER_01: You can hold it really comfortable.
+SPEAKER_01: That's basically the...
+SPEAKER_03: But it's only in right hand and then...
+SPEAKER_03: Or left hand.
+SPEAKER_00: It's just a really nice...
+SPEAKER_00: It's a curve inside the thing.
+SPEAKER_01: As you can see, this is the...
+SPEAKER_01: It's on the back.
+SPEAKER_03: Oh, on the back, okay.
+SPEAKER_01: You can't really see that well.
+SPEAKER_01: But this is the LCD screen.
+SPEAKER_01: So just imagine it goes that way.
+SPEAKER_01: Oh yeah, I know.
+SPEAKER_01: And you can see you can hold it in your left or in your right hand.
+SPEAKER_01: And I also made a quick image because I did not have that much time of the standard edition.
+SPEAKER_01: Which has basically the keys are pretty much the same.
+SPEAKER_00: The keys are probably the number keys, I suppose.
+SPEAKER_00: Yeah.
+SPEAKER_01: I had to do this really fast.
+SPEAKER_01: So, excuse me for the inconvenience here.
+SPEAKER_01: As you can see, the keys moved.
+SPEAKER_00: Well, you can work on the actual console or actual design later with them.
+SPEAKER_01: So these are basically the two types we have.
+SPEAKER_01: So if we were to select the LCD screen, the transmitter here, you can see the lights...
+SPEAKER_00: One thing you have to keep in mind is that you're moving the number keys from the top.
+SPEAKER_00: And the simple design, you have them at the top.
+SPEAKER_00: And the complex design, you have them at the bottom.
+SPEAKER_00: So it would give us a totally different design.
+SPEAKER_00: So it's actually making a whole different product instead of two different models.
+SPEAKER_00: I think it would be very expensive to produce two whole different products.
+SPEAKER_01: Well, we can shift that.
+SPEAKER_01: But normally, as you can see there, we put the number buttons right on top.
+SPEAKER_01: Whereas because we have the LCD screen here, we had to move them downwards.
+SPEAKER_01: So what you could say is that...
+SPEAKER_00: For example, why did you pick the numbers all the way below and the channels and volume controls?
+SPEAKER_01: Because these are basically the functions you use the most.
+SPEAKER_01: So if you hold it in your hand like this, you put your finger in the gap.
+SPEAKER_01: This is the most easy part.
+SPEAKER_01: For example, because people are zapping most of the time,
+SPEAKER_00: to get into consideration what people would prefer. Okay, if you all agree, I'm fine with it.
+SPEAKER_01: Okay, so that's pretty much what I had in mind, as you can see here, this can be space for extra keys or just be design things.
+SPEAKER_03: Maybe it's better to look at what the people want.
+SPEAKER_03: Yeah.
+SPEAKER_03: So I can show my festigation.
+SPEAKER_00: I think we're going towards the looks edition anyway.
+SPEAKER_00: Yeah, we're going to see what they want now.
+SPEAKER_03: Especially for young people.
+SPEAKER_03: Where is it?
+SPEAKER_00: That's mine.
+SPEAKER_00: Oh, yeah, you should send it to the folder first.
+SPEAKER_00: Okay, let's just assume we go for it's one.
+SPEAKER_03: Okay, now it must be there.
+SPEAKER_03: Yeah, here it is.
+SPEAKER_03: Okay, the festigation turns out that most people want to look and feel like.
+SPEAKER_03: It's the same as before, but it must be a little bit fancier than the look of it.
+SPEAKER_03: The second important thing is it must be technological and innovative.
+SPEAKER_03: So there's the LCD screen is perfect, I think.
+SPEAKER_01: And not the speech recognition.
+SPEAKER_03: Yeah, that's very important.
+SPEAKER_03: And the third thing is it should be easy to use.
+SPEAKER_03: So not too much buttons and channel selection.
+SPEAKER_03: I think that's what you showed is perfect.
+SPEAKER_03: And what the young people want is in Paris and Milan.
+SPEAKER_03: It showed out that the fruit and vegetables are trendy.
+SPEAKER_03: You see it in the clothes and everything.
+SPEAKER_03: And the contrast of it, the buttons must be a little bit spongey material.
+SPEAKER_03: So Robert, I think that's the best.
+SPEAKER_03: It would be the best as a material.
+SPEAKER_03: We were focusing on the younger people.
+SPEAKER_03: So the elderly.
+SPEAKER_03: They wanted a little bit of wood in it.
+SPEAKER_03: That's not important.
+SPEAKER_01: It could be a cover.
+SPEAKER_01: But it's not.
+SPEAKER_01: It focuses the young audience.
+SPEAKER_03: So let's stick to that.
+SPEAKER_03: I thought it makes a young classic remote with...
+SPEAKER_00: I think in this case you're losing the focus on the fruit.
+SPEAKER_03: That's why I do that.
+SPEAKER_00: That's what we're focusing on.
+SPEAKER_00: So I think the spongy field gives us rubber.
+SPEAKER_03: With fruit.
+SPEAKER_03: Yeah, with a pearly...
+SPEAKER_00: Cofer or something like that.
+SPEAKER_00: Yeah, maybe also.
+SPEAKER_00: Yeah, I tend to disagree with the sharp form.
+SPEAKER_00: Especially if you're saying fruits and vegetables, maybe it's supposed to be a little more round.
+SPEAKER_03: Yeah, a little more round.
+SPEAKER_03: In form of a vegetable or fruit.
+SPEAKER_03: Yeah, for example.
+SPEAKER_01: Yeah, but that's just more a seasonal...
+SPEAKER_01: A trend thing.
+SPEAKER_01: That's what we're doing.
+SPEAKER_01: The idea now is that you can put a cover on it.
+SPEAKER_01: For example, with fruit like a shape or whatever.
+SPEAKER_01: I think shape is a bit...
+SPEAKER_00: Yeah, you guys do that really.
+SPEAKER_01: Next year, it'll be something completely different.
+SPEAKER_01: And then you have your apple-shaped remote control.
+SPEAKER_01: Which is not trendy anymore.
+SPEAKER_00: So I think that's more something you can focus.
+SPEAKER_00: Like your start-track phaser thing shape control.
+SPEAKER_00: Well, you can...
+SPEAKER_00: It's really sharp.
+SPEAKER_01: What you can do is smooth the edges indeed.
+SPEAKER_01: But that will bring extra expenses.
+SPEAKER_00: Or maybe just make it into a little...
+SPEAKER_00: A smooth curve instead of just a bit sharp...
+SPEAKER_03: Or fruit and vegetables around.
+SPEAKER_03: So it's better.
+SPEAKER_00: I think there needs to be a little...
+SPEAKER_00: I think it's too sharp.
+SPEAKER_00: The edges are too sharp.
+SPEAKER_00: The bottom is fine.
+SPEAKER_00: Of course, if it's square, we just make the top a little rounded off on the sides.
+SPEAKER_00: I think according to my information,
+SPEAKER_02: this would be two curves. That would be two curves.
+SPEAKER_02: We have one less than one right.
+SPEAKER_02: And that's this Ables.
+SPEAKER_02: What was it again?
+SPEAKER_02: It is something that we could not do then.
+SPEAKER_00: One curve.
+SPEAKER_00: You could also make the curve go through.
+SPEAKER_00: But that would make it a top round.
+SPEAKER_01: We've got one curve here.
+SPEAKER_02: Okay, that's not a problem.
+SPEAKER_02: That's one of the titanium.
+SPEAKER_03: That's what we can have on here.
+SPEAKER_03: It's not for the trendy thing of it.
+SPEAKER_01: No, no, no, no.
+SPEAKER_01: Because you mentioned that more curves, the more expensive.
+SPEAKER_01: So I'm just taking that.
+SPEAKER_01: Okay.
+SPEAKER_00: But that's a titanium.
+SPEAKER_00: It would give us only one curve.
+SPEAKER_00: But we don't have a knife.
+SPEAKER_00: We're not using titanium.
+SPEAKER_00: No, we have no knife.
+SPEAKER_00: But we picked rubber, right?
+SPEAKER_00: Right.
+SPEAKER_00: We did.
+SPEAKER_00: So basically what we can do is...
+SPEAKER_01: Just do something on the board.
+SPEAKER_01: H is a little bit less sharp.
+SPEAKER_01: But the problem then is, is that it will start to resemble the remote controls as we have them today.
+SPEAKER_01: We were looking at something fresh, something trendy.
+SPEAKER_00: Well, actually we're setting ourselves apart by technology alone, actually.
+SPEAKER_00: So that...
+SPEAKER_00: Let's see what you're doing.
+SPEAKER_02: These are what they call the curves.
+SPEAKER_02: This side.
+SPEAKER_02: Okay, I like that.
+SPEAKER_00: Not really the curves on the side of the...
+SPEAKER_02: No, this is what they mean.
+SPEAKER_02: Oh, okay.
+SPEAKER_00: Okay, now I understand why they have more like...
+SPEAKER_00: where the curves decrease the...
+SPEAKER_00: the size of the electrons that can be inside.
+SPEAKER_00: Okay.
+SPEAKER_00: I don't think the outside would be called as a curve, really.
+SPEAKER_00: Yeah, that's not it.
+SPEAKER_00: Thanks for all the basic model looking from the side.
+SPEAKER_00: Anyway.
+SPEAKER_00: Well, I should come up with some designs fast anyway.
+SPEAKER_03: But you can make...
+SPEAKER_03: if you want to use fruit in the...
+SPEAKER_00: Okay.
+SPEAKER_01: But isn't the fruit like a cover thing?
+SPEAKER_00: Well, you shouldn't focus on the...
+SPEAKER_00: I covered it because a lot of things we came up with.
+SPEAKER_00: You shouldn't be too much.
+SPEAKER_00: You can make a list on the covers because...
+SPEAKER_00: No, it's kind of an idea of our own.
+SPEAKER_01: But we're not sure if we can actually make that.
+SPEAKER_01: We limit ourselves extremely because that's just for one...
+SPEAKER_00: That's one thing I'm all afraid of with this one because the edges are really...
+SPEAKER_00: They might stick out on the side.
+SPEAKER_00: For example, if you have a basic design, a little smaller on the edges, you could put more coverage on it, one with square or sharp corners if you want to.
+SPEAKER_00: Well, that's probably...
+SPEAKER_00: Just round it off a little, I guess, because we have more options.
+SPEAKER_01: I think so because it looks leaner.
+SPEAKER_00: Okay.
+SPEAKER_00: We should just go with that.
+SPEAKER_00: Anyway, you have all the time in the world to make the final design in a minute with him, so...
+SPEAKER_00: So we decided on what...
+SPEAKER_00: What did you guys want to know again?
+SPEAKER_00: Because this is...
+SPEAKER_00: Anyway, I'll fire up my thing, so...
+SPEAKER_00: Did you do that?
+SPEAKER_00: I'll do a decision.
+SPEAKER_01: Present everything you wanted to.
+SPEAKER_01: Yeah.
+SPEAKER_02: Okay.
+SPEAKER_02: Shall I...
+SPEAKER_02: I can quickly make a conclusion.
+SPEAKER_02: Okay.
+SPEAKER_02: We have decided so far.
+SPEAKER_01: We still need to decide on my couple of things here.
+SPEAKER_01: You need it to know.
+SPEAKER_04: Yeah.
+SPEAKER_00: Okay, anyway.
+SPEAKER_00: Energy.
+SPEAKER_00: Choose regular batteries.
+SPEAKER_00: Yeah.
+SPEAKER_00: The chip is advanced because we have the advanced features.
+SPEAKER_00: In the case, it will be... the material will be rubber, I suppose.
+SPEAKER_00: In the design we talked about.
+SPEAKER_00: Use interface type.
+SPEAKER_00: Well, I think we took all the components separately what we want.
+SPEAKER_00: Let's see.
+SPEAKER_00: Supplements.
+SPEAKER_00: Not sure what they mean by that, anyway.
+SPEAKER_00: Apparently you guys should work together on the final design, both on internal and external design.
+SPEAKER_00: So, you should probably find out how the product will fall into the market, how it's going to happen.
+SPEAKER_00: With the final design as we have it now.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: Of course you get your specific instructions as usual.
+SPEAKER_00: I'm just going to say, I think we're in a pretty much an agreement actually, which is good.
+SPEAKER_01: So, we're all in agreement about the primary structure of my design.
+SPEAKER_00: Except for the other pin go here.
+SPEAKER_00: Like the keys.
+SPEAKER_00: Yeah, I'll open your thing again.
+SPEAKER_00: If you come up with anything new.
+SPEAKER_00: I'll just do the next one.
+SPEAKER_00: So, what would give us your design would be?
+SPEAKER_00: The lights would be on top, right?
+SPEAKER_00: One on each side.
+SPEAKER_01: To create a kind of disco effect when you...
+SPEAKER_01: That was basically...
+SPEAKER_00: Is it the lights for finding the remote or the lights that...
+SPEAKER_01: Lights for the finding of the remote.
+SPEAKER_01: We can also use one light for showing that the signal is being sent.
+SPEAKER_00: I think that would just be simple lead or something.
+SPEAKER_00: That's not that important.
+SPEAKER_00: Of course, it's just like a matter of a beep if you...
+SPEAKER_00: You just know that there's contacts, so I don't think that's super important.
+SPEAKER_00: But...
+SPEAKER_01: So, we have the teletects...
+SPEAKER_01: We have here, we have the mute LCD screen.
+SPEAKER_01: This is the on-off button.
+SPEAKER_03: And speech recognition.
+SPEAKER_01: Speech recognition.
+SPEAKER_01: I...
+SPEAKER_01: What did I imagine?
+SPEAKER_01: How did that...
+SPEAKER_01: Pretty much over here.
+SPEAKER_01: You could use it like this.
+SPEAKER_03: Recorder and...
+SPEAKER_01: And speak to it.
+SPEAKER_01: Then you have the...
+SPEAKER_01: Extrarchy, so teletects, mute two buttons, which can be...
+SPEAKER_01: Pretty much anything or nothing.
+SPEAKER_01: We can also just not use them.
+SPEAKER_00: Let's see.
+SPEAKER_01: I'll just make...
+SPEAKER_01: Made controls, and they keep it.
+SPEAKER_00: One light here.
+SPEAKER_00: I'm just making it red now, but there'll be any color.
+SPEAKER_00: We find.
+SPEAKER_00: Okay.
+None: Whatever.
+SPEAKER_00: Fine, anyway.
+SPEAKER_00: What do we have here?
+SPEAKER_00: I'll make it.
+SPEAKER_00: Are we going to use square buttons or round ones, actually?
+SPEAKER_00: Personally, I prefer round ones.
+SPEAKER_02: Right, true.
+SPEAKER_02: Yeah, but the...
+SPEAKER_01: This was just in the design.
+SPEAKER_01: Because I have a square design, so I had...
+SPEAKER_01: Okay.
+SPEAKER_01: But in that case, round buttons would be more...
+SPEAKER_01: Okay, I see.
+SPEAKER_00: So we take a round power button right here.
+SPEAKER_00: Whatever.
+SPEAKER_00: Back to black.
+SPEAKER_00: Not too big, though.
+SPEAKER_00: I guess it would be good.
+SPEAKER_00: Let's see.
+SPEAKER_00: Where are these for you?
+SPEAKER_00: Extra controls.
+SPEAKER_01: Yeah.
+SPEAKER_01: Okay.
+SPEAKER_01: Left one.
+SPEAKER_01: Teletext, and the right one is mute.
+SPEAKER_01: And these two buttons are...
+SPEAKER_01: Okay.
+SPEAKER_01: Or not necessary.
+SPEAKER_00: Or...
+SPEAKER_00: If we go for round buttons in general, do we want to...
+SPEAKER_00: Do we want to...
+SPEAKER_00: The menu key in the middle to be round?
+SPEAKER_00: For example, if you...
+SPEAKER_00: Let's see.
+SPEAKER_00: Put it this here.
+SPEAKER_00: I think we'll go with the triangles, though.
+None: Come on.
+SPEAKER_01: Yeah, the triangles will be best in the...
+SPEAKER_00: Triangles are good.
+SPEAKER_00: Maybe they're a little too big now, but...
+SPEAKER_00: Anyway, okay.
+SPEAKER_00: So do you want, for example, a...
+SPEAKER_00: Round button in the middle, or square one?
+SPEAKER_01: I personally think that a round button looks a bit silly, but...
+SPEAKER_00: I'm not sure.
+SPEAKER_00: Just carry on with it.
+SPEAKER_00: This aligns nicely.
+SPEAKER_00: Okay.
+SPEAKER_00: We'll just take the...
+SPEAKER_00: Take the round button, suppose.
+SPEAKER_00: Oh, this square button, sorry.
+SPEAKER_01: Does everybody agree on that?
+SPEAKER_02: Yeah.
+SPEAKER_02: Oh, just a round one.
+SPEAKER_02: That's a matter.
+SPEAKER_02: Okay.
+SPEAKER_02: It's not a big deal.
+SPEAKER_00: So, there's our numbers.
+SPEAKER_00: I think we need an extra button here, of course, for...
+SPEAKER_00: Yeah, like you had for the...
+SPEAKER_00: Higher numbers.
+SPEAKER_00: I'm...
+SPEAKER_00: You could include a button here for the mute, I suppose, for something else, just to...
+SPEAKER_00: Yeah, you can.
+SPEAKER_00: You can't put it in the effect.
+SPEAKER_00: It's not necessary.
+SPEAKER_00: It's not necessary, because you can take this away, but it looks like there's a hole there, just to mirror the effect.
+SPEAKER_00: Okay, so we have a few.
+SPEAKER_01: We could put a logo there.
+SPEAKER_00: No, I think it would be nice to put the logo here, for example.
+SPEAKER_00: If you have some buttons here, we could put a logo here, because it's very...
+SPEAKER_00: Oh, it's in your field of vision, if you're watching it, the LCD screen, blah, blah.
+SPEAKER_03: What about the button for your favorite channel?
+SPEAKER_03: We could include either here...
+SPEAKER_03: With the extra control here.
+SPEAKER_00: For example, you can hear it here.
+SPEAKER_00: Now it's getting a little bit too crowded up there.
+SPEAKER_03: I know.
+SPEAKER_01: So, you have to see that the...
+SPEAKER_01: So, it can basically be the button down below, or one of the four buttons.
+SPEAKER_03: Okay, but this one has a favorite channel.
+SPEAKER_03: One of the four, I think.
+SPEAKER_03: One of these four, okay.
+SPEAKER_03: So, favorite channel?
+SPEAKER_04: What?
+SPEAKER_03: No, one of the four...
+SPEAKER_01: Because it's really confusing to have 12 buttons down there, because you're only accustomed to 11.
+SPEAKER_01: I'd say...
+SPEAKER_00: You accustomed to 11?
+SPEAKER_00: Am I okay?
+SPEAKER_00: Have it your way.
+SPEAKER_00: I mean, I think this looks better.
+SPEAKER_00: Like, that's something missing, for example.
+SPEAKER_00: I mean, why wouldn't you include...
+SPEAKER_00: Because there's a piece of electronics under there anyway, so why don't you give it a function?
+SPEAKER_00: It could be anything, but...
+SPEAKER_01: Well, you could also shift the two buttons to be nicely aligned.
+SPEAKER_00: No, I don't think...
+SPEAKER_00: Because this is zero.
+SPEAKER_00: You wouldn't...
+SPEAKER_00: Yeah.
+SPEAKER_00: Zero to be misaligned with the rest.
+SPEAKER_00: Anyway, so this is the basic design we want to have on and off.
+SPEAKER_00: What are we missing?
+SPEAKER_01: We're missing an okay button, but we have a button up there.
+SPEAKER_00: Okay, so we want the remote to be this side view, actually, when I'm going to draw.
+SPEAKER_00: So...
+SPEAKER_00: I probably think you want the curve to be here.
+SPEAKER_00: So, have your finger under here like this?
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: Just going to be...
+SPEAKER_00: One that's straight, or what?
+SPEAKER_00: Let's keep it like this.
+SPEAKER_00: So it would be like this.
+SPEAKER_00: Do you want something interesting with it?
+SPEAKER_00: Or...
+SPEAKER_00: Let's see.
+SPEAKER_00: Would give us light here.
+SPEAKER_00: Maybe it's born.
+SPEAKER_00: Do you want it curved?
+SPEAKER_00: Or what?
+SPEAKER_01: Maybe you want...
+SPEAKER_01: Better curved, but that's probably...
+SPEAKER_00: Would give us a design problem because we have...
+SPEAKER_01: It can be curved.
+SPEAKER_01: It can be curved because it's a little bit more...
+SPEAKER_01: It can be curved.
+SPEAKER_00: Okay, I think so.
+SPEAKER_00: That's why I ask it.
+SPEAKER_00: Okay, so...
+SPEAKER_02: I would give us a hole, actually.
+SPEAKER_02: I would give us a hole like...
+SPEAKER_02: It's a little bit over your hands, a little bit.
+SPEAKER_02: And that's well balanced, and you're doing to drop it easily.
+SPEAKER_00: Anyway, show you what...
+SPEAKER_00: Two little...
+SPEAKER_02: Like this?
+SPEAKER_00: Yeah, something like this.
+None: And just...
+SPEAKER_00: Yes, exactly.
+SPEAKER_00: Stop the curve here, or...
+SPEAKER_02: I think continue.
+SPEAKER_02: Like that.
+SPEAKER_00: Oh, yeah, oh, this is the screen.
+SPEAKER_01: It looks like a banana, right?
+SPEAKER_01: Yeah.
+SPEAKER_01: It's made yellow, it's banana-vision.
+SPEAKER_00: It's fruit.
+SPEAKER_00: Yeah.
+SPEAKER_00: It's perfect.
+SPEAKER_00: So, I have here else this screen right here.
+SPEAKER_00: Suppose...
+SPEAKER_00: They would make...
+SPEAKER_00: We use the colors now.
+SPEAKER_02: Maybe once we can make a special edition in accordance with Shakita.
+SPEAKER_00: Yeah, some sponsors.
+SPEAKER_00: You got sponsors now, you get a free one with every package of Kida.
+SPEAKER_02: But it's good for them.
+SPEAKER_02: If they can have no logo on it.
+SPEAKER_00: So, you give the buttons here.
+SPEAKER_01: They can design their own cover.
+SPEAKER_00: They might want to be...
+SPEAKER_00: I suppose we can put...
+SPEAKER_03: Yeah, agreement.
+SPEAKER_03: Let's see.
+SPEAKER_02: Perhaps they can use it.
+SPEAKER_00: I think it's a special edition.
+SPEAKER_00: I suppose we can put the batteries in here because it has the most space.
+SPEAKER_01: For example.
+SPEAKER_01: Won't that be a problem with the LCD screen?
+SPEAKER_00: I don't think so, because it's the biggest part of the...
+SPEAKER_01: Yeah, but the LCD screen probably needs quite the chip.
+SPEAKER_02: I think this is possible.
+SPEAKER_02: I think it's possible.
+SPEAKER_00: I think it's the best place to put them here.
+SPEAKER_02: But it doesn't matter.
+SPEAKER_02: You can actually place a chip for the LCD screen at the bottom and wire it.
+SPEAKER_00: That's not a problem.
+SPEAKER_00: But the battery is here.
+None: That's fine.
+SPEAKER_00: Yeah.
+SPEAKER_00: La.
+SPEAKER_01: I think we get the edit.
+SPEAKER_00: What are we missing here?
+SPEAKER_00: Something...
+SPEAKER_00: A speech recognition.
+SPEAKER_00: Where do we want the microphone, for example, to be on the side or on the...
+SPEAKER_00: For example, on top, like there.
+SPEAKER_01: It's a really easy idea that I had, I think, to be pretty much in combination with the transmitter.
+SPEAKER_01: You can talk to it like this.
+SPEAKER_00: Okay, I thought maybe it'd either be here or because it might interfere with the transmitter.
+SPEAKER_00: I'm not sure.
+SPEAKER_00: Because transmitter would be here.
+SPEAKER_01: Well, the email said it was quite a small component, so I don't...
+SPEAKER_00: Once again, like you said, the component can be somewhere at the bottom.
+SPEAKER_00: Why are the microphones up there?
+SPEAKER_00: Anyway.
+SPEAKER_00: Yeah, it could be that we're here or make a double microphone.
+SPEAKER_00: How in mind?
+SPEAKER_02: It is, I believe, also able to talk.
+SPEAKER_02: It's able to talk to you.
+SPEAKER_02: I have a sample sensor and a speaker sensor.
+SPEAKER_00: A speaker sensor?
+SPEAKER_02: Yeah, the speaker sensor we already have, but I don't know what they exactly mean by a sample sensor.
+SPEAKER_02: Could it talk back, like give confirmation or something?
+SPEAKER_02: I think it can.
+SPEAKER_02: I think if you have a speaker recognition component...
+SPEAKER_00: I think so.
+SPEAKER_02: Speaking of it, there's not that hard to put in either.
+SPEAKER_00: Yeah.
+SPEAKER_00: I mean, it could be...
+SPEAKER_00: All this stuff could be integrated into the LCD screen, which you could navigate with this, I suppose.
+SPEAKER_00: Navigate through everything.
+SPEAKER_00: I think the advanced option should be...
+SPEAKER_00: I think the advanced option could also be integrated into the LCD screen, of course, because you don't have to have a button for everything.
+SPEAKER_00: You just navigate through your menu that you have here for advanced options with this.
+SPEAKER_00: I think it would be fine.
+SPEAKER_00: That would be making use of the LCD screen.
+SPEAKER_02: We already have a sound component, by the way, for the beep.
+SPEAKER_02: So, beep.
+SPEAKER_00: So, the flashing of the beep, we have, well, anything we could...
+SPEAKER_00: Yeah, you could put a speaker or something on the side.
+SPEAKER_01: Yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah, yeah.
+None: We're on the side.
+SPEAKER_00: We're on.
+SPEAKER_00: How do you draw those again?
+SPEAKER_00: Whatever.
+SPEAKER_00: Looks stupid.
+SPEAKER_01: So, what's basically the idea?
+SPEAKER_01: Sorry.
+SPEAKER_01: Now, we need to stay here, work out.
+SPEAKER_02: I'm not sure.
+SPEAKER_02: I should be thinking of a new idea.
+SPEAKER_00: I guess we're supposed to, if I've finished the meeting.
+SPEAKER_00: No, like my... The info that I got was that you're...
+SPEAKER_00: We're going to work on our own, because you're going to do the market...
+SPEAKER_00: Yeah.
+SPEAKER_00:...and rising there.
+SPEAKER_00: I'm supposed to do the little work on the year end reports, uh...
+SPEAKER_00:...the project report.
+SPEAKER_02: Okay.
+SPEAKER_00: I think we're...
+SPEAKER_00: Well, I suppose you're...
+SPEAKER_00: Everybody satisfied with the current design we have?
+SPEAKER_00: Yes.
+SPEAKER_00: So, where is...
+SPEAKER_00: It's fine.
+SPEAKER_00: It's supposed to be rubber, I think...
+SPEAKER_00: Well, I think the remote control is going to be black.
+SPEAKER_00: We forgot to talk about...
+SPEAKER_00: I mean, the company colors are important, apparently.
+SPEAKER_00: So, we have to logo up there.
+SPEAKER_00: And we're going to...
+SPEAKER_00: Base color is black.
+SPEAKER_00: And yellow.
+SPEAKER_00: And yellow, of course.
+SPEAKER_00: We can use yellow buttons or yellow navigation or whatever.
+SPEAKER_02: I would change.
+SPEAKER_02: I would take a yellow...
+SPEAKER_02: Yellow control.
+SPEAKER_02: Yellow control?
+SPEAKER_02: It's...
+SPEAKER_01: Yeah, but when you use...
+SPEAKER_01:...couple...
+SPEAKER_01: Basically, you need to have a neutral color on the base.
+SPEAKER_00: But don't stick yourself on the cover, because...
+SPEAKER_01: No, we're designing the remote control now.
+SPEAKER_01: But taking that into consideration is...
+SPEAKER_01: It's better to have a neutral base color than to have a flashy...
+SPEAKER_00: Yeah, but the info...
+SPEAKER_00: I think we should go with the company color, because it's...
+SPEAKER_00:...specific info that I got from Project Bored.
+SPEAKER_00: So, the young people want to...
+SPEAKER_03:...trendy remote control.
+SPEAKER_02: So, it's black cover with yellow buttons or vice versa.
+SPEAKER_02: And I would say take a yellow cover on black buttons.
+SPEAKER_02: It is more trendy.
+SPEAKER_01: Not too much.
+SPEAKER_00: I'd say take a yellow...
+SPEAKER_00:...yellow remote control.
+SPEAKER_00: So, let's see if we can do that onto it.
+SPEAKER_03: Just the basic colors.
+SPEAKER_02: We have some medical on the right.
+SPEAKER_02: You know what?
+SPEAKER_00: I'm not going to do this.
+SPEAKER_00: I think it's just a big thing.
+SPEAKER_02: It'll be different than...
+SPEAKER_02:...the beautiful.
+SPEAKER_00: That's a nice design for the next meeting we'll be done.
+SPEAKER_00: Yeah.
+SPEAKER_00: Oh, happy now.
+SPEAKER_02: I still don't have my scroll wheel, though.
+SPEAKER_02: I know where we can put it.
+SPEAKER_02: La, la, la.
+SPEAKER_02: Still.
+SPEAKER_00: Okay.
+SPEAKER_00: I'm not sure.
+SPEAKER_00: I really.
+SPEAKER_00: I have no clue what we could use a scroll wheel for.
+SPEAKER_00: You could use it for the channel.
+SPEAKER_01: No, for the volume, but it has no...
+SPEAKER_00: It takes space.
+SPEAKER_00: A lot of space.
+SPEAKER_00: It's value.
+SPEAKER_02: No, that's not my point.
+SPEAKER_02: It's not because it's functional, but it's just to add to the design.
+SPEAKER_02: To have it flashy.
+SPEAKER_02: It has no function.
+SPEAKER_00: I agree.
+SPEAKER_00: I'm not sure if it has no function.
+SPEAKER_00: Why even put it there?
+SPEAKER_00: I was wondering if it has no function.
+SPEAKER_03: So much, I think, the scroll channel selection or a full volume...
+SPEAKER_00: I think channels selection would be annoying because you could scroll past the channel or...
+SPEAKER_00: Let's vote a minute.
+SPEAKER_00: Then we don't have to talk about it any longer.
+SPEAKER_02: Okay.
+SPEAKER_02: What do you want?
+SPEAKER_02: Inner-out.
+SPEAKER_02: Basically, out.
+SPEAKER_02: You are out of work.
+SPEAKER_02: You are out.
+SPEAKER_02: Okay.
+SPEAKER_00: No, a scroll wheel.
+SPEAKER_00: Okay.
+SPEAKER_00: I don't see anything missing, really.
+SPEAKER_00: Yeah, we should...
+SPEAKER_00: Do you have to find it again?
+SPEAKER_00: I have all my answers.
+SPEAKER_00: I'm not sure if we're going to get finance anyway because...
+SPEAKER_00: I thought it was going to be an issue at the first when we started.
+SPEAKER_00: I thought it was going to be a cost issue, which material are we going to take...
+SPEAKER_00: I have one question.
+SPEAKER_00: I have one question.
+SPEAKER_00: Is there anything I could do whatever you like?
+SPEAKER_00: I have one question.
+SPEAKER_02: I have one question.
+SPEAKER_02: But I don't have information that...
+SPEAKER_02: I think it shows in rubber.
+SPEAKER_00: Rubber is not expensive.
+SPEAKER_02: No, but can we make yellow rubber?
+SPEAKER_02: I think so.
+SPEAKER_02: You can make rubber any color.
+SPEAKER_00: Yeah, you can make yellow titanium.
+SPEAKER_00: But we have to make yellow rubber.
+SPEAKER_03: We don't use...
+SPEAKER_03: We remove a book cover.
+SPEAKER_03: We can make...
+SPEAKER_00: For example, it's just something you can click on it like that.
+SPEAKER_00: That's a bit of a thought.
+SPEAKER_00: Apparently, it's not something we're working with in the business.
+SPEAKER_00: Maybe later, maybe we can...
+SPEAKER_00: Yeah, it could be...
+SPEAKER_00: It can be done.
+None: For example...

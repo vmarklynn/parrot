@@ -1,0 +1,323 @@
+SPEAKER_04: Good to see you all again.
+SPEAKER_03: Let's see if that can be done.
+SPEAKER_04: This is our functional design meeting.
+SPEAKER_03: Okay.
+SPEAKER_04: We put the fashion in electronics.
+SPEAKER_04: Let's start.
+SPEAKER_04: Okay, our agenda today.
+SPEAKER_04: Just took time.
+SPEAKER_04: It's 12-13.
+SPEAKER_04: I'm going to do an opening.
+SPEAKER_04: Did you all get the minutes?
+SPEAKER_04: I emailed them to you.
+SPEAKER_04: I'm also putting them in the shared folder.
+SPEAKER_04: We'll talk about our general objectives and have your three presentations.
+SPEAKER_04: I'll talk about the new project requirements I've just received.
+SPEAKER_04: Then we have to make a decision on our route control functions.
+SPEAKER_04: Finally, we'll just close.
+SPEAKER_04: We're starting this meeting at approximately 12-13 and we have 40 minutes.
+SPEAKER_04: First of all, the functional design objectives.
+SPEAKER_04: We need to keep in mind the user requirements specification, what needs and desires are to be fulfilled.
+SPEAKER_04: Detectional functions design, what effect the apparatus should have, and the working design.
+SPEAKER_04: How the apparatus actually works to fulfill its function.
+SPEAKER_04: Okay, three presentations.
+SPEAKER_04: You can go in any order you choose.
+SPEAKER_01: Should we go in the order that you just did it?
+SPEAKER_03: Sure.
+SPEAKER_01: Please do.
+SPEAKER_01: How do I hook my screen up?
+SPEAKER_02: I think you might have to dis-extros.
+SPEAKER_02: Yes, do you?
+None: How does it work?
+SPEAKER_00: How does it work?
+SPEAKER_03: I hope it's fit.
+None: Boowski I think yes.
+None: So, this balance here will be a result after this section7.
+SPEAKER_00: That's a function I think yes.
+None: Vite speaker.
+None: Blue one.
+SPEAKER_03: Nothing.
+SPEAKER_03: one. That's it.
+SPEAKER_04: Is it plugged in all the way and you screwed it in and...
+SPEAKER_01: How weird, it's weird.
+SPEAKER_02: I think you just have to push it in really hard.
+SPEAKER_02: That's it.
+SPEAKER_03: Oh, got it.
+SPEAKER_03: Let's take a little bit.
+SPEAKER_01: I'm not attached to anything.
+SPEAKER_01: You do, right?
+SPEAKER_01: There you go.
+SPEAKER_01: All right.
+SPEAKER_01: So, I don't know if you guys are able to get access to the report that was online or if I'm the only one who is.
+SPEAKER_01: But, I don't even know how to play this.
+SPEAKER_04: Press the little presentation.
+SPEAKER_04: It's the... it looks like a Y kind of over there above draw.
+SPEAKER_04: There. That one.
+SPEAKER_01: There you go. Right.
+SPEAKER_01: So, we're just going to talk a little bit about functional requirements that people specified when they were asked.
+SPEAKER_01: I guess, real reaction did some market research.
+SPEAKER_01: They had 100 subjects into their usability lab and they watched them, watched TV, and recorded the frequency that they used, particular buttons and the relevance that those buttons had.
+SPEAKER_01: What they found was they analyzed people's desires and needs.
+SPEAKER_01: Focusing on their desires, people specifically said that they thought remotes were ugly.
+SPEAKER_01: 75% of the 100 subjects noted that and that they... more importantly though, 80% said that they would be willing to pay more for a fancier looking remote.
+SPEAKER_01: I don't know anything beyond what fancy means, but that's particularly of use to us, I think.
+SPEAKER_01: Also, they did some questions on voice recognition and found that the desire for voice recognition was inversely related to age.
+SPEAKER_01: So, younger people were more inclined to want something with voice recognition, whereas the older people in the, like, 60 and above segment or so, did not really think that they would pay more money for voice recognition.
+SPEAKER_01: People also had certain frustrations that I think that we could try to take into consideration with our design, that being people frustrated with losing their remotes.
+SPEAKER_01: I think over 50% of the people mentioned that that was their biggest frustration.
+SPEAKER_01: People were also frustrated with the difficulty it is to learn how to use a remote.
+SPEAKER_01: And I think that ties back to what you were saying before, just that there's too many buttons, it just needs to be easy to use.
+SPEAKER_01: It also mentioned something called RSI, and I was hoping someone might be able to inform me as to what RSI is.
+SPEAKER_01: I don't know.
+SPEAKER_00: What?
+SPEAKER_01: Ah, there we go.
+SPEAKER_01: People did not like that, so I guess sort of the carpal tunnel type thing.
+SPEAKER_01: People did not like that.
+SPEAKER_01: The repetitive use, I guess, caused a strain.
+SPEAKER_01: Looking at the needs, people specified.
+SPEAKER_01: The problem right now is that people's remotes are not matching their operating behavioral.
+SPEAKER_01: People are only using 10% of the buttons that they have offered to them on their remote.
+SPEAKER_01: And what people do most often is changing the channel and changing the volume.
+SPEAKER_01: People also zap, like change the channel, about 65% during an hour of use.
+SPEAKER_01: So we really just need to focus in on those volumes and channel changers, rather than things like the audio settings, the screen settings, and the channel settings, because they're used much more infrequently and probably complicate what's going on.
+SPEAKER_01: So I think that something that we might want to think about, the idea of an LCD screen was brought up, although they didn't have any details on what people's preferences on that were.
+SPEAKER_01: So I don't know if that's coming to me later.
+SPEAKER_01: I wasn't like that, but something for us to consider.
+SPEAKER_01: Also, just the phenomenon that lasts is more when it comes to the buttons on their remote or what we want to make easiest to use.
+SPEAKER_01: Make sure that something like an audio setting isn't given as much importance and visibility on the remote, as something like channel changing, that's used a lot more often.
+SPEAKER_01: And basically in order for us to win over to the consumer, we just need to focus on what it looks like that it has a fancy appeal and that it's not ugly, and that it feels like the way they're going to use it.
+SPEAKER_01: So it doesn't give them any hand injuries or things like that.
+SPEAKER_04: Thank you very much. That was great.
+SPEAKER_04: Let's move on to the next presentation on effects.
+SPEAKER_04: So you, great.
+SPEAKER_01: Can we go up on the spare end?
+SPEAKER_03: The user interface, right?
+SPEAKER_02: Oh no.
+SPEAKER_01: I think that's in the shared. If I did it right, if anyone wants to look at it, I'm going to go ahead and say thank you.
+None: Okay.
+SPEAKER_00: So I'm going to talk about the technical functions design that we're going to make from.
+SPEAKER_00: We need to start by considering what our remote control actually is. It's a device that allows us to produce certain effects on our television.
+SPEAKER_00: So it's basically communication device. We tell the remote control what we want to do.
+SPEAKER_00: So it's an advantage to the television, saying change the channel, change the volume. Yeah, I just need to set in the just the buttons.
+SPEAKER_00: How do we actually go about designing any television remote control?
+SPEAKER_00: The first thing to do is to come up with the design specifications.
+SPEAKER_00: We need to know what our final product is going to be like.
+SPEAKER_00: So we need a clear idea of exactly what this product does, how it works, and what the end user is going to want to do this product.
+SPEAKER_00: So a way I'd suggest that we could go about this by designing several different prototypes to use the interfaces for this product. And then trying to get some feedback about how well these particular prototypes work.
+SPEAKER_00: So by now what people think of them using a remote control is quite a subjective experience. And different people. We should remember that remote controls are a fairly standard piece of equipment when it uses using a remote control.
+SPEAKER_00: So the future expects the buttons to be in certain places. So in some sense we're going to have to aim for the device which is very conventional in design.
+SPEAKER_00: So we're not completely shocking people. But I think within that there is also been just to introduce novel ideas and to make something that's perhaps a little bit different from something that stands out.
+SPEAKER_00: So in designing the user interface we need to consider practicalities. The first of these is technological. What can we do with the current state of technology as it is.
+SPEAKER_00: The second is economic. We need to find the balance between features and price. So as you mentioned things like waste recognition would add to the price.
+SPEAKER_00: And we would also need to improve the design of the products. So I have a look on the web to see if I can find a few examples of existing television and make control in analyzing these.
+SPEAKER_00: We can consider what things what's good about them. What things do they get like what's bad about them. It's wrong with them.
+SPEAKER_00: How we can improve on the designs that are found. And what can we do to make our products stand out from the large majority of the remote controls.
+SPEAKER_00: Here's two examples. Probably at the extreme ends of the spectrum. On the left here we've got an engineering based design of the remote control.
+SPEAKER_00: So it's one that's got lots of buttons. It's fully featured. Everything you might possibly want to do is there. You know it's got forward backwards, up, down, channel numbers, volume, these things.
+SPEAKER_00: It's fully featured. And it might take a while to get to learn to use it. But once you've learned it, you can do whatever you want with your TV.
+SPEAKER_00: The one on the right is a lot more basic. It's just got the essential functions of the TV, changing the channel, place, volume. It would be a lot quicker to learn to use it.
+SPEAKER_00: But again, it swings around about the disadvantages. It can't use it. Say to freeze the television picture. There's a lot of features that are missing from that remote control.
+SPEAKER_00: So we've got to find our find a way of striking the balance between the two.
+SPEAKER_00: As I said before, the back control is also objective. Different people want different things.
+SPEAKER_00: Personally what I want to know about control is a device that's simple. It's easy to use. It's got big buttons for doing the things I do most often, changing the volume, changing the channel.
+SPEAKER_00: It does everything that I need it to. As I said before, I'm quite lazy. I don't want to walk across the beam just to adjust my television. I also want something that looks cool and that feels like this ergonomically designed.
+SPEAKER_04: Thank you very much. That was very useful. It's funny to see the drastic difference between those two remotes. Neither of them were very pretty.
+SPEAKER_02: I think that could be our selling point. Fashion, fashion, the mode, rights.
+SPEAKER_00: There's certainly a market technology that looks cool. That's my company's app. I really can't see what I'm doing. There it is.
+SPEAKER_02: I'm looking at it. Showing up already? Did it let you go on the internet? That was just funny.
+SPEAKER_04: I was like, I'm going to be going to the link. How do I play again? It's right above draw. There are three things. It's with bottom. There are three icons. It's the one that looks like a desk.
+SPEAKER_02: This is our working design presentation. I had a bit of some issues with this because I wasn't able to find everything I needed.
+SPEAKER_02: I guess we're still in early stages. The thing about working design is that we're trying to do as a working designer to figure out how the apparatus can fulfill its function.
+SPEAKER_02: One of the examples that kept coming up for me is that a coffee grinder. It works because it converts electrical energy to grinding the beans.
+SPEAKER_02: Then put the beans through a filter. That filters out. Then you get coffee at the end. That's nice and hot because of the combination of electrical energy and then other things that are brought in to make it work.
+SPEAKER_02: I don't know if I'm explaining that very well, but how do I get to the next? The method as working designers figure out what you need to make it fulfill this practical function, what needs to be done, and how do we convert all elements to make that done?
+SPEAKER_02: The easiest thing to do is to break down all the points at which you need something to happen. You make a schematic of the way that the energy is converted towards this practical function.
+SPEAKER_02: Then I think the easiest thing to do is work on each task separately.
+SPEAKER_02: The findings that I got very briefly is that you have a choice of the way that the information is projected to the receiver.
+SPEAKER_02: In my opinion, infrared is the best way to do that because you don't need a sight line. That's one thing we're going to work on.
+SPEAKER_02: The user interface is critical here because a lot of the things that happen in a remote control happen through the chip that converts the electrical energy into data, which then goes through the infrared.
+SPEAKER_02: The chip that I think Ian is designing is going to be crucial. Really, it all comes down to the user because they're the one that's controlling most of the working design.
+SPEAKER_02: The components that we find here are the energy source, the battery, or whatever that's going to make it work. Then the chip, which converts the data, the user that's controlling the chip, and the infrared bulb that's going to let us move the data to the receiver.
+SPEAKER_02: So you have four main components, and they are designed sort of like this. You have your energy source right there, which then brings energy or information to the chip, which is also controlled by the user.
+SPEAKER_02: So you have energy going to the user who is controlling the chip. It's not what I wanted to use. Use that thing down that you can go back previous.
+SPEAKER_02: Sorry about that, guys.
+SPEAKER_02: Oh, no, no, no, no, no. Okay, let's just get back to my skin out of care.
+SPEAKER_02: Double click on it with the right with the left hand one. Yeah, I am. I think it's frozen here. Don't show me that.
+SPEAKER_02: There we are. Sorry about this, guys. I'm kind of pathetic with things like this.
+SPEAKER_02: All right, so you have your energy source, your user interface, who's controlling the chip, the chip also uses the energy, and the chip through the use of the user interface is going to control the switch, which will work your infrared bulb, which will then bring the data to the receiver.
+SPEAKER_02: So hopefully that makes sense for everyone in my kind of garbled way. This is the parts of the working design that need to be figured out.
+SPEAKER_02: And personal references, besides the fact that I can't spell, we need a long lasting energy source. People don't want to be changing it a lot.
+SPEAKER_02: We need a chip that works well with the user interface that isn't too complicated.
+SPEAKER_02: We have straightforward interface like Ian was saying, simple, not overwhelming it with information, and we need a reliable and clear infrared signal, so that you're not waving your remote around it, having to get frustrated and go do it by hands.
+SPEAKER_02: That's pretty much it for the working design.
+SPEAKER_03: Excellent.
+SPEAKER_02: Let's do you think it can give you a hint of this? Yes, absolutely.
+SPEAKER_04: I can never tell what to turn these things. Lefty Lucy, righty, tidy, right?
+SPEAKER_03: Yeah. Lefty Lucy, righty, tidy.
+SPEAKER_00: Oh, yes.
+SPEAKER_00: I think about every time.
+SPEAKER_04: It's going to be a lot of fun.
+SPEAKER_04: It's going to be a lot of fun.
+SPEAKER_03: Okay.
+SPEAKER_04: Oh, no, Lucy. Yes. Okay. Requirements. We have a couple of new requirements that I was just emailed right before the meeting that we have to keep in mind as we're creating this.
+SPEAKER_04: We didn't bring it up yet, or at all in the meetings so far, but we're not going to work with teletext because that's been taken over by the internet, so we're not going to worry about that.
+SPEAKER_04: That's how it was passed. It's a pressure state. No.
+SPEAKER_00: Would you care to explain it?
+SPEAKER_00: We have a number of numbers in the network. We have numbers in the network control. We type in the page number once. We type 100 and we have a control. This kind of index is on the television screen.
+SPEAKER_00: We have numbers in the network control.
+SPEAKER_02: We have a lot of numbers in the network.
+SPEAKER_04: We're not going to work with that.
+SPEAKER_04: We're also going to, like your question earlier, whether this is going to be for television video or et cetera, just for television.
+SPEAKER_04: That's what we're focused on. Otherwise, it becomes too complex. We want to get this out very quickly. We only have a short amount of time.
+SPEAKER_04: Finally, this is more marketing. Our corporate image has to be recognizable. While we're going to make it look pretty, we need to use our color and our slogan in the new design.
+SPEAKER_00: What's our corporate image like? It's kind of yellow color.
+SPEAKER_04: It looks like a yellow and black. We have the emphasis on the R's. We put the fashion and electronics. We have to keep that in mind.
+SPEAKER_04: Maybe some buttons could be yellow. We can play around with it a little bit. We need to talk about our functions and our target group.
+SPEAKER_04: We decide who our target group is. You, in your analysis of the marketing, identified that different groups wanted different things or had certain preferences.
+SPEAKER_04: For example, that older people didn't really care for voice recognition, but younger people did. Who are we aiming at?
+SPEAKER_02: If we're going to say that function of fashion, we put the fashion and electronics, then automatically I think sort of younger group, that's who's going to be attracted to this.
+SPEAKER_04: We have to think who's going to have the money to buy it. It's going to be 25 euro, remember. It has to be marketable to whoever it is.
+SPEAKER_00: This is something that's going to be something that's going to be something that's going to be something that's going to be developed in the way that we market.
+SPEAKER_04: What we're doing is deciding on just the remote itself. It will probably be sold separately. 25 euro by itself.
+SPEAKER_01: The only breakdown that I was given in terms of age was the voice activation. Basically, there's a big jump after 35. People don't really care if it has voice. It's basically 15 to 35.
+SPEAKER_01: I don't know if I'm going to be given any other numbers broken down in terms of age later, but if that's the only quality that we have that is divided into age, then we would want to stick between the 15 to 35 range.
+SPEAKER_02: That's probably a population of quite a little bit of disposable income for use on technology anyway. That might be a fairly good target group for us.
+SPEAKER_04: Those are all specific for speech recognition. Are we going to use that as one of our functions?
+SPEAKER_00: I would say no, because it's going to have too many people in the press. Especially if we are marketing, it's something that we can again be doing.
+SPEAKER_00: But we've got a 5-limit with 12, 12, and a half euro.
+SPEAKER_00: To produce it?
+SPEAKER_00: To produce it, yes.
+SPEAKER_00: I want to get a voice that we mentioned in the 12, and a half euro. We've got nothing to do with another company.
+SPEAKER_01: But what else are we going to put? I mean, not that I'm really going to hold about it. I don't know what else you can put in a remote to make it technologically advanced though.
+SPEAKER_01: So other than just making it look good, how is it? I mean, it can look really great and still have the same up and down button than mine, then we're going to buy a new remote.
+SPEAKER_02: Why are we aiming for a technological advancement? Everything we're talking about is ease of use and simple, and that doesn't necessarily mean more technology.
+SPEAKER_02: I think it could just be mine. It could mean not. If they might be overwhelmed with remote that have too many buttons and too much technology.
+SPEAKER_01: If someone's looking to buy a new remote, don't they want like an upgrade? I don't know.
+SPEAKER_04: Upgrade? Well, we can look at upgrade or we can look at user friendly.
+SPEAKER_02: Yeah, simplification. It could have a crapper remote that came with our TV that's just impossible to use, or maybe it broke, or maybe they're just missing it.
+SPEAKER_04: And we also need to talk about if we're only going to have the very simple ones, or also have the other ones just separate somehow.
+SPEAKER_01: I mean, this might be too complicated, but I wish I had some way to explain it.
+SPEAKER_01: Like, if it was just a simple either the swear of the swear that had the main buttons and then you could pull something out kind of and you got the rest of the button, but the rest of them went in.
+SPEAKER_00: Do you know what I'm saying? I can pull out of the side. Yeah, like some TVs that have a smart screen, I'm going to like control the lines of the complicated buttons.
+SPEAKER_00: But you want to do something complicated, so that you can tell the difference between it and you open up this little hatch, you want to slide it down and then you can just press the button.
+SPEAKER_01: Because then like people who don't want to ever look at them never even have to see them. And if you get the instruction manual that comes with it and you just don't even read it, then you'll never even know that those things can pull out.
+SPEAKER_01: And you're a happy person and everyone else doesn't have to have like two remotes, one that has the easy ones and one that has more complicated ones.
+SPEAKER_03: That's a good idea.
+SPEAKER_04: We have to be careful that that doesn't impede the chip transmitting information.
+SPEAKER_04: But that's going to be mostly technological thing.
+SPEAKER_04: Okay, so what are we emphasizing in this project?
+SPEAKER_04: Simplicity and fashion.
+SPEAKER_04: Okay, those are very good goals, I think, that we have to keep in mind with everything we do. Simplicity and fashion and or usability, however you want to say that, which includes an emphasis on making the infrared very functional so that you don't have to travel around a lot.
+SPEAKER_01: What can you do to make the infrared more functional? Why would it not be? I think it's a lot to do with battery, but that's just my battery.
+SPEAKER_02: And that I think that the chip takes the data and presents it well without sort of scattering. So it's just the quality of a chip.
+SPEAKER_02: Yeah, I think so.
+SPEAKER_02: The quality of all the components really, we can't really do anything. Shall we work? It's going to be a physical tell in the live.
+SPEAKER_04: So our target group, we're saying 15 to 35?
+SPEAKER_01: Well, I don't know how useful that number is if we're not doing voice recognition.
+SPEAKER_04: Which I kind of I kind of feel like voice recognition is not necessary in our remote control. Like it might be necessary for a TV, but not for the remote.
+SPEAKER_04: Yeah, and it might be too expensive.
+SPEAKER_01: And if the whole idea is you're using a remote, then why would you have a voice? Like you would need a remote, you would just talk to your TV.
+SPEAKER_01: Yeah, maybe I mean, if I get more numbers, I'll email you before the next meeting in terms of ages, but this doesn't divide up anything.
+SPEAKER_01: And there was only 100 subjects also, which isn't, I mean, really, it's not representative, especially if it's 100 subjects, they then can subdivide into age groups.
+SPEAKER_04: That means a very few in each age group. So I think regardless, we're aiming for the under 65 or something under 65. Okay, that's a good start.
+SPEAKER_04: I'd say where can we narrow down to maybe teenagers and families?
+SPEAKER_02: Because that would go up to like 50 professionals or something.
+SPEAKER_04: It's hard to narrow down.
+SPEAKER_02: I don't think you're out right now.
+SPEAKER_00: I think the fact that it's not built across the board by a device, and we said simplicity is one of the features.
+SPEAKER_00: So it's going to appeal to people. Maybe people who have problems with technology, they don't really get that.
+SPEAKER_00: Okay.
+SPEAKER_00: And that might be older people, but then we've also got passion, which is something that definitely is.
+SPEAKER_01: Well, maybe we don't have to define this hard group by the demographic of the age. We're defined by the demographic of how much money they have to spend or something like that.
+SPEAKER_01: That's a good one. Obviously, that's to be someone who owns the television.
+SPEAKER_01: And how recently have they bought their television? Like that sort of thing.
+SPEAKER_04: So maybe it's more useful to just find objectives, like passion, simplicity, then to find specific target group as far as ages.
+SPEAKER_04: Because yeah, things will different will appeal to different people.
+SPEAKER_04: Okay.
+SPEAKER_04: Oh, there are a couple of functions.
+SPEAKER_04: Do we want something so that do we want some kind of thing to find it if it's lost?
+SPEAKER_04: Like a button on the TV, you can press in it or ring or something. I don't know. Like, or beep.
+SPEAKER_01: I guess I before 50% of the frustration someone could have that was the biggest one and half people said that happened. And we all mentioned it before.
+SPEAKER_01: We knew about it.
+SPEAKER_01: And if we're talking about making something easy, that sort of goes along with it. So it wouldn't be like a random thing to sort of add in.
+SPEAKER_01: It would be relevant like the overall goal.
+SPEAKER_04: Okay, we have to we have about four minutes left to define our functions. So let's do that quickly.
+SPEAKER_04: So we want something to keep it from getting lost.
+SPEAKER_04: And we want.
+SPEAKER_04: We want large buttons for the essential things.
+SPEAKER_04: Yeah, large, accessible buttons for the essentials.
+SPEAKER_04: We want a possibility to get.
+SPEAKER_04: Possibility to get the extra functions.
+SPEAKER_00: Which kind of hidden away in some way.
+SPEAKER_00: We're not hidden.
+SPEAKER_00: They're not as prominent as the main.
+SPEAKER_04: Yeah, and we also want it to be fashionable, which I'm not sure if that's a function so much as a.
+SPEAKER_01: I'm not like an ice or.
+SPEAKER_04: Do any other essential functions that we need battery? Do we need a long life battery use?
+SPEAKER_02: Yeah, but I think that goes in with simplicity and ease of use really.
+SPEAKER_01: But we never have to change that.
+SPEAKER_00: We should.
+SPEAKER_04: I would imagine just because it is an electronic device.
+SPEAKER_02: I think it does. I don't think of a way you can operate a chip and convert that much data without.
+SPEAKER_02: Without one.
+SPEAKER_02: But you could maybe have it in a little charging station like a mobile phone.
+SPEAKER_02: Or like a little cradle for your iPod.
+SPEAKER_02: Maybe do that instead.
+SPEAKER_02: So you don't have a rechargeable battery.
+SPEAKER_02: I don't know. That might contribute to less people losing it too.
+SPEAKER_02: It stays one place.
+SPEAKER_04: I think about space in the rooms too.
+SPEAKER_04: Would you put it on top of the TV?
+SPEAKER_04: I don't know.
+SPEAKER_02: Okay, that's a good idea.
+SPEAKER_04: We'll keep it.
+SPEAKER_04: Let's just off the top of the head.
+SPEAKER_04: Okay.
+SPEAKER_04: We're going to conclude now.
+SPEAKER_04: As everyone said, their functions.
+SPEAKER_04: After the meeting, we're going to each complete questionnaire in the summer's summary.
+SPEAKER_04: And then we'll have our lunch break.
+SPEAKER_04: After that, we have 30 minutes of individual work.
+SPEAKER_04: I'll make sure to put the minutes in the project documentation and including this PowerPoint slides.
+SPEAKER_04: If everyone could do that as well, that'd be great.
+SPEAKER_04: You have individual actions.
+SPEAKER_04: ID, industrial design.
+SPEAKER_04: If your components concept, user interface, the user interface concept, market trend watching.
+SPEAKER_04: And then you can get specific instructions from your personal coach emailed to you.
+SPEAKER_04: Hopefully, I hope next time you'll be able to access more of the website that they seem to tell you that you could.
+SPEAKER_04: It's kind of frustrating, but you should note any frustrations or any issues that come up in your summary.
+SPEAKER_02: Okay.
+SPEAKER_02: That sounds good.
+SPEAKER_04: Great to know.
+SPEAKER_02: That's good.
+SPEAKER_01: Did you, um, were you able to, like, put yours in the group folder?
+SPEAKER_02: Yes.
+SPEAKER_02: I just did that.
+SPEAKER_02: Hopefully it is there for people.
+SPEAKER_02: Yeah.
+None: Yeah.
+SPEAKER_04: It looks like there are, um, looks like there's a second one kind of mine.
+SPEAKER_04: Yeah.
+SPEAKER_04: That I didn't do.
+SPEAKER_04: It's from like an earlier project, I think.
+SPEAKER_04: So, okay.
+SPEAKER_01: Where is that?
+SPEAKER_04: Under the shared folder.
+SPEAKER_04: I don't know.
+SPEAKER_04: It might not even be under your.
+SPEAKER_02: So in there, we have technical functions, presentation, working design, presentation, and the functional requirements.
+SPEAKER_02: At least that's right.
+SPEAKER_01: I have three.
+SPEAKER_02: I just have like R three.
+SPEAKER_02: Yeah.
+SPEAKER_04: That's what I have as well.
+SPEAKER_04: You don't have mine.
+SPEAKER_01: No, but that's because I think yours is in the email separately.
+SPEAKER_01: It's not on the server.
+SPEAKER_01: But if I open it and then save it, probably will be there.
+SPEAKER_01: I'll wait and I'll remind you can't save.
+SPEAKER_04: Okay.
+SPEAKER_04: Well, I'll figure that out in the meantime.
+SPEAKER_04: Okay.
+SPEAKER_04: I'm going.
+None: Okay.

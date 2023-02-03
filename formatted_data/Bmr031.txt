@@ -1,0 +1,856 @@
+SPEAKER_01: Okay, we're on.
+SPEAKER_01: See, there are some stretches that weren't there.
+SPEAKER_01: Right, it would have to be here.
+SPEAKER_05: What do you have to do about that, so?
+SPEAKER_05: Well, I have a person would check it over and then give it final.
+SPEAKER_05: The poster?
+SPEAKER_07: Oh, wait, for Jack.
+SPEAKER_07: Close the door.
+SPEAKER_08: Well, it's more...
+SPEAKER_08: We're recording, by the way, this way.
+SPEAKER_05: You can keep talking.
+SPEAKER_02: You keep talking. I just should be aware.
+SPEAKER_02: You are saying that we have a project for Jack's way.
+SPEAKER_02: So, the start and I said, okay.
+SPEAKER_08: So, the compromise is we're starting, but we're leaving the door open.
+SPEAKER_08: Okay. So, a little more background noise.
+SPEAKER_02: And...
+SPEAKER_02: That way, we can close the door, make Chuck knock when he comes.
+SPEAKER_04: Well, I tend to...
+SPEAKER_04: There are a couple of meetings where there are a lot of pre-ambles like this.
+SPEAKER_04: And which creates the transcription doesn't start until someone actually says, okay.
+SPEAKER_04: Really?
+SPEAKER_08: So, we're starting right now.
+SPEAKER_08: Yeah, oh, yeah. The meeting started.
+SPEAKER_08: This is the real thing.
+SPEAKER_08: There's Chuck just kidding.
+SPEAKER_08: It was. Okay.
+SPEAKER_08: You said Chuck gets stuck with the earplug mic.
+SPEAKER_08: Okay. Last guy in.
+SPEAKER_08: I just get the door.
+SPEAKER_08: You just get the door.
+SPEAKER_08: Yeah, so I had him sit around this thing about what we were going to talk about.
+SPEAKER_08: And we had this discussion of flipping back and forth between an emphasis on the technology, particularly recognition versus the recordings and transcriptions and so on.
+SPEAKER_08: But I was asking if we could to kind of make it just whatever is happening, rather than one or the other, because next week I'll be at a meeting on campus, and after that I'll be in New York for several meetings worth.
+SPEAKER_08: You folks will be going for a couple of the meetings worth.
+SPEAKER_05: I know that happens back to us the times here at Gone.
+SPEAKER_05: Really? Okay. Yeah.
+SPEAKER_08: So...
+SPEAKER_08: So, you didn't get an agenda, I guess we had the usual.
+SPEAKER_02: Well, because no one, no one ever responded to any items.
+SPEAKER_02: So I have a couple of minor ones.
+SPEAKER_02: Our normal transcription status, just so that we can make some plans.
+SPEAKER_03: So what's up with IBM, Chuck? Do you know?
+SPEAKER_03: I think Brian is on vacation now, but before he left, we gave him another meeting
+SPEAKER_07: to give to the trans fibers. How many? Is yours working there, Chuck?
+SPEAKER_02: Okay. Your P? What am I?
+SPEAKER_04: Is it turned on?
+SPEAKER_02: There's no on. Okay.
+SPEAKER_02: Yeah, it's just...
+SPEAKER_02: Oh, let me raise the gain on that a little bit, since it's so far from your mouth.
+SPEAKER_07: Sorry.
+SPEAKER_08: Okay. So we sent them...
+SPEAKER_03: We gave them four meetings before he left, and that's it.
+SPEAKER_03: Okay. I don't think we'll hear from him before he gets back.
+SPEAKER_03: Do I know about your pie chart?
+SPEAKER_03: I don't know.
+SPEAKER_09: Or pie chart?
+SPEAKER_04: He has a nice pie chart on the current status page, which shows the amount of data that have been transcribed and the amount of the entire.
+SPEAKER_04: And at this point, it's not quite half.
+SPEAKER_04: Is that what you say with the pie chart?
+SPEAKER_04: And then of that, there's a little slower I could try and draw it, but probably better describe it.
+SPEAKER_08: Half the data it's been recorded has been transcribed?
+SPEAKER_04: Roughly, almost.
+SPEAKER_04: Wow.
+SPEAKER_04: And I haven't actually caught up with, since I got back so recently for my vacation, I know that the transcribers finished several meetings while I was gone.
+SPEAKER_04: Oh. And I haven't told you because I haven't figured out which ones they are, or yet, but when that happens, then that pie will get even closer to the midline.
+SPEAKER_04: It's not quite... not quite a 2%, but really getting close.
+SPEAKER_02: Okay, so also...
+SPEAKER_02: Pie will be close to one now.
+SPEAKER_11: Well, it's a straight match.
+SPEAKER_08: Well, if we can have 3.14 times as much transcribed as we recorded, we really will be doing that.
+SPEAKER_04: But it's so nice. I recommend this is graphic, because it's so much...
+SPEAKER_02: How much do we need transcribed before it's worth doing some trainings?
+SPEAKER_01: Oh.
+SPEAKER_02: I mean, it seems like probably we have enough now, right?
+SPEAKER_02: Because like, like, Macrophone wasn't that much data, right?
+SPEAKER_01: And it helped.
+SPEAKER_01: Well, we already used the Predicted training.
+SPEAKER_02: You only used that for digits, right?
+SPEAKER_01: Well, we did do some training out of digits.
+SPEAKER_01: Rather adaptation of digits.
+SPEAKER_01: I mean, supervised adaptation.
+SPEAKER_01: Yeah, I mean...
+SPEAKER_05: Maybe like 20 hours we could try, but maybe not counting the non-native speech, because that just doesn't translate very well.
+SPEAKER_01: I would love to do some...
+SPEAKER_01: With adaptation, you can use fairly small amount of data to improve your performance.
+SPEAKER_01: And, you know, it's just basically...
+SPEAKER_01: I don't have time to do too much these days, except what I'm already doing.
+SPEAKER_01: But if there's someone who has some free time, I'll be happy to show them how it works.
+SPEAKER_01: Can you play with it?
+SPEAKER_08: I thought you were already using adaptation.
+SPEAKER_01: That's supervised adaptation.
+SPEAKER_01: So we're doing some unsupervised speaker adaptation.
+SPEAKER_01: I see.
+SPEAKER_01: But you could build a set which you sort of take your models and do supervised adaptation.
+SPEAKER_01: And then start with the speaker adaptation from sort of channel adapted for room adapted or whatever.
+SPEAKER_02: How would you imagine doing a test set on this corpus?
+SPEAKER_02: A test set training set division.
+SPEAKER_02: I mean, it's really weird, right?
+SPEAKER_02: Because it would be hard to get speaker disjoint sets.
+SPEAKER_02: Really?
+SPEAKER_05: Do we just give up on that?
+SPEAKER_05: And actually, I was thinking about this.
+SPEAKER_05: The original application doesn't really...
+SPEAKER_05: I mean, if you're using this over and over again, you're going to be testing on the same...
+SPEAKER_05: the same speakers.
+SPEAKER_02: No, but then you have the supervised versus unsupervised question.
+SPEAKER_05: I just mean that it's not a terrible thing to assume that you don't...
+SPEAKER_05: that you don't have disjoint sets.
+SPEAKER_05: Right.
+SPEAKER_02: So...
+SPEAKER_05: For this particular kind of...
+SPEAKER_08: Right.
+SPEAKER_00: Yeah.
+SPEAKER_08: I mean, you could have some parts of it that are disjoint and some that aren't.
+SPEAKER_01: It's sort of like in broadcast news.
+SPEAKER_01: Yeah.
+SPEAKER_01: Because you have those people who re-occur.
+SPEAKER_01: Over and over.
+SPEAKER_01: I mean, the anchor speakers.
+SPEAKER_01: Right.
+SPEAKER_01: Yeah, as long as you were aware that you're doing that, that's...
+SPEAKER_01: You can celebrate it out.
+SPEAKER_02: And similarly with subject matter.
+SPEAKER_02: That, you know, if you're training your language model on this meeting only and testing on this meeting only, you're going to do a lot better than if you start crossing them.
+SPEAKER_05: Somewhat, although what's interesting is that the majority of the words in the language model are actually...
+SPEAKER_05: On the same.
+SPEAKER_05: Yeah, they're actually just like function words and...
+SPEAKER_05: Yeah.
+SPEAKER_05: And there's a lot of speaker dependence there.
+SPEAKER_05: Even the transcribers will say they know who the speakers after a while just from there.
+SPEAKER_05: Just from a word choice.
+SPEAKER_05: Right.
+SPEAKER_05: So, I don't think you're talking the way you're right.
+SPEAKER_02: Well, certainly.
+SPEAKER_02: So, it's just that...
+SPEAKER_02: If we're going to do that, we should give some thought to how we want to divide it up.
+SPEAKER_08: Yeah.
+SPEAKER_08: Yeah, so maybe someone else would do a lot of the work with probably your advice.
+SPEAKER_08: Yeah, would be.
+SPEAKER_02: So, with digits, we now have a lot of digits, but most of them aren't transcribed.
+SPEAKER_02: So, if we want to do a forced alignment on them, we could start collecting ourselves up a fairly large digit corpus.
+SPEAKER_02: Yeah. That's the same issue.
+SPEAKER_08: We want to do that for sure.
+SPEAKER_02: Yeah.
+SPEAKER_02: Someone who's interested in that to start looking at it.
+SPEAKER_02: So, who's working on digits currently?
+SPEAKER_02: Dave Gilbert.
+SPEAKER_02: Maybe I'll talk to him and see if he's interested.
+SPEAKER_02: Not right away.
+SPEAKER_02: Yeah, sure.
+SPEAKER_02: Yeah.
+SPEAKER_08: One thing, just an announcement of the source is that Chuck is going to be going to a meeting at NIST in about a month and a half, I guess, they're still working out the date.
+SPEAKER_08: Because they want to gather together sort of one person from each site who is involved in the meeting stuff since they're going to be doing a bunch of meeting recordings there.
+SPEAKER_08: And so...
+SPEAKER_02: Are the CMU folks going to be there?
+SPEAKER_08: Somebody has like one person.
+SPEAKER_08: The moment it's one person from each site, so there'll be somebody from CMU and somebody from here and somebody from...
+SPEAKER_08: Number of places, probably somebody from UW.
+SPEAKER_08: So...
+SPEAKER_08: Yeah, it's possible they're opening up to more people, but I think the main thing is just...
+SPEAKER_08: It's not a conference.
+SPEAKER_08: It's not a workshop really.
+SPEAKER_08: It's just connecting with them.
+SPEAKER_08: So...
+SPEAKER_08: So then if they start a bunch of recordings, then ultimately they'll have training sets and test sets and all that stuff.
+SPEAKER_01: But it would be interesting to hear what they intend to do about speaker over that first.
+SPEAKER_06: Right.
+SPEAKER_05: Yeah.
+SPEAKER_05: What's the plan if we're...
+SPEAKER_05: We're transcribing data and what happens if they don't deliver things until next year or something like that?
+SPEAKER_05: That's resource here.
+SPEAKER_08: Well, again, the hope is that...
+SPEAKER_08: I mean, it's looking...
+SPEAKER_08: I mean, I have to ask these folks, but my impression is that the IBM path is looking more promising.
+SPEAKER_08: Yeah. And if that's the case, and if it turns out that it's really a relatively small amount of time for our transcribers to process things before and after, if they really have taken out enough of the work that it's feasible, then maybe we can do it with a smaller staff next year.
+SPEAKER_08: I mean, next year in which he's referring to us, next year we don't have a whole lot of guaranteed funding for this work.
+SPEAKER_08: Other funding may come.
+SPEAKER_08: But if we want to just count on what we know about, it's more modest than this year.
+SPEAKER_08: There's still be money, but it's just more modest.
+SPEAKER_08: So I would see us as probably not doing more recordings, at least for meetings or digits or anything.
+SPEAKER_08: But if we feel we need to probably still do some recordings for smart com or something.
+SPEAKER_08: But otherwise, just stop that and just take whatever comes from the other places, which I guess we have an unknown rate.
+SPEAKER_08: If it starts being, their generating is huge amount, we can't handle it, then we'll tell them.
+SPEAKER_08: But although it would have been nice if that their stuff had come earlier, it's some ways a good thing because we've been earning out this path.
+SPEAKER_02: I got an email from one of the UW guys.
+SPEAKER_02: They want to record the meetings at higher sampling rate than 16 kilohertz.
+SPEAKER_02: I didn't ask why, but it seems to me that really doesn't matter if they have the disk space to do it.
+SPEAKER_02: It seems that that is not a big deal.
+SPEAKER_02: I was just wondering if anyone had an opinion about mismatched?
+SPEAKER_08: Well, just if the rate's sending to us, then we have to have the disk space to do it too.
+SPEAKER_04: Can't we down sample?
+SPEAKER_04: That would be a whole bit.
+SPEAKER_08: Are they doing some nice integer multiple?
+SPEAKER_08: Excuse me?
+SPEAKER_08: Are they doing some nice integer multiple of the 16?
+SPEAKER_02: No, no, it was like 40-something, 44-42.
+SPEAKER_08: Oh, 44.1.
+SPEAKER_08: Something like that.
+SPEAKER_08: Oh, so that's...well, we record here at 48 or something, and then we down sample.
+SPEAKER_05: But it's 44 and 16 or not.
+SPEAKER_05: Well, you can do it.
+SPEAKER_08: No, I'm sorry, you can do it.
+SPEAKER_08: You can go from anything to anything else.
+SPEAKER_05: But it's just a little more complicated.
+SPEAKER_05: It's just a little bit more complicated.
+SPEAKER_05: It's just like...
+SPEAKER_08: It's just slightly more complicated, but you can go from any frequency to anything.
+SPEAKER_02: Well, the only thought was if we're going to do a combined corpus, does it really matter if some sample that won't rate in some sample that the other?
+SPEAKER_02: My feeling is no, it doesn't.
+SPEAKER_02: These days, audio tools tend to take care of all of that, but I just wanted to double check with other people before I told them, yeah, no problem.
+SPEAKER_04: Also, seems like the corpus could all be standardized on this...
+SPEAKER_04: That's why I was saying so.
+SPEAKER_02: Why are they asking us?
+SPEAKER_02: I didn't know.
+SPEAKER_02: Why are they asking us?
+SPEAKER_02: Because we're sort of doing the corpus, so they want to be as similar as possible.
+SPEAKER_02: I think the answer is if we tell him, no, that's not all right, what he'll probably say is what we're going to do in any way.
+SPEAKER_01: Well, that's the...
+SPEAKER_01: It would be interesting to find out why they're choosing the other sample.
+SPEAKER_08: Well, I would suspect this because it's what the hardware does.
+SPEAKER_02: Oh, and they just don't want it down sample.
+SPEAKER_02: Yeah.
+SPEAKER_01: They're just deferring the problem to later, and they might say themselves a lot of this.
+SPEAKER_01: They can't participate.
+SPEAKER_08: I think it's the sort of thing that's deserving of discussion with them.
+SPEAKER_08: I don't think it's like...
+SPEAKER_08: They'll ask us, we'll give a simple answer and come back.
+SPEAKER_08: It needs them back and forth because it's a little gnarly to have parts of the database with different things.
+SPEAKER_08: And it's...
+SPEAKER_08: Part of the arguments for the higher sampling rate is that maybe there's something, you know, say, in 6 to 10 kilohertz that you might use for some purposes somewhere.
+SPEAKER_08: People are doing a wide range of things, doing location, doing a bunch of things.
+SPEAKER_08: Maybe, you know, why throw it away if you don't need to.
+SPEAKER_08: On the other hand, I mean...
+SPEAKER_08: It's...
+SPEAKER_08: 16 kilohertz is plenty.
+SPEAKER_08: Yeah.
+SPEAKER_08: So I think it's...
+SPEAKER_08: And they are going to be using a ballad disk, both for them and for us when we're processing their stuff.
+SPEAKER_01: We should want them to use this space issues, like, going to creep up on them very fast.
+SPEAKER_01: Yeah, it would be...
+SPEAKER_08: If they're going to creep up on you, you won't even creep.
+SPEAKER_05: As long as it's heavily like three people per meeting.
+SPEAKER_05: How many channels?
+SPEAKER_05: They can just limit the number of people.
+SPEAKER_02: I don't remember what their hardware set up was, but it was smaller than ours.
+SPEAKER_08: Well, that might help a bit.
+SPEAKER_08: Yeah, actually, I think at NIST, there was some discussion of fairly high sampling rates too.
+SPEAKER_02: Well, with NIST, I think they're in a different situation because they're doing video.
+SPEAKER_02: And so compared to the video, the audio was just noise in terms of disk space, literally.
+SPEAKER_08: I don't think that's true.
+SPEAKER_08: Really?
+SPEAKER_08: They're recording 50 channels or mics.
+SPEAKER_02: They're not recording all 50 of the array.
+SPEAKER_02: They're cooking the down, right?
+SPEAKER_05: They said they were going to record 50, but they were definitely above, like, 20.
+SPEAKER_02: That's funny.
+SPEAKER_02: I thought that they were cooking down that data.
+SPEAKER_02: I don't think so for them.
+SPEAKER_08: They were storing it.
+SPEAKER_08: I don't think so.
+SPEAKER_08: No, so I think they have actually a very large audio data rate.
+SPEAKER_08: I think it is comparable to a video data rate.
+SPEAKER_08: So.
+SPEAKER_03: How many words are they going to ever distribute this?
+SPEAKER_02: They're not going to.
+SPEAKER_08: You're going to have to just get...
+SPEAKER_08: Interesting question.
+SPEAKER_08: Because you'll have to just work on little subsets of it.
+SPEAKER_02: There's just no way.
+SPEAKER_03: We're estimating that ours, if we collect, say, 100 meetings in each meeting, is just the audio compressed audio is half a gig.
+SPEAKER_03: So there's 50 gigs just for our corpus, for 100 meetings.
+SPEAKER_03: And that's no video.
+SPEAKER_08: 16.
+SPEAKER_03: 16.
+SPEAKER_03: And so...
+SPEAKER_03: You just get like...
+SPEAKER_03: Even the distribution of 20 gigs, you know, if you use DVDs or something, that's a lot.
+SPEAKER_03: It's still two or three DVDs.
+SPEAKER_03: And I feel it's to read the video also.
+SPEAKER_03: It's used both sides and the two layers.
+SPEAKER_02: It's a lot more than that, right?
+SPEAKER_02: DVD is eight gigs.
+SPEAKER_08: Well, I think you also have interesting discussions next month when you go out there.
+SPEAKER_08: Yeah.
+SPEAKER_08: And how are they going to...
+SPEAKER_08: What's the distribution plan?
+SPEAKER_08: If they have something really smart in mind, then maybe we can use it.
+SPEAKER_08: I mean, we talked about sending around a disk or...
+SPEAKER_02: I think that's the right way to do it.
+SPEAKER_02: Someone sends us a disk.
+SPEAKER_02: We loaded it with data and send it back.
+SPEAKER_02: It's going to be easier than any other method.
+SPEAKER_02: Well, if you want to burn the CDs here, welcome to it.
+SPEAKER_03: We give it to LDC and let them do it.
+SPEAKER_02: Oh, yeah.
+SPEAKER_02: Yeah, absolutely.
+SPEAKER_02: If they have a way to do it.
+SPEAKER_02: I'm thinking prior to that.
+SPEAKER_05: If there ever any talk of taking the closed talking mics when people aren't talking and deleting those portions, or is the bridge...
+SPEAKER_02: You already do that.
+SPEAKER_02: Shorten does that automatically.
+SPEAKER_02: That's why you...
+SPEAKER_02: That's why shorten...
+SPEAKER_02: That's why shorten reduces the size so much.
+SPEAKER_08: That's why it's only 50 gigs.
+SPEAKER_05: Right.
+SPEAKER_05: So it's really big, even if you're only one person or two people that most are actually talking all the time.
+SPEAKER_00: Yep.
+SPEAKER_05: Wow.
+SPEAKER_02: Just talk less.
+SPEAKER_02: Well, if you talk less, it does, in fact, use less data.
+SPEAKER_02: So the channel...
+SPEAKER_08: The first time I ever heard you ask for less data.
+SPEAKER_02: It's actually one way to tell if a microphone is dead and bleeding, is if the short file is too short.
+SPEAKER_02: It's really short, then.
+SPEAKER_02: Then you can be pretty sure that the mic was off.
+SPEAKER_11: Okay.
+SPEAKER_02: And unfortunately, the tabletop ones, the six tabletop, which we record all the time, no matter how many people are there, don't compress nearly as well, because they almost always have signal on them.
+SPEAKER_02: Yeah, that's probably a lot of it.
+SPEAKER_08: And they're going to hit mics like that, too.
+SPEAKER_08: In fact, they're array.
+SPEAKER_02: They're array, we'll be.
+SPEAKER_02: So they want shorten nearly as well.
+SPEAKER_02: Wow.
+SPEAKER_11: And I assume they're going to do it lossless.
+SPEAKER_01: So they're really going to have a huge distribution purposes, might make sense to split it by channel, rather than by meetings.
+SPEAKER_01: So you could distribute, like, only the near field.
+SPEAKER_01: Yeah, absolutely.
+SPEAKER_01: Together for a bunch of meetings.
+SPEAKER_02: And then maybe one far field, you know, things or the mix channel.
+SPEAKER_02: I think there are a lot of ways to do it.
+SPEAKER_02: But let's not worry about that now.
+SPEAKER_02: Are we on disk space, Jack?
+SPEAKER_03: We're okay.
+SPEAKER_03: We've got, for the compressed meetings, we've still got about, I think it was four gigs, the one disk that we're using.
+SPEAKER_03: And we've got several, we still got quite a bit of space on the unbacked up.
+SPEAKER_03: So good.
+SPEAKER_03: But I think it's probably we should start thinking about where to go next, especially on the backed up disk space.
+SPEAKER_08: Now we bought, no, longer we bought three.
+SPEAKER_08: That's the unbacked.
+SPEAKER_08: 36 gigabyte disks.
+SPEAKER_02: Yeah, and we're using those for the poor, the expanded.
+SPEAKER_03: So for example, the Gunter's Wall Street Journal data went on to one of those.
+SPEAKER_03: Some other experiment things that people are doing are on there.
+SPEAKER_03: So if you put it there, people will use it.
+SPEAKER_08: So I think after that we need another rack or some servers.
+SPEAKER_08: Change servers?
+SPEAKER_03: Well, we could, we could, there are a bunch of disks that we have that are smaller and they're like 17, we could go to 35.
+SPEAKER_03: So we could get some extra space out of that.
+SPEAKER_03: But right now the server's full, we couldn't add any more disks.
+SPEAKER_03: We could change a smaller disk for a larger one.
+SPEAKER_08: We should probably do that while we have the space left on the existing disks.
+SPEAKER_02: Yeah, the problem with that for backed up media is the Sysadmins want to keep them at 18 gig partitions because that takes up how to day to get off backup tape.
+SPEAKER_03: Well then there's the other issue is that to add more disk now, David says we really need to go to new servers.
+SPEAKER_03: But he wants to go to new servers, not just for us, but for other nodes too.
+SPEAKER_03: So there's this sort of coordination issue.
+SPEAKER_03: And I guess I need to talk to him more about it.
+SPEAKER_02: Actually, going to bigger disks we can do even and just maintain the 18 gig partitions, just partition them into multiple.
+SPEAKER_02: So that's probably the next step is to get the 80 or 90 gig drives to replace the 30 gig we're in 18 gig that we have now.
+SPEAKER_08: There are 80 gig drives now, you can get that.
+SPEAKER_08: See that's probably what we should send around to for distribution.
+SPEAKER_02: This is a corpus.
+SPEAKER_02: That's a whole handful of micro drives.
+SPEAKER_02: Is the aerial density of the micro drive higher than if it were normal drive?
+SPEAKER_02: It must be.
+SPEAKER_03: When they come out with the 80 gig micro drive then we'll just send one of those little things with all the meeting days.
+SPEAKER_02: Yeah. Well they have the two gig already.
+SPEAKER_02: I'm just thinking 40 of them is probably still smaller in area than one normal size drive.
+SPEAKER_08: Actually, I think what was it Dave who was suggesting that you just get a computer that has one of these drives and send the computer around to the different sites and just help the computer.
+SPEAKER_08: A laptop.
+SPEAKER_08: A laptop.
+SPEAKER_08: A send the laptop.
+SPEAKER_08: 80 gig laptop.
+SPEAKER_08: Of course you don't trust the shippers necessarily so you send a person to and they just don't go to the site.
+SPEAKER_02: I'll do that.
+SPEAKER_08: Download their data.
+SPEAKER_08: Unfortunately it just takes a week at each site.
+SPEAKER_02: What?
+SPEAKER_02: It does take a week at each site.
+SPEAKER_02: Does it?
+SPEAKER_02: Yeah, absolutely.
+SPEAKER_02: If it's a nice site.
+SPEAKER_08: Yeah, they really need it in a Vesa Bursk.
+SPEAKER_08: Yeah.
+SPEAKER_02: That only takes a day or so.
+SPEAKER_08: Anyway.
+SPEAKER_08: But the University of Hawaii has issued a request.
+SPEAKER_01: Yeah.
+SPEAKER_08: That needs an opportunity.
+SPEAKER_08: Yeah.
+SPEAKER_08: Did that move.
+SPEAKER_08: Things are slower there.
+SPEAKER_08: Definitely true.
+SPEAKER_08: Yeah.
+SPEAKER_08: Any other items?
+SPEAKER_08: So, okay.
+SPEAKER_08: So that's the meeting stuff transcripts.
+SPEAKER_08: So you said it was almost half so that means that we have like 80 or so hours and out of that maybe 35 or something.
+SPEAKER_08: Yeah.
+SPEAKER_03: The pie chart shows actually meetings that are it combines the categories of you know currently in oh I've got it right there.
+SPEAKER_02: I saw the pie charts.
+SPEAKER_02: Yeah.
+SPEAKER_02: There's just a few.
+SPEAKER_04: 200 on the board.
+SPEAKER_03: Yeah.
+SPEAKER_03: Except for the other.
+SPEAKER_03: I could run on the board.
+SPEAKER_03: Okay.
+SPEAKER_03: It combines categories.
+SPEAKER_03: So when we say transcribed we mean either in the process of being transcribed either here or at IBM.
+SPEAKER_03: Yeah.
+SPEAKER_03: Or complete transcription.
+SPEAKER_03: And it also includes checked.
+SPEAKER_03: So it includes a lot of categories to be.
+SPEAKER_03: I see.
+None: So.
+SPEAKER_02: We need different colored pens.
+SPEAKER_03: Oh, I think that's that's that if thing is kind of old actually right now.
+SPEAKER_04: Last updated in July.
+SPEAKER_04: That one that you have?
+SPEAKER_04: Oh, I'm not sure.
+SPEAKER_04: The one that I saw on the web when I came back.
+None: Okay.
+SPEAKER_03: Yeah.
+SPEAKER_03: The Russell Russell.
+SPEAKER_03: The date on this one is July 26th.
+SPEAKER_08: I have to go here.
+SPEAKER_08: But how much do we have that sort of.
+SPEAKER_03: So we have total number of meetings is 78 meetings.
+SPEAKER_03: And the total meeting time is 75 hours.
+SPEAKER_03: And so the ones that are finished being transcribed as opposed to in the process of being transcribed we've got 26 hours that are finished being transcribed.
+SPEAKER_03: What does that mean?
+SPEAKER_03: Finished being transcribed.
+SPEAKER_03: So there's several processes to the transcription.
+SPEAKER_03: There's ranges from being assigned to a transcriber to them finishing transcription to then being checked with the double check.
+SPEAKER_03: And so when we say the total transcribed that's the one that's gone through being checked I believe.
+SPEAKER_03: I think that's what I have here.
+SPEAKER_03: It's not yet approved.
+SPEAKER_06: But not yet approved.
+SPEAKER_03: And then there's the final one is approved for release.
+SPEAKER_03: That's after the meeting participants have.
+SPEAKER_02: So I should probably send those to you.
+SPEAKER_02: Yeah.
+SPEAKER_02: If you know.
+SPEAKER_03: Yeah, currently that's zero released.
+SPEAKER_03: They're five.
+SPEAKER_02: They're five.
+SPEAKER_02: We have five where everyone is replied.
+SPEAKER_03: Okay.
+SPEAKER_03: So we have five that are potentially released.
+SPEAKER_04: So the cross hatching there is.
+SPEAKER_04: It's been through the double check, right?
+SPEAKER_04: Yeah, that's approval and progress.
+SPEAKER_04: So I mean, when I add a couple more from that we're done in my absence, I think that we're down about there.
+SPEAKER_04: It's not quite as close to half as I thought, but it's, you know, it's more than it.
+SPEAKER_04: And so these right here have been through the double check.
+SPEAKER_04: These haven't.
+SPEAKER_04: How nice of you holding the things on them.
+SPEAKER_04: It was falling off.
+SPEAKER_04: Thank you.
+SPEAKER_08: Okay.
+SPEAKER_08: All right. So we still have a lot of ways to go, but maybe the, the IBM thing, well, I'll push through the rest of it some quicker.
+SPEAKER_02: Okay.
+SPEAKER_02: Well, there's still two people for whom I have not been able to get in touch.
+SPEAKER_02: I have never gotten a response from any of the emails about permission forms.
+SPEAKER_02: So are they from one before language ones?
+SPEAKER_04: Yep.
+SPEAKER_02: Okay, good.
+SPEAKER_04: That's why the NSA once have still not been approved.
+SPEAKER_08: It was a figure that's prominently in things anyway.
+SPEAKER_08: Yep.
+SPEAKER_02: Yeah, it might, it might partly just be Europeans and communication issues.
+SPEAKER_02: Possibly, it's been like four months.
+SPEAKER_08: Oh.
+SPEAKER_08: How long vacation?
+SPEAKER_08: Okay.
+SPEAKER_08: I'm just going around.
+SPEAKER_06: Can you want to say something about the hardware?
+SPEAKER_02: Oh, that's right.
+SPEAKER_02: Yeah, we have new hardware.
+SPEAKER_02: So I want to set it up at some point.
+SPEAKER_02: So I just wanted to know what meeting schedules were.
+SPEAKER_02: What new hardware?
+SPEAKER_02: We have several more wireless channels so that we can set up and get rid of these, the wired stuff completely.
+SPEAKER_02: And then also we got replacements for these mics.
+SPEAKER_02: So what's your question?
+SPEAKER_02: I don't really like this.
+SPEAKER_02: Those are the only two choices right now, unfortunately.
+SPEAKER_02: So what's your question?
+SPEAKER_02: The question is when are we not recording any meetings for a couple days so that I can do it.
+SPEAKER_02: And if it doesn't work, we won't impact people.
+SPEAKER_02: Well, there's a point.
+SPEAKER_08: So when the bunch of us are off at ERA speech.
+SPEAKER_02: So what smart come?
+SPEAKER_06: Nothing this week, maybe in the end of next week.
+SPEAKER_02: End of next week.
+SPEAKER_02: Is EDU still recording?
+SPEAKER_05: They usually do Thursdays.
+SPEAKER_05: I don't get a lot of advance notice.
+SPEAKER_05: But it's always been either Monday or Thursdays.
+SPEAKER_05: Thursdays?
+SPEAKER_05: Yeah, they often do it after.
+SPEAKER_02: So if I did it like tomorrow, that would be all right.
+SPEAKER_02: It sounds like.
+SPEAKER_05: Yeah, Wednesdays, Fridays.
+SPEAKER_02: So it sounds like no one.
+SPEAKER_02: No one early next week.
+SPEAKER_06: Yeah, let me check with Robert again, but I'm pretty sure that does nothing this week.
+SPEAKER_06: Okay.
+SPEAKER_02: And then I'll also re-number.
+SPEAKER_02: So that the mics are in order.
+SPEAKER_02: Okay.
+SPEAKER_02: Thank you.
+SPEAKER_02: Okay.
+SPEAKER_02: Help with the transcripts.
+SPEAKER_02: So right now the channel numbers are discontinuous.
+SPEAKER_04: Yeah.
+SPEAKER_04: I mean, it's like extra step.
+SPEAKER_08: So I was just thinking maybe just go around and just briefly look.
+SPEAKER_08: Other things that are going on.
+SPEAKER_08: Maybe since we don't have much of a set agenda.
+SPEAKER_08: We don't have much time.
+SPEAKER_05: But feel free to overlap.
+SPEAKER_02: Okay, we'll all say what we're doing at the same time.
+SPEAKER_05: I mean, I was scared when these portions were not going to overlap.
+SPEAKER_05: That's just state of points.
+SPEAKER_08: So why don't we, we, we, we, we, we, we pick two people to.
+SPEAKER_05: People like that channel.
+SPEAKER_08: Ask much.
+SPEAKER_08: Yeah.
+SPEAKER_08: I'll keep seeing you.
+SPEAKER_08: Yeah.
+SPEAKER_08: There's absolutely natural meetings.
+SPEAKER_08: We have absolutely no effect from a preconception.
+SPEAKER_01: The transcribers have trouble with your back channel.
+SPEAKER_01: Because with my back channel.
+SPEAKER_01: Yeah, with your back channel.
+SPEAKER_01: Because sometimes you have the sort of this, this, this aha that you don't know.
+SPEAKER_01: So there's aha and there is aha.
+SPEAKER_01: And it's not quite clear always what.
+SPEAKER_01: Which I mean.
+SPEAKER_01: Yeah.
+SPEAKER_05: But I don't think it's aha.
+SPEAKER_05: It's more like aha.
+SPEAKER_05: Resident.
+SPEAKER_06: And.
+SPEAKER_06: I don't like the back channels at all.
+SPEAKER_06: That's really a problem with the speech and non-speech detect.
+SPEAKER_06: Anybody done anything?
+SPEAKER_06: What are we doing?
+None: I mean, I'll start if you want.
+SPEAKER_08: I've been the most recently rewriting transcriber and Java for no particular reason.
+SPEAKER_02: Well, I mean, what happened was that transcribers very slow to load.
+SPEAKER_02: So when you have a big meeting, especially on a slower machine, it can take five minutes before you can start doing anything.
+SPEAKER_02: And so I was thinking about why that was and the data structures I would use and I found myself unable not to sit down and code it.
+SPEAKER_02: So I did.
+SPEAKER_02: And so I have a big chunk of transcriber now written in Java and it comes up, you know, in a couple of seconds.
+SPEAKER_01: Do you take feature requests?
+None: Yeah.
+SPEAKER_02: What?
+SPEAKER_02: It's not really, no, probably not worth doing.
+SPEAKER_01: Well, I think it is worth doing.
+SPEAKER_01: Because here's the thing.
+SPEAKER_01: We're sort of, we're starting to move from transcription to annotation.
+SPEAKER_01: And the transcriber in a face is fine.
+SPEAKER_01: If essentially what you're doing is stringing words together to make transcribers.
+SPEAKER_01: But in, for instance, what we're doing now with communicator data, but what you would like to do with meeting data is to actually label utterances or words or whatever units you want with, you know, basically doing a multiple choice type of labeling.
+SPEAKER_01: And for those type of tasks, it's much more efficient to present a bunch of applicable buttons or whatever.
+SPEAKER_05: But it has to be multi-streamed.
+SPEAKER_05: In other words, the beginning of something could be one speaker and the end of that unit, like question, answer pair, could be a different speaker.
+SPEAKER_05: That's why we can't just annotate the transcripts one listening to one at a time.
+SPEAKER_05: So that's why the transcriber is nice for sort of listening to it, but you can't actually encode.
+SPEAKER_05: Yeah, I understand that.
+SPEAKER_01: And that's actually a good model, which is what this current tool that we're using has is to associate these labels with attributes of HTML tags.
+SPEAKER_01: So, you know, you have say a tag for, I don't know, what type of items, whether it's a question or a statement or whatever, and then you have a tag attribute and the value of that includes the choice.
+SPEAKER_02: So what I don't have with it so far is it doesn't play wave files and it doesn't display wave files, it just haven't done that since that part wasn't display as showing the way for one day.
+SPEAKER_02: And then also a lot of the fancy user interface stuff that's in transcriber I haven't done, but it works.
+SPEAKER_08: What's the original transcriber written in?
+SPEAKER_08: Tickle TK.
+SPEAKER_08: I see.
+None: I know.
+SPEAKER_02: Which is nice and flexible, but very, very slow, right comparison.
+SPEAKER_03: Are you using the, oh, you are, we already talked about that, the XML.
+SPEAKER_02: Yep, it's actually, yeah, because it's much faster than DOM and uses less memory.
+SPEAKER_02: And then, uh, bearing for calls, uh, hopefully second week of September, if I can never get war in sack to answer my emails.
+SPEAKER_02: I probably shouldn't say that on a safe, yeah, oh well, I gotta remember to beat that out.
+SPEAKER_02: Who was that?
+SPEAKER_02: No.
+SPEAKER_02: So anyway, that's it.
+SPEAKER_02: I'm sorry, I forgot about that.
+SPEAKER_02: Actually, I wanted to say offline with you about any literature reviews I should do beforehand.
+SPEAKER_05: Weren't peace.
+SPEAKER_05: Weren't peace, that's a good choice.
+SPEAKER_05: Keep me busy.
+SPEAKER_05: Yeah.
+SPEAKER_05: It's actually not a bad idea to say beep as a word because you can search the transcripts, you know, for that.
+SPEAKER_05: For beep, that's a good idea.
+SPEAKER_08: Okay.
+SPEAKER_08: I'll take that role anytime you want, I like saying it.
+SPEAKER_08: So.
+SPEAKER_06: Okay.
+SPEAKER_06: Yeah, I've been doing a bunch of recognition experiments on meeting data with different, uh, segmentations with different automatic segmentations, but it's not yet finished.
+SPEAKER_06: It's working progress.
+SPEAKER_08: Okay.
+SPEAKER_08: Any sense about how?
+SPEAKER_06: Yeah, for, uh, for the paper, I went to submit to these are you two, uh, you evaluate the quality of the speech and on speech detection by using it for speech recognition.
+SPEAKER_08: Right.
+SPEAKER_08: I was just asking if you had a sense yet of, uh, whether maybe you already did this experiment.
+SPEAKER_08: What was the question of, of how much of hurt you or helped you to use segmented?
+SPEAKER_01: Yeah, but we didn't have the exact comparison.
+SPEAKER_01: You know, there were, the experiments were based on different segmentations and different transcripts.
+SPEAKER_01: So we weren't quite sure what, what of the difference came from different transcripts, for instance.
+SPEAKER_06: And so it hurts compared to the ideal segmentation when you have the manual segmentations where you have exact boundaries for each other.
+SPEAKER_06: And so sometimes there are some, some words are cut off for.
+SPEAKER_06: There's some segments are assigned to speech, which there is nothing in.
+SPEAKER_06: And so there are more insertions, but most of the time there are more, the, the number of deletions is higher when, when you use the automatic segmentation compared to the ideal one.
+SPEAKER_06: And so I'm just in, in progress of yet trying to feed the recognize of both unsigmented data and see how much worse that is.
+SPEAKER_06: So that, that I have three things.
+SPEAKER_06: Yeah.
+SPEAKER_01: Unsegmented the automatic and the ideal one.
+SPEAKER_07: Yeah, I just got back.
+SPEAKER_07: I was going to post some results.
+SPEAKER_07: Was content with fishing was, was content fishing.
+SPEAKER_08: So your results are about same as both.
+SPEAKER_08: You should have seen the one that got away.
+SPEAKER_08: Yeah, who's results?
+SPEAKER_08: Bushes.
+SPEAKER_07: Yeah, you're both sort of, he's going back to the heartland.
+SPEAKER_07: Yeah, right, exactly.
+SPEAKER_07: I did my short part of heartland.
+SPEAKER_07: Yeah, built a few classes.
+SPEAKER_07: But right now I guess I'm working on this paper, this isca paper for this workshop that listen and dress.
+SPEAKER_07: So we're just getting different results for, we fixed up our different transcripts with different types of annotations.
+SPEAKER_07: And we ran, we ran alignments and we're going to develop a new feature database based on those alignments.
+SPEAKER_07: And do some trees and analysis.
+SPEAKER_07: So I'm kind of in the middle of that.
+SPEAKER_07: And flee by the 20th, 23rd.
+SPEAKER_05: 20th?
+SPEAKER_07: 20th.
+SPEAKER_07: Yeah, we'll have it all straightened out.
+SPEAKER_07: It's going to be a busy week.
+SPEAKER_01: I bet Bush went on the CRP intrep recently.
+SPEAKER_01: Yeah.
+SPEAKER_01: They told him that they got more vacation so he came back here and thought I'd have to somewhere with this.
+SPEAKER_11: Me.
+SPEAKER_08: I think he's been, he will have been off like two months out of his first seven.
+SPEAKER_01: Yeah.
+SPEAKER_08: It's hard to keep.
+SPEAKER_08: Very good deal.
+SPEAKER_08: Concentration.
+SPEAKER_01: I really know this.
+SPEAKER_01: So while he's vacationing, we've been, well, basically this is like a joint effort.
+SPEAKER_01: We're time for it.
+SPEAKER_01: Bush, you're done.
+SPEAKER_01: You know, apart from getting, preparing the data for the, for these experiments, for the, for this project, for this project workshop, we just, we just had a phone call with Mari and her students in fact.
+SPEAKER_01: And they want to, they're bringing up their own meeting recognize, which is based on Bill Burns, recognize from Johns Hopkins.
+SPEAKER_01: Based on Hub 5, like, based on their Hub 5 recognize, and so they've been getting from us the, you know, some support in terms of getting the latest transcripts and the, also the actually transcripts annotated with events like sentence boundaries and stuff like that.
+SPEAKER_01: Because one of Mari's students was, wants to do some language modeling for predicting overlaps and stuff like that.
+SPEAKER_05: Actually, we had this idea from the last time that they were here that it'd be nice to have UW do some work on language modeling that would be trying to get at the same detection as what we do acoustically since they can ramp up much quicker on the language modeling and we don't, you know, we want to do the prosotic side.
+SPEAKER_05: And so this is supposed to be a project that we could actually integrate the pastures that they get from their language model for every word boundary, every frame boundary, and then train up the classifiers.
+SPEAKER_05: And it's, I guess it's an undergrad too that, that's going to be doing this work.
+SPEAKER_01: On the recognition side, actually, I think the main person doing that is Herit from Herit Nark from, yeah, formerly Cambridge.
+SPEAKER_01: And apparently they get reasonable results except in some portions they get very high in search and rates, even higher than we get with the lag evenly on the halmikes with background speech and so they were trying to track that down.
+SPEAKER_01: It could be that our recognizes actually doing relatively well because it has a reject model for mismatched speech essentially or for unspecified speech.
+SPEAKER_01: So I sent them our recognition outputs so they can sort of do a line by line comparison and see if they, you know, their insertions correspond to our rejects and stuff like that.
+SPEAKER_01: So we'll see what that leads to.
+SPEAKER_01: Yeah, other than that, well, that's much, pretty much it.
+SPEAKER_01: As far as meeting certain sort of.
+SPEAKER_08: Yeah, I mean, we're doing, as I said mentioned, Dave and I have sort of been pushing through thinking in terms of an ASRU paper, but still, I think early next week with the side weather, we'll do one or not.
+SPEAKER_08: But because the results are still confusing enough that we've got to be convinced we understand what's going on.
+SPEAKER_08: But it's starting to look like it's almost the opposite of the usual situation where you get some really nice result with digits A and then you go to a large corpus and the result goes away.
+SPEAKER_08: We had what looked like a good result in digits but then we went to more training data that kind of went away.
+SPEAKER_08: So the digits result right now is kind of equivocal.
+SPEAKER_08: But the conversational speech one, well not huge, is in sort of hub five or meeting kind of terms.
+SPEAKER_08: Actually, it's not bad, you know.
+SPEAKER_08: So it's, you know, it's like after he did some adjustments more like a percent or so that it absolutely goes down.
+SPEAKER_08: It's a PhD.
+SPEAKER_01: Sometimes. But it's still true that basically the speaker adaptation sort of negates much of the data.
+SPEAKER_08: No, I'm talking about with the adaptation. Without the adaptation is a much bigger effect.
+SPEAKER_08: Okay.
+SPEAKER_08: So it's very reasonable to think it was an alternative way of getting this kind of kind of improvement.
+SPEAKER_08: But I think what ultimately we have to face with it is that I mean he gets incredibly good results if you artificially reverberate close to my data. So I think the thing we really have to face is that our model for what's going on is wrong or incomplete.
+SPEAKER_08: And that in this situation, particularly there's a lot of noise.
+SPEAKER_08: And noise plus reverberation is not all the same as just reverberation.
+SPEAKER_08: So there's one thing that I've been thinking of doing is there's a whole lot of work that's been going on in noise suppression in the Aurora team.
+SPEAKER_08: And so they've got some software and I'm thinking of just having us integrate that in.
+SPEAKER_08: Is it mine at sea?
+SPEAKER_08: Yeah, because it just I mean it just subtracts it out.
+SPEAKER_08: In fact, in fact, you can run it and sort of enhance it when we get speech out and just run it through the rest of your recognizers.
+SPEAKER_08: So.
+SPEAKER_08: So.
+SPEAKER_08: Let's work on that.
+SPEAKER_01: There's some work that do you remember this paper or poster by some CMU folks at the HLT.
+SPEAKER_01: They were talking about and they referred to an upcoming I cast paper I think at the time.
+SPEAKER_01: Someone in culture I think worked on estimating noise from the sudden regions and then doing some explicit.
+SPEAKER_01: I don't know if it's something akin to parallel model combination or something like that to.
+SPEAKER_01: I mean people have done that for a long time.
+SPEAKER_01: Right.
+SPEAKER_01: So I couldn't judge whether this was original or not but it seemed like they got pretty good results on their meeting data.
+SPEAKER_08: Yeah, I don't remember the paper but I mean that that's certainly one of the common techniques is to do that.
+SPEAKER_08: And in all these the stuff that our team is doing they certainly look at regions that you think are non-speech or to get nice statistics.
+SPEAKER_08: And they use a host of things different things you can do.
+SPEAKER_08: And the Aurora thing we have a little bit of a handicap in that they don't watch you adjust the statistical models.
+SPEAKER_08: So you have to do everything at the future level.
+SPEAKER_08: But there's a weener filtering and spectral subtraction which are sort of can be looked at as minor modifications of one another.
+SPEAKER_08: And they've now built up a nice piece of software that does has a sort of general framework for it so you can adjust it to sort of any any one of a dozen ways that people have done this kind of thing.
+SPEAKER_08: And they found a particular set of parameters they like this week and we're running with that for a while.
+SPEAKER_05: So I'll just really briefly so when working with Don and also in Andreas on the this paper on positive and what we're trying to do is predict where people at given all information up to whatever point in time you're considering trying to predict if that's a good location for someone else to jump in.
+SPEAKER_05: So that's the idea of that paper and that's the same task that Marie a student named Dustin and also Sarah who was at this last meeting will be looking into doing from the language model.
+SPEAKER_05: Maybe some kind of clustered class and grammar or something.
+SPEAKER_05: And also we're using a couple of the lablers who are doing a motion to help us finalize some transcripts for this.
+SPEAKER_05: So these undergrad undergrad students are really helping us out a lot under Don's provision actually that's good. So these offices are being very busy Don's and the one across from them.
+SPEAKER_05: And then also working with Jeremy on communicator emotion labeling and most of that up to a few weeks ago was just getting the people labeling these utterances to a computer for emotion and that's going pretty well now.
+SPEAKER_05: What kind of emotions do you label well we're mostly looking for places where the person's frustrated with the system.
+SPEAKER_08: So it's just two categories frustrated not there.
+SPEAKER_05: There are actually that's how we started.
+SPEAKER_05: Yeah.
+SPEAKER_05: And we had different levels now we have things like amused like oh you finally got it.
+SPEAKER_05: And this appointed tired like yeah no that's wrong again which isn't really mad but you know so they gave me a lot of feedback the lablers after doing this told me what they wanted as categories.
+SPEAKER_05: And then there's jokes.
+SPEAKER_05: Yeah.
+SPEAKER_05: Right. There's not a lot of enough frustration for us to really go through quickly because we have to label every meeting and also things like repeats for the same information and so forth.
+SPEAKER_05: And I've been coordinating a little bit with Katrin at UW who was doing user correction work that she presented at the at the meeting.
+SPEAKER_05: So there's some overlap there and what you know there's a correlation between corrections and annoyance or frustration.
+SPEAKER_05: But Jeremy's been starting to really work on that project now from the acoustic side so we have all these waveforms and he's been with Morgan's help and Dan Ellis is I think looking into spectral tilt of it.
+SPEAKER_05: So he can talk about that.
+SPEAKER_05: It's a feature we haven't used before.
+SPEAKER_05: And starting to take information from alignments and create a database that we can use sort of as a large feature vector table to feed to our decision trees which we'll try to give us back and answer from the speech only as to whether the person's frustrated.
+SPEAKER_08: That reminds me of something we talked about something ways back and I sort of lost track of it about having a synthesizer driven with.
+SPEAKER_05: I haven't really actually had time to do that to talk with you about that because there's a similar project at SRI where we're used that we want to do something like that to look at whether or not some of the stylized pitch stuff is sort of perceptually similar to the kinds of things that people would mark.
+SPEAKER_06: So I actually wanted to talk to you maybe after Wednesday.
+SPEAKER_05: Yeah, because you have this ASS or your deadline.
+SPEAKER_05: Yeah, just will be after sometime.
+SPEAKER_08: But that seemed like it would be fairly straightforward that you take the pitch from the real data.
+SPEAKER_08: Right.
+SPEAKER_08: If you did into the synthesizer and then process the output with a gain box that you also had energy from the real data.
+SPEAKER_05: Yeah, there was just no way to use the energy that still exists in the English.
+SPEAKER_01: We have to do the English synthesis for smart come.
+SPEAKER_01: What if we make the system really annoyed?
+SPEAKER_05: Okay, anyway, I should move on because we're running late.
+SPEAKER_05: But I wanted to say there's one question in my mind which maybe Morgan can talk to Jeremy about is how to sort of normalize spectral tilt is just sort of in this area I don't know much about.
+SPEAKER_05: And so we should talk offline.
+SPEAKER_05: But if you have a certain speaker and you want to sort of get a bunch of data from that speaker but compare it directly on a feature to like a decision tree that won't normalize anything for you once you feed it the features.
+SPEAKER_05: How do you sort of normalize over a particular speaker what makes sense to do with that feature?
+SPEAKER_08: Well, after you're with us using given the different suggestions he's got.
+SPEAKER_05: That's something we would be glad to have help on.
+SPEAKER_05: Yeah.
+SPEAKER_05: So go ahead, Jeremy.
+SPEAKER_00: All right, so I've been looking at spectral tilt and different ways of perhaps generating it and basically have three ways right now that we're looking at for we're going to look at for features.
+SPEAKER_00: One is just looking at first kept stroke coefficient and using that.
+SPEAKER_00: Another is looking at the difference of log energies between the high frequency band and a low frequency band and a third is just taking a slope of the linear fit of the spectrum and using that.
+SPEAKER_00: So those are the three ways I have right now for generating these spectral tilt numbers and hopefully soon can look at some of the labeled stuff and look at these numbers and see which ones seem to be working well and things like that.
+SPEAKER_00: Also recently wrote a script that generates the Kappa statistic, which is a for labular agreement.
+SPEAKER_00: So looking at that as well.
+SPEAKER_05: Specifically what you want to do is remove the average speaker tilt in some sense.
+SPEAKER_05: You don't know it.
+SPEAKER_05: You want to capture the change in voice quality within a speaker without having to know ahead of time, which is which because it's circular.
+SPEAKER_05: And we can try all of them and just put them in.
+SPEAKER_08: Well the answer is yeah, I mean you want to figure out where the place is going to go.
+SPEAKER_01: You can't just normalize it based on the utterance because then you're going to have zero everywhere.
+SPEAKER_01: So you'd have to normalize it based on everything for the speaker.
+SPEAKER_01: Yeah, okay, but that's not really feasible because you have a system, a dialog system where you only have access to what the speaker said before.
+SPEAKER_01: So it have to be sort of a causal.
+SPEAKER_05: Oh yeah, that's okay. That's the sort of we keep you keep iterating, you keep updating those numbers for future.
+SPEAKER_08: Yeah, I mean, but the main thing is that you're right.
+SPEAKER_08: I mean the main distinction is whether it's voice or voice turnout.
+SPEAKER_08: If it's if it's silence or on voice regions, then you don't really want that in there if you can help it.
+SPEAKER_08: But actually, I mean just the first order, suppose you just didn't do anything smart at all and just did, you know, did that.
+SPEAKER_08: It wouldn't be that bad because you get some number that would be skewed by you skip that.
+SPEAKER_05: Using the V and the variant.
+SPEAKER_08: You know, X, X minus mu or sigma.
+SPEAKER_08: Right, right.
+SPEAKER_05: So it is distributed in a way that you can do this.
+SPEAKER_08: It's sort of the first order thing to do.
+SPEAKER_08: There's obviously much more arcane things to do and complicated things to do.
+SPEAKER_08: That was our sort of, but that's the first thing to do.
+SPEAKER_08: And then, you know, then the next thing is, well, let's just look at the voice regions, you know, and that would be a reasonable thing to do.
+SPEAKER_08: And then if it's really, when you look at which, since you're looking at something that's sort of in log domain, cap stroke is like log, you know, linearly transformed the log domain, it's probably not that terrible assumption of attendance Gaussian anyway.
+SPEAKER_08: And so the other things that get more, more tricky are to handle the fact that it's not really Gaussian.
+SPEAKER_08: And I mean, I really need that for this.
+SPEAKER_08: Yeah, so I think that would be the obvious thing, too.
+SPEAKER_01: Well, we're not going to build a parametric model of that.
+SPEAKER_01: Of the future, right?
+SPEAKER_01: We just kind of could use that.
+SPEAKER_01: No, I understand.
+SPEAKER_08: It's just, no, it's more that if you felt something wasn't Gaussian, and you were trying to normalize for some kind of bias of some sort, you might use a nonparametric measure, you might use a median, you know, and rank statistics and all that sort of stuff.
+SPEAKER_08: But I mean, it shouldn't bother with any of the traffic outings.
+SPEAKER_08: Yeah.
+SPEAKER_11: Okay.
+SPEAKER_05: Thanks.
+SPEAKER_05: Sure.
+SPEAKER_08: And I already said what I was doing, which is mostly trying to give advice to Dave when he actually does the real work on this reberpiration thing.
+SPEAKER_08: But I think it's a real learning experience for both of us.
+SPEAKER_08: And I think it's a problem, an error problem area that people really haven't dealt with that much, as we know.
+SPEAKER_08: So he kind of did, he started off with what was in some sense sort of the first obvious thing to do, although hardly anybody had done it yet.
+SPEAKER_08: And it does work very well under some conditions, and other conditions it doesn't, and now we're understanding, trying to understand what those are.
+SPEAKER_08: It's fun.
+SPEAKER_08: She just got back.
+None: No fish.
+SPEAKER_08: Okay.
+SPEAKER_08: Bush catches fish. They actually put a bunch of fish in the lake right now.
+SPEAKER_08: Really?
+SPEAKER_08: Really hungry fish.
+SPEAKER_08: I'm not kidding.
+SPEAKER_08: Really?
+SPEAKER_02: They've reached out there.
+SPEAKER_08: They're on fish and they're on the ocean.
+SPEAKER_07: Really not kidding.
+SPEAKER_07: Like, they got like scuba gear on, and like, what they didn't tell her.
+SPEAKER_02: Hey, I caught one this one, and it's already cooked.
+SPEAKER_02: I'm about to keep it.
+SPEAKER_08: 30 dead.
+SPEAKER_08: So we're...
+SPEAKER_08: What are you doing?
+SPEAKER_08: I think we're doing federal funding.
+SPEAKER_02: Should we do simultaneous digits so that I actually have time for tea?
+SPEAKER_08: Yeah, let's do that.
+SPEAKER_08: I don't know if these are going to be any good, but sure does get us out of here quickly.
+SPEAKER_08: One and a two and a three.
+SPEAKER_08: Transfer.
+SPEAKER_09: Second.
+None: Oh my gosh.
+SPEAKER_09: I am about to return.
+SPEAKER_09: 50nd time.
+SPEAKER_09: I'm paying all of the transfer payments
+SPEAKER_00: for my cake.
+SPEAKER_09: Just should reduce the current period of the year.
+SPEAKER_10: Right and beyond, our service's going to be potential وه replicant.
+SPEAKER_04: Waiting for currentой 200. That's just right before the gas station out there.
+SPEAKER_04: This is it.
+SPEAKER_10: We're going to reach depth of the relief in the flowBuite.
+SPEAKER_00: So, by the time it blesses, we're looking to sort that out.
+None: This is another line under this line of income.
+SPEAKER_10: Probably a bit closer to the ganze lane right now.
+SPEAKER_00: But we're coming to a sort of higher point above the healthcare officers.
+SPEAKER_00: Let me get some, one thing to show you.
+SPEAKER_00: I wrote it in one day.
+SPEAKER_00: Even recently, COVID thousands.
+SPEAKER_00: 4273.
+SPEAKER_10: 3.050.
+SPEAKER_10: 8.090.
+SPEAKER_10: 7.060.
+SPEAKER_10: 8.470.
+SPEAKER_00: 6.060.
+SPEAKER_00: 8.260.
+SPEAKER_00: 6263.
+SPEAKER_00: 9273.
+SPEAKER_08: Anywhere worried we wouldn't have any overlap today?
+SPEAKER_02: Yeah.
+SPEAKER_08: A plenty of overlap.
+SPEAKER_01: And you know that whoever finished this last has to buy.
+SPEAKER_01: Did you know that?
+SPEAKER_01: I remember.
+SPEAKER_01: And we're ssssss.
+None: I'm gonna make it happen today.

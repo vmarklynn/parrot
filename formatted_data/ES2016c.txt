@@ -1,0 +1,232 @@
+SPEAKER_00: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: All right. Is everyone here?
+SPEAKER_02: Yes.
+SPEAKER_02: Yep.
+SPEAKER_02: Okay.
+SPEAKER_02: This is our conceptual design meeting.
+None: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: I'll just take a few minutes and go through the previous minutes.
+SPEAKER_02: Then each of you will have your presentation.
+SPEAKER_02: And then we will need to make a decision on the concept for the mobile control.
+SPEAKER_02: And then we'll have 40 minutes for finishing up.
+SPEAKER_02: I'll go through the meet through the minutes first.
+SPEAKER_02: We just refreshed our goal of making the finest remote control available.
+SPEAKER_02: We decided that we know that we need to use company colors, company logo.
+SPEAKER_02: And our marketing expert gave us information from interviews with 100 different remote users.
+SPEAKER_02: And then we had a lot of fun with some statistics that backed basically what we were thinking before.
+SPEAKER_02: People thought their remotes were ugly.
+SPEAKER_02: That remote is a zap a lot.
+SPEAKER_02: They only use a finite amount of buttons.
+SPEAKER_02: Which were all things we were thinking we would want to make it simple.
+SPEAKER_02: And some sort of locator, they're a button or tracking device.
+SPEAKER_02: And that it should look different than what's out there.
+SPEAKER_02: And we kind of mixed response on the speech recognition, the younger people said they wanted it.
+SPEAKER_02: Older people did not.
+SPEAKER_02: And I think we decided that the expense was not necessarily worth it.
+SPEAKER_02: And that it was probably a gimmick that would increasingly wear on the consumers nerves.
+SPEAKER_02: And then the user interface designer explored some of the technical functions of the remote.
+SPEAKER_02: The simple versus the complex, the simple one being better for a user, the complex better for an engineer.
+SPEAKER_02: And some personal preferences that were found in that would be that it should be a user oriented remote, something simple.
+SPEAKER_02: And that we didn't want to go with a universal remote because increasing cost and increasing complexity.
+SPEAKER_02: We would just have a TV remote.
+SPEAKER_02: And that we should also focus on the appearance of the remote.
+SPEAKER_02: So have it be something that looks different.
+SPEAKER_02: And finally our industrial designer gave us a rundown of how the remote will work from energy source, what we would use batteries because we don't want to have a cable.
+SPEAKER_02: That would power the remote and the lamp.
+SPEAKER_02: To have one, the user interface then would connect to a chip, which would work with the infrared controls to send the signal to the TV.
+SPEAKER_02: And if we leave, then we came up with a couple ideas for what we think the design of the remote will be.
+SPEAKER_02: Something that will fit into easily into someone's hand.
+SPEAKER_02: And with a just a few buttons, just the basics and with a scrolling function.
+SPEAKER_02: Okay, I will leave that.
+SPEAKER_02: Leave it at that.
+SPEAKER_02: Marketing.
+SPEAKER_02: We're watching trends.
+SPEAKER_01: Yep.
+SPEAKER_01: I suppose that you can have this.
+SPEAKER_01: Okay, so I was looking at trend watching.
+SPEAKER_01: Unfortunately, I wasn't given too much information.
+SPEAKER_01: I was given a brief executive summary and then an update on some recent fashion trends that we might like to look at.
+SPEAKER_01: And then I'll just tell you some personal preferences that I got from that.
+SPEAKER_01: Okay, the most important finding was that the fancy look and feel seems to be twice as important to the users as the current functional look and feel design, which I think we kind of already discussed before.
+SPEAKER_01: The second most important finding was that the remote should be technologically innovative.
+SPEAKER_01: And again, these are all things we've kind of already come up with on our own, but this just backs it up.
+SPEAKER_01: And thirdly, the remote should be easy to use.
+SPEAKER_01: As far as fashion update, we have learned that fruits and vegetables will be the most important theme for cloths, shoes and furniture.
+SPEAKER_01: So that might be a bit of a challenge to incorporate this into our remote, but we can try.
+SPEAKER_01: And also, as opposed to last year, this year, the material is expected to be spongy and feel.
+SPEAKER_01: Okay, so from that, as we've already said, we need to focus on a fancy look and feel.
+SPEAKER_01: I think we've already discovered that it's kind of hard to go away from the traditional rectangular design, but I think that even if it's very subtle, we need to kind of trick our consumers so they at least get the idea that they're getting something that's new and modern and sleek and whether it's through the shape or the colors are all of that.
+SPEAKER_01: And for technologically innovative, we've talked about the tracking device. We brought up the idea of having two pieces, which we could discuss further.
+SPEAKER_01: And Manuel had suggested the energy source and the user interface discussing some of those that we could change a little bit.
+SPEAKER_01: We need to keep it simple, have limited buttons, which I think the two piece idea might be really beneficial for. We need to incorporate this fashion trend of fruits and vegetables.
+SPEAKER_01: I don't know, I mean, I guess the two options are if we had a remote in the shape of the fruit or vegetables.
+SPEAKER_01: Right. Or with exterior designs, but my question is, I mean, the stereotypically speaking, you kind of picture males with their remote controls, and I'm not sure how they'd feel about having fruity logos on the outside.
+SPEAKER_01: So maybe we could have something that's somewhat removable or, I don't know, different options for female male target groups.
+SPEAKER_01: And then the spongy feel, I guess we could look at mobile phones and other technology that's out there and look at different types of material that might please our users who want spongy feeling remote controls.
+SPEAKER_01: What's that?
+SPEAKER_02: Possibly like a surge to button for a second, possibly like a cover like the head for mobile phone. That's what I was thinking.
+SPEAKER_02: And one with a flag and one with a banana and one that's spongy feel to it.
+SPEAKER_01: When you buy your remote, you can buy.
+SPEAKER_01: You can.
+SPEAKER_01: Various cover.
+SPEAKER_00: Very small.
+SPEAKER_00: Personalize.
+SPEAKER_00: Personalize.
+SPEAKER_02: We could leave that to the cover department.
+SPEAKER_00: We all know they've got nothing to do all day.
+SPEAKER_00: Yeah, I talk about the interface concept and how the customer relates to will use the customer user actual device.
+SPEAKER_00: So I've looked at some of the stuff I was sent trying to get some inspiration, but keeping mind that our own ideas that we had.
+SPEAKER_00: I was sent some information from the company saying that the technology department have devised a new speech recognition technology where you could program questions into such devices.
+SPEAKER_00: They gave an example of a coffee machine where you program a question, you program the answer and the machine responds accordingly.
+SPEAKER_00: There's different ways of a user can use products like remote.
+SPEAKER_00: There's a graphical use where you look at pictures and with on a screen.
+SPEAKER_00: A command line where you're obviously type things in and you get a response.
+SPEAKER_00: That's just to point out the inconsistent use of interface in remote.
+SPEAKER_00: Then I had a look at new products that are on the market, not necessarily remote controls, but ones that you'll recognise.
+SPEAKER_00: The one on the left is very similar to what we drew upon the board in the previous meeting where as scrolled out functions on the side, you can sort of just make those out.
+SPEAKER_00: On the right is obviously an iPod which is possibly one of the simplest things to use out there.
+SPEAKER_00: All that is a nice big scroll menu that is not go through.
+SPEAKER_00: The thing is this is a kids remote where the parents have the facility to control and program and watch children can watch before.
+SPEAKER_00: The parent wants to watch and it means that children have a novelty of having their own remote control.
+SPEAKER_00: So I don't know if there's a possibility of having one remote control.
+SPEAKER_00: The point at the end is that you just have to be clear on your devices as to what things you use.
+SPEAKER_00: Sometimes an arrow pointing down which may suggest volume down could become used as a V for volume, just little things like that which would need to be made clear in the design.
+SPEAKER_00: I think, can I offer what Rowan said, a user friendly remote with minimum buttons, maybe we've suggested this two part thing.
+SPEAKER_00: If it was to have a speech recognition thing, you could control that and do it all programmable that on the control bit and then just have the simple handheld thing that we sort of devised earlier as the actual remote.
+SPEAKER_00: It could be graphical display, the actual remote control port, maybe you could have like an iPod, we just sort of control through the menus.
+SPEAKER_00: So I guess more complicated and then the handheld part should be working on a mix of the design.
+SPEAKER_00: No, that is it.
+SPEAKER_00: Just so show you.
+SPEAKER_00: 90 or grand of my industrial design, yeah, cranes stuff like that.
+SPEAKER_02: Notice the giant dog bone shape.
+SPEAKER_03: Why is that so? Well, let's see, I'm going to bore you with a couple of descriptions of the interior.
+SPEAKER_03: Just to make it more obvious what we have to fit in there and that we do have to fit the stuff in there.
+SPEAKER_03: I have more information on possible materials as well, what we can and cannot do.
+SPEAKER_03: But just wait for this to load up and I'll show you what we're talking about here.
+SPEAKER_03: Details of the components design as you can see there what we have is the board, main board of the remote control, the underside.
+SPEAKER_03: It's a pretty cheap piece of technology. On top left side you can see the chip, which is the device to recognize the signal's the input and it passes it on to a row of the transistors and stuff like that on the right side that actually amplifies the signal, which later on is transferred to the device.
+SPEAKER_03: It's transferred to a infrared lamp, which then of course shines infrared light onto the television.
+SPEAKER_03: So recognize what signal it's getting and what you tell it. So much for the workings of the remote control itself.
+SPEAKER_03: It's job is to wait for you to press a key then to translate that to keep press into infrared light signals that are received by the television.
+SPEAKER_03: When you press a key, you complete a specific connection. The chip senses the connection, knows what button you press, produces a more scope line signal specific to that button.
+SPEAKER_03: The transistor amplifies the signal and then sends the signal to the LED which translates the signal to infrared light, the sensor in the TV can see the infrared light and seeing the signal the exit appropriately.
+SPEAKER_03: This is the circuit board from the other side.
+SPEAKER_03: The lower part of it, as you can see, the green, greenish board is what we saw in the first slide just flipped over.
+SPEAKER_03: You can see the circuit board itself. It's the cheapest way to make electronic connections basically on the market.
+SPEAKER_03: As you have, don't have cables, but you have the connections actually in these lines on the board. These are the actual keys that are being pressed, they're closed with the electric circuit.
+SPEAKER_03: That then sends the signal to the chip on the other side that will be behind here, which sends it over to the transistors and all that stuff.
+SPEAKER_03: You can see the amplifier signal and all that is being sent to the infrared lamp up there.
+SPEAKER_03: You can see this is the rubber button version of it. The way it works is that you have the keys here, the rubber button has a little metal plate on the other side which closes the circuit here and thus gives on the signal.
+SPEAKER_03: Now, this is the simple version. We are talking the simple and cheapest version at the same time.
+SPEAKER_03: We're talking something more complicated, of course, it's going to be more expensive as well.
+SPEAKER_03: Not only that, we also restricted the use of our outer shell or in the material that we could use for our outer shell.
+SPEAKER_03: We have gotten some information that we could use for the case material plastic, rubber as well, rather that is used in anti-stress balls.
+SPEAKER_03: It's pretty squishy, that would serve that purpose. We could also use wood or titanium.
+SPEAKER_02: Let's see a proximate cost per 100,000 for the titanium.
+SPEAKER_03: I don't have an information on that. However, our company obviously can provide us with the titanium.
+SPEAKER_03: I assume I was given an okay to use it. It certainly is an expensive material. I'm aware of that.
+SPEAKER_03: I was given an okay, but there are certain restrictions to certain materials. Now, let's first go through the list of materials.
+SPEAKER_03: What we can use is plastic, rubber, wood, and titanium. So mix these.
+SPEAKER_03: The aluminum has for the energy source. We're talking about that shortly in the other meeting. What we could use is, or what I was offered, or what we could use is a basic material battery.
+SPEAKER_03: A dynamo, interestingly enough. We could use solar cells, or a device that was not much further specified that provides kinetic energy, such as watches.
+SPEAKER_03: We could just move them, move the actual device and provide some energy. So obviously, I personally have to say that the dynamo is out of question.
+SPEAKER_03: You don't want to wind up your mode control before you can use it. Right.
+SPEAKER_03: Solar cell is interesting. May fail though.
+SPEAKER_03: Or you do it by the couch for a week.
+SPEAKER_03: Works well in Arizona, but not so.
+SPEAKER_03: We can take energy thing might work, but the same problem. You leave it lying around. You first have to shake it before it starts to work.
+SPEAKER_03: So I'd say what we're stuck with really is the basic battery, which also makes a base station basically obsolete.
+SPEAKER_03: Our interface options are push buttons in which the production of which or the actual which company is expert.
+SPEAKER_03: We've discussed that scroll wheels are better option and they are possible. We have an okay for scroll wheels. However, when it comes to the scroll wheel of the iPod.
+SPEAKER_03: I have one big objection that is that we have to fit an LCD into the remote control as well. This however may exclude certain materials.
+SPEAKER_03: Maybe affected by the movement. We might not be able to put it in there. So there's also restrictions to when it comes to the chip.
+SPEAKER_03: If we have a more sophisticated scroll wheel rather than this very basic setup that we've just presented.
+SPEAKER_03: The chip has to be more sophisticated and thus more expensive as well. I don't have any details to the cost, but it will be significant difference.
+SPEAKER_03: I'd rather say drop the titanium and therefore it's have more sophisticated chip, but that's not up to me to decide.
+SPEAKER_03: So that's for the scroll wheel. It limits our choice and squishy is hip, so I'd say rather not go for that.
+SPEAKER_03: Let's see now. Solar cells cannot be used on a curved or latex surface or remote control, but obviously that's not a problem since we have decided against solar cells. I assume right or anybody still.
+SPEAKER_03: I think batteries are probably the way to go.
+SPEAKER_03: With the titanium we cannot make it a curved design. We just be able to make it flat and straight design, which I assume would exclude.
+SPEAKER_00: With the sort of spongy and plasticky thing, you can get those mobile phones and initially have a plastic, but then they have sort of a cover on it, which is just sort of soft stuff.
+SPEAKER_00: So I don't know if it's still possible to have it up in plastic, but then whether people hold it, it still will be so spongy.
+SPEAKER_01: We can have the fruits and vegetables on the 25th.
+SPEAKER_00: So was it the possibility of having a graphical display on it like a screen? I can have a LCD screen, but therefore no rubber will be used.
+SPEAKER_03: So plastic is titanium, but this will of course influence the form of plastic design, the standard. You can use any form on latex, this tricky rubber.
+SPEAKER_03: And titanium also seems to be tricky when it comes to the form. So the way to go is if you want to scroll wheel, you can make it flat and angular, add an LCD screen, and then you can basically choose either plastic or titanium.
+SPEAKER_03: If you want to make it a particular shape, use plastic, add an LCD screen, add a scroll wheel, little fine, or make it just put buttons.
+SPEAKER_03: Basically plastic gives you the biggest variety of options, maybe not the nicest here, not much.
+SPEAKER_03: The rubbery we can shape it however we want, or the rubbery we cannot.
+SPEAKER_00: That's the tricky thing. Could we not have a shape with the scroll on the screen, and then this initial shape we had, which is sort of benign-esque.
+SPEAKER_00: That's the thing, maybe did it yellow. And you just stick on, just some other things, that's all quick, from there.
+SPEAKER_00: They would have anything just on the exterior, they wouldn't be necessary, the actual shape of the thing.
+SPEAKER_03: Is that an option, a plastic shell with a rubbery coating on certain spots? Certainly can be done.
+SPEAKER_03: So, the fruit design, how about affecting the surface of the actual rainbow control?
+SPEAKER_03: We don't make it with the particular food shape, obviously, but the surface of an orange, banana, whatever you name it.
+SPEAKER_02: What about a smell?
+SPEAKER_02: It's the remote.
+SPEAKER_00: You could just add it in different colors as well, suppose.
+SPEAKER_00: We're supposed to stick to the color of the new color.
+SPEAKER_03: Yellow and gray. So, what have we lemon, banana?
+SPEAKER_00: Grapefruit.
+SPEAKER_03: Grapefruit is what we'd go for, and comes to the author, perhaps.
+SPEAKER_02: I would say, if I were to make a decision, I would probably put the fruit aspect at the lower end of the spectrum of importance.
+SPEAKER_01: I think having a shape could be a little ridiculous.
+SPEAKER_03: What we have, but not exactly already.
+SPEAKER_02: Perhaps the implied shape will be enough to lure that fruit-minded, promoted fire.
+SPEAKER_00: It's yellow, it's curved.
+SPEAKER_03: It's a couple of graze stripes.
+SPEAKER_02: We could put the graze stripes on the bottom so that that person could turn it over.
+SPEAKER_02: If it looked like a banana, just sit it on their table.
+SPEAKER_00: And then you could actually put the banana shape thing on the fruit bowl.
+SPEAKER_00: Maybe the holder.
+SPEAKER_02: If we were to have a holder, it could be shaped like a grape.
+SPEAKER_02: It could be an ape or a fruit bowl.
+SPEAKER_02: We could have a variety of options here.
+SPEAKER_02: Do you have more tier presentation?
+SPEAKER_03: That's pretty much it.
+SPEAKER_03: I've informed you about the materials.
+SPEAKER_03: What the interior has to look like and what the limitations to certain materials are.
+SPEAKER_02: I'm going to plug in here real quick.
+SPEAKER_02: Sure.
+SPEAKER_02: Like I said, we have to make a decision on a couple of these items here.
+SPEAKER_02: Oh, no.
+SPEAKER_01: So, is the two piece idea out?
+SPEAKER_00: We sort of want to go through that because if we're going to use a battery, the base station might not be necessary.
+SPEAKER_03: Well, we can still design a two piece remote without having a base station.
+SPEAKER_03: We can still do that.
+SPEAKER_03: However, of course, it would be designed to remote so much.
+SPEAKER_03: Which then design is standard would probably limit the, again, the use of certain materials because they would be too expensive.
+SPEAKER_03: They would have to scroll wheel on both of them or have a LCD screen and so on.
+SPEAKER_03: You would probably have to stick rather with a traditional rubber button design, which we saw there.
+SPEAKER_03: But it could be done, of course.
+SPEAKER_02: Okay.
+SPEAKER_02: So these are the decisions that we do need to make by the end of this meeting.
+SPEAKER_02: For our components concept, we need to come up with the energy source, the chip on print, and the case, probably case material, and probably a shape also.
+SPEAKER_02: And then for the user interface concept, we need to decide what the tape, what the type is, and what kind of supplements will have.
+SPEAKER_02: Energy source, I think we've decided batteries, although not exciting, are probably our best bet.
+SPEAKER_02: We have five minutes.
+SPEAKER_03: Okay, and comes to the chip on print, as I said, the more advanced features you want.
+SPEAKER_03: The fancy of the chip has to be in the more expensive.
+SPEAKER_03: If you want just a normal button version, the chip on print is going to be a cheap one.
+SPEAKER_02: So, I guess we should pick the case then. If we go with the plastic case, or the plastic case, then the chip on print is still kind of we could have either or we could have a complex one or a non complex.
+SPEAKER_02: But did we decide that the rubbery feel is important enough to us?
+SPEAKER_02: We would have the LCD screen. So, I guess the case would be plastic with perhaps that's not even enough rubber to qualify as being part of it.
+SPEAKER_02: It's more of a supplement, maybe.
+SPEAKER_01: So, then for the scroll, are we going for the iPod tape?
+SPEAKER_00: Yeah, I think so.
+SPEAKER_02: Which will require a more expensive chip on print, right?
+SPEAKER_03: Yes, it does.
+None: You I guess that is that about it?
+SPEAKER_02: So, we have a good idea of what we're going to need to do on this.
+SPEAKER_02: Okay, so we will have another meeting in 30 minutes.
+SPEAKER_02: Here's what's going to be going on.
+SPEAKER_02: Ryan, you'll be working on the user interface design.
+SPEAKER_02: Manuel, you'll be working on the look and feel design.
+SPEAKER_02: Corinne will want a product evaluation. And the two of you get to play with the modeling components and maybe and get us a prototype.
+SPEAKER_02: Which should go along well with your look and feel design and your interface.
+SPEAKER_02: Basically, we'll just be working on the prototype, will accomplish your other two actions.
+SPEAKER_02: All right.
+SPEAKER_02: Okay. Let's do it.

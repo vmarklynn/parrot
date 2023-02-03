@@ -1,0 +1,518 @@
+SPEAKER_03: I'll wait until you're all in.
+None: I'll wait until you're all in.
+None: Welcome back everybody.
+None: You had fun.
+SPEAKER_03: Right.
+SPEAKER_03: You had fun.
+SPEAKER_03: Right.
+SPEAKER_03: This is our conceptual development team.
+SPEAKER_03: I think we're starting to head over ourselves from the last meeting.
+SPEAKER_01: Yeah.
+SPEAKER_01: I was getting the question as well.
+SPEAKER_03: I think, yeah.
+SPEAKER_03: This is where we talk about Prov2's materials, user interface, and trend watching.
+SPEAKER_03: So, I think we've touched on a few things already, but we'll just go over it.
+SPEAKER_03: The minutes from last time, we had a couple of changes in our plans in that we couldn't use teletext.
+SPEAKER_03: It wasn't going to be a control for everything.
+SPEAKER_03: We had to incorporate the image of the company into it.
+SPEAKER_03: We have decided on leaving out the voice recognition.
+SPEAKER_03: We've decided on there being a flip design and a different shape from what's normal.
+SPEAKER_03: We were thinking a shell, but something along the sides, just different shape from what normal.
+SPEAKER_03: We were thinking, you were going to look into the rechargeable batteries, and we were going to think about the port and alarm for getting it off, things like that.
+SPEAKER_03: Our market was going to be young business, kind of, range.
+SPEAKER_03: Okay.
+SPEAKER_03: So, she was starting with the presentation.
+SPEAKER_04: Yes, maybe.
+SPEAKER_04: Just connect up.
+SPEAKER_04: Thank you.
+SPEAKER_04: Okay, so we decided on our market, and so this feedback from the marketing department is really about trend watching.
+SPEAKER_04: The methods we used to decide on current trends and so on, market trends, were that we did our traditional, our usual market research study with our 100 subjects.
+SPEAKER_04: The general feedback from them is that the most, I'm sorry, I'm slightly tongue tied after lunch, sorry, I'm sorry.
+SPEAKER_04: We decided on the most important aspect required in an remote control device and we'll come to that later.
+SPEAKER_04: That was one of the first things we did.
+SPEAKER_04: Also with our company being full-runners in putting fashion into technology, we also looked at a fashion update using our consultants on fashion and design in Paris and Milan.
+SPEAKER_04: So the general findings from that was that in the market trends, the most important aspects for remote controls were people want a fancy look and feel rather than the current functional look and feel of remote controls.
+SPEAKER_04: They also want a remote control to be technologically innovative and of course as you predicted that it should be easy to use.
+SPEAKER_04: Now I should point out that the first of those findings, fancy look and feel, is the most important, as twice as important as the second, technologically innovative, which is in turn twice as important as being easy to use.
+SPEAKER_04: So possibly the feature that we put first is actually third.
+SPEAKER_04: It's still important but it's third in order of preference for the subject that we looked at.
+SPEAKER_04: Okay, now the fashion update which relates to very personal preferences among our subject group.
+SPEAKER_04: We found from our consultants in Paris and Milan who attended all the designing fashion fears then, but fruit and vegetables are going to be the theme for clothes, shoes and furniture.
+SPEAKER_04: So should we be thinking of using something like that in our remote control design too?
+SPEAKER_04: There also seems to be a trend towards a spongy field to materials again in contrast to last year.
+SPEAKER_04: So a lot of interesting feedback, they're both from a market research department and from our people in Paris and Milan.
+SPEAKER_04: We're interesting to see what our design people make of that.
+SPEAKER_03: Okay, thank you very much.
+SPEAKER_03: Let's start from inside and work our way out.
+SPEAKER_04: Yep, okay.
+SPEAKER_04: Unless anyone has any questions about that?
+SPEAKER_04: Not yet.
+SPEAKER_04: Okay.
+SPEAKER_04: Yes.
+SPEAKER_03: Thank you.
+SPEAKER_03: I hope you did the one too tight and you can't get the new page on it.
+SPEAKER_01: Okay.
+SPEAKER_01: This is all about the design of the edge components and the availability of the components we have in stock at the moment.
+SPEAKER_01: Just into the method, the main idea of the whole thing is just so you just press buttons and it should activate things on the TV and we discussed last meeting it should be easy to find.
+SPEAKER_01: Also in this study I've looked into the availability of some of the materials because some of the things that we looked at last time unfortunately aren't available.
+SPEAKER_01: Findings, I've got my nice little picture there.
+SPEAKER_01: This is the chip called the TA-W1A35 which is what's used in pretty much every remote control because it sends out standard signals based on your input and it's pretty much used for all TV remotes at the moment.
+SPEAKER_01: And then we're looking into battery options.
+SPEAKER_01: There's actually no rechargeable option available.
+SPEAKER_01: So I saw the standard AA and AAA which we thought were a bit too bulky and then dynamo charging.
+SPEAKER_01: I thought that might be the silly to be honest, it's basically like wind up radio.
+SPEAKER_01: So you wind up your remote control before you use it.
+SPEAKER_03: What kind of long can you get out of that?
+SPEAKER_03: Can you pick it up and then wind it for two minutes and then that's it for the night?
+SPEAKER_01: Yeah, I presume you wouldn't have to wind it for very long but I don't think it's really sort of necessary when you think of the next two options like the solar charging because most people have the light on in the room anyway so they could get when you got to
+SPEAKER_04: the room. So the light charges as sunlight does?
+SPEAKER_03: Is that right?
+SPEAKER_01: Is that right?
+SPEAKER_04: It has to be so many.
+SPEAKER_02: Regarding the sizes, which one you think will be like because we have to take into the solar charging size also so maybe standard triple in might take less space or dynamo might take more space?
+SPEAKER_01: Yeah, it would.
+SPEAKER_01: Yeah, the dynamo would take more space because you actually need a physical, so it would handle to wind up.
+SPEAKER_03: I'm pretty sure that solar is from the sun.
+SPEAKER_03: Yeah, I don't think it can.
+SPEAKER_00: Artificial light.
+SPEAKER_03: But I mean, that's not many.
+SPEAKER_03: You don't want to limit your market.
+SPEAKER_03: I mean, people who live in basement like there's not that many people.
+SPEAKER_03: I know, different parts of the world.
+SPEAKER_04: People are at the marketing internationally.
+SPEAKER_01: Yeah, most people, most people also watch TV in the night anyway.
+SPEAKER_03: But then it would be charging to the day.
+SPEAKER_03: I think the point is they charge us through the day and then you've got it charged.
+SPEAKER_01: But I think the next one's the best anyway.
+SPEAKER_01: The kinetic charging, which is like you get it in wristwatches and you don't even notice it.
+SPEAKER_01: And the amount of probably moving around you'd be doing all the time would charge it up.
+SPEAKER_01: I don't think you'd ever need to actually physically start shaking it up to make it work.
+SPEAKER_02: And are this like a, what is the life of the kinetic battery?
+SPEAKER_02: It's like it runs for a long time.
+SPEAKER_01: Yeah, it charges into some form of, it's a smaller cell, which it charges into and the size of a watch battery because they use them quite frequently and watch it.
+SPEAKER_01: And that would last for, well, I don't, I'm not entirely sure how long it would last, but I've never seen one run out.
+SPEAKER_03: But then if you think about watch, it's on your wrist, but it's on your body the whole time.
+SPEAKER_03: Yeah.
+SPEAKER_03: So you're walking around you doing things.
+SPEAKER_03: It is moving a lot of the time.
+SPEAKER_03: Yeah.
+SPEAKER_03: And you switch the TV on and put it on the side, then you pick it up to change it and put it on the side.
+SPEAKER_01: Yeah, but then again, I think it is because if you think about it, watch, although it's only a tiny amount, it's, it's always moving for the whole day.
+SPEAKER_01: And they don't run out overnight when you leave them on the side.
+SPEAKER_01: And for the same reason, you're only using it for an incredibly short amount of time, so you send the signal and then you finish with it.
+SPEAKER_01: And you put it on it.
+SPEAKER_01: No, no, I don't think the drone will see.
+SPEAKER_04: Referring back to solar charging, is that compatible with standard batteries?
+SPEAKER_04: I mean, could people put standard batteries in, but with us, you know, they could leave it in the sunlight for solar charging?
+SPEAKER_04: Or the two things not compatible?
+SPEAKER_01: Yeah, I think you could have a dual power thing, but the thing with the solar cells is you would need to put them on the case, and they, because if you, like, on a calculator, they're quite big and they all look identical.
+SPEAKER_03: No, I expect that they were looking at through a presumed, normal battery for the cheapest.
+SPEAKER_01: Yeah, the normal batteries would be the cheapest.
+SPEAKER_01: I presume that then it would actually be the solar charging ones, but the, I think they're not very resistant to dropping, because if you drop stuff, yeah, if you have the size you'd need to charge a remote, wouldn't be that big, but I mean, if, remote always get thrown around and stuff, so I think, yeah, practically, I mean, calculators, you don't really throw around a lot, whereas, remote's do, they can't.
+SPEAKER_01: Yeah, they do, they've got dual things, but the battery is smaller, I think.
+SPEAKER_02: I think that's, which one would last the longest, because we don't want customers to be like charging like a mobile phone every day, or remote control, so.
+SPEAKER_01: Yeah, so this, look at the life, also.
+SPEAKER_01: Yeah, the, if you had something, using the standard battery's anticylic charging, I don't think you'd, I think the, it would, well, you know how long the standard double A's would last in, or it could last a long time.
+SPEAKER_04: It would just discharge from the attractiveness of the whole feature.
+SPEAKER_04: Yeah, I think it would.
+SPEAKER_03: It would, yeah.
+SPEAKER_03: Okay, can we add in an attachment to clothing feature?
+SPEAKER_04: Okay.
+SPEAKER_03: Can we think about that?
+SPEAKER_03: Because if we're doing the kinetic thing, shouldn't we do some market research on that
+SPEAKER_04: first before we add it in, because I, I've got to say.
+SPEAKER_03: I didn't think about it, right? Okay.
+SPEAKER_03: Because, if it is the kinetic thing, and it is small and it is portable and it is a different shape, now the kinetic is something people don't do, kind of, we're doing something original and different, but if you wore it, if it's something you could just click on the pocket, then you would have that less, you wouldn't lose it so much.
+SPEAKER_03: But then maybe that's looking at someone who's just sitting on their own rather than the eternal battle for control of it.
+SPEAKER_04: It's not something that's come up in any of our focus groups and market research, it's not a thing that people are looking for.
+SPEAKER_04: Okay.
+SPEAKER_04: Let me throw it open to the field.
+SPEAKER_04: Okay.
+SPEAKER_04: I'm going to put on the side to think about it.
+SPEAKER_01: Okay, well I'll move on.
+SPEAKER_01: My second part of my findings, the most current remates use this silicon PCB board, which printed circuit board, which basically has these contacts that are really close together and then when you press down on the rubber button, it'll connect the circuit and each switch is connected to different legs on the chip and so sends a different message.
+SPEAKER_01: And that then gets translated by the chip into a code and then it's fired out of this LED and the sequence of on and off bursts.
+SPEAKER_03: What kind of things do we have to consider there?
+SPEAKER_03: What kind of slides does it come in varying sizes or is it just one size?
+SPEAKER_01: Well, the thing about it is that they can be as big or as small as you want them to be because you can print a circuit board like that.
+SPEAKER_01: It's simply space-like that so you can fit the size of the nine buttons in.
+SPEAKER_01: If you see how thin the tracks are, you could put them virtually right next to each other and have a much smaller switch on each one if you wanted to.
+SPEAKER_01: But there is an option to do it like that or you could have some sort of array of switches which I'll speak about in the next bit.
+SPEAKER_01: And then to conserve battery life, we're making a stand by mode, while not being used.
+SPEAKER_01: What I was thinking about that was because sometimes when you have these things, they've got little lights on behind the buttons so you can see what all the buttons are.
+SPEAKER_01: Like on a mobile phone, they do it more often than on a TV remote.
+SPEAKER_01: But you could have lights behind the buttons and after like five or ten seconds and not being used, I'd have that turned off if we decided to go for buttons that could light up.
+SPEAKER_01: The case material I've been sent, what the factory can actually give us.
+SPEAKER_01: There's the plastic which I think we were going to go for anyway as the main case housing.
+SPEAKER_01: The main problems with the, well you could go for wood but I think it would be a bit impractical.
+SPEAKER_01: Titanium, very expensive, just the process which to make it is expensive.
+SPEAKER_01: And rubber, well you're saying that people like this spongy feel this year so perhaps something made of rubber but I was thinking more of the buttons because the buttons which they've said that they've put across are what is used in some stressful manufacture and it's meant to be anti-RSI.
+SPEAKER_01: I'm not sure how that would work because surely your fingers would still be moving over the short distances but that's what they said.
+SPEAKER_01: And the problem with the casing is that there's quite a few design restrictions that they've got on the shape of the case.
+SPEAKER_01: If you go for titanium they can only do a standard box shape whereas if you come to plastic they can be a little more, they can do curved shapes but whether or not because we'd have it in two separate units.
+SPEAKER_02: For the flip phone.
+SPEAKER_02: And second question is mobile you can change the cover, call it a skin or whatever.
+SPEAKER_02: So in this case you'll be looking at a custom-made change of color from green, parrot, green to chili red or something like that.
+SPEAKER_02: Is that feature available in titanium or it's only specific to plastic?
+SPEAKER_01: Yeah, in titanium I don't think it would be available at all really.
+SPEAKER_01: Well, you could make it available in the titanium.
+SPEAKER_01: It would be so expensive to buy a new case for it because of the expensive, how much titanium is light and strong but I think it should be left for aircraft design rather than for it.
+SPEAKER_01: It does not quite easily do.
+SPEAKER_04: If you let it fall I've got a mobile phone myself which is titanium and it does mark very easily.
+SPEAKER_04: I'm just wondering if we make the basic mold out of plastic but have a rubber cover.
+SPEAKER_04: So that you give the spongy feel that also allows us to kind of have different parts
+SPEAKER_03: of it. And you can peel them off.
+SPEAKER_03: So instead of the fascia that comes off being plastic the fascia that comes with the rubber sleeve that we've removed.
+SPEAKER_03: Like those pens that you get with the grip.
+SPEAKER_03: That could be good.
+SPEAKER_02: That could be good.
+SPEAKER_02: It could be comfortable to hold on.
+SPEAKER_04: Very cheap way of changing the look of it and people can just buy a new one.
+SPEAKER_03: Well that's been really popular with mobile phones so I don't think why not.
+SPEAKER_01: Also just going back to the interface size with the buttons.
+SPEAKER_01: We were planning to do some sort of touch screen.
+SPEAKER_01: Now what I was saying before about instead of having you could have just a bare PCB circuit board and I'm sure you could probably get it in different colours and say just by touching it with your finger it would make the connection.
+SPEAKER_01: Over if you had them close enough that would be one option.
+SPEAKER_01: The second option they offer rubber buttons but I thought that an LCD type of screen because one they're incredibly thin and don't take on much space.
+SPEAKER_01: Two they you can have them in a sort of a rain you could arrange the buttons on the screen and it's all sat thing you could have them like a touch.
+SPEAKER_02: Just what you said I didn't get the meaning of it completely.
+SPEAKER_01: Oh on the LCD screen you could fit it the problem with it basically is that it's flat and so you can't do lots of curved things with it.
+SPEAKER_01: But you wouldn't have with the LCD you'd have the wires coming off.
+SPEAKER_01: You wouldn't have that with the LCD you'd only have that with the printed circuit board.
+SPEAKER_01: Also it's a problem.
+SPEAKER_04: Sorry to interrupt I don't see why the curved thing is a problem if we for example had a shell.
+SPEAKER_04: Yeah.
+SPEAKER_01: Once we open that.
+SPEAKER_01: You can have a flat screen inside.
+SPEAKER_00: Yeah.
+SPEAKER_01: I'm just wondering whether we want an LCD screen inside it wouldn't be like full color.
+SPEAKER_01: It would just be black and white but they'd be touch buttons so you wouldn't be pressing down on them.
+SPEAKER_01: Or we could have rubber buttons which are made of this material which is anti-ISON.
+SPEAKER_03: I think it would be good to have a contrast between if the whole thing is rubber saying it would be good to open it up and see something quite fancy.
+SPEAKER_03: Yeah.
+SPEAKER_03: Now how would you distinguish if you had it bare.
+SPEAKER_03: How would you distinguish where you had to press me?
+SPEAKER_01: Yeah I hadn't really thought that.
+SPEAKER_01: It's just another idea.
+SPEAKER_04: I don't know if it helps with that but just to do with the RSI.
+SPEAKER_04: Is it possible just as an option when we open it up people can use their fingers to press the button or we have inside like a small pointer thing.
+SPEAKER_01: Yeah you could have some sort of stylus that you could pull out but I think they could get a bit easily lost.
+SPEAKER_04: Yeah.
+SPEAKER_02: It's easy to replace as well.
+SPEAKER_02: It's a person who switches channels very often and does use a particular function very often.
+SPEAKER_02: Yeah.
+SPEAKER_02: You'll find it very irritating to use earlier.
+SPEAKER_02: Yeah.
+SPEAKER_02: And he might spoil the touchpad very fast compared to a button like.
+SPEAKER_02: Yeah.
+SPEAKER_02: It'd be keep punching with an point over it.
+SPEAKER_04: Yeah.
+SPEAKER_04: Yeah.
+SPEAKER_04: Okay.
+SPEAKER_04: Just stuff though.
+SPEAKER_04: They wouldn't actually need one in the key.
+SPEAKER_04: Anything they've got.
+SPEAKER_04: Couldn't they have pancilled a pan.
+SPEAKER_03: So they wouldn't really need a.
+SPEAKER_03: Okay.
+SPEAKER_03: We'll talk about that.
+SPEAKER_01: So if you finish here.
+SPEAKER_01: Yeah that's fine.
+SPEAKER_01: Yeah that's the end.
+SPEAKER_02: I've never seen before like you're listening regarding the circuit since we have having a flip top.
+SPEAKER_02: Yeah.
+SPEAKER_02: We can customize the two circuits for different type of buttons like we are keeping the standard buttons on the top.
+SPEAKER_02: Oh yeah.
+SPEAKER_02: It's a complex button in the distance so we can divide the circuit like that.
+SPEAKER_01: Yeah.
+SPEAKER_01: Yeah that would be fairly simple.
+SPEAKER_01: I mean you'd actually have two separate.
+SPEAKER_01: You'd have two separate circuit boards but they'd be joined by wires or like some cabling between them because in the actual flip that you'd have some linking.
+SPEAKER_04: I'll just raise another point.
+SPEAKER_04: Well it occurs to me.
+SPEAKER_04: It kind of applies to both our designers here.
+SPEAKER_04: I'm not sure how it would fit in.
+SPEAKER_04: If we flip open.
+SPEAKER_04: Now you know how you've got some mirrors in nightclubs.
+SPEAKER_04: There are mirrors when you turn to them and you turn away and it gives like an advertising display.
+SPEAKER_04: You see those?
+SPEAKER_04: And they kind of respond to the turn of your body.
+SPEAKER_04: Is it possible that when we open our flip top shell.
+SPEAKER_04: It's a little compact mirror and when you press a button it then goes on to the phone display.
+SPEAKER_04: They're remote control display thing.
+SPEAKER_03: We're marketing to guys as much as we are to women.
+SPEAKER_04: They don't look at themselves.
+SPEAKER_04: Just a thought.
+SPEAKER_03: Well it's remote control you were sitting watching TV.
+SPEAKER_03: Yeah.
+SPEAKER_03: Are you going to want to sort of open it in the evening?
+SPEAKER_03: I know what you mean.
+SPEAKER_03: It's like I'm just using the idea of mobile.
+SPEAKER_04: So they're using the idea of mobile phones and kind of got slightly on to that I think.
+SPEAKER_04: Okay.
+SPEAKER_04: I'm trying to think of other features we can build in that wouldn't cost too much but one of the things that we'll understand.
+SPEAKER_04: Yeah.
+SPEAKER_04: Okay.
+SPEAKER_01: I mean you can't.
+SPEAKER_01: You could do it.
+SPEAKER_01: You could have a, because if you, if you just put the full charge through an LCD display or completely blank it out.
+SPEAKER_01: I don't know if you can get any mirror effect on that.
+SPEAKER_01: I think I'll be forget about the mirror.
+SPEAKER_04: That was just a very quick passing thought.
+SPEAKER_02: Okay.
+SPEAKER_02: I'd like to share something which I did here.
+SPEAKER_02: First thing is basically on design we just took the input from the previous meeting, especially from the marketing and industrial design to check on the customer needs and feasibility.
+SPEAKER_02: Second is we checked into competitors.
+SPEAKER_02: The picture here shows what are the standard models offered by competitors here.
+SPEAKER_02: So you generally see there is not much of variety and like marketing teams said people need 20.
+SPEAKER_02: They are both of black and white.
+SPEAKER_02: So you generally see rectangular shape, very monotonous kind of designs here.
+SPEAKER_02: And second thing is there is too much of confusion here.
+SPEAKER_02: No particular remote is standard.
+SPEAKER_02: Like some, some people have here you see this.
+SPEAKER_02: This is all I found out that only common feature is the channel control and the volume control.
+SPEAKER_02: There's other buttons there in a very disorganized and they are not consistent with other models.
+SPEAKER_02: Okay.
+SPEAKER_02: And second, as already discussed with William, we are going to have maybe a GUI interface in the middle of the flip top.
+SPEAKER_02: Sorry, what is that?
+SPEAKER_02: Graphic user interface.
+SPEAKER_02: Basically, which is what we do in computer.
+SPEAKER_02: Have icons or touchpad over to.
+SPEAKER_01: If you have like buttons appear on the screen and the cell CD screen.
+SPEAKER_02: Like you have an all icons or something you have is a good example of GUI, graphic user interface.
+SPEAKER_02: So basically a person need not point or click or press any particular device.
+SPEAKER_02: He just has to click on that particular icon to simplify.
+SPEAKER_02: And on the top repetitive buttons which are like volume or channel changing and all could be on the pointing device.
+SPEAKER_02: That means user button.
+SPEAKER_02: So he need not use a pointer to keep changing the channel if a person is frequent.
+SPEAKER_02: So we are having a combination of both.
+SPEAKER_02: So on this simpler board on the top, we have this button, rubber buttons to keep frequently changing the channels.
+None: Can we swap that round?
+SPEAKER_03: So the one that we use all the time on the bottom part.
+SPEAKER_03: In fact, if you think about holding it, you would be using your thumbs to press.
+SPEAKER_03: Just like a mobile phone.
+SPEAKER_04: And you could flip it open and you would be, wouldn't you?
+SPEAKER_04: If we just use the shell as an example again, you open that, you have your LCD display there and you have the buttons there.
+SPEAKER_04: She holds it on the bottom.
+SPEAKER_03: That is what I was saying.
+SPEAKER_03: But you can do it with the thumb.
+SPEAKER_03: And then have the LCD at the top.
+SPEAKER_03: And then be able to touch that for the other.
+SPEAKER_03: And you will have the volume and the program, things like that.
+SPEAKER_03: And the lower.
+SPEAKER_02: So the findings are too many clouded buttons.
+SPEAKER_02: Repetition of certain buttons which I already explained.
+SPEAKER_02: Example the volume and channel control buttons.
+SPEAKER_02: All are confusing and inconsistent.
+SPEAKER_02: Okay, we had a latest finding of voice recognition.
+SPEAKER_02: There was a mail which mentioned that our division has developed a new speech recognition feature.
+SPEAKER_02: We have to check into the financial feasibility whether we can incorporate this at a low cost.
+SPEAKER_02: But for like we had response from the customer that they would like to have the feature of finding it.
+SPEAKER_02: So it could be like, where is the remote and the remote answers, I am here.
+SPEAKER_02: Some kind of thing or it gives a blip sound or some kind of sound.
+SPEAKER_02: And if this can be incorporated, this would be more, you can say trendy also and technologically innovative also.
+SPEAKER_02: So we can check into the financial feasibility of incorporating this.
+SPEAKER_02: My personal preferences would be like, I already highlighted my marketing department.
+SPEAKER_02: They want something to do with fruit.
+SPEAKER_02: So I wouldn't say the design should be like a fruit.
+SPEAKER_02: Yeah, we can take inspiration from fruit colors like the vibrant colors are red chili.
+SPEAKER_02: Two might have read over and second thing is certain certain standard buttons we should have.
+SPEAKER_02: Like for example, if you see the previous slide.
+SPEAKER_02: Wow.
+SPEAKER_02: I think most of the users would now be well acquainted with this certain central pattern.
+SPEAKER_02: Here.
+SPEAKER_02: So we will not change that particular pattern because this is the most consistent thing in all remote controls.
+SPEAKER_03: I can't see that.
+SPEAKER_03: That play and stop.
+SPEAKER_03: This is central one.
+SPEAKER_02: The one you have volume and channel.
+SPEAKER_02: So keep that standardize because that's the most common feature across all models.
+SPEAKER_02: If you look at all the models, it's here.
+SPEAKER_02: This.
+SPEAKER_02: Voice recognition.
+SPEAKER_03: Right.
+SPEAKER_03: Okay.
+SPEAKER_03: I'm not sure how long we've got left, but we need to make a decision about things we've discussed.
+SPEAKER_03: So we agree on.
+SPEAKER_03: Do we agree on the battery?
+SPEAKER_04: Kind of.
+SPEAKER_04: Kind of.
+SPEAKER_03: Yeah.
+SPEAKER_03: That means that there's no function for the port.
+SPEAKER_03: You know that it sits in the impression button and having.
+SPEAKER_03: So we could incorporate voice recognition.
+SPEAKER_03: Yeah, I think it's like a gadget.
+SPEAKER_03: It's a.
+SPEAKER_01: Yeah, it is.
+SPEAKER_01: It is quite a cool feature tab.
+SPEAKER_01: And also if they've got it, if they've got these parts already in stock, then it won't be cheap to remanufacturing.
+SPEAKER_01: It will be cheap, so to remanufacturing.
+SPEAKER_01: So do you recommend to get idea that where's the remote I'm here thing?
+SPEAKER_01: I think that would be quite fun.
+SPEAKER_03: I think the only.
+SPEAKER_03: I think the only pitfall that we would have would be how much it can cost.
+SPEAKER_03: That means we have to cut down somewhere else.
+SPEAKER_03: But I think pretty much we use cheap.
+SPEAKER_03: Yeah.
+SPEAKER_03: Well, to be cheap and simple thing.
+SPEAKER_01: Yeah.
+SPEAKER_01: The LCD is not cheap.
+SPEAKER_01: Well, it's not as expensive as it would be if it was full color because if we just got black and white one, I mean they use them in calculators.
+SPEAKER_02: Maybe we could start with the black and white.
+SPEAKER_00: Yeah.
+SPEAKER_02: That would be good.
+SPEAKER_02: Yeah.
+SPEAKER_02: Upgrade later on.
+SPEAKER_04: Yeah.
+SPEAKER_04: We talked about kinetic charging.
+SPEAKER_04: Did we decide on doubly or triple e batteries?
+SPEAKER_01: Wait.
+SPEAKER_03: Do you want a backup?
+SPEAKER_04: No.
+SPEAKER_04: One of the decisions we had to make was whether we had doubly or triple e batteries because they still got to be charged this way, haven't they?
+SPEAKER_01: No, the kinetic ones come with the sort of battery that goes in the watch.
+SPEAKER_01: Right.
+SPEAKER_01: OK.
+SPEAKER_01: So it's a lot smaller than that.
+SPEAKER_01: So it would.
+SPEAKER_04: Got you on that, OK.
+SPEAKER_03: Got battery.
+SPEAKER_03: The inside component is pretty standardised across the board, isn't it?
+SPEAKER_03: Yeah.
+SPEAKER_03: So there's not really a decision to be made there.
+SPEAKER_03: The buttons.
+SPEAKER_03: What did you give us as a zone?
+SPEAKER_03: The bareboard LCD.
+SPEAKER_01: Yeah, the, I think we were going to the LCD on that one.
+SPEAKER_01: On the buttons.
+SPEAKER_01: On the, on the, on the top one.
+SPEAKER_03: On the top one, OK.
+SPEAKER_03: You've got the touch.
+SPEAKER_03: Yeah.
+SPEAKER_03: OK.
+SPEAKER_01: And then on the bottom, we were going to have to rub a rub once the anti-ISI ones.
+SPEAKER_03: OK.
+SPEAKER_03: OK.
+None: Sorry.
+SPEAKER_04: Could you repeat that last part?
+SPEAKER_01: OK.
+SPEAKER_01: On the flip screen.
+SPEAKER_01: The flip screen.
+SPEAKER_01: The top one is going to be the LCD.
+SPEAKER_01: And the bottom one is going to be the rubberized plastic.
+SPEAKER_01: OK.
+SPEAKER_02: And for the, you know it's for the body design, I think, plastic.
+SPEAKER_02: Plastic.
+SPEAKER_01: Yeah.
+SPEAKER_01: OK.
+SPEAKER_01: If it's inside, for the inside end.
+SPEAKER_02: Yeah.
+SPEAKER_02: Rubber as a padding or for the crypt something like to add to the design.
+SPEAKER_04: So we decided on a rubber casing for the plastic shell and the right two designs.
+SPEAKER_04: OK.
+SPEAKER_04: And it is just a, although it's rubberized and spongy, apart from that, we're just going to go for sort of vegetable and fruit colors.
+SPEAKER_04: We're not going to try and make it actually a vegetable or fruit design or anything else
+SPEAKER_03: in the shell. No, I think it kind of is.
+SPEAKER_03: We don't want to be tacky if we've got a different shape anyway.
+SPEAKER_03: OK.
+SPEAKER_03: The fact, the material that we would be using would be cheap.
+SPEAKER_03: So we could make it red, we could make it psychedelic.
+SPEAKER_03: You know, we could make it black and white, there for stripes.
+SPEAKER_03: But that's not really what we're focusing on, what we're focusing on.
+SPEAKER_03: The feel.
+SPEAKER_03: Yes.
+SPEAKER_03: So you can just pick anything.
+SPEAKER_04: Is that going to be the image I've got in my head of something kind of shaped like that, maybe about that size, made of plastic fits into the palm of the hand, rubberized cover that's spongy.
+SPEAKER_04: Is that really going to fit fancy looking feel, which was the major thing that people wanted to market research?
+SPEAKER_03: Is that slightly different?
+SPEAKER_03: It's just different.
+SPEAKER_03: It's just different from everything else.
+SPEAKER_03: And I mean, I'm trying to imagine clean looking houses sort of beige and black.
+SPEAKER_03: Do you either want something that goes with that, which is what's on the market anyway, or you want something that contrasts as you get clocks now that are more of a talking point than an actual clock.
+SPEAKER_03: Yeah.
+SPEAKER_03: Because they're so in there.
+SPEAKER_04: I'm just kind of pushing it like to see if you came out with anything else.
+SPEAKER_04: But I totally agree.
+SPEAKER_04: We looked at those emotes.
+SPEAKER_04: I mean, there are kind of anonymous, very similar looking things.
+SPEAKER_04: This would definitely be different enough.
+SPEAKER_04: I just wanted if anybody could come up with something.
+SPEAKER_03: And you would just have a cross that you would have so many different options you could do.
+SPEAKER_03: You could have a plain black one.
+SPEAKER_03: You could have sparkly pink.
+SPEAKER_03: Literally.
+SPEAKER_04: The things that the rubberized covers are going to be serratively cheap to produce.
+SPEAKER_04: If in a year's time we get feedback from the design fears that show something else is coming out, it's so easy to produce that that can be slipped on.
+SPEAKER_03: And what is another beauty of it?
+SPEAKER_03: The ones that have rubbery spikes.
+SPEAKER_03: You know, you just go so far with it.
+SPEAKER_00: Like a puffer face.
+SPEAKER_03: You could just, you could take it wherever.
+SPEAKER_03: So I think that's quite a flexible.
+SPEAKER_02: And finally, the body should be detachable.
+SPEAKER_02: Maybe you can change the body of the case casing, the case outside.
+SPEAKER_02: It should be more loaded with the design in such a way you can change it every time.
+SPEAKER_01: Yeah, yeah, with these rubberized, not the actual plastic outside case, just the rubber.
+SPEAKER_01: Yeah.
+SPEAKER_03: Okay, we've got five minutes.
+SPEAKER_03: Or that might have been up for a while.
+SPEAKER_04: So can I just recap Sarah, the decisions that we've made, kinetic charging, the watch type batteries, LCD display, the top side of the flip top, rubberized buttons on the bottom side.
+SPEAKER_04: We're going to use fruit and vegetable colors for the rubber, cover the case itself as plastic.
+SPEAKER_04: That's how far we've got.
+SPEAKER_04: What else do we have to add to our decisions here?
+SPEAKER_02: Fine, we're talking of a voice recognition also.
+SPEAKER_02: Because we have not addressed the issue of how to locate remote control if it's lost.
+SPEAKER_04: Yeah, we're just a cost issue with that, but it's a good idea.
+SPEAKER_04: We just need to check on the cost.
+SPEAKER_02: Maybe like William was suggesting in the last thing some devices you put on key chains.
+SPEAKER_02: Oh, yeah, yeah, the whistle once.
+SPEAKER_02: The whistle.
+SPEAKER_02: So we can financially voice recognition is not feasible.
+SPEAKER_02: We could go for a whistle.
+SPEAKER_04: And incorporating the company logo.
+SPEAKER_04: Yep.
+SPEAKER_02: Have you been incorporating in the design?
+SPEAKER_04: Because I took it from the feedback you gave in the last meeting from your report.
+SPEAKER_04: It's not just a case of having a little RR hidden somewhere.
+SPEAKER_04: They do want it to be obvious that it's our product.
+SPEAKER_03: Well, they do, but I think we can.
+SPEAKER_03: It's the only one of its kind on the market.
+SPEAKER_03: I think you just addressed that with advertising.
+SPEAKER_03: You associate the name with the individual product that it is.
+SPEAKER_03: Okay.
+SPEAKER_03: And that doesn't work for you.
+SPEAKER_03: Obviously you'll have a logo on it, just like everything.
+SPEAKER_03: But everything else has a logo on it.
+SPEAKER_03: The point is that it's got to stand out somehow differently.
+SPEAKER_03: I think it does.
+SPEAKER_03: And that's why I find that.
+SPEAKER_04: Did we, I know at the last meeting we spoke about a beeper.
+SPEAKER_04: I think that was you talked about a beeper for a location.
+SPEAKER_04: Have we just rejected that beeper voice recognition?
+SPEAKER_03: Depending on how...
+SPEAKER_01: Yeah, depending on the expense of it.
+SPEAKER_03: I mean, we've got this memo saying that it's something that the company is looking into.
+SPEAKER_03: I've got in stocks.
+SPEAKER_03: That seems to make sense.
+SPEAKER_03: But if it turns out that it's hugely expensive, we'd have to cut down somewhere else.
+SPEAKER_03: Then it's worth thinking about.
+SPEAKER_03: But I think we'll find out more about the market afterwards.
+SPEAKER_03: Right.
+SPEAKER_03: I'm going to wrap it up saying.
+SPEAKER_03: I've got an end meeting now.
+SPEAKER_03: Right.
+SPEAKER_02: Did it?
+SPEAKER_02: Yeah.
+SPEAKER_03: Sorry.
+SPEAKER_02: I've been a bushing here, huh?
+SPEAKER_03: So I think we've probably got...
+SPEAKER_03: Instead of going to the same thing, we have 40 minutes.
+SPEAKER_03: So I think we've probably got about that time before we come back.
+SPEAKER_03: See that that, or we only had 40 minutes to discuss what we've discussed.
+SPEAKER_03: I don't know how long that took.
+SPEAKER_02: I think we're pretty going in a clear direction now.
+SPEAKER_03: Is everyone happy?
+SPEAKER_03: Left is good.
+SPEAKER_03: Left is good.
+SPEAKER_03: OK.
+SPEAKER_03: OK.
