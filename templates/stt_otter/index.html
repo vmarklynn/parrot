@@ -1,0 +1,131 @@
+{% extends "common.html" %}
+{% block content %}
+<!-- -----------------------------------------------------------------------------
+    STYLE
+------------------------------------------------------------------------------- -->
+<style>
+.rd{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background-color: #fcfcfc;
+    padding: 25;
+    background-repeat: no-repeat;
+    
+    background-image: url(/static/imgs/ddback.jpg);
+    background-size: 40%;
+    background-position: top right;
+}
+.rd1{
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    background-color: #fefefe;
+    padding: 25;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+    
+.btn{
+    font-size: small;
+}   
+    
+.drag_leave { border: 0px dashed black; }
+    
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}    
+
+</style>
+
+<!-- -----------------------------------------------------------------------------
+    HTML
+------------------------------------------------------------------------------- -->
+<div class="container" style ="padding: 10px; width: 1024px;" >
+
+<h1>&nbsp; My SPeech To text Application</h1>
+<hr/>
+    <br/><br/>
+</div>
+<!-- -----------------------------------------------------------------------------
+    HTML
+------------------------------------------------------------------------------- -->
+<script>
+function myhandleFileSelect(id){
+    var files = document.getElementById(id).files;
+    
+    if ( files.length > 1 ){
+        return;
+    }
+    var file = files[0];
+    
+    if (file.type.indexOf("image") >= 0 ) {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function(e) {
+            $(results).html(`<img class="img" src='${e.target.result}'/>`);
+        };
+    }        
+    else if (file.type.indexOf("text") >= 0 ) {
+        $('#results').html("Text file")
+    }
+    else {
+        $('#results').html("Binary file")
+    }
+}
+// ---------------------------------------------------------------------------------
+/*
+ * This assumes you have a service working
+ */
+function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    salert("Upload status: " +statusTxt + " : " + responseTxt)
+}
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+function handleUploadClick(url) {
+    url = url || '/app1/processfile/';
+    var file_id = document.getElementById("file_id");
+    if ( file_id.files.length <= 0) {
+        salert("No Files Selected!!", 'btn-danger');
+        return;
+    }
+    var formData = new FormData($('form#fileupload')[0]);
+    
+    $.ajax({
+        url: url,
+        type: 'POST',
+        data: formData,
+        success: function(response) {
+            salert("Processed!! " + response.responseText, "btn-success", 2000);
+            console.log("++++++++++", response);
+            $('#status').html("<pre>" + response + "</pre>")
+            
+        },
+        error: function(response) {
+            salert("Error!!!" + response.responseText, "btn-error");
+        },
+        cache: false,
+        contentType: false,
+        processData: false
+    });
+}
+
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// Not sure why this function wont work
+// May be someday someone will igure it out - please let me know
+//    
+function handleUploadClick1(url) {
+    url = url || '/app1/processfile/';
+    var file_id = document.getElementById("file_id");
+    if ( file_id.files.length <= 0) {
+        salert("No Files Selected!!", 'btn-danger');
+        return;
+    }
+    var formData = new FormData($('form#fileupload')[0]);
+    //var data1 = GET_POSTDATA(formData)
+    
+    $.post(url, formData)
+}
+    
+</script>
+{% endblock %}
