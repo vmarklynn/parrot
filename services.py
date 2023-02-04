@@ -6,7 +6,6 @@ from  mangorest.mango import webapi
 
 model = whisper.load_model("base")
 
-
 def transcribe_file(file ="/Users/snarayan/Desktop/data/audio/index.mp4", **kwargs):
     result = model.transcribe(file)
     return result
@@ -54,3 +53,17 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
             transcription = f.read()
         
     return transcription;
+
+
+#--------------------------------------------------------------------------------------------------------    
+@webapi("/parrot/myname/")
+def myName( n = "sada", **kwargs):
+    
+    ret = "\n\n My Name is: " + n + "\n"
+    for g in kwargs:
+        if (g =="request"):
+            continue;
+        ret += g + " " + kwargs.get(g) + "\n"
+    
+    return ret
+    
