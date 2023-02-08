@@ -17,22 +17,24 @@
 {% include "parrot/top.html" %}
 <div class="container" style ="padding: 10px; width: 1024px;" >
 
-<h3>Second THing</h3>
+<h3><b>Parrot</b></h3>
     <p>
-        This is an example to show transcription service of a Youtube video.
+        Demonstration - Speech-to-text for Conversation Analysis
     </p>
 <hr/>
     <div class="row">
     <div class="col-md-10">
-        <label class=label1 > Youtube URL </label> 
-        <input name=url id=url  class="input1 rd" placeholder="Enter Youtube URL Here" 
-               value="https://www.youtube.com/watch?v=DuSDVj9a4WM&list=PLEpvS3HCVQ5_ZlyF1_i-WSwBzLoDLxoc9"
-               style="width:100%;"> 
+        <form id="fileupload" method="post" class="rd" enctype="multipart/form-data" >
+            {% csrf_token %}
+                <div id="file_drop" class="drag_enter" >
+                    <input id="file_id" class="btn" name="file" type="file"  
+                    onchange="myhandleFileSelect(this.id)" accept="*" multiple>
+                </div>
+        </form>
     </div>
-    <div class="col-md-2" style="display1: grid;" >
-        <br/>
-        <button class="btn btn-primary rd" style="width:100%;" onclick="handleClick1()">Process</button>
-    </div>
+        <div class="col-md-2" style="display1: grid;" >
+            <button class="btn btn-primary rd" style="width:100%;" onclick="handleUploadClick()">Upload</but>
+        </div>
     </div>
         
     <br/>
@@ -56,13 +58,20 @@
 ------------------------------------------------------------------------------- -->
 <script>
 function handleClick1CB(responseTxt, statusTxt, xhr) {
-    if (JS_error(responseTxt, statusTxt, xhr, true) ) {
-        
+    if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
-    }
     $('#summary').val("Returned:\n\n" + responseTxt)
     $('#trans'  ).val("Returned:\n\n" + responseTxt)
 }
+
+function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    console.log(responseTxt);
+    if (JS_error(responseTxt, statusTxt, xhr, true) ) 
+        return;
+    $('#summary').val(responseTxt.summary);
+    $('#trans'  ).val(responseTxt.transcription);
+}
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 //    
 function handleClick1() {
@@ -72,6 +81,51 @@ function handleClick1() {
     console.log(url);
     $.post(url, data1, handleClick1CB)
 }
+
+function myhandleFileSelect(id){
+    var files = document.getElementById(id).files;
     
+    if ( files.length > 1 ){
+        return;
+    }
+    var file = files[0];
+    
+    if (file.type.indexOf("image") >= 0 ) {
+        var reader = new FileReader();
+        reader.readAsDataURL(file);
+        reader.onload = function(e) {
+            $(results).html(`<img class="img" src='${e.target.result}'/>`);
+        };
+    }        
+    else if (file.type.indexOf("text") >= 0 ) {
+        $('#results').html("Text file")
+    }
+    else {
+        $('#results').html("Binary file")
+    }
+}
+
+function handleUploadClick(url) {
+    url = url || '/parrot/processfile/';
+    var file_id = document.getElementById("file_id");
+    if ( file_id.files.length <= 0) {
+        salert("No Files Selected!!", 'btn-danger');
+        return;
+    }
+    var formData = new FormData($('form#fileupload')[0]);
+    
+    $.ajax({
+        url: url,
+        type: 'POST',
+        data: formData,
+        success: handleUploadClickCB,
+        error: function(response) {
+            salert("Error!!!" + response.responseText, "btn-error");
+        },
+        cache: false,
+        contentType: false,
+        processData: false
+    });
+}
 </script>
 {% endblock %}
