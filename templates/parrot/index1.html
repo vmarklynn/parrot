@@ -67,6 +67,11 @@ hr {
     margin-top: 20px; 
     margin-left: 15px
 }
+
+.loading {
+    text-align: center;
+    display: none;
+}
 </style>
 <!-- -----------------------------------------------------------------------------
     HTML
@@ -84,17 +89,19 @@ hr {
                 <input id="file_id" class="btn" name="file" type="file" accept=".wav"/>
             </div>
          </form>
-      </div>
-      <div class="upload-btn">
-         <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
-      </div>
-   </div>
+        </div>
+        <div class="upload-btn">
+           <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
+        </div>
+     </div>
+   <p class="loading" id="loading">Loading...</p>
    <label class="label1">Summary:</label>
    <textarea rows="4" id="summary" class="input1" style="height:100px"></textarea>
-   <br/>
+   <p>Word Count: <input id="wordCount-summ" class="input1" value="0"></p>
    <br/>
    <label class="label1">Transcription:</label>
    <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
+   <p>Word Count: <input id="wordCount-ori" class="input1" value="0"></p>
 </div>
 
 <!-- -----------------------------------------------------------------------------
@@ -103,13 +110,16 @@ hr {
 <script>
 
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    $('.loading').hide();
     console.log(responseTxt);
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
     
     salert("Processed!! ", "btn-success", 2000);
     $('#summary').val(responseTxt.summary);
-    $('#trans'  ).val(responseTxt.transcription);
+    $('#wordCount-summ').val(countWords(responseTxt.summary));
+    $('#trans').val(responseTxt.transcription);
+    $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
 }
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -117,32 +127,47 @@ function handleUploadClick(url) {
     url = url || '/parrot/processfile/';
     var file_id = document.getElementById("file_id");
     if ( file_id.files.length <= 0) {
+        $('#loading').hide();
         salert("No Files Selected!!", 'btn-danger');
         return;
     }
     var formData = new FormData($('form#fileupload')[0]);
     
+    $('#loading').show();  // Show the loading interface
+
     $.ajax({
-        url: url,
-        type: 'POST',
-        data: formData,
-        success: handleUploadClickCB,
-        error: function(response) {
-            salert("Error!!!" + response.responseText, "btn-error");
-        },
-        cache: false,
-        contentType: false,
-        processData: false
+      url: url,
+      type: 'POST',
+      data: formData,
+      success: function(responseTxt, statusTxt, xhr) {
+        $('#loading').hide();
+        handleUploadClickCB(responseTxt, statusTxt, xhr);
+      },
+      error: function(response) {
+        $('#loading').hide();
+        salert("Error!!!" + response.responseText, "btn-error");
+      },
+      cache: false,
+      contentType: false,
+      processData: false
     });
 }
 
-function WordCount(str) {
-    var totalSoFar = 0;
-    for (var i = 0; i < WordCount.length; i++)
-      if (str(i) === " ") { // if a space is found in str
-        totalSoFar = +1; // add 1 to total so far
+function countWords(str) {
+    return str.trim().split(/\s+/).length;
+}
+
+function countWordsAfterColon(text) {
+    let lines = text.split('\n');
+    let wordsAfterColon = '';
+    for (let line of lines) {
+      let colonIndex = line.indexOf(':');
+      if (colonIndex !== -1) {
+        wordsAfterColon += line.substring(colonIndex + 1) + ' ';
+      }
     }
-    totalsoFar += 1; // add 1 to totalsoFar to account for extra space since 1 space = 2 words
-  }  
+    return wordsAfterColon.trim().split(' ').length;
+}
+
 </script>
 {% endblock %}
