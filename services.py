@@ -7,17 +7,6 @@ from transformers import BartForConditionalGeneration, BartTokenizer
 import whisper, pytube, hashlib, os, datetime, json, torch, pyannote
 
 # Taken from https://github.com/yinruiqing/pyannote-whisper
-def word_count(str):
-    counts = dict()
-    words = str.split()
-
-    for word in words:
-        if word in counts:
-            counts[word] += 1
-        else:
-            counts[word] = 1
-    return counts
-
 class PyanWhisper:
     PUNC_SENT_END = ['.', '?', '!']
         
