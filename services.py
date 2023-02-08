@@ -1,16 +1,23 @@
-import torch
-from transformers import BartForConditionalGeneration, BartTokenizer
-import whisper, pytube, hashlib, os, datetime
+from django.http import HttpResponse
+from mangorest.mango import webapi
 from pytube import YouTube
-from nltk.tokenize import sent_tokenize
-from  mangorest.mango import webapi
-import pyannote
 from pyannote.audio import Pipeline
 from pyannote.core import Segment, Annotation, Timeline
-import json
-from django.http import HttpResponse
+from transformers import BartForConditionalGeneration, BartTokenizer
+import whisper, pytube, hashlib, os, datetime, json, torch, pyannote
 
 # Taken from https://github.com/yinruiqing/pyannote-whisper
+def word_count(str):
+    counts = dict()
+    words = str.split()
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+    return counts
+
 class PyanWhisper:
     PUNC_SENT_END = ['.', '?', '!']
         
@@ -69,20 +76,12 @@ class PyanWhisper:
             for seg, spk, sentence in spk_sent:
                 line = f'{seg.start:.2f} {seg.end:.2f} {spk} {sentence}\n'
                 fp.write(line)
-
-# our models                
+            
 model = whisper.load_model("base", device="cuda")
-diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
-                                    use_auth_token="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")
-
-bart = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
-tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 
 def transcribe_file(file ="/Users/snarayan/Desktop/data/audio/index.mp4", **kwargs):
     result = model.transcribe(file)
     return result
-
-    
 
 def splitIntoParas(tr, nLinesPerPara=4):
     n= nLinesPerPara
@@ -96,10 +95,7 @@ def splitIntoParas(tr, nLinesPerPara=4):
         
     return ret
 
-
-
 test_url = "https://www.youtube.com/watch?v=DuSDVj9a4WM&list=PLEpvS3HCVQ5_ZlyF1_i-WSwBzLoDLxoc9"
-
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/scribe/transcribe_youtube/")
 def transcribe_youtube( url = test_url , force_download=False, force_transribe=False, **kwargs):    
@@ -126,7 +122,6 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
         
     return transcription;
 
-
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/parrot/transcribe_wavinput/")
 def transcribe_wavinput(url, **kwargs):
@@ -139,48 +134,51 @@ def transcribe_wavinput(url, **kwargs):
     #     if (g =="request"):
     #         continue;
     #     ret += g + " " + kwargs.get(g) + "\n"
-    
     # return ret
+    
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/parrot/uploadfile")
 def uploadfile(request,  **kwargs):
     par = dict(request.GET)
     par.update(request.POST)
 
-    DESTDIR ="/tmp/parrot/"
-    print("uploadfile : ", DESTDIR, kwargs)
-    
+    DESTDIR ="/tmp/parrot/"    
     if (not os.path.exists(DESTDIR)):
         os.makedirs(DESTDIR)
     
-    
-    ret = "Files:\n"
+    ret = "File:\n"
     for f in request.FILES.getlist('file'):
         content = f.read()
         filename = f"{DESTDIR}{str(f)}"
-        print(f"++ Save file {filename} Content: {len(content)} :")
+        print(f"\nSaved file: {filename}")
         with open(filename, "wb") as f:
             f.write(content)
         ret += filename + "\n"
 
-    print(" Retuning ", ret )
+    print("Retuning ", ret)
     return ret
 
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/parrot/processfile")
 def processfile(request, force_transribe=False, **kwargs):
-    print("processing file: ", kwargs)
+    print("\nProcessing file: ", kwargs)
 
     ret = uploadfile(request, **kwargs)
     f = ret.split('\n')[1]
+    
+    # Pyannote and Bart
+    diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
+                                    use_auth_token="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")
+    bart = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
+    tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
 
-
-    print( f"Calling transcription: {f}")
+    print( f"Calling transcription: {f}\n")
     result = model.transcribe(f)
     diarization = diarizer(f)
-    final_result = PyanWhisper.diarize_text(result, diarization) 
-    ret = ""
+    final_result = PyanWhisper.diarize_text(result, diarization)
+    
     # Write to a new file
+    ret = ""
     with open(f +".txt", "w") as new_f:
         for seg, spk, sent in final_result:
             line = f'{spk}:{sent}\n'
@@ -188,11 +186,11 @@ def processfile(request, force_transribe=False, **kwargs):
             ret += line
         transcription = ret
     
+    # Generate Summary  
+    print("Summarizing...")
     input_ids = tokenizer.encode(transcription, return_tensors="pt", truncation=True)
-    
     with torch.no_grad():
         outputs = bart.generate(input_ids)
-    # Generate Summary
     summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
     
     print("\n\n" + summary)
