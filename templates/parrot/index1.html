@@ -1,77 +1,162 @@
 {% extends "common.html" %}
 {% block content %}
 <!-- -----------------------------------------------------------------------------
-    STYLE
+    CSS
 ------------------------------------------------------------------------------- -->
 <style>
-.rd{
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rd {
     height: 50px;
-    padding: 15px;
-    
-}    
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 38px;
+}
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.container {
+    padding: 10px;
+    width: 1024px;
+}
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-color: #ddd;
+}
+.label1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.input1 {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+.upload-btn{
+    width: 10%;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 15px 
+}
+.loading {
+    text-align: center;
+    display: none;
+}
+   
 </style>
-
 <!-- -----------------------------------------------------------------------------
     HTML
 ------------------------------------------------------------------------------- -->
 {% include "parrot/top.html" %}
-<div class="container" style ="padding: 10px; width: 1024px;" >
-
-<h3>Second THing</h3>
-    <p>
-        This is an example to show transcription service of a Youtube video.
-    </p>
-<hr/>
+<div class="container">
+    <h1><b>Parrot</b></h1>
+    <p>Demonstration - Speech-to-text for Conversation Analysis</p>
+    <hr/>
     <div class="row">
-    <div class="col-md-10">
-        <label class=label1 > Youtube URL </label> 
-        <input name=url id=url  class="input1 rd" placeholder="Enter Youtube URL Here" 
-               value="https://www.youtube.com/watch?v=DuSDVj9a4WM&list=PLEpvS3HCVQ5_ZlyF1_i-WSwBzLoDLxoc9"
-               style="width:100%;"> 
+       <div>
+          <form id="fileupload" method="post" class="rd" enctype="multipart/form-data">
+             {% csrf_token %}
+             <div id="file_drop">
+                <input id="file_id" class="btn" name="file" type="file" accept=".wav"/>
+             </div>
+          </form>
+       </div>
+       <div class="upload-btn">
+          <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
+       </div>
     </div>
-    <div class="col-md-2" style="display1: grid;" >
-        <br/>
-        <button class="btn btn-primary rd" style="width:100%;" onclick="handleClick1()">Process</button>
-    </div>
-    </div>
-        
-    <br/>
-    <br/>    
-    <label class=label11 > Summary: </label> 
-    <textarea rows=4 id="summary" class="input1" style="height:100px">
-    </textarea>
-
-    <br/>
-    <br/>    
-    <label class=label11 > Transcription: </label> 
-    <textarea rows=4 id="trans" class="input1" style="height:300px">
-    </textarea>
-
-    
+    <p class="loading" id="loading">Loading...</p>
+    <label class="label1">Summary:</label>
+    <textarea rows="4" id="summary" class="input1" style="height:100px"></textarea>
+    <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+    <label class="label1">Transcription:</label>
+    <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
+    <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
 </div>
 <!-- -----------------------------------------------------------------------------
-    SCRIPT
-
- * This assumes you have a service working
-------------------------------------------------------------------------------- -->
+    JavaScript
+--------------------------------------------------------------------------------->
 <script>
-function handleClick1CB(responseTxt, statusTxt, xhr) {
-    if (JS_error(responseTxt, statusTxt, xhr, true) ) {
-        
+
+function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    $('.loading').hide();
+    console.log(responseTxt);
+    if (JS_error(responseTxt, statusTxt, xhr, true) ) 
+        return;
+    
+    salert("Processed!! ", "btn-success", 2000);
+    $('#summary').val(responseTxt.summary);
+    $('#wordCount-summ').val(countWords(responseTxt.summary));
+    $('#trans').val(responseTxt.transcription);
+    $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
+}
+
+function handleUploadClick(url) {
+    url = url || '/parrot/processfile/';
+    var file_id = document.getElementById("file_id");
+    if ( file_id.files.length <= 0) {
+        salert("No Files Selected!!", 'btn-danger');
         return;
     }
-    $('#summary').val("Returned:\n\n" + responseTxt)
-    $('#trans'  ).val("Returned:\n\n" + responseTxt)
-}
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-//    
-function handleClick1() {
-    url = '/scribe/transcribe_youtube/';
-    data= { url: $('#url').val()}
-    var data1 = GET_POSTDATA(data)
-    console.log(url);
-    $.post(url, data1, handleClick1CB)
-}
+    var formData = new FormData($('form#fileupload')[0]);
     
+    $('#loading').show();  // Show the loading interface
+
+    $.ajax({
+      url: url,
+      type: 'POST',
+      data: formData,
+      success: function(responseTxt, statusTxt, xhr) {
+        $('#loading').hide();  // Hide the loading interface
+        handleUploadClickCB(responseTxt, statusTxt, xhr);
+      },
+      error: function(response) {
+        $('#loading').hide();
+        salert("Error!!!" + response.responseText, "btn-error");
+      },
+      cache: false,
+      contentType: false,
+      processData: false
+    });
+}
+
+function countWords(str) {
+    return str.trim().split(/\s+/).length;
+}
+
+function countWordsAfterColon(text) {
+    let lines = text.split('\n');
+    let wordsAfterColon = '';
+    for (let line of lines) {
+      let colonIndex = line.indexOf(':');
+      if (colonIndex !== -1) {
+        wordsAfterColon += line.substring(colonIndex + 1) + ' ';
+      }
+    }
+    return wordsAfterColon.trim().split(' ').length;
+}
+
 </script>
 {% endblock %}

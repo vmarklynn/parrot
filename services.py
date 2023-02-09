@@ -23,8 +23,6 @@ def transcribe_file(file ="/Users/snarayan/Desktop/data/audio/index.mp4", **kwar
     result = getmodel().transcribe(file)
     return result
 
-    
-
 def splitIntoParas(tr, nLinesPerPara=4):
     n= nLinesPerPara
     l=tr.get('segments', [])
@@ -37,10 +35,7 @@ def splitIntoParas(tr, nLinesPerPara=4):
         
     return ret
 
-
-
 test_url = "https://www.youtube.com/watch?v=DuSDVj9a4WM&list=PLEpvS3HCVQ5_ZlyF1_i-WSwBzLoDLxoc9"
-
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/scribe/transcribe_youtube/")
 def transcribe_youtube( url = test_url , force_download=False, force_transribe=False, **kwargs):    
@@ -67,7 +62,43 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
         
     return transcription;
 
+#--------------------------------------------------------------------------------------------------------    
+@webapi("/parrot/transcribe_wavinput/")
+def transcribe_wavinput(url, **kwargs):
+    print("Hi: " + url)
+    if url.method == 'POST':
+        file = request.FILES['file']
+        print("I'm in")
+    # ret = "\n\n My Name is: " + n + "\n"
+    # for g in kwargs:
+    #     if (g =="request"):
+    #         continue;
+    #     ret += g + " " + kwargs.get(g) + "\n"
+    # return ret
+    
+#--------------------------------------------------------------------------------------------------------    
+@webapi("/parrot/uploadfile")
+def uploadfile(request,  **kwargs):
+    par = dict(request.GET)
+    par.update(request.POST)
 
+    DESTDIR ="/tmp/parrot/"    
+    if (not os.path.exists(DESTDIR)):
+        os.makedirs(DESTDIR)
+    
+    ret = "File:\n"
+    for f in request.FILES.getlist('file'):
+        content = f.read()
+        filename = f"{DESTDIR}{str(f)}"
+        print(f"\nSaved file: {filename}")
+        with open(filename, "wb") as f:
+            f.write(content)
+        ret += filename + "\n"
+
+    print("Retuning ", ret)
+    return ret
+
+<<<<<<< HEAD
 #-----------------------------------------------------------------------------------
 def process(sysargs):
     print("Parsing and processing")
