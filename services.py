@@ -1,13 +1,26 @@
+#!/usr/bin/env python
+#%%writefile "/tmp/trans.py"
 
-import whisper, pytube, hashlib, os, datetime
+import whisper, pytube, hashlib, os, datetime, sys, re, json, argparse
 from pytube import YouTube
 from nltk.tokenize import sent_tokenize
 from  mangorest.mango import webapi
+import colabexts
+import colabexts.jcommon
 
-model = whisper.load_model("base")
+model =None
 
+def getmodel():
+    global model;
+    
+    if model is None:
+        model = whisper.load_model("base")
+        
+    return model
+
+    
 def transcribe_file(file ="/Users/snarayan/Desktop/data/audio/index.mp4", **kwargs):
-    result = model.transcribe(file)
+    result = getmodel().transcribe(file)
     return result
 
     
@@ -40,7 +53,7 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
     print( f"File: {file}")
     if (force_transribe or not os.path.exists(file +".txt")):  
         print( f"Calling transcription: {file}.txt")
-        tr = model.transcribe(file)
+        tr = getmodel().transcribe(file)
         ret = splitIntoParas(tr)
         with open(file +".txt", "w") as f:
             f.write(ret)
@@ -55,15 +68,36 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
     return transcription;
 
 
-#--------------------------------------------------------------------------------------------------------    
-@webapi("/parrot/myname/")
-def myName( n = "sada", **kwargs):
+#-----------------------------------------------------------------------------------
+def process(sysargs):
+    print("Parsing and processing")
     
-    ret = "\n\n My Name is: " + n + "\n"
-    for g in kwargs:
-        if (g =="request"):
-            continue;
-        ret += g + " " + kwargs.get(g) + "\n"
+    if (sysargs.url.strip()):
+        print( f"Transcribing {sysargs.url}")
+        transcribe_youtube(sysargs.url.strip())
     
-    return ret
-    
+#-----------------------------------------------------------------------------------
+sysargs=None
+def addargs():
+    global sysargs
+    p = argparse.ArgumentParser(f"{os.path.basename(sys.argv[0])}:")
+    p.add_argument('-u', '--url', type=str, default="", help="Youtube URL")
+    try:
+        sysargs, unknown=p.parse_known_args(sys.argv[1:])
+    except argparse.ArgumentError as exc:
+        print(exc.message )
+        
+    if (unknown):
+        print("Unknown options: ", unknown)
+        #p.print_help()
+    return sysargs    
+#-----------------------------------------------------------------------------------
+if __name__ == '__main__':
+    if (not colabexts.jcommon.inJupyter()):
+        t1 = datetime.datetime.now()
+        sysargs = addargs()
+        ret = process(sysargs)
+        t2 = datetime.datetime.now()
+        print(f"#All Done in {str(t2-t1)} ***")
+    else:
+        pass
