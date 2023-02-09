@@ -9,7 +9,6 @@
     align-items: center;
     justify-content: center;
 }
-
 .rd {
     height: 50px;
     border: 2px solid #ddd;
@@ -22,7 +21,6 @@
     cursor: pointer;
     margin-top: 38px;
 }
-    
 .btn-primary {
     display: flex;
     align-items: center;
@@ -33,25 +31,21 @@
     font-size: 13px;
     font-weight: bold;
 }
-    
 .container {
     padding: 10px;
     width: 1024px;
 }
-    
 hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border-color: #ddd;
 }
-    
 .label1 {
     font-weight: bold;
     font-size: 20px;
     margin-bottom: 10px;
     font-family: "Times New Roman", Times, serif;
 }
-    
 .input1 {
     width: 100%;
     font-size: 16px;
@@ -60,52 +54,49 @@ hr {
     border-radius: 5px;
     resize: none;
 }
-
 .upload-btn{
-    width: 10%; 
-    display: grid; 
-    margin-top: 20px; 
-    margin-left: 15px
+    width: 10%;
+    display: grid;
+    margin-top: 20px;
+    margin-left: 15px 
 }
-
 .loading {
     text-align: center;
     display: none;
 }
+   
 </style>
 <!-- -----------------------------------------------------------------------------
     HTML
 ------------------------------------------------------------------------------- -->
 {% include "parrot/top.html" %}
 <div class="container">
-   <h1><b>Parrot</b></h1>
-   <p>Demonstration - Speech-to-text for Conversation Analysis</p>
-   <hr/>
-   <div class="row">
-      <div>
-         <form id="fileupload" method="post" class="rd" enctype="multipart/form-data">
-            {% csrf_token %}
-            <div id="file_drop">
+    <h1><b>Parrot</b></h1>
+    <p>Demonstration - Speech-to-text for Conversation Analysis</p>
+    <hr/>
+    <div class="row">
+       <div>
+          <form id="fileupload" method="post" class="rd" enctype="multipart/form-data">
+             {% csrf_token %}
+             <div id="file_drop">
                 <input id="file_id" class="btn" name="file" type="file" accept=".wav"/>
-            </div>
-         </form>
-        </div>
-        <div class="upload-btn">
-           <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
-        </div>
-     </div>
-   <p class="loading" id="loading">Loading...</p>
-   <label class="label1">Summary:</label>
-   <textarea rows="4" id="summary" class="input1" style="height:100px"></textarea>
-   <p>Word Count: <input id="wordCount-summ" class="input1" value="0"></p>
-   <br/>
-   <label class="label1">Transcription:</label>
-   <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
-   <p>Word Count: <input id="wordCount-ori" class="input1" value="0"></p>
+             </div>
+          </form>
+       </div>
+       <div class="upload-btn">
+          <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
+       </div>
+    </div>
+    <p class="loading" id="loading">Loading...</p>
+    <label class="label1">Summary:</label>
+    <textarea rows="4" id="summary" class="input1" style="height:100px"></textarea>
+    <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+    <label class="label1">Transcription:</label>
+    <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
+    <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
 </div>
-
 <!-- -----------------------------------------------------------------------------
-    SCRIPT
+    JavaScript
 --------------------------------------------------------------------------------->
 <script>
 
@@ -122,12 +113,10 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
 }
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 function handleUploadClick(url) {
     url = url || '/parrot/processfile/';
     var file_id = document.getElementById("file_id");
     if ( file_id.files.length <= 0) {
-        $('#loading').hide();
         salert("No Files Selected!!", 'btn-danger');
         return;
     }
@@ -140,7 +129,7 @@ function handleUploadClick(url) {
       type: 'POST',
       data: formData,
       success: function(responseTxt, statusTxt, xhr) {
-        $('#loading').hide();
+        $('#loading').hide();  // Hide the loading interface
         handleUploadClickCB(responseTxt, statusTxt, xhr);
       },
       error: function(response) {
