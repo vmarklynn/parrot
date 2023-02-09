@@ -162,6 +162,48 @@ def uploadfile(request,  **kwargs):
     print("Retuning ", ret)
     return ret
 
+#--------------------------------------------------------------------------------------------------------    
+@webapi("/parrot/processfile")
+def processfile(request, force_transribe=False, **kwargs):
+    print("\nProcessing file: ", kwargs)
+
+    ret = uploadfile(request, **kwargs)
+    f = ret.split('\n')[1]
+    
+    # Pyannote and Bart
+    diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
+                                    use_auth_token="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")
+    # bart = BartForConditionalGeneration.from_pretrained("knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"")
+    # tokenizer = BartTokenizer.from_pretrained(""knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"")
+    summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
+
+
+    print( f"Calling transcription: {f}\n")
+    result = model.transcribe(f)
+    diarization = diarizer(f)
+    final_result = PyanWhisper.diarize_text(result, diarization)
+    
+    # Write to a new file
+    ret = ""
+    with open(f +".txt", "w") as new_f:
+        for seg, spk, sent in final_result:
+            line = f'{spk}:{sent}\n'
+            new_f.write(line)                               
+            ret += line
+        transcription = ret
+    
+    # Generate Summary  
+    print("Summarizing...")
+    # input_ids = tokenizer.encode(transcription, return_tensors="pt", truncation=True)
+    # with torch.no_grad():
+    #     outputs = bart.generate(input_ids)
+    # summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    summary = summarizer(transcription,min_length = 100,max_length=500)[0]['summary_text']
+
+    
+    print("\n\n" + summary)
+    response = {'transcription': transcription, 'summary': summary}
+    return HttpResponse(json.dumps(response), content_type='application/json')    
 #-----------------------------------------------------------------------------------
 def process(sysargs):
     print("Parsing and processing")
