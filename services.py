@@ -5,6 +5,7 @@ from pyannote.audio import Pipeline
 from pyannote.core import Segment, Annotation, Timeline
 from transformers import BartForConditionalGeneration, BartTokenizer
 import whisper, pytube, hashlib, os, datetime, json, torch, pyannote
+from transformers import pipeline
 
 # Taken from https://github.com/yinruiqing/pyannote-whisper
 class PyanWhisper:
@@ -158,8 +159,10 @@ def processfile(request, force_transribe=False, **kwargs):
     # Pyannote and Bart
     diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
                                     use_auth_token="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")
-    bart = BartForConditionalGeneration.from_pretrained("facebook/bart-large-cnn")
-    tokenizer = BartTokenizer.from_pretrained("facebook/bart-large-cnn")
+    # bart = BartForConditionalGeneration.from_pretrained("knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"")
+    # tokenizer = BartTokenizer.from_pretrained(""knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI"")
+    summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
+
 
     print( f"Calling transcription: {f}\n")
     result = model.transcribe(f)
@@ -177,10 +180,12 @@ def processfile(request, force_transribe=False, **kwargs):
     
     # Generate Summary  
     print("Summarizing...")
-    input_ids = tokenizer.encode(transcription, return_tensors="pt", truncation=True)
-    with torch.no_grad():
-        outputs = bart.generate(input_ids)
-    summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    # input_ids = tokenizer.encode(transcription, return_tensors="pt", truncation=True)
+    # with torch.no_grad():
+    #     outputs = bart.generate(input_ids)
+    # summary = tokenizer.decode(outputs[0], skip_special_tokens=True)
+    summary = summarizer(transcription,min_length = 100,max_length=500)[0]['summary_text']
+
     
     print("\n\n" + summary)
     response = {'transcription': transcription, 'summary': summary}
