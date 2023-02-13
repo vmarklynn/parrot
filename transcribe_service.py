@@ -5,9 +5,6 @@ from pyannote.core import Segment, Annotation, Timeline
 import whisper, hashlib, os, datetime, json, torch, pyannote
 from transformers import pipeline
 
-from django.conf import settings
-from django.shortcuts import render
-
 # Taken from https://github.com/yinruiqing/pyannote-whisper
 class PyanWhisper:
     PUNC_SENT_END = ['.', '?', '!']
@@ -67,13 +64,11 @@ class PyanWhisper:
             for seg, spk, sentence in spk_sent:
                 line = f'{seg.start:.2f} {seg.end:.2f} {spk} {sentence}\n'
                 fp.write(line)
+                
 #-----------------------------models------------------------------------------------------------------------               
-
 transcriber = whisper.load_model("base", device="cuda")
 diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
                                 use_auth_token="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")
-summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
-
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/parrot/uploadfile")
 def uploadfile(request,  **kwargs):
@@ -123,18 +118,3 @@ def processfile(request, **kwargs):
     
     response = {'transcription': transcription, 'file_url': f}
     return HttpResponse(json.dumps(response), content_type='application/json') 
-
-@webapi("/parrot/upload_wav")
-def upload_wav(request):
-    if request.method == 'POST':
-        wav_file = request.FILES.get('wav_file')
-        if wav_file is not None:
-            # Save file to media directory
-            file_path = os.path.join(settings.MEDIA_ROOT, 'uploads', wav_file.name)
-            with open(file_path, 'wb+') as destination:
-                for chunk in wav_file.chunks():
-                    destination.write(chunk)
-            # Return file URL as response
-            file_url = os.path.join(settings.MEDIA_URL, 'uploads', wav_file.name)
-            return HttpResponse(file_url)
-    return render(request, 'upload_wav.html') 
