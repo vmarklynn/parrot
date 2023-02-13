@@ -18,6 +18,17 @@
     border-radius: 5px;
     resize: none;
 }
+
+.btn-primary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
 </style>
 <!-- -----------------------------------------------------------------------------
     HTML
@@ -25,9 +36,12 @@
 {% include "parrot/top.html" %}
 <div class="container">
     <h1><b>Summary</b></h1>
-    <p> ... </p>
+    <p> TBD </p>
     <hr/>
-    <div class="row">
+    <form id="textupload" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="button" class="btn-primary" onclick="textUpload()" value="Get my summary">
+    </form>
     <label class="label1">Summary:</label>
     <textarea rows="4" id="summary" class="input1" style="height:250px"></textarea>
     <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
@@ -37,18 +51,46 @@
     JavaScript
 --------------------------------------------------------------------------------->
 <script>
+$(document).ready(function() {
+    $('#summary').val(localStorage.getItem('summary'));
+    $('#wordCount-summ').val(localStorage.getItem('wordCount-summ'));
+});
 
-function handleUploadClickCB(responseTxt, statusTxt, xhr) {
-    $('.loading').hide();
+function textUploadClickCB(responseTxt, statusTxt, xhr) {
     console.log(responseTxt);
 
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
     salert("Processed!! ", "btn-success", 2000);
-    //$('#summary').val(responseTxt.summary);
-    //$('#wordCount-summ').val(countWords(responseTxt.summary));
-    $('#trans').val(responseTxt.transcription);
-    $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
+    wordCountSumm = countWords(responseTxt.summary)
+
+    $('#summary').val(responseTxt.summary);
+    $('#wordCount-summ').val(wordCountSumm);
+
+    localStorage.setItem('summary', responseTxt.summary);
+    localStorage.setItem('wordCount-summ', wordCountSumm);
+}
+
+function textUpload() {
+    // Get the transcription text from localStorage
+    var transcription = localStorage.getItem('transcription');
+
+    var formData = new FormData($('form#textupload')[0]);
+    formData.append('transcription', transcription);
+    $.ajax({
+      url: '/parrot/summarize_text/',
+      type: 'POST',
+      data: formData,
+      success: function(responseTxt, statusTxt, xhr) {
+        textUploadClickCB(responseTxt, statusTxt, xhr);
+      },
+      error: function(response) {
+        salert("Error!!!" + response.responseText, "btn-error");
+      },
+      cache: false,
+      contentType: false,
+      processData: false
+    });
 }
 
 function countWords(str) {
