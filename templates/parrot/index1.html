@@ -64,6 +64,11 @@ hr {
     text-align: center;
     display: none;
 }
+.audiobar {
+    width: 100%; 
+    display: block; 
+    margin: 0 auto;
+}
    
 </style>
 <!-- -----------------------------------------------------------------------------
@@ -79,7 +84,7 @@ hr {
           <form id="fileupload" method="post" class="rd" enctype="multipart/form-data">
              {% csrf_token %}
              <div id="file_drop">
-                <input id="file_id" class="btn" name="file" type="file" accept=".wav"/>
+                <input id="file_id" class="btn" name="file" type="file"/>
              </div>
           </form>
        </div>
@@ -88,9 +93,7 @@ hr {
        </div>
     </div>
     <p class="loading" id="loading">Loading...</p>
-    <label class="label1">Summary:</label>
-    <textarea rows="4" id="summary" class="input1" style="height:100px"></textarea>
-    <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+    <audio class="audiobar" controls></audio>
     <label class="label1">Transcription:</label>
     <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
     <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
@@ -103,12 +106,12 @@ hr {
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
     console.log(responseTxt);
+
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
-    
     salert("Processed!! ", "btn-success", 2000);
-    $('#summary').val(responseTxt.summary);
-    $('#wordCount-summ').val(countWords(responseTxt.summary));
+    //$('#summary').val(responseTxt.summary);
+    //$('#wordCount-summ').val(countWords(responseTxt.summary));
     $('#trans').val(responseTxt.transcription);
     $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
 }
@@ -123,7 +126,6 @@ function handleUploadClick(url) {
     var formData = new FormData($('form#fileupload')[0]);
     
     $('#loading').show();  // Show the loading interface
-
     $.ajax({
       url: url,
       type: 'POST',
@@ -142,21 +144,17 @@ function handleUploadClick(url) {
     });
 }
 
-function countWords(str) {
-    return str.trim().split(/\s+/).length;
-}
-
-function countWordsAfterColon(text) {
-    let lines = text.split('\n');
-    let wordsAfterColon = '';
-    for (let line of lines) {
-      let colonIndex = line.indexOf(':');
-      if (colonIndex !== -1) {
-        wordsAfterColon += line.substring(colonIndex + 1) + ' ';
-      }
+function countWordsAfterColon(input) {
+    const regex = /:\s*(\S+)/g;
+    let match = regex.exec(input);
+    let count = 0;
+    
+    while (match !== null) {
+        count += match[1].split(/\W+/).length;
+        match = regex.exec(input);
     }
-    return wordsAfterColon.trim().split(' ').length;
+    
+    return count;
 }
-
 </script>
 {% endblock %}
