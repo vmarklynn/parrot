@@ -108,7 +108,7 @@ hr {
         <tbody id="table-body">
         </tbody>
     </table>
-    <button id="submit-btn">Submit</button>
+    <button id="change-btn">Change</button>
 </div>
 <!-- -----------------------------------------------------------------------------
     JavaScript
@@ -124,7 +124,23 @@ function clearCache() {
     $('#wordCount-ori').val(0);
     localStorage.setItem('transcription', "");
     localStorage.setItem('wordCount-ori', 0);
+    localStorage.setItem('summary', "");
+    localStorage.setItem('wordCount-summ', 0);
 }
+
+const changeBtn = document.getElementById('change-btn');
+changeBtn.addEventListener('click', function() {
+    speakersArray = countSpeakers(localStorage.getItem('transcription'));
+    const inputs = document.querySelectorAll('#table-body input');
+    for (let i = 0; i < speakersArray.speakers.length; i++) {
+        localStorage.setItem('transcription', replaceSpeakerName(
+                                speakersArray.speakers[i], 
+                                inputs[i].value, 
+                                localStorage.getItem('transcription'))
+                            );
+    }
+    $('#trans').val(localStorage.getItem('transcription'));
+});
 
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
@@ -158,18 +174,6 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
         row.appendChild(col2);
         tableBody.appendChild(row);
     }
-
-    const submitBtn = document.getElementById('submit-btn');
-    submitBtn.addEventListener('click', function() {
-        const inputs = document.querySelectorAll('#table-body input');
-        for (let i = 0; i < inputs.length; i++) {
-            localStorage.setItem('transcription', 
-                                    replaceSpeakerName(speakersArray.speakers[i], 
-                                    inputs[i].value, 
-                                    localStorage.getItem('transcription')));
-        }
-        $('#trans').val(localStorage.getItem('transcription'));
-    });
 }
 
 function handleUploadClick(url) {

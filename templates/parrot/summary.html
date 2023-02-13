@@ -29,6 +29,11 @@
     font-size: 13px;
     font-weight: bold;
 }
+
+.loading {
+    text-align: center;
+    display: none;
+}
 </style>
 <!-- -----------------------------------------------------------------------------
     HTML
@@ -42,6 +47,7 @@
         {% csrf_token %}
         <input type="button" class="btn-primary" onclick="textUpload()" value="Get my summary">
     </form>
+    <p class="loading" id="loading">Loading...</p>
     <label class="label1">Summary:</label>
     <textarea rows="4" id="summary" class="input1" style="height:250px"></textarea>
     <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
@@ -57,6 +63,7 @@ $(document).ready(function() {
 });
 
 function textUploadClickCB(responseTxt, statusTxt, xhr) {
+    $('.loading').hide();
     console.log(responseTxt);
 
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
@@ -72,19 +79,26 @@ function textUploadClickCB(responseTxt, statusTxt, xhr) {
 }
 
 function textUpload() {
+    if ( localStorage.getItem('transcription') === "") {
+        salert("No transcript!!", 'btn-danger');
+        return;
+    }
     // Get the transcription text from localStorage
     var transcription = localStorage.getItem('transcription');
 
     var formData = new FormData($('form#textupload')[0]);
     formData.append('transcription', transcription);
+    $('#loading').show();  // Show the loading interface
     $.ajax({
       url: '/parrot/summarize_text/',
       type: 'POST',
       data: formData,
       success: function(responseTxt, statusTxt, xhr) {
+        $('#loading').hide();  // Hide the loading interface
         textUploadClickCB(responseTxt, statusTxt, xhr);
       },
       error: function(response) {
+        $('#loading').hide();  // Hide the loading interface
         salert("Error!!!" + response.responseText, "btn-error");
       },
       cache: false,
