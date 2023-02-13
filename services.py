@@ -67,10 +67,24 @@ class PyanWhisper:
                 line = f'{seg.start:.2f} {seg.end:.2f} {spk} {sentence}\n'
                 fp.write(line)
             
-model = whisper.load_model("base", device="cuda")
+device = "cpu"
+if (torch.cuda.is_available() ):
+    device = "cuda"
 
+
+model = whisper.load_model("base", device=device)
+
+def getmodel():
+    global model;
+    
+    if model is None:
+        model = whisper.load_model("base")
+        
+    return model
+
+    
 def transcribe_file(file ="/Users/snarayan/Desktop/data/audio/index.mp4", **kwargs):
-    result = model.transcribe(file)
+    result = getmodel().transcribe(file)
     return result
 
 def splitIntoParas(tr, nLinesPerPara=4):
@@ -98,7 +112,7 @@ def transcribe_youtube( url = test_url , force_download=False, force_transribe=F
     print( f"File: {file}")
     if (force_transribe or not os.path.exists(file +".txt")):  
         print( f"Calling transcription: {file}.txt")
-        tr = model.transcribe(file)
+        tr = getmodel().transcribe(file)
         ret = splitIntoParas(tr)
         with open(file +".txt", "w") as f:
             f.write(ret)
@@ -190,3 +204,36 @@ def processfile(request, force_transribe=False, **kwargs):
     print("\n\n" + summary)
     response = {'transcription': transcription, 'summary': summary}
     return HttpResponse(json.dumps(response), content_type='application/json')    
+#-----------------------------------------------------------------------------------
+def process(sysargs):
+    print("Parsing and processing")
+    
+    if (sysargs.url.strip()):
+        print( f"Transcribing {sysargs.url}")
+        transcribe_youtube(sysargs.url.strip())
+    
+#-----------------------------------------------------------------------------------
+sysargs=None
+def addargs():
+    global sysargs
+    p = argparse.ArgumentParser(f"{os.path.basename(sys.argv[0])}:")
+    p.add_argument('-u', '--url', type=str, default="", help="Youtube URL")
+    try:
+        sysargs, unknown=p.parse_known_args(sys.argv[1:])
+    except argparse.ArgumentError as exc:
+        print(exc.message )
+        
+    if (unknown):
+        print("Unknown options: ", unknown)
+        #p.print_help()
+    return sysargs    
+#-----------------------------------------------------------------------------------
+if __name__ == '__main__':
+    if (not colabexts.jcommon.inJupyter()):
+        t1 = datetime.datetime.now()
+        sysargs = addargs()
+        ret = process(sysargs)
+        t2 = datetime.datetime.now()
+        print(f"#All Done in {str(t2-t1)} ***")
+    else:
+        pass
