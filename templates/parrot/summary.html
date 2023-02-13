@@ -1,0 +1,58 @@
+{% extends "common.html" %}
+{% block content %}
+<!-- -----------------------------------------------------------------------------
+    CSS
+------------------------------------------------------------------------------- -->
+<style>
+.label1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: "Times New Roman", Times, serif;
+}
+.input1 {
+    width: 100%;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
+</style>
+<!-- -----------------------------------------------------------------------------
+    HTML
+------------------------------------------------------------------------------- -->
+{% include "parrot/top.html" %}
+<div class="container">
+    <h1><b>Summary</b></h1>
+    <p> ... </p>
+    <hr/>
+    <div class="row">
+    <label class="label1">Summary:</label>
+    <textarea rows="4" id="summary" class="input1" style="height:250px"></textarea>
+    <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+</div>
+
+<!-- -----------------------------------------------------------------------------
+    JavaScript
+--------------------------------------------------------------------------------->
+<script>
+
+function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    $('.loading').hide();
+    console.log(responseTxt);
+
+    if (JS_error(responseTxt, statusTxt, xhr, true) ) 
+        return;
+    salert("Processed!! ", "btn-success", 2000);
+    //$('#summary').val(responseTxt.summary);
+    //$('#wordCount-summ').val(countWords(responseTxt.summary));
+    $('#trans').val(responseTxt.transcription);
+    $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
+}
+
+function countWords(str) {
+    return str.trim().split(/\s+/).length;
+}
+</script>
+{% endblock %}
