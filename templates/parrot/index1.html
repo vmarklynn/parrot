@@ -93,7 +93,7 @@ hr {
        </div>
     </div>
     <p class="loading" id="loading">Loading...</p>
-    <audio class="audiobar" controls></audio>
+    <audio class="audiobar" id="audiobar" src="" controls></audio>
     <label class="label1">Transcription:</label>
     <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
     <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
@@ -102,6 +102,10 @@ hr {
     JavaScript
 --------------------------------------------------------------------------------->
 <script>
+$(document).ready(function() {
+    $('#trans').val(localStorage.getItem('transcription'));
+    $('#wordCount-ori').val(localStorage.getItem('wordCount-ori'));
+});
 
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
@@ -110,14 +114,20 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
     salert("Processed!! ", "btn-success", 2000);
-    //$('#summary').val(responseTxt.summary);
-    //$('#wordCount-summ').val(countWords(responseTxt.summary));
+
+    wordCountOri = countWordsAfterColon(responseTxt.transcription)
     $('#trans').val(responseTxt.transcription);
-    $('#wordCount-ori').val(countWordsAfterColon(responseTxt.transcription));
+    $('#wordCount-ori').val(wordCountOri);
+    $('#audiobar').attr('src', responseTxt.file_url);
+    document.getElementById('audiobar').load();
+
+    localStorage.setItem('transcription', responseTxt.transcription);
+    localStorage.setItem('wordCount-ori', wordCountOri);
 }
 
 function handleUploadClick(url) {
     url = url || '/parrot/processfile/';
+    
     var file_id = document.getElementById("file_id");
     if ( file_id.files.length <= 0) {
         salert("No Files Selected!!", 'btn-danger');
