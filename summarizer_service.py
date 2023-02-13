@@ -4,10 +4,6 @@ from mangorest.mango import webapi
 import whisper, hashlib, os, datetime, json, torch
 from transformers import pipeline
 
-#-----------------------------models------------------------------------------------------------------------               
-summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
-
-#-----------------------------------------------------------------------------------------------------               
 def preprocess(text):
     """
     Remove timelines and return the result in this format:
@@ -22,12 +18,15 @@ def preprocess(text):
         result.append(f"{speaker}: {content}")
     return '\n'.join(result)   
 
-#-----------------------------------------------------------------------------------------------------
+#-----------------------------models------------------------------------------------------------------------               
+summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
+
+#-----------------------------------------------------------------------------------------------------               
+
 @webapi("/parrot/summarize_text/")
 def summarizeText(request, **kwargs):
     post_data = request.POST.dict()
     transcription = post_data.get('transcription')
-    print("\n\n" + transcription + "\n\n")
     
     input_cleanned_text = preprocess(transcription)
     print("Summarizing...")
