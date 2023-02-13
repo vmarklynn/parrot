@@ -58,7 +58,7 @@ hr {
     width: 10%;
     display: grid;
     margin-top: 20px;
-    margin-left: 15px 
+    margin-left: 15px; 
 }
 .loading {
     text-align: center;
@@ -91,12 +91,24 @@ hr {
        <div class="upload-btn">
           <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
        </div>
+       <button style="margin-left: 20px;" onclick="clearCache()">Clear</button>
     </div>
     <p class="loading" id="loading">Loading...</p>
     <audio class="audiobar" id="audiobar" src="" controls></audio>
     <label class="label1">Transcription:</label>
     <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
     <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+    <table>
+        <thead>
+            <tr>
+                <th>Speaker Tag</th>
+                <th style="text-align: right">Name</th>
+            </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+    </table>
+    <button id="submit-btn">Submit</button>
 </div>
 <!-- -----------------------------------------------------------------------------
     JavaScript
@@ -107,10 +119,15 @@ $(document).ready(function() {
     $('#wordCount-ori').val(localStorage.getItem('wordCount-ori'));
 });
 
+function clearCache() {
+    $('#trans').val("");
+    $('#wordCount-ori').val(0);
+    localStorage.setItem('transcription', "");
+    localStorage.setItem('wordCount-ori', 0);
+}
+
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
-    console.log(responseTxt);
-
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
     salert("Processed!! ", "btn-success", 2000);
@@ -123,6 +140,36 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
 
     localStorage.setItem('transcription', responseTxt.transcription);
     localStorage.setItem('wordCount-ori', wordCountOri);
+
+    // table
+    const tableBody = document.getElementById('table-body');
+    tableBody.innerHTML = '';
+    const speakersArray = countSpeakers(localStorage.getItem('transcription'));
+    for (let i = 0; i < speakersArray.count; i++) {
+        const speakerTag = speakersArray.speakers[i];
+        const row = document.createElement('tr');
+        const col1 = document.createElement('td');
+        col1.innerText = speakerTag;
+        row.appendChild(col1);
+        const col2 = document.createElement('td');
+        const input = document.createElement('input');
+        input.type = 'text';
+        col2.appendChild(input);
+        row.appendChild(col2);
+        tableBody.appendChild(row);
+    }
+
+    const submitBtn = document.getElementById('submit-btn');
+    submitBtn.addEventListener('click', function() {
+        const inputs = document.querySelectorAll('#table-body input');
+        for (let i = 0; i < inputs.length; i++) {
+            localStorage.setItem('transcription', 
+                                    replaceSpeakerName(speakersArray.speakers[i], 
+                                    inputs[i].value, 
+                                    localStorage.getItem('transcription')));
+        }
+        $('#trans').val(localStorage.getItem('transcription'));
+    });
 }
 
 function handleUploadClick(url) {
@@ -166,5 +213,25 @@ function countWordsAfterColon(input) {
     
     return count;
 }
+
+function replaceSpeakerName(speakerName, inputName, transcript) {
+
+  const regex = new RegExp(speakerName, "g");
+  const replacedTranscript = transcript.replace(regex, inputName);
+  
+  return replacedTranscript;
+}    
+
+function countSpeakers(transcript) {
+  // Use a regular expression to find all unique speaker tags in the transcript
+  const speakerTags = transcript.match(/SPEAKER_\d+/g);
+  // Use a Set to remove duplicate speaker tags
+  const uniqueSpeakerTags = new Set(speakerTags);
+  // Sort the unique speaker tags in ascending order
+  const sortedSpeakerTags = [...uniqueSpeakerTags].sort();
+  // Return the number of unique speaker tags and the sorted array of unique speaker tags
+  return { count: sortedSpeakerTags.length, speakers: sortedSpeakerTags };
+}
+
 </script>
 {% endblock %}
