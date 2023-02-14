@@ -9,6 +9,9 @@
     align-items: center;
     justify-content: center;
 }
+.speaker {
+    font-weight: bold;
+}
 .rd {
     height: 50px;
     border: 2px solid #ddd;
@@ -53,6 +56,7 @@ hr {
     border: 1px solid #ddd;
     border-radius: 5px;
     resize: none;
+    line-height: 1.8;
 }
 .upload-btn{
     width: 10%;
@@ -64,10 +68,31 @@ hr {
     text-align: center;
     display: none;
 }
-.audiobar {
-    width: 100%; 
-    display: block; 
+.speaker-table {
+    display: flex;
+    justify-content: center;
     margin: 0 auto;
+}
+.audiobar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 10px;
+}
+.spoken {
+    cursor: pointer;
+    line-height: 1.7;
+}
+.spoken:hover {
+    text-decoration: underline;
+    background-color: #b2d0fd;
+}
+.transcript-container{
+    display: none;
+    border: 1px solid #ddd;
+    border-radius: 10px;
 }
    
 </style>
@@ -96,19 +121,23 @@ hr {
     <p class="loading" id="loading">Loading...</p>
     <audio class="audiobar" id="audiobar" src="" controls></audio>
     <label class="label1">Transcription:</label>
-    <textarea rows="4" id="trans" class="input1" style="height:300px"></textarea>
+    <textarea id="trans" class="input1" style="height:250px"></textarea>
     <p>Word Count: <input id="wordCount-ori" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
-    <table>
-        <thead>
-            <tr>
-                <th>Speaker Tag</th>
-                <th style="text-align: right">Name</th>
-            </tr>
-        </thead>
-        <tbody id="table-body">
-        </tbody>
-    </table>
-    <button id="change-btn">Change</button>
+    <div class="speaker-table">
+        <table>
+            <thead>
+                <tr>
+                    <th class="column-name" style="display: none;">Speaker Tag</th>
+                    <th class="column-name" style="display: none; text-align: right;">Name</th>
+                </tr>
+            </thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+        <button id="change-btn" style="display: none; margin-left: 20px;">Change</button>
+    </div>
+    <br>
+    <div id="transcript-container" class="transcript-container"></div>
 </div>
 <!-- -----------------------------------------------------------------------------
     JavaScript
@@ -141,7 +170,7 @@ changeBtn.addEventListener('click', function() {
     }
     $('#trans').val(localStorage.getItem('transcription'));
 });
-
+/*
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
@@ -151,7 +180,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     wordCountOri = countWordsAfterColon(responseTxt.transcription)
     $('#trans').val(responseTxt.transcription);
     $('#wordCount-ori').val(wordCountOri);
-    $('#audiobar').attr('src', responseTxt.file_url);
+    $('#audiobar').attr('src', getFileNameWithExtension(responseTxt.file_url));
     document.getElementById('audiobar').load();
 
     localStorage.setItem('transcription', responseTxt.transcription);
@@ -175,7 +204,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
         tableBody.appendChild(row);
     }
 }
-
+*/
 function handleUploadClick(url) {
     url = url || '/parrot/processfile/';
     
@@ -187,6 +216,11 @@ function handleUploadClick(url) {
     var formData = new FormData($('form#fileupload')[0]);
     
     $('#loading').show();  // Show the loading interface
+    $('#change-btn').hide();
+    $('.speaker-table').hide();
+    $('.column-name').hide();
+    $('.transcript-container').hide();
+    
     $.ajax({
       url: url,
       type: 'POST',
@@ -237,5 +271,90 @@ function countSpeakers(transcript) {
   return { count: sortedSpeakerTags.length, speakers: sortedSpeakerTags };
 }
 
+function getFileNameWithExtension(filePath) {
+    let pathArray = filePath.split('/');
+    let fileName = pathArray[pathArray.length - 1];
+    return "../../../static/data/parrot/" + fileName;
+}
+
+function handleUploadClickCB(responseTxt, statusTxt, xhr) {
+    $('.loading').hide();
+    $('#change-btn').show();
+    $('.column-name').show();
+    $('.transcript-container').show();
+    $('.speaker-table').show();
+    if (JS_error(responseTxt, statusTxt, xhr, true)) {
+        return;
+    }
+
+    const transcript = responseTxt.transcription;
+    const wordCountOri = countWordsAfterColon(transcript);
+    const fileName = getFileNameWithExtension(responseTxt.file_url);
+    displayTranscript(transcript);
+    $('#audiobar').attr('src', getFileNameWithExtension(responseTxt.file_url));
+    document.getElementById('audiobar').load();
+
+    $('#trans').val(transcript);
+    $('#wordCount-ori').val(wordCountOri);
+
+    localStorage.setItem('transcription', transcript);
+    localStorage.setItem('wordCount-ori', wordCountOri);
+
+    const tableBody = document.getElementById('table-body');
+    tableBody.innerHTML = '';
+    const speakersArray = countSpeakers(localStorage.getItem('transcription'));
+    for (let i = 0; i < speakersArray.count; i++) {
+        const speakerTag = speakersArray.speakers[i];
+        const row = document.createElement('tr');
+        const col1 = document.createElement('td');
+        col1.innerText = speakerTag;
+        row.appendChild(col1);
+        const col2 = document.createElement('td');
+        const input = document.createElement('input');
+        input.type = 'text';
+        col2.appendChild(input);
+        row.appendChild(col2);
+        tableBody.appendChild(row);
+    }
+}
+
+function displayTranscript(transcript) {
+    var lines = transcript.split('\n');
+    var html = '<p class="label1">Original Text: </p>';
+    for (var i = 0; i < lines.length; i++) {
+        var line = lines[i];
+        var match = line.match(/(\d+:\d+:\d+ \- \d+:\d+:\d+ \| )?(.+?): (.+)/);
+        if (match) {
+            var speaker = match[2];
+            var spoken = match[3].trim();
+            var id = 't' + line.substring(0, line.indexOf(' ')).replace(/:/g, '');
+            var timestamp = match[1];
+            var spokenWithTimestamp = spoken;
+            if (timestamp) {
+                spokenWithTimestamp = timestamp + ' ' + spokenWithTimestamp;
+            }
+            html += '<div class="transcript-line">';
+            html += '<span class="speaker" id="' + id + '">' + speaker + '</span>';
+            html += '<span class="spoken" id="' + id + '" onclick="jumpToTime(\'' + timestamp + '\')">' + " | " + spokenWithTimestamp + '</span>';
+            html += '</div>';
+        }
+    }
+    for (var i = 0; i < 3; i++) {
+        html += "<br>"
+    }
+    $('#transcript-container').html(html);
+}
+  
+function jumpToTime(timestamp) {
+    if (timestamp) {
+        var timeArray = timestamp.split(/[ :]/);
+        var hours = parseInt(timeArray[0]);
+        var minutes = parseInt(timeArray[1]);
+        var seconds = parseInt(timeArray[2]);
+        var timeInSeconds = (hours * 60 * 60) + (minutes * 60) + seconds;
+        $('#audiobar')[0].currentTime = timeInSeconds;
+        $('#audiobar')[0].play();
+    }
+}
 </script>
 {% endblock %}
