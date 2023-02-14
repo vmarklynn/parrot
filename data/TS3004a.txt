@@ -1,473 +1,248 @@
 0:00:00	None
- Hello.
-
-0:00:07	SPEAKER_00
  Good morning.
 
-0:00:12	SPEAKER_03
- Hello.
+0:00:07	None
+ Good morning.
 
-0:00:18	SPEAKER_00
- You have to put it exactly on the plate.
+0:00:11	SPEAKER_00
+ Good morning.
+
+0:00:16	SPEAKER_00
+ You have to put exactly on the plate.
 
 0:00:23	SPEAKER_02
  Good morning.
 
-0:00:24	SPEAKER_01
- Good morning.
-
-0:00:29	SPEAKER_00
+0:00:30	SPEAKER_00
  Should I bring my pen to?
 
-0:00:36	SPEAKER_00
+0:00:35	SPEAKER_00
  No, that's for me.
 
-0:00:39	SPEAKER_03
- I've got my mouse.
-
-0:00:44	SPEAKER_01
+0:00:42	SPEAKER_01
  I do.
 
-0:00:47	SPEAKER_02
+0:00:49	SPEAKER_02
  Come on.
 
-0:00:50	SPEAKER_02
+0:00:55	SPEAKER_01
  There we are.
 
-0:00:58	SPEAKER_03
+0:00:59	SPEAKER_01
  My laptop is crashing.
 
-0:01:05	None
- Damn, computer.
+0:01:03	SPEAKER_03
+ Damn, come here.
 
-0:01:12	SPEAKER_02
+0:01:10	None
  Help, help, help.
 
-0:01:18	SPEAKER_02
+0:01:17	SPEAKER_02
  Let's just check one more time.
 
 0:01:22	SPEAKER_03
  Can't hear me.
 
-0:01:24	SPEAKER_03
- Actually, my laptop doesn't work.
-
-0:01:31	SPEAKER_03
- Check.
-
-0:01:32	SPEAKER_03
- Okay.
-
-0:01:33	SPEAKER_03
- I think it works.
-
-0:01:37	SPEAKER_01
- Test, test.
-
-0:01:38	SPEAKER_01
- Yes, it's work.
-
-0:01:46	SPEAKER_00
- So you're all right, what are we going to do or not?
-
-0:01:50	SPEAKER_03
- I'm going to make a remote control.
-
-0:01:52	SPEAKER_01
- I think my laptop is with etchy.
-
-0:01:59	SPEAKER_00
- I just made a simple presentation.
-
-0:02:07	SPEAKER_00
- We also put some things in it.
-
-0:02:20	SPEAKER_00
- How does this work?
-
-0:02:23	SPEAKER_02
+0:01:25	SPEAKER_03
  I don't know.
 
-0:02:24	SPEAKER_02
- One, I'll hold it right.
+0:01:30	SPEAKER_03
+ Check.
 
-0:02:27	SPEAKER_03
- That's one.
-
-0:02:28	SPEAKER_00
- That's half 11.
-
-0:02:30	SPEAKER_00
+0:01:33	SPEAKER_03
  Okay.
 
+0:01:37	SPEAKER_01
+ Test, test, test.
+
+0:01:44	SPEAKER_00
+ Yes, it's warm.
+
+0:01:47	SPEAKER_00
+ So you already know what we're going to do or not?
+
+0:01:50	SPEAKER_03
+ Mm-hmm.
+
+0:01:51	SPEAKER_03
+ Okay.
+
+0:01:52	SPEAKER_01
+ I'm going to make a remote control.
+
+0:01:56	SPEAKER_00
+ I think my laptop is a bit...
+
+0:01:59	SPEAKER_00
+...echie.
+
+0:02:02	SPEAKER_00
+ I'm going to make a presentation.
+
+0:02:09	SPEAKER_00
+ We also put some things in it.
+
+0:02:16	SPEAKER_00
+ Okay.
+
+0:02:21	SPEAKER_00
+ How does this work?
+
+0:02:24	SPEAKER_02
+ I don't know.
+
+0:02:27	SPEAKER_00
+ One, a host and write.
+
 0:02:31	SPEAKER_00
- So that's my name.
+ That's my name.
 
 0:02:33	SPEAKER_00
  We're going to make a remote control.
 
-0:02:36	SPEAKER_00
- You already know that.
-
-0:02:38	SPEAKER_00
- We have a look.
-
-0:02:39	SPEAKER_00
- We're going to this agenda of our meeting.
+0:02:37	SPEAKER_00
+ We're going to have a look at our meeting.
 
 0:02:41	SPEAKER_00
  You know this is about 25 minutes.
 
-0:02:43	SPEAKER_00
- This meeting.
-
-0:02:46	SPEAKER_00
+0:02:45	SPEAKER_00
  The first thing we have to know is you already know what we're going to do.
 
 0:02:50	SPEAKER_00
- We also read what these things are.
-
-0:02:53	SPEAKER_00
- Not yet.
+ We also read what these things are not yet.
 
 0:02:54	SPEAKER_00
- Okay.
-
-0:02:55	SPEAKER_00
- So it has to be original training user friendly.
-
-0:02:58	SPEAKER_00
- That's where we're going to design.
+ It has to be original training user-friendly.
 
 0:03:00	SPEAKER_00
  First, we have three steps of making the remote control.
 
 0:03:05	SPEAKER_00
- The first thing is the functional design.
+ The first thing is in the functional design.
 
 0:03:09	SPEAKER_00
  It's very important.
 
 0:03:10	SPEAKER_00
- We have to look what the needs are, the effects of the functional design.
-
-0:03:14	SPEAKER_00
- And how the remote control works.
+ We have to look at what the needs are, the effects of the functional design and how the remote control works.
 
 0:03:18	SPEAKER_00
- That's where we're going to look in the functional design.
-
-0:03:20	SPEAKER_00
- That's for the next meeting.
+ That's where we're going to look in the functional design is for the next meeting.
 
 0:03:22	SPEAKER_00
  The second thing is the conceptual design.
 
 0:03:25	SPEAKER_00
- That's what the specifications of the components and properties.
+ That's the specifications of the components and properties and the specifications of the user interface.
 
-0:03:30	SPEAKER_00
- And the specifications of the user interface.
+0:03:34	SPEAKER_00
+ We have to look at what the market is doing for what kind of remote controls are in the market.
 
-0:03:33	SPEAKER_00
- We have to look what the market is doing for what kind of remote controls are in the market.
-
-0:03:40	SPEAKER_00
- And the third thing is the detailed design.
+0:03:41	SPEAKER_00
+ The third thing is the detailed design.
 
 0:03:46	SPEAKER_00
- And that's exactly what it is.
-
-0:03:48	SPEAKER_00
- This is exactly how it looks.
-
-0:03:51	SPEAKER_00
- Okay.
+ That's exactly how it looks.
 
 0:03:52	SPEAKER_00
- So this is two smart boards.
+ These are two smart boards.
 
-0:03:55	SPEAKER_00
- There's an introduction of that one.
-
-0:04:00	SPEAKER_00
- You already saw.
-
-0:04:01	SPEAKER_00
- You know all that you can put things in the project map folder.
+0:03:56	SPEAKER_00
+ You know all the here can put things in the project map folder.
 
 0:04:06	SPEAKER_00
- Yes.
+ We have to look at that one.
 
-0:04:07	SPEAKER_00
- Okay.
+0:04:22	SPEAKER_00
+ You can read.
 
-0:04:13	SPEAKER_00
- So now we have a look at that one.
+0:04:39	SPEAKER_00
+ We have to use different pen colors and different thickness of the pen.
 
-0:04:19	SPEAKER_00
- So what we're going to do first is so you can read.
+0:04:53	SPEAKER_00
+ First, to show you, maybe you can come here to have a look how it works.
 
-0:04:27	SPEAKER_00
- You have to draw a favorite animal on the white board.
+0:04:58	SPEAKER_00
+ You can use pen format and different colors.
 
-0:04:34	SPEAKER_00
- And say, why is your favorite animal?
-
-0:04:37	SPEAKER_00
- So, and you have to try it out.
-
-0:04:40	SPEAKER_00
- And we have to use different pen colors and different thickness of the pen.
-
-0:04:47	SPEAKER_00
- So first, to show you, maybe you can come here to have a look how it works.
-
-0:04:54	SPEAKER_00
- You can see that.
-
-0:04:56	SPEAKER_00
- This is a new page.
-
-0:04:57	SPEAKER_00
- It's okay.
-
-0:04:59	SPEAKER_00
- You spend format.
-
-0:05:05	SPEAKER_00
- And a different color can use you.
-
-0:05:07	SPEAKER_00
- And I just take pink.
-
-0:05:11	SPEAKER_00
- Take, there's no pink.
-
-0:05:14	SPEAKER_00
- Okay.
-
-0:05:15	SPEAKER_00
- Purple.
-
-0:05:16	SPEAKER_00
- Okay.
+0:05:12	SPEAKER_00
+ There's no pink.
 
 0:05:17	SPEAKER_00
- And line with ten.
-
-0:05:21	SPEAKER_00
- Okay.
-
-0:05:22	SPEAKER_00
- I'll just take what I'm going to draw as an elephant.
+ I'm going to draw with an elephant.
 
 0:05:28	SPEAKER_00
- I'll draw slowly because otherwise it won't work.
+ Just draw it slowly because otherwise it won't work.
 
-0:05:35	SPEAKER_00
+0:05:36	SPEAKER_00
  It's a very nice elephant.
 
 0:05:44	SPEAKER_00
- I don't know.
-
-0:05:45	SPEAKER_00
  It looks very nice.
 
-0:05:50	SPEAKER_00
- And just how much is this?
+0:05:51	SPEAKER_00
+ Something like this?
 
-0:05:53	SPEAKER_00
- Oh, no.
-
-0:05:54	SPEAKER_00
- It's like a dinosaur.
-
-0:05:59	SPEAKER_02
+0:05:58	SPEAKER_02
  It's a pink elephant.
 
-0:06:08	SPEAKER_00
- This takes you long.
-
-0:06:10	SPEAKER_00
- Okay.
-
-0:06:11	SPEAKER_00
- Whatever.
-
-0:06:12	SPEAKER_00
- Just erase this one.
-
-0:06:16	SPEAKER_00
- It's a bit slow.
+0:06:03	SPEAKER_00
+ This takes a little bit slow.
 
 0:06:17	SPEAKER_00
  You can see this is a bit annoying.
 
-0:06:20	SPEAKER_03
- Okay.
+0:06:26	SPEAKER_00
+ You can draw a painting.
 
-0:06:23	SPEAKER_00
- So just for you guys, just one of you can draw a painting if you want.
-
-0:06:30	SPEAKER_00
- Just round.
-
-0:06:32	SPEAKER_00
- Don't, yeah, just use it like that.
-
-0:06:36	SPEAKER_03
- Okay.
-
-0:06:41	SPEAKER_00
- Just say format.
+0:06:35	SPEAKER_00
+ Use it like that.
 
 0:06:42	SPEAKER_03
- You can use a pen.
+ You can use it.
 
-0:06:46	SPEAKER_03
- Okay.
+0:07:02	SPEAKER_03
+ It has to be water.
 
-0:06:47	SPEAKER_03
- And what's the color?
-
-0:06:48	SPEAKER_00
- It's a format.
-
-0:06:51	SPEAKER_03
- Okay.
-
-0:06:54	SPEAKER_03
- I'll take this one.
-
-0:06:58	SPEAKER_03
- Just to be water.
-
-0:07:06	SPEAKER_03
- No, it has to be an animal.
-
-0:07:09	SPEAKER_00
- So if it should be a snake, it's an animal.
-
-0:07:13	SPEAKER_03
- So I first draw the water.
-
-0:07:16	SPEAKER_02
+0:07:15	SPEAKER_03
  The water is important.
-
-0:07:19	SPEAKER_03
- Okay.
-
-0:07:22	SPEAKER_03
- Now I'll make the animal.
 
 0:07:36	SPEAKER_03
  It's a fish.
 
-0:07:37	SPEAKER_03
- Wow.
-
-0:07:44	SPEAKER_02
- So.
-
 0:07:51	SPEAKER_03
- And this is so verm.
-
-0:07:59	None
- Beautiful.
-
-0:08:02	None
- Yeah.
-
-0:08:03	None
  Wow.
 
-0:08:04	SPEAKER_03
- Okay.
-
-0:08:05	SPEAKER_03
- Next.
-
-0:08:06	SPEAKER_03
- Do you have to write down what you want?
+0:07:59	SPEAKER_03
+ This is so weird.
 
 0:08:09	SPEAKER_03
- Yeah.
+ Beautiful.
 
-0:08:14	SPEAKER_00
- Wow.
+0:08:12	SPEAKER_00
+ You can use it.
 
-0:08:15	SPEAKER_00
- Okay.
-
-0:08:16	SPEAKER_00
- Next.
-
-0:08:17	SPEAKER_00
- Do you have to write down why it doesn't matter.
-
-0:08:20	SPEAKER_00
- It's to get used to the white part.
-
-0:08:22	None
- Okay.
-
-0:08:23	None
- Just make a new blank page.
-
-0:08:28	SPEAKER_02
- Okay.
-
-0:08:41	SPEAKER_02
- Well, Paul.
-
-0:08:43	None
- Yeah.
-
-0:08:44	SPEAKER_02
- Like this.
-
-0:08:45	SPEAKER_00
- Yeah, not too far to the pen.
-
-0:08:48	SPEAKER_02
- Okay.
+0:08:35	SPEAKER_00
+ You can roll up faster and faster.
 
 0:08:56	SPEAKER_02
- Let's make it.
+ Let's make it a dog.
 
-0:09:03	SPEAKER_02
- And dark.
+0:09:26	SPEAKER_00
+ Maybe you should hold your pen a bit more to the back.
 
-0:09:10	SPEAKER_02
- Okay.
-
-0:09:28	SPEAKER_00
- Maybe you should hold your pen a bit more to the back so that.
-
-0:09:32	SPEAKER_01
- No, today.
-
-0:09:33	None
- Yeah.
-
-0:09:34	SPEAKER_03
+0:09:33	SPEAKER_03
  I think it's a pig.
 
-0:09:36	SPEAKER_03
+0:09:37	SPEAKER_03
  Pig?
 
-0:09:37	SPEAKER_02
- No, it's a dog.
-
-0:09:39	SPEAKER_02
+0:09:38	SPEAKER_02
  No, it's a dog.
 
 0:09:42	SPEAKER_02
- It's a sheep.
-
-0:09:43	SPEAKER_02
- Not a hat.
+ A sheep? Not a hat.
 
 0:09:47	SPEAKER_00
  We only have 25 minutes.
@@ -476,262 +251,166 @@
  Take it easy.
 
 0:09:52	SPEAKER_02
- Okay, I'll make a cat of it.
+ I make a cat of it.
 
 0:09:56	SPEAKER_01
  I was going to make a cat too.
 
 0:09:59	SPEAKER_00
- You should find this.
+ You should find the jig.
 
 0:10:02	SPEAKER_02
  Not too quick.
 
 0:10:05	SPEAKER_00
- Just hold it more to the back thing.
+ Hold it more to the back.
 
-0:10:09	SPEAKER_02
+0:10:10	SPEAKER_02
  I just draw it too quick.
 
-0:10:12	SPEAKER_02
- Okay.
-
-0:10:13	SPEAKER_02
- That's it.
-
-0:10:15	SPEAKER_02
+0:10:15	SPEAKER_00
  More?
 
-0:10:16	SPEAKER_00
- No, that's okay.
+0:10:17	SPEAKER_00
+ That's okay. Thank you.
 
-0:10:18	SPEAKER_00
- Thank you.
+0:10:24	None
+ Just to get used to it.
 
-0:10:20	SPEAKER_02
+0:10:27	None
  Okay.
 
-0:10:40	SPEAKER_00
- I thought these pens would be just.
+0:10:30	None
+ I thought these pens would be just...
+
+0:10:36	SPEAKER_00
+ You write it down and you download it to weird.
 
 0:10:44	SPEAKER_00
- You write it down and you don't know the two words.
-
-0:10:46	SPEAKER_00
  You already did it or no?
 
-0:10:47	SPEAKER_00
- No.
+0:10:48	SPEAKER_02
+ No, I tried it.
 
-0:10:48	SPEAKER_00
- Yeah, that's right.
-
-0:10:49	SPEAKER_02
- You just...
-
-0:10:50	SPEAKER_02
- You just got to write on this paper.
-
-0:10:52	SPEAKER_02
- Sorry.
-
-0:10:53	SPEAKER_02
- You really got to write on this paper?
-
-0:10:54	SPEAKER_00
- Yeah, I know.
+0:10:51	SPEAKER_02
+ You really got to write on that paper.
 
 0:10:55	SPEAKER_00
- It's a real pen.
-
-0:10:56	SPEAKER_00
  I thought it would be just in the type of words.
 
 0:10:59	SPEAKER_00
- Yeah, it's just a picture.
+ It's just a picture.
 
-0:11:01	SPEAKER_00
- Oh.
+0:11:03	SPEAKER_03
+ It's not that cool.
 
-0:11:02	SPEAKER_00
- So, it's not that cool what I thought it would be.
-
-0:11:05	SPEAKER_03
- You can't edit it in the words.
-
-0:11:07	SPEAKER_03
- No.
-
-0:11:08	SPEAKER_03
- Oh.
+0:11:06	SPEAKER_03
+ You can't edit it.
 
 0:11:09	SPEAKER_03
  Okay.
 
-0:11:16	SPEAKER_02
+0:11:19	SPEAKER_02
  It's a donkey.
 
-0:11:26	SPEAKER_00
- I don't know what time did we start this meeting and not sure.
+0:11:27	SPEAKER_00
+ I don't know.
 
-0:11:37	SPEAKER_02
+0:11:35	SPEAKER_00
  I think it was...
 
 0:11:39	SPEAKER_03
- Half past ten.
+ I think it was...
 
-0:11:41	SPEAKER_03
- Okay.
-
-0:11:42	None
- Brilliant.
+0:11:44	None
+ I think it was ten.
 
 0:11:49	SPEAKER_03
- Okay.
+ Brilliant.
 
-0:11:50	SPEAKER_03
- Nice.
-
-0:11:51	SPEAKER_03
- Yeah.
-
-0:11:52	None
+0:11:55	SPEAKER_00
  Thank you.
 
-0:11:53	SPEAKER_00
- You have to save everything.
-
-0:11:57	SPEAKER_00
- Okay.
+0:11:58	SPEAKER_00
+ This is definitely the last one.
 
 0:12:15	SPEAKER_00
  Okay.
 
-0:12:16	SPEAKER_00
- So, what we know is that we have to sell this remote control for about 25 euros.
+0:12:19	SPEAKER_00
+ What we know is that we have to sell this remote control for about 25 euros.
 
-0:12:25	SPEAKER_00
- Okay.
+0:12:26	SPEAKER_00
+ Excuse me.
 
-0:12:27	SPEAKER_00
- Okay.
+0:12:29	SPEAKER_00
+ We have to make a profit of 50 million euros.
 
-0:12:28	SPEAKER_00
- And we have to make a profit of 50 million euros.
-
-0:12:31	SPEAKER_00
- So, we have to use a big market in Europe.
-
-0:12:34	SPEAKER_00
- Please.
+0:12:32	SPEAKER_00
+ We have to use a big market in Europe.
 
 0:12:35	SPEAKER_00
- The prediction costs about half the price is selling price.
-
-0:12:37	SPEAKER_00
- Sorry.
-
-0:12:38	SPEAKER_00
- Wow.
+ The prediction goes up at half the price.
 
 0:12:39	SPEAKER_00
  Easy.
 
-0:12:40	SPEAKER_00
- So, can someone make a calculation about how many we have to sell these to make 50 million?
-
-0:12:46	SPEAKER_00
- No.
+0:12:42	SPEAKER_00
+ Can someone make a calculation about how many we have to sell these to make 50 million?
 
 0:12:47	SPEAKER_00
- So, we're going to have a little discussion about what the experience are with the remote controller.
+ We're going to have a little discussion about what experience our remote control of first of these.
 
-0:12:54	SPEAKER_00
- So, we're going to have a little discussion about what the experience is and everything.
-
-0:12:57	SPEAKER_00
- So, we just have a look.
-
-0:12:58	SPEAKER_03
+0:12:55	SPEAKER_00
  We think about remote controls.
 
-0:13:00	SPEAKER_03
- Yeah.
+0:12:59	SPEAKER_03
+ My first question was, does it have to be universal remote control?
 
-0:13:01	SPEAKER_03
- My first question was, does it have to be a universal remote control?
-
-0:13:05	SPEAKER_00
- Oh, yeah.
+0:13:04	SPEAKER_00
+ Oh, yeah, that's a good question.
 
 0:13:06	SPEAKER_03
- That's a good question.
-
-0:13:07	SPEAKER_03
  Because we sell it only from the...
 
 0:13:12	SPEAKER_03
- And not with the television.
+ Not with the television.
 
 0:13:14	SPEAKER_03
  We sell it apart.
 
 0:13:16	SPEAKER_00
- I think it's...
-
-0:13:17	SPEAKER_00
- I'm not sure.
+ I think it's not sure.
 
 0:13:18	SPEAKER_01
- It's not...
-
-0:13:19	SPEAKER_01
- Yeah, it probably would be universal.
+ It probably would be universal.
 
 0:13:21	SPEAKER_02
- And not only television or more devices.
+ Not only in television.
 
-0:13:25	SPEAKER_00
- I don't think you can buy a universal remote control for 25 years.
+0:13:24	SPEAKER_00
+ I don't think you can buy a universal remote control for 25 euros.
 
 0:13:30	SPEAKER_00
  Not sure.
 
-0:13:31	SPEAKER_00
- Yeah, I know.
-
-0:13:33	SPEAKER_03
- You can buy a universal control.
+0:13:32	SPEAKER_03
+ Yeah, I know you can buy universal control.
 
 0:13:36	SPEAKER_00
- Okay.
-
-0:13:37	SPEAKER_00
- So, we just say it's a universal remote control.
-
-0:13:39	SPEAKER_00
- Yeah.
-
-0:13:40	SPEAKER_01
- Okay.
+ Okay, so you just say it's universal remote control.
 
 0:13:41	SPEAKER_01
- Perfect.
-
-0:13:42	SPEAKER_01
- And also for the FECR and DVD player.
+ And also for the PCR and DVD player.
 
 0:13:46	SPEAKER_01
- And everything.
+ Everything.
 
 0:13:47	SPEAKER_00
- Just...
-
-0:13:48	SPEAKER_00
  Okay.
 
-0:13:49	SPEAKER_00
- Buttons on that.
+0:13:48	SPEAKER_00
+ So a lot of buttons on the...
 
 0:13:51	SPEAKER_00
  Yeah, probably.
@@ -739,20 +418,14 @@
 0:13:52	SPEAKER_02
  Not just the TV.
 
-0:13:53	SPEAKER_00
- No, just everything.
-
 0:13:54	SPEAKER_00
- Okay.
-
-0:13:55	SPEAKER_00
- See you.
+ No, just everything.
 
 0:13:56	SPEAKER_00
  Okay.
 
 0:13:57	SPEAKER_00
- So, yeah, what's a remote control?
+ So what's the remote controls?
 
 0:13:59	SPEAKER_00
  It's a black thing with some buttons on it.
@@ -764,40 +437,34 @@
  But...
 
 0:14:04	SPEAKER_00
- Well, we can try to make special.
+ Well, we can try to make it special.
 
 0:14:06	SPEAKER_00
- Yeah.
+ Yeah, that's right.
 
 0:14:07	SPEAKER_00
- So, do you have any ideas how it has to look for usability?
+ So do you have any ideas how it has to look for usability or use it?
 
-0:14:11	SPEAKER_03
- No, I've talked about making it the same as style as the television.
+0:14:12	SPEAKER_03
+ I've talked about making it the same as style as the television, which is...
 
-0:14:16	SPEAKER_03
+0:14:17	SPEAKER_03
  We don't have the same television all the time.
 
 0:14:20	SPEAKER_03
- So, that's no matter.
+ And that's no matter.
 
 0:14:23	SPEAKER_03
- If we control the FECR and DVD player player with it.
-
-0:14:32	SPEAKER_03
- It has to be clear.
+ If we control the PCR and DVD player with it, it has to be clear.
 
 0:14:34	SPEAKER_03
- Because kits and elderly are going to use it.
+ Because kids and elderly are going to use it.
 
 0:14:39	SPEAKER_03
- So, it's not only for the technical persons.
+ So it's not only for the technical persons.
 
-0:14:45	SPEAKER_03
- I think it must be a very good control.
-
-0:14:52	SPEAKER_03
- So, you can use it from everywhere in your room.
+0:14:44	SPEAKER_03
+ I think it must be a very good control so you can use it from everywhere in your room.
 
 0:14:58	SPEAKER_03
  The infrared thing must be from very good quality.
@@ -812,7 +479,7 @@
  Okay.
 
 0:15:08	SPEAKER_02
- Nothing frustrated.
+ Nothing frustrating then.
 
 0:15:10	SPEAKER_01
  And how big should it be?
@@ -820,74 +487,62 @@
 0:15:12	SPEAKER_03
  Yeah.
 
-0:15:13	SPEAKER_03
+0:15:14	SPEAKER_03
  I don't know.
 
 0:15:16	SPEAKER_02
- It shouldn't be too big.
+ It shouldn't be too big, but I don't think we can make it too small because it has to have a lot of functions.
 
-0:15:18	SPEAKER_02
- But I don't think we can make it too small.
+0:15:23	SPEAKER_02
+ We can't make it smaller than things we see now, I think.
 
-0:15:20	SPEAKER_02
- Because it has to have a lot of functions.
-
-0:15:24	SPEAKER_02
- We can't make it smaller than things we know, I think.
-
-0:15:28	SPEAKER_00
+0:15:29	SPEAKER_00
  Just big enough for the buttons we have.
 
 0:15:31	SPEAKER_02
  Yeah.
 
 0:15:32	SPEAKER_02
- Or we have to make something like mobile phones that you can fold it open.
+ We have to make something like mobile phones that you can...
 
-0:15:40	SPEAKER_02
- Yeah.
+0:15:38	SPEAKER_02
+ Full and open.
 
 0:15:43	SPEAKER_02
- Maybe then you can make it smaller and you're weaker.
-
-0:15:46	SPEAKER_02
- Yes.
-
-0:15:47	SPEAKER_00
- Maybe more trendy.
+ Maybe then you can make it smaller and be unique.
 
 0:15:48	SPEAKER_00
- You think about one you can fold open.
+ Yes.
 
-0:15:51	SPEAKER_02
- Okay.
+0:15:49	SPEAKER_00
+ Maybe more trendy.
 
 0:15:52	SPEAKER_02
- Or you can see more options.
+ You think about one you can...
 
-0:15:53	SPEAKER_00
- Maybe for the DVD player or something.
-
-0:15:56	SPEAKER_00
- Yeah.
+0:15:55	SPEAKER_00
+ Full and open.
 
 0:15:57	SPEAKER_02
- Or you can just generate general things like volume and TV channels.
+ Maybe for the DVD player or something.
 
-0:16:02	SPEAKER_02
- And inside things you don't use that often.
+0:16:00	SPEAKER_02
+ Yeah.
 
-0:16:06	SPEAKER_01
- Or you could think of a small touchscreen on the remote control.
+0:16:01	SPEAKER_02
+ Or you can just general things like volume and TV channels and inside things you don't use that often.
+
+0:16:07	SPEAKER_01
+ You can also use a small touch screen on the remote control.
 
 0:16:12	SPEAKER_02
  Yeah.
 
 0:16:13	SPEAKER_00
- Why should you use a touchscreen on the remote control?
+ Why should you use a touch screen on the remote control?
 
 0:16:16	SPEAKER_01
- Maybe it's making a menu in it.
+ Maybe it's a manual in it.
 
 0:16:21	SPEAKER_01
  Yeah.
@@ -898,22 +553,22 @@
 0:16:27	SPEAKER_00
  Okay.
 
-0:16:28	SPEAKER_00
- Yeah.
-
-0:16:29	SPEAKER_01
- I can't have to put a touchscreen on it.
+0:16:28	SPEAKER_01
+ Why can't you do it too expensive to put a touch screen on it?
 
 0:16:31	SPEAKER_01
  Yeah.
 
 0:16:32	SPEAKER_03
- Maybe it would be a bit...
+ Maybe it would...
 
 0:16:33	SPEAKER_03
  It's not reachable, I think.
 
-0:16:34	SPEAKER_03
+0:16:34	SPEAKER_00
+ Touchable.
+
+0:16:35	SPEAKER_03
  And we have to care for the strength of the remote control.
 
 0:16:39	SPEAKER_03
@@ -923,31 +578,58 @@
  Because remote controls are most things in the house that falls down on the ground and get often broken.
 
 0:16:47	SPEAKER_00
- And if you have a touchscreen in it, it's definitely too much fun.
+ And if you have a touch screen in it, it's definitely too.
+
+0:16:50	SPEAKER_00
+ Yeah.
 
 0:16:51	SPEAKER_03
  Yeah.
 
 0:16:52	SPEAKER_03
- Lots of kits use it and touchscreen is not kits.
+ Yeah.
+
+0:16:53	SPEAKER_03
+ Yeah.
+
+0:16:54	SPEAKER_03
+ Yeah.
+
+0:16:55	SPEAKER_03
+ Yeah.
 
 0:16:56	SPEAKER_03
- You can put games on your remote control.
+ Yeah.
+
+0:16:57	SPEAKER_00
+ Yeah.
+
+0:16:58	SPEAKER_03
+ Yeah.
 
 0:16:59	SPEAKER_03
- Yes.
+ Yeah.
 
 0:17:00	SPEAKER_03
+ Yeah.
+
+0:17:01	SPEAKER_03
+ Yeah.
+
+0:17:02	SPEAKER_01
  And how about the batteries?
 
-0:17:04	SPEAKER_01
- Should you put it in a rechargeer or...
+0:17:05	SPEAKER_01
+ Should you put it in a recharger or...
 
-0:17:08	SPEAKER_00
- Oh, maybe not to good at it.
+0:17:07	SPEAKER_01
+ Oh, maybe that's a good idea.
 
 0:17:09	SPEAKER_00
- Just put it on your television and just recharge.
+ Maybe a home station.
+
+0:17:10	SPEAKER_00
+ Put it on your television and just recharge.
 
 0:17:11	SPEAKER_00
  You never have to use any batteries.
@@ -956,46 +638,58 @@
  Yeah.
 
 0:17:14	SPEAKER_02
- Maybe not to good at it.
+ That's a good idea.
 
 0:17:15	SPEAKER_02
- But we have to look at the price and I think...
+ But yeah.
+
+0:17:16	SPEAKER_02
+ We have to look at the price.
 
 0:17:17	SPEAKER_00
  Yeah.
 
-0:17:18	SPEAKER_02
- How expensive is a normal rechargeer?
+0:17:18	SPEAKER_00
+ How expensive is a normal recharger?
 
-0:17:20	SPEAKER_02
- How much is your standard mobile phone rechargeer?
+0:17:19	SPEAKER_02
+ Well, how much is your standard mobile phone recharger?
 
-0:17:26	SPEAKER_01
+0:17:25	SPEAKER_00
  Yeah.
 
-0:17:27	SPEAKER_01
- It's a bit separately from your phone.
+0:17:26	SPEAKER_01
+ If you buy it separately from your phone, it's probably expensive.
 
-0:17:30	SPEAKER_01
- It's probably expensive, but I don't know what the production costs are.
+0:17:31	SPEAKER_01
+ I don't know what the projection costs are.
 
-0:17:35	SPEAKER_00
- If you look at the market, it's probably still the best way to just put batteries in it.
+0:17:34	SPEAKER_00
+ Maybe if you look at the market, it's probably still the best way just to put batteries in because maybe it's too expensive.
 
 0:17:40	SPEAKER_00
  Yeah.
 
 0:17:41	SPEAKER_03
- Because the home station is a really good idea because lots of people are lose their remote control.
+ Yeah.
 
-0:17:49	SPEAKER_03
- And they don't know where it is.
+0:17:42	SPEAKER_03
+ But the home station is a really good idea because lots of people lose their remote control and don't know where it is.
 
 0:17:50	SPEAKER_03
- And now they can put it always at the same place.
+ Yeah.
+
+0:17:51	SPEAKER_03
+ And now you can prove it always at the same place.
 
 0:17:53	SPEAKER_03
- Maybe it's...therefore it's a good idea, but maybe it's expensive.
+ Yeah.
+
+0:17:54	SPEAKER_03
+ Maybe it's...
+
+0:17:55	SPEAKER_03
+ Therefore, it's a good idea, but maybe it's expensive.
 
 0:17:58	SPEAKER_02
  Maybe use it as a separate option.
@@ -1004,22 +698,22 @@
  Yeah.
 
 0:18:01	SPEAKER_02
- Sell it separately.
+ Separate.
 
 0:18:02	SPEAKER_03
  You can buy it with...
 
-0:18:04	SPEAKER_01
- Yeah, but I have a mouse that's also...
+0:18:03	SPEAKER_03
+ Yeah.
 
-0:18:08	SPEAKER_01
- Chargable?
+0:18:04	SPEAKER_01
+ But I have a mouse that's also rechargeable.
 
 0:18:09	SPEAKER_01
  Yeah.
 
 0:18:10	SPEAKER_01
- And you just have normal batteries that you can recharge and just put it in a station.
+ And you just have normal batteries that you can recharge and just put it in the station.
 
 0:18:15	SPEAKER_01
  Or you can change your batteries.
@@ -1028,142 +722,142 @@
  Yeah.
 
 0:18:17	SPEAKER_01
- So...
+ So.
 
 0:18:18	SPEAKER_00
- Option, just the option.
+ The option.
 
 0:18:19	SPEAKER_03
- Yeah.
+ Just the option.
 
 0:18:20	SPEAKER_03
- And then you can set something on paper already.
+ That's cool.
 
-0:18:23	SPEAKER_03
+0:18:21	SPEAKER_03
+ I said something on paper already.
+
+0:18:22	SPEAKER_03
  Size, looks, usable.
 
 0:18:25	SPEAKER_03
- The buttons on usual places.
+ The buttons on useful places.
 
 0:18:27	SPEAKER_03
- The arm of button must be on top.
+ The home off button must be on top.
 
 0:18:30	SPEAKER_03
  Yeah.
 
 0:18:31	SPEAKER_03
- It has to lay good in the hand.
+ It has to lay good in the hands.
 
 0:18:33	SPEAKER_03
  You have to...
 
 0:18:34	SPEAKER_00
- Has it be...does it has to be...have to be...like...
+ Has it has to be...
 
-0:18:39	SPEAKER_00
- A different form than a normal remote controller.
+0:18:35	SPEAKER_00
+ Does it have to be like a different form than normal remote control?
 
 0:18:42	SPEAKER_02
- I don't know if we think we have to look at that.
+ I don't know.
 
-0:18:45	SPEAKER_02
- Well, you can do everything in a distant way, but...
+0:18:43	SPEAKER_02
+ I think we have to look at that.
+
+0:18:44	SPEAKER_02
+ Because you can do it at the standard way.
 
 0:18:48	SPEAKER_03
- You can make it very special to create our own.
+ You can make it very special to create our own looks.
 
-0:18:51	SPEAKER_03
- Yeah.
-
-0:18:52	SPEAKER_03
- Looks, but it's very hard to...
+0:18:53	SPEAKER_03
+ But it's very hard.
 
 0:18:54	SPEAKER_01
  If we want to make it special, we probably have to do a lot of testing if it really works.
 
 0:19:00	SPEAKER_02
- No, you can...
-
-0:19:03	SPEAKER_02
- Have the basic things on the same place.
+ Well, you can have basic things on the same place.
 
 0:19:07	SPEAKER_02
- Like on off-button on top and the TV channels, one, two, three, four, as a block.
+ Like on off button on top and the TV channels one, two, three, four.
+
+0:19:12	SPEAKER_02
+ As a block.
 
 0:19:13	SPEAKER_02
  Yeah.
 
 0:19:14	SPEAKER_02
- And then the volume, obviously, on top, so you can see.
+ And then the volume obviously on top so you can see.
 
-0:19:17	SPEAKER_02
+0:19:18	SPEAKER_02
  But the rest is...
 
 0:19:19	SPEAKER_02
- You don't use that often, so...
+ You don't use that often.
 
 0:19:21	SPEAKER_02
- If you have a clear button with a good icon on it, it should be clear as well.
-
-0:19:26	SPEAKER_02
- Yeah.
+ So if you have a clear button with a good icon on it, it should be clear as well.
 
 0:19:27	SPEAKER_02
  So it doesn't matter what place it is on the remote control, I think.
 
-0:19:31	SPEAKER_02
+0:19:32	SPEAKER_02
  So you can do something unique with that.
 
-0:19:34	SPEAKER_01
- Yeah, and what we have to think about too is a button that you use often are...
+0:19:35	SPEAKER_01
+ And what we have to think about too is buttons that you use often are maybe like when you fall it open, when you have it closed, you can still do the functions.
 
-0:19:40	SPEAKER_01
- Maybe...
-
-0:19:42	SPEAKER_01
- Like when you fall it open, when you have it closed, you can still do the functions.
-
-0:19:49	SPEAKER_01
- Yeah, or top-order.
+0:19:51	SPEAKER_01
+ Yeah, on top of the...
 
 0:19:52	SPEAKER_01
  Yeah, but the basic options on top.
 
 0:19:54	SPEAKER_01
- Basically, when I'm watching TV, I'm just using five buttons.
-
-0:19:59	SPEAKER_00
- So...
+ Basically when I'm watching TV, I'm just using like five buttons or so.
 
 0:20:00	SPEAKER_00
  Maybe it's very hard to make it full open and to look like it's very...
 
-0:20:06	SPEAKER_00
- What's it called?
-
-0:20:08	SPEAKER_00
+0:20:07	SPEAKER_00
  Very nice.
 
 0:20:09	SPEAKER_03
- If you make it full open, it's also...
+ If you make it full open, it's also the strength.
 
-0:20:12	SPEAKER_03
- The strength is not as good as a remote control.
+0:20:13	SPEAKER_03
+ It's not as good as a normal one.
 
 0:20:15	SPEAKER_00
- So maybe you have to keep it like a square, just normal remote control.
+ No, that's right.
+
+0:20:16	SPEAKER_00
+ So maybe you have to keep it like a square.
+
+0:20:19	SPEAKER_00
+ It's normal remote control.
 
 0:20:21	SPEAKER_02
  Okay, but yeah.
 
 0:20:23	SPEAKER_00
- I think we have to close this to finish this meeting.
+ I think we have two closes to finish this meeting.
+
+0:20:27	SPEAKER_00
+ Okay.
 
 0:20:28	SPEAKER_00
  There's some more things.
 
 0:20:31	SPEAKER_00
- We have another 30 minutes, so then we're going to meet again.
+ We have another 30 minutes.
+
+0:20:33	SPEAKER_00
+ So then we're going to meet again.
 
 0:20:36	SPEAKER_00
  So you know what you have to do?
@@ -1172,10 +866,16 @@
  Okay.
 
 0:20:42	SPEAKER_03
- For me, the marketing expert, the user requirements specification, do I need to think as a user, only the looks and what you want to do with it?
+ Yeah.
+
+0:20:43	SPEAKER_03
+ For me, the marketing expert, the user requirements specification, do I need to think as a user, as only the looks and what you want to do with it?
 
 0:20:54	SPEAKER_00
- Yeah, I think if you have to know if it's for TV, DVD player, all the things.
+ Yeah, I think if you have to know if it's for a DVD player, all the things.
+
+0:20:59	SPEAKER_00
+ Okay.
 
 0:21:00	SPEAKER_00
  Also from a user, but...
@@ -1183,84 +883,108 @@
 0:21:02	SPEAKER_00
  Yeah, there's also about strength.
 
-0:21:04	SPEAKER_02
- Everything.
+0:21:03	SPEAKER_02
+ It's also down some...
 
-0:21:05	SPEAKER_00
- So everything you want.
+0:21:05	SPEAKER_03
+ Five, three, ten, one.
 
-0:21:07	SPEAKER_00
- It's not strength, that's something for...
+0:21:06	SPEAKER_00
+ Yeah, no, maybe not not not strength.
 
-0:21:12	SPEAKER_00
- It's not for you.
+0:21:08	SPEAKER_00
+ That's not something for him.
 
-0:21:14	SPEAKER_00
+0:21:11	SPEAKER_00
+ Yeah, that's not for you.
+
+0:21:13	SPEAKER_00
  Okay.
 
-0:21:15	SPEAKER_00
- What's in the market, what's normal, what kind of...
+0:21:14	SPEAKER_00
+ Just if what's in the market, what's normal, what kind of...
 
-0:21:18	SPEAKER_02
- Do you want to do a remote control?
+0:21:17	SPEAKER_02
+ Do you want to do this remote control?
 
 0:21:19	SPEAKER_02
- Do you need any young remote control?
+ What do you need on the remote control?
 
 0:21:21	SPEAKER_02
- I already wrote some down.
+ All right, all right.
+
+0:21:22	SPEAKER_02
+ All right, all right.
+
+0:21:23	SPEAKER_02
+ We wrote some down.
 
 0:21:24	SPEAKER_03
- So what is?
+ Some of these.
 
 0:21:25	SPEAKER_00
  Yep.
 
 0:21:26	SPEAKER_00
- Yeah, just...
+ Yeah.
 
 0:21:27	SPEAKER_00
- Is that okay?
+ Just...
 
 0:21:28	SPEAKER_00
- Okay.
+ Is that okay?
 
 0:21:29	SPEAKER_02
- There's already a document in the folder.
-
-0:21:34	SPEAKER_03
- So you can see me too.
-
-0:21:38	SPEAKER_00
- So see you in 30 minutes.
-
-0:21:41	SPEAKER_00
  Okay.
 
-0:21:42	SPEAKER_00
+0:21:30	SPEAKER_02
+ There's already a document in the...
+
+0:21:32	SPEAKER_02
+...folar.
+
+0:21:33	SPEAKER_02
+ Yeah, me too.
+
+0:21:34	SPEAKER_03
+ So, see you in 30 minutes.
+
+0:21:35	None
+ Okay, well, okay.
+
+0:21:36	SPEAKER_00
+ Okay.
+
+0:21:41	SPEAKER_00
  For the next time you have to put it exactly on the square.
 
-0:21:46	SPEAKER_00
- You're left on.
+0:21:44	SPEAKER_00
+ So, you're left on...
 
-0:21:48	SPEAKER_03
+0:21:46	SPEAKER_00
  Oh, Paul.
 
-0:21:51	SPEAKER_02
+0:21:48	SPEAKER_03
  Didn't say that.
 
-0:21:53	SPEAKER_02
+0:21:51	SPEAKER_02
  No, sorry.
 
-0:21:54	SPEAKER_02
- You're off of...
+0:21:53	SPEAKER_02
+ You're a fault.
 
-0:21:57	SPEAKER_03
- Ciao.
+0:21:55	SPEAKER_03
+ Joe.
 
-0:22:07	SPEAKER_02
- Bye bye.
+0:21:58	SPEAKER_02
+ I'm sorry.
+
+0:22:08	SPEAKER_02
+ Bye, Paul.
 
 0:22:09	None
+ Bye, Paul.
+
+0:22:12	None
  Okay.
 

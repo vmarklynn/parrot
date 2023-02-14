@@ -1,0 +1,2718 @@
+0:00:00	SPEAKER_02
+ I mean if you were late to that, it's not.
+
+0:00:04	SPEAKER_02
+ We'll find a way around it.
+
+0:00:06	SPEAKER_02
+ And I've put you guys on Mondays at this time for my convenience, but it's not like it's important.
+
+0:00:11	SPEAKER_00
+ Yeah, well, I was expecting to get, yeah, I didn't make it in time, but it's just because of all the leaves and things.
+
+0:00:17	SPEAKER_00
+ The trains weren't stopping at the stations.
+
+0:00:19	SPEAKER_00
+ So there's like those beach restrictions on.
+
+0:00:20	SPEAKER_03
+ It's a sliding pass.
+
+0:00:21	SPEAKER_03
+ You really?
+
+0:00:22	SPEAKER_01
+ Yeah.
+
+0:00:23	SPEAKER_01
+ Great.
+
+0:00:24	SPEAKER_00
+ So what do they have to do back up?
+
+0:00:26	SPEAKER_00
+ I'm not sure. The van ended up busting people into... I think it's a quite stationary. I have particularly problems on it.
+
+0:00:30	SPEAKER_00
+ It's on a hill or something.
+
+0:00:32	SPEAKER_00
+ So I had to bust people in from stations either side.
+
+0:00:35	SPEAKER_00
+ Yeah.
+
+0:00:36	SPEAKER_00
+ Masty.
+
+0:00:38	SPEAKER_00
+ Yes, yes. But at least it was speed restrictions instead of trains flying past into barriers and things.
+
+0:00:44	SPEAKER_00
+ Yeah, yeah.
+
+0:00:45	SPEAKER_02
+ We're glad they look after that bit.
+
+0:00:47	SPEAKER_00
+ Oh, yeah.
+
+0:00:57	SPEAKER_01
+ What?
+
+0:00:59	SPEAKER_02
+ I don't know. Do we want to look at anything? It's not up yet.
+
+0:01:03	SPEAKER_03
+ Still.
+
+0:01:04	SPEAKER_03
+ 56% of the city.
+
+0:01:06	SPEAKER_03
+ I can skip it.
+
+0:01:08	SPEAKER_03
+ Isn't it just doing a disc jaker?
+
+0:01:11	SPEAKER_02
+ I don't know what it's doing.
+
+0:01:14	SPEAKER_02
+ Oops. I love... it doesn't like silk.
+
+0:01:20	SPEAKER_02
+ Stay.
+
+0:01:23	SPEAKER_02
+ And now we're going to discover we've got no reason to meet, right?
+
+0:01:32	SPEAKER_02
+ Because everything's going swimmingly.
+
+0:01:35	SPEAKER_03
+ Is everything going to...
+
+0:01:37	SPEAKER_00
+ Well, I mean, if I've got a problem, I'm waiting for the get-a-get-camp-tager slide, right?
+
+0:01:43	SPEAKER_02
+ Because I haven't read the wikis in my email since I left.
+
+0:01:48	SPEAKER_00
+ Yeah, I haven't added anything to the wiki recently.
+
+0:01:53	SPEAKER_00
+ So I've been working on trying to get the XML stuff working.
+
+0:01:57	SPEAKER_00
+ So I'm basically learning how to get the DOM works, so I can do the next... so I can generate the DDF files.
+
+0:02:03	SPEAKER_00
+ Oh, yeah.
+
+0:02:04	SPEAKER_00
+ So, yeah, so just briefly read through the documentation that was doing in the last week.
+
+0:02:08	SPEAKER_00
+ Just so I know how it all works and I'm hoping I have the best way to do things.
+
+0:02:12	SPEAKER_00
+ But at the moment, I'm playing about the DOM stuff in Mozilla.
+
+0:02:17	SPEAKER_00
+ Because just so I can see how it works with the HTML pages so I can generate the XML stuff and see how it all works there.
+
+0:02:25	SPEAKER_00
+ It's just with my choose to just see how things work in that.
+
+0:02:29	SPEAKER_02
+ Well, I don't know the Mozilla stuff, so if it turns out that it's idiosyncratic in some way that teaches you funny habits, then it won't have been a good idea.
+
+0:02:39	SPEAKER_00
+ Well, I think the API is standardized by the W3C.
+
+0:02:43	SPEAKER_00
+ So the API is standard between everything.
+
+0:02:46	SPEAKER_00
+ Yeah, yeah.
+
+0:02:47	SPEAKER_02
+ Well, there are certain companies that I don't want to name who don't always get it right.
+
+0:02:52	SPEAKER_02
+ But yeah, Mozilla, yeah, it'll be all right.
+
+0:02:54	SPEAKER_02
+ Yeah, yeah, yeah.
+
+0:02:56	SPEAKER_00
+ It's just a couple of...
+
+0:02:57	SPEAKER_00
+ I believe you know, it's a good strategy.
+
+0:02:58	SPEAKER_00
+ Yeah, yeah.
+
+0:02:59	SPEAKER_00
+ Well, yeah, but it does like you said, but this is a Mozilla-only feature, and things like that.
+
+0:03:04	SPEAKER_00
+ So I've been avoiding those anyway.
+
+0:03:06	SPEAKER_00
+ It's just that that's quite a quick way to just to get into how it works because I can just quickly generate a web page and just add things to it and take things away and see exactly what's going on at the time.
+
+0:03:17	SPEAKER_02
+ Why does it help for the HTML?
+
+0:03:21	SPEAKER_02
+ Just XML?
+
+0:03:22	SPEAKER_00
+ Just because XHTML has a nice, you know, that you've got roses there so you can actually see directly what's going on.
+
+0:03:29	SPEAKER_02
+ So the first thing I want to do is just to make sure that you're using XML file up in it.
+
+0:03:36	SPEAKER_00
+ It'll just apply some default styles to it anyway that shows you...
+
+0:03:41	SPEAKER_00
+ Yeah, well, I'm using XHTML to do all the web pages of XHTML.
+
+0:03:45	SPEAKER_00
+ So it's XML just with the HTML DTD.
+
+0:03:48	SPEAKER_00
+ Okay, yeah.
+
+0:03:49	SPEAKER_00
+ Just because you haven't quite finalized the GDF format.
+
+0:03:52	SPEAKER_00
+ Okay, so you're going to have to do a swap-in tag names later?
+
+0:03:55	SPEAKER_00
+ Yeah, yeah.
+
+0:03:56	SPEAKER_00
+ So all I have to do is change that sort of thing.
+
+0:03:58	SPEAKER_02
+ I'm not sure if I'm always doing this.
+
+0:03:59	SPEAKER_02
+ I'm sure that's fine.
+
+0:04:00	SPEAKER_02
+ I'm going to...
+
+0:04:01	SPEAKER_03
+ It comes out in the end.
+
+0:04:04	SPEAKER_02
+ Yeah, no, I'm just trying to think of the things that could go wrong.
+
+0:04:08	SPEAKER_02
+ But since I haven't tried it this particular way, you know...
+
+0:04:12	SPEAKER_02
+ Yeah, that sounds good.
+
+0:04:14	SPEAKER_02
+ So you say we haven't finalized what the GDF looks like.
+
+0:04:19	SPEAKER_02
+ Is that an implicit request for me to do something?
+
+0:04:22	SPEAKER_00
+ Yeah, well, what I'm doing in the moment, I'm looking through the stuff that's growing in the wiki to say what we need in the output format for the task.
+
+0:04:32	SPEAKER_00
+ So what are you going to do the analysis on?
+
+0:04:35	SPEAKER_00
+ So I'm making sure that I can get that information out of the GDF as it's stated at the moment.
+
+0:04:39	SPEAKER_00
+ If I find something that you can't get out of it, then I can add that to the GDF format.
+
+0:04:44	SPEAKER_02
+ Yeah, well, I mean, there's two cases in here, right?
+
+0:04:48	SPEAKER_02
+ There's things you can get straight off the original format.
+
+0:04:51	SPEAKER_02
+ And then there's things you have to do some kind of post-processed signal of the original format.
+
+0:04:54	SPEAKER_02
+ But it's not just data format changes, actually, some kind of computational process to get the thing out of it as well, right?
+
+0:05:00	SPEAKER_02
+ Yeah, yeah.
+
+0:05:01	SPEAKER_02
+ And it wasn't... I think it was a little bit confused last time we spoke about whether you consider GDF format to be the thing that's just straightforward translations of what's in the original eye-tracking output, or whether...
+
+0:05:18	SPEAKER_02
+...like, whether the post-processing utilities are a separate step.
+
+0:05:21	SPEAKER_02
+ Because I think you and I had separate different views on this, but I can't remember who had which view at this point.
+
+0:05:28	SPEAKER_02
+ Yeah, well...
+
+0:05:29	SPEAKER_02
+ So are you working actively on these analysis things, or are you just working on the translation?
+
+0:05:34	SPEAKER_00
+ Well, I'm making sure that the GDF format we've got in the moment will output the old analysis that Robin's looking for.
+
+0:05:42	SPEAKER_00
+ So I'm using it as a way to get into using the DOM things as well.
+
+0:05:47	SPEAKER_00
+ So at the moment, I'm looking at actually the GDF format itself.
+
+0:05:51	SPEAKER_00
+ And then to generate the GDF format, I'm going to be taking stuff out of the just analyzer, and then using the DOM parser to generate X-mar, the just analyzer.
+
+0:06:00	SPEAKER_02
+ Oh, okay, so you have an ability to have what's in there and what isn't in there that you need to do some really intensive transform to do?
+
+0:06:05	SPEAKER_02
+ Not yet.
+
+0:06:06	SPEAKER_00
+ No, no, but the output of the just analyzer does do some of the processing already, which is all trying to use that as the basis for it.
+
+0:06:13	SPEAKER_00
+ Because that already picks up target read and things like that.
+
+0:06:16	SPEAKER_00
+ So it knows whether you're looking at a part, or whether you're looking at target area, or whatever.
+
+0:06:21	SPEAKER_00
+ So yeah, so there's also got that in it somewhere.
+
+0:06:24	SPEAKER_00
+ So it's just a matter of pulling that out and putting that into the GDF.
+
+0:06:28	SPEAKER_02
+ Okay, so this sounds like it's under control when you're happy and you guys are telling each other what you guys need to know.
+
+0:06:34	SPEAKER_02
+ So I don't need to do anything, right?
+
+0:06:36	SPEAKER_02
+ Nope.
+
+0:06:37	SPEAKER_02
+ You're all fine.
+
+0:06:38	SPEAKER_02
+ But there was a number of things that came before this, right?
+
+0:06:41	SPEAKER_02
+ It sounds like they're not under control yet.
+
+0:06:43	SPEAKER_02
+ So, you know, the GDF stuff, so Ellen's view on this is we go through everything in order, like the priority is exactly the pipeline order.
+
+0:06:51	SPEAKER_02
+ Yeah.
+
+0:06:52	SPEAKER_02
+ So Camtasia, you mentioned.
+
+0:06:54	SPEAKER_02
+ Yeah.
+
+0:06:55	SPEAKER_02
+ And I'm not sure what else, but we should check what other things were before this on the list of things to do.
+
+0:07:00	SPEAKER_00
+ Yeah, yeah, I think the other thing I've got left to leave before the expense of me run is get the check Camtasia works.
+
+0:07:07	SPEAKER_00
+ Now, we've got Camtasia running on machines, and I think they're set up correctly, but I can't test it until we get the microphones working.
+
+0:07:13	SPEAKER_00
+ Until you get the microphones.
+
+0:07:15	SPEAKER_02
+ Oh, microphones.
+
+0:07:16	SPEAKER_03
+ It's batteries we're waiting for.
+
+0:07:18	SPEAKER_03
+ Batteries.
+
+0:07:19	SPEAKER_03
+ They're due, I was told the beginning this week.
+
+0:07:22	SPEAKER_02
+ Okay.
+
+0:07:23	SPEAKER_02
+ Are they really, really strange batteries?
+
+0:07:26	SPEAKER_03
+ They are quite strange.
+
+0:07:28	SPEAKER_03
+ Have you tried Mappler?
+
+0:07:29	SPEAKER_03
+ It's, um, April has ordered them from someplace.
+
+0:07:34	SPEAKER_03
+ I've extended them.
+
+0:07:35	SPEAKER_03
+ No, well, like 150 each or something like that.
+
+0:07:39	SPEAKER_02
+ Because, you know, like we bus journey over to Mapplin might solve the problem if it's getting in the way.
+
+0:07:45	SPEAKER_03
+ Well, hopefully they should have been here last week, but Caroline then joined up to chase them.
+
+0:07:51	SPEAKER_03
+ And we're told to be here.
+
+0:07:53	SPEAKER_03
+ It should be today.
+
+0:07:54	SPEAKER_02
+ So this isn't actually learning your schedule for anything, and that's why you're waiting.
+
+0:07:59	SPEAKER_03
+ Well, we can still test whether Camtasia runs anyway.
+
+0:08:04	SPEAKER_03
+ It's just the, whether it's the microphones are picking up things correctly.
+
+0:08:08	SPEAKER_03
+ Right.
+
+0:08:09	SPEAKER_02
+ Okay.
+
+0:08:10	SPEAKER_02
+ So it sounds like you're not actually worried about the fact that this is...
+
+0:08:13	SPEAKER_02
+ Not yet.
+
+0:08:14	SPEAKER_02
+ Yeah.
+
+0:08:15	SPEAKER_02
+ When you get worried, go to Mapplin.
+
+0:08:17	SPEAKER_02
+ Okay.
+
+0:08:18	SPEAKER_02
+ Phone them first to make sure that they're in there.
+
+0:08:20	SPEAKER_02
+ Somebody around must have a...
+
+0:08:22	SPEAKER_02
+ Oh, Steve.
+
+0:08:24	SPEAKER_02
+ Somebody in the techie group will have a map on catalogue.
+
+0:08:27	SPEAKER_02
+ But I'll see if I can...
+
+0:08:28	SPEAKER_02
+ It's useful to know who's got a current one anyway.
+
+0:08:31	SPEAKER_02
+ I don't seem to get them anymore.
+
+0:08:33	SPEAKER_02
+ I guess they don't buy enough equipment.
+
+0:08:35	SPEAKER_00
+ Well, it must have stopped online these days anyways, no?
+
+0:08:41	SPEAKER_02
+ Oh, yeah.
+
+0:08:42	SPEAKER_02
+ Of course.
+
+0:08:43	SPEAKER_02
+ Duh.
+
+0:08:44	SPEAKER_02
+ So you can find out whether they have it.
+
+0:08:47	SPEAKER_02
+ But you'd have to phone them to find out if they haven't been stopped on that.
+
+0:08:50	SPEAKER_02
+ I actually live not that far from that.
+
+0:08:53	SPEAKER_02
+ So it would be a half hour diversion from my morning routine to pick up stuff.
+
+0:09:03	SPEAKER_02
+ But then again, it's also very close to a hay market.
+
+0:09:06	SPEAKER_02
+ Yeah.
+
+0:09:07	SPEAKER_02
+ So it's even less of a diversion for you, probably, except you don't know your way around.
+
+0:09:12	SPEAKER_00
+ I can easily get to Mapplin.
+
+0:09:14	SPEAKER_00
+ And I don't worry about his stuff.
+
+0:09:16	SPEAKER_00
+ I used to live in a hay market.
+
+0:09:19	SPEAKER_00
+ I used to live here on my geek.
+
+0:09:21	SPEAKER_00
+ I know we're doing it.
+
+0:09:22	SPEAKER_02
+ I know we're Mapplin.
+
+0:09:23	SPEAKER_02
+ Yeah.
+
+0:09:24	SPEAKER_02
+ I just think, well, you know, for the sake of three quid or however many quid.
+
+0:09:29	SPEAKER_02
+ How many batteries does it take?
+
+0:09:30	SPEAKER_03
+ Doesn't take a hundred.
+
+0:09:31	SPEAKER_03
+ No, it's two batteries we need.
+
+0:09:33	SPEAKER_02
+ Yeah.
+
+0:09:34	SPEAKER_02
+ Then, you know, put your mind at rest.
+
+0:09:37	SPEAKER_02
+ You know, you wouldn't want it to be the morning you were supposed to be recording.
+
+0:09:40	SPEAKER_02
+ That's what this guy is.
+
+0:09:41	SPEAKER_00
+ You know this.
+
+0:09:42	SPEAKER_00
+ What's about the...
+
+0:09:44	SPEAKER_00
+ I could give you a call on the way in tomorrow.
+
+0:09:46	SPEAKER_00
+ It's not paid in your pigeonhole lock.
+
+0:09:49	SPEAKER_00
+ You got off the train early and just pick them up from there.
+
+0:09:52	SPEAKER_02
+ Yeah, I checked they got them first though.
+
+0:09:54	SPEAKER_02
+ Their stocks are a bit funny down there.
+
+0:09:56	SPEAKER_00
+ Right, yeah.
+
+0:09:57	SPEAKER_00
+ Well, I'm making it and making sure I've got the phone number on my phone so I can call them.
+
+0:10:01	SPEAKER_02
+ Because, you know, it's not that attractive an area to walk through if you're not going to get any of the photo tips.
+
+0:10:05	SPEAKER_00
+ Well, true.
+
+0:10:07	SPEAKER_00
+ True.
+
+0:10:11	SPEAKER_00
+ That's the way I rode, isn't it?
+
+0:10:12	SPEAKER_02
+ So, of all the things that were on the wiki, do I need to pull up the wiki?
+
+0:10:17	SPEAKER_02
+ It's going to let me log in.
+
+0:10:19	SPEAKER_03
+ It's still probably in that angle.
+
+0:10:27	SPEAKER_02
+ Yeah.
+
+0:10:28	SPEAKER_02
+ No, I do not want to change my password.
+
+0:10:32	SPEAKER_02
+ But you guys probably know off the top of your head.
+
+0:10:41	SPEAKER_02
+ Is there anything else that we were waiting on before you could run?
+
+0:10:45	SPEAKER_03
+ I remember.
+
+0:10:46	SPEAKER_03
+ So, all those tasks break out.
+
+0:10:50	SPEAKER_03
+ The only thing that's holding me slightly up is checking whether to finish the working model builder.
+
+0:11:01	SPEAKER_03
+ But I'm not sure if it's finished version yet.
+
+0:11:04	SPEAKER_02
+ His last day was the 31st of October.
+
+0:11:08	SPEAKER_03
+ Yeah, he still had hours left.
+
+0:11:11	SPEAKER_03
+ I wasn't sure if it was down to the number of hours or where the 31st of October.
+
+0:11:16	SPEAKER_02
+ Oh, yeah.
+
+0:11:17	SPEAKER_02
+ No, it's hours.
+
+0:11:18	SPEAKER_02
+ Yeah, it's hours.
+
+0:11:19	SPEAKER_02
+ Oh, so he's got hours left.
+
+0:11:20	SPEAKER_02
+ He's behind him.
+
+0:11:21	SPEAKER_02
+ I think he was filling for the hour.
+
+0:11:24	SPEAKER_02
+ So, I thought, well, I mean, obviously, if he wants to finish off, then, you know.
+
+0:11:31	SPEAKER_03
+ But, I've nine Megan has gone dead for almost the last two weeks.
+
+0:11:36	SPEAKER_02
+ Oh, well, they're fully away, then.
+
+0:11:39	SPEAKER_02
+ Wasn't that one away?
+
+0:11:40	SPEAKER_02
+ They're really the same way?
+
+0:11:41	SPEAKER_03
+ No, but I think what they had was some big review.
+
+0:11:46	SPEAKER_02
+ Oh, yeah, it could be it.
+
+0:11:48	SPEAKER_03
+ And so I haven't heard anything back from them.
+
+0:11:50	SPEAKER_03
+ So the models for...
+
+0:11:52	SPEAKER_02
+ Oh, you have no models at all.
+
+0:11:54	SPEAKER_02
+ Oh, that's a pity.
+
+0:11:57	SPEAKER_02
+ Model builder.
+
+0:11:58	SPEAKER_02
+ That's what I was calling the graphical model editor, right?
+
+0:12:01	SPEAKER_02
+ So you use expert to make the parts and then you...
+
+0:12:04	SPEAKER_03
+ Well, we don't need to make the parts or all the standard 10 gram ones.
+
+0:12:08	SPEAKER_03
+ They're not before anyway.
+
+0:12:09	SPEAKER_03
+ The big thing is only when we come to building airplanes and new peculiar shapes.
+
+0:12:14	SPEAKER_03
+ But for this experiment, it's just a 10 gram type task.
+
+0:12:19	SPEAKER_02
+ Yeah.
+
+0:12:20	SPEAKER_02
+ Okay.
+
+0:12:21	SPEAKER_02
+ I have something in my email about from Joe.
+
+0:12:26	SPEAKER_02
+ He wouldn't have sent it just to me, would he?
+
+0:12:29	SPEAKER_02
+ Do you want me to check that?
+
+0:12:30	SPEAKER_02
+ I'm not going to project my email.
+
+0:12:35	SPEAKER_03
+ I'll say that one away.
+
+0:12:36	SPEAKER_03
+ I recently did nothing per day anything from Joe for a week or so anyway.
+
+0:12:40	SPEAKER_02
+ Okay, I think I might have heard Thursday or something.
+
+0:12:43	SPEAKER_02
+ I can't remember.
+
+0:12:45	SPEAKER_03
+ Is that what it was?
+
+0:12:46	SPEAKER_03
+ I think it was the last thing that was in response to the thing I was seeing last week, a bit of the parallel gram being the little me round from the model.
+
+0:13:15	SPEAKER_03
+ Yeah, I saw some screenshots.
+
+0:13:19	SPEAKER_03
+ Nothing has heard anything since from either.
+
+0:13:23	SPEAKER_03
+ I'll say the Netherlands or from you.
+
+0:13:25	SPEAKER_02
+ Okay, so I've got something on the 28th.
+
+0:13:27	SPEAKER_02
+ That's Friday, I think.
+
+0:13:29	SPEAKER_02
+ Oh, he just wants to know how to get paid.
+
+0:13:34	SPEAKER_02
+ Right, that's a guess he's done, done, done.
+
+0:13:35	SPEAKER_02
+ Anyway, he's in Adam's breast.
+
+0:13:37	SPEAKER_02
+ So, well, I suppose he won't come back.
+
+0:13:39	SPEAKER_02
+ This Kirk's on his desk.
+
+0:13:40	SPEAKER_03
+ It was he back?
+
+0:13:41	SPEAKER_02
+ Yeah.
+
+0:13:42	SPEAKER_02
+ So, I'm using the nice machine.
+
+0:13:45	SPEAKER_00
+ So, he wants to pop in for five minutes.
+
+0:13:47	SPEAKER_00
+ The Windows machines.
+
+0:13:49	SPEAKER_00
+ Free from at the moment.
+
+0:13:50	SPEAKER_00
+ It's just not going to trigger.
+
+0:13:52	SPEAKER_02
+ Squat there, that's all.
+
+0:13:53	SPEAKER_02
+ So, the last thing I got from him about work work was the 19th of October that said he uploaded some changes that you wanted.
+
+0:14:04	SPEAKER_02
+ That's, oh, see, you didn't get that.
+
+0:14:07	SPEAKER_02
+ It was just me and him, but presumably he put it on the wiki.
+
+0:14:12	SPEAKER_02
+ So, he's just telling us because he thinks we've all we don't read wikis.
+
+0:14:17	SPEAKER_02
+ And I'll just check.
+
+0:14:20	SPEAKER_03
+ It was after that.
+
+0:14:22	SPEAKER_03
+ It was the thing about why the power level gram was a mirror image.
+
+0:14:29	SPEAKER_00
+ I'll consider him to get an email off whom I think it got sent to the group saying that he'd updated the whatever it was on the wiki.
+
+0:14:36	SPEAKER_00
+ So, he'd uploaded a new zip file and never written the old one.
+
+0:14:41	SPEAKER_02
+ Well, I haven't replied to him about, yeah, I really don't have anything more recent from him.
+
+0:14:48	SPEAKER_02
+ I haven't replied to him about how to submit costs and stuff like that.
+
+0:14:56	SPEAKER_02
+ But that suggests he's at the end of things, but we could just ask him.
+
+0:15:00	SPEAKER_02
+ I mean, maybe you guys would just want to ask him directly, you're done done, right?
+
+0:15:05	SPEAKER_02
+ Because that's what you guys know.
+
+0:15:06	SPEAKER_02
+ And then, of course, any problems that remain you inherit.
+
+0:15:11	SPEAKER_02
+ But, you know, it's worth taking a look at what it does and making sure it does what you want, I guess.
+
+0:15:16	SPEAKER_02
+ So, the problem is you wanted to construct some models in it for you experiment, but you were hoping to get some from Marlous.
+
+0:15:22	SPEAKER_03
+ Yes, or at least she was meant to have some idea of the level of complexity because they have actually run things and to get an idea of the sort of style and to check that would be alright.
+
+0:15:36	SPEAKER_03
+ All very quiet.
+
+0:15:37	SPEAKER_02
+ Right, have you tried cold calling?
+
+0:15:40	SPEAKER_02
+ That's what I do when I need things that...
+
+0:15:43	SPEAKER_03
+ No, it has just been email rather than a telephone type.
+
+0:15:50	SPEAKER_02
+ I'm a trash stone.
+
+0:15:54	SPEAKER_02
+ If you get him today, when are you going to start running?
+
+0:16:00	SPEAKER_03
+ I'm down for a week.
+
+0:16:02	SPEAKER_03
+ What's the seventh?
+
+0:16:04	SPEAKER_03
+ A week to the event?
+
+0:16:06	SPEAKER_02
+ Oh, right, so you have to be ready by then.
+
+0:16:09	SPEAKER_03
+ We're hot.
+
+0:16:10	SPEAKER_03
+ We haven't booked anybody in or anything, but that's when I'm hoping.
+
+0:16:14	SPEAKER_03
+ Right, okay.
+
+0:16:15	SPEAKER_03
+ We have been, of course, put back a bit by Tracker going down.
+
+0:16:20	SPEAKER_02
+ Yeah, makes sense.
+
+0:16:25	SPEAKER_03
+ But we're certainly needing some data in the bag by the first of December, I think.
+
+0:16:32	SPEAKER_02
+ Yeah, so you don't have subjects lined up, but you don't expect any trouble getting them?
+
+0:16:37	SPEAKER_03
+ Hopefully not.
+
+0:16:41	SPEAKER_03
+ The only other slight complication is, which I think will be brought up by the meeting on Thursday.
+
+0:16:48	SPEAKER_03
+ For all the eye tracking users.
+
+0:16:52	SPEAKER_03
+ Yeah.
+
+0:16:53	SPEAKER_03
+ The lab has been blocked booted again.
+
+0:16:57	SPEAKER_03
+ By?
+
+0:16:58	SPEAKER_03
+ Jules from Psychology.
+
+0:17:03	SPEAKER_02
+ I don't know this person.
+
+0:17:06	SPEAKER_02
+ They, well, they need to be serious about it.
+
+0:17:11	SPEAKER_02
+ Is that a staff member or a student?
+
+0:17:14	SPEAKER_02
+ Okay, well, we kind of paid for the lab, so it depends, but I suppose talking to them sometimes solves these problems.
+
+0:17:24	SPEAKER_02
+ It depends on what sort of staff member is it?
+
+0:17:27	SPEAKER_03
+ A lecturer.
+
+0:17:29	SPEAKER_02
+ Right.
+
+0:17:30	SPEAKER_02
+ I mean, presumably he or she is not running subjects the entire...
+
+0:17:34	SPEAKER_03
+ Well, presumably not, but it's sort of...
+
+0:17:37	SPEAKER_03
+ Buckle for how long?
+
+0:17:38	SPEAKER_03
+ For certainly, what, 60s?
+
+0:17:45	SPEAKER_03
+ 10 to 5 for 2 or 3 of those days?
+
+0:17:50	SPEAKER_02
+ So, Ellen's still out of town, right?
+
+0:17:54	SPEAKER_02
+ It's just...
+
+0:17:56	SPEAKER_02
+ You could try calling this person a C.
+
+0:17:58	SPEAKER_02
+ How this works.
+
+0:17:59	SPEAKER_02
+ Ellen might be more persuasive.
+
+0:18:03	SPEAKER_02
+ Just sometimes academic staff have a bit of a chip about research staff.
+
+0:18:09	SPEAKER_02
+ And since I don't know the person, I can't tell whether it's one of those or not.
+
+0:18:12	SPEAKER_03
+ I wouldn't...
+
+0:18:13	SPEAKER_03
+ No, I can probably at least email her and ask her if she's really giving it all that time.
+
+0:18:20	SPEAKER_02
+ Yeah, and then escalate, I guess.
+
+0:18:23	SPEAKER_02
+ But, you know, or whether it can be put off for a little bit or something.
+
+0:18:29	SPEAKER_02
+ So, I have no idea how the booking system works.
+
+0:18:32	SPEAKER_02
+ Well, you're discussing them Thursday, right?
+
+0:18:34	SPEAKER_02
+ At the moment, it's just a booking system.
+
+0:18:36	SPEAKER_02
+ Yeah.
+
+0:18:37	SPEAKER_03
+ People just, if they can log on to it, can book it.
+
+0:18:40	SPEAKER_02
+ Yep.
+
+0:18:41	SPEAKER_02
+ Well, that's one of the rays of the meeting.
+
+0:18:44	SPEAKER_02
+ I might talk to Ellen about that ahead of time, because she and Martin may have had discussions about appropriate use of the lab.
+
+0:18:52	SPEAKER_03
+ In theory, Jess is meant to have it every morning.
+
+0:18:55	SPEAKER_02
+ Oh, really?
+
+0:18:56	SPEAKER_02
+ Yeah, but don't you guys set up for...isn't block booking more appropriate?
+
+0:19:02	SPEAKER_02
+ Because isn't there set up involved in changing around for somebody else?
+
+0:19:07	SPEAKER_03
+ Um...
+
+0:19:11	SPEAKER_03
+ There shouldn't be any changes in the physical connection.
+
+0:19:15	SPEAKER_02
+ No, or in the software or anything.
+
+0:19:17	SPEAKER_02
+ Nope.
+
+0:19:18	SPEAKER_02
+ Oh, okay.
+
+0:19:19	SPEAKER_02
+ So there's no cost associated with it being mornings or afternoons?
+
+0:19:24	SPEAKER_03
+ No.
+
+0:19:26	SPEAKER_03
+ As long as other people don't, for some reason, I don't know, disconnect some bits of the equipment.
+
+0:19:32	SPEAKER_03
+ There's no reason why it should exist.
+
+0:19:34	SPEAKER_02
+ Yeah.
+
+0:19:35	SPEAKER_02
+ So, in the worst case, you may be able to make an argument if you actually need that week that you can collect in the mornings that week.
+
+0:19:42	SPEAKER_02
+ Is this something that's known outside Ellen's head?
+
+0:19:45	SPEAKER_03
+ Yes, it's on the booking system.
+
+0:19:49	SPEAKER_03
+ It's not on the booking system.
+
+0:19:50	SPEAKER_03
+ It's on our webpage that Frank created a big lab.
+
+0:19:53	SPEAKER_03
+ Oh, well, that sounds like...
+
+0:19:54	SPEAKER_03
+ But you don't know if anybody actually knows who's there.
+
+0:19:58	SPEAKER_02
+ Uh-huh.
+
+0:19:59	SPEAKER_02
+ Well, that's the time to...yeah.
+
+0:20:01	SPEAKER_02
+ So it sounds like you've got a lot of possible ways of getting what time you need.
+
+0:20:05	SPEAKER_02
+ Of course, try to be kind to other people.
+
+0:20:07	SPEAKER_02
+ But you would anyway.
+
+0:20:10	None
+ Yeah.
+
+0:20:13	SPEAKER_02
+ So those are the only things that are worrying you.
+
+0:20:15	SPEAKER_02
+ Camtasia and lab access and otherwise.
+
+0:20:25	SPEAKER_03
+ No sweat.
+
+0:20:26	SPEAKER_03
+ You're happy.
+
+0:20:27	SPEAKER_03
+ You should be.
+
+0:20:28	SPEAKER_03
+ I've also got to get Camtasia.
+
+0:20:29	SPEAKER_03
+ The model builders here.
+
+0:20:30	SPEAKER_03
+ Well, yes.
+
+0:20:31	SPEAKER_03
+ The model, I've got to get Camtasia working as a sort of little multimedia thing to generate a video how to sort of an instructional video.
+
+0:20:38	SPEAKER_02
+ Oh, yeah.
+
+0:20:39	SPEAKER_02
+ Uh-huh.
+
+0:20:40	SPEAKER_02
+ This is going to take a little while.
+
+0:20:44	SPEAKER_03
+ I have to do this week.
+
+0:20:46	SPEAKER_00
+ Well, hopefully once it goes around the trial, I'll give you some screenshots to work with and then it just may not have added any video of makes movements or whatever.
+
+0:20:54	SPEAKER_02
+ Yeah, but you were going to try and figure out how to overlay something on top of the video that...
+
+0:21:00	SPEAKER_02
+ Oh, no, you were just really going to run a video of the set of the trial.
+
+0:21:04	SPEAKER_02
+ Yeah.
+
+0:21:05	SPEAKER_02
+ Yeah, okay.
+
+0:21:06	SPEAKER_02
+ That's much easier.
+
+0:21:07	SPEAKER_02
+ So with the model builder, what do you need to do with it?
+
+0:21:12	SPEAKER_02
+ Which one of you is going to look at what it does so far?
+
+0:21:16	SPEAKER_02
+ I'll just try and do that.
+
+0:21:18	SPEAKER_00
+ Yeah.
+
+0:21:19	SPEAKER_00
+ Have a look.
+
+0:21:20	SPEAKER_00
+ If you're learning from it, things will be key page up for that piece of, let me know for that thing.
+
+0:21:25	SPEAKER_00
+ So just put whatever recommendations, bugs on that page and work through them as and when I can.
+
+0:21:31	SPEAKER_03
+ Hopefully there's not a problem.
+
+0:21:33	SPEAKER_03
+ Let's say Marlou was also meant to be doing things.
+
+0:21:40	SPEAKER_02
+ How many models were you relying on her for?
+
+0:21:45	SPEAKER_02
+ So are you suddenly going to be...
+
+0:21:47	SPEAKER_03
+ It hasn't been divided up in that sort of way.
+
+0:21:50	SPEAKER_02
+ Well, what I'm trying to get at is, is your start time going to be delayed because you don't have the models ready if she doesn't come through?
+
+0:21:55	SPEAKER_03
+ It depends how quickly I manage to get a group of it, maybe how long it takes me to generate them or how I get on with the Camtasia.
+
+0:22:04	SPEAKER_02
+ Oh, yeah.
+
+0:22:06	SPEAKER_02
+ Well...
+
+0:22:07	SPEAKER_03
+ I'm unsure of yet.
+
+0:22:10	SPEAKER_02
+ Can you draft Craigin to build something necessary?
+
+0:22:14	SPEAKER_00
+ I've used this software in this life.
+
+0:22:17	SPEAKER_00
+ Not that hard.
+
+0:22:18	SPEAKER_03
+ It shouldn't be any great problem.
+
+0:22:21	SPEAKER_03
+ It's just checking that there are a suitable level of complexity.
+
+0:22:27	SPEAKER_02
+ Yeah.
+
+0:22:28	SPEAKER_02
+ You know me, contingency planning, obviously.
+
+0:22:30	SPEAKER_02
+ Of course, we're about to work.
+
+0:22:32	SPEAKER_03
+ Yeah, no, quite right.
+
+0:22:34	SPEAKER_00
+ Yeah, I can't imagine the building the model is going to be that hard.
+
+0:22:39	SPEAKER_00
+ I can easily just have many thousands there on that Dutch website you found.
+
+0:22:44	SPEAKER_00
+ Just pick some of them, readied them in the GCD format.
+
+0:22:49	SPEAKER_00
+ That's pretty mechanical.
+
+0:22:52	SPEAKER_00
+ I can easily do that.
+
+0:22:54	SPEAKER_00
+ It's a matter of choosing which ones you need to do, which I guess you have to do.
+
+0:22:58	SPEAKER_00
+ Well, I was hoping for some...
+
+0:23:00	SPEAKER_00
+ Oh, yeah.
+
+0:23:01	SPEAKER_00
+ You and my loads needed.
+
+0:23:03	SPEAKER_02
+ Exactly.
+
+0:23:04	SPEAKER_02
+ You can call a just telecom between you and Marlous.
+
+0:23:09	SPEAKER_02
+ If it's not...
+
+0:23:11	SPEAKER_02
+ See, with the call calling, you can usually at least find out whether they're alive and get an offer to get something.
+
+0:23:18	SPEAKER_02
+ But the next escalation is saying, no, we really need to talk about this.
+
+0:23:22	SPEAKER_02
+ We're going to talk about it Tuesday at such a time, unless you...
+
+0:23:26	SPEAKER_02
+ Yeah.
+
+0:23:27	SPEAKER_03
+ It's a good time.
+
+0:23:29	SPEAKER_03
+ I'll try and get whoever we're going to do.
+
+0:23:31	SPEAKER_02
+ But presumably, whatever it is they've been going through is now over.
+
+0:23:34	SPEAKER_03
+ I think it was up to the end of October.
+
+0:23:37	SPEAKER_03
+ So presumably today they're now pre-
+
+0:23:55	SPEAKER_02
+ It's not like sitting there brain deadly constructing some models that she needs to do. It's just provided advice about this, which must take less time.
+
+0:24:10	SPEAKER_02
+ Well, that all sounds fun.
+
+0:24:18	SPEAKER_02
+ You guys worried about anything?
+
+0:24:21	SPEAKER_02
+ We've mostly been talking about the experiment schedule.
+
+0:24:24	SPEAKER_00
+ I don't think so.
+
+0:24:26	SPEAKER_00
+ The major thing I've got to do is get this campaign sorted out.
+
+0:24:29	SPEAKER_00
+ So just going with the batteries for that.
+
+0:24:31	SPEAKER_00
+ If I'm not worried, I'm not worried.
+
+0:24:34	SPEAKER_02
+ You're going to run out of things to do that we haven't set you up for any time soon.
+
+0:24:40	SPEAKER_00
+ The GDF thing sounds like it might take a wee while.
+
+0:24:43	SPEAKER_00
+ Yeah, yeah, because I'll get a finalize out format.
+
+0:24:45	SPEAKER_00
+ Then once that's done, I'll start looking at the analysis side of it.
+
+0:24:48	SPEAKER_03
+ All the dynamic region part of it.
+
+0:24:51	SPEAKER_02
+ Yeah.
+
+0:24:52	SPEAKER_02
+ But you don't need anything for me for that because that's already a sort of spec.
+
+0:24:55	SPEAKER_02
+ I mean, again, that's the pair of you.
+
+0:24:57	SPEAKER_00
+ Yeah, I think the analysis will take a little while.
+
+0:25:00	SPEAKER_00
+ I don't think it's going to take that long to get this stuff sorted out.
+
+0:25:02	SPEAKER_00
+ It's going to be head of display and all that sort of stuff.
+
+0:25:05	SPEAKER_00
+ Whatever makes it easiest for you to do.
+
+0:25:07	SPEAKER_02
+ This is what I'm worried about is him being in the lab all day long and you not being sure like what to do for the analysis or something.
+
+0:25:15	SPEAKER_02
+ Because you're going to be completely unavailable when you're recording, or will there be times when you don't record all day?
+
+0:25:21	SPEAKER_03
+ No, well, it depends how many I can begin and get running before my brain melts.
+
+0:25:29	SPEAKER_03
+ But when the experiment's running, yeah, it's I'll be in the lab.
+
+0:25:33	SPEAKER_03
+ Yeah, because he might.
+
+0:25:34	SPEAKER_02
+ I can't just go in and let them get started.
+
+0:25:36	SPEAKER_02
+ Oh, yeah, no, no, I understood that.
+
+0:25:38	SPEAKER_02
+ It sounds like people can, but...
+
+0:25:41	SPEAKER_02
+ Oh, it was more like, you know, so this week he's got the GDF stuff to do.
+
+0:25:46	SPEAKER_02
+ Then next week you're planning on recording.
+
+0:25:49	SPEAKER_02
+ And what happens if suddenly you're unavailable all of next week, just 20 runs out of work?
+
+0:25:53	SPEAKER_03
+ There'll certainly be time for now because I'm right next to the lab.
+
+0:25:56	SPEAKER_03
+ Anybody will come back just to check my email and things anyway.
+
+0:25:59	SPEAKER_03
+ So what were you about it then?
+
+0:26:01	SPEAKER_00
+ Yeah, so I've also got to work on the dress analyzing and turn that into a GDF outputter.
+
+0:26:06	SPEAKER_00
+ Yeah, I can have a look at my model builder as well.
+
+0:26:10	SPEAKER_00
+ One thing we're thinking about is we're looking at the part building type stuff.
+
+0:26:15	SPEAKER_00
+ And it might be worth seeing if I can add a little part builder thing into the model builder.
+
+0:26:20	SPEAKER_00
+ I'm just going to tidy up on the code for generating the parts anyway, the JCT part.
+
+0:26:26	SPEAKER_00
+ Don't know what we want to bother with a part builder.
+
+0:26:29	SPEAKER_02
+ The idea was it wasn't worth the investment.
+
+0:26:31	SPEAKER_02
+ Yeah, yeah.
+
+0:26:32	SPEAKER_00
+ But I want to have a quick look at it and see how easy it is to add a couple of things to it.
+
+0:26:36	SPEAKER_00
+ Because if I can use it to generate the ROTC angle, for example, the rotation symmetry stuff for it, which of what was called as in the bugs before.
+
+0:26:45	SPEAKER_00
+ So if I can use the model builder to automatically do that, then that would save quite a bit of work and save a few bugs.
+
+0:26:50	SPEAKER_02
+ Yeah, but now that the guy building these models know that they need to do the ROTC stuff.
+
+0:26:55	SPEAKER_02
+ Do you have trouble doing it?
+
+0:26:56	SPEAKER_02
+ No.
+
+0:26:57	SPEAKER_00
+ No.
+
+0:26:58	SPEAKER_00
+ It's just something you've got to remember once the parts we built.
+
+0:27:01	SPEAKER_02
+ Well, I mean, we might want to severely cash limit the investment that you put into making a part builder.
+
+0:27:10	SPEAKER_02
+ Yeah, yeah.
+
+0:27:12	SPEAKER_02
+ How many person days would it be worth?
+
+0:27:14	SPEAKER_02
+ If Craig discovered it could be done in X days.
+
+0:27:18	SPEAKER_03
+ I wouldn't bother more than one or two, certainly.
+
+0:27:22	SPEAKER_03
+ Right.
+
+0:27:23	SPEAKER_02
+ So there's a limit.
+
+0:27:24	SPEAKER_02
+ Don't spend more than a day or two on it.
+
+0:27:26	SPEAKER_00
+ Yeah.
+
+0:27:27	SPEAKER_02
+ You have to understand there's things about this project we didn't give you so far that you'll have to learn about.
+
+0:27:33	SPEAKER_00
+ Yeah.
+
+0:27:34	SPEAKER_00
+ So something like a map task, like let me further down my task list.
+
+0:27:38	SPEAKER_02
+ Oh, really? Oh, that would just be a little add-on.
+
+0:27:41	SPEAKER_02
+ Whatever it is, it'll be the same skills as you've learned for something else.
+
+0:27:44	SPEAKER_02
+ And it'll just be, I'm not even sure that's you because I think somebody else is doing that, actually.
+
+0:27:48	SPEAKER_02
+ But I'm thinking more of the fact that at some point we should probably tell you about this NXT stuff.
+
+0:27:54	SPEAKER_02
+ Right. Yeah.
+
+0:27:55	SPEAKER_00
+ Well, that's just X about X and L, isn't it?
+
+0:27:58	SPEAKER_00
+ Oh, yeah.
+
+0:27:59	SPEAKER_00
+ What other bits into NXT?
+
+0:28:00	SPEAKER_02
+ Well, you know, there's XML and XML and, you know, it takes standoff links and stuff.
+
+0:28:05	SPEAKER_02
+ And it's some people, if they're not used to linguistic annotation, take a little time to get their head around the way the data model works.
+
+0:28:15	SPEAKER_00
+ Right.
+
+0:28:16	SPEAKER_00
+ Right.
+
+0:28:17	SPEAKER_00
+ You know, there's stuff to learn there.
+
+0:28:18	SPEAKER_00
+ Yeah.
+
+0:28:19	SPEAKER_00
+ The form I've heard about it is both XML.
+
+0:28:21	SPEAKER_00
+ So the programming side of it doesn't sound too hard.
+
+0:28:23	SPEAKER_00
+ It's going to be making sure that it fits what you expect out the format.
+
+0:28:27	SPEAKER_00
+ Yeah.
+
+0:28:28	SPEAKER_00
+ But that's fine.
+
+0:28:29	SPEAKER_00
+ I'll have plenty of questions for you once I get to that stage, I'm sure.
+
+0:28:34	SPEAKER_02
+ Yeah.
+
+0:28:35	SPEAKER_02
+ So just don't whiter away, you know, weeks on for breeze when we got the real meat.
+
+0:28:40	SPEAKER_02
+ We did this yet to come.
+
+0:28:42	SPEAKER_02
+ Yeah.
+
+0:28:43	SPEAKER_02
+ Well, fine.
+
+0:28:44	SPEAKER_02
+ Plenty of really, really crucial things for you to do.
+
+0:28:46	SPEAKER_03
+ Yeah.
+
+0:28:47	SPEAKER_03
+ I do think you'll be twiddling your homes.
+
+0:28:49	SPEAKER_00
+ Yeah.
+
+0:28:50	SPEAKER_00
+ Well, we'll do the thing.
+
+0:28:51	SPEAKER_00
+ We're going to get camped out this week and it's constrained on the jazz analyzer, the GDF stuff.
+
+0:28:55	SPEAKER_00
+ And then, yeah, once we've done that, it's whatever you want me to do.
+
+0:29:00	SPEAKER_00
+ Once I've done the GDF.
+
+0:29:02	SPEAKER_02
+ Okay. So I'll remind myself to look at what's next before the next time we get together.
+
+0:29:07	SPEAKER_00
+ Yeah.
+
+0:29:08	SPEAKER_00
+ Yeah.
+
+0:29:09	SPEAKER_00
+ So I'm going to go to the GDF and click me busy for a little while yet.
+
+0:29:11	SPEAKER_00
+ So, yeah.
+
+0:29:12	SPEAKER_00
+ Well, that's not the thing.
+
+0:29:14	SPEAKER_00
+ I'm going to get into this next week and then I can start suggesting things that might need to look at for the next stage.
+
+0:29:20	SPEAKER_02
+ Yeah.
+
+0:29:21	SPEAKER_02
+ So you're collecting Monday.
+
+0:29:23	SPEAKER_02
+ That means you don't want to meet, right?
+
+0:29:25	SPEAKER_03
+ Um, well, at 12 o'clock.
+
+0:29:31	SPEAKER_03
+ So next Monday, the lab is taking the book to pay.
+
+0:29:36	SPEAKER_03
+ Jules.
+
+0:29:37	SPEAKER_02
+ Oh, right. It's actually next week.
+
+0:29:39	SPEAKER_02
+ It's actually the week that you were planning on.
+
+0:29:42	SPEAKER_03
+ It starts the on with this Wednesday and goes through to next Wednesday.
+
+0:29:48	SPEAKER_02
+ Oh, okay.
+
+0:29:50	SPEAKER_02
+ Well, I don't know.
+
+0:29:53	SPEAKER_02
+ Anyway, you'll tell me whether we cancel this or whether I just talked to Craig.
+
+0:29:58	SPEAKER_02
+ I wish we won't be up here because we don't record twos.
+
+0:30:01	SPEAKER_03
+ Yep.
+
+0:30:02	SPEAKER_03
+ Perfect.
+
+0:30:03	SPEAKER_03
+ Um, what else?
+
+0:30:05	SPEAKER_03
+ Uh, yeah.
+
+0:30:06	SPEAKER_03
+ Why then other complication is two weeks tomorrow, I start my teaching.
+
+0:30:10	SPEAKER_02
+ Oh, yeah.
+
+0:30:12	SPEAKER_02
+ That's pretty fun.
+
+0:30:13	SPEAKER_02
+ Let's see.
+
+0:30:14	SPEAKER_03
+ That's like four lectures and four labs.
+
+0:30:17	SPEAKER_02
+ That comes at an ideal time for you then.
+
+0:30:20	SPEAKER_02
+ Yes.
+
+0:30:21	SPEAKER_02
+ That's like the 20th or something.
+
+0:30:24	SPEAKER_02
+ Uh, I can't add.
+
+0:30:28	SPEAKER_03
+ Uh, what's the worries?
+
+0:30:30	SPEAKER_03
+ Uh, tomorrow the first.
+
+0:30:32	SPEAKER_03
+ For the first year.
+
+0:30:33	SPEAKER_03
+ So it'll be the 15th.
+
+0:30:35	SPEAKER_03
+ Yeah.
+
+0:30:36	SPEAKER_00
+ Two weeks.
+
+0:30:37	SPEAKER_00
+ Actually, yeah, that reminds me a lot about what I want to be.
+
+0:30:39	SPEAKER_00
+ Uh, on Thursday, I'm going to be over in the end of the day.
+
+0:30:42	SPEAKER_03
+ Oh, you find your best.
+
+0:30:43	SPEAKER_03
+ And that's right.
+
+0:30:44	SPEAKER_02
+ Oh, yeah.
+
+0:30:45	SPEAKER_02
+ You have to promise to tell us how that is.
+
+0:30:46	SPEAKER_02
+ Cause people do ask me.
+
+0:30:48	SPEAKER_00
+ Fair enough.
+
+0:30:49	SPEAKER_00
+ Fair enough.
+
+0:30:50	SPEAKER_00
+ I don't think it's going to be a bad idea.
+
+0:30:51	SPEAKER_03
+ It's going to waste of time to, you know, it's going to be one to seven.
+
+0:30:55	SPEAKER_00
+ Yeah.
+
+0:30:56	SPEAKER_00
+ Yeah.
+
+0:30:57	SPEAKER_00
+ I don't think it's going to be that in depth.
+
+0:30:58	SPEAKER_00
+ It's 15 minutes on a variety of different topics.
+
+0:31:00	SPEAKER_00
+ So it's just, it's, it's, it's, it's, it's, it's, it's, it's, it's, it's.
+
+0:31:03	SPEAKER_00
+ I'm sure most of it I already know.
+
+0:31:04	SPEAKER_00
+ It's like, by safety, yeah.
+
+0:31:06	SPEAKER_00
+ Health safety, data protection, usual sort of stuff you get everywhere.
+
+0:31:09	SPEAKER_00
+ So university will cover itself legally.
+
+0:31:12	SPEAKER_03
+ I think we're doing this.
+
+0:31:14	SPEAKER_02
+ Yeah.
+
+0:31:15	SPEAKER_02
+ Well, if they were going to do that, then they'd push it to go to it.
+
+0:31:17	SPEAKER_02
+ I would, and I wouldn't know somebody who'd gone to know.
+
+0:31:20	SPEAKER_02
+ Nobody's pulled a super far.
+
+0:31:22	SPEAKER_02
+ I'm pretty sure they didn't have induction in my day.
+
+0:31:24	SPEAKER_03
+ Well, I don't remember being asked for an induction.
+
+0:31:26	SPEAKER_03
+ Really?
+
+0:31:27	SPEAKER_02
+ But you only started here in April.
+
+0:31:30	SPEAKER_02
+ There was supposed to, I'm sure.
+
+0:31:33	SPEAKER_03
+ Yeah.
+
+0:31:34	SPEAKER_02
+ I'm not going to.
+
+0:31:35	SPEAKER_03
+ I got invited to a, a summer garden party for new staff members.
+
+0:31:39	SPEAKER_03
+ But that was, that's all.
+
+0:31:43	SPEAKER_00
+ Oh, well.
+
+0:31:44	SPEAKER_00
+ Then when I come here, when I started being a student, I mean, we had the induction of compulsory because, a lot of students were doing teaching, and you couldn't do the teaching unless you'd done the induction because you had to know about health and safety and fire safety before you could take a charge of, yeah, because you're a responsible person in the classroom.
+
+0:32:02	SPEAKER_00
+ So.
+
+0:32:03	None
+ Yep.
+
+0:32:04	SPEAKER_00
+ Yeah, I'm not sure why I don't want to do it now.
+
+0:32:08	SPEAKER_00
+ Okay.
+
+0:32:09	SPEAKER_00
+ Let's see how I go.
+
+0:32:11	SPEAKER_00
+ I'll give you a report on Friday or something.
+
+0:32:14	SPEAKER_03
+ I have one NXT question.
+
+0:32:17	SPEAKER_03
+ Okay.
+
+0:32:19	SPEAKER_03
+ Well, it's not one is hopefully as part of the output, it'll be something like that.
+
+0:32:26	SPEAKER_03
+ Is that correct?
+
+0:32:27	SPEAKER_03
+ So you've got the gase position of the first person, gase position of the second, the most position of the first, the most position of the second, and I don't know how common most action or something.
+
+0:32:37	SPEAKER_03
+ Yeah.
+
+0:32:38	SPEAKER_03
+ That just in, in sort of.
+
+0:32:40	SPEAKER_02
+ Seems you're using what.
+
+0:32:43	SPEAKER_02
+ So it'll be like in the monitor.
+
+0:32:47	SPEAKER_02
+ But yeah, there will be different tiers like that.
+
+0:32:51	SPEAKER_02
+ And then there's the language stuff as well.
+
+0:32:53	SPEAKER_02
+ Yes.
+
+0:32:54	SPEAKER_03
+ That's just the.
+
+0:32:55	SPEAKER_02
+ Yeah, this is the easy stuff.
+
+0:32:57	SPEAKER_02
+ Yeah.
+
+0:32:58	SPEAKER_02
+ Well, I was in my eyes and mice.
+
+0:33:01	SPEAKER_02
+ And that's enough for you.
+
+0:33:05	SPEAKER_02
+ I mean, that's just the way you want to hopefully that's the.
+
+0:33:08	SPEAKER_02
+ Lots of things that can do that.
+
+0:33:13	SPEAKER_03
+ So I was just, yeah, I was just checking that I know the language part was a selfie or this would be the.
+
+0:33:18	SPEAKER_03
+ Yeah, that's the new part.
+
+0:33:21	SPEAKER_02
+ That seems fine.
+
+0:33:23	SPEAKER_02
+ Do you know what the sets of codes are?
+
+0:33:26	SPEAKER_02
+ Well, they would have whatever, whatever you're getting out of the jazz analyzer.
+
+0:33:31	SPEAKER_03
+ So.
+
+0:33:32	SPEAKER_03
+ Yeah, whatever that is.
+
+0:33:34	SPEAKER_02
+ I mean, blinks as well, right?
+
+0:33:38	SPEAKER_03
+ Yes, I'm not sure we need to know exactly where they are, just how many there are.
+
+0:33:42	SPEAKER_03
+ Oh, so you don't want to part of the.
+
+0:33:44	SPEAKER_03
+ I don't know.
+
+0:33:47	SPEAKER_03
+ I suppose it could go.
+
+0:33:49	SPEAKER_02
+ I think you should.
+
+0:33:52	SPEAKER_02
+ Well, there's two views on this.
+
+0:33:54	SPEAKER_02
+ If you do, then the people formulating research questions will ask about them.
+
+0:33:58	SPEAKER_02
+ Right.
+
+0:33:59	SPEAKER_02
+ But if you don't, they'll probably ask about them anyway, and then you'll have to add them out to the fact.
+
+0:34:03	SPEAKER_02
+ Yeah, I'm just going to add them.
+
+0:34:05	SPEAKER_02
+ Yeah, I'm just going to add them out to the fact that they're not going to be able to.
+
+0:34:10	SPEAKER_02
+ So, you're just just just just chub them in.
+
+0:34:12	SPEAKER_02
+ You can stick them in a different track.
+
+0:34:15	SPEAKER_02
+ And then load them or not load them as you please.
+
+0:34:18	SPEAKER_02
+ Because it's not well, I don't know.
+
+0:34:20	SPEAKER_02
+ Is it is it part of.
+
+0:34:22	SPEAKER_03
+ So these are mutually exclusive and exhaustive sets of codes against time, right?
+
+0:34:27	SPEAKER_03
+ Isn't blink a part of this?
+
+0:34:29	SPEAKER_02
+ Yeah, but isn't that important because when they're blinking, basically, it's like a nil code.
+
+0:34:36	SPEAKER_02
+ You can't find out what they're doing otherwise.
+
+0:34:39	SPEAKER_02
+ So it may actually be important to have the blinks registered in there because you may discover you need to take them into account to smooth some kind of analysis that you do.
+
+0:34:47	SPEAKER_02
+ So it could be that if only they hadn't had a blink just then they would have been, I don't know what.
+
+0:34:53	SPEAKER_03
+ Yes, moving somewhere else or it's more likely to be blinking at the same time as the other person is doing something.
+
+0:35:05	SPEAKER_03
+ But you want to know that.
+
+0:35:07	SPEAKER_02
+ Not too much relies on missing stuff because people blink.
+
+0:35:13	SPEAKER_02
+ I was thinking more like, you know, the person looks at a part and they've got a fixation before and after and the blink in the middle.
+
+0:35:22	SPEAKER_02
+ And, you know, there may be times when you want to treat that as one thing.
+
+0:35:27	SPEAKER_03
+ Yes, normally we just add the blink time and duration to the previous fixation.
+
+0:35:36	SPEAKER_02
+ Oh, right.
+
+0:35:37	SPEAKER_02
+ Okay.
+
+0:35:38	SPEAKER_02
+ So, but in that case.
+
+0:35:40	SPEAKER_03
+ Because you're not absorbing any new information.
+
+0:35:42	SPEAKER_03
+ That's critical sort of deciding factories.
+
+0:35:46	SPEAKER_02
+ Right.
+
+0:35:47	SPEAKER_02
+ In that case, then these tiers are already like blink corrected.
+
+0:35:54	SPEAKER_02
+ Yes, then you wouldn't have blinks as part of this.
+
+0:35:57	SPEAKER_02
+ You'd want blinks as a separate tier if you're going to have it.
+
+0:35:59	SPEAKER_03
+ It would be as a separate tier where just the mark.
+
+0:36:03	SPEAKER_02
+ Yeah, yeah, so the key thing is here is mutually exclusive and exhaustive.
+
+0:36:09	SPEAKER_02
+ And the second key thing is it better be really clear to the people who are dealing with these codes.
+
+0:36:17	SPEAKER_02
+ Yeah, whether any monkey business has been done around the books to correct for that.
+
+0:36:24	SPEAKER_02
+ Because no, it wouldn't necessarily be obvious looking at that set of codes.
+
+0:36:29	SPEAKER_03
+ No, no, certainly not looking codes.
+
+0:36:32	SPEAKER_02
+ Yeah, I suppose if you know that I track is then you'll just know.
+
+0:36:37	SPEAKER_03
+ I know what to look for and what not to.
+
+0:36:39	SPEAKER_00
+ So that means you need the blink corrections part of the analysis then.
+
+0:36:43	SPEAKER_02
+ I think you're saying it comes out of the eye tracker already, right?
+
+0:36:46	SPEAKER_02
+ They're already blink corrected.
+
+0:36:47	SPEAKER_03
+ Well, they're already the identified as blinks.
+
+0:36:50	SPEAKER_03
+ Then it's a.
+
+0:36:53	SPEAKER_03
+ It is at what stage the software.
+
+0:36:57	SPEAKER_03
+ The I've used pools and the blinks.
+
+0:37:01	SPEAKER_03
+ So we'll add it on.
+
+0:37:03	SPEAKER_03
+ I'm not sure.
+
+0:37:04	SPEAKER_03
+ Right.
+
+0:37:05	SPEAKER_00
+ So that's the stuff that comes with the eye tracker.
+
+0:37:08	SPEAKER_03
+ The end of the software comes with the eye tracker.
+
+0:37:10	SPEAKER_03
+ Yeah, so certainly it's listed as a separate event in the stream.
+
+0:37:13	SPEAKER_03
+ Blinks are a tag from the EDF and that's everything.
+
+0:37:19	SPEAKER_03
+ It's registered as a.
+
+0:37:20	SPEAKER_03
+ Right.
+
+0:37:21	SPEAKER_00
+ Okay.
+
+0:37:22	SPEAKER_00
+ Well, if you want to bring some major interfixation in what we're making, making that out of part of the requirement for the GDF stuff.
+
+0:37:28	SPEAKER_00
+ So to remind me, just to add that analysis to it.
+
+0:37:32	SPEAKER_00
+ So it's not easy enough to be just checking the time.
+
+0:37:35	SPEAKER_03
+ Yeah.
+
+0:37:36	SPEAKER_03
+ I mean, it won't because of the fixation.
+
+0:37:38	SPEAKER_03
+ It'll be down to what we define as a gaze.
+
+0:37:40	SPEAKER_03
+ So basically the time from when somebody starts looking at an object until they leave it.
+
+0:37:46	SPEAKER_03
+ And so if it blinks a lot within that, they're still looking at that object.
+
+0:37:50	SPEAKER_03
+ So it's just the time in to the timeout.
+
+0:37:53	SPEAKER_02
+ Right.
+
+0:37:54	SPEAKER_02
+ Okay.
+
+0:37:55	SPEAKER_02
+ But what we need to know is like at what stage in the I track and software, whether that gets through so that Craig gets it automatically in what he's translating or to GDF, whether he needs to redo the same analysis because something about the data path cuts off that analysis for the I tracker.
+
+0:38:11	SPEAKER_02
+ Or whether we even like it, right?
+
+0:38:13	SPEAKER_02
+ I want to do it some different way.
+
+0:38:15	SPEAKER_00
+ Yeah.
+
+0:38:16	SPEAKER_00
+ Yeah.
+
+0:38:17	SPEAKER_00
+ I think the ASCII format as it stands does contain blink information.
+
+0:38:20	SPEAKER_00
+ Yes.
+
+0:38:21	SPEAKER_00
+ Because I'm sure that's appeared in the documentation I've read through.
+
+0:38:24	SPEAKER_00
+ Yeah.
+
+0:38:25	SPEAKER_02
+ But it could be these things are corrected for blinks in this way.
+
+0:38:29	SPEAKER_02
+ Plus there's blink information.
+
+0:38:31	SPEAKER_02
+ So possibly.
+
+0:38:33	SPEAKER_02
+ You know, it's a fixation around blinks and it also just happens to tell you where the blinks are.
+
+0:38:37	SPEAKER_02
+ Because as I'm saying, they like to use blink rate as measures of cognitive difficulty or something.
+
+0:38:42	SPEAKER_02
+ Right.
+
+0:38:43	SPEAKER_00
+ Okay.
+
+0:38:44	SPEAKER_00
+ Okay.
+
+0:38:45	SPEAKER_00
+ Yeah.
+
+0:38:46	SPEAKER_00
+ So my weather's a look at that and just just seeing what date is what is already in the essay format and whether you want me to do any correction as part of the analysis.
+
+0:38:54	SPEAKER_00
+ Because I've got to do an analysis for the fixations on parts and things anyway.
+
+0:38:58	SPEAKER_00
+ So yeah, I don't think check the blinks during that.
+
+0:39:01	SPEAKER_00
+ It's not going to be a, it shouldn't be a big problem.
+
+0:39:04	SPEAKER_03
+ It should just be a master of treating it.
+
+0:39:06	SPEAKER_03
+ I think on the blinks of the last fixation or something.
+
+0:39:09	SPEAKER_00
+ Yeah.
+
+0:39:10	SPEAKER_00
+ Yeah.
+
+0:39:11	SPEAKER_01
+ So.
+
+0:39:12	SPEAKER_02
+ It's enough still fixating on it when they come back out of the blink.
+
+0:39:17	SPEAKER_02
+ Then why is that the right thing we do analytically?
+
+0:39:22	SPEAKER_03
+ Well, the real reason is as long as they've been blinking even if they're in open eye somewhere else, that's when they start absorbing the information.
+
+0:39:31	SPEAKER_03
+ Oh, right.
+
+0:39:32	None
+ Yeah.
+
+0:39:32	SPEAKER_02
+ You said that.
+
+0:39:33	SPEAKER_03
+ It's basically like it's just a long saccade kind of a visual suppression when you move and it's the scene when you're blinking.
+
+0:39:42	SPEAKER_03
+ You're not taking anything in.
+
+0:39:44	SPEAKER_02
+ Well, but does the duration of fixations count for anything?
+
+0:39:47	SPEAKER_02
+ Because if you're just adding the blink to the fixation, you're not treating it as a saccade.
+
+0:39:51	SPEAKER_03
+ Yeah.
+
+0:39:52	SPEAKER_03
+ It's that yes, that's for this sort of geese time measure.
+
+0:39:56	SPEAKER_03
+ It's not actually the fixations are still independent.
+
+0:40:00	SPEAKER_03
+ So the fixation duration isn't doesn't include the blink in the ASCII output.
+
+0:40:06	SPEAKER_03
+ It's only when we start looking at sort of the total geese, the total amount of time spent looking at one particular object, which includes all these sort of multiple fixations and any blinks and that sort of thing.
+
+0:40:17	SPEAKER_03
+ Okay.
+
+0:40:18	SPEAKER_03
+ So it's a composite viewing time.
+
+0:40:22	SPEAKER_03
+ Right.
+
+0:40:23	SPEAKER_02
+ So more complicated than I thought.
+
+0:40:26	SPEAKER_02
+ Yeah.
+
+0:40:27	SPEAKER_02
+ I forgot about the multiple fixations on an object.
+
+0:40:29	SPEAKER_02
+ Yeah.
+
+0:40:30	SPEAKER_02
+ Okay.
+
+0:40:31	SPEAKER_00
+ So is there you're looking for a final thing which just says between this time and this time you're looking at this object between this time is time you're not looking at anything.
+
+0:40:38	SPEAKER_03
+ Yeah. Although we'll also still need to account of the fixations just so we can you've got a measure of the average fixation duration again just see if it's been longer just.
+
+0:40:50	SPEAKER_03
+ More stable move.
+
+0:40:51	SPEAKER_03
+ I fixation or not.
+
+0:40:53	SPEAKER_00
+ Yeah.
+
+0:40:54	None
+ Yeah.
+
+0:40:54	SPEAKER_00
+ I think at the moment the GDF format has fixations in it.
+
+0:40:57	SPEAKER_00
+ And so I guess that would be part of the GDF to NXT transformation be to fixation to gase and whatever else.
+
+0:41:05	SPEAKER_00
+ Okay.
+
+0:41:06	SPEAKER_02
+ I mean, this is kind of what we were talking about before this confusion about what's in the GDF.
+
+0:41:12	SPEAKER_02
+ I mean, you might see it as the initial GDF is just whatever straightforwardly translates without.
+
+0:41:18	SPEAKER_02
+ You know, without transforms with just the data format changing from the ASCII and then there's a bunch of other things that get added that you might still want to be in augmented GDF format.
+
+0:41:31	SPEAKER_02
+ Yeah, like this blink and the gaze and whatever else and then you translate to NXT.
+
+0:41:37	SPEAKER_02
+ You might still want to have everything in this one GDF file format that represents everything and the NXT thing is just a splitter.
+
+0:41:43	SPEAKER_02
+ It's not doing any fancy analysis.
+
+0:41:45	SPEAKER_02
+ Right.
+
+0:41:46	SPEAKER_02
+ So I see this is, you know, a bunch of little routines that take the GDF without this information in it and add new information into subsequent versions of the GDF file that contains these post process analysis.
+
+0:41:59	SPEAKER_03
+ Well, that's partly why I brought this up now is I'm not sure at what point down the data path things sort of happened, but that's what I want to do in the end.
+
+0:42:09	SPEAKER_03
+ Right.
+
+0:42:10	SPEAKER_00
+ Yeah.
+
+0:42:11	SPEAKER_00
+ So, so, so we actually be doing much of the GDF or that are you expecting the most analysis on the NXT stuff and so when you're when you're actually during your results.
+
+0:42:21	SPEAKER_03
+ Well, the NXT stuff will have the more complete picture because it will include combine all the linguistic stuff with all the movements and the actions.
+
+0:42:34	SPEAKER_03
+ Right.
+
+0:42:35	SPEAKER_03
+ But there'll be a supposed just some purely I movement stuff we could do.
+
+0:42:42	SPEAKER_03
+ Presumably.
+
+0:42:43	SPEAKER_03
+ Yeah.
+
+0:42:44	SPEAKER_00
+ Well, yeah, you're talking about earlier because you could do a quick and you do quick analysis on the GDF stuff without having to before you hit before you do the dialogue.
+
+0:42:51	SPEAKER_00
+ This type of stuff so you can get some some results anyway.
+
+0:42:53	SPEAKER_00
+ Yeah.
+
+0:42:54	SPEAKER_02
+ I mean, it doesn't matter which data format it's in NXT or GDF, but it makes more sense for the converter between GDF and NXT not to add any data.
+
+0:43:04	SPEAKER_02
+ All it does is do this this stupid data format conversion.
+
+0:43:08	SPEAKER_02
+ And it's just, you know, suffering it out into little steps. So, you know, there have to be these other scripts that add any data transforms that data format trans, but data transforms like this idea of putting together gazes from fixations.
+
+0:43:25	SPEAKER_02
+ So, you know, if we keep it simple like that so that it's in little pieces, then it'll be just easier to understand what the whole thing does.
+
+0:43:35	SPEAKER_02
+ Right.
+
+0:43:36	SPEAKER_02
+ Because, you know, assembly you discover there's a problem with the GDF to NXT transform. You want to know whether it's one of these little post processes going wrong or whether it's just the thing that dumps it into the multiple files for the.
+
+0:43:47	SPEAKER_02
+ And GDF to NXT transform is pretty simple. So.
+
+0:43:51	SPEAKER_02
+ Right.
+
+0:43:52	SPEAKER_03
+ And that's also why I sent you the subrooking software.
+
+0:43:57	SPEAKER_03
+ That's a stuff that takes the ASCII format originally and then just.
+
+0:44:03	SPEAKER_03
+ Yeah, the German stuff.
+
+0:44:06	SPEAKER_03
+ Because that little utility does things like.
+
+0:44:10	SPEAKER_03
+ Well, you can tell it to put to do with links, but they're just a lump.
+
+0:44:14	SPEAKER_03
+ Oh, yeah.
+
+0:44:15	SPEAKER_03
+ Or not put the minimum fixation duration per stable fixation would be.
+
+0:44:20	SPEAKER_03
+ So you have if it picks up fixations less than say 50 milliseconds, you can tell it just to again lump them all together.
+
+0:44:27	SPEAKER_03
+ That's not reliable enough fixation.
+
+0:44:31	SPEAKER_03
+ You can put in these sort of things. So that's a.
+
+0:44:35	SPEAKER_03
+ That's a bit of software saint and that includes the subrooking things as well.
+
+0:44:39	SPEAKER_00
+ So I'll take a relatively well without source code and I'm not restrictions on that.
+
+0:44:44	SPEAKER_02
+ So that's like all the analysis that you need to do to things and you're just going to copy what they do or.
+
+0:44:50	SPEAKER_02
+ Is it documented like why they did it the way they did it or is it just.
+
+0:44:54	SPEAKER_03
+ No, there's very little documentation is like.
+
+0:45:00	SPEAKER_03
+ What's good starting point, right?
+
+0:45:02	SPEAKER_02
+ So it'd be interesting to see if you agree with the decisions they made about how to do things.
+
+0:45:08	SPEAKER_00
+ Yeah, I suppose I can easily look through it and start writing some documentation on it and then.
+
+0:45:11	SPEAKER_00
+ I'll get that goes to a slight point for us to talk about today for what analysis we need to do on it and.
+
+0:45:17	SPEAKER_00
+ Yeah, easy. Yeah, great.
+
+0:45:19	SPEAKER_00
+ All the switches and whatever else you need to do.
+
+0:45:23	SPEAKER_03
+ Good.
+
+0:45:26	SPEAKER_00
+ Yeah, so one to one. Yeah, well, once I've had a bit more look at the studio stuff and start looking through that.
+
+0:45:33	SPEAKER_00
+ Make sure that works.
+
+0:45:35	SPEAKER_03
+ It also just filters that there are a lot of.
+
+0:45:38	SPEAKER_03
+ And stranger big tags that the island produces.
+
+0:45:43	SPEAKER_03
+ I'm fairly meaningless.
+
+0:45:45	SPEAKER_03
+ And it strips a lot of the junk.
+
+0:45:49	SPEAKER_00
+ Yeah, yeah, no, no, no, the jazz analyzing those quite a few things as well.
+
+0:45:54	SPEAKER_02
+ Yeah, well, we don't want to build it into our data path.
+
+0:45:57	SPEAKER_02
+ We just want to learn from it, I think, right?
+
+0:45:59	SPEAKER_02
+ Correct?
+
+0:46:00	SPEAKER_02
+ Thank you.
+
+0:46:01	SPEAKER_03
+ Possibly.
+
+0:46:02	SPEAKER_00
+ What is the use of the use for generating the studio stuff?
+
+0:46:06	SPEAKER_00
+ I can easily incorporate whatever functions it takes from into just an analyzer when I'm doing the GDF.
+
+0:46:11	SPEAKER_02
+ Yeah, I'm just thinking, you know, lucky.
+
+0:46:14	SPEAKER_02
+ So this takes the asking to simplify the ASCII and simplify it in with transforms in it ASCII.
+
+0:46:21	SPEAKER_02
+ And it's just, it seems to me harder to maintain something that's got that in it.
+
+0:46:26	SPEAKER_02
+ It'd be better to break things up into like steps.
+
+0:46:30	SPEAKER_02
+ You know, as part of the, and also, well, why do I think this?
+
+0:46:36	SPEAKER_02
+ I don't know, because if somebody else is programming, they're going to give us the next version, and that's going to break our entire pipeline.
+
+0:46:41	SPEAKER_02
+ Yeah, see what you mean.
+
+0:46:42	SPEAKER_02
+ That's the main reason.
+
+0:46:44	SPEAKER_00
+ Yeah, yeah, but what, yeah, what's that?
+
+0:46:46	SPEAKER_00
+ What, what, what are the plans you do with it then?
+
+0:46:49	SPEAKER_00
+ It's take the, it's take the software, find out what functions are useful for us in that, and then use those functions to generate the stuff that goes into the XML file.
+
+0:46:57	SPEAKER_02
+ Yeah, I can imagine that also requiring some discussion about whether what they do is what we actually want to do.
+
+0:47:03	SPEAKER_02
+ That should be interesting.
+
+0:47:04	SPEAKER_00
+ Yeah, yeah.
+
+0:47:05	SPEAKER_00
+ But the first part of that will be documenting what they've got and then discussing it with Robin.
+
+0:47:09	SPEAKER_00
+ So.
+
+0:47:10	SPEAKER_00
+ Well, that's basically quite specific.
+
+0:47:12	SPEAKER_03
+ It's not going to be quite grab-a-pull because it is, it's written in Java.
+
+0:47:16	SPEAKER_03
+ Right.
+
+0:47:17	SPEAKER_00
+ But yeah, well, I'll throw it on my, I'm sure I'm sure most logic's going to be.
+
+0:47:22	SPEAKER_00
+ Yeah, well, yeah, sure.
+
+0:47:23	SPEAKER_00
+ Yeah, sure.
+
+0:47:24	SPEAKER_00
+ And.
+
+0:47:25	SPEAKER_02
+ And if in doubt, don't filter stuff out, keep it in, right?
+
+0:47:28	SPEAKER_02
+ Because we always dump it to this other NXT track that we don't need to load necessarily.
+
+0:47:33	SPEAKER_02
+ So.
+
+0:47:34	SPEAKER_02
+ Right.
+
+0:47:35	SPEAKER_02
+ Yeah, better.
+
+0:47:36	SPEAKER_02
+ You just keep stuff on us.
+
+0:47:38	SPEAKER_03
+ Yeah.
+
+0:47:39	SPEAKER_03
+ It's always better than making too much compression to start with and then being able to go back.
+
+0:47:45	SPEAKER_03
+ Yeah, so.
+
+0:47:47	SPEAKER_00
+ So, as soon as XML, NXT will handle it, will it?
+
+0:47:50	SPEAKER_02
+ Oh, yeah.
+
+0:47:51	SPEAKER_02
+ And it's easy enough to dump stuff into a separate track.
+
+0:47:53	SPEAKER_02
+ Yep.
+
+0:47:54	SPEAKER_02
+ We got to teach you about this at some point though.
+
+0:47:56	SPEAKER_02
+ So.
+
+0:47:57	SPEAKER_02
+ It's still not quite your one.
+
+0:47:58	SPEAKER_02
+ It sounds like maybe in another week.
+
+0:48:01	SPEAKER_02
+ Okay.
+
+0:48:02	SPEAKER_02
+ Okay.
+
+0:48:03	SPEAKER_02
+ Jonathan made me promise not to tell you about it when you first arrived.
+
+0:48:06	SPEAKER_02
+ I'm trying to get overload about learning.
+
+0:48:08	SPEAKER_02
+ But are you leaving very quickly?
+
+0:48:10	SPEAKER_02
+ It's just too many things at once and it wasn't important that it be then.
+
+0:48:14	SPEAKER_00
+ Yeah.
+
+0:48:15	SPEAKER_00
+ Well, I've got to hang you all the stuff I've been going through and it looks like it looks like I can come to the end of the stuff that's listed there already.
+
+0:48:22	SPEAKER_00
+ So I'm going to start looking at that as the next stage.
+
+0:48:24	SPEAKER_02
+ He's a cool customer.
+
+0:48:25	SPEAKER_02
+ He's ready for it.
+
+0:48:28	SPEAKER_02
+ Okay.
+
+0:48:29	SPEAKER_02
+ I think we're done, right?
+
+0:48:31	SPEAKER_03
+ Yep.
+
+0:48:32	SPEAKER_03
+ Yeah.
+
+0:48:33	SPEAKER_03
+ Yeah.
+
+0:48:34	SPEAKER_03
+ My peaches blank still.
+
+0:48:42	SPEAKER_03
+ Sorry.
+
+0:48:44	SPEAKER_02
+ Oh, yeah.
+
+0:48:45	SPEAKER_02
+ I don't know.
+
+0:48:46	SPEAKER_02
+ I didn't really need to.
+
+0:48:47	SPEAKER_02
+ This just says look at the wiki.
+
+0:48:50	SPEAKER_02
+ Find out what's next.
+
+0:48:51	SPEAKER_02
+ You could give Craig more work to do.
+
+0:48:53	SPEAKER_02
+ This one's fine.
+
+0:48:55	SPEAKER_00
+ I'm going to be telling you maybe having to check out these batteries and things like that.
+
+0:48:59	SPEAKER_00
+ Oh, yeah.
+
+0:49:00	SPEAKER_00
+ We'll take forever.
+
+0:49:01	SPEAKER_00
+ Well, we'll do with the trains as bad as today.
+
+0:49:06	SPEAKER_00
+ So
+
+0:49:13	None
+ leaves up. Oh, yeah.
+
+0:49:25	None
+ Oh, yeah.
+
+0:49:28	None
+ Oh, yeah.
+
+0:49:38	None
+ Oh, yeah.
+
+0:49:41	None
+ I would try 10 years ago.
+
+0:49:47	None
+ Right.
+
+0:49:50	None
+ Okay.
+
+0:50:00	None
+ Okay.
+
+0:50:29	None
+ Okay.
+
+0:51:00	None
+ Okay.
+
+0:51:05	None
+ Okay.
+
+0:51:08	None
+ Okay.
+
+0:51:12	None
+ Okay.
+
+0:51:19	None
+ Okay.
+
+0:51:22	None
+ Okay.
+

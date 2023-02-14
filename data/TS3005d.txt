@@ -1,125 +1,128 @@
-0:00:00	SPEAKER_05
+0:00:00	SPEAKER_00
+ Good.
+
+0:00:02	SPEAKER_00
+ Me.
+
+0:00:04	None
+ Me.
+
+0:00:06	SPEAKER_00
+ Me.
+
+0:00:08	None
+ Oh.
+
+0:00:09	SPEAKER_05
  So, well, welcome everyone.
 
 0:00:12	SPEAKER_05
- As you may have noticed, I created separate folders because it was a little bit busy in our shared project documents folder.
+ As you may have noticed, I created separate folders because it was, they've had a little busy in our shared project documents folder.
 
 0:00:24	SPEAKER_05
- I don't know if everybody put their own documents in the right folder, which is for now the detailed design meeting.
+ I don't know if everybody put their own documents in the right folder, which is from our detailed design meeting.
 
 0:00:31	SPEAKER_05
- That's newer.
+ That's new one.
 
-0:00:32	SPEAKER_02
- We didn't make any.
+0:00:32	SPEAKER_05
+ We didn't make any yet.
 
 0:00:34	SPEAKER_02
  We should say that one.
 
 0:00:36	SPEAKER_01
- Didn't we just do that?
+ Oh, we move.
+
+0:00:37	SPEAKER_01
+ We just do that.
 
 0:00:39	SPEAKER_02
  Yeah, safe in the folder.
 
-0:00:41	SPEAKER_02
- Safe as...
-
-0:00:42	SPEAKER_05
- Oh, no, that's just one big document so you can leave that whatever it is.
-
-0:00:45	SPEAKER_05
- Oh.
+0:00:41	SPEAKER_05
+ Oh, no, this is just one big document, so you can leave that whatever it is.
 
 0:00:46	SPEAKER_05
- And we have a...
+ Oh.
 
-0:00:49	SPEAKER_05
- Okay, I'll turn it off.
+0:00:48	SPEAKER_05
+ And we have an evaluation.
+
+0:00:51	SPEAKER_05
+ Okay.
+
+0:00:55	SPEAKER_02
+ Agenda.
 
 0:00:56	SPEAKER_05
  Well, not many documents this time.
 
-0:00:58	SPEAKER_05
+0:00:59	SPEAKER_05
  Oh, yes.
 
-0:00:59	SPEAKER_05
+0:01:00	SPEAKER_05
  I have it open myself, I guess.
 
-0:01:03	SPEAKER_05
- Well, the detailed design meeting.
+0:01:04	SPEAKER_05
+ Well, the detailed design meeting, we're finally getting somewhere, hopefully.
 
-0:01:06	SPEAKER_05
- We're finally getting somewhere.
-
-0:01:09	SPEAKER_05
+0:01:10	SPEAKER_05
  What are we going to do?
 
-0:01:11	SPEAKER_05
+0:01:12	SPEAKER_05
  I've opened it already.
 
-0:01:13	SPEAKER_05
+0:01:14	SPEAKER_05
  I'm still going to take some minutes.
 
-0:01:16	SPEAKER_05
- And if I'm right, you two are going to give a product representation.
-
-0:01:20	SPEAKER_05
- Where are we going?
+0:01:17	SPEAKER_05
+ And if I'm right, you two are going to give a prototype presentation.
 
 0:01:21	SPEAKER_05
- Aren't you?
+ No, we could, aren't you?
 
-0:01:22	SPEAKER_05
+0:01:23	SPEAKER_05
  And did you do something with evaluation criteria?
 
-0:01:26	SPEAKER_05
- Yeah.
-
 0:01:27	SPEAKER_05
- Good.
+ Yeah.
 
 0:01:28	SPEAKER_05
+ Good.
+
+0:01:29	SPEAKER_05
  We have a correct agenda.
 
-0:01:30	SPEAKER_05
+0:01:31	SPEAKER_05
  And then we have to look at something which is less nice, the finance aspect, where we can afford what we have designed.
 
-0:01:38	SPEAKER_05
- And if we can, we can...
-
-0:01:41	SPEAKER_05
- The final part, which is the production or project evaluation, how did we work together and what are the results and how happy are we with those?
+0:01:39	SPEAKER_05
+ And if we can, we can commence the final part, which is the production or project evaluation, how did we work together and what are the results and how happy are we with those.
 
 0:01:50	SPEAKER_05
- Okay, well, finance will be later.
-
-0:01:52	SPEAKER_05
- Now I have to give you a word too.
-
-0:01:54	SPEAKER_05
- You too.
-
-0:01:55	SPEAKER_00
- Yeah.
-
-0:01:56	SPEAKER_02
  Okay.
 
-0:01:59	SPEAKER_02
- Get up, Stato.
+0:01:51	SPEAKER_05
+ Well, finance, uh, later.
 
-0:02:01	SPEAKER_02
- Hey, Ruz.
+0:01:53	SPEAKER_05
+ Now I have to give a word to you too.
 
-0:02:02	SPEAKER_01
+0:01:56	SPEAKER_00
+ Okay.
+
+0:01:58	SPEAKER_02
+ Get up, start up.
+
+0:02:02	SPEAKER_02
+ Hey, it is.
+
+0:02:03	SPEAKER_01
  We made a prototype.
 
-0:02:04	SPEAKER_01
- We first start with the overall...
-
-0:02:07	SPEAKER_01
- This is about the total remote control.
+0:02:05	SPEAKER_01
+ We first start with the overall, uh, this is about the total remote control.
 
 0:02:11	SPEAKER_01
  We made it green.
@@ -127,302 +130,266 @@
 0:02:13	SPEAKER_02
  Just an example color.
 
-0:02:14	SPEAKER_02
- So there's one of the colors we would like to see in our product.
+0:02:15	SPEAKER_02
+ So, uh, there's one of the colors we would like to see in our prototype.
 
 0:02:18	SPEAKER_01
  And the screen light blue.
 
 0:02:21	SPEAKER_01
- So this is the scroll button and the microphone on the side here under.
+ So, uh, this is the scroll button and the microphone on the, on the side here on there.
 
-0:02:26	SPEAKER_01
- And the R&R logo just says R&R now.
+0:02:27	SPEAKER_01
+ And the R and R logo just says R and R now.
 
-0:02:30	SPEAKER_02
+0:02:32	SPEAKER_02
  Okay.
 
-0:02:32	SPEAKER_01
+0:02:33	SPEAKER_01
  Any questions so far?
 
-0:02:34	SPEAKER_02
- I think the microphone...
+0:02:35	SPEAKER_02
+ Big microphone.
 
-0:02:37	SPEAKER_02
- Yeah, just an idea about how to...
-
-0:02:40	SPEAKER_00
- That's possible.
+0:02:36	SPEAKER_02
+ Big, yeah, just, uh, just an idea about how the, the, the, the, the later's going to be.
 
 0:02:41	SPEAKER_02
- That's possible.
-
-0:02:42	SPEAKER_02
- That's possible.
-
-0:02:43	SPEAKER_02
- Well, it's an idea.
+ Uh, well, it's an idea in that.
 
 0:02:44	SPEAKER_01
- Perhaps you should make it a bit big so people know it there.
+ Oh, you, perhaps you should make it a bit big so people know it's there and uh.
 
 0:02:48	SPEAKER_00
  Do not forget it.
 
-0:02:50	SPEAKER_02
- The function, it doesn't really have to be small.
-
-0:02:53	SPEAKER_02
- Big, of course.
+0:02:51	SPEAKER_02
+ To function it, it doesn't really have to be small, uh, big of course.
 
 0:02:54	SPEAKER_02
  Yeah, okay.
 
 0:02:55	SPEAKER_02
- The microphone could be just a minor hole on the left button.
+ The microphone could be just the minor, uh, whole, uh, on the left, uh, button.
 
 0:03:00	SPEAKER_02
  Okay.
 
-0:03:02	SPEAKER_02
- We also made some ideas about how the options menu would work.
+0:03:01	SPEAKER_02
+ Um, we also made some, uh, ideas about how, uh, the options menu would work.
 
 0:03:07	SPEAKER_02
- Using the scroll button on the sides.
+ Uh, using the scroll button on the sides.
 
-0:03:12	SPEAKER_02
- Good up.
-
-0:03:14	SPEAKER_01
- You push the scroll button.
+0:03:11	SPEAKER_02
+ Uh, uh, uh, good.
 
 0:03:15	SPEAKER_01
- Yeah, you push the scroll button.
+ You push the scroll button.
 
 0:03:16	SPEAKER_01
- And it's claps out.
+ Yeah, you push the scroll button.
 
 0:03:17	SPEAKER_01
- If you press down.
+ And it's claps out.
 
 0:03:18	SPEAKER_02
- And it drops down menu or a full out menu comes out.
+ It's a drop down menu or a full out menu comes out and, uh, you get, uh, get the options, uh, becoming available.
 
-0:03:21	SPEAKER_02
- And you get the options becoming available.
-
-0:03:24	SPEAKER_02
- For example, TV settings.
-
-0:03:27	SPEAKER_02
- Remote settings.
-
-0:03:28	SPEAKER_02
- Remote settings, etc.
+0:03:25	SPEAKER_02
+ For example, uh, TV settings, uh, remote settings, et cetera.
 
 0:03:30	SPEAKER_02
- So you can scroll down to with the scroll button.
+ So, uh, you can scroll down to the scroll button.
 
 0:03:33	SPEAKER_02
- As you can see, it's here.
+ Uh, as you can see, uh, it's here.
 
-0:03:35	SPEAKER_02
+0:03:36	SPEAKER_02
  Just push it in.
 
 0:03:37	SPEAKER_02
- The menu comes out like this.
+ Uh, the menu comes out like this.
 
 0:03:40	SPEAKER_02
- And it all becomes visible.
+ And, uh, it all becomes visible.
 
 0:03:43	SPEAKER_01
- You could also touch it so that it comes out.
-
-0:03:46	SPEAKER_01
- And use the scroll being as a...
-
-0:03:49	SPEAKER_01
- What you think is...
-
-0:03:50	SPEAKER_01
- Indeed.
+ Um, you could also touch it so that it comes out and use the, the, the scroll thing as, uh, what you fingers.
 
 0:03:51	SPEAKER_01
+ Indeed.
+
+0:03:52	SPEAKER_01
  Yes.
 
-0:03:52	SPEAKER_02
+0:03:53	SPEAKER_02
  Okay.
 
-0:03:53	SPEAKER_02
- It's also nice to see that we made a small menu.
+0:03:54	SPEAKER_02
+ Um, it's also, uh, nice to see that, um, we made a small, uh, menu.
 
 0:03:58	SPEAKER_02
- The options menu becoming available when pressing the scroll button.
+ Uh, the options menu becoming available when pressing the scroll button.
 
 0:04:03	SPEAKER_02
- Any opportunity to use the tail text, which is used, which is still be used.
+ Any opportunity to use the data text, which is used, uh, which is still be used.
 
 0:04:08	SPEAKER_02
- And we think that it's very handy to put it not under the options menu, but in a separate button.
-
-0:04:19	SPEAKER_02
- In a separate button, yeah.
+ And we think that it's, uh, very handy to put it, uh, not, uh, under the options menu, but in, uh, you know, in and apart, uh, in a separate button.
 
 0:04:21	SPEAKER_01
- That's what you should use the teletext sign.
+ In a separate button, yeah.
+
+0:04:22	SPEAKER_01
+ That we should use the data text sign.
 
 0:04:24	SPEAKER_02
- Sign in.
+ A sign in.
 
 0:04:25	SPEAKER_02
- Okay.
+ Just like, okay.
 
 0:04:26	SPEAKER_02
- You can modify that layer.
+ Indeed.
+
+0:04:27	None
+ Okay.
+
+0:04:27	SPEAKER_02
+ We can, uh, modify that layer.
 
 0:04:29	SPEAKER_02
  Okay.
 
 0:04:30	SPEAKER_02
- Should I make any comments about it next time?
+ Should I like to make any comments about next time?
 
 0:04:32	SPEAKER_01
- Well, this is the total interface of the LCD screen.
+ Uh, well, this is the total interface, uh, of the LCD screen.
 
 0:04:36	SPEAKER_01
- The numbers, which is pretty straightforward.
-
-0:04:39	SPEAKER_01
- We put an extra button in.
-
-0:04:41	SPEAKER_01
- We can erase it.
-
-0:04:42	SPEAKER_01
- But it's the button where you can switch channels.
+ Uh, the numbers, which is pretty, we put an, an extra button in, we can erase it, but it's the button where you can switch channels.
 
 0:04:45	SPEAKER_01
- I mean, just when you are on one and you go to two, you go to five.
-
-0:04:50	SPEAKER_01
- You can go back to one with that button.
+ I mean, just when you are on one and you go to two, you can, you go to five, you can go back to one with that button.
 
 0:04:52	SPEAKER_01
- You can just press it.
+ Yeah.
 
 0:04:53	SPEAKER_01
- It has an error.
+ That one.
+
+0:04:54	SPEAKER_01
+ It has an area.
 
 0:04:55	SPEAKER_01
- We put that in.
+ And, uh, we put that in.
 
-0:04:57	SPEAKER_01
+0:04:58	SPEAKER_01
  Thought it would be handy here.
 
-0:04:59	SPEAKER_01
- This is the one number, two numbers, better.
+0:05:00	SPEAKER_01
+ Uh, this, uh, one number, two numbers, but, uh, below that, the page and the sound and, uh, in the middle, uh, the mute.
 
-0:05:03	SPEAKER_01
- Below that, the page and the sound.
-
-0:05:05	SPEAKER_01
- And in the middle, the mute.
-
-0:05:09	SPEAKER_01
- Battery indicator.
+0:05:10	SPEAKER_01
+ Uh, battery indicator.
 
 0:05:12	SPEAKER_01
  It's quite large.
 
-0:05:14	SPEAKER_01
- And this is the on-off button.
+0:05:15	SPEAKER_01
+ And this is the, uh, the on off off, uh, standby, uh, or at least it should look like it.
 
-0:05:17	SPEAKER_01
- Stand by.
+0:05:23	SPEAKER_01
+ And the options, uh, tail text.
 
-0:05:19	SPEAKER_01
- Or at least it should look like it.
-
-0:05:22	SPEAKER_01
- And the options, the tail text.
-
-0:05:24	SPEAKER_02
- You can see clearly now that the tail text and options menu isn't taking much part of the screen.
+0:05:25	SPEAKER_02
+ You can see very clearly now that the, uh, tail text options menu isn't, uh, taking much, uh, uh, taking much part of the screen.
 
 0:05:34	SPEAKER_02
- So it's very...
+ So it's very, uh, when you, uh, when you use it, it doesn't, uh, become irritating to see.
 
-0:05:36	SPEAKER_02
- When you usually doesn't become irritating to see.
-
-0:05:39	SPEAKER_02
+0:05:40	SPEAKER_02
  Because if you put it on the top, you always get to see the options menu.
 
-0:05:44	SPEAKER_02
- Because people regularly read from left to right.
+0:05:45	SPEAKER_02
+ Because people regularly, uh, read from left to right bound.
 
-0:05:48	SPEAKER_02
- That's it.
+0:05:49	SPEAKER_02
+ So.
 
 0:05:50	SPEAKER_01
  Yeah.
 
 0:05:51	SPEAKER_01
- Well, that's about it.
-
-0:05:53	SPEAKER_02
- Okay.
+ Well, it's about it, I think.
 
 0:05:54	SPEAKER_02
- Yeah.
-
-0:05:55	None
- Thank you.
-
-0:05:56	SPEAKER_01
- I will put that on the...
-
-0:05:58	SPEAKER_01
- Nice, man.
-
-0:06:01	SPEAKER_05
- When I was typing the RR stands for...
-
-0:06:04	SPEAKER_01
- That's the logo of the...
-
-0:06:06	SPEAKER_01
- It's the...
-
-0:06:07	SPEAKER_01
  Okay.
 
+0:05:55	SPEAKER_02
+ Yeah.
+
+0:05:56	None
+ Thank you.
+
+0:05:57	SPEAKER_01
+ I will put deck on the.
+
+0:05:59	SPEAKER_01
+ And I did miss when I was talking the RR stands for.
+
+0:06:05	SPEAKER_01
+ This is a logo of the.
+
+0:06:06	SPEAKER_01
+ Okay.
+
+0:06:07	SPEAKER_01
+ It's the.
+
 0:06:08	SPEAKER_01
- Right now it's only RR, isn't it?
+ Okay.
+
+0:06:09	SPEAKER_01
+ My nose only RR.
 
 0:06:10	SPEAKER_02
  Full screen.
 
 0:06:12	SPEAKER_05
- I would have recognized it if we were to write collars.
+ I would have recognized it if you would have right color.
 
 0:06:15	SPEAKER_00
  Sorry.
 
-0:06:17	SPEAKER_03
+0:06:17	SPEAKER_00
  Okay.
 
-0:06:20	SPEAKER_04
- If you were to write it in the criteria, evaluation.
+0:06:18	SPEAKER_03
+ Full screen.
 
-0:06:24	SPEAKER_04
+0:06:20	SPEAKER_03
  Okay.
 
 0:06:25	SPEAKER_04
- My task was this time to put up a questionnaire by which we can evaluate the design of the remote control by the questions we could...
+ Okay.
 
-0:06:38	SPEAKER_04
- Requirements from the...of the users.
+0:06:26	SPEAKER_04
+ My task was this time.
+
+0:06:28	SPEAKER_04
+ To put up a questionnaire.
+
+0:06:31	SPEAKER_04
+ By which we can evaluate the design.
+
+0:06:34	SPEAKER_04
+ Of the remote control.
+
+0:06:37	SPEAKER_04
+ By the questions we come out requirements from the of the users.
 
 0:06:41	SPEAKER_04
  My name, my job.
@@ -431,54 +398,51 @@
  Okay.
 
 0:06:44	SPEAKER_04
- My name.
+ I'm not sure if you have any methods questionnaire with seven point skill from one to seven from true to false.
 
-0:06:45	SPEAKER_04
- Method.
+0:06:52	SPEAKER_04
+ Like question.
 
-0:06:46	SPEAKER_04
- Questionnaire with 7 points skill from 1 to 7 from 2 false.
+0:06:53	SPEAKER_04
+ Is remote big enough?
 
-0:06:51	SPEAKER_04
- Like a question, is it not big enough?
+0:06:55	SPEAKER_04
+ We can say it's true or false.
 
-0:06:54	SPEAKER_04
- We can say it's true or false by steps.
+0:06:58	SPEAKER_04
+ By steps.
 
 0:06:59	SPEAKER_04
  One means absolutely not true.
 
-0:07:01	SPEAKER_04
+0:07:02	SPEAKER_04
  Seven means true.
 
-0:07:05	SPEAKER_04
- The three important things of...
+0:07:04	SPEAKER_04
+ The three important things of.
 
 0:07:08	SPEAKER_04
- You used the PowerPoint.
+ You used to point.
 
 0:07:11	SPEAKER_04
- The format of this year is...
+ The point of this year is.
 
-0:07:13	SPEAKER_04
- Is the remote control fancy enough?
+0:07:14	SPEAKER_04
+ Are is the remote control fancy enough?
 
-0:07:16	SPEAKER_04
- Is it innovative enough?
+0:07:17	SPEAKER_04
+ Is it in a fade if enough?
 
-0:07:18	SPEAKER_04
+0:07:19	SPEAKER_04
  And is it easy enough to use?
 
-0:07:22	SPEAKER_04
- And then the evaluation itself?
+0:07:23	SPEAKER_04
+ And then the evaluation itself.
 
-0:07:30	SPEAKER_02
- What?
+0:07:31	SPEAKER_02
+ Right.
 
 0:07:32	SPEAKER_04
- So...
-
-0:07:33	SPEAKER_04
  Okay.
 
 0:07:34	SPEAKER_04
@@ -487,62 +451,77 @@
 0:07:36	SPEAKER_04
  Is the design fancy enough?
 
-0:07:39	SPEAKER_04
- Project venture.
-
 0:07:40	SPEAKER_04
+ Project measure.
+
+0:07:41	SPEAKER_04
  What do you think?
 
-0:07:41	SPEAKER_05
+0:07:42	SPEAKER_05
  Well, it looks fancy.
 
-0:07:43	SPEAKER_04
- Actually, with the green color.
+0:07:44	SPEAKER_05
+ Actually with green color.
 
-0:07:45	SPEAKER_05
+0:07:46	SPEAKER_05
+ But does it.
+
+0:07:47	SPEAKER_05
  And the curves which we decided.
 
-0:07:48	SPEAKER_00
+0:07:51	SPEAKER_05
  Yeah.
 
-0:07:50	SPEAKER_05
- Only what happened to the single curve?
+0:07:52	SPEAKER_05
+ Only what happened to the single curve.
 
-0:07:53	SPEAKER_02
- No, the single curve idea was...
+0:07:54	SPEAKER_05
+ We should look.
 
-0:07:57	SPEAKER_02
- Yeah.
+0:07:55	SPEAKER_02
+ No, the single curve idea was.
 
 0:07:58	SPEAKER_02
- Okay.
+ Yeah.
 
 0:07:59	SPEAKER_02
- You should make the sideways.
+ Okay.
 
-0:08:01	SPEAKER_02
- The sideways view.
+0:08:00	SPEAKER_02
+ You should make a side where you said.
 
-0:08:03	SPEAKER_01
+0:08:02	SPEAKER_02
+ A side way few.
+
+0:08:03	SPEAKER_02
  I guess.
 
-0:08:05	SPEAKER_02
- Oh, not that bend.
+0:08:04	SPEAKER_01
+ Oh, not that bad.
+
+0:08:06	SPEAKER_01
+ Not that bad.
 
 0:08:07	SPEAKER_00
- Not that bend.
+ Okay.
 
-0:08:09	SPEAKER_05
+0:08:10	SPEAKER_05
  Smart word.
 
-0:08:12	SPEAKER_01
+0:08:13	SPEAKER_01
  Can I draw here?
 
-0:08:15	SPEAKER_02
- Sposal.
+0:08:15	SPEAKER_01
+ Supposing.
+
+0:08:17	None
+ Oh.
 
 0:08:18	SPEAKER_01
- Oh, yeah.
+ Yeah.
+
+0:08:19	SPEAKER_01
+ It's going to work.
 
 0:08:20	SPEAKER_01
  Something like this from the side.
@@ -550,878 +529,917 @@
 0:08:23	SPEAKER_01
  But with a bit of a curve here, right?
 
-0:08:26	SPEAKER_02
- Yeah, that's a single curve indeed.
+0:08:26	SPEAKER_01
+ Yeah.
+
+0:08:27	SPEAKER_02
+ That's a single curve.
 
 0:08:28	SPEAKER_01
+ Yeah.
+
+0:08:29	SPEAKER_01
  So if you flip it like this.
 
-0:08:31	SPEAKER_02
- Here, it's not very...
+0:08:31	SPEAKER_01
+ Okay.
+
+0:08:32	SPEAKER_01
+ There's no theory.
 
 0:08:33	SPEAKER_02
  It's also very handy if you make a side curve.
 
 0:08:36	SPEAKER_02
- Way to make the remote control very thin at the bottom.
+ Way to make the road control very thin at the bottom.
 
 0:08:40	SPEAKER_02
  At the bottom.
 
 0:08:41	SPEAKER_02
- And make it rather thick on the top, because on the top it has the screen, which takes in some space.
+ At the bottom.
+
+0:08:42	SPEAKER_02
+ I make it rather thick on the top because on the top it has the screen which takes in some space.
 
 0:08:49	SPEAKER_02
  And the batteries can be located over there.
 
-0:08:51	SPEAKER_01
- So...
-
-0:08:52	SPEAKER_01
- Let's make the back of this part a bit bigger.
-
-0:08:54	SPEAKER_01
- So that the place...
-
-0:08:55	SPEAKER_04
- Yeah, it's going to be a little bit heavy at the top.
-
-0:08:57	SPEAKER_02
- Let's hope now.
-
-0:08:59	SPEAKER_01
- That's a bit of fall on the roof.
-
-0:09:01	SPEAKER_04
- With two batteries, the whole grid plate at the top.
-
-0:09:04	SPEAKER_04
- And if you were holding it...
-
-0:09:06	SPEAKER_01
- I think the batteries should be in here.
-
-0:09:08	SPEAKER_01
- Because it's just nothing.
-
-0:09:10	SPEAKER_02
- Okay, energy.
-
-0:09:11	SPEAKER_05
+0:08:51	SPEAKER_02
  Yeah.
 
+0:08:52	SPEAKER_01
+ So.
+
+0:08:53	SPEAKER_01
+ Can I just make the back of this part a bit bigger so that it plays a good job?
+
+0:08:55	SPEAKER_01
+ Yeah.
+
+0:08:56	SPEAKER_04
+ It's going to be a little bit heavy at the top.
+
+0:08:58	SPEAKER_02
+ Let's have now.
+
+0:08:59	SPEAKER_02
+ Yeah.
+
+0:09:00	SPEAKER_01
+ That's a good problem.
+
+0:09:01	SPEAKER_04
+ With two batteries.
+
+0:09:02	SPEAKER_04
+ The whole print plate at the top.
+
+0:09:05	SPEAKER_04
+ And if you were holding it.
+
+0:09:06	SPEAKER_04
+ I think the battery should be in here because it's just nothing.
+
+0:09:10	SPEAKER_01
+ Yeah.
+
+0:09:11	SPEAKER_02
+ Okay.
+
 0:09:12	SPEAKER_05
- Okay, but we have to rate.
+ Entity.
 
 0:09:13	SPEAKER_05
- Yeah, we have to rate.
+ Yeah.
+
+0:09:14	SPEAKER_05
+ Okay.
 
 0:09:15	SPEAKER_04
- Is this sign of face enough?
+ We have to rate.
 
 0:09:16	SPEAKER_04
- Two?
+ Yeah.
 
 0:09:17	SPEAKER_04
- It's a one.
+ We have to rate.
 
 0:09:18	SPEAKER_04
- Four, this is a seven.
+ Is this a one?
+
+0:09:19	SPEAKER_04
+ False.
 
 0:09:20	SPEAKER_04
- So fancy enough means...
+ This is seven.
 
-0:09:23	SPEAKER_04
- Thus, it comes to the younger people and the elderly people.
+0:09:21	SPEAKER_04
+ So fancy enough means does it comes to the younger people and the elderly people?
 
 0:09:27	SPEAKER_01
  I think it's pretty fancy.
 
 0:09:29	SPEAKER_01
- It doesn't make it green than the older people want.
+ I think it's pretty fancy.
 
-0:09:31	SPEAKER_04
- Yeah, you have to green all the colors.
+0:09:30	SPEAKER_01
+ If you don't make it green then the other people will.
+
+0:09:32	SPEAKER_04
+ Yeah.
 
 0:09:33	SPEAKER_04
- Don't get better than that much now.
+ You have to green.
 
-0:09:35	SPEAKER_04
- It's all designed.
+0:09:34	SPEAKER_04
+ I think it's better than that much now.
+
+0:09:36	SPEAKER_04
+ It's already designed.
 
 0:09:37	SPEAKER_01
  I think it does.
 
 0:09:38	SPEAKER_05
- And it does.
-
-0:09:40	SPEAKER_05
- I think that's because of the microphone and also the screen.
-
-0:09:42	SPEAKER_01
- Yeah, I don't know whether older people will use it.
-
-0:09:44	SPEAKER_05
- It's a new thing.
-
-0:09:45	SPEAKER_05
- Well, so...
-
-0:09:46	SPEAKER_01
- I will make it a two or something.
-
-0:09:48	SPEAKER_03
- A two?
-
-0:09:49	SPEAKER_01
  Yeah.
 
-0:09:50	SPEAKER_03
- I'd say it.
+0:09:39	SPEAKER_05
+ And it's designed.
+
+0:09:40	SPEAKER_05
+ Oh, I think that's actually because of the microphone and also the screen.
+
+0:09:43	SPEAKER_01
+ Yeah.
+
+0:09:44	SPEAKER_01
+ I don't know whether older people will use this.
+
+0:09:46	SPEAKER_05
+ Well, so.
+
+0:09:47	SPEAKER_01
+ I would make it two or something.
+
+0:09:49	SPEAKER_03
+ The two?
+
+0:09:50	SPEAKER_01
+ Yeah.
 
 0:09:51	SPEAKER_03
- It's true, it's a one.
+ That's a fit.
 
-0:09:53	SPEAKER_01
- All right, it's a one.
+0:09:52	SPEAKER_03
+ That's true.
+
+0:09:53	SPEAKER_02
+ It's one.
 
 0:09:54	SPEAKER_01
- Very fancy.
+ All right.
 
 0:09:55	SPEAKER_01
+ It's a very fancy.
+
+0:09:56	SPEAKER_01
  It's a one.
 
 0:09:57	SPEAKER_05
- A little bit strange, we have to adjust that ourselves.
+ A little bit strange.
 
-0:10:00	SPEAKER_04
- Yeah, I should use that one, but it doesn't.
+0:09:59	SPEAKER_05
+ We have to adjust that ourselves.
 
-0:10:05	SPEAKER_01
+0:10:01	SPEAKER_04
+ Yeah.
+
+0:10:02	SPEAKER_04
+ I should use that one, but it doesn't.
+
+0:10:05	SPEAKER_04
  But it's a one.
 
-0:10:06	SPEAKER_04
- Okay, now it's two.
+0:10:06	SPEAKER_01
+ Okay.
+
+0:10:07	SPEAKER_04
+ No, it's two.
 
 0:10:08	SPEAKER_04
  True is a one.
 
 0:10:09	SPEAKER_04
- Where is the true is a one?
+ Very true is a very true.
 
 0:10:10	SPEAKER_04
- Where is the true?
+ Isn't that true?
 
-0:10:12	SPEAKER_01
- Are they pink?
+0:10:11	SPEAKER_01
+ They think it's very true.
 
 0:10:13	SPEAKER_01
- It's very true.
-
-0:10:14	SPEAKER_02
- It's very true.
-
-0:10:15	SPEAKER_02
- Because we designed it to be very fancy.
+ It's very true because we designed it to be very fancy.
 
 0:10:17	SPEAKER_02
- Yeah, but...
-
-0:10:18	SPEAKER_02
- It's very fancy, I think.
-
-0:10:19	SPEAKER_02
- If you have a scene that's a remote control like this.
-
-0:10:21	SPEAKER_05
- No, okay.
-
-0:10:22	SPEAKER_05
- No, it's fancy.
-
-0:10:24	SPEAKER_05
  Yeah.
 
-0:10:26	SPEAKER_05
- Okay, one, two.
+0:10:18	SPEAKER_02
+ It's very fancy.
 
-0:10:28	SPEAKER_04
+0:10:19	SPEAKER_02
+ I think.
+
+0:10:20	SPEAKER_02
+ Have you ever seen a remote control like this?
+
+0:10:22	SPEAKER_05
+ No.
+
+0:10:23	SPEAKER_05
+ Okay.
+
+0:10:24	SPEAKER_05
+ So it's fancy.
+
+0:10:25	SPEAKER_05
+ Yeah.
+
+0:10:26	None
+ Okay.
+
+0:10:27	SPEAKER_05
+ One, two.
+
+0:10:28	SPEAKER_05
+ That's one of that.
+
+0:10:29	SPEAKER_05
+ Okay.
+
+0:10:30	SPEAKER_04
  Let's give it a two.
 
-0:10:31	SPEAKER_04
+0:10:32	SPEAKER_04
  Is it innovative?
 
-0:10:33	SPEAKER_01
+0:10:33	None
  I think it is.
 
 0:10:34	SPEAKER_01
- Because it has an SD-screen, a microphone.
+ Because it has an else, these gram, a microphone.
 
-0:10:37	SPEAKER_01
- And a server.
-
-0:10:39	SPEAKER_01
- It's from Robert.
-
-0:10:40	SPEAKER_02
- Yeah.
+0:10:38	SPEAKER_01
+ And a search for all this rubber.
 
 0:10:41	SPEAKER_02
- It's a scroll.
-
-0:10:42	SPEAKER_02
- It's an after-school screen.
-
-0:10:43	SPEAKER_03
- It's the one.
-
-0:10:44	SPEAKER_03
- I think it's the one.
-
-0:10:45	None
- It's the one, yeah.
-
-0:10:46	SPEAKER_04
- True.
-
-0:10:47	SPEAKER_04
- Also...
-
-0:10:49	SPEAKER_04
- The buttons are easy to find.
-
-0:10:52	SPEAKER_04
- That was a big requirement of the old people.
-
-0:10:56	SPEAKER_01
- Because they're right on your screen.
-
-0:10:59	SPEAKER_01
- So you can use the...
-
-0:11:04	SPEAKER_01
- They're right on your screen, so I don't know where you would...
-
-0:11:07	SPEAKER_01
- With the ones on the buttons.
-
-0:11:08	SPEAKER_04
- It's easy to find.
-
-0:11:09	SPEAKER_04
- Not only this button, it's all the buttons.
-
-0:11:11	SPEAKER_01
  Yeah.
 
-0:11:12	SPEAKER_01
- I think they are.
+0:10:42	SPEAKER_02
+ The scroll.
 
-0:11:16	SPEAKER_01
- The options are a little bit harder, but if you...
+0:10:43	SPEAKER_03
+ I think it's a one.
 
-0:11:19	SPEAKER_02
- Take the heart out, okay.
+0:10:44	SPEAKER_03
+ I think it's a one.
 
-0:11:20	SPEAKER_04
- Sure.
+0:10:45	SPEAKER_03
+ It's a one.
 
-0:11:21	SPEAKER_02
- I think it's easier than the regular remote control.
+0:10:46	SPEAKER_04
+ Yeah.
 
-0:11:25	SPEAKER_02
- Yeah, I think this is easy to find.
-
-0:11:27	SPEAKER_04
- I think the options buttons are not the easiest way to...
-
-0:11:34	SPEAKER_01
- No, they're not, but they're easy to find.
-
-0:11:37	SPEAKER_03
+0:10:47	SPEAKER_04
  True.
 
-0:11:40	SPEAKER_02
- They are a lot easier to find than...
+0:10:48	None
+ Also.
 
-0:11:44	SPEAKER_02
- Then on the regular remote controls, where you have to find out what which sign or icon means on the A3 button.
+0:10:49	SPEAKER_04
+ The buttons are very easy to find.
+
+0:10:53	SPEAKER_04
+ That was a big requirement of the old people.
+
+0:10:57	SPEAKER_01
+ Yeah, because they're right on your screen.
+
+0:11:00	SPEAKER_01
+ So you can use the, the, the, the right to your screen.
+
+0:11:06	SPEAKER_01
+ So I don't know where you.
+
+0:11:08	SPEAKER_01
+ With the ones and all the buttons.
+
+0:11:09	SPEAKER_04
+ Easy to find.
+
+0:11:10	SPEAKER_04
+ Not only this buttons, all the buttons.
+
+0:11:12	SPEAKER_01
+ Yeah.
+
+0:11:13	SPEAKER_01
+ I think they are.
+
+0:11:15	SPEAKER_01
+ The options are a little bit harder.
+
+0:11:19	SPEAKER_01
+ But if you take the hard, okay.
+
+0:11:21	SPEAKER_04
+ Sure.
+
+0:11:22	SPEAKER_02
+ I think it's, it's easier than the regular, uh, remote control.
+
+0:11:26	SPEAKER_02
+ Yeah.
+
+0:11:27	SPEAKER_02
+ I think it's easy.
+
+0:11:28	SPEAKER_04
+ I think the options buttons are not the easiest way to, to.
+
+0:11:34	SPEAKER_01
+ No, they're not, but they're, they are easy to find.
+
+0:11:38	SPEAKER_03
+ True.
+
+0:11:39	SPEAKER_02
+ They are a lot easier to find than, uh, than on the regular remote controls where you have to, uh, find out what which sign or icon means on everybody.
 
 0:11:51	SPEAKER_02
- That's true.
+ Yeah.
 
 0:11:52	SPEAKER_02
- So you have to use the manual to understand...
+ That's true.
+
+0:11:53	SPEAKER_02
+ So you have to, you have to use the, the manual.
+
+0:11:55	SPEAKER_02
+ The manual to understand.
 
 0:11:56	SPEAKER_02
- Next.
+ You can add next.
 
 0:11:57	SPEAKER_05
- Which number are we going?
+ So which number are we going?
 
 0:11:59	SPEAKER_02
- I think it's a two.
+ I think it's, uh, it's a two.
 
-0:12:01	SPEAKER_02
+0:12:02	SPEAKER_02
  At least.
 
-0:12:03	SPEAKER_05
- Yeah, it's two, yeah.
+0:12:03	None
+ Yeah.
 
-0:12:04	SPEAKER_04
- Two, three.
+0:12:04	SPEAKER_05
+ Two.
 
 0:12:05	SPEAKER_04
+ Yeah.
+
+0:12:06	SPEAKER_04
+ Two.
+
+0:12:07	SPEAKER_04
+ Yeah.
+
+0:12:08	SPEAKER_04
  It's not perfect, but I think it's a three.
 
-0:12:08	SPEAKER_02
- Three?
-
 0:12:09	SPEAKER_02
+ Three.
+
+0:12:10	SPEAKER_02
  And why is that?
 
-0:12:10	SPEAKER_04
- Because I don't think...
+0:12:11	SPEAKER_04
+ Because I, I don't think it, maybe it's easy to use.
 
-0:12:12	SPEAKER_04
- Maybe it's easy to find right away.
+0:12:15	SPEAKER_04
+ It has to be easy to find right away.
 
 0:12:17	SPEAKER_04
- I think if you have the button at the right, I don't think you can find the option button.
+ I, I think if you have the button at the right, I don't think you can find the option button.
 
 0:12:21	SPEAKER_01
- But if you want it, you have to use the button at the right.
+ But you don't have to use the button.
 
 0:12:23	SPEAKER_01
  You can touch it.
 
 0:12:24	SPEAKER_01
+ You can touch it.
+
+0:12:25	SPEAKER_01
  Yeah.
 
 0:12:26	SPEAKER_02
- Instead both the options...
+ It's at both, both the options.
 
-0:12:28	SPEAKER_04
- Yeah, but then you have written option on here, the tail of the text button.
-
-0:12:33	SPEAKER_04
+0:12:28	SPEAKER_02
  Yeah.
+
+0:12:29	SPEAKER_04
+ Okay.
+
+0:12:30	SPEAKER_04
+ But you have, then you have your written option on here, the data text button, right?
 
 0:12:34	SPEAKER_04
- Okay, then I think also to you.
-
-0:12:36	SPEAKER_01
- You can touch the option and it comes back.
-
-0:12:38	SPEAKER_02
- I do, I do.
-
-0:12:39	SPEAKER_02
- The next question.
-
-0:12:41	SPEAKER_02
- The next question.
-
-0:12:42	SPEAKER_02
- Oh my god.
-
-0:12:43	SPEAKER_05
- What about you?
-
-0:12:45	SPEAKER_05
- Two, resulting one question.
-
-0:12:47	SPEAKER_05
- It's different.
-
-0:12:49	SPEAKER_04
- It's easy to use as well for younger elderly people.
-
-0:12:53	SPEAKER_01
- For younger people, I think it's easy to use.
-
-0:12:56	SPEAKER_04
- Young means 16 to 40 years.
-
-0:12:59	SPEAKER_04
- And elderly from 40 years to their death.
-
-0:13:02	SPEAKER_02
- I think it's the most useful remote control ever to be manufactured.
-
-0:13:07	SPEAKER_05
- Very enthusiastic.
-
-0:13:09	SPEAKER_02
- It is obviously easy to use.
-
-0:13:10	SPEAKER_02
- Yeah, because it has the regular controls, like as you can see on the screen now.
-
-0:13:15	SPEAKER_02
- And you don't have all the other options always on your screen.
-
-0:13:22	SPEAKER_02
- So as things really easy to use, you want these options to...
-
-0:13:27	SPEAKER_04
- Yeah, as well as you...
-
-0:13:28	SPEAKER_04
- If you're of text, 60 years old, you're holding one of those things in your head.
-
-0:13:32	SPEAKER_01
- They don't want the extra options.
-
-0:13:35	SPEAKER_04
- No, but we're going to make this for all kinds of people.
-
-0:13:38	SPEAKER_05
- And all the ways we could use the speech recognition.
-
-0:13:41	SPEAKER_01
- I think it is.
-
-0:13:42	SPEAKER_01
- If they read the manual.
-
-0:13:43	SPEAKER_01
- Because they're fine.
-
-0:13:45	SPEAKER_02
- Yeah, perhaps that is one of the most...
-
-0:13:48	SPEAKER_02
- Because a lot of youth...
-
-0:13:49	SPEAKER_01
- It's not difficult. You say...
-
-0:13:52	SPEAKER_01
- Genre 1 and Genre 4.
-
-0:13:53	SPEAKER_01
  Yeah.
 
-0:13:54	SPEAKER_01
- To the speech recognition.
+0:12:35	SPEAKER_04
+ Okay.
+
+0:12:36	SPEAKER_04
+ Then, okay.
+
+0:12:37	SPEAKER_01
+ Then I think also to you.
+
+0:12:38	SPEAKER_02
+ You can touch option.
+
+0:12:39	SPEAKER_02
+ I do.
+
+0:12:40	SPEAKER_02
+ Okay.
+
+0:12:41	SPEAKER_01
+ I do.
+
+0:12:42	SPEAKER_02
+ The idea.
+
+0:12:43	SPEAKER_02
+ The next question.
+
+0:12:44	None
+ The next question.
+
+0:12:45	SPEAKER_05
+ Oh my God.
+
+0:12:46	SPEAKER_05
+ Otherwise we have two results in one question.
+
+0:12:49	SPEAKER_04
+ It's different.
+
+0:12:50	SPEAKER_04
+ It's easy to use as well for younger elderly people.
+
+0:12:54	SPEAKER_01
+ For young people, I think it's easy to use.
+
+0:12:58	SPEAKER_04
+ Young means 16 to 40 years at elderly from 40 to their death.
+
+0:13:03	SPEAKER_02
+ I think it's the most useful remote control ever to be manufactured.
+
+0:13:08	SPEAKER_02
+ Very enthusiastic.
+
+0:13:09	SPEAKER_05
+ Also, if you're a 6 year old.
+
+0:13:11	SPEAKER_02
+ Yeah, because it has the regular controls, like as you can see on the screen now.
+
+0:13:16	SPEAKER_02
+ And you don't have all the other options always on your screen.
+
+0:13:23	SPEAKER_02
+ So it's, it's really easy to use.
+
+0:13:26	SPEAKER_04
+ You want these options to, if you're a 6 years old.
+
+0:13:31	SPEAKER_01
+ You're holding one of those things in your head.
+
+0:13:33	SPEAKER_01
+ They don't want the extra options.
+
+0:13:36	SPEAKER_04
+ No, but we're going to make this for all kind of people.
+
+0:13:39	SPEAKER_05
+ So it would be easy for them to use the speech recognition.
+
+0:13:42	SPEAKER_01
+ I think it is.
+
+0:13:43	SPEAKER_01
+ If they read the menu.
+
+0:13:44	SPEAKER_01
+ Because they might.
+
+0:13:45	SPEAKER_02
+ Yeah, perhaps that is one of those.
+
+0:13:47	SPEAKER_02
+ It's not difficult.
+
+0:13:51	SPEAKER_01
+ You say record.
+
+0:13:53	SPEAKER_01
+ To do the speech recognition.
 
 0:13:56	SPEAKER_01
- Then you say the question and the answer.
+ Then you should question and the answer.
 
-0:13:58	SPEAKER_01
+0:13:59	SPEAKER_01
  And that's everything it does to the speech recognition.
 
 0:14:02	SPEAKER_05
- Yeah, well maybe that would make it even more easy to use.
+ Yeah, well, maybe that would make it even more easy to use.
 
-0:14:06	SPEAKER_05
- I think it would be...
+0:14:07	SPEAKER_01
+ I think it would be difficult.
 
-0:14:07	SPEAKER_02
- Yeah, I think it does.
+0:14:09	SPEAKER_02
+ Yeah, I think it is.
 
-0:14:08	SPEAKER_02
- So, because all the people who can't...
-
-0:14:10	SPEAKER_02
- Make it too.
-
-0:14:11	SPEAKER_04
- Also, to...
-
-0:14:12	SPEAKER_04
- Yeah.
+0:14:10	SPEAKER_04
+ So, because all the people who can't make it to.
 
 0:14:13	SPEAKER_04
- Another session for this...
-
-0:14:15	SPEAKER_04
- I chose 3.
+ Yeah, I think it's difficult to do.
 
 0:14:16	SPEAKER_04
- 3?
+ Yeah.
 
 0:14:17	SPEAKER_04
- I would also say 3.
+ I chose three.
+
+0:14:18	SPEAKER_04
+ Three.
 
 0:14:19	SPEAKER_05
- Okay, you have 3, 3, 2, 2, 1.
+ I would also say three.
 
-0:14:21	SPEAKER_05
- 2.
+0:14:20	SPEAKER_05
+ Three, three, two, two.
 
 0:14:22	SPEAKER_05
- So, what are we going to do?
+ Two.
+
+0:14:23	SPEAKER_05
+ No.
 
 0:14:24	SPEAKER_05
- 2 and all.
+ No, what are we going to do?
 
 0:14:25	SPEAKER_05
- Okay, 3, I see.
+ Two and all.
 
 0:14:26	SPEAKER_05
- Give me more.
+ Okay, yeah, three, I see.
 
 0:14:28	SPEAKER_05
- I don't know, question.
+ Give me more.
 
-0:14:30	SPEAKER_04
- We both overwhelmed with buttons.
+0:14:29	SPEAKER_05
+ Another question.
 
-0:14:32	SPEAKER_04
- No.
-
-0:14:33	SPEAKER_04
- No.
+0:14:31	SPEAKER_04
+ Remote overwhelmed with buttons.
 
 0:14:34	SPEAKER_04
  No.
 
 0:14:35	SPEAKER_04
- No, that's...
-
-0:14:36	SPEAKER_01
- That's the one.
-
-0:14:37	SPEAKER_01
- I think that's the left one.
-
-0:14:38	SPEAKER_01
- There's definitely a...
-
-0:14:39	SPEAKER_01
- I mean, the 7 is it?
-
-0:14:40	SPEAKER_01
- It is.
-
-0:14:41	SPEAKER_01
  No.
 
-0:14:42	SPEAKER_05
- Yeah, the most one.
+0:14:36	SPEAKER_04
+ No, that's, that's it.
+
+0:14:37	SPEAKER_01
+ I mean, that's definitely one.
+
+0:14:38	SPEAKER_01
+ That's definitely one.
+
+0:14:39	SPEAKER_01
+ There's definitely an hour.
+
+0:14:40	SPEAKER_01
+ I mean, a seven is it.
+
+0:14:41	SPEAKER_01
+ It is.
+
+0:14:42	SPEAKER_01
+ Yeah, that's it.
 
 0:14:43	SPEAKER_05
- Yeah, but I think you should make it one scale with one thing good.
-
-0:14:45	SPEAKER_04
- Yeah.
+ Yeah, but I think you should make it one scale with one.
 
 0:14:46	SPEAKER_04
- It doesn't...
+ Yeah, I think it isn't.
 
 0:14:47	SPEAKER_05
- It doesn't be...
+ There's a way to become something like calculate any.
 
-0:14:48	SPEAKER_00
- It doesn't...
-
-0:14:49	SPEAKER_05
- It doesn't sound like...
-
-0:14:50	SPEAKER_02
- It doesn't overwhelmed.
+0:14:50	SPEAKER_05
+ Isn't overwhelmed.
 
 0:14:51	SPEAKER_02
  Yeah.
 
 0:14:52	SPEAKER_02
- Yeah.
+ So, yeah, any.
 
 0:14:53	SPEAKER_05
- So...
+ True.
 
 0:14:54	SPEAKER_05
- Yeah.
-
-0:14:55	SPEAKER_05
- Yeah.
-
-0:14:56	SPEAKER_04
  Okay.
 
-0:14:57	SPEAKER_04
+0:14:55	SPEAKER_05
  All right.
 
-0:14:58	SPEAKER_04
- Designed for you.
+0:14:56	SPEAKER_05
+ Designed for that.
 
-0:14:59	SPEAKER_01
- Rural...
+0:14:57	SPEAKER_04
+ Through all this colors that different.
+
+0:14:59	SPEAKER_04
+ Yeah.
 
 0:15:00	SPEAKER_01
- Through all this colors.
+ Meet different target groups.
 
 0:15:01	SPEAKER_01
- The different...
-
-0:15:02	SPEAKER_02
- Yeah.
+ We make them in different colors.
 
 0:15:03	SPEAKER_02
- Yes.
+ Yeah, there's option.
 
 0:15:04	SPEAKER_05
- This will make them in different colors.
+ Yeah.
 
 0:15:05	SPEAKER_05
- Yeah.
-
-0:15:06	SPEAKER_05
- Yeah, this option.
-
-0:15:07	SPEAKER_05
- That's true.
-
-0:15:08	SPEAKER_05
- Yeah.
-
-0:15:09	SPEAKER_01
- I thought we had about single colors, but you can also make a wood color.
+ I thought we had about single colors, but you can also make a wood color, not just one single color, but a wood.
 
 0:15:10	SPEAKER_01
- Not just one single color, but the wood.
-
-0:15:11	SPEAKER_01
- Yeah.
+ Yeah, it's not.
 
 0:15:12	SPEAKER_01
- Like...
+ Like, it looks like wood.
 
 0:15:13	SPEAKER_01
- Also with the rubber.
+ Also with rubber.
 
-0:15:14	SPEAKER_05
- I think you've got...
+0:15:14	SPEAKER_01
+ I think you can.
 
 0:15:15	SPEAKER_05
+ But it looks like wood.
+
+0:15:16	SPEAKER_01
+ It isn't.
+
+0:15:17	SPEAKER_01
  Yeah, okay.
 
-0:15:16	SPEAKER_05
- It feels like we're gonna make a print on rubber, can't you?
+0:15:18	SPEAKER_05
+ It feels like rubber.
 
 0:15:19	SPEAKER_05
- Yeah, yeah.
+ You can make a print on rubber, can't you?
 
-0:15:20	SPEAKER_01
- But then when you square two is us, come on.
+0:15:20	SPEAKER_05
+ Yeah.
+
+0:15:21	SPEAKER_01
+ Yeah.
 
 0:15:22	SPEAKER_01
- That's the one?
+ But then when you square two, it's just come up.
 
 0:15:23	SPEAKER_04
- Yeah, it is harder to...
+ That's the one.
+
+0:15:24	SPEAKER_02
+ Okay.
 
 0:15:25	SPEAKER_04
- Yeah, many questions.
+ It is harder to.
 
 0:15:26	SPEAKER_04
- I have...
+ Yeah.
 
 0:15:27	SPEAKER_04
- Two.
+ Money questions.
 
 0:15:28	SPEAKER_05
- Uh, okay.
+ I, uh, okay.
 
 0:15:29	SPEAKER_05
  Well, we have time.
 
-0:15:30	SPEAKER_05
- We're getting paid.
-
-0:15:32	SPEAKER_02
+0:15:31	SPEAKER_05
  We're getting paid.
 
 0:15:33	SPEAKER_02
  We're getting paid.
 
 0:15:34	SPEAKER_04
- You're so much cheaper than that.
+ You're all used to this.
 
 0:15:35	SPEAKER_04
- That's a one, that's rubber.
+ That's, that's a one.
 
 0:15:36	SPEAKER_04
- What can I use to use?
+ That's rubber.
 
 0:15:37	SPEAKER_01
- Yeah, yeah, it's very spun.
+ Yeah.
+
+0:15:38	SPEAKER_01
+ Yeah.
 
 0:15:39	SPEAKER_01
- Yeah, I...
+ It's not the most spongy thing.
 
-0:15:40	SPEAKER_01
- Oh, no, it's not very spun.
-
-0:15:41	SPEAKER_01
- It's not the most spun-cheese thing.
-
-0:15:43	SPEAKER_01
+0:15:42	SPEAKER_01
  I think it's a three.
 
 0:15:44	SPEAKER_01
- Yeah, it's a three.
-
-0:15:46	SPEAKER_02
- Because you want to make it a rather flexible, but not too flexible, because it has an
-
-0:15:51	SPEAKER_00
- else-a-E screen. Yeah.
-
-0:15:53	SPEAKER_04
- How about contrasting hard to lose?
-
-0:15:55	SPEAKER_01
  Yeah.
 
-0:15:56	SPEAKER_01
- Yeah, you could...
+0:15:45	SPEAKER_02
+ It's a three because you want to make it, uh, rather flexible, but not too flexible because it has an L.C.E. screen.
 
-0:15:57	SPEAKER_04
- You could go...
+0:15:52	SPEAKER_00
+ Yeah.
+
+0:15:53	SPEAKER_04
+ How about across hard to lose?
+
+0:15:56	SPEAKER_01
+ Yeah.
+
+0:15:57	SPEAKER_01
+ Yeah.
 
 0:15:58	SPEAKER_04
- You can lose it if you're 60 years old.
+ You can, you can lose it if you're six years old.
 
-0:16:02	SPEAKER_04
- You first, I'll see the thing, you didn't just set the microphone and then you lose it.
+0:16:01	SPEAKER_04
+ You first, I'll see the thing you didn't, didn't adjust, uh, set the microphone and then you lose it.
 
-0:16:07	SPEAKER_01
+0:16:06	SPEAKER_04
  Then you have lost it.
 
-0:16:08	SPEAKER_01
- You can lose it, but it isn't hard to lose.
+0:16:07	SPEAKER_01
+ You can lose it, right?
+
+0:16:09	SPEAKER_01
+ It isn't hard to lose.
 
 0:16:10	SPEAKER_04
- It is a dark now.
+ It is a dar, no.
 
 0:16:11	SPEAKER_04
- I think this is a two, personally.
+ I think, I think this is a two.
 
 0:16:13	SPEAKER_01
- Two.
+ Personally.
 
 0:16:14	SPEAKER_01
- Is it hard to lose?
+ Two.
 
 0:16:15	SPEAKER_01
- No.
+ That it's hard to lose?
 
 0:16:16	SPEAKER_01
- It isn't hard to lose.
+ No.
 
 0:16:17	SPEAKER_01
- It's a six.
+ Yeah.
 
 0:16:18	SPEAKER_01
- You think?
-
-0:16:19	SPEAKER_03
  It isn't hard to lose.
 
-0:16:20	SPEAKER_03
- So it's a two.
+0:16:19	SPEAKER_01
+ It's a six.
 
-0:16:21	SPEAKER_01
- Yeah, you can lose it, so I don't know.
+0:16:20	SPEAKER_03
+ You think.
+
+0:16:21	SPEAKER_03
+ It's hard to lose.
 
 0:16:22	SPEAKER_01
- You can't lose it.
+ So it's a two.
 
 0:16:23	SPEAKER_01
  Yeah.
 
 0:16:24	SPEAKER_01
- You can't lose it.
+ You can lose it.
 
-0:16:25	SPEAKER_01
- It doesn't matter.
+0:16:25	SPEAKER_00
+ So I don't know.
 
 0:16:26	SPEAKER_01
- You're 60 years old.
+ You can make it a three.
 
 0:16:27	SPEAKER_01
- You're a hard-to-lose.
+ It doesn't.
 
 0:16:28	SPEAKER_00
- A hard-to-lose is good.
+ If you're six years old.
 
 0:16:29	SPEAKER_00
- No.
+ Yeah, but a hard.
 
 0:16:30	SPEAKER_05
- The question should be hard to lose.
-
-0:16:31	SPEAKER_05
- It's difficult to lose.
+ A hard to lose is good.
 
 0:16:32	SPEAKER_05
- Oh, right.
+ So it's, this question should be hard to lose.
 
-0:16:33	SPEAKER_05
- Yeah, this is hard to lose.
-
-0:16:34	SPEAKER_05
- Yeah, so then it is almost true.
-
-0:16:36	SPEAKER_01
- So a two.
+0:16:35	SPEAKER_05
+ It's difficult to lose.
 
 0:16:37	SPEAKER_02
- Yeah, I think also.
+ Yeah.
 
-0:16:38	SPEAKER_01
- Two.
+0:16:38	SPEAKER_02
+ It's hard to lose.
 
 0:16:39	SPEAKER_01
  Yeah.
 
 0:16:40	SPEAKER_01
- So a two.
-
-0:16:41	SPEAKER_01
- Yeah, I think it's hard to lose.
+ So then it is almost true.
 
 0:16:42	SPEAKER_01
  Yeah.
 
 0:16:43	SPEAKER_01
- Yeah, I think also.
+ I think also.
 
 0:16:44	SPEAKER_02
- Two.
-
-0:16:45	SPEAKER_02
  Okay.
 
-0:16:46	SPEAKER_02
- Most of it because of the option two.
+0:16:45	SPEAKER_02
+ Mostly because of the option to.
 
-0:16:48	SPEAKER_01
+0:16:47	SPEAKER_02
  Whoa.
 
+0:16:48	SPEAKER_00
+ Yeah.
+
 0:16:49	SPEAKER_05
- Yeah, it's okay that happened above also.
+ It's okay.
+
+0:16:50	SPEAKER_05
+ It happened above also.
 
 0:16:52	SPEAKER_05
  Maybe when you scroll away and back it will be normal.
 
 0:16:55	SPEAKER_05
- Yeah, no.
+ Yeah.
 
 0:16:56	SPEAKER_05
- Well, it doesn't.
+ Oh.
 
 0:16:57	SPEAKER_02
- Yeah, actually, I remember you put the cursor in another table.
+ Well, I actually, I remember.
+
+0:16:58	SPEAKER_02
+ If you put the cursor on the table.
 
 0:17:00	SPEAKER_04
- Okay, okay.
+ Okay.
 
 0:17:01	SPEAKER_04
- What can though mainly be salt to younger people?
+ The most control mainly be sold to younger people.
 
 0:17:03	SPEAKER_04
  True.
@@ -1429,35 +1447,44 @@
 0:17:04	SPEAKER_01
  I think it will.
 
-0:17:05	SPEAKER_04
- Yeah, true.
-
-0:17:06	SPEAKER_04
- Very true.
-
-0:17:07	SPEAKER_04
+0:17:05	SPEAKER_01
  Yeah.
 
-0:17:08	SPEAKER_00
- No, I don't think very true because the colors.
+0:17:06	SPEAKER_04
+ True.
 
-0:17:10	SPEAKER_04
+0:17:07	SPEAKER_04
+ Very true.
+
+0:17:08	SPEAKER_04
+ Yeah.
+
+0:17:09	SPEAKER_04
+ I don't think very true because the colors.
+
+0:17:12	SPEAKER_04
  We have the colors.
 
 0:17:13	SPEAKER_04
- We have the buttons aren't that much.
+ We have the buttons.
+
+0:17:15	SPEAKER_04
+ Aren't that much?
 
 0:17:16	SPEAKER_04
  Materials.
 
 0:17:17	SPEAKER_04
- No, the material isn't that.
+ Not material.
+
+0:17:18	SPEAKER_04
+ Isn't that.
 
 0:17:19	SPEAKER_04
- It's much more.
+ Okay.
 
 0:17:20	SPEAKER_04
- So I think it's a three.
+ So I think, I think it's a three.
 
 0:17:23	SPEAKER_05
  Well, I think it's a lower number.
@@ -1466,79 +1493,103 @@
  So better because we designed it for young people especially.
 
 0:17:30	SPEAKER_03
- Yeah, but I.
+ Yeah.
 
 0:17:31	SPEAKER_03
+ But I.
+
+0:17:32	SPEAKER_03
  What do you think?
 
-0:17:33	SPEAKER_03
- I think it's true.
+0:17:34	SPEAKER_03
+ I think.
 
 0:17:35	SPEAKER_02
- I think two, two, two, two.
+ I think it's two.
 
-0:17:38	SPEAKER_05
- Yeah, that's very good.
+0:17:36	SPEAKER_02
+ I think two, two, two, two, two.
+
+0:17:38	SPEAKER_02
+ That's very good.
+
+0:17:39	SPEAKER_00
+ You have features?
 
 0:17:40	SPEAKER_05
- The features.
+ To satisfy younger people.
 
-0:17:41	SPEAKER_05
- The satisfying younger people.
-
-0:17:43	SPEAKER_02
+0:17:42	SPEAKER_05
  Younger people.
 
-0:17:44	SPEAKER_00
- No, perhaps not.
+0:17:43	SPEAKER_05
+ No.
+
+0:17:44	SPEAKER_04
+ Perhaps not.
 
 0:17:45	SPEAKER_04
- What?
-
-0:17:46	SPEAKER_04
  Because younger people are critical and they wanted a lot of features on this thing.
 
-0:17:49	SPEAKER_02
- Well, not exactly, but if it had some games on it or something like that.
+0:17:49	SPEAKER_04
+ Well, not exactly.
+
+0:17:51	SPEAKER_02
+ But if it had some games on it or something like that.
 
 0:17:55	SPEAKER_02
- But it's for remote control, I think.
+ But it's for remote control.
 
 0:17:58	SPEAKER_02
- I think the likes these.
+ I think it would satisfy those things.
 
-0:18:00	SPEAKER_00
- Yeah, the speech possibility of color.
+0:18:01	SPEAKER_00
+ Yeah.
+
+0:18:02	SPEAKER_00
+ The speech, possibility of color.
 
 0:18:03	SPEAKER_02
- Yeah, the screen.
+ Yeah, the scroll.
 
 0:18:04	SPEAKER_02
- The scroll option.
+ Scroll options.
 
 0:18:05	SPEAKER_04
  I think they'll be quite met with their expectations.
 
 0:18:10	SPEAKER_05
- Those are more fancy functions, not really many features or something.
+ Yeah, but those are more offensive functions.
+
+0:18:12	SPEAKER_05
+ Not really many features or something.
 
 0:18:14	SPEAKER_05
  I mean, those are features.
 
-0:18:16	SPEAKER_04
- There's three features, basically.
+0:18:16	SPEAKER_05
+ Yeah, three features.
 
-0:18:18	SPEAKER_04
- LC9, LC9, LC9 touch screen is feature.
+0:18:17	SPEAKER_04
+ Basically, LCNIs.
+
+0:18:19	SPEAKER_04
+ LCNIs.
+
+0:18:20	SPEAKER_04
+ They'll keep the touch screen as a feature.
 
 0:18:21	SPEAKER_04
  Yeah.
 
 0:18:22	SPEAKER_04
- The microphone is feature.
+ The microphone is a feature.
 
 0:18:23	SPEAKER_01
- The microphone is feature and that you can change the channel's feature and that you can change the volume of the feature.
+ The microphone is a feature.
+
+0:18:24	SPEAKER_01
+ And that you can change the channels feature and that you can change the volume as a feature.
 
 0:18:28	SPEAKER_01
  And that you can change the options of the remote.
@@ -1546,29 +1597,35 @@
 0:18:30	SPEAKER_01
  Yeah, I think.
 
-0:18:31	SPEAKER_04
- I think then you have the volume up.
+0:18:31	SPEAKER_01
+ I don't know.
+
+0:18:32	SPEAKER_04
+ I think.
 
 0:18:33	SPEAKER_02
- The volume up.
+ Easy volume output.
+
+0:18:34	SPEAKER_02
+ The most obvious.
 
 0:18:35	SPEAKER_02
- The video's a bit different.
+ The most obvious.
 
 0:18:36	SPEAKER_02
- Younger people usually use remote control to put on the volume.
+ Younger people usually use remote control to put it on the volume.
 
 0:18:40	SPEAKER_02
  Yeah.
 
-0:18:41	SPEAKER_04
- Turn on.
+0:18:41	SPEAKER_02
+ Turn out.
 
 0:18:42	SPEAKER_04
  I think it's one.
 
 0:18:44	SPEAKER_04
- And not feature.
+ Enough features.
 
 0:18:45	SPEAKER_04
  Yeah, I think because you have channel features, you have the screen features, audio features.
@@ -1577,16 +1634,16 @@
  You have all buttons on it.
 
 0:18:53	SPEAKER_04
- Which would like the microphone extra, LCD screen extra, scroll thing extra.
-
-0:18:58	SPEAKER_05
- Yeah.
+ Which is like microphone, extra LCD screen, extra scroll thing, extra.
 
 0:18:59	SPEAKER_05
- Okay, you think one, what do you think?
+ Okay, you think one?
+
+0:19:00	SPEAKER_05
+ What do you think?
 
 0:19:01	SPEAKER_01
- Two or three.
+ I think two or three.
 
 0:19:03	SPEAKER_05
  Yeah.
@@ -1597,8 +1654,8 @@
 0:19:05	SPEAKER_05
  I'd say three.
 
-0:19:06	SPEAKER_00
- Two, make it two.
+0:19:06	SPEAKER_05
+ Two.
 
 0:19:07	SPEAKER_00
  Make it two.
@@ -1607,55 +1664,70 @@
  One, two, three.
 
 0:19:09	SPEAKER_00
- Oh, make it two.
+ It's another two.
 
-0:19:10	SPEAKER_04
- You can see the remote controls, the R&R.
+0:19:10	SPEAKER_00
+ One, two.
 
-0:19:13	SPEAKER_01
+0:19:11	SPEAKER_04
+ You can see the remote control is the R&R.
+
+0:19:14	SPEAKER_01
  Yeah, there's R&R in front.
 
-0:19:15	SPEAKER_01
- Yeah, that's true.
-
 0:19:16	SPEAKER_01
- It's not the colors, maybe you make two, but it has R&R.
+ It's not the color.
+
+0:19:17	SPEAKER_01
+ So maybe you should make two, but it has R&R.
 
 0:19:20	SPEAKER_04
- Oh, yeah, it did have, now you have the black one.
+ Oh, yeah.
+
+0:19:21	SPEAKER_04
+ I did have.
+
+0:19:22	SPEAKER_04
+ Now you have the black one.
 
 0:19:23	SPEAKER_04
  Yeah.
 
 0:19:24	SPEAKER_04
- And we probably make also yellow one.
+ And we'll probably make also yellow one.
 
-0:19:25	SPEAKER_01
+0:19:25	SPEAKER_04
  Yeah.
 
 0:19:26	SPEAKER_01
- But not R&R.
+ Yeah.
 
 0:19:27	SPEAKER_05
- Yeah, maybe two.
+ Maybe two.
 
 0:19:28	SPEAKER_04
- Okay, true, yeah.
+ Okay, true.
+
+0:19:29	SPEAKER_04
+ One, one, one.
+
+0:19:30	SPEAKER_04
+ It's the color.
 
 0:19:31	SPEAKER_04
- And the menu that is available is easy to use.
+ And the menu is a fail.
+
+0:19:33	SPEAKER_04
+ That is a fail.
+
+0:19:34	SPEAKER_04
+ It's easy to use.
 
 0:19:36	SPEAKER_01
  I think it is, but I don't know what you think.
 
 0:19:39	SPEAKER_02
- I think it's easy to use than a regular remote control.
-
-0:19:41	SPEAKER_02
- Yeah.
-
-0:19:42	SPEAKER_02
- Because when you push on the options menu, you get the various options entirely explained, entirely explained.
+ I think it's easier to use than a regular remote control because when you push on the options menu, you get the various options entirely explained, entirely explained.
 
 0:19:51	SPEAKER_02
  Instead of just finding out what an icon means on a button.
@@ -1664,82 +1736,94 @@
  Yeah.
 
 0:19:58	SPEAKER_01
- And you can have it easier.
+ I think the navigation is easier.
 
-0:19:59	SPEAKER_01
- Yeah, you can have it with the, you have to push the arrows and with the normal to be remote.
+0:20:00	SPEAKER_01
+ Yeah, you can have again.
 
-0:20:05	SPEAKER_03
+0:20:01	SPEAKER_01
+ You have to push the arrows and with the normal to the remote.
+
+0:20:06	SPEAKER_03
  I think that would be quite hard to learn.
 
-0:20:10	SPEAKER_03
+0:20:11	SPEAKER_02
  You're not satisfied.
 
-0:20:11	SPEAKER_02
- Okay, let's start over again.
+0:20:12	SPEAKER_02
+ Okay.
 
 0:20:13	SPEAKER_02
- Let's make it different.
+ Let's start over again.
 
-0:20:15	SPEAKER_04
- Let's go for menu.
-
-0:20:18	SPEAKER_04
- I think it would be a, there too.
-
-0:20:21	SPEAKER_04
- Not more.
-
-0:20:22	SPEAKER_04
- I see.
-
-0:20:23	SPEAKER_05
- We only have two.
-
-0:20:24	SPEAKER_05
- That's pretty good.
-
-0:20:25	SPEAKER_05
- All right, I think so.
-
-0:20:27	SPEAKER_03
+0:20:14	SPEAKER_02
  Yeah.
 
-0:20:28	SPEAKER_03
- So, okay, we have, one three or one that have to cut open.
+0:20:15	SPEAKER_04
+ That's very good.
 
-0:20:32	SPEAKER_03
- Two three.
+0:20:16	SPEAKER_04
+ Let's go for menu.
+
+0:20:19	SPEAKER_04
+ I think it would be a, yeah, too.
+
+0:20:22	SPEAKER_04
+ Not lower.
+
+0:20:23	SPEAKER_05
+ I tell you.
+
+0:20:24	SPEAKER_05
+ We only have to.
+
+0:20:25	SPEAKER_05
+ It's pretty good.
+
+0:20:27	SPEAKER_03
+ I think so.
+
+0:20:28	SPEAKER_01
+ Yeah.
+
+0:20:29	SPEAKER_01
+ So, okay.
+
+0:20:30	SPEAKER_03
+ We have one, three, a one that I have to cut open.
 
 0:20:33	SPEAKER_03
- And have to cut open.
+ I'll have to cut.
+
+0:20:34	SPEAKER_03
+ Oh, go.
 
 0:20:35	SPEAKER_03
  Two, two, two, two.
 
-0:20:37	SPEAKER_01
- We also have two.
-
-0:20:38	SPEAKER_01
- So it's pretty good.
+0:20:37	SPEAKER_03
+ Oh, you have to.
 
 0:20:39	SPEAKER_01
- The average is two.
+ So it's pretty good.
 
 0:20:40	SPEAKER_01
+ The average is two.
+
+0:20:41	SPEAKER_01
  Yeah.
 
-0:20:41	SPEAKER_04
- That average.
-
 0:20:42	SPEAKER_04
- Quite good.
+ That is quite good.
 
 0:20:43	SPEAKER_01
  Yeah.
 
-0:20:44	SPEAKER_03
- In my opinion, I think so.
+0:20:44	SPEAKER_01
+ It might be.
+
+0:20:45	SPEAKER_03
+ I think so.
 
 0:20:46	SPEAKER_01
  We can be happy.
@@ -1750,7 +1834,7 @@
 0:20:50	SPEAKER_03
  Okay.
 
-0:20:52	SPEAKER_01
+0:20:51	SPEAKER_03
  What is it?
 
 0:20:53	SPEAKER_01
@@ -1763,31 +1847,34 @@
  A fly.
 
 0:20:57	SPEAKER_01
- A butterfly.
+ A bird of fly.
 
 0:20:59	SPEAKER_01
- Good or fly?
-
-0:21:00	None
- That's it.
+ A bird of fly.
 
 0:21:01	None
- Okay.
+ Yeah.
 
-0:21:02	SPEAKER_00
- That was your evaluation.
+0:21:02	SPEAKER_01
+ That's it.
+
+0:21:03	None
+ Okay.
 
 0:21:04	SPEAKER_00
- Yes.
+ That was your evaluation.
 
 0:21:05	SPEAKER_05
- Show.
+ Yes.
 
 0:21:06	SPEAKER_05
- Okay.
+ Show.
 
 0:21:07	SPEAKER_05
- We don't have to calculate anything because of that.
+ Okay.
+
+0:21:08	SPEAKER_05
+ We don't have to calculate anything.
 
 0:21:10	SPEAKER_05
  No, it's two.
@@ -1799,16 +1886,16 @@
  Good.
 
 0:21:13	SPEAKER_05
- That's two.
+ That's true.
 
 0:21:14	SPEAKER_05
  Let's see.
 
 0:21:15	SPEAKER_05
- Oh, we didn't ask to save.
+ We didn't ask to shave.
 
 0:21:16	SPEAKER_05
- We didn't want to run you.
+ Yeah.
 
 0:21:17	SPEAKER_04
  Yeah.
@@ -1822,131 +1909,131 @@
 0:21:20	SPEAKER_05
  Well, the next part might be a little bit difficult to do in a group, but I am willing to try it.
 
-0:21:34	SPEAKER_05
- Because we are going to look at the finance and I have a nice excel sheet to do that.
-
-0:21:40	SPEAKER_01
- Really, sign.
+0:21:35	SPEAKER_05
+ Because we are going to look at the finance and I have a nice Excel sheet to do that.
 
 0:21:41	SPEAKER_01
+ Redesign.
+
+0:21:42	SPEAKER_01
  No.
 
-0:21:42	SPEAKER_05
- I'm not sure if I put it in the photo.
+0:21:43	SPEAKER_05
+ I'm not sure I've ever put it for the look on that.
 
-0:21:45	SPEAKER_05
- I think we are going to calculate the production costs and if they are under or at 12.050, we are good.
+0:21:46	SPEAKER_05
+ And we're going to calculate the production costs and if they are under or at 12, you know, 50, we're good.
 
 0:21:53	SPEAKER_05
  Yeah.
 
 0:21:54	SPEAKER_05
- And if we are not, we are going to redesign.
+ And if we're not, we're going to redesign.
 
 0:21:56	SPEAKER_01
- We are going to erase it very quickly.
+ We're going to erase the two versions.
 
 0:21:58	SPEAKER_05
- I think yes.
+ Very quick.
 
 0:21:59	SPEAKER_05
- I don't know.
+ I think yes.
 
 0:22:00	SPEAKER_05
- Do you have the cost or put the excel sheet in the...
+ I don't know if I.
 
-0:22:04	SPEAKER_05
+0:22:01	SPEAKER_01
+ Do you have the cost, sir?
+
+0:22:02	SPEAKER_05
+ Put the Excel sheet in the.
+
+0:22:05	SPEAKER_05
  Let's hope.
 
-0:22:05	SPEAKER_01
- We are going to make a clock.
+0:22:06	SPEAKER_01
+ We're going to read an 8 o'clock.
 
-0:22:08	SPEAKER_05
+0:22:09	SPEAKER_05
  I think it's still in my own documents folder.
 
 0:22:14	SPEAKER_01
- We are going to be around 8 o'clock.
+ We're still going to be read an 8 o'clock.
 
 0:22:17	SPEAKER_01
  I doubt it.
 
 0:22:20	SPEAKER_01
- Perhaps we have got features that don't exist in the excel sheet.
+ Perhaps we've got features that don't exist in the Excel sheet.
 
 0:22:23	SPEAKER_04
  Yeah.
 
 0:22:24	SPEAKER_03
- Maybe...
+ Maybe the microphone.
 
-0:22:25	SPEAKER_03
- The microphone.
-
-0:22:26	SPEAKER_03
- No, it wasn't in my information.
+0:22:27	SPEAKER_03
+ That was in my information.
 
 0:22:29	SPEAKER_03
- It wasn't too much.
+ Yeah.
 
 0:22:30	SPEAKER_02
- No, but maybe I got...
+ It wasn't too much.
 
 0:22:31	SPEAKER_02
- Of course, the else discrain.
+ Now what maybe I got.
 
 0:22:32	SPEAKER_02
- Oh.
+ I grabbed the LCD screen.
 
 0:22:33	SPEAKER_05
- Okay.
+ Scrap it.
 
 0:22:34	SPEAKER_05
- Well, this is it.
+ Okay.
 
 0:22:35	SPEAKER_05
+ Well, this is it.
+
+0:22:36	SPEAKER_05
  Maybe I could ask one of you to fill it in so that I can also take minutes.
 
-0:22:40	SPEAKER_05
+0:22:41	SPEAKER_05
  And maybe the other can use that thing to count numerous functions.
 
-0:22:46	SPEAKER_05
- But you shoot the...
-
-0:22:47	SPEAKER_01
- Count it.
-
-0:22:48	SPEAKER_05
- Like right...
+0:22:47	SPEAKER_05
+ But you shoot a unit like right.
 
 0:22:49	SPEAKER_05
- No, we have to count some things and we have to think about some things.
+ We have to count some things and we have to think about some things.
 
-0:22:51	SPEAKER_05
+0:22:52	SPEAKER_05
  Count it.
 
-0:22:52	SPEAKER_02
- You've got to excel to count.
-
 0:22:53	SPEAKER_02
- The number of...
+ You've got Excel to count.
 
 0:22:54	SPEAKER_05
- No, a count number of functions.
+ Yeah.
+
+0:22:55	SPEAKER_05
+ No, count number of functions.
 
 0:22:57	SPEAKER_05
  Oh, okay.
 
 0:22:58	SPEAKER_02
- I draw a different screen.
+ I draw a different screen shot.
 
-0:22:59	SPEAKER_02
+0:23:00	SPEAKER_02
  I'll do that because I draw the screen.
 
-0:23:02	SPEAKER_01
+0:23:03	SPEAKER_01
  We've got a battery.
 
-0:23:03	SPEAKER_01
- One is two batteries.
+0:23:04	SPEAKER_01
+ One or two batteries.
 
 0:23:05	SPEAKER_01
  And I want battery.
@@ -1955,340 +2042,289 @@
  But two small batteries.
 
 0:23:08	SPEAKER_05
- Yeah.
-
-0:23:10	SPEAKER_05
- It's more about the energy source.
+ Yeah, but it's more about the energy source.
 
 0:23:11	SPEAKER_05
- Do you use a hand dynamo or battery?
+ Do you use a Henned enamel of battery?
 
-0:23:12	SPEAKER_01
- What do you use for solar cell?
+0:23:13	SPEAKER_01
+ A solar cell.
 
 0:23:14	SPEAKER_01
- Solar cell, no.
+ Solar cell.
 
 0:23:15	SPEAKER_01
- No, no, solar cell.
-
-0:23:16	SPEAKER_01
  No, no, no, no.
 
-0:23:17	SPEAKER_01
+0:23:16	SPEAKER_01
  One battery.
 
-0:23:18	SPEAKER_02
+0:23:17	SPEAKER_01
  Right?
 
+0:23:18	SPEAKER_01
+ No Hundenammer.
+
 0:23:19	SPEAKER_02
- No hand dynamo.
-
-0:23:20	SPEAKER_02
- And...
-
-0:23:21	SPEAKER_01
- And it's running simple chip, right?
-
-0:23:25	SPEAKER_04
- No, we have simple chip.
-
-0:23:26	SPEAKER_04
- An advanced chip.
-
-0:23:27	SPEAKER_04
- But we also have simple speaker tools.
-
-0:23:29	SPEAKER_04
  Yeah.
 
+0:23:20	SPEAKER_02
+ Yeah.
+
+0:23:21	SPEAKER_01
+ And we have simple chip, advanced chip, right?
+
+0:23:25	SPEAKER_04
+ No, I've simple chip.
+
+0:23:27	SPEAKER_04
+ And advanced chip.
+
+0:23:28	SPEAKER_04
+ Well, but we also have sample speaker.
+
 0:23:30	SPEAKER_01
- So this one...
+ Yeah.
 
 0:23:31	SPEAKER_01
- And this one...
+ So this one and this one.
 
 0:23:33	SPEAKER_01
  We're already on mine.
 
 0:23:35	SPEAKER_01
- Single...
+ Single.
 
 0:23:36	SPEAKER_01
  What?
 
 0:23:37	SPEAKER_01
- R-E, oh yay.
-
-0:23:38	SPEAKER_04
- We have double curved.
-
-0:23:39	SPEAKER_04
- Single, nice single curved.
-
-0:23:40	SPEAKER_02
- Single curved.
-
-0:23:41	SPEAKER_02
- Single curved as...
-
-0:23:42	SPEAKER_02
- As you...
-
-0:23:43	SPEAKER_02
- Three dimensional.
-
-0:23:44	SPEAKER_02
- But it isn't three dimensional.
-
-0:23:46	SPEAKER_02
- It isn't curved in...
-
-0:23:47	SPEAKER_01
- It's not going to work, right, people.
-
-0:23:48	SPEAKER_01
- We have to rubber.
-
-0:23:49	SPEAKER_04
- It's going to curved like this, right?
-
-0:23:50	SPEAKER_04
- It's curved like this.
-
-0:23:51	SPEAKER_04
- No, no, no, no.
-
-0:23:52	SPEAKER_02
- Single curved is like this.
-
-0:23:53	SPEAKER_02
- No, no, no, no.
-
-0:23:54	SPEAKER_00
- It's curved like this.
-
-0:23:55	SPEAKER_02
  Yeah.
 
-0:23:56	SPEAKER_02
- That's the only curve you made.
+0:23:38	SPEAKER_01
+ Are we?
 
-0:23:57	SPEAKER_02
- Not curved like this.
+0:23:39	SPEAKER_04
+ Are we a?
 
-0:23:58	SPEAKER_02
- That's...
+0:23:40	SPEAKER_04
+ We have double curved.
 
-0:23:59	SPEAKER_04
- Oh, but we have curved like this, isn't it?
+0:23:41	SPEAKER_02
+ Single.
 
-0:24:00	SPEAKER_04
- The two curved...
+0:23:42	SPEAKER_02
+ Single curved.
+
+0:23:43	SPEAKER_02
+ Single curved.
+
+0:23:44	SPEAKER_02
+ I see three dimensional.
+
+0:23:45	SPEAKER_02
+ But it isn't three dimensional.
+
+0:23:47	SPEAKER_01
+ It's not going to work, people.
+
+0:23:49	SPEAKER_04
+ This one is curved like this, right?
+
+0:23:51	SPEAKER_04
+ It's curved like this.
+
+0:23:52	SPEAKER_04
+ No, no, no, single curved like this.
+
+0:23:54	SPEAKER_02
+ That's the only curve you made, not curved like that.
+
+0:23:58	SPEAKER_04
+ That's, oh, but we have curves like this.
 
 0:24:01	SPEAKER_04
- 13.
+ And the two curves.
 
 0:24:02	SPEAKER_04
- Oh, okay.
+ 13.
 
-0:24:03	SPEAKER_01
- I just said.
+0:24:03	SPEAKER_04
+ Oh, I understand.
 
 0:24:04	SPEAKER_01
- What is the scroll wheel, right?
+ We have the scroll wheel, right?
 
 0:24:05	SPEAKER_01
- Rubber.
+ Yeah.
 
 0:24:06	SPEAKER_01
- Is it integrated?
+ Is he integrated?
 
 0:24:07	SPEAKER_01
- No, it's...
+ No.
 
 0:24:08	SPEAKER_02
- Push it.
+ Push.
 
 0:24:09	SPEAKER_02
- Yeah, we don't have push.
+ Yeah, we don't have.
 
 0:24:10	SPEAKER_02
- We got to integrate it's color wheel and push button.
+ We got an integrated scroll wheel and push button.
 
 0:24:12	SPEAKER_02
- Because when you push it, we want to just pull it in the middle.
+ Because when you push it, we want this pull.
 
-0:24:15	SPEAKER_01
+0:24:14	SPEAKER_02
  Oh, yeah, right.
 
-0:24:16	SPEAKER_01
- It's not...
+0:24:15	SPEAKER_01
+ It's not, it's not, no.
 
 0:24:17	SPEAKER_01
- It's not going to work.
+ Else it can play.
 
 0:24:18	SPEAKER_01
- It's not going to work.
-
-0:24:19	SPEAKER_01
  Okay.
 
+0:24:19	SPEAKER_01
+ You're 15.
+
 0:24:20	SPEAKER_01
- We're 15, not too bad.
+ Too bad.
 
 0:24:21	SPEAKER_01
- Okay, um...
+ Okay.
 
 0:24:22	SPEAKER_01
- Oh, but the special color, yeah.
+ Oh, but the special color.
 
 0:24:24	SPEAKER_01
+ Yeah.
+
+0:24:25	SPEAKER_01
  The special form, right?
 
-0:24:25	SPEAKER_02
+0:24:26	SPEAKER_02
  But now button supplements.
 
-0:24:26	SPEAKER_02
- We don't got a button supplement.
+0:24:27	SPEAKER_02
+ We don't got the button supplements.
 
 0:24:28	SPEAKER_01
  Oh, we don't have any buttons.
 
 0:24:29	SPEAKER_01
- So...
+ So.
 
 0:24:30	SPEAKER_01
- 80.5.
+ 80 and a half.
 
-0:24:31	SPEAKER_04
- Yeah, we need to...
+0:24:31	SPEAKER_01
+ Yeah.
 
 0:24:32	SPEAKER_04
- We have to lower it with...
-
-0:24:33	SPEAKER_04
- Six points.
-
-0:24:34	SPEAKER_04
- No, 15.
+ We have to lower it with six points.
 
 0:24:35	SPEAKER_01
  Okay.
 
 0:24:36	SPEAKER_01
- 12 and a half.
+ 15 and.
 
 0:24:37	SPEAKER_01
- All right.
+ 12 and a half.
 
 0:24:38	SPEAKER_01
+ All right.
+
+0:24:39	SPEAKER_01
  We could lose the curve.
 
-0:24:41	SPEAKER_01
- Yeah.
-
 0:24:42	SPEAKER_04
- We could use...
-
-0:24:43	SPEAKER_04
- I'm not sure.
-
-0:24:44	SPEAKER_02
- We could lose the scroll wheel.
+ We could use, we could lose the scroll wheel.
 
 0:24:45	SPEAKER_02
  We could make just a regular scroll wheel.
 
 0:24:47	SPEAKER_01
- But you can't push it.
+ But you can push it.
 
 0:24:48	SPEAKER_01
  So you can't push it.
 
 0:24:49	SPEAKER_02
- Yeah, you can't push it.
-
-0:24:50	SPEAKER_02
- You have to tap the options we know.
-
-0:24:52	SPEAKER_02
- Uh, button here.
+ You have to tap the options window button here.
 
 0:24:53	SPEAKER_02
- And then scroll down with the...
+ And then scroll down with the button.
 
-0:24:55	SPEAKER_02
- With the button.
-
-0:24:56	SPEAKER_02
- Yeah, I think that will work.
+0:24:57	SPEAKER_02
+ Yeah.
 
 0:24:58	SPEAKER_01
- So a normal scroll wheel.
+ All right.
+
+0:24:59	SPEAKER_01
+ Yeah, I think that will be.
 
 0:25:00	SPEAKER_01
- Oh, best.
+ So normal scroll wheel.
 
 0:25:01	SPEAKER_01
  Normal scroll wheel.
 
 0:25:02	SPEAKER_01
- And I think we should...
+ And I think we should.
 
 0:25:03	SPEAKER_04
- We'll grab the sample speaker.
+ I think we should.
 
 0:25:05	SPEAKER_04
- It's four...
+ You can just grab the sample speaker.
 
-0:25:06	SPEAKER_04
- Four units.
+0:25:07	SPEAKER_04
+ It's four units.
 
-0:25:07	SPEAKER_01
- Well, what if you...
+0:25:08	SPEAKER_01
+ Yeah, but what if you would, it is a new feature.
 
-0:25:09	SPEAKER_01
- It is a new feature.
+0:25:11	SPEAKER_01
+ Okay.
 
-0:25:10	SPEAKER_01
- It's...
+0:25:12	SPEAKER_02
+ So we don't exactly need the same, but we don't need the curve.
 
-0:25:11	SPEAKER_02
- Okay, so we don't exactly need to sing.
+0:25:15	SPEAKER_01
+ No.
 
-0:25:13	SPEAKER_02
- We don't need a curve.
-
-0:25:15	SPEAKER_02
- It's possible to lose that.
-
-0:25:16	SPEAKER_04
- It's probably...
+0:25:16	SPEAKER_02
+ It's possible to lose.
 
 0:25:17	SPEAKER_01
- Square.
+ The curve that's really square.
 
 0:25:18	SPEAKER_01
  No, then it won't stand up from the table.
 
 0:25:21	SPEAKER_01
- Is that...
+ That is what you.
 
 0:25:22	SPEAKER_01
- Is that mean to it?
+ That means with.
 
-0:25:23	SPEAKER_02
- Yeah, that's meant with...
+0:25:23	SPEAKER_01
+ Yeah.
 
 0:25:24	SPEAKER_02
- What's curve?
+ That's meant with what's curve.
 
 0:25:25	SPEAKER_02
  The curve is in a dimension.
 
 0:25:27	SPEAKER_02
- Oh, okay.
+ Oh.
 
 0:25:28	SPEAKER_02
  If you make it a flat one, there's no curve.
@@ -2297,28 +2333,28 @@
  You got no curve.
 
 0:25:31	SPEAKER_04
- Yeah, but that only...
-
-0:25:33	SPEAKER_04
- It's one.
+ Yeah, but that only is one.
 
 0:25:34	SPEAKER_04
- No two.
+ No, two.
 
 0:25:35	SPEAKER_01
  Yeah, a bit.
 
-0:25:36	SPEAKER_04
- No one.
+0:25:36	SPEAKER_01
+ No, one.
 
-0:25:37	SPEAKER_01
- Sixty-four.
+0:25:37	None
+ 60.
 
-0:25:38	SPEAKER_04
- Okay, so we don't...
+0:25:38	SPEAKER_01
+ Okay.
+
+0:25:39	SPEAKER_04
+ So we don't.
 
 0:25:40	SPEAKER_04
- Yeah, we also have to...
+ Yeah, we also have to.
 
 0:25:42	SPEAKER_02
  Is it possible to make?
@@ -2327,43 +2363,52 @@
  Could we do it on a regular chip on print or something?
 
 0:25:47	SPEAKER_04
- Otherwise, we don't have a LCD screen.
+ Otherwise we don't have a LCD screen.
 
 0:25:49	SPEAKER_01
- No, you just can do that.
+ No.
+
+0:25:50	SPEAKER_01
+ You just can't do that.
 
 0:25:51	SPEAKER_05
  What did you change?
 
 0:25:52	SPEAKER_05
- You changed the...
+ You changed the scroll wheel.
 
-0:25:53	SPEAKER_05
- The scroll wheel.
+0:25:54	SPEAKER_05
+ Yeah.
 
-0:25:54	SPEAKER_01
- Yeah, and the single curve...
+0:25:55	SPEAKER_01
+ And the single curve to uncurbs.
 
 0:25:56	SPEAKER_05
- Oh, well, that's just one.
+ Oh, but it's just one.
 
 0:25:58	SPEAKER_04
- Yeah, so that doesn't...
+ Yeah.
 
 0:25:59	SPEAKER_04
- Maybe you should...
+ So that doesn't, that's what you said.
+
+0:26:00	SPEAKER_04
+ Maybe you should.
 
 0:26:01	SPEAKER_04
- Scrape a sample speaker.
+ You should.
+
+0:26:02	SPEAKER_02
+ Scrap a sample speaker.
 
 0:26:03	SPEAKER_02
- The sample speaker is...
+ Yeah.
 
-0:26:05	SPEAKER_04
- It's four points.
+0:26:04	SPEAKER_02
+ The sample speaker stood with four points.
 
 0:26:06	SPEAKER_04
- Yes, four points.
+ You asked four points.
 
 0:26:07	SPEAKER_01
  Yeah, but then you can keep the curve.
@@ -2371,359 +2416,344 @@
 0:26:09	SPEAKER_01
  It is a new feature.
 
-0:26:11	SPEAKER_01
- Yeah, it's a new feature.
+0:26:10	SPEAKER_01
+ I can't.
 
-0:26:12	SPEAKER_04
- When you lose, what else do you want to...
+0:26:11	SPEAKER_01
+ Yeah.
+
+0:26:12	SPEAKER_01
+ When you lose.
+
+0:26:13	SPEAKER_04
+ What else do you want to scrap?
 
 0:26:14	SPEAKER_04
- You have to...
-
-0:26:15	SPEAKER_01
- We have to...
+ We have to, we have to scrap four points.
 
 0:26:16	SPEAKER_01
- Four points.
+ Yeah.
 
 0:26:17	SPEAKER_01
- Yeah, this is difficult.
+ That's difficult.
 
 0:26:18	SPEAKER_05
- Or maybe in a hand, then I'm over.
+ Or maybe I'm going to hand them over.
 
-0:26:20	SPEAKER_04
+0:26:20	SPEAKER_05
  Yeah.
 
 0:26:21	SPEAKER_04
- You think it would...
-
-0:26:22	SPEAKER_04
- Instead of rubber?
+ Instead of rubber.
 
 0:26:23	SPEAKER_02
- No, that's...
+ No, that's not.
 
 0:26:25	SPEAKER_02
- When you make a remote control of wood...
+ When you made a remote control of wood.
 
-0:26:28	SPEAKER_00
- Yeah, it would make a remote control...
+0:26:29	SPEAKER_00
+ Yeah.
 
-0:26:30	SPEAKER_04
- It would make a remote control of wood.
+0:26:30	SPEAKER_02
+ It doesn't make a remote control.
 
-0:26:32	SPEAKER_04
- You can make a tape show, we said it rubber.
+0:26:31	SPEAKER_04
+ It all takes one point less.
+
+0:26:33	SPEAKER_04
+ Yeah.
 
 0:26:34	SPEAKER_05
- Oh, it all stays one point less.
+ But a wooden remote control only helps for.
 
-0:26:36	SPEAKER_05
- Yeah, but a wood and remote control only helps for...
+0:26:37	SPEAKER_01
+ Can I ask something?
 
 0:26:38	SPEAKER_01
- Oh, can I ask some people...
+ All people.
 
-0:26:40	SPEAKER_01
+0:26:39	SPEAKER_01
  What is special color?
 
-0:26:42	SPEAKER_01
- Is that the wood...
+0:26:40	None
+ Is that the wood?
 
-0:26:44	SPEAKER_05
+0:26:41	SPEAKER_01
  I think it is.
 
-0:26:46	SPEAKER_05
- It needs to have that one too.
+0:26:43	SPEAKER_01
+ This we have to have that one too.
 
-0:26:48	SPEAKER_05
- But I think the only option is to...
+0:26:45	SPEAKER_05
+ Yeah.
+
+0:26:46	SPEAKER_05
+ But it's only a hop.
+
+0:26:47	SPEAKER_05
+ But I think the only option is to drop the.
 
 0:26:50	SPEAKER_02
- Yeah.
+ To knock sample speaker in.
 
 0:26:51	SPEAKER_02
- To knock the sample speaker in...
+ And sample sensor.
 
 0:26:53	SPEAKER_01
- And a sample sensor.
-
-0:26:54	SPEAKER_04
  Then we still have too much.
 
-0:26:56	SPEAKER_02
- Yeah, okay, three points.
-
-0:26:57	SPEAKER_02
- Of course, but...
-
-0:26:59	SPEAKER_00
- Yeah, we...
-
-0:27:00	SPEAKER_00
- Watch 12.5.
-
-0:27:01	SPEAKER_02
- What?
-
-0:27:02	SPEAKER_02
- That's making 13 or 14.
-
-0:27:04	SPEAKER_02
- We need 12.5.
-
-0:27:05	SPEAKER_01
- Yeah, we need...
-
-0:27:06	SPEAKER_01
- Three.
-
-0:27:07	SPEAKER_01
- We need 0.3.
-
-0:27:09	SPEAKER_04
- That's the scroll wheel.
-
-0:27:10	SPEAKER_01
- It's a color.
-
-0:27:11	SPEAKER_01
- Don't make a food.
-
-0:27:13	SPEAKER_04
- Yeah, but the wood...
-
-0:27:14	SPEAKER_04
- We can make it brown, dark brown, not the wood.
-
-0:27:16	SPEAKER_01
- Yeah, but is it special color?
-
-0:27:18	SPEAKER_01
- Is it...
-
-0:27:19	SPEAKER_02
- Oh, color?
-
-0:27:20	SPEAKER_02
- Oh, color?
-
-0:27:21	SPEAKER_01
- It's also green or...?
-
-0:27:23	SPEAKER_04
- No, that's just a normal color.
-
-0:27:25	SPEAKER_01
- Yeah, but it's just a color than just rubber color.
-
-0:27:28	SPEAKER_01
- You have to add something to the rubber to make it green.
-
-0:27:30	SPEAKER_01
+0:26:55	SPEAKER_04
  Yeah.
 
+0:26:56	SPEAKER_02
+ Yeah.
+
+0:26:59	SPEAKER_00
+ Yeah.
+
+0:27:00	SPEAKER_00
+ Yeah.
+
+0:27:01	SPEAKER_02
+ Yeah.
+
+0:27:02	SPEAKER_02
+ Yeah.
+
+0:27:03	SPEAKER_02
+ Yeah.
+
+0:27:04	SPEAKER_02
+ Yeah.
+
+0:27:05	SPEAKER_01
+ Yeah.
+
+0:27:06	SPEAKER_01
+ Yeah.
+
+0:27:07	SPEAKER_01
+ Yeah.
+
+0:27:08	SPEAKER_01
+ Yeah.
+
+0:27:09	SPEAKER_04
+ Yeah.
+
+0:27:10	SPEAKER_04
+ Yeah.
+
+0:27:11	SPEAKER_01
+ Yeah.
+
+0:27:12	SPEAKER_01
+ Yeah.
+
+0:27:13	SPEAKER_04
+ Yeah.
+
+0:27:14	SPEAKER_04
+ Yeah.
+
+0:27:15	SPEAKER_04
+ We can make it brown, dark brown, not wood.
+
+0:27:17	SPEAKER_01
+ Yeah.
+
+0:27:18	SPEAKER_01
+ But it's special color.
+
+0:27:19	None
+ Is it?
+
+0:27:20	SPEAKER_02
+ Oh, my gosh.
+
+0:27:21	SPEAKER_02
+ It's also green.
+
+0:27:22	SPEAKER_04
+ No, no.
+
+0:27:27	SPEAKER_01
+ It's just normal color.
+
+0:27:28	SPEAKER_01
+ Yeah.
+
+0:27:29	SPEAKER_01
+ It's just yellow.
+
+0:27:30	SPEAKER_01
+ It's just yellow.
+
 0:27:31	SPEAKER_01
- You don't say here, it's green rubber.
+ It's just yellow.
+
+0:27:32	SPEAKER_01
+ It's just yellow.
+
+0:27:33	None
+ It's just yellow color.
 
 0:27:34	SPEAKER_00
- They don't tell green rubber.
-
-0:27:35	SPEAKER_00
- I don't think you can...
+ You have to add something to the rubber to make it green.
 
 0:27:36	SPEAKER_04
- Every way...
+ Yeah.
 
 0:27:37	SPEAKER_04
- Two or 12.5.
-
-0:27:38	SPEAKER_01
- Yeah, you can.
+ You don't say here, green rubber.
 
 0:27:39	SPEAKER_01
- You have to...
+ They don't say it green rubber.
 
-0:27:40	SPEAKER_04
- Well, then we have to scrap LCD display.
+0:27:40	SPEAKER_01
+ They don't say it green rubber.
+
+0:27:41	SPEAKER_04
+ I don't think you can.
 
 0:27:42	SPEAKER_04
- We have to scrap...
+ Every way.
 
 0:27:43	SPEAKER_04
- No, it's the most...
+ Two or twelve and a half.
 
-0:27:45	SPEAKER_04
-...I guess.
+0:27:44	SPEAKER_04
+ Yeah, you can.
+
+0:27:45	SPEAKER_01
+ You should.
 
 0:27:46	SPEAKER_04
- Then we have to scrap everything.
+ You have to lose.
+
+0:27:47	SPEAKER_04
+ But then we have to scrap LCD display.
 
 0:27:48	SPEAKER_04
- Because how many colors we're going to make?
+ We have to scrap.
+
+0:27:49	SPEAKER_04
+ No.
 
 0:27:50	SPEAKER_04
- Five.
+ No.
 
 0:27:51	SPEAKER_02
- If we lose the scroll wheel...
+ You can make it blue as a scroll wheel.
 
-0:27:52	SPEAKER_02
-...and make it totally depending...
-
-0:27:55	SPEAKER_02
-...depended on the touchscreen...
+0:27:53	SPEAKER_02
+ And make it totally depending on the touch screen.
 
 0:27:57	SPEAKER_02
-...then it's possible to make...
+ Then it's possible to make.
 
-0:27:59	SPEAKER_02
-...and then you can add two colors.
+0:27:58	SPEAKER_02
+ Then you can add two colors.
 
 0:28:01	SPEAKER_02
  And then you can add the colors.
 
 0:28:02	SPEAKER_02
- Yeah, two colors, of course.
-
-0:28:03	SPEAKER_02
- We did...
+ You have two colors with it.
 
 0:28:04	SPEAKER_02
-...special...
+ It's special.
 
 0:28:05	SPEAKER_02
- If you lose...
+ If you lose.
 
-0:28:06	SPEAKER_02
-...if you lose the...
+0:28:07	SPEAKER_02
+ If you lose.
 
-0:28:09	SPEAKER_01
- It's not such a great idea.
+0:28:08	SPEAKER_02
+ That's such a great idea.
 
-0:28:11	SPEAKER_02
- You do it this way.
+0:28:12	SPEAKER_02
+ If you lose this one and you get a level of.5, and you make, and then you can make a special single curve,
 
-0:28:13	SPEAKER_02
- And you get a level of 0.5.
+0:28:18	SPEAKER_04
+ for example. The colors, like she told, is that all colors we add are.
 
-0:28:14	SPEAKER_02
- And then you can make...
-
-0:28:16	SPEAKER_02
-...a special single curve, for example.
-
-0:28:19	SPEAKER_04
- And then you have two colors.
-
-0:28:22	SPEAKER_04
- The colors, like she told...
-
-0:28:25	SPEAKER_04
-...is that all the colors we add...
-
-0:28:28	SPEAKER_02
-...or...
+0:28:27	SPEAKER_02
+ What do you mean?
 
 0:28:29	SPEAKER_02
-...anyway, colors.
+ Special colors.
 
 0:28:30	SPEAKER_02
- Special colors, all the colors you want...
+ How all the colors you want.
 
 0:28:32	SPEAKER_04
-...because we have yellow, red, black...
+ We have yellow, red, black.
 
 0:28:36	SPEAKER_02
-...when you use more than one color, it's a special color.
+ When you use more than one color, it's a special color.
 
 0:28:40	SPEAKER_01
- Okay.
+ I think when you use the color that's not originally the rubber, then you use special color.
 
-0:28:41	SPEAKER_01
- But I think when you use the color that's not originally the rubber...
-
-0:28:44	SPEAKER_01
-...then you use special color.
-
-0:28:46	SPEAKER_04
- But the rubber is also original black.
+0:28:45	SPEAKER_04
+ The rubber is always original, black.
 
 0:28:48	SPEAKER_01
  You could make it always black.
 
 0:28:51	SPEAKER_04
- Yeah, but we're going to make it yellow, red...
-
-0:28:53	SPEAKER_04
-...and then you add...
+ We're going to make it yellow, red.
 
 0:28:54	SPEAKER_04
-...you have two special colors on top of the one.
+ Then you have two special colors on top of the one.
 
 0:28:57	SPEAKER_02
  We also want to make another color.
 
-0:28:59	SPEAKER_01
- Yeah, we have to make this like four or five or something.
+0:29:00	SPEAKER_01
+ We have to make this like four or five or something.
 
 0:29:03	SPEAKER_04
- Because we have more colors than only black.
-
-0:29:05	SPEAKER_04
- Yeah, but it isn't it.
+ More colors are only black.
 
 0:29:06	SPEAKER_04
- I don't think they made me special.
+ Then I think they made me a special.
 
-0:29:09	SPEAKER_01
- Right, is it very remote?
+0:29:10	SPEAKER_01
+ Is it very remote?
 
-0:29:11	SPEAKER_05
- I think it made half-per-remote.
-
-0:29:13	SPEAKER_01
- Yeah, that's right.
+0:29:12	SPEAKER_05
+ I think you pay half per remote.
 
 0:29:14	SPEAKER_01
- And you want one color, for every remote.
+ I think you need one color per remote.
 
-0:29:16	SPEAKER_02
- Yeah, and then it is one.
+0:29:16	SPEAKER_01
+ Yeah, indeed.
 
 0:29:17	SPEAKER_02
- You don't need four of those.
+ So then it is one.
 
-0:29:19	SPEAKER_02
- Yeah, for those special colors, you want to choose one remote.
+0:29:18	SPEAKER_02
+ You don't need four of those for those special colors in one remote.
 
-0:29:23	SPEAKER_00
- Yeah.
-
-0:29:24	SPEAKER_04
+0:29:23	SPEAKER_04
  We have two points spare.
 
-0:29:26	SPEAKER_04
- So the one point.
-
 0:29:27	SPEAKER_05
- We have an advanced chip on print.
+ We have advanced chip on print.
 
-0:29:31	SPEAKER_01
- So it would be curved, single curved.
-
-0:29:34	SPEAKER_01
- Because of...
+0:29:32	SPEAKER_01
+ So it would be curved, single curves.
 
 0:29:35	SPEAKER_05
- Or not.
+ Because of...
 
 0:29:36	SPEAKER_05
- Yeah, well you can at least make it curved again.
-
-0:29:38	SPEAKER_01
- Very single curved.
+ Yeah, well, you can at least make it curved again.
 
 0:29:39	SPEAKER_01
  You can make a nice remote.
@@ -2731,77 +2761,83 @@
 0:29:42	SPEAKER_05
  Because that was very important.
 
-0:29:43	SPEAKER_01
+0:29:44	SPEAKER_05
  Too bad for the speaker.
 
-0:29:44	SPEAKER_05
- So it's curved, so we dropped the speech recognition.
+0:29:45	SPEAKER_05
+ So it's curved.
+
+0:29:46	SPEAKER_05
+ So we dropped the speech recognition.
 
 0:29:48	SPEAKER_05
- Should we change that speaker?
+ Should we change that?
 
 0:29:49	SPEAKER_01
- That's a one or not.
+ That's the one, if not.
 
 0:29:51	SPEAKER_05
  We dropped the scroll wheel.
 
-0:29:52	SPEAKER_01
+0:29:52	SPEAKER_05
  Could you copy it?
 
 0:29:53	SPEAKER_01
- And the rest is the same, huh?
+ And the rest is the same.
 
 0:29:55	SPEAKER_04
- The scroll wheel is locked.
+ The scroll wheel is dropped.
 
 0:29:59	SPEAKER_01
  The entire...
 
-0:30:00	SPEAKER_02
- Oh, yeah.
+0:30:00	SPEAKER_01
+ Yeah.
 
-0:30:02	SPEAKER_01
- Actually, I think copy page of the song.
+0:30:01	SPEAKER_01
+ Actually, I think copy page.
 
-0:30:06	SPEAKER_01
+0:30:05	SPEAKER_01
  Oh.
 
-0:30:17	SPEAKER_01
- Oh, you made the entire...
+0:30:12	SPEAKER_01
+ Oh.
 
-0:30:20	SPEAKER_01
- And do...
+0:30:18	SPEAKER_01
+ Oh, I made the entire...
 
-0:30:21	SPEAKER_02
- And do...
+0:30:21	SPEAKER_01
+ I do.
 
 0:30:22	SPEAKER_02
- And do.
+ I do.
+
+0:30:23	SPEAKER_02
+ I do.
 
 0:30:24	SPEAKER_00
- No, not one more time.
+ No, no, no, no.
 
 0:30:26	SPEAKER_02
- Okay, let me make it.
+ Okay.
 
-0:30:28	SPEAKER_01
- Two.
+0:30:27	SPEAKER_02
+ Are you there?
+
+0:30:28	SPEAKER_02
+ I do.
 
 0:30:29	SPEAKER_01
  Perhaps you can say this one.
 
 0:30:32	SPEAKER_01
- Now copy page.
+ And I'll copy it.
 
-0:30:34	SPEAKER_01
- And copy page.
+0:30:35	SPEAKER_01
+ I'll just copy page.
 
-0:30:36	SPEAKER_01
+0:30:38	SPEAKER_01
  Left off.
-
-0:30:39	SPEAKER_01
- No, but you...
 
 0:30:40	SPEAKER_05
  Yeah.
@@ -2809,74 +2845,101 @@
 0:30:41	SPEAKER_01
  All right.
 
-0:30:42	SPEAKER_01
- Something I don't know.
+0:30:43	SPEAKER_01
+ Something on wrong.
 
-0:30:50	SPEAKER_05
- Okay, but this new remote we can't afford.
+0:30:51	None
+ Okay.
 
-0:30:55	SPEAKER_01
- Let's forget.
+0:30:53	SPEAKER_05
+ But this new remote we can afford.
 
 0:30:56	SPEAKER_01
- It should have worked.
+ Let's forget.
 
 0:30:57	SPEAKER_02
- Okay, so you had this list as start?
+ It should have worked.
 
-0:31:00	SPEAKER_02
- No.
+0:30:58	SPEAKER_02
+ Okay.
+
+0:30:59	SPEAKER_02
+ So it has this list as start.
 
 0:31:01	SPEAKER_02
- I guess you received it.
+ No.
+
+0:31:02	SPEAKER_02
+ No.
+
+0:31:03	SPEAKER_02
+ One degree this list.
 
 0:31:04	SPEAKER_02
- Oh, okay.
+ I just received it.
 
 0:31:05	SPEAKER_00
+ Okay.
+
+0:31:06	SPEAKER_02
  Yeah.
 
-0:31:06	SPEAKER_05
- It works so hard at the final department.
+0:31:07	SPEAKER_05
+ It works so hard at the finance department.
+
+0:31:09	SPEAKER_02
+ Okay.
 
 0:31:10	SPEAKER_02
- Well, suppose this is...
+ Well, though...
 
-0:31:12	SPEAKER_02
- Okay, so we lose the scroll wheel.
+0:31:11	SPEAKER_02
+ I suppose this is...
 
-0:31:15	SPEAKER_01
+0:31:13	SPEAKER_02
+ Okay.
+
+0:31:14	SPEAKER_02
+ So we lose the scroll wheel.
+
+0:31:15	SPEAKER_02
  Yeah.
 
 0:31:16	SPEAKER_01
  The microphone.
 
 0:31:18	SPEAKER_05
- Yeah, and that's it.
+ Yeah.
 
 0:31:19	SPEAKER_05
- And the microphone.
+ And that's it.
 
 0:31:20	SPEAKER_01
- And we changed something, I guess.
+ And the microphone.
+
+0:31:21	SPEAKER_01
+ And we change something, I guess.
 
 0:31:22	SPEAKER_01
- I'm not...
+ We...
 
-0:31:25	SPEAKER_01
+0:31:24	SPEAKER_01
  I don't know.
 
-0:31:27	SPEAKER_02
+0:31:27	None
  Okay.
 
-0:31:29	SPEAKER_05
- That's 12, you have 50.
+0:31:28	SPEAKER_02
+ 12, you have 15.
 
-0:31:31	SPEAKER_05
- And did you try to make a new design?
+0:31:30	SPEAKER_05
+ And did you try to make a new design or what?
 
-0:31:33	SPEAKER_01
- Yeah, I tried to copy that one, but it didn't work.
+0:31:33	SPEAKER_05
+ Yeah.
+
+0:31:34	SPEAKER_01
+ I tried to copy that one, but it didn't work.
 
 0:31:35	SPEAKER_01
  It didn't work.
@@ -2884,293 +2947,374 @@
 0:31:36	SPEAKER_01
  So we could fix it like this.
 
-0:31:40	SPEAKER_01
+0:31:39	SPEAKER_05
  You could select it all.
 
 0:31:42	SPEAKER_01
- That's why you can erase.
+ It's longer.
 
-0:31:44	SPEAKER_02
- Oh, you can't erase?
+0:31:43	SPEAKER_01
+ Then you can erase.
 
-0:31:46	SPEAKER_01
+0:31:44	None
+ Oh.
+
+0:31:45	SPEAKER_02
+ You can only erase?
+
+0:31:46	SPEAKER_02
  Erase.
 
 0:31:47	SPEAKER_01
- When you...
+ Erase.
 
-0:31:49	SPEAKER_01
- Earlier when we selected it, I don't erase anything.
+0:31:48	SPEAKER_01
+ Earlier when we selected it.
 
-0:31:54	SPEAKER_05
- I can't even just say copy.
+0:31:50	SPEAKER_01
+ Erase anything.
 
-0:31:57	SPEAKER_05
- Blink, new page.
-
-0:32:01	SPEAKER_05
- Based.
-
-0:32:02	SPEAKER_05
- Ah.
-
-0:32:04	SPEAKER_05
- Yeah.
-
-0:32:07	SPEAKER_05
- Select none.
-
-0:32:09	SPEAKER_05
- Just tap somewhere.
-
-0:32:10	SPEAKER_02
- Just tap somewhere.
-
-0:32:12	SPEAKER_02
- Just tap somewhere.
-
-0:32:13	SPEAKER_02
- You're excited.
-
-0:32:14	SPEAKER_05
- Right.
-
-0:32:15	SPEAKER_05
+0:31:52	SPEAKER_01
  Okay.
 
-0:32:16	SPEAKER_05
+0:31:53	SPEAKER_05
+ Can't you just say copy, blink, new page.
+
+0:31:59	SPEAKER_05
+ Base.
+
+0:32:00	None
+ Erase.
+
+0:32:01	SPEAKER_05
+ Erase.
+
+0:32:02	SPEAKER_05
+ Erase.
+
+0:32:03	SPEAKER_05
+ Select none.
+
+0:32:04	None
+ Just...
+
+0:32:05	None
+ Just step down somewhere.
+
+0:32:06	SPEAKER_05
+ Just step somewhere.
+
+0:32:07	SPEAKER_05
+ Decided.
+
+0:32:08	SPEAKER_05
+ Right.
+
+0:32:09	SPEAKER_05
+ Okay.
+
+0:32:10	SPEAKER_02
  And now you can erase.
 
-0:32:18	SPEAKER_01
+0:32:11	SPEAKER_02
  I don't think I can.
 
+0:32:12	SPEAKER_02
+ You can try.
+
+0:32:13	SPEAKER_02
+ Or you can try.
+
+0:32:14	SPEAKER_02
+ Oh.
+
+0:32:15	SPEAKER_05
+ Yeah.
+
+0:32:16	SPEAKER_05
+ Oh.
+
+0:32:17	SPEAKER_05
+ Oh.
+
+0:32:18	SPEAKER_01
+ Oh.
+
+0:32:19	SPEAKER_01
+ Oh.
+
 0:32:20	SPEAKER_01
- I can try.
+ Oh.
 
 0:32:21	SPEAKER_01
- Oh, yeah.
+ Oh.
 
 0:32:22	SPEAKER_01
- No.
+ Oh.
 
 0:32:23	SPEAKER_01
- Oh, no.
+ Oh.
 
 0:32:24	SPEAKER_05
- Oh, you can draw off it with white.
+ Oh.
 
-0:32:26	SPEAKER_01
- Yeah, we tried it earlier.
+0:32:25	SPEAKER_05
+ Oh.
+
+0:32:26	SPEAKER_05
+ Oh.
+
+0:32:27	SPEAKER_01
+ Oh.
 
 0:32:28	SPEAKER_01
- It's very much work.
+ Oh.
+
+0:32:29	SPEAKER_01
+ Oh.
+
+0:32:30	SPEAKER_05
+ Oh.
 
 0:32:31	SPEAKER_05
- Sorry.
+ Oh.
+
+0:32:32	SPEAKER_05
+ Oh.
 
 0:32:33	SPEAKER_05
- Well, but that's also useful for the evaluation.
+ Oh.
+
+0:32:34	SPEAKER_05
+ Oh.
+
+0:32:35	SPEAKER_05
+ Oh.
 
 0:32:36	SPEAKER_05
- Because I think we have a prototype now, which we can afford.
+ Oh.
+
+0:32:37	SPEAKER_05
+ Oh.
+
+0:32:38	SPEAKER_05
+ Oh.
+
+0:32:39	SPEAKER_05
+ Oh.
 
 0:32:40	SPEAKER_05
- And we only need to draw a little bit to get a good design.
+ Oh.
+
+0:32:41	SPEAKER_05
+ Oh.
+
+0:32:42	SPEAKER_05
+ Oh.
+
+0:32:43	SPEAKER_05
+ Sorry.
+
+0:32:44	SPEAKER_05
+ Well, but that's also useful for the evaluation.
+
+0:32:45	SPEAKER_05
+ Because I think we have a prototype now which we can afford.
 
 0:32:48	SPEAKER_05
+ And we only need to draw a little bit to get a good, yeah.
+
+0:32:52	SPEAKER_05
+ Design.
+
+0:32:53	SPEAKER_05
  Doodle.
 
-0:32:49	SPEAKER_05
- And I think we should then move on to the production evaluation, because of the time.
-
 0:32:54	SPEAKER_04
- And erase the mic.
+ And I think we should then move on to the production evaluation.
+
+0:32:55	SPEAKER_04
+ Because of the time.
 
 0:32:56	SPEAKER_01
- Yeah, goodbye, Mike.
+ Yeah, goodbye Mike.
 
 0:32:57	SPEAKER_02
  Well, I need his no mic.
 
-0:32:59	SPEAKER_01
- So I erased half of the mic.
+0:32:58	SPEAKER_01
+ Well, I erased half of the line.
 
 0:33:03	SPEAKER_05
  See this?
 
-0:33:05	SPEAKER_02
- Push it on.
+0:33:04	SPEAKER_05
+ Push on.
 
-0:33:07	SPEAKER_05
- I'll move back to here.
+0:33:06	SPEAKER_05
+ I'm moving back to here.
 
-0:33:12	SPEAKER_01
- Too bad, oh.
+0:33:11	SPEAKER_01
+ Too bad.
 
-0:33:15	None
- Blah.
+0:33:14	None
+ Oh.
 
-0:33:18	SPEAKER_04
- Hmm.
+0:33:17	SPEAKER_01
+ Like this?
 
-0:33:21	SPEAKER_01
- Like this.
-
-0:33:24	SPEAKER_01
+0:33:25	SPEAKER_05
  Mm-hmm.
 
-0:33:25	SPEAKER_01
+0:33:26	SPEAKER_01
  Still looks nice.
 
-0:33:26	SPEAKER_05
- Oh, great.
-
 0:33:27	SPEAKER_05
- Okay.
+ And then, oh, green.
 
 0:33:28	SPEAKER_05
- Oh, thank you.
+ Okay.
 
 0:33:29	SPEAKER_05
- Oh, looks like iPod.
+ Oh, thank you.
 
-0:33:30	SPEAKER_05
- Oh, no, Mick.
+0:33:30	SPEAKER_00
+ Oh, let's see.
+
+0:33:31	SPEAKER_05
+ Looks like iPod.
 
 0:33:32	SPEAKER_05
- No.
+ Oh, no mic.
 
 0:33:33	SPEAKER_05
- Hey, how can you erase that?
-
-0:33:35	SPEAKER_01
- Yeah, this is a bit weird.
-
-0:33:37	SPEAKER_01
- Oh, it's not really nice.
-
-0:33:38	SPEAKER_02
- The difference between lines and text and pen.
-
-0:33:41	None
- Yeah.
-
-0:33:42	SPEAKER_03
- Oh, all I need is more mic.
-
-0:33:46	SPEAKER_05
- You can't erase this.
-
-0:33:49	SPEAKER_05
  No.
 
-0:33:50	SPEAKER_05
- Okay, let's just leave it at this.
+0:33:34	SPEAKER_05
+ Hey, can I erase that?
 
-0:33:53	SPEAKER_05
- And we should be safe.
+0:33:35	SPEAKER_01
+ Yeah, it's super green.
+
+0:33:37	SPEAKER_01
+ Oh, it's not really light.
+
+0:33:38	SPEAKER_02
+ Difference between lines and text and the pen.
+
+0:33:41	SPEAKER_00
+ Yeah.
+
+0:33:42	None
+ Oh.
+
+0:33:43	SPEAKER_03
+ Oh, it is one more.
+
+0:33:45	SPEAKER_03
+ Oh, it's a white.
+
+0:33:48	SPEAKER_05
+ Can you erase this?
+
+0:33:50	SPEAKER_00
+ No.
+
+0:33:51	SPEAKER_05
+ Okay, well, just leave it at this.
+
+0:33:54	SPEAKER_05
+ And so it's quickly saved.
 
 0:33:56	SPEAKER_05
  And then we are going to the project or product evaluation.
 
-0:34:00	SPEAKER_05
- We just did.
-
 0:34:01	SPEAKER_05
- Now project evaluation.
+ We just did our project evaluation.
 
-0:34:03	SPEAKER_05
+0:34:04	SPEAKER_05
  Oh, I think I can sit for that.
 
-0:34:06	SPEAKER_05
+0:34:07	SPEAKER_05
  Almost my final slide.
 
 0:34:10	SPEAKER_05
  What did you think about the process?
 
-0:34:13	SPEAKER_05
+0:34:14	SPEAKER_05
  How satisfied are we?
 
-0:34:16	SPEAKER_02
- The headlines are sometimes are short.
+0:34:17	SPEAKER_02
+ That lines are sometimes are short.
 
-0:34:18	SPEAKER_02
- Yeah, that's stressful.
+0:34:19	SPEAKER_01
+ Yeah.
 
-0:34:20	SPEAKER_04
- I think it should be better if we worked a little bit together.
+0:34:20	SPEAKER_01
+ That's stressful.
+
+0:34:21	SPEAKER_04
+ You think that's what my presentation is already?
+
+0:34:23	SPEAKER_04
+ It would be better if we worked a little bit together.
 
 0:34:27	SPEAKER_04
- Now we worked through each other.
+ Yeah.
 
-0:34:29	SPEAKER_04
- And you could ask him.
+0:34:28	SPEAKER_04
+ Now we worked through each other and you could ask them.
 
-0:34:30	SPEAKER_04
- And you had information I didn't have.
+0:34:30	SPEAKER_01
+ And so an information I didn't have.
 
-0:34:32	SPEAKER_04
- And you had information I also had.
+0:34:31	SPEAKER_04
+ Yeah, and you had information I also had.
 
 0:34:34	SPEAKER_04
  Oh.
 
 0:34:35	SPEAKER_04
- Some things I had in my presentation.
+ Some things I had in my presentation, they already told.
 
-0:34:36	SPEAKER_04
- They already told so.
-
-0:34:37	SPEAKER_05
- And for me it sometimes was a surprise who was going to present.
-
-0:34:40	SPEAKER_05
- What?
+0:34:38	SPEAKER_05
+ And for me, it sometimes was a surprise who was going to present what.
 
 0:34:41	SPEAKER_04
- So yeah, I don't think that is the best way to work.
+ So, yeah, I don't think that is the best way to work at for such a project.
 
-0:34:44	SPEAKER_05
- Yeah, for so you would say communicate during our individual.
+0:34:46	SPEAKER_05
+ You would say communicate during our individual.
 
-0:34:48	SPEAKER_04
- Yeah, and maybe a session of five minutes together or something and then work.
+0:34:49	SPEAKER_04
+ Or maybe a session of five minutes together or something and then work separate.
 
-0:34:52	SPEAKER_02
+0:34:53	SPEAKER_02
  Yeah, but why not work here together?
 
-0:34:54	SPEAKER_02
+0:34:55	SPEAKER_02
  Yeah.
 
-0:34:55	SPEAKER_02
- For example, why should we be separated from each other?
+0:34:56	SPEAKER_02
+ For example, why should we be separated from each other in those different rooms?
 
-0:34:57	SPEAKER_02
- And there's different, different rooms.
+0:35:01	SPEAKER_05
+ No, probably to simulate the whole working process.
 
-0:35:00	SPEAKER_05
- Probably to simulate the whole working process.
-
-0:35:03	SPEAKER_05
+0:35:04	SPEAKER_05
  Yeah, you can work together too.
 
 0:35:05	SPEAKER_05
  You can't have a meeting.
 
-0:35:06	SPEAKER_05
- Yeah, yeah.
-
 0:35:07	SPEAKER_04
- It's a lot of work.
+ Yeah, several weeks.
 
 0:35:08	SPEAKER_04
- Then you can work together too by mail or by chat.
-
-0:35:11	SPEAKER_04
- Something.
+ Then you can work together by mail or by, I don't know, chats, something.
 
 0:35:12	SPEAKER_04
- Yeah, we are completely separated from each other.
+ Now we are completely separated from each other.
 
 0:35:15	SPEAKER_04
  I don't think that was the best way.
@@ -3179,70 +3323,70 @@
  But the technology was fantastic.
 
 0:35:20	SPEAKER_02
- Yeah, the technology was really good.
-
-0:35:21	SPEAKER_01
  I don't really like that board.
 
 0:35:22	SPEAKER_01
  It doesn't really work.
 
 0:35:23	SPEAKER_01
- Yeah, I'll give I don't think that.
+ Work now.
 
-0:35:25	SPEAKER_04
- Sometimes it's a big thing.
+0:35:24	SPEAKER_01
+ Sometimes it would be good.
 
 0:35:26	SPEAKER_04
- I think that's what it does work.
-
-0:35:27	SPEAKER_01
- It does work, but sometimes it doesn't do race or it doesn't.
+ It does work, but sometimes it does do right.
 
 0:35:29	SPEAKER_02
- Yeah, perhaps it is easy to get one of those digital pens or so and two and lay it next to that keyboard over there.
+ Perhaps it is easier to get one of those digital pens or so and lay next to that keyboard.
 
 0:35:36	SPEAKER_02
- So you can draw it and see it on the screen or something.
+ So you can draw and see it on the screen.
 
 0:35:39	SPEAKER_03
  Yeah.
 
-0:35:40	SPEAKER_05
- Yeah, yeah.
+0:35:40	SPEAKER_03
+ Yeah.
 
-0:35:42	SPEAKER_05
- So you don't think the smart board is really useful.
+0:35:41	SPEAKER_05
+ So you don't think the smart board is really useful?
 
 0:35:46	SPEAKER_01
- But it doesn't really work all the time.
+ It's useful, but it doesn't really work all the time.
 
 0:35:49	SPEAKER_02
- So when you put a pen on the screen, for example, the line is being drawn two or three centimeters below.
+ So when you put the pen on the screen, the line is being drawn at two or three centimeters below.
 
-0:35:56	SPEAKER_05
- Yeah, so it's maybe a bit natural.
+0:35:57	SPEAKER_05
+ Yeah, so it may be a bit natural.
 
-0:35:58	SPEAKER_05
- Yeah, right.
+0:35:59	SPEAKER_05
+ Yeah, all right.
 
-0:35:59	SPEAKER_01
- Yeah, you can point where you want the line to be.
+0:36:00	SPEAKER_01
+ Yeah, you can point to where you want the line to be.
 
 0:36:03	SPEAKER_01
- But.
+ But...
 
-0:36:06	SPEAKER_02
- The project because of the deadlines you didn't have time to have you didn't have time to make a very qualitative presentation.
+0:36:05	SPEAKER_02
+ The project, because of the deadlines, you didn't have time to make a very...
 
-0:36:21	SPEAKER_02
- So you used the different PowerPoint presentations in which you put your material on.
+0:36:15	SPEAKER_02
+ Quality of presentation.
 
-0:36:30	SPEAKER_00
- Oh, that wasn't me.
+0:36:20	SPEAKER_02
+ So you used the different PowerPoint presentations in which you put your material on...
 
-0:36:33	SPEAKER_05
- Yeah, that wasn't me.
+0:36:30	SPEAKER_02
+ Oh.
+
+0:36:32	SPEAKER_05
+ That wasn't me.
+
+0:36:34	SPEAKER_05
+ That wasn't me.
 
 0:36:36	SPEAKER_05
  So the means we discussed the smart board and what about this digital pen?
@@ -3250,85 +3394,91 @@
 0:36:41	SPEAKER_01
  I didn't use it at all.
 
+0:36:42	SPEAKER_01
+ I use it.
+
 0:36:43	SPEAKER_01
- I used it.
-
-0:36:44	SPEAKER_01
- So you can use it as a project.
-
-0:36:47	SPEAKER_05
- I used it as a normal pen and only you used it to get it on the computer.
+ I used it as a normal pen and only you used it on the computer.
 
 0:36:52	SPEAKER_01
  Yeah, it did work.
 
-0:36:54	SPEAKER_02
- I used it too.
+0:36:53	SPEAKER_02
+ I used it too, but...
 
-0:36:56	SPEAKER_01
+0:36:55	SPEAKER_01
  I don't think why you want to use it.
 
 0:36:59	SPEAKER_01
  But it does work.
 
 0:37:01	SPEAKER_04
- So make some designs that's very easy to design something and then loyalty to your computer.
+ To make some designs, it's very easy to decide something and then lower it than you could be.
 
 0:37:06	SPEAKER_01
- I mean, you can show it to them.
+ Yeah, and then you can show it to everyone.
 
 0:37:07	SPEAKER_02
- Yeah, that's a right idea.
+ Yeah, that's right.
+
+0:37:08	SPEAKER_02
+ Yeah.
 
 0:37:09	SPEAKER_01
- It doesn't really matter.
+ It doesn't really work normally.
 
 0:37:10	SPEAKER_02
- But the big to write.
-
-0:37:12	SPEAKER_02
  It's too big, it's too fat.
 
-0:37:14	SPEAKER_02
- Fat document does.
+0:37:13	SPEAKER_02
+ Fat dog windows.
 
-0:37:17	SPEAKER_05
+0:37:16	SPEAKER_05
  Okay.
 
-0:37:19	SPEAKER_05
+0:37:18	SPEAKER_05
  And what about the teamwork?
 
-0:37:21	SPEAKER_03
+0:37:20	SPEAKER_05
  I think it was great.
 
-0:37:23	SPEAKER_03
+0:37:22	SPEAKER_01
  I think so too.
 
-0:37:24	SPEAKER_03
- The only thing that we work through post-itual or something, that's the only problem.
+0:37:23	SPEAKER_03
+ Only thing that we worked through post-iture, something that was all the problem.
 
 0:37:28	SPEAKER_04
- But it was hard assignment.
+ But there's a lot of assignments.
+
+0:37:30	SPEAKER_04
+ Yeah.
 
 0:37:31	SPEAKER_05
- Okay, and maybe I should work out of the room when you discuss this point.
+ But for the more...
 
-0:37:35	SPEAKER_01
+0:37:32	SPEAKER_05
+ Maybe I should walk out of the room when you discuss at this point.
+
+0:37:35	SPEAKER_05
  I thought it was good.
 
 0:37:38	SPEAKER_03
  Yeah, no problem.
 
-0:37:39	SPEAKER_02
- Not too much, not too too.
+0:37:40	SPEAKER_02
+ Not too much, not too...
 
-0:37:42	SPEAKER_00
+0:37:42	SPEAKER_03
  Yeah.
 
-0:37:43	SPEAKER_05
- Okay.
+0:37:43	SPEAKER_00
+ Yeah.
 
 0:37:44	SPEAKER_05
+ Okay.
+
+0:37:45	SPEAKER_05
  And creativity?
 
 0:37:46	SPEAKER_05
@@ -3338,78 +3488,72 @@
  It's been creative.
 
 0:37:50	SPEAKER_02
- Yeah, the room for...
+ Yeah, all the room for...
 
-0:37:51	SPEAKER_02
- There was the idea to be creative.
+0:37:52	SPEAKER_02
+ It was the idea to be creative, so...
 
-0:37:53	SPEAKER_02
- Yeah.
-
-0:37:58	SPEAKER_01
+0:37:55	SPEAKER_02
  You got some standard ideas in your head.
 
-0:38:00	SPEAKER_01
+0:37:58	SPEAKER_02
  And this is what came out.
 
-0:38:02	SPEAKER_01
+0:38:00	SPEAKER_01
  You get stuff from the...
 
-0:38:04	None
+0:38:02	SPEAKER_01
  Yeah.
 
-0:38:05	SPEAKER_02
- The information was sometimes...
-
-0:38:08	SPEAKER_02
- A little bit too late or too late.
+0:38:03	SPEAKER_02
+ Information was sometimes a little bit too late or too late.
 
 0:38:11	SPEAKER_04
- You just said that for that middle.
+ You just said that for 10 minutes?
 
 0:38:13	SPEAKER_01
  Yeah.
 
 0:38:14	SPEAKER_01
- Yeah.
+ Okay, where did he...
 
 0:38:15	SPEAKER_04
- I played, I think, seven times solitary or something.
+ I played, I think, seven times only 10 or something.
 
 0:38:18	SPEAKER_04
- Wow, I didn't know it was time.
-
-0:38:19	SPEAKER_01
- Is it on there?
+ Well, I didn't have time for that.
 
 0:38:20	SPEAKER_01
- It's on there.
+ Oh, did you... is it on there?
 
 0:38:21	SPEAKER_01
- I didn't find that.
+ It's on there.
 
 0:38:22	SPEAKER_01
- That's something.
+ I didn't find that.
 
 0:38:23	SPEAKER_01
- I'm so excited.
+ I'm seriously concerned.
 
 0:38:24	SPEAKER_05
- It's like five emails at one moment.
+ I'm seriously concerned.
 
-0:38:27	SPEAKER_04
- No, I never got that.
+0:38:25	SPEAKER_05
+ There's like five emails at one moment.
+
+0:38:27	SPEAKER_05
+ I never got that.
 
 0:38:28	SPEAKER_05
- I've never liked one email after 10 minutes or something.
+ I was like one more after 10 minutes or something.
 
 0:38:31	SPEAKER_05
- Yeah, I even got spam.
+ I even got spammed.
 
 0:38:33	SPEAKER_05
  Or something like that.
 
-0:38:35	SPEAKER_04
+0:38:35	SPEAKER_05
  That's what we said.
 
 0:38:36	SPEAKER_04
@@ -3418,14 +3562,17 @@
 0:38:39	SPEAKER_04
  In the beginning, I didn't understand what to do.
 
-0:38:42	SPEAKER_04
- No, the first time.
+0:38:43	SPEAKER_04
+ No, it was fun.
 
 0:38:44	SPEAKER_04
- I didn't know.
+ I didn't know...
 
 0:38:45	SPEAKER_04
- With the remote crew, I definitely knew we had to...
+ I didn't know...
+
+0:38:46	SPEAKER_04
+ With the remote crew, I never knew we had to...
 
 0:38:48	SPEAKER_04
  We made a remote control.
@@ -3437,31 +3584,28 @@
  Yeah.
 
 0:38:54	SPEAKER_02
- We were stepping on the table and looking at the internet.
+ Yeah.
 
-0:38:56	SPEAKER_02
- Looking at the screen.
+0:38:55	SPEAKER_02
+ We're stopping on the table and looking at the internet.
 
 0:38:57	SPEAKER_02
- I'm working on working on one.
+ Look at the screen.
+
+0:38:58	SPEAKER_02
+ I'm working.
 
 0:38:59	SPEAKER_05
- Rrrrr.
+ I'm working.
 
-0:39:00	SPEAKER_05
- Nope.
+0:39:01	SPEAKER_05
+ Okay.
 
 0:39:02	SPEAKER_05
- Okay, well.
-
-0:39:04	SPEAKER_05
- But after all we can say, we are satisfied.
-
-0:39:07	SPEAKER_05
- But it's been better when we get...
+ Well, but after all, we can say we are satisfied, but it's been better when we get...
 
 0:39:11	SPEAKER_05
- When we've got more information.
+ When we would have gotten more information.
 
 0:39:14	SPEAKER_02
  Yeah, more information about the costs.
@@ -3470,39 +3614,33 @@
  Yeah.
 
 0:39:17	SPEAKER_01
- That will be handy.
+ That'll be highly...
 
 0:39:18	SPEAKER_02
- First of all, I didn't think that we were able to make an LCD screen...
+ First of all, I didn't think that we were able to make an LCD screen.
 
 0:39:22	SPEAKER_02
  It's first point, but it was possible.
 
 0:39:25	SPEAKER_02
- Yeah.
-
-0:39:26	SPEAKER_02
- All the controls were used.
-
-0:39:28	SPEAKER_01
- Yeah.
+ Yeah, it was possible.
 
 0:39:29	SPEAKER_01
- So actually you could make an LCD screen, but no mic, or it could make mic, but no, it was this.
+ Actually, you could make an LCD screen, but no mic, or I could make mic, but no LCD.
 
 0:39:33	SPEAKER_01
- Yeah.
+ Yeah, I don't know a bit.
 
 0:39:34	SPEAKER_05
- A little bit mean to put it in the...
+ You need to put it in the LCD screen.
 
 0:39:36	SPEAKER_05
- And what we had other points to improve this whole process.
+ And what are the other points to improve this whole process?
 
-0:39:41	SPEAKER_00
- Rrrrr.
+0:39:41	SPEAKER_05
+ I don't know.
 
-0:39:42	SPEAKER_03
+0:39:42	SPEAKER_01
  I think that's about it.
 
 0:39:45	SPEAKER_03
@@ -3512,211 +3650,205 @@
  I think we got it.
 
 0:39:48	SPEAKER_01
- Have you...
+ Have your...
 
 0:39:49	SPEAKER_01
- Let's have you let us.
+ Let's have your laptop.
+
+0:39:50	SPEAKER_01
+ Yeah, fast, okay.
 
 0:39:51	SPEAKER_01
- Yeah, first of all.
+ Yeah.
 
-0:39:53	SPEAKER_04
+0:39:52	SPEAKER_02
  They were just fine.
 
 0:39:55	SPEAKER_04
  The network was okay.
 
 0:39:57	SPEAKER_04
- When you load it was also...
+ Everything you load, it was also...
 
-0:39:59	SPEAKER_04
- Yeah, everything was there.
+0:39:58	SPEAKER_01
+ Yeah, everything was...
+
+0:40:00	SPEAKER_05
+ Available there.
 
 0:40:01	SPEAKER_05
- And some more time might have improved the quantity of work.
+ And so more time might have improved the quantity of work.
 
-0:40:05	SPEAKER_05
- Yeah.
-
-0:40:06	SPEAKER_04
- Okay.
-
-0:40:07	SPEAKER_04
- Yeah, but now half past four, half past three.
+0:40:05	SPEAKER_04
+ Yeah, but that's now half-post-four, half-post-three.
 
 0:40:11	SPEAKER_01
- And a bit is just the half hours between the two work alone.
+ Everybody's just seeing the off-hours between.
+
+0:40:15	SPEAKER_01
+ Yeah.
 
 0:40:16	SPEAKER_01
- And that pops up, pops up, pops up, pops up, pops up.
+ Do we work alone?
+
+0:40:17	SPEAKER_01
+ Yeah.
+
+0:40:18	SPEAKER_01
+ Then it pops up, pop-up screen.
 
 0:40:19	SPEAKER_01
- Okay, five minutes to the meeting.
+ Five minutes for the meeting.
 
-0:40:21	None
+0:40:22	None
  No.
 
-0:40:30	SPEAKER_05
+0:40:25	SPEAKER_05
  Okay, so more time during the individual work phases.
 
 0:40:34	SPEAKER_05
  Okay, well, I just got my warning for the last five minutes.
 
-0:40:39	SPEAKER_05
- I'll move on to...
+0:40:40	SPEAKER_05
+ You do.
 
 0:40:41	SPEAKER_05
- I guess my last slide.
-
-0:40:43	SPEAKER_05
- Yes.
+ I'll move on to, I guess, my last slide, yes?
 
 0:40:44	SPEAKER_05
- Which is the closing?
+ Which is the closing.
 
 0:40:45	SPEAKER_05
- Well, we managed to...
-
-0:40:47	SPEAKER_05
- But we did that very quickly.
+ Well, we managed to, but we did that very quickly.
 
 0:40:48	SPEAKER_05
  I don't know if that's the best way to...
 
 0:40:50	SPEAKER_05
- When it is too expensive to quickly rearrange it and say,
+ When it isn't...
 
-0:40:53	SPEAKER_00
- Okay, this is it.
+0:40:51	SPEAKER_05
+ When it is too expensive to quickly rearrange it and say, okay, this is it.
 
 0:40:54	SPEAKER_05
- But we had to do it. Because we have to have a design.
-
-0:40:57	SPEAKER_05
- And that is within the budget.
+ But we had to do it, because we have to have a design, and that is within the budget.
 
 0:40:59	SPEAKER_05
- And we evaluated.
-
-0:41:00	SPEAKER_05
- Maybe we should re-evaluate the product.
-
-0:41:03	SPEAKER_05
- But we did that before.
+ And we evaluated, maybe we should re-evaluate the product, but we did that before.
 
 0:41:05	SPEAKER_05
  And we also evaluated the project.
 
 0:41:07	SPEAKER_05
- And I think everybody is very happy at least.
-
-0:41:10	SPEAKER_05
- I am with the result.
-
-0:41:11	SPEAKER_05
- So, tell them.
+ And I think everybody's very happy, at least I am with the result.
 
 0:41:12	SPEAKER_05
- Well, for the three of you.
+ So, celebrate.
+
+0:41:13	SPEAKER_05
+ Yeah.
 
 0:41:14	SPEAKER_05
- Because I have to write the final report now.
+ Well, for the three of you, because I have to write the final report now.
 
 0:41:17	SPEAKER_05
- But, well, thank you very much for cooperation.
+ But, well, thank you very much for the cooperation.
 
-0:41:20	SPEAKER_05
- And I am very nice day so far.
+0:41:21	SPEAKER_05
+ Yeah, sure.
 
-0:41:23	SPEAKER_05
- Oh, thank you.
+0:41:22	SPEAKER_05
+ Very nice day, so far.
 
 0:41:24	SPEAKER_05
+ Oh, thank you.
+
+0:41:25	SPEAKER_05
  Okay.
 
-0:41:25	SPEAKER_01
+0:41:26	SPEAKER_01
  Do we get another email?
 
-0:41:27	SPEAKER_02
+0:41:28	SPEAKER_02
  Ling, you're fine.
 
-0:41:30	SPEAKER_01
+0:41:31	SPEAKER_01
  I think we have to fill in a questionnaire again.
 
 0:41:33	SPEAKER_05
  Yeah, I think we also have to go to our own rooms again.
 
 0:41:36	SPEAKER_05
- But, well, I at least.
+ Yes.
+
+0:41:37	SPEAKER_05
+ Well, I at least.
 
 0:41:39	SPEAKER_05
- But maybe you can try to make a screenshot of this.
-
-0:41:42	SPEAKER_05
- So, I can try to include it in the final report.
+ But maybe you can try to make a screenshot of this, so I can try to include it in the final report.
 
 0:41:45	SPEAKER_05
  That one?
 
 0:41:46	SPEAKER_02
- You can't...
+ You can save it.
 
 0:41:47	SPEAKER_01
- You can't escape it, maybe.
+ Yeah, I'm going to do it in my picture.
 
-0:41:48	SPEAKER_01
- No, it is not a picture.
-
-0:41:49	SPEAKER_01
- You just fall save as CAP.
-
-0:41:52	SPEAKER_02
- Okay.
+0:41:50	SPEAKER_02
+ It's a foul-save-as-y-a-pe-a-j-pen.
 
 0:41:53	SPEAKER_05
- And please put it in the project folder.
+ Okay, and please put it in the project folder, then.
 
 0:41:56	SPEAKER_03
- Can you file it as a JPEG?
+ Do you find it as a JPEG?
 
 0:41:58	SPEAKER_03
  No.
 
 0:41:59	SPEAKER_01
- It's impossible.
+ Isn't possible.
 
 0:42:00	SPEAKER_01
- But you can make a screenshot, I think.
+ Would you again make a screenshot?
 
 0:42:03	SPEAKER_01
- Okay, well, I...
+ I think.
 
 0:42:04	SPEAKER_01
- I have been the opener.
+ Okay, well, I...
+
+0:42:05	SPEAKER_01
+ You have to paint the opener.
 
 0:42:06	SPEAKER_01
  No.
 
-0:42:07	SPEAKER_02
- So, I have...
+0:42:07	SPEAKER_01
+ So, you had...
 
-0:42:09	SPEAKER_02
+0:42:08	None
  No.
 
-0:42:10	SPEAKER_05
- I have officially closed the meeting.
+0:42:09	SPEAKER_05
+ I hereby officially close the meeting.
+
+0:42:11	SPEAKER_05
+ Yeah.
 
 0:42:12	SPEAKER_05
  And I hope to see you soon.
 
-0:42:16	SPEAKER_05
- In about five minutes?
+0:42:15	SPEAKER_05
+ In the five minutes.
 
 0:42:17	SPEAKER_05
  Export.
 
 0:42:18	SPEAKER_05
- I think it will be a bit longer.
+ I think I'll be a bit longer.
 
 0:42:20	SPEAKER_05
  Okay.
@@ -3724,110 +3856,119 @@
 0:42:21	SPEAKER_05
  Well, happy celebration, huh?
 
-0:42:22	SPEAKER_05
- Thank you.
-
-0:42:23	SPEAKER_02
+0:42:23	SPEAKER_05
  Thank you.
 
 0:42:24	SPEAKER_02
- Let's cut it apart.
+ Let's go to the fight.
 
 0:42:26	SPEAKER_02
- That's a fun.
+ I'll make me one.
+
+0:42:27	SPEAKER_02
+ That's so much fun.
 
 0:42:28	SPEAKER_00
- How big?
+ That should be nice.
 
 0:42:29	SPEAKER_00
  That's too big.
 
-0:42:31	SPEAKER_00
- Is it one?
+0:42:31	SPEAKER_05
+ This one?
 
-0:42:33	SPEAKER_02
- Whatever you think of it.
+0:42:32	SPEAKER_04
+ Whatever you think is good.
 
 0:42:34	SPEAKER_02
- No, no.
+ No, that...
 
 0:42:35	SPEAKER_02
- I think it's one hundred and twenty-two.
+ I think it's almost scary.
 
-0:42:37	SPEAKER_01
- Is this one?
+0:42:37	SPEAKER_02
+ This one?
 
-0:42:38	SPEAKER_02
+0:42:38	SPEAKER_01
  Yeah.
 
-0:42:39	SPEAKER_01
- Oh, wow.
+0:42:39	SPEAKER_02
+ Wow.
 
-0:42:40	SPEAKER_02
- I have a browse.
+0:42:40	SPEAKER_01
+ I have a brown...
 
 0:42:42	SPEAKER_03
- No, no.
+ No, name.
 
-0:42:43	SPEAKER_03
- I have another email.
+0:42:44	None
+ I don't know.
 
 0:42:46	None
- Desta.
+ I don't know if it's too big.
 
 0:42:48	None
- Where is the thing going on?
+ That's it.
+
+0:42:49	None
+ I think we are.
 
 0:42:50	SPEAKER_01
- Well, it is going to Desta.
+ I hope.
 
-0:42:52	SPEAKER_03
- Hey.
+0:42:51	None
+ Oh, this is from the desktop.
 
 0:42:53	SPEAKER_03
- Hmm?
+ Hey.
 
 0:42:54	SPEAKER_03
- Where is the thing going on?
+ What are we going to do?
 
 0:42:56	SPEAKER_03
- You do not know.
+ We do not know.
 
 0:42:57	SPEAKER_01
- You can only save it in my documents.
+ You can only shave it in my document.
 
 0:42:59	SPEAKER_01
- I...
+ Okay.
 
-0:43:00	SPEAKER_00
+0:43:00	None
+ Oh.
+
+0:43:01	SPEAKER_00
+ Oh.
+
+0:43:02	None
  Oh.
 
 0:43:03	None
  Oh my God.
 
-0:43:06	None
- Oh.
+0:43:05	None
+ I think it was this book.
 
 0:43:07	None
  Oh.
 
-0:43:08	SPEAKER_01
+0:43:08	None
+ This is a...
+
+0:43:09	SPEAKER_01
  Oh, all right.
 
+0:43:10	SPEAKER_01
+ Oh.
+
 0:43:11	None
- Yeah.
+ Oh.
 
 0:43:12	SPEAKER_01
- Okay.
-
-0:43:13	SPEAKER_02
- Oh, it's very good.
+ Oh.
 
 0:43:14	SPEAKER_01
- Yeah.
-
-0:43:15	SPEAKER_01
- Yeah.
+ Oh, it's very expensive.
 
 0:43:16	SPEAKER_01
  Yeah.
@@ -3835,123 +3976,138 @@
 0:43:17	None
  Yeah.
 
-0:43:18	SPEAKER_01
- Three.
+0:43:18	None
+ Yeah.
 
 0:43:19	SPEAKER_01
- Yeah.
-
-0:43:20	None
  Three.
 
-0:43:21	None
- Yeah.
-
-0:43:22	SPEAKER_00
- Three.
+0:43:20	SPEAKER_00
+ With some minutes between them.
 
 0:43:23	None
- Three.
-
-0:43:24	None
- Three.
-
-0:43:25	None
- Three.
+ Can we stay here?
 
 0:43:26	SPEAKER_01
- Three.
+ Yeah.
 
 0:43:27	SPEAKER_01
- Three.
+ Yeah.
 
-0:43:28	SPEAKER_03
- Three.
+0:43:28	SPEAKER_01
+ Yeah.
 
 0:43:29	None
- Two.
+ Yeah.
 
 0:43:30	None
- One.
+ Yeah.
 
 0:43:31	None
- Three.
+ Yeah.
 
 0:43:32	None
- Two.
+ Yeah.
 
 0:43:33	None
- Three.
+ Yeah.
 
 0:43:34	None
- Three.
+ Yeah.
 
 0:43:35	None
- Three.
+ Yeah.
 
-0:43:36	SPEAKER_00
- Three.
+0:43:36	None
+ Yeah.
 
 0:43:37	SPEAKER_01
- Three.
+ Yeah.
 
 0:43:38	None
- Three.
+ Yeah.
 
 0:43:39	SPEAKER_01
- Three.
+ Yeah.
 
 0:43:40	SPEAKER_01
- Three.
-
-0:43:41	None
- Three.
-
-0:43:42	None
- Three.
-
-0:43:43	None
- Three.
-
-0:43:44	SPEAKER_04
- Three.
-
-0:43:45	SPEAKER_04
- Okay.
-
-0:43:46	SPEAKER_03
- All right.
-
-0:43:47	SPEAKER_03
  Why can't we stay here?
 
+0:43:42	None
+ The pot is filled.
+
+0:43:44	None
+ Yeah.
+
+0:43:45	SPEAKER_04
+ Oh.
+
+0:43:46	SPEAKER_04
+ I'm so, so, so, no.
+
+0:43:47	SPEAKER_03
+ Yeah.
+
+0:43:48	SPEAKER_03
+ Oh.
+
 0:43:49	SPEAKER_03
- What the pot is, Philla?
+ Oh.
+
+0:43:50	SPEAKER_03
+ Oh.
 
 0:43:51	SPEAKER_00
- No.
+ Oh.
 
 0:43:52	SPEAKER_00
- No.
+ Oh.
 
 0:43:53	None
- So, the patience of the one.
+ Oh.
 
 0:43:54	SPEAKER_00
- 10.
+ Oh.
 
 0:43:55	None
- 10.
+ Oh.
 
-0:43:56	SPEAKER_05
- Oh, I'm sorry.
+0:43:56	None
+ Oh.
+
+0:43:57	None
+ Oh.
 
 0:43:58	SPEAKER_05
- I'm sorry.
+ Oh.
 
 0:43:59	None
- I'm sorry.
+ Oh.
 
-0:44:29	None
- I'm sorry.
+0:44:00	None
+ Oh.
+
+0:44:01	None
+ Oh.
+
+0:44:02	None
+ Oh.
+
+0:44:03	None
+ Oh.
+
+0:44:04	None
+ Oh.
+
+0:44:05	None
+ Oh.
+
+0:44:06	None
+ Oh.
+
+0:44:09	None
+ Wattson...
+
+0:44:15	None
+ The
 

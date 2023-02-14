@@ -1,53 +1,29 @@
 0:00:00	None
- You see that?
-
-0:00:01	None
- You can see that.
+ You see that? You can see that.
 
 0:00:02	None
- Okay.
+ Okay, I'll Berry do just pick on you for a little while guess what be tat scrwhat?
 
-0:00:03	None
- So I'll take you.
-
-0:00:04	None
- You go.
-
-0:00:05	None
- You see that?
-
-0:00:06	None
- Easy.
-
-0:00:07	None
- Okay.
-
-0:00:38	SPEAKER_04
+0:00:20	SPEAKER_04
  So let's start our second meeting on conceptual design.
 
-0:00:51	SPEAKER_04
+0:00:49	SPEAKER_04
  So as the previous meeting I will be the secretary and we will have three presentations and we will have to decide on the remote control concept and finally we will close the session.
 
-0:01:10	SPEAKER_04
+0:01:09	SPEAKER_04
  So I will first...
 
-0:01:13	SPEAKER_00
- Are you doing the minutes first or?
-
-0:01:17	SPEAKER_04
- What?
+0:01:14	SPEAKER_00
+ You do the minutes first or?
 
 0:01:18	SPEAKER_05
  No.
 
 0:01:19	SPEAKER_04
- I think I will let our user interface and designer speak first.
+ I think I will let our user interface on designers speak first.
 
 0:01:25	SPEAKER_04
  Mr. David Jordan.
-
-0:01:27	SPEAKER_04
- Yeah.
 
 0:01:28	SPEAKER_04
  So I will...
@@ -56,94 +32,88 @@
  Yes.
 
 0:01:35	SPEAKER_04
- Technical...
-
-0:01:36	SPEAKER_04
- That's this one?
+ Technical... that's this one?
 
 0:01:37	SPEAKER_04
- No.
-
-0:01:38	SPEAKER_04
  Interface.
 
 0:01:39	SPEAKER_04
- This.
+ This one?
 
-0:01:44	SPEAKER_01
+0:01:45	SPEAKER_01
  So first I will present the concept of user interface.
 
-0:01:51	SPEAKER_01
+0:01:50	SPEAKER_01
  There are three concepts in the user interface.
 
-0:01:54	SPEAKER_01
+0:01:55	SPEAKER_01
  The first one is the Google controller.
 
-0:01:59	SPEAKER_01
+0:01:58	SPEAKER_01
  The second is the fancy controller.
 
 0:02:01	SPEAKER_01
- That's why it's an intelligent controller.
+ The last one is the intelligent controller.
 
-0:02:05	SPEAKER_01
+0:02:04	SPEAKER_01
  So there are three concepts in our controller.
 
-0:02:10	SPEAKER_01
- Next I will explain my main.
+0:02:09	SPEAKER_01
+ Next I will explain my outline.
 
-0:02:12	SPEAKER_01
+0:02:11	SPEAKER_01
  The first is the Google controller.
 
-0:02:15	SPEAKER_01
- So I want the controller to be easy to use but with the sophisticated functions.
+0:02:14	SPEAKER_01
+ So I want the controller to be easy to use but with sophisticated functions.
 
-0:02:20	SPEAKER_01
- So it's a combination of easy to use and the sophisticated functions.
+0:02:19	SPEAKER_01
+ So it's a combination of easy to use and sophisticated functions.
 
-0:02:27	SPEAKER_01
+0:02:26	SPEAKER_01
  This is the first concept of our controller.
 
 0:02:30	SPEAKER_01
  The second concept is the fancy controller.
 
 0:02:34	SPEAKER_01
- So we want to give the customer the impression that our controller is very attractive.
+ So without giving the customer the impression that our controller is very attractive.
 
 0:02:40	SPEAKER_01
  We can easily recognize our controller among a lot of products.
 
-0:02:46	SPEAKER_01
+0:02:45	SPEAKER_01
  So the user interface would be very cute.
 
 0:02:53	SPEAKER_01
  Very attractive.
 
-0:02:56	SPEAKER_01
- Such as these.
-
-0:02:59	SPEAKER_01
- There are several examples in these slides.
+0:02:58	SPEAKER_01
+ Such as these are several examples in these slides.
 
 0:03:03	SPEAKER_01
  I'm not sure.
 
 0:03:04	SPEAKER_01
- The video is very interesting.
+ They want it to be so extremely cute.
 
-0:03:06	SPEAKER_01
- Yes.
-
-0:03:07	SPEAKER_01
+0:03:08	SPEAKER_01
  It's very big.
 
-0:03:09	SPEAKER_01
- It's easy for me to recognize it.
+0:03:10	SPEAKER_01
+ It's easy for me to remember it.
 
-0:03:14	SPEAKER_04
- Why not?
+0:03:13	SPEAKER_01
+ I need to recognize it.
+
+0:03:16	SPEAKER_04
+ Okay.
 
 0:03:17	SPEAKER_04
- We'll have big discussion with the last suppose after that.
+ Why not?
+
+0:03:19	SPEAKER_04
+ We'll have big discussions with our experts after that.
 
 0:03:22	SPEAKER_01
  So the last concept is the intelligent.
@@ -151,46 +121,37 @@
 0:03:26	SPEAKER_01
  We want our controller to be smart.
 
-0:03:31	SPEAKER_01
+0:03:30	SPEAKER_01
  So maybe we should use some technology such as speech recognition technology and gesture recognition technology.
 
 0:03:42	SPEAKER_01
- So we need to have some cooperation with some research institute on speech recognition and gesture recognition.
+ So we need to have some cooperation with some research institute on speech recognition and on gesture recognition.
 
 0:03:54	SPEAKER_01
  With these advanced features, I think we can attract a lot of users.
 
-0:04:00	SPEAKER_01
+0:03:58	SPEAKER_04
  Okay.
 
-0:04:01	SPEAKER_01
+0:04:00	SPEAKER_01
  Something else?
 
-0:04:02	SPEAKER_01
- Nope.
+0:04:01	SPEAKER_01
+ No.
 
-0:04:03	SPEAKER_01
+0:04:02	SPEAKER_01
  This is the three concepts of our...
 
 0:04:05	SPEAKER_04
- I just have one question.
+ I just have one question because for the intelligent controller, you said that we can use the voice recognition or the gesture recognition.
 
-0:04:07	SPEAKER_04
- You said that we can use the voice recognition or the gesture recognition.
+0:04:13	SPEAKER_04
+ But as the expert told us, most of the people want to use the remote control to zap between channels.
 
-0:04:14	SPEAKER_04
- As the expert told us, most of the people want to use the remote control to zap between channels.
+0:04:23	SPEAKER_04
+ Do you think they will be able to use gestures because if they do all the time the same gesture, as you said previously in the last meeting, maybe they will get injuries because of that?
 
-0:04:25	SPEAKER_04
- Do you think they will be able to use gestures?
-
-0:04:28	SPEAKER_04
- If they do all the time the same gesture, as you said previously in the last meeting, maybe they will get injuries.
-
-0:04:35	SPEAKER_00
- Because of that?
-
-0:04:36	SPEAKER_04
+0:04:35	SPEAKER_04
  Or if you say channel 3, channel 3, 2, 3, 4, 6, 5, I think they will be born after a while.
 
 0:04:43	SPEAKER_04
@@ -200,31 +161,25 @@
  I think sometimes it's very convenient to use voice interface and gesture interface.
 
 0:04:51	SPEAKER_01
- For example, if you cannot find your controller, you can just speak something such as one.
+ For example, if you cannot find your controller, you can't use it.
 
-0:05:01	SPEAKER_04
- And suppose you got a call, you have a mute remote controller.
+0:04:57	SPEAKER_01
+ Just speak something such as one.
+
+0:05:00	SPEAKER_04
+ Yeah, but suppose you got a cold. You have a mute remote controller.
 
 0:05:05	SPEAKER_01
- So you can use gestures?
-
-0:05:07	SPEAKER_01
- That's the problem.
+ So you can use the gesture. That's a good problem.
 
 0:05:08	SPEAKER_00
  How is it very easy to trust like speech recognition or gesture recognition?
 
 0:05:15	SPEAKER_01
- For limited vocabulary speech recognition, it's very reliable.
-
-0:05:19	SPEAKER_01
- And for limited vocabulary speech recognition, it's also very...
+ For limited vocabulary speech recognition, it's very reliable and for limited vocabulary gesture recognition, it's also very easy.
 
 0:05:23	SPEAKER_04
- Yeah, but suppose you have a family watching TV.
-
-0:05:25	SPEAKER_04
- And if they want to use their private remote control in the same time, do you think it will work?
+ Yeah, but suppose you have a family watching TV and if they want to use their private remote control in the same time, do you think it will work?
 
 0:05:31	SPEAKER_04
  Everybody wants to change channels at the same time?
@@ -232,137 +187,80 @@
 0:05:34	SPEAKER_00
  But this would never happen anyway.
 
-0:05:35	SPEAKER_01
+0:05:36	SPEAKER_01
  Yeah, they cannot speak at the same time.
 
-0:05:37	SPEAKER_04
- If you have one brother and one sister, they want to watch their favorite TV program.
-
-0:05:43	SPEAKER_04
- So they say, oh, channel 4, channel 3, channel 4.
+0:05:38	SPEAKER_04
+ If you have one brother and one sister, they want to watch their favorite TV program, so they say, oh, channel 4, channel 3, channel 4.
 
 0:05:46	SPEAKER_02
- Yeah, so you have all the time.
+ Yeah, so all the time.
 
-0:05:47	SPEAKER_02
- If the same thing can happen, even using this kind of remote control.
-
-0:05:51	SPEAKER_02
- I don't think so.
+0:05:48	SPEAKER_02
+ The same can happen even if you use it. It's kind of remote control.
 
 0:05:52	SPEAKER_04
- But do you have the remote control?
-
-0:05:53	SPEAKER_04
- So maybe you can record with you.
-
-0:05:55	SPEAKER_04
- You're not obliged to share.
+ Yeah, but you have the remote control. So maybe you can keep it with you.
 
 0:05:56	SPEAKER_04
- Oh, okay, okay.
+ You're not a blind gesture.
 
 0:05:57	SPEAKER_00
- You mean it could be a problem for this kind of...
-
-0:05:59	SPEAKER_01
- Yeah, we can.
+ Okay, you mean it could be a problem for this guy.
 
 0:06:00	SPEAKER_01
- That's the advantage of intelligent control.
-
-0:06:02	SPEAKER_01
- Even you have the control.
-
-0:06:03	SPEAKER_00
- You have the control.
-
-0:06:04	SPEAKER_01
- I can.
-
-0:06:05	SPEAKER_01
- I can say it's channel 3.
+ Yeah, that's the advantage of intelligent controller. Even you have the controller. I can say channel 3.
 
 0:06:06	SPEAKER_01
- So it's...
-
-0:06:07	SPEAKER_01
- This is the disadvantage.
+ So this is a disadvantage.
 
 0:06:08	SPEAKER_04
- I think it's the disadvantage.
+ I think it's a disadvantage.
 
-0:06:09	SPEAKER_04
- This is the advantage.
+0:06:10	SPEAKER_04
+ This is a advantage.
 
-0:06:10	SPEAKER_02
- I mean, maybe you can have a switching more to pass from, you know, voice control to...
+0:06:11	SPEAKER_02
+ Maybe you can have a switching mode to pass from voice controller to...
 
 0:06:15	SPEAKER_04
  But one other question, how much will it cost?
 
 0:06:19	SPEAKER_02
- How much can it be?
+ How much?
 
-0:06:21	SPEAKER_04
- Yeah, because I suppose we need to do research.
+0:06:20	SPEAKER_04
+ Yeah, because I suppose we need to do research. Do you have something working?
 
-0:06:23	SPEAKER_04
- Do you have something working?
-
-0:06:24	SPEAKER_04
+0:06:24	SPEAKER_01
  No, we just...
 
-0:06:25	SPEAKER_01
- Oh, if you use something efficient.
+0:06:26	SPEAKER_01
+ I'll use some efficient.
 
-0:06:27	SPEAKER_01
- You can use it on the efficient.
-
-0:06:29	SPEAKER_01
- Basically.
-
-0:06:30	SPEAKER_01
- No, we just have some cooperation with some research institute.
-
-0:06:33	SPEAKER_01
- We don't have to do some basic research on this.
+0:06:28	SPEAKER_01
+ We just have some cooperation with some research institute. We don't have to do some basic research on this.
 
 0:06:36	SPEAKER_04
- So you think it won't cost in...
+ Oh, you think it won't cost in... not a lot for us?
 
-0:06:39	SPEAKER_04
- Not a lot for us?
-
-0:06:40	SPEAKER_04
- Yeah, I think it's...
-
-0:06:41	SPEAKER_01
- Because this technology is...
-
-0:06:44	SPEAKER_01
- For limited, or limited, or lack-seeking recognition.
+0:06:40	SPEAKER_01
+ I think it's because this technology is limited or lack-seeking recognition.
 
 0:06:49	SPEAKER_01
  It's very...
 
-0:06:50	SPEAKER_01
- Yeah, absolutely.
+0:06:50	SPEAKER_00
+ Yeah, but it's changing how the remote control is going to be built.
 
-0:06:51	SPEAKER_01
- Yeah.
-
-0:06:52	SPEAKER_00
- But it's changing how the remote control is going to be built.
-
-0:06:56	SPEAKER_00
+0:06:57	SPEAKER_00
  Because then you need...
 
-0:06:58	SPEAKER_00
+0:06:59	SPEAKER_00
  I mean, this doesn't have the power to do recognition, for example.
 
 0:07:04	SPEAKER_02
- You have also the language, for example.
+ You have also the language protocol.
 
 0:07:07	SPEAKER_01
  Because it has to be universal.
@@ -370,25 +268,22 @@
 0:07:10	SPEAKER_01
  Yeah, I agree with some.
 
-0:07:11	SPEAKER_01
- But it's very small.
-
 0:07:12	SPEAKER_01
- So that's not a problem.
+ But there's not a problem.
 
-0:07:13	SPEAKER_04
+0:07:14	SPEAKER_04
  Yeah, but there's one problem that Baba talked about.
 
-0:07:17	SPEAKER_04
+0:07:18	SPEAKER_04
  It's the international remote control.
 
 0:07:21	SPEAKER_04
  We need something that is international.
 
 0:07:23	SPEAKER_04
- Suppose we want to sell it in France.
+ Suppose we want to set it in France.
 
-0:07:26	SPEAKER_04
+0:07:27	SPEAKER_04
  The recognition system will be able to understand French.
 
 0:07:30	SPEAKER_04
@@ -398,88 +293,76 @@
  Yeah, the key...
 
 0:07:35	SPEAKER_01
- This could be downloaded by the way.
+ This could be downloaded by the webinar.
 
 0:07:37	SPEAKER_01
- The key feature of our control is that it has some...
+ The key feature of our control is that it has some adaptation.
 
-0:07:42	SPEAKER_01
- Some adaptation.
+0:07:46	SPEAKER_01
+ It means when you sell this controller in China, it can...
 
-0:07:45	SPEAKER_01
- We need...
+0:07:52	SPEAKER_01
+ If you sell this controller, you can't use it.
 
-0:07:47	SPEAKER_01
- It means when you sell this control in China, it can recognize Chinese.
+0:07:55	SPEAKER_01
+ It's a very smart...
 
-0:07:53	SPEAKER_01
- If you sell this control, it's very much French.
+0:07:56	SPEAKER_02
+ Yeah, it's a smart control device.
 
-0:07:57	SPEAKER_04
- It's a very smart control image.
+0:07:58	SPEAKER_04
+ Yeah, and with no increase in the production price of the remote control?
 
-0:07:59	SPEAKER_04
- And with no increase in the production price of the remote control.
+0:08:02	SPEAKER_01
+ Because of this product, this technology has already been developed.
 
-0:08:03	SPEAKER_01
- Because of this technology has already been developed.
-
-0:08:07	SPEAKER_02
- But the problem is how to...
+0:08:06	SPEAKER_01
+ Yeah, but the problem is how to...
 
 0:08:09	SPEAKER_02
- You know, if this is a push button controller, you can send this remote control everywhere in the world.
+ If this is a push button controller, you can send this remote control everywhere in the world.
 
-0:08:16	SPEAKER_02
+0:08:15	SPEAKER_02
  The same one.
 
-0:08:17	SPEAKER_02
- If you have the language, you have to develop for it.
+0:08:16	SPEAKER_02
+ If you have the language, you have to develop for each count.
 
-0:08:20	SPEAKER_02
- We have to do language adaptation.
+0:08:19	SPEAKER_02
+ Yeah, that's why we have to do language adaptation.
 
 0:08:22	SPEAKER_02
- But first, you have to do one.
+ In the French country, you have to do one.
 
 0:08:24	SPEAKER_02
  Yeah.
 
 0:08:25	SPEAKER_01
- Because even for different families, we have to do...
+ Because for example, for even for different family, we have to do...
 
 0:08:30	SPEAKER_01
  Really?
 
 0:08:31	SPEAKER_01
- Yeah, we have to do adaptation too.
+ Yeah, we have to do adaptation tools.
 
 0:08:33	SPEAKER_01
  Yeah, but it seems to be quite complex.
 
 0:08:35	SPEAKER_00
- Yeah, we have to take care of the 12-year-olds.
+ Yeah, we have to take care of the 12 euros...
 
 0:08:38	SPEAKER_04
  And what about voice recognition?
 
 0:08:40	SPEAKER_04
- Do we have microphones?
-
-0:08:41	SPEAKER_04
- And where will we be there?
+ Do we have microphones and where we'll be there?
 
 0:08:43	SPEAKER_04
- Do you think we are far from television to work?
+ Do you think if we are far from television, it will work?
 
 0:08:46	SPEAKER_01
- I think so.
-
-0:08:47	SPEAKER_01
- There's another problem.
-
-0:08:48	SPEAKER_01
- Because you don't have to wear a microphone.
+ I think that's not a problem, because you don't have to wear a microphone.
 
 0:08:52	SPEAKER_01
  The microphone is embedded in the controller.
@@ -497,45 +380,33 @@
  Is it your family?
 
 0:09:02	SPEAKER_01
- In your home?
+ Your home?
 
-0:09:03	SPEAKER_01
- No, but then it's...
-
-0:09:04	SPEAKER_04
- Here it's an object.
+0:09:03	SPEAKER_04
+ Yeah, but here it's an object.
 
 0:09:06	SPEAKER_04
- But here you say you want to use a...
+ But here you say you want to use a technology...
 
-0:09:08	SPEAKER_04
- Yeah, you can embed it in the microphone.
+0:09:09	SPEAKER_01
+ Yeah, you can embed it in a microphone here.
 
 0:09:11	SPEAKER_04
- Yeah, but what is the use of voice or just recognition if you have remote controller like this, if you have an object.
+ Yeah, but what is the use of voice or just recognition if you have remote control like this, if you have an object?
 
 0:09:18	SPEAKER_04
- If you want to use voice or just you need to be free.
-
-0:09:21	SPEAKER_04
- To talk to it.
+ If you want to use voice or gesture, you need to be free without any objects.
 
 0:09:22	SPEAKER_04
- Without any objects, you just want to interact with the...
+ You just want to interact with the device.
 
 0:09:25	SPEAKER_01
- Yeah, yeah, just put the controller here.
+ Yeah, just put the controller here.
 
 0:09:27	SPEAKER_01
- Then you...
+ If you say one, you see your command and you do your gesture.
 
-0:09:28	SPEAKER_01
- If you say one, you say a command.
-
-0:09:30	SPEAKER_01
- And you do your gesture.
-
-0:09:32	SPEAKER_04
+0:09:31	SPEAKER_04
  Yeah, but you can lose it.
 
 0:09:36	SPEAKER_01
@@ -545,76 +416,64 @@
  If you lose it.
 
 0:09:38	SPEAKER_02
- So, for example, if it is somewhere in the room, maybe if it is in the table there, it's channel one and the remote controller gives audio to the TV to switch the screen.
+ So, but for example, if it is somewhere in the room, if it is in the table there, you can always say it's channel one and the remote control gives the audio to the TV.
 
 0:09:47	SPEAKER_04
- Okay, so you can build to kind of black box and put it on TV just to recognize gestures and voice.
+ Yeah, so you can build to kind of like box and put it on TV just to recognize gestures and voice.
 
-0:09:55	SPEAKER_02
- Yeah, but so you need the camera and a microphone.
+0:09:56	SPEAKER_02
+ Yeah, but so you need a camera and a microphone.
 
 0:09:59	SPEAKER_00
  Oh.
 
 0:10:00	SPEAKER_00
- So you would still have the buttons.
-
-0:10:02	SPEAKER_00
- Or do you think it should be only voice recognition and gesture recognition?
+ So you would still have the buttons or do you think it should be only voice recognition and gesture recognition?
 
 0:10:07	SPEAKER_00
  Or you still have the possibility to use buttons?
 
 0:10:11	SPEAKER_01
- I think it would give the flexibility to the user.
+ I think we should give the flexibility to the user.
 
 0:10:15	SPEAKER_01
  Okay, so you...
 
-0:10:16	SPEAKER_00
- Yeah, but...
-
-0:10:17	SPEAKER_01
- You can see that it has a switch from via modality to another.
+0:10:16	SPEAKER_01
+ Yeah, but you can see the gas switch from bi-modality to another.
 
 0:10:20	SPEAKER_00
- Yeah, I don't know.
-
-0:10:22	SPEAKER_00
- It's a bit risky.
+ Yeah, I don't know. It's a bit risky.
 
 0:10:23	SPEAKER_04
- I think so, maybe it will be quite...
+ I think so. Maybe it will be quite...
 
 0:10:25	SPEAKER_04
  Quite attractive.
 
 0:10:26	SPEAKER_02
- I think that switching from one country to another will be a problem.
+ I think that switching from one counter to another will be a problem.
 
 0:10:30	SPEAKER_01
- So, if you do language adaptation, there should be no problem.
+ Because if you do language adaptation, there should be no problem.
 
 0:10:34	SPEAKER_01
  Yeah, but...
 
-0:10:35	SPEAKER_00
- Yeah.
+0:10:36	SPEAKER_00
+ I don't know.
 
-0:10:36	SPEAKER_04
+0:10:37	SPEAKER_04
  Okay.
 
 0:10:43	SPEAKER_01
  We should have confidence in technology.
 
-0:10:46	SPEAKER_02
+0:10:46	SPEAKER_01
  Yeah, we should.
 
-0:10:48	SPEAKER_05
- Yeah.
-
-0:10:51	SPEAKER_04
- So, what do you think, which are the controllers you'd prefer?
+0:10:52	SPEAKER_04
+ So, what do you think? Which are the controllers you'd prefer?
 
 0:10:57	SPEAKER_05
  What?
@@ -623,94 +482,97 @@
  Which kind of controller would you prefer to use?
 
 0:11:01	SPEAKER_04
- You as a remote controller user?
+ You as a remote control user?
 
-0:11:03	SPEAKER_00
+0:11:04	SPEAKER_00
  I mean, I'm sure if the user pays the same price, he's happy to have recognition.
 
-0:11:09	SPEAKER_00
- Of each other.
-
 0:11:10	SPEAKER_00
- Yeah.
+ But if it like doubles, no one will...
 
-0:11:11	SPEAKER_00
- But if it like doubles, I think he needs a controller that is very reliable.
+0:11:14	SPEAKER_02
+ I think he would prefer that he's very reliable.
 
-0:11:16	SPEAKER_04
- So, I think it would be better not to do nientelegen controller and to stay with the Google controller or a fancy controller.
+0:11:17	SPEAKER_04
+ So I think it would be better not to do near-the-lute-gen controller and to stay with the Google controller or fancy controller.
 
-0:11:23	SPEAKER_04
- Maybe try to mix the Google controller and a fancy controller.
-
-0:11:27	SPEAKER_04
- Yeah.
+0:11:24	SPEAKER_04
+ Maybe try to mix the Google controller and the fancy controller.
 
 0:11:28	SPEAKER_04
- Just one.
+ Yeah.
 
 0:11:29	SPEAKER_04
- Do you have something controller, which is an intelligent controller?
+ So, if you stick to the first two parts, so what's the difference between our controller with other products in the market?
 
-0:11:33	SPEAKER_04
- Easy to use, sophisticated and fancy?
-
-0:11:36	SPEAKER_01
- Yeah, but if you stick to the first two parts, so what's the difference between our controller with other products in the market?
-
-0:11:47	SPEAKER_01
+0:11:36	SPEAKER_04
  There's no features of our controller.
 
-0:11:49	SPEAKER_01
- So, is there any necessary to design new controller without any breakthrough features?
+0:11:38	SPEAKER_01
+ So, is there any necessary to design new controller without...
 
-0:11:55	SPEAKER_01
- No, I mean, do you replace your controller with a controller with similar function?
+0:11:43	SPEAKER_01
+ I think it works through features.
 
-0:12:01	SPEAKER_01
- If you do not have some function, I'd prefer that.
+0:11:45	SPEAKER_01
+ No, I mean, do you replace your controller?
+
+0:11:48	SPEAKER_01
+ I think it works through the other two parts.
+
+0:11:51	SPEAKER_01
+ So, what's the difference between our controller with other products in the market?
+
+0:11:56	SPEAKER_01
+ No, I mean... do you replace your controller with a controller with similar function?
+
+0:12:02	SPEAKER_01
+ If you do not have some function...
 
 0:12:04	SPEAKER_02
- Some function like for browsing in internet, or something like that.
+ I had for example some function like for browsing in the internet or something like that.
 
 0:12:10	SPEAKER_02
  But I think a user needs...
 
-0:12:12	SPEAKER_01
- Yeah, that's not the function of the controller.
+0:12:13	SPEAKER_01
+ That's not the function of the controller.
 
-0:12:15	SPEAKER_01
+0:12:16	SPEAKER_01
  That's the function of TV.
 
 0:12:17	SPEAKER_01
- You can replace it with a new TV with internet browser.
+ You can replace your TV with a new TV with internet browser function.
 
-0:12:20	SPEAKER_00
+0:12:21	SPEAKER_00
  No, but you need a new remote controller then.
 
 0:12:23	SPEAKER_00
- Because if you want to browse internet, or...
+ Because if you want to browse internet...
+
+0:12:25	SPEAKER_00
+ You don't have any...
 
 0:12:26	SPEAKER_00
- If you want to type something, or...
+ If you want to type something...
 
 0:12:28	SPEAKER_02
  Okay, if you want to send a mail from...
 
 0:12:30	SPEAKER_01
- It's not the only issue of controller.
+ It's not only the problem.
 
-0:12:33	SPEAKER_01
+0:12:32	SPEAKER_01
  It's also the issue of the TV.
 
 0:12:35	SPEAKER_02
- Because the problem I can see is the voice or gesture.
+ The problem I can see is the voice or gesture.
 
 0:12:39	SPEAKER_02
- Because we can have enough...
+ Because we can't have it in a family.
 
-0:12:41	SPEAKER_01
- For example, we cannot rely 100% on these features to use the controller.
+0:12:42	SPEAKER_01
+ We cannot rely 100% on these features to use the controller.
 
 0:12:48	SPEAKER_01
  But the features of our controller, such as you have the feature of voice recognition in your mobile.
@@ -718,61 +580,64 @@
 0:12:54	SPEAKER_01
  But you seldom use it in your mobile.
 
-0:12:56	SPEAKER_01
- But when you choose a new mobile, you choose the one with voice recognition.
+0:12:57	SPEAKER_01
+ But you choose a new mobile.
+
+0:12:59	SPEAKER_01
+ You choose a VAMB voice recognition.
 
 0:13:02	SPEAKER_01
- The feature is not 100% reliable, but it's a feature to distinguish our product from other products.
+ The feature is not 100% reliable.
+
+0:13:05	SPEAKER_01
+ But it's a feature to distinguish our product from our products.
 
 0:13:11	SPEAKER_04
- Yeah, but we want something that works all the time.
+ We want something that works all the time.
 
 0:13:15	SPEAKER_04
  Every day, every hour.
 
-0:13:17	SPEAKER_04
+0:13:18	SPEAKER_04
  For everyone.
 
+0:13:19	SPEAKER_02
+ The person of the family.
+
 0:13:20	SPEAKER_01
+ If you don't need to do this...
+
+0:13:24	SPEAKER_01
  If you already have a product, it works 100% reliable.
 
 0:13:26	SPEAKER_01
  Would you replace it with another one?
 
 0:13:29	SPEAKER_04
- Yeah, one else.
+ Yeah, why not?
 
 0:13:31	SPEAKER_00
  For example, we would like to have a Google-like controller.
 
-0:13:37	SPEAKER_00
+0:13:36	SPEAKER_00
  I don't see how adding speech or gesture recognition would make the remote control look more like Google.
 
 0:13:46	SPEAKER_00
  Google is simple, works fine.
 
 0:13:50	SPEAKER_00
- So I guess you can have a remote control that is really basic, simple, and works fine.
-
-0:13:56	SPEAKER_00
- It's already a lot.
+ I guess if we can have a remote control that is really basic, simple and works fine, it's already in a lot.
 
 0:13:59	SPEAKER_01
- But there's no big difference between the traditional controller.
+ There's no big difference between the traditional controller.
 
-0:14:03	SPEAKER_00
+0:14:04	SPEAKER_00
  I mean, the user is not only interested in having speech or gesture recognition.
 
 0:14:08	SPEAKER_00
  If he has something that works fine and is really fancy, looks nice.
 
-0:14:13	SPEAKER_00
- It's easy to use.
-
-0:14:16	SPEAKER_01
- It's easy to use.
-
-0:14:17	SPEAKER_01
+0:14:14	SPEAKER_01
  Not enough motivation for them to replace their old controller with a new one.
 
 0:14:20	SPEAKER_01
@@ -782,39 +647,24 @@
  That's the problem.
 
 0:14:24	SPEAKER_00
- Yeah.
-
-0:14:25	SPEAKER_00
- I mean, I know it's more interesting to develop a remote controller with speech and gesture and whatever.
+ I don't know it's more interesting to develop a remote controller with speech and gesture and whatever.
 
 0:14:30	SPEAKER_00
- But you have to think the user is the one who will buy the product then.
+ But you have to think the user is the one who is going to buy the product then.
 
-0:14:36	SPEAKER_00
- Okay.
+0:14:36	SPEAKER_04
+ Okay, so let's go to the industry old designer.
 
-0:14:37	SPEAKER_04
- So let's go to the industrial designer.
+0:14:41	SPEAKER_04
+ Maybe we'll be able to take a decision after that.
 
-0:14:40	SPEAKER_04
- Okay.
-
-0:14:43	SPEAKER_04
- Maybe I would be able to take a decision after that.
-
-0:14:46	SPEAKER_04
- So two.
+0:14:45	SPEAKER_04
+ So, do you want to?
 
 0:14:49	SPEAKER_02
- Yeah, basically two.
-
-0:14:52	SPEAKER_02
- Working.
+ Yeah, pass it on to working.
 
 0:14:53	SPEAKER_02
- Design.
-
-0:14:55	SPEAKER_02
  So, I can...
 
 0:15:01	SPEAKER_02
@@ -823,49 +673,46 @@
 0:15:03	SPEAKER_02
  It's not this one.
 
-0:15:05	SPEAKER_02
- It's not working this one.
+0:15:04	SPEAKER_02
+ It's not working this way.
 
 0:15:07	SPEAKER_02
  Sorry.
 
 0:15:08	SPEAKER_02
- Component.
+ Come on, honey.
 
-0:15:11	SPEAKER_02
- So this is to describe to you.
+0:15:10	SPEAKER_02
+ So, this is what describes using.
 
 0:15:14	SPEAKER_02
- What?
-
-0:15:17	SPEAKER_02
- I guess.
+ I don't see.
 
 0:15:19	SPEAKER_04
- I think there's something wrong with your...
+ I think there's something wrong with the user.
 
-0:15:21	SPEAKER_04
+0:15:21	SPEAKER_01
+ Did you receive it?
+
+0:15:22	SPEAKER_04
  Maybe you record it somewhere else.
 
 0:15:25	SPEAKER_03
  I don't think so.
 
 0:15:31	SPEAKER_03
- Participate one.
+ Pass it on to one.
 
 0:15:36	SPEAKER_01
- Participate one.
+ Pass it on to one.
 
 0:15:39	SPEAKER_04
- Interface concept.
+ To face concept.
 
-0:15:42	SPEAKER_05
+0:15:41	SPEAKER_04
  No.
 
-0:15:45	SPEAKER_03
- Oh.
-
-0:15:48	SPEAKER_02
+0:15:43	SPEAKER_02
  Maybe I record it directly on the computer.
 
 0:15:56	SPEAKER_00
@@ -874,8 +721,8 @@
 0:15:59	SPEAKER_04
  No.
 
-0:16:02	SPEAKER_05
- No.
+0:16:03	SPEAKER_05
+ Okay.
 
 0:16:04	SPEAKER_04
  It seems that we have a problem with the...
@@ -884,351 +731,177 @@
  I don't know if you remember what you had to say or...
 
 0:16:10	SPEAKER_02
- I can say it to you without...
+ I can say it without...
 
 0:16:12	SPEAKER_01
  Yeah, so...
 
 0:16:13	SPEAKER_01
- Yeah, maybe we can first come to...
+ Maybe we can first come to...
 
 0:16:15	SPEAKER_04
- No, I think it would be more interesting to talk with...
+ No, I think it would be more interesting to start with...
 
 0:16:18	SPEAKER_01
- It's from...
+ I think it's more interesting.
 
-0:16:19	SPEAKER_01
- I think it's more interesting than you can.
-
-0:16:21	SPEAKER_01
+0:16:21	SPEAKER_04
  Yeah.
 
-0:16:22	SPEAKER_04
- It will add some more information and I think it would be interesting after you presentation to have some...
+0:16:23	SPEAKER_04
+ We will have some more information.
 
-0:16:30	SPEAKER_04
- Babas presentation.
+0:16:26	SPEAKER_04
+ I think it would be interesting after your presentation to have...
+
+0:16:29	SPEAKER_04
+ Baba's presentation.
 
 0:16:31	SPEAKER_02
- Yeah.
+ In fact, I don't know.
 
-0:16:32	SPEAKER_02
- I don't know.
-
-0:16:34	SPEAKER_02
- In my presentation, I don't have here but...
-
-0:16:37	SPEAKER_02
+0:16:33	SPEAKER_02
  Okay.
 
 0:16:38	SPEAKER_02
- It was in fact to design...
-
-0:16:40	SPEAKER_02
- To show you the design of what is inside...
-
-0:16:43	SPEAKER_02
- What is inside and what has a different component of the...
+ It was in fact to design use to show you the design of what is inside and what are the different components of the...
 
 0:16:47	SPEAKER_02
  of the remote control.
 
-0:16:50	SPEAKER_02
- So it will be interesting so I could show you some...
+0:16:49	SPEAKER_02
+ Okay.
 
-0:16:53	SPEAKER_02
- some picture of what is inside.
+0:16:50	SPEAKER_02
+ So, it would be interesting so I could show you some picture of what is inside.
 
 0:16:58	SPEAKER_02
- So in fact, something I want to discuss is...
-
-0:17:03	SPEAKER_02
- What kind of matter are you going to use?
+ So, in fact, something I want to discuss is which kind of material are you going to use?
 
 0:17:05	SPEAKER_02
- So it will be a wooden...
-
-0:17:08	SPEAKER_02
- wooden remote control or...
-
-0:17:12	SPEAKER_02
- a plastic remote control like this one.
+ So, it would be a wooden remote control or plastic remote control like this one.
 
 0:17:15	SPEAKER_02
- So in which...
+ So, in which...
 
-0:17:19	SPEAKER_02
- which can be the different button.
+0:17:18	SPEAKER_02
+ which kind will be the different button?
 
 0:17:22	SPEAKER_02
- So it can be some...
-
-0:17:25	SPEAKER_02
- you know, classic push button like this one.
-
-0:17:28	SPEAKER_02
- Or you have also some button like LCD where you know...
-
-0:17:32	SPEAKER_02
- the buttons are...
-
-0:17:33	SPEAKER_02
- the buttons are unlighted during the night or you know...
-
-0:17:36	SPEAKER_02
- You can see them in the darkness.
+ So, it can be some classic push button like this one or you have also some button like LCD where, you know, the buttons are unlighted during the night or you can see them in the darkness.
 
 0:17:38	SPEAKER_02
  Okay.
 
 0:17:39	SPEAKER_02
- And the other thing I want to discuss also is...
-
-0:17:42	SPEAKER_02
- which kind of...
-
-0:17:44	SPEAKER_02
- electric elementation we want to have.
+ And the other thing I want to discuss also is which kind of electric elementation we want to have.
 
 0:17:47	SPEAKER_02
- So we need to be for example...
+ So, will it be, for example, solar energy elementation or will it be a battery like the classical battery?
 
-0:17:50	SPEAKER_02
- solar energy...
-
-0:17:52	SPEAKER_02
- or will it be a battery like the classical battery.
-
-0:17:56	SPEAKER_02
- So and I think that for example for the elementation...
-
-0:17:59	SPEAKER_02
- it would be good to have...
-
-0:18:02	SPEAKER_02
- both of them.
+0:17:57	SPEAKER_02
+ So, and I think that for example for the elementation it would be good to have both of them.
 
 0:18:04	SPEAKER_02
- So for example in some country where you are in the countryside...
-
-0:18:08	SPEAKER_02
- and you are far from the cities.
+ So, for example, in some country where you are in the countryside and you are far from the cities.
 
 0:18:11	SPEAKER_02
- For example in some places in...
-
-0:18:14	SPEAKER_02
- in Stenegal.
-
-0:18:15	SPEAKER_02
- So if you have electricity...
-
-0:18:17	SPEAKER_02
- if you have solar...
-
-0:18:18	SPEAKER_02
- elementation you just... when you want to have...
-
-0:18:22	SPEAKER_02
- recharge your remote control power...
-
-0:18:25	SPEAKER_02
- you just put it on the sun and after one hour you can comment.
+ For example, in some place in Senegal. So, if you have solar elementation, you just, when you want to have recharge your remote control power, you just put it on the sun and after one hour you can comment.
 
 0:18:28	SPEAKER_02
- So it can be interesting for people to have this kind of...
+ So, it can be interesting for people to have this kind of...
 
 0:18:31	SPEAKER_02
- it can be something interesting to make people buy it.
+ It can be something interesting to make people buy.
 
 0:18:35	SPEAKER_04
- Yeah, I think it's an added value to the remote control.
-
-0:18:38	SPEAKER_04
- And maybe it can attract all the...
-
-0:18:40	SPEAKER_04
- ecological consumers.
+ Yeah, I think it's an added value to the remote control and maybe it can attract all the electrical consumers.
 
 0:18:44	SPEAKER_04
- And the price of adding this solar battery...
-
-0:18:48	SPEAKER_04
- would it be something really that will increase the price of production or...
-
-0:18:53	SPEAKER_04
- Yeah.
+ And, but apparently the price of adding this solar battery, would it be something really that will increase the price of prediction or no?
 
 0:18:55	SPEAKER_02
- In fact having them both...
-
-0:18:57	SPEAKER_02
- if you want to have battery...
-
-0:19:00	SPEAKER_02
- regular battery and...
-
-0:19:02	SPEAKER_02
- and the solar energy battery...
-
-0:19:05	SPEAKER_02
- it could be...
-
-0:19:06	SPEAKER_02
- it will add a little bit of the price.
+ In fact, having them both will, if you want to have battery, regular battery and the solar energy battery, it could be, it will add a little bit of the price.
 
 0:19:08	SPEAKER_02
  So...
 
 0:19:09	SPEAKER_02
- But it will be another value also that will be compensated.
+ But it will be an added value also that will be compensated.
 
 0:19:12	SPEAKER_02
- So...
+ Okay.
 
 0:19:16	SPEAKER_04
- And what about the...
-
-0:19:19	SPEAKER_04
- materials?
+ And what about the materials?
 
 0:19:20	SPEAKER_02
- And the materials...
-
-0:19:22	SPEAKER_02
- it depends. For example, if you have wooden material it can be more...
+ And the materials, it depends. For example, if you have a wooden material, it can be more...
 
 0:19:26	SPEAKER_02
- the plastic material is more common.
-
-0:19:29	SPEAKER_02
- It's very resistant.
+ The plastic material is more common. It's very resistant.
 
 0:19:31	SPEAKER_02
- But you know, something wooden will be like...
+ But, you know, something wooden will be like, I don't know, special high, special high class.
 
-0:19:33	SPEAKER_02
- I don't know...
-
-0:19:34	SPEAKER_02
- special high class.
-
-0:19:37	SPEAKER_02
- Yeah, and if you...
-
-0:19:38	SPEAKER_04
- we want to put fashion and electronics...
-
-0:19:40	SPEAKER_04
- maybe we can try to do something we would.
+0:19:37	SPEAKER_04
+ Yeah, and if you, we want to put fashion and electronics, maybe we can try to do something we would.
 
 0:19:42	SPEAKER_02
- Yeah, even if it is not completely wood...
-
-0:19:44	SPEAKER_02
- but just a part of the...
-
-0:19:46	SPEAKER_02
- wooden, in wood and...
-
-0:19:48	SPEAKER_02
- it can be interesting.
+ Yeah, even if it is not completely wood, but just a part of the wood, it will be wooden, in wood and it can be interesting.
 
 0:19:50	SPEAKER_02
- Okay, it's interesting to be interesting.
+ Okay, it's interesting.
 
 0:19:52	SPEAKER_02
- So the last point is...
-
-0:19:54	SPEAKER_02
- we do want to have some very cheap...
-
-0:20:00	SPEAKER_02
- integrated circuits, chips...
-
-0:20:02	SPEAKER_02
- or do we have low level or...
-
-0:20:05	SPEAKER_02
- very...
+ So the last point is, also, we do want to have some very cheap integrated circuit chips, or we have low level or very expensive.
 
 0:20:07	SPEAKER_02
- very expensive. It depends.
+ It depends.
 
 0:20:08	SPEAKER_02
- But I think that low level will be...
-
-0:20:10	SPEAKER_02
- it is an entry-migod.
+ But I think that low level will be, you know, it is an entry material.
 
 0:20:11	SPEAKER_04
- Yeah, we want something easy to use.
-
-0:20:13	SPEAKER_04
- So I think maybe something very low level would be enough.
+ Yeah, I want something easy to use, and so I think maybe something very low level would be enough.
 
 0:20:17	SPEAKER_04
+ Yeah.
+
+0:20:18	SPEAKER_04
  And you think that we will be...
 
-0:20:19	SPEAKER_02
- Yeah, I think it will fit on the price.
-
-0:20:21	SPEAKER_02
- You want 12 euros.
+0:20:20	SPEAKER_02
+ Yeah, I think it will fit on the price you want, 12 year or so.
 
 0:20:23	SPEAKER_04
- So what about the buttons?
+ So wood and what about the buttons?
 
 0:20:26	SPEAKER_02
- I think the buttons...
-
-0:20:28	SPEAKER_02
- I prefer...
-
-0:20:29	SPEAKER_02
- the LCD...
-
-0:20:31	SPEAKER_02
- lighted buttons.
-
-0:20:33	SPEAKER_02
- Because you know, it's...
+ I think the buttons, I prefer, you know, the LCD, you know, lighted buttons, because, you know, it's...
 
 0:20:35	SPEAKER_02
- and you're in the dark, it's fashion and...
+ That's a special, yeah.
 
-0:20:38	SPEAKER_02
- it's related to how beautiful it is.
+0:20:36	SPEAKER_02
+ It's fashion and it's related to how beautiful it is.
 
-0:20:40	SPEAKER_02
- So if you want to watch TV in the darkness...
-
-0:20:43	SPEAKER_02
- or if you want to find your...
-
-0:20:46	SPEAKER_02
- your remote control that is lost in the darkness, it's very easy.
+0:20:41	SPEAKER_02
+ So if you want to watch TV in the darkness, or if you want to find your remote control that is lost in the darkness, it's very easy.
 
 0:20:51	SPEAKER_00
- What about the touch screen?
+ What about the touch screen, for example?
 
-0:20:55	SPEAKER_00
- For example...
-
-0:20:57	SPEAKER_00
- it's expensive, I guess.
+0:20:56	SPEAKER_00
+ It's expensive, I guess.
 
 0:20:59	SPEAKER_02
- I think the touch screen...
+ I think the touch screen will be as expensive as the LCD button, so...
 
-0:21:03	SPEAKER_02
- will be as expensive as the LCD button.
-
-0:21:06	SPEAKER_02
+0:21:07	SPEAKER_02
  And it is a kind of design.
 
-0:21:09	SPEAKER_02
+0:21:10	SPEAKER_02
  It can be also interesting to have this kind of...
 
 0:21:17	SPEAKER_01
@@ -1238,25 +911,22 @@
  I don't know.
 
 0:21:20	SPEAKER_04
- I think we have only...
-
-0:21:24	SPEAKER_04
- five minutes left.
+ I think we have only five minutes left.
 
 0:21:26	SPEAKER_03
  Okay.
 
 0:21:27	SPEAKER_04
- Touchpins 4.
+ What have you been there for?
 
 0:21:29	SPEAKER_04
- Functional requirements.
+ Functional requirements?
 
 0:21:31	SPEAKER_00
  No train watching.
 
 0:21:33	SPEAKER_00
- Here's the one.
+ The other one.
 
 0:21:38	SPEAKER_04
  This one?
@@ -1268,153 +938,72 @@
  I think so.
 
 0:21:42	SPEAKER_00
+ Just...
+
+0:21:43	SPEAKER_00
  Yeah.
 
 0:21:44	SPEAKER_00
- So...
-
-0:21:45	SPEAKER_00
- just to meet the user requirements...
-
-0:21:48	SPEAKER_00
- I've just...
-
-0:21:49	SPEAKER_00
- do a short analysis of the remote control market.
+ So just to meet the user requirements, I would just do a short analysis of the remote control market.
 
 0:21:52	SPEAKER_00
- And...
-
-0:21:54	SPEAKER_00
- to kind of...
-
-0:21:58	SPEAKER_00
- have a better overview of what's the fashion in...
-
-0:22:00	SPEAKER_00
- general I've checked more than only the...
-
-0:22:03	SPEAKER_00
- remote control market.
+ And to kind of have a better overview of what the fashion in general have checked more than only the remote control market.
 
 0:22:05	SPEAKER_00
- So...
+ So next.
 
-0:22:06	SPEAKER_00
- next.
+0:22:08	SPEAKER_00
+ So again, it's pretty much similar to what I've said in the previous meeting.
 
-0:22:07	SPEAKER_00
- So again, it's pretty much similar to what I've said...
+0:22:14	SPEAKER_00
+ You really want a fancy look and feel. They are not so interested in a functional look and feel like the one you've shown David with all the buttons.
 
-0:22:11	SPEAKER_00
- in the previous meeting.
+0:22:24	SPEAKER_00
+ I mean, it sounds good technically, but it's not what they want.
 
-0:22:13	SPEAKER_00
- User really wants a fancy look and feel.
+0:22:31	SPEAKER_00
+ So second point, they still want it to be technologically innovative.
 
-0:22:16	SPEAKER_00
- They are not so interested in a functional look and feel.
-
-0:22:19	SPEAKER_00
- Like the one you've shown David with all the buttons.
-
-0:22:23	SPEAKER_00
- I mean...
-
-0:22:25	SPEAKER_00
- it sounds good technically, but it's not what they want.
-
-0:22:28	SPEAKER_00
- So...
-
-0:22:30	SPEAKER_00
- second point, they still want it to be technologically innovative.
-
-0:22:34	SPEAKER_00
- So maybe it's sort of related to what you've said with the...
-
-0:22:37	SPEAKER_00
- speech recognition and so on.
-
-0:22:39	SPEAKER_00
- Okay.
+0:22:35	SPEAKER_00
+ So maybe it's sort of related to what you've said with the speech recognition and so on.
 
 0:22:41	SPEAKER_00
  At the same time, it's important that it's easy to use.
 
-0:22:44	SPEAKER_00
- So where the three first points from the remote control...
+0:22:45	SPEAKER_00
+ So that were the three first points from the remote control analysis.
 
-0:22:48	SPEAKER_00
- analysis.
+0:22:50	SPEAKER_00
+ Now, if we look at fashion in general...
 
-0:22:49	SPEAKER_00
- Now if we look at fashion in general...
-
-0:22:52	SPEAKER_00
+0:22:54	SPEAKER_00
  Okay.
 
-0:22:55	SPEAKER_00
- What we really see this year is that...
-
-0:22:59	SPEAKER_00
- everything from clothing to shoes and furniture...
-
-0:23:03	SPEAKER_00
- is inspired by fruits and vegetables.
+0:22:57	SPEAKER_00
+ What we really see this year is that everything from clothes to shoes and furniture is inspired by fruits and vegetables.
 
 0:23:07	SPEAKER_00
- So I think we really have to...
-
-0:23:09	SPEAKER_00
- take this into account for the design of the...
-
-0:23:12	SPEAKER_00
- thing.
-
-0:23:13	SPEAKER_00
- Yeah.
+ So I think we really have to take this into account for the design of the thing.
 
 0:23:14	SPEAKER_00
- Because it's really what people want.
-
-0:23:16	SPEAKER_00
- Even if it's in general fashion, we want it to be in the...
-
-0:23:20	SPEAKER_00
- remote control.
+ Because it's really what people want, even if it's in general fashion, we want it to be in the remote control.
 
 0:23:22	SPEAKER_00
- And then...
+ And then if we take the ordering or the ranking of all the points, fancy look and feel on the score of seven would have six as important.
 
-0:23:25	SPEAKER_00
- if we take the ordering or the ranking of all the points...
-
-0:23:28	SPEAKER_00
- fancy looking field has...
-
-0:23:30	SPEAKER_00
- underscore of seven.
-
-0:23:32	SPEAKER_00
- We'll have six as importance.
-
-0:23:36	SPEAKER_00
+0:23:35	SPEAKER_00
  The remote control has to be technologically innovative.
 
-0:23:38	SPEAKER_00
- It's three.
-
 0:23:39	SPEAKER_00
- Then easy to use.
+ It's three, then easy to use.
 
 0:23:41	SPEAKER_00
- It's not so important actually with respect to other ones.
+ It's not so important, actually, with respect to other ones.
 
 0:23:45	SPEAKER_00
- So we see fancy looking field is the most important one.
+ So we see fancy looking feel is the most important one.
 
-0:23:48	SPEAKER_00
+0:23:49	SPEAKER_00
  And then if we combine this with the fashion from Milan and Paris...
 
 0:23:53	SPEAKER_02
@@ -1424,55 +1013,40 @@
  We go to the fruits and vegetables.
 
 0:23:57	SPEAKER_00
- And the other point I haven't mentioned is...
-
-0:23:59	SPEAKER_00
- people want to have a spongy touch.
+ And the other point I haven't mentioned is people want to have a spongy touch.
 
 0:24:03	SPEAKER_00
- Okay.
-
-0:24:04	SPEAKER_00
- So this maybe doesn't really fit with the wood and design.
+ So this maybe doesn't really fit with the wooden design.
 
 0:24:08	SPEAKER_00
- Okay.
-
-0:24:09	SPEAKER_00
- Yeah.
-
-0:24:10	SPEAKER_02
  I don't know.
 
-0:24:11	SPEAKER_02
- But the product is which kind of material do you need to be spongy?
+0:24:10	SPEAKER_02
+ But the point is which kind of material do you need to be spongy with?
 
-0:24:15	SPEAKER_00
- Yeah.
+0:24:14	SPEAKER_00
+ Yeah, this would be like plastic-like, but rubber.
 
-0:24:18	SPEAKER_00
- This would be like plastic like...
+0:24:20	SPEAKER_00
+ Very smart.
 
 0:24:21	SPEAKER_00
- Rubber like...
+ Maybe not rubber-like device.
 
-0:24:24	SPEAKER_00
- device.
-
-0:24:26	SPEAKER_03
- Okay.
+0:24:25	SPEAKER_00
+ So...
 
 0:24:28	SPEAKER_00
- That was the main point I think from the trend in fashion.
+ Okay, that was the main point, I think, from the train in fashion.
 
 0:24:34	SPEAKER_03
  Okay.
 
 0:24:35	SPEAKER_04
- So we have to take decisions about the component concepts, about the energy.
+ So we have to take decisions about the confidence concept about the energy.
 
 0:24:41	SPEAKER_04
- So as you say you want something technologically innovative.
+ So as you say, you want something technologically innovative.
 
 0:24:45	SPEAKER_04
  Yeah.
@@ -1481,239 +1055,299 @@
  Maybe using solar energy.
 
 0:24:48	SPEAKER_04
- Yeah, solar I think it's...
+ Yeah, solar, I think.
 
 0:24:50	SPEAKER_04
  With battery would be something interesting.
 
 0:24:54	SPEAKER_04
- Maybe it would attract...
+ Maybe we'll attract...
 
 0:24:56	SPEAKER_02
  Yeah.
 
-0:24:57	SPEAKER_02
- It would be...
-
 0:24:58	SPEAKER_04
  Pro-ecology consumers.
 
-0:25:01	SPEAKER_04
- Chip and print.
-
-0:25:04	SPEAKER_04
- So you propose lollable chips would be enough to have something...
-
-0:25:10	SPEAKER_04
- Yeah.
-
-0:25:11	SPEAKER_04
- Working well.
-
-0:25:12	SPEAKER_04
- Case.
-
-0:25:13	SPEAKER_04
- Lady.
+0:25:00	SPEAKER_04
+ Chip and Prince, so you propose low-level chips would be enough to have something working well.
 
 0:25:14	SPEAKER_04
- So you think...
+ Case.
 
-0:25:17	None
- Ooh, case.
-
-0:25:20	SPEAKER_04
- Something spongy.
+0:25:16	SPEAKER_03
+ Leave it.
 
 0:25:22	SPEAKER_04
+ So you think...
+
+0:25:26	SPEAKER_04
+ Something is spongy?
+
+0:25:28	SPEAKER_04
  No wood.
 
-0:25:23	SPEAKER_04
- Maybe not wood.
-
-0:25:24	SPEAKER_04
- Maybe not the part you're touching.
-
-0:25:27	SPEAKER_04
- Maybe you can have wood for example in the bottom.
-
 0:25:30	SPEAKER_00
- Yeah, maybe the base.
+ Maybe not wood, but I mean wood.
 
-0:25:32	SPEAKER_00
- Maybe the other design you want.
+0:25:33	SPEAKER_00
+ So maybe not the part you're touching.
 
-0:25:34	SPEAKER_02
- It's natural.
+0:25:35	SPEAKER_02
+ Maybe you can have wood, for example, in the bottom.
+
+0:25:38	SPEAKER_02
+ Yeah, maybe the device.
+
+0:25:39	SPEAKER_02
+ The design you want.
 
 0:25:41	SPEAKER_02
- Yeah, it's natural.
-
-0:25:42	SPEAKER_02
- Feeling it's natural.
+ It's natural.
 
 0:25:43	SPEAKER_04
- So maybe we can stay with wood.
+ It's natural.
+
+0:25:44	SPEAKER_04
+ It's natural.
 
 0:25:45	SPEAKER_02
- It can be correlated to energy.
+ Maybe we can stay with wood.
 
-0:25:47	SPEAKER_02
- So for the marketing aspect.
+0:25:46	SPEAKER_02
+ And it can be correlated to energy, solar energy.
 
-0:25:50	SPEAKER_00
- Yeah, I mean it's not exactly right for the spongy...
+0:25:48	SPEAKER_02
+ So for the marketing aspect, you know, saying...
+
+0:25:51	SPEAKER_00
+ It's not exactly right for the spongy.
 
 0:25:54	SPEAKER_04
- Yeah, it's still fashion.
+ Yeah, it's not right.
+
+0:25:56	SPEAKER_04
+ But it's still fashion.
 
 0:25:57	SPEAKER_00
- But we could maybe have both like part of wood and some rubber for the buttons.
+ We could maybe have both like part of wood and some rubber for the buttons or...
 
-0:26:02	SPEAKER_04
+0:26:02	SPEAKER_00
  Okay.
 
-0:26:04	SPEAKER_04
- Yeah, something that you can enter in.
+0:26:03	SPEAKER_04
+ Yeah, something that you can enter.
 
-0:26:07	SPEAKER_04
+0:26:06	SPEAKER_04
  And what about the user interface concept?
 
 0:26:11	SPEAKER_02
  Google and...
 
 0:26:12	SPEAKER_04
- Google and fancy.
+ Google and fancy?
 
-0:26:14	SPEAKER_02
+0:26:13	SPEAKER_02
  And fancy.
 
-0:26:15	SPEAKER_02
+0:26:14	SPEAKER_02
  How about the voice?
 
 0:26:16	SPEAKER_04
- Because I think that with the voice and gesture recognition there are still some disadvantages with this.
+ Because I think that with the voice and gesture recognition, there are still some disadvantages with this.
 
 0:26:23	SPEAKER_02
- Maybe we can do some marketing studies asking people if they're interested in how...
+ Maybe we can do some marketing studies asking people if they're interested and how...
 
 0:26:31	SPEAKER_02
- It is an interesting concept to have voice control.
+ It is an interesting concept to see to have voice control.
+
+0:26:36	SPEAKER_02
+ Yeah.
 
 0:26:37	SPEAKER_01
  Smart control.
 
 0:26:39	SPEAKER_02
- And the point is we can enter that if you have voice control why not to put it directly on the TV.
+ And the point is we can enter the...
+
+0:26:42	SPEAKER_02
+ If you have voice control, why not to put it directly on the TV?
 
 0:26:47	SPEAKER_02
  You speak directly to the TV.
 
 0:26:49	SPEAKER_02
- You don't need a remote control actually.
+ And you don't need a remote control actually.
 
 0:26:52	SPEAKER_04
- Yeah, but you need to receive it to recognize gestures and the voice.
+ Yeah, but you need a receiver to recognize the gestures and the voice.
 
 0:26:56	SPEAKER_02
  It will be embedded on the TV and not on a remote control.
 
-0:26:59	SPEAKER_04
+0:26:59	SPEAKER_02
  That's true.
 
-0:27:01	SPEAKER_04
- Okay. I don't know.
+0:27:00	SPEAKER_04
+ Okay.
 
-0:27:02	SPEAKER_04
- So maybe we're just focused on the Google controller plus the fancy controller.
+0:27:01	SPEAKER_04
+ So maybe we'll just focus on the Google controller plus the fancy controller.
 
 0:27:06	SPEAKER_04
- Maybe try to mix these two concepts together just in one and do a remote control with solar energy and batteries and with low level chips and wood.
+ Maybe try to mix these two concepts together just in one and...
+
+0:27:11	SPEAKER_04
+ Do a remote control with solar energy and batteries and with low-level chips and wood.
 
 0:27:18	SPEAKER_04
- Yeah, good.
+ Yep.
+
+0:27:19	SPEAKER_04
+ Good.
 
 0:27:20	SPEAKER_04
  And LCD buttons.
 
-0:27:38	SPEAKER_04
- I think for the sublimation, the solar energy would be something quite interesting and not maybe too difficult to add.
+0:27:23	SPEAKER_04
+ Yeah, I think for these supplements, the solar energy would be something quite interesting and not maybe too difficult to add.
 
-0:27:51	SPEAKER_02
- What can we say a sublimation through interface?
+0:27:47	SPEAKER_02
+ Yeah.
+
+0:27:48	SPEAKER_02
+ And what can we think as a supplement to what interface?
 
 0:27:56	SPEAKER_04
  Yeah, for the interface something added value.
 
-0:28:01	SPEAKER_02
- I think the sublimation can be the voice.
+0:28:00	SPEAKER_02
+ I think the supplement can be the voice.
 
-0:28:04	SPEAKER_02
- It is not the most important way. It can be a part of...
+0:28:03	SPEAKER_02
+ It is not the most important way.
 
-0:28:10	SPEAKER_04
- With a module, you mean a remote control with a module if you want, you can just use commands, words and use them when you don't want to use different things.
+0:28:06	SPEAKER_02
+ It can be a part of...
+
+0:28:09	SPEAKER_04
+ With a module, you're in a remote control with a module if you want.
+
+0:28:13	SPEAKER_04
+ You can just use commands, words and use them when you don't want to use their fingers.
 
 0:28:23	SPEAKER_02
- Even it is for just some keys like switching channels one, two, three, four.
+ Even if it is for just some keys like switching channels, one, two, three, four...
 
-0:28:29	SPEAKER_02
- Turning the TV off or off.
+0:28:28	SPEAKER_02
+ Turning the TV on or off.
+
+0:28:31	SPEAKER_02
+ Yeah.
 
 0:28:32	SPEAKER_02
- That will be a complex command but easy command.
+ Not very complex commands but easy commands.
 
-0:28:35	SPEAKER_04
+0:28:34	SPEAKER_04
  So adding some vocal commands.
 
-0:28:38	SPEAKER_04
+0:28:37	SPEAKER_03
+ Yeah.
+
+0:28:38	None
  Simple ones.
 
-0:28:41	SPEAKER_02
+0:28:40	SPEAKER_04
  Yeah, simple ones.
 
-0:28:44	SPEAKER_04
+0:28:42	SPEAKER_02
  Okay.
 
-0:28:47	SPEAKER_04
- So next meeting will start in 30 minutes so you will have to work in your direction.
+0:28:44	SPEAKER_04
+ So next meeting will start in 30 minutes.
 
-0:29:03	SPEAKER_04
- So you will have to work on the look and feel design to add the easy to use powerful and fancy remote control with some added value such as the simple vocal commands.
+0:28:52	SPEAKER_04
+ So you will all have to work in your direction.
 
-0:29:16	SPEAKER_04
- Vocal commands recognition.
+0:29:02	SPEAKER_04
+ So you will have to work on the look and feel design to add the easy to use, powerful and fancy remote control with some added value such as the simple vocal commands recognition.
 
-0:29:19	SPEAKER_04
+0:29:18	SPEAKER_04
  You will have to work more on the spongy way to add spongy touch to the buttons and try to find maybe a nice shape for the wooden remote control.
 
-0:29:37	SPEAKER_00
- I think we will have to evaluate the product.
+0:29:36	SPEAKER_04
+ And I think we will have to evaluate the product.
+
+0:29:41	SPEAKER_04
+ Yeah.
+
+0:29:42	SPEAKER_00
+ Not forgetting about the fruits and vegetables, trends.
+
+0:29:46	SPEAKER_00
+ Yeah.
+
+0:29:47	SPEAKER_00
+ It's possible.
+
+0:29:48	SPEAKER_02
+ Okay.
 
 0:29:49	SPEAKER_04
- And remember as I said last meeting we really have to build a fashion remote control and the color of the society will be really...
+ And remember as I said last meeting, we really have to build to fashion remote control and the color of the society will be really...
 
-0:30:04	SPEAKER_04
+0:30:03	SPEAKER_04
  It will be seen in the remote control.
 
 0:30:07	SPEAKER_04
- So you will have Baba and David Jordan, you will have to work together on the prototype and you will have next time to show us a clay remote control.
+ So you will have Baba and David Jordan.
+
+0:30:09	SPEAKER_04
+ You will have to work together on the prototype.
+
+0:30:12	SPEAKER_04
+ Yeah.
+
+0:30:13	SPEAKER_04
+ And you will have next time to show us modeling a clay remote control.
 
 0:30:20	SPEAKER_04
  So you will have to model something.
 
-0:30:24	SPEAKER_04
+0:30:22	SPEAKER_04
+ Yeah.
+
+0:30:23	SPEAKER_04
  And I think that some specific instructions will be sent to you by your personal coach.
 
-0:30:30	SPEAKER_04
- So no more questions we can close the session.
-
-0:30:35	SPEAKER_03
+0:30:29	SPEAKER_04
  Okay.
 
-0:30:37	None
- So...
+0:30:30	SPEAKER_04
+ So no more questions.
 
-0:31:03	None
- So...
+0:30:33	SPEAKER_03
+ We can close the session.
+
+0:30:36	SPEAKER_03
+ Sounds good.
+
+0:30:37	None
+ Okay.
+
+0:30:38	None
+ Okay.
+
+0:30:39	None
+ Cool.
+
+0:30:40	None
+ So.
+
+0:30:41	None
+ Okay.
+
+0:31:06	None
+ Okay.
 

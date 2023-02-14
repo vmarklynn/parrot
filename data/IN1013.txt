@@ -1,0 +1,3876 @@
+0:00:00	None
+ Tla B Oh my god.
+
+0:00:32	SPEAKER_05
+ Yeah, still doesn't feel natural.
+
+0:00:36	SPEAKER_05
+ Yeah.
+
+0:00:37	SPEAKER_05
+ I wish you know the room had just attacked when a meeting started.
+
+0:00:42	SPEAKER_05
+ Starting.
+
+0:00:53	SPEAKER_04
+ Well enough.
+
+0:00:54	SPEAKER_05
+ Okay.
+
+0:00:56	SPEAKER_05
+ So, you better start it.
+
+0:00:58	SPEAKER_05
+ Was your idea?
+
+0:00:59	SPEAKER_03
+ No, so I thought that we might speak a little bit about speech coding because nobody is doing here speech coding.
+
+0:01:05	SPEAKER_03
+ And I would like to have some maybe feedback because except me, I'm supposed to do some speech coding stuff here with Hineck, but you know that little bit at least that it's based on some, let's say, Hilbert transforms using longer temporal context and deriving some parameters which would be transmitted to decoder.
+
+0:01:31	SPEAKER_03
+ So it's a little bit different than the stuff which people are using now which is like LPC based.
+
+0:01:38	SPEAKER_03
+ And but we are at the beginning with everything more or less.
+
+0:01:41	SPEAKER_03
+ So still we can encode a speech.
+
+0:01:47	SPEAKER_03
+ But of course there are many problems which we still didn't solve.
+
+0:01:51	SPEAKER_03
+ And the biggest one is quite similar to LPC stuff where people still don't know how to exactly encode the carrier or the source signal.
+
+0:02:01	SPEAKER_03
+ You know what to do with the envelope or how to approximate the envelope, let's say, when you have got.
+
+0:02:10	SPEAKER_04
+ Maybe is the whiteboard working?
+
+0:02:15	SPEAKER_04
+ Or not?
+
+0:02:17	SPEAKER_03
+ You mean that it would be nice to show us.
+
+0:02:22	SPEAKER_05
+ Maybe I have a paper.
+
+0:02:25	SPEAKER_03
+ So what we are doing now, yeah.
+
+0:02:28	SPEAKER_03
+ You mean?
+
+0:02:30	SPEAKER_03
+ Okay, everybody knows our PC stuff how it works.
+
+0:02:33	SPEAKER_03
+ So I don't have to present anything more else.
+
+0:02:35	SPEAKER_03
+ But it's more or less very simple.
+
+0:02:37	SPEAKER_03
+ We have, as I said at the beginning, there is some speech now.
+
+0:02:43	SPEAKER_03
+ What we are, we might see it in a very simple way that we are using some Hilbert transform at the beginning to create analytics signal.
+
+0:02:53	SPEAKER_03
+ The analytic signal is the signal which is a complex which you can create from the real, some sequence.
+
+0:03:03	SPEAKER_03
+ And if you apply Hilbert transform on such a speech like a real trajectory, then you get a complex signal and you take just the amplitude.
+
+0:03:14	SPEAKER_03
+ Then you get Hilbert envelope code.
+
+0:03:17	SPEAKER_03
+ So, I don't know, yeah.
+
+0:03:20	SPEAKER_05
+ So is this different from the original PLP2 stuff then, is that?
+
+0:03:24	SPEAKER_03
+ Yeah, it's not PLP at all.
+
+0:03:26	SPEAKER_05
+ That's what you started with, wasn't it?
+
+0:03:28	SPEAKER_05
+ That's the stuff that Marius.
+
+0:03:30	SPEAKER_02
+ No, but Marius is, it's not late up.
+
+0:03:33	SPEAKER_02
+ No, Marius is also late in Hilbert transform.
+
+0:03:36	SPEAKER_03
+ Okay.
+
+0:03:37	SPEAKER_03
+ You're, I know what you mean with the PLP.
+
+0:03:40	SPEAKER_03
+ They were applying PLP with some iteration with this one approach.
+
+0:03:45	SPEAKER_03
+ They were doing some smooth thing of a spectrogram in two ways.
+
+0:03:50	SPEAKER_03
+ If I'm advertising it both temporarily and a spectrogram.
+
+0:03:53	SPEAKER_03
+ But PLP is using just the spectral direction, let's say you are doing for every 20-minute second processing one feature vector.
+
+0:04:02	SPEAKER_03
+ You are processing one spectral band, frequency band.
+
+0:04:05	SPEAKER_03
+ Yeah, okay.
+
+0:04:06	SPEAKER_03
+ So it's different direction.
+
+0:04:07	SPEAKER_03
+ Yeah, but anyway, this is very simple.
+
+0:04:09	SPEAKER_03
+ So applying that absolute, absolute operation, you get Hilbert envelope.
+
+0:04:16	SPEAKER_03
+ And of course, there is the phase.
+
+0:04:20	SPEAKER_03
+ So it's just the complex operation.
+
+0:04:23	SPEAKER_03
+ And that's more or less all what we are doing.
+
+0:04:26	SPEAKER_03
+ So now what we know, what we know is how to approximate the Hilbert envelope.
+
+0:04:31	SPEAKER_03
+ We are applying that Hilbert, what is Marius stuff.
+
+0:04:36	SPEAKER_03
+ Yeah.
+
+0:04:37	SPEAKER_03
+ So he knows how to encode the Hilbert envelope using...
+
+0:04:42	SPEAKER_03
+ There's some kind of DCT or...
+
+0:04:44	SPEAKER_03
+ Like LSEFS or LPC.
+
+0:04:46	SPEAKER_03
+ You're applying again some linear operation model after that.
+
+0:04:49	SPEAKER_05
+ But it's a...
+
+0:04:50	SPEAKER_05
+ But it's a...
+
+0:04:51	SPEAKER_05
+ It's a different linear prediction.
+
+0:04:53	SPEAKER_03
+ It's a complex linear prediction.
+
+0:04:55	SPEAKER_03
+ It's a little bit different, not applied in frequency domain.
+
+0:04:57	SPEAKER_03
+ So instead of classical or BCL domain where you have a spectrum, let's say something like that, and you're applying some linear prediction model which is trying to approximate the spectrum, right?
+
+0:05:10	SPEAKER_03
+ So this is frequency.
+
+0:05:11	SPEAKER_03
+ In our case, we are trying to approximate kind of instantaneous energy.
+
+0:05:18	SPEAKER_03
+ So if this is a time and you get one frequency band, you can see something like this.
+
+0:05:26	SPEAKER_03
+ And we are trying to approximate that envelope which is the Hilbert envelope.
+
+0:05:32	SPEAKER_03
+ So again, we know what to do with Hilbert envelope.
+
+0:05:37	SPEAKER_03
+ We know that we can apply linear prediction model and it works pretty well.
+
+0:05:42	SPEAKER_03
+ But if you want to really well construct the speed signal or D...
+
+0:05:47	SPEAKER_03
+ You need also the phase signal, which is in some sense quite simple for voice speeds.
+
+0:05:53	SPEAKER_03
+ Because you use linear phase or...
+
+0:05:55	SPEAKER_03
+ The phase...
+
+0:05:57	SPEAKER_03
+ No, it's a phase or you can even call it like a carrier.
+
+0:06:01	SPEAKER_03
+ So the carrier is, if you know, amplitude modulation, right?
+
+0:06:04	SPEAKER_03
+ You might see something like there is really one cosine which is very good.
+
+0:06:10	SPEAKER_05
+ Well, it depends on how... I mean, you're talking... Yeah, just the carrier.
+
+0:06:14	SPEAKER_05
+ It's not necessarily phase, but if you're using some sort of... It's called like the...
+
+0:06:17	SPEAKER_03
+ So it all kind of... Right, right, exactly.
+
+0:06:19	SPEAKER_03
+ So this is the signal that you also have to somehow encode or transmit from a code of the decoder in order to resin-design it.
+
+0:06:28	SPEAKER_05
+ So what sort of bit right do you get for the encoding of the Hilbert transform, the spectrogram?
+
+0:06:36	SPEAKER_05
+ What do you mean?
+
+0:06:37	SPEAKER_05
+ What sort of coding do you get so far for the... For this one?
+
+0:06:40	SPEAKER_05
+ No, no, no, no.
+
+0:06:41	SPEAKER_03
+ Do you listen to linear prediction model?
+
+0:06:43	SPEAKER_03
+ Well, it's just linear prediction.
+
+0:06:45	SPEAKER_03
+ Closical, right.
+
+0:06:46	SPEAKER_03
+ I mean...
+
+0:06:47	SPEAKER_03
+ Oh, okay, well, if you want to see it in more details...
+
+0:06:50	SPEAKER_05
+ No, no, no, no, but what sort of bit right do you get?
+
+0:06:52	SPEAKER_05
+ Is it... Do you have any sort of idea of what sort of bandwidth?
+
+0:06:58	SPEAKER_03
+ Oh, you mean...
+
+0:06:59	SPEAKER_03
+ Mean bitrate...
+
+0:07:00	SPEAKER_03
+ Yeah, bitrate, I mean.
+
+0:07:01	SPEAKER_03
+ Yeah, sure, sure.
+
+0:07:03	SPEAKER_03
+ So, more as we are... What we are using now is, let's say, something like 1.2 kilobits per second for...
+
+0:07:12	SPEAKER_03
+ The Hilbert and well.
+
+0:07:14	SPEAKER_05
+ Okay, and that's with a fully optimized sort of compression, skate mode.
+
+0:07:18	SPEAKER_05
+ That's just the raw data.
+
+0:07:19	SPEAKER_05
+ It's, again, roughly estimated somewhere.
+
+0:07:21	SPEAKER_03
+ Okay.
+
+0:07:22	SPEAKER_03
+ But we still know that we can go down.
+
+0:07:24	SPEAKER_03
+ Yeah, sure.
+
+0:07:25	SPEAKER_05
+ You just cut out fewer bands and just use interpolation or whatever.
+
+0:07:28	SPEAKER_05
+ Exactly.
+
+0:07:29	SPEAKER_03
+ Yeah.
+
+0:07:30	SPEAKER_03
+ We are using like 15 bands.
+
+0:07:31	SPEAKER_05
+ Okay, that's with the full spectrum basically being used.
+
+0:07:33	SPEAKER_05
+ Right.
+
+0:07:34	SPEAKER_03
+ But they are first... They are integrated into 15 bands using...
+
+0:07:39	SPEAKER_03
+ Classical way like in MFCC or in PLP.
+
+0:07:42	SPEAKER_03
+ You just apply some... those triangular windows or something like that in order to...
+
+0:07:48	SPEAKER_03
+ To get really just 15 bands, right?
+
+0:07:51	SPEAKER_03
+ And each band is then processed independently.
+
+0:07:53	SPEAKER_03
+ Yeah.
+
+0:07:54	SPEAKER_03
+ So for one band we more or less have like 100 beats.
+
+0:07:58	SPEAKER_03
+ Okay. That's quite good.
+
+0:07:59	SPEAKER_03
+ So, for a hill band load.
+
+0:08:00	SPEAKER_05
+ And in Ecker was showing me how scalable it is in terms of...
+
+0:08:04	SPEAKER_05
+ You can take half the bands away and still get decent performance.
+
+0:08:08	SPEAKER_03
+ Yeah, you can just...
+
+0:08:10	SPEAKER_05
+ Three quarters of them away.
+
+0:08:11	SPEAKER_05
+ It starts to degrade but it's still intelligible.
+
+0:08:13	SPEAKER_05
+ Right.
+
+0:08:14	SPEAKER_05
+ That sort of thing.
+
+0:08:15	SPEAKER_05
+ Yeah.
+
+0:08:16	SPEAKER_05
+ Okay.
+
+0:08:17	SPEAKER_05
+ And that's without doing any sort of prediction of what the missing bands might be, right?
+
+0:08:21	SPEAKER_03
+ You just leave the band.
+
+0:08:22	SPEAKER_03
+ Right.
+
+0:08:23	SPEAKER_05
+ That's what we did.
+
+0:08:24	SPEAKER_05
+ You could be able to do some sort of code book.
+
+0:08:26	SPEAKER_03
+ Yeah, I'm sure you...
+
+0:08:27	SPEAKER_03
+ You're missing data sort of by stuff.
+
+0:08:28	SPEAKER_03
+ Yeah.
+
+0:08:29	SPEAKER_03
+ There are many things we didn't try at all but...
+
+0:08:31	SPEAKER_03
+ Yeah, exactly.
+
+0:08:32	SPEAKER_03
+ Okay.
+
+0:08:33	SPEAKER_03
+ But now what I'm really trying to do is somehow approximate that...
+
+0:08:36	SPEAKER_03
+...of the carrier signal to do something with the carrier.
+
+0:08:38	SPEAKER_03
+ There are many simple things which you can do like...
+
+0:08:41	SPEAKER_03
+...quantization, scalar quantization, for example.
+
+0:08:44	SPEAKER_05
+ It would be nice to have a scalable scheme now, wouldn't it?
+
+0:08:48	SPEAKER_05
+ Like because you've got a nice scalable scheme for the...
+
+0:08:51	SPEAKER_05
+...coding of the smooth spectrum.
+
+0:08:53	SPEAKER_05
+ Right.
+
+0:08:54	SPEAKER_05
+ It would be nice to have some sort of scalable...
+
+0:08:56	SPEAKER_05
+...coding scheme for the voice signal as well, right?
+
+0:08:59	SPEAKER_03
+ It means something like...
+
+0:09:01	SPEAKER_03
+...that kelp coding system where you are...
+
+0:09:05	SPEAKER_03
+...or...
+
+0:09:06	SPEAKER_03
+ Well, I don't know how this...
+
+0:09:07	SPEAKER_03
+ No, what is exactly a scalable system, what do you mean?
+
+0:09:09	SPEAKER_05
+ Well, a different bit right for the actual...
+
+0:09:11	SPEAKER_05
+...exitation as well.
+
+0:09:13	SPEAKER_05
+ Yeah.
+
+0:09:14	SPEAKER_05
+ Because I mean, it'd be nice to...
+
+0:09:15	SPEAKER_05
+...let's say if you had 1200 bits in there for the smooth spectrum and 1200 bits for the voice...
+
+0:09:20	SPEAKER_03
+ Yeah, but I think this approach can do that because you really can speed it into several...
+
+0:09:25	SPEAKER_03
+...bag...
+
+0:09:26	SPEAKER_03
+...and you can decide how many bands you want from what.
+
+0:09:29	SPEAKER_01
+ I have a question.
+
+0:09:30	SPEAKER_01
+ Is the scale linear or is math scale like in...
+
+0:09:34	SPEAKER_01
+ Yeah, this is a bar scale.
+
+0:09:36	SPEAKER_01
+ Is it bar scale like in...
+
+0:09:37	SPEAKER_03
+...or math scale?
+
+0:09:38	SPEAKER_03
+ So it's being more wider for...
+
+0:09:42	SPEAKER_03
+...our frequencies and of course...
+
+0:09:44	SPEAKER_01
+...the state.
+
+0:09:45	SPEAKER_01
+ Developing is different, right?
+
+0:09:46	SPEAKER_01
+ Right.
+
+0:09:47	SPEAKER_03
+ Yeah.
+
+0:09:48	SPEAKER_03
+ But what I...
+
+0:09:49	SPEAKER_03
+...my sense is that it is not so much important still.
+
+0:09:53	SPEAKER_03
+ I mean, it doesn't matter if you use math scale or bar scale but...
+
+0:09:56	SPEAKER_03
+ No, no.
+
+0:09:57	SPEAKER_03
+ Just like some solute...
+
+0:09:58	SPEAKER_05
+ Right.
+
+0:09:59	SPEAKER_05
+ Yeah.
+
+0:10:00	SPEAKER_03
+ But that's what we are using.
+
+0:10:01	SPEAKER_03
+ Okay.
+
+0:10:02	SPEAKER_03
+ So, actually, we are using just Gaussian windows here instead of those triangular...
+
+0:10:05	SPEAKER_03
+...because they are more...
+
+0:10:06	SPEAKER_03
+...smooth or...
+
+0:10:07	SPEAKER_03
+...no, it's better than for decoding.
+
+0:10:10	SPEAKER_03
+ It's better to play with them because they are not zero anywhere, you know?
+
+0:10:14	SPEAKER_03
+ Yeah, yeah, yeah.
+
+0:10:15	SPEAKER_03
+ They are approaching...
+
+0:10:16	SPEAKER_03
+...or in linear they are in zero but...
+
+0:10:18	SPEAKER_03
+...actually, they are not.
+
+0:10:19	SPEAKER_03
+ So you don't have to care about some zero values here.
+
+0:10:22	SPEAKER_03
+ Okay.
+
+0:10:23	SPEAKER_03
+ But more or less it doesn't matter.
+
+0:10:24	SPEAKER_03
+ Yeah.
+
+0:10:25	SPEAKER_03
+ We are using just Gaussian windows.
+
+0:10:26	SPEAKER_03
+ Okay.
+
+0:10:27	SPEAKER_02
+ So after you're doing LSF, so...
+
+0:10:30	SPEAKER_02
+...like, I mean, how you are finally encoding those...
+
+0:10:33	SPEAKER_03
+ Okay.
+
+0:10:34	SPEAKER_03
+ Those that have about...
+
+0:10:35	SPEAKER_03
+...an envelope is...
+
+0:10:36	SPEAKER_03
+...is approximated by linear prediction.
+
+0:10:38	SPEAKER_03
+ So you have LPC coefficients which you can transcribe into LSFs...
+
+0:10:43	SPEAKER_03
+...which are...
+
+0:10:44	SPEAKER_03
+...and then vector quantiles or...
+
+0:10:45	SPEAKER_03
+...or...
+
+0:10:46	SPEAKER_05
+...or...
+
+0:10:47	SPEAKER_02
+...or...
+
+0:10:48	SPEAKER_02
+...or...
+
+0:10:49	SPEAKER_02
+...or...
+
+0:10:50	SPEAKER_03
+...or...
+
+0:10:51	SPEAKER_03
+...or...
+
+0:10:52	SPEAKER_03
+...or...
+
+0:10:53	SPEAKER_03
+...or...
+
+0:10:54	SPEAKER_03
+...or...
+
+0:10:55	SPEAKER_03
+...or...
+
+0:10:56	SPEAKER_03
+...or...
+
+0:10:57	SPEAKER_03
+...or...
+
+0:10:58	SPEAKER_02
+...or...
+
+0:10:59	SPEAKER_03
+...then you apply those...
+
+0:11:01	SPEAKER_03
+...T Dracula-o-G Wonst Windows.
+
+0:11:03	SPEAKER_03
+ Yeah.
+
+0:11:04	SPEAKER_03
+ So this is done for 1, a second.
+
+0:11:06	SPEAKER_03
+ 8,000 samples for 8 Sisters.
+
+0:11:08	SPEAKER_03
+ You know cells.
+
+0:11:09	SPEAKER_03
+ Some of the 40 Ding used.
+
+0:11:10	SPEAKER_03
+ Okay.
+
+0:11:11	SPEAKER_03
+ Good collaborating.
+
+0:11:12	SPEAKER_03
+ Okay.
+
+0:11:13	SPEAKER_03
+ There you go!
+
+0:11:14	SPEAKER_03
+ Okay.
+
+0:11:15	None
+ And so you split into 50 Then you applied those dropping intozer bits.
+
+0:11:18	SPEAKER_03
+ If only carbon is diagrammed right there.
+
+0:11:25	SPEAKER_02
+ Like, figure it out or population.
+
+0:11:27	SPEAKER_03
+ Right, exactly, you just apply a piece.
+
+0:11:29	SPEAKER_03
+ So, autocorrelation let's say, or you can do power spectrum, whatever.
+
+0:11:34	SPEAKER_03
+ Yeah, so for each one you get LSS here.
+
+0:11:38	SPEAKER_02
+ So how many LSS you're using?
+
+0:11:41	SPEAKER_03
+ Oh well, I'm using now like 20 LSS per one second, per one frequency band.
+
+0:11:49	SPEAKER_05
+ So, but you have 20, 15.
+
+0:11:51	SPEAKER_02
+ How many bands do you use?
+
+0:11:52	SPEAKER_02
+ 20, 15.
+
+0:11:53	SPEAKER_02
+ 15, you're not skipping any bands or like...
+
+0:11:55	SPEAKER_02
+ No, no, if I just keep...
+
+0:11:56	SPEAKER_02
+ 15 into 20 then.
+
+0:11:57	SPEAKER_03
+ So 20 LSS each one is quantized by four or five beats.
+
+0:12:03	SPEAKER_05
+ Okay.
+
+0:12:05	SPEAKER_05
+ So it's 300...
+
+0:12:09	SPEAKER_03
+ Of what? 300 beats?
+
+0:12:10	SPEAKER_05
+ It's a total of 300 sort of parameters per second.
+
+0:12:17	SPEAKER_05
+ Two. Yeah, yeah.
+
+0:12:19	SPEAKER_00
+ But face your not-em coding,
+
+0:12:20	SPEAKER_02
+ you think face your directly transmitting band? You mean this face the Hilbert carrier or...
+
+0:12:25	SPEAKER_02
+ Yeah, yeah, yeah.
+
+0:12:26	SPEAKER_05
+ No, of course.
+
+0:12:27	SPEAKER_04
+ Face your field burn,
+
+0:12:28	SPEAKER_05
+ he's not transmitting that at all really at this point in time.
+
+0:12:31	SPEAKER_02
+ Yeah, you're not transmitting at all.
+
+0:12:33	SPEAKER_03
+ Well, there are many things you can do. We don't...
+
+0:12:36	SPEAKER_03
+ First thing what you can already do is just to replace it by Gaussian.
+
+0:12:40	SPEAKER_02
+ Yeah, yes, noise.
+
+0:12:41	SPEAKER_03
+ So you can really use...
+
+0:12:43	SPEAKER_03
+ Like in a...
+
+0:12:43	SPEAKER_03
+ You can whisper in time.
+
+0:12:44	SPEAKER_03
+ Right, it centers in a sense.
+
+0:12:46	SPEAKER_03
+ Or you can replace it by some cosine, one cosine generated in a central frequency of that Gaussian window.
+
+0:12:53	SPEAKER_05
+ Or one of these glottal pulse things.
+
+0:12:56	SPEAKER_05
+ And just use basic LPC10 style.
+
+0:12:58	SPEAKER_05
+ Right.
+
+0:12:59	SPEAKER_03
+ Yeah.
+
+0:13:00	SPEAKER_05
+ Which is probably, I mean, if you were going to aim for like a very low rate code of life, I'm 100 bits per second, I guess.
+
+0:13:06	SPEAKER_05
+ That's...
+
+0:13:07	SPEAKER_05
+ That's probably fine.
+
+0:13:09	SPEAKER_02
+ So what is the standard knowledge?
+
+0:13:12	SPEAKER_02
+ It's 2kV per second.
+
+0:13:14	SPEAKER_05
+ The lowest standard is Malp, I think, which is 2400.
+
+0:13:18	SPEAKER_05
+ Oh, the standard.
+
+0:13:19	SPEAKER_05
+ It's been implemented at 1200.
+
+0:13:21	SPEAKER_05
+ It's per second using more more complicated quantizations, games and stuff like that.
+
+0:13:26	SPEAKER_05
+ So I'm 100?
+
+0:13:26	SPEAKER_05
+ Yeah, I think so, yeah.
+
+0:13:28	SPEAKER_05
+ Yeah, it's for solutions.
+
+0:13:29	SPEAKER_05
+ I saw it. They used matrix quantization on the LPC...
+
+0:13:32	SPEAKER_05
+ On the LSF parameters or whatever.
+
+0:13:34	SPEAKER_04
+ Yeah, yeah.
+
+0:13:34	SPEAKER_05
+ I mean, that's quite...
+
+0:13:36	SPEAKER_05
+ It becomes quite computationally intensive.
+
+0:13:38	SPEAKER_05
+ But I mean, I imagine the same sort of approach could be...
+
+0:13:40	SPEAKER_03
+ Well, I'm just comparing with LPC10 standard, which is like classical LPC.
+
+0:13:46	SPEAKER_03
+ It'll be optimized.
+
+0:13:47	SPEAKER_03
+ So then there is, I think, 2.4 kbps to be trade for that.
+
+0:13:51	SPEAKER_05
+ Yeah, that's the same.
+
+0:13:53	SPEAKER_05
+ 20 milps, a lot better quality than that.
+
+0:13:55	SPEAKER_05
+ Yeah, definitely.
+
+0:13:56	SPEAKER_02
+ But this is good, except...
+
+0:13:57	SPEAKER_02
+ This is...
+
+0:13:57	SPEAKER_02
+ You have good milps.
+
+0:13:58	SPEAKER_03
+ No, I mean, LPC10 is just LPC.
+
+0:14:00	SPEAKER_03
+ Oh, it's not good, it's good.
+
+0:14:01	SPEAKER_03
+ No, no, no.
+
+0:14:02	SPEAKER_03
+ I think...
+
+0:14:03	SPEAKER_03
+ Just noise or just still seen positive...
+
+0:14:05	SPEAKER_05
+ I think sound for camp or however you pronounce it.
+
+0:14:07	SPEAKER_05
+ Yeah, it's about 4,800, I think.
+
+0:14:10	SPEAKER_05
+ Yeah, it's a 1.0, yeah.
+
+0:14:12	SPEAKER_02
+ But the standard's 4, yeah.
+
+0:14:13	SPEAKER_02
+ Yeah, yeah, yeah.
+
+0:14:14	SPEAKER_02
+ That's, I think, even GSM and all this G729.
+
+0:14:18	SPEAKER_02
+ Or based around that.
+
+0:14:18	SPEAKER_02
+ Yeah, yeah, on B7.
+
+0:14:20	SPEAKER_05
+ At least it gives...
+
+0:14:21	SPEAKER_05
+ It's not terribly interesting, though.
+
+0:14:22	SPEAKER_02
+ But still there's code book news, so that's...
+
+0:14:26	SPEAKER_02
+ So it may be better than using just random noise.
+
+0:14:29	SPEAKER_05
+ Well, I mean, you've got a bunch of options, haven't you?
+
+0:14:32	SPEAKER_05
+ You can use a...
+
+0:14:34	SPEAKER_05
+ A poetic side, or you could use...
+
+0:14:36	SPEAKER_03
+ Well, more or less, what we didn't do is analyze Bicentas.
+
+0:14:39	SPEAKER_03
+ Right, so that's what...
+
+0:14:40	SPEAKER_03
+ Sound is better based.
+
+0:14:42	SPEAKER_03
+ No, yeah, yeah, sure, sure.
+
+0:14:43	SPEAKER_03
+ Yeah, so this is what we already do, and that might help a lot, of course.
+
+0:14:48	SPEAKER_03
+ Yeah, but what's more interesting?
+
+0:14:50	SPEAKER_03
+ Yeah, exactly.
+
+0:14:51	SPEAKER_03
+ That's the question.
+
+0:14:52	SPEAKER_05
+ I suspect there's something like...
+
+0:14:54	SPEAKER_05
+ Help, you're going to get a lot higher bandwidth, aren't you?
+
+0:14:58	SPEAKER_05
+ I mean, it's a higher bandwidth standard.
+
+0:14:59	SPEAKER_03
+ It's a little bit, yeah, yeah, sure.
+
+0:15:01	SPEAKER_03
+ For example, there...
+
+0:15:03	SPEAKER_03
+ What I also did was a simple peak-picking algorithm.
+
+0:15:06	SPEAKER_03
+ So if you take a look on the spectrum of the carrier signal, which is more or less like the cosine, if you really take a look on that, but it is kind of frequency shifted cosine, or frequency modulated cosine.
+
+0:15:19	SPEAKER_03
+ Right.
+
+0:15:19	SPEAKER_03
+ So the frequency is really changing.
+
+0:15:22	SPEAKER_03
+ Of course, the amplitude is not constant all the time.
+
+0:15:25	SPEAKER_03
+ It should be theoretically, but practically it's not.
+
+0:15:27	SPEAKER_03
+ So what you can see for one second signal, you more or less, you really might see some like one impulse there, or spectral line for.
+
+0:15:39	SPEAKER_03
+ But usually there are many others, which are quite small, but they are quite important.
+
+0:15:44	SPEAKER_03
+ If you don't transmit them, then the signal is quite roboticosome.
+
+0:15:47	SPEAKER_03
+ So if you really transmit just one spectrometer line.
+
+0:15:49	SPEAKER_03
+ But this is what you can do, and you can understand pretty well.
+
+0:15:53	SPEAKER_03
+ The signal is audible or...
+
+0:15:55	SPEAKER_03
+ Okay, so...
+
+0:15:56	SPEAKER_03
+ If you really just find one line, one spectrometer, the dominant one in the spectrum of the carrier Hilbert carrier, and you just transmit this parameter.
+
+0:16:08	SPEAKER_05
+ Because it's a bit tricky, isn't it?
+
+0:16:09	SPEAKER_05
+ It's not like a standard...
+
+0:16:11	SPEAKER_05
+ I'm just thinking, I mean, what sort of option...
+
+0:16:13	SPEAKER_05
+ It's not like you can't just do standard, you know, inverse filtering for single reconstruction, or anything like that, can you?
+
+0:16:20	SPEAKER_03
+ It's even easier, because what you have to do is just divide...
+
+0:16:25	SPEAKER_03
+ You just multiply that Hilbert and all BIDET Hilbert carrier.
+
+0:16:29	SPEAKER_03
+ That's all.
+
+0:16:29	SPEAKER_05
+ Oh, okay, and then you just do the inverse FFT or whatever.
+
+0:16:32	SPEAKER_03
+ InOSU.
+
+0:16:34	SPEAKER_03
+ Okay, yeah, I mean, you've got...
+
+0:16:36	SPEAKER_03
+ So you just multiply that one Hilbert carrier, which is transcribed by OSFs.
+
+0:16:40	SPEAKER_03
+ Yeah.
+
+0:16:40	SPEAKER_03
+ BIDET, this one, IFFT signal, so...
+
+0:16:43	SPEAKER_05
+ But that's going to be susceptible to having phase problems, is it?
+
+0:16:47	SPEAKER_03
+ Well, you mean the phase of that carrier?
+
+0:16:52	SPEAKER_03
+ How could signal...
+
+0:16:53	SPEAKER_03
+ Of course, I try to play also with that, and I found that it doesn't matter so much, which is the phase.
+
+0:17:00	SPEAKER_03
+ Because we are using just one second window.
+
+0:17:03	SPEAKER_03
+ Yeah.
+
+0:17:03	SPEAKER_03
+ Right.
+
+0:17:04	SPEAKER_03
+ So of course, there might be some disturbance...
+
+0:17:07	SPEAKER_03
+ Disturbed when you concatenate those segments together, but then the phase might be important.
+
+0:17:13	SPEAKER_03
+ Yeah.
+
+0:17:14	SPEAKER_03
+ But otherwise, I mean, I didn't find anything important with the phase.
+
+0:17:19	SPEAKER_03
+ Like, quick, keep the phase zero and it works.
+
+0:17:21	SPEAKER_05
+ And I mean, there is research that's been published showing, you know, speech reconstruction from the...
+
+0:17:32	SPEAKER_05
+ Essentially, the spectrogram without phase information.
+
+0:17:34	SPEAKER_03
+ Right, right, right.
+
+0:17:35	SPEAKER_03
+ Yeah.
+
+0:17:36	SPEAKER_03
+ So...
+
+0:17:36	SPEAKER_03
+ Base, again, is a bit different because they are doing this in a frequency domain.
+
+0:17:41	SPEAKER_03
+ Yes.
+
+0:17:41	SPEAKER_03
+ But this is in time domain.
+
+0:17:43	SPEAKER_05
+ Yes, but I mean, you can reconstruct the entire...
+
+0:17:49	SPEAKER_03
+ Right.
+
+0:17:50	SPEAKER_03
+ The spectrogramming.
+
+0:17:51	SPEAKER_03
+ Spectrogram from that, can't you?
+
+0:17:53	SPEAKER_03
+ So you could do it that way.
+
+0:17:54	SPEAKER_05
+ Because I'm just thinking, there's a heap of options.
+
+0:17:56	SPEAKER_05
+ Like, if you'd exactly the same with sinusoidal coding or something like that, all you need is the reconstruction of the spectrogram in order to estimate the harmonic amplitudes.
+
+0:18:05	SPEAKER_05
+ Exactly.
+
+0:18:06	SPEAKER_03
+ And then, what we can also do very simply is just to get the magnitude spectrogram using this approximation without the carrier, just Hilbert envelope.
+
+0:18:16	SPEAKER_03
+ But you just get it in this way, in the way of routes, right?
+
+0:18:20	SPEAKER_03
+ But you can also get the short time Fourier transform...
+
+0:18:23	SPEAKER_03
+ Yeah.
+
+0:18:23	SPEAKER_03
+ Just by ray-filling.
+
+0:18:25	SPEAKER_03
+ Right.
+
+0:18:26	SPEAKER_03
+ Just classical frame-by-frame algorithm 20 milliseconds.
+
+0:18:30	SPEAKER_03
+ But you keep just the phases instead of magnitude.
+
+0:18:33	SPEAKER_03
+ And you can put this together.
+
+0:18:35	SPEAKER_03
+ Okay.
+
+0:18:35	SPEAKER_03
+ Right.
+
+0:18:36	SPEAKER_03
+ And if it works pretty well, then the signal is not just whispered.
+
+0:18:42	SPEAKER_03
+ And you really hear that there is the voiceness in the signal.
+
+0:18:44	SPEAKER_03
+ Yeah.
+
+0:18:45	SPEAKER_03
+ Okay.
+
+0:18:46	SPEAKER_03
+ But of course, the quiet is not so good still.
+
+0:18:49	SPEAKER_03
+ But you can use it for like two, three kilobits per second.
+
+0:18:53	SPEAKER_03
+ And it works.
+
+0:18:54	SPEAKER_05
+ Yeah.
+
+0:18:54	SPEAKER_05
+ But that's the big thing at the moment, isn't it?
+
+0:18:56	SPEAKER_05
+ If you're...
+
+0:18:58	SPEAKER_05
+ Like, yeah.
+
+0:18:58	SPEAKER_05
+ If the...
+
+0:18:59	SPEAKER_05
+ If the encoding writes two kilobits per second for the...
+
+0:19:03	SPEAKER_05
+ The excitation component of the signal.
+
+0:19:06	SPEAKER_05
+ Right.
+
+0:19:07	SPEAKER_05
+ It doesn't matter how efficient your encoding of the spectrogram is.
+
+0:19:11	SPEAKER_05
+ Right.
+
+0:19:11	SPEAKER_05
+ You're always going to have a high, relatively high bit, right?
+
+0:19:16	SPEAKER_04
+ Yeah, sure.
+
+0:19:22	SPEAKER_03
+ Anyway, so maybe it would be nice if you'd...
+
+0:19:25	SPEAKER_03
+ If you'd...
+
+0:19:25	SPEAKER_03
+ So what you did with the speech coding, because...
+
+0:19:29	SPEAKER_03
+ I didn't see any of PhD thesis of you.
+
+0:19:32	SPEAKER_03
+ I think so.
+
+0:19:33	SPEAKER_03
+ If you did something.
+
+0:19:35	SPEAKER_03
+ So maybe it would be interesting at least to you.
+
+0:19:37	SPEAKER_03
+ Yeah.
+
+0:19:37	SPEAKER_03
+ Yeah.
+
+0:19:38	SPEAKER_05
+ So, well, one could argue it's a field that's quite a sort of a niche these days, isn't it?
+
+0:19:44	None
+ Yeah.
+
+0:19:44	SPEAKER_05
+ Yeah, sure.
+
+0:19:45	SPEAKER_02
+ Yeah.
+
+0:19:45	SPEAKER_02
+ But yeah, but it's more towards industry than standards.
+
+0:19:48	SPEAKER_02
+ Yeah.
+
+0:19:49	SPEAKER_02
+ Because I worked in a industry for like a small time, but there they used to implement all these coders, GSM and ITU standards.
+
+0:19:57	SPEAKER_03
+ So you were...
+
+0:19:58	SPEAKER_03
+ When did you do that?
+
+0:20:00	SPEAKER_02
+ No, just before my PhD.
+
+0:20:01	SPEAKER_02
+ I worked for like a few months.
+
+0:20:04	SPEAKER_02
+ Yeah, but the industry is really a big deal.
+
+0:20:07	SPEAKER_02
+ Like so they work on a lot of these standards.
+
+0:20:10	SPEAKER_02
+ I think so, yeah.
+
+0:20:11	SPEAKER_02
+ What did you say?
+
+0:20:11	SPEAKER_02
+ Yeah.
+
+0:20:12	SPEAKER_02
+ But mostly they're all based on self-paranalic milli.
+
+0:20:15	SPEAKER_02
+ Yeah.
+
+0:20:15	SPEAKER_02
+ So...
+
+0:20:16	SPEAKER_05
+ Is it Nokia's being sued in the US for their try band usage?
+
+0:20:22	SPEAKER_05
+ Because...
+
+0:20:23	SPEAKER_03
+ You mean using that CDMA?
+
+0:20:26	SPEAKER_03
+ No, no.
+
+0:20:27	SPEAKER_03
+ JSM?
+
+0:20:28	SPEAKER_05
+ JSM because I don't have GSM in the US, or they didn't have GSM in the US.
+
+0:20:31	SPEAKER_03
+ Yeah, it's not GSM right.
+
+0:20:32	SPEAKER_03
+ CDMA is another level, I think.
+
+0:20:36	SPEAKER_02
+ No, CDMA is there, but now slowly they're introducing GSM also.
+
+0:20:40	SPEAKER_02
+ Well, let's try band.
+
+0:20:41	SPEAKER_02
+ Yeah, GSM privately.
+
+0:20:43	SPEAKER_02
+ Frequencies are different.
+
+0:20:44	SPEAKER_02
+ Yeah, exactly.
+
+0:20:45	SPEAKER_02
+ Yeah.
+
+0:20:46	SPEAKER_05
+ And apparently Nokia's a bit of trouble over that one, but...
+
+0:20:51	SPEAKER_05
+ That's interesting.
+
+0:20:51	SPEAKER_02
+ Yeah, now it's really big competition.
+
+0:20:52	SPEAKER_03
+ I think there is a lot of money in that way.
+
+0:20:55	SPEAKER_03
+ Right, there should have been a lot, yeah.
+
+0:20:57	SPEAKER_03
+ Like speech recognition, of course, it's very interesting, but people don't use it so much as...
+
+0:21:02	SPEAKER_03
+ Well, that's...
+
+0:21:03	SPEAKER_03
+ Just coding, just telephoning, right?
+
+0:21:05	SPEAKER_05
+ I mean coding is a much more sort of standard...
+
+0:21:08	SPEAKER_02
+ It's a whole...
+
+0:21:09	SPEAKER_05
+ I mean, it boils down to just mathematics.
+
+0:21:13	SPEAKER_05
+ It's a lot of...
+
+0:21:13	SPEAKER_00
+ Right, yeah.
+
+0:21:14	SPEAKER_00
+ It doesn't...
+
+0:21:14	SPEAKER_00
+ Yeah.
+
+0:21:14	SPEAKER_05
+ It's just sort of...
+
+0:21:18	SPEAKER_05
+ It's...
+
+0:21:18	SPEAKER_05
+ You know, communications.
+
+0:21:20	SPEAKER_05
+ Right, right.
+
+0:21:21	SPEAKER_05
+ Sort of...
+
+0:21:22	SPEAKER_05
+ No, yeah.
+
+0:21:22	SPEAKER_02
+ So where do you think your thing is useful in CDMA or JSM?
+
+0:21:26	SPEAKER_02
+ No, I...
+
+0:21:27	SPEAKER_02
+ I think maybe in CDMA it may be...
+
+0:21:28	SPEAKER_02
+ Well, what they were thinking about is...
+
+0:21:32	SPEAKER_03
+ CDMA, I mean, there is...
+
+0:21:34	SPEAKER_02
+ Or time domain that they're doing only...
+
+0:21:38	SPEAKER_03
+ Well, the problem is this with this application, or it doesn't have to be problem, but one constraint is that we are processing one second of the signal.
+
+0:21:45	SPEAKER_03
+ You can go down, of course, but then you are losing a little bit of the bit, right, let's say.
+
+0:21:49	SPEAKER_03
+ Yeah, sure, sure.
+
+0:21:50	SPEAKER_03
+ So, but there are many applications where you really can use it because you don't care about algorithmic delay.
+
+0:21:55	SPEAKER_03
+ One second algorithm delay, like for...
+
+0:21:57	SPEAKER_03
+ I don't know if instead of SMS you can really have some other channel.
+
+0:22:01	SPEAKER_03
+ Yeah, sure, sure.
+
+0:22:02	SPEAKER_03
+ Because you're talking stuff like that.
+
+0:22:04	None
+ Right.
+
+0:22:04	SPEAKER_03
+ Yeah.
+
+0:22:06	SPEAKER_03
+ So...
+
+0:22:06	SPEAKER_05
+ And I mean, as you say, I mean, the delay is...
+
+0:22:09	SPEAKER_05
+ I mean, you can squash that delay to some extent.
+
+0:22:12	SPEAKER_05
+ Right, right.
+
+0:22:13	SPEAKER_04
+ Yeah.
+
+0:22:13	SPEAKER_05
+ I mean, I think as far as the delayless coding goes, I don't think you can probably do much more than what's already been achieved, because to get higher compression you have to...
+
+0:22:24	SPEAKER_05
+ You know, take advantage of redundancy over longer times fans.
+
+0:22:28	SPEAKER_05
+ But even though...
+
+0:22:30	SPEAKER_02
+ But even though they...
+
+0:22:30	SPEAKER_02
+ These long telephones, they already have delay, at least half a second.
+
+0:22:35	SPEAKER_02
+ Yeah, sure, but I mean, that's transmission delay.
+
+0:22:36	SPEAKER_05
+ Not algorithmic delay if you add those together, you end up with a...
+
+0:22:39	SPEAKER_05
+ Yeah.
+
+0:22:39	SPEAKER_05
+...night mess.
+
+0:22:40	SPEAKER_05
+ No, yeah.
+
+0:22:41	SPEAKER_02
+ But mobile...
+
+0:22:44	SPEAKER_05
+ We might have someone else joining in on a meeting soon.
+
+0:22:49	SPEAKER_05
+ That's nice.
+
+0:22:50	SPEAKER_05
+ I don't know.
+
+0:22:50	SPEAKER_05
+ I mean, you tried SonyaSoidal coding, those approaches, didn't you?
+
+0:22:54	SPEAKER_05
+ Which one?
+
+0:22:55	SPEAKER_03
+ SonyaSoidal coding.
+
+0:22:59	SPEAKER_03
+ But the SonyaSoidal coding is usually, at least what I think or what I know is, when you are doing SonyaSoidal coding, it means you just take the speech signal at the beginning, right?
+
+0:23:09	SPEAKER_03
+ And you are trying to find...
+
+0:23:12	SPEAKER_02
+ Homonics and...
+
+0:23:13	SPEAKER_03
+ Yeah, to find the harmonic in a temporal domain, right?
+
+0:23:15	SPEAKER_03
+ Yeah, for that.
+
+0:23:16	SPEAKER_05
+ Yeah, but I mean, the thing is, you need...
+
+0:23:19	SPEAKER_05
+ I mean, part of the parameter set for that is the harmonic amplitudes.
+
+0:23:27	SPEAKER_05
+ Right.
+
+0:23:28	SPEAKER_05
+ Now, one way of compressing the harmonic amplitudes is just storing the smooth spectrum.
+
+0:23:34	SPEAKER_05
+ And then...
+
+0:23:34	SPEAKER_05
+ Oh, yeah.
+
+0:23:35	SPEAKER_05
+...you can interpolate.
+
+0:23:36	SPEAKER_05
+ Yeah, you can just pick the harmonic amplitudes on that spectrum when you reconstruct.
+
+0:23:41	SPEAKER_05
+ Right.
+
+0:23:42	SPEAKER_05
+ On that smooth version of the spectrum.
+
+0:23:43	SPEAKER_03
+ More or less I did it, maybe the firm way, but...
+
+0:23:45	SPEAKER_03
+ Yeah, well, I just...
+
+0:23:46	SPEAKER_03
+ Kind of regretting like, okay, trying to find out the strongest or the most dominant peaks in the spectrum, which is more or less the same.
+
+0:23:53	SPEAKER_02
+ But maybe the bit rate is the problem, not like, what can we do?
+
+0:23:55	SPEAKER_02
+ Yeah, why...
+
+0:23:55	SPEAKER_02
+...it's really...
+
+0:23:56	SPEAKER_05
+ But it's quite high, I've been right, but I mean, once again, it may be it's something that's scalable.
+
+0:24:00	SPEAKER_02
+ But, yeah, maybe you can just see how many harmonics...
+
+0:24:04	SPEAKER_02
+ He was using 20, I think, like, maybe you can try to reduce...
+
+0:24:06	SPEAKER_05
+ Although, I mean, you can use as many harmonics as you want.
+
+0:24:09	SPEAKER_05
+ I mean, he was just using the fundamental...
+
+0:24:11	SPEAKER_05
+ Yeah, frequency.
+
+0:24:12	SPEAKER_04
+ Right.
+
+0:24:12	SPEAKER_05
+ And if you're doing a smooth spectrum representation of the harmonic amplitudes, then you only need to store the fundamental frequency.
+
+0:24:20	SPEAKER_05
+ Right.
+
+0:24:21	SPEAKER_02
+ And then all this amplitude.
+
+0:24:22	SPEAKER_05
+ And the maximum voice frequency.
+
+0:24:23	SPEAKER_05
+ And then you do multiples of...
+
+0:24:25	SPEAKER_03
+ Yeah, sure.
+
+0:24:26	SPEAKER_05
+ Yeah, yeah.
+
+0:24:27	SPEAKER_05
+ So...
+
+0:24:27	SPEAKER_05
+ And then the tricky...
+
+0:24:28	SPEAKER_05
+ The only tricky thing that we hadn't figured out was the phase information.
+
+0:24:31	SPEAKER_02
+ You take in.
+
+0:24:32	SPEAKER_02
+ Yeah.
+
+0:24:33	SPEAKER_05
+ But you can still get A, like you get...
+
+0:24:37	SPEAKER_05
+ Basically, if you do phase unwrapping and all of these other tricks, you end up with some sort of phase representation, which is...
+
+0:24:43	SPEAKER_05
+ Some kind of...
+
+0:24:43	SPEAKER_03
+...some sort of monotonically decreasing...
+
+0:24:45	SPEAKER_03
+ Yeah.
+
+0:24:45	SPEAKER_03
+ If it's unwrapping, unwrapping.
+
+0:24:48	SPEAKER_03
+ Yeah, unwrapping.
+
+0:24:49	SPEAKER_05
+ Yeah.
+
+0:24:49	SPEAKER_05
+ So, I mean, it's something that you can, saveably represent in some sort of...
+
+0:24:54	SPEAKER_00
+ Right.
+
+0:24:54	SPEAKER_00
+ Some functions.
+
+0:24:54	SPEAKER_00
+ Low sort of...
+
+0:24:57	SPEAKER_00
+ You know, low bit right representation, I guess.
+
+0:24:59	SPEAKER_05
+ Right.
+
+0:24:59	SPEAKER_05
+ And then maybe you'd need some sort of correction to correct minor phase discontinuities at some point in time.
+
+0:25:07	SPEAKER_03
+ I also play with that.
+
+0:25:09	SPEAKER_03
+ And for example, what I found is that, in this case, we are not trying to encode the speed signal.
+
+0:25:15	SPEAKER_03
+ We are trying to encode some carrier, which is much easier, I would say, because you can see that even.
+
+0:25:22	SPEAKER_03
+ Yeah, okay.
+
+0:25:23	SPEAKER_03
+ So, where I was trying to encode the phases, so I just found that two bits is enough for that, and you really don't hear the difference.
+
+0:25:30	SPEAKER_03
+ So, if you keep all the spectral lines...
+
+0:25:33	SPEAKER_03
+ Yeah.
+
+0:25:33	SPEAKER_03
+...as they were there.
+
+0:25:34	SPEAKER_03
+ Yeah.
+
+0:25:35	SPEAKER_03
+ But you are just quantizing with two bits, or three bits for amplitude, two bits for a phase.
+
+0:25:40	SPEAKER_03
+ So, it's okay.
+
+0:25:41	SPEAKER_03
+ The problem is that you have to transmit many of them.
+
+0:25:44	SPEAKER_03
+ Because there is not just one domain component, but usually more others, which are quite small.
+
+0:25:49	SPEAKER_03
+ Yeah.
+
+0:25:49	SPEAKER_03
+ Right.
+
+0:25:50	SPEAKER_03
+ Yeah.
+
+0:25:51	SPEAKER_03
+ Or what you have to do, then you have to decrease the size of...
+
+0:25:55	None
+ The size of...
+
+0:25:55	SPEAKER_03
+ The size of...
+
+0:25:55	SPEAKER_03
+ Not one second, but you have to go down, because then you can get just voice part and a voice part.
+
+0:26:00	SPEAKER_03
+ You know, one second is usually mixed, right, somehow, together.
+
+0:26:04	SPEAKER_02
+ But you don't do any voice and voice decision.
+
+0:26:06	SPEAKER_02
+ No, no.
+
+0:26:06	SPEAKER_02
+ No, no.
+
+0:26:07	SPEAKER_00
+ You don't even have advantage, I think.
+
+0:26:08	SPEAKER_02
+ You want to avoid half choices.
+
+0:26:10	SPEAKER_02
+ Yeah.
+
+0:26:10	SPEAKER_02
+ We don't want to do that.
+
+0:26:11	SPEAKER_02
+ Yeah.
+
+0:26:12	SPEAKER_02
+ Because in same subtle modeling, it's really another issue.
+
+0:26:14	SPEAKER_02
+ Well, that's one of the big problems with the whole piece, say 10 frames.
+
+0:26:16	SPEAKER_02
+ Yeah.
+
+0:26:17	SPEAKER_02
+ Yeah.
+
+0:26:17	SPEAKER_02
+ It stinks, because it's hard.
+
+0:26:19	SPEAKER_02
+ Exactly.
+
+0:26:19	SPEAKER_02
+ Yeah.
+
+0:26:20	SPEAKER_02
+ And then you have to combine all these harmonic model and noise models.
+
+0:26:23	SPEAKER_02
+ So again, you may end up some joining.
+
+0:26:26	SPEAKER_03
+ But for example, what we also found is that if you use just the Herbert envelope, that one, which is trying to approximate that in some terrorist energy, in some low band, like around 200 Hertz.
+
+0:26:38	SPEAKER_03
+ And you take a look on the signal on the trajectory.
+
+0:26:41	SPEAKER_03
+ You can see that it works like kind of voice detector.
+
+0:26:44	SPEAKER_03
+ Oh, sure.
+
+0:26:45	SPEAKER_03
+ Yeah.
+
+0:26:45	SPEAKER_03
+ Because for low energies, there is usually noise for high energies.
+
+0:26:50	SPEAKER_03
+ There is kind of harmonicity.
+
+0:26:52	SPEAKER_03
+ Yeah.
+
+0:26:52	SPEAKER_03
+ So it works pretty well for that.
+
+0:26:53	SPEAKER_03
+ So we might use this one.
+
+0:26:54	SPEAKER_05
+ But that 200, this is what they use.
+
+0:26:58	SPEAKER_05
+ Like, they do use this for pitch marking in speech.
+
+0:27:03	SPEAKER_05
+ So this is what Ellen Black's code uses.
+
+0:27:05	SPEAKER_05
+ But it's very speaker dependent on what sort of bandwidth you look at this Hilbert envelope.
+
+0:27:12	SPEAKER_05
+ Right.
+
+0:27:12	SPEAKER_05
+ Depending on the pitch, depending on the person, you'll get a different amount of smoothing at a certain sort of...
+
+0:27:19	SPEAKER_05
+ Yeah.
+
+0:27:19	SPEAKER_05
+ So I mean, if it's a female speaker, for instance...
+
+0:27:23	SPEAKER_05
+ That's true.
+
+0:27:23	SPEAKER_05
+ Yeah.
+
+0:27:24	SPEAKER_05
+ Yeah.
+
+0:27:24	SPEAKER_02
+ So you have to tune a lot of parameters like that.
+
+0:27:27	SPEAKER_02
+ Yeah.
+
+0:27:27	SPEAKER_03
+ Yeah.
+
+0:27:27	SPEAKER_03
+ That's a problem.
+
+0:27:29	SPEAKER_02
+ But anyway, you don't really need hard decisions.
+
+0:27:31	SPEAKER_02
+ Not like voice to voice.
+
+0:27:32	SPEAKER_02
+ Oh.
+
+0:27:33	SPEAKER_02
+ Oh.
+
+0:27:33	SPEAKER_02
+ So maybe it may help everybody.
+
+0:27:35	SPEAKER_02
+ That would be nice.
+
+0:27:37	SPEAKER_03
+ Not to have anything like that.
+
+0:27:38	SPEAKER_05
+ Yeah.
+
+0:27:38	SPEAKER_05
+ But from memory, that basic script that they had wasn't very effective.
+
+0:27:44	SPEAKER_05
+ I mean, maybe if you did some sort of initial first guess, and then...
+
+0:27:48	SPEAKER_05
+ Right.
+
+0:27:49	SPEAKER_05
+ And then chose your smoothing factor based on that.
+
+0:27:51	None
+ Yeah.
+
+0:27:51	SPEAKER_05
+ Because selecting any particular point of what the pitch is at the point is might be inaccurate.
+
+0:27:57	SPEAKER_05
+ But if you're estimated at over a second, you should be able to get a decent estimate on something.
+
+0:28:02	SPEAKER_02
+ But do you really need it or like voice to voice?
+
+0:28:06	SPEAKER_02
+ Well, I don't know.
+
+0:28:06	SPEAKER_03
+ Maybe if we really want to improve the quality, then we will need it.
+
+0:28:10	SPEAKER_03
+ I don't know.
+
+0:28:11	SPEAKER_02
+ Yeah.
+
+0:28:11	SPEAKER_02
+ But it's not really...
+
+0:28:13	SPEAKER_02
+ You don't need to specify at each point.
+
+0:28:15	SPEAKER_02
+ It's voice.
+
+0:28:15	SPEAKER_03
+ But now, yeah.
+
+0:28:17	SPEAKER_03
+ Well, I'm going to have a time next month or in three weeks.
+
+0:28:21	SPEAKER_03
+ So I'll try to play some examples there.
+
+0:28:23	SPEAKER_05
+ It'll be nice to really see what this...
+
+0:28:27	SPEAKER_05
+ What you're actually trying to reconstruct here.
+
+0:28:30	SPEAKER_05
+ Yeah.
+
+0:28:31	SPEAKER_03
+ What we are trying to reconstruct...
+
+0:28:32	SPEAKER_05
+ This carrier signal, what it really...
+
+0:28:34	SPEAKER_05
+ How does it look like...
+
+0:28:35	SPEAKER_03
+ Yeah.
+
+0:28:36	SPEAKER_05
+ Yeah.
+
+0:28:37	SPEAKER_05
+ And you did say it looks like a frequency modulator...
+
+0:28:39	SPEAKER_05
+ Yeah.
+
+0:28:39	SPEAKER_05
+ How it's not?
+
+0:28:40	SPEAKER_03
+ It's kind of not the frequency, let's say amplitude modulation, where you have just the carrier and the modulation now.
+
+0:28:49	SPEAKER_02
+ And then amplitude.
+
+0:28:50	SPEAKER_02
+ Right.
+
+0:28:51	SPEAKER_02
+ But you're changing even frequencies also shifting, you don't have to make a picture.
+
+0:28:55	None
+ Yeah.
+
+0:28:55	SPEAKER_02
+ Yeah.
+
+0:28:55	SPEAKER_02
+ Yeah.
+
+0:28:56	SPEAKER_02
+ Exactly.
+
+0:28:57	SPEAKER_02
+ So then, yeah.
+
+0:28:57	SPEAKER_02
+ Then it's not the exact length to the modulation.
+
+0:28:59	SPEAKER_02
+ So it can be...
+
+0:29:00	SPEAKER_02
+ Yeah.
+
+0:29:00	SPEAKER_02
+ It's in between.
+
+0:29:01	SPEAKER_02
+ It's in between.
+
+0:29:02	SPEAKER_02
+ Yeah.
+
+0:29:03	SPEAKER_02
+ So it's not this or that, but...
+
+0:29:04	SPEAKER_03
+ Still, yeah.
+
+0:29:06	SPEAKER_03
+ But anyway, what...
+
+0:29:07	SPEAKER_03
+ Also, the another approach, which is possible to use...
+
+0:29:10	SPEAKER_03
+ The another is one to keep the face like this.
+
+0:29:12	SPEAKER_03
+ One, two spectrograms, one the face, one the magnitude.
+
+0:29:15	SPEAKER_03
+ Yeah.
+
+0:29:15	SPEAKER_03
+ And, well, I can again play it.
+
+0:29:17	SPEAKER_03
+ And it works on two kilobits per second.
+
+0:29:20	SPEAKER_02
+ That's what Mario's did, but he was keeping on the face.
+
+0:29:23	SPEAKER_03
+ No, he was doing...
+
+0:29:24	SPEAKER_03
+ He was using a four-speed recognition, what I...
+
+0:29:27	SPEAKER_03
+ No, but even then he's...
+
+0:29:27	SPEAKER_02
+ For sure.
+
+0:29:29	SPEAKER_02
+ He didn't do anything.
+
+0:29:31	SPEAKER_02
+ He just transmitted it.
+
+0:29:31	SPEAKER_02
+ That's why...
+
+0:29:32	SPEAKER_02
+ He was aiming for...
+
+0:29:33	SPEAKER_02
+ Speech coding, I mean?
+
+0:29:34	SPEAKER_02
+ He's not really kind of doing speech coding, but he wanted to do it on music.
+
+0:29:38	SPEAKER_02
+ So he doesn't really care about the bandwidth.
+
+0:29:41	SPEAKER_02
+ He wanted to have the quality.
+
+0:29:43	SPEAKER_02
+ I don't know.
+
+0:29:43	SPEAKER_00
+ I don't know.
+
+0:29:44	SPEAKER_02
+ But even especially the audio CDs.
+
+0:29:48	SPEAKER_02
+ That's why he was telling me, like, at least even 10k bit, 20 kilobits also is okay.
+
+0:29:52	SPEAKER_02
+ Right.
+
+0:29:53	SPEAKER_02
+ So, yeah.
+
+0:29:53	SPEAKER_02
+ But he's not touching face at all.
+
+0:29:55	SPEAKER_02
+ I think he's just transmitting all the face and then...
+
+0:29:59	SPEAKER_02
+ Well, for example, this face...
+
+0:30:00	SPEAKER_02
+ But he's encoding the envelope.
+
+0:30:01	SPEAKER_02
+ Yeah.
+
+0:30:03	SPEAKER_03
+ Right.
+
+0:30:03	SPEAKER_03
+ Yeah.
+
+0:30:03	SPEAKER_03
+ Yeah.
+
+0:30:03	SPEAKER_03
+ I think so.
+
+0:30:05	SPEAKER_03
+ There are more papers which are using this approach, like trying to encode the magnitude spectrum.
+
+0:30:10	SPEAKER_03
+ And then leaving the face.
+
+0:30:11	SPEAKER_03
+ Leaving the face.
+
+0:30:12	SPEAKER_03
+ Or you just really can...
+
+0:30:13	SPEAKER_03
+ Again, the face can be replaced by the noise, which is pretty good.
+
+0:30:17	SPEAKER_03
+ So that's the bandwidth variable approach.
+
+0:30:20	SPEAKER_03
+ So if you really don't have a bandwidth, you just can replace it by noise and it works.
+
+0:30:26	SPEAKER_03
+ Of course, then it doesn't sound as the original because it's more whisperate or whatever.
+
+0:30:32	SPEAKER_03
+ But you can answer well.
+
+0:30:35	SPEAKER_03
+ And for example, if you mention this one, approach with the trajectory of the face.
+
+0:30:39	SPEAKER_03
+ So, if I'm a face trajectory, I also use because you can do it here.
+
+0:30:44	SPEAKER_03
+ When you get into this domain where you apply, or you are trying to compute power spectrum in order...
+
+0:30:51	SPEAKER_03
+ Let's say that this is kind of trajectory.
+
+0:30:53	SPEAKER_03
+ It doesn't fit this in frequency or time domain.
+
+0:30:56	SPEAKER_03
+ But here you are trying to compute, or doing a...
+
+0:30:59	SPEAKER_03
+ To do linear prediction.
+
+0:31:01	SPEAKER_03
+ So we are just doing FFT, right?
+
+0:31:03	SPEAKER_03
+ Then applying power in order to get...
+
+0:31:08	SPEAKER_03
+ To power domain and then IFFT, right?
+
+0:31:11	SPEAKER_03
+ Yeah.
+
+0:31:12	SPEAKER_03
+ So you get the autocorrelation coefficient.
+
+0:31:15	SPEAKER_03
+ So before you are applying power spectrum, you can again get the...
+
+0:31:19	SPEAKER_03
+ You have the complex...
+
+0:31:20	SPEAKER_03
+ The frequency or complex spectrum, you can get the face, right?
+
+0:31:24	SPEAKER_03
+ And the face looks quite similar like this.
+
+0:31:26	SPEAKER_03
+ So you might see it's more or less like a line.
+
+0:31:29	SPEAKER_05
+ Yeah.
+
+0:31:30	SPEAKER_05
+ And it does start to get a little bit...
+
+0:31:33	SPEAKER_05
+ Right.
+
+0:31:33	SPEAKER_05
+ Nom linear towards the end, but normally that's when the components are not actually probably going to be audible anyway in voice space, right?
+
+0:31:40	SPEAKER_05
+ Right.
+
+0:31:41	SPEAKER_02
+ But this face is different from your career.
+
+0:31:43	SPEAKER_02
+ Yeah, it is very different.
+
+0:31:44	SPEAKER_02
+ Yeah.
+
+0:31:45	SPEAKER_02
+ Because you're just doing on your...
+
+0:31:46	SPEAKER_03
+ You are doing in different domain.
+
+0:31:48	SPEAKER_03
+ Yeah. And those are the main things in time.
+
+0:31:50	SPEAKER_01
+ And it is quite...
+
+0:31:52	SPEAKER_03
+ It's quite sensible to any quantization, what I found.
+
+0:31:55	SPEAKER_03
+ Really, it looks like the line.
+
+0:31:57	SPEAKER_03
+ So you just say, okay, let's put the line there, but it doesn't work.
+
+0:32:01	SPEAKER_03
+ Well, you can understand, but...
+
+0:32:02	SPEAKER_03
+ Yeah, sure.
+
+0:32:03	SPEAKER_03
+ You can hear that there are many...
+
+0:32:04	SPEAKER_05
+ Because any sort of error in that line is...
+
+0:32:07	SPEAKER_05
+ Is transmitted...
+
+0:32:08	SPEAKER_05
+ Is realized in it as a visor, right?
+
+0:32:10	SPEAKER_03
+ Right.
+
+0:32:11	SPEAKER_03
+ And the other problem is that it's not bandwidth variable.
+
+0:32:14	SPEAKER_03
+ So you cannot say that this part will be just the noise.
+
+0:32:17	SPEAKER_03
+ Which you can do here in this error approach.
+
+0:32:20	SPEAKER_03
+ So that's why I didn't play with that so more.
+
+0:32:23	SPEAKER_03
+ Because I found there are more...
+
+0:32:25	SPEAKER_03
+ Design event features than the other entities.
+
+0:32:28	SPEAKER_03
+ Disapproves.
+
+0:32:29	SPEAKER_03
+ So that's why.
+
+0:32:30	SPEAKER_02
+ But even you can use that face directly.
+
+0:32:33	SPEAKER_02
+ You mean this one?
+
+0:32:34	SPEAKER_03
+ Yeah, this is like just the original face.
+
+0:32:36	SPEAKER_02
+ But this is face of your spectrum.
+
+0:32:38	SPEAKER_02
+ Like it's not the time to...
+
+0:32:39	SPEAKER_02
+ Right.
+
+0:32:39	SPEAKER_03
+ Yeah, it's not a face.
+
+0:32:42	SPEAKER_03
+ Of your signal, it's not...
+
+0:32:43	SPEAKER_02
+ Yeah, yeah.
+
+0:32:44	SPEAKER_02
+ So then it's face...
+
+0:32:44	SPEAKER_03
+ It's not tricky, like how...
+
+0:32:46	SPEAKER_03
+ No, you can again put that envelope with this face together.
+
+0:32:49	SPEAKER_03
+ Because I love this.
+
+0:32:50	SPEAKER_02
+ But still you get only the magnitude of your Hilbert envelope.
+
+0:32:53	SPEAKER_02
+ No, you have...
+
+0:32:54	SPEAKER_05
+ No, you get the...
+
+0:32:55	SPEAKER_05
+ Five slasters like...
+
+0:32:56	SPEAKER_03
+ Yeah, you get the complex spectrum with this.
+
+0:32:59	SPEAKER_02
+ No, but you started with Hilbert envelope.
+
+0:33:01	SPEAKER_02
+ No, like magnetic...
+
+0:33:02	SPEAKER_03
+ No, no, I started with the...
+
+0:33:05	SPEAKER_03
+ magnetic...
+
+0:33:05	SPEAKER_02
+ DCT.
+
+0:33:06	SPEAKER_02
+ No, before DCT, you're...
+
+0:33:08	SPEAKER_03
+ No, after DCT, you're trying...
+
+0:33:11	SPEAKER_03
+ This is a kind of, again, real trajectory, right?
+
+0:33:14	SPEAKER_03
+ And you're trying to first find that Hilbert envelope.
+
+0:33:17	SPEAKER_03
+ So, as...
+
+0:33:19	SPEAKER_02
+ So you input to the DCT's, the speech or like your...
+
+0:33:22	SPEAKER_02
+ This is a speech.
+
+0:33:23	SPEAKER_02
+ Okay.
+
+0:33:23	SPEAKER_02
+ Just starting with...
+
+0:33:24	SPEAKER_03
+ No, but here what I want to say is really that...
+
+0:33:27	SPEAKER_03
+ It's not part of Hilbert envelope.
+
+0:33:29	SPEAKER_03
+ It's part of the DCT's, you know.
+
+0:33:31	SPEAKER_03
+ Oh, cool, cool.
+
+0:33:31	SPEAKER_03
+ So...
+
+0:33:32	SPEAKER_03
+ Yeah, maybe it's then...
+
+0:33:33	SPEAKER_03
+ It's enough.
+
+0:33:34	SPEAKER_03
+ If you have just this face and the Hilbert envelope, you can put it together.
+
+0:33:39	SPEAKER_03
+ Okay.
+
+0:33:40	SPEAKER_03
+ You don't need the career.
+
+0:33:41	SPEAKER_03
+ I mean, this is kind of a career signal, but in different domain represented.
+
+0:33:46	SPEAKER_03
+ Yeah, yeah.
+
+0:33:46	SPEAKER_02
+ It's in frequency domain.
+
+0:33:47	SPEAKER_02
+ Right.
+
+0:33:48	SPEAKER_03
+ Right.
+
+0:33:53	SPEAKER_03
+ So, what I think is that we really need to apply kind of an honest, bicentre-essive approach in order to get something...
+
+0:34:01	SPEAKER_03
+ Yeah, that makes sense,
+
+0:34:02	SPEAKER_05
+ because it's a term domain sort of... Right.
+
+0:34:04	SPEAKER_05
+ Approach.
+
+0:34:06	SPEAKER_05
+ And I mean, and in fact, I mean, it's what you're doing is so different to most approaches to speech coding that it doesn't matter that we don't know much about.
+
+0:34:15	SPEAKER_05
+ No!
+
+0:34:16	SPEAKER_05
+ I haven't had much.
+
+0:34:17	SPEAKER_05
+ You mean...
+
+0:34:17	SPEAKER_05
+ I mean, it's quite different to a lot of the traditional sort of...
+
+0:34:21	SPEAKER_05
+ Sort of, you know, sort filter type, and approaches or...
+
+0:34:25	SPEAKER_05
+ Yeah, different types.
+
+0:34:26	SPEAKER_03
+ Right, right.
+
+0:34:27	None
+ Yeah.
+
+0:34:27	SPEAKER_03
+ Yeah.
+
+0:34:28	SPEAKER_03
+ But I mean...
+
+0:34:29	SPEAKER_03
+ No, I think...
+
+0:34:29	SPEAKER_03
+ That's maybe even the advantage here, because you...
+
+0:34:32	SPEAKER_03
+ It's not speech-based, which means...
+
+0:34:35	SPEAKER_05
+ It's just a matter of minimum distortion type.
+
+0:34:38	SPEAKER_03
+ Right.
+
+0:34:38	SPEAKER_03
+ So you can...
+
+0:34:40	SPEAKER_03
+ When I tried and comparing with RPC-10 on a...
+
+0:34:44	SPEAKER_03
+ twice bigger or higher bitrate, this work works better, it seems to me.
+
+0:34:48	SPEAKER_03
+ Just for unvoiced speech.
+
+0:34:50	SPEAKER_03
+ I'm not mentioning...
+
+0:34:52	SPEAKER_03
+ Unvoiced speech.
+
+0:34:53	SPEAKER_05
+ Unvoiced speech is very difficult to...
+
+0:34:56	SPEAKER_05
+ sort of judge quality compared to the way it's sitting.
+
+0:34:59	SPEAKER_03
+ Yeah, but when you hear and try to hear some examples with the music, for example...
+
+0:35:04	SPEAKER_05
+ Yeah, plosives are very important, I guess.
+
+0:35:06	SPEAKER_03
+ Right, yeah.
+
+0:35:07	SPEAKER_05
+ So maybe it does a better job of plosives.
+
+0:35:09	SPEAKER_03
+ Mm-hmm.
+
+0:35:10	SPEAKER_03
+ That's true, yeah.
+
+0:35:12	SPEAKER_03
+ Why, anyway, it seemed to me pretty good.
+
+0:35:14	SPEAKER_03
+ Okay.
+
+0:35:15	SPEAKER_05
+ It'd be nice if we had some demos here.
+
+0:35:17	SPEAKER_05
+ That's true.
+
+0:35:18	SPEAKER_05
+ That's the first time I'd have to wait your time, I guess.
+
+0:35:21	SPEAKER_03
+ So, in its your time?
+
+0:35:22	SPEAKER_03
+ I should be 13th December.
+
+0:35:24	SPEAKER_03
+ Oh, I think.
+
+0:35:25	SPEAKER_03
+ Oh, it's a little one.
+
+0:35:25	SPEAKER_03
+ Oh, bugger.
+
+0:35:27	SPEAKER_03
+ I just...
+
+0:35:27	SPEAKER_04
+ You'll be coming over here.
+
+0:35:29	SPEAKER_04
+ You won't be here.
+
+0:35:29	SPEAKER_04
+ No, I...
+
+0:35:31	SPEAKER_05
+ You'll practice it before then, won't you?
+
+0:35:33	SPEAKER_03
+ Okay.
+
+0:35:33	SPEAKER_03
+ Yeah. Now, I just swapped it with Mike Pero, I think, because he's not going to be here this time.
+
+0:35:39	SPEAKER_03
+ Yeah, he's going to us.
+
+0:35:40	SPEAKER_03
+ And I was supposed to have it in January, so...
+
+0:35:44	SPEAKER_03
+ Whatever.
+
+0:35:46	SPEAKER_03
+ Anyway, so...
+
+0:35:49	SPEAKER_03
+ But anyway, I wanted to hear something maybe from you, what you were doing with speech coding, because you mentioned that.
+
+0:35:55	SPEAKER_05
+ I did, yeah.
+
+0:35:56	SPEAKER_05
+ But we're doing a more traditional...
+
+0:35:59	SPEAKER_05
+ Bay frequency slices rather than temporal based stuff.
+
+0:36:02	SPEAKER_03
+ Bay was based on, like, you were using kind of regularizer there, right?
+
+0:36:05	SPEAKER_05
+ Yeah, well, that was one of the approaches, sure.
+
+0:36:08	SPEAKER_05
+ Yeah, and the other approach was this HMM based stuff, which is basically just a parameterization of the...
+
+0:36:15	SPEAKER_05
+ You know, the source filter type parameters, and then learning the training like a speech recognition system.
+
+0:36:25	SPEAKER_05
+ But that's not terribly...
+
+0:36:27	SPEAKER_05
+ That's got no relationship to this.
+
+0:36:29	SPEAKER_03
+ Yeah, it's different, but speech coding.
+
+0:36:32	SPEAKER_03
+ Yeah, sure, speech coding.
+
+0:36:33	SPEAKER_05
+ I read some of the other techniques.
+
+0:36:37	SPEAKER_05
+ Or standards, but...
+
+0:36:40	SPEAKER_05
+ I mean, I think you're on the right track with...
+
+0:36:42	SPEAKER_05
+ No, I'm supposed to have synthesis, but...
+
+0:36:44	SPEAKER_05
+ That doesn't tell you how, what sort of bit writes you're going to achieve or...
+
+0:36:48	SPEAKER_05
+ Right, yeah, sure.
+
+0:36:50	SPEAKER_05
+ And because you have to do it separately for H...
+
+0:36:53	SPEAKER_05
+ Band, band, right.
+
+0:36:56	SPEAKER_05
+ It would be the...
+
+0:36:57	SPEAKER_05
+ I imagine that's the tricky part.
+
+0:36:58	SPEAKER_05
+ Yeah, because it would be varying quite rapidly, wouldn't it?
+
+0:37:02	SPEAKER_05
+ Your...
+
+0:37:03	SPEAKER_05
+ Your codebook, like within each...
+
+0:37:08	SPEAKER_05
+ With different...
+
+0:37:10	SPEAKER_05
+ When you go along the one second sort of segment of the band, you...
+
+0:37:15	SPEAKER_03
+ Maybe what we can already do is to decrease this distance.
+
+0:37:19	SPEAKER_03
+ We can do a Hilbert envelope approximation with one second, but then we can split that signal into, I don't know, then segments.
+
+0:37:29	SPEAKER_03
+ We did 100 milliseconds or even less, and we can apply some another technique for that.
+
+0:37:33	SPEAKER_05
+ Well, first you've got to choose your approach and not worry about the bandwidth.
+
+0:37:37	SPEAKER_05
+ Right, exactly.
+
+0:37:38	SPEAKER_05
+ And then start thinking about how to...
+
+0:37:41	SPEAKER_05
+ Because I mean, I guess, especially because this is a more of a commercial-based project, you've got to match the quality before you start worrying about other things, right?
+
+0:37:52	SPEAKER_05
+ I mean, what sort of...
+
+0:37:56	SPEAKER_03
+ More or less, they don't care what will be the quality or the bitrate.
+
+0:38:01	SPEAKER_03
+ They just want to get something new, you know.
+
+0:38:03	SPEAKER_03
+ Oh, I can't.
+
+0:38:04	SPEAKER_03
+ So if you get a very low bitrate with reasonable quality or really high bitrate, which is again different, but with high quality, they will be happy with both.
+
+0:38:14	SPEAKER_03
+ Okay.
+
+0:38:15	SPEAKER_03
+ So, you know...
+
+0:38:16	SPEAKER_03
+ Yeah, in the...
+
+0:38:17	SPEAKER_03
+ On one side, it's pretty good, but on the other side, you don't know which way you should go.
+
+0:38:20	SPEAKER_03
+ Yeah, sure.
+
+0:38:21	SPEAKER_05
+ And at the moment, you're at sort of a point where maybe you have to make that choice a little bit.
+
+0:38:27	SPEAKER_03
+ Right, right.
+
+0:38:31	SPEAKER_03
+ Okay.
+
+0:38:33	SPEAKER_03
+ Well, there you go.
+
+0:38:37	SPEAKER_03
+ Do you want to mention your speech-cleving experience?
+
+0:38:41	SPEAKER_03
+ So you're saying that you're doing something in India with...
+
+0:38:44	SPEAKER_02
+ Yeah, but it's mostly like this self and...
+
+0:38:48	SPEAKER_02
+ Do you know the self?
+
+0:38:49	SPEAKER_03
+ Like...
+
+0:38:50	SPEAKER_02
+ No, I was doing some writing some code for testing and these things, so I'm making some standards for that.
+
+0:38:58	SPEAKER_02
+ Yeah, which is not...
+
+0:38:59	SPEAKER_02
+ So they're like...
+
+0:39:00	SPEAKER_02
+ The thing, these standards, how it works is like they give all the pseudo code kind of thing, and then they put severe test conditions.
+
+0:39:08	SPEAKER_02
+ So you have to pass those test conditions.
+
+0:39:10	SPEAKER_02
+ Oh, yeah.
+
+0:39:11	SPEAKER_02
+ Then you can say, okay, we implemented these 70-
+
+0:39:14	SPEAKER_05
+ Yeah, although standards, depending on what standard you're dealing with, sometimes it can be quite ambiguous, right?
+
+0:39:20	SPEAKER_05
+ I'm in a world like the Sempag standard that basically...
+
+0:39:22	SPEAKER_00
+ This is the container.
+
+0:39:24	SPEAKER_05
+ We don't care how you do it, right?
+
+0:39:25	SPEAKER_05
+ But it's got to fit inside this...
+
+0:39:27	SPEAKER_05
+ Right.
+
+0:39:27	SPEAKER_02
+ This sort of format.
+
+0:39:30	SPEAKER_02
+ Even the standards, they give the test signals also.
+
+0:39:33	SPEAKER_02
+ You can't really do it on whatever database you have.
+
+0:39:36	SPEAKER_02
+ Okay.
+
+0:39:37	SPEAKER_02
+ And then you have to...
+
+0:39:38	SPEAKER_02
+ And then you have to do MOS testing.
+
+0:39:41	SPEAKER_02
+ Yeah, it's more like they define...
+
+0:39:44	SPEAKER_02
+ So I did for some, even a co-cancer also.
+
+0:39:46	SPEAKER_02
+ So they define what is the overlap speech condition, everything they define.
+
+0:39:51	SPEAKER_02
+ So you need to follow all those.
+
+0:39:53	SPEAKER_02
+ I see.
+
+0:39:54	SPEAKER_02
+ Yes.
+
+0:39:54	SPEAKER_02
+ This industry is again different.
+
+0:39:57	SPEAKER_03
+ Yeah, but it's quite interesting even with current speech coding technologies.
+
+0:40:03	SPEAKER_03
+ Yeah, they are still trying to use SALP or those IP...
+
+0:40:07	SPEAKER_03
+ Yeah, I think they're using only...
+
+0:40:08	SPEAKER_03
+ There is nothing new, Morris.
+
+0:40:09	SPEAKER_03
+ And when I was listening to the talk of Milan, Italy, he's the Czech guy, but he lives in Canada.
+
+0:40:18	SPEAKER_03
+ I don't know the name of the university, but they have the pattern, I think, for KELP.
+
+0:40:23	SPEAKER_03
+ Okay.
+
+0:40:24	SPEAKER_02
+ KELP is from Italy.
+
+0:40:26	SPEAKER_02
+ Not in KELP.
+
+0:40:28	SPEAKER_02
+ I don't know how it is exactly, but they got very...
+
+0:40:30	SPEAKER_03
+ The other SALP is famous for this, for itself.
+
+0:40:34	SPEAKER_03
+ What they did exactly, I don't know, if something different, a little bit or not.
+
+0:40:37	SPEAKER_03
+ Or they just keep those patterns or...
+
+0:40:40	SPEAKER_03
+ Okay.
+
+0:40:40	SPEAKER_03
+ I don't have this exactly.
+
+0:40:41	SPEAKER_03
+ Maybe Hinné will know much more, but...
+
+0:40:44	SPEAKER_03
+ When I heard the presentation, they didn't do so much new.
+
+0:40:47	SPEAKER_03
+ I mean, it was last year.
+
+0:40:49	SPEAKER_03
+ I think Hinné was asking, so what's new that you are so famous with that?
+
+0:40:53	SPEAKER_03
+ Then they said, okay, we know exactly how to do that.
+
+0:40:57	SPEAKER_03
+ I mean, you know, not to make any errors, because everybody knows how to do that, but it's not so easy to implement it, right?
+
+0:41:05	SPEAKER_03
+ Yeah.
+
+0:41:06	SPEAKER_03
+ Yeah.
+
+0:41:06	SPEAKER_03
+ There is nothing so much new.
+
+0:41:08	SPEAKER_03
+ Yeah, they've been seeing you in...
+
+0:41:10	SPEAKER_05
+ What's new is in the transmission medium, like...
+
+0:41:12	SPEAKER_05
+ Yeah.
+
+0:41:13	SPEAKER_05
+ You know, new, like, higher bandwidth transmission.
+
+0:41:15	SPEAKER_05
+ Right.
+
+0:41:16	SPEAKER_05
+ Or like, packet-ized-based transmission.
+
+0:41:20	SPEAKER_05
+ And then all that sort of thing.
+
+0:41:23	SPEAKER_05
+ Where they're not so much looking at the algorithm, but so much as...
+
+0:41:26	SPEAKER_05
+ How do we incorporate the algorithm within a new transmission sort of medium?
+
+0:41:30	SPEAKER_05
+ Basically, like, I mean, if you see a lot of papers on, like...
+
+0:41:34	SPEAKER_05
+ Like, voice over IP or whatever,
+
+0:41:36	SPEAKER_00
+ the publication is sort of like...
+
+0:41:38	SPEAKER_05
+ Yeah, right. How do we deal with packet loss?
+
+0:41:41	SPEAKER_05
+ Or how is it affected by packet loss?
+
+0:41:43	SPEAKER_03
+ Right, right, exactly.
+
+0:41:44	SPEAKER_03
+ But then they are still using, like, error signal, which is going to be approximated by codebook, right?
+
+0:41:50	SPEAKER_03
+ Yeah, sure.
+
+0:41:50	SPEAKER_03
+ And linear prediction, which is approximating just the spectrum, four months and everything.
+
+0:41:57	SPEAKER_03
+ That's all.
+
+0:41:58	SPEAKER_03
+ So...
+
+0:42:00	SPEAKER_02
+ And again, a lot of this stuff, like, even when I was working mostly, that company was developing for voice over IP.
+
+0:42:06	SPEAKER_02
+ So, they have to put all these things on, again, DSPs, and also it's mostly...
+
+0:42:10	SPEAKER_00
+ Right, yeah.
+
+0:42:11	SPEAKER_00
+ Out to how many...
+
+0:42:12	SPEAKER_00
+ All the other devices...
+
+0:42:13	SPEAKER_02
+ All the code, all that sort of stuff.
+
+0:42:15	SPEAKER_02
+ Yeah, how many code?
+
+0:42:15	SPEAKER_02
+ Yeah, it's still optimization.
+
+0:42:16	SPEAKER_02
+ And then...
+
+0:42:17	SPEAKER_05
+ But even that's less of a big deal now, right?
+
+0:42:19	SPEAKER_05
+ Because a whole little bit of a lot of...
+
+0:42:20	SPEAKER_02
+ Yeah, you can know...
+
+0:42:21	SPEAKER_02
+ Now even they're also becoming...
+
+0:42:24	SPEAKER_02
+ Even the memories are not really...
+
+0:42:26	SPEAKER_02
+ Not really.
+
+0:42:26	SPEAKER_02
+ You can throw MATLAB on them.
+
+0:42:28	SPEAKER_02
+ What am I about to find these days?
+
+0:42:29	SPEAKER_02
+ Yes, yeah.
+
+0:42:30	SPEAKER_02
+ I'm like an opera.
+
+0:42:32	SPEAKER_02
+ So even I think then you can have...
+
+0:42:35	SPEAKER_02
+ Whatever bandwidth...
+
+0:42:38	SPEAKER_02
+ It's not really...
+
+0:42:41	SPEAKER_03
+ Well, I hope that we still have a lot of time for that.
+
+0:42:45	SPEAKER_03
+ But no, I think...
+
+0:42:46	SPEAKER_02
+ But still then, that's why maybe people are going towards science order modeling, not like...
+
+0:42:50	SPEAKER_02
+ I've always before...
+
+0:42:51	SPEAKER_02
+ I think that...
+
+0:42:51	SPEAKER_02
+ Then the bandwidth conditions were really stringent, then they were using all the LPC base.
+
+0:42:56	SPEAKER_03
+ For example, when I was...
+
+0:42:57	SPEAKER_03
+ You know, harmonic noise modeling, that H&M system, which is using...
+
+0:43:01	SPEAKER_03
+ Yeah, which is very good.
+
+0:43:02	SPEAKER_03
+ And small.
+
+0:43:03	SPEAKER_03
+ It's pretty interesting.
+
+0:43:04	SPEAKER_02
+ I mean, it's good.
+
+0:43:05	SPEAKER_02
+ Yeah, even when you can look at his code and look...
+
+0:43:07	SPEAKER_02
+ Yeah, but don't always cut him for my minutes.
+
+0:43:09	SPEAKER_05
+ It wasn't perfect.
+
+0:43:11	SPEAKER_05
+ It was a little bit of bugs with some of the files matching, but it was pretty hard to tell that it was not perfect, unless you heard the samples sort of next to one another.
+
+0:43:22	SPEAKER_05
+ So that's not too bad.
+
+0:43:24	SPEAKER_02
+ But definitely it's better than code.
+
+0:43:25	SPEAKER_02
+ Or code is speech.
+
+0:43:26	SPEAKER_02
+ No different issues.
+
+0:43:26	SPEAKER_02
+ Oh, sure, really.
+
+0:43:27	SPEAKER_02
+ And I'm like, how much you can get compressed is.
+
+0:43:31	SPEAKER_02
+ Like what you're telling is you can do all these tricks.
+
+0:43:34	SPEAKER_02
+ The only trick is the files.
+
+0:43:36	SPEAKER_05
+ And we've got a student starting in January who's going to start working on how to actually efficiently parameterize the...
+
+0:43:43	SPEAKER_05
+ In sinus rule, modernity?
+
+0:43:46	SPEAKER_05
+ Yeah.
+
+0:43:47	SPEAKER_05
+ And I think we've got a number of ideas for the spectrum.
+
+0:43:50	SPEAKER_05
+ That's easily enough handle just using standard techniques.
+
+0:43:53	SPEAKER_03
+ But anyway, do you know exactly how it is done when you really have those amacicy coefficients, which means manual spectrum?
+
+0:43:59	SPEAKER_03
+ And then you are trying to reconcile the speech.
+
+0:44:01	SPEAKER_03
+ Without phase?
+
+0:44:02	SPEAKER_03
+ Without the phase.
+
+0:44:03	SPEAKER_05
+ I've got no idea.
+
+0:44:04	SPEAKER_05
+ Because I've tried...
+
+0:44:06	SPEAKER_02
+ You know, those...
+
+0:44:07	SPEAKER_02
+ I've used one paper like that.
+
+0:44:08	SPEAKER_02
+ I'm too confused about it.
+
+0:44:09	SPEAKER_02
+ No, yeah.
+
+0:44:10	SPEAKER_02
+ Maybe you can look at dates from...
+
+0:44:12	SPEAKER_02
+ Our streaming coffee.
+
+0:44:14	SPEAKER_02
+ Yeah.
+
+0:44:15	SPEAKER_02
+ Which one?
+
+0:44:17	SPEAKER_02
+ The University of East Anglia.
+
+0:44:19	SPEAKER_02
+ In the University of East Anglia.
+
+0:44:20	SPEAKER_05
+ But it's near sort of...
+
+0:44:21	SPEAKER_05
+ It's near the sort of Cambridge side of England.
+
+0:44:26	SPEAKER_05
+ Yeah.
+
+0:44:26	SPEAKER_02
+ Yeah, I can forward you.
+
+0:44:30	SPEAKER_02
+ There are a lot of tricks there.
+
+0:44:31	SPEAKER_02
+ Like there again, training, Gaussian mixers for different frequencies.
+
+0:44:36	SPEAKER_02
+ And then...
+
+0:44:37	SPEAKER_02
+ Yeah, but there are some opportunities.
+
+0:44:38	SPEAKER_03
+ But they're falling...
+
+0:44:39	SPEAKER_03
+ They're quite...
+
+0:44:39	SPEAKER_05
+ No, much more mathematical ones.
+
+0:44:41	SPEAKER_05
+ Yeah.
+
+0:44:42	SPEAKER_03
+ Yeah.
+
+0:44:42	SPEAKER_05
+ Just basically doing a search through...
+
+0:44:45	SPEAKER_05
+ Or stuff like that.
+
+0:44:46	SPEAKER_05
+ No, no, no.
+
+0:44:47	SPEAKER_02
+ Those things are again based on LPC.
+
+0:44:49	SPEAKER_02
+ No, maybe they're...
+
+0:44:50	SPEAKER_02
+ It seems to me, yeah.
+
+0:44:50	SPEAKER_02
+ Something like that.
+
+0:44:51	SPEAKER_02
+ It's like the pitch.
+
+0:44:53	SPEAKER_02
+ Estimation in X waves or these things.
+
+0:44:55	SPEAKER_02
+ You know what you can do?
+
+0:44:56	SPEAKER_02
+ Dynamic programming based on LPC and all this.
+
+0:44:59	SPEAKER_03
+ What you can do is take just the minimum phase of which you can get from linear prediction, right?
+
+0:45:04	SPEAKER_03
+ You know what I mean, minimum phase signal.
+
+0:45:06	SPEAKER_02
+ And then constraint.
+
+0:45:06	SPEAKER_03
+ It sounds quite reasonable in the two kinds.
+
+0:45:09	SPEAKER_03
+ But of course, it's not original at all.
+
+0:45:12	SPEAKER_03
+ So I don't know how they do that exactly.
+
+0:45:15	SPEAKER_03
+ I have no idea.
+
+0:45:16	SPEAKER_02
+ Yeah, again, like...
+
+0:45:17	SPEAKER_02
+ No, the problem is different for everybody.
+
+0:45:19	SPEAKER_02
+ Like these guys were doing for distributed speech recognition mainly.
+
+0:45:23	SPEAKER_02
+ Right, right.
+
+0:45:24	SPEAKER_02
+ When you've only got the MSCC.
+
+0:45:25	SPEAKER_05
+ Yeah, MSCC is so...
+
+0:45:27	SPEAKER_05
+ I think it was a deal with a raw or something.
+
+0:45:30	SPEAKER_02
+ A CTSA or something European standard.
+
+0:45:33	SPEAKER_02
+ For our only deal with anything.
+
+0:45:35	SPEAKER_02
+ Even it's kind of Aurora framework.
+
+0:45:37	SPEAKER_03
+ Yeah, but we didn't do any speech recognition.
+
+0:45:40	SPEAKER_02
+ But now it's a bit forward.
+
+0:45:41	SPEAKER_05
+ Yeah, no, it was for say you've got someone who has...
+
+0:45:46	SPEAKER_05
+ You know, they want a dispute.
+
+0:45:48	SPEAKER_05
+ That this is what they actually said.
+
+0:45:51	SPEAKER_05
+ Right.
+
+0:45:51	SPEAKER_05
+ Like the recognition.
+
+0:45:52	SPEAKER_05
+ And the recognition network was wrong and UOMI money or whatever.
+
+0:45:56	SPEAKER_05
+ And then they can say, well, we've reconstructed your speech from the speech recognizer input to the speech recognizer.
+
+0:46:03	SPEAKER_05
+ Hey, voila, it sounds like you.
+
+0:46:05	SPEAKER_05
+ I mean, obviously there's a lot more to it than that.
+
+0:46:07	SPEAKER_05
+ There's a lot of sort of...
+
+0:46:08	SPEAKER_05
+ Well, does the quality stand up to legal sort of requirements or whatever.
+
+0:46:13	SPEAKER_02
+ But even at the simple point they're planning to use for standard GSM or this...
+
+0:46:18	SPEAKER_02
+ It's not that...
+
+0:46:20	SPEAKER_02
+ Oh, no, there's a separate set of standards I think for speech recognition.
+
+0:46:23	SPEAKER_05
+ Yeah, ETS, yeah, yeah, yeah, yeah.
+
+0:46:26	SPEAKER_05
+ Come here.
+
+0:46:27	SPEAKER_05
+ Which I think requires, you know, that states the information they can send is this.
+
+0:46:33	SPEAKER_05
+ So I don't know if you can actually tack on any extra phase.
+
+0:46:37	SPEAKER_02
+ You have to deal with what you're given.
+
+0:46:38	SPEAKER_02
+ Yeah.
+
+0:46:40	SPEAKER_02
+ Okay, all the standards are really...
+
+0:46:44	SPEAKER_04
+ Yeah.
+
+0:46:44	SPEAKER_04
+ I don't know.
+
+0:46:44	SPEAKER_05
+ I...
+
+0:46:46	SPEAKER_05
+ It would be interesting.
+
+0:46:47	SPEAKER_05
+ I mean, maybe that's the best approach to look at to begin with.
+
+0:46:50	SPEAKER_05
+ It's just pretend all you have got is...
+
+0:46:52	SPEAKER_03
+ You mean with this phase...
+
+0:46:54	SPEAKER_03
+ Yeah.
+
+0:46:56	SPEAKER_03
+ Sure.
+
+0:46:57	SPEAKER_05
+ Because you can also interpolate the pitch information from the spectrum as well.
+
+0:47:03	SPEAKER_03
+ Yeah, they do some kind of reconstruction of pitch.
+
+0:47:06	SPEAKER_05
+ Yeah.
+
+0:47:07	SPEAKER_05
+ So I mean, maybe try to see how good you can go without transmitting any...
+
+0:47:11	SPEAKER_05
+ Right.
+
+0:47:11	SPEAKER_05
+...of that information.
+
+0:47:13	SPEAKER_05
+ But the quality again, from...
+
+0:47:15	SPEAKER_05
+ The pitch was really good.
+
+0:47:16	SPEAKER_05
+ I thought I didn't think you could really tell.
+
+0:47:18	SPEAKER_02
+ No, no, no.
+
+0:47:18	SPEAKER_02
+ Again, Europe in standard for this, they give the MFCC's and they give the pitch.
+
+0:47:23	SPEAKER_02
+ Then you have to construct the thing.
+
+0:47:25	SPEAKER_02
+ But you have MFCC's then like, again, you have to get the high-row drum MFCC's and then...
+
+0:47:29	SPEAKER_02
+ Yeah, but the thing is, if it's male-scaled,
+
+0:47:33	SPEAKER_05
+ if you have a male-scaled, you get quite fine reconstruction of the spectrum at the lower frequency, which is what you make for reconstruction of the pitch anyway.
+
+0:47:41	SPEAKER_03
+ Right.
+
+0:47:42	SPEAKER_03
+ Right.
+
+0:47:43	SPEAKER_03
+ Yeah.
+
+0:47:45	SPEAKER_05
+ So I mean, if you wanted to transmit with fewer bands, you'd maybe still keep the lower bands or...
+
+0:47:49	SPEAKER_02
+ Yeah.
+
+0:47:49	SPEAKER_05
+ Or maybe you could still transmit the pitch, the pitch isn't that big of the upper.
+
+0:47:53	SPEAKER_05
+ Yeah.
+
+0:47:53	SPEAKER_05
+ It'd be nice if you didn't because then I mean, that's...
+
+0:47:55	SPEAKER_05
+ Well, I mean, it's worth giving it a go.
+
+0:47:56	SPEAKER_05
+ And then maybe saying, well, what information you can add to the data stream to improve performance.
+
+0:48:03	SPEAKER_03
+ Sure.
+
+0:48:04	SPEAKER_03
+ Yeah.
+
+0:48:06	SPEAKER_04
+ I don't know.
+
+0:48:07	SPEAKER_04
+ Okay.
+
+0:48:08	SPEAKER_04
+ Thank you.
+
+0:48:11	SPEAKER_04
+ That'd be cool.
+
+0:48:13	SPEAKER_04
+ So how about you?
+
+0:48:15	SPEAKER_01
+ I've never done any coding in my life, so...
+
+0:48:18	SPEAKER_01
+ I'm just a...
+
+0:48:19	SPEAKER_01
+ I'm just a...
+
+0:48:19	SPEAKER_01
+ One curious, so this is coding then.
+
+0:48:22	SPEAKER_01
+ You call the speech then you're supposed to transmit the speech, right?
+
+0:48:25	SPEAKER_01
+ Yeah.
+
+0:48:26	SPEAKER_01
+ Let's say in GSM or something else.
+
+0:48:29	SPEAKER_01
+ I remember when I was doing some image processing, there were techniques for compressing, and then coding, so adding channel information on the image at the same time in order to save some bits.
+
+0:48:42	SPEAKER_01
+ You mean like...
+
+0:48:42	SPEAKER_03
+ You mean channel and source coding together?
+
+0:48:44	SPEAKER_01
+ Exactly.
+
+0:48:46	SPEAKER_01
+ I don't know.
+
+0:48:47	SPEAKER_01
+ I was just wondering if there's some...
+
+0:48:51	SPEAKER_01
+ Someone was doing it with speech as well.
+
+0:48:53	SPEAKER_03
+ Well, I can imagine kind of like JPEG operations which might be...
+
+0:48:57	SPEAKER_03
+ It was like source coding and we also channel coding because you're just smoothly or just...
+
+0:49:02	SPEAKER_03
+ Well, actually when you compress...
+
+0:49:04	SPEAKER_01
+ Yeah, well, first you compress the signal, right?
+
+0:49:07	SPEAKER_01
+ And then you add some complex signal in order to recover the error.
+
+0:49:11	SPEAKER_01
+ Right, right.
+
+0:49:12	SPEAKER_01
+ So I was wondering if by any chance there was something like this in speech with the speech?
+
+0:49:17	SPEAKER_01
+ I don't know.
+
+0:49:17	SPEAKER_01
+ You don't know?
+
+0:49:20	SPEAKER_03
+ I don't know so much about channel coding like those Hoofman coding stuff.
+
+0:49:24	SPEAKER_03
+ Oh, well, I mean...
+
+0:49:26	SPEAKER_03
+ Half-lands easy enough.
+
+0:49:29	SPEAKER_03
+ Just standard thinking.
+
+0:49:30	SPEAKER_03
+ It's not the most difficult.
+
+0:49:32	SPEAKER_03
+ Right.
+
+0:49:33	SPEAKER_03
+ Yeah, sure.
+
+0:49:34	SPEAKER_05
+ That's where I stop.
+
+0:49:36	SPEAKER_05
+ One length of cutting I'm out of here.
+
+0:49:39	SPEAKER_02
+ But I think again it's different.
+
+0:49:40	SPEAKER_02
+ Not like these standards again, all these Gs standards.
+
+0:49:43	SPEAKER_02
+ Yeah, exactly.
+
+0:49:44	SPEAKER_02
+ They have the compression standards and the...
+
+0:49:46	SPEAKER_01
+ Yeah, sure.
+
+0:49:46	SPEAKER_02
+ Coding standards.
+
+0:49:47	SPEAKER_02
+ But maybe...
+
+0:49:48	SPEAKER_02
+ And this was the problem actually because you were...
+
+0:49:51	SPEAKER_02
+ I don't remember anything like they're doing...
+
+0:49:53	SPEAKER_02
+ You come back.
+
+0:49:55	SPEAKER_02
+ Not in GSM definitely.
+
+0:49:57	SPEAKER_02
+ Even normal G7 to normal speech code.
+
+0:50:00	SPEAKER_02
+ So they have this speech coding standards again.
+
+0:50:03	SPEAKER_02
+ They have the channel code.
+
+0:50:05	SPEAKER_01
+ Then they have some...
+
+0:50:06	SPEAKER_01
+ Source.
+
+0:50:08	SPEAKER_01
+ So, yeah.
+
+0:50:10	SPEAKER_01
+ Okay.
+
+0:50:11	SPEAKER_05
+ I mean, I think they do try to...
+
+0:50:14	SPEAKER_05
+ I mean, obviously the techniques they choose are supposed to be less susceptible to coding.
+
+0:50:21	SPEAKER_05
+ Yeah, definitely.
+
+0:50:22	SPEAKER_05
+ But I mean, that's maybe the limit to that.
+
+0:50:26	SPEAKER_02
+ Okay.
+
+0:50:28	SPEAKER_02
+ Again, yeah.
+
+0:50:33	SPEAKER_02
+ It's okay.
+
+0:50:34	SPEAKER_02
+ That's good.
+
+0:50:35	SPEAKER_02
+ Yeah.
+
+0:50:37	SPEAKER_02
+ Thank you.
+
+0:50:38	SPEAKER_02
+ Okay, thank you.
+
+0:50:40	SPEAKER_03
+ Thank you.
+
+0:50:44	SPEAKER_03
+ Okay, if you find some paper which you...
+
+0:50:47	SPEAKER_03
+ Yeah, I told you that.
+
+0:50:49	SPEAKER_02
+ That was the...
+
+0:50:50	SPEAKER_01
+ Fave.
+
+0:50:51	SPEAKER_01
+ Fave.
+
+0:50:51	SPEAKER_01
+ Fave.
+
+0:50:52	SPEAKER_01
+ Fave.
+
+0:50:52	None
+ Fave.
+
+0:50:52	None
+ Fave.
+
+0:50:52	SPEAKER_02
+ Fave.
+
+0:50:53	SPEAKER_02
+ Fave.
+
+0:50:54	SPEAKER_02
+ Now, waveform prototyping is different. I was suggesting like this.
+
+0:50:57	SPEAKER_02
+ But that's again, totally...
+
+0:51:00	None
+ Did you hear this?
+
+0:51:01	SPEAKER_02
+ Bashing claims.
+
+0:51:03	SPEAKER_02
+ You know really...
+
+0:51:05	None
+ Now, he...
+
+0:51:05	None
+ He was...
+
+0:51:06	None
+ He really...
+
+0:51:07	None
+ Found you again in speech coding like this.
+
+0:51:09	None
+ Where he proposed one prototype waveform.
+
+0:51:13	None
+ Like, they take the signal and then they project into two-dimensional and then they take the faces.
+
+0:51:19	None
+ And it's like prototypes.
+
+0:51:20	None
+ Kind of wavelets you can see.
+
+0:51:22	None
+ Like...
+
+0:51:22	None
+ But it's not exactly wavelets.
+
+0:51:23	None
+ So they take slow moving waveforms, slow moving signal, and like fast moving and then they combine.
+
+0:51:30	None
+ So it's like...
+
+0:51:31	None
+ So you project signal into two-dimensional space and then separate the slow moving parts and...
+
+0:51:35	None
+ Wow.
+
+0:51:36	None
+...fast moving...
+
+0:51:36	None
+ Kind of tips towards something like that.
+
+0:51:38	None
+ No, this is a...
+
+0:51:39	None
+ They operate a...
+
+0:51:40	None
+ Yeah, it's...
+
+0:51:42	None
+ So now people mostly use it for like residual and coding.
+
+0:51:48	None
+ So even...
+
+0:51:49	None
+ So if you have the LPC then you can use this technique for residual...
+
+0:51:53	None
+ Oh, that's quite interesting.
+
+0:51:54	None
+ Yeah, yeah.
+
+0:51:55	None
+ So...
+
+0:51:55	None
+ It would be good for me.
+
+0:51:57	None
+ You can really good qualities with four-loop.
+
+0:52:00	None
+ So there was the waveform coding which you...
+
+0:52:02	None
+ You can rotate me, the prototype coding paper.
+
+0:52:06	None
+ But did...
+
+0:52:07	None
+ So people can use at waveform level or at residual level.
+
+0:52:11	None
+ If you have a LPC you can use at residual rate, consider residual as some signal.
+
+0:52:15	None
+ So it's really...
+
+0:52:16	None
+ Same residual you can clearly see whether it's fast moving...
+
+0:52:19	None
+ Yeah, yeah.
+
+0:52:20	None
+ For your disposal...
+

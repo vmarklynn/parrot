@@ -1,31 +1,31 @@
-0:00:00	SPEAKER_03
- It's notYourDays Lie diseases?
-
-0:00:22	SPEAKER_02
+0:00:00	None
  Hello.
 
-0:00:24	SPEAKER_02
- Good afternoon sorry I am a late.
+0:00:07	None
+ Good afternoon.
 
-0:00:27	SPEAKER_02
- No broadly.
+0:00:10	SPEAKER_03
+ Sorry I'm a little late.
+
+0:00:13	None
+ Oh, probably.
+
+0:00:14	None
+ It got stuck in the traffic.
+
+0:00:21	SPEAKER_02
+ It's possible this time of day.
 
 0:00:28	SPEAKER_02
- Good second traffic.
+ It starts at 3 o'clock.
 
-0:00:29	SPEAKER_01
- It's possible this time of day starts at 3 o'clock.
-
-0:00:36	SPEAKER_01
+0:00:33	SPEAKER_01
  Yeah.
 
-0:00:40	SPEAKER_01
- Let me see.
+0:00:39	SPEAKER_01
+ Let me see. Our fourth and last meeting.
 
-0:00:41	SPEAKER_01
- Our fourth and last meeting.
-
-0:00:47	SPEAKER_01
+0:00:46	SPEAKER_01
  There he is.
 
 0:00:51	SPEAKER_01
@@ -35,160 +35,136 @@
  Okay, this is our last meeting.
 
 0:00:57	SPEAKER_01
- This meeting we will discuss our final design.
+ In this meeting we will discuss our final design.
 
-0:01:01	SPEAKER_01
+0:01:02	SPEAKER_01
  And we will do some evaluation about not only the product, but also the project.
 
-0:01:09	SPEAKER_01
+0:01:11	SPEAKER_01
  And then we're going to close the project today as well.
 
-0:01:13	SPEAKER_01
- So after that you'll be free to go and spend all your money.
+0:01:15	SPEAKER_01
+ So, after that you'll be free to go and spend all your money.
 
-0:01:19	SPEAKER_01
- And this design, detailed design meeting, we will discuss the look and feel of the design, the usability interface design, and we will do the product evaluation.
+0:01:22	SPEAKER_01
+ This design, detailed design meeting, we will discuss the look and feel of the design, the usability interface design, and we will do the product evaluation.
 
-0:01:37	SPEAKER_01
- In order to do that, we have this agenda.
+0:01:38	SPEAKER_01
+ In order to do that we have this agenda.
 
-0:01:40	SPEAKER_01
+0:01:41	SPEAKER_01
  We will have the prototype presentation first.
 
-0:01:43	SPEAKER_01
+0:01:44	SPEAKER_01
  Then we will set up some evaluation criteria.
 
-0:01:47	SPEAKER_01
+0:01:48	SPEAKER_01
  Then we will look at the finance.
 
-0:01:50	SPEAKER_01
+0:01:51	SPEAKER_01
  We will have to see if everything we want to do is also possible within our budget.
 
-0:01:57	SPEAKER_01
- Because everything goes money.
-
-0:01:59	SPEAKER_01
- And the more functions you want to have, the more money it will cost.
+0:01:58	SPEAKER_01
+ Because everything costs money and the more functions you want to have, the more money it will cost.
 
 0:02:02	SPEAKER_01
- So we have to see if it fits within the 12.5 euro per remote.
+ So, we will see if it fits within the 12 and a half euro per remote.
 
-0:02:08	SPEAKER_01
+0:02:09	SPEAKER_01
  We will see that later.
 
-0:02:10	SPEAKER_01
+0:02:11	SPEAKER_01
  Then we will do the project evaluation and the closing after that.
 
-0:02:15	SPEAKER_01
+0:02:16	SPEAKER_01
  We've got 40 minutes.
 
-0:02:17	SPEAKER_01
- So we will be finished at half past three.
+0:02:18	SPEAKER_01
+ So, we will be finished at half past three.
 
-0:02:22	SPEAKER_01
- But first, we will do the prototype presentation.
+0:02:23	SPEAKER_01
+ But first we will do the prototype presentation.
 
-0:02:30	SPEAKER_01
- So if there's somebody else for it.
+0:02:31	SPEAKER_01
+ So, if somebody wants to sit forward.
 
-0:02:37	SPEAKER_00
+0:02:38	SPEAKER_00
  Well, this is what me and Richard came up with.
 
-0:02:42	SPEAKER_00
- The default spot for the on-off button.
+0:02:43	SPEAKER_00
+ The default spot for the on-off button, the mute button just below that.
 
-0:02:45	SPEAKER_00
- The mute button just below that.
-
-0:02:48	SPEAKER_00
+0:02:49	SPEAKER_00
  Then there's the volume and channel selectors.
 
-0:02:52	SPEAKER_00
+0:02:53	SPEAKER_00
  Simple plus minus button.
 
-0:02:55	SPEAKER_00
+0:02:57	SPEAKER_00
  We thought of a help button.
 
 0:02:58	SPEAKER_00
  If you hold it and you press another button, the help goes to the LCD screen.
 
-0:03:04	SPEAKER_00
- Then there's the 0 to 1 to 0 buttons.
-
-0:03:09	SPEAKER_00
- A button for a teletext.
-
-0:03:11	SPEAKER_00
- A button for the subtitles and the company logo.
+0:03:05	SPEAKER_00
+ Then there's the 0 to 1 to 0 buttons, a button for teletext, a button for the subtitles and the company logo.
 
 0:03:16	SPEAKER_00
- So it's rather simple prototype.
+ So, it's rather simple prototype.
 
 0:03:20	SPEAKER_00
- And we'll have to see from testing how the user's take it.
+ We'll have to see from testing how do users take it.
 
 0:03:26	SPEAKER_02
  Okay.
 
 0:03:29	SPEAKER_02
- Is this the moment where we ask?
-
-0:03:31	SPEAKER_02
- Where can I ask questions about the functionality?
+ Is this a moment where we can ask questions about the functionality?
 
 0:03:33	SPEAKER_00
- Sure.
-
-0:03:34	SPEAKER_00
- Just pop in at any time.
+ Sure. Just pop in at any time.
 
 0:03:37	SPEAKER_02
- When you're in teletext, there are usually buttons where you just press it and you go to the next teletext page.
+ When you're in teletext, usually your buttons where you just press it and you go to the next teletext page.
 
-0:03:47	SPEAKER_04
- That's just the normal remote controls.
+0:03:45	SPEAKER_04
+ That's just the normal, as the normal remote controls.
 
 0:03:54	SPEAKER_04
- So you push it.
-
-0:03:56	SPEAKER_04
- You come in page 100.
+ So, you press it, you come in page 100.
 
 0:04:00	SPEAKER_04
  You can use the normal 1 to 0 buttons.
 
-0:04:04	SPEAKER_04
- You can also use the better for changing the channel.
+0:04:05	SPEAKER_04
+ You can also use the button for changing the channel, so the shifting button.
 
-0:04:11	SPEAKER_04
- So the shifting better.
-
-0:04:15	SPEAKER_04
+0:04:16	SPEAKER_04
  For shifting up in the teletext and shifting down.
 
-0:04:21	SPEAKER_02
+0:04:22	SPEAKER_02
  Okay.
 
-0:04:28	SPEAKER_01
- But I thought in a few meetings earlier we tried to give it simple.
+0:04:29	SPEAKER_01
+ I thought in a few meetings earlier, we tried to give it simple.
 
-0:04:39	SPEAKER_01
+0:04:40	SPEAKER_01
  Just a few buttons and large buttons.
 
 0:04:43	SPEAKER_01
  But I think these are all together.
 
-0:04:46	SPEAKER_01
+0:04:47	SPEAKER_01
  Quite a few buttons.
 
 0:04:50	SPEAKER_01
- So I'm wondering if we really need all of those buttons.
+ I'm wondering if we really need all of those buttons.
 
-0:04:56	SPEAKER_00
+0:04:57	SPEAKER_00
  I think if you look at most controls, they've got more buttons than this.
 
-0:05:02	SPEAKER_00
- And well, the on-off button is a necessity.
+0:05:03	SPEAKER_00
+ And, well, the on-off button, it's a necessity.
 
 0:05:06	SPEAKER_00
  You can't drop that one.
@@ -196,13 +172,13 @@
 0:05:08	SPEAKER_00
  The volume and channel buttons, you obviously need those.
 
-0:05:13	SPEAKER_00
+0:05:14	SPEAKER_00
  The mute button could be replaced by pressing the volume down button twice.
 
-0:05:19	SPEAKER_00
- So we could cancel that one.
+0:05:20	SPEAKER_00
+ So, we could cancel that one.
 
-0:05:22	SPEAKER_00
+0:05:23	SPEAKER_00
  I think the help button really is necessary because there's no other way to know when someone wants to know what a button does.
 
 0:05:34	SPEAKER_04
@@ -211,56 +187,122 @@
 0:05:38	SPEAKER_04
  Long time.
 
+0:05:40	SPEAKER_04
+ Yeah.
+
 0:05:42	SPEAKER_04
  We just discussed that already.
 
-0:05:44	SPEAKER_04
- We think all people don't know that option.
+0:05:45	SPEAKER_04
+ But we think all people don't know that option.
 
-0:05:55	SPEAKER_00
- Well, you can't leave out the number buttons, I guess.
+0:05:49	SPEAKER_04
+ They just put in a press button.
 
-0:06:02	SPEAKER_01
- And take some subtitles.
+0:05:54	SPEAKER_01
+ Yeah.
 
-0:06:05	SPEAKER_00
- So it's rather basic already.
-
-0:06:09	SPEAKER_02
- That's what I pointed out earlier, you just make control for just the TV. There's just not much to gain here.
-
-0:06:17	SPEAKER_01
+0:05:55	SPEAKER_01
  Okay.
 
-0:06:18	SPEAKER_01
- So yeah, somebody about something about the design of the buttons there?
+0:05:56	SPEAKER_00
+ Well, you can't leave out the number buttons, I guess.
+
+0:06:01	SPEAKER_00
+ Yeah.
+
+0:06:02	SPEAKER_01
+ And it takes some subtitles.
+
+0:06:04	SPEAKER_01
+ Yeah.
+
+0:06:05	SPEAKER_00
+ Yeah.
+
+0:06:06	SPEAKER_00
+ So, it's rather basic already.
+
+0:06:08	SPEAKER_02
+ Yeah.
+
+0:06:09	SPEAKER_02
+ I think so.
+
+0:06:10	SPEAKER_02
+ That's what I pointed out earlier.
+
+0:06:11	SPEAKER_02
+ You just make a control for just the TV.
+
+0:06:13	SPEAKER_02
+ There's just not much to gain here.
+
+0:06:15	SPEAKER_03
+ Yeah.
+
+0:06:16	SPEAKER_01
+ Okay.
+
+0:06:17	SPEAKER_01
+ So, yeah, somebody, but, you can do something about the design of the buttons there.
 
 0:06:23	SPEAKER_00
- Yeah, it's not a hard to draw on the whiteboard, but they're supposed to be equal sized round with a little logo on it for the volume, the triangle and stuff.
+ Yeah.
 
-0:06:37	SPEAKER_04
+0:06:24	SPEAKER_00
+ It's not a lot of hard to draw on the whiteboard, but they're supposed to be equal sized round with a little logo on it for the volume, the dry angle and stuff.
+
+0:06:37	SPEAKER_00
  Just for recognition.
 
 0:06:39	SPEAKER_04
- Yeah, and we don't need a letter or some remote controls.
+ Yeah.
 
-0:06:47	SPEAKER_04
- Because we use the little display, we don't have to use it.
+0:06:40	SPEAKER_04
+ And we don't need a letter or...
+
+0:06:42	SPEAKER_04
+ No.
+
+0:06:43	SPEAKER_04
+ Yeah.
+
+0:06:48	SPEAKER_04
+ So, because we use the little display, we don't have to use it.
+
+0:06:53	SPEAKER_01
+ Yeah.
 
 0:06:54	SPEAKER_00
- So for the materials we've just chosen for rubber buttons.
+ Okay.
 
-0:06:58	SPEAKER_00
- We have a different color than the case, so they jump out.
+0:06:55	SPEAKER_00
+ So, and for the materials we've just chosen for rubber buttons with a different color than the case, so they jump out.
+
+0:07:05	SPEAKER_00
+ Okay.
+
+0:07:06	SPEAKER_00
+ That's about it.
+
+0:07:07	SPEAKER_01
+ That's nice.
 
 0:07:08	SPEAKER_01
- Because we only have 30 minutes left, I will move on to the finance part, which is pretty exciting to see if it's all possible what we want to do.
+ Then, because we only have 30 minutes left.
 
-0:07:21	SPEAKER_01
- And I can tell you that we're going to have a pretty hard time producing this for 12.5 euros.
+0:07:12	SPEAKER_01
+ I will move on to the finance part, which is pretty exciting to see if it's all possible what we want to do.
 
-0:07:34	SPEAKER_01
- I don't know if I'm building correctly, so just correct me if you see something wrong.
+0:07:20	SPEAKER_01
+ And I can tell you that we're going to have a pretty hard time producing this for 12 and half euros.
+
+0:07:32	SPEAKER_01
+ If we see...
+
+0:07:35	SPEAKER_01
+ I don't know if I'm filming correctly, so just correct me if you see something wrong.
 
 0:07:40	SPEAKER_01
  I counted two batteries, but maybe we can also use one.
@@ -268,20 +310,29 @@
 0:07:44	SPEAKER_01
  I don't know if it's possible.
 
+0:07:45	SPEAKER_01
+ It's rechargeable.
+
 0:07:46	SPEAKER_01
  It's rechargeable.
 
-0:07:48	SPEAKER_01
- Okay, let's do euros.
+0:07:47	SPEAKER_01
+ That's right.
 
-0:07:53	SPEAKER_01
- We need the advanced chip, so there's not much to save there.
+0:07:48	SPEAKER_04
+ Okay.
+
+0:07:49	SPEAKER_01
+ That's two euros off.
+
+0:07:54	SPEAKER_01
+ We need the advanced chip, so there's not much to say there.
 
 0:08:03	SPEAKER_01
  Here we have the single curve.
 
 0:08:06	SPEAKER_01
- We can see that the difference between end curves and the single curve is 1 euro.
+ We can see that the difference between N-curved and the single curve is one euro.
 
 0:08:15	SPEAKER_01
  I don't know, but I think the single curve is good for the design and also for the display to have a prominent place on the remote control.
@@ -292,113 +343,173 @@
 0:08:28	SPEAKER_01
  Then we have the case material supplements.
 
-0:08:31	SPEAKER_01
- It's plastic. It's the cheapest one we need.
+0:08:32	SPEAKER_01
+ It's plastic.
+
+0:08:33	SPEAKER_01
+ It's the cheapest one we need.
 
 0:08:35	SPEAKER_01
- So that's not much to save either.
+ That's not much to say either.
 
-0:08:38	SPEAKER_01
- But then the biggest cost are the buttons. So maybe we really should try to discard some buttons to keep our cost though.
+0:08:39	SPEAKER_01
+ The biggest cost are the buttons.
 
-0:08:50	SPEAKER_01
- Because we will have to get 12.5 euros at the end.
+0:08:43	SPEAKER_01
+ Maybe we really should try to discard some buttons to keep our cost though, because we will have to get 12 and half euros at the end.
 
-0:09:00	SPEAKER_01
- So let's first count the buttons we have now.
+0:09:01	SPEAKER_01
+ Let's first count the buttons we have now, because I'm 16.
 
 0:09:07	SPEAKER_01
  That will be even more than 18 euros.
 
 0:09:15	SPEAKER_01
- 17.
+ So 17.
 
-0:09:21	SPEAKER_01
- Okay, including the help.
+0:09:20	SPEAKER_01
+ Okay, including the help?
 
-0:09:31	SPEAKER_01
+0:09:23	SPEAKER_01
+ Yeah, 17.
+
+0:09:25	SPEAKER_01
  I think we can discard the help and the mute button by pressing down volume long or pressing down a number.
 
+0:09:36	SPEAKER_01
+ Long.
+
 0:09:38	SPEAKER_01
- That saves us 1 euro already.
+ That saves us one euro already.
 
 0:09:41	SPEAKER_01
  Then we have got 15, I think.
 
-0:09:45	SPEAKER_02
- I assume you count the volume and channel for two buttons each.
+0:09:44	SPEAKER_01
+ Yeah.
 
-0:09:54	SPEAKER_01
- Those are one.
+0:09:45	SPEAKER_01
+ 15.
 
-0:09:57	SPEAKER_04
+0:09:47	SPEAKER_01
+ And this is...
+
+0:09:50	SPEAKER_02
+ I assume you count the volume and channel things for two buttons each, right?
+
+0:09:55	SPEAKER_01
+ Those are one, I think.
+
+0:09:58	SPEAKER_04
  I think actually there are two buttons.
 
-0:10:00	SPEAKER_04
- It's just one better.
+0:10:01	SPEAKER_04
+ It's just one bit.
 
-0:10:04	SPEAKER_04
- Two for one big bell.
-
-0:10:08	SPEAKER_04
- But they are more expensive than the small ones.
+0:10:06	SPEAKER_04
+ Two, one big button, but they are more expensive than the small ones I hear.
 
 0:10:14	SPEAKER_01
- Yeah, but it's not stated in this.
+ Yeah, but it's not stated in this class.
 
-0:10:17	SPEAKER_01
- So maybe we can make one button with the volume in the channel in one by pressing.
+0:10:18	SPEAKER_01
+ Maybe we can even make one button with the volume and the channel in one by pressing...
 
-0:10:25	SPEAKER_02
- Well, I think maybe you can just integrate three of those numbers to one button.
+0:10:26	SPEAKER_02
+ Well, I'm thinking maybe you could just integrate three of those numbers to one button.
 
-0:10:30	SPEAKER_02
- That's the possibility as well.
+0:10:30	SPEAKER_01
+ That's a possibility as well.
 
-0:10:34	SPEAKER_01
- So it's good for the design as well.
+0:10:32	SPEAKER_02
+ That would cut the cost.
 
-0:10:44	SPEAKER_01
- It looks a bit like a cross.
+0:10:35	SPEAKER_01
+ So, and it's good for the design as well, so you can make...
 
-0:11:10	SPEAKER_04
- I think they count the materials.
+0:10:41	SPEAKER_01
+ Let's see.
 
-0:11:25	SPEAKER_04
- It's not a better one itself, but on the chip there.
+0:10:43	SPEAKER_01
+ Like this.
+
+0:10:50	SPEAKER_01
+ Looks a bit like a...
+
+0:11:04	SPEAKER_01
+ A cross.
+
+0:11:11	SPEAKER_01
+ Min?
+
+0:11:14	SPEAKER_04
+ But I don't know if it's here.
+
+0:11:19	SPEAKER_04
+ Yeah, I still got four buttons, but just...
+
+0:11:24	SPEAKER_04
+ So...
+
+0:11:25	SPEAKER_01
+ Yeah, I think they count the materials.
+
+0:11:28	SPEAKER_04
+ Not a better one, itself, but...
+
+0:11:32	SPEAKER_04
+ On the chip there.
+
+0:11:34	SPEAKER_01
+ Yeah, on the chip you got still four as well.
 
 0:11:37	SPEAKER_01
- But I think because we have the advanced chip, we can just count this as one button.
-
-0:11:44	SPEAKER_02
- But now that I think this really is for buttons.
-
-0:11:51	SPEAKER_01
- Maybe it is, but then it seems to me that it's impossible to get 12 and a half euros.
-
-0:12:00	SPEAKER_01
- Also the LC display.
-
-0:12:03	SPEAKER_01
- I think it's too expensive for the display we use.
-
-0:12:10	SPEAKER_00
- If we leave out the display, we can also save money on the chip.
-
-0:12:17	SPEAKER_01
  That's right.
 
+0:11:38	SPEAKER_01
+ But I think because we have the other ones, chip, we can just count this as one button.
+
+0:11:45	SPEAKER_02
+ But now, but I think...
+
+0:11:46	SPEAKER_02
+ I think this really is four buttons, anyhow.
+
+0:11:49	SPEAKER_02
+ Yes.
+
+0:11:52	SPEAKER_01
+ Yeah.
+
+0:11:53	SPEAKER_01
+ Maybe it is, but then it seems to me that it's impossible to get the 12 and a half euros.
+
+0:12:01	SPEAKER_01
+ Also, the LC display.
+
+0:12:04	SPEAKER_01
+ I think it's too expensive for the display we use.
+
+0:12:09	SPEAKER_00
+ I think they try...
+
+0:12:12	SPEAKER_00
+ If we leave out the display, we can also save money on the chip.
+
 0:12:18	SPEAKER_01
- But what's the biggest foundation of our remote then?
+ That's right, but what's the biggest advantage of our remote then?
 
-0:12:24	SPEAKER_02
- Only the docking station, I guess.
+0:12:25	SPEAKER_02
+ Only the docking station, I guess?
 
-0:12:29	SPEAKER_00
- But the docking station isn't even in this schematic.
+0:12:28	SPEAKER_00
+ Yeah.
 
-0:12:34	SPEAKER_01
- No, it's not even taken into the price.
+0:12:30	SPEAKER_00
+ The docking station isn't even in this schematic.
+
+0:12:35	SPEAKER_00
+ No, it's not even taking into the price.
 
 0:12:38	SPEAKER_01
  That's extra.
@@ -409,581 +520,485 @@
 0:12:40	SPEAKER_02
  Maybe we should move to a different supplier.
 
-0:12:43	SPEAKER_01
+0:12:44	SPEAKER_01
  That's an option.
 
 0:12:45	SPEAKER_01
  Poland, something.
 
 0:12:48	SPEAKER_01
- Polish player.
+ Polish, a player.
 
-0:12:50	SPEAKER_01
- If we can count this as one button and integrate these buttons in three, then we save a lot of money as well.
+0:12:51	SPEAKER_01
+ Don't you think we can...
 
-0:13:02	SPEAKER_00
- We could save money on it, but would it make the remote more usable for elderly people?
+0:12:52	SPEAKER_01
+ If we can count this as one button and integrate these buttons in three,
+
+0:12:59	SPEAKER_00
+ then we save a lot of money as well. We could save money on it, but would it make the remote more usable for elderly people?
 
 0:13:09	SPEAKER_02
  Yeah, that's what I'm wondering.
 
 0:13:11	SPEAKER_00
- My mother can't even send a nasa-mess message.
+ My motor can't even send an SMS message.
 
-0:13:15	SPEAKER_04
- That's a point.
-
-0:13:20	SPEAKER_04
- We can't buy a remote control when you can use it.
-
-0:13:27	SPEAKER_04
- We must stay below 1250.
-
-0:13:35	SPEAKER_04
+0:13:15	SPEAKER_01
  Yeah.
 
-0:13:36	SPEAKER_02
- Well, since the market research indicated that older people spend their money easier, more easy, maybe it's feasible to just put the price of the remote up a little.
+0:13:16	SPEAKER_01
+ That's a point.
 
-0:13:54	SPEAKER_02
- Especially since we have those nice features.
+0:13:18	SPEAKER_04
+ We kind of buy a remote control when you can use it.
+
+0:13:23	SPEAKER_04
+ We missed...
+
+0:13:31	SPEAKER_04
+ Stay below 1250 or...
+
+0:13:36	SPEAKER_04
+ Yeah.
+
+0:13:37	SPEAKER_04
+ Can't...
+
+0:13:39	SPEAKER_03
+ No.
+
+0:13:41	SPEAKER_02
+ Well, since the market research indicated that older people spend their money easier, more easy, maybe it's feasible to just put the price of the remote up a little, especially since we have those nice features.
 
 0:13:58	SPEAKER_01
- Yeah, but we have to stick to the 1250.
+ Yeah, but we have to stick to the 12 and a half years.
 
 0:14:02	SPEAKER_01
  We don't have any more budget to the market.
 
-0:14:06	SPEAKER_01
- It's a little bit too small.
-
-0:14:09	SPEAKER_04
- Yeah.
-
-0:14:10	SPEAKER_04
+0:14:06	SPEAKER_04
  It's possible to make one for 1250.
 
 0:14:14	SPEAKER_01
  I don't think so.
 
-0:14:15	SPEAKER_01
- If you leave out the LCD display and if you use less buttons, say...
+0:14:19	SPEAKER_01
+ And if you leave out the LC display and if you use less buttons, say...
 
 0:14:25	SPEAKER_01
- You can do it with a single chip.
+ You can't use the single chip.
 
-0:14:31	SPEAKER_01
- Yeah.
+0:14:31	SPEAKER_04
+ There it is.
 
-0:14:32	SPEAKER_04
- You want to make a bit than fancy and good looking.
+0:14:34	SPEAKER_04
+ Do you want to make a...
 
-0:14:45	SPEAKER_04
- With an effective option.
+0:14:38	SPEAKER_04
+ So fancy and...
 
-0:14:50	SPEAKER_04
- You can stay below 1250.
+0:14:44	SPEAKER_04
+ Quick looking.
 
-0:14:55	SPEAKER_01
+0:14:49	SPEAKER_04
+ Yeah, objective option.
+
+0:14:52	SPEAKER_04
+ So you can stay below 1250.
+
+0:14:56	SPEAKER_01
  I think it's difficult as well.
 
 0:14:58	SPEAKER_02
- We can actually be a choice between either a good remote and a higher production cost or just any other remote control.
+ Basically becoming a choice between either a good remote and a higher production cost and just any other remote control.
 
 0:15:10	SPEAKER_01
  Or we can leave out the 10 buttons and take one scroll wheel for the program numbers.
 
-0:15:19	SPEAKER_01
- Then we save 10 buttons and we have 5 and 1.
+0:15:17	SPEAKER_01
+ That was one.
 
-0:15:28	SPEAKER_01
- Let's see if we have this one and we've got the advanced.
+0:15:19	SPEAKER_01
+ Because then we save 10 buttons and we have five and one.
+
+0:15:26	SPEAKER_01
+ And let's see if we have this one and we've got the other ones.
 
 0:15:34	SPEAKER_00
  We're getting closer.
 
-0:15:35	SPEAKER_00
- We can't get closer.
+0:15:37	SPEAKER_02
+ But how would the scroll wheel work here?
 
-0:15:38	SPEAKER_02
- How would a scroll wheel work here?
+0:15:42	SPEAKER_01
+ Then you will...
 
-0:15:43	SPEAKER_01
- Maybe you can scroll.
+0:15:48	SPEAKER_01
+ Maybe you can...
 
 0:15:53	SPEAKER_01
- If you scroll, you will see the numbers on the LCD display until you've got the right number and you push it.
+ If you scroll, you will see the numbers on the LCD display.
+
+0:15:58	SPEAKER_01
+ Until you've got the right number and then you push it.
 
 0:16:01	SPEAKER_02
  That would bring up the price of the scroll wheel also.
 
 0:16:05	SPEAKER_01
- Okay, but then you can push some other buttons as well.
+ Alright, so you scroll and push.
+
+0:16:08	SPEAKER_01
+ But then you can push some other buttons as well.
 
 0:16:13	SPEAKER_00
  You could just not scroll for half a second.
 
-0:16:16	SPEAKER_00
- Yeah.
+0:16:16	SPEAKER_01
+ Yeah, so if you scroll to a number and then you wait a half second, then it turns to that channel.
 
-0:16:17	SPEAKER_00
- That's right.
-
-0:16:18	SPEAKER_01
- If you scroll to a number and you wait a half second, then it turns to that channel.
-
-0:16:22	SPEAKER_02
+0:16:23	SPEAKER_02
  I think that would be the end of our usability.
 
 0:16:27	SPEAKER_01
- It would definitely drop costs.
+ It would definitely drop cost a lot.
 
-0:16:31	SPEAKER_01
- We need the battery.
+0:16:35	SPEAKER_01
+ And we need battery.
 
 0:16:41	SPEAKER_01
- The regular chip is not possible.
+ And the regular chip is not possible.
 
 0:16:44	SPEAKER_00
  It has to be advanced.
 
-0:16:46	SPEAKER_00
+0:16:47	SPEAKER_00
  If you want to use an LCD screen, you need an advanced chip.
 
-0:16:52	SPEAKER_01
- Then we can save a Euro by a flat design.
+0:16:53	SPEAKER_01
+ Now we can save a euro by a flat design.
 
-0:16:59	SPEAKER_01
+0:17:00	SPEAKER_01
  That's an option we can...
 
-0:17:03	SPEAKER_01
+0:17:04	SPEAKER_01
  Then we're almost there.
 
-0:17:05	SPEAKER_00
+0:17:06	SPEAKER_00
  If you could just leave out one more button.
 
-0:17:11	SPEAKER_04
+0:17:12	SPEAKER_04
  Or we have to skip the subtitle button.
 
-0:17:16	SPEAKER_01
- That is a big advantage for us.
+0:17:17	SPEAKER_01
+ But I think that is a big advantage for us.
 
 0:17:22	SPEAKER_01
- Can we integrate the text and the subtitles in one button?
+ But can we integrate the data text and the subtitles in one button?
 
-0:17:30	SPEAKER_01
- If you push it...
+0:17:29	SPEAKER_01
+ I think so.
 
-0:17:31	SPEAKER_02
- Three titles.
+0:17:30	SPEAKER_02
+ If you push it three times.
 
 0:17:32	SPEAKER_02
- Right now you just push the text button.
+ The teletext subtitles are right now.
 
-0:17:35	SPEAKER_02
+0:17:34	SPEAKER_02
+ You just push the teletext button.
+
+0:17:36	SPEAKER_02
  Go to page 888.
 
-0:17:37	SPEAKER_02
- Yeah.
-
 0:17:38	SPEAKER_02
- And the text disappears, but the subtitles stay there.
+ And the teletext disappears.
+
+0:17:40	SPEAKER_02
+ But the subtitles stay there.
 
 0:17:42	SPEAKER_04
- But if you push it, it's a bit too wide.
+ But if you push the data twice.
 
 0:17:45	SPEAKER_00
  What if you have to scroll to page 888?
 
 0:17:49	SPEAKER_02
- That could be just scroll to 8.
+ That could be like the scroll to page 8.
 
 0:17:53	SPEAKER_02
- But then again, that would be just a pretty much an option for all their people.
+ Scroll to page 8.
 
-0:18:01	SPEAKER_02
- Don't even know what a scroll wheel is.
+0:17:55	SPEAKER_02
+ But then again, there would be just an option for older people.
 
-0:18:05	SPEAKER_02
- Holding a remote with today's spec to have like ten buttons for the numbers 1 to 0.
+0:18:02	SPEAKER_02
+ You don't even know what a scroll wheel is.
 
-0:18:15	SPEAKER_02
- There are only five buttons on it.
+0:18:06	SPEAKER_02
+ Holding a remote with the respect to have 10 buttons for the numbers 1 to 0.
 
-0:18:19	SPEAKER_02
+0:18:16	SPEAKER_02
+ There are only 5 buttons on it.
+
+0:18:20	SPEAKER_02
  And a scroll wheel.
 
-0:18:21	SPEAKER_01
- I think if you make good advertisement on television and in the guide, you can explain to the people how to use the scroll wheel.
+0:18:22	SPEAKER_01
+ I think if you make a good advertisement on television and in the guide, you can explain to the people how to use the scroll wheel.
 
-0:18:35	SPEAKER_01
- You just make it real simple.
+0:18:36	SPEAKER_01
+ You can just make it real simple.
 
-0:18:40	SPEAKER_01
- It saves a lot of money and we can keep our LCD screen, which can provide extra information how to use the scroll wheel, how to use the other buttons as subtitles.
+0:18:41	SPEAKER_01
+ It saves a lot of money and we can keep our LCD screen which can provide extra information how to use the scroll wheel, how to use the other buttons as subtitles.
 
-0:18:52	SPEAKER_01
+0:18:53	SPEAKER_01
  And it's good for the innovative design as well.
 
 0:18:58	SPEAKER_01
- If you would erase these...
+ If you would erase these.
 
 0:19:03	SPEAKER_01
- You're razor.
+ If you would erase them.
 
-0:19:10	None
- Hey, we could put...
+0:19:12	SPEAKER_01
+ If you would put the...
 
-0:19:17	SPEAKER_01
- Looks a bit odd, maybe.
+0:19:20	SPEAKER_01
+ It looks a bit odd maybe.
 
 0:19:29	SPEAKER_02
- That's a pretty big scroll wheel.
+ It's a pretty big scroll wheel.
 
 0:19:36	SPEAKER_03
  Something like that.
 
-0:19:53	SPEAKER_01
- Then we've got the scroll wheel.
+0:19:54	SPEAKER_01
+ Then you've got the scroll wheel.
 
-0:20:00	SPEAKER_01
- If we erase this one...
+0:20:01	SPEAKER_01
+ If you erase this one.
 
-0:20:08	SPEAKER_01
- These are two buttons then.
+0:20:15	SPEAKER_01
+ And these are two buttons then.
 
-0:20:26	SPEAKER_00
- We could wake two buttons out of that.
+0:20:27	SPEAKER_00
+ You could make two buttons out of that and just if you press the volume button you can control the volume with the scroll wheel.
 
-0:20:31	SPEAKER_00
- If you press the volume button, you can control the volume with the scroll wheel.
-
-0:20:38	SPEAKER_00
+0:20:40	SPEAKER_00
  So that would save two buttons if you do the same for the channel.
 
-0:20:43	SPEAKER_01
- That's really a good idea.
+0:20:44	SPEAKER_01
+ That's really a good idea I think.
 
-0:20:51	SPEAKER_01
+0:20:52	SPEAKER_01
  And that will make the use of the scroll wheel more obvious.
 
-0:20:56	SPEAKER_01
+0:21:00	SPEAKER_01
  So we make one for the volume, one for the channel.
 
-0:21:03	SPEAKER_01
- Please scroll.
+0:21:12	SPEAKER_01
+ So if we've got one, two, three.
 
-0:21:11	SPEAKER_01
- So if we...
-
-0:21:14	SPEAKER_01
- That's right.
-
-0:21:15	SPEAKER_01
- So we've got one, two, three.
-
-0:21:18	SPEAKER_01
- Yeah, we can leave the text in if we want.
-
-0:21:22	SPEAKER_01
- Yeah.
-
-0:21:23	SPEAKER_00
- That's me so it's better.
-
-0:21:26	SPEAKER_00
+0:21:25	SPEAKER_00
  If we leave out all those buttons perhaps you can go with the flat case and make it smaller overall.
 
-0:21:34	SPEAKER_00
- So if you put the volume and channel buttons on the same height as the on-off button, the screen right under that then the scroll button.
+0:21:35	SPEAKER_00
+ So if you put the volume and channel buttons on the same height as the enough button, the screen right under that then the scroll button.
 
-0:21:45	SPEAKER_00
+0:21:46	SPEAKER_00
  You get a much smaller remote.
 
-0:21:50	SPEAKER_01
- So we can decrease this one to four buttons.
+0:21:52	SPEAKER_01
+ So you can decrease this one to four buttons.
 
-0:21:57	SPEAKER_02
- Right now we have five buttons.
-
-0:21:59	SPEAKER_04
- You can make quite a big remote control for just the same price as a small one.
+0:21:58	SPEAKER_04
+ You can make a big remote control for just the same price as a small one.
 
 0:22:07	SPEAKER_04
  You have to pay for the double curved or single curved.
 
 0:22:14	SPEAKER_01
- So it's more the moles in which they are being made I think.
+ It's more the moles in which they are being made I think single curved is really easy to fill in and cases come right out of the machine and single curves you have to have a different machine than a flat one.
 
-0:22:21	SPEAKER_01
- Single curved is really easy to just fill in and cases come right out of the machine.
-
-0:22:26	SPEAKER_01
- Single curved you have to have a different machine than a flat one.
-
-0:22:32	SPEAKER_01
+0:22:31	SPEAKER_01
  I think this is a really easy one.
 
 0:22:36	SPEAKER_01
- But does everybody think about the flat or single curved design?
+ Does everybody think about the flat or single curved design?
 
-0:22:43	SPEAKER_02
- Well I still think we should go for the single curved design.
+0:22:46	SPEAKER_02
+ I still think we should go for the single curved design.
 
-0:22:49	SPEAKER_00
- Richard argument was very good.
+0:22:50	SPEAKER_02
+ Rich at argument was very good.
 
-0:22:52	None
- Yeah.
+0:22:55	SPEAKER_02
+ Since we have to cut costs.
 
-0:22:53	SPEAKER_02
- We have to cut costs.
+0:23:08	SPEAKER_02
+ I'm agreeing with the use of research and see what the options are.
 
-0:22:58	SPEAKER_01
- Yeah.
+0:23:16	SPEAKER_01
+ I think we can keep the single curved one just to express our LCD screen a bit more.
 
-0:22:59	SPEAKER_02
- I'm going to just go to the board and ask for more money.
+0:23:26	SPEAKER_01
+ So people will use it more and especially for the help functions will be good if we have scroll button.
 
-0:23:06	SPEAKER_02
- Yeah.
+0:23:33	SPEAKER_01
+ It's necessary to have a good help function as well.
 
-0:23:13	SPEAKER_01
- Yeah.
-
-0:23:14	SPEAKER_01
- But I think we can then keep the single curved one just to express our LCD screen a bit more.
-
-0:23:23	SPEAKER_01
- So people will use it more and especially for the help functions.
-
-0:23:27	SPEAKER_01
- It will be good if we have scroll bar scroll button.
-
-0:23:31	SPEAKER_01
- It will be necessary to have a good help function as well.
-
-0:23:43	SPEAKER_01
- Sorry this is scroll.
-
-0:23:55	SPEAKER_01
+0:23:56	SPEAKER_01
  I think it was better to have this price this bit earlier before we went on to the whole design.
 
 0:24:05	SPEAKER_01
  But I'm glad we could make a bit.
 
-0:24:10	SPEAKER_02
- Yeah.
-
-0:24:11	SPEAKER_01
+0:24:10	SPEAKER_01
  That's pretty different.
-
-0:24:12	SPEAKER_01
- Yeah.
-
-0:24:13	SPEAKER_01
- So all the last one.
-
-0:24:14	SPEAKER_02
- And this one.
 
 0:24:15	SPEAKER_02
  This is not really like for the group we were making or remote.
 
 0:24:19	SPEAKER_02
- This will really require a lot of marketing.
-
-0:24:22	SPEAKER_02
- Yeah.
+ This will really require a lot of marketing to get this to sell.
 
 0:24:25	SPEAKER_02
- And to get this to sell.
-
-0:24:28	SPEAKER_02
- Because if other people like familiar forms and familiar stuff, this is not familiar for them.
+ If other people like familiar firms and familiar stuff, this is not familiar for them.
 
 0:24:35	SPEAKER_02
- No, but I think we have to do a lot of convincing them.
+ No, but I think they have to do a lot of convincing them.
 
 0:24:38	SPEAKER_04
- I think the most.
-
-0:24:39	SPEAKER_04
- But they know the scroll buttons from old radio.
+ I think the most, but they know the scroll buttons from old radio.
 
 0:24:42	SPEAKER_04
- They also buttons like that for changing.
+ They also have buttons like that for changing.
 
-0:24:46	SPEAKER_01
- We can let it.
-
-0:24:48	SPEAKER_01
+0:24:47	SPEAKER_01
  We can stick it out.
 
 0:24:50	SPEAKER_01
- Like old buttons.
+ It's like an old button.
 
-0:24:52	SPEAKER_01
- Yeah.
-
-0:24:54	SPEAKER_01
+0:24:55	SPEAKER_01
  Maybe that's recognizable for them as well.
 
-0:24:56	SPEAKER_01
- Yeah.
-
-0:24:57	SPEAKER_01
+0:24:58	SPEAKER_01
  That's a good one.
 
-0:24:59	SPEAKER_01
+0:25:00	SPEAKER_01
  So I'm afraid we have to move on.
 
-0:25:03	SPEAKER_01
- And it's less frightening I think if they see this design they think there are only five buttons.
-
-0:25:13	SPEAKER_01
- But we will see.
+0:25:04	SPEAKER_01
+ It's less frightening, I think, if they see this design, they think there are only five buttons.
 
 0:25:14	SPEAKER_02
- But it might be confusing too.
+ It might be confusing too.
 
-0:25:16	SPEAKER_01
- Yeah.
-
-0:25:17	SPEAKER_02
- But it's very special.
-
-0:25:20	SPEAKER_04
- So I would buy.
-
-0:25:23	None
- Yeah, but you're not 60.
-
-0:25:24	SPEAKER_01
- That's right.
+0:25:21	SPEAKER_04
+ That's very special.
 
 0:25:25	SPEAKER_01
- I would buy if I was 60.
+ I would buy it.
 
 0:25:27	SPEAKER_01
- No, I didn't know.
+ Yeah, but you're not 60.
 
-0:25:29	SPEAKER_01
- Articus and 12 and all of you rose?
+0:25:30	SPEAKER_01
+ I would buy it if I was 60.
 
 0:25:32	SPEAKER_01
+ No, I didn't know.
+
+0:25:34	SPEAKER_01
+ Articos and the 12 and 12 euros?
+
+0:25:37	SPEAKER_01
  No.
 
-0:25:33	SPEAKER_01
+0:25:38	SPEAKER_01
  Yes, they are.
 
-0:25:35	SPEAKER_01
- No.
-
-0:25:36	SPEAKER_01
+0:25:40	SPEAKER_01
  No, but we can go on with the project evaluation.
 
-0:25:42	SPEAKER_01
+0:25:46	SPEAKER_01
  Let's see.
 
-0:25:47	SPEAKER_01
- I can sit down I think we still have 15 minutes left so nice on schedule.
+0:25:49	SPEAKER_01
+ I can sit down.
 
-0:25:54	SPEAKER_01
+0:25:51	SPEAKER_01
+ I think we still have 15 minutes left, so nice on schedule.
+
+0:25:57	SPEAKER_01
  The project process.
 
-0:25:57	SPEAKER_02
- So I like set up all these criteria.
-
-0:26:02	SPEAKER_02
- A valuation criteria.
+0:26:00	SPEAKER_02
+ So I like to set up all these criteria.
 
 0:26:04	SPEAKER_02
- That's right.
-
-0:26:05	SPEAKER_01
- That was the thingy.
+ Evaluation criteria.
 
 0:26:06	SPEAKER_01
- The point I forgot.
+ That's right.
 
-0:26:08	SPEAKER_01
- Shoot.
+0:26:07	SPEAKER_01
+ That was the point I forgot.
 
-0:26:09	SPEAKER_01
+0:26:13	SPEAKER_01
  There we are.
 
-0:26:12	SPEAKER_01
- If the evaluation could do you.
+0:26:14	SPEAKER_01
+ Evaluation criteria.
 
 0:26:15	SPEAKER_01
  Thank you.
 
-0:26:16	SPEAKER_01
+0:26:17	SPEAKER_01
  Go ahead.
 
-0:26:18	SPEAKER_01
- We've got five minutes I think.
+0:26:19	SPEAKER_01
+ We've got five minutes, I think.
 
-0:26:20	SPEAKER_01
- Five more minutes.
+0:26:21	SPEAKER_01
+ Five more minutes?
 
-0:26:22	SPEAKER_01
- No, we've got 15 minutes.
+0:26:24	SPEAKER_01
+ No, we've got 15 minutes, but okay.
 
-0:26:25	SPEAKER_01
- But okay.
-
-0:26:35	SPEAKER_01
+0:26:36	SPEAKER_01
  Yes.
 
-0:26:38	SPEAKER_02
- Okay, so I did some literature study.
-
-0:26:45	SPEAKER_02
- Analysis of the requirements we set up earlier.
-
-0:26:48	SPEAKER_02
- Yeah.
+0:26:43	SPEAKER_02
+ Okay, so I did some literature study, analysis of the requirements we set up earlier.
 
 0:26:49	SPEAKER_02
- Translated it into criteria.
+ Translated it into criteria, which would be these.
 
-0:26:51	SPEAKER_02
- Which would be these.
-
-0:26:53	SPEAKER_02
- Is the remote fancy?
-
-0:26:55	SPEAKER_02
- The shape looking few?
-
-0:26:57	SPEAKER_02
- Inovative.
+0:26:54	SPEAKER_02
+ It's a remote fancy, a shaped look and feel.
 
 0:26:58	SPEAKER_02
- What new functions are there?
+ Innovative, what new functions are there.
 
-0:27:00	SPEAKER_02
+0:27:01	SPEAKER_02
  Easy to use.
 
-0:27:03	SPEAKER_02
- Learnability is a very important factor here.
-
-0:27:06	SPEAKER_02
+0:27:07	SPEAKER_02
  Is it functional?
 
 0:27:09	SPEAKER_02
  Are there not too many functions?
 
-0:27:11	SPEAKER_02
- A amount of functions and are those functions that are there?
+0:27:12	SPEAKER_02
+ Those functions are there useful?
 
-0:27:14	SPEAKER_02
- Are they useful?
-
-0:27:17	SPEAKER_02
- And the cost.
+0:27:16	SPEAKER_02
+ The cost.
 
 0:27:20	SPEAKER_02
  The target group is the remote really for the group we're making it for.
@@ -991,167 +1006,161 @@
 0:27:26	SPEAKER_02
  And great cognitive ability.
 
-0:27:29	SPEAKER_02
- If our company is if it is easily recognizable, there are company made it.
+0:27:32	SPEAKER_02
+ If our company is easily recognizable, their company made it.
 
-0:27:36	SPEAKER_02
- So we're supposed to be evaluated right now.
+0:27:39	SPEAKER_02
+ So we're supposed to evaluate it right now.
 
-0:27:40	SPEAKER_03
+0:27:44	SPEAKER_02
  Okay.
 
-0:27:43	SPEAKER_02
+0:27:47	SPEAKER_02
  Let's see.
 
-0:27:46	SPEAKER_02
- Oh, I have to say this was a little hard because the minutes over the last meeting.
+0:27:50	SPEAKER_02
+ It's hard because the minutes of our last meeting were not here.
 
-0:27:52	SPEAKER_02
- We're not here.
+0:27:56	SPEAKER_01
+ That's because my pen failed to upload his data.
 
-0:27:54	SPEAKER_01
- Yeah, that's because my pen failed to upload his data.
-
-0:27:57	SPEAKER_01
+0:28:00	SPEAKER_01
  Okay.
-
-0:27:58	SPEAKER_01
- I tried to, but it's giving errors.
 
 0:28:01	SPEAKER_01
- It's giving errors by downloading software.
-
-0:28:04	SPEAKER_02
- Okay.
+ I tried to, but it's giving errors by downloading software.
 
 0:28:07	SPEAKER_02
- Is the design fancy on a scale of 1 to 7?
+ Okay.
 
-0:28:10	SPEAKER_01
- I think it's fancy.
+0:28:08	SPEAKER_02
+ It's the design fancy on a scale of one to seven.
 
 0:28:12	SPEAKER_04
- Six.
-
-0:28:14	SPEAKER_04
- Yeah.
+ I think it's fancy.
 
 0:28:15	SPEAKER_04
- You'll go for six.
+ Six.
 
-0:28:17	SPEAKER_02
+0:28:16	SPEAKER_02
  Good.
 
-0:28:21	SPEAKER_02
- Is the design inovative?
+0:28:22	SPEAKER_02
+ Is the design innovative?
 
 0:28:24	SPEAKER_02
  Very.
 
-0:28:26	SPEAKER_01
- I'll see these same titles.
+0:28:25	SPEAKER_02
+ So with our LCD-
 
-0:28:33	SPEAKER_01
- Seven.
+0:28:27	SPEAKER_01
+ Set that up station. Let's go to buttons.
 
-0:28:34	SPEAKER_01
- Seven?
-
-0:28:35	SPEAKER_01
+0:28:29	SPEAKER_01
  Yeah.
 
-0:28:36	SPEAKER_02
+0:28:30	SPEAKER_01
+ Seven.
+
+0:28:31	SPEAKER_01
+ Seven?
+
+0:28:32	SPEAKER_01
+ Yeah.
+
+0:28:33	SPEAKER_01
  So we've got 20 cents for our docking station.
 
 0:28:39	SPEAKER_02
- Should we do all?
+ Should be dual.
 
 0:28:40	SPEAKER_02
  Yeah.
 
-0:28:41	SPEAKER_01
+0:28:41	SPEAKER_02
  Is the design easy to use?
 
-0:28:44	SPEAKER_01
- That's a bit...
-
-0:28:46	None
-土y.
-
-0:28:47	SPEAKER_02
- Well, would be for us, but...
-
-0:28:50	SPEAKER_01
- I would say four.
-
-0:28:52	SPEAKER_01
- Four or five.
-
-0:28:53	SPEAKER_01
- Four or five.
-
-0:28:54	SPEAKER_01
- I'd go for four or two.
-
-0:28:56	SPEAKER_02
+0:28:43	SPEAKER_01
  Yeah.
 
-0:28:57	SPEAKER_01
+0:28:46	SPEAKER_02
+ It's a bit dodgy.
+
+0:28:49	SPEAKER_01
+ Well, would be for us, but for all of the...
+
+0:28:53	SPEAKER_01
+ I would say four or five.
+
+0:28:54	SPEAKER_01
+ Four or five.
+
+0:28:55	SPEAKER_01
+ It's between four.
+
+0:28:56	SPEAKER_02
+ I'd go for four or two.
+
+0:29:01	SPEAKER_01
  Is it functional?
 
-0:29:01	SPEAKER_02
+0:29:03	SPEAKER_02
  Is the design functional?
 
-0:29:03	SPEAKER_02
+0:29:05	SPEAKER_02
  Do we have all functions that we want to include?
 
-0:29:06	SPEAKER_02
+0:29:08	SPEAKER_02
  Yes.
 
-0:29:07	SPEAKER_02
+0:29:09	SPEAKER_02
  I think we do.
 
-0:29:08	SPEAKER_02
+0:29:10	SPEAKER_02
  Do we have too many functions?
 
-0:29:10	SPEAKER_02
+0:29:11	SPEAKER_02
  No.
 
-0:29:11	SPEAKER_02
- No, I don't think so.
-
-0:29:12	SPEAKER_01
- It's pretty slow.
+0:29:12	SPEAKER_02
+ I think so.
 
 0:29:13	SPEAKER_01
+ It's pretty slow.
+
+0:29:14	SPEAKER_01
  I think it's seven.
 
 0:29:15	SPEAKER_02
- Seven?
+ Seven.
 
-0:29:18	SPEAKER_02
- Oh, and do we...
+0:29:16	SPEAKER_02
+ Oh, and do we take care of the biggest frustrations of the remote control, like it getting lost?
 
-0:29:21	SPEAKER_02
- Take care of the biggest frustrations of the remote control, like it getting lost, and...
+0:29:28	SPEAKER_02
+ And...
 
-0:29:29	SPEAKER_00
- Sorry, I haven't thought of that one.
+0:29:29	SPEAKER_02
+ Oh, sorry.
+
+0:29:30	SPEAKER_00
+ I haven't thought of that one.
 
 0:29:31	SPEAKER_01
- Of course.
+ It was...
 
 0:29:32	SPEAKER_01
  I think we do.
 
 0:29:33	SPEAKER_01
- I had them worked out.
+ I had them work there.
 
-0:29:38	SPEAKER_01
- They're ugly, not very functional, and getting lost.
+0:29:39	SPEAKER_01
+ They are ugly, not very functional, and getting lost.
 
-0:29:44	SPEAKER_02
- But the production costs within the preset limits?
+0:29:45	SPEAKER_02
+ Are the production costs within the preset limits?
 
 0:29:47	SPEAKER_02
  Well, they are now.
@@ -1159,53 +1168,56 @@
 0:29:49	SPEAKER_03
  Yeah.
 
-0:29:54	SPEAKER_02
+0:29:51	SPEAKER_02
  Does the design fit the group of focus?
 
-0:29:58	SPEAKER_00
+0:29:57	SPEAKER_00
  I think that's a free.
 
-0:30:00	SPEAKER_01
+0:30:00	SPEAKER_00
  Yeah.
 
 0:30:01	SPEAKER_01
- No, I think with a new radio button, I think it's better.
+ I think with a new radio button, I think it's better.
 
 0:30:07	SPEAKER_04
- We have the test.
-
-0:30:08	SPEAKER_04
- Oh, no.
+ We have to test this.
 
 0:30:09	SPEAKER_00
- I still...
+ Oh, no.
 
 0:30:10	SPEAKER_00
- I think it's too fancy to flash...
+ I still...
+
+0:30:11	SPEAKER_00
+ I think it's too fancy to fleshy.
 
 0:30:15	SPEAKER_02
- Radio button is not exactly what older people expect of remote control.
+ I think your button is not exactly what older people expect of remote control.
 
 0:30:20	SPEAKER_02
- Yeah, true.
+ Yeah.
 
-0:30:23	SPEAKER_01
- How we give it a four?
+0:30:21	SPEAKER_02
+ True.
 
-0:30:29	SPEAKER_02
- I'm not sure.
+0:30:22	SPEAKER_01
+ I will give you the four.
 
 0:30:30	SPEAKER_02
- I think I'd go for two.
+ I'm not sure.
 
 0:30:31	SPEAKER_02
+ I think I'd go for two.
+
+0:30:32	SPEAKER_02
  I'd go for three.
 
-0:30:33	SPEAKER_03
- That way I'll have to do it three.
+0:30:33	SPEAKER_04
+ So...
 
-0:30:35	SPEAKER_03
- It's good.
+0:30:34	SPEAKER_03
+ I think I'll do three.
 
 0:30:43	SPEAKER_02
  Is the company recognizable?
@@ -1214,7 +1226,10 @@
  Yes, it is.
 
 0:30:46	SPEAKER_02
- It's the logo there.
+ Or is it the logo there?
+
+0:30:47	SPEAKER_02
+ Yeah.
 
 0:30:48	SPEAKER_02
  So...
@@ -1226,142 +1241,124 @@
  We have the removable front cases.
 
 0:31:02	SPEAKER_01
- So I think it's very recognizable.
+ Yeah.
+
+0:31:04	SPEAKER_01
+ So...
+
+0:31:05	SPEAKER_01
+ I think it's very recognizable.
+
+0:31:07	None
+ Yep.
 
 0:31:10	SPEAKER_02
- There will be this.
+ So, that would be this.
 
 0:31:15	SPEAKER_02
- I was also supposed to calculate the score, but...
-
-0:31:18	SPEAKER_02
- Thought we would have another private...
+ I was also supposed to calculate the score, but thought we would have another private...
 
 0:31:21	SPEAKER_02
- We've got a calculator after this.
+ We've got the company after this.
 
-0:31:25	SPEAKER_00
- 20.
+0:31:24	SPEAKER_00
+ Is this...
 
-0:31:26	SPEAKER_01
- Like after this are we done?
+0:31:26	SPEAKER_02
+ Like after this?
+
+0:31:27	SPEAKER_01
+ Are we done?
 
 0:31:28	SPEAKER_01
- We've got the...
-
-0:31:30	SPEAKER_02
- We've evaluated.
+ We've got to evaluate it.
 
 0:31:32	SPEAKER_02
- Well, anyhow, these are seven factors.
+ Anyhow, these are seven factors.
 
 0:31:34	SPEAKER_02
- Time seven is 40.
+ Time seven is forty...
 
-0:31:36	SPEAKER_02
- Something, two.
+0:31:37	SPEAKER_02
+ Something?
+
+0:31:38	SPEAKER_02
+ Two?
 
 0:31:39	SPEAKER_02
- Nine.
+ No.
 
 0:31:40	SPEAKER_01
- Nine.
+ Nine?
 
 0:31:41	SPEAKER_01
- Nine.
+ No, 49.
 
 0:31:42	SPEAKER_02
- Nine is 49.
-
-0:31:43	SPEAKER_02
  Minus one.
 
-0:31:46	SPEAKER_02
- Minus three.
+0:31:47	SPEAKER_02
+ Minus three, minus four.
 
-0:31:48	SPEAKER_02
- Minus four.
-
-0:31:50	SPEAKER_02
+0:31:51	SPEAKER_02
  Minus four.
 
 0:31:53	SPEAKER_02
- Minus eight.
+ It will be minus eight.
 
-0:31:56	SPEAKER_02
- 41.
+0:31:58	SPEAKER_02
+ Forty-one, out of forty-nine.
 
-0:31:57	SPEAKER_02
- 41.
-
-0:31:58	None
- Out of 49.
-
-0:31:59	SPEAKER_01
+0:32:03	None
  That's...
 
-0:32:05	SPEAKER_03
- All right, 80%.
+0:32:04	SPEAKER_03
+ I'm around eighty percent.
 
 0:32:08	SPEAKER_02
- I guess we'll just touch the name on the bottom here.
+ I guess I'll just type that in on the bottom here.
 
 0:32:14	SPEAKER_01
- Does 84%.
+ That's eighty-four percent.
 
-0:32:22	SPEAKER_01
+0:32:23	SPEAKER_01
  I think that's a pretty nice score.
 
-0:32:25	SPEAKER_04
- Yeah.
+0:32:40	SPEAKER_02
+ So that would be the evaluation.
 
-0:32:26	SPEAKER_02
- Okay.
+0:32:45	SPEAKER_01
+ Okay, thank you.
 
-0:32:39	SPEAKER_02
- So that will be the evaluation.
-
-0:32:41	SPEAKER_01
- Okay.
-
-0:32:42	SPEAKER_01
- Thank you.
-
-0:32:46	SPEAKER_01
+0:32:48	SPEAKER_01
  So that brings us to the project evaluation.
 
 0:32:55	SPEAKER_01
+ Yep.
+
+0:32:56	SPEAKER_01
  Thank you.
 
-0:32:57	SPEAKER_01
+0:32:58	SPEAKER_01
  Project process.
 
-0:32:59	SPEAKER_01
+0:33:00	SPEAKER_01
  Did we move through the right faces, you think, along the process?
 
-0:33:04	SPEAKER_00
+0:33:05	SPEAKER_04
  Yes.
 
-0:33:05	SPEAKER_04
- Yeah.
-
 0:33:06	SPEAKER_02
- I think we should have had the finance thing a lot earlier.
+ I think we should have the finance thing a lot earlier.
 
 0:33:11	SPEAKER_01
- Yeah.
-
-0:33:12	SPEAKER_02
  That's right.
 
-0:33:13	SPEAKER_02
+0:33:12	SPEAKER_02
  In the design phase.
 
 0:33:14	SPEAKER_01
- So lack of information about prices.
-
-0:33:17	SPEAKER_01
- Yeah.
+ So a lack of information about prices.
 
 0:33:18	SPEAKER_01
  Yeah.
@@ -1372,332 +1369,251 @@
 0:33:20	SPEAKER_01
  Okay.
 
-0:33:21	SPEAKER_01
- So this section was there room for creativity?
+0:33:23	SPEAKER_03
+ Okay.
 
-0:33:33	SPEAKER_01
- No.
+0:33:31	SPEAKER_01
+ Okay.
 
-0:33:34	SPEAKER_02
- No.
-
-0:33:35	SPEAKER_01
- Not too much now.
+0:33:32	SPEAKER_01
+ So that's the evaluation.
 
 0:33:37	SPEAKER_02
- It's because of the finance.
-
-0:33:39	SPEAKER_01
- Yeah.
+ Was there room for creativity?
 
 0:33:40	SPEAKER_01
- There was no room but the finance.
+ No.
+
+0:33:41	SPEAKER_01
+ No.
 
 0:33:42	SPEAKER_00
- The room was...
+ Not too much.
 
-0:33:43	SPEAKER_01
+0:33:43	SPEAKER_00
+ No.
+
+0:33:44	SPEAKER_01
+ It's because of the finance sheet.
+
+0:33:47	None
  Yeah.
 
-0:33:44	SPEAKER_02
- And I would have liked to go for the...
+0:33:48	SPEAKER_02
+ It wasn't enough room, but the finance.
 
 0:33:50	SPEAKER_02
- younger users also.
+ The room was...
 
-0:33:53	SPEAKER_02
- And just to be able to access internet and...
-
-0:33:57	SPEAKER_02
- get something of your own.
-
-0:34:00	SPEAKER_02
- Strictions.
-
-0:34:03	SPEAKER_01
- Internet access.
-
-0:34:10	SPEAKER_01
- Okay.
-
-0:34:12	SPEAKER_01
- Leadership.
-
-0:34:14	SPEAKER_01
- Was it clear what everybody had to do?
-
-0:34:17	SPEAKER_01
+0:33:51	SPEAKER_02
  Yeah.
 
-0:34:20	SPEAKER_01
- According to their roles and functions.
+0:33:52	SPEAKER_02
+ And I would have liked to go for the younger users also.
 
-0:34:23	SPEAKER_04
- Yes.
+0:33:57	SPEAKER_02
+ I was able to access Internet and get something of your own.
 
-0:34:24	SPEAKER_04
- Teamwork.
+0:34:02	SPEAKER_01
+ Strictions.
 
-0:34:25	SPEAKER_01
- Did it work out?
+0:34:10	SPEAKER_01
+ Internet access.
 
-0:34:26	SPEAKER_01
- Working together.
-
-0:34:27	SPEAKER_01
- Also, you two with...
-
-0:34:29	SPEAKER_01
- Yeah, it was okay.
-
-0:34:31	SPEAKER_01
- Last phase.
-
-0:34:32	SPEAKER_01
- Nice.
-
-0:34:34	SPEAKER_00
- The tasks are very strictured so you can just do step by step.
-
-0:34:44	SPEAKER_00
- It was very easy.
-
-0:34:47	SPEAKER_01
- Searched tasks.
-
-0:34:50	None
+0:34:13	SPEAKER_01
  Okay.
 
-0:34:51	SPEAKER_01
- Were there means sufficient for the tasks that we had to do?
+0:34:14	SPEAKER_01
+ Leadership.
 
-0:34:56	SPEAKER_01
- Or were there too much?
+0:34:16	SPEAKER_01
+ Was it clear what everybody had to do?
+
+0:34:19	SPEAKER_01
+ According to their roles and functions.
+
+0:34:24	SPEAKER_04
+ Yes.
+
+0:34:27	SPEAKER_01
+ Teamwork.
+
+0:34:28	SPEAKER_01
+ Did it work out?
+
+0:34:29	SPEAKER_01
+ Working together.
+
+0:34:30	SPEAKER_01
+ Also, you too, here with the...
+
+0:34:32	SPEAKER_01
+ Yeah, it was okay.
+
+0:34:33	SPEAKER_01
+ Last phase.
+
+0:34:34	SPEAKER_01
+ Nice.
+
+0:34:35	SPEAKER_00
+ The tasks are very strictured, so you can just do step by step.
+
+0:34:45	SPEAKER_00
+ It was very easy.
+
+0:34:48	SPEAKER_01
+ Strictions.
+
+0:34:50	SPEAKER_01
+ Okay.
+
+0:34:53	SPEAKER_01
+ Where the means efficient for the tasks we had to do?
+
+0:34:57	SPEAKER_01
+ Or where they...
+
+0:34:58	SPEAKER_01
+ Too much.
 
 0:34:59	SPEAKER_00
- Well, the smart board...
-
-0:35:01	SPEAKER_00
- The drawing is just a pain in the ass but...
+ Well, the smart board, the drawing is just a pain in the ass, but...
 
 0:35:05	SPEAKER_00
- Smartboard...
+ Smart board.
 
 0:35:06	SPEAKER_00
  The digital pen is very nice.
 
-0:35:08	SPEAKER_00
- Yeah.
+0:35:08	SPEAKER_01
+ If it wants to download this, very data.
 
-0:35:09	SPEAKER_01
- If it wants to download this data.
+0:35:24	SPEAKER_01
+ Smart board was irritating.
 
-0:35:13	None
- Smartboard was...
+0:35:33	SPEAKER_01
+ So, you rather wanted to have a flip over or something else?
 
-0:35:16	SPEAKER_03
- You're dating.
+0:35:38	SPEAKER_00
+ A flip over or a more precise...
 
-0:35:23	SPEAKER_01
- So you brought in one of the flip over or...
-
-0:35:37	SPEAKER_00
- Flip over or a more precise...
-
-0:35:41	SPEAKER_01
+0:35:42	SPEAKER_01
  Yeah.
 
 0:35:43	SPEAKER_03
- Fosters as well.
+ Faster as well.
+
+0:35:44	SPEAKER_03
+ Yeah.
 
 0:35:45	None
  Yeah.
 
-0:35:47	SPEAKER_01
+0:35:46	SPEAKER_01
  Flip over.
 
-0:35:49	SPEAKER_04
+0:35:50	SPEAKER_04
  But if you want to share...
 
-0:35:52	SPEAKER_04
- When you make a picture like this on the presentation.
+0:35:53	SPEAKER_04
+ When you make a picture like this on a presentation, it's easier to share it with other people.
 
-0:35:59	SPEAKER_04
- It's easier to share it with other people.
-
-0:36:03	SPEAKER_04
- So you can save it and put it on the internet or...
-
-0:36:08	SPEAKER_04
- In the shared folder or...
+0:36:02	SPEAKER_04
+ So, you can save it and put it on the internet or in share it for a folder or share it there.
 
 0:36:12	SPEAKER_02
- Yeah, I tried to open the file.
+ Yeah, I tried to open the file on my laptop, but...
 
-0:36:14	SPEAKER_02
- It's on my laptop but it didn't work.
+0:36:15	SPEAKER_02
+ No, it didn't work.
+
+0:36:16	SPEAKER_01
+ No, it didn't work.
 
 0:36:17	SPEAKER_01
- You need the smartboard application I think.
+ No, you need the smart board application, I think.
 
-0:36:22	SPEAKER_01
- But I think you can...
+0:36:21	SPEAKER_01
+ But I think you could...
 
-0:36:24	SPEAKER_01
+0:36:23	SPEAKER_01
  Yeah.
 
-0:36:25	SPEAKER_01
- Should be possible.
+0:36:24	SPEAKER_01
+ It should be possible.
 
-0:36:26	SPEAKER_01
+0:36:25	SPEAKER_01
  Yeah, you can export this image.
 
 0:36:28	SPEAKER_01
- Best.
+ Yeah, it must be.
 
-0:36:29	SPEAKER_02
- Yeah, best be.
-
-0:36:31	None
- You should have done that.
-
-0:36:33	SPEAKER_01
- So the sharing of the information was okay.
+0:36:34	SPEAKER_01
+ So, the sharing of information was okay.
 
 0:36:37	SPEAKER_01
- That's it.
-
-0:36:38	SPEAKER_01
- Yeah, that's it.
+ It's okay.
 
 0:36:39	SPEAKER_01
- Yeah, I'm here on the table.
-
-0:36:44	None
- Yeah.
-
-0:36:45	None
- Yeah.
-
-0:36:46	SPEAKER_04
- Yeah.
+ Yeah, it's been here on the table.
 
 0:36:47	SPEAKER_04
  Yeah.
 
-0:36:48	SPEAKER_04
- Yeah.
-
-0:36:49	None
- Yeah.
-
-0:36:50	SPEAKER_04
- Yeah.
-
 0:36:51	SPEAKER_04
- JPEG, VMP.
+ Yeah.
 
 0:36:52	SPEAKER_01
- It's possible.
-
-0:36:53	SPEAKER_01
  Yeah.
 
-0:36:54	SPEAKER_01
- Okay.
-
-0:36:55	SPEAKER_01
- Okay.
+0:36:53	SPEAKER_01
+ It's possible.
 
 0:36:56	SPEAKER_01
+ Yeah.
+
+0:36:58	SPEAKER_04
  Okay.
 
-0:36:57	SPEAKER_01
+0:36:59	SPEAKER_01
+ Okay.
+
+0:37:00	SPEAKER_01
  That's nice.
 
-0:36:58	SPEAKER_01
- We found new IDs for...
+0:37:01	SPEAKER_01
+ We've found new IDs for having this kind of meeting.
 
-0:37:02	SPEAKER_01
- I think this kind of meeting.
+0:37:07	SPEAKER_01
+ So...
 
 0:37:08	SPEAKER_04
  Yeah, maybe...
 
-0:37:11	SPEAKER_04
- When we just gave the numbers of...
-
-0:37:18	SPEAKER_04
- Of...
-
-0:37:19	SPEAKER_04
- Of...
-
-0:37:20	SPEAKER_04
- Of...
+0:37:13	SPEAKER_04
+ Just to give the numbers of...
 
 0:37:21	SPEAKER_04
- Of...
+ One of our...
 
 0:37:22	SPEAKER_04
- Of...
-
-0:37:23	SPEAKER_04
- Of...
-
-0:37:24	None
- Of...
-
-0:37:24	SPEAKER_04
- Of...
-
-0:37:25	SPEAKER_04
- Of...
-
-0:37:26	SPEAKER_04
- Of...
-
-0:37:27	SPEAKER_04
- Of...
-
-0:37:28	SPEAKER_04
- Of...
-
-0:37:29	SPEAKER_04
- Of...
-
-0:37:30	SPEAKER_04
- Of...
-
-0:37:31	SPEAKER_04
- Of...
-
-0:37:32	SPEAKER_04
- Of...
-
-0:37:33	SPEAKER_04
- So...
-
-0:37:34	SPEAKER_04
- So...
-
-0:37:35	SPEAKER_04
- So...
-
-0:37:36	SPEAKER_01
- So everybody puts his own score.
-
-0:37:38	SPEAKER_02
  Yeah.
 
-0:37:39	SPEAKER_01
- And then...
+0:37:23	SPEAKER_04
+ So, it's easier to lose things like that on a computer.
 
-0:37:40	SPEAKER_01
- It mediates the score.
+0:37:30	SPEAKER_04
+ Yeah.
 
-0:37:41	SPEAKER_01
- And you can get one...
+0:37:31	SPEAKER_04
+ So, like, university...
+
+0:37:36	SPEAKER_04
+ Yeah.
+
+0:37:37	SPEAKER_01
+ So, everybody puts his own score and then it mediates the score and you can get one.
 
 0:37:43	SPEAKER_01
  Yeah.
@@ -1706,117 +1622,84 @@
  That's better.
 
 0:37:45	SPEAKER_01
- So it's...
+ So, it's...
 
 0:37:48	SPEAKER_01
- How do we call it?
+ How do we go?
 
-0:37:58	SPEAKER_01
- Inevaluation.
-
-0:38:01	SPEAKER_01
- Inevaluation.
-
-0:38:02	None
- Inevaluation.
-
-0:38:04	SPEAKER_01
- Criteria.
-
-0:38:05	None
- Criteria.
-
-0:38:07	None
- Criteria.
-
-0:38:08	None
- Criteria.
-
-0:38:10	None
- Criteria.
-
-0:38:12	None
- Criteria.
-
-0:38:14	SPEAKER_01
+0:37:50	None
  Okay.
 
-0:38:16	SPEAKER_01
- Any more IDs?
+0:37:59	SPEAKER_01
+ Any variation?
 
-0:38:18	SPEAKER_01
- Or questions about the project or...
+0:38:04	SPEAKER_01
+ Right, there we are.
 
-0:38:20	SPEAKER_01
- About the product?
+0:38:15	SPEAKER_01
+ Okay.
 
-0:38:22	SPEAKER_01
- It goes...
+0:38:17	SPEAKER_01
+ Any more ideas or questions about the project or about the product?
 
-0:38:29	SPEAKER_01
- I think...
+0:38:28	SPEAKER_01
+ It goes, I think...
 
-0:38:34	SPEAKER_01
- Then that we...
+0:38:35	SPEAKER_01
+ Then, that's good.
 
-0:38:36	SPEAKER_01
- Get to our last week.
+0:38:37	SPEAKER_01
+ Get to our last few articles within the budget.
 
-0:38:40	SPEAKER_01
- Articles within the budget?
-
-0:38:42	SPEAKER_04
- Yeah.
-
-0:38:43	SPEAKER_02
+0:38:43	SPEAKER_04
  Yeah.
 
 0:38:44	SPEAKER_02
  Yeah.
 
 0:38:45	SPEAKER_00
- Considering we are not going to make a docking station.
+ So, considering we are not going to make a docking station.
 
-0:38:50	SPEAKER_01
- That's good.
+0:38:50	SPEAKER_00
+ Docking station.
 
-0:38:52	SPEAKER_01
- But maybe because of the docking station, the...
+0:38:51	SPEAKER_01
+ That's a good point.
 
-0:38:56	SPEAKER_01
- Price of the remote can also be a little bit higher.
+0:38:53	SPEAKER_01
+ But maybe because of the docking station, the price of the remote can also be a little bit higher.
 
-0:38:59	SPEAKER_02
+0:39:00	SPEAKER_02
  Yeah.
 
 0:39:01	SPEAKER_01
  And I think you can compensate that as well.
 
 0:39:05	SPEAKER_01
- So I think that shouldn't be the biggest problem because it's very cheap to make as well.
+ So, I think that shouldn't be the biggest problem because it's very cheap to make as well.
 
-0:39:10	SPEAKER_01
- Do we think we're going to get the 12.5 million?
+0:39:11	SPEAKER_01
+ Do we think we're going to get 12 and a half million?
 
 0:39:15	SPEAKER_01
  What was it?
 
-0:39:16	SPEAKER_01
- 15 million.
-
 0:39:17	SPEAKER_01
- 15 million.
+ 15.
 
 0:39:18	SPEAKER_01
+ 15 million.
+
+0:39:20	SPEAKER_01
  I think we will.
 
-0:39:21	SPEAKER_01
- If you're going to export this product, it's innovative.
+0:39:22	SPEAKER_01
+ If we're going to export this product, it's innovative.
 
 0:39:25	SPEAKER_01
  Especially in America.
 
-0:39:27	SPEAKER_01
+0:39:28	SPEAKER_01
  People are pretty.
 
 0:39:29	SPEAKER_01
@@ -1826,13 +1709,10 @@
  Sometimes.
 
 0:39:32	SPEAKER_02
- Yeah, still don't think...
+ Yeah, still nothing.
 
-0:39:33	SPEAKER_02
- I mean, if we're going to make a scroll button anyway.
-
-0:39:37	SPEAKER_02
- You can do more.
+0:39:34	SPEAKER_02
+ I mean, if we're going to make a scroll button anyway, we can do more.
 
 0:39:38	SPEAKER_02
  You can do more for the younger people and for the older people.
@@ -1841,182 +1721,170 @@
  Yeah.
 
 0:39:42	SPEAKER_02
- So maybe we should just refocus.
+ So, maybe we should just refocus.
 
-0:39:44	SPEAKER_01
+0:39:45	SPEAKER_01
  Just put it on the market for everybody.
 
-0:39:47	SPEAKER_01
- You can...
-
 0:39:48	SPEAKER_01
- Specifically for...
+ Specifically for everybody.
 
 0:39:49	SPEAKER_01
  You can change markets by changing the front cover.
 
-0:39:53	SPEAKER_01
+0:39:54	SPEAKER_01
  That's one thing you can change it with.
 
 0:39:56	SPEAKER_01
- So you can also try to reach the younger people by putting fancy covers on the market.
-
-0:40:04	SPEAKER_01
- Just as a test.
+ So, you can also try to reach the younger people by putting fancy covers on the market.
 
 0:40:05	SPEAKER_01
+ Just as a test.
+
+0:40:06	SPEAKER_01
  See how it works?
 
 0:40:07	SPEAKER_01
- That's I think a good advantage.
+ That's, I think, a good, that's fun to show.
 
-0:40:09	SPEAKER_02
+0:40:10	SPEAKER_02
  Yeah, I think then it would be way more popular with younger people than it is.
 
-0:40:16	SPEAKER_02
- Then it would be with older people.
+0:40:17	SPEAKER_02
+ Then we'll be with older people.
 
-0:40:19	SPEAKER_02
+0:40:20	SPEAKER_01
  Yeah.
 
-0:40:20	SPEAKER_02
- Even if it were there covers.
+0:40:21	SPEAKER_02
+ Even if it were their covers.
 
-0:40:25	SPEAKER_01
+0:40:24	SPEAKER_01
  Then I think we can have our little celebration right now.
 
 0:40:29	SPEAKER_01
  That's it.
 
 0:40:30	SPEAKER_01
- I think we still have to fill in one more questioner.
+ I think we still have to fill in one more questionnaire.
 
-0:40:34	SPEAKER_01
- I think...
-
-0:40:36	SPEAKER_01
- I don't know.
+0:40:35	SPEAKER_01
+ Okay.
 
 0:40:37	SPEAKER_01
- I didn't get a message from the...
-
-0:40:42	SPEAKER_01
- Oh, I think I have one.
+ I think, I don't know, I didn't get a message from the ending of the, oh, I think I have one.
 
 0:40:46	SPEAKER_01
  Five more minutes.
 
 0:40:48	SPEAKER_01
- Yeah, let's guys.
+ Oh, that's nice.
 
 0:40:51	SPEAKER_01
  Then we still have some questions.
 
 0:40:54	SPEAKER_01
- If somebody has some questions they can ask them now.
+ If somebody has some questions, they can ask them now.
 
-0:40:57	SPEAKER_01
+0:40:58	SPEAKER_01
  We can put these in the project folder as well.
 
 0:41:02	SPEAKER_01
- Let's get it.
+ This one.
 
-0:41:11	SPEAKER_01
- Export is...
-
-0:41:20	SPEAKER_01
- Picture I think?
-
-0:41:21	SPEAKER_04
+0:41:05	None
  Yeah.
+
+0:41:08	SPEAKER_01
+ Yeah.
+
+0:41:13	SPEAKER_01
+ Export it.
+
+0:41:19	SPEAKER_01
+ Picture, I think.
 
 0:41:22	SPEAKER_04
  Yeah.
 
-0:41:29	SPEAKER_01
- Hmm.
+0:41:25	SPEAKER_01
+ This is another, that's where I guess.
 
-0:41:37	SPEAKER_01
- This is another... that's work, I guess.
+0:41:50	SPEAKER_01
+ I see the project folder.
 
-0:41:49	SPEAKER_01
- Is somebody see the project folder?
-
-0:41:53	SPEAKER_01
+0:41:55	SPEAKER_03
  I don't.
 
 0:42:00	SPEAKER_01
  My documents.
 
-0:42:06	SPEAKER_04
+0:42:07	SPEAKER_04
  Maybe they will save it.
 
-0:42:09	SPEAKER_01
+0:42:10	SPEAKER_01
  Yeah.
 
-0:42:10	SPEAKER_01
- I'll just put it in my documents and...
+0:42:11	SPEAKER_01
+ I'll just put it in my documents and that's okay.
 
-0:42:13	SPEAKER_01
- That's okay.
-
-0:42:21	SPEAKER_01
+0:42:19	SPEAKER_01
  Okay.
 
-0:42:26	SPEAKER_01
+0:42:24	SPEAKER_01
  I think I'm going to make our final presentation now.
 
-0:42:31	SPEAKER_01
- Yeah, you're supposed to make it.
+0:42:30	SPEAKER_01
+ You're supposed to make it.
 
 0:42:33	SPEAKER_01
- And then I will be back in about 10 minutes to show you the final presentation.
+ Then I will be back in about 10 minutes to show you the final presentation.
 
 0:42:40	SPEAKER_01
  Okay.
 
 0:42:41	SPEAKER_01
+ Okay.
+
+0:42:42	SPEAKER_01
  Summary of the project.
 
-0:42:43	SPEAKER_02
+0:42:44	SPEAKER_02
  Are we supposed to go into our rooms again?
 
-0:42:46	SPEAKER_04
- Yeah, maybe if the full...
-
-0:42:48	SPEAKER_04
+0:42:47	SPEAKER_04
  Yeah.
-
-0:42:49	SPEAKER_01
- No questioner.
 
 0:42:50	SPEAKER_01
- I think you all get the questioner in your room.
+ I think you all get the questionnaire in your room.
 
-0:42:53	SPEAKER_01
- Yeah.
-
-0:42:54	SPEAKER_01
- And then I'll meet you and think about 10 minutes.
-
-0:42:57	SPEAKER_01
- Okay.
+0:42:55	SPEAKER_01
+ And then I'll meet you in about 10 minutes.
 
 0:42:58	SPEAKER_01
  Okay.
 
 0:42:59	SPEAKER_01
+ Okay.
+
+0:43:00	SPEAKER_01
+ Thank you.
+
+0:43:04	SPEAKER_01
  Hopefully my panel download is software.
 
-0:43:06	SPEAKER_01
+0:43:07	SPEAKER_01
  Yeah.
 
-0:43:07	SPEAKER_01
- Word data.
+0:43:08	SPEAKER_01
+ Or data.
 
-0:43:09	SPEAKER_02
- That would be nice.
+0:43:11	SPEAKER_02
+ Okay.
 
-0:43:16	None
- Oh, oh...
+0:43:18	None
+ Nice.
+
+0:43:23	None
+ Okay.
 

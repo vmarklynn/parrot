@@ -1,1770 +1,1320 @@
-0:00:30	None
- SD 1 SD 1, yn sg SD 1.
+0:00:30	SPEAKER_01
+ Is everyone ready to start?
 
-0:00:53	SPEAKER_01
- SDist deductil
+0:00:40	SPEAKER_01
+ Yeah.
 
-0:00:57	None
- SD 3. SD 3 On the agenda for this particular meeting will have your three presentations on what you've done since our last meeting after we came up with some general ideas of our design.
+0:00:41	SPEAKER_01
+ Yes.
 
-0:01:11	SPEAKER_01
- And then we have to make some key decisions on our remote control concept and how we're going to make it what material we're going to use and that sort of thing.
+0:00:42	SPEAKER_01
+ Okay, great.
+
+0:00:43	SPEAKER_01
+ Well, welcome to the third meeting of conceptual design.
+
+0:00:49	SPEAKER_01
+ Let's get the PowerPoint presentation up and running.
+
+0:00:56	None
+ Okay.
+
+0:00:58	SPEAKER_01
+ On the agenda for this particular meeting, we'll have your three presentations on what you've done since our last meeting after we came up with some general ideas of our design.
+
+0:01:12	SPEAKER_01
+ And then we have to make some key decisions on our remote control concept and how we're going to make you what material we're going to use and that sort of thing.
 
 0:01:22	SPEAKER_01
- The meeting will be 40 minutes long and we'll once again have Poppy as our first presenter.
+ The meeting will be 40 minutes long.
+
+0:01:26	SPEAKER_01
+ And we'll once again have Poppy as our first presenter.
 
 0:01:31	SPEAKER_01
- Alright, now we'll switch up PowerPoint.
+ Okay.
+
+0:01:32	SPEAKER_01
+ All right.
+
+0:01:33	SPEAKER_01
+ And now we'll switch up PowerPoint.
+
+0:01:35	SPEAKER_01
+ Thank you.
+
+0:01:36	None
+ Okay.
 
 0:01:37	SPEAKER_03
- Thank you.
+ Should be just loading.
 
 0:01:40	None
  Okay.
 
-0:01:48	SPEAKER_03
- Should be just loading.
+0:01:41	None
+ Oh, I can't see it.
 
-0:01:53	SPEAKER_01
+0:01:45	None
+ Oh, okay.
+
+0:01:47	None
  Okay.
 
-0:01:54	SPEAKER_00
- Oh, although I can't see it on my screen.
+0:01:48	SPEAKER_03
+ Okay.
+
+0:01:49	SPEAKER_03
+ Okay.
+
+0:01:50	SPEAKER_03
+ Okay.
+
+0:01:51	SPEAKER_00
+ Oh, I can't see it on my screen.
 
 0:01:57	SPEAKER_00
- Let's just go here.
+ That's just going here.
 
-0:02:02	SPEAKER_00
+0:02:01	None
  Okay.
 
-0:02:03	SPEAKER_00
+0:02:02	SPEAKER_00
  We've been doing some research into the different components that we could use.
 
-0:02:07	SPEAKER_00
+0:02:08	SPEAKER_00
  What's available to us to actually make the remote control.
 
-0:02:14	SPEAKER_00
- First of all, we have to look at how the remote control is actually made and what is it happens inside the casing, which is what you're feeling.
+0:02:13	SPEAKER_00
+ First of all, we have to look at how the remote control is actually made and what is it happens inside the casing, which is more your field.
 
 0:02:23	SPEAKER_00
- The main internal feature is a circuit board which contains all the electronics and also the contacts with the power source, which is not necessarily a battery is without to see.
+ The main internal feature is a circuit board, which contains all the electronics and also the contacts with the power source, which is not necessarily a battery is without to see.
 
-0:02:35	SPEAKER_00
- There are several components of the circuit board that we need to consider where we'll be getting them from what they'll be made of, including the integrated circuit, which is also known as the chip, which is where all the main information is contained.
+0:02:37	SPEAKER_00
+ There are several components of the circuit board that we need to consider where we'll be getting them from, what they'll be made of, including the integrated circuit, which is also known as the chip, which is where all the main information is contained.
 
 0:02:53	SPEAKER_00
  Diode, transistors, resonators, resistors and capacitors all need to be considered as well and all their positioning in the circuit.
 
-0:03:05	SPEAKER_01
- Are they all included like mandatory or are there these different options?
+0:03:03	SPEAKER_01
+ Are they all included, like mandatory or are these different options?
 
 0:03:08	SPEAKER_00
- They're all different options.
+ These, they're all different options.
 
 0:03:10	SPEAKER_00
- Apart from the chip, which we will probably decide whether we buy a simple or regular advance.
+ They're all separate apart from the chip, which we will probably decide whether we buy a simple or regular advance.
 
 0:03:16	SPEAKER_00
- All the other things are individual components that we'd have to get in separately and work out the most effective circuit, including all the wires and that and the LED.
+ We'll go into that later.
 
-0:03:28	SPEAKER_00
- That's the light emitting diode, so we've got flexibility with colours and things with that as well.
+0:03:18	SPEAKER_00
+ All the other things, the individual components that we'd have to get in separately and work out the most effective circuit, including all the wires and that and the LED of course, that's the light emitting diode.
 
-0:03:37	SPEAKER_00
- There are lots of different possibilities for the energy source. We could use a basic battery, but that brings with it, like there needs to be recharged and the bulk, the sides of it as well.
+0:03:30	SPEAKER_00
+ So we've got flexibility with colours and things with that as well.
+
+0:03:36	SPEAKER_00
+ Okay, there are lots of different possibilities for the energy source.
+
+0:03:41	SPEAKER_00
+ We could use a basic battery, but that brings with it, like, the need to be recharged and the bulk, the size of it as well.
 
 0:03:48	SPEAKER_00
- They're not so great to dispose of environmentally.
+ And they're not so great to dispose of environmentally.
 
 0:03:52	SPEAKER_00
  There's the hand-powered dynamo, which is the sort of thing that was used for torches 50 years ago, a bit out of date.
 
-0:04:00	SPEAKER_00
- Kinetic energy is something that's been recently developed. What is a hand-powered dynamo? Where you manually charge up the power.
+0:04:01	SPEAKER_00
+ Kinetic energy is something that's been recently developed.
 
-0:04:09	SPEAKER_00
- Just every once in a while.
+0:04:04	SPEAKER_00
+ What is a hand-powered dynamo?
+
+0:04:06	SPEAKER_00
+ Where you manually charge up the power, like you do everything.
+
+0:04:11	SPEAKER_00
+ Just every once in a while?
 
 0:04:12	SPEAKER_00
- Sorry? Just every once in a while, constantly.
+ Sorry?
 
-0:04:14	SPEAKER_00
- Yeah, every once in a while, I think.
+0:04:13	SPEAKER_00
+ Just every once in a while.
 
-0:04:15	SPEAKER_01
- It'd be kind of strange to always be able to do that.
+0:04:14	SPEAKER_01
+ It'd be kind of strange to always be kind of strange.
 
-0:04:18	SPEAKER_00
- Yeah, be like going a step back in time. I don't think it would really be with cutting edge technology.
+0:04:17	SPEAKER_01
+ Yeah, be like going a step back in time.
+
+0:04:20	SPEAKER_00
+ I don't think it would really be with cutting edge technology.
 
 0:04:23	SPEAKER_00
- Whereas kinetic energy is a new idea that's been used by some watches and other devices where you just shake the device, and it gives it power.
+ No.
 
-0:04:34	SPEAKER_00
+0:04:24	SPEAKER_00
+ Whereas kinetic energy is a new idea that's been used by some watches and other devices where you just shake the device and it gives it the power.
+
+0:04:36	SPEAKER_00
  The kinetic energy is transformed into power to make the circuit work.
 
-0:04:41	SPEAKER_00
+0:04:42	SPEAKER_00
  Or the solar power, which we're considering inside a building, which is where it's going to be used, might not be quite so useful.
 
-0:04:51	SPEAKER_00
- But good to look into. Renewable energy. Always the way.
+0:04:52	SPEAKER_00
+ But good to look into, renewable energy, always there.
 
-0:04:56	SPEAKER_00
- Lots of considerations for the case. Like what sort of shape it would be curved or flat.
+0:04:57	SPEAKER_00
+ Lots of considerations for the case, like what sort of shape it would be curved or flat.
 
 0:05:02	SPEAKER_00
- That's got a lot to do with the ergonomics. I think how it's comfortable and sits in the hand.
+ That's got a lot to do with the ergonomics.
+
+0:05:04	SPEAKER_00
+ I think how it's comfortable and sits in the hand.
 
 0:05:07	SPEAKER_00
- We don't want something that's huge and you can't pick up or too small or too sliding.
+ We don't want something that's huge and you can't pick up or too small or too slidey.
 
 0:05:13	SPEAKER_00
- I know I've had a remote control before, which you can tell which was the front and the back.
+ I know I've had a remote control before, which you couldn't tell, which was the front and the back.
 
-0:05:19	SPEAKER_00
- I had so many buttons on and the shape was so symmetrical that I'd be pressing like a volume button instead of the on button.
+0:05:20	SPEAKER_00
+ It had so many buttons on and the shape was so symmetrical that I'd be pressing like a volume button instead of the on button because you can't really see what you're around it.
 
-0:05:27	SPEAKER_00
- Because you can't really see which way around it.
+0:05:31	SPEAKER_00
+ We also can choose what materials.
 
-0:05:30	SPEAKER_00
- We also can choose what materials. We could use metal. We could use rubber, which might be more ideal for the anti-RSI.
+0:05:35	SPEAKER_00
+ We could use metal, we could use rubber, which might be more ideal for the anti-RSI.
 
-0:05:42	SPEAKER_00
- It's the same rubber that's used in stress balls and things like that. So it's very soft and not so stressful on your hands.
+0:05:41	SPEAKER_00
+ It's like the same sort of rubber that's used in stress balls and things like that.
 
-0:05:51	SPEAKER_00
- Wood. Again, stepping back inside, I don't think that's quite up to date with what we're looking for here.
+0:05:47	SPEAKER_00
+ So it's very soft, not so stressful, on your hands.
 
-0:05:59	SPEAKER_00
- Detainium is not going to be possible. It's just a beyond our budget really. But what would it be for future projects?
+0:05:53	SPEAKER_00
+ Wood.
+
+0:05:54	SPEAKER_00
+ Again, stepping back inside, we get there.
+
+0:05:56	SPEAKER_00
+ I don't think that's quite up to date with what we're looking for here.
+
+0:06:00	SPEAKER_00
+ Titanium is not going to be possible, it's beyond our budget really, but would have been maybe for future projects.
 
 0:06:09	SPEAKER_00
- I have a choice of buttons as well. We've developed some good advances in technology with our research team.
+ I have a choice for buttons as well.
 
-0:06:16	SPEAKER_00
- We've found some new multiple options, scroll buttons. I think that was brought up before.
+0:06:12	SPEAKER_00
+ We've developed some good advances in technology with our research team.
 
-0:06:26	SPEAKER_00
- They're basically quite flexible design. Modern. You don't have to use individual buttons.
+0:06:17	SPEAKER_00
+ We've found some new multiple options, scroll buttons.
 
-0:06:32	SPEAKER_00
- You can just slide up and down. I'm sure we're all quite familiar with those on mobile or computer laptop.
+0:06:23	SPEAKER_00
+ I think that was brought up before.
 
-0:06:39	SPEAKER_01
- One thing with the scroll buttons though, we would have to have an LCD display.
+0:06:27	SPEAKER_00
+ They're basically quite a flexible design, modern.
+
+0:06:31	SPEAKER_00
+ You don't have to use individual buttons.
+
+0:06:33	SPEAKER_00
+ You can just slide up and down.
+
+0:06:34	SPEAKER_00
+ I'm sure we're all quite familiar with those on mobile or computer laptop.
+
+0:06:40	SPEAKER_01
+ One thing with the scroll buttons though, we would have to have an LCD.
+
+0:06:44	SPEAKER_01
+ Yeah, that's true.
 
 0:06:47	SPEAKER_00
- That would be the lower dark thing.
+ Display and the glow-in-the-dark thing.
 
-0:06:50	SPEAKER_00
- If we have...
+0:06:49	SPEAKER_00
+ Yeah, if we have.
+
+0:06:51	SPEAKER_00
+ Might be difficult.
 
 0:06:52	SPEAKER_00
- Going on to that later with the LCD, that means we need an advanced chip.
+ Yeah.
 
-0:06:57	SPEAKER_00
- It's unlikely that that's going to be an average. Also we've got the integrated push button, which is what we're most familiar with.
+0:06:53	SPEAKER_00
+ We're going on to that later with the LCD.
+
+0:06:55	SPEAKER_00
+ That means we need a really advanced chip.
+
+0:06:58	SPEAKER_00
+ It's unlikely that that's going to be in our budget.
+
+0:07:01	SPEAKER_00
+ Also, we've got the integrated push button, which is what we're most familiar with.
 
 0:07:05	SPEAKER_00
- This is the most straightforward, but you can incorporate that with the scroll button as well.
+ It's most straightforward.
+
+0:07:06	SPEAKER_00
+ You can incorporate that with the scroll button as well.
 
 0:07:11	SPEAKER_00
- Good decision to make there. This is what I was just saying for.
+ Good.
+
+0:07:12	SPEAKER_00
+ Good.
+
+0:07:13	SPEAKER_00
+ Stations to make there.
 
 0:07:14	SPEAKER_00
- Link to the different depends on what type of buttons we have in the inputs.
+ This is what I was just saying.
 
-0:07:19	SPEAKER_00
- Simple, go with the push button. Regular, you could link with the scroll button.
+0:07:15	SPEAKER_00
+ Four linked into the different depends on what type of buttons we have and the inputs.
 
-0:07:27	SPEAKER_00
- The advanced would have to go with a LCD display.
+0:07:20	SPEAKER_00
+ Simple.
+
+0:07:21	SPEAKER_00
+ The settings button, regular, you could link with the scroll button and the advanced would have to go with a LCD display.
 
 0:07:33	SPEAKER_00
- My personal preferences, I think we could go for the kinetic energy source.
+ My personal preference is I think we could go for the kinetic energy source.
 
 0:07:37	SPEAKER_00
- I think that's quite an advanced technology. It's not been seen before, so it could be quite a novelty factor, attractive as well.
+ I think that's quite an advanced kind of technology.
 
-0:07:46	SPEAKER_00
- Also, energy savings, because you're producing the energy.
+0:07:41	SPEAKER_00
+ It's not been seen before so it could be quite a novelty factor, attractive as well.
 
-0:07:51	SPEAKER_00
- You don't need an external battery supply or solar panels. You just give it a shake.
+0:07:48	SPEAKER_00
+ So energy savings, you're producing the energy.
 
-0:07:58	SPEAKER_00
- Sounds brilliant to me.
+0:07:52	SPEAKER_00
+ You don't need an external battery supply or solar panels.
+
+0:07:56	SPEAKER_00
+ So you just give it a shake.
+
+0:07:59	SPEAKER_00
+ Yeah.
 
 0:08:00	SPEAKER_00
+ Sounds brilliant to me.
+
+0:08:01	SPEAKER_00
  Rubbing casing, I think we're probably the best if we're going for the anti-RSI and more choice with aesthetics.
 
 0:08:09	SPEAKER_00
- It could be pretty much any color in one.
+ It could be pretty much any colour we want.
 
-0:08:12	SPEAKER_00
+0:08:13	SPEAKER_00
  It gives you more flexibility there.
 
 0:08:16	SPEAKER_00
- Probably the regular chip is supposed to be simple, and we could possibly have the scroll, and the push, but no LCD.
+ Probably the regular chip is supposed to be simple and we could possibly have the scroll and the push but no LCD because we probably can't afford that one.
 
-0:08:25	SPEAKER_00
- We probably can't afford that one.
+0:08:28	SPEAKER_01
+ One concern with the rubber casing is that it would be rubber encapsulating all of these chips and diodes and delicate technology as the exterior.
 
-0:08:27	SPEAKER_01
- One concern with the rubber casing is that it would be rubber encapsulating all of these chips and diodes and delicate technology as the exterior. This is the one thing that's protecting its innards.
+0:08:43	SPEAKER_01
+ This is the one thing that's protecting its innards.
 
-0:08:44	SPEAKER_00
- I think that would be more internal casing, and the rubber would just be what's in contact with the human hand.
+0:08:45	SPEAKER_00
+ I think that would be more internal casing and the rubber would just be the what's in contact with the human hand.
 
-0:08:53	SPEAKER_01
- Another thing is it might be more difficult.
+0:08:54	SPEAKER_01
+ Another thing is it might be more difficult if it's a rubber exterior.
 
-0:08:55	SPEAKER_01
- If it's a rubber exterior, we're talking about putting on interchangeable plates.
+0:08:57	SPEAKER_01
+ We're talking about putting on interchangeable plates.
 
-0:09:00	SPEAKER_01
- I don't see how a rubber plate going on top would stay there.
+0:09:03	SPEAKER_01
+ I don't see how a rubber plate going on top of it would stay there.
 
-0:09:06	SPEAKER_01
- It would be like a clip on plastic plate.
+0:09:07	SPEAKER_01
+ If it was a clip-on plastic plate, it would work that way.
 
-0:09:10	SPEAKER_01
- It would work that way.
-
-0:09:12	SPEAKER_00
- Maybe if it was just more of a rubber coating, which was onto a case, so the whole thing would be removable.
+0:09:13	SPEAKER_00
+ Maybe if it was just more of a rubber coating which was on to a case, the whole thing would be removable.
 
 0:09:23	SPEAKER_03
  Plastic with rubber.
 
-0:09:25	SPEAKER_00
+0:09:24	SPEAKER_03
  I can't think of what.
 
-0:09:28	SPEAKER_03
- Well, there's a certain phone that has a rubber casing.
+0:09:25	SPEAKER_00
+ There is a certain phone that has a rubber casing.
 
-0:09:32	SPEAKER_00
- Or you can get out a casing for iPods and something that's just protective as well.
+0:09:28	SPEAKER_00
+ Or you can get outer casing for iPods and something that's just protective as well.
 
-0:09:38	SPEAKER_00
- It stops it.
-
-0:09:40	SPEAKER_00
- It would reduce the impact if it was dropped or something.
+0:09:39	SPEAKER_00
+ It stops it, it will reduce the impact if it was dropped or something.
 
 0:09:43	SPEAKER_00
- It wouldn't damage its top.
+ It wouldn't damage its help.
 
 0:09:46	SPEAKER_00
  Maybe a mixture of both.
 
-0:09:49	SPEAKER_02
+0:09:50	SPEAKER_02
  The actual remote would be hard plastic.
 
-0:09:51	SPEAKER_02
- The buttons obviously are rubber.
-
-0:09:55	SPEAKER_01
- Yeah.
-
-0:09:58	SPEAKER_01
+0:09:54	SPEAKER_01
  That sounds good.
 
-0:10:00	SPEAKER_01
+0:10:01	SPEAKER_01
  Is it possible to put designs onto this type of rubber?
 
-0:10:05	SPEAKER_00
+0:10:06	SPEAKER_00
  As far as I know, it should be.
 
-0:10:08	SPEAKER_00
- Okay.
-
-0:10:09	SPEAKER_00
- We'll just say yeah.
-
-0:10:10	SPEAKER_00
- Yeah.
-
-0:10:11	SPEAKER_01
- Just one more.
-
-0:10:12	SPEAKER_01
- Yeah, yeah.
-
-0:10:13	SPEAKER_01
- All right.
-
-0:10:14	SPEAKER_01
+0:10:10	SPEAKER_01
  I like the kinetic energy source idea.
 
-0:10:16	SPEAKER_01
- Yeah.
-
-0:10:17	SPEAKER_01
- I don't know when people will be moving or remote around a lot.
+0:10:18	SPEAKER_01
+ I don't know when people will be moving around a lot.
 
 0:10:22	SPEAKER_01
  But I think that it's worth it.
 
-0:10:24	SPEAKER_01
- Yeah.
+0:10:25	SPEAKER_01
+ Kinetic energy source it can make.
 
-0:10:30	SPEAKER_01
- Yeah.
+0:10:28	SPEAKER_01
+ We can have any kind of style that would be as heavy or bulky.
 
-0:10:31	SPEAKER_01
- Yeah.
+0:10:33	SPEAKER_02
+ We can have a battery pack.
 
-0:10:32	SPEAKER_01
- Just for environmental reasons.
-
-0:10:34	SPEAKER_01
- Yeah.
-
-0:10:35	SPEAKER_02
- I guess it's a bit scary because it hasn't been done before.
-
-0:10:38	SPEAKER_00
- Yeah.
-
-0:10:39	SPEAKER_02
- So it seems we'd have to do more research on it.
-
-0:10:42	SPEAKER_02
- Or you could have a battery pack.
-
-0:10:44	SPEAKER_00
- Like a backup.
-
-0:10:45	SPEAKER_00
- Yeah.
-
-0:10:46	SPEAKER_02
- There is a one battery.
+0:10:43	SPEAKER_02
+ It's a battery pack.
 
 0:10:47	SPEAKER_02
- Because most remote's use two batteries, really.
+ There is a one battery.
 
 0:10:50	SPEAKER_02
- Yeah.
-
-0:10:51	SPEAKER_02
- So it was running off of one battery.
+ It was running off of one battery.
 
 0:10:53	SPEAKER_00
  It's an alternative just in case.
 
-0:10:56	SPEAKER_00
- Right.
-
-0:10:57	SPEAKER_00
- Maybe we could...
-
 0:10:59	SPEAKER_03
- You were saying about solar power.
-
-0:11:02	SPEAKER_03
- Maybe not working indoors.
+ Maybe we could.
 
 0:11:04	SPEAKER_03
  That's true.
 
-0:11:05	SPEAKER_03
- I just thought about it.
+0:11:06	SPEAKER_00
+ Maybe that could be the backup.
 
-0:11:07	SPEAKER_00
+0:11:13	SPEAKER_00
  Yeah.
 
-0:11:08	SPEAKER_00
- Maybe that could be the backup instead of a battery.
-
-0:11:13	SPEAKER_02
- Although it's in the sunlight, doesn't it?
+0:11:14	SPEAKER_02
+ Instead of a battery.
 
 0:11:16	SPEAKER_02
- Yeah.
+ It's so light.
 
-0:11:17	SPEAKER_01
+0:11:18	SPEAKER_02
  You can't watch TV in the dark then.
 
-0:11:19	SPEAKER_02
- Yeah.
+0:11:22	SPEAKER_00
+ But you don't need the solar all the time.
 
-0:11:20	SPEAKER_00
- It's true.
-
-0:11:23	SPEAKER_00
- But it's not you don't need the solar all the time.
-
-0:11:26	SPEAKER_00
+0:11:24	SPEAKER_00
  It can be stored.
 
-0:11:27	SPEAKER_00
+0:11:25	SPEAKER_00
  It can be like you can have the solar energy and then it can store that energy.
 
-0:11:32	SPEAKER_01
- It just needs to be in light for a certain amount of time per day.
+0:11:29	SPEAKER_00
+ It just needs to be in light for a certain amount of time per day, like a few hours a day.
 
 0:11:35	SPEAKER_01
- Like a few hours a day.
-
-0:11:37	SPEAKER_02
  I think that might be a little impractical.
 
-0:11:39	SPEAKER_02
- Yeah.
-
-0:11:40	SPEAKER_01
+0:11:37	SPEAKER_02
  I think sometimes it's just shoved under a cushion.
 
-0:11:42	SPEAKER_01
+0:11:40	SPEAKER_02
  That's true.
 
-0:11:43	SPEAKER_00
- You could easily...
-
-0:11:44	SPEAKER_00
+0:11:41	SPEAKER_01
  People don't want to have to worry about that.
 
-0:11:46	SPEAKER_00
- Yeah.
-
-0:11:47	SPEAKER_00
- I suppose it would be really annoying if you get to...
-
-0:11:49	SPEAKER_00
- I suppose it's a huge one where it votes.
-
-0:11:50	SPEAKER_00
- It's a kinetic thing.
+0:11:44	SPEAKER_00
+ I suppose it would be really annoying if you get to think, oh no, I've got to charge my remote.
 
 0:11:51	SPEAKER_00
- I think it's best about that.
+ It's a kinetic thing I think that's the best about that.
 
-0:11:52	SPEAKER_00
+0:11:55	SPEAKER_00
  It's instant energy.
 
-0:11:53	SPEAKER_00
- You don't have to...
-
-0:11:54	SPEAKER_00
+0:11:56	SPEAKER_00
  You can shake it a few times or whatever.
 
-0:11:56	SPEAKER_00
- Or just like work it up when you're going to...
-
-0:11:58	SPEAKER_00
- Yeah.
-
 0:11:59	SPEAKER_00
-...use it instead of you don't have to make sure it's in the right place to charge.
+ Or just like a big it up when you're going to use it.
 
-0:12:03	SPEAKER_00
- Yeah.
-
-0:12:04	SPEAKER_00
- So...
-
-0:12:05	SPEAKER_01
- Alright.
+0:12:02	SPEAKER_00
+ Instead of you don't have to make sure it's in the right place to charge.
 
 0:12:06	SPEAKER_01
  Cool.
 
-0:12:07	SPEAKER_01
- Okay.
-
 0:12:08	SPEAKER_01
  Is that the end of your presentation?
 
-0:12:09	SPEAKER_01
+0:12:10	SPEAKER_01
  Yeah.
 
-0:12:10	SPEAKER_01
- Alright.
+0:12:11	SPEAKER_01
+ All right.
 
-0:12:11	None
+0:12:12	SPEAKER_00
  Thank you.
 
-0:12:16	SPEAKER_00
- There we go.
-
 0:12:17	SPEAKER_00
- It's...
+ Thank you.
 
-0:12:28	None
+0:12:24	None
  Oh.
 
-0:12:43	SPEAKER_03
+0:12:30	SPEAKER_03
  It's not on my screen.
 
-0:12:45	SPEAKER_03
- Why?
-
 0:12:46	SPEAKER_00
- It wasn't on my knife.
+ I didn't know.
 
 0:12:47	SPEAKER_00
- I don't know.
+ I don't know why.
 
 0:12:48	SPEAKER_00
- I think I just...
+ I don't know why.
 
 0:12:49	SPEAKER_00
- I just use the mouse one.
+ I think I just use the mouse.
 
-0:12:50	SPEAKER_03
+0:12:51	SPEAKER_03
  Oh, okay.
-
-0:12:53	SPEAKER_01
- Yeah.
 
 0:12:54	SPEAKER_01
  Yeah.
 
 0:12:55	SPEAKER_03
- So...
+ Awesome.
 
 0:12:56	SPEAKER_03
- I'm just going to go through the interface concept with you tonight.
+ I'm just going to go through the interface concept with use noise.
 
-0:13:01	SPEAKER_03
+0:13:03	SPEAKER_03
  First of all, explain what a user interface is.
 
-0:13:06	SPEAKER_03
- It's the aspects of the computer system which can be seen or otherwise seen, for example, hair or...
-
-0:13:13	SPEAKER_03
-...fell, maybe a...
-
-0:13:16	SPEAKER_03
-...by the human user.
+0:13:07	SPEAKER_03
+ It's the aspects of the computer system which can be seen or otherwise seen for example, a pair or a shelf, maybe a by the human user.
 
 0:13:18	SPEAKER_03
- And it's also the command that the user uses to control its operation and to input data.
+ And it's also the commands that the user uses to control its operation and to input data.
 
-0:13:30	SPEAKER_03
+0:13:31	SPEAKER_03
  There are two types of user interfaces.
 
-0:13:32	SPEAKER_03
- There's the graphical user interface which emphasizes the use of pictures for our fit and a point device.
-
-0:13:39	SPEAKER_03
- For example, a mouse for effort control.
+0:13:33	SPEAKER_03
+ There's the graphical user interface which emphasizes the use of pictures for our fit and the point device for example, a mouse for input control.
 
 0:13:43	SPEAKER_03
- Is that something like the schools that we were talking about?
+ Is that sort of like the schools I knew were talking about?
 
-0:13:46	SPEAKER_01
+0:13:47	SPEAKER_01
  Oh, okay.
 
-0:13:47	SPEAKER_03
+0:13:48	None
  Yeah.
 
-0:13:48	SPEAKER_03
- I'm not really sure about the pictures...
+0:13:49	SPEAKER_03
+ I'm not really sure about the pictures that maybe that's on an LCD screen.
 
-0:13:51	SPEAKER_03
- Maybe that's on an LCD screen.
+0:13:55	SPEAKER_03
+ Or maybe it's the buttons and pictures.
 
-0:13:54	SPEAKER_03
- Or maybe it's the buttons and...
-
-0:13:58	SPEAKER_03
-...pitch...
-
-0:14:00	SPEAKER_03
-...shoot something.
-
-0:14:04	SPEAKER_00
+0:14:01	SPEAKER_03
  Yeah.
 
-0:14:05	SPEAKER_00
- So I suppose that's...
-
-0:14:06	SPEAKER_01
- Yeah, because...
-
-0:14:07	SPEAKER_01
-...after?
+0:14:02	SPEAKER_00
+ So I suppose second time.
 
 0:14:08	SPEAKER_01
- Because the command interface requires you to type textual commands and input at a keyboard.
+ I'm sorry.
+
+0:14:09	SPEAKER_01
+ Because command interface requires you to type textual commands and input at a keyboard.
 
 0:14:14	SPEAKER_01
  So the numbers are sort of like a keyboard.
 
 0:14:16	SPEAKER_01
- You're pressing the numbers for...
-
-0:14:18	SPEAKER_01
- So you want...
-
-0:14:20	SPEAKER_03
- For the graphical user, you must use some kind of presentation for the graphics.
-
-0:14:25	SPEAKER_00
- I suppose on some buttons you'd have...
-
-0:14:30	SPEAKER_00
-...the power would be some kind of symbol.
-
-0:14:34	SPEAKER_00
- If you wanted to go on to tell a text, I know we're not having that, but a similar thing.
-
-0:14:39	SPEAKER_00
- There's a little picture with a screen with lines across it, which...
-
-0:14:43	SPEAKER_00
-...is that sort of thing.
-
-0:14:45	SPEAKER_00
- The symbol on the button.
-
-0:14:47	SPEAKER_00
- But if we're having a simplified display, anyway...
-
-0:14:51	SPEAKER_00
-...we would have to focus so much on that and be more than the numbers in the volume.
-
-0:14:55	SPEAKER_00
- It would be more command interface.
-
-0:14:57	SPEAKER_00
- So it needs to think of symbols for the volume display.
-
-0:15:01	SPEAKER_02
- So it's just graphical for the pointing aspect.
-
-0:15:04	SPEAKER_02
- The infrared is like that's considered.
-
-0:15:07	SPEAKER_03
- No, I think it did do with the actual symbols that are on the...
-
-0:15:12	SPEAKER_03
-...that's on the buttons of the control and...
-
-0:15:15	SPEAKER_02
- Okay, so when it says pointing, that doesn't include...
-
-0:15:17	SPEAKER_03
- Well, it could be a school thing and something can come up from this.
-
-0:15:20	SPEAKER_03
- Yeah, I've learned something about LCD type things.
-
-0:15:23	SPEAKER_03
  Yeah.
 
-0:15:24	SPEAKER_03
+0:14:17	SPEAKER_01
+ You're pressing the numbers for what you want.
+
+0:14:20	SPEAKER_03
+ For the graphical user you must use some kind of presentation for the graphics.
+
+0:14:26	SPEAKER_00
+ I suppose on some buttons you would have the power would be some kind of symbol.
+
+0:14:34	SPEAKER_00
+ And if you wanted to go on to teletext or I know we're not having that.
+
+0:14:38	SPEAKER_00
+ But I mean the similar thing is they have this little picture of a screen with lines across it which I suppose it's that sort of thing like the symbol on the button.
+
+0:14:47	SPEAKER_00
+ But if we're having a simplified display anyway, that we would have to focus so much on that and be more than the numbers in the volume.
+
+0:14:56	SPEAKER_00
+ It would be more a command interface.
+
+0:14:58	SPEAKER_00
+ So it's a need to think of symbols for the volume to display.
+
+0:15:01	SPEAKER_02
+ Yeah.
+
+0:15:02	SPEAKER_02
+ So it's just graphical for the pointing aspect.
+
+0:15:05	SPEAKER_02
+ The infrared is like that's considered.
+
+0:15:08	SPEAKER_03
+ Hmm.
+
+0:15:09	SPEAKER_03
+ No, I think it did you with the actual symbols that are on the buttons that are in the control.
+
+0:15:15	SPEAKER_02
  Okay.
+
+0:15:16	SPEAKER_02
+ So when it says pointing, it invites that doesn't include.
+
+0:15:18	SPEAKER_03
+ Well, it could be a school or something and something could come up in the school.
+
+0:15:21	SPEAKER_01
+ Yeah.
+
+0:15:22	SPEAKER_03
+ I think they're talking about LCD type things.
+
+0:15:24	SPEAKER_03
+ Yeah.
 
 0:15:25	SPEAKER_03
  Yeah.
 
 0:15:26	SPEAKER_03
- But...
+ But um.
 
-0:15:28	SPEAKER_03
- I think we're gonna go with the command interface, anyway, to make it a little bit...
+0:15:27	SPEAKER_03
+ I think we're going to go with the command interface anyway.
+
+0:15:32	SPEAKER_03
+ Yeah.
 
 0:15:33	SPEAKER_03
-...but we could incorporate some of the graphical uses points...
-
-0:15:40	SPEAKER_03
-...just to make it nicer to look at, maybe...
+ But the, we could incorporate some of the graphical user points as in just to make it nicer to look at maybe.
 
 0:15:44	SPEAKER_03
  What do you mean?
 
 0:15:45	SPEAKER_03
- Like...
-
-0:15:46	SPEAKER_03
- I can't think of an example, but...
-
-0:15:49	SPEAKER_03
-...sort of like little petrushed baller than...
+ Like, I can't think of an example, but sort of like little pictures rather than.
 
 0:15:53	SPEAKER_03
- Oh yeah, like how the buttons...
+ Oh yeah.
 
-0:15:55	SPEAKER_03
-...instead of saying volume, like a little speaker...
+0:15:54	SPEAKER_03
+ Like how the buttons signed instead of same volume.
 
-0:15:57	SPEAKER_03
- Yeah, as a button, though.
+0:15:56	SPEAKER_03
+ Like a little speaker.
 
-0:15:59	SPEAKER_01
- So it's a keyboard in the shape of it, right?
-
-0:16:02	SPEAKER_01
+0:15:58	SPEAKER_03
  Yeah.
 
+0:15:59	SPEAKER_01
+ As a button though.
+
+0:16:00	SPEAKER_01
+ So it's a keyboard in the shape of it.
+
+0:16:02	SPEAKER_01
+ Right.
+
 0:16:03	SPEAKER_01
- Okay.
+ Yeah.
 
 0:16:04	SPEAKER_01
- Yeah, maybe.
+ Okay.
 
 0:16:05	SPEAKER_01
- Yeah, I like that.
+ Yeah.
 
 0:16:06	SPEAKER_03
- I do.
+ I like that.
 
 0:16:07	SPEAKER_03
- The...
+ Um.
 
 0:16:08	SPEAKER_03
-...with the set of the command interface, you see the most useful element of control...
+ The.
+
+0:16:09	SPEAKER_03
+ We've started with the command interface.
+
+0:16:11	SPEAKER_03
+ This is the most useful.
 
 0:16:12	SPEAKER_03
-...as it would be less complicated.
+ The little control.
 
-0:16:15	SPEAKER_03
- The control would be more than music, than like...
+0:16:13	SPEAKER_03
+ The less complicated.
+
+0:16:14	SPEAKER_03
+ And the controls is the more than user.
 
 0:16:19	SPEAKER_03
-...the normal control of the cheaper design...
+ The more.
 
-0:16:22	SPEAKER_03
-...that we'd have more money in the budget...
+0:16:20	SPEAKER_03
+ Um.
 
-0:16:25	SPEAKER_03
-...to target the design of the interface...
+0:16:21	SPEAKER_03
+ The little control is the cheaper than you think.
+
+0:16:23	SPEAKER_03
+ That would have more money in the budget to, um.
+
+0:16:27	SPEAKER_03
+ Target the design.
+
+0:16:28	SPEAKER_03
+ Yeah.
 
 0:16:29	SPEAKER_03
-...you would make it more trendy in the original...
+ To face.
+
+0:16:30	SPEAKER_03
+ Make it more trendy.
 
 0:16:31	SPEAKER_03
-...we would have more money if we keep it simple.
+ And then it's no longer.
+
+0:16:32	SPEAKER_03
+ Yeah.
 
 0:16:33	SPEAKER_01
- Yeah, I'm sure like, kinetic energy would probably dip into the budget...
+ I'm sure like kinetic energy would probably dip into the budget.
 
-0:16:37	SPEAKER_03
-...a bit more to it.
+0:16:37	SPEAKER_01
+ Yeah.
+
+0:16:38	SPEAKER_01
+ Yeah.
 
 0:16:39	SPEAKER_03
- Quite in the technology.
+ Yeah.
 
-0:16:45	SPEAKER_03
- We also have to keep in mind when we're designing our...
+0:16:40	SPEAKER_03
+ Quite a new technology.
 
-0:16:50	SPEAKER_03
-...more users and like...
+0:16:42	SPEAKER_03
+ Um.
 
-0:16:52	SPEAKER_03
-...we're working through a lot of interfaces, concepts of the clutter, buttons...
+0:16:43	SPEAKER_03
+ We.
 
-0:16:56	SPEAKER_03
-...that the functions, colors and forms aren't always helpful.
+0:16:46	SPEAKER_03
+ We also have to keep in mind when we're designing our.
 
-0:17:03	SPEAKER_00
- Yeah, that's true.
+0:16:49	SPEAKER_03
+ Um.
+
+0:16:53	SPEAKER_03
+ More users and like.
+
+0:16:54	SPEAKER_03
+ A lot of interfaces.
+
+0:16:55	SPEAKER_03
+ The clutter buttons that.
+
+0:16:59	SPEAKER_03
+ Um.
+
+0:17:00	SPEAKER_03
+ That the functions, colors and forms.
+
+0:17:02	SPEAKER_03
+ Aren't always helpful.
+
+0:17:03	SPEAKER_03
+ Yeah.
+
+0:17:04	SPEAKER_00
+ That's true.
 
 0:17:05	SPEAKER_00
  Yeah.
 
 0:17:06	SPEAKER_00
- The buttons are all the different colors for different choices...
+ The buttons is all the different colors for different choices.
 
 0:17:09	SPEAKER_00
-...and things can be a bit...
-
-0:17:11	SPEAKER_00
-...over and over.
-
-0:17:13	SPEAKER_03
- And that all interfaces are different.
-
-0:17:17	SPEAKER_03
- That doesn't improve the use of products, so we need to come up with something...
-
-0:17:23	SPEAKER_03
-...that's easy to understand...
-
-0:17:26	SPEAKER_03
-...and maybe learn from these stakes of all interfaces...
-
-0:17:30	SPEAKER_03
-...that can be too complicated for people to use.
-
-0:17:34	SPEAKER_01
  Yeah.
 
-0:17:36	SPEAKER_03
+0:17:10	SPEAKER_00
+ Things can be a bit.
+
+0:17:11	SPEAKER_00
+ Yeah.
+
+0:17:12	SPEAKER_00
+ And that.
+
+0:17:14	SPEAKER_03
+ All.
+
+0:17:15	SPEAKER_03
+ All interfaces are different.
+
+0:17:19	SPEAKER_03
+ Um, that doesn't improve the product.
+
+0:17:21	SPEAKER_03
+ So we need to come up with something that's easy to understand.
+
+0:17:26	SPEAKER_03
+ And maybe learn from these takes of all our interfaces that can be too complicated for people to use.
+
+0:17:34	None
+ Mm.
+
+0:17:35	SPEAKER_03
  Does anyone have any questions?
 
-0:17:41	SPEAKER_01
- Do you think that we should keep all the buttons to one same color...
+0:17:40	SPEAKER_01
+ Do you think that we should keep.
 
-0:17:45	SPEAKER_01
-...just to keep it a simplistic look?
+0:17:44	SPEAKER_01
+ All the buttons to one same color just to keep it give it a simplistic look.
 
 0:17:49	SPEAKER_02
- I think if we go with the design plate thing, we'll have to...
+ I think if we go with the design plate thing, we'll have to.
 
-0:17:53	SPEAKER_02
-...just because of color clashing and...
+0:17:54	SPEAKER_02
+ Just because of color clashing and.
 
-0:17:56	SPEAKER_02
-...if we wanted to.
+0:17:57	SPEAKER_01
+ Yeah.
 
 0:17:58	SPEAKER_02
- So we might...
+ If you want to.
 
 0:17:59	SPEAKER_02
-...depending on what comes out of the design, we might have to stick to just black buttons.
+ So I mean, depending on what comes out of the design, we might have to stick to just black buttons.
 
-0:18:03	SPEAKER_01
+0:18:04	SPEAKER_01
  But what about the lighting up effect?
 
-0:18:06	SPEAKER_02
- You mean different colors for the lighting, or...?
+0:18:07	SPEAKER_02
+ I mean different colors for the lighting or.
 
-0:18:09	SPEAKER_01
- Well, I thought we had decided that...
+0:18:10	SPEAKER_01
+ Um, well, um, I thought we had decided that we would.
 
-0:18:13	SPEAKER_01
-...if you touch one of the buttons, they'd all light up.
+0:18:15	SPEAKER_01
+ If you touch one of the buttons, they'd all light up.
 
-0:18:16	SPEAKER_01
+0:18:17	SPEAKER_01
  And so if they were black, it would be possible for them to light up.
 
-0:18:21	SPEAKER_02
+0:18:22	SPEAKER_02
  Oh, I see what you're saying.
 
-0:18:23	SPEAKER_01
- Well, if they were white, they would glow.
-
-0:18:25	SPEAKER_01
- Probably if they were made in rubber.
+0:18:24	SPEAKER_01
+ Well, if they were white, they would glow probably if they were made of rubber.
 
 0:18:27	SPEAKER_02
- Oh, so you were picturing the light coming from the back.
+ Oh, so you're picturing the light is coming from the back.
 
 0:18:29	SPEAKER_02
- I kind of pictured it as...
-
-0:18:31	SPEAKER_02
-...kind of coming from the sides and lighting it up frontwards.
+ I kind of pictured it as kind of coming from the sides and lighting it up frontwards.
 
 0:18:34	SPEAKER_02
- Oh, I like coming from the back.
+ Oh, oh, we're like coming from the back.
 
-0:18:37	SPEAKER_00
- I'd seen like an internal light.
+0:18:37	SPEAKER_02
+ Okay.
+
+0:18:38	SPEAKER_00
+ I'd seem like an internal light.
 
 0:18:41	SPEAKER_00
- Yeah, it comes through.
+ Okay.
+
+0:18:42	SPEAKER_00
+ Yeah.
 
 0:18:43	SPEAKER_00
- So there would have to be some parts, maybe transparent around the buttons.
+ That comes through.
 
-0:18:47	SPEAKER_01
- Right, but...
+0:18:44	SPEAKER_00
+ So there would have to have to be some parts, maybe transparent around.
+
+0:18:47	SPEAKER_00
+ Right.
+
+0:18:48	SPEAKER_00
+ But it's something.
 
 0:18:49	SPEAKER_01
-...it's a little bit more transparent.
+ A little rubber is a more translucent product too.
 
-0:18:51	SPEAKER_01
- And rubber is a more translucent product too, so it should be able to...
+0:18:52	SPEAKER_01
+ So it should be able to.
 
-0:18:54	SPEAKER_03
-...that taken care of.
+0:18:53	SPEAKER_01
+ Yeah.
 
-0:18:56	SPEAKER_03
- And the phone that I was thinking of, when you change the covers of it, the little buttons that actually...
+0:18:54	SPEAKER_01
+ Is that taken care of?
 
-0:19:03	SPEAKER_03
-...you know, that...
+0:18:55	SPEAKER_03
+ And the phone that I was thinking of as well, when you change the, um, covers of it, the, the, the little buttons that actually, you know, that.
 
 0:19:05	SPEAKER_03
-...are behind the rubber.
+ Yeah.
 
 0:19:08	SPEAKER_03
+ Are behind the rubber.
+
+0:19:09	SPEAKER_03
  So you can change the buttons when you're changing the faces.
 
-0:19:11	SPEAKER_03
- Oh, yeah, this is too short.
+0:19:13	SPEAKER_02
+ Oh, yeah.
 
 0:19:14	SPEAKER_03
- Yeah, okay.
+ Yeah.
+
+0:19:15	SPEAKER_03
+ Okay.
 
 0:19:16	SPEAKER_03
- Behind them.
+ I mean, I don't have to decide on one color.
 
-0:19:18	SPEAKER_03
- I mean, I don't have to say that one color of each face could have a color of that color.
+0:19:23	SPEAKER_03
+ Each face could have a.
 
-0:19:26	SPEAKER_01
- Well, if they're raised up buttons, so that you can feel them, we were talking about it being more...
+0:19:25	SPEAKER_01
+ Well, if they're raised up buttons.
+
+0:19:30	SPEAKER_01
+ Yeah.
+
+0:19:31	SPEAKER_01
+ So that you can feel them, we were talking about it being more.
 
 0:19:36	SPEAKER_01
-...a lot more tangible.
+ A lot more tangible.
 
 0:19:39	SPEAKER_01
  It might be more difficult to do.
 
 0:19:42	SPEAKER_01
- If they're sticking up, if it's flat, then...
-
-0:19:46	SPEAKER_01
-...like, I'm on a cell phone or a mobile phone.
-
-0:19:48	SPEAKER_01
- It's like all very flat, and you just have to sort of press down on these tiny little buttons.
-
-0:19:53	SPEAKER_01
  Yeah.
 
-0:19:57	SPEAKER_00
- I think it would be possible.
+0:19:43	SPEAKER_01
+ If they're sticking up, if it's flat, then like, I don't know, like a cell phone or a mobile phone.
 
-0:19:58	SPEAKER_00
- I don't think it would make that much difference.
+0:19:49	SPEAKER_01
+ It's like all very flat and you just have to sort of press down on these tiny little buttons.
+
+0:19:53	SPEAKER_01
+ But.
+
+0:19:54	SPEAKER_01
+ Yeah.
+
+0:19:55	SPEAKER_00
+ I think it would be possible. I don't think it would make that much difference.
 
 0:20:01	SPEAKER_00
- I mean, the dimensions of...
-
-0:20:04	SPEAKER_00
-...if it's just constructed in the same way as the front cover of the mobile phone, you can take off the hard cover, and then there's the buttons, and then you get to the circuit.
+ I mean, the dimensions of it, because if it's just like constructed in the same way as like the front cover of a mobile phone, you can take off the hard cover and then there's the, like, so the buttons and then you get to the circuit.
 
 0:20:15	SPEAKER_00
- I don't think it would matter that the buttons were bigger through the top casing.
+ I don't think it would matter that the buttons are bigger through the, the top casing.
 
-0:20:21	SPEAKER_00
- I'm sure you could work it out to fit in the casing without causing too much...
+0:20:22	SPEAKER_00
+ I'm sure you could work out to fit in the casing without causing too much.
 
-0:20:26	SPEAKER_00
-...to be fine.
+0:20:27	SPEAKER_00
+ It's fine.
 
-0:20:28	SPEAKER_01
+0:20:29	SPEAKER_01
  All right.
 
 0:20:30	SPEAKER_01
- If it's doable, you can...
+ If it's doable, you can.
 
-0:20:32	SPEAKER_01
-...that would be good to me.
+0:20:33	SPEAKER_01
+ Yeah.
 
-0:20:35	SPEAKER_01
+0:20:34	SPEAKER_01
+ That was good to me.
+
+0:20:35	None
+ Yeah.
+
+0:20:35	SPEAKER_03
+ That's everything.
+
+0:20:36	SPEAKER_03
+ Okay.
+
+0:20:37	SPEAKER_01
+ All right.
+
+0:20:38	SPEAKER_01
  Thank you.
 
-0:20:38	None
- Okay, is that my turn?
+0:20:39	None
+ Okay.
 
-0:20:41	SPEAKER_01
- Yes.
+0:20:40	None
+ Is that my turn?
 
-0:20:43	SPEAKER_02
- You're up.
+0:20:43	SPEAKER_01
+ That means you're out.
 
 0:20:45	SPEAKER_02
  All right.
 
-0:20:47	SPEAKER_02
+0:20:46	SPEAKER_02
  I have a shorter report for you today.
 
-0:20:52	SPEAKER_02
+0:20:51	SPEAKER_02
  It took a while to get this.
 
 0:20:56	SPEAKER_00
- I'm not plugged in yet.
+ You're not plugged in yet.
 
 0:21:04	SPEAKER_02
  Oh, that's a very good point.
 
-0:21:26	SPEAKER_02
- Okay, so this report is about trend-watching.
+0:21:27	SPEAKER_02
+ Okay.
 
-0:21:30	SPEAKER_02
- I'm basically...
+0:21:28	SPEAKER_02
+ Okay.
 
 0:21:34	SPEAKER_02
-...so I'm having a very fashionable remote control.
+ I'll go through some issues.
 
-0:21:39	SPEAKER_02
- So, just so you know, my method was mainly web-based research this time around.
-
-0:21:43	SPEAKER_02
- I also spoke with fashion experts in Milan, New York, and Paris.
-
-0:21:46	SPEAKER_02
- And I looked at the design reports from previous years here at Real Remote.
-
-0:21:51	SPEAKER_02
- We can work off with them and see how fashion's have changed.
-
-0:21:55	SPEAKER_02
- So I'll list the three most important aspects that I've come across.
-
-0:22:00	SPEAKER_02
- And they're each more important than the one that comes after it.
-
-0:22:03	SPEAKER_02
- The first one is that there should be a fancy look and feel.
-
-0:22:06	SPEAKER_02
- Instead of the current functional look and feel, this should be our priority, as we've been saying.
+0:21:50	SPEAKER_02
+ real remote. We can work off of them and see how the fashion has changed. I'll list the three most important aspects that I've come across. They're each more important than the one that comes after it. The first one is that there should be a fancy look and feel instead of the current functional look and feel. This should be our priority, as we've been saying.
 
 0:22:11	SPEAKER_02
- The second most important aspect is that the remote control should be technologically innovative.
-
-0:22:16	SPEAKER_02
- So I think we've done a lot of talking about that, just with lighting and the buttons and the face plates.
-
-0:22:22	SPEAKER_02
- So we'll be able to keep on track with that.
-
-0:22:25	SPEAKER_02
- And the third most important aspect is that their remote control should be easy to use.
-
-0:22:29	SPEAKER_02
- So I'm pretty basic there.
+ The second most important aspect is that the remote control should be technologically innovative. I think we've done a lot of talking about that, just with lighting and the buttons in the face plates. It looks like we'll be able to keep on track with that. The third most important aspect is that their remote control should be easy to use. Pretty basic there.
 
 0:22:31	SPEAKER_02
  The recent fashion update, according to fashion washers in Paris and Milan, is that fruit and vegetables will be the most important theme for clothes, shoes, and furniture.
 
 0:22:41	SPEAKER_02
- Also, in contrast to last year, the field of the material is expected to be spongy.
+ Also, in contrast to last year, the field and materials is expected to be spongy. Again, we've already discussed that with rubber versus hard plastic buttons. My personal preference is here. Of course, we've already talked about the personal face plates in this meeting, and I'd like to stick to that. The fruits and vegetable themes, I don't know if that's going to work for us. It sounds something that you do use on kitchenware. I don't know if we want to do it on our moats. It could be one of the options, maybe for the television that people have in their kitchen. The temporary light-up idea sounds like we're going to stick to that, and then tying in a trendy look with user-friendliness.
 
-0:22:45	SPEAKER_02
- Again, we've already discussed that with rubber versus hard plastic buttons.
-
-0:22:51	SPEAKER_02
- So my personal preference is here.
-
-0:22:54	SPEAKER_02
- Of course, we've already talked about the personal face plates in this meeting, and I'd like to stick to that.
-
-0:23:00	SPEAKER_02
- The fruits and vegetable themes, I don't know if that's going to work for us.
-
-0:23:03	SPEAKER_02
- It sounds something that you do is on kitchenware.
-
-0:23:05	SPEAKER_02
- I don't know if we want to do it on our modes.
-
-0:23:07	SPEAKER_02
- It could be one of the options, maybe for the television that people have in their kitchen.
-
-0:23:12	SPEAKER_02
- The temporary light-up idea, sounds like we're going to stick to that.
-
-0:23:16	SPEAKER_02
- And then tying in a trendy look with user-friendlyness.
-
-0:23:22	SPEAKER_01
- The fruits and vegetables is the only area that I find, rather jarring.
-
-0:23:29	SPEAKER_01
- Everything else we can really do, according to our plans, already given the market.
-
-0:23:36	SPEAKER_01
- But fruits and vegetables seem a very strange idea.
-
-0:23:39	SPEAKER_02
- It's a lot of love, but it's everywhere.
+0:23:23	SPEAKER_01
+ The fruits and vegetables is the only area that I find rather jarring. Everything else we can really do, according to our plans already, given the market. But fruits and vegetables seems a very strange idea for the world. It's everywhere.
 
 0:23:41	SPEAKER_02
- So maybe we've seen a lot of purses with olives on them.
+ I've seen a lot of persons with olives on them. I think we stick to TV-based TV shows. They still need to fit into
 
-0:23:46	SPEAKER_02
- But I think we stick to TV-based shows or holidays.
+0:23:54	SPEAKER_00
+ people's decor, though. I think we could possibly take a more abstract design, look at the basic shapes of different fruits and vegetables, and then just really strip it down to really basic shapes. We don't have to make something in the shape of a strawberry, but it could have the curves of a strawberry, or a strawberry seed, or a really make it quite abstract if that fits in more with what we're doing instead of fruits and vegetables. If you look at it straight forward, it's a bit... It doesn't fit in with the trendy... Well, obviously, it does, if that's the correct theme, but maybe we could go more directly. I don't know. But initially, I don't know. I think if we just sort of tone it down a bit.
 
-0:23:51	SPEAKER_01
- But they still need to fit into people's decor, though.
-
-0:23:55	SPEAKER_00
- I think we could possibly take a more abstract design, like look at the basic shapes of different fruits and vegetables, and then just really strip it down to really basic shapes.
-
-0:24:09	SPEAKER_00
- I mean, we don't have to make something in the shape of a strawberry, but it could have the curves of a strawberry, or a strawberry seed, or a leaf.
-
-0:24:19	SPEAKER_00
- Just like, you know, really make it quite abstract if that fits in more with what we're doing, instead of fruits and vegetables, just to be looking straight forward as a bit.
-
-0:24:30	SPEAKER_00
- Yeah, it doesn't quite fit in with the trendy.
-
-0:24:33	SPEAKER_00
- Well, obviously it does if that's the case, but maybe we could go more directly.
-
-0:24:38	SPEAKER_00
- I don't know, but initially, I think if we just sort of turn it down a bit.
-
-0:24:45	SPEAKER_00
- And like, no.
-
-0:24:47	SPEAKER_01
- And like, photo is not fruits.
-
-0:24:49	SPEAKER_01
- Yeah.
+0:24:46	SPEAKER_01
+ Not photos of fruits.
 
 0:24:50	SPEAKER_02
- One thing I was thinking, though, is I don't know if you'll remember from our kickoff meeting, we talked about our favorite animals.
+ One thing I was thinking, I don't know if you'll remember from our kickoff meeting, we talked about our favorite animals. So maybe they could be animal-based, you know, because a lot of people have a house cat or a dog. That might be getting too specific, and we should see what the success of the first faceplates are. But it doesn't like to keep in mind.
 
-0:24:55	SPEAKER_02
- So maybe there could be animal-based, you know, because a lot of people have a house cat or a dog.
-
-0:25:01	SPEAKER_02
- That might be getting, you know, too specific, and we should see what the success of the first face plates are.
-
-0:25:05	SPEAKER_02
- But it's something to keep in mind.
-
-0:25:08	SPEAKER_01
- Mm-hmm.
-
-0:25:09	SPEAKER_02
- And did you have any questions?
+0:25:10	SPEAKER_02
+ Did you have any questions?
 
 0:25:16	SPEAKER_02
- Pretty straight forward.
+ Pretty straightforward.
 
-0:25:19	SPEAKER_01
- Yeah.
-
-0:25:22	SPEAKER_01
+0:25:23	SPEAKER_01
  All right, given that information, we need to start making some more specific decisions.
 
 0:25:31	SPEAKER_01
  So I'll need to hook up the PowerPoint again.
 
-0:25:38	SPEAKER_01
- There you go.
-
 0:25:51	SPEAKER_02
  Have you guys been saving your PowerPoint presentations to the...
 
 0:25:54	SPEAKER_00
- I didn't, for the first one, but I have now.
-
-0:25:56	SPEAKER_00
- It's still around, right?
+ I didn't for the first one, but I have now. It's still around, right?
 
 0:25:58	SPEAKER_00
  Yeah.
 
-0:25:59	SPEAKER_00
- Where are you going?
-
-0:26:01	SPEAKER_00
- Project documents, I think.
-
-0:26:03	SPEAKER_03
- Okay.
-
-0:26:13	SPEAKER_01
+0:26:17	SPEAKER_01
  Okay.
 
 0:26:20	SPEAKER_01
- Let's just try to make this pop up now.
+ I'm just trying to make this pop up now.
 
-0:26:30	SPEAKER_01
- All right, here we go.
-
-0:26:33	SPEAKER_01
- Okay, so we have to decide now exactly what we are going to do.
-
-0:26:38	SPEAKER_01
- So energy, we owe.
+0:26:31	SPEAKER_01
+ All right, here we go. Okay, so we have to decide now exactly what we are going to do. So energy we owe.
 
 0:26:43	SPEAKER_01
  Oh no, I can't write it in when it's in this setting.
 
-0:26:46	SPEAKER_01
- So we don't know how to take it out of...
+0:26:47	SPEAKER_01
+ So I don't know how to take it out of...
 
-0:26:50	SPEAKER_01
- To the PowerPoint.
-
-0:26:52	SPEAKER_01
- Yeah.
+0:26:51	SPEAKER_01
+ The PowerPoint key, I think.
 
 0:26:55	SPEAKER_01
- Yeah.
-
-0:26:56	SPEAKER_01
- Okay.
-
-0:26:58	SPEAKER_01
- So back to decisions.
-
-0:26:59	SPEAKER_01
- Energy.
-
-0:27:00	SPEAKER_01
- We've decided on kinetic.
-
-0:27:02	SPEAKER_00
- Okay, so that's good.
+ Yeah, okay. So back to the decision. Energy, we've decided on kinetic range. Okay, so that's good.
 
 0:27:04	SPEAKER_00
  Are we going to have a backup?
 
-0:27:08	SPEAKER_01
- Mm-hmm.
-
-0:27:11	SPEAKER_00
- Or do we just...
+0:27:07	SPEAKER_00
+ Hmm. Or do we just...
 
 0:27:13	SPEAKER_01
- Back up really been necessary.
+ But would a backup really be necessary?
 
-0:27:17	SPEAKER_01
- I mean, will people just use the battery if there's no...
+0:27:18	SPEAKER_01
+ I mean, will people just use the battery if there's no?
 
 0:27:21	SPEAKER_00
- I think maybe we could just go for the kinetic energy and...
-
-0:27:28	SPEAKER_00
- Be bold and innovative and hope this works.
-
-0:27:32	SPEAKER_00
- Well, hope that it works.
+ I think maybe we could just go for the kinetic energy and be bold and innovative and hope this works and well, hope that it works.
 
 0:27:34	SPEAKER_00
- It's like no reason why it wouldn't work.
+ Yeah, there's no reason why it wouldn't work, right?
 
-0:27:36	SPEAKER_00
- So I think we should just take advantage of...
+0:27:37	SPEAKER_00
+ I think we should just take advantage of using this with full potential. It can even be one of our selling points.
 
-0:27:40	SPEAKER_00
- Like using this to its full potential.
+0:27:44	SPEAKER_01
+ It could be fully kinetic energy. Yeah, environmentally conscious.
 
-0:27:43	SPEAKER_00
- It could even be one of our selling points.
-
-0:27:46	SPEAKER_01
- It could be fully kinetic energy.
-
-0:27:49	SPEAKER_02
- Environmental touches.
-
-0:27:51	SPEAKER_02
- So if it's not working, they just have to shake it a bit.
-
-0:27:54	SPEAKER_01
- Yeah.
+0:27:48	SPEAKER_02
+ They're so just how important they just have to shake it a bit and that will be very light. Yeah, yeah.
 
 0:27:55	SPEAKER_01
- Yeah.
-
-0:27:56	SPEAKER_01
- Absolutely.
-
-0:27:57	SPEAKER_01
  All right, the next decision is chip on print.
 
 0:28:00	SPEAKER_00
- I don't exactly know what that means.
-
-0:28:03	SPEAKER_00
- It's whether we went for the simple, the regular, or the advanced chip and that linked in with what buttons we're going to have.
-
-0:28:09	SPEAKER_01
- You're going for more simplistic style, right?
+ I don't exactly know what that means. It's whether we went for the simple, the regular O of the advanced chip and that linked in with what buttons we were going to have. Right, and we were going for more simplistic style, right?
 
 0:28:11	SPEAKER_00
- Yeah.
-
-0:28:12	SPEAKER_00
- But that was without the LCD.
-
-0:28:14	SPEAKER_00
- So that means we're not doing the advanced.
-
-0:28:16	SPEAKER_00
- So it depends on whether we wanted the scroll buttons or just the push buttons.
-
-0:28:20	SPEAKER_01
- I think we decided on the push buttons, right?
+ Yeah, but that was without the LCD, so that means we are not doing the advanced. So it depends on whether we wanted the scroll buttons or just the push buttons. I think we decided on the push buttons, right?
 
 0:28:23	SPEAKER_01
- So that's the simple...
+ So that's the simple... Would we need a more advanced one for the lighting, the interior lighting system? Yeah, possibly. So it's probably going to
 
-0:28:24	SPEAKER_01
- Yeah.
+0:28:31	SPEAKER_00
+ be the regular chip that we're going to need. So it's a medium. So regular chip. That's called medium or regular? Regular, sorry.
 
-0:28:25	SPEAKER_01
- Would we need a more advanced one for the lighting, the interior lighting system?
+0:28:38	SPEAKER_00
+ Okay. Regular chip. Oh, it was regular not simple?
 
-0:28:29	SPEAKER_00
- Yeah, possibly.
+0:28:43	SPEAKER_00
+ Yeah, I think. Yeah, if we... Because of the lighting that we've decided to
 
-0:28:30	SPEAKER_00
- So it's probably going to be the regular chip that we're going to need.
+0:28:46	SPEAKER_01
+ put in as well. Okay, and cases. So is this dependent on shape or what
 
-0:28:33	SPEAKER_00
- So it's a medium.
-
-0:28:35	SPEAKER_00
- So regular chip.
-
-0:28:36	SPEAKER_00
- That's called a medium or regular?
-
-0:28:37	SPEAKER_00
- Sorry.
-
-0:28:39	SPEAKER_00
- Okay.
-
-0:28:40	SPEAKER_02
- Oh, it's regular, not simple.
-
-0:28:42	SPEAKER_02
- Yeah.
-
-0:28:43	SPEAKER_02
- I didn't.
-
-0:28:44	SPEAKER_00
- Yeah, if we...
-
-0:28:45	SPEAKER_00
- Because of the lighting that we've decided to put in the software.
-
-0:28:48	SPEAKER_01
- Okay, and cases.
-
-0:28:50	SPEAKER_01
- So is this dependent on shape or what it's made of or what?
-
-0:28:55	SPEAKER_00
- I think this is just going to be a very outside case, which we both decided on rubber?
-
-0:29:00	SPEAKER_00
- Yeah.
-
-0:29:01	SPEAKER_01
- Yeah.
+0:28:53	SPEAKER_00
+ it's made of or what? I think this is just going to be a very outside case which we both decided on rubber.
 
 0:29:02	SPEAKER_01
- Well, I guess plastic and rubber.
-
-0:29:04	SPEAKER_01
- Coated and rubber.
+ Yeah, well I guess plastic and rubber. Coated in rubber.
 
 0:29:05	SPEAKER_01
- Plastic rubber.
+ Plastic with rubber coating and inter-changeable.
 
-0:29:07	SPEAKER_01
- With rubber.
-
-0:29:09	SPEAKER_01
- Coating and inter changeable.
-
-0:29:13	SPEAKER_00
- Intertangible, yeah.
-
-0:29:15	SPEAKER_00
- Still going for that.
-
-0:29:16	SPEAKER_00
- Yeah.
-
-0:29:17	SPEAKER_01
- Intertangible, please.
+0:29:14	SPEAKER_00
+ Inter-changeable, yeah, still going for that.
 
 0:29:18	SPEAKER_01
- Okay.
+ Yeah, inter-changeable, please.
 
-0:29:24	SPEAKER_01
- User interface concept.
-
-0:29:27	SPEAKER_01
- So is your time to shine?
+0:29:21	SPEAKER_01
+ User interface concept. This is your time to shine.
 
 0:29:29	SPEAKER_03
- We decided on the component.
-
-0:29:32	SPEAKER_03
- I'm sorry, I lost my own part.
-
-0:29:35	SPEAKER_03
- You're squint.
+ We decided on the component. I'm sorry, I've lost my um...
 
 0:29:36	SPEAKER_03
- It's called command interface.
+ Part one thing.
 
-0:29:38	SPEAKER_03
- Oh, yeah, yeah.
+0:29:37	SPEAKER_03
+ So what happened? I think it was called command interface.
 
-0:29:39	SPEAKER_03
- The command interface.
+0:29:40	SPEAKER_01
+ Oh yeah, yeah. Command interface. Command interface.
 
-0:29:41	SPEAKER_01
- The command interface.
+0:29:45	SPEAKER_03
+ Command line interface here. Does it command line? Yeah.
 
-0:29:42	SPEAKER_03
- The command line interface here.
-
-0:29:46	SPEAKER_01
- The command line?
-
-0:29:48	SPEAKER_01
- Yeah.
-
-0:29:49	None
- Okay.
-
-0:29:51	SPEAKER_01
- Line interface.
-
-0:29:55	SPEAKER_01
- All right.
+0:29:49	SPEAKER_01
+ Okay. Line interface.
 
 0:29:56	SPEAKER_01
- And supplements.
-
-0:29:58	SPEAKER_01
- What's that all about?
+ All right, and supplements. What's that all about?
 
 0:30:00	SPEAKER_03
- I think that is, well, we haven't really made any decisions about what we're going to do about the cluster of buttons, functions, colors, and forms, and consistent use.
+ Um, I think that is... Well, we haven't really made any decisions about what we're going to do, like the cluster of button functions, collage and forms, and that and consistent use. Like what are our ideas to combat these problems?
 
-0:30:13	SPEAKER_03
- Like, what are our ideas?
+0:30:19	SPEAKER_03
+ Different interfaces are very different and can be confusing because the causes are different and the cause um, the different cluster chip buttons that they have.
 
-0:30:15	SPEAKER_03
- You come back these problems.
+0:30:31	SPEAKER_03
+ We haven't really decided what to do like that.
 
-0:30:17	SPEAKER_03
- Different interfaces are very different and can be confusing because of the difference and the cause.
+0:30:36	SPEAKER_01
+ Um, what are our choices here? Well, it's just um,
 
-0:30:26	SPEAKER_03
- The different cluster of buttons that we have.
+0:30:44	SPEAKER_03
+ where, where shall we locate the buttons? What kind of functions will it shall we have? We like will have the numbers of the
 
-0:30:30	SPEAKER_03
- We haven't really decided what to do about that.
+0:30:52	SPEAKER_01
+ channels and we'll have power, a channel changer, and volume, and power. So, just basic. Yeah, like I don't know if we should go into like adjusting light levels, things like that, because
 
-0:30:35	SPEAKER_01
- What are our choices here?
-
-0:30:38	SPEAKER_03
- Well, it's just where shall we locate the buttons?
-
-0:30:46	SPEAKER_03
- What kind of functions will it show we have?
-
-0:30:50	SPEAKER_01
- We'll have the numbers of the channels and we'll have power.
-
-0:30:53	SPEAKER_01
- The channel changer and volume and power.
-
-0:30:57	SPEAKER_03
- So, just basic?
-
-0:31:00	SPEAKER_03
- Yeah.
-
-0:31:01	SPEAKER_01
- I don't know if we should go into adjusting light levels, things like that because different televisions will have.
-
-0:31:08	SPEAKER_00
- Yeah, tone, contrast, and things.
+0:31:07	SPEAKER_00
+ different televisions will have. Yeah, tone, contrast, and things
 
 0:31:10	SPEAKER_02
- That was on one of my presentations about how often it was used.
+ that's a bit... That was on um, one of my presentations about how often it was used. Do you remember that? Yeah, it was minimal.
 
-0:31:16	SPEAKER_02
- Do you remember that?
+0:31:19	SPEAKER_02
+ Well, it wasn't that I was hardly ever used. Should I bring it up?
 
-0:31:17	SPEAKER_02
- Yeah, it was minimal.
+0:31:23	SPEAKER_00
+ Yeah, yeah. I was told, visions will come with a remote. Yeah, and surely that would be like quite specific to the individual television.
 
-0:31:18	SPEAKER_01
- Well, it wasn't that I was hardly ever used.
+0:31:34	SPEAKER_01
+ Okay, well we know we want numbers. The screen settings was used
 
-0:31:20	SPEAKER_02
- Should I bring it up?
-
-0:31:23	SPEAKER_01
- Yeah.
-
-0:31:24	SPEAKER_00
- It was told that this will come with a remote.
-
-0:31:26	SPEAKER_00
- Yeah, and surely that would be quite specific to the individual television.
-
-0:31:33	SPEAKER_01
- Okay, well, we know we want numbers.
-
-0:31:38	SPEAKER_02
- Screen settings was used 0.5 times an hour.
-
-0:31:42	SPEAKER_02
- So, once every two hours.
-
-0:31:45	SPEAKER_02
- And it was considered a 1.5 relevance on scale of 10.
+0:31:40	SPEAKER_02
+ 0.5 times an hour. So twice every once every two hours. Um, and it was considered a 1.5 relevance on the scale of 10.
 
 0:31:48	SPEAKER_02
- And it was a brightness color.
+ That's brightness color tone and all that.
 
-0:31:51	SPEAKER_00
- I think most of that comes on the individual television itself, isn't it?
+0:31:53	SPEAKER_00
+ I think most of that comes like on the individual television set itself, isn't that? I'm sure it has its own buttons, so it don't necessarily need to have it on remote. Yeah, and different televisions, like we, I don't
 
-0:31:57	SPEAKER_00
- I'm sure it has its own buttons.
+0:32:04	SPEAKER_01
+ know if we can make a remote that will be universal to all the different kinds of
 
-0:31:59	SPEAKER_00
- So, don't necessarily need to have it on remote.
-
-0:32:03	SPEAKER_01
- And different televisions, I don't know if we can make a remote that will be universal to all the different kinds of things.
-
-0:32:08	SPEAKER_00
- So, we're just going for power channels volume.
+0:32:07	SPEAKER_00
+ Yeah, so we're just going for power, channels, volume.
 
 0:32:14	SPEAKER_02
- The other one was audio settings, mono stereo pitch.
+ The other one was audio settings, mono stereo pitch. I mean, I sometimes use that. Some TVs will have the option of like living room style, movie style.
 
-0:32:18	SPEAKER_02
- I mean, I sometimes use that.
-
-0:32:19	SPEAKER_02
- Some TVs will have the option of living room style, movie style.
-
-0:32:23	SPEAKER_02
- And they said that's used 0.8 times an hour, which is actually somewhat high.
-
-0:32:28	SPEAKER_02
- Almost once an hour.
+0:32:22	SPEAKER_02
+ Yeah. And that they said that's used 0.8 times an hour, which is actually somewhat high, like almost once an hour.
 
 0:32:30	SPEAKER_02
- Yeah.
-
-0:32:31	SPEAKER_02
- Relovance of two.
+ Yeah, um, relevance of two.
 
 0:32:35	SPEAKER_01
  Oh, we have five minutes to finish our media.
 
 0:32:38	SPEAKER_01
- Correct.
+ All right, yeah. Okay, um, let's do this fast.
 
-0:32:39	SPEAKER_01
- Okay.
+0:32:42	SPEAKER_01
+ Um, well that didn't come up on mind. Should we have audio?
 
-0:32:40	SPEAKER_01
- Let's just get this first.
+0:32:46	SPEAKER_03
+ It only comes up on mind usually.
 
-0:32:41	SPEAKER_01
- Well, that didn't come up on my name.
-
-0:32:43	SPEAKER_01
- Have we have audio?
-
-0:32:45	SPEAKER_01
- It only comes up on my name usually.
-
-0:32:47	SPEAKER_03
- It would seem so if we could burn carbonating else, just have an audio button.
-
-0:32:54	SPEAKER_01
- Yeah, I don't...
-
-0:32:56	SPEAKER_01
- It's a problem with the international appeal.
+0:32:49	SPEAKER_01
+ Yeah, I don't, it's a problem with the international appeal.
 
 0:32:59	SPEAKER_01
- I think if we have audio because we don't know how other televisions work.
-
-0:33:04	SPEAKER_01
- But we know that everyone has this and it's the same.
+ I think if we have audio because we don't know how other televisions work, but we know that everyone has this and it's the same.
 
 0:33:08	SPEAKER_02
- I guess it affects the marketing.
+ Yeah, I guess it affects the marketing because it, it is a good sales point to say, aren't you annoyed with the remote controls that have all these buttons?
 
-0:33:10	SPEAKER_02
- It is a good sales point.
-
-0:33:13	SPEAKER_02
- Aren't you annoyed with the wrong controls and have all these buttons?
-
-0:33:16	SPEAKER_00
- Yeah.
-
-0:33:17	SPEAKER_00
- This one has channel volume.
-
-0:33:18	SPEAKER_00
- Yeah, that's it.
-
-0:33:19	SPEAKER_00
- We can just go for it.
-
-0:33:20	SPEAKER_01
- Make it a setting point that is just the base.
+0:33:14	SPEAKER_00
+ Yeah, yeah, that's it. And you can just go for it, make it a selling point that is just the basic. Yeah. All right.
 
 0:33:23	SPEAKER_01
- Yeah.
+ All right. Good. And okay, in closing, because we'll be at five minutes, we'll be meeting again in 30 minutes.
 
-0:33:24	SPEAKER_01
- Okay.
+0:33:31	SPEAKER_01
+ Um, you'll be working, probably we'll be working on the look and feel design.
 
-0:33:25	SPEAKER_01
- Brilliant.
+0:33:37	SPEAKER_01
+ Wait a minute, is that right? Yep. And, um, the user interface design, so this is where the trendy stuff comes in and you'll be evaluating the product.
 
-0:33:26	SPEAKER_01
- Good.
+0:33:48	SPEAKER_01
+ Um, Poppy and Tara will have to work together, zoom modeling clay, and um, your personal coach will give you the best of the information of what needs to happen. Okay. All right. So,
 
-0:33:27	SPEAKER_01
- And, okay, in closing, because we only have five minutes.
-
-0:33:30	SPEAKER_01
- We'll be meeting again in 30 minutes.
-
-0:33:33	SPEAKER_01
- You'll be working...
-
-0:33:35	SPEAKER_01
- Probably we'll be working on the look and feel design.
-
-0:33:38	SPEAKER_01
- Wait a minute.
-
-0:33:39	SPEAKER_01
- Yeah.
-
-0:33:40	SPEAKER_01
- And the user interface design, so this is where the trendy stuff comes in.
-
-0:33:44	SPEAKER_01
- And you'll be evaluating the product.
-
-0:33:49	SPEAKER_01
- Poppy and Tara will have to work together, see modeling clay.
-
-0:33:54	SPEAKER_01
- And your personal coach will give you the rest of the information about the staff.
-
-0:33:59	SPEAKER_01
- Okay.
-
-0:34:00	SPEAKER_01
- Alright, so anyone else has something to say?
-
-0:34:03	SPEAKER_00
- I just have one question about the whole fruit and vegetable aspect.
-
-0:34:08	SPEAKER_00
- Are we seeing as that was the most popular thing that came up out of your market research?
-
-0:34:14	SPEAKER_00
- I think we should keep to that rather than moving to animals or something, because...
-
-0:34:18	SPEAKER_00
- Yeah.
-
-0:34:19	SPEAKER_00
- Yeah.
-
-0:34:20	SPEAKER_00
- Even if that may not seem obvious to us, if that's what the surveys brought out, I think we should probably go along with that.
-
-0:34:25	SPEAKER_00
- Yeah.
-
-0:34:26	SPEAKER_00
- So I suppose that I'll come out in our design development, but happy to go ahead with the fruit.
+0:34:02	SPEAKER_00
+ anyone else have something to say? Um, I just have one question about the whole fruit and vegetable aspect. Yeah. Are we seeing as that was the most popular thing that came up out of your market research? I think we should keep to that rather than moving to animals or something, because yeah, yeah. Even if that may not seem obvious to us, if that's what the surveys brought out, I think we should probably go along with that. Yeah. Um, so I suppose that I'll come out in our design development, but happy to go
 
 0:34:32	SPEAKER_02
- Now, do you guys need one idea of how many...
-
-0:34:35	SPEAKER_02
- Are you going to come up with casing ideas?
-
-0:34:37	SPEAKER_02
- I'm different.
-
-0:34:38	SPEAKER_01
- Yeah.
+ ahead with the fruit. No, do you guys need one idea of how many, uh, are you gonna come over casing ideas? Yeah.
 
 0:34:39	SPEAKER_03
- We're not five.
+ We're not five. What are you thinking? What do you think of this? Um, having the numbers kind of like, not a bunch of grapes, but you know, like purple and kind of in a triangle. Mm hmm. Like grape. Yeah, you can have some fun with the buttons. It's
 
-0:34:40	SPEAKER_03
- What do you think of this?
+0:34:54	SPEAKER_02
+ true. Yeah. We can have a nice idea. Yeah. I guess ideally you kind of think of age markets as well. So, yeah. Something that will, you know, appeal to the 15 to 25 year olds, something that your granny would want on her remote control. Yeah. Yeah. And international taste as well.
 
-0:34:43	SPEAKER_03
- Having the numbers, kind of like not a bunch of grapes, but you know, like purple and kind of in a triangle.
-
-0:34:50	SPEAKER_03
- Like grape?
-
-0:34:51	SPEAKER_02
- Yeah, you can have some fun with the buttons.
-
-0:34:53	SPEAKER_02
- It's true.
-
-0:34:54	SPEAKER_00
- We can have an affinity.
-
-0:34:57	SPEAKER_02
- I guess ideally you'd kind of think of age markets as well, so it's something that will appeal to the 15 to 25 year olds.
-
-0:35:04	SPEAKER_02
- It's something that your granny would want on her remote control.
-
-0:35:07	SPEAKER_02
- Yeah.
-
-0:35:08	SPEAKER_02
- Yeah.
-
-0:35:09	SPEAKER_02
- An international taste as well.
-
-0:35:10	SPEAKER_00
- A lot of things to consider.
-
-0:35:13	SPEAKER_00
- Lots of...
-
-0:35:14	SPEAKER_00
- Yeah.
-
-0:35:15	None
- Alright.
-
-0:35:16	SPEAKER_01
- Okay.
-
-0:35:17	SPEAKER_01
- Yeah, we'll stick to the veggie theme then.
-
-0:35:21	SPEAKER_01
- Alright.
-
-0:35:22	SPEAKER_01
- And we'll reconvene in 30 minutes.
-
-0:35:25	SPEAKER_01
- Okay.
+0:35:13	SPEAKER_01
+ A lot of things to consider. Lots of, all right. Okay. Yeah, we'll stick to the fruit veggie theme. All right. And, um, we'll reconvene in 30 minutes. Okay.
 
 0:35:26	SPEAKER_01
- Thank you.
+ Thank you. I'll see you later.
 
-0:35:27	SPEAKER_01
- I'll see you later.
-
-0:35:29	SPEAKER_01
- Oh, what do I just do?
-
-0:35:33	SPEAKER_01
- Thank you.
+0:35:31	SPEAKER_01
+ Oh, what I just did.
 

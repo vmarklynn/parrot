@@ -1,0 +1,2166 @@
+0:00:30	SPEAKER_03
+ Okay, so should I start?
+
+0:00:49	SPEAKER_00
+ Yeah.
+
+0:00:50	SPEAKER_00
+ Okay.
+
+0:00:51	SPEAKER_00
+ So I think it's better to first have a presentation of my work and then we can discuss with this crash in temp in temp what we can do for my future to continue my research because apparently I will have serious problems.
+
+0:01:10	SPEAKER_00
+ So we'll start with the presentation of my work.
+
+0:01:14	SPEAKER_04
+ You can be sitting here, let's open, do the presentation.
+
+0:01:18	SPEAKER_00
+ Okay, I will start.
+
+0:01:21	SPEAKER_00
+ Okay, so my work is generally about using posterior in speech recognition systems and somehow enhancing the estimation of posterior getting new posterior which are more informative by somehow integrating some extra knowledge like prior knowledge and contextual information related to the problem.
+
+0:01:48	SPEAKER_00
+ And then use this posterior estimation method for designing hierarchical speech recognition systems.
+
+0:01:56	SPEAKER_00
+ So in this hierarchical architecture I will be able to integrate extra knowledge at the proper level of hierarchy and I will be also able to combine different kind of knowledge or sources of knowledge I have.
+
+0:02:16	SPEAKER_00
+ Well, as you know, generally, posteriors are estimated using neural networks and more specifically MLPs in a speech recognition system.
+
+0:02:27	SPEAKER_00
+ So time limited window of speech signal is represented by some capsule features which are then processed by an MLP and it gives us some evidence in the form of phone posteriors.
+
+0:02:41	SPEAKER_00
+ When we use this phone posteriors as features or as scores for either just decoding or training and inference training and decoding.
+
+0:02:57	SPEAKER_00
+ But we know that in this case we are not able to integrate contextual information, long contextual information and we are not able to integrate the prior knowledge we can have about phone use or about words in the posteriors estimation.
+
+0:03:16	SPEAKER_00
+ So the main motivation is to see if we can integrate this kind of extra knowledge in the posteriors estimation.
+
+0:03:25	SPEAKER_00
+ So what is proposed to solve this problem is to use what we formally use in HMM formally which is called gamma state posterior as a posterior for training or decoding.
+
+0:03:41	SPEAKER_00
+ So as you know, it is a state posterior probability in HMM which is defined as the probability of being in a specific HMM state at a specific time having the whole observation sequence and the model.
+
+0:03:56	SPEAKER_00
+ So whole observation sequence means having complete contextual information and the model can encode some kind of prior knowledge for us by means of topological constraints.
+
+0:04:11	SPEAKER_00
+ Well you know this gamma posterior is written in terms of forward and backward HMM recursions and actually one way to use this gamma posterior is using this posterior as some kind of new scores for decoding.
+
+0:04:30	SPEAKER_00
+ So in this case it will be similar to hybrid method.
+
+0:04:36	SPEAKER_00
+ The difference is that we do one more step.
+
+0:04:40	SPEAKER_00
+ Maybe I can explain it better there.
+
+0:04:43	SPEAKER_00
+ So we do one more step here and we here by means of another HMM we introduce some kind of prior knowledge and contextual information.
+
+0:04:53	SPEAKER_00
+ We get better evidences than what we initially had here and then we do the decoding and more informative posterior instead of this one.
+
+0:05:08	SPEAKER_00
+ So we are expecting the system to perform better and more robust to noisy cases.
+
+0:05:15	SPEAKER_00
+ Here you see some results and how what is the effect of introducing reasonable prior knowledge.
+
+0:05:26	SPEAKER_00
+ So different rows in this table are showing different level of noise and also clean speech and different columns are showing different kind of posterior or gamma posterior.
+
+0:05:38	SPEAKER_00
+ So the first column is showing our baseline system which is getting estimated of posterior out of MLP and then using these posterior for decoding and the other columns are showing the performance of different kind of gamma.
+
+0:05:57	SPEAKER_00
+ So gamma which is estimated using information about minimum duration of phonemes about possible transition between phonemes and some more prior knowledge like which word is composed of which phonemes and grammatical knowledge about transition between words and things like this.
+
+0:06:24	SPEAKER_00
+ So as you see introducing more reasonable prior knowledge will help to have better performance in almost all the cases.
+
+0:06:37	SPEAKER_00
+ And here I compare the performance of the gamma based system with the standard HMM-GMM system which is based on doing decoding using likelihoods at the scores and the difference is that our system is using posterior for decoding.
+
+0:06:58	SPEAKER_00
+ So as you see it's working better than the standard HMM-GMM system.
+
+0:07:04	SPEAKER_00
+ And finally the conclusion is here we saw how we can get some more informative posterior by introducing extra knowledge like prior and contextual information and then using this posterior estimation method to design hierarchical speech recognition system which the goal is to have better, more efficient and more robust system.
+
+0:07:34	SPEAKER_00
+ So if you want now we can discuss about the crash and the loss of data.
+
+0:07:41	SPEAKER_00
+ So well I lost all the posteriors.
+
+0:07:46	SPEAKER_00
+ I was, I used as input for my system.
+
+0:07:51	SPEAKER_00
+ So the gamma are somehow estimated or computed on top of posteriors.
+
+0:07:57	SPEAKER_00
+ Now I don't have any posterior and probably the script generating that posterior.
+
+0:08:03	SPEAKER_00
+ So what I can do.
+
+0:08:07	SPEAKER_03
+ You go to the table you have there like the big table with all that then we can discuss.
+
+0:08:14	SPEAKER_03
+ So which I think I have all the gamma, especially gamma full models I have.
+
+0:08:20	SPEAKER_00
+ Gamma full model but what about other ones and what about the posteriors?
+
+0:08:25	SPEAKER_00
+ The posteriors because I cannot stop my research.
+
+0:08:29	SPEAKER_00
+ I may do something else in future with this and well I need posteriors.
+
+0:08:35	SPEAKER_04
+ Now you need the different methods from how from gamma you can tell.
+
+0:08:39	SPEAKER_03
+ Posteriors.
+
+0:08:40	SPEAKER_03
+ Even you have those three state performance gamma.
+
+0:08:44	SPEAKER_03
+ You have all these.
+
+0:08:45	SPEAKER_00
+ No, no I don't have them.
+
+0:08:48	SPEAKER_00
+ They are all under 10.
+
+0:08:50	SPEAKER_00
+ We have that because you have stored them.
+
+0:08:54	SPEAKER_00
+ You know you can write another paper if you can.
+
+0:08:58	SPEAKER_00
+ Maybe some other PhD students should be hired to work on gamma.
+
+0:09:04	SPEAKER_00
+ Gamma is supposed to be generating gamma.
+
+0:09:08	SPEAKER_04
+ I was just, let's talk a little about this presentation itself.
+
+0:09:12	SPEAKER_04
+ The slide number 6.
+
+0:09:19	SPEAKER_04
+ How you feel it is important that you are taking the context of the whole utterance.
+
+0:09:24	SPEAKER_04
+ How important it could be.
+
+0:09:25	SPEAKER_04
+ Is it not a possibility that you are having less context?
+
+0:09:30	SPEAKER_04
+ Less context.
+
+0:09:31	SPEAKER_04
+ We mean.
+
+0:09:32	SPEAKER_04
+ Instead of having context from one to capital T which is for the whole utterance.
+
+0:09:35	SPEAKER_04
+ Which doesn't make much sense.
+
+0:09:37	SPEAKER_04
+ Yes.
+
+0:09:38	SPEAKER_04
+ In general.
+
+0:09:39	SPEAKER_04
+ So what is the possibility that you can cut the context?
+
+0:09:42	SPEAKER_04
+ Instead of having a context from.
+
+0:09:44	SPEAKER_00
+ You mean a smaller context instead of this.
+
+0:09:46	SPEAKER_04
+ It might be left to write everything there but not the whole context.
+
+0:09:51	SPEAKER_04
+ Because it's a fact that when you are having one utterance.
+
+0:09:54	SPEAKER_04
+ So one utterance is like a full sentence or something and there might not be much breaks in it.
+
+0:09:59	SPEAKER_04
+ So in that sense it doesn't make sense that you are going too much in the past and then you are trying to cut something which is not related.
+
+0:10:06	SPEAKER_00
+ Well, even they can have some information which are not so meaningful or which are not related.
+
+0:10:14	SPEAKER_00
+ Well, but then I will have the problem to find the optimum amount of context.
+
+0:10:21	SPEAKER_00
+ How much context should I take?
+
+0:10:24	SPEAKER_04
+ Kind of.
+
+0:10:25	SPEAKER_04
+ Two hundred.
+
+0:10:26	SPEAKER_04
+ That's a Phoenix idea is usually 100 milliseconds.
+
+0:10:27	SPEAKER_03
+ Two hundred milliseconds.
+
+0:10:28	SPEAKER_04
+ One second.
+
+0:10:29	SPEAKER_03
+ So but for numbers I think it may be okay.
+
+0:10:32	SPEAKER_03
+ Numbers hardly.
+
+0:10:33	SPEAKER_03
+ Yeah.
+
+0:10:34	SPEAKER_03
+ Numbers it might be okay because most of the sentences might be three seconds or something.
+
+0:10:38	SPEAKER_03
+ Even less than that.
+
+0:10:39	SPEAKER_03
+ Yeah.
+
+0:10:40	SPEAKER_03
+ Just few words.
+
+0:10:41	SPEAKER_03
+ Yeah.
+
+0:10:42	SPEAKER_03
+ It is or something like if it is really long sentence of ten seconds or something you may not really need.
+
+0:10:47	SPEAKER_04
+ So that's that much of context to computer governments.
+
+0:10:50	SPEAKER_03
+ And it's really computationally very intensive also like if you.
+
+0:10:55	SPEAKER_00
+ Okay.
+
+0:10:56	SPEAKER_00
+ Yeah.
+
+0:10:57	SPEAKER_00
+ That's a good idea.
+
+0:10:58	None
+ That's reasonable.
+
+0:10:59	SPEAKER_04
+ Okay.
+
+0:11:00	SPEAKER_04
+ So when we are talking about them then my stories are the worst I think.
+
+0:11:06	SPEAKER_03
+ So because yeah, all the post videos are from you only.
+
+0:11:10	SPEAKER_04
+ I cannot generate post videos.
+
+0:11:11	SPEAKER_04
+ Yeah.
+
+0:11:12	SPEAKER_04
+ And so there is.
+
+0:11:13	SPEAKER_00
+ And you don't have a script for.
+
+0:11:16	SPEAKER_00
+ I don't have the C files also.
+
+0:11:18	SPEAKER_00
+ Oh, okay.
+
+0:11:19	SPEAKER_00
+ You don't you have just your thesis.
+
+0:11:20	SPEAKER_00
+ Yeah.
+
+0:11:21	SPEAKER_00
+ No.
+
+0:11:22	SPEAKER_00
+ God has stopped my my work.
+
+0:11:24	SPEAKER_00
+ He has said that enough is enough.
+
+0:11:26	SPEAKER_00
+ And what could happen if you don't even have your thesis?
+
+0:11:30	SPEAKER_00
+ Yeah.
+
+0:11:31	SPEAKER_04
+ Then I would have taken two years extension.
+
+0:11:34	SPEAKER_04
+ Oh, you know.
+
+0:11:35	SPEAKER_04
+ Yeah.
+
+0:11:37	SPEAKER_04
+ It was it was pretty scary.
+
+0:11:40	SPEAKER_04
+ And let's see what happens.
+
+0:11:43	SPEAKER_03
+ But for your case, you don't need really complicated post.
+
+0:11:47	SPEAKER_03
+ You just need some PLPs and then.
+
+0:11:50	SPEAKER_02
+ Yeah, you can then read and read it.
+
+0:11:52	SPEAKER_02
+ No, because it's more did it on what?
+
+0:11:55	SPEAKER_02
+ Um, and one of couple of.
+
+0:11:57	SPEAKER_00
+ On C experiments, right?
+
+0:11:59	SPEAKER_00
+ Yeah.
+
+0:12:00	SPEAKER_00
+ For CTS Peter still I think has both there.
+
+0:12:03	SPEAKER_00
+ He didn't lose anything.
+
+0:12:05	SPEAKER_03
+ No, but he's he may be linking to Matthew.
+
+0:12:08	SPEAKER_03
+ I guess because Matthew got the way.
+
+0:12:09	SPEAKER_02
+ Probably might.
+
+0:12:12	SPEAKER_03
+ But you got the all the way file.
+
+0:12:13	SPEAKER_02
+ So yeah, but the way file is the same, the temple.
+
+0:12:16	SPEAKER_02
+ Right.
+
+0:12:17	SPEAKER_02
+ So that's what I'm saying.
+
+0:12:18	SPEAKER_02
+ That I can recover it back from.
+
+0:12:20	SPEAKER_02
+ Yeah.
+
+0:12:21	SPEAKER_02
+ Exactly.
+
+0:12:22	SPEAKER_03
+ Yeah.
+
+0:12:23	SPEAKER_03
+ So if he got features, then it took otherwise if he has to generate again, he can't generate.
+
+0:12:27	SPEAKER_04
+ Because when, uh, path has lost a lot.
+
+0:12:30	SPEAKER_04
+ Yeah.
+
+0:12:31	SPEAKER_04
+ He's having only the results with him.
+
+0:12:32	SPEAKER_04
+ So he doesn't have the files.
+
+0:12:34	SPEAKER_04
+ Yes.
+
+0:12:35	SPEAKER_02
+ The real.
+
+0:12:36	SPEAKER_02
+ Everything, see, if they say that we cannot recover it, then I can quickly get it back from it.
+
+0:12:43	SPEAKER_02
+ See a couple of days I can put all the system back.
+
+0:12:45	SPEAKER_02
+ Yeah.
+
+0:12:46	SPEAKER_02
+ Okay.
+
+0:12:47	SPEAKER_03
+ But everybody has features in temple and most of the time all the CTS features or CTS we find.
+
+0:12:53	SPEAKER_03
+ Yeah.
+
+0:12:54	SPEAKER_03
+ So forget about CTS at least now.
+
+0:12:55	SPEAKER_03
+ I think we will see it again.
+
+0:12:56	SPEAKER_03
+ Yeah.
+
+0:12:57	SPEAKER_03
+ But he's going to download that much of data.
+
+0:12:58	SPEAKER_03
+ It takes at least one or two weeks.
+
+0:13:00	SPEAKER_02
+ No, no, I can now see downloading is another thing.
+
+0:13:02	SPEAKER_02
+ One thing you have to do.
+
+0:13:04	SPEAKER_02
+ That they have data in one particular structure.
+
+0:13:08	SPEAKER_02
+ So I have to first of all, you know, organize, create our files and then I can get it back here.
+
+0:13:14	SPEAKER_03
+ But you said you need to do some segmentation also not to put that.
+
+0:13:17	SPEAKER_04
+ And then you have to get their PLP features and.
+
+0:13:20	SPEAKER_02
+ Yeah.
+
+0:13:21	SPEAKER_02
+ That I can get all those things.
+
+0:13:22	SPEAKER_04
+ Okay.
+
+0:13:23	SPEAKER_04
+ Because those files are also very big.
+
+0:13:24	SPEAKER_02
+ They are not single files.
+
+0:13:25	SPEAKER_02
+ Yeah.
+
+0:13:26	SPEAKER_02
+ But they should not be any big.
+
+0:13:27	SPEAKER_02
+ They should not be any big.
+
+0:13:28	SPEAKER_02
+ The only thing is that now if they have to say that we cannot recover it.
+
+0:13:32	SPEAKER_02
+ Yeah, the we can wait at least one or two weeks for this.
+
+0:13:35	SPEAKER_02
+ One day, one, one, two days like this week I can wait and see if they cannot recover it, then I can just get all the data from XC and put back the CTS.
+
+0:13:44	SPEAKER_03
+ But still I think we can't really do these things before I guess.
+
+0:13:47	SPEAKER_03
+ No, we can.
+
+0:13:48	SPEAKER_03
+ So that's like maybe we can concentrate what especially on numbers now and then we can go to CTS.
+
+0:13:55	SPEAKER_03
+ Yeah.
+
+0:13:56	SPEAKER_03
+ So in numbers case what you really need.
+
+0:13:58	SPEAKER_00
+ Just put your estimated using PLP features for number.
+
+0:14:06	SPEAKER_00
+ Yeah, we can.
+
+0:14:07	SPEAKER_03
+ Yeah.
+
+0:14:08	SPEAKER_03
+ We need to generate again PLP.
+
+0:14:10	SPEAKER_03
+ But we files are there.
+
+0:14:12	SPEAKER_04
+ Yeah, PLP numbers 95 databases.
+
+0:14:14	SPEAKER_00
+ Oh, PLP's are also last.
+
+0:14:17	SPEAKER_02
+ Yeah, PLP's.
+
+0:14:18	SPEAKER_02
+ Everything is last.
+
+0:14:19	SPEAKER_02
+ Everything is last.
+
+0:14:20	SPEAKER_02
+ Everything is last.
+
+0:14:21	SPEAKER_04
+ And if you really asked me even the structure which was there real every point by point how PLP's were generated, that information is also not there.
+
+0:14:31	SPEAKER_03
+ But you're generating PLP's from FICO.
+
+0:14:33	SPEAKER_04
+ Yeah, but the parameters which are exact.
+
+0:14:38	SPEAKER_04
+ But at least hopefully 95% I know but that 5% that you can't do.
+
+0:14:43	SPEAKER_04
+ And then we need to train the new weights because MLP training needs to be done and then only the next step will happen.
+
+0:14:52	SPEAKER_04
+ So it's pretty whole thing is stupid whether we can replicate the results, whatever results you are showing whether we can replicate them or not.
+
+0:15:01	SPEAKER_04
+ Presently it's not known.
+
+0:15:04	SPEAKER_03
+ But at least you have something to verify there.
+
+0:15:08	SPEAKER_03
+ So PLP's these are all 13 just only PLP's not Delta's in Delta.
+
+0:15:13	SPEAKER_00
+ No, there is not Delta.
+
+0:15:15	SPEAKER_00
+ And there is another problem for verifying this results because well for this results you know the configuration should not be well.
+
+0:15:25	SPEAKER_00
+ I also saved the configuration somewhere in the temp.
+
+0:15:28	SPEAKER_00
+ So exactly how many states for decoding and which kind of language model and things like this.
+
+0:15:36	SPEAKER_00
+ I think I can remember almost all of them but it's a bit.
+
+0:15:41	SPEAKER_03
+ But if you got something from Hammond or Maitre then I have those number of states like we have there it's only for only close DCL, KCL they have.
+
+0:15:53	SPEAKER_03
+ No, no, no, no.
+
+0:15:54	SPEAKER_04
+ He's using different setup I think.
+
+0:15:56	SPEAKER_04
+ No, he got from you.
+
+0:15:57	SPEAKER_04
+ Do you use our setup for the number of states?
+
+0:16:00	SPEAKER_04
+ For the confirmation?
+
+0:16:01	SPEAKER_03
+ Yes.
+
+0:16:02	SPEAKER_03
+ I think so then I have those number of states.
+
+0:16:05	SPEAKER_04
+ No, those things I'm also having because they were done two years back.
+
+0:16:09	SPEAKER_04
+ Anything which is done in the last two years is the one which is.
+
+0:16:14	SPEAKER_03
+ So you didn't have any PLP files.
+
+0:16:17	SPEAKER_03
+ So what about these noise levels?
+
+0:16:24	SPEAKER_03
+ We have noise wave files in the COM database.
+
+0:16:29	SPEAKER_03
+ So we have directly with wave files with particular noise added.
+
+0:16:33	SPEAKER_04
+ No, those things are not disturbed.
+
+0:16:36	SPEAKER_02
+ They are all in the database section.
+
+0:16:39	SPEAKER_04
+ Nothing related to the database has been disturbed.
+
+0:16:42	SPEAKER_03
+ No, but I think the switchboard.
+
+0:16:45	SPEAKER_02
+ Yeah, but also we have it but one thing is that we don't have all the data within it.
+
+0:16:51	SPEAKER_03
+ But the problem is like all these SNRs I think it may not be there in databases.
+
+0:16:55	SPEAKER_02
+ No, no, they're there.
+
+0:16:57	SPEAKER_03
+ You added already called the noise.
+
+0:17:00	SPEAKER_04
+ No, no, it was pre-written there.
+
+0:17:02	SPEAKER_03
+ It's in the database itself.
+
+0:17:03	SPEAKER_03
+ Even with SNRs.
+
+0:17:05	SPEAKER_03
+ That's right.
+
+0:17:06	SPEAKER_03
+ Then it's okay.
+
+0:17:07	SPEAKER_03
+ Even an EVFOM we have it.
+
+0:17:08	SPEAKER_03
+ Yeah, so that is not a problem.
+
+0:17:09	SPEAKER_03
+ So it's not that you're added all the...
+
+0:17:12	SPEAKER_03
+ No, I didn't do it myself.
+
+0:17:14	SPEAKER_03
+ With SNR, different SNRs.
+
+0:17:16	SPEAKER_04
+ That part is less scary.
+
+0:17:19	SPEAKER_03
+ So at least we have wave files.
+
+0:17:21	SPEAKER_03
+ So now we can generate anything in a PLP or so at least.
+
+0:17:25	SPEAKER_04
+ So the things which are related to your PLP can be done I think.
+
+0:17:29	SPEAKER_04
+ It's not such a major problem.
+
+0:17:32	SPEAKER_00
+ So as a conclusion there is no major problem except...
+
+0:17:36	SPEAKER_00
+ No, I think that's like a problem.
+
+0:17:38	SPEAKER_00
+ So how much time does it want to spend again?
+
+0:17:41	SPEAKER_04
+ MLP needs to be trained and the PLP features so it's kind of one and a half days work.
+
+0:17:47	SPEAKER_04
+ Kind of to generate the new points.
+
+0:17:50	SPEAKER_03
+ But for all these SNRs, so that's also...
+
+0:17:52	SPEAKER_04
+ Yeah, that means it'll add up, that's it.
+
+0:17:55	SPEAKER_04
+ But all of it is doable in three, four days time.
+
+0:18:00	SPEAKER_00
+ I also had stored a set of generated posterior or gamma or CX like this which I should regenerate.
+
+0:18:08	SPEAKER_00
+ I have the scripts but it takes time.
+
+0:18:12	SPEAKER_00
+ It's CPU and regenerating all these things.
+
+0:18:16	SPEAKER_00
+ Okay, so there is no major problem except time.
+
+0:18:21	SPEAKER_00
+ Deadline of two weeks for ICAS.
+
+0:18:25	SPEAKER_04
+ I don't have to generate any new results.
+
+0:18:28	SPEAKER_04
+ I'm also on the other side then.
+
+0:18:32	SPEAKER_04
+ But if I need to generate new results then...
+
+0:18:34	SPEAKER_04
+ Anyway, there is emotional loss, so much of scripts and codes.
+
+0:18:39	SPEAKER_03
+ No, the thing is like you can't really write this script.
+
+0:18:41	SPEAKER_03
+ Especially the code is real problem.
+
+0:18:42	SPEAKER_03
+ Script is okay.
+
+0:18:43	SPEAKER_03
+ Yeah.
+
+0:18:44	SPEAKER_03
+ Even scripts also the configurations or if you forget something, some even preemphasis factor or something it's really...
+
+0:18:53	SPEAKER_04
+ Means losses are emotional as well as whatever it is there.
+
+0:18:57	SPEAKER_04
+ Manar and blah blah.
+
+0:18:59	SPEAKER_04
+ But...
+
+0:19:00	SPEAKER_04
+ Stretchity.
+
+0:19:01	SPEAKER_04
+ So, rate five you have told to the...
+
+0:19:08	SPEAKER_02
+ It looks like if you get three disks gone then it's very difficult to get it.
+
+0:19:13	SPEAKER_02
+ Which disk?
+
+0:19:14	SPEAKER_02
+ If it's one disk it's fine.
+
+0:19:17	SPEAKER_02
+ Three disks.
+
+0:19:18	SPEAKER_02
+ Because at least one is having the...
+
+0:19:19	SPEAKER_02
+ No, one does there is no problem.
+
+0:19:21	SPEAKER_02
+ Meadows will be causing the mirror.
+
+0:19:24	SPEAKER_02
+ But if the three disks are gone it's very difficult.
+
+0:19:27	SPEAKER_02
+ So, I don't know how it went.
+
+0:19:31	SPEAKER_02
+ Usually as soon as one disk fails it should be replaced.
+
+0:19:38	SPEAKER_02
+ Actually...
+
+0:19:39	SPEAKER_03
+ It should be replaced by...
+
+0:19:40	SPEAKER_02
+ Yeah, otherwise it will go on destroying other disks.
+
+0:19:45	SPEAKER_02
+ So the one...
+
+0:19:46	SPEAKER_02
+ So I don't know how it happened.
+
+0:19:49	SPEAKER_02
+ You know?
+
+0:19:50	SPEAKER_02
+ Such a thing.
+
+0:19:51	SPEAKER_02
+ Like usually as soon as one fails it actually notifies the system administrator or...
+
+0:19:56	SPEAKER_02
+ It makes certain kind of noise.
+
+0:19:58	SPEAKER_03
+ You know, mirror is into the sky.
+
+0:20:01	SPEAKER_02
+ To make sure that it has to be replaced.
+
+0:20:05	SPEAKER_02
+ So if the disk is not replaced then it will fail.
+
+0:20:10	SPEAKER_02
+ That's an internal recovery.
+
+0:20:13	SPEAKER_02
+ If you just replace the disk then it can internally it can quickly recover everything into that disk.
+
+0:20:20	SPEAKER_02
+ So it's like, you know, if you have...
+
+0:20:29	SPEAKER_02
+ If you have...
+
+0:20:30	SPEAKER_02
+ It's kind of like essentially if it is like 120, 100, 100 GB there are data space then it essentially will have 200 GB only visible data to you.
+
+0:20:41	SPEAKER_02
+ But then it can...
+
+0:20:42	SPEAKER_02
+ As soon as you replace one of those hard disks it can...
+
+0:20:45	SPEAKER_02
+ It can from the other one it can recover everything on that.
+
+0:20:48	SPEAKER_02
+ Ah, it will have mirror also.
+
+0:20:49	SPEAKER_02
+ Inter internally it can do that kind of thing.
+
+0:20:51	SPEAKER_02
+ But if the three disks fail then it's...
+
+0:20:54	SPEAKER_02
+ It's a really difficult job.
+
+0:20:57	SPEAKER_02
+ I don't know how it can be recovered.
+
+0:20:59	SPEAKER_02
+ Probably the one way that they extend the hard disks to the people who are experts and they do like sector, basic or block by block with either the cover.
+
+0:21:11	SPEAKER_02
+ But that's very expensive.
+
+0:21:13	SPEAKER_02
+ But the two LEDs.
+
+0:21:14	SPEAKER_02
+ Yes, a simple thing might cost you minimum 10,000 euros.
+
+0:21:20	SPEAKER_03
+ But even this may be really huge data also.
+
+0:21:23	SPEAKER_04
+ Was it insured?
+
+0:21:24	SPEAKER_04
+ Any idea?
+
+0:21:25	SPEAKER_02
+ I don't know.
+
+0:21:26	SPEAKER_02
+ I don't know if it was insured.
+
+0:21:27	SPEAKER_02
+ I don't think insured is coming in here.
+
+0:21:30	SPEAKER_02
+ No, no.
+
+0:21:31	SPEAKER_04
+ Insurance can take care of means.
+
+0:21:34	SPEAKER_04
+ Anything can be insured in this word-lown is.
+
+0:21:37	SPEAKER_03
+ I think maybe some companies differently they will insure obviously.
+
+0:21:41	SPEAKER_03
+ You can't really have so many backups.
+
+0:21:43	SPEAKER_04
+ But this term means one thing which is mistreat to me.
+
+0:21:48	SPEAKER_04
+ Why 10.1 and 10.2 are residing on the same hard disk.
+
+0:21:51	SPEAKER_02
+ No, it was because it was not 10.1 and 10.2.
+
+0:21:54	SPEAKER_02
+ But they have the same...
+
+0:21:59	SPEAKER_02
+ It has three GPs.
+
+0:22:00	SPEAKER_02
+ Three disks hard disks category.
+
+0:22:03	SPEAKER_02
+ So you can go up to 14 or something like that.
+
+0:22:06	SPEAKER_02
+ But it can be on the same thing.
+
+0:22:08	SPEAKER_03
+ Yeah, so it means...
+
+0:22:09	SPEAKER_03
+ It's just partitioning.
+
+0:22:10	SPEAKER_03
+ But so that...
+
+0:22:11	SPEAKER_02
+ So it tries to put...
+
+0:22:13	SPEAKER_02
+ It tries to quickly put things in this way.
+
+0:22:17	SPEAKER_02
+ But only thing is that only one swipe has backup.
+
+0:22:22	SPEAKER_02
+ Keep taking up the backup.
+
+0:22:24	SPEAKER_02
+ So it puts everything quickly.
+
+0:22:27	SPEAKER_02
+ It can decide wherever it wants to put.
+
+0:22:29	SPEAKER_02
+ So it's faster to do that way.
+
+0:22:31	SPEAKER_04
+ No, no, no.
+
+0:22:32	SPEAKER_04
+ What I'm saying means...
+
+0:22:33	SPEAKER_04
+ 10.1 and 10.2 could have been different systems.
+
+0:22:36	SPEAKER_02
+ No, I think that is a soft name they have given the...
+
+0:22:39	SPEAKER_04
+ I'm saying they could have kept differently.
+
+0:22:42	SPEAKER_02
+ Yeah, but then what is the use of RAID then?
+
+0:22:45	SPEAKER_04
+ No, RAID on both the systems.
+
+0:22:46	SPEAKER_04
+ What's the problem?
+
+0:22:47	SPEAKER_02
+ No, but that is what the RAID can allow you to keep up to 14 hard disks.
+
+0:22:53	SPEAKER_04
+ Hard disks?
+
+0:22:54	SPEAKER_04
+ There are already five hard disks growing.
+
+0:22:55	SPEAKER_02
+ Yeah, so they have five.
+
+0:22:58	SPEAKER_02
+ And you can go up to 14 if you want to keep there.
+
+0:23:01	SPEAKER_02
+ And it can still work.
+
+0:23:02	SPEAKER_02
+ And it has...
+
+0:23:03	SPEAKER_02
+ And the way it looked like is still for Talva and you know...
+
+0:23:07	SPEAKER_02
+ The way it is.
+
+0:23:08	SPEAKER_02
+ Usually it is just that if you want these crashes before...
+
+0:23:12	SPEAKER_02
+ If it is replaced quickly, then no problems.
+
+0:23:18	SPEAKER_02
+ Otherwise, unsafe data will start.
+
+0:23:20	SPEAKER_02
+ The first thing is get lost.
+
+0:23:23	SPEAKER_02
+ That's the thing.
+
+0:23:26	SPEAKER_04
+ Yeah, now everybody is going to be scared of temps.
+
+0:23:31	SPEAKER_03
+ Yeah, no temps.
+
+0:23:34	SPEAKER_02
+ The amperes, no, it's anyway.
+
+0:23:38	SPEAKER_02
+ I think they can do because some of these people are experts.
+
+0:23:43	SPEAKER_02
+ There are a couple of experts in Switzerland itself.
+
+0:23:46	SPEAKER_02
+ So if they can easily recover it, probably, do this kind of thing.
+
+0:23:55	SPEAKER_03
+ But is it really costly?
+
+0:23:56	SPEAKER_03
+ This system is...
+
+0:23:57	SPEAKER_02
+ Yeah, it depends on the job.
+
+0:23:59	SPEAKER_02
+ You know, sometimes it's a small hardware thing.
+
+0:24:01	SPEAKER_02
+ They might do it within, you know, 5000 euros and all.
+
+0:24:05	SPEAKER_02
+ But if it's very much detailed work, they will just...
+
+0:24:10	SPEAKER_02
+ The whole thing starts like this, that you have to give your credit card number and sign a form.
+
+0:24:17	SPEAKER_02
+ And then only they will start taking your hard disk.
+
+0:24:19	SPEAKER_04
+ No, no, no, no.
+
+0:24:21	SPEAKER_04
+ I checked over the net, it's not the way.
+
+0:24:24	SPEAKER_04
+ You send the things to them.
+
+0:24:26	SPEAKER_04
+ They will see if they can recover, then only they'll ask you that this is the quotation.
+
+0:24:30	SPEAKER_04
+ No, no, no.
+
+0:24:31	SPEAKER_04
+ But if there is no...
+
+0:24:32	SPEAKER_04
+ If they cannot recover, they will send it back.
+
+0:24:34	SPEAKER_02
+ No, no, no, that's what they say.
+
+0:24:35	SPEAKER_02
+ Like, you do it, then send it the hard disk.
+
+0:24:38	SPEAKER_02
+ Then they will say, okay, we can do it.
+
+0:24:40	SPEAKER_02
+ And then if you do it, we can do it.
+
+0:24:41	SPEAKER_04
+ No, no, no.
+
+0:24:42	SPEAKER_04
+ First they'll give you a quotation.
+
+0:24:43	SPEAKER_04
+ They won't go without that.
+
+0:24:46	SPEAKER_04
+ It's not...
+
+0:24:47	SPEAKER_04
+ It means it's a wrong information.
+
+0:24:48	SPEAKER_03
+ Maybe at least they will give you some number, otherwise they'll...
+
+0:24:50	SPEAKER_04
+ Yeah, yeah.
+
+0:24:51	SPEAKER_04
+ Because in the beginning, what they say that send us the thing, we look at the things.
+
+0:24:55	SPEAKER_04
+ If it is recoverable, we will tell you what is the quotation.
+
+0:24:58	SPEAKER_04
+ What is the estimate of that?
+
+0:24:59	SPEAKER_04
+ And if it is not recoverable, we will send it back to you.
+
+0:25:03	SPEAKER_04
+ That means... and if they cannot recover it, then what they won't charge anything from you for the inspection.
+
+0:25:11	SPEAKER_02
+ No, I think that's it.
+
+0:25:14	None
+ Yeah.
+
+0:25:15	SPEAKER_03
+ At least they will know beforehand.
+
+0:25:17	SPEAKER_03
+ That's right.
+
+0:25:18	SPEAKER_03
+ Oh, for they can go...
+
+0:25:19	SPEAKER_04
+ Yeah.
+
+0:25:20	SPEAKER_04
+ It means looking at how much failure has happened.
+
+0:25:23	SPEAKER_04
+ Accordingly, they will tell you whether they can recover or not.
+
+0:25:26	SPEAKER_02
+ And in fact, if they can go a lot, but they can go block by block and look into it and try to recover.
+
+0:25:33	SPEAKER_02
+ But that much you will want to go or not is a question.
+
+0:25:37	SPEAKER_03
+ But even how much important data...
+
+0:25:39	SPEAKER_03
+ Sometimes it's just MP3 or something, so you don't really need to...
+
+0:25:43	SPEAKER_02
+ And it's like 40 tera-al.
+
+0:25:45	SPEAKER_02
+ For 4 tera, you know?
+
+0:25:46	SPEAKER_02
+ 4 tera, I guess.
+
+0:25:48	SPEAKER_02
+ There was somewhere else to like...
+
+0:25:50	SPEAKER_04
+ So how much is 4 tera?
+
+0:25:52	SPEAKER_04
+ 4000 gigabytes?
+
+0:25:53	SPEAKER_04
+ Yeah, 4000 gigabytes.
+
+0:25:54	SPEAKER_04
+ Yeah, 4000 gigabytes.
+
+0:25:55	SPEAKER_04
+ Okay.
+
+0:25:56	SPEAKER_02
+ 4000 gigabytes?
+
+0:25:57	SPEAKER_02
+ Not much.
+
+0:25:58	SPEAKER_02
+ Yeah.
+
+0:25:59	SPEAKER_02
+ That's a big...
+
+0:26:03	SPEAKER_03
+ But now we got something like...
+
+0:26:05	SPEAKER_04
+ Isn't it?
+
+0:26:06	SPEAKER_04
+ 8.1 is more fault-out-length as compared to 8.5.
+
+0:26:08	SPEAKER_03
+ No, 8.5 is better.
+
+0:26:10	SPEAKER_04
+ Exactly.
+
+0:26:11	SPEAKER_04
+ 8.1 is having exactly 50% capacity is utilized.
+
+0:26:15	SPEAKER_04
+ It's copy.
+
+0:26:16	SPEAKER_04
+ Okay.
+
+0:26:17	SPEAKER_04
+ Two copies of the same thing will be existing.
+
+0:26:21	SPEAKER_04
+ That is the 8.1.
+
+0:26:22	SPEAKER_03
+ But 8.5 is 10, 20% copy only.
+
+0:26:24	SPEAKER_03
+ That's right.
+
+0:26:25	SPEAKER_03
+ 8.5 is 20%.
+
+0:26:26	SPEAKER_03
+ It's not the other way.
+
+0:26:28	SPEAKER_04
+ So, 8.1 is exactly...
+
+0:26:30	SPEAKER_04
+ It means that's a lot of wastage of resources, but it's more fault-out-length.
+
+0:26:34	SPEAKER_04
+ And there is no parity kind of or anything.
+
+0:26:36	SPEAKER_04
+ Nothing exists there.
+
+0:26:37	SPEAKER_04
+ Yes.
+
+0:26:38	SPEAKER_04
+ So, the disk which has crashed, that cannot be recovered.
+
+0:26:40	SPEAKER_04
+ The disk which has not crashed, it can be recovered completely.
+
+0:26:43	SPEAKER_04
+ It means if both the disk have crashed for the same data, you cannot recover anything.
+
+0:26:49	SPEAKER_04
+ If one disk has crashed, then you can recover everything.
+
+0:26:52	SPEAKER_04
+ It will be the other disk.
+
+0:26:53	SPEAKER_04
+ It will be in the other disk.
+
+0:26:54	SPEAKER_04
+ So, that is the 8.1.
+
+0:26:56	SPEAKER_02
+ Anyway, Hamid, how do you want to go about it?
+
+0:27:00	SPEAKER_04
+ If you are given a choice, you want to take red one or red five or a simple laptop.
+
+0:27:06	SPEAKER_02
+ I would say how would you like to go about with ICASP?
+
+0:27:09	SPEAKER_00
+ Well, I think after this meeting, we can try together to regenerate this.
+
+0:27:16	SPEAKER_00
+ Well, PLPs, I think they should be first regenerated and posterior, then if by the end of week we could have posterior, it's not that difficult.
+
+0:27:26	SPEAKER_00
+ I can easily regenerate the commas and do all the experiments again.
+
+0:27:31	SPEAKER_00
+ So, what are the experiments you need to do?
+
+0:27:33	SPEAKER_04
+ What are the new experiments you are having in your mind?
+
+0:27:36	SPEAKER_00
+ Mainly, there will be some experiment to check how the system is robust against this tuning factors like language modeling.
+
+0:27:48	SPEAKER_00
+ It's a language- It's a language-based technology.
+
+0:27:56	SPEAKER_00
+ This will be the main new issue.
+
+0:27:58	SPEAKER_04
+ And do you feel that there's paper material?
+
+0:28:01	SPEAKER_00
+ Yeah, the new thing in the paper.
+
+0:28:03	SPEAKER_03
+ And also maybe like this noise is noisy case.
+
+0:28:06	SPEAKER_04
+ It was...
+
+0:28:07	SPEAKER_04
+ But the one which you have reported means you want to report something more than that?
+
+0:28:11	SPEAKER_03
+ Well, this is not in the paper.
+
+0:28:13	SPEAKER_00
+ Actually, this was not in the paper.
+
+0:28:15	SPEAKER_00
+ I put it in the presentation, but it's not in the paper.
+
+0:28:19	SPEAKER_00
+ The paper was just for clean speech.
+
+0:28:22	SPEAKER_00
+ But since I had the results before, and I cannot copy these things, because I talked with Helvet and he said, okay, actually, the numbers are not very reasonable because they are just 13 PLP features and we have to have at least something which is known for people.
+
+0:28:43	SPEAKER_00
+ I mean, they are expecting something around 1987 or something like this.
+
+0:28:48	SPEAKER_00
+ So anyway, I had to renew all the experiments, but now it's a little bit more difficult because before I had posteriors, and now we have two more steps, PLP's and then posteriors.
+
+0:29:01	SPEAKER_03
+ At least now he can know full system setup from him.
+
+0:29:04	SPEAKER_04
+ Why be what I can do? I can give you the setup.
+
+0:29:07	SPEAKER_04
+ Yes, I can generate from bottom.
+
+0:29:10	SPEAKER_04
+ Yeah, train the MLP test.
+
+0:29:12	SPEAKER_04
+ Thank you very much.
+
+0:29:15	SPEAKER_03
+ So now mainly like 39 PLP, you are always using 39.
+
+0:29:20	SPEAKER_03
+ I was using 39.
+
+0:29:22	SPEAKER_03
+ But then why these features, you gave me like they are 13?
+
+0:29:26	SPEAKER_00
+ I wanted to extend this.
+
+0:29:29	SPEAKER_00
+ Well, actually the paper we wanted to write was, for ICAST, was something related to multi-stream gamma.
+
+0:29:36	SPEAKER_00
+ No, no, no, no.
+
+0:29:37	SPEAKER_00
+ These ones like that, I will explain.
+
+0:29:39	SPEAKER_00
+ So my plan was to have two streams.
+
+0:29:42	SPEAKER_00
+ And I think that only one stream.
+
+0:29:46	SPEAKER_00
+ So I thought that one stream will be PLP and the other will be delta PLP.
+
+0:29:52	SPEAKER_00
+ So this was one part of experiment, so single stream, and then I wanted to combine delta with this and have another table.
+
+0:30:01	SPEAKER_00
+ So that was why.
+
+0:30:03	SPEAKER_00
+ But actually because the numbers and studies, it's not showing strong results.
+
+0:30:09	SPEAKER_00
+ Anyways, results are not very important, but they should be within a range of acceptable numbers.
+
+0:30:17	SPEAKER_00
+ So then for now I think it's better to instead of doing PLP and delta PLP, I can have single stream of 39 PLPs and then combine them with traps.
+
+0:30:29	SPEAKER_03
+ Yeah, those results only, you reported an interest speech, like 39 PLP results.
+
+0:30:34	SPEAKER_03
+ Yeah, 39.
+
+0:30:35	SPEAKER_03
+ Yeah, that's why they were less than 10% more or less.
+
+0:30:39	SPEAKER_03
+ No, even like clean speech.
+
+0:30:40	SPEAKER_04
+ What is this result?
+
+0:30:42	SPEAKER_04
+ This was related to your MLMI?
+
+0:30:45	SPEAKER_00
+ No, no, it's interest speech.
+
+0:30:48	SPEAKER_00
+ No, no, this is just...
+
+0:30:50	SPEAKER_00
+ Okay, these numbers are full PLP 39.
+
+0:30:53	SPEAKER_00
+ Wow, okay.
+
+0:30:54	SPEAKER_00
+ But just to make things clear in the presentation to show more steps.
+
+0:30:59	SPEAKER_04
+ What is the tri-phone numbers?
+
+0:31:01	SPEAKER_02
+ Here is the tri-phone MLP.
+
+0:31:03	SPEAKER_02
+ Oh, okay.
+
+0:31:05	SPEAKER_04
+ Your MLP.
+
+0:31:06	SPEAKER_03
+ No, he gave scale likelihoods to me than I generated gammas.
+
+0:31:11	SPEAKER_03
+ Okay.
+
+0:31:12	SPEAKER_04
+ Even those gammas will be same as normalized scale likelihoods.
+
+0:31:16	SPEAKER_03
+ No, no, no.
+
+0:31:17	SPEAKER_03
+ They are passing through the data from that.
+
+0:31:19	SPEAKER_03
+ Yeah, because I have tri-phone, GMMs and HMMMs.
+
+0:31:22	SPEAKER_03
+ Okay.
+
+0:31:23	SPEAKER_03
+ So he gave me scale likelihoods of tri-phones.
+
+0:31:25	SPEAKER_04
+ Not scale likelihoods.
+
+0:31:27	SPEAKER_03
+ Scale likelihoods.
+
+0:31:28	SPEAKER_03
+ Scale likelihoods.
+
+0:31:29	SPEAKER_03
+ Scale likelihoods.
+
+0:31:30	SPEAKER_02
+ From?
+
+0:31:31	SPEAKER_02
+ From tri-phone number.
+
+0:31:32	SPEAKER_04
+ Yeah, they gave me a chip.
+
+0:31:33	SPEAKER_04
+ Oh, MLP scale likelihoods.
+
+0:31:34	SPEAKER_04
+ Yeah.
+
+0:31:35	SPEAKER_04
+ Well, you are having post-tators there, right?
+
+0:31:36	SPEAKER_02
+ Yeah, so I divided by the pliers.
+
+0:31:39	SPEAKER_02
+ Pliers, yeah.
+
+0:31:40	SPEAKER_04
+ That's how you do it.
+
+0:31:41	SPEAKER_03
+ Okay, so it's the next place.
+
+0:31:42	SPEAKER_03
+ Then again, I will pass through full network.
+
+0:31:44	SPEAKER_03
+ Then I can generate tri-phone gammas.
+
+0:31:46	SPEAKER_04
+ And full network, what was the architecture?
+
+0:31:48	SPEAKER_03
+ It's like Word.
+
+0:31:49	SPEAKER_03
+ No, it's just GMM Word models.
+
+0:31:52	SPEAKER_03
+ You have all the connections to between all the words.
+
+0:31:55	SPEAKER_03
+ Okay.
+
+0:31:56	SPEAKER_01
+ So...
+
+0:31:57	SPEAKER_04
+ What are the other things we need to discuss?
+
+0:32:05	SPEAKER_03
+ So then first thing is like we need to generate PLPs.
+
+0:32:08	SPEAKER_03
+ And then all this SNR's PLPs.
+
+0:32:13	SPEAKER_00
+ Yeah, it's amazing that everything was under there.
+
+0:32:17	SPEAKER_02
+ No, but I think what I think there is still some data which is the cover of, well, at least they could give us time to, I think that the most of those things should be there.
+
+0:32:26	SPEAKER_02
+ I can copy it already.
+
+0:32:29	SPEAKER_03
+ No, it was there on like, yesterday morning, also even.
+
+0:32:34	SPEAKER_03
+ So I was running some experiments and then it was okay, but it's readable only, so I can't write anything.
+
+0:32:39	SPEAKER_02
+ No, you don't have to write, but it can be.
+
+0:32:41	SPEAKER_03
+ Yeah, so but we don't know, like, we thought like, I thought it's recovering, so maybe by tomorrow I'll get everything.
+
+0:32:47	SPEAKER_03
+ So, because if you want to copy again, you will have...
+
+0:32:50	SPEAKER_04
+ That's all because of you.
+
+0:32:52	SPEAKER_04
+ You came on wrong day from Iran.
+
+0:32:54	SPEAKER_04
+ You should have come on, Jumah. It would have been okay.
+
+0:32:59	SPEAKER_02
+ Yeah.
+
+0:33:00	SPEAKER_03
+ Anyway.
+
+0:33:01	SPEAKER_03
+ But yeah, still some people are in vacation, so they will really...
+
+0:33:04	SPEAKER_00
+ They'll get a shock of their life.
+
+0:33:06	SPEAKER_00
+ See, they will be back and...
+
+0:33:08	SPEAKER_00
+ With you?
+
+0:33:09	SPEAKER_00
+ But he's in it.
+
+0:33:10	SPEAKER_00
+ With you, I'll be there once you come back and you'll have to write their rights.
+
+0:33:13	SPEAKER_00
+ He flies to Senegal directly.
+
+0:33:16	SPEAKER_02
+ Sir, in Daniel's wife in Italy?
+
+0:33:19	SPEAKER_03
+ Yeah.
+
+0:33:20	SPEAKER_03
+ But even all over the recent iteration, iterative training set up is intense.
+
+0:33:24	SPEAKER_03
+ We was like, how much we can copy because it's really so many iterations and...
+
+0:33:30	SPEAKER_03
+ Even without really completing many more experiments also.
+
+0:33:35	SPEAKER_04
+ Yeah, but it's a major loss, no doubt.
+
+0:33:39	SPEAKER_03
+ But at least, yeah, scripts are there.
+
+0:33:41	SPEAKER_03
+ We're like, like, scripts are there, but...
+
+0:33:45	SPEAKER_03
+ So if...
+
+0:33:46	SPEAKER_01
+ The guy told me, he wanted to run the scripts, he's not there.
+
+0:33:49	SPEAKER_03
+ Yeah, if they can record at least Hammond's P-Files then...
+
+0:33:53	SPEAKER_03
+ They can...
+
+0:33:54	SPEAKER_04
+ Yeah, if they can give me my C-Files then also, it's okay.
+
+0:33:57	SPEAKER_03
+ Yeah.
+
+0:33:58	SPEAKER_03
+ But C-Files, yeah.
+
+0:34:00	SPEAKER_03
+ Even if they give you P-Files, it's really bad, even you don't really need to run all the...
+
+0:34:05	SPEAKER_04
+ Yeah, because I don't need to generate features also.
+
+0:34:08	SPEAKER_04
+ Yeah.
+
+0:34:09	SPEAKER_04
+ Yeah, it's amazing.
+
+0:34:11	SPEAKER_04
+ And I don't need all my P-Files.
+
+0:34:13	SPEAKER_04
+ Just a few of them.
+
+0:34:14	SPEAKER_03
+ Hey, just only like, recent P-Files at least.
+
+0:34:18	SPEAKER_00
+ And what if we have someday a fire in India?
+
+0:34:21	SPEAKER_00
+ We will lose all the data.
+
+0:34:23	SPEAKER_02
+ And that is...
+
+0:34:24	SPEAKER_02
+ Anywhere fire will lose all the data.
+
+0:34:26	SPEAKER_00
+ I mean, but they have...
+
+0:34:28	SPEAKER_00
+ Well, I think...
+
+0:34:29	SPEAKER_00
+ Not in...
+
+0:34:30	SPEAKER_00
+ That's not the case.
+
+0:34:31	SPEAKER_00
+ No, they physically also separate the...
+
+0:34:32	SPEAKER_00
+ Yes, they can, you know, the story somewhere.
+
+0:34:35	SPEAKER_00
+ Yeah, physically it is up with this.
+
+0:34:36	SPEAKER_00
+ But, you know, here we can easily have a fire because everything is made of food, I think, and it's small and...
+
+0:34:43	SPEAKER_02
+ Yeah.
+
+0:34:44	SPEAKER_02
+ It's sprinkler something around here, I hope so.
+
+0:34:46	SPEAKER_03
+ Still I think I...
+
+0:34:48	SPEAKER_03
+ Oh, it's sprinklers.
+
+0:34:49	SPEAKER_03
+ I needn't worry, they had that big fire and then...
+
+0:34:52	SPEAKER_04
+ I mean, what if they're in sprinklers?
+
+0:34:53	SPEAKER_03
+ Don't worry.
+
+0:34:54	SPEAKER_03
+ Even even so, several of that buildings, I'm not all the computers in that building, they're all burnt, but...
+
+0:34:59	SPEAKER_03
+ They have like three backups in the university, so...
+
+0:35:03	SPEAKER_03
+ At least people, they didn't really affect much.
+
+0:35:06	SPEAKER_03
+ Whereas universities, maybe it's really big.
+
+0:35:08	SPEAKER_03
+ Yeah.
+
+0:35:09	SPEAKER_02
+ So they can afford...
+
+0:35:10	SPEAKER_02
+ And they can't...
+
+0:35:11	SPEAKER_02
+ They're shifted the whole thing around.
+
+0:35:12	SPEAKER_02
+ Yeah, they...
+
+0:35:13	SPEAKER_02
+ They won't keep it at one point.
+
+0:35:14	SPEAKER_03
+ They'll have backup at different...
+
+0:35:16	SPEAKER_03
+ Physically at different places.
+
+0:35:17	SPEAKER_03
+ And also in some underground, so that like...
+
+0:35:20	SPEAKER_03
+ Five proof or something.
+
+0:35:22	SPEAKER_02
+ Yeah, then you'll kill farmers out, you know.
+
+0:35:24	SPEAKER_01
+ Yeah, maybe.
+
+0:35:27	SPEAKER_00
+ Yeah, anyway.
+
+0:35:29	SPEAKER_00
+ The good conclusion is to have a backup and on CD at home.
+
+0:35:34	SPEAKER_00
+ No, CDs are not enough like...
+
+0:35:36	SPEAKER_03
+ CDs are not enough.
+
+0:35:37	SPEAKER_03
+ They're home.
+
+0:35:38	SPEAKER_04
+ Because one CD is home, which is not even one GB.
+
+0:35:41	SPEAKER_04
+ So then CDs are not enough.
+
+0:35:43	SPEAKER_02
+ Phone book, I can take care of everything on phone book, because I have it as a CD.
+
+0:35:48	SPEAKER_02
+ I wrote it once upon time to copy it to my home, and so I have all the data of my CD.
+
+0:35:53	SPEAKER_02
+ I don't know if I copied all the numbers that are on that.
+
+0:35:57	SPEAKER_02
+ You're talking about data, so you're talking about...
+
+0:35:59	SPEAKER_02
+ Data itself.
+
+0:36:00	SPEAKER_02
+ The whole feature to everything.
+
+0:36:02	SPEAKER_02
+ Feature, segmentation, every label file, everything is there.
+
+0:36:06	SPEAKER_02
+ I can recover it back from there actually.
+
+0:36:09	SPEAKER_03
+ But whatever it's a make-bulse, home directory, so...
+
+0:36:11	SPEAKER_03
+ He also kept everything in...
+
+0:36:13	SPEAKER_04
+ No, no, he was having a lot of many things in the proper places.
+
+0:36:16	SPEAKER_04
+ But in temp he was having a lot of important things.
+
+0:36:19	SPEAKER_04
+ All the experiments which he was running.
+
+0:36:21	SPEAKER_03
+ But he did mostly on numbers.
+
+0:36:23	SPEAKER_03
+ No, so at least if we can recover, we can read some of his stuff or something.
+
+0:36:27	SPEAKER_03
+ Did you look at it?
+
+0:36:29	SPEAKER_03
+ Is home, big ball, home speech, big ball or something?
+
+0:36:33	SPEAKER_04
+ Look what?
+
+0:36:34	SPEAKER_03
+ Look for any features or anything out there.
+
+0:36:36	SPEAKER_04
+ What we do with the switches?
+
+0:36:38	SPEAKER_03
+ No, no, he might be using the same PLP features or something.
+
+0:36:42	SPEAKER_03
+ No, no, no, no.
+
+0:36:44	SPEAKER_04
+ That way.
+
+0:36:45	SPEAKER_04
+ Might be but the situation is that he was generating his own PLP features from his own scripts.
+
+0:36:50	SPEAKER_04
+ He was not using doctor speech.
+
+0:36:52	SPEAKER_03
+ Okay, he got his own.
+
+0:36:55	SPEAKER_04
+ So he was like...
+
+0:36:57	SPEAKER_04
+ So I borrowed few of the things from him.
+
+0:37:00	SPEAKER_04
+ The FFT routine.
+
+0:37:03	SPEAKER_04
+ And reading the signal waveform.
+
+0:37:06	SPEAKER_04
+ These things have borrowed from him and I changed.
+
+0:37:09	SPEAKER_04
+ And then I put it in my all programs.
+
+0:37:13	SPEAKER_04
+ So...
+
+0:37:15	SPEAKER_04
+ I kept the backups but those backups are themselves on them.
+
+0:37:19	SPEAKER_04
+ I didn't know that this way it can crash because I thought it might be...
+
+0:37:25	SPEAKER_04
+ I can do a mistake and wipe out the things.
+
+0:37:27	SPEAKER_04
+ And then there is no backup.
+
+0:37:29	SPEAKER_04
+ So I cannot blame anybody but I didn't know that.
+
+0:37:32	SPEAKER_04
+ The whole backup can itself crash.
+
+0:37:37	SPEAKER_04
+ Yeah.
+
+0:37:38	SPEAKER_04
+ So now in my life I will never believe anything which is temperature.
+
+0:37:44	SPEAKER_04
+ Whether it is temperature or whether it is temporary.
+
+0:37:47	SPEAKER_03
+ No.
+
+0:37:49	SPEAKER_04
+ Hey.
+
+0:37:50	SPEAKER_04
+ Because just few days back I took a backup of my laptop feeling the same thing.
+
+0:37:57	SPEAKER_04
+ But then I didn't realize that I should take a backup off.
+
+0:38:00	SPEAKER_02
+ Only good thing is that the numbers I think I pretty much can recover all the even the iPhone X-Men's.
+
+0:38:07	SPEAKER_02
+ Because I think I have kept those labels all the things that are pretty directly.
+
+0:38:11	SPEAKER_02
+ A P-Pile of it.
+
+0:38:13	SPEAKER_02
+ Then it's good that we don't really need it.
+
+0:38:15	SPEAKER_02
+ You don't need to back all those labels and everything.
+
+0:38:18	SPEAKER_03
+ So but your PLP is also there.
+
+0:38:20	SPEAKER_02
+ PLP should be there.
+
+0:38:22	SPEAKER_02
+ Should I have kept the PLP also somewhere there?
+
+0:38:25	SPEAKER_03
+ Then we just need to run neural not only.
+
+0:38:27	SPEAKER_03
+ Yeah but PLP is hardly a few minutes.
+
+0:38:31	SPEAKER_04
+ PLP is hardly anything.
+
+0:38:34	SPEAKER_02
+ The extra work is like you know converting the segmentation from monophone to triphon.
+
+0:38:41	SPEAKER_02
+ This kind of thing.
+
+0:38:42	SPEAKER_02
+ Then all the scripts are there in the temp for that kind of thing.
+
+0:38:46	SPEAKER_02
+ Which scripts?
+
+0:38:48	SPEAKER_04
+ From Post-T-R-S to Post-A-L-M-N.
+
+0:38:51	SPEAKER_02
+ What you do is like you have the segmentation to train that for monophone right?
+
+0:38:56	SPEAKER_02
+ You can convert the same thing into triphon segmentation because there is monophone and tribal there are no different except that you're just going to give a different label to them depending on the context.
+
+0:39:07	SPEAKER_02
+ So it's easier to convert that segmentation directly here.
+
+0:39:10	SPEAKER_02
+ Rather than now you see the point that if you lose one.
+
+0:39:15	SPEAKER_02
+ So the thing is that I have to recover means I have to recover through the monophone segmentation the whole thing.
+
+0:39:26	SPEAKER_03
+ But you still need to run all the nets.
+
+0:39:29	SPEAKER_02
+ Yeah it's okay.
+
+0:39:31	SPEAKER_02
+ That's your number that's very fast.
+
+0:39:33	SPEAKER_03
+ No but it's not.
+
+0:39:35	SPEAKER_03
+ I think at least it takes two hours or three hours.
+
+0:39:38	SPEAKER_02
+ Three hours I think I end.
+
+0:39:39	SPEAKER_02
+ You can't parallelize also.
+
+0:39:41	SPEAKER_02
+ The thing is that right now you know almost what is the burn which will give you the best results.
+
+0:39:47	SPEAKER_02
+ You can convert.
+
+0:39:48	SPEAKER_02
+ Not in all cases.
+
+0:39:49	SPEAKER_04
+ That's the problem which people are facing.
+
+0:39:52	SPEAKER_04
+ Because everything was written then and there itself.
+
+0:39:55	SPEAKER_04
+ It means the optimization has been done.
+
+0:39:57	SPEAKER_04
+ They did the optimization there and they they worked on that started working on that.
+
+0:40:01	SPEAKER_04
+ They didn't write it with pen or something on a paper or saying that okay this is the best optimization.
+
+0:40:07	SPEAKER_03
+ So for example if you want to replicate all these results then he needs to use all my hammers.
+
+0:40:14	SPEAKER_03
+ PLP configuration then.
+
+0:40:16	SPEAKER_04
+ Because if I change my configuration and your results will be.
+
+0:40:20	SPEAKER_04
+ The results are somewhere else.
+
+0:40:23	SPEAKER_03
+ Then you don't know.
+
+0:40:25	SPEAKER_03
+ Anyway.
+
+0:40:26	SPEAKER_02
+ Okay let's recover it.
+
+0:40:29	SPEAKER_02
+ Let's hope the best.
+
+0:40:30	SPEAKER_02
+ So how much time we have spent?
+
+0:40:32	SPEAKER_03
+ I think we have spent 35, 40 minutes.
+
+0:40:36	SPEAKER_03
+ Okay.
+
+0:40:37	SPEAKER_03
+ So this is good enough.
+
+0:40:38	SPEAKER_03
+ Thank you.
+
+0:40:39	SPEAKER_02
+ Okay.
+
+0:40:40	SPEAKER_02
+ Thank you.
+
+0:40:41	SPEAKER_02
+ Fine.
+
+0:40:42	SPEAKER_04
+ Have a good day.
+
+0:40:43	SPEAKER_04
+ Okay.
+
+0:40:44	SPEAKER_04
+ Good.
+
+0:40:50	SPEAKER_02
+ Good.
+
+0:40:52	SPEAKER_02
+ So we had to leave first.
+
+0:40:55	None
+ Okay.
+

@@ -1,676 +1,619 @@
-0:00:30	SPEAKER_00
- een goed langs.
+0:00:00	SPEAKER_00
+ Welcome back.
 
-0:00:32	SPEAKER_00
- Together om dit te maken, de meen agenda te discussen om de conceptual design te maken.
+0:00:27	SPEAKER_00
+ I hope you had a good lunch together.
 
-0:00:48	SPEAKER_00
- En de agenda is de opening en dat is de projectmanager en de projectmanager en de projectmanager, dat is me.
+0:00:36	SPEAKER_00
+ This meeting the main agenda to discuss about the conceptual design meeting.
 
-0:01:00	SPEAKER_00
- En de presentatie van de Christine en de Agnes en de Mischere Ed.
+0:00:47	SPEAKER_00
+ And the agenda will be the opening and that's the product manager or secretary that's me and the presentations from the Christine and Agnes and Pernamishri Ed.
 
-0:01:10	SPEAKER_00
- En in de middel hebben we de decide en we hebben een decisie op de remot control en de functie van design.
+0:01:09	SPEAKER_00
+ Finally in this meeting we have to decide and we have to take a decision on the remote control concepts and the functional design.
 
-0:01:24	SPEAKER_00
- En 40 minuten ik denk dat het een beetje low is, maar ik hoop dat we het erop kunnen hebben.
+0:01:23	SPEAKER_00
+ So we have 40 minutes.
 
-0:01:34	SPEAKER_00
- Dus ik zal de functionalste team de Christine discussen om de component te discussen.
+0:01:26	SPEAKER_00
+ I think it's a little bit low but I hope we can finish it up.
 
-0:01:46	SPEAKER_02
- Dus als je kunt openen de teleponctecentatie ik thy 2 Dus als mijn deceived ben ik te bescheiden dan ben ik er nu volgend mee.
+0:01:33	SPEAKER_00
+ So I'll hand out to the functional team to the Christine to discuss about the components concept.
 
-0:02:16	SPEAKER_02
- Ik ga hem blijven.
+0:01:44	SPEAKER_02
+ Okay so if you could open the PowerPoint presentation I'm number 2.
 
-0:02:24	SPEAKER_02
- Nous zijn we voor heel heus perceberen, om de saldeose популярellingen om de...
+0:01:58	SPEAKER_02
+ So, can we put it in slide show mode?
 
-0:02:29	SPEAKER_02
- antibodyge 【 CI?mbols pac Isaiah】 Kyla trustees choses met de televisionsziten.
+0:02:09	SPEAKER_02
+ Yes, please.
 
-0:02:37	SPEAKER_02
- En in eenatzigement heb hij gezelligСТeur en die soort een hoofd van beotten en het gelot op die gebouwen contract eden was.
+0:02:13	SPEAKER_02
+ Thank you.
 
-0:03:07	SPEAKER_02
- Dus het is een deel die we uitartsen RPG waren we het Babylonischer gezelfdeINGAr девial Menschen hebben der turbines en we zou van zal begon pagar zouden zien wat het máyvrael die het geïnchoren zou hebben dus ikHerbende gebruikers kopen, dat niet een technologie ik eeg letter toe gebouwd en sprinkablediger, exporting detal laughing en còn een señor nut Others that doin consumo af, Chrysler overs, dat we nu we nuclear 2000heid in de Roadgirl.
+0:02:20	SPEAKER_02
+ So we were looking specifically at the components, the following components, the case, the power supply, the means of communications with the television set.
 
-0:04:04	SPEAKER_02
- Maar die boerde schro Shadow Jelly Heming ook hier inferior дорster enнения voor Ke Vette voor chauzie met wat600 deze 🐲 boerder, absorbutiveen en cher Momocode en hoe dat is met de bord.
+0:02:38	SPEAKER_02
+ And then since we had talked about using some sort of speech recognition you have to have a microphone, well no you don't actually have to have a microphone in the device but maybe you do have a way, it has to hear the speaker and so it could be in the television set, it could be in the device but somewhere you have to put the microphone and a way of making beeps or sounds so you can find it when it gets lost.
 
-0:04:19	SPEAKER_02
- Met dan realised en ook daarchief placellotelling hetיט Geneel op números gelevestófde dat utmost technisch trailer had.
+0:03:08	SPEAKER_02
+ So the other thing that we, our method for going about this is we've looked at the historical record, what's worked, what hasn't.
 
-0:04:31	None
- En afgленig havden van ważne meningemoren die is met een boord.
+0:03:18	SPEAKER_02
+ And then we also wanted to evaluate some new materials and we contacted manufacturing for their input because of course we might come up and choose the material that then manufacturing didn't have the technologies capabilities to offer us.
 
-0:04:20	SPEAKER_02
- En dan graphicspay porque ookエngeb� teeth.
+0:03:34	SPEAKER_02
+ So this is the approach that we took during our research.
 
-0:04:24	SPEAKER_02
- En het winkel kunnen over de kapbau welachts over Ryuom, omdat dat nog辦法ïnbat wel ken.
+0:03:40	SPEAKER_02
+ So for the case we told, we were making a specific assumption that it would be curved in design.
 
-0:04:31	SPEAKER_02
- Maar onderzoek tähän ook al sendo eraking een
+0:03:49	SPEAKER_02
+ Of course you know I wanted it to be expandable and shrinkable but that doesn't seem to be one of the choice, not an option we can really seriously explore.
 
-0:04:36	None
- introngedeshipapaan zit het niet zo八se Imperiënverstaat kan hebben omdat orosto Ouweren goed kunnen hebben.
+0:04:02	SPEAKER_02
+ So then we were thinking about rubber but unfortunately that's been eliminated because of the heat factor and there might be some problems with how it goes with the board.
 
-0:04:40	SPEAKER_02
- ervind shreddedde.
+0:04:21	SPEAKER_02
+ And then plastic also has this problem of melting and it's brittle, it gets brittle after a while so still had titanium and wood available but unfortunately titanium has also been eliminated.
 
-0:04:41	SPEAKER_02
- Although how Apple did it with the power book, I'm not quite sure.
+0:04:36	SPEAKER_02
+ The people in manufacturing said that it couldn't make curved cases out of titanium although how Apple did it with the power book I'm not quite sure but nevertheless they've eliminated all of our options except wood.
 
-0:04:46	SPEAKER_02
- But nevertheless, they've eliminated all of our options except Wood.
-
-0:04:51	SPEAKER_02
- So environment is refunding.
-
-0:04:55	SPEAKER_02
- Is she said it's an environmentally friendly material.
+0:04:52	SPEAKER_02
+ So this is my finding and as she said it's an environmentally friendly material.
 
 0:04:59	SPEAKER_02
- So we're currently proposing, we'll get to how my personal preference is in just a second.
+ So we're currently proposing, we'll get to all my personal preferences in just a second.
 
 0:05:06	SPEAKER_02
- So then there's this other matter of the chips.
+ So then there's this other matter of the chips and well you could use a simple design on the board but these simple chips but that's only works for the buttons.
 
-0:05:08	SPEAKER_02
- want kan ze een simpel design op de bord van die simpel etrouwen zijn, maar dat is er soms waarschijnsel ändern ze niet meer vertel Kristen met een hele impressed om met de simpel.
+0:05:14	SPEAKER_02
+ You don't get very much intelligence with this simple one.
 
-0:05:19	SPEAKER_02
- En dan was het fledgeler en ik geef dat ik er natuurlijk nog helemaal sterk Latino en probleem was.
+0:05:18	SPEAKER_02
+ And then there was the regular which I regret that I've forgotten exactly why I'm eliminating that one.
 
-0:05:27	SPEAKER_02
- Die andere deeply in de zin over de verbodingen was een advanced die op해�.
+0:05:28	SPEAKER_02
+ The other option was this advanced chip on print and we found that it includes this infrared sender which remember the beam was that was an important component of finding the right chip.
 
-0:05:32	SPEAKER_02
- Wij filmen het als refercen voorwegweer хort!
+0:05:43	SPEAKER_02
+ And manufacturing has told us that they've recently developed a sensor and a speaker that would be integrated into this advanced chip on print.
 
-0:05:37	SPEAKER_02
- a read sender, which remember the beam was, that was an important component of finding the right chip. And manufacturing has told us that they've recently developed a sensor and a speaker that would be integrated into this advanced chip on print. So we now jump right to our personal preferences.
+0:05:54	SPEAKER_02
+ So we're now jumping right to our personal preferences.
 
 0:06:01	SPEAKER_02
- I'd really think we should use some of some really exotic woods like które mensen zoos te hebben die te ALISSA luikker zo zeeren dus die Valleymaat oluş ik een keer te kunnen hebben hoogterdじゃない, de kerk�te怎麼辦
+ I'd really think we should use some of some really exotic woods like well you guys come from tropical countries so you can kind of think of some trees and some nice woods.
 
-0:06:25	None
- en dan moeten we de order proberen en en dan kan us het alguma.
+0:06:14	SPEAKER_02
+ I think that people might really want to design their own cases.
 
-0:06:32	SPEAKER_02
- maths trib的人 en ik Guess ik zal confusing *** disantie om de microfoon en meioafụ someone calendatie van babات cartrol
+0:06:19	SPEAKER_02
+ You see they could do sort of a three dimensional design on the internet and then they could submit their orders kind of like you submit a custom car order you know and you can choose the color and the size of the wheels and the colors of the leather and things like that.
 
-0:06:51	None
- dom uide
+0:06:34	SPEAKER_02
+ And then I think we should go with the solar cells as well as the microphone and speaker on the advanced chip.
+
+0:06:42	SPEAKER_02
+ So this is the findings of our research and my recommendations for the new remote control would be to have to be made out of wood.
+
+0:06:54	SPEAKER_02
+ Do you have any problems with that?
 
 0:06:56	SPEAKER_00
- Kan u Francis Buyke clásen?
+ Can you go back one slide?
 
 0:06:59	SPEAKER_02
- Als dacht ik niet, weet ik hoe. En vroeger funded vroegen hier.
+ I'm not sure.
+
+0:07:00	SPEAKER_02
+ Well I know let's see.
+
+0:07:01	SPEAKER_02
+ Let's go back up here.
+
+0:07:02	SPEAKER_00
+ Yes.
 
 0:07:03	SPEAKER_00
- Wanneer.
+ Question.
 
-0:07:06	None
- K Entscheidung about Wat ik zei, dit muted voor de geval is. Wat middel?
+0:07:06	SPEAKER_00
+ What's mean exactly it wants a chip on print.
 
-0:07:17	SPEAKER_02
- Wat beginnerde het.
+0:07:09	SPEAKER_00
+ What's the meaning of that?
 
-0:07:18	SPEAKER_02
- Ik denk dat het een transformatiepoof sewinging een multiplate chip help is.
+0:07:11	SPEAKER_02
+ I think it's a multiple chip design and it's maybe printed onto the circuit board.
 
-0:07:22	SPEAKER_02
- JD pekt ze op na de bout Figuleleossiblemotor!
+0:07:20	SPEAKER_02
+ I could find out more about that before the next meeting.
 
-0:07:25	SPEAKER_00
- Je heb gel meestלק ofittel vendo usa
+0:07:26	SPEAKER_00
+ Is it on a microprocessor based or?
 
 0:07:32	SPEAKER_02
- maar ik weet niet, maar ik CharacterIs knife Creks
+ I don't know but I'll find out more on our next meeting.
 
-0:07:37	SPEAKER_00
- het pe SIMуз retirement Soul hetежд improvehhh te Bestekkeerper ifres
+0:07:35	SPEAKER_00
+ Okay that would be great.
 
-0:07:42	None
- sig loca plots nu als kerm ótig Goed expression
+0:07:36	SPEAKER_00
+ So if you find out from the technology background okay so that would be good.
 
-0:08:06	SPEAKER_03
- Goed expression World after us Ik laat me say
+0:07:40	SPEAKER_02
+ Sounds good.
 
-0:08:12	SPEAKER_02
- Ik zal ik teO сказать
+0:07:41	SPEAKER_01
+ Well why was the plastic eliminated as a possible material?
 
-0:08:17	SPEAKER_01
- Ikel met de w动st vandaag Hij bent gdriveens, maar het is tot omdat je mij weer dacht Er is niet
+0:07:44	SPEAKER_02
+ Because it gets brittle, cracks, we expect these remote controls to be around for several hundred years.
+
+0:08:01	SPEAKER_02
+ So good expression.
+
+0:08:05	SPEAKER_02
+ Good expression.
+
+0:08:07	SPEAKER_03
+ Good expression.
+
+0:08:08	SPEAKER_03
+ World after us.
+
+0:08:10	SPEAKER_02
+ I don't know speak for yourself.
+
+0:08:15	SPEAKER_01
+ I think with the window you'd run into the same types of problems.
+
+0:08:19	SPEAKER_01
+ So I mean it chips it if you drop it.
+
+0:08:24	SPEAKER_01
+ I'm not sure.
 
 0:08:27	SPEAKER_00
- Ik shock dat ik het breng
+ So you're not convinced.
 
-0:08:29	SPEAKER_03
- Om dat het ook wel goed iets is,줄 of zo, άrnaap 설igend eenin van mijn boven. Het is natuurlijk aankom mere moedig in een schuldje naar opgekuroperd doodpal Gröne.
+0:08:28	SPEAKER_00
+ Actually I'm ready to sell it.
 
-0:08:47	SPEAKER_02
- Dat is zich ook wel interessant benij.
+0:08:30	SPEAKER_03
+ You're what?
 
-0:08:57	SPEAKER_03
- je censer wilt van Yes Kool seria, Moeters Leufstijken站ers olive,
+0:08:31	SPEAKER_03
+ I'm ready to sell it.
+
+0:08:32	SPEAKER_01
+ If you use really good quality wood then it might work but you can't just use.
+
+0:08:37	SPEAKER_01
+ No you can sell oils with it.
+
+0:08:38	SPEAKER_03
+ The only wood you can use are the ones that are hard to explain.
+
+0:08:41	SPEAKER_03
+ Yeah exactly.
+
+0:08:42	SPEAKER_03
+ But there's some very pretty woods out there.
+
+0:08:44	SPEAKER_03
+ That's actually a very innovative idea.
+
+0:08:48	SPEAKER_02
+ Okay good.
+
+0:08:49	SPEAKER_02
+ I'm sorry I'm having a hard time keeping with control over my face.
+
+0:08:55	SPEAKER_03
+ But it's actually a very innovative and different idea that you can choose your color of wood, your type of wood.
+
+0:09:02	SPEAKER_03
+ Mistain.
+
+0:09:03	SPEAKER_03
+ I mean each person is going to have their personalized individualized speech recognition remote control in wood.
+
+0:09:09	SPEAKER_03
+ That's not on the market.
 
 0:09:12	SPEAKER_00
- investeert al prevastlavelled� кстати al w珊 laptops
+ Yeah so it looks good.
 
-0:09:20	SPEAKER_01
- ik doe het heel hard hoeLEE
+0:09:14	SPEAKER_00
+ The design, the functional design, what about you?
+
+0:09:21	SPEAKER_01
+ In terms of comments on this or in terms of my own.
+
+0:09:23	SPEAKER_01
+ Yes.
+
+0:09:24	SPEAKER_01
+ In terms of wow.
 
 0:09:25	SPEAKER_02
- She works in the cubicle next to me, so she was already a little bit prepared for this.
+ In terms of comments first.
+
+0:09:27	SPEAKER_02
+ She works in the cubicle next to me so she was already a little bit prepared for this.
 
 0:09:32	SPEAKER_02
- Luckily, Ed, we were not.
-
-0:09:35	SPEAKER_01
- What?
-
-0:09:37	SPEAKER_01
- I think we can get the quality materials and it shouldn't influence the design principles too much, which you'll see with my presentation.
-
-0:09:47	SPEAKER_01
- One thing we'd have to check those with the users, whether how quickly the novelty wears off of having.
-
-0:09:53	SPEAKER_02
- Even if we had to be able to get ahead of time.
-
-0:09:56	SPEAKER_01
- Yes, for example.
-
-0:10:00	SPEAKER_01
- So you'd have to see how kids friendly it is
-
-0:10:04	SPEAKER_02
- and what else would you have for food? I think they could use.
-
-0:10:10	SPEAKER_03
- I would have done that anyway forola pepper and plastic.
-
-0:10:12	SPEAKER_03
  Yeah.
 
-0:10:14	SPEAKER_02
- I would do that.
+0:09:33	SPEAKER_02
+ Luckily Ed was not.
+
+0:09:35	SPEAKER_01
+ I think if we can get the quality materials then it shouldn't influence the design principles too much which you'll see with my presentation.
+
+0:09:47	SPEAKER_01
+ One thing we'd have to check those with the users whether, how quickly the novelty wears off of having.
+
+0:09:52	SPEAKER_02
+ Yeah you would want to have to have splinters in your hand while you're using it.
+
+0:09:57	SPEAKER_01
+ Yeah for example.
+
+0:09:58	SPEAKER_01
+ So I have to see how kid friendly it is and all that.
+
+0:10:03	SPEAKER_02
+ But actually if your dog gets a hold of it they can use it for teething.
+
+0:10:08	SPEAKER_03
+ I did that anyway with rubber and plastic so.
+
+0:10:12	SPEAKER_02
+ Yeah I do it with other materials as well.
+
+0:10:15	SPEAKER_03
+ Yeah.
 
 0:10:16	SPEAKER_00
- Could you give me additional materials as well?
+ I'll show them up.
 
-0:10:18	SPEAKER_00
- We vont het ag Wirkétique, ja weet ik
+0:10:17	SPEAKER_00
+ Okay then let's move to Agni.
 
-0:10:39	SPEAKER_01
- we zijn draandje ja Ja?
+0:10:19	SPEAKER_01
+ Sure.
+
+0:10:20	SPEAKER_03
+ I think so.
+
+0:10:35	SPEAKER_01
+ Yeah that's the one.
 
 0:10:48	SPEAKER_01
- Dus het is een heel sch clip op van truth, omdat ik naar het o twitch aan het gevoel heb.
+ Yeah it's a very short presentation because I'm actually going to draw you the layout on the board so if you want to just go straight to the second slide.
 
-0:10:52	SPEAKER_01
- Dushole.
+0:10:57	SPEAKER_01
+ Which basically shows sort of I took the ideas that we were talking about last time and tried to put that into the remote control so the things that you can actually see on it are the on off switch volume and channel control the menu access button ergonomic shape which I completely agree with Christine's idea to have it sort of molded so it's slightly more ergonomic and comfortable to hold than the standard very straight remote controls.
 
-0:10:53	SPEAKER_01
- Dus if je kijkt net naar de lecture en op de seconde understeel, Which basically shows, ik ben aan voor Durantweer en liepen datummy.
+0:11:20	SPEAKER_01
+ And actually the other thing with the wood if we take your customizing idea is that people can actually do sort of quasi measurements on their hand size if someone has larger hands.
 
-0:11:01	SPEAKER_01
- En dames en Stock, aan het vertellen.
+0:11:29	SPEAKER_01
+ Right my hand you have a wider remote control.
 
-0:11:04	SPEAKER_01
- Land of процiek?
+0:11:31	SPEAKER_02
+ And yours for example.
 
-0:11:06	SPEAKER_01
- Maar dit kun je wel leader schermt, vogel en vallahi.
+0:11:33	SPEAKER_01
+ So that's actually a really good idea for custom customizability.
 
-0:11:09	None
- De manieraxis we kunnen她ende bedankwouderen为什么 we controken ainkaillingen en kunstro мнеuwen voor etenРح funderen File A anti inevitably
-
-0:11:29	SPEAKER_02
- En ook of regel bubbles
-
-0:11:32	SPEAKER_01
- Dat is echt een goed idea voor de customisability. One thing I thought might be kind of interesting is to put a flip screen on it, just like you have on flip phones, so that you don't have this case where someone sits on the remote control or accidentally puts their hand on it, especially if you have little kids around.
+0:11:37	SPEAKER_01
+ One thing I thought might be kind of interesting is to put a flip screen on it just like you have on flip phones so that you don't have this case where someone sits on the remote control or accidentally puts their hand on it especially if you have little kids around.
 
 0:11:51	SPEAKER_01
  They're not pressing the buttons while you're trying to watch a TV show and accidentally change a channel or turn it off.
 
-0:11:55	SPEAKER_01
- And also you had issues with batteries running at.
-
-0:12:00	SPEAKER_01
- I thought maybe we could put a little battery life light on it that kind of goes dimmer and dimmer and dimmer as your battery starts to die.
+0:11:56	SPEAKER_01
+ And also you had issues with batteries running at so I thought maybe we could put a little battery life light on it that kind of goes dimmer and dimmer and dimmer as your battery starts to die.
 
 0:12:07	SPEAKER_01
- And in terms of invisible features, audio and tactile feedback on button presses.
-
-0:12:13	SPEAKER_01
- And like you said, speech recognition.
+ But in terms of invisible features, audio and tactile feedback on button presses and like you said speech recognition.
 
 0:12:17	SPEAKER_01
- So in terms of what this thing would actually look like, despite working an interface design, it's the greatest artist in the world, so you'll have to forgive me.
+ So in terms of what this thing would actually look like, despite working in interface design I'm not the greatest artist in the world so you'll have to forgive me.
 
-0:12:30	SPEAKER_01
- You'd have something like this with an on-off switch fairly big, sort of in the corner and by itself.
+0:12:31	SPEAKER_01
+ You'd have something like this with an on off switch fairly big sort of in the corner and by itself so you don't accidentally turn your TV off while you're trying to maneuver other buttons.
 
-0:12:36	SPEAKER_01
- So you don't accidentally turn your TV off while you're trying to maneuver other buttons.
-
-0:12:40	SPEAKER_01
- And then you have sort of one of those toggle displays for channels and volume, sort of surfing channels and then volume.
+0:12:41	SPEAKER_01
+ And then you have sort of one of those toggle displays for channels and volume sort of for surfing channels and then volume.
 
 0:12:51	SPEAKER_01
- So the volume would be the up and down, because volume goes up and down.
-
-0:12:55	SPEAKER_01
- And then channels left to right.
+ So the volume would be the up and down because volume goes up and down and then channels left to right.
 
 0:12:57	SPEAKER_01
  And then here you'd have your sort of standard telephone-ish number pad.
 
 0:13:06	SPEAKER_01
- And then on one side you would have an access to the menu on your TV and on the other side a way to turn off the voice control.
+ And then on one side you would have an access to the menu on your TV and on the other side a way to turn off the voice control so that if the user doesn't want to use their voice they can just turn it off and you don't have them out control accidentally changing things on you.
 
-0:13:16	SPEAKER_01
- So that if the user doesn't want to use their voice, they can just turn it off and you don't have the remote control accidentally changing things on you.
-
-0:13:25	SPEAKER_01
- So again you can have a little LCD light somewhere, the flip thing.
-
-0:13:31	SPEAKER_01
- And have I forgotten anything?
+0:13:26	SPEAKER_01
+ So again you can have a little LCD light somewhere, the flip thing and have I forgotten anything?
 
 0:13:35	SPEAKER_01
  I don't think so.
 
-0:13:36	SPEAKER_01
- So as you can see, it's a very, very simple design, which is one of the things I really wanted to keep.
+0:13:37	SPEAKER_01
+ So as you can see it's a very very simple design which is one of the things I really wanted to keep.
 
-0:13:41	SPEAKER_01
- Just keep it simple, not have too many buttons, not have too many functionalities thrown into it.
+0:13:42	SPEAKER_01
+ It's keep it simple not have too many buttons not have too many functionalities thrown into it.
 
-0:13:46	SPEAKER_01
- I think the design can pretty much carry over to everything, although with the wood, the flip screen might have to do something slightly different.
+0:13:47	SPEAKER_01
+ I think the design can pretty much carry over to everything although with the wood the flip screen might have to do something slightly different.
 
-0:13:57	SPEAKER_02
- Maybe like a copper hinge.
-
-0:13:59	SPEAKER_01
- Yeah.
+0:13:56	SPEAKER_02
+ It'd be like a copper hinge.
 
 0:14:00	SPEAKER_01
- But you also have to start watching after the wait, because depending on how much the flip screen will add to the wait, of the remote control you don't want it to start getting too heavy.
+ But you also have to start watching after the wait because depending on how much the flip screen will add to the wait of the remote control you don't want it to start getting too heavy.
 
-0:14:08	SPEAKER_01
- But that's the general layout with the general functionalities.
+0:14:09	SPEAKER_01
+ But that's the general layout with the general functionalities if you come up with something else.
 
-0:14:11	SPEAKER_01
- If we come up with something else, as you can see, there's still lots of space on the actual remote control.
+0:14:14	SPEAKER_01
+ As you can see there's still lots of space on the actual remote control and if you do it customizably you can make this thing fairly small or fairly large depending on personal preferences.
 
-0:14:17	SPEAKER_01
- And if you do it customizably, you could make this thing fairly small or fairly large, depending on personal preferences.
-
-0:14:26	SPEAKER_01
+0:14:27	SPEAKER_01
  So that's pretty much all I had to say.
 
 0:14:30	SPEAKER_01
- I mean, everything else in terms of design issues.
+ I mean everything else in terms of design issues.
 
 0:14:33	SPEAKER_01
- I mean, the centering of the keypad and the channel is just depending on where your thumb is.
+ I mean the centering of the keypad and the channel is just depending on where your thumb is.
 
-0:14:40	SPEAKER_01
- And you tend to use the volume control and the browsing more than the actual number pad.
+0:14:41	SPEAKER_01
+ And you tend to use the volume control and the browsing more than the actual number pad so that would be sort of in direct line of where your thumb goes when you're holding the remote control.
 
-0:14:46	SPEAKER_01
- So that would be sort of a direct line of where your thumb goes when you're holding the remote control.
+0:14:51	SPEAKER_01
+ The number pad a little bit lower because it's useless frequently.
 
-0:14:50	SPEAKER_01
- The number pad a little bit lower, because it's used less frequently.
+0:14:55	SPEAKER_01
+ So once we decide exactly what we want then we can figure out the exact positioning.
 
-0:14:54	SPEAKER_01
- So once we decide exactly what we want, then we can figure out the exact positioning.
-
-0:14:58	SPEAKER_01
- But more or less, I think it should go along those lines.
+0:14:59	SPEAKER_01
+ But more or less I think it should go along those lines.
 
 0:15:04	SPEAKER_00
- So what's your comment or...
+ So what's your comments or simple design?
 
-0:15:09	SPEAKER_03
- Simple design.
-
-0:15:11	SPEAKER_03
- So what consumers want.
+0:15:12	SPEAKER_03
+ So what consumers want?
 
 0:15:13	SPEAKER_03
- It's almost like Houston, we have a product here.
+ It's almost like Houston we have a product here.
 
-0:15:18	SPEAKER_03
- The problem is obviously going to be cost.
+0:15:19	SPEAKER_03
+ Problem is obviously going to be cost.
 
-0:15:22	SPEAKER_03
+0:15:23	SPEAKER_03
  I also have a very simple presentation.
 
-0:15:28	SPEAKER_03
- From the marketing point, you have to see what the consumers want.
+0:15:29	SPEAKER_03
+ From the marketing point you have to see what the consumers want.
 
-0:15:32	SPEAKER_03
+0:15:33	SPEAKER_03
  I also have a copy to a different type of remote.
 
-0:15:40	SPEAKER_03
- If you can find me, wherever I'm at.
-
-0:15:43	SPEAKER_03
+0:15:44	SPEAKER_03
  This should only be one in here.
 
 0:15:46	SPEAKER_03
  But try and watch.
 
-0:15:52	SPEAKER_02
+0:15:49	None
  Sure.
 
-0:15:54	SPEAKER_03
- This would be a modified.
+0:15:51	SPEAKER_03
+ It doesn't be a modified.
 
-0:15:56	SPEAKER_03
+0:15:57	SPEAKER_03
  They're stealing our product.
 
 0:16:00	SPEAKER_03
- We've been giving simple questionnaires in different ergens.
+ We've been giving simple questionnaires and different areas because obviously we have to see what the consumers are looking for today because trends change very very quickly.
 
-0:16:03	SPEAKER_03
- Obviously we have to see what the consumers are looking for today.
-
-0:16:07	SPEAKER_03
- Because the trends change very, very quickly.
-
-0:16:10	SPEAKER_03
- In six months, maybe this idea has already gone out the window.
+0:16:11	SPEAKER_03
+ In six months maybe this idea has already gone out the window.
 
 0:16:14	SPEAKER_03
  So it's going to be a question of how fast we can act.
 
-0:16:17	SPEAKER_03
+0:16:18	SPEAKER_03
  They already erased the rest of mine.
 
 0:16:20	SPEAKER_02
- No, go to find this.
+ No.
+
+0:16:21	SPEAKER_02
+ Go to finance.
 
 0:16:22	SPEAKER_02
  No, no, no.
 
-0:16:24	SPEAKER_03
+0:16:23	SPEAKER_03
  Because I had another comment there.
 
-0:16:26	SPEAKER_03
- The market trend.
-
-0:16:30	SPEAKER_03
- This is what we know from the questionnaires.
-
-0:16:33	SPEAKER_03
- From all the surveys we've done.
+0:16:27	SPEAKER_03
+ The market trend, this is what we know from the last questionnaires and all the surveys we've done.
 
 0:16:35	SPEAKER_03
  Fancy and feel good.
 
-0:16:37	SPEAKER_03
+0:16:36	SPEAKER_03
  That's what we've been looking for.
 
-0:16:39	SPEAKER_03
- Something that feels good in the hand.
+0:16:37	SPEAKER_03
+ Something that feels good in the hand that's easy to use.
 
 0:16:40	SPEAKER_03
- That's easy to use.
-
-0:16:41	SPEAKER_03
- Looking for a next generation of innovation.
-
-0:16:43	SPEAKER_03
- Because all the remotes out there now.
+ Looking for a next generation of innovation because all the remotes out there now, they're all very similar.
 
 0:16:45	SPEAKER_03
- They're all very similar.
-
-0:16:46	SPEAKER_03
  They all do the same thing.
 
-0:16:48	SPEAKER_03
+0:16:46	SPEAKER_03
  We have to have something completely different.
 
-0:16:51	SPEAKER_03
- Easy to use, as always, become another major interest.
+0:16:50	SPEAKER_03
+ Easy to use has always become another major interest.
 
 0:16:54	SPEAKER_03
- With the whiteboard, we can see that it's a remote that's easy to use.
+ With the whiteboard we can see that it's a remote that's easy to use.
 
-0:16:58	SPEAKER_03
- And I think this is another thing.
+0:16:59	SPEAKER_03
+ And I think this is another thing that's interesting is the consumers are actually willing to pay the price for exciting technology.
 
-0:17:00	SPEAKER_03
- It's interesting as the consumers actually will need to pay the price for exciting technology.
+0:17:05	SPEAKER_03
+ So even if we have a product that may be more expensive, if it comes out right, if they didn't look and it looks and feels good and has technology.
 
-0:17:04	SPEAKER_03
- So even if we have a product that may be more expensive.
-
-0:17:07	SPEAKER_03
- If it comes out right.
-
-0:17:09	SPEAKER_03
- If they look and it looks and feels good and has technology.
-
-0:17:14	SPEAKER_03
+0:17:15	SPEAKER_03
  The second two, you can see the last one is a very easy, simple design.
 
-0:17:19	SPEAKER_03
- The second one, there's about 45,000 different buttons on it.
+0:17:20	SPEAKER_03
+ The second one, there's about 45,000 different buttons on it, which makes it fairly hard to read, very hard to use.
 
-0:17:23	SPEAKER_03
- Which makes it fairly hard to read, very hard to use.
-
-0:17:26	SPEAKER_03
- The first one, I see that they put in a display.
+0:17:27	SPEAKER_03
+ The first one I see that they put in a display.
 
 0:17:30	SPEAKER_03
- Now this is something else with a little flip up.
+ Now, this is something else with the little flip up now.
 
-0:17:32	SPEAKER_03
- Now we're adding all kinds of things in.
+0:17:33	SPEAKER_03
+ We're adding all kinds of things in, but with the little flip up, if you have a little display on the flip up and when you close it, everything is locked.
 
-0:17:34	SPEAKER_03
- But with a little flip up, if you have a little display on the flip up.
+0:17:40	SPEAKER_03
+ Maybe the display also makes it easier to use because sometimes when you're looking for buttons, maybe if you see a display.
 
-0:17:36	SPEAKER_03
- And when you close it, everything is locked.
-
-0:17:38	SPEAKER_03
- Yeah.
-
-0:17:39	SPEAKER_03
- Maybe the display also makes it easier to use.
-
-0:17:41	SPEAKER_03
- Because sometimes when you're looking for buttons, maybe if you see a display.
-
-0:17:45	SPEAKER_02
- Context, sensitive instructions.
+0:17:47	SPEAKER_02
+ Context sensitive instructions.
 
 0:17:48	SPEAKER_02
- Right.
-
-0:17:49	SPEAKER_02
- Depending on what the TV or the DVD or something else.
+ Depending on what the mode, the TV or the DVD or something else.
 
 0:17:53	SPEAKER_01
- Especially the standard one.
+ It was mostly the standard one.
 
 0:17:55	SPEAKER_03
- Now you have one with a very simple also.
-
-0:17:59	SPEAKER_03
- The idea is simple, but with a display.
+ Now you have one with a very simple also, the idea is simple, but with a display.
 
 0:18:01	SPEAKER_03
  So you can see what you're doing.
 
 0:18:03	SPEAKER_03
- So maybe if we can incorporate the easiness of use.
+ So maybe if we can incorporate the easiness of use, trendy, fancy, feels good.
 
-0:18:07	SPEAKER_03
- Trendy, fancy.
-
-0:18:09	SPEAKER_03
- Feels good.
-
-0:18:14	SPEAKER_03
- With a display.
-
-0:18:16	SPEAKER_03
- wood, designer wood, designer colors.
+0:18:15	SPEAKER_03
+ With a display, wood, designer wood, designer colors.
 
 0:18:19	SPEAKER_02
- Maybe what you could do is somebody orders the device.
-
-0:18:23	SPEAKER_02
- You could send them like a, some sort of a foam rubber ball.
-
-0:18:35	SPEAKER_02
- And then they would squeeze it and it would take the shape of their hands.
+ Maybe what you could do is if somebody orders the device, you could send them like some sort of foam rubber ball and then they would squeeze it and it would take the shape of their hands.
 
 0:18:39	SPEAKER_02
- Yeah.
+ So it's really molded to your specific.
 
-0:18:40	SPEAKER_02
- So it's really molded to tears.
+0:18:45	SPEAKER_02
+ The geometry of their hands would be.
 
-0:18:42	SPEAKER_02
- And then you would know what the geometry of their hands would be.
-
-0:18:48	SPEAKER_03
- Hardly squeezed.
+0:18:49	SPEAKER_03
+ Hard they squeeze.
 
 0:18:50	SPEAKER_03
- Resistance.
+ You know what kind of wood is there?
 
-0:18:52	SPEAKER_03
- Resistance, right.
-
-0:18:54	SPEAKER_01
- But for that, you'd also have to do an average across families.
+0:18:56	SPEAKER_01
+ But for that you'd also have to do sort of an average across families.
 
 0:18:59	SPEAKER_01
- That's right.
-
-0:19:00	SPEAKER_01
- That's right.
-
-0:19:01	SPEAKER_01
  Unless everyone has their own personal remote.
 
-0:19:03	SPEAKER_02
- Well, that actually would increase the revenue.
+0:19:04	SPEAKER_02
+ That actually would increase the revenue.
 
-0:19:06	SPEAKER_02
- The sales.
-
-0:19:07	SPEAKER_02
- Yeah.
-
-0:19:08	SPEAKER_02
- Yeah.
-
-0:19:09	SPEAKER_03
- I hope so.
-
-0:19:12	SPEAKER_03
- No, but incorporating the three obviously would be something totally new on the market.
-
-0:19:15	SPEAKER_03
- Yeah.
+0:19:11	SPEAKER_03
+ But incorporating the three obviously would be something totally new on the market.
 
 0:19:16	SPEAKER_03
  Totally different.
 
-0:19:17	SPEAKER_03
- And.
+0:19:17	SPEAKER_01
+ Already the customizability is a really good sort of medium.
 
-0:19:18	SPEAKER_01
- Already the customized ability is a really good sort of.
-
-0:19:22	SPEAKER_03
- Well, it was a Nokia that came out with the changeable colors.
+0:19:23	SPEAKER_03
+ What it was, it was a Nokia that came out with the changeable colors.
 
 0:19:28	SPEAKER_03
- Yeah.
-
-0:19:29	SPEAKER_03
- Take apart and put on another face.
-
-0:19:31	SPEAKER_03
- Take it off and put on another face.
+ Take apart and put it on another face, take it off and put it on another face.
 
 0:19:33	SPEAKER_01
  And that took off.
 
-0:19:34	SPEAKER_01
+0:19:34	SPEAKER_03
  They sold millions.
-
-0:19:35	SPEAKER_03
- Yeah.
 
 0:19:36	SPEAKER_03
  Millions.
 
 0:19:37	SPEAKER_03
- So.
-
-0:19:39	SPEAKER_03
- So with the findings with the research, easy to use something totally new.
+ So, so the findings were the research, easy to use, something totally new.
 
 0:19:43	SPEAKER_03
  We have to come up with something totally new that is not on the market.
 
 0:19:46	SPEAKER_02
- We'd also have to consider that who we were going to get to make these custom cases in terms of manufacturing processes to might learn about labor laws.
+ We'd also have to consider that who we were going to get to make these custom cases in terms of manufacturing processes.
 
-0:19:59	SPEAKER_02
- You know, in different countries and stuff.
+0:19:54	SPEAKER_02
+ We might want to learn about labor laws in different countries and stuff.
 
-0:20:10	SPEAKER_02
+0:20:02	SPEAKER_02
  So we can do it cheap, but you don't want to exploit labor in third world countries.
 
-0:20:16	SPEAKER_02
- So actually you could turn it, you turn it around and say that your part.
+0:20:09	SPEAKER_02
+ So actually you could turn it around and say that the reason the cost is high for the device is because you're paying a working wage to the person who made the device.
 
-0:20:20	SPEAKER_00
- The reason that cost is high for the device is because you're paying a working wage to the person who made the device.
+0:20:22	SPEAKER_00
+ But we can get a production in countries like India.
 
 0:20:28	SPEAKER_00
- Yes, yes.
+ Cost of living is low.
 
 0:20:29	SPEAKER_00
- I've been just like India or China or Malaysia.
+ Yes, if it is like India or China or Malaysia.
 
 0:20:32	SPEAKER_00
- So you can go a bit of futures and better price and you can sell more.
+ So you can go with better futures and better price and you can sell more.
 
 0:20:38	None
  Good.
 
 0:20:39	SPEAKER_02
- Well, that'd be something that manufacturing would have to explore more.
+ Well, that would be something that manufacturing would have to explore more.
 
-0:20:46	SPEAKER_03
- Where would you manufacture this?
+0:20:47	SPEAKER_03
+ Where would you manufacture this is?
 
-0:20:49	SPEAKER_03
+0:20:50	SPEAKER_03
  So another step.
 
 0:20:51	SPEAKER_03
@@ -683,72 +626,75 @@
  Yes.
 
 0:20:54	SPEAKER_00
- That we can talk about the production later, it depends on the quantity.
+ But that's a nice product.
 
-0:20:59	SPEAKER_00
+0:20:55	SPEAKER_00
+ We can talk about the production later, okay, depends on the quantity.
+
+0:21:00	SPEAKER_00
  So we don't need to have our own fabric factory or something.
 
 0:21:03	SPEAKER_00
- So we can have a tie up with who do the fabric for the different electronic side times.
+ So we can have a tie up with who do the fabric with the different electronic items.
 
 0:21:09	SPEAKER_00
- Then we can have a business tie up and to get the cost to sell more.
+ Then we can have a business tie up and to get to get the cost to sell more.
 
 0:21:16	SPEAKER_00
  So let's decide first about the components concept and interface concept.
 
 0:21:23	SPEAKER_00
- If it is acceptable for both of you, what it was talking.
+ If it is acceptable for both of you, what Ed was talking.
 
 0:21:30	SPEAKER_00
- And you were designed with the display or with the display or just a simple.
+ And you will design with the display or without display or just simple.
 
 0:21:38	SPEAKER_01
  I think it depends.
 
 0:21:39	SPEAKER_01
- I think it's a good idea, but we need to really think about how useful it's going to be because theoretically with a TV you already have a big display right in front of you.
+ I mean, I think it's a good idea.
+
+0:21:40	SPEAKER_01
+ But we need to really think about how useful it's going to be because theoretically with a TV you already have a big display right in front of you.
 
 0:21:50	SPEAKER_01
  So if we're trying to keep costs down, then maybe sacrificing the display is a way to go.
 
 0:21:59	SPEAKER_01
- It depends on how much putting a display costs and what it would be used for.
+ I mean, it depends on how much putting a display costs and what it would be used for.
 
 0:22:03	SPEAKER_01
  Very specifically what it would be used for.
 
 0:22:05	SPEAKER_01
- Because if it's only used for one little thing, then putting in a big display case or a big display that's probably expensive just to do the training on the chip for the speech recognition or whatever.
+ Because if it's only used for one little thing, then putting in a big display case or a big display that's probably expensive just to do the training on the chip for the speech recognition or whatever may not be the most cost efficient way to go.
 
-0:22:18	SPEAKER_01
- It may not be the most cost efficient way to go, but that's just sort of speculation.
+0:22:20	SPEAKER_01
+ But that's just sort of speculation.
 
-0:22:24	SPEAKER_02
- What do you think Ed?
+0:22:23	SPEAKER_02
+ I mean, what do you think Ed?
 
-0:22:26	SPEAKER_02
+0:22:27	SPEAKER_02
  You like the display in one of the concepts that you showed.
 
-0:22:30	SPEAKER_02
+0:22:32	SPEAKER_02
  Do you know how much it costs to add a little display like this?
 
 0:22:37	SPEAKER_03
- No, no.
+ No.
 
 0:22:38	SPEAKER_02
- You want to take an action item and go find out?
+ You want to take an action item to go find out?
 
 0:22:41	SPEAKER_03
- Because we have to find out a cost on it.
+ It's because we have to find out a cost on it.
 
-0:22:43	SPEAKER_02
- Okay.
-
-0:22:44	SPEAKER_02
+0:22:46	SPEAKER_02
  Sorry about that.
 
-0:22:46	SPEAKER_03
+0:22:47	SPEAKER_03
  No, that's no problem.
 
 0:22:48	SPEAKER_03
@@ -757,25 +703,25 @@
 0:22:51	SPEAKER_03
  I will market it.
 
-0:22:53	SPEAKER_03
+0:22:54	SPEAKER_03
  Once we get a price on it, then we can market it.
 
-0:22:58	SPEAKER_02
- So the advanced chip on print is what we've determined and the engineering industrial design is the recommendation.
+0:22:59	SPEAKER_02
+ So the advanced chip on print is what we've determined in the engineering industrial design is the recommendation.
 
-0:23:11	SPEAKER_02
- I think we've come to some agreement regarding this concept of a wooden case.
+0:23:12	SPEAKER_02
+ And I think we've kind of come to some agreement regarding this concept of a wooden case.
 
-0:23:20	SPEAKER_02
+0:23:19	SPEAKER_02
  A customizable and...
 
 0:23:22	SPEAKER_03
- Nice, beautiful, mahargan, red wooden case.
+ Nice, beautiful mahogany red wooden case.
 
-0:23:26	SPEAKER_02
- Where the buttons be, would too.
+0:23:26	SPEAKER_01
+ Would the buttons be wood too?
 
-0:23:29	SPEAKER_02
+0:23:28	SPEAKER_02
  I don't think so.
 
 0:23:30	SPEAKER_02
@@ -784,81 +730,93 @@
 0:23:33	SPEAKER_02
  So you have that tactile experience.
 
-0:23:37	SPEAKER_00
- What we'll do is we will stick with the simple design for time being until the add findouts about how much it's cost to the extra in case we go for the display.
+0:23:35	SPEAKER_00
+ Yeah, so what we'll do is we will stick with the simple design for time being until the ad find out about how much it's cost to the extra in case we go for the display.
 
-0:23:49	SPEAKER_00
+0:23:50	SPEAKER_00
  So maybe what you can do is both of you can come up with the prototype, the model.
 
-0:23:58	SPEAKER_00
+0:23:59	SPEAKER_00
  Okay.
 
-0:23:59	SPEAKER_01
+0:24:01	SPEAKER_01
  Sure.
 
-0:24:10	SPEAKER_02
- So, are we done with this meeting?
+0:24:03	SPEAKER_02
+ So are we done with this meeting?
 
 0:24:14	SPEAKER_00
- I hope, is it okay if they will come up with the prototype design, then they can show you how it looks like and then we can submit to the...
+ Yeah, I hope.
+
+0:24:16	SPEAKER_00
+ Is it okay if they will come up with the prototype design?
+
+0:24:19	SPEAKER_00
+ Okay, then they can show you how it looks like and then we can submit to the...
 
 0:24:24	SPEAKER_00
  I will submit to the management.
 
-0:24:26	SPEAKER_00
- Okay. Then, in the meantime, you can come up with the price, how much it's cost is extra for the display?
+0:24:27	SPEAKER_00
+ Okay.
+
+0:24:28	SPEAKER_00
+ Then mean that time you can come up with the price, how much it's cost as extra for the display.
 
 0:24:33	SPEAKER_00
- And I'm marketing strategy.
+ And a marketing strategy.
 
 0:24:34	SPEAKER_00
- And I'm marketing strategy.
+ And a marketing strategy.
 
 0:24:35	SPEAKER_00
- I'm marketing strategy.
+ That's very important.
 
-0:24:36	SPEAKER_03
- I'm marketing strategy.
+0:24:36	SPEAKER_00
+ Fire.
 
-0:24:39	SPEAKER_03
- How much you can fire?
-
-0:24:41	SPEAKER_00
+0:24:37	SPEAKER_03
  How much you can select?
 
-0:24:43	SPEAKER_00
- Of course, you'll make money too.
+0:24:38	SPEAKER_00
+ Of course you'll make money too.
 
-0:24:46	SPEAKER_00
- Not only fired, you make money too.
+0:24:45	SPEAKER_00
+ So not only fired, you make money too.
 
 0:24:49	SPEAKER_00
  Your commission.
 
-0:24:52	SPEAKER_00
+0:24:51	SPEAKER_00
  Okay, so any questions?
 
 0:24:55	SPEAKER_00
  No.
 
-0:24:56	SPEAKER_00
- So, by next meeting, please come up with the prototype.
+0:24:57	SPEAKER_00
+ So by next meeting, so please come up with the prototype.
 
-0:25:02	SPEAKER_00
- Okay, then we can proceed from there.
-
-0:25:05	SPEAKER_01
- Okay.
+0:25:03	SPEAKER_00
+ And then we can press it from there.
 
 0:25:06	SPEAKER_00
- So, thanks for all your efforts and coming for the meeting again and see you soon there.
+ Okay.
+
+0:25:07	SPEAKER_00
+ So thanks for all your efforts and coming for the meeting again and see you soon there.
 
 0:25:14	SPEAKER_00
  Okay.
 
 0:25:15	SPEAKER_00
+ Okay.
+
+0:25:16	None
  Thank you.
 
-0:25:24	None
- Thank you.
+0:25:17	None
+ Okay.
+
+0:25:34	None
+ chime
 

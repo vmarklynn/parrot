@@ -4,7 +4,7 @@
 0:00:36	SPEAKER_00
  Welcome everybody.
 
-0:00:38	SPEAKER_00
+0:00:37	SPEAKER_00
  Hope your sessions went well.
 
 0:00:43	SPEAKER_00
@@ -14,7 +14,7 @@
  We're going to consider user needs, technical effects, and the working design of our remote control.
 
 0:00:56	SPEAKER_00
- I've been taking meetings on the minutes and the meetings, and I'll be putting them in the shared documents folder so if there's anything you need to refer to, you can find them in there.
+ I've been taking meetings on the minutes, and I'll be putting them in the shared documents folder so if there's anything you need to refer to, you can find them in there.
 
 0:01:07	SPEAKER_00
  I'll get the ones up next time.
@@ -22,101 +22,77 @@
 0:01:10	SPEAKER_00
  They're not finished yet.
 
-0:01:13	SPEAKER_00
- Right, so can we have updates from everyone from what you've worked on, just kind of a quick summary of anything interesting that you'd like to share or discuss in the past?
+0:01:14	SPEAKER_00
+ So can we have updates from everyone from what you've worked on?
 
-0:01:25	SPEAKER_02
- Sure.
+0:01:18	SPEAKER_00
+ Just kind of a quick summary of anything interesting that you'd like to share or discuss
 
-0:01:26	SPEAKER_02
- Is that an order?
+0:01:24	SPEAKER_02
+ in the list. Is that an order?
 
 0:01:27	SPEAKER_02
- No, I'm just sorry, I don't know the order.
+ No, I decided on an order.
 
 0:01:30	SPEAKER_00
- No, any orders, then.
+ No, any order is fine.
 
 0:01:32	SPEAKER_02
- Okay.
-
-0:01:33	SPEAKER_02
  How do I put this?
 
-0:01:34	SPEAKER_02
+0:01:35	SPEAKER_02
  I'll just put the cable in.
 
-0:01:37	SPEAKER_00
- Oh, yes, I...
-
 0:01:38	SPEAKER_00
- Is that it?
-
-0:01:39	None
- Can you see?
-
-0:01:40	SPEAKER_00
- Okay.
-
-0:01:41	SPEAKER_01
- So what happens?
+ Oh yeah, sorry.
 
 0:01:42	None
- I don't want it.
+ Is that it?
 
-0:01:43	SPEAKER_02
- It takes a few seconds, I think.
+0:01:46	SPEAKER_02
+ Can you see?
 
-0:01:58	SPEAKER_03
- Do you need two?
+0:01:50	SPEAKER_02
+ It's all up.
 
-0:02:14	SPEAKER_02
+0:01:57	SPEAKER_01
+ It takes a few seconds I think.
+
+0:02:05	SPEAKER_01
+ You may need to.
+
+0:02:10	SPEAKER_03
  Who's that?
 
-0:02:16	SPEAKER_01
- In the world, sometimes you have to do it.
+0:02:13	SPEAKER_03
+ Look.
 
-0:02:16	SPEAKER_01
- It's like a three-setting cycle.
+0:02:14	SPEAKER_01
+ It's like a three-setting cycle, so press it a couple of times.
 
-0:02:18	SPEAKER_01
- So I've press it a couple times.
+0:02:21	SPEAKER_02
+ Hold down function and then press function.
 
-0:02:20	SPEAKER_01
- Hold down function, and then I'll set it.
-
-0:02:25	SPEAKER_02
- Oh, right.
-
-0:02:28	SPEAKER_00
- and then press function and F8.
-
-0:02:33	SPEAKER_03
- Could you just plug it back into hers?
-
-0:02:38	SPEAKER_02
- Oh, that's it.
-
-0:02:40	SPEAKER_02
- Interesting.
-
-0:02:41	None
+0:02:31	SPEAKER_00
  Yeah.
 
-0:02:42	SPEAKER_01
- Okay, one might be a little loose, but here we are.
+0:02:33	None
+ And then F8.
 
-0:02:48	SPEAKER_01
- Yeah, sit down.
+0:02:36	SPEAKER_03
+ Could you just plug it back into hers?
 
-0:02:49	SPEAKER_01
+0:02:40	SPEAKER_02
+ Yeah.
+
+0:02:45	SPEAKER_01
  Okay.
 
-0:02:50	SPEAKER_02
- Okay.
+0:02:48	SPEAKER_02
+ In order to see what the functional requirements were to be found, 100 people were tested in usability laboratory through just their habits.
 
-0:02:51	SPEAKER_02
- In order to see what the functional requirements were to be found, um, 100 people were testing usability, laboratory through just their habits and their habits were observed and question as were given out.
+0:03:05	SPEAKER_02
+ They're habits were observed and questionnaires were given out.
 
 0:03:11	SPEAKER_02
  The findings in some cases matched what we were talking about.
@@ -128,106 +104,91 @@
  They don't like the way they feel.
 
 0:03:24	SPEAKER_02
- They don't think they match their operating behavior and an example is what we were talking about the buttons.
+ They don't think they match their operating behavior.
+
+0:03:27	SPEAKER_02
+ And an example is what we were talking about, the buttons.
 
 0:03:30	SPEAKER_02
  They only use 10% of the buttons.
 
 0:03:33	SPEAKER_02
- So later on, there's a study of the buttons that they use most and I think we should design according to these buttons.
+ And later on there's a study of the buttons that they use most.
 
-0:03:39	SPEAKER_02
- Easy to lose and RS.
+0:03:36	SPEAKER_02
+ And I think we should design according to these buttons.
+
+0:03:40	SPEAKER_02
+ Easy to lose and RSI.
 
 0:03:41	SPEAKER_02
- I don't know what RS I means.
+ I don't know what RSI means.
 
 0:03:44	SPEAKER_02
- The person that did the questionnaire obviously did.
+ The person that did the questionnaire, obviously did.
 
 0:03:47	SPEAKER_02
  I don't know.
 
-0:03:48	SPEAKER_02
- I'll include.
-
 0:03:50	SPEAKER_02
- According to the frequency of use and the relevance of each button, I have made a list of the buttons that we should focus on in order of importance.
+ According to the frequency of use and the relevance of each buttons, I have made a list of the buttons that we should focus on in order of importance.
 
 0:04:01	SPEAKER_02
- So the most important buttons are those to do with channel selection.
+ The most important buttons in those do with channel selection.
 
 0:04:04	SPEAKER_02
- They're used about 160 times power.
+ They're used about 160 times per hour.
 
 0:04:09	SPEAKER_02
- And, um, yeah.
-
-0:04:11	SPEAKER_02
- So, and people like to zap a lot, apparently.
+ And people like to zap a lot, apparently.
 
 0:04:14	SPEAKER_02
- So this is the order, channel selection, teletext, volume and power.
+ So this is the order, translation, teletext, volume and power.
 
 0:04:20	SPEAKER_02
- The other ones are the settings and they're used less than, you know, 0.8 to 0.5 times per hour.
+ The other ones are the settings and they're used less than 0.8 to 0.5 times per hour.
 
 0:04:27	SPEAKER_02
- And this means that I think we could have like a button for all the settings and then just one and then from there go on to the audio on the screen, either on the remote or on the television.
+ This means that I think we could have a button for all the settings.
+
+0:04:32	SPEAKER_02
+ And then just one and then from there go on to the audio on the screen, either on the remote or on the television.
 
 0:04:40	SPEAKER_02
- And the screen and speech recognition, some people are more willing than others to actually pay for that.
+ About the screen and speech recognition, some people are more willing than others to actually pay for that.
 
 0:04:46	SPEAKER_02
- And if we look at the market, people from, well, from 15 to 35 year olds, I don't really know how to describe this.
+ And if we look at the market, people from 15 to 35 year olds, I don't really know how to describe this.
 
-0:04:55	SPEAKER_02
- Um, 91 to 76% of people in that age range are willing to pay more for this sort of product.
+0:04:56	SPEAKER_02
+ So that's the number of people that are above 35 years old.
 
-0:05:04	SPEAKER_02
- Are people that are above 35 years old, um, years old, go from 35% to 8%.
+0:05:03	SPEAKER_02
+ Go from 35% to 8%.
 
-0:05:11	SPEAKER_02
+0:05:07	SPEAKER_02
  So people that are 65, for example, wouldn't actually pay for this sort of thing.
 
-0:05:17	SPEAKER_02
- Um, I don't, I don't know, um, what the decision to be made is, but I think that the people that actually do buy remote more are those like teenagers and young professionals.
+0:05:13	SPEAKER_02
+ I don't know what the decision to be made is, but I think that the people that actually do buy remotes more are those like teenagers and young professionals and most likely, but we should discuss this together.
 
-0:05:30	SPEAKER_02
- Um, it's likely, but we should discuss this together.
+0:05:28	SPEAKER_02
+ And that's what I have to say about the matter.
 
-0:05:34	SPEAKER_02
- Um, that's what I have to say about the matter.
+0:05:33	SPEAKER_02
+ Shall I? What do I do? Do I give this to someone else?
 
-0:05:37	SPEAKER_02
- Um, shall I, what do I do?
+0:05:40	SPEAKER_02
+ Yeah, just move right on.
 
-0:05:42	SPEAKER_02
- Do I give this to someone else?
-
-0:05:44	SPEAKER_02
- Yeah.
-
-0:05:45	SPEAKER_00
- Just be a friend.
-
-0:05:46	None
- All right.
-
-0:05:47	None
- Let's get this.
-
-0:05:48	SPEAKER_03
- Okay.
+0:05:43	SPEAKER_03
+ Let's do this.
 
 0:06:13	SPEAKER_03
- Okay, so, now I need to press evade.
-
-0:06:21	SPEAKER_03
- What is it?
+ Okay, so now I need to press F8. What is it?
 
 0:06:22	SPEAKER_03
- Function effect.
+ A function of it.
 
 0:06:30	SPEAKER_03
  What's function?
@@ -235,296 +196,476 @@
 0:06:31	SPEAKER_03
  It's the little blue.
 
-0:06:32	SPEAKER_03
- What is function?
+0:06:32	SPEAKER_00
+ It's the function.
 
-0:06:33	SPEAKER_00
- I should be cool.
+0:06:39	SPEAKER_00
+ That should be cool.
 
-0:06:48	SPEAKER_03
+0:06:49	SPEAKER_03
  Okay.
 
-0:06:51	SPEAKER_03
+0:06:52	SPEAKER_03
  This is my presentation about the technical functions design.
 
-0:06:59	SPEAKER_03
+0:06:58	SPEAKER_03
  I basically just tried to focus on what functions we need and how to make that the best function for the user.
 
 0:07:11	SPEAKER_03
  I thought about it myself and looked on the internet.
 
-0:07:16	SPEAKER_03
- Okay.
+0:07:19	SPEAKER_03
+ I think it is really important that we sort of get this done in a user-friendly and fashionable way.
 
-0:07:17	SPEAKER_03
- So basically, I think it is really important that we sort of get this done in a user-friendly and fashionable way.
+0:07:30	SPEAKER_03
+ Keeping buttons together, close together, that are used in the same way or maybe making the same color, keeping the number of buttons to a minimum.
 
-0:07:26	SPEAKER_03
- So I think things like keeping buttons close together that are used in the same way, or maybe making the same color, keeping the number of buttons to a minimum.
-
-0:07:47	SPEAKER_03
- And also things like, is it small enough, large enough?
+0:07:52	SPEAKER_03
+ Can you, small enough, large enough, I'm not sure.
 
 0:07:55	SPEAKER_03
- I'm not sure.
-
-0:07:56	SPEAKER_03
  I guess we would need to do some research about what size is appropriate and that sort of thing.
 
-0:08:04	SPEAKER_03
- But basically, we need to make sure that it turns on and off the TV.
+0:08:03	SPEAKER_03
+ But basically we need to make sure that it turns on and off the TV.
 
-0:08:07	SPEAKER_03
+0:08:06	SPEAKER_03
  Does it have capacity to change the channels?
 
-0:08:11	SPEAKER_03
- Does it do, do we need to have functions for cable or VCR?
+0:08:12	SPEAKER_03
+ Do we need to have functions for cable or VCR and then is it findable and how do we want to do that?
 
-0:08:17	SPEAKER_03
- And then is it findable?
-
-0:08:20	SPEAKER_03
- And how do we want to do that?
-
-0:08:24	SPEAKER_03
- And I just thought that these two remotes were pretty boring.
-
-0:08:30	SPEAKER_03
- I don't know if this is really good.
+0:08:23	SPEAKER_03
+ I just thought that these two remotes were pretty boring.
 
 0:08:34	SPEAKER_03
- And I think we can find something that's more fun to look at and use than I did this.
+ I think we can find something that is more fun to look at and use than either of those.
 
-0:08:41	SPEAKER_03
- I mean, I like the one on the right better, just because it does have fewer buttons.
+0:08:40	SPEAKER_03
+ I like the one on the right better just because it does have fewer buttons.
 
-0:08:46	SPEAKER_03
- But I mean, I think we can think about things like color and size shapes, that sort of thing, to best fit the user.
+0:08:45	SPEAKER_03
+ I think we can sort of think about things like color and size shapes and that sort of thing to best fit the user.
 
-0:09:01	SPEAKER_03
+0:09:00	SPEAKER_03
  That concludes my presentation.
 
-0:09:03	None
- Okay.
+0:09:30	SPEAKER_00
+ Thank you.
 
-0:09:04	SPEAKER_03
- Okay, I need to look at things.
+0:10:00	SPEAKER_01
+ This is on the working design, which is one of the mechanical functions of the remote.
 
-0:09:20	None
- Okay.
+0:10:20	SPEAKER_01
+ The method I used was to basically look at existing designs and incorporate ideas from our last meeting.
 
-0:09:54	SPEAKER_01
- Okay, so this is on the working design, which is sort of the mechanical functions of the remote. The method I used was to look at existing designs and corporate ideas from our last reading. So I think we need two basic functions, which is just the basic remote functions.
+0:10:28	SPEAKER_01
+ I think we need two basic functions, which is the basic remote functions.
 
-0:10:33	SPEAKER_01
- User can input a channel or a volume setting and it would be outputs in the TV. And also we talked about a location function where maybe you could press a button on the TV and it would send sort of signal to the remote where it would be for flash or vibrate or whatever to tell you where the remote is.
+0:10:34	SPEAKER_01
+ User can input a channel or a volume setting and it would be output to the TV.
+
+0:10:39	SPEAKER_01
+ Also we talked about a location function where maybe you could press a button on the TV and it would send a signal to the remote where it would be for flash or vibrate or whatever to tell you where the remote is.
 
 0:10:51	SPEAKER_01
- So the components we need are an energy source to power the remote input, which would probably be buttons, although we just talked about voice recognition, processor to take the information. Something to transmit it to the TV. And we also need something on the remote that would receive the location signal, to have an output like possibly a beep or a vibration. And also you need a sender for location signal, which would probably be a separate thing that we'd have to sell with the remote and people could stick it on their TV or stick it on their wall. And this is just sort of an overview of how the remote works. Power comes from the battery, it goes to the chip, and then it is sent from there to an infrared bulb, which would probably be the easiest way to send it to the TV. And then for the location function you would have a sender on the TV, which would output some sort of signal. We could use IR, but we'd probably want to use radio instead. That signal would go to a receiver, the chip would process it, and it would be output in the form of a buzzer or a light lighting up.
+ The components we need are an energy source to power through a node.
 
-0:12:00	SPEAKER_01
- So my personal preference is for how to build the remote would probably be a battery for the energy source, that way you wouldn't have to plug it in. A button pad for input, we can purchase a pre-made chip, which will hand all the processing stuff, IR transmitter to communicate to the TV that's just sort of standard.
+0:11:01	SPEAKER_01
+ Processor to take the information.
 
-0:12:19	SPEAKER_01
- So most TVs have an IR receiver, probably a radio receiver to send out location function and to receive it.
+0:11:04	SPEAKER_01
+ Something to transmit it to the TV.
 
-0:12:26	SPEAKER_01
- And I'd probably say a buzzer for the location function on the remote itself. So that concludes my presentation.
+0:11:07	SPEAKER_01
+ We also need something on the remote that would receive the location signal and have an output, like possibly a beep or a vibration.
 
-0:12:34	SPEAKER_03
- Do you know about, like, I don't know, you seem like you know about, yeah, I was an engineer.
+0:11:15	SPEAKER_01
+ You need a sender for location signal, which would probably be a separate thing that we would have to sell with the remote and if you could stick it on the TV or stick it on the wall.
 
-0:12:41	SPEAKER_00
- Okay. Well, thank you everybody. We'll discuss that in a minute. I just want to mention some new project requirements that came in.
+0:11:26	SPEAKER_01
+ This is an overview of how the remote works.
 
-0:12:59	SPEAKER_00
- Teletext is apparently outdated. So due to internet popularity, so that's off the list.
+0:11:30	SPEAKER_01
+ Power comes from the battery, it goes to the chip, and then it is sent from there to an infrared bulb, which would probably be the easiest way to send to the TV.
 
-0:13:10	SPEAKER_00
- Also, our remote should be used only for television. No, extra internet, kind of fancy things, just through it and the television.
+0:11:40	SPEAKER_01
+ Then the location function would have a sender on the TV, which would output some sort of signal.
+
+0:11:46	SPEAKER_01
+ We could use IR, but we probably want to use radio instead.
+
+0:11:50	SPEAKER_01
+ That signal would go to a receiver, it would process it, and it would be output in the form of a buzzer or a light lighting up.
+
+0:12:01	SPEAKER_01
+ My personal preference is for how to build the remote would probably be a battery for the energy source, that way you wouldn't have to plug it in.
+
+0:12:10	SPEAKER_01
+ A button pad, input, we can purchase a pre-made chip, which will handle all the processing stuff.
+
+0:12:16	SPEAKER_01
+ IR transmitter to communicate to the TV, that is standard.
+
+0:12:20	SPEAKER_01
+ Most TVs have an IR receiver.
+
+0:12:23	SPEAKER_01
+ It is a radio receiver to send out a location function and to receive it.
+
+0:12:33	SPEAKER_01
+ That includes my presentation.
+
+0:12:36	SPEAKER_03
+ Do you know about, I don't know, do you seem like you know about?
+
+0:12:40	SPEAKER_01
+ Yeah, I was an engineer.
+
+0:12:42	SPEAKER_01
+ Okay.
+
+0:12:43	SPEAKER_00
+ Cool.
+
+0:12:50	SPEAKER_00
+ So, we have, we'll discuss that in a minute, I just want to mention some new project requirements that came in.
+
+0:13:00	SPEAKER_00
+ Teletext is apparently outdated, so due to internet popularity, so that's off the list.
+
+0:13:12	SPEAKER_00
+ Also, our remote should be used only for television.
+
+0:13:16	SPEAKER_00
+ No, extra internet, kind of fancy things, just throw out in the television.
 
 0:13:22	SPEAKER_00
- And also, we need to incorporate our corporate image onto this. So the phrase is, we put fashion in electronics.
+ And also, we need to incorporate our corporate image onto this.
 
-0:13:37	SPEAKER_00
- So it's be fashionable, I guess. If we have something, I mean, silver and gold or yellow or color, we have like a kind of silver one like you saw and yellow writing, something like that.
+0:13:29	SPEAKER_00
+ So, the phase is we put fashion in electronics, so let's be fashionable with the bullet, I guess.
 
-0:13:53	SPEAKER_00
- Okay. So we need to make some decisions on the remote control functions.
+0:13:40	SPEAKER_00
+ If we have something, I mean silver and gold or yellow are colors, so if we have like a kind of silver on like you saw.
 
-0:14:06	SPEAKER_00
- Yeah. I guess we should make some kind of brainstorming terms of how it looks or like what it does.
+0:13:50	SPEAKER_00
+ And yellow writing, so now watch that.
+
+0:13:54	SPEAKER_00
+ Okay.
+
+0:13:57	SPEAKER_00
+ So, we need to make some decisions on the remote control functions.
+
+0:14:03	SPEAKER_00
+ Yeah.
+
+0:14:08	SPEAKER_00
+ Do, I guess we should, yeah, make some kind of brainstorming.
+
+0:14:14	SPEAKER_03
+ Like in terms of how it looks or like what it does?
 
 0:14:19	SPEAKER_00
- Well, probably our target group and how it's going to appeal to our target group in, I don't know, the buttons and what it does.
+ What, well, probably our target group and how it's going to appeal to our target group in, I don't know, the buttons and what it does.
 
-0:14:32	SPEAKER_03
- That's sort of thing. So it's our target group, then people, so do you want to go ahead and design this thing with the finder button?
+0:14:32	SPEAKER_00
+ Yeah.
 
-0:14:47	SPEAKER_03
- I think that's easy. Yeah. Okay. So then our target age group would be the 19 to 35 range.
+0:14:33	SPEAKER_00
+ That sort of thing.
 
-0:14:58	SPEAKER_02
- Yeah. So that's the speed recognition. Oh, that's. I was thinking about that.
+0:14:37	SPEAKER_03
+ So, it's our target group, then people, so do you want to go ahead and design this thing with the finder button?
 
-0:15:07	SPEAKER_01
- I mean, speed recognition is really hard to program. And also if the TV is on, it's making sound and the people on the TV are talking.
+0:14:47	SPEAKER_00
+ So, I think that seems to, yeah.
 
-0:15:13	SPEAKER_01
- If somebody says like one, then the TV's going to switch itself to channel. Yeah. Yeah. It seems like a silly. Yeah. Not sure how you would implement it.
+0:14:50	SPEAKER_02
+ Okay.
 
-0:15:22	SPEAKER_00
- And if you consider our budget, if you consider our budget to have speed recognition programmed in every single remote might be a little crazy.
+0:14:51	SPEAKER_02
+ So, yeah, yeah.
+
+0:14:53	SPEAKER_03
+ So then our target age group would be the 19 to 35 range.
+
+0:14:58	SPEAKER_00
+ Yeah, teenagers and young professionals.
+
+0:15:00	SPEAKER_02
+ Well, that's the speech recognition.
+
+0:15:02	SPEAKER_02
+ Oh, well, that's the screen.
+
+0:15:04	SPEAKER_01
+ I was thinking about that, but, I mean, speech recognition is really hard to program.
+
+0:15:09	SPEAKER_01
+ And also, if the TV is on, it's making sound and the people on the TV are talking, you know, somebody says like one and the TV is going to switch itself to channel one.
+
+0:15:16	SPEAKER_01
+ Yeah.
+
+0:15:17	SPEAKER_01
+ Yeah.
+
+0:15:18	SPEAKER_01
+ It seems like a silly.
+
+0:15:19	SPEAKER_01
+ Yeah.
+
+0:15:20	SPEAKER_01
+ I'm not sure how you would implement it.
+
+0:15:21	SPEAKER_02
+ I just put the button.
+
+0:15:23	SPEAKER_00
+ I mean, if you consider a budget, if you consider a budget to have speech recognition programmed in every single remote might be a little crazy.
+
+0:15:33	SPEAKER_00
+ Yeah.
+
+0:15:34	SPEAKER_00
+ Yeah.
+
+0:15:35	SPEAKER_00
+ Yeah.
+
+0:15:36	SPEAKER_00
+ Yeah.
+
+0:15:37	SPEAKER_00
+ So, okay.
 
 0:15:38	SPEAKER_03
- Okay. So are we going to have just some kind of a, like we'll have the buzzer on the, like on the TV itself?
+ So, are we going to have just some kind of a, like, we'll have the buzzer on the, like, on the TV itself?
 
-0:15:43	SPEAKER_01
- But you would have to have a button on a TV or on your wall or someplace, but it's a TV already has power. Yeah. Yeah. You click the button. It's going to send out a signal.
+0:15:44	SPEAKER_01
+ Well, you would have to have a button on a TV or on your wall or someplace, but it's a TV already has power.
+
+0:15:49	SPEAKER_01
+ Yeah.
+
+0:15:50	SPEAKER_01
+ Yeah.
+
+0:15:51	SPEAKER_01
+ You click the button.
 
 0:15:52	SPEAKER_01
- I was thinking IR is a line of sight. So unless the remote is like actually in front of the TV, it's not going to work. So probably like a radio signal.
+ It's going to send out a signal.
 
-0:16:00	SPEAKER_01
- Okay. On the phone. I answer out a signal. And then the remote. Here's the signal. And so it beeps probably.
+0:15:53	SPEAKER_01
+ You know, I was thinking IR is line of sight.
 
-0:16:08	SPEAKER_01
- Okay. So you need like a separate base for that or like something. You have to sold separately because if the sender is on the remote, then you'd have to find the remote first to click the button.
+0:15:55	SPEAKER_01
+ So, unless the remote is like, actually in front of the TV, it's not going to work.
 
-0:16:19	SPEAKER_02
- So do you plug it in the TV?
+0:15:59	SPEAKER_01
+ So probably like a radio signal.
 
-0:16:22	SPEAKER_02
- Yeah. Probably just take it on TV. Okay.
+0:16:01	SPEAKER_01
+ Okay.
+
+0:16:02	SPEAKER_01
+ So, you'd need like a separate base for that or like something.
+
+0:16:05	SPEAKER_01
+ It would have to be sold separately because if the sender is on the remote, then you'd have to find the remote first to click the button.
+
+0:16:16	SPEAKER_01
+ So, do you plug it in the TV?
+
+0:16:21	SPEAKER_02
+ Yeah, probably just take it on your TV.
+
+0:16:24	SPEAKER_01
+ Okay.
 
 0:16:25	SPEAKER_03
- So it's now like a two part. Yeah.
+ So it's now like a two part.
 
-0:16:30	SPEAKER_03
- So we get to design that too. Make it fashionable. Okay.
+0:16:27	SPEAKER_03
+ Yeah.
 
-0:16:38	SPEAKER_00
+0:16:28	SPEAKER_01
+ Okay.
+
+0:16:29	SPEAKER_03
+ So we get to design that too.
+
+0:16:33	SPEAKER_03
+ Thank you.
+
+0:16:34	SPEAKER_03
+ Fashionable.
+
+0:16:35	SPEAKER_03
+ Okay.
+
+0:16:37	SPEAKER_00
  So do you think even though we're not talking about speech recognition, our target group should still be teenagers and young professionals?
 
+0:16:45	SPEAKER_02
+ Yeah.
+
+0:16:46	SPEAKER_02
+ Just, yeah.
+
+0:16:47	SPEAKER_02
+ Yeah.
+
 0:16:48	SPEAKER_02
- Should that thing be on the thing to put the use you're talking about a home for it? Do you still want to build a little thing next to the tally or hang on the wall or shall we leave that?
+ We should that thing be on the thing to put the, you're talking about the home for it.
+
+0:16:56	SPEAKER_02
+ Do you still want to build a little thing next to the telly or to pan on the wall or shall we leave that for now?
 
 0:17:02	SPEAKER_00
- You probably leave that. I mean, I guess one takes care of the other.
+ We probably leave that.
+
+0:17:03	SPEAKER_00
+ I mean, I guess one takes care of the other.
 
 0:17:05	SPEAKER_00
- Okay. Yeah.
+ Okay.
 
 0:17:06	SPEAKER_00
- If you can. Yeah. If you can call it, then it can be anywhere.
+ Yeah.
+
+0:17:07	SPEAKER_00
+ If you can, yeah, if you can call it, then it's.
+
+0:17:10	SPEAKER_00
+ Then it can live anywhere.
 
 0:17:12	SPEAKER_02
- Okay. For them. So you have that button that so there's is there a light or shall we just have a radio?
+ Yeah.
+
+0:17:13	SPEAKER_02
+ Okay.
+
+0:17:14	SPEAKER_02
+ So you have that button that so this is our light or shall we leave just have a radio.
 
 0:17:21	SPEAKER_02
- Oh, on the phone.
+ Oh, we just have a TV on the phone on the phone.
 
 0:17:24	SPEAKER_02
- It seems like a need the light.
+ Um, seems like a need to lie.
 
 0:17:27	SPEAKER_01
- Yeah. I think that's what the phone is.
+ I think that's what the phone is.
+
+0:17:29	SPEAKER_01
+ Yeah.
 
 0:17:30	SPEAKER_01
- Yeah. We need to find your phone. You should have someone call it. It starts ringing somewhere and then you can figure out the couch.
+ We only need to find your phone.
 
-0:17:35	SPEAKER_00
- And like it's the phones under the couch.
+0:17:31	SPEAKER_01
+ You just have to call it and it starts ringing somewhere and then you can figure out.
 
-0:17:37	SPEAKER_02
- Yeah. So any of the other buttons. So we have this.
+0:17:34	SPEAKER_00
+ And like if the phone's under the couch, you're right.
+
+0:17:37	SPEAKER_00
+ That's the light.
+
+0:17:38	SPEAKER_00
+ Yeah.
+
+0:17:39	SPEAKER_02
+ Um, so I need the other buttons.
+
+0:17:49	SPEAKER_02
+ So you have this.
 
 0:17:51	SPEAKER_00
  So I mean, the two remotes that you had shown.
 
 0:17:54	SPEAKER_00
- I don't remember who showed me.
+ I don't remember who shown me.
 
 0:17:56	SPEAKER_00
- I needed.
+ Yeah, you need to.
 
-0:17:58	SPEAKER_00
- There. I mean, one look like it was for VCR type thing and the other look like just television.
+0:17:57	SPEAKER_00
+ Um, there.
+
+0:17:59	SPEAKER_00
+ I mean, one look like it was for VCR type thing and the other looked like just television.
 
 0:18:04	SPEAKER_03
- I think they're both sort of just like general. They're both general elements.
+ I think they're both sort of just like general.
 
-0:18:09	SPEAKER_00
+0:18:06	SPEAKER_03
+ They're both general.
+
+0:18:07	SPEAKER_03
+ They're both general.
+
+0:18:08	SPEAKER_00
  That is something we have to decide is whether we want to have VCR capabilities.
 
-0:18:14	SPEAKER_01
+0:18:14	SPEAKER_00
  Yeah.
 
 0:18:15	SPEAKER_01
- Does anyone know if VCRs are the same across international?
+ Does anyone know VCRs are the same across international?
 
 0:18:19	SPEAKER_02
  They're not.
 
-0:18:20	SPEAKER_01
- No.
+0:18:20	SPEAKER_02
+ They're not.
 
 0:18:21	SPEAKER_01
- Okay. So you need like a whole different.
+ Okay.
+
+0:18:22	SPEAKER_01
+ So you need like a whole difference.
 
 0:18:23	SPEAKER_00
  Yeah.
 
 0:18:24	SPEAKER_00
- The DVD probably is.
+ It's not VCRs.
+
+0:18:25	SPEAKER_00
+ But DVD probably is.
 
 0:18:26	SPEAKER_01
- Yeah.
+ Yeah, other than that region including thing.
 
-0:18:27	SPEAKER_01
- Other than that region including.
+0:18:29	SPEAKER_01
+ Um, but VCRs.
 
-0:18:29	SPEAKER_00
- But these.
-
-0:18:34	SPEAKER_00
+0:18:30	SPEAKER_00
  And if we're targeting young professionals and teenagers, I mean, it's going to be DVD type.
 
-0:18:38	SPEAKER_03
- Yeah.
-
-0:18:39	SPEAKER_03
+0:18:36	SPEAKER_03
  That's the technology these days.
 
+0:18:39	SPEAKER_03
+ So, okay.
+
 0:18:42	SPEAKER_03
- So.
-
-0:18:43	SPEAKER_03
- Okay.
-
-0:18:44	SPEAKER_03
- I think still it shouldn't be that hard to type like just reduce the number of buttons.
-
-0:18:47	SPEAKER_03
- Yeah.
+ I think still it shouldn't be that hard to type like just reduce the number of buttons, you know?
 
 0:18:48	SPEAKER_03
- Like because if you just have like one menu button that works like with.
-
-0:18:53	SPEAKER_03
- You know, where you can just kind of scroll through the.
+ You just have like one menu button that works like with, you know, where you can just kind of scroll through the options.
 
 0:18:57	SPEAKER_02
- Well, for sure we need the.
+ Well, for sure we need the, I think we can just design the channels.
 
-0:18:59	SPEAKER_02
- I think we can just design the.
-
-0:19:03	SPEAKER_02
- Channels.
-
-0:19:04	SPEAKER_02
- I mean, power is just a button.
+0:19:05	SPEAKER_02
+ I mean, power is just about.
 
 0:19:07	SPEAKER_02
  Yeah.
@@ -533,88 +674,61 @@
  And it's not used that much.
 
 0:19:09	SPEAKER_02
- Yeah.
-
-0:19:10	SPEAKER_02
- And it's usually that red.
+ So it's usually that red.
 
 0:19:11	SPEAKER_02
  Yeah.
 
 0:19:12	SPEAKER_02
- And I think it's quite nice to keep it like a red.
+ And I think it's quite nice to keep it like.
 
 0:19:14	SPEAKER_00
- Yeah.
+ You know, I've seen some remotes that were you just hold one, like if you hold one down, it's a different color than the other buttons, but that turns it on.
 
-0:19:15	SPEAKER_00
- You know, I've seen some.
-
-0:19:16	SPEAKER_00
- The remote so where you just hold one.
-
-0:19:19	SPEAKER_00
- Like if you hold one down, it's it's a different color than the other buttons, but that turns it on.
-
-0:19:23	SPEAKER_00
+0:19:24	SPEAKER_00
  So you don't actually have a separate power button.
 
 0:19:26	SPEAKER_00
- Yeah.
+ Oh, okay.
 
 0:19:27	SPEAKER_03
  It seems like that would be hard though.
 
 0:19:29	SPEAKER_03
- I mean, because unless you might be confusing.
+ I mean, because unless you know.
+
+0:19:31	SPEAKER_03
+ Am I pecan confusing?
 
 0:19:32	SPEAKER_03
  Yeah.
 
 0:19:33	SPEAKER_03
- Yeah.
-
-0:19:34	SPEAKER_03
- Just because I wouldn't I would probably pick it up and just be like a.
-
-0:19:36	SPEAKER_03
- Why is there no.
+ Just because I wouldn't, I would probably pick it up and just be like, uh, why is there no
 
 0:19:37	SPEAKER_00
- Besides you like to be able to get power.
+ audience? Besides you like to be able to go power.
 
 0:19:39	SPEAKER_00
  Yeah.
 
 0:19:40	SPEAKER_00
- Yeah.
+ I have the power.
 
 0:19:41	SPEAKER_00
  Yeah.
 
 0:19:42	SPEAKER_00
- Yeah.
-
-0:19:43	SPEAKER_00
  Okay.
 
 0:19:44	SPEAKER_00
  So we definitely want a power button and numbers.
 
-0:19:45	SPEAKER_00
+0:19:46	SPEAKER_02
  Yeah.
 
-0:19:46	SPEAKER_02
- Or even I'm.
-
 0:19:47	SPEAKER_02
- I don't know if people are.
-
-0:19:51	SPEAKER_02
- But if you want to reduce the number of buttons instead of having like one to nine half a sort of.
-
-0:20:01	SPEAKER_02
- That sort of like a joystick flat.
+ Or even, um, I don't know if people like this, but if you want to reduce the number of buttons, instead of having like one to nine, have a sort of, that sort of like joystick flat.
 
 0:20:04	SPEAKER_02
  Yeah.
@@ -623,118 +737,100 @@
  Yeah.
 
 0:20:06	SPEAKER_02
- Because people seem now the iPods up.
+ Because people like seem, now the eye puts up.
 
-0:20:07	SPEAKER_02
- People seem to like this thing that there's no.
-
-0:20:11	SPEAKER_02
- You don't have one.
-
-0:20:12	SPEAKER_02
- Yeah.
+0:20:08	SPEAKER_02
+ And I like this thing that there's no, no, you don't have one to.
 
 0:20:13	SPEAKER_03
+ Yeah.
+
+0:20:14	SPEAKER_03
  I think that's an interesting idea because it's cool.
 
-0:20:15	SPEAKER_03
- It's funny.
-
 0:20:16	SPEAKER_03
- Like if like I just I don't have an iPod, but like I you know, I just like started messing around with one of my friends.
+ It's, it's funny.
 
-0:20:20	SPEAKER_03
- The other day and you just sort of and.
-
-0:20:23	SPEAKER_03
- It's funny how you pick it up and you just figure out how to use it quite easily.
+0:20:17	SPEAKER_03
+ Like you've, like, I just, I don't have an iPod, but like, you know, I just like started messing around with one of my friends the other day and you just sort of, and it's funny how you pick it up and you just figure out how to use it quite easily.
 
 0:20:26	SPEAKER_03
  Like it's not that hard.
 
-0:20:27	SPEAKER_02
+0:20:27	SPEAKER_03
  Yeah.
 
 0:20:28	SPEAKER_02
  Yeah.
 
 0:20:29	SPEAKER_02
- Yeah.
+ It's just, and it's one thing.
 
-0:20:30	SPEAKER_03
- It's just and it's one thing.
+0:20:30	SPEAKER_02
+ Yeah.
 
 0:20:31	SPEAKER_03
- Yeah.
+ And it is.
 
 0:20:32	SPEAKER_03
- And everything.
+ Yeah.
 
 0:20:33	SPEAKER_03
- Yeah.
+ It is really, but do you need a screen then?
 
 0:20:34	SPEAKER_02
- Yeah.
+ Do you have to have a screen then?
 
 0:20:35	SPEAKER_02
- But do you need a screen then?
-
-0:20:36	SPEAKER_02
- Do you have to have a screen?
+ Well, can't it tell the, like, can't you?
 
 0:20:37	SPEAKER_02
- Well, can't tell them like can't you?
+ Yeah.
 
 0:20:38	SPEAKER_02
- Yeah.
+ If you have the number, you can have the number.
 
 0:20:39	SPEAKER_01
- You have the number.
+ Okay.
 
 0:20:40	SPEAKER_01
- You can have the number.
+ The telly go.
 
 0:20:41	SPEAKER_02
- Okay.
+ Yeah.
 
 0:20:42	SPEAKER_02
- The telegram.
+ One, two, three, four, five.
 
 0:20:43	SPEAKER_03
- Yeah.
-
-0:20:44	SPEAKER_03
- One two three four five.
-
-0:20:45	SPEAKER_00
- Yeah.
-
-0:20:46	SPEAKER_00
  Once you scroll.
 
-0:20:47	SPEAKER_00
+0:20:44	SPEAKER_03
  Okay.
 
-0:20:48	SPEAKER_00
+0:20:45	SPEAKER_03
  So we have this like scrolling sort of button.
 
+0:20:46	SPEAKER_00
+ Is that like an on a mouse pad where you're kind of, yeah.
+
 0:20:49	SPEAKER_03
- It's just like the same.
+ It's like, it's just like the same.
 
-0:20:50	SPEAKER_03
- It's like technology as a mess.
+0:20:51	SPEAKER_02
+ It's like, analogy as a mouse pad.
 
-0:20:52	SPEAKER_02
+0:20:53	SPEAKER_02
+ Like that.
+
+0:20:54	SPEAKER_02
  And then you do that.
 
 0:20:55	SPEAKER_02
  Okay.
 
 0:20:56	SPEAKER_02
- And then you can have.
-
-0:20:59	SPEAKER_02
- If you actually just want to zap, you can have like a thing.
+ And then you can have, if you actually just want to zap, you can have like a thing.
 
 0:21:06	SPEAKER_02
  Like that and that and then it can just be plus and minus.
@@ -745,35 +841,35 @@
 0:21:12	SPEAKER_03
  So like it's like a little part of the circle that.
 
+0:21:15	SPEAKER_03
+ Or yeah.
+
 0:21:16	SPEAKER_03
- Yeah.
+ Oh, so it's just a region of the circle that you can.
 
 0:21:19	SPEAKER_03
  Yeah.
 
 0:21:20	SPEAKER_02
- So it's just a region of the circle that you can.
+ Click.
+
+0:21:21	SPEAKER_00
+ Okay.
 
 0:21:22	SPEAKER_00
- Yeah.
-
-0:21:23	SPEAKER_00
- Click on.
+ We could even have four buttons.
 
 0:21:24	SPEAKER_00
- Actually.
+ Like if that's the, if that's the mouse, you could have the volume.
 
-0:21:25	SPEAKER_00
- We could we could even have four buttons.
-
-0:21:26	SPEAKER_00
- Like that's the if that's the mouse, you could have the volume.
-
-0:21:29	SPEAKER_00
+0:21:28	SPEAKER_00
  Yeah.
 
+0:21:29	SPEAKER_00
+ The channel changes.
+
 0:21:30	SPEAKER_00
- And the channel changes just like on that.
+ Yeah.
 
 0:21:31	SPEAKER_03
  So volume could be like the top and the bottom.
@@ -784,26 +880,29 @@
 0:21:34	SPEAKER_01
  Okay.
 
-0:21:35	SPEAKER_03
- Well, you have to you have to like be able to change the function of it to like.
+0:21:35	SPEAKER_01
+ So it'll be.
 
-0:21:41	SPEAKER_02
- Only mean the function.
+0:21:36	SPEAKER_03
+ Well, you have to like be able to change the function of it to like.
+
+0:21:40	SPEAKER_02
+ What do you mean the function?
 
 0:21:42	SPEAKER_03
- I mean like, okay, because so.
+ I mean, like, okay, cause so.
 
-0:21:46	SPEAKER_03
+0:21:44	None
  I don't know.
 
-0:21:47	SPEAKER_03
+0:21:46	SPEAKER_03
  I guess.
 
-0:21:48	SPEAKER_03
+0:21:47	SPEAKER_03
  Okay.
 
-0:21:49	SPEAKER_03
- So when you scroll your thumb like around it, it'll like, let's say you go, you're going clockwise.
+0:21:48	SPEAKER_03
+ So when you scroll your thumb like around it, it'll like, let's say you're going, you're going to clockwise that.
 
 0:21:53	SPEAKER_03
  That means you're going to go up the channels and then scroll the other way and it'll go down.
@@ -814,11 +913,11 @@
 0:21:58	SPEAKER_03
  But then so if you want to switch to the, do you have to switch to a function where.
 
-0:22:02	SPEAKER_03
- Like so either in that mode or you're in the mode where like.
+0:22:01	SPEAKER_03
+ Like, so either in that mode or you're in the mode where like.
 
 0:22:05	SPEAKER_03
- It just has like the four like, you know, this is channel that way.
+ It just has like the four, like, you know, this is channel that way.
 
 0:22:09	SPEAKER_03
  That's that way and volume is up and down.
@@ -827,18 +926,18 @@
  Yeah, but it knows for some reason.
 
 0:22:13	SPEAKER_02
- It's just the iPod.
+ It just, the iPod knows.
 
 0:22:14	SPEAKER_02
- It's just no.
+ It just knows.
 
-0:22:15	SPEAKER_01
+0:22:15	SPEAKER_02
  The iPod knows.
 
 0:22:16	SPEAKER_01
- If it works on the iPod, then it works.
+ If it works on an iPod, then it works.
 
-0:22:17	SPEAKER_03
+0:22:18	None
  Yeah.
 
 0:22:18	SPEAKER_03
@@ -851,106 +950,97 @@
  Okay.
 
 0:22:25	SPEAKER_03
- And then go up.
+ That's what I mean.
 
 0:22:26	SPEAKER_03
  Okay.
 
 0:22:27	SPEAKER_03
+ Okay.
+
+0:22:28	SPEAKER_03
  So you have to like press this middle region and then you can scroll up.
 
 0:22:30	SPEAKER_03
- And then it's like holding up.
+ Go up and then it's like holding.
+
+0:22:31	SPEAKER_02
+ So it's like holding.
 
 0:22:32	SPEAKER_02
- But if you like that makes no sense because there's already ones with up and down here.
+ But if you like that makes more sense because there's already ones with up and down here.
 
 0:22:37	SPEAKER_00
- That I've seen and you.
+ Okay.
 
-0:22:41	SPEAKER_00
- Is there an actual actual button or you actually, you're just using the mask to go up and down.
+0:22:38	SPEAKER_00
+ That I've seen.
+
+0:22:39	SPEAKER_00
+ And you, is there an extra, actual button or you actually, you're just using the mass to go up and down?
 
 0:22:46	SPEAKER_02
- Well, what do you, for the, like, what do you present?
-
-0:22:48	SPEAKER_02
- Right.
-
-0:22:49	SPEAKER_02
- If you're on the channel, let's say, then you press on the middle and then if you do that again, the volume goes up.
-
-0:22:54	SPEAKER_02
- And if you do that, it goes down.
+ Well, what do you, for the, I can put you press and, right, if you're on the channel, let's say, then you press on the middle and then if you do that again, the volume goes up and if you do that, it goes down.
 
 0:22:55	SPEAKER_02
  But if you want to keep it with volume here and here, I'm pretty sure.
 
 0:23:01	SPEAKER_00
- Well, I mean, if we are going to use this for channels, right?
-
-0:23:05	SPEAKER_00
- Wouldn't the volume need to be separate somehow?
+ Well, I mean, if we are going to use this for channels, right, and you, wouldn't the volume need to be separate somehow?
 
 0:23:08	SPEAKER_00
- Like you could just have.
-
-0:23:10	SPEAKER_00
- I don't know.
-
-0:23:11	SPEAKER_02
- You can click and then have it up and down.
+ Like you could just have, I don't know, you can then have it up and down.
 
 0:23:13	SPEAKER_03
- But actually, I think we can go on the fact that it does just work with.
+ Or you could actually.
+
+0:23:14	SPEAKER_03
+ I think we can go on the fact that it does just work with you.
 
 0:23:18	SPEAKER_03
- But the only thing is like, I've had so expensive.
+ But the only thing is like, I've had, they're so expensive.
 
 0:23:20	SPEAKER_03
  Like it has to be.
 
+0:23:21	SPEAKER_03
+ Is that part of it?
+
 0:23:22	SPEAKER_03
- Is that part of that?
+ Is that what makes me expensive?
 
 0:23:23	SPEAKER_03
- Is that what makes me?
-
-0:23:24	SPEAKER_00
  Yeah.
 
-0:23:25	SPEAKER_00
+0:23:24	SPEAKER_00
  I don't know.
 
-0:23:26	SPEAKER_00
- They have so much memory though.
+0:23:25	SPEAKER_00
+ They have so much memory, though.
 
-0:23:27	SPEAKER_00
+0:23:26	SPEAKER_00
  I think so.
 
-0:23:28	SPEAKER_00
+0:23:27	SPEAKER_00
  I think it's the.
 
-0:23:29	SPEAKER_00
- I think it's the, it's their capability.
+0:23:28	SPEAKER_00
+ I think it's the capability.
 
-0:23:32	SPEAKER_00
+0:23:29	SPEAKER_00
  I mean, they can hold what?
 
-0:23:33	SPEAKER_00
+0:23:32	SPEAKER_00
  Like 5,000.
 
-0:23:34	SPEAKER_03
- I'm thinking we could, if we have so bit, I mean, but an iPad just has that circle.
+0:23:33	SPEAKER_03
+ I'm thinking we could, if we have, so, I mean, but an iPad just has that circle thing.
 
 0:23:39	SPEAKER_01
  Yeah.
 
 0:23:40	SPEAKER_01
- Yeah.
-
-0:23:41	SPEAKER_01
- Yeah.
+ So that's really why they're expensive.
 
 0:23:42	SPEAKER_01
  Yeah.
@@ -959,10 +1049,13 @@
  Yeah.
 
 0:23:44	SPEAKER_03
- But like since it just has this circle thing, you could make it a kind of cool shape.
+ But like, since it just has this circle thing, you could make it a kind of cool shape.
 
 0:23:49	SPEAKER_03
  Like it could be a cool sort of, you know, because it could be circular.
+
+0:23:53	SPEAKER_03
+ Yeah.
 
 0:23:54	SPEAKER_02
  Yeah.
@@ -974,10 +1067,7 @@
  It could just be simple instead of being a mess.
 
 0:23:59	SPEAKER_02
- Because the other thing I didn't tell you on the presentation is that people find that.
-
-0:24:08	SPEAKER_02
- Find that it's a big waste of time to have to learn how to use your remote.
+ Because the other thing I didn't tell you on my presentation is that people find it, find that it's a big waste of time to have to learn how to use your remote.
 
 0:24:13	SPEAKER_02
  Yeah.
@@ -989,31 +1079,34 @@
  Yeah.
 
 0:24:17	SPEAKER_02
- What other buttons were that volume?
+ What are the buttons, whether?
 
 0:24:20	SPEAKER_02
- I would just said that.
+ Volume.
+
+0:24:21	SPEAKER_02
+ I don't know if it's just said that.
 
 0:24:24	SPEAKER_03
- So, okay, this is just for TV. It's not for, or it is does need to be compatible with.
+ So, okay.
+
+0:24:25	SPEAKER_03
+ This is just for TV.
+
+0:24:26	SPEAKER_03
+ It's not for, or it is, does need to be compatible with.
 
 0:24:30	SPEAKER_01
- The DVD is simple.
+ DVD is simple.
 
 0:24:31	SPEAKER_01
- You have play, pause.
-
-0:24:32	SPEAKER_01
- Yeah.
+ You just have play, pause.
 
 0:24:33	SPEAKER_00
- So how do you know actually our new project requirements?
-
-0:24:36	SPEAKER_00
- I'm not sure if they meant, oh, use only for television as a not for DVD or just not Internet type thing.
+ So how do you know, actually, our new project requirements, I'm not sure if they meant, oh, use only for television as a not for DVD or just not internet type thing.
 
 0:24:43	SPEAKER_00
- So I'll, I'll check that and update you on the next.
+ So I'll check that and update you on the next.
 
 0:24:46	SPEAKER_00
  So like if we have that, we'll hold off on that.
@@ -1021,88 +1114,61 @@
 0:24:49	SPEAKER_00
  Yeah.
 
-0:24:50	SPEAKER_02
- But DVD plays do usually have their own remote.
+0:24:50	SPEAKER_00
+ So yeah.
+
+0:24:51	SPEAKER_02
+ But DVD players do usually have their own remote.
 
 0:24:53	SPEAKER_03
- Yeah.
+ That's true.
 
 0:24:54	SPEAKER_03
- I know.
+ Yeah.
 
 0:24:55	SPEAKER_03
- I'm not really clear.
+ So I know I'm not clear.
 
 0:24:56	SPEAKER_01
- I have it all on one because you want to turn it on.
+ I'm clear I don't have it all on one because you know, you turn it on, then you want to turn off the volume, and then you want to go to the menu.
 
-0:24:58	SPEAKER_01
- Then you want to turn off the volume and then you want to go to the menu.
-
-0:25:00	SPEAKER_03
+0:25:01	SPEAKER_03
  So you'd have to have like, I think you would have to have like a function switch button, you know, somewhere.
 
 0:25:05	SPEAKER_03
- So like you're either on TV, you're on DVD or you're on VCR.
-
-0:25:08	SPEAKER_03
- Yeah.
-
-0:25:09	SPEAKER_03
- Or you're like, so.
+ So like you're either on TV or on DVD or you're on VCR or you're like, so.
 
 0:25:10	SPEAKER_01
  Well, the DVD is only like four buttons.
 
 0:25:12	SPEAKER_03
- Yeah.
-
-0:25:13	SPEAKER_03
- Yeah, but I mean like to switch the phone.
-
-0:25:14	SPEAKER_03
- So like to switch the function of the little circle disk.
-
-0:25:17	SPEAKER_03
- The touchpad.
+ Yeah, but I mean like to switch the, so like, to switch the function of the little circle disk, the touchpad.
 
 0:25:18	SPEAKER_01
- I think the circle only does.
+ Yeah.
 
-0:25:19	SPEAKER_01
- The channel is an applicable DVD, really, because you don't want to.
+0:25:20	SPEAKER_01
+ The circle only does channel is an applicable to DVD really because you don't want to.
 
 0:25:23	SPEAKER_01
  Yeah, but it would be.
 
 0:25:24	SPEAKER_01
- Volume is.
-
-0:25:25	SPEAKER_01
- Volume is actually controlled on the TV.
-
-0:25:26	SPEAKER_01
- So you don't have to switch.
+ Volume is, and volume is actually controlled on the TV so you don't have to switch.
 
 0:25:27	SPEAKER_03
- So, but I'm saying like, does it make sense to have like some kind of a button.
+ So, but I'm saying like, does it make sense to have like some kind of a button?
 
 0:25:31	SPEAKER_03
- So like you're, if you're on TV, like you can switch channels.
-
-0:25:34	SPEAKER_03
- But then if you're on DVD, then like the channel button, like the, the region of the disk that was for channels is for like switching to different tracks.
-
-0:25:44	SPEAKER_03
- You know, what to different.
+ So like you're, if you're on TV, like you can switch channels, but then if, if you're on DVD, then like the channel button, like the, the region of the disk that was for channels is for like switching to different tracks or, you know, to different.
 
 0:25:45	SPEAKER_03
  I mean, do we need to think about that?
 
 0:25:47	SPEAKER_00
- Yeah, let's think about it because we need to wrap up.
+ That like, yeah, let's think about it because we need to wrap up.
 
-0:25:50	SPEAKER_00
+0:25:51	SPEAKER_00
  Let's see.
 
 0:25:53	SPEAKER_00
@@ -1111,12 +1177,21 @@
 0:25:57	SPEAKER_00
  Then when we come back after lunch, we'll have 30 minutes of individual work.
 
-0:26:03	SPEAKER_00
- Yeah, so think about the things we've discussed and bring some ideas to our next meeting.
+0:26:02	SPEAKER_00
+ Yeah.
 
-0:26:10	SPEAKER_00
+0:26:03	SPEAKER_00
+ So think about the things we've discussed and bring some ideas to our next meeting.
+
+0:26:09	SPEAKER_00
  See you soon.
 
-0:26:14	SPEAKER_03
+0:26:11	SPEAKER_03
+ Okay.
+
+0:26:17	SPEAKER_03
  So I feel like I want to spaceship.
+
+0:26:23	None
+ We're done.
 

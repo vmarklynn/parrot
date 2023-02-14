@@ -1,0 +1,4431 @@
+0:00:00	SPEAKER_06
+ data man, you know, yeah, I want everything and then I'll decide what I want. So this
+
+0:00:04	SPEAKER_04
+ was that face-to-face meeting. Okay. But it doesn't, there isn't, so there are things in the iTRECKREK that we definitely don't want in the GDF format like the frame rate i movement. You know, we're expecting the GDF format to be sort of a parsed version of events and you know, there's just too much raw frame frame rate stuff coming out of this. You wouldn't, you wouldn't want it in this kind of format for translation data. We always get back to it.
+
+0:00:41	SPEAKER_05
+ We're not actually throwing anything away. We're not throwing anything away.
+
+0:00:44	SPEAKER_06
+ We decide to just dig this at some finer method. We'll still have the original end, a method of filtering. But the way to think of this is this is
+
+0:00:56	SPEAKER_04
+ the data that we want to be able to analyze against the other tracks of data. So the data that we want to compare with the language or with whatever. And
+
+0:01:06	SPEAKER_06
+ so as long as the format in which we pick it up is a format which could be generalized to a finer take because the worst thing that can ever happen to you is you discover that you've done huge amounts of analysis and you actually had the data but you threw it away because you treated it so grossly. Yeah. Okay.
+
+0:01:22	SPEAKER_06
+ So in essence what you would then do is- Whatever we should be able to, you know, backtrack and say okay instead of every second, every tenth of a second or some
+
+0:01:33	SPEAKER_04
+ such thing. Well, we're not doing frame rate at any frame for, well, maybe we are. I don't know. Well, the- I had thought we were- Yeah, the eye tracker does.
+
+0:01:45	SPEAKER_04
+ Right. Well, the kinds of events that we had before talked about putting into the record for that use in Alana and NXT isn't based on saying every X seconds something, you know, give me what's happening every X seconds. It's more like, you know, give me the fixations and the- What needs to know the duration of these things, right? Yeah, oh, yeah. There's a difference between saying that something that's in a particular state every frame, whatever the frame rate is, you know, ten seconds a minute, you know, that's one kind of way of looking at data and a parsed version of the data which isn't at any particular length. It relies on this really close frame rate. Well, so there's no real time. There's
+
+0:02:30	SPEAKER_06
+ only- There's only events. What I'm trying to figure out is whether we throw
+
+0:02:34	SPEAKER_04
+ time away. No, no. The time is still in there but you'll get what you want is to figure out what are the concepts behind that data that you want represented. So rather than saying the eye was at this particular place, you know, here and then a tenth of a second later here and then a tenth of a second later here, you say there was a fixation from this time to that time and there was blank from this
+
+0:02:55	SPEAKER_06
+ time to that time. Okay, so one of the formats in which our tracker data is analyzed is percentage of time spent on some target as opposed to some competitor over the first second after some event. Okay, so you actually have to have to show at some time slice rate where the eye was on the same target as the other guy, a similar target, what we've both been dealing, you know, so we have to we have all the parts, the interesting parts of the screen identified and be able to show distribution of gaze over time. All right, now we could be really unlucky and somebody would expect us to do that at the real frame rate.
+
+0:03:33	SPEAKER_06
+ But I think that's really unlucky but but my point is that we mustn't throw away or lose the capacity of being able to deliver that data.
+
+0:03:42	SPEAKER_04
+ So there's two issues here, we're not throwing anything away but the question is what tool would you use to get that information out of the data? Would you be?
+
+0:03:49	SPEAKER_06
+ So the more you can plan... So typically the eye will move, right? So over any one second the eye is actually fixing on a bunch of different things and you and so when you say the eye was on this from here to here, what's going to happen is it is that if you use the real frame rate it's going to jiggle all over the place, it's going to be on this landmark, it's on this object, that object, this fixed thing, that fixed thing, okay? You've got to get lots and lots of stuff and it's percentage distribution that you're going to want. It's not... I went here, you know, it's not like person walking, I went here, I stayed here. It's more like fly
+
+0:04:24	SPEAKER_04
+ hovering. So you need to know the percentage of time it was on during that
+
+0:04:28	SPEAKER_06
+ fixation? Because if you if you take them as separate events you get thousands of
+
+0:04:33	SPEAKER_01
+ separate events. Yeah, but they sort of start in any times but give you that and then you just major against, you know, against bigger frames. Yeah, the cumulative
+
+0:04:46	SPEAKER_04
+ total timer. Okay, so the percentage is... it's not something you're using for measurement, it's a cutoff for whether or not it counts as a fixation? Well, that's
+
+0:04:54	SPEAKER_06
+ the problem. There are two ways of doing it. One is that there's always a cutoff, right? But the other is that there will be a time span, a kind of reaction to
+
+0:05:01	SPEAKER_01
+ some event span. Yeah, so I'll lag in some of it to... I suppose there's the
+
+0:05:07	SPEAKER_06
+ the saccadic movement itself. And so I mean there are really two ways of looking at this. One would like to know, for example, the percentage of time overall in which two people are looking at the same thing. Okay, and one would like to know sequences of they didn't look at the same thing and then they broke it, or they did look at the same thing and then they did or didn't break, you know, one could imagine those two categories. That's a kind of testing of our hypotheses. But there's a certain amount of dues you pay to the way they do things in the literature to get your papers published. And one of the things they will want to know is an event series after some critical event, right? What percentage of time is given to looking where the other guy is looking? And what percentage of time? Over some, you know, reasonable time span of a couple of seconds. All right, so they'll be... They'll want to see essentially the gays settling on particular incidents on particular places. So we have to be able to deliver those two things and they're rather different demands. Right.
+
+0:06:05	SPEAKER_01
+ It should still come out. The little sketch I asked this for last week about NXT and whether it would have that sort of tiered effect. So you can see the overlap of where one person is looking compared to the other and their mouse movements and things. Yeah. That should... Because all you want to know is whether they were looking at the same object in the period after. But because it's also based on the the time course of the procedure, you'll be able to basically get the scan path of the pattern of events from that. Okay. Can we try to make
+
+0:06:35	SPEAKER_04
+ sure that that this is satisfying elements of the search? Well, there's a whiteboard, right? We love this thing. See if the pens work. So this is A's eyes, right? And B's eyes. And I think what you're saying, you should probably draw this, right? Is that they... You know, if from this time to this time, they're looking at triangle one. What you're saying is that you want to know in the critical... You want to know after they're looking at triangle one, what's
+
+0:07:13	SPEAKER_06
+ happening in this period with the sky, right? Or how... Let's imagine a typical construction event. Okay. There's some part... There are separate movable parts on the screen ready for use, right? There may be or not a construction already begun. Somebody makes the first move. There's some kind of communication, either gestural imaginary or verbal, that plans how we're gonna do it, right? Before that happens, the person who speaks is going to do some kind of visual scanning. While they're speaking or communicating in some way, the other person may or may not be looking where they're looking. Okay. They may be overlapping gaze at particular objects which are of interest. Let's call it the construct, existing construct, which could be zero, right? Or the addendum, the thing which is next going to be added. Next piece. Okay. Now in neither case, when you draw this, he's looking at triangle one, what you're actually drawing, you know, for the period of time in which he's steadily looking at triangle one is going to be very, very short, right? Because staring fixatively without interruption, blink or saccade is an extremely short event. At that point
+
+0:08:36	SPEAKER_01
+ they're lumped all the individual fixations as long as it doesn't move off that triangle together is a total of gaze time. So it's in a region.
+
+0:08:47	SPEAKER_06
+ It's in a region. That's a target. But even so, you're likely to get bouncing in and out of the region, right? So even so you want to look at if we're interested in how long before the construction move takes place, how much of the time they spend looking at the same thing. Let's call that our measure of alignment. So they're going to be, yeah, that's right, A is going to be on triangle one and various other places. That's right. And B, okay. And we're going to look at the percentage of that time where they're both in the same region. So what I want to make sure is that we don't simplify, do you know what I mean, temporarily
+
+0:09:31	SPEAKER_01
+ simplify too much? So that, yeah, I mean as long as we're... Because then you lose
+
+0:09:38	SPEAKER_06
+ percentages. There shouldn't be anything to be. Right. And so B has some periods of looking at one and which will also be intermittent. Yeah. Because... So you
+
+0:09:52	SPEAKER_04
+ know, he might get triangle one there and now maybe this one's going to overlook quite a bit. So what you want to do is be able to define bigger periods, which is the period when they're sort of interested in triangle one overall, right?
+
+0:10:07	SPEAKER_01
+ When they should be. We have an event that, yeah, the second lane then for the second before it and then we can just take that chonk out and
+
+0:10:15	SPEAKER_04
+ do something with it. Yeah. But that's... That should be... Okay. That's not something that you can do in the NXT career language but you can't do that in any... You know, this is such a special purpose but it's easy enough, given the data format for any of these things to do that. So you can do it on... Because it's just a matter of... The heart barter is deciding how close together these have to be before you decide this is an event that you want to pull out. Because, you know, algorithmically, you're already putting together. I mean, this is essentially already, you know, these fixations with stuff in between. And, you know, we've got an algorithm for deciding when that's a look, I guess. You already
+
+0:10:54	SPEAKER_01
+ have that or no? Well, it's just based on a stable fixation result or something crossing into that region. Oh, yeah, yeah. So it's all
+
+0:11:03	SPEAKER_04
+ fixations. These are all fixations and saccades but within the... Yeah. So that's easy enough. So the hard thing is they could be moving their eye arbitrarily here, right? And, you know, maybe even having fixations on other things? Yes.
+
+0:11:17	SPEAKER_06
+ Yeah. Because, for example, for part of that time, both B and A are probably looking at the construct. Okay. If your intention is to move the red triangle to sit on top of the thing already constructed, you would tend to look
+
+0:11:31	SPEAKER_04
+ back forward. Back forward. Yep. So... This is... This is... Yeah. But what you need to do is... We can already build into this GDF format, these regions, if you can give a definition of what you think that is. But I think the right way to do this is to be able to inspect the data in some tool and play around with the definitions because you won't get it right the first time. Yeah, sure. So the question
+
+0:11:58	SPEAKER_06
+ would be under what tool should we be looking at these events? And Elan's a
+
+0:12:04	SPEAKER_04
+ reasonable choice for that, right? What you need is something... Well, no, because you need to... You need to be able to see the effects of this. So I guess this is a case of Craig writing some scripts. So Robin having some ideas about what the relationship is and saying, you know, add this data automatically. I mean, it's not that hard, right? It's just there'll be a bunch of these. You'll have some rules about how maybe how long you spend on other objects and whether the other object is the existing construction or not, right? So essentially
+
+0:12:40	SPEAKER_06
+ there's this AE is divided into TR1 and C and other stuff, okay, where C is the
+
+0:12:50	SPEAKER_04
+ construct of the existing thing. Right. So if they had a fixation on C, you wouldn't be worried. But if they had a fixation on C, well, I mean, we take a
+
+0:12:59	SPEAKER_06
+ separate... We'd look at the percentage time. I mean, I have no idea because I don't know how people look when they're building things together, okay?
+
+0:13:05	SPEAKER_06
+ So there's the addendum and the existing construct and I don't know whether they're going to spend more time looking at one or the other. But if they're... Whatever it is that one is looking at the other's looking the same
+
+0:13:16	SPEAKER_04
+ place, they're in good shape. But, you know, they're gonna look at the clock. Yeah, sure.
+
+0:13:20	SPEAKER_06
+ And that's what the other stuff is with the... That's what the diagonal stripes are for. That's true. But we can... One of the things we'll be doing is categorizing people I take it or interactions by the amount of time people spend looking at the clock. We expect that we put people under time pressure.
+
+0:13:37	SPEAKER_06
+ They'll look at the clock a lot more. But that's like a separate analysis, right?
+
+0:13:40	SPEAKER_06
+ Sure. It's a separate analysis, but you don't want to throw it away.
+
+0:13:42	SPEAKER_06
+ No. So... So... You need to find if all of these things are actually categorized by the eye tracker as to where the eye is, right, you should be able to pull out any interesting category and say, all right, for this phase it's TR1 or C. For this phase it's SQ1 or C. But what we find... What we can get out of the data
+
+0:14:07	SPEAKER_04
+ easily at the moment is at this kind of level, right? And then it's a case of defining algorithmically all these other transformations that you want. So this is one... We hadn't thought of adding before, but we should, right? Which is...
+
+0:14:20	SPEAKER_04
+ Well, how would you decide whether something was the current addendum that you have to
+
+0:14:25	SPEAKER_06
+ actually transcribe the thing or watch the film for a while? So that's a human decision.
+
+0:14:29	SPEAKER_04
+ Yeah, absolutely. Yeah.
+
+0:14:32	SPEAKER_00
+ Yeah, so once you've got that some information, you've got the GDF format, you then filter it to say, right, between time X and time Y, they're constructing it, they're adding triangle one to the construct, and then you just say, in that time period, what essentially they're looking at triangle one, what essentially they're looking at the construct. So that's unreasonable.
+
+0:14:50	SPEAKER_06
+ Yeah, that's the addendum in the construct should be, you know, kind of...
+
+0:14:53	SPEAKER_06
+ Yeah. They change their true identity, but they're categories of stuff.
+
+0:14:59	SPEAKER_06
+ Yeah, cool.
+
+0:15:00	SPEAKER_06
+ My kind of assumption was that this was JP land, that's what he was really interested in, was the kind of coding which would define the building sequence.
+
+0:15:10	SPEAKER_06
+ Right.
+
+0:15:11	SPEAKER_06
+ So, and maybe he wants to think about that more and say, well, there were several candidates for the addendum.
+
+0:15:19	SPEAKER_06
+ All right, and it was the negotiation of which candidate was going to be the right candidate.
+
+0:15:24	SPEAKER_06
+ That's actually the interesting stuff. So I should talk to him about this.
+
+0:15:27	SPEAKER_06
+ He's actually emailed me with a list of things he wants to discuss at length.
+
+0:15:32	SPEAKER_06
+ But we believe JP had to be defining that maybe.
+
+0:15:35	SPEAKER_06
+ Well, this is my question for him. Is he going to define this kind of building sequence in a way that we can get out or see?
+
+0:15:44	SPEAKER_06
+ So, I mean, you know, they've been working on construction there for a while, so maybe that they have a coding system that's ready to go, and we should just apply it.
+
+0:15:53	None
+ Yeah.
+
+0:15:54	SPEAKER_06
+ Okay.
+
+0:15:56	SPEAKER_06
+ They do a lot of subassembly.
+
+0:15:59	SPEAKER_06
+ The tasks they've been doing, so they may well have a...
+
+0:16:01	SPEAKER_04
+ I could believe them, you know, taking an interest in that.
+
+0:16:05	SPEAKER_05
+ Well, that's fine.
+
+0:16:06	SPEAKER_04
+ I mean, the general division was a language here and other stuff there, right?
+
+0:16:11	SPEAKER_05
+ Right.
+
+0:16:12	SPEAKER_05
+ I understood it.
+
+0:16:13	SPEAKER_01
+ Right.
+
+0:16:14	SPEAKER_06
+ Well, we have the actions might mostly be theirs, right?
+
+0:16:19	SPEAKER_06
+ But since we have the eye tracker, we're going to have to answer their questions.
+
+0:16:24	SPEAKER_04
+ Oh, yeah, eye tracker here. Yeah, we know that.
+
+0:16:27	SPEAKER_06
+ But so they'll tell us something about that, but presumably what you piously hope happens here is what happened with transactions, right?
+
+0:16:39	SPEAKER_06
+ That the verbal analysis and the visual analysis give you the same breaking points, the same chunking points.
+
+0:16:47	SPEAKER_04
+ Well, yeah, but I mean, with transaction coding and something like this, you wouldn't consider it verbal analysis exactly.
+
+0:16:54	SPEAKER_04
+ It'd be verbal plus action.
+
+0:16:56	SPEAKER_04
+ Well, I mean, it's a task breakdown.
+
+0:16:59	SPEAKER_06
+ It is a task breakdown, but for the verbal version, there are ways of announcing.
+
+0:17:04	SPEAKER_06
+ But now we're doing a new one, right?
+
+0:17:06	SPEAKER_06
+ Yeah, but you wouldn't have...
+
+0:17:07	SPEAKER_04
+ You wouldn't do two codings for task level one.
+
+0:17:10	SPEAKER_04
+ No, you wouldn't.
+
+0:17:11	SPEAKER_04
+ You would do transaction coding and then...
+
+0:17:12	SPEAKER_06
+ One of the things you'd like to establish as an outcome of this is that you could analyze either end and you'd get the same chunking of the material.
+
+0:17:19	SPEAKER_04
+ I don't think that's realistic because I think what you'd actually do is use the full record of what you have and do a segmentation.
+
+0:17:27	SPEAKER_04
+ I think it'd be hard to understand what was going on if you used just the language without which in the video to decide whether we're breaking down the task.
+
+0:17:34	SPEAKER_06
+ It's a hypothesis.
+
+0:17:35	SPEAKER_04
+ Oh, you don't want it to be coding based on that, though, and then that seems a strange way to go about things.
+
+0:17:41	SPEAKER_04
+ Well...
+
+0:17:42	SPEAKER_04
+ I mean, the language events are multi-modal, right?
+
+0:17:44	SPEAKER_04
+ They're doing all these things together.
+
+0:17:46	SPEAKER_06
+ They are doing these things together, but one of the things that you one could imagine doing is having the transcription there and just play it back to a bunch of captive undergraduates and say...
+
+0:17:58	SPEAKER_06
+ Why do you care whether they stop the start?
+
+0:18:00	SPEAKER_04
+ Just based on the language.
+
+0:18:02	SPEAKER_06
+ Because essentially you're looking at cycling sequences and discourse and if the discourse tells you what's going on, that's information.
+
+0:18:12	SPEAKER_06
+ I mean, one of the questions is how the information is going to be shared across these media.
+
+0:18:15	SPEAKER_06
+ And if you can get it all out of the speech, if all of the chunking is available when there is speech, then it's carrying a lot of the burden.
+
+0:18:27	SPEAKER_04
+ Well, it seems to me much less important than the other things one could get out of this data.
+
+0:18:31	SPEAKER_04
+ But I...
+
+0:18:32	SPEAKER_04
+ But this is...
+
+0:18:33	SPEAKER_04
+ It's a possibility.
+
+0:18:34	SPEAKER_06
+ We have a look at data like this with our old-fashioned analyses.
+
+0:18:38	SPEAKER_06
+ And it would be really nice to know that that much information, that chunking of the task information, is being carried by the language.
+
+0:18:46	SPEAKER_06
+ Because JP's question, the overriding question, is so what's language for?
+
+0:18:50	SPEAKER_06
+ You know, people are busy interacting all the time, and all of our colleagues don't even bother to control for whether people are talking to one another when they're doing these joint tasks.
+
+0:19:00	SPEAKER_06
+ Because it seems to them to be irrelevant, because language is irrelevant.
+
+0:19:03	SPEAKER_06
+ It would actually be nice to demonstrate that in a place where we're controlling whether you have language or not, you could get the entire chunking of the task out of the language.
+
+0:19:10	SPEAKER_04
+ Yeah, well, I can see maybe wanting to know whether you can do the chunking just based on the actions without the language.
+
+0:19:15	SPEAKER_04
+ In cases where they use both.
+
+0:19:16	SPEAKER_04
+ It's more... I can't quite see why it's important to know that they can do it just based on the language
+
+0:19:21	SPEAKER_06
+ because you know it's a self-contained system as opposed to a system which can't be interpreted without the other system.
+
+0:19:28	SPEAKER_02
+ Uh-huh, well, I think that was just bound to fail.
+
+0:19:31	SPEAKER_06
+ Almost all studies on language claim that language is a self-contained system, which will give you everything you need to know. Really?
+
+0:19:39	SPEAKER_06
+ That's the claim.
+
+0:19:40	SPEAKER_06
+ Okay.
+
+0:19:41	SPEAKER_05
+ All right.
+
+0:19:42	SPEAKER_05
+ Anyway.
+
+0:19:43	SPEAKER_06
+ I didn't say it was true.
+
+0:19:44	SPEAKER_06
+ That's the claim, and so it's worth testing.
+
+0:19:47	SPEAKER_04
+ So back to this main problem, which is the record that we are getting in the first instance is about these...
+
+0:19:59	SPEAKER_04
+ you know, they're looking at some region of the screen to find dynamically.
+
+0:20:04	SPEAKER_04
+ And then we need some way of knowing what the... you can see adding these other analyses about, you know, they're jointly focused on this region and trying to figure out what percentage of time they're looking at it.
+
+0:20:17	SPEAKER_04
+ As adding new tiers of information to either the Elan track or NXT, they're both sort of track-based in this way.
+
+0:20:25	SPEAKER_04
+ But the hard part is knowing how you want to do that.
+
+0:20:28	SPEAKER_04
+ And I think in the first instance, what we're trying to get into the GDF format is just this, and then we've got no option but to figure out a way for, like, to look at this, just explore this data, and suggest ways about doing it, and be able to play them back and see when we think we've got these things right.
+
+0:20:47	SPEAKER_04
+ I don't think we even know what the set of these things are that we want much less how to get in there.
+
+0:20:52	SPEAKER_06
+ And we will...
+
+0:20:53	SPEAKER_06
+ So establishing the full set will, you know, take as much of the project.
+
+0:20:56	SPEAKER_04
+ Yeah, that's right.
+
+0:20:57	SPEAKER_04
+ So this is not... you know, this is something we're aiming for, but this isn't something that affects what Craig programs for the initial GDF translation.
+
+0:21:06	SPEAKER_06
+ My only concern, as I said when I barged in, was just to make sure that we didn't lose the things that we might need to pick up later.
+
+0:21:15	SPEAKER_04
+ Yeah. So let's just return to this question of frame rate, because this is the thing we were not planning to transfer into this format.
+
+0:21:22	SPEAKER_04
+ So again, you know, a frame-wide kind of coding is, can again be seen as a track, but it says...
+
+0:21:28	SPEAKER_04
+ Everything will be...
+
+0:21:29	SPEAKER_04
+ It's coding like this, right?
+
+0:21:30	SPEAKER_04
+ Where you say it's...
+
+0:21:31	SPEAKER_04
+ Well, state A, state B, state C, state A.
+
+0:21:33	SPEAKER_06
+ Okay, but since the definitions of the thing we're looking at are the ones which get rid of the lower level, like jiggling around in the area of a particular object, right?
+
+0:21:46	SPEAKER_06
+ So if we're moving the green triangle, we've defined a region which is dynamically the green triangle wherever it is.
+
+0:21:54	SPEAKER_06
+ We will jiggle around in there, but it doesn't matter where we are in there.
+
+0:21:57	SPEAKER_06
+ That's the neither level of analysis.
+
+0:21:59	SPEAKER_04
+ Right, so I'm just... You're happy that it's not going to have frame rate like this.
+
+0:22:04	SPEAKER_04
+ It's going to have an interpretation like this.
+
+0:22:06	SPEAKER_06
+ Well, that interpretation is definable to frame rate by the only way we're going to use frame rate.
+
+0:22:13	SPEAKER_06
+ What does that mean?
+
+0:22:14	SPEAKER_06
+ Sorry.
+
+0:22:15	SPEAKER_06
+ Well, I mean, because I can say for how many frames this fixation is officially defined.
+
+0:22:22	SPEAKER_06
+ So that as long as it's not an untimed event.
+
+0:22:26	SPEAKER_06
+ Okay.
+
+0:22:27	SPEAKER_00
+ So it's all events have a start time and the day time.
+
+0:22:29	SPEAKER_06
+ So it's fine.
+
+0:22:30	SPEAKER_06
+ I can say it's a long one or it's a short one or it's 20 milliseconds more than that one.
+
+0:22:35	SPEAKER_04
+ It seems to me that Alan's concerns might mean we need to add more information to these tags because this thing in itself is...
+
+0:22:43	SPEAKER_04
+ You need to detect a...
+
+0:22:44	SPEAKER_01
+ A bunch of fixations, right?
+
+0:22:45	SPEAKER_01
+ With the cards.
+
+0:22:46	SPEAKER_01
+ So things like fixation, the number of fixations.
+
+0:22:49	SPEAKER_04
+ Fixations and the percentage of time those fixations cover, you might want.
+
+0:22:53	SPEAKER_01
+ Yeah, with some measure of the... so we could work out the number of fixations that made and the average fixation duration as well.
+
+0:23:02	SPEAKER_01
+ Because having long steady fixations can be informative.
+
+0:23:06	SPEAKER_05
+ And so, okay.
+
+0:23:07	SPEAKER_05
+ So, number of fixations as percentage of...
+
+0:23:09	SPEAKER_06
+ This isn't the leading question.
+
+0:23:11	SPEAKER_06
+ This is a question question.
+
+0:23:12	SPEAKER_06
+ Why would that be informative particularly?
+
+0:23:15	SPEAKER_01
+ If they're holding their... if there's less dancing around, the cognitive focus tends to be in one sort of part.
+
+0:23:25	SPEAKER_01
+ So there is a difference between if they... even though they're still looking the same part, if they're looking around it.
+
+0:23:31	SPEAKER_01
+ Rather than just holding their gaze, steady or...
+
+0:23:34	SPEAKER_01
+ On it.
+
+0:23:35	SPEAKER_06
+ So you think that, for example, if they're looking at one or another apex of triangle, it would just...
+
+0:23:44	SPEAKER_06
+ It would make a difference.
+
+0:23:46	SPEAKER_01
+ We're exploring the thing.
+
+0:23:47	SPEAKER_01
+ Yes, it would certainly...
+
+0:23:48	SPEAKER_01
+ As opposed to they were simply...
+
+0:23:49	SPEAKER_06
+ All right, there it is.
+
+0:23:50	SPEAKER_06
+ Okay.
+
+0:23:51	SPEAKER_06
+ So...
+
+0:23:54	SPEAKER_06
+ So that really means that we're not throwing away absolute fixations.
+
+0:23:58	SPEAKER_01
+ No, I wouldn't...
+
+0:24:00	SPEAKER_06
+ Screen location of absolute fixations.
+
+0:24:03	SPEAKER_01
+ But the actual...
+
+0:24:05	SPEAKER_04
+ No, no, this is still summary data.
+
+0:24:10	SPEAKER_04
+ We're talking about just adding attributes to these things that say the number of fixations that counted as that looking at triangle one.
+
+0:24:17	SPEAKER_04
+ Right?
+
+0:24:18	SPEAKER_04
+ So it's possible out of it.
+
+0:24:20	SPEAKER_06
+ So you... so I thought I understood you to mean exploring the figure because, you know, your fixation is a point.
+
+0:24:27	SPEAKER_06
+ And the figures are bigger than points.
+
+0:24:29	SPEAKER_06
+ So you could be exploring the figure or you could be just somewhere in the region defined as the figure, but not on...
+
+0:24:35	SPEAKER_01
+ Well, yes, but that probably isn't going to be easy to get out of it because they have to break up the part.
+
+0:24:44	SPEAKER_06
+ So you just want to know the variability of the fixation.
+
+0:24:47	SPEAKER_06
+ And wouldn't that differ from person to person?
+
+0:24:50	SPEAKER_01
+ Yes, it can do, but it's also looking at it within their own behavior.
+
+0:24:57	SPEAKER_06
+ Okay, so it's the number of different spots within that region where the eye aspect...
+
+0:25:04	SPEAKER_06
+ I would say just the number of fixations.
+
+0:25:06	SPEAKER_01
+ The number of different...
+
+0:25:07	SPEAKER_05
+ Yeah, the spots will be different anyway.
+
+0:25:09	SPEAKER_04
+ So it's too great, okay.
+
+0:25:10	SPEAKER_04
+ You're not going to have the same pixel.
+
+0:25:11	SPEAKER_04
+ Yeah, exactly.
+
+0:25:12	SPEAKER_04
+ So we have the option that we can put in an affixation thing here, right, as well.
+
+0:25:17	SPEAKER_04
+ If you want the smaller... if you want the smaller coding in here so that it's not just parsed into this idea of which object, but you also have the raw fixation data.
+
+0:25:28	SPEAKER_04
+ We can put that in as another track.
+
+0:25:30	SPEAKER_04
+ If you think that that's something that you might want to look at in one of these tools that shows you the tracks against each other.
+
+0:25:35	SPEAKER_06
+ Well, all I understood you to ask for was the duration.
+
+0:25:38	SPEAKER_01
+ Yeah, that's all he asked for.
+
+0:25:40	SPEAKER_01
+ Yeah.
+
+0:25:41	SPEAKER_01
+ Well, I think...
+
+0:25:42	SPEAKER_01
+ If we've got everything, then I suppose it's...
+
+0:25:44	SPEAKER_01
+ You can come back.
+
+0:25:45	SPEAKER_01
+ You can always... yes, it's... you're not throwing anything away then.
+
+0:25:49	SPEAKER_04
+ Yeah, and in NXT there's no cost right because... you just don't choose to load those.
+
+0:25:54	SPEAKER_04
+ All we're doing is dumping it as output that you can load if you choose to.
+
+0:25:59	SPEAKER_04
+ So if the things that you just know are crazy and you're not going to want, then we don't do it.
+
+0:26:04	SPEAKER_04
+ But otherwise we go ahead and dump them because it's easy to dump up the fixations.
+
+0:26:09	SPEAKER_04
+ Yes.
+
+0:26:10	SPEAKER_06
+ Yeah.
+
+0:26:11	SPEAKER_06
+ Number of different fixations.
+
+0:26:12	SPEAKER_04
+ Okay, so it's the number of fixations.
+
+0:26:14	SPEAKER_04
+ Well, actually, do you want the average duration?
+
+0:26:16	SPEAKER_06
+ Did you want the number of different ones?
+
+0:26:18	SPEAKER_01
+ The duration thing as well, somehow, whether it's the average one or...
+
+0:26:22	SPEAKER_06
+ Duration of each fixation in the region.
+
+0:26:25	SPEAKER_04
+ Not each?
+
+0:26:26	SPEAKER_04
+ Well, if it's each, you have to break it down into another tier, right?
+
+0:26:30	SPEAKER_04
+ You can say there were three fixations and they averaged at a certain time, but you don't want to...
+
+0:26:35	SPEAKER_01
+ The average should be all right to work.
+
+0:26:37	SPEAKER_04
+ Well, what about the overall sum of the durations?
+
+0:26:40	SPEAKER_04
+ Is that...
+
+0:26:41	SPEAKER_01
+ Well, you've already got that number of fixations in the average time...
+
+0:26:44	SPEAKER_03
+ Yeah, then that's the way you want it that way around?
+
+0:26:48	None
+ Yeah.
+
+0:26:49	SPEAKER_06
+ So you had some measure of jiggle in the region, roughly.
+
+0:26:53	SPEAKER_04
+ And did you want the percentage of time fixated as opposed to...
+
+0:26:58	SPEAKER_04
+ Which is sort of another view of this number?
+
+0:27:01	SPEAKER_04
+ You can have as many of these...
+
+0:27:03	SPEAKER_01
+ That should be...
+
+0:27:04	SPEAKER_01
+ You should be able to derive that presumably from...
+
+0:27:06	SPEAKER_04
+ Yeah.
+
+0:27:07	SPEAKER_04
+ Well, it's not...
+
+0:27:08	SPEAKER_04
+ The extra cost of having these as attributes is not high.
+
+0:27:12	SPEAKER_04
+ So, you know, it saves you having to do...
+
+0:27:18	SPEAKER_04
+ Write scripts to do arithmetic on that later.
+
+0:27:20	SPEAKER_04
+ If you know that these are numbers that are going to be useful to you.
+
+0:27:24	SPEAKER_06
+ What's our error of measurement on location on the screen?
+
+0:27:28	SPEAKER_06
+ So, to what degree do we actually know whether the two little eyes, little circles, are exactly in the same place, or just somewhere in the same region?
+
+0:27:39	SPEAKER_01
+ It can vary a bit depending on the calibration, but we're building in a sort of error margin.
+
+0:27:45	SPEAKER_01
+ We based on pixels around, but there will also be a minimum one, because I'm trying to think of probably the small, virtual mouse icon is so small, it'll need a slightly larger...
+
+0:27:58	SPEAKER_01
+ It's...
+
+0:27:59	SPEAKER_01
+ Yeah, okay.
+
+0:28:00	SPEAKER_01
+ So, a larger error margin around it.
+
+0:28:03	SPEAKER_06
+ Okay, so my question was going to be...
+
+0:28:06	SPEAKER_06
+ The mouse is a dynamic object, right?
+
+0:28:08	SPEAKER_06
+ The eye track is a dynamic object, or is it only the piece that the other person's eye track is on?
+
+0:28:15	SPEAKER_06
+ That's an object in this definition.
+
+0:28:17	SPEAKER_01
+ No, the other person's gaze position is a...
+
+0:28:20	SPEAKER_06
+ Is an object.
+
+0:28:22	SPEAKER_01
+ Okay, with some...
+
+0:28:23	SPEAKER_06
+ With plus or minus something or other.
+
+0:28:25	SPEAKER_06
+ Yeah.
+
+0:28:26	SPEAKER_06
+ Around it.
+
+0:28:27	SPEAKER_06
+ Some circular area.
+
+0:28:29	SPEAKER_03
+ Yes.
+
+0:28:30	SPEAKER_06
+ Okay.
+
+0:28:31	SPEAKER_06
+ And...
+
+0:28:32	SPEAKER_06
+ So, you can be on the object, but not on the other person's gaze.
+
+0:28:39	SPEAKER_06
+ So, there can be a triangle, which has...
+
+0:28:43	SPEAKER_06
+ So, if there...
+
+0:28:44	SPEAKER_06
+ A's gaze in the center, and your gaze actually happens to be here.
+
+0:28:50	SPEAKER_06
+ Yes.
+
+0:28:51	SPEAKER_06
+ You're in the triangle region.
+
+0:28:52	SPEAKER_06
+ Does this...
+
+0:28:53	SPEAKER_01
+ But not looking at their individual.
+
+0:28:55	SPEAKER_01
+ But they probably will avoid looking directly.
+
+0:28:58	SPEAKER_01
+ If they're looking directly at it, it's obscuring the part.
+
+0:29:05	SPEAKER_06
+ But it's directly at it when these two...
+
+0:29:08	SPEAKER_06
+ In this situation, when these two overlap.
+
+0:29:11	SPEAKER_06
+ Right, like this.
+
+0:29:12	SPEAKER_06
+ Yeah.
+
+0:29:13	SPEAKER_00
+ So, I think that's going to cut that.
+
+0:29:15	SPEAKER_00
+ Because the...
+
+0:29:16	SPEAKER_00
+ Don't worry about this, just in...
+
+0:29:17	SPEAKER_00
+ They're only looking at one thing at times, or whether it's a triangle, or whatever else.
+
+0:29:21	SPEAKER_00
+ So, what you suggest in there is they can be looking at the triangle and maybe a mouse pointer, and maybe an eye at the same time.
+
+0:29:27	SPEAKER_06
+ Okay.
+
+0:29:28	SPEAKER_06
+ Well, it would come up...
+
+0:29:29	SPEAKER_06
+ It would say yes.
+
+0:29:30	SPEAKER_06
+ Right, I mean, because they would be in the same place.
+
+0:29:33	SPEAKER_06
+ So, if you...
+
+0:29:34	SPEAKER_06
+ You're going to have dynamic regions which overlap one another by definition.
+
+0:29:37	SPEAKER_06
+ If the mouse is on...
+
+0:29:38	SPEAKER_06
+ The mouse is on the...
+
+0:29:39	SPEAKER_05
+ The construct.
+
+0:29:40	SPEAKER_05
+ Yeah.
+
+0:29:41	SPEAKER_04
+ Yeah.
+
+0:29:42	SPEAKER_04
+ Right.
+
+0:29:43	SPEAKER_04
+ Well, well, those are different tracks of information.
+
+0:29:45	SPEAKER_04
+ So, what you want is one track of information about which object it's on.
+
+0:29:48	SPEAKER_04
+ What about whether or not it's on the other guy's gaze?
+
+0:29:50	SPEAKER_04
+ And what about whether it's on one of the mouse's...
+
+0:29:52	SPEAKER_06
+ We...
+
+0:29:53	SPEAKER_06
+ Treat those as other objects.
+
+0:29:55	SPEAKER_06
+ But the difference between them and the parts of the thing to be constructed is that they're allowed to overlap with other things.
+
+0:30:03	SPEAKER_06
+ Nothing breaks.
+
+0:30:05	SPEAKER_06
+ Okay.
+
+0:30:06	SPEAKER_04
+ Yeah, but in the analysis, you should treat those as completely separate tracks of information.
+
+0:30:11	SPEAKER_04
+ Because they can be looking at...
+
+0:30:13	SPEAKER_04
+ They could look simultaneously at somebody's mouse, somebody's gaze, and some object.
+
+0:30:17	SPEAKER_04
+ Right?
+
+0:30:18	SPEAKER_06
+ Yes.
+
+0:30:19	SPEAKER_06
+ As opposed to simply looking at somebody's gaze when the mouse isn't also there.
+
+0:30:21	SPEAKER_06
+ Right.
+
+0:30:22	SPEAKER_05
+ And you want to know those things.
+
+0:30:23	SPEAKER_06
+ So, these are independent.
+
+0:30:24	SPEAKER_04
+ Right.
+
+0:30:25	SPEAKER_04
+ They're independent dynamic objects.
+
+0:30:26	SPEAKER_04
+ So, what we want is whether they're looking at the other person's gaze, right?
+
+0:30:30	SPEAKER_04
+ And say they are in this period.
+
+0:30:33	SPEAKER_04
+ Well, I mean...
+
+0:30:34	SPEAKER_04
+ Okay.
+
+0:30:35	SPEAKER_06
+ So, a definition of we're all looking at it and touching the same thing.
+
+0:30:38	SPEAKER_06
+ So, imagine that we've just added a piece to the construct.
+
+0:30:42	SPEAKER_06
+ All right?
+
+0:30:43	SPEAKER_06
+ So, now that's the construct.
+
+0:30:45	SPEAKER_06
+ And both mouse symbols are on it.
+
+0:30:50	SPEAKER_06
+ Right?
+
+0:30:51	SPEAKER_06
+ And both gazes are on it.
+
+0:30:54	SPEAKER_06
+ Yep.
+
+0:30:55	SPEAKER_06
+ Right?
+
+0:30:56	SPEAKER_06
+ So, at that point, you should have a lineup of A is on the construct, A is on the mouse, A is on...
+
+0:31:03	SPEAKER_06
+ A is on A's mouse, A is on B's mouse, A is on B's gaze, and B likewise.
+
+0:31:08	SPEAKER_04
+ Yeah.
+
+0:31:09	SPEAKER_04
+ Okay.
+
+0:31:10	SPEAKER_04
+ So, there's a lot of tracks here, right?
+
+0:31:12	SPEAKER_04
+ Because what we just did is this fixation track.
+
+0:31:18	SPEAKER_04
+ And there's A's mouse, not their eyes, is on an object, right?
+
+0:31:23	SPEAKER_04
+ And the mouse might be on it.
+
+0:31:25	SPEAKER_06
+ Yeah, but the mouse is also trying a one dynamic object.
+
+0:31:28	SPEAKER_04
+ But it doesn't matter.
+
+0:31:30	SPEAKER_04
+ That's fine.
+
+0:31:31	SPEAKER_04
+ Okay.
+
+0:31:32	SPEAKER_04
+ The mouse, which thing?
+
+0:31:33	SPEAKER_04
+ Where is the mouse?
+
+0:31:34	SPEAKER_04
+ You know, it's on this object.
+
+0:31:36	SPEAKER_04
+ And then A's eye is on...
+
+0:31:40	SPEAKER_04
+ Well, A's mouse, I guess, right?
+
+0:31:42	SPEAKER_04
+ A's eye might be looking at A's mouse here.
+
+0:31:47	SPEAKER_04
+ Right?
+
+0:31:48	SPEAKER_04
+ I mean, these are all the different ways of taking cross products, the things that could be collocated.
+
+0:31:53	SPEAKER_04
+ So, you just treat them as independent.
+
+0:31:55	SPEAKER_04
+ And I guess it from what you say...
+
+0:31:56	SPEAKER_04
+ And then you look for combinations of them.
+
+0:31:57	SPEAKER_04
+ Yeah.
+
+0:31:58	SPEAKER_04
+ I'm guessing from what you're saying, you want all these tracks.
+
+0:32:00	SPEAKER_04
+ I think we need to.
+
+0:32:01	SPEAKER_04
+ Yeah.
+
+0:32:02	SPEAKER_04
+ Which is a measurable line.
+
+0:32:03	SPEAKER_04
+ And it's looking where the other guy is directing attention.
+
+0:32:05	SPEAKER_04
+ And there are two measures of where the other guy is directing attention.
+
+0:32:07	SPEAKER_06
+ That you get from the visual track.
+
+0:32:08	SPEAKER_06
+ One is where the mouse is.
+
+0:32:09	SPEAKER_06
+ The other is where the gaze is.
+
+0:32:11	SPEAKER_06
+ So...
+
+0:32:12	SPEAKER_06
+ So, you know, I think that's a good idea.
+
+0:32:14	SPEAKER_06
+ Yeah.
+
+0:32:17	SPEAKER_04
+ Yeah.
+
+0:32:18	SPEAKER_04
+ Yeah.
+
+0:32:19	SPEAKER_04
+ So, yeah.
+
+0:32:20	SPEAKER_00
+ So, yeah.
+
+0:32:21	SPEAKER_00
+ So, it's just a matter of adding the two mice pointless and the two gazes as extra objects.
+
+0:32:27	SPEAKER_00
+ So, yeah.
+
+0:32:28	SPEAKER_00
+ As long as I've got an ID in there, we can just say, right, at this...
+
+0:32:31	SPEAKER_00
+ Between these times, they're looking at that object or the look at the mouse, the look at whatever.
+
+0:32:35	SPEAKER_04
+ But the important thing is you don't treat that entire set as mutually exclusive and exhaustive.
+
+0:32:39	SPEAKER_04
+ It's just...
+
+0:32:40	SPEAKER_04
+ Yeah.
+
+0:32:41	SPEAKER_04
+ The...
+
+0:32:42	SPEAKER_04
+ The objects is like a separate level of analysis.
+
+0:32:46	SPEAKER_04
+ It's just one of the looking at the objects, then one of the looking at the gaze.
+
+0:32:49	SPEAKER_06
+ But it's also going to be the case that whatever region you define as the region of the dynamic object of the red triangle may get to the point where it overlaps the region of the dynamic object of the green square.
+
+0:33:01	SPEAKER_06
+ Okay.
+
+0:33:02	SPEAKER_06
+ What do we do about that?
+
+0:33:03	SPEAKER_06
+ Does that happen?
+
+0:33:04	SPEAKER_06
+ Yeah.
+
+0:33:05	SPEAKER_06
+ Because if you have them close together, there's always some fuzz factor around there.
+
+0:33:08	SPEAKER_04
+ Oh, right.
+
+0:33:09	SPEAKER_06
+ And so, if they're left lying close together, or in fact in the model, in the...
+
+0:33:14	SPEAKER_06
+ Not in the model, in the supplies set, they're actually neatly packed into a little space.
+
+0:33:20	SPEAKER_04
+ Okay.
+
+0:33:21	SPEAKER_04
+ So, what you're saying is like a new problem for us, which is...
+
+0:33:23	SPEAKER_04
+ I'm going to change...
+
+0:33:24	SPEAKER_01
+ Two objects close together.
+
+0:33:25	SPEAKER_01
+ Your eye gaze can actually be looking at the left edge of one and the right edge of the other.
+
+0:33:32	SPEAKER_01
+ And they're therefore looking at two objects at once.
+
+0:33:34	SPEAKER_01
+ Yeah.
+
+0:33:35	SPEAKER_04
+ So, you're saying...
+
+0:33:36	SPEAKER_04
+ Speak, speak, okay.
+
+0:33:39	SPEAKER_04
+ Can you write on my pen pad?
+
+0:33:41	SPEAKER_04
+ Just say...
+
+0:33:42	SPEAKER_04
+ Yeah, pens.
+
+0:33:43	SPEAKER_04
+ Pen.
+
+0:33:44	SPEAKER_04
+ Whiteboard pens.
+
+0:33:46	SPEAKER_04
+ So, you're saying, you know, they could be looking at square one at this point.
+
+0:33:53	SPEAKER_04
+ Because they...
+
+0:33:54	SPEAKER_06
+ Because the two are so close together that their regions overlap.
+
+0:33:58	SPEAKER_04
+ Okay.
+
+0:33:59	SPEAKER_04
+ That's a problem for the data models and either the things that we're using.
+
+0:34:03	SPEAKER_01
+ That's a problem.
+
+0:34:06	SPEAKER_01
+ Unless we just define it as...
+
+0:34:09	SPEAKER_01
+ There's only... they are exclusive.
+
+0:34:11	SPEAKER_01
+ And whichever area has the greatest overlap is what they're actually looking at.
+
+0:34:16	SPEAKER_01
+ What do you mean by greatest?
+
+0:34:17	SPEAKER_01
+ Well, if you've got your sort of eye position and it's unlikely to be exactly 50% in one object and 50% in the other.
+
+0:34:26	SPEAKER_04
+ Draw it.
+
+0:34:27	SPEAKER_04
+ My special reasoning is no good.
+
+0:34:30	SPEAKER_04
+ I think it's really important.
+
+0:34:32	SPEAKER_04
+ I think it's really information.
+
+0:34:33	SPEAKER_04
+ I'm the one that uses the whiteboard because I actually put the marker on.
+
+0:34:37	SPEAKER_01
+ Yeah.
+
+0:34:38	SPEAKER_01
+ Well, I'm thinking is if you've got, say, one object there and...
+
+0:34:43	SPEAKER_01
+ Yeah, so this is...
+
+0:34:44	SPEAKER_01
+ Yeah, this is the better pen.
+
+0:34:46	SPEAKER_01
+ Thank you.
+
+0:34:53	SPEAKER_01
+ Part one and part two.
+
+0:34:56	SPEAKER_01
+ And you've got their sort of... they're looking...
+
+0:35:00	SPEAKER_02
+ They're...
+
+0:35:02	SPEAKER_01
+ Then that overlap means they're looking at two pieces simultaneously.
+
+0:35:09	SPEAKER_04
+ Yeah.
+
+0:35:10	SPEAKER_04
+ But you had a way of choosing which one, right?
+
+0:35:12	SPEAKER_04
+ Yeah, but maybe a bad idea.
+
+0:35:13	SPEAKER_04
+ This is more of it.
+
+0:35:14	SPEAKER_04
+ It may be a bad idea.
+
+0:35:15	SPEAKER_06
+ You've just thrown data away.
+
+0:35:17	SPEAKER_01
+ Yeah, that's a decision.
+
+0:35:19	SPEAKER_01
+ Well, the thing is that...
+
+0:35:21	SPEAKER_01
+ I'm saying is if they're looking... if most of what their overlap is here, then we stick with that one.
+
+0:35:28	SPEAKER_04
+ So, what do you mean, which... is it closer to the... is the circle...
+
+0:35:33	SPEAKER_04
+ I mean, what is the circle?
+
+0:35:34	SPEAKER_04
+ They're looking at a pixel or something, right?
+
+0:35:37	SPEAKER_01
+ No, that... because the gaze position will be a sort of fuzzy area.
+
+0:35:43	SPEAKER_01
+ It won't just be a pixel.
+
+0:35:45	SPEAKER_01
+ It will be a natural... like a circle.
+
+0:35:47	SPEAKER_01
+ Why is it wobble?
+
+0:35:48	SPEAKER_01
+ The gaze will wobble.
+
+0:35:49	SPEAKER_01
+ So that's... that's going to be...
+
+0:35:52	SPEAKER_01
+ So that's very... it's a sort of lump target.
+
+0:35:57	SPEAKER_01
+ So there'll be a bit of a... some sort of overlap.
+
+0:36:02	SPEAKER_01
+ Two objects.
+
+0:36:03	SPEAKER_06
+ Or indeed, they might be looking from one to another.
+
+0:36:05	SPEAKER_06
+ Yeah, they're deciding which one to choose or thinking.
+
+0:36:07	SPEAKER_06
+ So you don't want to decide it's only one.
+
+0:36:10	SPEAKER_00
+ The only GDS force is working at the moment.
+
+0:36:13	SPEAKER_00
+ It's actually got a separate track for each part.
+
+0:36:15	SPEAKER_00
+ Okay, well, that's fine.
+
+0:36:16	SPEAKER_06
+ I was going to say that's the obvious.
+
+0:36:18	SPEAKER_06
+ Oh, but what?
+
+0:36:19	SPEAKER_04
+ And that's going to be analytically.
+
+0:36:20	SPEAKER_04
+ Because it's going to...
+
+0:36:22	SPEAKER_04
+ Well...
+
+0:36:23	SPEAKER_04
+ Which one is yes or no?
+
+0:36:24	SPEAKER_04
+ How many parts of it?
+
+0:36:25	SPEAKER_04
+ Well, it depends on what you're building.
+
+0:36:28	SPEAKER_00
+ There's different parts.
+
+0:36:29	SPEAKER_00
+ There's different parts, whether you're doing the 10 gram, whether you're doing an airplane or whatever.
+
+0:36:33	SPEAKER_00
+ Six, two, a dozen.
+
+0:36:35	SPEAKER_06
+ Okay.
+
+0:36:36	SPEAKER_06
+ I know ways of getting around the center.
+
+0:36:38	SPEAKER_00
+ We can easily analyze it down later on.
+
+0:36:42	SPEAKER_06
+ I mean, I think it's very likely that...
+
+0:36:44	SPEAKER_06
+ If the other ones are oscillating,
+
+0:36:46	SPEAKER_01
+ then that's presumably going to change the width. So you're actually going to see them flipping between...
+
+0:36:53	SPEAKER_01
+ Well, not if the regions overlap.
+
+0:36:55	SPEAKER_01
+ If they're really close to the region,
+
+0:36:56	SPEAKER_04
+ it's going to get boxed. It's really close.
+
+0:36:58	SPEAKER_06
+ Yeah.
+
+0:36:59	SPEAKER_06
+ Right.
+
+0:37:00	SPEAKER_06
+ And if you define the regions so neatly that there's...
+
+0:37:05	SPEAKER_06
+ You know, that we're losing gaze because of jiggle outside this closely defined region when it's in the middle of space, then...
+
+0:37:12	SPEAKER_06
+ I mean, I actually like the solution.
+
+0:37:15	SPEAKER_06
+ However, ugly, it looks in terms of the data format of having a track for every...
+
+0:37:18	SPEAKER_06
+ Yeah, well, the last format I'm worried about,
+
+0:37:20	SPEAKER_04
+ it's the way you do the analysis because you don't want to have to say... You know, did they jointly look at triangle one?
+
+0:37:28	SPEAKER_04
+ Okay.
+
+0:37:29	SPEAKER_04
+ Did they jointly look at square one?
+
+0:37:30	SPEAKER_04
+ Okay.
+
+0:37:31	SPEAKER_04
+ Did they jointly look at...
+
+0:37:32	SPEAKER_04
+ You know, you need some way of...
+
+0:37:33	SPEAKER_04
+ It's a thing.
+
+0:37:34	SPEAKER_04
+ Going over the whole thing.
+
+0:37:36	SPEAKER_04
+ But we can find ways around that.
+
+0:37:38	SPEAKER_04
+ I think for now we do it this way and then we think about what we need out of it in the end.
+
+0:37:42	SPEAKER_04
+ It's just, you know, in a lawn that has the side effect, that if you go for the naturalistic way of up translating to a lawn, there'll be a zillion tracks and it'll probably ruin their viewer because you'll get very sparse data on each track.
+
+0:37:54	SPEAKER_04
+ It'll be like the old referring expression general visualization in the map task, you know, when they talk about one object, one landmark, and then another one.
+
+0:38:04	SPEAKER_04
+ That was brilliant.
+
+0:38:05	SPEAKER_04
+ Well, it's big, right?
+
+0:38:07	SPEAKER_06
+ Yeah, it is big and you do have to scroll through it to see what's going on, but it gives you a very clear picture of what's going on.
+
+0:38:12	SPEAKER_06
+ Well, we'll see if a lawn likes it or not.
+
+0:38:14	SPEAKER_06
+ Yeah.
+
+0:38:15	SPEAKER_06
+ Well, okay.
+
+0:38:16	SPEAKER_06
+ So we better do a test one.
+
+0:38:17	SPEAKER_04
+ Yeah.
+
+0:38:18	SPEAKER_04
+ And we better also like have in the representational list of part, like even in the NXT of translational list of parts.
+
+0:38:24	SPEAKER_00
+ Yeah.
+
+0:38:25	SPEAKER_00
+ It affects the way we do the NXT.
+
+0:38:26	SPEAKER_00
+ Yeah.
+
+0:38:27	SPEAKER_00
+ Yeah.
+
+0:38:28	SPEAKER_00
+ But there's only list of parts in the GDF.
+
+0:38:29	SPEAKER_00
+ So, yeah, that's not a problem.
+
+0:38:31	SPEAKER_00
+ There's a base basically what we've got is, well, there's three places where you've got the ID there.
+
+0:38:35	SPEAKER_00
+ So you've got an ID for a part, you've got an ID for a location on the screen.
+
+0:38:39	SPEAKER_00
+ So that's just the target config, the clock, whatever else.
+
+0:38:41	SPEAKER_00
+ And then we can easily add IDs for the two mouse points and the two gazes.
+
+0:38:45	SPEAKER_00
+ And from that, basically all the tracks that are doing is saying, between this time there's a look at this object, yeah, this ID.
+
+0:38:53	SPEAKER_00
+ So, so it's effectively a track for each ID.
+
+0:38:57	SPEAKER_06
+ Okay.
+
+0:38:58	SPEAKER_06
+ So what about the point where a part becomes the construct?
+
+0:39:02	SPEAKER_06
+ You still are unified as a part.
+
+0:39:04	SPEAKER_00
+ But not much should lose that.
+
+0:39:06	SPEAKER_00
+ Well, what happens there is that the two, the existing parts basically cease to exist.
+
+0:39:12	SPEAKER_00
+ And a new part with a new ID starts existing at the point where they're joining.
+
+0:39:16	SPEAKER_06
+ So every time a part is added to the construct, it becomes a new part.
+
+0:39:20	SPEAKER_06
+ So the construct actually has, say, it has six things that are added to some initial thing.
+
+0:39:28	SPEAKER_06
+ Okay.
+
+0:39:29	SPEAKER_06
+ So if there's just the initial thing you've put in the middle of the screen, that's just the initial object.
+
+0:39:34	SPEAKER_06
+ Yeah.
+
+0:39:35	SPEAKER_06
+ As soon as you put a part, there's a construct.
+
+0:39:36	SPEAKER_06
+ But it's construct one because when you add another part, construct one ceases to exist.
+
+0:39:40	SPEAKER_06
+ And you get construct two.
+
+0:39:42	SPEAKER_06
+ Yeah.
+
+0:39:43	SPEAKER_06
+ Right.
+
+0:39:44	SPEAKER_06
+ So actually defining all of those as the construct is going to be the trickiest thing.
+
+0:39:49	SPEAKER_01
+ It's also going to be a problem because you're going to have one part to construct forming in the middle of a fixation.
+
+0:40:00	None
+ Right.
+
+0:40:01	SPEAKER_01
+ So it's not going to be quite as clear.
+
+0:40:04	SPEAKER_01
+ Right.
+
+0:40:05	SPEAKER_01
+ So you're looking at triangle one, right?
+
+0:40:07	SPEAKER_01
+ All of a sudden it's something else.
+
+0:40:10	SPEAKER_01
+ And it becomes construct or assembly, whatever.
+
+0:40:13	SPEAKER_01
+ Yeah.
+
+0:40:14	SPEAKER_04
+ And there could be more than one construct at a time, right?
+
+0:40:17	SPEAKER_04
+ There is no construct.
+
+0:40:19	SPEAKER_04
+ And then you can start again.
+
+0:40:21	SPEAKER_04
+ Also when you build some sort of assembly, then you can screw that and link the.
+
+0:40:24	SPEAKER_04
+ Yeah.
+
+0:40:25	SPEAKER_04
+ But why does it, why does construct one become construct two when you add something to it?
+
+0:40:28	SPEAKER_04
+ Because the.
+
+0:40:29	SPEAKER_00
+ Yeah, that's always working the moment because it's generating a new idea when you create a new part.
+
+0:40:35	SPEAKER_04
+ Oh, and this is because we don't want it to stay triangle one.
+
+0:40:37	SPEAKER_04
+ When you start with a construct, it's not a construct at all.
+
+0:40:39	SPEAKER_04
+ It's just a one thing.
+
+0:40:40	SPEAKER_04
+ And we don't want to triangle one to suddenly have.
+
+0:40:42	SPEAKER_04
+ Yeah.
+
+0:40:43	SPEAKER_06
+ Well, the problem is that all of these things are popping out of existence.
+
+0:40:46	SPEAKER_06
+ So do we know the difference between we broke it and it went away?
+
+0:40:51	SPEAKER_06
+ And it's now part of the construct.
+
+0:40:54	SPEAKER_00
+ Yeah, but there's join events.
+
+0:40:56	SPEAKER_00
+ So if a join event, if there's a join event linked to linked to item, then you know, it's become part of a construct.
+
+0:41:01	SPEAKER_06
+ Or can we tag the constructs with what's in them?
+
+0:41:06	SPEAKER_00
+ Yeah, the contracts are already tagged with it.
+
+0:41:09	SPEAKER_00
+ So there's actually a separate part of the data format which says for each construct, which two parts made that.
+
+0:41:15	SPEAKER_00
+ Okay.
+
+0:41:16	SPEAKER_06
+ So we could essentially, well, then we could cumulative or it is a new construct because it has a new listed, a new cumulative listed parts.
+
+0:41:24	SPEAKER_06
+ Yeah.
+
+0:41:25	SPEAKER_00
+ But you can still track what parts went into it.
+
+0:41:27	SPEAKER_00
+ Right.
+
+0:41:28	SPEAKER_06
+ So you can still find triangle one, whatever.
+
+0:41:30	SPEAKER_06
+ Some fancy programming is going to have to be done to say, I was looking at triangle one and I'm looking at triangle one in construct one.
+
+0:41:38	SPEAKER_06
+ Because the first construct was triangle one and square one.
+
+0:41:41	SPEAKER_00
+ Yeah.
+
+0:41:42	SPEAKER_00
+ But that's easy to me because the, the, the, each construct has the IDs for the, the things that construct it.
+
+0:41:48	SPEAKER_06
+ So now we have to ask whether.
+
+0:41:54	SPEAKER_06
+ So let's imagine this.
+
+0:41:55	SPEAKER_06
+ We've made a construct of two parts and we're a triangle and a square and we're considering now adding something on to the side of the square that isn't attached to the triangle.
+
+0:42:05	SPEAKER_06
+ Okay.
+
+0:42:07	SPEAKER_06
+ Are we looking at the square?
+
+0:42:09	SPEAKER_06
+ Are we looking at the construct?
+
+0:42:11	SPEAKER_06
+ Yeah.
+
+0:42:12	SPEAKER_04
+ That was the next question I had.
+
+0:42:14	SPEAKER_04
+ Yeah.
+
+0:42:15	SPEAKER_01
+ You're really looking at the construct.
+
+0:42:17	SPEAKER_01
+ Because I said in this definition, I should be looking at the construct.
+
+0:42:19	SPEAKER_06
+ Yeah.
+
+0:42:20	SPEAKER_06
+ The reason to figure out that you're looking at the square rather than the triangle.
+
+0:42:25	SPEAKER_00
+ Well, yeah.
+
+0:42:26	SPEAKER_00
+ The thing is that we used to have the x, the x, y traces from the ASCII format.
+
+0:42:30	SPEAKER_00
+ So if you want, if you want to be able to save on looking at the square instead of on the construct.
+
+0:42:34	SPEAKER_00
+ So it is possible to get that data out.
+
+0:42:37	SPEAKER_00
+ Yes.
+
+0:42:38	SPEAKER_00
+ It's not doing it.
+
+0:42:39	SPEAKER_00
+ It's not doing it in the jazz sandwich at the moment, but I can easily add it to give that information if you want.
+
+0:42:43	SPEAKER_06
+ Because I mean, that's the example presumably that's the best example of overlapping areas.
+
+0:42:50	SPEAKER_06
+ Because if the two things are now about it, of course, there's an area which is coming into both of them.
+
+0:42:56	SPEAKER_06
+ Okay.
+
+0:42:57	SPEAKER_06
+ So what I'm trying to run through in my head is that we can always tell the difference between something going out of existence.
+
+0:43:06	SPEAKER_06
+ Because it's trying to construct something going out of existence because we threw it away.
+
+0:43:10	SPEAKER_06
+ Right. Suppose we pick up and we screwed up the first time we put the triangle with the square and we threw it away.
+
+0:43:18	SPEAKER_06
+ We decided we didn't like it.
+
+0:43:20	SPEAKER_06
+ And we took another one.
+
+0:43:22	SPEAKER_06
+ Is it triangle one? Is it triangle one prime or something like that?
+
+0:43:26	SPEAKER_06
+ It's the replacement triangle.
+
+0:43:27	SPEAKER_00
+ Yeah.
+
+0:43:28	SPEAKER_00
+ If you create a new part, it gets a new ID.
+
+0:43:30	SPEAKER_00
+ So if you get your dragon new part, how do I know what it replaces?
+
+0:43:34	SPEAKER_04
+ You don't because that's, you'd have to have human coding to do that.
+
+0:43:38	SPEAKER_04
+ Yeah.
+
+0:43:40	SPEAKER_04
+ You want to know which one they're planning on using.
+
+0:43:42	SPEAKER_06
+ This is true. But if I have triangles one, two, three, right, and I throw them away.
+
+0:43:47	SPEAKER_06
+ Any triangles I take out are to replace one, two, three.
+
+0:43:51	SPEAKER_04
+ Well, you know which mold they come from.
+
+0:43:53	SPEAKER_04
+ And so you know which shape they match, but you can't possibly know which one of the ones they're meant to replace.
+
+0:43:58	SPEAKER_00
+ Yeah.
+
+0:43:59	SPEAKER_06
+ You don't know which one they're meant to replace, but you know they're not meant to replace any better all better.
+
+0:44:04	SPEAKER_06
+ They haven't been thrown away.
+
+0:44:05	SPEAKER_01
+ They can't replace the new parts when they appear when the previous one's broken.
+
+0:44:13	SPEAKER_06
+ Right. So the new parts are replacing those which have disappeared from the screen.
+
+0:44:18	SPEAKER_06
+ Yes.
+
+0:44:19	SPEAKER_06
+ And if there's no more TR1 track, the TR1 track is gone.
+
+0:44:22	SPEAKER_06
+ Oh, so there's no two parts with the same shape?
+
+0:44:24	SPEAKER_06
+ Oh, there are many.
+
+0:44:25	SPEAKER_01
+ Same shape, but not the same shape and color.
+
+0:44:27	SPEAKER_05
+ Same identity.
+
+0:44:28	SPEAKER_05
+ Oh, same shape and color.
+
+0:44:29	SPEAKER_05
+ Right. Okay.
+
+0:44:30	SPEAKER_05
+ Oh, is that true?
+
+0:44:31	SPEAKER_01
+ You've decided not to make all the triangles written, squares written.
+
+0:44:32	SPEAKER_01
+ That's what they're at the moment.
+
+0:44:34	SPEAKER_04
+ Okay. So you can't tell what is meant to replace that because it's the same.
+
+0:44:37	SPEAKER_01
+ It's just the case of the mold, right?
+
+0:44:39	SPEAKER_01
+ Yes. That's the way it works at the moment.
+
+0:44:41	SPEAKER_01
+ I assume that's how nine Negan had set up a lot.
+
+0:44:46	SPEAKER_01
+ Okay. So that's back to Tim's.
+
+0:44:50	SPEAKER_05
+ Yeah.
+
+0:44:51	SPEAKER_06
+ So shape plus color.
+
+0:44:54	SPEAKER_01
+ They are individual.
+
+0:44:56	SPEAKER_01
+ They're unique.
+
+0:44:57	SPEAKER_01
+ Yep.
+
+0:44:58	SPEAKER_06
+ All the parts are unique.
+
+0:45:00	SPEAKER_06
+ So we hang on, that makes the task a little bit easier.
+
+0:45:04	SPEAKER_01
+ Yes. Right.
+
+0:45:05	SPEAKER_01
+ Tim, 10 grams are much easier and you can see all the lines.
+
+0:45:11	SPEAKER_06
+ Yeah.
+
+0:45:12	SPEAKER_01
+ So it is just a construction task rather than a puzzle.
+
+0:45:16	SPEAKER_06
+ Indeed.
+
+0:45:17	SPEAKER_06
+ Which kind of leaves you with an obvious way of making the same task harder and easier, doesn't it?
+
+0:45:22	SPEAKER_06
+ Yeah.
+
+0:45:23	SPEAKER_04
+ Yeah.
+
+0:45:24	SPEAKER_06
+ But this also, that's hard to code.
+
+0:45:25	SPEAKER_06
+ I mean, that's really a thing we might do.
+
+0:45:27	SPEAKER_06
+ Okay. So now let's make sure that the coding would survive that.
+
+0:45:31	SPEAKER_06
+ It's just, it's a beautifully controlled situation.
+
+0:45:33	SPEAKER_06
+ The construction task is essentially the same.
+
+0:45:35	SPEAKER_06
+ It's the figuring out stuff that gets harder if everything is purple.
+
+0:45:40	SPEAKER_06
+ For just to choose a color at random here.
+
+0:45:43	SPEAKER_00
+ Yeah.
+
+0:45:44	SPEAKER_00
+ Yeah. So I think the ending is probably a little bit, then two triangles, isn't there?
+
+0:45:47	SPEAKER_00
+ There's two identical triangles in the tangram.
+
+0:45:49	SPEAKER_01
+ Yes. At the moment, there are two, I think, two small ones and two large triangles.
+
+0:45:54	SPEAKER_01
+ They're actually the same physical size and shape.
+
+0:45:57	SPEAKER_01
+ At the moment, they're in different colors.
+
+0:45:59	SPEAKER_01
+ That also means in the new parts list, they're therefore, you know, two large triangles and two small ones.
+
+0:46:07	SPEAKER_01
+ Small ones.
+
+0:46:08	SPEAKER_01
+ Whereas in the revised edition, if they were all just plaque, they'd only be one, uh, mold in the new parts.
+
+0:46:15	SPEAKER_04
+ Yeah.
+
+0:46:16	SPEAKER_04
+ Well, in, when you specify these things, do you specify the molds or does it figure out what the molds are based on?
+
+0:46:20	SPEAKER_04
+ So is this hard word into Tim's program or is it just an artifact?
+
+0:46:23	SPEAKER_04
+ An artifact is the way we-
+
+0:46:24	SPEAKER_01
+ It's hard word. It just-
+
+0:46:26	SPEAKER_00
+ Yeah. Yeah. When you specify the molds in the- in the- in the- the file that generates the parts, we've got a list of parts.
+
+0:46:31	SPEAKER_00
+ The molds are based just taken out of the- the file that generates the- the first place apart.
+
+0:46:35	SPEAKER_00
+ Right. Okay.
+
+0:46:36	SPEAKER_00
+ So- So how many parts- How many parts are in the file?
+
+0:46:39	SPEAKER_00
+ That's how many parts appear in the- in the parts box.
+
+0:46:42	SPEAKER_06
+ So if you have five black triangles, they're going to be five black triangles in the parts box or one.
+
+0:46:46	SPEAKER_00
+ If you have five black triangles, there's going to be five- five parts in the part- five black triangles in the parts box.
+
+0:46:51	SPEAKER_00
+ But- So minor- But what you can do, in the initial configuration, you can reuse a triangle.
+
+0:46:57	SPEAKER_00
+ So if you only want one black triangle, you just create one black triangle in the parts box and then reuse that black triangle five times in the configuration.
+
+0:47:05	SPEAKER_06
+ Mm-hmm. Okay.
+
+0:47:07	SPEAKER_06
+ As long as this is possible. So I mean, that just is a kind of thing which is so simple.
+
+0:47:12	SPEAKER_06
+ So much like a single.
+
+0:47:14	SPEAKER_06
+ Yep.
+
+0:47:15	SPEAKER_06
+ Seem.
+
+0:47:17	SPEAKER_06
+ One zero variable change that it did.
+
+0:47:19	SPEAKER_06
+ But what would- Doesn't matter, because I'm trying to kind of map this onto biofix.
+
+0:47:23	SPEAKER_06
+ And biofix has multiple, you know, all the- The nuts are red or all the flat things or-
+
+0:47:36	SPEAKER_01
+ No, they can't have different nuts there. Well, it's not very different-
+
+0:47:42	SPEAKER_06
+ The same part is different colors.
+
+0:47:44	SPEAKER_04
+ Yeah. Yeah, but they don't have enough to make unique.
+
+0:47:47	SPEAKER_01
+ No, I mean, there's more than- There are multiple pieces of the same.
+
+0:47:51	SPEAKER_01
+ Mm-hmm.
+
+0:47:53	SPEAKER_06
+ So when you say a red nut or a green bolt or a long green bolt, then there'll be lots of them lying around.
+
+0:48:01	SPEAKER_06
+ Yeah.
+
+0:48:02	SPEAKER_06
+ I think that's how the robot is set up too.
+
+0:48:04	SPEAKER_06
+ Mm-hmm.
+
+0:48:05	SPEAKER_06
+ So five green bolts.
+
+0:48:06	SPEAKER_06
+ Here is one.
+
+0:48:07	SPEAKER_04
+ I think we've gotten to the point where, you know, to try to summarize, we think Tim's program can do both of these conditions.
+
+0:48:16	SPEAKER_04
+ Okay.
+
+0:48:17	SPEAKER_04
+ But I'm still worried about what the effects are for analysis, because you were aiming at something in the GDF format, and I wasn't quite sure what.
+
+0:48:27	SPEAKER_04
+ Okay.
+
+0:48:28	SPEAKER_06
+ So all I'm doing is kind of worrying out loud about all the things that will happen that will miss by a simple view of, for example, regions and looking at triangle one.
+
+0:48:38	SPEAKER_06
+ Yes.
+
+0:48:39	SPEAKER_04
+ When it's triangle one, not triangle one anymore.
+
+0:48:41	SPEAKER_04
+ So, okay, so I'll summarize what we said about that part, that every time you cast up a new part from a mold or, you know, every black triangle has a different idea.
+
+0:48:50	SPEAKER_04
+ And you know it's a black triangle, because you know which mold it came from.
+
+0:48:54	SPEAKER_04
+ Yeah.
+
+0:48:55	SPEAKER_04
+ But you don't know which part it was intended to replace on the screen, because you can't mind read.
+
+0:48:59	SPEAKER_06
+ That's true.
+
+0:49:02	SPEAKER_06
+ So how can we define the shapes that people build?
+
+0:49:07	SPEAKER_04
+ What do you mean define?
+
+0:49:09	SPEAKER_06
+ If, assuming I was, for a moment I was JP and I wanted to know how they actually went about building the thing.
+
+0:49:19	SPEAKER_06
+ Okay.
+
+0:49:21	SPEAKER_06
+ And I wanted to look at the strategy.
+
+0:49:25	SPEAKER_06
+ And I wanted to see if the strategy was different when we could talk about it, and when we just picked up whatever.
+
+0:49:31	SPEAKER_06
+ I mean, suppose I can't talk to you and I'm doing this task with you and I can't talk to you.
+
+0:49:35	SPEAKER_06
+ The thing which is going to be hardest for me is making elaborate plans with you.
+
+0:49:41	SPEAKER_06
+ I can reach for the next thing and you can go where I reach.
+
+0:49:44	SPEAKER_06
+ But if I have some sub goal, some long term sub goal of doing something clever with putting these together because it's hard and putting these together because it's hard.
+
+0:49:52	SPEAKER_06
+ It's going to be almost impossible to convey that to you.
+
+0:49:55	SPEAKER_06
+ And the difference in the history of construction is an important thing.
+
+0:50:02	SPEAKER_06
+ And I wonder how we can get that information back.
+
+0:50:04	SPEAKER_04
+ I think that this is a human coding that is part of the action in coding because I don't see how anybody but a person watching this can guess why they cast off this thing at this time.
+
+0:50:15	SPEAKER_06
+ Why is not, that's not the question I'm asking. The question I'm asking is what's the history of the construct.
+
+0:50:22	SPEAKER_06
+ So you have the names of the things in there.
+
+0:50:24	SPEAKER_06
+ And you have two constructs.
+
+0:50:25	SPEAKER_06
+ Suppose we have two sub constructs.
+
+0:50:28	SPEAKER_06
+ And whichever one had two pieces put together first is the earlier number of those constructs.
+
+0:50:33	SPEAKER_06
+ How do you tell the difference between adding a piece to this first construct and creating a second construct?
+
+0:50:42	SPEAKER_00
+ When the file construct, the way the constructs are defined in the file, you've got your parent construct and the parts that it was constructed out of.
+
+0:50:50	SPEAKER_00
+ And the other thing is it's a parent-child relationship.
+
+0:50:54	SPEAKER_00
+ Yeah, so you've got a parent-child relationship and the child can be a part or it can be another construct.
+
+0:50:58	SPEAKER_06
+ So construct two, construct one is a red triangle and green square.
+
+0:51:05	SPEAKER_06
+ Construct two is two green squares.
+
+0:51:10	SPEAKER_06
+ Construct three is a red triangle, a green square and another red triangle.
+
+0:51:17	SPEAKER_06
+ Construct four.
+
+0:51:18	SPEAKER_04
+ Yeah, but that's okay because they all have different underlying part numbers.
+
+0:51:21	SPEAKER_04
+ And when you say what a construct is.
+
+0:51:23	SPEAKER_06
+ So how are we going to tell when, for example, you think we're going to have to do human coding on when two sub constructs are put together?
+
+0:51:31	SPEAKER_05
+ No, no, no, no.
+
+0:51:32	SPEAKER_06
+ No, that's definition where a construct has construct as children.
+
+0:51:35	SPEAKER_00
+ Yeah, yeah, because there's a joint action.
+
+0:51:37	SPEAKER_00
+ The result, what you need to do is to do a construct in the part, two parts, whatever you think together.
+
+0:51:42	SPEAKER_00
+ And then the result there is a construct.
+
+0:51:44	SPEAKER_00
+ You've got time when that happens.
+
+0:51:45	SPEAKER_00
+ You can see that construct appeared at that time.
+
+0:51:48	SPEAKER_00
+ And you can still track the children of that construct.
+
+0:51:50	SPEAKER_06
+ We can zip through this and look at all the interactions in which people built construct construct, construct first, which we expect them to do as a wild hypothesis more when they have verbal communication than when they don't.
+
+0:52:04	SPEAKER_06
+ Okay, and we can do that by simply searching for any constructs that have construct as children.
+
+0:52:10	SPEAKER_06
+ Yeah.
+
+0:52:11	SPEAKER_04
+ Yeah, so we can easily look at things like that automatically.
+
+0:52:14	SPEAKER_04
+ It's just the why they get new parts that's the problem for us. We can't, if they suddenly, if they decide to get a part of a mold, we don't know. We can't know why until they do something with it.
+
+0:52:25	SPEAKER_06
+ We haven't actually made a rule that you can't collect extra parts, right?
+
+0:52:29	SPEAKER_01
+ Extra parts don't appear, so you can't click.
+
+0:52:32	SPEAKER_01
+ Oh, yeah, you said that.
+
+0:52:34	SPEAKER_01
+ Yeah, there are a couple of minutes like grayed out there.
+
+0:52:36	SPEAKER_01
+ Yeah, but you can see the mold is there, but they don't come filled.
+
+0:52:40	SPEAKER_05
+ No, no, I mean, you have to break one to get one.
+
+0:52:42	SPEAKER_04
+ Yes.
+
+0:52:43	SPEAKER_04
+ You can, but you can break one. When you break one, you don't cast off the mold yourself. It happens automatically. Yes.
+
+0:52:49	SPEAKER_01
+ Okay. Never mind that.
+
+0:52:50	SPEAKER_01
+ It appears.
+
+0:52:51	SPEAKER_01
+ And then you like it.
+
+0:52:52	SPEAKER_01
+ So they just have to use it. Yeah.
+
+0:52:54	SPEAKER_01
+ The new part lights up sort of thing.
+
+0:52:56	SPEAKER_04
+ Oh, but they have to drag it up past the mold line.
+
+0:53:00	SPEAKER_01
+ Yes, you have to bring it into play.
+
+0:53:02	SPEAKER_06
+ And you can't just bring extras in case you screw up.
+
+0:53:06	SPEAKER_01
+ You have to screw up first and then you bring it.
+
+0:53:08	SPEAKER_01
+ That is one thing unlike the, say the bow fix or anything.
+
+0:53:11	SPEAKER_01
+ Yeah, with this extra part.
+
+0:53:13	SPEAKER_01
+ There aren't any extra parts.
+
+0:53:14	SPEAKER_01
+ And at the moment, the software doesn't.
+
+0:53:16	SPEAKER_01
+ But it does have replacement.
+
+0:53:18	SPEAKER_01
+ Yes.
+
+0:53:19	SPEAKER_01
+ Replacement, but no superfluous.
+
+0:53:22	SPEAKER_01
+ So you can't have a standard stock of extra parts that will never use.
+
+0:53:26	SPEAKER_01
+ Okay. So this is why question doesn't even arise.
+
+0:53:28	SPEAKER_06
+ So you appreciate, you appreciate the cost.
+
+0:53:30	SPEAKER_04
+ Because you know what they're going to do with it.
+
+0:53:32	SPEAKER_04
+ When they decide to move it past the mold line, they're doing something with it probably.
+
+0:53:36	SPEAKER_04
+ And you'll know what they're going to do with it because.
+
+0:53:39	SPEAKER_00
+ Yeah, but by the time both of them are doing that, they must have already broken something.
+
+0:53:43	SPEAKER_00
+ So you don't love what they were facing.
+
+0:53:45	SPEAKER_06
+ So they rejected something.
+
+0:53:47	SPEAKER_06
+ Okay.
+
+0:53:48	SPEAKER_06
+ Is there a way of telling the difference between intentional and intentional breakages?
+
+0:53:58	SPEAKER_06
+ How would you do that?
+
+0:54:00	SPEAKER_04
+ Intentional.
+
+0:54:01	SPEAKER_01
+ In the sense that they break deliberately when they bring them into the new parts.
+
+0:54:07	SPEAKER_01
+ Yeah, it's like the trash can idea.
+
+0:54:09	SPEAKER_06
+ They both put their hands on a construct because they don't like it.
+
+0:54:13	SPEAKER_04
+ Yeah, but there'd be no way of coding that automatically.
+
+0:54:16	SPEAKER_04
+ Right.
+
+0:54:17	SPEAKER_04
+ How could you possibly do that?
+
+0:54:19	SPEAKER_01
+ You have to hope that there's language in one of them say something.
+
+0:54:22	SPEAKER_01
+ But that's a human coding.
+
+0:54:23	SPEAKER_01
+ Right.
+
+0:54:24	SPEAKER_01
+ So there's no way you could tell that just from the role movement.
+
+0:54:30	SPEAKER_01
+ So not generically.
+
+0:54:32	SPEAKER_06
+ Because if they're going to do it by gesture, they'll build up a convention.
+
+0:54:37	SPEAKER_04
+ So that's going to be a problem for JP.
+
+0:54:42	SPEAKER_04
+ Remember all the things we're looking at are with language and without language.
+
+0:54:46	SPEAKER_04
+ And it's going to be very difficult to tell whether they broke something intentionally without the language.
+
+0:54:50	SPEAKER_04
+ Which means it's probably not.
+
+0:54:51	SPEAKER_06
+ They develop a convention.
+
+0:54:52	SPEAKER_06
+ Suppose they start off with language and then they say.
+
+0:54:55	SPEAKER_04
+ Yeah.
+
+0:54:56	SPEAKER_04
+ Okay.
+
+0:54:57	SPEAKER_04
+ This is probably part of the action coding.
+
+0:54:59	SPEAKER_04
+ Sure.
+
+0:55:00	SPEAKER_04
+ I just want to make sure that they're not.
+
+0:55:02	SPEAKER_04
+ Wishlist.
+
+0:55:03	SPEAKER_01
+ Right.
+
+0:55:04	SPEAKER_01
+ Wishlist.
+
+0:55:05	SPEAKER_01
+ As a side effect.
+
+0:55:06	SPEAKER_01
+ Yes.
+
+0:55:07	SPEAKER_01
+ I'm trying to remember if the people deliberately break things by moving two pieces together.
+
+0:55:11	SPEAKER_01
+ They don't break.
+
+0:55:14	SPEAKER_00
+ They do.
+
+0:55:15	SPEAKER_00
+ If one person is dragging a part to a part that isn't that the part that's just sitting on the screen does not be in touch.
+
+0:55:22	SPEAKER_00
+ They both break.
+
+0:55:23	SPEAKER_01
+ So the intentional thing is when they actually both click on the same object.
+
+0:55:30	SPEAKER_06
+ For sure you know that's.
+
+0:55:32	SPEAKER_06
+ Well, it's not necessarily intentional.
+
+0:55:34	SPEAKER_04
+ They could just screw up.
+
+0:55:35	SPEAKER_04
+ They could discuss to send it a break something.
+
+0:55:38	SPEAKER_04
+ Yeah.
+
+0:55:39	SPEAKER_04
+ I don't know what's very good.
+
+0:55:41	SPEAKER_06
+ No, we'll never get away with that.
+
+0:55:42	SPEAKER_06
+ We'll get a bad score.
+
+0:55:43	SPEAKER_06
+ Let's just throw that away and start again.
+
+0:55:45	SPEAKER_06
+ Yeah.
+
+0:55:46	SPEAKER_06
+ Okay.
+
+0:55:47	SPEAKER_06
+ Wish reminds me we have fixed the score problem.
+
+0:55:52	SPEAKER_06
+ Have we?
+
+0:55:53	SPEAKER_06
+ Yeah.
+
+0:55:54	None
+ Yeah.
+
+0:55:55	SPEAKER_00
+ It was through the rotation.
+
+0:55:57	SPEAKER_00
+ Oh, yes.
+
+0:55:58	SPEAKER_01
+ The percentage score.
+
+0:55:59	SPEAKER_01
+ Yes.
+
+0:56:00	SPEAKER_01
+ So rather than the number of penalties or something like no, the score.
+
+0:56:03	SPEAKER_01
+ It was the percentage overlap.
+
+0:56:05	SPEAKER_06
+ And that made the score.
+
+0:56:07	SPEAKER_06
+ That's that's the way it's worked out.
+
+0:56:10	SPEAKER_01
+ But the problem was to do with the.
+
+0:56:13	SPEAKER_01
+ Which they had relative and absolute piece and.
+
+0:56:17	SPEAKER_01
+ It's all to symmetry.
+
+0:56:19	SPEAKER_01
+ But it wasn't a bug.
+
+0:56:22	SPEAKER_01
+ It was a.
+
+0:56:23	SPEAKER_01
+ Don't tell me it was a feature.
+
+0:56:25	SPEAKER_06
+ No, it was them just forgetting to.
+
+0:56:28	SPEAKER_04
+ To find something that had to be.
+
+0:56:30	SPEAKER_01
+ And the.
+
+0:56:31	SPEAKER_01
+ Yeah.
+
+0:56:32	SPEAKER_01
+ Okay.
+
+0:56:33	SPEAKER_01
+ Which is probably a documentation fault.
+
+0:56:36	SPEAKER_04
+ It's in the documentation, but it's like.
+
+0:56:40	SPEAKER_00
+ It's like.
+
+0:56:41	SPEAKER_00
+ It's quite.
+
+0:56:42	SPEAKER_06
+ It's like.
+
+0:56:55	SPEAKER_04
+ Well, one past things or anything else you want to tell us about the prior part of this, which is the.
+
+0:56:59	SPEAKER_04
+ You know, what else is holding you up from.
+
+0:57:02	SPEAKER_01
+ Well, yes, we should go back to the beginning.
+
+0:57:04	SPEAKER_01
+ The Camtasia was tested last week and initially we were a bit worried because.
+
+0:57:12	SPEAKER_01
+ In the old version, it seemed to interfere with it.
+
+0:57:15	SPEAKER_01
+ But when you when Craig recompiled it and it is new version, it's like.
+
+0:57:19	SPEAKER_01
+ Seems to work fine.
+
+0:57:20	SPEAKER_01
+ Yeah.
+
+0:57:21	SPEAKER_04
+ Right.
+
+0:57:22	SPEAKER_04
+ So it doesn't slow down the eye tracker.
+
+0:57:23	SPEAKER_04
+ It doesn't do anything nasty.
+
+0:57:24	SPEAKER_04
+ So we can tell.
+
+0:57:25	SPEAKER_00
+ So we pay for it.
+
+0:57:26	SPEAKER_00
+ There's very small graphical bugs, but it's not.
+
+0:57:29	SPEAKER_00
+ It's not a big thing.
+
+0:57:30	SPEAKER_00
+ It's like a couple of white pixels in the course of a.
+
+0:57:33	SPEAKER_00
+ Of course, with a task.
+
+0:57:35	SPEAKER_00
+ So it's not the distract.
+
+0:57:36	SPEAKER_00
+ Nothing important.
+
+0:57:37	SPEAKER_04
+ Nothing big enough.
+
+0:57:38	SPEAKER_04
+ They're going to look at it.
+
+0:57:39	SPEAKER_04
+ Right.
+
+0:57:40	SPEAKER_06
+ So the last, I think I'm sorry, you know, I had a sort of emails from you and I probably didn't catch everything.
+
+0:57:47	SPEAKER_06
+ The problem was that there are two Camtasia records.
+
+0:57:50	SPEAKER_01
+ Yes.
+
+0:57:51	SPEAKER_01
+ There will now have to be two Camtasia records because.
+
+0:57:54	SPEAKER_01
+ Each person actually sees a different screen because of.
+
+0:57:57	SPEAKER_01
+ They don't see their own gaze.
+
+0:57:59	SPEAKER_01
+ They see the only other gaze.
+
+0:58:00	SPEAKER_01
+ So there will need to be two separate Camtasia.
+
+0:58:03	SPEAKER_01
+ Yeah.
+
+0:58:04	SPEAKER_04
+ Oh, do you need to come to Camtasia to do that?
+
+0:58:08	SPEAKER_01
+ Hopefully.
+
+0:58:10	SPEAKER_01
+ Officially or.
+
+0:58:12	SPEAKER_01
+ Yeah.
+
+0:58:13	SPEAKER_01
+ The question is the license for Camtasia.
+
+0:58:15	SPEAKER_00
+ You just need one editing thing and two recording things because.
+
+0:58:19	SPEAKER_00
+ Yeah, the recording.
+
+0:58:21	SPEAKER_00
+ The recording program is just quite a small program that just generates the video.
+
+0:58:28	SPEAKER_00
+ So don't forget the licensing for that just to see.
+
+0:58:32	SPEAKER_04
+ So you're going to look into this, right?
+
+0:58:34	SPEAKER_01
+ Yeah, I hadn't thought about it.
+
+0:58:36	SPEAKER_01
+ I just assume we just get one and one license code run a lot further.
+
+0:58:40	SPEAKER_01
+ So it was technically she had to look at the license conditions.
+
+0:58:43	SPEAKER_04
+ It might not.
+
+0:58:44	SPEAKER_01
+ I suspect that it will be a per machine.
+
+0:58:47	SPEAKER_01
+ I think.
+
+0:58:48	SPEAKER_04
+ I never prejudge licenses in plugred.
+
+0:58:51	SPEAKER_04
+ Okay.
+
+0:58:52	SPEAKER_01
+ I'll have a look at the actual Camtasia license.
+
+0:58:55	SPEAKER_01
+ The other thing we.
+
+0:58:58	SPEAKER_04
+ Well, and hold on before we get going further.
+
+0:59:01	SPEAKER_04
+ So this has implications for data storage, right?
+
+0:59:04	SPEAKER_04
+ Because we've got, well, no, this is three times right because we've got.
+
+0:59:08	SPEAKER_04
+ Oh, no, we're going to build.
+
+0:59:10	SPEAKER_04
+ We're going to use Joe's script to build the videos on the fly, right?
+
+0:59:13	SPEAKER_04
+ Because it's fast.
+
+0:59:14	SPEAKER_04
+ So the permanent storage is just the Camtasia stuff.
+
+0:59:17	SPEAKER_04
+ So.
+
+0:59:18	SPEAKER_04
+ Is that a problem?
+
+0:59:23	SPEAKER_04
+ Where are we putting things?
+
+0:59:25	SPEAKER_04
+ Is there?
+
+0:59:26	SPEAKER_06
+ Is there such a thing as dual track video?
+
+0:59:31	SPEAKER_06
+ Because you can certainly mix things.
+
+0:59:33	SPEAKER_06
+ What ideally one wants, one doesn't really want to have these things.
+
+0:59:37	SPEAKER_06
+ Because we're using them for backup and for coding.
+
+0:59:40	SPEAKER_06
+ We don't really want to play them independently.
+
+0:59:43	SPEAKER_06
+ We almost always want to use them in exactly in parallel time aligned.
+
+0:59:48	SPEAKER_04
+ You can dump them into one video frame if you don't mind losing resolution.
+
+0:59:52	SPEAKER_04
+ But that's maybe a problem, right?
+
+0:59:54	SPEAKER_01
+ Well, the other problem is Camtasia has to be manually launched in both machines separately.
+
+1:00:00	SPEAKER_04
+ So the synchronization is going to be a problem?
+
+1:00:02	SPEAKER_04
+ Yeah.
+
+1:00:03	SPEAKER_06
+ What are we doing for synchronization otherwise?
+
+1:00:05	SPEAKER_01
+ During the task, there's a flash and a bleep.
+
+1:00:08	SPEAKER_01
+ Not during the task.
+
+1:00:11	SPEAKER_01
+ Before.
+
+1:00:12	SPEAKER_01
+ Yeah, before we.
+
+1:00:13	SPEAKER_06
+ Okay, so that we'd have to realign them and couldn't.
+
+1:00:17	SPEAKER_06
+ Yes.
+
+1:00:18	SPEAKER_06
+ Dumps them from their start points.
+
+1:00:19	SPEAKER_06
+ Well, maybe you could.
+
+1:00:22	SPEAKER_06
+ The thing that you're dumping them onto just starts running with flash and a bleep.
+
+1:00:25	SPEAKER_06
+ You turn on the two copies whenever at different times, but they're still.
+
+1:00:30	SPEAKER_06
+ No, what are they?
+
+1:00:33	SPEAKER_06
+ I don't really understand the parts that are operating here.
+
+1:00:37	SPEAKER_06
+ Camtasia's are turning on.
+
+1:00:39	SPEAKER_06
+ There's no time stamp that comes from some common source.
+
+1:00:42	SPEAKER_01
+ No.
+
+1:00:43	SPEAKER_01
+ They're on the two separate machines and you start and end them separately.
+
+1:00:48	SPEAKER_01
+ They're not talking to each other.
+
+1:00:50	SPEAKER_01
+ They're just recording.
+
+1:00:51	SPEAKER_01
+ You start it recording and it starts recording once in one screen and you start the other recording and the other machine.
+
+1:00:58	SPEAKER_01
+ So.
+
+1:00:59	SPEAKER_01
+ They don't know.
+
+1:01:00	SPEAKER_01
+ Okay.
+
+1:01:01	SPEAKER_01
+ These are backups.
+
+1:01:02	SPEAKER_04
+ Right.
+
+1:01:03	SPEAKER_04
+ So the flash allows you to hand synchronize them later if you need to buy stripping extra video off the front.
+
+1:01:09	SPEAKER_04
+ As long as you make sure you start them before the flash, then you're fine.
+
+1:01:13	SPEAKER_04
+ But there's a cost of having to go to backup, which is synchronizing them.
+
+1:01:18	SPEAKER_06
+ So they'll include things like the eye tracker calibration.
+
+1:01:24	SPEAKER_06
+ Yes.
+
+1:01:25	SPEAKER_06
+ Which is not bad thing actually.
+
+1:01:27	SPEAKER_06
+ Because sometimes you want to go back and find out if this was just a particularly duff subject.
+
+1:01:31	SPEAKER_01
+ Yes.
+
+1:01:32	SPEAKER_01
+ See how long it took them actually.
+
+1:01:33	SPEAKER_01
+ That's true.
+
+1:01:34	SPEAKER_01
+ How long did it take them to calibrate?
+
+1:01:36	SPEAKER_01
+ Every time we calibrated the damping slip.
+
+1:01:38	SPEAKER_01
+ How many days before the validation worked or something?
+
+1:01:41	SPEAKER_01
+ So you should start the Camtasia really early then.
+
+1:01:44	SPEAKER_01
+ Well, at the moment that's why I was assuming.
+
+1:01:47	SPEAKER_01
+ Right.
+
+1:01:48	SPEAKER_01
+ Okay.
+
+1:01:49	SPEAKER_06
+ No, that actually saves you hours trying to make somebody's data smooth out when it won't.
+
+1:01:53	SPEAKER_06
+ Because.
+
+1:01:54	SPEAKER_01
+ You go back and actually, yes, they were crap.
+
+1:01:56	SPEAKER_01
+ That's a technical term.
+
+1:01:58	SPEAKER_01
+ It's a technical categorization and psychological research.
+
+1:02:02	SPEAKER_01
+ The other thing we were getting started was the microphones.
+
+1:02:07	SPEAKER_01
+ Because only one of the Camtasia videos will actually have the same track.
+
+1:02:12	SPEAKER_01
+ And that's because.
+
+1:02:17	SPEAKER_01
+ We're just getting one people to the two mics.
+
+1:02:24	SPEAKER_01
+ It's supposed to be worse.
+
+1:02:26	SPEAKER_06
+ We need real sound recording.
+
+1:02:28	SPEAKER_06
+ Right.
+
+1:02:29	SPEAKER_06
+ That's two tracks.
+
+1:02:31	SPEAKER_01
+ Yes.
+
+1:02:32	SPEAKER_01
+ At the moment it's in what we've finally just.
+
+1:02:36	SPEAKER_01
+ At 12 o'clock today, looks like we've got it.
+
+1:02:40	SPEAKER_01
+ Sust.
+
+1:02:41	SPEAKER_01
+ Is to get one channel, one microphone being the left channel and one being the right channel to merge into a stereo.
+
+1:02:49	SPEAKER_01
+ Go.
+
+1:02:50	SPEAKER_01
+ File.
+
+1:02:51	SPEAKER_01
+ Unfortunately.
+
+1:02:52	SPEAKER_01
+ On what?
+
+1:02:53	SPEAKER_01
+ Sorry.
+
+1:02:54	SPEAKER_01
+ On one machine.
+
+1:02:56	SPEAKER_06
+ On one of the.
+
+1:02:59	SPEAKER_01
+ The display piece easier, the Camtasia video.
+
+1:03:03	SPEAKER_01
+ It's.
+
+1:03:06	SPEAKER_01
+ That's not what you're putting it.
+
+1:03:09	SPEAKER_05
+ I mean, that's our only sound record.
+
+1:03:12	SPEAKER_05
+ Yes.
+
+1:03:13	SPEAKER_04
+ Well, okay.
+
+1:03:14	SPEAKER_04
+ You've got the proper sound record, but you're not dumping it through Camtasia to record it.
+
+1:03:18	SPEAKER_01
+ Right.
+
+1:03:19	SPEAKER_01
+ Yeah.
+
+1:03:20	SPEAKER_01
+ Camtasia is recording.
+
+1:03:21	SPEAKER_04
+ Well, before we were going to use Camtasia at all, what we were going to do, what were we going to do with the sound?
+
+1:03:27	None
+ Mm-hmm.
+
+1:03:28	None
+ Yeah.
+
+1:03:29	SPEAKER_02
+ So, is there any sound degradation that comes about from putting this through Camtasia rather than running it out straight?
+
+1:03:36	None
+ No, you got.
+
+1:03:43	SPEAKER_04
+ Yeah.
+
+1:03:44	SPEAKER_04
+ You got exactly the same access to sound quality as you got from anything else on the windows.
+
+1:03:50	SPEAKER_00
+ Yeah.
+
+1:03:51	SPEAKER_00
+ You can decide whatever quality you want.
+
+1:04:01	SPEAKER_00
+ So, whatever.
+
+1:04:02	SPEAKER_00
+ Okay.
+
+1:04:03	SPEAKER_04
+ So, what you're planning on doing is bunging it on one of the Camtasia tracks and then splicing it off the Camtasia track.
+
+1:04:08	SPEAKER_04
+ It's an easy bit of.
+
+1:04:16	SPEAKER_04
+ Yeah.
+
+1:04:17	SPEAKER_04
+ And then you're going to bung it out of the other Camtasia track too if you need it, right?
+
+1:04:21	SPEAKER_04
+ But we're going to store all three separately.
+
+1:04:25	SPEAKER_04
+ Then.
+
+1:04:26	SPEAKER_04
+ And the sound is going to start at the same time as one of the arbitrary one of the Camtasia videos, but you'll know when the real experiment.
+
+1:04:35	SPEAKER_04
+ You'll know the relationship between that and the eye tracker timings.
+
+1:04:39	SPEAKER_00
+ Yeah, because the synchronization, the audio and visual synchronization comes at a specific point in the eye track file.
+
+1:04:49	SPEAKER_04
+ Yeah.
+
+1:04:50	SPEAKER_04
+ No human intervention required.
+
+1:04:52	SPEAKER_04
+ It's time stamped.
+
+1:04:53	SPEAKER_00
+ No, it's stamped into it.
+
+1:04:55	SPEAKER_00
+ So, it's just after just after it prints the line, styling experiment.
+
+1:04:58	SPEAKER_00
+ Yeah.
+
+1:04:59	SPEAKER_00
+ I'm pretty sure it's.
+
+1:05:07	SPEAKER_04
+ Yeah.
+
+1:05:08	SPEAKER_04
+ Hold on.
+
+1:05:09	SPEAKER_04
+ Do we need that?
+
+1:05:10	SPEAKER_04
+ I mean, I thought the way that Tim had the setup originally, the audio, the timestamps used, there would be joint timestamps between the audio and the eye tracker.
+
+1:05:22	SPEAKER_04
+ So that, you know, the audio record.
+
+1:05:27	SPEAKER_04
+ Ten seconds in was the same as ten seconds into the eye tracker record so that we didn't have to do any extra handwork.
+
+1:05:33	SPEAKER_04
+ You know, any chopping the starts of audio signals to get.
+
+1:05:36	SPEAKER_04
+ There was nothing.
+
+1:05:37	SPEAKER_04
+ Okay.
+
+1:05:38	SPEAKER_04
+ So we're relying on your MATLAB script to get us the chopped version of the audio, right?
+
+1:05:44	SPEAKER_00
+ The MATLAB script just says, yeah, it gives you the timing of the audio beep in the end signal.
+
+1:05:52	SPEAKER_00
+ Right.
+
+1:05:53	SPEAKER_04
+ So we can either adjust the eye track data or we can actually chop the audio signal.
+
+1:05:57	SPEAKER_04
+ Yeah.
+
+1:05:58	SPEAKER_06
+ Take off the first, whatever, 70 seconds.
+
+1:05:59	SPEAKER_06
+ There's going to be a way to sooner or later to align the eye track, Camtasia 1, Camtasia 2 with two sound channels.
+
+1:06:09	SPEAKER_06
+ Yeah.
+
+1:06:10	SPEAKER_04
+ Yeah, but, but, um, lining up the Camtasia 2 is going to take, he's working on a MATLAB script for the sound, but not for.
+
+1:06:20	SPEAKER_04
+ So the one that's got the sound on it, that'll also tell you where to chop the video to get it to line up.
+
+1:06:25	SPEAKER_04
+ The one that doesn't have the sound on it, it won't.
+
+1:06:34	SPEAKER_06
+ Oh, the beep will fall.
+
+1:06:35	SPEAKER_04
+ Oh, so it's just the beep's.
+
+1:06:37	SPEAKER_04
+ Oh, okay.
+
+1:06:38	SPEAKER_04
+ So no hand synchronization required at all.
+
+1:06:41	SPEAKER_04
+ As long as the scripts work.
+
+1:06:43	SPEAKER_04
+ Right.
+
+1:06:44	None
+ Yeah.
+
+1:06:45	None
+ Okay.
+
+1:06:53	SPEAKER_04
+ Okay. How confident are you about the finding these things?
+
+1:06:58	SPEAKER_00
+ Break off.
+
+1:06:59	SPEAKER_00
+ I mean, you've seen the bit was it was.
+
+1:07:08	SPEAKER_04
+ Yeah.
+
+1:07:09	SPEAKER_04
+ So we just have to hope we don't have any subjects with odd vocalizations.
+
+1:07:13	SPEAKER_00
+ Yeah, I don't see it on a technical that's what we know.
+
+1:07:17	SPEAKER_06
+ They also tend to have a funny, funny shape.
+
+1:07:20	SPEAKER_06
+ So, yeah.
+
+1:07:23	SPEAKER_01
+ Okay.
+
+1:07:31	SPEAKER_04
+ Yeah, because this is the dropout test.
+
+1:07:33	SPEAKER_04
+ Yep.
+
+1:07:34	SPEAKER_04
+ Okay.
+
+1:07:35	SPEAKER_06
+ Is there an end signal?
+
+1:07:37	SPEAKER_06
+ When you decide it's all over, does it?
+
+1:07:39	SPEAKER_06
+ Yeah.
+
+1:07:40	SPEAKER_00
+ There's a signal at the start and the end of every trial.
+
+1:07:42	SPEAKER_06
+ Right.
+
+1:07:43	SPEAKER_06
+ So when you when you've pressed, we're finished.
+
+1:07:46	SPEAKER_06
+ Yeah.
+
+1:07:51	SPEAKER_06
+ It's just that all kinds of crazy things happen when you're writing things.
+
+1:07:54	SPEAKER_06
+ So saving a percentage of a trial, sometimes a good idea.
+
+1:07:59	SPEAKER_01
+ Okay.
+
+1:08:13	SPEAKER_00
+ Yeah.
+
+1:08:18	SPEAKER_00
+ Oh, yeah.
+
+1:08:21	SPEAKER_00
+ Yeah.
+
+1:08:24	SPEAKER_00
+ It's a stereo jack.
+
+1:08:27	SPEAKER_00
+ It's a stereo jack, but it's a mono microphone.
+
+1:08:30	None
+ You got a solution for that then?
+
+1:08:32	None
+ Line in.
+
+1:08:33	None
+ It's going through a line.
+
+1:08:35	SPEAKER_04
+ So it's quieter because it's not powered, but it's still.
+
+1:08:38	SPEAKER_04
+ Yeah.
+
+1:08:39	SPEAKER_04
+ We still pick up the signal.
+
+1:08:41	SPEAKER_04
+ Because, you know, people might want to use this for speech recognition or something.
+
+1:08:44	SPEAKER_04
+ You never know if the date is there.
+
+1:08:46	SPEAKER_06
+ Yeah.
+
+1:08:47	SPEAKER_06
+ I mean, it's crazy we're in an anacolic room, which we specially built in anacolic room.
+
+1:08:50	SPEAKER_06
+ Yeah.
+
+1:08:51	SPEAKER_06
+ It's not dead in the room, which we specially built for this.
+
+1:08:53	SPEAKER_06
+ And you're going to want for some line answers.
+
+1:08:55	SPEAKER_06
+ We shouldn't screw it up more than we have to.
+
+1:08:57	SPEAKER_06
+ Is there anything we can do to improve this?
+
+1:09:01	SPEAKER_04
+ Oh, no.
+
+1:09:02	SPEAKER_04
+ No, no.
+
+1:09:03	SPEAKER_04
+ Better to collect it sort of.
+
+1:09:04	SPEAKER_05
+ Do you have a powered microphone or something?
+
+1:09:06	SPEAKER_00
+ Well, when they're out there, they're out there.
+
+1:09:08	SPEAKER_00
+ So they have batteries in them, but it's not.
+
+1:09:11	SPEAKER_00
+ It doesn't seem to be powered because of the line in it.
+
+1:09:13	SPEAKER_00
+ Inputs are low.
+
+1:09:14	SPEAKER_04
+ Wait, wait.
+
+1:09:15	SPEAKER_04
+ I thought a solution was fixing this problem with a model microphone socket.
+
+1:09:19	SPEAKER_04
+ Sound card?
+
+1:09:20	SPEAKER_04
+ So you said the problem was the.
+
+1:09:23	SPEAKER_04
+ The sound of the sound is.
+
+1:09:25	SPEAKER_05
+ The sound is.
+
+1:09:26	SPEAKER_06
+ The input is mono.
+
+1:09:28	SPEAKER_06
+ Right.
+
+1:09:29	SPEAKER_00
+ Yeah.
+
+1:09:30	SPEAKER_00
+ The jack that is plugged into is stereo.
+
+1:09:33	SPEAKER_00
+ But when it's recording from microphone, it records in mono.
+
+1:09:37	SPEAKER_04
+ So is that fixable?
+
+1:09:39	SPEAKER_04
+ Like is there any way we're in the sound card?
+
+1:09:41	SPEAKER_04
+ Yeah.
+
+1:09:42	SPEAKER_04
+ And these sound cards are better solutions than monkeying about with trying to filter white knives out.
+
+1:09:47	SPEAKER_00
+ I think we remember the out front ten.
+
+1:09:50	SPEAKER_00
+ Well, that's what one thing you do is record the speech signal separately for each person.
+
+1:09:56	SPEAKER_00
+ But then you have to pull the two sounds together.
+
+1:09:59	SPEAKER_04
+ Which isn't hard.
+
+1:10:00	SPEAKER_00
+ But if each machine recorded the sound, we recorded the recording.
+
+1:10:05	SPEAKER_06
+ So you have to line the videos anyway.
+
+1:10:10	SPEAKER_06
+ Right.
+
+1:10:11	SPEAKER_00
+ Yeah.
+
+1:10:12	None
+ Yeah.
+
+1:10:13	None
+ Yeah.
+
+1:10:14	None
+ Yeah.
+
+1:10:15	None
+ And then it's the.
+
+1:10:16	SPEAKER_04
+ It's easy.
+
+1:10:17	SPEAKER_04
+ I'm not the technical person.
+
+1:10:21	SPEAKER_04
+ It's not.
+
+1:10:22	SPEAKER_06
+ It's not.
+
+1:10:23	SPEAKER_00
+ I was thinking in a MATLAB script, you just read for one read felt T.
+
+1:10:27	SPEAKER_00
+ And then.
+
+1:10:28	SPEAKER_04
+ So is there any reason why we don't do that?
+
+1:10:31	SPEAKER_00
+ Yeah.
+
+1:10:37	SPEAKER_00
+ But then the math script will tell you how far apart there.
+
+1:10:41	SPEAKER_00
+ You can just measure the drift between the two of them.
+
+1:10:43	SPEAKER_00
+ You get a list of where the beeps are.
+
+1:10:45	SPEAKER_00
+ And then you say, right, this stream is like, I don't know, 0.25 seconds behind the other
+
+1:10:50	None
+ one. Says Robin thinking about cutting and splicing.
+
+1:10:56	SPEAKER_06
+ Yeah.
+
+1:10:57	SPEAKER_04
+ Yeah.
+
+1:10:58	SPEAKER_04
+ Well, it's in the old days, we probably would have.
+
+1:11:02	SPEAKER_04
+ If they'd been in the same room, we would have read a little stereo thing in the background as backup as well, just to make sure because it's slightly dicier.
+
+1:11:09	SPEAKER_04
+ You know, if his scripts don't work.
+
+1:11:11	SPEAKER_04
+ Yeah.
+
+1:11:12	SPEAKER_06
+ I want to see.
+
+1:11:13	SPEAKER_06
+ I want to see one of them look really nice before we start running subjects.
+
+1:11:17	SPEAKER_06
+ Can we do that?
+
+1:11:19	SPEAKER_04
+ It doesn't have to be a real trial.
+
+1:11:20	SPEAKER_04
+ It just has to be two guys talking in the two bits.
+
+1:11:23	SPEAKER_06
+ And then I just want to know it works the way you expect it to work.
+
+1:11:26	SPEAKER_06
+ This is not a gesture of mistrust.
+
+1:11:28	SPEAKER_06
+ This is just experience that if anything can screw up, it will.
+
+1:11:32	SPEAKER_06
+ We've both been so badly picked in the past.
+
+1:11:37	SPEAKER_06
+ I'm trying to choose my language carefully because we're being recorded.
+
+1:11:40	SPEAKER_06
+ We're here more choice language at the point when we've all done a lot of work and then we discover we can't use the session because of something we didn't think about.
+
+1:11:51	SPEAKER_06
+ Yeah.
+
+1:11:52	SPEAKER_04
+ Yeah.
+
+1:11:53	SPEAKER_04
+ But this sounds reasonable to me.
+
+1:11:55	SPEAKER_04
+ So I think.
+
+1:11:57	SPEAKER_01
+ Yeah.
+
+1:11:58	SPEAKER_04
+ Do they both have the same sound card problem?
+
+1:12:06	SPEAKER_04
+ I wouldn't count on it.
+
+1:12:08	SPEAKER_00
+ They've both got the same sound card.
+
+1:12:10	SPEAKER_00
+ Okay.
+
+1:12:11	SPEAKER_00
+ Yeah.
+
+1:12:12	SPEAKER_00
+ Yeah.
+
+1:12:13	None
+ Yeah.
+
+1:12:14	None
+ Yeah.
+
+1:12:15	SPEAKER_06
+ It's probably worth mentioning this to the guys in the garage in Toronto, right?
+
+1:12:20	SPEAKER_06
+ To say.
+
+1:12:21	SPEAKER_06
+ Yes.
+
+1:12:22	SPEAKER_01
+ Yes.
+
+1:12:25	SPEAKER_02
+ Yeah.
+
+1:12:33	SPEAKER_00
+ So the external version has got plugs that size.
+
+1:12:38	SPEAKER_00
+ And that is stereo microphones.
+
+1:12:40	SPEAKER_00
+ Right.
+
+1:12:41	SPEAKER_00
+ But yeah, the other one is like the smaller size and that isn't stereo.
+
+1:12:45	SPEAKER_00
+ So the card can do it.
+
+1:12:47	SPEAKER_00
+ It's just that the connectors on the back of the computer can't.
+
+1:12:51	SPEAKER_00
+ Well, yeah.
+
+1:12:52	SPEAKER_06
+ I think tell the guys that's a, if the documentation said it could record in stereo, then I think we should talk to them about how they've done this.
+
+1:13:01	SPEAKER_06
+ Is you not sure from the documentation what it says it can do?
+
+1:13:05	None
+ That's quite a trouble.
+
+1:13:07	None
+ It's finding it.
+
+1:13:08	None
+ It's a concern.
+
+1:13:09	None
+ And what's your work with the size?
+
+1:13:12	SPEAKER_04
+ Yeah.
+
+1:13:13	SPEAKER_04
+ Yeah.
+
+1:13:14	SPEAKER_00
+ Yeah.
+
+1:13:15	SPEAKER_00
+ But as far as we can do and find the website of the, yeah, the creative labs website and the review of it.
+
+1:13:21	SPEAKER_00
+ And they weren't entirely clear, but they both suggested that it, that it was a mono, that it was a mono microphone.
+
+1:13:27	SPEAKER_02
+ Yeah.
+
+1:13:28	None
+ And it's not the people that are interested in other things, but I'm more interested in the other things.
+
+1:13:33	None
+ Yeah.
+
+1:13:34	SPEAKER_04
+ It's just the way they're wired it.
+
+1:13:39	SPEAKER_04
+ So it's getting late and I've got a two o'clock and I've got a nice lunch.
+
+1:13:44	SPEAKER_04
+ So I want to eat my lunch today.
+
+1:13:48	SPEAKER_04
+ What did you want to get through today?
+
+1:13:50	SPEAKER_04
+ I mean, I think it was useful going through your expectations about this because that's quite a bit clearer in my head at least.
+
+1:13:58	SPEAKER_04
+ Yeah.
+
+1:13:59	SPEAKER_04
+ But I think mostly we leave you to go away and redesign the GDF or add new bits to the GDF along these lines.
+
+1:14:07	SPEAKER_00
+ Yeah.
+
+1:14:08	SPEAKER_00
+ So basically the output of the GDF is just going to be a whole series of events.
+
+1:14:12	SPEAKER_00
+ Yeah.
+
+1:14:13	SPEAKER_00
+ With starting in time and the event's going to have whatever, whatever the object is that's been looked at and things.
+
+1:14:18	SPEAKER_00
+ And then, yeah, and then it's a matter of we can put whatever filters we need after that so you can say, right?
+
+1:14:24	SPEAKER_00
+ I just want to say from the time where they picked up triangle one to the part time it became part of the assembly, find out how much how much percentage of time they were looking at it or whatever.
+
+1:14:33	SPEAKER_06
+ Okay.
+
+1:14:34	SPEAKER_06
+ So given that there are these events recorded, we can use any of them as the beginning of any of them as a start point, for example, right?
+
+1:14:42	SPEAKER_06
+ There are also motions being recorded of objects.
+
+1:14:45	SPEAKER_06
+ Yep.
+
+1:14:46	SPEAKER_00
+ So there's movements, there's look events.
+
+1:14:48	SPEAKER_00
+ There's fixations of blinks in there at the moment as well.
+
+1:14:52	SPEAKER_00
+ And yeah, and see, looks at objects and looks wherever else.
+
+1:14:59	SPEAKER_04
+ But I think the thing to do is for you to go away and think about it this way with the different tracks, the different objects and the kinds of things we've added about whether they're looking at the other person's gaze and what have you.
+
+1:15:11	SPEAKER_04
+ And try to change the spec so it reflects this and maybe by that point there will be some sample data or something.
+
+1:15:22	SPEAKER_04
+ And the right thing to do is for us to look at the spec the way you understand it now and some data.
+
+1:15:29	SPEAKER_04
+ And then Alan will have new ideas about what's needed or about these post analyses.
+
+1:15:33	SPEAKER_04
+ Yeah.
+
+1:15:34	SPEAKER_04
+ And then we can add them in.
+
+1:15:36	SPEAKER_04
+ But it's going to emerge over time.
+
+1:15:37	SPEAKER_05
+ That's clear.
+
+1:15:38	SPEAKER_06
+ That's great.
+
+1:15:41	SPEAKER_06
+ Before we break up for lunch, I just want to make sure that I know how long it's going to be before we run mode.
+
+1:15:49	SPEAKER_06
+ Okay.
+
+1:15:50	SPEAKER_06
+ So the sound thing is stands in our way.
+
+1:15:54	SPEAKER_06
+ We need to be recording sound online.
+
+1:15:56	SPEAKER_06
+ Okay.
+
+1:15:57	SPEAKER_06
+ So that's the thing that has to be solved.
+
+1:15:58	SPEAKER_06
+ The shape thing is solved.
+
+1:16:00	None
+ Yeah.
+
+1:16:01	SPEAKER_04
+ That's solved now.
+
+1:16:03	SPEAKER_04
+ We think.
+
+1:16:04	SPEAKER_04
+ Yeah.
+
+1:16:05	SPEAKER_04
+ Test.
+
+1:16:06	SPEAKER_04
+ We believe.
+
+1:16:07	SPEAKER_05
+ We have to test.
+
+1:16:08	SPEAKER_06
+ So that's that should be done this week.
+
+1:16:11	SPEAKER_06
+ In fact, like tomorrow, for example, the shape, all the shape problems are solved.
+
+1:16:18	SPEAKER_06
+ Generating shapes, no problem.
+
+1:16:22	SPEAKER_06
+ Scoring shape overlap, no problem.
+
+1:16:24	SPEAKER_06
+ Nothing is a problem.
+
+1:16:25	SPEAKER_06
+ There are no visual display.
+
+1:16:27	SPEAKER_03
+ You don't have your models, how do you?
+
+1:16:29	SPEAKER_06
+ What is, how do you know that the model is a different from frame?
+
+1:16:38	SPEAKER_06
+ Yeah, they had their inspection last week.
+
+1:16:42	SPEAKER_06
+ JP staggered away from it.
+
+1:16:44	SPEAKER_01
+ Yeah.
+
+1:17:05	SPEAKER_04
+ Yeah.
+
+1:17:07	SPEAKER_04
+ Well, anything you actually need fixed.
+
+1:17:10	SPEAKER_04
+ Yeah.
+
+1:17:15	SPEAKER_04
+ Joe doesn't live here anymore, right?
+
+1:17:20	SPEAKER_04
+ Well, but he wasn't going to be booking any time to us after the 31st of October.
+
+1:17:25	SPEAKER_04
+ So that means that any bugs that need fixed in our correct responsibility, right?
+
+1:17:33	SPEAKER_04
+ You don't know any change on that, right?
+
+1:17:37	SPEAKER_04
+ That's what he said to us originally.
+
+1:17:40	SPEAKER_04
+ So I would assume, you know, no more contact with Joe.
+
+1:17:42	SPEAKER_04
+ It's not fair to get work out of somebody for free.
+
+1:17:45	SPEAKER_04
+ So, you know, ask Craig instead.
+
+1:17:50	SPEAKER_06
+ Well, he's physically here.
+
+1:17:52	SPEAKER_06
+ We want to pay him for some more time.
+
+1:17:54	SPEAKER_06
+ You can do that.
+
+1:17:55	SPEAKER_06
+ Would that be a just better use of our time and get?
+
+1:18:01	SPEAKER_06
+ Yeah.
+
+1:18:03	SPEAKER_04
+ Well, he wasn't paid in advance.
+
+1:18:06	SPEAKER_04
+ He was being paid in a rear, so it doesn't matter.
+
+1:18:11	SPEAKER_06
+ I think he is around, and I believe.
+
+1:18:14	SPEAKER_04
+ I think it's better to have all the software.
+
+1:18:17	SPEAKER_04
+ I mean, it's not big things.
+
+1:18:18	SPEAKER_04
+ It's just maintenance of this program at this point.
+
+1:18:21	SPEAKER_06
+ But if everybody has a lot to do and, you know, Joe could give it a couple of hours, which is what it might take just to fix it, then let's do it because starting run time is not getting to be.
+
+1:18:31	SPEAKER_04
+ Yeah.
+
+1:18:32	SPEAKER_04
+ You know, like, because the problem is you've got to have it immediately when you discover a bug in that.
+
+1:18:36	SPEAKER_04
+ And we can make Craig shift all his other priorities to do this because we bought him.
+
+1:18:40	SPEAKER_04
+ Right.
+
+1:18:41	SPEAKER_04
+ But we can't.
+
+1:18:42	SPEAKER_06
+ We can't make Joe do this.
+
+1:18:43	SPEAKER_06
+ Yeah.
+
+1:18:44	SPEAKER_06
+ So it's kind of between availability and speed from start to finish, given that this is somebody else's code.
+
+1:18:49	SPEAKER_04
+ But it sounds like you don't think there's anything that actually needs fixed at the moment because we only need this to work well enough that you can use it for something.
+
+1:18:57	SPEAKER_04
+ We've got more products.
+
+1:18:58	SPEAKER_06
+ We're building models.
+
+1:18:59	SPEAKER_06
+ Right.
+
+1:19:00	SPEAKER_04
+ And how many models do you need to completion and how long does that take?
+
+1:19:04	SPEAKER_06
+ You have the design and some.
+
+1:19:08	SPEAKER_04
+ And you got.
+
+1:19:11	SPEAKER_04
+ Well, and you know about complexity.
+
+1:19:14	SPEAKER_01
+ Well, that's what I'm waiting for.
+
+1:19:16	SPEAKER_04
+ You're waiting on Marlous.
+
+1:19:24	SPEAKER_04
+ You can cold call her today this afternoon.
+
+1:19:28	SPEAKER_06
+ Yeah.
+
+1:19:30	SPEAKER_06
+ I think so.
+
+1:19:32	SPEAKER_06
+ I have to check back with JP fairly soon.
+
+1:19:36	SPEAKER_06
+ Okay.
+
+1:19:37	SPEAKER_06
+ You wanted to.
+
+1:19:40	SPEAKER_06
+ The next 18 month plan.
+
+1:19:43	SPEAKER_06
+ Great.
+
+1:19:44	SPEAKER_06
+ Deliberables.
+
+1:19:45	SPEAKER_06
+ Great progress with the experiment.
+
+1:19:47	SPEAKER_06
+ Well, that's what we're doing now.
+
+1:19:48	SPEAKER_06
+ Okay.
+
+1:19:49	SPEAKER_06
+ So what do we think if you have a fairly hectic week, are we looking for subjects next week?
+
+1:19:55	SPEAKER_05
+ Okay.
+
+1:19:58	SPEAKER_06
+ Ads go up.
+
+1:20:00	SPEAKER_06
+ Yeah, I do.
+
+1:20:01	SPEAKER_06
+ I do.
+
+1:20:02	SPEAKER_06
+ But I think ads should probably go up this week.
+
+1:20:04	SPEAKER_06
+ We want people for next week.
+
+1:20:06	SPEAKER_06
+ Is that okay?
+
+1:20:07	SPEAKER_06
+ Is anybody now terrified at the thought that we're live next week?
+
+1:20:10	SPEAKER_06
+ There are people coming in here.
+
+1:20:12	SPEAKER_06
+ One after another or two after two more likely.
+
+1:20:17	SPEAKER_06
+ Okay.
+
+1:20:18	SPEAKER_06
+ Is this generalized is this generalized anxiety Robin or do you have a specific thing that.
+
+1:20:24	SPEAKER_06
+ Okay.
+
+1:20:25	SPEAKER_06
+ So aside from the usual angst which we all suffer when we go live.
+
+1:20:32	SPEAKER_06
+ So we want to do some piloting at the end of the week.
+
+1:20:35	SPEAKER_00
+ Yep.
+
+1:20:36	SPEAKER_00
+ Yeah.
+
+1:20:37	SPEAKER_00
+ So we'll get the audio stuff tested.
+
+1:20:39	SPEAKER_00
+ Yeah.
+
+1:20:40	SPEAKER_00
+ Single mic friends.
+
+1:20:41	SPEAKER_00
+ Yeah.
+
+1:20:42	SPEAKER_00
+ Get that test in a couple days.
+
+1:20:44	SPEAKER_00
+ I assume that's something you need me for in terms of that.
+
+1:20:47	SPEAKER_06
+ Right.
+
+1:20:55	SPEAKER_06
+ Oh yeah.
+
+1:20:56	SPEAKER_06
+ But she's actually relaxed that somewhat.
+
+1:20:58	SPEAKER_06
+ Okay.
+
+1:20:59	SPEAKER_06
+ Yeah.
+
+1:21:00	None
+ Yeah.
+
+1:21:01	None
+ Yeah.
+
+1:21:02	None
+ Mm-hmm.
+
+1:21:03	None
+ Mm-hmm.
+
+1:21:04	SPEAKER_03
+ Mm-hmm.
+
+1:21:05	None
+ Mm-hmm.
+
+1:21:06	None
+ Mm-hmm.
+
+1:21:07	None
+ Mm-hmm.
+
+1:21:08	None
+ Mm-hmm.
+
+1:21:09	None
+ Mm-hmm.
+
+1:21:10	None
+ Mm-hmm.
+
+1:21:11	None
+ Mm-hmm.
+
+1:21:12	None
+ Mm-hmm.
+
+1:21:13	None
+ Mm-hmm.
+
+1:21:14	None
+ Mm-hmm.
+
+1:21:15	SPEAKER_06
+ Oh, stensive blue book time, which isn't.
+
+1:21:19	SPEAKER_04
+ So you can dash in there for half an hour at a time.
+
+1:21:22	SPEAKER_04
+ Doesn't sound very useful for you.
+
+1:21:24	None
+ It's...
+
+1:21:25	SPEAKER_05
+ Uh-huh.
+
+1:21:26	SPEAKER_05
+ Okay.
+
+1:21:27	SPEAKER_05
+ Well, you guys started out.
+
+1:21:29	SPEAKER_06
+ We have a solid booking for all the mornings anyway.
+
+1:21:32	SPEAKER_06
+ Right?
+
+1:21:33	SPEAKER_06
+ Except by permission of us.
+
+1:21:35	SPEAKER_06
+ Right.
+
+1:21:36	SPEAKER_06
+ We own it.
+
+1:21:37	SPEAKER_06
+ So we can change that.
+
+1:21:39	SPEAKER_06
+ I mean, everybody acknowledged the other week that we...
+
+1:21:42	SPEAKER_06
+ Right.
+
+1:21:43	SPEAKER_06
+ But it would be kind to tell her ahead of time, which of your morning sessions you're booking.
+
+1:21:46	SPEAKER_04
+ Oh, yeah, yeah, yeah.
+
+1:21:47	SPEAKER_06
+ Oh, yeah, yeah.
+
+1:21:48	SPEAKER_06
+ Don't worry.
+
+1:21:49	SPEAKER_06
+ There's a booking system.
+
+1:21:51	SPEAKER_06
+ Right?
+
+1:21:52	SPEAKER_06
+ So it's public.
+
+1:21:53	SPEAKER_06
+ What's booked and what is it?
+
+1:21:54	SPEAKER_04
+ Mm-hmm.
+
+1:21:55	SPEAKER_04
+ I thought that was a problem that your mornings weren't sliced up on the booking system.
+
+1:21:58	None
+ Yeah.
+
+1:21:59	SPEAKER_06
+ Mm-hmm.
+
+1:22:00	SPEAKER_06
+ All right.
+
+1:22:01	SPEAKER_06
+ Maybe you should get on there and book mornings as far as the eye can see.
+
+1:22:06	SPEAKER_06
+ Does, you know, if you're told, use the booking system.
+
+1:22:11	SPEAKER_06
+ We think we spoke to all the people who used those facilities the other day, but we could be wrong.
+
+1:22:17	SPEAKER_06
+ So...
+
+1:22:18	None
+ Yeah.
+
+1:22:19	SPEAKER_04
+ And one of the people upstairs, downstairs, have, you know, as rules about who you hand the keys to.
+
+1:22:30	SPEAKER_04
+ Well, there's a key goal to do.
+
+1:22:32	SPEAKER_04
+ Because, you know, we like people to know to ground the...
+
+1:22:34	SPEAKER_04
+ Oh, I thought the lending for the booking system.
+
+1:22:37	SPEAKER_06
+ Caroline.
+
+1:22:38	SPEAKER_06
+ From Caroline?
+
+1:22:39	SPEAKER_06
+ Oh, the general office.
+
+1:22:41	SPEAKER_06
+ The general office.
+
+1:22:42	SPEAKER_05
+ See, because you're supposed to have training in...
+
+1:22:44	SPEAKER_06
+ But no, they need an account on this machine to actually use it.
+
+1:22:48	SPEAKER_06
+ They need an account on these machines.
+
+1:22:49	SPEAKER_05
+ Oh, okay.
+
+1:22:50	SPEAKER_05
+ So that's the same thing.
+
+1:22:51	SPEAKER_05
+ So that they could book.
+
+1:22:52	SPEAKER_04
+ They couldn't actually...
+
+1:22:53	SPEAKER_04
+ And you control those accounts.
+
+1:22:54	SPEAKER_05
+ Oh, okay.
+
+1:22:55	SPEAKER_06
+ That's fair enough.
+
+1:22:56	SPEAKER_06
+ Okay.
+
+1:22:57	SPEAKER_06
+ Okay.
+
+1:22:58	SPEAKER_06
+ We're also working on a way of making sure that the machines return to zero state when they're...
+
+1:23:02	SPEAKER_06
+ Uh-huh.
+
+1:23:03	SPEAKER_00
+ Yeah.
+
+1:23:04	SPEAKER_06
+ When you come off.
+
+1:23:05	SPEAKER_04
+ That's safe.
+
+1:23:06	SPEAKER_06
+ Because then they learn the first time.
+
+1:23:07	SPEAKER_06
+ Well, people have been leaving various bits of who knows what around them, right?
+
+1:23:11	SPEAKER_06
+ Which we think is what's critical.
+
+1:23:14	SPEAKER_04
+ Yeah, yeah.
+
+1:23:22	SPEAKER_04
+ Okay.
+
+1:23:23	SPEAKER_04
+ I really have to get out of here.
+
+1:23:25	SPEAKER_04
+ So, what else is important before you run?
+
+1:23:28	SPEAKER_05
+ Nothing, right?
+
+1:23:30	SPEAKER_05
+ Piloting, piloting, piloting.
+
+1:23:31	SPEAKER_06
+ You have to build the things you have to try the machines.
+
+1:23:34	SPEAKER_06
+ The machines, things we have to check them with Marlos and JP that they like the representation of the variables, right?
+
+1:23:43	SPEAKER_06
+ How about...
+
+1:23:44	SPEAKER_06
+ Do you have any time on Friday?
+
+1:23:45	SPEAKER_04
+ Oh, I don't think I brought my diary up.
+
+1:23:48	SPEAKER_04
+ But maybe...
+
+1:23:49	SPEAKER_06
+ Why?
+
+1:23:50	SPEAKER_06
+ Maybe you and I should be the pilot subjects.
+
+1:23:52	SPEAKER_06
+ First pilot subjects, the ones who know which questions we want to ask.
+
+1:23:56	SPEAKER_06
+ And then we should get another pair who are naive to the whole thing.
+
+1:24:00	SPEAKER_06
+ Okay.
+
+1:24:01	SPEAKER_02
+ So...
+
+1:24:02	None
+ Yeah.
+
+1:24:03	SPEAKER_02
+ This is generalized floating anxiety.
+
+1:24:08	SPEAKER_06
+ No, no.
+
+1:24:09	SPEAKER_06
+ It's wisdom, but yeah.
+
+1:24:13	SPEAKER_06
+ Well, because actually we can...
+
+1:24:16	SPEAKER_06
+ We make comments.
+
+1:24:17	SPEAKER_06
+ They keep backing a vote into the development.
+
+1:24:22	SPEAKER_04
+ So, do you know what time of day you might want?
+
+1:24:27	SPEAKER_04
+ Because I should check that.
+
+1:24:32	SPEAKER_02
+ Okay.
+
+1:24:37	SPEAKER_00
+ You don't need me involved in the pilot there.
+
+1:24:42	SPEAKER_00
+ Well...
+
+1:24:43	SPEAKER_00
+ You all have to be there.
+
+1:24:44	SPEAKER_00
+ You all have to be there too.
+
+1:24:46	SPEAKER_00
+ I'll be around, but yeah, I'll be sure.
+
+1:24:50	SPEAKER_00
+ Hopefully it all runs smoothly.
+
+1:24:53	SPEAKER_00
+ I can relax.
+
+1:24:55	SPEAKER_04
+ Okay.
+
+1:24:56	SPEAKER_04
+ So that all sounds good fun.
+
+1:25:01	None
+ Okay.
+
+1:25:06	SPEAKER_04
+ Well, I can just leave you guys here.
+
+1:25:20	SPEAKER_04
+ Why not?
+
+1:25:27	None
+ Okay.
+
+1:25:37	None
+ Okay.
+
+1:26:06	None
+ Okay.
+
+1:26:21	None
+ Okay.
+
+1:26:38	None
+ Okay.
+
+1:26:59	None
+ Okay.
+
+1:27:20	SPEAKER_06
+ Okay.
+
+1:27:44	None
+ Okay.
+
+1:28:05	None
+ Okay.
+
+1:28:26	SPEAKER_05
+ Okay.
+

@@ -1,374 +1,443 @@
 0:00:00	None
  Hello.
 
-0:00:07	SPEAKER_00
+0:00:01	None
  Good morning.
 
-0:00:14	SPEAKER_00
+0:00:02	None
  Again.
 
-0:00:17	SPEAKER_02
+0:00:03	None
  Again.
 
-0:00:24	None
+0:00:04	None
+ Again.
+
+0:00:11	SPEAKER_00
+ Again.
+
+0:00:18	SPEAKER_02
  Good morning.
 
-0:00:34	SPEAKER_03
- Good morning.
+0:00:25	None
+ Again.
 
-0:00:55	SPEAKER_03
- Good morning.
+0:00:30	SPEAKER_03
+ One question.
 
-0:01:18	SPEAKER_00
- All set? Good.
+0:00:51	SPEAKER_03
+ Yeah.
 
-0:01:28	SPEAKER_00
+0:01:01	None
+ Submit.
+
+0:01:04	None
+ Okay.
+
+0:01:11	SPEAKER_00
+ All sets.
+
+0:01:20	SPEAKER_00
+ Okay.
+
+0:01:30	SPEAKER_00
  Let's see what we can find here.
 
 0:01:35	SPEAKER_00
  Okay.
 
 0:01:36	SPEAKER_00
- A very warm welcome again to everyone.
+ I'm very warm welcome again to everyone.
 
 0:01:41	SPEAKER_00
  Here we are already in our functional design meeting.
 
-0:01:44	SPEAKER_00
- This is what we are going to do, the opening, which we are doing now.
+0:01:45	SPEAKER_00
+ And this is what we are going to do.
 
-0:01:49	SPEAKER_00
- I'm a project manager, but on the meetings I'm also the secretary, which means I will make minutes as I did at the previous meeting.
+0:01:55	SPEAKER_00
+ The opening, which we are doing now.
 
-0:01:58	SPEAKER_00
- I also put these as fast as possible in the project folder, so you can see them and review what we have discussed.
-
-0:02:06	SPEAKER_00
- If I'm right, there are three presentations.
+0:02:00	SPEAKER_00
+ And the special note, I'm project manager, but on the meetings, I'm also the secretary, which means I will make minutes as I did as a previous meeting.
 
 0:02:09	SPEAKER_00
- Each one of you is prepared.
+ And I'll also put these as fast as possible in the project requirements.
 
-0:02:11	SPEAKER_00
- Good.
+0:02:17	SPEAKER_00
+ And then of course we have to take a decision on the remote control functions.
 
-0:02:14	SPEAKER_00
- We will also take a look at new project requirements, if you haven't heard about them yet.
+0:02:21	SPEAKER_00
+ And we have some more time, 40 minutes, but I think we will need it.
 
-0:02:20	SPEAKER_00
- Then we have to take a decision on the remote control functions, and we have some more time, 40 minutes, but I think we will need it.
+0:02:27	SPEAKER_00
+ Well, I don't know who wants to go first with this presentation.
 
-0:02:29	SPEAKER_00
- I don't know who wants to go first with this presentation.
+0:02:32	SPEAKER_00
+ Okay.
+
+0:02:33	SPEAKER_00
+ Okay.
 
 0:02:34	SPEAKER_04
- Shall I go first?
+ Should I go first with the user?
 
-0:02:36	SPEAKER_04
- Shall I go first with the user?
+0:02:39	SPEAKER_01
+ I see.
 
-0:02:39	SPEAKER_04
- I think you are not going to go first.
+0:02:44	SPEAKER_03
+ Okay.
 
-0:02:42	SPEAKER_01
- Is there an order?
+0:02:47	SPEAKER_00
+ And one question, your name, Denny, is it with a AEA?
 
-0:02:43	SPEAKER_03
- Yes, it's presentation.
-
-0:02:45	SPEAKER_00
- You can adjust it.
-
-0:02:48	SPEAKER_00
- One question, your name, Denny?
-
-0:02:51	SPEAKER_00
- Is it with AEA?
+0:02:52	SPEAKER_00
+ AEA.
 
 0:02:53	SPEAKER_00
+ Okay.
+
+0:02:54	SPEAKER_03
  Thank you.
 
 0:02:57	SPEAKER_03
+ Okay.
+
+0:02:58	SPEAKER_03
  I wanted to explain the work and design of a remote control.
 
-0:03:02	SPEAKER_03
- It's possible if you are handy if you want to design one of those.
+0:03:01	SPEAKER_03
+ It's possibly very handy if you want to design one of those.
 
 0:03:07	SPEAKER_03
- Basically, it works as I wrote down in this little summary.
+ Well, it basically works as I wrote down in this little summary.
 
 0:03:15	SPEAKER_03
  When you press a button, that's when you do, for example, when you want to turn up the volume, a little connection is made.
 
-0:03:24	SPEAKER_03
- The rubber button just presses on a little pin plate, which makes a connection that gives the chips, which is mounted beneath that plastic rubber button, a sense that connection has been made, and knows what button you pressed, for example, the volume up or volume down button.
+0:03:23	SPEAKER_03
+ The rubber button just presses on a little pin plate, which makes a connection that gives the chips, which is mounted beneath those, that plastic of a rubber button, sends that connection has been made and knows what button you press, for example, the volume up or volume down button.
 
 0:03:51	SPEAKER_03
- The chip makes a Morse code like signal, which then is signals to several transistors, which sends the signal to a little lat.
+ The chip makes Morse code like signal, which then is signaled to several transistors.
 
-0:04:08	SPEAKER_03
+0:04:02	SPEAKER_03
+ Which sends the signal to a little lat.
+
+0:04:07	SPEAKER_03
  You know what a lat is?
 
 0:04:10	SPEAKER_03
- That makes the infrared light signal, which is sent to the television set, which has a sensor in it to send the signal of the infrared.
+ Okay.
 
-0:04:24	SPEAKER_03
- That's basically how it works.
+0:04:11	SPEAKER_03
+ And that makes the infrared light signal, which is sent to the television set, which has a sensor in it to send the signal of the infrared.
 
-0:04:28	SPEAKER_03
+0:04:23	SPEAKER_03
+ And it's basically how it works.
+
+0:04:27	SPEAKER_03
  The findings that I found searching up some detail information about remote controls are that they are very easy to produce.
 
 0:04:39	SPEAKER_03
- It's possible to make them a mass production, because this is as easy as printing a page, just a fiberglass plate.
+ This piece is possible to make them a mass production because it is as easy as printing a page, just a fiberglass plate.
 
-0:04:51	SPEAKER_03
+0:04:50	SPEAKER_03
  It's covered with some coatings and chips.
 
 0:04:59	SPEAKER_03
- The technology is already available.
+ And the technology is already available.
 
 0:05:01	SPEAKER_03
- We don't have to find out how remote controls have to work, or how to make some chips that are possible to transmit those signals.
+ We don't have to find out how remote controls have to work or how to make some chips that are possible to transmit those signals.
 
 0:05:14	SPEAKER_03
- I made a little animation.
+ I made a little animation about how remote control works.
 
-0:05:19	SPEAKER_03
- How I turned the remote control works.
+0:05:23	SPEAKER_04
+ Innovation.
 
-0:05:26	SPEAKER_01
- There is something to it.
+0:05:25	SPEAKER_01
+ There is something turning.
 
-0:05:30	SPEAKER_00
- It's a little bug in the smartboard.
+0:05:29	SPEAKER_00
+ Yeah, it's a little bug.
+
+0:05:31	SPEAKER_00
+ It's in the smartboard.
+
+0:05:33	SPEAKER_00
+ Okay.
 
 0:05:34	SPEAKER_03
- Well, the subcomponent I suppose that you understand what subcomponent is.
+ Well, the subcomponent, I suppose, that you understand what the subcomponent is.
 
 0:05:38	SPEAKER_03
  In this example, it's the button.
 
-0:05:41	SPEAKER_03
- When it is pressed down, the switch is switched on, so the wire is sent to the chip in cooperation with the battery, of course, because to make a signal possible, you have to have some electronic infrared light.
+0:05:40	SPEAKER_03
+ When it is pressed down, the switch is switched on.
+
+0:05:46	SPEAKER_03
+ So, with the wire, it's sent to the chip in cooperation with the battery, of course, because to make a signal possible, you have to have some sort of electronic infrared light.
 
 0:06:03	SPEAKER_03
  Yes?
 
+0:06:04	SPEAKER_03
+ Okay.
+
 0:06:05	SPEAKER_03
  After it's being composed by the chip, the signal is transported to the infrared bulb.
 
-0:06:13	SPEAKER_03
- From there, it signals a more-scode-like signal to the bulb in the television set.
+0:06:12	SPEAKER_03
+ And from there, it signals a Morse code-like signal to the bulb in the television set.
 
-0:06:24	SPEAKER_03
+0:06:22	None
+ Okay.
+
+0:06:23	SPEAKER_03
  I wrote down some personal preferences about the remote control.
 
-0:06:28	SPEAKER_03
- Of course, it is very handy if the remote control is handheld, so you don't have to wind it up or something, it's very light to use it.
+0:06:27	SPEAKER_03
+ Of course, it is very handy if the remote control is handheld, so you don't have to wind it up or something.
 
-0:06:41	SPEAKER_03
+0:06:35	SPEAKER_03
+ It's very light to use it.
+
+0:06:40	SPEAKER_03
  I personally prefer that it would become available in various colors.
 
 0:06:48	SPEAKER_03
- And easy to use buttons, but I suppose that the other team members thought of that too.
+ And easy to use buttons, but I suppose that one of the other team members thought of that too.
 
-0:06:56	SPEAKER_03
+0:06:57	SPEAKER_03
  And it is possible for several designs.
 
 0:07:00	SPEAKER_03
- Easy to use buttons.
+ And easy to use buttons.
 
 0:07:03	SPEAKER_03
- Perhaps soft touch screen buttons, because the rubber buttons are always slightly damaged, so the numbers on the buttons are not possible to read anymore.
+ Perhaps soft touch, touch screen buttons, because the rubber buttons are always...
 
-0:07:18	SPEAKER_03
- Before we can make several designs.
+0:07:11	SPEAKER_03
+ They can be slightly damaged, so the numbers on the buttons are not possible to read anymore.
+
+0:07:16	SPEAKER_03
+ And, well, as I said before, we can make several designs.
+
+0:07:21	SPEAKER_03
+ Okay.
 
 0:07:22	SPEAKER_03
- That's my contribution to this meeting.
+ Well, that's my contribution to this meeting.
+
+0:07:25	SPEAKER_00
+ Okay.
 
 0:07:26	SPEAKER_00
  This meeting.
 
-0:07:28	SPEAKER_02
- Yes, please.
+0:07:27	SPEAKER_00
+ Can I go next?
 
-0:07:39	SPEAKER_01
- Well, my name is Im Kriong, and I looked at the technical functions design of the remote.
+0:07:28	SPEAKER_00
+ Yep.
+
+0:07:29	SPEAKER_01
+ Okay.
+
+0:07:30	SPEAKER_02
+ Please.
+
+0:07:31	SPEAKER_02
+ Okay.
+
+0:07:33	None
+ So...
+
+0:07:35	SPEAKER_02
+ Spoke it.
+
+0:07:40	SPEAKER_01
+ Well, my name is Imklyong, and I looked at the technical functions design of the remote.
 
 0:07:47	SPEAKER_01
- I did this by looking at examples of other remote controls, of how they look and information from the web that I found.
+ I did this by looking at examples of other remote controls, how they look, and information from the web that I found.
 
 0:07:56	SPEAKER_01
- What I found was that the actual use of remote control is to send messages to the television set, how you describe it.
+ What I found was that the actual use of remote control is to send messages to the video set, how you...
+
+0:08:04	SPEAKER_01
+ What you described just early.
 
 0:08:06	SPEAKER_01
- And it can be all sorts of messages, turn it on, turn it off, change the channel, just fill in with kind of thing, play video text, but also play CD if you use your CD player.
+ And it can be all sorts of messages, turn it on, turn it off, change the channel, just volume, that kind of thing.
 
-0:08:20	SPEAKER_01
- There are some examples of remote controls.
+0:08:13	SPEAKER_01
+ Play video text, but also play CD if you use your CD player, the remote controller.
 
-0:08:25	SPEAKER_01
- You can see they are very different.
+0:08:22	SPEAKER_01
+ That one.
+
+0:08:23	SPEAKER_01
+ There are some examples of remote controls. You can see they are very different.
 
 0:08:27	SPEAKER_01
- The one has got all the functions that you could possibly need and a lot of buttons, etc.
+ The one has got all the functions that you could possibly need in a lot of buttons, et cetera.
 
 0:08:33	SPEAKER_01
- And the other is more user friendly, little with big buttons, and not all the stuff you can do with it, but the essential stuff is there.
+ And the other is more user-friendly, the little, it's big buttons, and not all the stuff you can do with it, but the essential stuff is there.
 
 0:08:46	SPEAKER_01
- I guess you could better, you should look at the user centered approach because the customers have to use them.
-
-0:08:55	SPEAKER_01
- And if they don't think it's usable, they want to buy it.
+ I guess you could better... you should look at a user-centered approach, because the customers have to use them, and if they don't think it's usable, they won't buy it.
 
 0:08:59	SPEAKER_01
  A lot of buttons they may think from, I don't meet as much as that.
 
 0:09:04	SPEAKER_01
- Well, personal preference is a simple remote with the basic functions that you can need.
-
-0:09:11	SPEAKER_01
- You could use.
-
-0:09:13	SPEAKER_01
- But keep in mind the new functions of TV, what we discussed earlier, split screen, and is that a function that you should have with all the TVs you have them, or because only a few of them isn't really necessary.
+ Well, personal preferences is a simple remote with the basic functions that you can need that you could use, and keep in mind the new functions of TV, what we discussed earlier, split screen, and is that a function that you should have, because all the TVs will have them, or because of only a few, and isn't really necessary.
 
 0:09:25	SPEAKER_01
- And then I would make sure that you could use it on more than one appliance.
+ And then make it, I would make so that you could use it on more than one appliance.
 
-0:09:32	SPEAKER_01
- If you have one that does the video, it could also work with the stereo, because play is play and stop, stop, and everything.
+0:09:31	SPEAKER_01
+ If you have one that does the video, it could also work with the stereo, because play is play and stop, stop, and let's think.
 
-0:09:43	SPEAKER_01
- You could reuse the buttons, so that you don't have to have a lot of buttons for anything.
+0:09:42	SPEAKER_01
+ You could reuse the buttons so that you don't have to have a lot of buttons for anything.
 
 0:09:48	SPEAKER_01
- And it should be user friendly, clear buttons, and not too much.
+ And it should be user-friendly, clear buttons, and not too much.
 
-0:09:53	SPEAKER_01
- And that's my presentation.
+0:09:52	SPEAKER_01
+ And that's just my presentation.
 
-0:09:56	SPEAKER_00
- Okay, I'll hear you.
-
-0:09:58	SPEAKER_04
- Okay.
-
-0:10:00	SPEAKER_04
- Check.
-
-0:10:11	SPEAKER_01
- You must still have to open.
-
-0:10:15	SPEAKER_04
- Okay.
+0:10:14	SPEAKER_04
+ Okay, good.
 
 0:10:23	SPEAKER_04
- Okay.
-
-0:10:24	SPEAKER_04
- So, we're going to discuss the functional requirements of the remote.
+ Okay, so, we're going to discuss the functional requirements of the remote.
 
 0:10:29	SPEAKER_04
- That means that functions user want to have on the remote control, or just, yeah, the user's actually.
+ That means that functions users want to have on the remote control, or just, yeah, the users actually.
 
 0:10:39	SPEAKER_04
- The medit, I prefer, is we're going to look which section of the users we are going to focus more, are the younger people going to buy remote control, or the elderly people, and that section we're going to focus, and adjust the remote more to that section than the whole user section.
+ The method I prefer is we're going to look which section of the users we're going to focus on more.
+
+0:10:48	SPEAKER_04
+ Are the younger people going to buy remote control, or the elderly people?
+
+0:10:51	SPEAKER_04
+ And that section we're going to focus and adjust the remote more to that section than the whole user section.
+
+0:11:01	SPEAKER_04
+ Okay.
 
 0:11:02	SPEAKER_04
- Okay.
-
-0:11:03	SPEAKER_04
  Some data.
 
-0:11:04	SPEAKER_04
- Younger people from six and four, four, five years are more interested in features, like LCD screen speech recognition, et cetera.
+0:11:10	SPEAKER_04
+ Younger people from 16 to 45 years are more interested in features like LCD screens, speech recognition, etc.
 
 0:11:14	SPEAKER_04
- And we process about two-third of the market from in that range of age.
+ And we possess about two-thirds of the market from in that range of age.
 
 0:11:21	SPEAKER_04
- The elderly people from 45 years to 65 years are not that much interested in features, and we process less than two-third, that's two-fifth of the market share in that area.
+ The elderly people from 45 years to 65 years are not that much interested in features, and we possess less than two-thirds.
 
-0:11:37	SPEAKER_04
- Okay.
+0:11:31	SPEAKER_04
+ And that's two-fifth of the market share in that area.
 
-0:11:40	SPEAKER_04
- Okay.
+0:11:38	SPEAKER_04
+ Okay, findings.
 
-0:11:41	SPEAKER_04
- Finings.
+0:11:43	SPEAKER_04
+ 50% of the users lose their remotes often.
 
-0:11:42	SPEAKER_04
- 50% of the users lose their remote often, so we don't have to make very small, like a mobile phone or something, but somewhat bigger than small, so you don't lose it that much anymore.
+0:11:45	SPEAKER_04
+ So we don't have to make it very small, like a mobile phone or something, but somewhat bigger than small, so you don't lose it that much anymore.
 
-0:11:55	SPEAKER_04
- 75% of the users also find it ugly, and 75% of the users have a lot.
+0:11:56	SPEAKER_04
+ So 75% of the users also find it ugly, and 75% of users save a lot.
 
 0:12:02	SPEAKER_04
- So the buttons should be that small, or should be that complex, because you have to search for the buttons, which one you're going to use.
+ So the buttons should be that small or should be that complex because you have to search for the buttons, which one you're going to use.
+
+0:12:10	SPEAKER_04
+ Next.
 
 0:12:12	SPEAKER_04
  Important issues about the remote.
 
 0:12:14	SPEAKER_04
- I think this would be better with the personal reference, but okay.
+ I think it would be better with the personal reference, but okay.
 
-0:12:18	SPEAKER_04
- Remote control has to have a low power usage, because 75% of the users only set one time an hour, so the power usage is also one time an hour, so with a high power usage, we would use a lot of batteries.
+0:12:17	SPEAKER_04
+ Remote control has to have a low power usage because 75% of the users only save one time an hour, so the power usage is also one time an hour, so with a high power usage we would use a lot of batteries.
 
-0:12:37	SPEAKER_04
- The volume button and the channel buttons are the two most important buttons on the remote control, so those have to be find very easily, and have to be somewhat like bigger, et cetera.
+0:12:38	SPEAKER_04
+ The following buttons and the channel buttons are the two most important buttons on the remote control, so those have to be find very easily and have to be somewhat like bigger, etc.
 
 0:12:50	SPEAKER_04
- It has also to be, I have to find easily when the label is gone.
+ It has also to have to find easily when the label is gone.
 
 0:12:54	SPEAKER_04
- My colleague also announced that the label should be scratched off, or who is off-gust later.
+ My colleague also announced that that label should be scratched off or who is off the slate.
 
 0:13:02	SPEAKER_04
  So if that's the problem, you also have to find it easily on the remote.
 
-0:13:12	SPEAKER_04
- Buttons, like what our colleague said, have to be minimalized, or should be covered, or in the LCD screen.
+0:13:13	SPEAKER_04
+ Buttons, like what our colleague said, have to be minimalized or should be covered or in the LCD screen.
 
 0:13:22	SPEAKER_04
- The LCD screen is easy, because you have the LCD screen.
+ The LCD screen is easy because you have the LCD screen.
 
 0:13:24	SPEAKER_04
- You have the various options, put one option, and then you have all the buttons of that option, so the other options will be gone, and you don't see the buttons.
+ You have the first options, put one option, and then you have all the buttons of that option, so the other options will be gone and you don't see the buttons.
 
-0:13:32	SPEAKER_04
- So LCD screen should be easy, but an LCD screen, the problem with the LCD screen is that elderly people from 65 years don't use the LCD screen a lot.
+0:13:31	SPEAKER_04
+ So LCD screen should be easy, but an LCD screen, the problem with the LCD screen is that elderly people from 45 to 65 years don't use the LCD screen.
 
-0:13:44	SPEAKER_04
- So we have to keep that in mind, that if you're going to implement the LCD screen, don't have to make it that hard to learn or to use.
+0:13:42	SPEAKER_04
+ So we have to keep that in mind that if you're going to implement the LCD screen, you don't have to make it that hard to learn or to use.
 
 0:13:52	SPEAKER_03
- LCD screen as in touch screen.
+ LCD screen as in touch screen?
 
 0:13:55	SPEAKER_04
  Yeah, touch screen.
 
 0:13:57	SPEAKER_04
- The last, but at least, younger people are more critical about the features, because they use the remote control often more often, and are more technical than all the people, and all the people spend more money, and easily on the remote control.
+ The last but not least, younger people are more critical about the features because they use the remote control often more often and are more technical than all the people.
+
+0:14:07	SPEAKER_04
+ And all the people spend more money and easily on the remote control.
 
 0:14:12	SPEAKER_04
- So we have to keep in mind to focus not that much on the younger people, but also somewhat on the elderly people.
+ So we have to keep in mind to focus not a lot, not that much on the younger people, but also somewhat on the elderly people.
 
 0:14:22	SPEAKER_04
- And our personal references, I don't have any more time to come with that, but like I said, LCD screen is easily to use, because you can implement a lot of buttons in one remote, with not that much buttons, and it should be used to use, especially the following buttons, the channel buttons, and the number buttons to set through the channels.
+ And on my personal references, I don't have any more time to come with that, but like I said, LCD screen is easily to use because you can implement a lot of buttons in one remote with not that much buttons.
+
+0:14:35	SPEAKER_04
+ And it should be used to use, especially the following buttons, the channel buttons and the number buttons to step through the channels.
 
 0:14:44	SPEAKER_04
  And that is it.
 
 0:14:46	SPEAKER_00
- Okay, okay.
+ Okay.
 
-0:14:50	SPEAKER_00
- Well, thank you all, huh?
+0:14:47	SPEAKER_00
+ Okay.
+
+0:14:48	SPEAKER_00
+ Thank you.
+
+0:14:49	SPEAKER_00
+ Well, thank you all.
 
 0:14:52	SPEAKER_00
  I don't know.
@@ -380,45 +449,48 @@
  No.
 
 0:14:58	SPEAKER_00
- No?
+ No.
 
 0:14:59	SPEAKER_01
- Yes, I did not.
+ I did not.
 
 0:15:00	SPEAKER_01
- Can you perhaps hear us?
+ Perhaps there is.
 
 0:15:01	SPEAKER_00
- Then I think it's a good thing that I made a separate slide of them, so you can all read them.
+ And then I think it's a good thing that I made a separate slide of them so you can all read them.
 
-0:15:07	SPEAKER_00
+0:15:08	SPEAKER_00
  Oh, well, not in this presentation.
 
-0:15:10	SPEAKER_00
- Hmm.
-
 0:15:12	SPEAKER_00
- Should be in there.
+ It should be in there.
 
 0:15:13	SPEAKER_00
- I can tell you them from my laptop.
+ Well, I can tell you them from my laptop.
 
-0:15:16	SPEAKER_00
- Teletect has become outdated since the popularity of the internet.
+0:15:17	SPEAKER_00
+ The data text has become outdated since the popularity of the Internet.
 
 0:15:22	SPEAKER_00
- So that's the first thing we, I think, we should pay less attention to the teletect.
+ So that's the first thing we should pay less attention to the data text.
 
-0:15:27	SPEAKER_00
- The remote control should only be used for the television, otherwise the project becomes more complex, which, in danger, is the time to market, and of course, we'll make it more costly, I think.
+0:15:28	SPEAKER_00
+ Remote control should only be used for the television, otherwise the project becomes more complex, which endangers the time to market.
+
+0:15:34	SPEAKER_00
+ And of course, we'll make it more costly, I think.
 
 0:15:37	SPEAKER_00
  Our current customers are within the age group of 40 plus.
 
-0:15:40	SPEAKER_00
- New products should reach a new market with customers that are younger than 40, and you talked about that before.
+0:15:41	SPEAKER_00
+ New products should reach a new market with customers that are younger than 40.
 
-0:15:46	SPEAKER_00
+0:15:44	SPEAKER_00
+ And you talked about that before.
+
+0:15:47	SPEAKER_00
  And a last point, but also very important, our corporate image should stay recognizable in our products, which means that our corporate color and slogan must be implemented in the new design.
 
 0:15:57	SPEAKER_00
@@ -431,460 +503,370 @@
  So who has any idea what should be on it and what shouldn't?
 
 0:16:14	SPEAKER_01
- Well, you said that you should only...
+ You said it should only be used with one appliance or with one, only the TV.
 
-0:16:17	SPEAKER_01
- With one appliance, or with one, did you say only the TV?
+0:16:21	SPEAKER_00
+ Yeah, only a view for television.
 
-0:16:21	SPEAKER_01
- Yeah, only the video also, or not.
+0:16:23	SPEAKER_01
+ And the video also, or not.
 
 0:16:25	SPEAKER_00
- Oh, it's only for television here.
+ It's only for television here.
 
-0:16:27	SPEAKER_01
- All right.
-
-0:16:28	SPEAKER_00
- Okay.
-
-0:16:29	SPEAKER_00
- Next is a lot easier.
+0:16:27	SPEAKER_00
+ Makes it a lot easier.
 
 0:16:31	SPEAKER_04
- So yeah, then you can...
-
-0:16:34	SPEAKER_04
- Requirements.
-
-0:16:35	SPEAKER_04
- No, functions.
+ So yeah, then you can, yeah, requirements, no, functions.
 
 0:16:37	SPEAKER_01
- Then you should have the on-off.
+ Then it should have on off.
 
-0:16:39	SPEAKER_04
- Yeah, based on volume channel, one till two zero numbers on it.
+0:16:39	SPEAKER_01
+ Yeah, stand by.
 
-0:16:46	SPEAKER_04
- And the text doesn't have to be.
+0:16:40	SPEAKER_04
+ Basics, stand by a volume channel, 1 till 2, 0 numbers on it.
 
-0:16:48	SPEAKER_04
- No.
+0:16:47	SPEAKER_04
+ The TV text doesn't have to be.
 
 0:16:49	SPEAKER_04
- Other phone.
+ Other functions.
 
-0:16:51	SPEAKER_01
- Yeah, I had...
-
-0:16:53	SPEAKER_01
- You can say from one number to two numbers.
+0:16:52	SPEAKER_01
+ Yeah, I can hear you can change from 1 number to 2.
 
 0:16:56	SPEAKER_01
- Yeah.
+ Yeah, yeah.
 
-0:16:57	SPEAKER_01
- No, no, no.
+0:16:58	SPEAKER_01
+ I know.
 
-0:16:58	SPEAKER_04
- I think it's easy to implement, but with what, especially do that, because some TVs, if you press this one and then the two, between five, six, you make twelve.
+0:16:59	SPEAKER_04
+ I think it's easy to implement the button with a special, which especially do that because some TVs, if you press the 1 and then the 2.
+
+0:17:09	SPEAKER_04
+ It makes it be between 5 seconds, you make 12.
 
 0:17:11	SPEAKER_04
- And that means that's relaxed.
-
-0:17:14	SPEAKER_03
- Relax.
+ And that's relaxed.
 
 0:17:15	SPEAKER_03
  And there are some models that don't accommodate that function.
 
 0:17:21	SPEAKER_03
- So the Phillips television makes possible, and that indeed to press one and then two to make a...
-
-0:17:27	SPEAKER_03
- Easy to reach, 10, 12.
+ So the Philips Television makes plus 1 and that indeed to press 1 and then 2 to make a G2 to reach gem 12.
 
 0:17:29	SPEAKER_03
- But all the television makes use of those, and when you first press that button, and then press two digits to...
+ But all the television makes use of those buttons.
 
-0:17:37	SPEAKER_01
- Yeah, so you have that one.
+0:17:32	SPEAKER_03
+ Where you first press that button and then press 2 digits to...
 
-0:17:39	SPEAKER_04
- Yeah, thank you.
+0:17:36	SPEAKER_03
+ Yeah, so you tap that one.
+
+0:17:38	SPEAKER_04
+ Yeah, I'll make targets.
 
 0:17:40	SPEAKER_04
- All main targets.
-
-0:17:41	SPEAKER_04
  HR?
 
-0:17:42	SPEAKER_04
- We're 45 plus or...
+0:17:41	SPEAKER_04
+ We're 45 plus or so.
 
 0:17:44	SPEAKER_00
- Well, new products should reach a market with customers that are younger than 40.
+ Well, new products should reach your market with customers that are younger than 40.
 
-0:17:48	SPEAKER_00
- And now we have...
-
-0:17:49	SPEAKER_00
- Okay, because...
-
-0:17:50	SPEAKER_04
- 40 plus.
+0:17:48	SPEAKER_04
+ How will we have?
 
 0:17:51	SPEAKER_04
- Because younger people...
-
-0:17:54	SPEAKER_04
- Younger people have...
-
-0:17:56	SPEAKER_04
- Now, 16 to 25...
-
-0:17:58	SPEAKER_04
- H are 81% interested in LCD screen.
-
-0:18:03	SPEAKER_04
- From 26 to 35 to 66%, and 36 to 45 to 55%.
+ Because younger people have now 16 to 25 age or 81% interest in LCD screen from 26 to 35, 66% and 36 to 45, 55%.
 
 0:18:08	SPEAKER_04
- So I think to...
+ So I think because most print plate will be broken in about 2 years, you have to press very hard to go to the next channel with the LCD screen.
 
-0:18:12	SPEAKER_04
- Because on most remote controls, the print plate will be broken in about two years.
-
-0:18:17	SPEAKER_04
- You have to press very hard to go to the next set with the LCD screens easier, because you only have to wipe the screen for the fingerprint.
+0:18:21	SPEAKER_04
+ It's easy because you only have to wipe the screen for a fingerprint.
 
 0:18:25	SPEAKER_03
  And then you can use that.
 
-0:18:26	SPEAKER_03
- Yeah, that collides with our mission to make it fair cheap.
+0:18:27	SPEAKER_03
+ That collides with our mission to make it very cheap.
 
 0:18:31	SPEAKER_03
- Yeah, because the LCD screen is very expensive.
+ Because LCD screens are very expensive.
 
 0:18:33	SPEAKER_03
- Yeah, but the touchscreen...
+ Touch screen.
 
 0:18:34	SPEAKER_03
- Yeah, but the touchscreen probably even more.
+ Probably even more.
 
 0:18:37	SPEAKER_03
  True.
 
-0:18:38	SPEAKER_03
+0:18:39	SPEAKER_03
  True.
 
-0:18:39	SPEAKER_03
- Well...
-
-0:18:42	SPEAKER_03
+0:18:40	SPEAKER_03
  Well, it's possible to make an LCD screen.
 
-0:18:47	SPEAKER_03
+0:18:48	SPEAKER_03
  How was the information?
 
-0:18:49	SPEAKER_04
- Yeah, it only says that this percentage is like LCD screen, because it says that younger age between 16 and 45, highly interested features more critical.
+0:18:50	SPEAKER_04
+ Yeah, it only says that this percentage like LCD screen, because it says that younger age between 16 and 45 highly interested features more critical.
 
 0:19:03	SPEAKER_03
- Because perhaps we should focus on the LCD screen.
+ Perhaps we should focus on the LCD screen.
 
 0:19:06	SPEAKER_04
  Yeah, because our target is 16 to 45.
 
 0:19:09	SPEAKER_03
- Yeah, but we will not...
+ Yeah, but will we not exceed our reduction cost?
 
-0:19:13	SPEAKER_03
- Exceed our...
-
-0:19:15	SPEAKER_03
- We don't know how much it costs.
-
-0:19:17	SPEAKER_04
- Yeah, you don't know how much it costs, LCD screen.
-
-0:19:19	SPEAKER_04
- Is it possible to find out?
+0:19:16	SPEAKER_04
+ Yeah, you don't know how much cost LCD screen is it possible to find out?
 
 0:19:20	SPEAKER_04
- No, I don't have any costs here. I only have percentages.
+ I don't have any costs here.
+
+0:19:22	SPEAKER_04
+ I only have percentages.
 
 0:19:24	SPEAKER_01
- What if you would do an LCD screen?
-
-0:19:27	SPEAKER_01
- Do we have...
-
-0:19:28	SPEAKER_01
- Don't you have any buttons?
-
-0:19:29	SPEAKER_01
- Or because it's only direct at the TV.
-
-0:19:31	SPEAKER_01
- Then you only have...
-
-0:19:33	SPEAKER_01
- I don't know what you want to...
+ What if you do an LCD, do we have any buttons?
 
 0:19:34	SPEAKER_03
- No, an LCD screen is just like a drone here.
+ An LCD screen is just like a drone here.
 
 0:19:37	SPEAKER_03
- It just displays several buttons.
+ It displays several buttons.
 
 0:19:40	SPEAKER_03
- For example, if you want the minimal use buttons such as channel and volume, it just displays four buttons on the screen.
+ For example, if you want the minimal used buttons such as channel and volume, it displays 4 buttons on the screen.
 
 0:19:49	SPEAKER_03
- And it's possible to press them down just like a touchscreen.
+ And it's possible to press them down, just like a touchscreen.
 
 0:19:53	SPEAKER_01
- So you can adjust which buttons you want on the screen?
+ So you can adjust which buttons you want on them.
 
 0:19:56	SPEAKER_04
- Yeah, it will make a possible like that.
+ Yeah, you can adjust for example, adjust the audio settings, press audio on the touchscreen and you get the buttons for audio settings.
 
-0:19:58	SPEAKER_04
- I'll just add your settings, press audio on the touchscreen and you get the buttons for audio settings.
-
-0:20:03	SPEAKER_04
+0:20:02	SPEAKER_04
  So the other buttons are gone.
 
-0:20:05	SPEAKER_00
+0:20:04	SPEAKER_04
  Yeah.
 
-0:20:06	SPEAKER_00
- So we're going for an LCD screen.
+0:20:05	SPEAKER_00
+ So we're going for an LCD screen?
 
 0:20:08	SPEAKER_04
  Yeah.
 
 0:20:09	SPEAKER_00
- I think it's the most interesting thing here.
+ I think it's the most useful thing.
 
-0:20:11	SPEAKER_00
- And hoping that when we produce a lot, it won't be too expensive.
+0:20:10	SPEAKER_00
+ And I'm hoping that when we produce a lot, it won't be too expensive.
 
 0:20:14	SPEAKER_01
- No.
+ We had 1250, I guess?
 
-0:20:15	SPEAKER_01
- But we had 1250, I guess, for a rev limiter?
+0:20:16	SPEAKER_00
+ Yeah, 1250?
 
 0:20:17	SPEAKER_01
- Yeah.
-
-0:20:18	SPEAKER_01
- How expensive is that?
+ Yeah, I don't know how expensive.
 
 0:20:20	SPEAKER_01
  Any guesses?
 
 0:20:23	SPEAKER_03
- Well, I suppose with...
-
-0:20:27	SPEAKER_03
- If the young people are interested in LCD screens, we shall make them.
+ Well, I suppose if the young people are interested in LCD screens, we surely make them.
 
 0:20:35	SPEAKER_03
- And if that is our market share to our goal to deliver those remotely.
+ And if that is our market share, our goal to deliver those remotely.
 
 0:20:41	SPEAKER_01
- And we also said that we should not only focus on the younger people also on the older people.
+ You also said that we should not only focus on the younger people, but also the older.
 
 0:20:45	SPEAKER_01
- Yeah, but will they use it if it only has an LCD screen?
+ Yeah, but...
+
+0:20:46	SPEAKER_01
+ Will they use it if it's only as an LCD screen?
 
 0:20:48	SPEAKER_04
- 46 to 45, 33% and 56 to 65 to 12%.
+ It's 46 to 45, 33% and 56 to 65 to 12%.
 
 0:20:54	SPEAKER_04
- But our project requirements are the new products should be reached for new markets with customers that are younger than 40.
+ But our project requirements are the new products will be reached for new markets with customers that are younger than 40.
 
-0:21:02	SPEAKER_01
- But you don't want to alienate the other?
+0:21:03	SPEAKER_01
+ But you don't want to eliminate the other ones?
 
 0:21:05	SPEAKER_04
  No, they're not now.
 
 0:21:07	SPEAKER_01
- So if they also buy them, that's all right.
+ But if they also buy them, that's all right.
 
 0:21:10	SPEAKER_04
- Yeah, but market share for 40 years in younger is higher than that of 60%.
+ Yeah, but market share for 40 years and younger is higher than 65 in younger.
 
-0:21:14	SPEAKER_04
- Yeah, I think that of 65 in younger.
-
-0:21:17	SPEAKER_00
+0:21:16	SPEAKER_02
  All right.
 
-0:21:18	SPEAKER_00
+0:21:17	SPEAKER_00
  Okay, so LCD it is?
 
 0:21:20	SPEAKER_00
- Yes.
+ Yeah.
 
 0:21:21	SPEAKER_00
- Okay.
+ Okay, let's try to...
 
-0:21:22	SPEAKER_03
- It's true.
-
-0:21:23	SPEAKER_02
- How do we...
-
-0:21:24	SPEAKER_04
+0:21:23	SPEAKER_04
  Yeah, if it gets too much to expensive, then we should be sticking to rubber buttons.
 
-0:21:32	SPEAKER_03
- Yeah, can you...
-
-0:21:34	SPEAKER_03
- I think that the day we'll send you some information about the cost of LCD screen.
+0:21:31	SPEAKER_03
+ Yeah, I think that they will send you some information about the cost of LCD.
 
 0:21:39	SPEAKER_04
- We're not seeing no costs at all.
+ No costs at all.
 
 0:21:41	SPEAKER_03
- So if you receive an email about that, can you post it in the...
+ So if you receive an email about that, can you post it in our project map?
 
-0:21:47	SPEAKER_03
- I should be post that in our project map, I think.
-
-0:21:50	SPEAKER_04
- I think we all get the costs of everything.
+0:21:49	SPEAKER_04
+ I think that should... I think we all get the costs of everything.
 
 0:21:55	SPEAKER_03
- Because you are the marketing...
+ Because you are the marketing expert.
 
 0:21:58	SPEAKER_04
- Yeah, okay.
-
-0:21:59	SPEAKER_04
  I'll post it.
 
 0:22:00	SPEAKER_01
- We should have a backup plan that we would use, but...
+ I figured out the backup plan that we would use.
+
+0:22:02	SPEAKER_01
+ Sure, sure.
 
 0:22:03	SPEAKER_01
- Sure, sure.
+ Yeah.
 
 0:22:04	SPEAKER_04
  Yeah.
 
 0:22:05	SPEAKER_02
- Okay, but for now, LCD, yeah.
+ Okay, but for now, LCD.
 
 0:22:07	SPEAKER_04
- Then you have 75% of use finally to ugly.
+ Then you have 75% of use finding it ugly.
 
 0:22:11	SPEAKER_01
- Yeah, LCD.
+ LCD?
 
-0:22:12	SPEAKER_04
- And 80% of the users would spend more money with the random remote who would look fancy.
+0:22:12	SPEAKER_01
+ Yeah.
+
+0:22:13	SPEAKER_04
+ And 80% of the users would spend more money with it when a remote would look fancy.
 
 0:22:17	SPEAKER_01
- Oh, this is...
-
-0:22:18	SPEAKER_01
- No problem.
+ Oh, this is a problem.
 
 0:22:19	SPEAKER_04
- No, it'll look fancy with the LCD screen.
+ It'll fancy with the LCD screen.
 
 0:22:22	SPEAKER_01
  Yeah, but they don't like it.
 
 0:22:24	SPEAKER_01
- They think it's ugly.
-
-0:22:25	SPEAKER_01
- When it has an LCD.
+ They think it's ugly when it has an LCD.
 
 0:22:26	SPEAKER_04
- Yeah, they just play your remote.
-
-0:22:28	SPEAKER_04
- Not specific LCD remote.
+ Yeah, just the play remotes, not specific LCD remotes.
 
 0:22:29	SPEAKER_01
- All right.
-
-0:22:30	SPEAKER_01
- I told them you said that.
+ All right, that's all the new setup.
 
 0:22:32	SPEAKER_00
- So maybe you can make something fancy out of an LCD remote because it's new, as far as I know.
+ Yeah, maybe you can make something fancy out of an LCD remote because it's new as far as I know.
 
-0:22:37	SPEAKER_04
+0:22:36	SPEAKER_00
  Yeah, of course.
 
-0:22:39	SPEAKER_04
- And then you have another thing that's 75% separate, but that's not a question with the LCD screen.
+0:22:38	SPEAKER_04
+ And then you have the other thing that's 75% sep a lot, but that's not a question with the LCD screen.
 
-0:22:46	SPEAKER_04
- The only thing you have to do is wipe the screen off one is in the time to get all the fingerprints off it.
+0:22:45	SPEAKER_04
+ The only thing you have to do is wipe the screen off of one of these in time to get all your fingerprints off of it.
+
+0:22:52	SPEAKER_02
+ No.
 
 0:22:53	SPEAKER_02
- Yeah.
-
-0:22:54	SPEAKER_04
  Okay.
 
-0:22:55	SPEAKER_00
- Okay.
+0:22:54	SPEAKER_00
+ Okay, what else does a remote need?
 
-0:22:56	SPEAKER_00
- Okay, what else does our remote need?
+0:22:57	SPEAKER_00
+ A mute button.
 
-0:22:58	SPEAKER_00
- The remote button.
+0:22:59	SPEAKER_00
+ Mute button.
 
-0:23:00	SPEAKER_04
- The remote button.
+0:23:01	SPEAKER_00
+ Mm-hmm.
+
+0:23:02	SPEAKER_04
+ I think.
 
 0:23:03	SPEAKER_04
- The most important things on a remote control are channel selection, volume selection, and power usage, and the tailed text, but that is not of the question.
+ The most important thing on the remote control are channel selection, volume selection, and power usage.
 
-0:23:17	SPEAKER_01
- Other things are...
-
-0:23:18	SPEAKER_01
- You can put a button of the tailed text on the...
-
-0:23:21	SPEAKER_01
- For people who want to use it.
-
-0:23:23	SPEAKER_01
- Yeah, it could be.
-
-0:23:24	SPEAKER_01
- I mean, I've got a big remote.
-
-0:23:25	SPEAKER_00
+0:23:12	SPEAKER_04
  Yeah.
 
-0:23:26	SPEAKER_00
- Which means you have to fill.
+0:23:13	SPEAKER_04
+ And the Taylor text, but that is not of the question.
 
-0:23:27	SPEAKER_00
+0:23:16	SPEAKER_04
+ Other things are...
+
+0:23:17	SPEAKER_01
+ I think you put a button of Taylor text for people who want to use it.
+
+0:23:22	SPEAKER_01
+ Yeah, it would be.
+
+0:23:23	SPEAKER_01
+ I mean, I've got a big remote.
+
+0:23:24	SPEAKER_01
+ Yeah.
+
+0:23:25	SPEAKER_00
+ I'd have to fill it.
+
+0:23:26	SPEAKER_00
  Yeah, and we could make a separate menu on the LCD.
 
 0:23:30	SPEAKER_00
- Yeah, the tailed text.
-
-0:23:31	SPEAKER_00
- Okay, thanks.
+ Yeah.
 
 0:23:33	SPEAKER_04
  And also less important things are screen settings, audio settings, and channel settings.
@@ -893,142 +875,160 @@
  Yeah, less important, because I think they should be there.
 
 0:23:40	SPEAKER_03
- Yeah, it should be there, but not in a separate menu.
+ Yeah, it should be there, but not...
+
+0:23:41	SPEAKER_03
+ But in a sub-press menu.
 
 0:23:43	SPEAKER_03
- Yeah, I think it's also important to make it possible to...
+ Yeah, sub-menu.
+
+0:23:44	SPEAKER_03
+ I think it's also important to make possible to...
 
 0:23:48	SPEAKER_03
- How do you call it in English?
+ Anycon in English?
 
-0:23:52	SPEAKER_03
- To not use batteries, and use batteries to...
+0:23:50	SPEAKER_03
+ And to not use batteries and use...
 
-0:23:57	SPEAKER_03
- I have a little help.
+0:23:54	SPEAKER_03
+ But...
+
+0:23:55	SPEAKER_03
+...acry batteries to...
+
+0:23:57	SPEAKER_02
+ I would be very proud.
+
+0:23:58	SPEAKER_03
+ Yeah, sure.
 
 0:23:59	SPEAKER_03
  Yeah, so you can mount the...
 
-0:24:02	SPEAKER_03
- Yeah, the brackets.
-
-0:24:04	SPEAKER_03
- And remote control to...
-
-0:24:06	SPEAKER_03
- Charge it.
+0:24:03	SPEAKER_03
+...the remote control to charge it.
 
 0:24:07	SPEAKER_01
- I think of it to...
+ We should think of it 1250.
 
-0:24:08	SPEAKER_01
+0:24:09	SPEAKER_04
  Yeah, but we don't...
 
-0:24:10	SPEAKER_04
- I don't know why it's so easy to add.
+0:24:11	SPEAKER_03
+ I don't know why it says...
 
 0:24:12	SPEAKER_03
- Yeah, because when you get an LCD screen, you run it on batteries.
+ Yeah, so...
+
+0:24:13	SPEAKER_03
+ Okay, because when you get an LCD screen, you run it on batteries.
 
 0:24:15	SPEAKER_03
  Yeah.
 
 0:24:16	SPEAKER_03
- Batteries will be...
-
-0:24:17	SPEAKER_01
  Yeah.
 
+0:24:17	SPEAKER_01
+ The batteries will be...
+
 0:24:18	SPEAKER_01
-...for each one of the most important things.
+...the very...
+
+0:24:19	SPEAKER_01
+...the...
 
 0:24:20	SPEAKER_01
- Perhaps you should be able to switch the control off.
+...the...
+
+0:24:21	SPEAKER_01
+...the...
 
 0:24:22	SPEAKER_01
- If you have an LCD screen that burns all the time, you know.
+...the...
+
+0:24:23	SPEAKER_01
+...the...
+
+0:24:24	SPEAKER_01
+...the...
 
 0:24:25	SPEAKER_03
- Yeah, yeah.
+...the...
 
 0:24:26	SPEAKER_01
- You shouldn't...
+...the...
 
-0:24:29	SPEAKER_01
- That's where extra that you have first to turn the remote on, and then you can...
+0:24:27	SPEAKER_01
+...the...
 
-0:24:33	SPEAKER_04
- Yeah, I think it's not that easy, because I don't think people like it...
+0:24:28	SPEAKER_01
+...very extra that you have...
+
+0:24:30	SPEAKER_01
+...first you turn the remote on and then you can...
+
+0:24:32	SPEAKER_04
+ Yeah, I think it's not that easy...
+
+0:24:36	SPEAKER_04
+...because I don't think people like it, who...
 
 0:24:39	SPEAKER_04
- That you have to turn it on first, and then use it.
+...that you have to turn it on first, and then use it.
 
-0:24:43	SPEAKER_04
- I think it's better when the D-fish shuts down or remote shuts down.
+0:24:41	SPEAKER_04
+ Yes.
 
-0:24:46	SPEAKER_03
- And it goes turn by mile when you don't use it.
+0:24:42	SPEAKER_04
+ I think it's better when the TV shuts down or remote shuts down.
 
-0:24:49	SPEAKER_01
- Yeah, automatically.
+0:24:46	SPEAKER_04
+...and goats turn...
 
-0:24:51	SPEAKER_01
- Yeah, automatically.
+0:24:48	SPEAKER_01
+...by my window, you know, so...
 
-0:24:53	SPEAKER_00
- And maybe a low battery indicator?
+0:24:50	SPEAKER_01
+... Yeah, automatically.
 
-0:24:58	SPEAKER_00
- Yeah, on the screen.
+0:24:52	SPEAKER_01
+ Yeah, and...
+
+0:24:53	SPEAKER_03
+...off the message...
+
+0:24:54	SPEAKER_00
+...and...
+
+0:24:56	SPEAKER_00
+...and maybe a low battery indicator.
+
+0:24:57	SPEAKER_00
+ low battery indicator. Yeah, on the screen. Sure.
 
 0:25:00	SPEAKER_04
- Sure.
+ Then, before or hour, when it gets empty, then you have plenty of time to recharge it, or put it in a recharger. So we are going for the recharger.
 
-0:25:01	SPEAKER_04
- Before an hour when it gets empty, they have plenty of time to recharge it.
-
-0:25:09	SPEAKER_04
- Of the pudding in rechargeer.
-
-0:25:11	SPEAKER_04
- Charger.
-
-0:25:12	SPEAKER_00
- So we are going for a rechargeer.
-
-0:25:15	SPEAKER_04
+0:25:16	SPEAKER_04
  Yeah, it's slim.
 
-0:25:17	SPEAKER_04
- It's slim.
+0:25:20	SPEAKER_04
+ Is it sensible? Yeah, because when you're watching TV, you have to put it in a recharger.
 
-0:25:19	SPEAKER_04
- It's sensible.
-
-0:25:23	SPEAKER_04
- Yeah, because when you're watching TV, you're stepping, you have to put it in rechargeer.
-
-0:25:28	SPEAKER_04
- Yeah, that's what you're doing.
-
-0:25:30	SPEAKER_03
+0:25:29	SPEAKER_03
  When you're done with...
 
-0:25:32	SPEAKER_03
- Yeah, okay, but don't be...
-
-0:25:33	SPEAKER_04
- Watch me show that you have to put batteries go six hours five, six hours.
+0:25:31	SPEAKER_04
+ Yeah, okay, but we have to be sure that the batteries go hour, six hours, five, six hours.
 
 0:25:37	SPEAKER_01
- But you also forget to put it in.
+ You also forget to put it in.
 
 0:25:39	SPEAKER_01
- Yeah, that's probably...
-
-0:25:40	SPEAKER_01
- You start on a couch and you don't...
+ Yeah, you probably.
 
 0:25:41	SPEAKER_03
  But you also forget to buy batteries.
@@ -1037,55 +1037,58 @@
  Yeah.
 
 0:25:44	SPEAKER_03
- And then you can use it.
+ You can't use it.
 
 0:25:46	SPEAKER_04
- You have to be sure that the battery is lost a couple of days with the torch.
+ Or you have to be sure that the batteries lost a couple of days with the rechargers.
 
-0:25:50	SPEAKER_01
- So I think the battery should work a lot longer than a couple of days?
+0:25:49	SPEAKER_01
+ So I think the battery should work a lot longer than a couple of days.
 
 0:25:55	SPEAKER_04
- Yeah, because you have a LCD screen.
+ Yeah, because I have LCD screen.
 
 0:25:57	SPEAKER_04
- Yeah, that's...
+ Yeah, that's your...
 
 0:25:58	SPEAKER_04
- Hi-Power usage.
+ High power usage.
 
 0:25:59	SPEAKER_03
- Hi-Power usage.
-
-0:26:00	SPEAKER_03
- So it should be a standard move to put your remote control in the charger when you're done with watching television.
+ High power usage, so it should be a standard move to put your remote control in the charger when you're done watching television.
 
 0:26:08	SPEAKER_03
  That's also a great advantage because you can't lose it anymore.
 
 0:26:13	SPEAKER_03
- You are obliged to put in the charger and not to leave any a couch between some cushions.
+ You are obliged to put it in the charger and not to leave any couch between some cushions.
 
 0:26:20	None
  Yeah.
 
-0:26:23	SPEAKER_04
- Okay, we're at a point there.
+0:26:22	SPEAKER_04
+ Okay, we had a point there.
 
 0:26:25	SPEAKER_01
- But then you also have to have somewhere where you can put your charger near your couch because otherwise you have to...
+ But then you also have to have somewhere where you can put a recharger near your couch.
+
+0:26:30	SPEAKER_01
+ Because otherwise you have to...
 
 0:26:32	SPEAKER_01
  Yeah, otherwise.
 
 0:26:33	SPEAKER_01
- We're going to turn on the TV.
+...you have to walk a lot and we're going to have to turn on the TV.
 
 0:26:35	SPEAKER_01
  Just a small device.
 
-0:26:37	SPEAKER_04
- I think everything has to be like a telephone charger or something.
+0:26:37	SPEAKER_01
+ I think everything has to be...
+
+0:26:38	SPEAKER_04
+...like a telephone charger or something.
 
 0:26:40	SPEAKER_03
  And just the cable or even the charger when you can mount it on.
@@ -1094,106 +1097,112 @@
  Yeah, something like that.
 
 0:26:47	None
- Okay.
+ Yeah.
 
 0:26:48	SPEAKER_00
- Right.
-
-0:26:49	SPEAKER_00
- Okay, well.
-
-0:26:50	SPEAKER_04
- It's easy to use also.
-
-0:26:52	SPEAKER_04
- Or things.
-
-0:26:53	SPEAKER_04
  Okay.
 
-0:26:55	SPEAKER_04
- Marked share speaker speech recognition.
+0:26:49	SPEAKER_00
+ Right.
+
+0:26:50	SPEAKER_04
+ Well, it has to be easy to use also.
+
+0:26:53	SPEAKER_04
+ Yeah.
+
+0:26:54	SPEAKER_04
+...for the...
+
+0:26:56	SPEAKER_04
+...market share, speech recognition.
 
 0:26:59	SPEAKER_03
- Partial designs for the elderly.
+ I see.
 
-0:27:01	SPEAKER_03
- You could make it possible to enlarge the screen.
+0:27:00	SPEAKER_03
+ For the original designs, for the otherly, you could make it possible to enlarge the screen.
 
 0:27:05	SPEAKER_03
  To make it possible to not display a button at 10 points.
 
 0:27:12	SPEAKER_04
- I think this will be standard.
+ I think that this will be standard.
 
 0:27:15	SPEAKER_04
- But I just want to know functions you have to specify.
+ Yeah, but it is a bunch of functions you have to specify.
 
 0:27:18	SPEAKER_04
- Yeah.
-
-0:27:19	None
  Okay.
 
 0:27:21	SPEAKER_03
- Because we can look at perhaps 40 buttons at the screen but in the elderly only look at two buttons.
+ Because we can look at perhaps 40 buttons at the screen, but in the otherly, only look at two buttons.
 
 0:27:27	SPEAKER_03
  Okay.
 
 0:27:30	SPEAKER_03
- And you say something about speech recognition?
+ And if you can tell me about speech recognition?
 
-0:27:33	SPEAKER_03
- Yeah, it's all working.
+0:27:33	SPEAKER_00
+ Yeah, it says...
+
+0:27:34	SPEAKER_03
+...speech recognition.
 
 0:27:35	SPEAKER_03
- 12.
-
-0:27:36	SPEAKER_03
- Yeah, 12.
-
-0:27:37	SPEAKER_04
- 12.
-
-0:27:38	SPEAKER_04
- Also, 91% 16 to 25, 26 to 35 years, 76% and 36 to 45 to 35%.
-
-0:27:45	SPEAKER_04
- That's wonderful.
-
-0:27:47	SPEAKER_00
- Then I...
-
-0:27:49	SPEAKER_00
- Even bigger than for LCD.
-
-0:27:51	SPEAKER_01
  Yeah.
 
+0:27:36	SPEAKER_03
+ 12...
+
+0:27:37	SPEAKER_04
+ Yeah, 12 or 50.
+
+0:27:38	SPEAKER_04
+ That's also 91% 60 to 25, 26 to 35 years, 76% and 36 to 45, 35 percent.
+
+0:27:46	SPEAKER_04
+ Yeah, that's quite a bit.
+
+0:27:49	SPEAKER_00
+ It's pretty...
+
+0:27:50	SPEAKER_00
+...but I...
+
+0:27:51	SPEAKER_01
+...I...
+
 0:27:52	SPEAKER_01
- Let's do speech.
+...if I make a name for LCD.
+
+0:27:53	SPEAKER_01
+ Yeah.
 
 0:27:54	SPEAKER_03
- Well, let's leave out all the remote controls and just put a microphone on top of the telephone.
+ Let's do speech.
 
-0:27:59	SPEAKER_03
- 19.
+0:27:55	SPEAKER_03
+ Let's leave out all the remote controls and just put a microphone on top of the telephone.
 
 0:28:00	SPEAKER_03
- 25.
-
-0:28:01	SPEAKER_01
- You can slap or something.
+ You can snap for something.
 
 0:28:03	SPEAKER_03
  Turn volume up.
 
+0:28:04	None
+ Yeah.
+
 0:28:05	SPEAKER_03
- Hey, that's not it.
+ Hey.
+
+0:28:06	SPEAKER_03
+ That's my idea.
 
 0:28:07	SPEAKER_03
- It's all you look.
+ It's really low.
 
 0:28:08	SPEAKER_01
  You say the wrong thing.
@@ -1201,164 +1210,119 @@
 0:28:10	SPEAKER_03
  Yeah, okay.
 
-0:28:11	SPEAKER_03
- Well, that should...
-
 0:28:12	SPEAKER_03
  It has to be remote control now.
 
-0:28:14	SPEAKER_03
- Yeah, remote control.
+0:28:14	SPEAKER_01
+ But they want to talk into the remote control or something?
 
-0:28:15	SPEAKER_01
- Well.
-
-0:28:16	SPEAKER_01
- But they want to talk into the remote control or something.
-
-0:28:19	SPEAKER_04
+0:28:18	SPEAKER_01
  Yeah, why not?
 
-0:28:20	SPEAKER_04
- It's probably much better for speech recognition in remote control.
+0:28:19	SPEAKER_04
+ It's not to pay more for speech recognition in the remote control.
 
-0:28:23	SPEAKER_01
- So, the thing it says.
+0:28:22	SPEAKER_04
+ So everything it says.
 
-0:28:25	SPEAKER_01
+0:28:24	SPEAKER_01
  Do we want to implement that?
 
-0:28:28	SPEAKER_04
- I think good LCD screen should be sufficient.
-
-0:28:30	SPEAKER_04
- Yeah.
+0:28:27	SPEAKER_04
+ I think the LCD screen should be sufficient.
 
 0:28:31	SPEAKER_00
- But when you look at percentages.
+ But when you look at percentages...
 
-0:28:33	SPEAKER_00
+0:28:34	SPEAKER_03
  Yeah, it says a lot.
 
-0:28:34	SPEAKER_04
- But...
-
-0:28:35	SPEAKER_03
+0:28:36	SPEAKER_03
  Perhaps the option should be...
 
-0:28:36	SPEAKER_03
+0:28:38	SPEAKER_00
  Of course, even higher.
 
-0:28:37	SPEAKER_03
- Why not?
-
-0:28:38	SPEAKER_00
- Why not?
-
-0:28:39	SPEAKER_00
- Maybe because of the cost.
-
 0:28:40	SPEAKER_03
- But nobody knows how much.
+ Why not?
 
 0:28:41	SPEAKER_00
- I think it's better to have LCD screen because in the area of 36 to 45, we have about 30%
+ Why not?
 
-0:28:52	SPEAKER_04
- of the market share in our hands. And 55 of those people want LCD screen and 35% speak resolution.
+0:28:42	SPEAKER_00
+ Maybe because of the cost, but nobody knows how much.
+
+0:28:46	SPEAKER_04
+ I think it's better to have LCD screen because in the area of 36 to 45, we have about 30% of the market sharing in our hands.
+
+0:28:57	SPEAKER_04
+ And 55 of those people want LCD screen and 35 on speech recognition.
 
 0:29:02	SPEAKER_04
  So I think it's better to keep it with LCD screen.
 
 0:29:06	SPEAKER_00
- Would it be useful to implement both?
+ But would it be useful to implement both?
 
-0:29:09	SPEAKER_00
- Yeah, with the cost.
-
-0:29:11	SPEAKER_01
- So allow it.
+0:29:09	SPEAKER_04
+ Yeah, with the costs allowed.
 
 0:29:12	SPEAKER_01
- I don't know that it can be done with the cost of 1250.
+ I don't know if it can be done with the cost of 12.
 
-0:29:16	SPEAKER_01
- If it should be done.
-
-0:29:18	SPEAKER_04
- If it could be done.
-
-0:29:19	SPEAKER_04
- I would do it better.
+0:29:17	SPEAKER_04
+ If it should be done, if it could be done, it should be better.
 
 0:29:21	SPEAKER_01
- But now would you like to implement that?
+ But how would you like to implement that, that you say, volume up and then those are...
 
-0:29:23	SPEAKER_01
- I would like to say volume up and then...
+0:29:26	SPEAKER_01
+ Yeah.
 
-0:29:26	SPEAKER_03
+0:29:27	SPEAKER_03
  Certain systems already exist, I think.
 
 0:29:29	SPEAKER_01
  Then you also have to have different languages.
 
 0:29:32	SPEAKER_01
- If we go international.
+ If we go international...
 
 0:29:34	SPEAKER_01
  It's true.
 
 0:29:35	SPEAKER_01
- It's used to do a French and Dutch and English.
+ It's used to do French and Russian English.
 
 0:29:38	SPEAKER_04
- But that should be also common with some software.
+ It should be also coming with some software.
 
-0:29:41	SPEAKER_04
- It should be also with LCD screen.
-
-0:29:42	SPEAKER_04
- Because I think it's Chinese.
-
-0:29:43	SPEAKER_04
- It's different written volume.
-
-0:29:44	SPEAKER_04
- It's different written than in...
+0:29:40	SPEAKER_04
+ It should be also with LCD screen because I think it's different written volumes with different written than...
 
 0:29:46	SPEAKER_04
- So I hear you something.
+ So I'll heal you or something.
 
 0:29:48	SPEAKER_01
- You can use icons for the speaker.
-
-0:29:52	SPEAKER_01
- And...
+ You can use icons for the speaker and the...
 
 0:29:53	SPEAKER_01
- You have to have better than language.
+ That's better than language.
 
 0:29:56	SPEAKER_01
- For the...
-
-0:29:58	SPEAKER_03
  So you want to...
 
-0:30:00	SPEAKER_03
- It's international.
+0:29:59	SPEAKER_03
+ It's international...
 
-0:30:02	SPEAKER_04
+0:30:01	SPEAKER_04
  Okay.
 
 0:30:03	SPEAKER_04
- Okay.
-
-0:30:04	SPEAKER_04
  What else?
 
-0:30:05	SPEAKER_00
- So no speech organization?
+0:30:04	SPEAKER_00
+ So no speech recognition.
 
 0:30:07	SPEAKER_01
  Well, if it could be done with...
@@ -1370,37 +1334,28 @@
  It should be done.
 
 0:30:11	SPEAKER_00
- Yeah.
+ It could be done with...
 
 0:30:12	SPEAKER_00
  And then with different languages.
 
 0:30:14	SPEAKER_01
- Yeah.
+ Yeah, that should be...
 
-0:30:15	SPEAKER_01
- That should be...
-
-0:30:16	SPEAKER_00
+0:30:16	SPEAKER_03
  That's not so difficult.
 
-0:30:17	SPEAKER_03
- I already used several...
-
-0:30:19	SPEAKER_03
- Several voice-operated systems.
-
-0:30:22	SPEAKER_03
- And they are all possible to...
+0:30:18	SPEAKER_03
+ I already used several voice-operated systems and they are all possible to...
 
 0:30:24	SPEAKER_03
- Now all that.
-
-0:30:25	SPEAKER_03
- I think it's difficult.
+ Oh, but...
 
 0:30:26	SPEAKER_01
- I think it's difficult to adjust the thing.
+ That's difficult.
+
+0:30:27	SPEAKER_01
+ You should suggest, I think.
 
 0:30:28	SPEAKER_04
  Every language of dialects.
@@ -1409,46 +1364,37 @@
  Yeah.
 
 0:30:31	SPEAKER_04
- I think it's very different.
+ I think it's very difficult.
 
 0:30:32	SPEAKER_01
- I have to speak so that you can understand.
+ You have to speak so that it can understand.
 
-0:30:35	SPEAKER_04
- I think it can be implemented.
-
-0:30:39	SPEAKER_04
- But maybe...
+0:30:36	SPEAKER_04
+ I think it can be implemented, but maybe...
 
 0:30:40	SPEAKER_01
  You could use that as an option.
 
 0:30:42	SPEAKER_01
- Yes, an option.
+ Yes, an option, yes.
 
-0:30:43	SPEAKER_01
- Yes.
-
-0:30:44	SPEAKER_04
- Money left for some.
+0:30:43	SPEAKER_04
+ Money left or something.
 
 0:30:45	SPEAKER_04
- 50 euros.
+ 50 euro cents.
 
-0:30:46	SPEAKER_01
- That's the speed.
+0:30:47	SPEAKER_01
+ That's two speeches.
 
 0:30:48	SPEAKER_03
- Speed recognition.
-
-0:30:49	SPEAKER_03
- Okay.
+ Speech recognition.
 
 0:30:50	SPEAKER_00
- So we only do that when we have enough money left.
+ Okay.
 
-0:30:54	SPEAKER_00
- Yeah.
+0:30:52	SPEAKER_00
+ So we only do it when we have enough money left.
 
 0:30:55	SPEAKER_00
  Okay.
@@ -1457,12 +1403,9 @@
  Well, I've written down an honor off button.
 
 0:30:59	SPEAKER_00
- Volume selection, channel selection.
+ Volume selection, channel selection, digits from 1 to 0.
 
-0:31:02	SPEAKER_00
- Digits from 1 to 0.
-
-0:31:05	SPEAKER_00
+0:31:04	SPEAKER_00
  Or from 0 to 9.
 
 0:31:07	SPEAKER_00
@@ -1472,7 +1415,7 @@
  A mute button.
 
 0:31:14	SPEAKER_00
- A separate menu for a TED-Tex.
+ A separate menu for a teletext.
 
 0:31:16	SPEAKER_00
  A battery indicator.
@@ -1480,44 +1423,41 @@
 0:31:18	SPEAKER_00
  We're going to use a docking station.
 
-0:31:20	SPEAKER_00
+0:31:21	SPEAKER_00
  And probably LCD.
 
 0:31:23	SPEAKER_00
- And if there's enough money, speed recognition.
+ And if there's enough money, speech recognition.
 
 0:31:26	SPEAKER_00
  And the possibility to enlarge buttons or to have large buttons.
 
 0:31:31	SPEAKER_01
- With the TED-Tex, it wasn't very important.
+ Yes.
 
-0:31:35	SPEAKER_01
- No.
+0:31:32	SPEAKER_01
+ A teletext.
+
+0:31:34	SPEAKER_01
+ It wasn't really important.
 
 0:31:36	SPEAKER_01
- But...
+ No.
 
 0:31:37	SPEAKER_01
- You also know of colors.
+ You also now have colors.
 
-0:31:38	SPEAKER_01
+0:31:39	SPEAKER_01
  I don't know if we should implement that.
 
-0:31:40	SPEAKER_01
- Coach?
-
 0:31:41	SPEAKER_01
- Yeah.
+ When you press the red button, you go to page 102 and we press the...
 
-0:31:42	SPEAKER_01
- When you press the red button, you go to page 1 on the 2.
-
-0:31:45	SPEAKER_01
+0:31:46	SPEAKER_01
  I don't know if we should implement that.
 
 0:31:48	SPEAKER_01
- Because it says that TED-Tex not really important.
+ Because it says that teletext is not really important.
 
 0:31:51	SPEAKER_01
  Short cuts.
@@ -1526,193 +1466,250 @@
  Yeah.
 
 0:31:53	SPEAKER_04
- Short cuts.
-
-0:31:54	SPEAKER_04
- I think we could also implement audio settings, screen settings.
-
-0:31:58	SPEAKER_04
- And channel settings, but at sub menus.
+ I'll take which we could also implement the audio settings, screen settings, and channel settings, but as sub menus.
 
 0:32:01	SPEAKER_04
- Yeah.
+ If you turn the remote control on, you have to see 1 to 0 channel volume.
 
-0:32:02	SPEAKER_04
- Mainly if you turn the remote control on, you have to see 1 to 0 channel a volume.
+0:32:07	SPEAKER_04
+ And if you want to use the teletext screen or audio, then you can press it.
 
-0:32:08	SPEAKER_04
- And if you want to use TED-Tex screen or audio, then you can press it.
-
-0:32:12	SPEAKER_03
+0:32:11	SPEAKER_04
  It should be available, but not directly available.
 
-0:32:16	SPEAKER_03
+0:32:15	SPEAKER_03
  Yeah.
 
-0:32:17	SPEAKER_03
+0:32:16	SPEAKER_03
  Okay.
 
 0:32:18	None
  Okay.
 
 0:32:19	SPEAKER_00
- So not too much TED-Tex support, but in a separate menu.
+ So not too much the teletext support, but in a separate menu.
 
-0:32:24	SPEAKER_01
- So actually it is there, but...
+0:32:23	SPEAKER_01
+ So actually, it is there.
 
-0:32:26	SPEAKER_01
- Yeah, but it's not really there.
+0:32:25	SPEAKER_01
+ Yeah, but it's not ready there.
 
-0:32:28	SPEAKER_03
- So there's a few to use.
+0:32:27	SPEAKER_03
+ So there's a lot of confuses.
 
-0:32:30	SPEAKER_03
- We have to be easy to use.
-
-0:32:32	SPEAKER_03
- I'll search.
+0:32:31	SPEAKER_03
+ It has to be easy to use.
 
 0:32:33	SPEAKER_03
- If you want to use TED-Tex, you can press TED-Tex button.
+ A surge.
 
-0:32:37	SPEAKER_03
- And then the options become available.
+0:32:35	SPEAKER_03
+ If you want to use teletext, you can press the teletext button and then the options become available.
 
 0:32:39	SPEAKER_01
- Yeah, that's it.
+ Yeah.
+
+0:32:40	SPEAKER_01
+ That's right.
 
 0:32:41	SPEAKER_04
- The design of it.
+ The side of it.
 
-0:32:43	SPEAKER_00
- Okay, but no more buttons or functions are...
+0:32:43	SPEAKER_04
+ Okay.
+
+0:32:44	SPEAKER_00
+ But no more buttons or functions.
+
+0:32:46	SPEAKER_00
+ Oh.
 
 0:32:47	SPEAKER_00
- No.
+ What else can you do with that?
 
-0:32:48	SPEAKER_00
- What else can you do with TED-Tex?
-
-0:32:50	SPEAKER_00
+0:32:49	SPEAKER_00
  Are we forgetting something?
 
-0:32:52	SPEAKER_01
- I have to cut real examples here, but I don't think there's anything really wrong with it.
+0:32:51	SPEAKER_01
+ I've got two examples here, but I don't think there's anything we should...
 
 0:32:56	SPEAKER_04
- Play POS doesn't need to be...
+ I don't think we should play a boss.
 
-0:32:59	SPEAKER_04
- Oh, we don't have a video on this.
+0:32:58	SPEAKER_04
+ We don't have a video on this.
+
+0:33:00	SPEAKER_04
+ Yeah.
 
 0:33:01	SPEAKER_04
- The worst is your presentation.
+ Where is your presentation?
 
 0:33:04	SPEAKER_04
- You could check the other remote controls.
+ You could check the other remote controls, technical functions.
 
-0:33:07	SPEAKER_01
- You could get the POS features.
+0:33:08	SPEAKER_01
+ Hey, you could click here.
 
 0:33:09	SPEAKER_04
- Which was...
+ Oh, which was?
+
+0:33:10	SPEAKER_01
+ Yeah.
 
 0:33:11	SPEAKER_01
  I don't know.
 
 0:33:13	SPEAKER_01
- Technical functions.
+ Technical function.
 
-0:33:15	SPEAKER_01
- They're a bit small, you should stretch them.
+0:33:14	SPEAKER_01
+ There a bit more.
 
-0:33:18	SPEAKER_01
- Because...
+0:33:16	SPEAKER_01
+ You could shoot stretch them because...
 
-0:33:19	SPEAKER_04
- Yeah, yeah, yeah, yeah.
+0:33:18	SPEAKER_04
+ Yeah, yeah, yeah, yeah, yeah.
 
 0:33:21	SPEAKER_04
- Technical focus.
+ Technical function is...
 
 0:33:23	SPEAKER_04
  Okay.
 
 0:33:24	SPEAKER_01
- I guess we've got a little...
+ I guess we've got them all.
 
 0:33:26	SPEAKER_04
- Okay, I got you have for even mute play.
+ I've got what you have for me.
 
-0:33:30	SPEAKER_04
- Yeah, this is actually pretty good.
+0:33:28	SPEAKER_04
+ Yeah.
+
+0:33:29	SPEAKER_04
+ This is actually what you're doing.
+
+0:33:32	None
+ Yeah.
 
 0:33:33	SPEAKER_04
- For slow...
+ Yeah.
 
-0:33:35	SPEAKER_04
- Yeah, the zoom buttons.
+0:33:34	SPEAKER_04
+ Zoom buttons.
 
-0:33:37	SPEAKER_04
- Yeah, white screen, high screen, different things.
+0:33:36	SPEAKER_04
+ Yeah.
+
+0:33:37	SPEAKER_01
+ White screen.
+
+0:33:38	SPEAKER_01
+ White screen.
+
+0:33:39	SPEAKER_04
+ High screen.
+
+0:33:40	SPEAKER_04
+ Different things.
 
 0:33:41	SPEAKER_04
- Oh, that's even put them on now.
+ I'll let you put them on now.
+
+0:33:42	SPEAKER_01
+ Yeah.
 
 0:33:43	SPEAKER_01
- Yeah, different.
+ Different.
+
+0:33:44	SPEAKER_01
+ Yeah.
 
 0:33:45	SPEAKER_01
- Yeah, yeah.
+ With that should also be a sub-menu.
 
 0:33:47	SPEAKER_01
- But that should also be a sub menu.
+ Yeah.
+
+0:33:48	SPEAKER_04
+ It should be available by that.
 
 0:33:49	SPEAKER_04
- Yeah, it should be available then in sub screen settings or something.
+ It's a screen setting or something.
+
+0:33:51	SPEAKER_01
+ Yeah.
 
 0:33:52	SPEAKER_01
- So we should also implement sub screen settings.
+ We should also implement some screen settings.
 
 0:33:54	SPEAKER_04
- Yeah, screen settings, audio settings, analytics settings you have, general settings.
+ Yeah, screen settings, audio settings.
+
+0:33:56	SPEAKER_04
+ The analytics settings you have.
+
+0:33:57	SPEAKER_01
+ Yeah.
+
+0:33:58	SPEAKER_04
+ General settings.
 
 0:34:00	SPEAKER_01
- Yeah, so you can probably...
+ Yeah.
+
+0:34:01	SPEAKER_01
+ So you can probably...
 
 0:34:02	SPEAKER_01
- So those four end, of course, the main.
+ So those four and of course the main.
 
 0:34:04	SPEAKER_01
- So the first you see the main and the other ones you can go to...
+ Yeah.
+
+0:34:05	SPEAKER_01
+ So first you see the main and the other ones you can go to...
 
 0:34:07	SPEAKER_04
- Like depth screens or something, or...
+ Yeah.
 
-0:34:10	SPEAKER_01
+0:34:08	SPEAKER_04
+ Like depth screens or something or...
+
+0:34:10	SPEAKER_04
  I don't know.
 
-0:34:12	SPEAKER_01
+0:34:11	SPEAKER_01
  I hope we can do this.
 
+0:34:13	SPEAKER_01
+ Yeah.
+
 0:34:14	SPEAKER_03
- So it's depending on what kind of television you got.
+ Actually, it's depending on what kind of television you got.
 
 0:34:18	SPEAKER_03
- Because if you don't have a white screen television,
+ Because if you don't got a white screen television, you don't need to...
 
 0:34:20	SPEAKER_04
- you don't need to be a screen-saving thing for... You don't use it.
+ You don't need to use it.
 
-0:34:24	SPEAKER_03
+0:34:22	SPEAKER_04
+ You don't use it.
+
+0:34:23	SPEAKER_03
  And if the television does not support such operations...
 
-0:34:28	SPEAKER_01
+0:34:27	SPEAKER_01
  You don't have to use that tab.
 
+0:34:29	SPEAKER_01
+ Yeah.
+
 0:34:30	SPEAKER_04
- Yeah, yeah.
+ Yeah.
 
 0:34:31	SPEAKER_04
  So you leave it.
@@ -1720,438 +1717,534 @@
 0:34:32	SPEAKER_04
  Hello.
 
+0:34:33	SPEAKER_04
+ Yeah.
+
 0:34:34	SPEAKER_04
  Or it could be possible to have a standard version of the remote.
 
-0:34:38	SPEAKER_04
- Expand its version.
-
-0:34:40	SPEAKER_01
- And do we want them in different colors?
-
-0:34:42	SPEAKER_01
- Or...
-
-0:34:44	SPEAKER_01
- And the buttons to change colors?
-
-0:34:46	SPEAKER_03
- The colors, I think, the main color of the remote control is the color of the LCD screen.
-
-0:34:50	SPEAKER_03
+0:34:37	SPEAKER_04
  Yeah.
 
-0:34:52	SPEAKER_04
- Yeah, you can use the device itself.
+0:34:38	SPEAKER_04
+ Expendous version.
+
+0:34:39	SPEAKER_01
+ And do we want to have different colors?
+
+0:34:41	SPEAKER_01
+ Or...
+
+0:34:42	None
+ Colors.
+
+0:34:43	SPEAKER_01
+ Colors.
+
+0:34:44	SPEAKER_01
+ Yeah.
+
+0:34:45	SPEAKER_03
+ Colors I think the main color of the remote control is the color of the LCD screen.
+
+0:34:49	SPEAKER_03
+ Yeah.
+
+0:34:50	SPEAKER_03
+ Because we don't want to love...
+
+0:34:51	SPEAKER_03
+ Yeah.
+
+0:34:52	SPEAKER_03
+ It divides itself.
+
+0:34:53	SPEAKER_04
+ It divides itself.
 
 0:34:54	SPEAKER_04
  How many percent?
 
-0:34:56	SPEAKER_04
+0:34:55	SPEAKER_04
  80 percent.
 
-0:34:57	SPEAKER_04
- I think it's up here.
+0:34:56	SPEAKER_04
+ I think it's ugly.
 
-0:34:58	SPEAKER_03
+0:34:57	SPEAKER_04
  We'll spend more money if it looks fancy.
 
+0:34:59	SPEAKER_03
+ Okay.
+
 0:35:00	SPEAKER_03
- Very... a lot of people...
+ So use a lot of people...
 
 0:35:02	SPEAKER_01
  Perhaps you can make adjustable front.
 
 0:35:04	SPEAKER_01
- Like with it.
+ Like with the...
 
 0:35:05	SPEAKER_01
- I just want to farm this.
+ Adjustable front.
 
 0:35:06	SPEAKER_01
  You can...
 
-0:35:08	SPEAKER_01
+0:35:07	SPEAKER_01
  Okay.
 
-0:35:10	SPEAKER_01
- But I think that...
+0:35:08	SPEAKER_01
+ You can...
 
-0:35:12	SPEAKER_03
- Well, make it a bit of a different color.
+0:35:09	SPEAKER_01
+ So you're...
+
+0:35:10	SPEAKER_01
+ I think that's...
+
+0:35:11	SPEAKER_03
+ Well, make it a little bit different colors.
 
 0:35:14	SPEAKER_03
  Yeah.
 
-0:35:16	SPEAKER_03
+0:35:15	SPEAKER_03
  Yeah.
 
+0:35:16	SPEAKER_03
+ Red, white, blue.
+
 0:35:18	SPEAKER_03
- Red, white, blue, black.
+ Black.
+
+0:35:19	SPEAKER_03
+ And a sea crew.
 
 0:35:20	SPEAKER_03
- A rustical...
+ Yeah.
 
-0:35:22	SPEAKER_03
- She's blue.
+0:35:21	SPEAKER_00
+ She's two fursions.
 
-0:35:24	SPEAKER_03
- Same-sensversion.
+0:35:22	SPEAKER_00
+ Same since versions.
+
+0:35:23	SPEAKER_03
+ And she press a button.
 
 0:35:26	SPEAKER_04
- She pressed a button.
+ It turns green.
+
+0:35:27	SPEAKER_04
+ Yeah.
 
 0:35:28	SPEAKER_04
- Oh, leave.
+ Oh.
 
-0:35:30	SPEAKER_00
- Well.
+0:35:29	SPEAKER_04
+ Leave.
 
-0:35:32	SPEAKER_00
- 5 minutes.
+0:35:30	SPEAKER_02
+ Five minutes.
 
-0:35:34	SPEAKER_00
- Single for our final 5 minutes.
+0:35:31	SPEAKER_00
+ Single for final five minutes.
 
-0:35:36	SPEAKER_00
+0:35:35	SPEAKER_00
  So I have the things I just read.
 
-0:35:38	SPEAKER_00
- Then we have separate menus for data text, screen settings, audio settings, and what else?
+0:35:37	SPEAKER_00
+ Then we have separate menus for data text, screen settings, audio settings.
+
+0:35:43	SPEAKER_00
+ And well.
 
 0:35:44	SPEAKER_04
- Channel settings?
+ Channel settings.
 
-0:35:46	SPEAKER_01
+0:35:45	SPEAKER_01
  All right.
 
-0:35:48	SPEAKER_00
- You can program this to here.
+0:35:46	SPEAKER_01
+ So you can program that to you.
 
-0:35:50	SPEAKER_01
+0:35:48	None
  Okay.
 
-0:35:52	SPEAKER_01
+0:35:49	SPEAKER_00
+ Hmm.
+
+0:35:50	SPEAKER_00
  Perhaps you should...
 
-0:35:54	SPEAKER_01
- You throw them in one pile.
+0:35:51	SPEAKER_01
+ You'll throw them in one pile.
 
-0:35:56	SPEAKER_01
+0:35:54	SPEAKER_01
+ So options.
+
+0:35:55	SPEAKER_01
  And then you set them.
 
+0:35:57	SPEAKER_01
+ Yeah.
+
 0:35:58	SPEAKER_01
- Otherwise you have all those text, perhaps, still text.
+ Otherwise you have all those data text.
 
 0:36:00	SPEAKER_01
- Not...
+ Perhaps they'll text not...
 
-0:36:02	SPEAKER_04
+0:36:01	SPEAKER_04
  Or like...
 
-0:36:04	SPEAKER_04
- Or like a menu button.
+0:36:02	SPEAKER_04
+ Oh, for menu button.
+
+0:36:03	SPEAKER_00
+ Also a separate menu.
+
+0:36:04	SPEAKER_00
+ Yeah.
+
+0:36:05	SPEAKER_04
+ Or also for menu button.
 
 0:36:06	SPEAKER_04
- Or a separate menu.
+ First menu.
+
+0:36:07	SPEAKER_04
+ Then you have main...
 
 0:36:08	SPEAKER_04
- Or a menu button.
+ Main usage.
 
-0:36:10	SPEAKER_04
- Or a menu button.
+0:36:09	SPEAKER_04
+ All the settings.
+
+0:36:11	SPEAKER_04
+ Yeah.
 
 0:36:12	SPEAKER_00
- Or a menu button.
+ Okay.
+
+0:36:13	SPEAKER_00
+ But we can work it out later.
 
 0:36:14	SPEAKER_00
- They have main usage audio settings.
+ Yeah.
 
-0:36:16	SPEAKER_00
- Okay. But we can work it out later.
-
-0:36:18	SPEAKER_00
+0:36:15	SPEAKER_00
  So we're having a general menu with the most used functions.
 
-0:36:20	SPEAKER_00
+0:36:18	SPEAKER_00
  Data text, screen settings, audio settings, channel settings.
 
 0:36:22	SPEAKER_00
  And maybe there are options for the remote itself.
 
-0:36:24	SPEAKER_00
+0:36:25	SPEAKER_00
  Like large icons or small icons.
 
-0:36:28	SPEAKER_04
- I think...
+0:36:28	SPEAKER_00
+ Uh, what else?
+
+0:36:29	SPEAKER_04
+ I think.
 
 0:36:30	SPEAKER_04
- Because we don't have a lot of buttons on one screen.
+ Because we don't have a lot of buttons on the one screen.
 
-0:36:32	SPEAKER_04
- We don't have any buttons.
+0:36:33	SPEAKER_04
+ I think the buttons...
 
 0:36:34	SPEAKER_04
+ We don't have any buttons.
+
+0:36:35	SPEAKER_04
  Yeah, but...
 
 0:36:36	SPEAKER_04
- We have our left channel button, the volume button, those buttons.
+ That's right.
+
+0:36:37	SPEAKER_04
+ We only have a general button, a volume button.
+
+0:36:39	SPEAKER_04
+ Those buttons.
 
 0:36:40	SPEAKER_04
- And we have all the else in here.
+ There's also a new LCD, right?
 
 0:36:42	SPEAKER_02
- It's also the ELCD, right?
-
-0:36:44	SPEAKER_01
  Yeah.
 
+0:36:43	SPEAKER_04
+ Okay.
+
+0:36:44	SPEAKER_01
+ So we don't have any normal buttons on the one screen.
+
 0:36:46	SPEAKER_04
- So we don't have any normal buttons.
+ No, no, normal buttons.
+
+0:36:47	SPEAKER_04
+ Yeah.
 
 0:36:48	SPEAKER_04
- No, normal buttons.
-
-0:36:50	SPEAKER_00
  Maybe only the...
 
-0:36:52	SPEAKER_00
- That remote itself.
+0:36:49	SPEAKER_00
+ We don't have buttons.
+
+0:36:50	SPEAKER_00
+ We don't have any normal buttons on the one screen.
+
+0:36:53	SPEAKER_00
+ Maybe only the...
 
 0:36:54	SPEAKER_00
- No. No.
+ We don't have any normal buttons on the one screen.
+
+0:36:55	SPEAKER_00
+ No.
 
 0:36:56	SPEAKER_01
+ No.
+
+0:36:57	SPEAKER_01
  Okay.
 
 0:36:58	SPEAKER_01
- Or well, you should be able to set which TV you have.
+ Oh, well, you should be able to set which TV you have.
 
-0:37:00	SPEAKER_03
- Yeah, sure. Of course you need the settings button.
+0:37:01	SPEAKER_01
+ If you want to set it.
 
-0:37:04	SPEAKER_03
- Or settings option for the remote control.
+0:37:02	SPEAKER_03
+ Yeah, sure.
 
-0:37:06	SPEAKER_01
+0:37:03	SPEAKER_03
+ Of course you need the settings button or settings option for the remote control.
+
+0:37:06	SPEAKER_03
  Yeah.
 
-0:37:08	SPEAKER_01
- But there's an idea to use what you said.
+0:37:07	SPEAKER_01
+ But it's an idea to use what you set, a normal on-and-off button for the TV.
 
-0:37:12	SPEAKER_01
- Normal on and off button for the TV.
+0:37:13	SPEAKER_01
+ No, no, no, no.
 
 0:37:14	SPEAKER_04
- No, no, no.
+ Because we discussed that you could charge it otherwise it...
 
-0:37:16	SPEAKER_04
- Because we discussed that you could charge it.
+0:37:19	SPEAKER_04
+ It jumps to standby mode.
 
-0:37:18	SPEAKER_04
- Otherwise it...
-
-0:37:20	SPEAKER_01
+0:37:21	SPEAKER_01
  Yeah, but not for the remote, but for the TV.
 
-0:37:24	SPEAKER_04
- Yeah, the TV of course.
+0:37:24	SPEAKER_01
+ Yeah, the TV, of course.
 
-0:37:26	SPEAKER_04
- I think that's the best thing is that we implement that one in the menu with the volume.
+0:37:25	SPEAKER_04
+ I think that's the best thing is to implement that one in the menu with the volume.
 
-0:37:32	SPEAKER_00
- But not as normal button in here.
+0:37:31	SPEAKER_01
+ But not as normal button in the USB.
+
+0:37:33	SPEAKER_00
+ No.
 
 0:37:34	SPEAKER_00
- Well, maybe there should be a separate button apart from the LC.
+ Well, maybe there should be a separate button apart from the LCD because you can't turn it on when the LCD is off.
 
-0:37:36	SPEAKER_00
- Because you can't turn it on when the LCV is off.
+0:37:39	SPEAKER_00
+ So how do you turn the thing on there?
 
-0:37:40	SPEAKER_00
- So how do you turn the thing on?
+0:37:41	SPEAKER_00
+ Yes, we are.
 
-0:37:42	SPEAKER_00
- Oh, you just tap remote.
+0:37:43	SPEAKER_00
+ You just tap it.
 
 0:37:44	SPEAKER_00
- Yeah, just tap it.
+ Tap it.
+
+0:37:45	SPEAKER_00
+ Okay.
 
 0:37:46	SPEAKER_00
- That's the screen thing.
+ And then the television is on also or just to remote?
 
-0:37:48	SPEAKER_00
- Yes, remote.
+0:37:49	SPEAKER_00
+ No, just to remote.
 
 0:37:50	SPEAKER_04
- No, just remote.
+ The television doesn't have to be on.
 
 0:37:52	SPEAKER_04
- Tell if you don't have to be on.
+ That's where you can press on standby mode.
 
 0:37:54	SPEAKER_04
- That's why you can press on.
-
-0:37:56	SPEAKER_04
- Yeah, it should be in standby mode.
+ Yes, standby, then press on the remote, press on and then TV should be...
 
 0:37:58	SPEAKER_01
- Yes, then by the press and remote press on and then TV should be.
+ Affainable.
 
-0:38:00	SPEAKER_01
- Affailable.
-
-0:38:02	SPEAKER_01
+0:37:59	SPEAKER_01
  Yeah.
 
-0:38:04	None
- Or not.
+0:38:00	SPEAKER_01
+ I don't know whether it's handy to have a normal on-button.
 
-0:38:04	SPEAKER_01
- I don't know whether it's handy to have a normal on button.
-
-0:38:06	SPEAKER_01
- Just remember for TV so you can turn it on and then you can choose the channel.
+0:38:03	SPEAKER_01
+ Just to wrap our TV so you can turn it on and then you can choose channel.
 
 0:38:08	SPEAKER_01
- Otherwise you...
-
-0:38:10	SPEAKER_01
- I don't know whether or not it's...
+ Otherwise you... I don't know whether or not that's...
 
 0:38:12	SPEAKER_03
- A normal button on the remote control.
+ A normal button on the remote control?
 
 0:38:14	SPEAKER_01
- Yeah, or normal.
+ Yeah, no, no, no. To turn it on.
 
 0:38:16	SPEAKER_01
- Or you should put it in the SD screen.
+ Or you should put it in the LCD screen.
 
-0:38:20	SPEAKER_03
- Yeah, because when you touch the SD screen when it is in standby mode, it should pop on.
+0:38:21	SPEAKER_03
+ Yeah, because when you touch the LCD screen when it is in standby mode, it should pop on.
 
-0:38:26	SPEAKER_02
+0:38:27	SPEAKER_02
  Yeah.
 
 0:38:28	SPEAKER_02
- Yeah, that's right.
+ Okay.
 
-0:38:30	SPEAKER_03
- Why would it be handy to have an on button?
+0:38:29	SPEAKER_03
+ Why would it be handy to have a normal button?
 
 0:38:32	SPEAKER_01
- Well, I guess if you use the SD screen, you first have to search where the on button and then you then turn it and then the TV goes on.
+ Well, I guess if you use the LCD screen, you first have search where it's the on-button and you...
+
+0:38:38	SPEAKER_01
+ You then turn and then the TV goes on.
 
 0:38:40	SPEAKER_01
- But if you have a normal on button on the remote, then you do it on and then you search the channel that you want.
+ But if you have a normal on-button on the remote, then you do it on and then you search the channel which you want.
 
-0:38:48	SPEAKER_04
- Yeah, but I think the remote control if you press step the screen, it always should jump to the screen which has the volume button, channel button and of course also the other off button.
+0:38:47	SPEAKER_04
+ Yeah, but I think the remote control, if you press, tap the screen, it always should jump to the screen which has the volume button, channel button and of course also the on- and off button.
 
-0:39:00	SPEAKER_03
- I think it looks a lot more fancy.
+0:38:59	SPEAKER_03
+ I think it looks a lot more fancy if you need to...
 
-0:39:02	SPEAKER_00
+0:39:01	SPEAKER_03
  Yeah, I think so too.
 
-0:39:04	SPEAKER_00
- I don't have any buttons on.
+0:39:02	SPEAKER_00
+ I don't have any buttons on this.
 
-0:39:06	SPEAKER_00
- Yeah, no buttons.
+0:39:04	SPEAKER_00
+ Yeah.
+
+0:39:05	SPEAKER_00
+ No, actually we're going to create a button less...
+
+0:39:07	SPEAKER_00
+ Yeah.
 
 0:39:08	SPEAKER_00
- Okay, well that might be a unique setting point.
+ No buttons at all.
+
+0:39:09	SPEAKER_00
+ Okay, well that might be a unique selling point, huh?
 
 0:39:12	SPEAKER_00
- If we can afford it, I guess.
+ Remote.
 
-0:39:16	SPEAKER_00
- I was born for the discussion to our next meeting because we're running out of time.
+0:39:13	SPEAKER_00
+ If you can afford...
 
-0:39:22	SPEAKER_00
+0:39:14	SPEAKER_00
+ Well, I guess...
+
+0:39:15	SPEAKER_00
+ Phone for the discussion to our next meeting because we're running out of time.
+
+0:39:20	SPEAKER_00
  For now, we're having a lunch break.
 
 0:39:24	SPEAKER_00
  And then there will be half an hour for the next share of individual work.
 
 0:39:30	SPEAKER_00
- I will write minutes if I can create them out of this.
+ I will write minutes if I can create them out of this and put them in the project documents folder.
 
-0:39:35	SPEAKER_00
- And put them in the project documents folder and here are the individual actions for the other roles.
+0:39:38	SPEAKER_00
+ And here are the individual actions for the other roles.
 
-0:39:43	SPEAKER_00
+0:39:42	SPEAKER_00
  And of course specific instructions will be sent to you again by your personal coach.
 
 0:39:47	SPEAKER_00
- Luckily, as we are.
+ Luckily as we are.
 
 0:39:49	SPEAKER_00
  Okay, well, thank you very much.
 
 0:39:51	SPEAKER_00
+ You're welcome.
+
+0:39:52	SPEAKER_00
  Lunch.
 
 0:39:53	SPEAKER_00
- Have a nice lunch.
+ Have a nice lunch, huh?
 
-0:39:55	SPEAKER_04
+0:39:54	SPEAKER_00
  Food.
 
-0:39:59	SPEAKER_01
+0:39:55	SPEAKER_01
+ Oh, yeah.
+
+0:40:00	SPEAKER_01
  Should we put this back in our room?
 
-0:40:01	SPEAKER_03
+0:40:02	SPEAKER_03
  Yeah, I think so.
 
-0:40:05	None
- Yeah.
+0:40:04	SPEAKER_03
+ It's a small...
 
 0:40:07	None
  Yeah.
 
 0:40:09	None
- Yeah.
+ Oh, yeah.
 
-0:40:11	None
- Yeah.
-
-0:40:13	None
- Oh yeah.
-
-0:40:15	None
- Thanks.
+0:40:14	None
+ Oh, yeah.
 
 0:40:17	None
+ Oh, yeah.
+
+0:40:20	None
  Oh, sorry.
 
-0:40:21	None
- Yeah.
+0:40:23	None
+ Mm-hmm.
 
-0:40:25	None
- Yeah.
+0:40:26	None
+ No.
 
-0:40:35	SPEAKER_04
- Zoom.
+0:40:31	None
+ No.
 
-0:40:39	None
- Zoom.
-
-0:40:49	None
- Zoom.
-
-0:40:53	None
- Zoom.
-
-0:40:57	None
- Zoom.
-
-0:41:01	None
- Zoom.
-
-0:41:03	None
- Zoom.
+0:40:36	SPEAKER_04
+ No.
 

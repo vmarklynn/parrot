@@ -1,0 +1,1644 @@
+0:00:00	None
+ I'm going to set this round to fit these in.
+
+0:00:30	SPEAKER_00
+ So, is it correct or not?
+
+0:00:37	SPEAKER_00
+ You never know whether you've got these things on right or not?
+
+0:00:40	SPEAKER_02
+ You never know whether they're on right or not?
+
+0:00:43	SPEAKER_02
+ Yeah, well, so we hope.
+
+0:00:45	None
+ It feels wrong.
+
+0:00:48	SPEAKER_00
+ Okay, so do it like that.
+
+0:00:53	SPEAKER_00
+ Okay, so David came in to me to say something we'd been talking about for a while was some stuff I'd been working on about using these topic models with networks, with things with links between the documents that are linked.
+
+0:01:10	SPEAKER_00
+ It's actually related to Ripple, but it's not actually that this is something I haven't actually been working on for a couple of months now, just because it came up with something more interesting that I've been working on.
+
+0:01:24	SPEAKER_00
+ At the time, basically, I'd been trying to use PLSA and those types of models on web pages.
+
+0:01:31	SPEAKER_00
+ And it came up with a big problem in that most web pages have very, very little text on them.
+
+0:01:38	SPEAKER_00
+ But you can tell what they're about based on the other text on the site, the text and the things they link to.
+
+0:01:45	SPEAKER_00
+ So what I wanted to know was can you combine the topic models that describe the pages that have lots of text on them with something else that tells you what a page is, no or very little text on it based on the links.
+
+0:01:57	SPEAKER_00
+ Yeah, so quite simply if you have a page one, which is like a home page and it'll maybe have five links and a picture on it.
+
+0:02:07	SPEAKER_00
+ And then because it links to page two and page three, can you tell what this is about?
+
+0:02:15	SPEAKER_00
+ Yeah.
+
+0:02:16	SPEAKER_00
+ So I started looking at Google PageRank, which kind of does this by saying where the links go the other way.
+
+0:02:24	SPEAKER_00
+ It says if this page is about fish, or in Google they say if this page is good in some way and it links to this other page and we don't know what this is, then that page is more likely to be good.
+
+0:02:37	SPEAKER_00
+ And it's just page rank, just a simple algorithm for doing this over a whole big network.
+
+0:02:41	SPEAKER_00
+ So I wanted to combine the topic models that tell you beforehand what you think this page and this page are about with this to maybe get a better idea.
+
+0:02:51	SPEAKER_00
+ So the idea is, say you've got some text on a page, that's only part of the picture of what the page is really about and the links pointing to that page are also part of the picture.
+
+0:03:02	SPEAKER_00
+ So I basically came up with an algorithm that's just a plugs page rank into PLSA.
+
+0:03:10	SPEAKER_00
+ So page rank you basically just say you basically take the how good this page is, which is X and how good this page is, which is Y.
+
+0:03:27	SPEAKER_00
+ And you then see this page is based on how you do this.
+
+0:03:33	SPEAKER_00
+ Based on the links command to it, it's just like a sum over all the links of X, I guess, of the value.
+
+0:03:48	SPEAKER_03
+ But it's not...
+
+0:03:50	SPEAKER_00
+ So if this is page rank of X, page rank of Y, I think this is roughly it, or fan, page rank of Z. So you say page rank of Z is equal to one over a constant to normalize it, sum over all the links into Z of page rank of the link.
+
+0:04:18	SPEAKER_00
+ Yeah, it's like that, yeah?
+
+0:04:21	SPEAKER_00
+ So similar idea.
+
+0:04:23	SPEAKER_00
+ If you've got a vector that says what the topics are, so you've learned from PLSA distribution of topics for every page.
+
+0:04:30	SPEAKER_00
+ So if you say probability of topic one for page Z is equal to...
+
+0:04:42	SPEAKER_00
+ And you can use the same sort of thing.
+
+0:04:45	SPEAKER_00
+ So nicking a whole bunch of math from how you work out page rank, it comes up with just an iterative algorithm, which is just the current probability.
+
+0:04:56	SPEAKER_00
+ Probability of topic one given Z.
+
+0:04:59	SPEAKER_00
+ So it's probably old.
+
+0:05:02	SPEAKER_00
+ Plus...
+
+0:05:05	SPEAKER_00
+ Yeah, plus that, and then you normalize between them, so you say alpha and one minus alpha.
+
+0:05:11	SPEAKER_00
+ Yeah.
+
+0:05:12	SPEAKER_00
+ So basically what you're seeing here, one minus alpha say link contribution, and call this, I guess.
+
+0:05:19	SPEAKER_00
+ So what you're seeing is that a page is partly from its text that you've got on the page, and it's partly from what the link say it's about.
+
+0:05:26	SPEAKER_00
+ So the alpha thing is how much do you trust the text on the page, and how much do you trust the links.
+
+0:05:31	SPEAKER_00
+ So that alpha could be different for every page.
+
+0:05:34	SPEAKER_00
+ So what I did then was try this on a big database of web pages.
+
+0:05:41	SPEAKER_00
+ I had some results from that, but they were all on temp too, so that's not important right now.
+
+0:05:46	SPEAKER_00
+ But it's not really important.
+
+0:05:48	SPEAKER_00
+ I can regenerate that.
+
+0:05:49	SPEAKER_00
+ The problem was that this gives you a new vector of topics for every page.
+
+0:05:56	SPEAKER_00
+ So you've got two vectors, you've got the one that you just got from PLSC or whatever model, and you've got the one that you get from this.
+
+0:06:03	SPEAKER_00
+ How do you tell questions better?
+
+0:06:05	SPEAKER_00
+ I had no way to evaluate this well.
+
+0:06:07	SPEAKER_00
+ How do you tell that this page, because you don't know what the topics are, because they're learned automatically.
+
+0:06:15	SPEAKER_03
+ So you have two representations, one which comes from this link stuff, and one is not based on PLSC too?
+
+0:06:24	SPEAKER_00
+ It is, because...
+
+0:06:26	SPEAKER_00
+ It's an initialization.
+
+0:06:27	SPEAKER_00
+ Yeah, you initialize it with...
+
+0:06:30	SPEAKER_00
+ Actually, this is not old, but start.
+
+0:06:34	SPEAKER_00
+ This is how you start off.
+
+0:06:37	SPEAKER_00
+ But then you just iterate.
+
+0:06:38	SPEAKER_00
+ So this is what PLSC goes into start with, and then you iterate this and it becomes something else.
+
+0:06:42	SPEAKER_01
+ So you should first train the whole PLSC stuff, then you initialize this link spreading thing, and then you iterate.
+
+0:06:52	SPEAKER_01
+ That's it, exactly.
+
+0:06:53	SPEAKER_01
+ And it converges, and so you have the both the initial PLSC and the PLSC plus the link thing.
+
+0:07:01	SPEAKER_00
+ Exactly.
+
+0:07:02	SPEAKER_00
+ So you've now got...
+
+0:07:03	SPEAKER_00
+ PLSC gives you two probabilities, right?
+
+0:07:06	SPEAKER_00
+ So it gives you a probability of a topic given a document, and a probability of a word given a topic.
+
+0:07:16	SPEAKER_00
+ So this is the same for both models.
+
+0:07:19	SPEAKER_00
+ Yeah?
+
+0:07:20	SPEAKER_00
+ Oh, this is...
+
+0:07:21	SPEAKER_00
+ What you do is you're taking this and iterating over the probability of the topic given the document.
+
+0:07:27	SPEAKER_00
+ So I've made that clear.
+
+0:07:29	SPEAKER_00
+ I'm not sure if I'm explaining this.
+
+0:07:31	SPEAKER_00
+ No, no, no.
+
+0:07:32	SPEAKER_00
+ Okay.
+
+0:07:33	SPEAKER_00
+ So...
+
+0:07:34	SPEAKER_01
+ So...
+
+0:07:35	SPEAKER_01
+ Yeah, you were saying that you would like to evaluate that now.
+
+0:07:39	SPEAKER_00
+ Yeah, so we were struggling.
+
+0:07:40	SPEAKER_00
+ How do you evaluate this?
+
+0:07:41	SPEAKER_00
+ Because...
+
+0:07:42	SPEAKER_00
+ And if you look at the way that PLSC and all those kind of models have been evaluated, they never quantitatively do anything.
+
+0:07:50	SPEAKER_00
+ They always say, well, look at the clustering.
+
+0:07:54	SPEAKER_00
+ There's...
+
+0:07:55	SPEAKER_00
+ Here we've got some documents that all appear to be the same thing.
+
+0:07:57	SPEAKER_00
+ And here's where we'll get some other documents that all appear to be the same thing.
+
+0:08:00	SPEAKER_00
+ And you can't really tell exactly how good that is.
+
+0:08:02	SPEAKER_00
+ You can just get an idea that it's...
+
+0:08:04	SPEAKER_03
+ Or they use the purple city...
+
+0:08:06	SPEAKER_03
+ Yeah.
+
+0:08:07	SPEAKER_03
+ The likelihood, they say, oh, this likelihood is smaller than the other.
+
+0:08:12	SPEAKER_00
+ Yeah, so that's the first thing that I think you want to spoke to you about this.
+
+0:08:15	SPEAKER_00
+ You suggested you use the likelihood.
+
+0:08:17	SPEAKER_00
+ And Pedro came up with a really good example of why that could be bad.
+
+0:08:20	SPEAKER_00
+ So you have...
+
+0:08:22	SPEAKER_00
+ You have the...
+
+0:08:25	SPEAKER_00
+ Oh, let me think of what this was.
+
+0:08:29	SPEAKER_00
+ It was to do with cars, basically.
+
+0:08:32	SPEAKER_00
+ You have a topic that's representing cars.
+
+0:08:40	SPEAKER_00
+ And you can tell that that's representing cars by looking at this distribution.
+
+0:08:42	SPEAKER_00
+ And it's the same for both.
+
+0:08:44	SPEAKER_00
+ Now, you want to tell which...
+
+0:08:46	SPEAKER_00
+ This page, Pedro's example of what it was, is that it says on the page, lotus, elise.
+
+0:08:53	SPEAKER_00
+ Okay?
+
+0:08:54	SPEAKER_00
+ And...
+
+0:08:56	SPEAKER_00
+ That...
+
+0:08:57	SPEAKER_00
+ Ah, no.
+
+0:08:58	SPEAKER_00
+ I can't...
+
+0:09:00	SPEAKER_00
+ I just remember it, but really, can you remember what it was?
+
+0:09:03	SPEAKER_02
+ Oh, no.
+
+0:09:04	SPEAKER_02
+ I don't remember that.
+
+0:09:06	SPEAKER_02
+ But you said I would tell you that evaluation should be done based on likelihood or perplexity.
+
+0:09:12	SPEAKER_00
+ Yeah, I didn't really consider doing it on perplexity, actually.
+
+0:09:15	SPEAKER_00
+ Well, it's the same.
+
+0:09:16	SPEAKER_02
+ Yeah, it's basically the same.
+
+0:09:19	SPEAKER_01
+ But maybe you could have some other...
+
+0:09:24	SPEAKER_01
+ Yeah, another task.
+
+0:09:25	SPEAKER_01
+ Or also to ask, if you imagine you have some blabbling of the pages, like, for example, you look at a set of pages and you have the directory entries of those pages.
+
+0:09:42	SPEAKER_01
+ Okay.
+
+0:09:44	SPEAKER_01
+ So, like, Yahoo! or the most entries, so you have categories and entries.
+
+0:09:49	SPEAKER_01
+ So, for example, you have cars, SUV, etc.
+
+0:09:53	SPEAKER_01
+ So, what you would like would be that two pages in the same category should be closer than two pages being spread across different categories.
+
+0:10:09	SPEAKER_00
+ It's that fair, though, because I think one of the things with these topic models is that you don't know...
+
+0:10:14	SPEAKER_00
+ You would not use this.
+
+0:10:16	SPEAKER_01
+ You would not use the Yahoo! directory or...
+
+0:10:18	SPEAKER_01
+ The directory in the training step of the model.
+
+0:10:23	SPEAKER_01
+ Okay.
+
+0:10:24	SPEAKER_01
+ This is something you have just for evaluation.
+
+0:10:27	SPEAKER_01
+ And then, for example, your task would be to say, I have some page and I know where it is in the directory.
+
+0:10:39	SPEAKER_01
+ And I have another page.
+
+0:10:40	SPEAKER_01
+ I don't know where it is.
+
+0:10:42	SPEAKER_01
+ And I would like to know whether it is in the same category as the first one, just by comparing their aspect.
+
+0:10:53	SPEAKER_03
+ It's making the assumption that this human categorization is related to the one that is discovered.
+
+0:11:00	SPEAKER_01
+ If they have the same, yeah.
+
+0:11:02	SPEAKER_01
+ So, basically, what you would like to check is the similarity in the aspect distribution tells me about the fact that they could be in the same category in the end-label categories.
+
+0:11:21	SPEAKER_01
+ Okay.
+
+0:11:22	SPEAKER_00
+ Is that really fair, though?
+
+0:11:25	SPEAKER_00
+ Can you say that if a set of documents, if the clustering of these documents is closer to the effect...
+
+0:11:32	SPEAKER_00
+ What you've got there is a clustering of documents as your evaluation, yeah.
+
+0:11:38	SPEAKER_00
+ This labels the Yahoo! category.
+
+0:11:41	SPEAKER_00
+ That's a clustering.
+
+0:11:42	SPEAKER_00
+ So, by saying that this clustering is closer to that clustering, does that necessarily mean that it's better?
+
+0:11:49	SPEAKER_02
+ No, no, no, it doesn't have to be.
+
+0:11:51	SPEAKER_02
+ If you use the latent representation, so distribution of our aspects, you could use this to save two documents, and the same directory or not.
+
+0:12:00	SPEAKER_02
+ And this you should be able to evaluate them.
+
+0:12:02	SPEAKER_01
+ So, what you would have, basically, would be to have a directory which gives you labels for some part of the documents.
+
+0:12:11	SPEAKER_01
+ Okay, so this is a directory, and this is some web page.
+
+0:12:16	SPEAKER_01
+ So, the label, the one.
+
+0:12:19	SPEAKER_01
+ And you have some page which are unlabeled, but you have links between those two.
+
+0:12:25	SPEAKER_01
+ So, what you would do is that you would try and use PLSA and the other model over that.
+
+0:12:34	SPEAKER_01
+ Then you would like to, for example, what could be very simple would be just to match each page like that.
+
+0:12:45	SPEAKER_01
+ So, let's say you have a page which is labeled, and you say, okay, the label page two should get, should be the one which it is the most similar to, or any kind of classification rule you can imagine.
+
+0:13:01	SPEAKER_01
+ And so, you say, okay, what if I iterate from this page which have the similar, so the criterion would be to compare those two distribution.
+
+0:13:14	SPEAKER_01
+ And then, you would like to assign to this document to where you don't know the labels, the same one as this one.
+
+0:13:24	SPEAKER_01
+ And here, that you use only for test. So, this is your grand truth.
+
+0:13:31	SPEAKER_01
+ Then you can evaluate all wrong you are or close you are from the real assignment to the right directory category.
+
+0:13:40	SPEAKER_01
+ In this way, I think it's fair if you know only that and that, and what you would like to discover is this.
+
+0:13:54	SPEAKER_01
+ This is a like a real task.
+
+0:13:57	SPEAKER_01
+ Like if this directory company would like to extend this directory to new pages without the hassle of having human labeling.
+
+0:14:08	SPEAKER_03
+ But in this case, you have to use the label one.
+
+0:14:12	SPEAKER_01
+ You use this one. You only have the labels for some small part of the...
+
+0:14:17	SPEAKER_03
+ How does it enter in that?
+
+0:14:19	SPEAKER_00
+ Well, I think your point was you train this without labeling first, yeah?
+
+0:14:23	SPEAKER_01
+ So, you would train it, this is...
+
+0:14:28	SPEAKER_01
+ You are training it?
+
+0:14:29	SPEAKER_01
+ All those links are known. The links between some label document and unlabeled document.
+
+0:14:35	SPEAKER_03
+ The point is that you should change in a way that to take the label into account.
+
+0:14:42	SPEAKER_01
+ I think you can do it as a two-step process.
+
+0:14:45	SPEAKER_01
+ First, you train... Well, maybe it could be better if you take it into account.
+
+0:14:52	SPEAKER_01
+ But maybe you can do just a two-step process.
+
+0:14:56	SPEAKER_01
+ First one, you have this unsupervised task over both PL and PU.
+
+0:15:01	SPEAKER_01
+ And then you, from this unsupervised task, you can know which document of PL is closed from the document of PU or the reverse.
+
+0:15:10	SPEAKER_01
+ And you can infer some label.
+
+0:15:12	SPEAKER_02
+ Clearly what we have done is you can train after that an SVM, saying this is category one or two on the label document.
+
+0:15:21	SPEAKER_02
+ And then you have a non-labeled document and you just say this is directory one or two.
+
+0:15:27	SPEAKER_02
+ And if you say this feature extraction process is better, then you're going to have a better cleaner separation between those two.
+
+0:15:38	SPEAKER_00
+ The thing that worries me about this approach is that, say, the really, really simple example of this, where your directory had two categories in it. Good and bad.
+
+0:15:48	SPEAKER_00
+ And you run PL, I say, no, that doesn't do good and bad.
+
+0:15:51	SPEAKER_00
+ It does English and French pages.
+
+0:15:54	SPEAKER_00
+ So they don't match, but the clustering was still very good in one respect.
+
+0:15:59	SPEAKER_00
+ But you can extend that up even if you have a hundred categories, PL, I say can find a hundred clusters that are a good clustering but are completely unrelated to the directory.
+
+0:16:08	SPEAKER_02
+ Well, I mean, if you have to judge, but in good, it's a respect to a given task.
+
+0:16:13	SPEAKER_02
+ You can say, of course it's always good because it's maximizing the likelihood.
+
+0:16:18	SPEAKER_00
+ What I want to know is that which of them has the better representation of a given page.
+
+0:16:24	SPEAKER_00
+ So a given a random page in these two models.
+
+0:16:28	SPEAKER_00
+ And the words that these two models give which is more likely to...
+
+0:16:33	SPEAKER_01
+ Yeah, you can, you say, given a random page of PU, which of those two models is more likely to say, for example, that the page of PL, which is the most similar.
+
+0:16:47	SPEAKER_01
+ So you take any distribution comparison thing.
+
+0:16:53	SPEAKER_01
+ So offman in his paper was doing just cosine similarity, but you can do k or anything.
+
+0:16:58	SPEAKER_01
+ So you just compare those two distributions of D1 and D2.
+
+0:17:09	SPEAKER_01
+ And so with that, you can determine, for example, for a document of the set 2, the most similar.
+
+0:17:18	SPEAKER_01
+ So you select D1.
+
+0:17:22	SPEAKER_01
+ So in this set, which is the most similar to the two according to the distribution from one audio or model.
+
+0:17:29	SPEAKER_01
+ And then for this document, you automatically assign to it the label of the document 1.
+
+0:17:40	SPEAKER_01
+ And you check with this, which is your ground truth, if you are right or not.
+
+0:17:48	SPEAKER_01
+ This is very related to what's planted with the keyword image annotation.
+
+0:17:55	SPEAKER_01
+ So you would have a set of key words, the set of image labeled with key words.
+
+0:18:00	SPEAKER_01
+ And you have a set of unlabeled image with some ground truth.
+
+0:18:04	SPEAKER_01
+ And you would check whether the label you assign, so in this case annotation word, are correct.
+
+0:18:11	SPEAKER_01
+ And I think it's fair setup.
+
+0:18:15	SPEAKER_01
+ So maybe this classification rule is not the best.
+
+0:18:18	SPEAKER_01
+ There, there might be some work to do, but the general idea, I think it's fair evaluation.
+
+0:18:25	SPEAKER_01
+ It's a task.
+
+0:18:27	SPEAKER_00
+ Okay.
+
+0:18:28	SPEAKER_00
+ I'm just concerned that that's...
+
+0:18:32	SPEAKER_00
+ It's answering a question that evaluates in some way, but maybe not in the way that...
+
+0:18:39	SPEAKER_00
+ Well, it's maybe not in the same way I was thinking, but maybe it's a battery.
+
+0:18:43	SPEAKER_00
+ So what I mean by that is that...
+
+0:18:49	SPEAKER_00
+ So I'm trying to process all this.
+
+0:18:54	SPEAKER_00
+ Yeah, it's the same thing.
+
+0:18:56	SPEAKER_00
+ It does tell you whether that's...
+
+0:18:57	SPEAKER_00
+ Which clustering is better for this task, but it doesn't tell you which clustering better represents the pages necessarily.
+
+0:19:04	SPEAKER_00
+ No, but you could say that it probably doesn't.
+
+0:19:08	SPEAKER_02
+ I think there is any way to say it generally.
+
+0:19:10	SPEAKER_02
+ This is better or worse.
+
+0:19:13	SPEAKER_03
+ There is not a perfect clustering.
+
+0:19:16	SPEAKER_03
+ What is the...
+
+0:19:17	SPEAKER_03
+ How do you judge what's in the clustering?
+
+0:19:19	SPEAKER_02
+ It has to be related to... with respect to this clustering.
+
+0:19:23	SPEAKER_01
+ What's good is the direct choice that you have a good coverage of biostopic humans can level.
+
+0:19:28	SPEAKER_01
+ But then if you want to detect different languages, this is another task.
+
+0:19:32	SPEAKER_01
+ I think the task of this latent model is to discover some semantic, like some topic proximity between documents.
+
+0:19:40	SPEAKER_01
+ And here this directory is doing the same thing, like associating some topics with some documents manually.
+
+0:19:46	SPEAKER_01
+ So comparing them is good setup.
+
+0:19:50	SPEAKER_03
+ And you're not the same compare... you're comparing them.
+
+0:19:54	SPEAKER_01
+ I compare those two, like the PLSA and the one over the same task of assigning good directories.
+
+0:19:59	SPEAKER_01
+ I don't know if it will provide good result or not, but it is clearly a benchmark for those two...
+
+0:20:07	SPEAKER_01
+ Girls.
+
+0:20:09	SPEAKER_02
+ You can even keep the bag of words and do the cosine comparison.
+
+0:20:15	SPEAKER_01
+ Also...
+
+0:20:16	SPEAKER_02
+ Just showing how... just first how better this is with respect to bag of words and hopefully then how...
+
+0:20:22	SPEAKER_02
+ Like bag of...
+
+0:20:24	SPEAKER_02
+ Regularized P of Z given D is...
+
+0:20:27	SPEAKER_02
+ Yeah, you can have three other apps.
+
+0:20:29	SPEAKER_02
+ Just...
+
+0:20:30	SPEAKER_02
+ It's basic.
+
+0:20:31	SPEAKER_01
+ Basic cosine over the P of T given D. So, wrote this empirical distribution.
+
+0:20:37	SPEAKER_01
+ And the two hidden aspect models.
+
+0:20:43	SPEAKER_03
+ I think...
+
+0:20:44	SPEAKER_03
+ You still not combine.
+
+0:20:46	SPEAKER_00
+ No, I'm coming round to...
+
+0:20:48	SPEAKER_00
+ We have to repeat over and over.
+
+0:20:50	SPEAKER_00
+ I think it probably is fair.
+
+0:20:55	SPEAKER_00
+ I've got an uncomfortable with it, but I think that will go, if I think about it enough.
+
+0:21:00	SPEAKER_00
+ But yeah, it just seems a lot suspect, but I think that's just from the whole point that you can't tell which clustering is better.
+
+0:21:10	SPEAKER_00
+ But what I saw before was, could you get people to evaluate this by hand basically?
+
+0:21:14	SPEAKER_00
+ Could you give people a set of pages and say you did it with five topics, for example.
+
+0:21:20	SPEAKER_00
+ Now you give people five sheets...
+
+0:21:23	SPEAKER_00
+ You give a user five sheets of paper each with words and varying sizes representing the probability of that topic, for example.
+
+0:21:31	SPEAKER_00
+ Try...
+
+0:21:32	SPEAKER_00
+ Give the user these pieces of paper to get an idea of what these topics are.
+
+0:21:35	SPEAKER_00
+ That's this P of W given Z.
+
+0:21:37	SPEAKER_00
+ And then you give them some pages and say which one would you...
+
+0:21:42	SPEAKER_00
+ Which piece of paper would you put that with?
+
+0:21:45	SPEAKER_00
+ And then you get like an intuitive idea of how would a person cluster pages given what these topics are supposed to be?
+
+0:21:52	SPEAKER_00
+ What these topics are supposed to layer?
+
+0:21:54	SPEAKER_00
+ Because you've got something that's fixed, the P of W given Z with respect to both models.
+
+0:21:58	SPEAKER_01
+ So, suppose you could use that.
+
+0:22:01	SPEAKER_01
+ The hidden aspect like the Z are unsupervisedly.
+
+0:22:06	SPEAKER_01
+ It's more like if you were giving the people, you said to them, okay, divide me this bunch of documents into five topics, and you don't give them the topics are priori.
+
+0:22:18	SPEAKER_01
+ So the two person could come up with very different...
+
+0:22:22	SPEAKER_01
+ One is very interesting.
+
+0:22:23	SPEAKER_03
+ In fact, I've seen a paper in CML where the guy was trying to learn what were the aspects of clustering.
+
+0:22:32	SPEAKER_03
+ So I give several users, a bunch of marbles, and they begin to say, okay, and have to divide it in five groups.
+
+0:22:43	SPEAKER_03
+ And in the end, it's always different to clustering each people has because it's completely subjective.
+
+0:22:49	SPEAKER_03
+ Yeah, okay.
+
+0:22:50	SPEAKER_03
+ But there is some characteristics that are transparency, color, which are features that make the clustering that can be extracted.
+
+0:23:00	SPEAKER_03
+ Even if the clustering is always different.
+
+0:23:03	SPEAKER_00
+ Okay.
+
+0:23:04	SPEAKER_00
+ So I think it's something that's saying that it can be really infinity of...
+
+0:23:09	SPEAKER_00
+ See, the thing about web pages, I thought, as well, in getting humans to evaluate it in some ways, is that you have most of the web pages that are...
+
+0:23:19	SPEAKER_00
+ A lot of the web pages that are important in some way are home pages.
+
+0:23:23	SPEAKER_00
+ So google.com doesn't actually say the word search on it, I think.
+
+0:23:28	SPEAKER_00
+ It maybe says go, but you only know it's about search through the thing.
+
+0:23:32	SPEAKER_00
+ But someone looking at it can tell that it's a search engine because of the way it's laid out, because of the pictures on it, and because of all of that.
+
+0:23:38	SPEAKER_00
+ There's a lot of information that's completely lost in this bag of word representation, and I was hoping that in some way you could use that to evaluate this.
+
+0:23:48	SPEAKER_00
+ No idea how.
+
+0:23:50	SPEAKER_00
+ But...
+
+0:23:52	SPEAKER_03
+ Say another example, apart from this search, I don't get exactly what you mean.
+
+0:23:59	SPEAKER_03
+ Don't use a Google page because it's too rude.
+
+0:24:04	SPEAKER_01
+ Even someone would provide very different labels.
+
+0:24:08	SPEAKER_01
+ Like someone would say it's a page in English, someone would say it's a web page which has very few information or anything.
+
+0:24:20	SPEAKER_01
+ So I think there's no art clustering.
+
+0:24:23	SPEAKER_01
+ And what's good with those models is that they are intended to provide you some kind of way to compare to documents, rather than to give you predefined sets of documents.
+
+0:24:36	SPEAKER_01
+ This is not art clustering.
+
+0:24:38	SPEAKER_01
+ I don't think one aspect or one latent topic has any sense by its own.
+
+0:24:45	SPEAKER_01
+ It's when you have the whole set and the whole distribution that you can tell something.
+
+0:24:50	SPEAKER_01
+ If you just take one of them alone, so you take all the P of Z given D and all of the P of W given Z, you can't do anything with that.
+
+0:25:02	SPEAKER_01
+ It's the whole set.
+
+0:25:04	SPEAKER_01
+ I would say.
+
+0:25:06	SPEAKER_01
+ And this is all it should be evaluated.
+
+0:25:10	SPEAKER_01
+ Meaning that, like for example, the Michel example about Marvel is that the point what you can learn from all these sets made by people is that those two Marvel would be considered as more likely to be in the same set because they share some common properties which are not seen as the same for everyone.
+
+0:25:31	SPEAKER_01
+ But they share some common properties that people will notice.
+
+0:25:36	SPEAKER_01
+ And if you look at the two, the all possible pairs of Marvel, you would have some much more agreement between people than if you look at the predefined sets people would just cut at some precise point.
+
+0:25:51	SPEAKER_00
+ You know what's...
+
+0:25:53	SPEAKER_00
+ Okay, I think anyway.
+
+0:25:54	SPEAKER_00
+ But yeah, this is effectively what we have here though and that directory is one clustering of the marbles.
+
+0:26:00	SPEAKER_00
+ And you're hoping that...
+
+0:26:01	SPEAKER_00
+ So what you're saying is that I have two clustering of marbles from my two models and I have a test clustering of marbles.
+
+0:26:08	SPEAKER_00
+ It's saying that one of these is more close to the test than the one that we've been getting.
+
+0:26:14	SPEAKER_00
+ What is that actually saying?
+
+0:26:16	SPEAKER_00
+ It doesn't...
+
+0:26:17	SPEAKER_00
+ It's better for this past but it doesn't really say anything else.
+
+0:26:20	SPEAKER_01
+ No, no, you don't have too much.
+
+0:26:21	SPEAKER_01
+ You have one clustering of marbles.
+
+0:26:24	SPEAKER_01
+ What you have is you have one clustering of marble, which is this one.
+
+0:26:29	SPEAKER_01
+ And then you have lots of people telling you, I consider those marbles to a very salient feature that they share in common.
+
+0:26:38	SPEAKER_01
+ I would like them to be in the same cluster.
+
+0:26:41	SPEAKER_01
+ And those two...
+
+0:26:43	SPEAKER_01
+ Okay.
+
+0:26:44	SPEAKER_01
+ So one of them is labeled and the other is not labeled.
+
+0:26:47	SPEAKER_01
+ And look at that you say, oh, someone told this one was very similar and this one is said to be blue, for example.
+
+0:26:52	SPEAKER_01
+ I don't know if it's the label.
+
+0:26:53	SPEAKER_01
+ So I put it in the blue bag.
+
+0:26:55	None
+ Okay.
+
+0:26:56	SPEAKER_01
+ But you don't...
+
+0:26:57	SPEAKER_01
+ You never use the blue bag.
+
+0:26:58	SPEAKER_01
+ You don't ask the viewer to look at the blue bag.
+
+0:27:00	SPEAKER_01
+ You just look at the people.
+
+0:27:02	SPEAKER_01
+ You just ask the viewer to compare those two marbles.
+
+0:27:05	SPEAKER_01
+ And then it happens that some of them have been colosted.
+
+0:27:08	SPEAKER_01
+ People are in your algorithm.
+
+0:27:11	SPEAKER_03
+ That's the point.
+
+0:27:12	SPEAKER_03
+ Yeah.
+
+0:27:13	SPEAKER_01
+ Yeah.
+
+0:27:14	SPEAKER_01
+ Yeah, this is a reverse possible.
+
+0:27:17	SPEAKER_01
+ Yeah.
+
+0:27:18	SPEAKER_01
+ It just...
+
+0:27:19	SPEAKER_00
+ So I forget that right.
+
+0:27:22	SPEAKER_00
+ What the algorithms are still coming up with is, in this way, looking at a clustering of marbles.
+
+0:27:26	SPEAKER_00
+ Yeah?
+
+0:27:27	SPEAKER_00
+ Each of the algorithms comes up with a definite...
+
+0:27:29	SPEAKER_01
+ No, no, no, no, no, no.
+
+0:27:30	SPEAKER_01
+ It comes up with, not with a clustering, but with some way to compare two marbles.
+
+0:27:36	SPEAKER_01
+ Okay.
+
+0:27:37	SPEAKER_01
+ So my question would say...
+
+0:27:38	SPEAKER_01
+ Okay.
+
+0:27:39	SPEAKER_01
+ That makes sense.
+
+0:27:40	SPEAKER_01
+ The two ones are completely dissimilar, and the other ones say they are very similar.
+
+0:27:44	SPEAKER_01
+ And if you find that in your unlabeled clustering, those two marbles happen to be in the same cluster.
+
+0:27:53	SPEAKER_01
+ You said the other algorithm might be wrong.
+
+0:27:56	SPEAKER_01
+ But you average that over lots of documents.
+
+0:27:59	SPEAKER_00
+ Okay.
+
+0:28:00	SPEAKER_02
+ Because the latent aspects really doesn't have too much the final directory.
+
+0:28:06	SPEAKER_02
+ Exactly.
+
+0:28:07	SPEAKER_02
+ It can be anything, but it's just a way of saying, yeah.
+
+0:28:09	SPEAKER_02
+ Those documents are similar in some sense.
+
+0:28:13	SPEAKER_02
+ So...
+
+0:28:14	SPEAKER_03
+ We're in a drink.
+
+0:28:17	SPEAKER_03
+ Okay.
+
+0:28:18	SPEAKER_02
+ It's just sometimes literate to say this latent aspect means this.
+
+0:28:22	SPEAKER_02
+ Okay.
+
+0:28:23	SPEAKER_02
+ I'm convinced.
+
+0:28:24	SPEAKER_00
+ I'm convinced.
+
+0:28:25	SPEAKER_00
+ All right.
+
+0:28:26	SPEAKER_00
+ Good.
+
+0:28:27	SPEAKER_00
+ Good.
+
+0:28:28	SPEAKER_00
+ All right.
+
+0:28:29	SPEAKER_00
+ Well, thanks.
+
+0:28:30	SPEAKER_00
+ Another trying to think of anything I haven't said about this stuff.
+
+0:28:33	SPEAKER_00
+ I did.
+
+0:28:34	SPEAKER_00
+ From looking at the results I got, it looked quite good.
+
+0:28:39	SPEAKER_00
+ Just hand reading them.
+
+0:28:40	SPEAKER_00
+ And one of the things I did was I started a web crawl at the EDAAP homepage.
+
+0:28:44	SPEAKER_00
+ It did not very many pages, only like 2000 or something like that, but enough to get the pages that were close to EDAAP to have a lot of links between them.
+
+0:28:52	SPEAKER_00
+ So that there was enough to be able to run this linked clustering algorithm.
+
+0:28:56	SPEAKER_00
+ So what you find is that the pages around EDAAP, there's a lot of English speaking pages and a lot of French speaking pages.
+
+0:29:02	SPEAKER_00
+ So of course this PLSA completely separated those out into categories.
+
+0:29:08	SPEAKER_00
+ So when I looked at the word likelihoods, there were two topics.
+
+0:29:12	SPEAKER_00
+ One was very clearly English words, the most likely word was there, and one was very clearly French words, most likely word was there, I think.
+
+0:29:18	SPEAKER_00
+ You had two topics?
+
+0:29:20	SPEAKER_03
+ No, I had many topics.
+
+0:29:22	SPEAKER_00
+ The others looked like garbage.
+
+0:29:23	SPEAKER_00
+ Couldn't tell what they might be.
+
+0:29:24	SPEAKER_00
+ But anyway, that's often the case when you look at it.
+
+0:29:27	SPEAKER_00
+ You can tell very clearly what one or two topics are, but not the rest.
+
+0:29:29	SPEAKER_02
+ The others usually don't mean anything.
+
+0:29:31	SPEAKER_01
+ The next thing is only the global optimization, the likelihood is optimized globally over the whole aspects, etc.
+
+0:29:37	SPEAKER_01
+ So you never ask the model to do out clustering of documents.
+
+0:29:41	SPEAKER_01
+ You just ask it to find a distribution of aspects such that a document is more likely according to the restriction that the number aspect is limited.
+
+0:29:52	SPEAKER_01
+ And so it just makes sense on looking at the whole set.
+
+0:29:57	SPEAKER_01
+ So I think all evaluations should take that into account and look at the whole aspect set.
+
+0:30:04	SPEAKER_01
+ Like, here you look at the whole aspect set because you look at the similarity of two distributions.
+
+0:30:09	SPEAKER_01
+ Any kind of thing where you unfold the model and look at it manually looks weird, like in those often papers where you show you columns with words or things.
+
+0:30:22	SPEAKER_00
+ Anyway, when I ran it on that, what I found was looking through some of the sites.
+
+0:30:28	SPEAKER_00
+ I looked for the sites that the models differed on, where one said it was probably an English page and the other said it was probably a French page.
+
+0:30:35	SPEAKER_00
+ I found a few examples where you had a site that looked.
+
+0:30:40	SPEAKER_00
+ The one that I remember offhand was, it was a page and it was a big picture and links down the side.
+
+0:30:46	SPEAKER_00
+ But the links were all pictures.
+
+0:30:48	SPEAKER_00
+ So the words were in French in the links but there were no words picked up by the when I did the crawl for the model.
+
+0:30:55	SPEAKER_00
+ And there was a small bit down here.
+
+0:30:57	SPEAKER_00
+ And in this, there was a picture in there but it didn't load, there was meant to be something else.
+
+0:31:02	SPEAKER_00
+ And it said, in English it said 404, this page cannot be found.
+
+0:31:07	SPEAKER_00
+ So all the words in this page were in English but it was very, very clearly a French page.
+
+0:31:11	SPEAKER_00
+ So the first model said it was an English page because all the words were in English.
+
+0:31:14	SPEAKER_00
+ The second model said it was very definitely a French page because all of these points were in French sites and it was something.FR as well.
+
+0:31:22	SPEAKER_03
+ So it was a good point for you.
+
+0:31:24	SPEAKER_00
+ Yeah, for your model.
+
+0:31:25	SPEAKER_00
+ So I found a couple of examples that were kind of like that.
+
+0:31:28	SPEAKER_00
+ The problem that I found when I ran it, the thing that was a bad point was that if you have, see, I was trying to see if you could evaluate this with search, given some keywords, the quench model would more likely find you a good document, that sort of approach.
+
+0:31:47	SPEAKER_00
+ What I found was that say you had, that's not too relevant necessarily but if you have, say, a topic distribution for one page and it very, very highly scores on the P.I.S.A. for one of the topics in that's right.
+
+0:32:09	SPEAKER_00
+ This model, because it's averaging out over all the pages nearby, all of the topic distributions become more flat.
+
+0:32:17	SPEAKER_00
+ It becomes more uncertain about everything.
+
+0:32:19	SPEAKER_00
+ So I don't know if that's necessarily a good thing or not.
+
+0:32:22	SPEAKER_00
+ In some cases it's going to be a bad thing because every page is linked.
+
+0:32:28	SPEAKER_00
+ By the way, the algorithm works. Every page is linked eventually to everything else.
+
+0:32:32	SPEAKER_00
+ So every page has information incorporated in it. The distribution land for every page has information incorporated in it.
+
+0:32:40	SPEAKER_00
+ From every other page's distribution as well. So it averages out, flattens all the distributions, depending on what this alpha is.
+
+0:32:47	SPEAKER_01
+ But also it depends on that could be a good effect because if you can be, if you are highly reliable about one page, but all the page looking to it are actually about very different topics.
+
+0:33:03	SPEAKER_01
+ So you could say maybe I was wrong from deciding only due to the text that this page was about, this aspect distribution because all the other pages are voting in a different direction.
+
+0:33:16	SPEAKER_00
+ Well, I think that the thing is...
+
+0:33:18	SPEAKER_00
+ Well, there's a balance.
+
+0:33:20	SPEAKER_00
+ For example, take a page like Flash. It's a news site for geeks.
+
+0:33:29	SPEAKER_00
+ And you have...
+
+0:33:31	SPEAKER_00
+ News from now, stuff that matter.
+
+0:33:34	SPEAKER_00
+ Oh, like hundreds of thousands of pages point to that.
+
+0:33:37	SPEAKER_00
+ But they're about completely different things.
+
+0:33:40	SPEAKER_00
+ So you, in effect, are losing information about what that page is about because there's so many things pointing to it in the all average out.
+
+0:33:46	SPEAKER_03
+ And this alpha, can it be dependent of the document?
+
+0:33:50	SPEAKER_03
+ Yeah.
+
+0:33:51	SPEAKER_03
+ So how many texts is in it?
+
+0:33:54	SPEAKER_00
+ That's my first idea. How it set this. I remember what the lotus thing was now.
+
+0:33:59	SPEAKER_00
+ So I thought you want to probably set this alpha per page.
+
+0:34:03	SPEAKER_00
+ There's probably some heuristics. For example, this page, there's no text in it.
+
+0:34:06	SPEAKER_00
+ We'll set it very low and use information for the links.
+
+0:34:08	SPEAKER_00
+ Problem is, this is what Pedro immediately said, what if you have a page that looks like this?
+
+0:34:12	SPEAKER_00
+ It's got a big picture of a car.
+
+0:34:17	SPEAKER_01
+ Pedro's always picked some of the cars.
+
+0:34:20	SPEAKER_00
+ Yeah, cars are not.
+
+0:34:21	SPEAKER_00
+ Anyway, and it says, lotus, Elise.
+
+0:34:23	SPEAKER_00
+ So you know that it's definitely about a car, but it's only got two words.
+
+0:34:26	SPEAKER_00
+ So you can't just do it by words because those two words completely specify it into something or other.
+
+0:34:31	SPEAKER_00
+ You suggest doing likelihood.
+
+0:34:34	SPEAKER_00
+ But at that time, and I can't remember what my problem was with that.
+
+0:34:39	SPEAKER_00
+ It might not have been a good thing. But you've got two likelihoods for it as well.
+
+0:34:44	SPEAKER_01
+ But I think for any kind of way you have to select this alpha, you have to look at the effect on an evaluation task.
+
+0:34:52	SPEAKER_01
+ And then maybe you can find some patterns that are.
+
+0:34:57	SPEAKER_01
+ Then once you have the task, you could look at which pages are completely missed by one model, because those are successful with one model. And you can maybe infer some rules afterwards.
+
+0:35:10	SPEAKER_01
+ But if you have no task, you can blindly select good alpha.
+
+0:35:18	SPEAKER_01
+ Okay, that's...
+
+0:35:19	SPEAKER_01
+ Like if you look at your task and you see that, I don't know, the long pages, for example, have good PRSM model without using links.
+
+0:35:31	SPEAKER_01
+ Then you can infer some heuristics like, okay, the alpha should be proportional to the links or anything like that, or to the number of images in the pages or anything.
+
+0:35:40	SPEAKER_01
+ But you should have some tasks where you can individually look at the performance on every page.
+
+0:35:48	SPEAKER_01
+ And as a second step, you could infer some kind of rule about all two select alpha with respect to the task.
+
+0:36:00	SPEAKER_01
+ Okay.
+
+0:36:01	SPEAKER_01
+ Maybe it's very simple rules. But select them blindly.
+
+0:36:04	SPEAKER_01
+ No.
+
+0:36:05	SPEAKER_01
+ It might be odd.
+
+0:36:06	SPEAKER_00
+ Yeah, so I think that there's two ways you can do it with some heuristics, and you can learn it from the task results, or combine it to. So that's kind of straightforward, I think.
+
+0:36:17	SPEAKER_03
+ Probably heuristic will be easier to compute.
+
+0:36:20	SPEAKER_00
+ Yeah, the thing about doing it through cross validation or something like that with the task is, the problem with doing a page rank style algorithm is that it gets better, it converges better, and it gives you better results. The closer a network is to being a small world network.
+
+0:36:36	SPEAKER_00
+ It's a small world network, basically some far links, but generally very clustered locally.
+
+0:36:43	SPEAKER_00
+ Now the thing about doing a web crawl is, the bigger your web crawl, the closer it will be to the overall structure of the internet, which is a small world network. The smaller your web crawl, the less small world network like it's going to be.
+
+0:36:54	SPEAKER_00
+ So the more pages you get, the better your results. And people running this style of algorithm, the page rank style stuff, generally run out on about 20 million pages or whatever. The Stanford web base, the exit that I was using for this, for a bit of this, they have, I can't remember offhand, they have maybe over a petabyte worth of web pages in this bunch of servers.
+
+0:37:20	SPEAKER_01
+ But still, like the work I did on hyperlinks, like I used the Wikipedia.
+
+0:37:26	SPEAKER_01
+ Yeah, maybe Wikipedia is a good thing to do.
+
+0:37:28	SPEAKER_01
+ I think it's because it has fairly high level of inside links.
+
+0:37:32	SPEAKER_00
+ What was concerned about Wikipedia though was that it's, while it has a high level of inside links, it has a lot of directory style links as well that might mess up actually being a, so you can't get the guys down because they are,
+
+0:37:46	SPEAKER_01
+ there's a structure on the webpage. So you can select only the links which are within the article or within the category. Okay, that's good.
+
+0:37:55	SPEAKER_01
+ It's very structured, it's easy to manipulate.
+
+0:37:59	SPEAKER_00
+ Plus, I guess it's actually straightforward to say to start with, is this a small world network and then, kind of not.
+
+0:38:04	SPEAKER_01
+ You can even isolate the directory from the categories of Wikipedia.
+
+0:38:08	SPEAKER_00
+ You were running that on, what was it, like half a million pages, something like that?
+
+0:38:13	SPEAKER_01
+ Well, yeah, I divided in three equal size parts, which of 150 documents.
+
+0:38:22	SPEAKER_01
+ Okay, that was all those documents.
+
+0:38:24	SPEAKER_01
+ And, well, but...
+
+0:38:26	SPEAKER_03
+ Need you manage to divide the link properly?
+
+0:38:30	SPEAKER_01
+ Well, what I did was the link, well, but this is not exactly the same setup you would have.
+
+0:38:35	SPEAKER_01
+ So in this setup, the whole link structure could be known and the only thing you would not know would be the assimilation to a category.
+
+0:38:45	SPEAKER_01
+ In my setup, it was different because I couldn't use the links between different sets, but this is not...
+
+0:38:52	SPEAKER_01
+ I don't want to miss you up with that, it's not the same kind of experiments, but you could just use the World Corps push like this.
+
+0:38:59	SPEAKER_01
+ And for some of them, you assume you don't know the category assignment.
+
+0:39:04	SPEAKER_01
+ And then you can run this set of experiments over Wikipedia.
+
+0:39:08	SPEAKER_00
+ I think offhand, thinking about this model, would have to work better because two things in the same category are going to be linked.
+
+0:39:15	SPEAKER_01
+ Yeah, but this is the... Yeah, this is the hypothesis between these... in this PLSA with link stuff.
+
+0:39:22	SPEAKER_00
+ Okay.
+
+0:39:23	SPEAKER_00
+ Yeah, I think that it's going to be more true in some networks and in some tasks than others, and I think in Wikipedia.
+
+0:39:30	SPEAKER_01
+ You can also add those tasks like that. Like for example, you can take proceedings and assume the categories are the keywords of the documents.
+
+0:39:41	SPEAKER_01
+ And then if you have the archive of a journal, you can use the links between the citation links.
+
+0:39:49	SPEAKER_01
+ So if you want to have a bigger stuff, so Wikipedia would be kind of very small with lots of English.
+
+0:39:56	SPEAKER_01
+ And then if you take a journal, you will have less links and more documents.
+
+0:40:02	SPEAKER_01
+ And then you would be likely to say that PLSA might be better over that because you don't have enough links.
+
+0:40:09	SPEAKER_01
+ So you can find examples which are not the web.
+
+0:40:14	SPEAKER_01
+ I think it's good to work in closed set. Wikipedia is kind of closed set, even if there's lots of outside links, but there's lots of inside links.
+
+0:40:22	SPEAKER_01
+ You have to think at database where there's lots of in-links.
+
+0:40:26	SPEAKER_01
+ Wikipedia might be one.
+
+0:40:28	SPEAKER_01
+ Citation, for example, if you take the NIPS archive which is available, NIPS author always sits on NIPS author, which often themselves, etc.
+
+0:40:38	SPEAKER_01
+ Well, it's so cold. I won't say that.
+
+0:40:41	SPEAKER_01
+ So, but yeah, I think this kind of setup, maybe web pages, it's hard to find sets of web pages which have good links, stuff.
+
+0:40:51	SPEAKER_01
+ If you start from web page or something.
+
+0:40:55	SPEAKER_00
+ Okay. Yeah, maybe have a look at the Wikipedia stuff.
+
+0:40:59	SPEAKER_00
+ Anyway, I'm stuck doing something else for the next month or two, anyways.
+
+0:41:03	SPEAKER_00
+ This is always the case. There's another thing.
+
+0:41:06	SPEAKER_00
+ This was new. I haven't thought that this too much, but it's on the same lines.
+
+0:41:11	SPEAKER_00
+ Have you guys seen this correlated topic models?
+
+0:41:15	SPEAKER_00
+ What? correlated topic models. David Bly the guy that came up with LDA.
+
+0:41:21	SPEAKER_00
+ He's got a new model that's published in NIPS this year, but he's co-authored on the website, a month or two ago.
+
+0:41:27	SPEAKER_00
+ So, you know, LDA, the old model LDA?
+
+0:41:32	SPEAKER_00
+ Yeah. Okay. So, LDA, you basically draw a Dirichlet, which says what type of document this is effectively, and then you draw a topic given the Dirichlet distribution, and then you draw a word given that.
+
+0:41:45	SPEAKER_00
+ All right. Well, that's for every word, and that's once for the document, and that's, you've got a parameter coming at this globally.
+
+0:41:55	SPEAKER_00
+ So, that's roughly what the model is, plus a little bit.
+
+0:41:58	SPEAKER_00
+ But anyway, so what they did was they reworked this because one of the problems with LDA, and I think POSA has this problem as well, is that the more topics you have, the less expressive it can be because the topics, it pushes a document.
+
+0:42:18	SPEAKER_00
+ If it is pulling a document into one topic, it pushes another topic away from that.
+
+0:42:22	SPEAKER_00
+ That makes sense. So, the topics are necessarily trying to be different from each other.
+
+0:42:26	SPEAKER_00
+ So, the more topics you have, the more that they're sort of squeezing into the space of what things can be about, and things are kind of pushed out. So, once you go over, they try that in one corpus, and once you go over about 100, maybe 200 topics, the new, you add more topics and it doesn't get better in any way.
+
+0:42:45	SPEAKER_00
+ The model doesn't, the new topics are effectively going to just be garbage.
+
+0:42:49	SPEAKER_00
+ All right, so what they did was they stopped using the Dirichlet, and they're starting to use a Gaussian there.
+
+0:42:58	SPEAKER_00
+ So, to spare the details basically, they've got a variable here, I think we call it eta.
+
+0:43:06	SPEAKER_00
+ And they, from this, generate a distribution of topics in some way, but it's generated from a Gaussian space, from a space that's given a mean in covariance.
+
+0:43:19	SPEAKER_01
+ But it's discrete, no.
+
+0:43:22	SPEAKER_00
+ Yeah, so what it does, this is the bit that took me forever on the stand actually.
+
+0:43:28	SPEAKER_00
+ Same model, but this is, given a Gaussian space, it maps that down into the simplex of what a topic can be about.
+
+0:43:37	SPEAKER_00
+ So, the simplex basically, if you've got, see you've got two topics.
+
+0:43:43	SPEAKER_00
+ No, see, you get three topics, that makes more easier to draw.
+
+0:43:53	SPEAKER_00
+ These are the probabilities that a document is about, this is the probability that this document is about topic one.
+
+0:44:00	SPEAKER_00
+ So, these guys all have to add up to one, yeah?
+
+0:44:04	SPEAKER_00
+ So, that basically means that what a document is about lies on this space between them.
+
+0:44:10	SPEAKER_00
+ Yeah, so this is the simplex.
+
+0:44:13	SPEAKER_00
+ So basically, a distribution generated by this guy is basically a point on this simplex.
+
+0:44:19	SPEAKER_00
+ So, what they do is, they've got a distribution that maps a Gaussian in some space into a distribution on this thing.
+
+0:44:27	SPEAKER_00
+ So, it maps it into Gaussian in that.
+
+0:44:29	SPEAKER_00
+ The cool thing about that is that if you get two Gaussians, you can tell how close they are.
+
+0:44:34	SPEAKER_00
+ So, you can now tell how close two topic distributions are, right?
+
+0:44:38	SPEAKER_00
+ So, you can have as many as you like, and you can tell that they're close to each other.
+
+0:44:42	SPEAKER_00
+ So, there's loads of ideas that I had about this, in that if you can tell that two topic distributions are close to each other.
+
+0:44:48	SPEAKER_00
+ So, for example, if you split a document in the two parts and said that the two parts have to be close in the distribution, you can see how the document changes.
+
+0:44:57	SPEAKER_00
+ For example, stuff based on that, with this idea, what if rather than working with this P of z given d thing that you get from PLSA, but what if you worked with these Gaussians that you get for every document?
+
+0:45:11	SPEAKER_00
+ And you said that, in some function that said that the Gaussian represent this should be similar to the one's linking to it.
+
+0:45:20	SPEAKER_00
+ I haven't thought about any of the maths for this, but it should be straightforward, I guess, to formulate it basically in terms of the meaning should be similar in the covariance, maybe should be similar as well.
+
+0:45:31	SPEAKER_00
+ So, it might actually be a better model again.
+
+0:45:35	SPEAKER_00
+ I don't know.
+
+0:45:37	SPEAKER_00
+ I'll send you guys the link for that correlated topic model stuff if you want, but I don't know if it's too interesting to you.
+
+0:45:45	SPEAKER_03
+ OK.
+
+0:45:47	SPEAKER_00
+ Thanks for hearing me out in the idea, especially.
+
+0:45:51	SPEAKER_00
+ Maybe I can do more with this.
+
+0:45:54	SPEAKER_02
+ In three months.
+
+0:45:57	SPEAKER_01
+ Well, there are lots of good ideas that are recorded and someone with...
+
+0:46:01	SPEAKER_02
+ Oh, yeah, it's too late.
+
+0:46:02	SPEAKER_02
+ Three months.
+
+0:46:03	SPEAKER_01
+ Yeah, because the data will be very similar.
+
+0:46:06	SPEAKER_00
+ Bastian, you can't release this data for four months.
+
+0:46:09	SPEAKER_00
+ That's cool.
+
+0:46:15	None
+ Thanks, guys.
+
+0:46:17	None
+ The move is useful to you.
+
+0:46:18	None
+ Yes, but...
+
+0:46:21	SPEAKER_00
+ At some point I'm going to have to go to David and convince him that he spent the month until working on this again.
+
+0:46:27	None
+ You don't have to convince you have to say I'm going to work on this one.
+
+0:46:32	None
+ Can you make me...
+
+0:46:35	None
+ No, he's still going to work on it.
+
