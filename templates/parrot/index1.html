@@ -144,8 +144,16 @@ hr {
 --------------------------------------------------------------------------------->
 <script>
 $(document).ready(function() {
+    if (localStorage.getItem('file_url') != "")
+        $('#audiobar').attr('src', getFileNameWithExtension(localStorage.getItem('file_url')));
     $('#trans').val(localStorage.getItem('transcription'));
     $('#wordCount-ori').val(localStorage.getItem('wordCount-ori'));
+    document.getElementById('audiobar').load();
+    var storedTranscript = localStorage.getItem('ori-transript');
+    if (storedTranscript) {
+        $('#transcript-container').html(storedTranscript);
+        $('.transcript-container').show();
+    }
 });
 
 function clearCache() {
@@ -155,6 +163,11 @@ function clearCache() {
     localStorage.setItem('wordCount-ori', 0);
     localStorage.setItem('summary', "");
     localStorage.setItem('wordCount-summ', 0);
+    $('#audiobar').attr('src', "");
+    localStorage.setItem('file_url', "");
+    document.getElementById('audiobar').load();
+    $('.transcript-container').hide();
+    $('.speaker-table').hide();
 }
 
 const changeBtn = document.getElementById('change-btn');
@@ -299,6 +312,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
 
     localStorage.setItem('transcription', transcript);
     localStorage.setItem('wordCount-ori', wordCountOri);
+    localStorage.setItem('file_url', responseTxt.file_url);
 
     const tableBody = document.getElementById('table-body');
     tableBody.innerHTML = '';
@@ -320,7 +334,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
 
 function displayTranscript(transcript) {
     var lines = transcript.split('\n');
-    var html = '<p class="label1">Original Text: </p>';
+    var html = '<p class="label1">Original Content: </p>';
     for (var i = 0; i < lines.length; i++) {
         var line = lines[i];
         var match = line.match(/(\d+:\d+:\d+ \- \d+:\d+:\d+ \| )?(.+?): (.+)/);
@@ -343,6 +357,7 @@ function displayTranscript(transcript) {
         html += "<br>"
     }
     $('#transcript-container').html(html);
+    localStorage.setItem('ori-transript', html);
 }
   
 function jumpToTime(timestamp) {
