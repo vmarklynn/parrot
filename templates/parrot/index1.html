@@ -4,6 +4,24 @@
     CSS
 ------------------------------------------------------------------------------- -->
 <style>
+@keyframes loading {
+    0% {
+        content: "Loading";
+    }
+    25% {
+        content: "Loading.";
+    }
+    50% {
+        content: "Loading..";
+    }
+    75% {
+        content: "Loading...";
+    }
+    100% {
+        content: "Loading";
+    }
+}
+          
 .row {
     display: flex;
     align-items: center;
@@ -65,8 +83,15 @@ hr {
     margin-left: 15px; 
 }
 .loading {
-    text-align: center;
     display: none;
+}
+.loading::after {
+    content: "Loading";
+    animation: loading 1s infinite;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+    transform: translate(-50%, -50%);
 }
 .speaker-table {
     display: flex;
@@ -118,7 +143,7 @@ hr {
        </div>
        <button style="margin-left: 20px;" onclick="clearCache()">Clear</button>
     </div>
-    <p class="loading" id="loading">Loading...</p>
+    <p class="loading" id="loading"></p>
     <audio class="audiobar" id="audiobar" src="" controls></audio>
     <label class="label1">Transcription:</label>
     <textarea id="trans" class="input1" style="height:250px"></textarea>
@@ -154,24 +179,61 @@ $(document).ready(function() {
         $('#transcript-container').html(storedTranscript);
         $('.transcript-container').show();
     }
+    const speakers = getSpeakers();
+    if (speakers.length != 0) {
+        $('.column-name').show();
+        $('#change-btn').show();
+        const tableBody = document.getElementById('table-body');
+        tableBody.innerHTML = '';
+        for (let i = 0; i < speakers.length; i++) {
+            const speaker = speakers[i];
+            const row = document.createElement('tr');
+            const col1 = document.createElement('td');
+            col1.innerText = speaker.tag;
+            row.appendChild(col1);
+            const col2 = document.createElement('td');
+            const input = document.createElement('input');
+            input.type = 'text';
+            input.value = speaker.name;
+            col2.appendChild(input);
+            row.appendChild(col2);
+            tableBody.appendChild(row);
+        }
+    }
 });
 
 function clearCache() {
     $('#trans').val("");
     $('#wordCount-ori').val(0);
-    localStorage.setItem('transcription', "");
-    localStorage.setItem('wordCount-ori', 0);
-    localStorage.setItem('summary', "");
-    localStorage.setItem('wordCount-summ', 0);
     $('#audiobar').attr('src', "");
     localStorage.setItem('file_url', "");
     document.getElementById('audiobar').load();
     $('.transcript-container').hide();
     $('.speaker-table').hide();
+    localStorage.setItem('transcription', "");
+    localStorage.setItem('wordCount-ori', 0);
+    localStorage.setItem('summary', "");
+    localStorage.setItem('wordCount-summ', 0);
+    localStorage.setItem('speakers', "");
+    localStorage.setItem('ori-transript', "");
 }
+
+transTextarea = document.getElementById('trans');
+let transChanged = false;
+// Listen for changes to the transcript text area
+transTextarea.addEventListener('input', function() {
+    transChanged = true;
+    console.log("Transcription is being changed!");
+});
 
 const changeBtn = document.getElementById('change-btn');
 changeBtn.addEventListener('click', function() {
+    if (transChanged) {
+        // Update the localStorage with the new transcript text
+        localStorage.setItem('transcription', transTextarea.value);
+        transChanged = false;
+    }
+
     speakersArray = countSpeakers(localStorage.getItem('transcription'));
     const inputs = document.querySelectorAll('#table-body input');
     for (let i = 0; i < speakersArray.speakers.length; i++) {
@@ -181,8 +243,45 @@ changeBtn.addEventListener('click', function() {
                                 localStorage.getItem('transcription'))
                             );
     }
+    transTextarea.value = localStorage.getItem('transcription');
     $('#trans').val(localStorage.getItem('transcription'));
+    saveSpeakerTable();
 });
+
+function handleUploadClick(url) {
+    url = url || '/parrot/processfile/';
+    
+    var file_id = document.getElementById("file_id");
+    if ( file_id.files.length <= 0) {
+        salert("No Files Selected!!", 'btn-danger');
+        return;
+    }
+    var formData = new FormData($('form#fileupload')[0]);
+    
+    $('#loading').show();  // Show the loading interface
+    $('#change-btn').hide();
+    $('.speaker-table').hide();
+    $('.column-name').hide();
+    $('.transcript-container').hide();
+    
+    $.ajax({
+      url: url,
+      type: 'POST',
+      data: formData,
+      success: function(responseTxt, statusTxt, xhr) {
+        $('#loading').hide();  // Hide the loading interface
+        handleUploadClickCB(responseTxt, statusTxt, xhr);
+      },
+      error: function(response) {
+        $('#loading').hide();
+        salert("Error!!!" + response.responseText, "btn-error");
+      },
+      cache: false,
+      contentType: false,
+      processData: false
+    });
+}
+
 /*
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
@@ -218,52 +317,6 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     }
 }
 */
-function handleUploadClick(url) {
-    url = url || '/parrot/processfile/';
-    
-    var file_id = document.getElementById("file_id");
-    if ( file_id.files.length <= 0) {
-        salert("No Files Selected!!", 'btn-danger');
-        return;
-    }
-    var formData = new FormData($('form#fileupload')[0]);
-    
-    $('#loading').show();  // Show the loading interface
-    $('#change-btn').hide();
-    $('.speaker-table').hide();
-    $('.column-name').hide();
-    $('.transcript-container').hide();
-    
-    $.ajax({
-      url: url,
-      type: 'POST',
-      data: formData,
-      success: function(responseTxt, statusTxt, xhr) {
-        $('#loading').hide();  // Hide the loading interface
-        handleUploadClickCB(responseTxt, statusTxt, xhr);
-      },
-      error: function(response) {
-        $('#loading').hide();
-        salert("Error!!!" + response.responseText, "btn-error");
-      },
-      cache: false,
-      contentType: false,
-      processData: false
-    });
-}
-
-function countWordsAfterColon(input) {
-    const regex = /:\s*(\S+)/g;
-    let match = regex.exec(input);
-    let count = 0;
-    
-    while (match !== null) {
-        count += match[1].split(/\W+/).length;
-        match = regex.exec(input);
-    }
-    
-    return count;
-}
 
 function replaceSpeakerName(speakerName, inputName, transcript) {
 
@@ -272,23 +325,6 @@ function replaceSpeakerName(speakerName, inputName, transcript) {
   
   return replacedTranscript;
 }    
-
-function countSpeakers(transcript) {
-  // Use a regular expression to find all unique speaker tags in the transcript
-  const speakerTags = transcript.match(/SPEAKER_\d+/g);
-  // Use a Set to remove duplicate speaker tags
-  const uniqueSpeakerTags = new Set(speakerTags);
-  // Sort the unique speaker tags in ascending order
-  const sortedSpeakerTags = [...uniqueSpeakerTags].sort();
-  // Return the number of unique speaker tags and the sorted array of unique speaker tags
-  return { count: sortedSpeakerTags.length, speakers: sortedSpeakerTags };
-}
-
-function getFileNameWithExtension(filePath) {
-    let pathArray = filePath.split('/');
-    let fileName = pathArray[pathArray.length - 1];
-    return "../../../static/data/parrot/" + fileName;
-}
 
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
@@ -330,8 +366,9 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
         row.appendChild(col2);
         tableBody.appendChild(row);
     }
+    saveSpeakerTable();
 }
-
+  
 function displayTranscript(transcript) {
     var lines = transcript.split('\n');
     var html = '<p class="label1">Original Content: </p>';
@@ -370,6 +407,56 @@ function jumpToTime(timestamp) {
         $('#audiobar')[0].currentTime = timeInSeconds;
         $('#audiobar')[0].play();
     }
+}
+
+function countSpeakers(transcript) {
+  // Use a regular expression to find all unique speaker tags in the transcript
+  const speakerTags = transcript.match(/SPEAKER_\d+/g);
+  // Use a Set to remove duplicate speaker tags
+  const uniqueSpeakerTags = new Set(speakerTags);
+  // Sort the unique speaker tags in ascending order
+  const sortedSpeakerTags = [...uniqueSpeakerTags].sort();
+  // Return the number of unique speaker tags and the sorted array of unique speaker tags
+  return { count: sortedSpeakerTags.length, speakers: sortedSpeakerTags };
+}
+
+function countWordsAfterColon(input) {
+    const regex = /:\s*(\S+)/g;
+    let match = regex.exec(input);
+    let count = 0;
+    
+    while (match !== null) {
+        count += match[1].split(/\W+/).length;
+        match = regex.exec(input);
+    }
+    
+    return count;
+}
+
+function getFileNameWithExtension(filePath) {
+    let pathArray = filePath.split('/');
+    let fileName = pathArray[pathArray.length - 1];
+    return "../../../static/data/parrot/" + fileName;
+}
+
+function getSpeakers() {
+    const speakersJson = localStorage.getItem('speakers');
+    if (speakersJson) {
+      return JSON.parse(speakersJson);
+    } else {
+      return [];
+    }
+}
+
+function saveSpeakerTable() {
+    const tableBody = document.getElementById('table-body');
+    const speakers = [];
+    for (let i = 0; i < tableBody.rows.length; i++) {
+        const speakerTag = tableBody.rows[i].cells[0].innerText;
+        const speakerName = tableBody.rows[i].cells[1].getElementsByTagName('input')[0].value;
+        speakers.push({ tag: speakerTag, name: speakerName });
+    }
+    localStorage.setItem('speakers', JSON.stringify(speakers));
 }
 </script>
 {% endblock %}
