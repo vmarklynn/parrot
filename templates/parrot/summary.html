@@ -34,6 +34,16 @@
     text-align: center;
     display: none;
 }
+
+.input2 {
+    width: 50%;
+    height: 75px;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    resize: none;
+}
 </style>
 <!-- -----------------------------------------------------------------------------
     HTML
@@ -51,6 +61,8 @@
     <label class="label1">Summary:</label>
     <textarea rows="4" id="summary" class="input1" style="height:250px"></textarea>
     <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
+    <label class="label1">Key Words:</label>
+    <div id="list-container"></div>
 </div>
 
 <!-- -----------------------------------------------------------------------------
@@ -64,12 +76,13 @@ $(document).ready(function() {
 
 function textUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.loading').hide();
-    console.log(responseTxt);
 
     if (JS_error(responseTxt, statusTxt, xhr, true) ) 
         return;
     salert("Processed!! ", "btn-success", 2000);
     wordCountSumm = countWords(responseTxt.summary)
+
+    generateList(responseTxt.keywords_list_1, responseTxt.keywords_list_2, responseTxt.keywords_list_3)
 
     $('#summary').val(responseTxt.summary);
     $('#wordCount-summ').val(wordCountSumm);
@@ -83,11 +96,10 @@ function textUpload() {
         salert("No transcript!!", 'btn-danger');
         return;
     }
-    // Get the transcription text from localStorage
-    var transcription = localStorage.getItem('transcription');
 
     var formData = new FormData($('form#textupload')[0]);
-    formData.append('transcription', transcription);
+    formData.append('transcription', localStorage.getItem('transcription'));
+    formData.append('text', localStorage.getItem('text'));
     $('#loading').show();  // Show the loading interface
     $.ajax({
       url: '/parrot/summarize_text/',
@@ -109,6 +121,44 @@ function textUpload() {
 
 function countWords(str) {
     return str.trim().split(/\s+/).length;
+}
+
+function generateList(unigramArray, bigramArray, trigramArray) {
+    // Get the list container
+    const listContainer = document.getElementById('list-container');
+
+    // Create an unordered list for the unigram array
+    const unigramList = document.createElement('ul');
+    for (let i = 0; i < unigramArray.length; i++) {
+    const listItem = document.createElement('li');
+    listItem.innerText = unigramArray[i];
+    unigramList.appendChild(listItem);
+    }
+    listContainer.appendChild(unigramList);
+
+    // Add a line break between the unigram and bigram lists
+    listContainer.appendChild(document.createElement('br'));
+
+    // Create an unordered list for the bigram array
+    const bigramList = document.createElement('ul');
+    for (let i = 0; i < bigramArray.length; i++) {
+    const listItem = document.createElement('li');
+    listItem.innerText = bigramArray[i];
+    bigramList.appendChild(listItem);
+    }
+    listContainer.appendChild(bigramList);
+
+    // Add a line break between the bigram and trigram lists
+    listContainer.appendChild(document.createElement('br'));
+
+    // Create an unordered list for the trigram array
+    const trigramList = document.createElement('ul');
+    for (let i = 0; i < trigramArray.length; i++) {
+    const listItem = document.createElement('li');
+    listItem.innerText = trigramArray[i];
+    trigramList.appendChild(listItem);
+    }
+    listContainer.appendChild(trigramList);
 }
 </script>
 {% endblock %}

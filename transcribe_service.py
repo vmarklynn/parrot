@@ -66,7 +66,7 @@ class PyanWhisper:
                 fp.write(line)
                 
 #-----------------------------models------------------------------------------------------------------------               
-transcriber = whisper.load_model("base", device="cuda")
+transcriber = whisper.load_model("base.en", device="cuda")
 diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
                                 use_auth_token="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")
 #--------------------------------------------------------------------------------------------------------    
@@ -116,5 +116,5 @@ def processfile(request, **kwargs):
             ret += line
         transcription = ret
     
-    response = {'transcription': transcription, 'file_url': f}
+    response = {'transcription': transcription, 'file_url': f, 'text': result["text"]}
     return HttpResponse(json.dumps(response), content_type='application/json') 

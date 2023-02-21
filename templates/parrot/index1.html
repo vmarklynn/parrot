@@ -346,6 +346,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('#trans').val(transcript);
     $('#wordCount-ori').val(wordCountOri);
 
+    localStorage.setItem('text', responseTxt.text);
     localStorage.setItem('transcription', transcript);
     localStorage.setItem('wordCount-ori', wordCountOri);
     localStorage.setItem('file_url', responseTxt.file_url);
