@@ -20,7 +20,7 @@ def preprocess(text):
     return '\n'.join(result)   
 
 #-----------------------------models------------------------------------------------------------------------               
-summarizer = pipeline("summarization", "knkarthick/MEETING-SUMMARY-BART-LARGE-XSUM-SAMSUM-DIALOGSUM-AMI", truncation=True)
+summarizer = pipeline("summarization", "vmarklynn/bart-large-cnn-samsum-acsi-ami", truncation=True)
 kw_model = keybert.KeyBERT(model='all-mpnet-base-v2')
 #-----------------------------------------------------------------------------------------------------               
 
@@ -31,10 +31,9 @@ def summarizeText(request, **kwargs):
     text = post_data.get('text')
     
     input_cleanned_text = preprocess(transcription)
-    print("Summarizing...")
+    print("\n\nSummarizing...")
     summary = summarizer(input_cleanned_text, min_length = 100,max_length=500)[0]['summary_text']
     
-    print("\n\nGetting 1-gram key words...")
     keywords = kw_model.extract_keywords(text, 
                                      keyphrase_ngram_range=(1, 1), 
                                      stop_words='english', 
@@ -42,7 +41,6 @@ def summarizeText(request, **kwargs):
                                      top_n=5)
     keywords_list_1= list(dict(keywords).keys())
     print(keywords_list_1)
-    print("\nGetting 2-gram key words...")
     keywords = kw_model.extract_keywords(text, 
                                      keyphrase_ngram_range=(2, 2), 
                                      stop_words='english', 
@@ -50,7 +48,6 @@ def summarizeText(request, **kwargs):
                                      top_n=5)
     keywords_list_2= list(dict(keywords).keys())
     print(keywords_list_2)    
-    print("\nGetting 3-gram key words...")
     keywords = kw_model.extract_keywords(text, 
                                      keyphrase_ngram_range=(3, 3), 
                                      stop_words='english', 

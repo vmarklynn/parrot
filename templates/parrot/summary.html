@@ -62,7 +62,9 @@
     <textarea rows="4" id="summary" class="input1" style="height:250px"></textarea>
     <p>Word Count: <input id="wordCount-summ" class="input1" style="margin-top: 5px; width:100px" value="0"></p>
     <label class="label1">Key Words:</label>
-    <div id="list-container"></div>
+    <div id="list-container">
+        
+    </div>
 </div>
 
 <!-- -----------------------------------------------------------------------------
@@ -82,7 +84,7 @@ function textUploadClickCB(responseTxt, statusTxt, xhr) {
     salert("Processed!! ", "btn-success", 2000);
     wordCountSumm = countWords(responseTxt.summary)
 
-    generateList(responseTxt.keywords_list_1, responseTxt.keywords_list_2, responseTxt.keywords_list_3)
+    // generateList(responseTxt.keywords_list_1, responseTxt.keywords_list_2, responseTxt.keywords_list_3)
 
     $('#summary').val(responseTxt.summary);
     $('#wordCount-summ').val(wordCountSumm);
