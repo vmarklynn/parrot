@@ -1,0 +1,436 @@
+SPEAKER_03: So I hope you're ready.
+SPEAKER_03: For this functional design team, of course.
+SPEAKER_03: So I will take the minutes.
+SPEAKER_03: You three are going to do presentation.
+SPEAKER_03: And we want to know, at the end, to know the new projects requirement.
+SPEAKER_03: So we need to know the user needs that we want to fulfill.
+SPEAKER_03: From the technical part, we want to know how it's going to work.
+SPEAKER_03: And the part...
+SPEAKER_03: I don't remember.
+SPEAKER_03: This is not very good.
+SPEAKER_03: Of course, how to design this stuff.
+SPEAKER_03: So let's go for the presentation.
+SPEAKER_05: So first, marketing expert.
+SPEAKER_03: Okay.
+SPEAKER_05: So I don't know if I can do that like this.
+SPEAKER_05: So is being modified, do you want...
+SPEAKER_05: Yeah, open it only.
+SPEAKER_05: I hope I saved it.
+SPEAKER_05: So...
+SPEAKER_05: Benjung.
+SPEAKER_05: Yeah.
+SPEAKER_05: I know, just my name.
+SPEAKER_05: So as you know, I think you already know me, Sammy Benjio.
+SPEAKER_05: I'm the expert in marketing and I want to tell you about what people want and like and dislike in remote controls.
+SPEAKER_05: And I hope this is going to help you to design it correctly.
+SPEAKER_05: So next, please.
+SPEAKER_05: Yeah, it is good.
+SPEAKER_00: The full page presentation.
+SPEAKER_05: Yeah, maybe in the full page because I spend lots of time doing this presentation.
+SPEAKER_05: Okay.
+SPEAKER_05: So basically what I suggest is that instead of deciding ourselves what...
+SPEAKER_05: That could be and what should be good, the remote control.
+SPEAKER_05: Let's ask people who are users of remote controls how they feel about the current remote controls, what they like, what they don't like and what they do with them, by the way, because they are supposed to be useful.
+SPEAKER_05: Don't forget about that.
+SPEAKER_05: So we've conducted a survey on the use of remote controls and I'd like to show you some of the results we found on this survey.
+SPEAKER_05: Next, please.
+SPEAKER_05: Yeah.
+SPEAKER_05: So basically what we found was that there are several things that the user don't like in remote controls.
+SPEAKER_05: First of all, they find it very ugly.
+SPEAKER_05: Current remote controls, as you know, they are the same as this one.
+SPEAKER_05: They are not nice color, not nice shape, all the same.
+SPEAKER_05: And they are not good looking.
+SPEAKER_05: What is interesting is that in fact it seems that people are ready to pay for a nice and fancy looking remote control.
+SPEAKER_05: So I think we should pretty spend lots of time and effort in that.
+SPEAKER_05: And the other thing is that the current remote controls are not so easy to use and the current facilities that they offer do not match what people really want to use their remote controls.
+SPEAKER_05: For instance, we see that the ZAP very often.
+SPEAKER_05: So I think this is a very important functionality.
+SPEAKER_05: It should be easy for them to ZAP in one way or another.
+SPEAKER_05: And most of the buttons on the current remote controls are not used.
+SPEAKER_05: So I think we should design something where some of the buttons which are those that are used should be easier to see and use than others that only a couple of people are using.
+SPEAKER_05: Next, please.
+SPEAKER_05: Now people are very frustrated with their remote controls.
+SPEAKER_05: For instance, they don't even find it.
+SPEAKER_05: It's often lost somewhere in your home and nobody knows where it is.
+SPEAKER_05: Maybe if we have something where we could ask the remote control, please, where are you?
+SPEAKER_05: Something to like I think phones, some of the phones have some of these kind of functionality.
+SPEAKER_05: Of course phone you can always phone your phone.
+SPEAKER_05: You can't phone your remote.
+SPEAKER_05: But why not?
+SPEAKER_05: And because of the fact that there are so many buttons in these remote controls that nobody use, in fact they don't even know how to use them.
+SPEAKER_05: So most of the people say they don't know how to use properly their remote controls.
+SPEAKER_05: And they are bad for AirAssy but I don't remember what is AirAssy.
+SPEAKER_05: So I think they are bad.
+SPEAKER_02: That's not it.
+SPEAKER_05: AirAssy.
+SPEAKER_05: Nobody has any idea about that?
+SPEAKER_05: Well, I'll check with my...
+SPEAKER_00: Electromagnetic waves or something.
+SPEAKER_05: I think it's a technical thing which...
+SPEAKER_00: Because infrared uses some electromagnetic...
+SPEAKER_00: Electromagnetic.
+SPEAKER_00: So it seems like a 6%.
+SPEAKER_05: So a lot of people call concept that we don't know.
+SPEAKER_05: But we have to take this into account.
+SPEAKER_05: Every force, you know.
+SPEAKER_04: Every people really, some of us knows.
+SPEAKER_05: So anyway, that's for what the biggest frustration of the user and what else do I have?
+SPEAKER_05: Next slide.
+None: Oh, yeah.
+SPEAKER_05: So we've listed a couple of functions that may be used by the user in the current available remote controls.
+SPEAKER_05: And well, the table has been very nice to read.
+SPEAKER_05: But what is important is to understand that the power button is not used often because in general you use it only once per session.
+SPEAKER_05: But it is very relevant.
+SPEAKER_05: People want to have a power button.
+SPEAKER_05: Visual selection is often used, very often used, and indeed very relevant.
+SPEAKER_05: Now I remember what is RSI.
+SPEAKER_05: It's rapid TBT stress injury.
+SPEAKER_05: We have to be careful with that word.
+SPEAKER_05: Anyway, I got into my presentation.
+SPEAKER_05: So yeah, channel selection is very important, very often used.
+SPEAKER_05: Volume is not often used, but people want to have control on volume and that makes sense, of course.
+SPEAKER_05: And then you have things which are very much less often used, like the settings, audio settings, screen settings, even teletext and channel settings.
+SPEAKER_05: All of them, they are not often used and they are more or less relevant.
+SPEAKER_05: It seems that people find teletext relevant, even if I personally never use it, but it seems that it's average relevant at least.
+SPEAKER_03: I have been told that we don't consider teletext that it's out of date because of internet.
+SPEAKER_05: I can tell you that in a scale between 1 and 10 relevant, not relevant to relevant people score the 6 on this, which is not as these two ones were had I think 10.
+SPEAKER_05: But if you compare with these ones, I think they scored a 1 or 2, not very relevant.
+SPEAKER_05: So if there are good reasons not to put teletext, it's okay, but just know that people find it somehow relevant.
+SPEAKER_05: That's for the main functions I think.
+SPEAKER_05: And then we can ask ourselves what people don't have that may be useful, for instance, I think next slide.
+SPEAKER_05: One of the things, the trend that you are probably aware of is the possibility, the eventual possibility of having special recognition in your remote control.
+SPEAKER_05: So you wouldn't have to tap in your buttons, but just tell your remote control or whatever unit you have, what you want.
+SPEAKER_05: So we've conducted a survey about whether people would like or not to have this kind of functionality in their remote control.
+SPEAKER_05: And as we can see, it really depends on the age.
+SPEAKER_05: Young people, probably because it's a buzzword, find it very relevant.
+SPEAKER_05: And as the age goes up, the relevance goes down.
+SPEAKER_05: So now it really depends on the kind of targeting, who are we targeting with this remote control.
+SPEAKER_05: I think if we are targeting young people, then it's probably something we have to consider.
+SPEAKER_05: If we are targeting young, very old people, this is something that we don't know why it should be.
+SPEAKER_05: So now this is of course, depends on that.
+SPEAKER_05: And I don't have any conclusion, I didn't have time, the meeting was very tight.
+SPEAKER_05: So that's basically my findings.
+SPEAKER_05: If you have any question?
+SPEAKER_03: I think it's good, okay.
+SPEAKER_03: I can rely on one question.
+SPEAKER_03: One question.
+SPEAKER_05: Yeah, one question.
+SPEAKER_04: Yeah.
+SPEAKER_04: You're a market expert.
+SPEAKER_04: So should we aim at young people or not?
+SPEAKER_05: I think we should aim at the young people.
+SPEAKER_05: But I think there are those who might be more interested in a new device.
+SPEAKER_05: In general, the early adopters of a new device are young people less than...
+SPEAKER_05: Okay.
+SPEAKER_05: Zental text is useless.
+SPEAKER_05: Zental text is useless for them, I think.
+SPEAKER_05: Because they have other means of finding their information.
+SPEAKER_05: But that's a good point.
+SPEAKER_05: Okay.
+SPEAKER_03: Thank you.
+SPEAKER_03: So now I think it's the turn of the...
+SPEAKER_03: I'm not sure.
+SPEAKER_03: Of the technical function?
+SPEAKER_03: So...
+SPEAKER_00: Do I think it's you?
+SPEAKER_00: No?
+SPEAKER_00: That's my question.
+SPEAKER_05: What if...
+SPEAKER_05: So you're a requirement now?
+None: Yeah.
+SPEAKER_03: Thank you.
+SPEAKER_00: I have to do working design too.
+SPEAKER_04: So you...
+SPEAKER_04: That's just what number?
+None: Three.
+SPEAKER_00: Yes.
+SPEAKER_04: So my name is Mark Twight and I'm responsible for user interface design.
+SPEAKER_04: However, the product manager asked me to give you some presentation about technical functions design.
+SPEAKER_04: I assume more an artist.
+SPEAKER_04: That's going to be less technical functions, but more user interface and current intentions and everything which is linked with this.
+SPEAKER_04: So next slide please.
+SPEAKER_04: And the general method which seems to be very useful for our task is not to forget about the outcome razor.
+SPEAKER_04: We should never complicate things too much.
+SPEAKER_04: We should only make a remote control.
+SPEAKER_04: Nothing more.
+SPEAKER_04: Nothing more than this.
+SPEAKER_04: Just remote control.
+SPEAKER_04: Because current remote controls, they are never easy enough to use.
+SPEAKER_04: So make it click this.
+SPEAKER_04: So here is user mode control.
+SPEAKER_04: It's quite a standard one, but it's not from a TV.
+SPEAKER_04: It's from a much easier device like air conditioning or something.
+SPEAKER_04: But you know, we can use it for a TV easily.
+SPEAKER_04: Any buttons we need is on off volume channels and maybe some options or some snails.
+SPEAKER_04: And please make a click compared to this one.
+SPEAKER_04: Which one would you prefer?
+None: I guess this.
+SPEAKER_05: I would say the simplest one as long as there are the, I find the buttons that I need every time I need a button.
+SPEAKER_04: Sure.
+SPEAKER_00: Sure.
+SPEAKER_00: And maybe a middle of like between those two.
+SPEAKER_04: And our method is going to be provide simple, simple desires into simple actions.
+SPEAKER_05: Nice.
+SPEAKER_05: Nice sentence.
+SPEAKER_04: Fighting.
+SPEAKER_03: Oh, sorry.
+SPEAKER_04: Our passion is a style.
+SPEAKER_04: We should remember that our company boots fashion into electronics.
+SPEAKER_04: And we should never forget about it.
+SPEAKER_04: Concept.
+SPEAKER_04: Simple.
+SPEAKER_00: Simple.
+SPEAKER_04: And you lean on this market.
+SPEAKER_04: Market is off remote controls.
+SPEAKER_04: You know it better.
+SPEAKER_04: It's very.
+None: Wow.
+SPEAKER_04: It's not an easy field to play, you know.
+SPEAKER_04: So be simple.
+SPEAKER_04: For personal preferences, I think that to make a baby proof remote control got to be a titanium.
+SPEAKER_04: It's a really good style.
+SPEAKER_04: It's going to look like this.
+SPEAKER_04: It is unbreakable and it is very universal.
+SPEAKER_04: We'll have a screen with a backlight.
+SPEAKER_04: We can change colors and we can put all the options into this screen.
+SPEAKER_04: We'll need only a few buttons.
+SPEAKER_04: All the other things can be controlled through the screen.
+SPEAKER_04: And all these buttons should be easy to find and to click because when you watch a movie and you want to change something, you always try to find a good button and click it.
+SPEAKER_04: But you should do it by touching it and finding it easily just by touching.
+SPEAKER_04: So.
+SPEAKER_04: Press.
+SPEAKER_04: I would propose this concept for design.
+SPEAKER_04: Just a few buttons.
+SPEAKER_04: A screen with a backlight which can change colors.
+SPEAKER_04: The titanium, I think and what else.
+SPEAKER_04: I got just very few good ideas.
+SPEAKER_04: We need power and volume.
+SPEAKER_04: And let us include two nice features into this device.
+SPEAKER_04: First, power on and off can be made fully automatic.
+SPEAKER_04: When you go to the sofa, take your control and point it to the TV.
+SPEAKER_04: The TV turns on.
+SPEAKER_05: When does it turn off?
+SPEAKER_04: When you don't touch the control but you go out of it for enough time.
+SPEAKER_04: Like you.
+SPEAKER_05: Sensing sensor machine.
+SPEAKER_04: That's a question to our technical designer, to engineers.
+SPEAKER_04: And another nice feature that I would like to implement is the volume control.
+SPEAKER_04: Suppose you set up some volume and then you move to the other corner of the room and take your control with you.
+SPEAKER_04: Like you want to change the chair or you want to move to the armchair from the sofa.
+SPEAKER_04: What do you want to do?
+SPEAKER_04: Something.
+SPEAKER_04: And then the volume changes.
+SPEAKER_04: It's easy to do.
+SPEAKER_04: You just control the.
+SPEAKER_04: According to your distance.
+SPEAKER_05: And the angle maybe if you have a stereo.
+SPEAKER_05: I'm not sure about the screen.
+SPEAKER_05: What is the usefulness of the screen?
+SPEAKER_05: Is it a touch screen by the way?
+SPEAKER_04: I think it can be just a menu which can be controlled with a left right up down and enter.
+SPEAKER_05: So it gives instructions but it has to be the backlight somehow.
+SPEAKER_04: So its main purpose in fact is the backlight.
+SPEAKER_04: Which change colors which makes it easier to find.
+SPEAKER_04: And it can respond for your voice.
+SPEAKER_04: Like it can turn on the light for you just to find it easily.
+SPEAKER_04: Okay.
+SPEAKER_04: So basically that's it.
+SPEAKER_03: I see that you target several applications not only TV but like we talk about universal remote control.
+SPEAKER_04: It can be easily done.
+SPEAKER_04: Because you got simple designs.
+SPEAKER_04: We should put it to simple actions.
+SPEAKER_04: Let it be universal.
+SPEAKER_04: So you want to use it for your high-fives system.
+SPEAKER_04: You want to change tracks and you want to adjust volume.
+SPEAKER_04: Just a few actions.
+SPEAKER_04: Few actions for everything.
+SPEAKER_04: Also rest we will put it into this menu on the screen.
+SPEAKER_03: Since we are targeting a really soon date for the issue of this remote control.
+SPEAKER_03: I think we will only concentrate on TV for the moment.
+SPEAKER_03: Okay.
+SPEAKER_03: And maybe.
+SPEAKER_03: Okay.
+SPEAKER_04: But it's quite universal.
+SPEAKER_04: You can just extend it to any device.
+SPEAKER_05: For instance if I want to go directly to channel 25.
+SPEAKER_05: How would I do that with this?
+SPEAKER_05: On 25.
+SPEAKER_05: Yeah.
+SPEAKER_05: Let's say I'm on channel 8 now.
+SPEAKER_05: You know these days we have hundreds of channels.
+SPEAKER_05: That's not so easy to go just next, next, next when you have hundreds of channels.
+SPEAKER_04: In fact I would propose another solution.
+SPEAKER_04: Basically you use just four or five channels.
+SPEAKER_04: Most people yeah.
+SPEAKER_04: So set up your TV set like channels that you use.
+SPEAKER_04: They are one, two, three and five.
+SPEAKER_04: And you will never have to go to a 25 channel.
+SPEAKER_05: In fact in one remote control that I've seen instead of doing that you could just say these are the channel 3, 28, 48 and 64 are those that I want to be cycled with my next button.
+SPEAKER_03: Yes.
+SPEAKER_05: It's the same solution.
+None: Yeah.
+SPEAKER_00: But even we can have some LCD display that you can do.
+SPEAKER_00: You can do this with the five button the number and then go.
+SPEAKER_05: The thing is that as I said in my presentation people really do like to zap.
+SPEAKER_05: So even if they are only watching four or five channels I think they want to zap out of the 100 channels just because this is one kind of thing they do zap in.
+SPEAKER_03: And zap it's only next.
+SPEAKER_03: And it's only next.
+SPEAKER_05: So but you have to go to this button here.
+SPEAKER_04: Okay.
+SPEAKER_04: Next, next.
+SPEAKER_04: Or say this can be back.
+SPEAKER_00: But otherwise like we can put some display on numbers and then they can just press.
+SPEAKER_00: So it was two five they just press two and five and then.
+SPEAKER_03: Maybe we can make different modes for each button.
+SPEAKER_03: You can change mode zapping mode or.
+SPEAKER_03: All right.
+SPEAKER_03: Curant.
+SPEAKER_00: We were since we are focusing only on TV remote control.
+SPEAKER_00: So we can have more functions for TV.
+SPEAKER_00: If you want to go for universal then we have to limit for functions for each of our devices.
+SPEAKER_00: Okay.
+SPEAKER_04: Could we carry out some research if you really need this?
+SPEAKER_04: Like how many people really need to go to channel number 25 and then to 64?
+SPEAKER_05: Oh I could have a look at that.
+SPEAKER_05: Maybe.
+SPEAKER_05: I'll check in my department if there's someone special is in them.
+SPEAKER_05: Although I don't know.
+SPEAKER_04: Thanks for your attention.
+SPEAKER_03: So now the technical aspects of this new device.
+None: Sorry.
+SPEAKER_00: I see you know I'm Mr. Ramaro.
+SPEAKER_00: I'm an expert in industrial design of all electronic devices.
+SPEAKER_00: I previously devised many like digital calculators and electronic calculators.
+SPEAKER_00: So now I briefly describe the working design of our remote control.
+SPEAKER_00: Well as you know the basic function of remote control is sending some message to the device like TV or VCR or DVD player etc.
+SPEAKER_00: So we will have a portable device which will send message to the main device like TV.
+SPEAKER_00: So we need to have some energy source to do what to do the functions what we want on this portable device and usually these so to do these functions we need an interface.
+SPEAKER_00: It's basically some kind of pressing buttons or keys or like moving jack or something like that and then these messages these key buttons can be transferred into some kind of message and then it will processed by the chip and then it will generate some information to the main device.
+SPEAKER_00: It's generally in the form of infrared or some kind of sensor information.
+SPEAKER_00: Then we will have the main control in the main device to do the particular action what we want.
+SPEAKER_00: So basically we need since we are focusing on our interface device that's our remote control we need few components mainly the energy source like the battery and then we have user interface like the keypad and new buttons we want and then we have some chip it's mainly digital signal processing chip because since we are involved doing mostly digital devices we have to have some kind of processor which take care of all these functions and put it in some digital format and then we will have the infrared LED source which sends the information to the main device then we will have switch in our main device to do particular operations and we have to do different codes for different TVs so some TVs will have different encryption codes for doing channel changing and these things.
+SPEAKER_03: To make it quite a universal device.
+SPEAKER_00: Yeah because people don't use one particular band so at least we have more than five brands which are really good so we need to check their specifications and do our encryption that's passing information to the TV device so we need to have particular encryption codes.
+SPEAKER_00: Then components so we have the main energy source and then we will have some buttons and then we will have infrared source and then we have some inside some chip in the device since I don't have much time so I didn't put the connection to all these components and since I also want to know feedback from our marketing expert and user interface so if you want to add some more components we can incorporate them.
+SPEAKER_03: From the discussion we had can you make it on the whiteboard?
+SPEAKER_00: Yeah I'm sure because since our user interface engineers suggesting speech recognition and also marketing expert found that speech recognition is really handy so we can have another simple speech recognition on our DSP chip since we have some kind of energy this is our just normal battery so this battery once you switch on it will take power and we can have some speech recognition and in our generally small digital signal processing chip so that and we will put the small simple speech recognition and we can also try and this speech recognition for particular user so you just yeah such we just use simple to contract.
+SPEAKER_00: But very good to sell yeah even if you can find even a simple mobile device like any mobile brand you can have this voice delers or they got all these young people who would
+SPEAKER_05: love to say that this remote control only works for them. You cannot use my remote control because it's targeted to me.
+SPEAKER_03: Whatever.
+SPEAKER_03: What about the price of this component?
+SPEAKER_00: Maybe we can make within five euros and even less than that because we want to have billions millions and in bulk so we can make really simple and we want to make really simple device because we have only very few words like like powers which on or some like then we will have something like this we'll have volume and then we'll have particular channel so users can.
+SPEAKER_05: So you will just be able to say please can you pop up the volume or it will be something like volume.
+SPEAKER_00: Yeah up.
+SPEAKER_00: The user can use any kind of center but they should have this prompted words volume and
+SPEAKER_03: then. With keywords.
+SPEAKER_00: The volume decrease or increase so we try to only recognize both words and because we can't really say user to say same word and then it become more mechanical.
+SPEAKER_00: And then we can have channel they can say okay I want it because we don't know like users have different programs I mean they don't really follow same channel structure so we just want channel number we don't want like BBC or CNN or of course it has to be complicated.
+SPEAKER_00: So we'll have only this three main basic.
+SPEAKER_00: Anyway volume is not really speech recognition problem it will be take care of our main.
+SPEAKER_04: No it's a conceptual question because now I see the picture in front of my eyes like a user taking his remote control and shouting into it volume up volume up.
+SPEAKER_04: But I think he's coming you know he's really annoyed with this.
+SPEAKER_04: Down up down.
+SPEAKER_05: First of all I think this is not a functionality that is going to be instead of using the buttons.
+SPEAKER_05: No not only speech.
+SPEAKER_05: It's on top of using the button.
+SPEAKER_04: Okay because it's budget like 12 euros.
+SPEAKER_04: Well I don't know.
+SPEAKER_00: Actually we can have one switch to like switch on and off this DSP processor and this really parallel to the suppose like here we have our main chip which controls power volume and this buttons and this DSPs again these two have some interaction like suppose people use DSP then it particularly sends some information to the chip like in some form like volume increase or like this key.
+SPEAKER_00: It need not be like very expensive because since we are only focusing on TV remote controls
+SPEAKER_03: and we have only few things here. Okay.
+SPEAKER_04: What you consider is a gesture recognition like if I want to put volume up I like to I take my remote control to do something like volume up and volume down.
+SPEAKER_00: At this point we didn't consider because it's very expensive.
+SPEAKER_00: It's very expensive because our target is only like 12.5 euros.
+SPEAKER_03: What about the idea of automatic on off on?
+SPEAKER_00: And what do you think?
+SPEAKER_00: Yeah even an automatic on off is also a bit problematic because it's different criteria for different people like so suppose people are really they just they don't touch the remote and you don't know how much time you need to switch on or switch off and should
+SPEAKER_05: we target the user personalize the remote control so in a given room there might be more than one remote control.
+SPEAKER_05: We would have each one.
+SPEAKER_05: Yeah and with our own personal settings.
+SPEAKER_00: Yeah that can be possible especially for power settings so user can say okay suppose they're watching a tennis match or something then they can say okay after one hour.
+SPEAKER_00: Wouldn't that make a...
+SPEAKER_03: They can make arguments.
+SPEAKER_02: Yeah of course.
+SPEAKER_05: I want to do the trick.
+SPEAKER_05: That's the problem we will sell more.
+SPEAKER_05: Yeah we can have...
+SPEAKER_02: And we can increase this.
+SPEAKER_02: Yeah exactly.
+SPEAKER_02: You can buy.
+SPEAKER_02: Well that's more.
+SPEAKER_04: Yeah let's sell more.
+SPEAKER_04: Okay.
+SPEAKER_03: Okay you have something else to say.
+SPEAKER_00: Ah not very much.
+SPEAKER_00: No.
+SPEAKER_03: Okay thanks.
+None: Okay thanks.
+None: Thank you.
+None: So.
+SPEAKER_02: Can you just...
+SPEAKER_02: I love it.
+SPEAKER_02: Yeah I think.
+SPEAKER_02: Okay we're just on time.
+SPEAKER_03: So we are now going to have the lunch break.
+SPEAKER_03: Great.
+SPEAKER_03: Then we will work again for 30 minutes in the video work.
+SPEAKER_03: Then we will meet again for the next meeting.
+SPEAKER_03: And in this one we want to be more focused on the individual actions.
+SPEAKER_03: No no.
+SPEAKER_03: On the components.
+SPEAKER_03: So you will focus on the component concept.
+SPEAKER_03: Of course the UID mark will be focused on the user interface concept and our market expert Sami Bencho on the train watching.
+SPEAKER_03: So of course like before specific instruction will be sent to you by your personal coach.
+SPEAKER_03: Oh I think that's all.
+SPEAKER_03: And we have maybe we have to say only for TV.
+SPEAKER_03: Not a red text.
+SPEAKER_03: I think automatic on off control it's not possible.
+SPEAKER_00: It's a current phrase.
+SPEAKER_03: Yeah maybe in the next step if we make it work.
+SPEAKER_00: But speech recognizer can be possible.
+SPEAKER_03: Yeah you can think about that.
+SPEAKER_03: And do you see something else?
+SPEAKER_04: No.
+SPEAKER_04: Should it be equipped with speakers?
+SPEAKER_05: Speakers.
+SPEAKER_04: Like you want to find it.
+SPEAKER_03: You shout.
+SPEAKER_04: Yeah.
+SPEAKER_04: And the answers I'm here.
+SPEAKER_05: It just beeps.
+SPEAKER_05: That would be a good fit.
+SPEAKER_03: Or maybe you want to find him.
+SPEAKER_05: Yeah, that's expensive.
+SPEAKER_00: Especially the power it really consumes because it should be all the time on.
+SPEAKER_05: I heard of devices where you just whistle them.
+SPEAKER_05: And because of the frequency they just answered to that.
+SPEAKER_05: You can't whistle.
+SPEAKER_05: Or a clap.
+SPEAKER_05: Clap.
+SPEAKER_02: Clap.
+SPEAKER_05: Clap is good.
+SPEAKER_02: I think.
+SPEAKER_05: It's a good fit.
+SPEAKER_05: We have only one hand.
+SPEAKER_00: I think it's good.
+SPEAKER_05: He's another target.
+SPEAKER_00: Oh, okay.
+SPEAKER_00: But it's a good feature I guess we need to think about how to incorporate.
+SPEAKER_04: Just don't interfere with other devices.
+SPEAKER_04: Because always people do that their lights are turning on with clapping.
+SPEAKER_05: That already exists.
+SPEAKER_05: Yeah, I thought it was my home.
+SPEAKER_05: Yeah, you do have.
+SPEAKER_05: Wow.
+SPEAKER_03: You're trendy.
+SPEAKER_03: So let's think about it.
+SPEAKER_03: I think that could be in the component concept.
+SPEAKER_05: Yes.
+SPEAKER_03: Okay.
+SPEAKER_03: Good.
+SPEAKER_03: Right.
+SPEAKER_03: Yeah.
+SPEAKER_00: Thank you.
+SPEAKER_00: Thank you very much.
+SPEAKER_03: Thank you.
+None: Thank you.

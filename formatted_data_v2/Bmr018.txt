@@ -1,0 +1,530 @@
+SPEAKER_05: We're recording.
+SPEAKER_05: All right, no crash.
+SPEAKER_03: I recrashed it.
+SPEAKER_03: Yeah.
+SPEAKER_01: It never crashes on me.
+SPEAKER_03: I think it's actually, it depends on if the temp files are there or not.
+SPEAKER_03: At least that's my current working hypothesis that I think what happens is it tries to clear the temp files and if they're too big, it crashes.
+SPEAKER_04: When the power went out the other day and I restarted it, it crashed the first time.
+SPEAKER_04: So there would be no temp files?
+SPEAKER_03: No, it doesn't clear those necessarily.
+SPEAKER_03: They're called temp files, but they're not actually in the temp directory.
+SPEAKER_03: They're in the scratch.
+SPEAKER_03: They're not backed up.
+SPEAKER_03: They're raised either on PowerFailure.
+SPEAKER_01: But that's usually the meeting that I recorded and it doesn't crash on me.
+SPEAKER_04: Well, this wasn't, actually this wasn't before your meeting.
+SPEAKER_04: This was Tuesday afternoon when Robert just wanted to do a little recording and the power had gone out earlier in the day.
+SPEAKER_05: I don't know when would be a good excuse for it, but I just can't wait to be giving a talk and use the example from last week with everybody doing the digits it wants.
+SPEAKER_05: I'd love to play somebody there.
+SPEAKER_05: It was quick.
+SPEAKER_04: It was, it was really efficient.
+SPEAKER_04: Talk about a good noise shield, you know.
+SPEAKER_04: If you wanted to keep people from listening in, you could like have that playing outside the room, nobody could listen in.
+SPEAKER_01: Well, I had this idea we could make our whole meeting faster that way.
+SPEAKER_05: Yeah, everybody give the reports and they're doing it exactly the same time.
+SPEAKER_04: And then we'll go back later to the individual channel.
+SPEAKER_05: Actually, isn't that what we have been doing?
+SPEAKER_04: It's just sounds practically hum, we overlapped.
+SPEAKER_03: What are we doing?
+SPEAKER_03: I've been gone all week. I didn't send out a reminder for an agenda.
+SPEAKER_03: Do we have anything to talk about?
+SPEAKER_04: Should we just re-titch it?
+SPEAKER_04: I wouldn't mind hearing how the conference was.
+SPEAKER_04: What conference?
+SPEAKER_01: I wish about, aren't the UW folks coming this weekend?
+SPEAKER_01: Yep.
+SPEAKER_01: Next weekend.
+SPEAKER_01: Next weekend.
+SPEAKER_01: That is right.
+SPEAKER_01: Sorry, not the days coming up.
+SPEAKER_01: A week from Saturday.
+SPEAKER_01: Yeah.
+SPEAKER_01: That's when they're coming.
+SPEAKER_01: That's correct.
+SPEAKER_01: So, are we, do we have like an agenda or anything that we should have?
+SPEAKER_05: No, but that would be a good idea.
+SPEAKER_05: Okay.
+SPEAKER_00: Why don't we...
+SPEAKER_00: I want to deal with that I can be available after like 10, 30 or something.
+SPEAKER_00: I don't know how early you wanted to.
+SPEAKER_05: They're not even going to be here to 11 or so.
+SPEAKER_03: That's good.
+SPEAKER_01: They're flying up that day.
+SPEAKER_01: On Sunday?
+SPEAKER_01: Saturday.
+SPEAKER_05: Saturday.
+SPEAKER_05: Well, Saturday.
+SPEAKER_03: Yeah.
+SPEAKER_03: Your speeches do on Friday and then I'm going down to San Jose Friday night.
+SPEAKER_03: So, you know, if we start nice and late Saturday, that's a good thing.
+SPEAKER_05: Yeah, I mean, they're flying up from...
+SPEAKER_05: Seattle.
+SPEAKER_05: Down from...
+SPEAKER_05: They're flying from somewhere to somewhere.
+SPEAKER_05: Yeah.
+SPEAKER_05: And they'll end up here.
+SPEAKER_05: And also, Brent Kingsbury is actually flying from these coasts on that morning.
+SPEAKER_05: So, I will be...
+SPEAKER_05: I mean, he's taking a very, very flight and we do have the time difference running the right way.
+SPEAKER_05: But I still think there's no way we'd start before 11 and it might end up early being 12.
+SPEAKER_05: So, when we get closer, we'll find people's playing schedules and let everybody know.
+SPEAKER_03: So...
+SPEAKER_03: Yeah, maybe an agenda or at least some things to talk about would be a good idea.
+SPEAKER_05: Well, we can start gathering those ideas but then we should firm it up by next Thursday's meeting.
+SPEAKER_02: Well, we have time to prepare something that we...
+SPEAKER_02: In the format we were planning for the IBM transcribers by them.
+SPEAKER_03: Oh, yeah, absolutely.
+SPEAKER_03: So, have you heard back from Brian about that?
+SPEAKER_04: Chuck?
+SPEAKER_04: Yes.
+SPEAKER_04: I'm sorry, I should have forwarded that along.
+SPEAKER_04: Oh, I think I mentioned the last meeting.
+SPEAKER_04: He said that he talked to them and it was fine with the beeps.
+SPEAKER_04: They would be...
+SPEAKER_04: That's easy for them to do.
+SPEAKER_03: Okay.
+SPEAKER_03: So, I hope TTLO isn't here.
+SPEAKER_03: But I have the program to insert the beeps.
+SPEAKER_03: What I don't have is something to parse the output of the channelized transcripts to find out where to put the beeps.
+SPEAKER_03: But that should be really easy to do.
+SPEAKER_03: So, do we have a meeting that that's been done with?
+SPEAKER_03: That we've tightened it up to the point where we can actually give it to IBM and have them try it out.
+SPEAKER_02: He generated a channel-wise pre-signated version of a meeting but it was robustness rather than EDU.
+SPEAKER_02: So, I guess, depends on whether we are willing to...
+SPEAKER_04: Well, for this experiment, I think we can use pretty much anything.
+SPEAKER_04: Okay.
+SPEAKER_03: Well, we had talked about maybe doing EDU as a good choice though.
+SPEAKER_04: Well, whatever we have...
+SPEAKER_04: Whatever we talked about that is being the next ones we wanted to transcribe.
+SPEAKER_04: Right.
+SPEAKER_04: And then we're sending him a sample one to...
+SPEAKER_03: Yeah, maybe it doesn't matter.
+SPEAKER_02: I'll make that available.
+SPEAKER_03: Okay. And has it been corrected?
+SPEAKER_02: Oh, well, wait.
+SPEAKER_03: And check because that was one of the processes we were trying to do.
+SPEAKER_04: Right, so we need to run...
+SPEAKER_04: That's right.
+SPEAKER_04: TTLO's thing on it and then we go in and adjust the boundaries.
+SPEAKER_02: That's right.
+SPEAKER_02: And we haven't done that.
+SPEAKER_02: And I think I can set someone on that tomorrow.
+SPEAKER_04: Okay. And we probably don't have to do necessarily a whole meeting for that if we just want to send them a sample to try.
+SPEAKER_02: Maybe a good number of minutes.
+SPEAKER_04: I don't know. Maybe we could figure out how long it'll take to do...
+SPEAKER_03: I don't know. It seems to me we probably should go ahead and do a whole meeting because we'll have to transcribe the whole meeting anyway sometime.
+SPEAKER_05: Yes, except that if there was a choice between having 15 minutes that was fully the way you wanted and having a whole meeting that didn't get at what you wanted for them...
+SPEAKER_05: So, I mean, I guess we have to do it again anyway.
+SPEAKER_03: But...
+SPEAKER_04: Yeah.
+SPEAKER_04: Yeah, I guess the only thing I'm not sure about is how quickly can the transcribers scan over and fix the boundaries?
+SPEAKER_04: And I mean, is it pretty easy?
+SPEAKER_03: I think it's going to be one or two times real time at...
+SPEAKER_03: Well, excuse me, two or more times real time, right?
+SPEAKER_03: Because they have to at least listen to it.
+SPEAKER_05: Can we pipeline it so that the transcriber gets done with the quarter of the meeting and then you run it through this other stuff?
+SPEAKER_03: Well, the other stuff is IBM.
+SPEAKER_03: I'm just thinking that from a data...
+SPEAKER_03: Keeping track of the data point of view, it may be best to send them whole meetings at a time and not try to send them bits and pieces.
+SPEAKER_05: Oh, that's right. So the first thing is the automatic thing.
+None: Right.
+SPEAKER_05: And then it's the transcribers tightening stuff up and then it's IBM.
+SPEAKER_05: Okay, so you might as well run the automatic thing over the entire meeting.
+SPEAKER_05: And then you would give IBM whatever it was fixed.
+SPEAKER_02: And then fix it over the entire meeting, too.
+SPEAKER_05: Well, yeah, but it starts from beginning to the end, right?
+SPEAKER_05: So if they were only halfway through, then that's what you'd give IBM.
+SPEAKER_05: Okay.
+SPEAKER_04: As of what point?
+SPEAKER_04: I mean, I guess the question I'm mind is do we wait for the transcribers to adjust the marks for the whole meeting before we give anything to IBM?
+SPEAKER_04: Or do we go ahead and send them a sample?
+SPEAKER_05: Well, if they were going sequentially through it, why wouldn't we give them...
+SPEAKER_05: I mean, are we trying to get something done by the time Brian comes?
+SPEAKER_04: Well, that was the question.
+SPEAKER_05: So if we were, then it seems like giving them something, whatever they had got that I agree.
+SPEAKER_03: Well, I don't think... I mean, they typically work for what, four hours, something like that?
+SPEAKER_02: I get them.
+SPEAKER_03: I think they should be able to get through a whole meeting in one sitting.
+SPEAKER_03: I would think, unless it's a lot harder than we think it is, which it could be, certainly.
+SPEAKER_02: It's got like four speakers, then...
+SPEAKER_02: I guess...
+SPEAKER_04: We're just doing the individual channels, right?
+SPEAKER_02: Individual channels, yeah.
+SPEAKER_04: So it's going to be depending on the number of people in the meeting.
+SPEAKER_04: Well...
+SPEAKER_02: I guess there is an issue of, you know, if the segmenter thought there was no speech on a particular stretch, on a particular channel, and there really was, then if it didn't show up in a mix signal to verify, then it might be overlooked.
+SPEAKER_02: So, I mean, the question is, should transcribe, listen to the entire thing or can it be based on the mix signal?
+SPEAKER_02: And I, as far as I'm concerned, it's fine to base it on the mix signal at this point.
+SPEAKER_03: That's what it seemed to me to, and that if they need to, just like in the other cases, they can listen to the individual if they need to, but they don't have to for most of it.
+SPEAKER_03: That's good.
+SPEAKER_04: I don't see how that will work though.
+SPEAKER_05: So you're talking about tightening up the time boundary?
+SPEAKER_03: Yeah. So they have the normal channel trans interface, where they have each individual speaker has their own line.
+SPEAKER_03: Yeah.
+SPEAKER_03: But you're listening to the mix signal, and you're tightening the boundaries, correcting the boundaries.
+SPEAKER_03: You shouldn't have to tighten them too much, because Delos program does that.
+SPEAKER_01: Except for...
+SPEAKER_01: It doesn't do well in short things.
+SPEAKER_01: Right, so you'll have to...
+SPEAKER_01: Yeah, I think that will miss most of the really short things.
+SPEAKER_01: Like that.
+SPEAKER_01: But those would be...
+SPEAKER_01: Ah, ha!
+SPEAKER_01: Yeah, you have to say, ah, ha more slowly.
+SPEAKER_01: Sorry.
+SPEAKER_01: Oh, I'm actually serious.
+SPEAKER_01: So it will miss stuff like that.
+SPEAKER_03: Well, so that's something that the transgarbers will have to do.
+SPEAKER_02: Presumably, most of those, they should be able to hear from the mix signal unless they're embedded in the heavy overlap section.
+SPEAKER_02: That's what I'm concerned about.
+SPEAKER_02: I'm concerned about that part.
+SPEAKER_02: Yeah, I am too.
+SPEAKER_02: And I think it's a little...
+SPEAKER_04: Can we... couldn't we just have, um...
+SPEAKER_04: I don't know, maybe this just doesn't fit with the software, but I guess if I didn't know anything about transgarber and I was gonna make something to let them adjust boundaries, I would just show them one channel at a time.
+SPEAKER_04: Oh, I think so.
+SPEAKER_03: But then they have to do...
+SPEAKER_03: And then for this meeting they would have to do seven times real time.
+SPEAKER_03: Yeah.
+SPEAKER_03: And it would probably be more than that.
+SPEAKER_03: Right, because they'd have to at least listen to each channel all the way through.
+SPEAKER_04: But it's very quick, right?
+SPEAKER_04: I mean, you scan.
+SPEAKER_04: I mean, if you have a display of the waveform, you're talking about visually.
+SPEAKER_03: I just don't think...
+SPEAKER_02: The other problem is the breath, because you also see the breaths on the waveform.
+SPEAKER_02: I've looked at the... I tried to do that with a single channel.
+SPEAKER_02: And you do see all sorts of other stuff besides just the voice.
+SPEAKER_03: And I think that they're going much more on acoustics than they are on visuals.
+SPEAKER_03: Well, that, that I'm not sure.
+SPEAKER_02: The digital task that you had your interface, I know for a fact that one of those...
+SPEAKER_02: She could really well...
+SPEAKER_02: Yeah, that's actually true.
+SPEAKER_02: What number was that you're on?
+SPEAKER_03: Yeah, you're absolutely right.
+SPEAKER_03: I mean, I found the same thing that when I was scanning through the waveform, I could see when someone started to read digits just by the shapes.
+SPEAKER_03: Yeah, she could tell which one was on.
+SPEAKER_05: Maybe.
+SPEAKER_05: So I don't...
+SPEAKER_05: But I'm now entirely confused about what they do.
+SPEAKER_05: So they're looking at a mixed signal or looking...
+SPEAKER_05: What are they looking at visually?
+SPEAKER_02: Well, they have a choice.
+SPEAKER_02: They could choose any signal to look at.
+SPEAKER_02: I've tried looking, but usually they look at the mixed.
+SPEAKER_02: But I've tried looking at the single signal and in order to judge when it was speech and when it wasn't.
+SPEAKER_02: But the problem is then you have breaths which show up on the signal.
+SPEAKER_05: But the procedure that you're imagining, I mean, people vary from this, is that they have the mixed signal waveform in front of them.
+SPEAKER_05: Yes.
+SPEAKER_05: And they have multiple...
+SPEAKER_05: Well, let's see, there isn't...
+SPEAKER_05: We don't have transcription yet.
+SPEAKER_05: So, but there's markers.
+SPEAKER_05: Right. That have been happenautomatically.
+SPEAKER_05: No show up on the mixed signal.
+SPEAKER_02: Oh, they show up on the separate ribbons.
+SPEAKER_02: Right, the separate ribbons.
+SPEAKER_02: So that was separate ribbons for each channel.
+SPEAKER_02: And it'll be because it's being segmented as channel at a time with Tilo's new procedure, then you don't have correspondence of the times across the bins, across the ribbons.
+SPEAKER_05: And is there a line moving across the waveform as it goes?
+SPEAKER_05: Yes.
+SPEAKER_05: Okay, so the way you're imagining is they kind of play it and they see how this happened then, and if it's about right, they just sort of let it slide.
+SPEAKER_05: Right.
+SPEAKER_05: And if it...
+SPEAKER_05: There's a question on something they stop and maybe look at the individual waveform.
+SPEAKER_03: Right. Well, they wouldn't look at it at this point.
+SPEAKER_03: They would just listen.
+SPEAKER_05: They might look at it, right?
+SPEAKER_03: Well, the problem is that the interface doesn't really allow you to switch visuals.
+SPEAKER_03: Not really.
+SPEAKER_03: The problem is that the tickle-tk interface with the visuals, it's very slow to load waveforms.
+SPEAKER_03: That's it.
+SPEAKER_03: And so when I tried, that was the first thing I tried when I just started it, right?
+SPEAKER_02: You can switch quickly between the audio, but you just can't get the visual display to show quickly.
+SPEAKER_02: So you have to...
+SPEAKER_02: It takes, I don't know, three, four minutes to...
+SPEAKER_02: Well, it takes a long enough off.
+SPEAKER_02: Yes, very slow.
+SPEAKER_02: It takes a long enough off.
+SPEAKER_02: Because that's to reload the...
+SPEAKER_02: I don't know exactly what it's doing.
+SPEAKER_02: Thank you.
+SPEAKER_02: It takes a long enough that it's just not a practical alternative.
+SPEAKER_03: Well, it does some sort of shape pre-computation so that it can then scroll it quickly.
+SPEAKER_03: Yeah.
+SPEAKER_03: But then you can't change the resolution or scroll quickly.
+SPEAKER_03: So...
+SPEAKER_02: Now you could set up multiple windows, each one with a different signal showing, and then look between the windows, maybe that's...
+SPEAKER_03: I mean, we could do different interfaces, right?
+SPEAKER_03: I mean, so we could use like X-Waves instead of transcriber.
+SPEAKER_03: And it loads faster, certainly.
+SPEAKER_00: What if you were to pre-load all the channels from initially?
+SPEAKER_00: Well, that's what I tried originally.
+SPEAKER_03: So I actually, before Dave Galbart did this, I didn't interface, which showed each waveform and a ribbon for each waveform.
+SPEAKER_03: The problem with it is even with just three waveforms, it was just painfully slow to scroll.
+SPEAKER_03: So you just scroll screen and it would go, go, Curr Chunk.
+SPEAKER_03: And so it just was not doable with the current interface.
+SPEAKER_02: You know, I am thinking if we have a meeting with only four speakers, and you could fire up a transcriber interface for, you know, in different windows, multiple ones, one for each channel, and it's sort of a hack, but I mean, it would be one way of seeing the visual.
+SPEAKER_03: I think that if we decide that we need, that they need to see the visuals, we need to change the interface so that they can do that.
+SPEAKER_01: So that's actually why I thought of loading the chopped up waveforms.
+SPEAKER_01: I mean, you know, that that would make it faster.
+SPEAKER_01: What's the problem is if if anything's cut off,
+SPEAKER_04: you can't expand it from the chopped up. Right, but if you...
+SPEAKER_03: And wouldn't that be the same as the mix signal?
+SPEAKER_01: No, I mean the individual channels that were chopped up, that it'd be nice to be able to go back and forth between those short segments.
+SPEAKER_01: Because you don't really need like nine tenths of the time you're throwing most of them out.
+SPEAKER_01: But what you need are that particular channel, that particular location, and might be nice, because we save those out already to be able to do that.
+SPEAKER_01: But it won't work for IBM, of course.
+SPEAKER_01: It only works here because they're not saving out the individual channels.
+SPEAKER_02: Well, I do think that this will be a doable procedure.
+SPEAKER_02: Okay.
+SPEAKER_02: And have me starting with the mix, and then when they get into overlaps, just have them systematically check all the channels to be sure that there isn't something hidden from audio view.
+SPEAKER_03: Yeah, hopefully, I mean, the mix signal, the overlaps, are pretty audible, because it is volume equalized.
+SPEAKER_03: So I think they should be able to hear.
+SPEAKER_03: The only problem is counting how many, and if they're really correct or not, I don't know.
+SPEAKER_01: I don't know that you can locate them very well for the mix signal.
+SPEAKER_03: Right, but once you know that they happen, you can at least listen to their close talking.
+SPEAKER_03: But right now, to do the slummitation,
+SPEAKER_05: the switching is going to be switching of the audio. Right.
+SPEAKER_05: So, did they use any of the areas to do these?
+SPEAKER_03: Did Dave do that change, where you can actually just click rather than having to go up to the menu to listen to the individual channels?
+SPEAKER_03: I had suggested it before I just don't know whether you did it or not.
+SPEAKER_02: I'm not sure what, click on the ribbon, and you can get the switch audio.
+SPEAKER_02: Yeah.
+SPEAKER_02: Not last I tried, but in many cases.
+SPEAKER_02: We should get them to do that,
+SPEAKER_03: because I think that would be much, much faster than going to the menu. There's a reason I disagree,
+SPEAKER_02: and that is that it's very good to have a dissociation between the visual and the audio. There are times when I want to hear the mix signal, but I want to transcribe on the single channel.
+SPEAKER_03: So, maybe just button stand at the bottom.
+SPEAKER_03: Maybe ask for it.
+SPEAKER_03: Just something so that it's not in the menu option, so that you can do it much faster.
+SPEAKER_02: Well, I think that might be a personal style thing.
+SPEAKER_02: I find it really convenient the way it's set up right now.
+SPEAKER_03: Well, it just seems to me that if you want to quickly, well, was that chain known, was that chuck known, was that morgan right now?
+SPEAKER_03: You have to go up to the menu, and each time go up to the menu, select it, listen to that channel, then click below, and then go back to the menu, select the next one, then click below.
+SPEAKER_03: So you can definitely streamline that with the interface.
+SPEAKER_02: You know what I mean?
+SPEAKER_02: In the ideal world.
+SPEAKER_02: What?
+SPEAKER_02: No, I agree. That'd be nice.
+SPEAKER_02: Okay.
+SPEAKER_02: Okay.
+SPEAKER_05: So, put that down with that.
+SPEAKER_05: Forget it. Is anybody working any your speech submission related to this?
+SPEAKER_03: I would like to try to do something on digits, but I just don't know if we have time.
+SPEAKER_03: I mean, it's due next Friday.
+SPEAKER_03: So we have to do the experiments and write the paper.
+SPEAKER_03: So I'm going to try, but we'll just have to see.
+SPEAKER_03: So actually, I want to get together with both Andreas and Stefan with their respective systems.
+SPEAKER_05: Yeah.
+SPEAKER_05: Yeah, that's where we had one conversation about what did it mean for one of those speakers to be pathological.
+SPEAKER_05: Right. And I haven't had a chance to sit down and listen.
+SPEAKER_00: I was going to do that this afternoon.
+SPEAKER_00: But there must be something around here.
+SPEAKER_03: Well, Mayor Gennari, we're having a debate about that.
+SPEAKER_03: Whereas I think it's probably something pathological.
+SPEAKER_03: And actually, Stefan's results, I think, confirm that he did the Aurora system, also got very lousy average error, like 15 or 15 to 20% average.
+SPEAKER_03: But then he ran it just on the lapel and got about 5 or 6% word error.
+SPEAKER_03: So that means to me that somewhere in the other recordings there are some pathological cases.
+SPEAKER_03: But that may not be true.
+SPEAKER_03: Maybe just some of the segments they're just doing a lousy job on.
+SPEAKER_03: So I'll listen to it and find out since you actually split it up by segment.
+SPEAKER_03: So I can actually listen to it.
+SPEAKER_04: Did you run the Andreas?
+SPEAKER_04: Are I recognized or on the digit?
+SPEAKER_03: Oh, I thought he had sent that around to everyone.
+SPEAKER_00: Did you just send that to me?
+SPEAKER_00: No.
+SPEAKER_00: Since I considered those preliminary.
+SPEAKER_00: It was primodal.
+SPEAKER_00: It was a tri-modal.
+SPEAKER_00: Oh, it was a tri-modal.
+SPEAKER_05: So there was zero a little bit and a lot.
+SPEAKER_00: One bump at zero, around zero, which were the native speakers.
+SPEAKER_00: Zero percent error.
+SPEAKER_00: And there was another bump at 15 or something.
+SPEAKER_00: This is error you're talking about?
+SPEAKER_00: Yeah.
+SPEAKER_00: Those were the non-natives.
+SPEAKER_00: There was another distinct bump at like 100.
+SPEAKER_00: Wow.
+SPEAKER_00: Which must have been some problem.
+SPEAKER_00: What is pathological?
+SPEAKER_03: Just something really wrong with a bug is what I mean.
+SPEAKER_00: So that it's like...
+SPEAKER_00: There was this one meeting I forget which one it was where like six out of the 8 channels were all like 100%.
+SPEAKER_03: Which probably means like there was a recording interface crashed or there was a short, you know, one was jiggling with a chord or I extracted it incorrectly.
+SPEAKER_03: It was labeled it was transcribed incorrectly.
+SPEAKER_03: Something really bad happened.
+SPEAKER_03: I just haven't listened to it yet to find out what it was.
+SPEAKER_00: It was like, I excluded the pathological ones.
+SPEAKER_00: Well, I don't.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: I don't know.
+SPEAKER_00: The gravel wasn't too heavy either.
+SPEAKER_04: And it didn't matter whether it was the lapel or whether it was the...
+SPEAKER_00: I haven't split it up that way.
+SPEAKER_01: But there's no overlapping in legit reading experience.
+SPEAKER_05: No, but there's a little difference.
+SPEAKER_05: And we haven't looked at it for digits.
+SPEAKER_05: Yes, I was curious about that.
+SPEAKER_05: Because what I was seeing when I looked at those things, I was almost going to call Quadromodal because there was a whole lot of cases where it was 0%.
+SPEAKER_05: They just playing got her go right yeah, and then there and then there was another bunch that were a couple percent
+SPEAKER_00: I just Instagram that yeah, it was a nice Normal was zero was the most of them but then there were there others was decaying from there. Yeah, yeah
+SPEAKER_05: I see I see
+SPEAKER_03: Yeah, some of our non-natives are pretty non-nated So
+SPEAKER_02: Yeah, did you have something in the report about about for forced alignment?
+SPEAKER_00: Well, yeah, so I've been struggling with the forced alignment So this scheme that I drew on the board last time where we try to Allow reject models for the speech from other speakers most of the time it doesn't work very well so And the I haven't done I mean the only way to check this right now is for me to actually load these into x waves and you know plus the linings and Lay them and see where that and it looks and so I looked at all of the Utterances from you Chuck on that one conversation I don't know which you probably know which one I mean it's where you were on the lapel and Morgan was sitting next to you and you can hear everything Morgan says But and some of what you I mean you also hear quite a bit of a cross-talk so I Actually went through all of those there were I think 55 segments in the next wave and sort of did a crude check and More often than not it gets it wrong so there's either the beginning mostly the beginning word Where you You know talk talks somewhere into the segment But the first Word what he says often I but it's very reduced I that's just aligned Beginning of someone else's speech That's I'm still tickling with it might well be that we can't get
+SPEAKER_05: Last maybe we do this
+SPEAKER_01: cancellation right but I mean that was our plan but it's clear from Dan that this is not something you can do in a short amount of time Oh the shorter amount of time You know we it's been a long time writing up the HLT paper and we wanted to use that kind of analysis but the HLT paper has You know, it's a very crude measure of overlap. It's not really something you could scientifically say is overlap. It's just whether or not the High correlation segments that were all synchronized whether there was some overlap somewhere and You know pointed out some differences so we thought well if we can do something quick and dirty because Dan said the Cross cancellation it's not straightforward if it were straightforward then we would try it but so sort of good to hear that it was not straightforward thinking If we can get decent forced alignments then at least we can do sort of an overall report of what happens with actual overlap in time but
+SPEAKER_04: I didn't think that what we said it wasn't straightforward
+SPEAKER_01: Well, I thought he just saying I have to look over a longer time window. I need to but there are some issues of this timing Yeah, yeah, yeah
+SPEAKER_04: Right, so you just have to look over a longer time when you're trying to align the things you can't you can't just look well
+SPEAKER_03: Are you talking about the fact that the recording software doesn't do time synchronous? Is that what you're referring to? That seems to me you can do that over the entire file and get a very accurate
+SPEAKER_00: I don't think that was the issue. Yeah, I didn't think so either You have to have you first have to have a pretty good speech detection of the individual channels
+SPEAKER_01: And it's dynamic so I guess it was more dynamic than some simple models Would be able to so so there are some things available and I don't know too much about this area Where if people aren't moving around much then you could apply them and it should work pretty well if you took care of this Recording time difference right which should be pretty straightforward. It least is well defined. Yeah But then if you add the dynamic Aspect of adapting distances than it wasn't I Guess it just wasn't something that he could do quickly in time for us to be able to do something by two weeks from now so So I don't know what we can do if anything that's sort of worth
+SPEAKER_04: You know a year old speech paper at this point. Well Andreas. How well did it work on the non lapel stuff?
+SPEAKER_00: Yeah, so it's a check-through. It's very tedious to check this We would really need ideally a transcriber to time mark You know the at least the beginning ends of continuous speech And you know that with the time marks you can do an automatic comparison of your
+SPEAKER_04: Because really the the least in terms of how we were going to use this in our system was to get an ideal an idea For each channel about the start and end boundaries. We don't really care about like intermediate word boundaries
+SPEAKER_00: So that's how I've been looking at it. Yeah, that the individual words are like yeah, but you don't want
+SPEAKER_04: Right exactly so that's why I was wondering if it I mean maybe if it doesn't work for lapel stuff we can just not use that
+SPEAKER_00: I have I have just haven't had the time to do the same procedure on one of the So I would need a I would need a channel that has the speaker who's Who has a lot of overlap that's you know is a not lapel mic and We're preferably also there's someone sitting next to them who talks a lot so So meeting with me and
+SPEAKER_04: We can you know what maybe the best way to find that would be to look through these Because you can see the seat numbers and then you can see what type of mic they were using and so we just look for you know Somebody sitting next to Adam
+SPEAKER_01: That one of the meeting we can tell from the data that they have Yeah, there's a way to tell it might not be a single person who's always overlapping that person but any number of people and If you align the two Hypothesis files across the channels, you know just word alignment you'd be able to find that so so I guess that's sort of a last There there's sort of a few things we could do one is just do like non lapels if we can get good enough Alignments another one was to try to get somehow align T-lows energy segmentations with What we have but then you have the problem of not knowing where the words are because these meetings were Done before that segmentation, but maybe there's something what what is be done? Why do you need the
+SPEAKER_04: The forced alignment for the HLT. I mean for the euro speech paper well
+SPEAKER_01: I guess I wanted to just do something not on Recognition experiments because that's the way too early but to be able to report You know actual numbers like if we if we had Hand transcribe good alignments or hand checked alignments then we could do this paper It's not that we need it to be automatic But without knowing where the real words are so it was to get it was to get more data and better
+SPEAKER_04: So to squeeze the boundaries and know what an overlap really it's really an overlap. Yeah, or if it's just a
+SPEAKER_01: A segment correlated with an overlap and I guess that's the difference to me between like a real paper and a sort of promissory paper so if we It might be possible to take T-lows output and like if you have Like right now these meetings are all forgot the digital camera again every meeting You know they're time in line. So these are two different channels and somebody's talking here and somebody else is talking here Just that word if T-lows Can tell us that they're boundaries here. We should be able to figure that out because the only thing transcribed in this channel is this word but You know if there are things two words Yeah, if you have two and they're at the edges like here and here and there's a feature then it doesn't really help you so T-lows won't put down two separate mark T-lows will but it would but we don't know exactly where the words are because the Transcriber gave us two words in this time been and we don't really know
+SPEAKER_02: What's emerging problem if you had if you had a script which would I thought about this I mean if you have any ideas I discussed it with T-low The I mean I in principle I could imagine writing a script which would Approximate it to some degree but well maybe this problem of slippage
+SPEAKER_01: Maybe that will get enough of the cases to use for I mean that that would be really helpful
+SPEAKER_03: Yeah, it's because it seemed like most of the cases are in fact the single word Swords or at least a single phrase
+SPEAKER_02: In most of the pants I wouldn't make that generalization because sometimes people will say and then I and there's long pause and Finish the sentence and and sometimes it looks coherent and the I mean it's it's not a simple problem But it's really and then it's coupled with the problem that Sometimes you know with with a fricative you might get the beginning of the word cut off And so it's coupled with the problem that T-lows isn't perfect either. I mean, right?
+SPEAKER_02: It's like you have emerging problem plus so merging plus this problem of Not you if the speech on speech were perfect to be with the detector that would already be an improvement But that's impossible. Yes, there's too much to ask and so it and I mean I think I think that there always there would have to be some hand tweaking but it's possible that a script could be written to merge those two types of things I've discussed it with T-l In terms of not him doing it, but we we discussed some of the parameters of that and how hard it would be to In principle to write something that would do that
+SPEAKER_01: And I guess in the future it won't be as much of an issue if Transcribers are using the Titan boundaries to start with then we have a good idea of where the force alignment is constrained to
+SPEAKER_02: It's just you know matter. I know the revolution. We had the revolution of improved interface One month too late, but it's like you know, it's wonderful to have the revolution So it's just a matter of you know for now on we'll be able to have things Chanalyzed to begin with right and we'll just have to see how hard that is
+SPEAKER_03: Yeah, that's so so whether the corrections take too much time I was just thinking about the fact that if T-lows miss these short segments that might be quite time consuming for them to insert them
+SPEAKER_01: But he also can adjust this minimum time duration constraint and then what you get is Spurious noise is mostly, but that might be okay. It might be easier to delete something that's wrong
+SPEAKER_03: Then to insert something that's missing. What do you think?
+SPEAKER_05: If you can feel confident that what that yeah, but there's actually something
+SPEAKER_03: Yeah, because then you just deleted and you don't have to pick a time
+SPEAKER_02: It's a really good question and I really find it a pain the neck to delete things because you have to get the mouse up They're on the on the text line and otherwise you're just using it to get down I mean it depends on how long there's so many extra things that would make it one of them harder than the other Visitors that's not a simple question, but you know in principle like you know if one of them is easier than to buy
+SPEAKER_03: Is it toward whichever ones easier? I guess the semantics aren't clear when you delete a segment right because you would say
+SPEAKER_01: You would have to determine what the surroundings were you could just say it's a noise though and right you know a post processor Will just all you have to do is really a noise?
+SPEAKER_01: Well, just say it's just put X you know like not speech or something. I think it's easier to add than to delete
+SPEAKER_02: Yeah, because you have to maneuver around on that on both windows and
+SPEAKER_03: To add or to delete Okay, anyway, so I guess that maybe that's an interface issue that might be addressable But I think it's the semantics that are that are questionable to me that you delete something So let's say someone is talking to here and then you have a little segment here Well is that part of the speech is a part of the non-speech?
+SPEAKER_03: I mean what do you embed it in?
+SPEAKER_01: There's something nice though about keeping this is probably another discussion keeping the stuff that Teelos detector detected as possible Speech and just marking it as not speech then deleting it. Oh, I see so then they could just like but that's what you meant by just put an X there Reject model or whatever and you're an interesting idea with the automatic system
+SPEAKER_03: So all they so that all they would have to do is put like an X there or some so blank for Blank for silence S for speech X for whatever something else
+SPEAKER_01: That's actually a better way to do it because the the force alignment will probably be more consistent
+SPEAKER_02: Well, I mean if it's a complication which is that that you can have speech and noise And you know in the same channel the same speaker so now sometimes you get a microphone pop and I mean there are these fuzzy Hybrid cases and then the problem of the boundaries that have to be shifted around Simple simple
+SPEAKER_01: Anyway, quick question though at a high level to people think Let's just say that we're moving to this new era of like using the Pre-segmented you know non-synchronous Conversations it does it make sense to try to take what we have now which are the ones that you know We have recognition on which are synchronous and not time tightened and try to Get something out of those for sort of Purposes of illustrating the structure and the nature of the meetings or is it better to just you know forget that?
+SPEAKER_03: Well, I think we'll have to eventually and my hope was that we would be able to use the force alignment to get it But if we can't
+SPEAKER_01: But if we can't then maybe we just have to but is it worth if we can't and we can fake it even if we're we report You know we're wrong 20% of time or kind of well
+SPEAKER_03: I'm thinking are you talking about for a paper are you talking about for the corpus?
+SPEAKER_01: That's a good question actually because for the corpus it would be nice if everything were Because we'd have to completely redo those meetings and we have like ten of them now we wouldn't have to redo them
+SPEAKER_03: We would just have to edit them
+SPEAKER_02: Well now also I still haven't been forced to line but I think that when Brian comes this will be an interesting aspect to ask him as well when
+SPEAKER_03: When Brian I thought you said Ryan and it's like it's right, okay?
+SPEAKER_01: No, that's a good point though because for feature extraction like for Prodigy or something I mean the meetings we have now it's a good chunk of data. Yep. We need to get a decent. Okay
+SPEAKER_02: We should let's try it and that's what that's right ever since the the February meeting that I transcribed from last year First alignment has been on the table right on table right later And so I'm hopeful that that's possible I know that there are complications in the overlap sections and with lapel mics
+SPEAKER_01: But I mean we might be able at the very worst we can get transcribers to correct the cases where I mean You sort of have a good estimate where these places are because the recognition so poor
+SPEAKER_04: Right and so you know we were never gonna just go with these as the final alignments
+SPEAKER_01: We're always gonna run and pass some way to push these first chunk of meetings into a state where we get good alignments
+SPEAKER_00: I'm probably gonna spend another day or so trying to improve things by By using Acoustic adaptation The right now I'm using the other death that Models for the first alignments and it's possible that you get that's gonna be better results if you manage to Adapt the Ford models to the speaker at the reject model to all the other speech
+SPEAKER_04: Could you could you at the same time Adapt the reject model to the speech from all the other channels That's what you're saying oh not just the speech from that of the other people from that channel But the speech from the actual other channels
+SPEAKER_03: I don't think so I don't think that would work right because you a lot of it's dominated by channel
+SPEAKER_01: Properties, but what you do want to do is take the even if it's Clujie take the segments the Synchronous segments the ones from the HLT paper where only that speaker was talking and use those for adaptation because if you If you use everything then you get all the cross-talk in the adaptation It's just sort of blurring and that we know I mean we have that and it's about roughly two thirds I mean very roughly averaged it's not completely negligible like a third of it is bad for adaptation Cool, I thought it was higher than that. It's really it depends a lot this just sort of an overall
+SPEAKER_05: Well, I know it we're not turning into your speech a redo of the HLT paper
+SPEAKER_03: I don't want to do that. Yeah, I'm doing that for a V.S
+SPEAKER_01: But I think we're more against one very Yeah, really I think Morgan's talk went very well
+SPEAKER_03: It was you know, it was really it well presented especially the battery meter popping up that was hilarious right when you were talking about that
+SPEAKER_05: You know that was the battery meter saying that it was full nature. Yeah
+SPEAKER_03: He was on to the bullet points about talking about The you know the little handheld and trying to get lower power and so on and Microsoft pops up a little window saying your batteries are now fully charged Yeah I'm thinking about scripting that for my talking about a little script in there to say your batteries are low right when I'm saying
+SPEAKER_05: Yeah, no, I mean in your case when you were joking about it, but I mean in your case The fact that you're talking about similar things at a couple conferences. It's not These are conferences that have really different emphases whereas HLT and and your speech are too close Yeah, pretty similar so I I can't see really
+SPEAKER_01: Just putting in the same thing. No, I don't think that paper is really the HLT paper is really more of an introduction to the project paper and yeah
+SPEAKER_03: Yeah, yeah, we want some results. We can get them well. Yeah, it's probably wouldn't
+SPEAKER_05: Or some or some I mean I would see your speech if we have some your speech papers These will be paper submissions. These will be things that are particular things Aspects have a detailed look yet rather than you know overall tempted a global paper about it
+SPEAKER_02: I did go through one of these meetings I had one transgarbers go through and tighten up the bins on one of the MSA meetings and then I went through afterwards and double checked it so that one is really very Very accurate. I mentioned the length I'm trying to remember the number off-hand so one of the NSA's I sent email before the conference before last week That might have been the one I'm sure that that was accurate have been through it
+SPEAKER_01: That might actually be useful, but they're all native speakers
+SPEAKER_03: Yeah, so it's gonna say the problem with those are
+SPEAKER_01: Extremely hard to follow like word-wise. I've got the transgar I mean I have no idea what they're talking about
+SPEAKER_02: I corrected a friend number the words. I'm sure
+SPEAKER_01: There's tough for language model probably But but that might be useful just for okay Andreas is leaving leaving the building
+SPEAKER_03: See you Oh I guess it's all right for you to talk a little without the mic I know you adjusting the mic a lot did it not fit you well
+SPEAKER_02: Why what I know is when you turned your head it would it would tilt maybe it wasn't just tightened it never
+SPEAKER_04: Yeah, this thing that you have actually if if you have a larger head that mic's got to go farther away Which means the the balance is gonna make it want to tip down anyway?
+SPEAKER_03: Yeah, okay, yeah, I'm just thinking you know we've been talking about changing the mics Yeah, for a while and if these aren't Acoustically they seem really good, but if they're not comfortable we have the same problems we have with these stupid things
+SPEAKER_02: I think it's come this is the first time I've worn this I find it very comfortable I find it very comfortable too
+SPEAKER_03: But it looks like Andreas was having problems. I think Morgan was saying it well, but I had it on this morning And it was fine. Oh, you did wear it this morning. Yeah, okay, it's off
+SPEAKER_04: I yeah, I don't want it on this I just want to Say what I think is a problem with this if you are wearing this Over your ears and you've got it all the way out here Then the balance is gonna want to pull it this right whereas if somebody with a smaller head has it back here It's more balanced. Yeah, then it then it falls back this way. So what what it's supposed to do is the back strap is supposed to be under your crown
+SPEAKER_03: And so that should be should be It's right against your head there, which is what it's supposed to be that balances it so it doesn't slide out This is supposed to be right right below And so it's supposed to be right under that so it's really supposed to go more like this Yes, exactly, but then isn't that going to that I guess you can that tilts right and lots and lots of different ways
+SPEAKER_01: So I'm not saying anything about that head's small head size
+SPEAKER_02: Would be an advantage If he was wearing it over there instead of under his ear, I think probably it was work on compressing the heads
+SPEAKER_03: It probably just wasn't tied enough to the back of his head I mean so the directions do talk about bending the hair side pants way off the back, which is not really what we want
+SPEAKER_02: That's good
+SPEAKER_03: We did that We at Boeing I used I was doing augmented reality so they had head mounts on and we had a little jury rig I don't know the welders how much and we had just a bag with a bunch of marble sentences
+SPEAKER_05: Well, maybe this could be helpful just for evening the conversation between people people those who talk a lot have to wear heavier weights Anyway So I was gonna say oh yeah, I was gonna say I had these conversations with NIST folks also So they they have their their plan for a room with mics in the middle of the table and Close-mounted mics and they're talking about close-mounted and the pals And raise and the ray and cameras and yeah multiple multiple video cameras covering covering everybody every place in the room The the mics in the middle the head mounted mics the lapel mics the array with Well, there's some discussion of the nine they might go down to 57 because There was some pressure from a couple people to meeting for them to use a keem our head I forget what keem our stands for but what it is is it's dummy head Oh, that's right. Yep, and and so what they're actually doing is they're really there's really two recording systems So they may not be precisely synchronous, but there but there's two two recording systems one with I think 24 channels No one with 64 channels and 64 channel one is for the array, but they've got some empty channels there and anyway They like they're saying they may give up a couple or something before for the keem our head if they go go with that is a good idea
+SPEAKER_03: Yeah Jonathan viscous did say that They have lots of software for doing calibration for skew and offset between channels and that they found that's just not a big deal
+SPEAKER_05: Yeah Yeah, not too worried about that was yeah, but they're still
+SPEAKER_03: Planning to do like fake scenario based they have to do right there. They're legal issues want to lab them to do otherwise But it sounded like they were pretty well thought out there. They're gonna be real meetings It's just that they're with with people who would not be meeting otherwise did they give a talk on this or was Inform us we just had some discussions various discussions. Yeah, I also sat and chatted with several of the nests books
+SPEAKER_04: They seem like a good group. What was the the paper by Lori the Mel that you mentioned?
+SPEAKER_05: Yeah, we should just have a heavy read it, but I mean Well got these little proceedings, but basically It was about Going to a new task where you have insufficient data and using using data from something else and adapting and how well that works So in effect it was pretty related to what was nandras did right except that this was not with meeting stuff. It was with I could think they didn't they start off with broadcast news
+SPEAKER_03: They're broadcast news was their acoustic models and then all the other tasks were much simpler Yeah, so they were command and control and that sort of thing. Yeah digits was one of them. Yep, and
+SPEAKER_04: What was there? Yeah, Red Bull's what was their conclusion it works. Yeah
+SPEAKER_03: Yeah, yeah, yeah, that was one of the ones that I liked that it not only works in some cases It was better which I thought was pretty interesting, but that's because they in control for parameters so You know broadcast news nets were not nets
+SPEAKER_04: Did they ever try going complex going the other direction from simpler tasks to more complicated tasks not in that paper
+SPEAKER_05: That'd be hard
+SPEAKER_03: Yeah, well one of the big problems with that is is often the simpler task isn't fully doesn't have all the phones in it and that makes it very hard But I've done the same thing. I've been using broadcast news nets for digits. Yeah, like for the speech proxy thing that I did that's what I did Yeah, sure it works
+SPEAKER_05: Yeah, yeah, and they have I mean they have better Adaptation than we had in that yeah that system so they You mean they have some Yeah, we should probably what actually what we should do I Anything about this were probably the five is should pick out a paper to that that You know got our interest and we should Go around the room at one of the Tuesday lunch meetings. Yep, so you know what you're talking about reference. Yeah
+SPEAKER_01: Well the summarization stuff was interesting. I mean, I don't know anything about that field but for this proposal and meeting summarization I mean sort of a far cry because they weren't working with meeting type data but Get sort of an overview of the different approaches. Do you remember who those groups were that were a lot of different Last day, but I mean there's that's a huge field and probably the groups there may not be representative of the field. I don't know exactly That everyone submits was whether folks from bbn presenting yet there was let's see Smider bn ibn Maryland
+SPEAKER_05: It was
+SPEAKER_01: The order one the sentence ordering one was that barzile and these guys? I'm just so bad anyway I it's in the programmer should have read it to remind myself, but that's sort of useful and I think like when Mari and Katrin and Jeff are here be good to figure out some kinds of things that we can start doing maybe just on the transcripts because we already have
+SPEAKER_03: Yeah, we do have word transcripts
+SPEAKER_02: Well, I like the idea that Adam out of Maybe generating minutes based on some of these things that we have because it would be easy to do that Just right and it has to be though someone from this group because of the technical nature of the thing someone who actually does take notes
+SPEAKER_03: I think there's all these right down the wrong things
+SPEAKER_01: You know how do you evaluate whether the summary is good or not and that's what's what's interesting to me is that there's different ways to do it
+SPEAKER_04: Yeah, was SRA one of the groups talking about some organization now
+SPEAKER_03: As I said, I like the Microsoft talk on scaling issues and words since this impaguation. That was interesting
+SPEAKER_05: Yeah, that was an interesting discussion
+SPEAKER_03: It it it it was the only one it was the only one that had any sort of real disagreement
+SPEAKER_05: Well, I didn't have as much disagreement as I would have liked but I didn't want to I didn't want to get into it because It was the application is when I didn't know anything about so it just would have been you know He getting up to be argumentative but but I mean the missing thing so so what they were saying So only thing is you know all you need is more data sort of but I mean it that's that's missing it I mean it was a nice study They were doing this it wasn't word sense to some regulation. Well, it sort of was it was a word
+SPEAKER_03: It was it was a very simple case of two versus two versus two and there there there that you could do better with more data
+SPEAKER_05: I mean that's really and so what they did was they had these different kinds of learning machines and they had different Mots of data and so they did like you know eight different methods that everybody you know argues about about oh my my kind of learning machine is better than your kind of learning machine and They were started off with a million words that they used which was evidently a number that a lot of people doing that Particularly kind of task had been using so they went up being Microsoft and went up to a billion And then they had this log scale showing that you know and and then they went up to a billion They that's a big company. I didn't mean is anything negative
+SPEAKER_03: But it's in the bigger the comfort and more words they use the reason they can do that is that they assumed that Text that they get off the web like from Wall Street Journal is correct and edited So that's what they use this training data is just saying if it's in this corpus. It's correct Okay, but I mean yes
+SPEAKER_05: Of course, there was the kind of effect that you know what would expect that that you got better and better performance with one more data But the their real point was that the the different learning machines were sort of all over the place and and by by going up Significantly in data you get a much bigger effect than by switching learning machines and further more which learning machine was on top kind of Depended on where you were in this picture. So this was my concern about the recognizer in Aurora that
+SPEAKER_04: That the differences we're seeing in the front end. Yeah, our relevant our irrelevant once you get a real recognizer at the back end
+SPEAKER_05: Yeah, you know, yeah, could well be so so I mean that was that was kind of you know, it's a good point But the problem I had with it was that the implications out of this was that The kind of choices you make about learning machines were therefore irrelevant which is not as far as I know in in tasks I'm more familiar with it is not at all true What is is true is the different learning machines have different properties and You want to know what those properties are and someone else sort of implied that well We you know all the study of learning machines. We still don't know what those properties are We don't know them perfectly But we know that some kinds use more memory and some other kinds use more computation and some are are
+SPEAKER_04: Limited kind of discrimination, but are just easy to use and others are it doesn't their conclusion just sort of you could have guessed that before they even started because If you assume that these learning things get better and better and better than As you approach there's a point where you can't get any better right you get everything right?
+SPEAKER_03: No, but they're all spread. They weren't all if they weren't converging
+SPEAKER_04: They were all still the bread they have to as they all get better. They have to write right sure better
+SPEAKER_03: They hadn't even come close to that point all the tasks were still improving when they hit a billion
+SPEAKER_04: Yeah, but they're all going the same way right so you have to get closer. What they didn't get closer
+SPEAKER_03: Oh, they did they just switched position
+SPEAKER_05: Well, that's getting close. I mean Yeah, the spread was still pretty wide. That's true, but but I Think it would be earned to intuition that this would be the case But to really see it and have the intuition is quite different. I mean, I think somebody So you was talking about earlier that the effect of having a lot more data is quite different in switchboard It depends on broadcast news
+SPEAKER_01: Yeah, it depends a lot on whether you know a disinviguation is exactly the case where more data is better right? Yeah, yeah, you can assume similar distributions But if you wanted to do disinviguation on a different type of Test data than your training data then that extra data wouldn't generalize so
+SPEAKER_03: But I think one of their they had a couple points I Think one of them was that well maybe simpler algorithms and more data is better less memory faster operation simpler Right because they're simplest most brain dead algorithm did pretty darn well When you got gave it a lot more data and then also They were saying well you have access to a lot more data Why are you sticking with a million words? I mean their point was that this million word corpse that everyone uses is apparently 10 or 15 years old And everyone is still using it so yeah
+SPEAKER_05: But anyway, I think it's just we could talk about this stuff It's it's not really the conclusion they came to so much as the conclusion that some of the Commenters in the crowd right came up with that you know this therefore is further evidence that you know more data is really All you should care about and that I thought was just kind of going to a lighter way and the the one one person gave it got up and made a brief defense But it was a different kind of grounds it was that that The reason people were not using so much data before was not because they were stupid or didn't realize data was important But in fact they didn't have it available But the other point to make again is that Machine learning still does matter but it matters more in some situations than in others and also there's there's not just mattering or not mattering but there's mattering in different ways I mean you might be in some situation where you care how much memory you're using right are you care?
+SPEAKER_05: You know what recall time is are you care you know and are you only have a million words?
+SPEAKER_03: Yeah, for you some new task or
+SPEAKER_01: Another language. Yeah, I mean you see there's papers on portability and write Prototyping and blah blah blah and there's people saying oh just add more data and there's cost and there's like two different
+SPEAKER_05: Relatives cost. Yeah, it's just like cost, you know, so so these I mean the in the speech side the thing It always occurs to me is that if you if you One person has a system that requires 10,000 hours to train on and the other only requires a hundred and they both do about the same Because the hundred hour one was smarter That's that's gonna be better. Yeah, because people I mean there isn't gonna be just one system that people train on and then that's it for For all of time. I mean people are gonna be doing other different things and so these things matters matter Yeah, so that's one of the
+SPEAKER_02: Providence slides this up and it's like this is this people kept saying can I see that? Slime and then they make a comment one person said Well, one person said you know before you dismiss 45 years of research. Well, you know the same thing has happened in
+SPEAKER_01: Computational and risks right you look at the ACL papers coming out and now there's sort of a turn backwards Okay, we've learned statistic. You know, we're basically getting what we expect out of some statistical
+SPEAKER_03: Methods and you know the there's arguments on both sides. I think the matters is the thing that that was misleading Is that all all of them are based on all the others right just you can say you said focus or something? Yeah, I mean So and I was saying the same thing happened with speech recognition right for a long time people were hand quote coding linguistic rules And then they discovered machine learning worked better and now they're throwing more and more data and worrying and then you have Surrying less and less about the exact details of the algorithms Except when they have a year speech paper Anyway, anyway, so we read tickets he is starting are we gonna do one at a time or should we read them all again? Oh once again Let's do it all once we have to say we let's try that again Okay, maybe we won't laugh so remember to read the transcript number so that everyone knows that what is and Ready three two one L22 transcript L-27465453738 07 6 9 4
+None: 8 6 7 7 6 7 8 8 9 6 9
+SPEAKER_04: 9 6 7
+SPEAKER_05: 6 8
+SPEAKER_06: 8
+SPEAKER_03: 8
+None: 8 8 8 8 8 8 8

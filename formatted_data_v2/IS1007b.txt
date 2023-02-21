@@ -1,0 +1,373 @@
+SPEAKER_01: So we are coming again for the second meeting.
+SPEAKER_01: So for the aim of this meeting, now it's to make presentation about the world for each one and you will take the decision, the design and the functionality of the world.
+SPEAKER_01: And we have, I think I got a new project requirement.
+SPEAKER_01: So I think the teletext becomes outdated.
+SPEAKER_01: So the popularity of the, since the popularity of the internet and I think we don't need writing adaptive.
+SPEAKER_01: So the remote control should be only used for the telefiction.
+SPEAKER_01: And of course we shouldn't have our immersion in the design.
+SPEAKER_01: So let's start with the, the industry designer.
+SPEAKER_02: Yeah.
+SPEAKER_02: All right.
+SPEAKER_01: So you can use the whiteboard.
+SPEAKER_02: When I have a PowerPoint presentation stored in my, in my personal folder.
+SPEAKER_02: So I think you can reach it from here.
+SPEAKER_03: Just go to Explorer or Open.
+SPEAKER_03: The participant.
+SPEAKER_02: The participant to this one.
+SPEAKER_01: Yeah.
+SPEAKER_03: Open.
+SPEAKER_03: Okay.
+None: No.
+None: Open.
+SPEAKER_00: You can use up an email.
+SPEAKER_00: All right.
+SPEAKER_02: So I will talk about the working design.
+SPEAKER_03: Slideshow.
+SPEAKER_03: Will slideshow or this one.
+SPEAKER_02: And well, I will present my first idea on how to build the, our new remote control for television.
+SPEAKER_02: So can you go one page down please.
+SPEAKER_02: So I think the first thing to do is to define the hardware components needed to achieve what we want to do.
+SPEAKER_02: So I'm thinking, I think I'll do a survey about what is, what is available on the market and what is the cheapest possible thing we can use.
+SPEAKER_02: Then I will try with the technical team to, to build a prototype and to see how this little box would look like.
+SPEAKER_02: And how, and we can start troubleshooting first communication problems or things like that.
+SPEAKER_02: And when we are ready with this first prototype, I think we can have some software functionalities on a problemable chip like browsing by content or things like that.
+SPEAKER_02: Okay.
+SPEAKER_02: So can you go down there?
+SPEAKER_02: So what I think for now is we, we don't want to have a remote control which is wide.
+SPEAKER_02: So I think we can use that tree for the implementation.
+SPEAKER_02: Then two programmable chips for both software functionalities and communication.
+SPEAKER_02: And the communication with TV set is made through infrared communication.
+SPEAKER_02: So this is the schema of the story.
+SPEAKER_02: Of the future, I'm remote control.
+SPEAKER_02: So you can see the components, battery and the two chips goes to the infrared connection to the TV set.
+SPEAKER_00: What is the other chip for?
+SPEAKER_00: The one on top.
+SPEAKER_02: The one on top is for the, well, the functionality, the functionalities and the red, sorry, the green one is to, well, putting things together, transform the data into the format to protect the color, to communicate with the TV set.
+SPEAKER_00: Okay.
+SPEAKER_02: And that's it.
+SPEAKER_02: I think we should use a FPGA for the functionalities which is easy to...
+SPEAKER_02: What is FPGA?
+SPEAKER_02: It's field programmable something.
+SPEAKER_02: Get various.
+SPEAKER_03: So how is it different from the Bluetooth?
+SPEAKER_02: Well, FPGA is just cheap.
+SPEAKER_02: You can program it with whatever you want.
+SPEAKER_02: Okay.
+SPEAKER_02: And the Bluetooth chip is just responsible to make communication between the two devices.
+SPEAKER_00: So these are the, they have to work together or do they have to work together to separate choice?
+SPEAKER_02: The FPGA will produce the data to send.
+SPEAKER_03: Okay.
+SPEAKER_03: Or something like, is it hardware, the first one?
+SPEAKER_03: And the second one is for the software.
+SPEAKER_00: It's the software part.
+SPEAKER_00: Yeah, to run.
+SPEAKER_00: To make it run.
+SPEAKER_00: Okay.
+SPEAKER_00: So you can control it, you're not booking if you want, right?
+SPEAKER_00: Yeah.
+SPEAKER_02: All right.
+SPEAKER_02: And that's it for the working design.
+SPEAKER_02: So if you have any questions.
+SPEAKER_01: Okay.
+SPEAKER_03: And how about the battery power?
+SPEAKER_03: You mean that battery will be somewhere there and the remote control, the power to the battery comes through in private?
+SPEAKER_03: No, no, no.
+SPEAKER_02: I think we have to have a embedded battery in the...
+SPEAKER_02: Into the...
+SPEAKER_02: Into the...
+SPEAKER_02: Yeah, into the...
+SPEAKER_02: More compact.
+SPEAKER_02: Yeah.
+SPEAKER_02: Okay.
+SPEAKER_02: And I don't think it will need very much power to make it run.
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: You can put it on a charger when you don't need to use it.
+SPEAKER_02: It's a good idea.
+SPEAKER_03: Yeah.
+SPEAKER_03: That's right.
+SPEAKER_03: Having a charger rather than putting a battery cell is always...
+SPEAKER_03: Yeah.
+SPEAKER_03: People don't like it to have...
+SPEAKER_03: To buy the batteries when they run out.
+SPEAKER_03: We just make a small charger and put it...
+SPEAKER_00: Yeah.
+SPEAKER_00: Because you're using...
+SPEAKER_00: Yeah.
+SPEAKER_00: Because I think if some people have PDA, they can use their PDA to control the TV if they want to.
+SPEAKER_02: Also, but...
+SPEAKER_02: But...
+SPEAKER_00: I don't know.
+SPEAKER_02: I think the goal is to sell our...
+SPEAKER_02: We don't want to make a PDA.
+SPEAKER_02: So...
+SPEAKER_02: Okay.
+SPEAKER_02: So...
+SPEAKER_02: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: So, charger for the identity.
+None: Here's the key.
+SPEAKER_01: Um...
+SPEAKER_00: So, it's mine.
+SPEAKER_00: It's mine.
+SPEAKER_01: Oh.
+SPEAKER_01: Partition point one.
+SPEAKER_00: No?
+SPEAKER_00: Yeah.
+SPEAKER_01: Okay.
+SPEAKER_01: Oh, we have 14.
+SPEAKER_01: So, let's move to...
+SPEAKER_01: To use the entire first design.
+SPEAKER_00: Yeah.
+SPEAKER_00: So, you can open...
+SPEAKER_01: Dr. Sipa...
+SPEAKER_01: Three.
+SPEAKER_00: Yeah.
+SPEAKER_00: So...
+SPEAKER_00: So, I'm working on the technical functions design.
+SPEAKER_00: Okay.
+SPEAKER_00: Let's show the next line.
+SPEAKER_00: So, the purpose is to find the important questions to ask is what effects should the apparatus have.
+SPEAKER_00: So...
+SPEAKER_00: So, I found on the website...
+SPEAKER_00: On the internet.
+SPEAKER_00: Doing everything.
+SPEAKER_00: Yeah.
+SPEAKER_00: I spent a lot of time searching.
+SPEAKER_00: That's right.
+SPEAKER_00: And I found that the function of remote control is the same messages the television set.
+SPEAKER_00: For example, switch on, switch off, switch the next channel and so on and so on.
+SPEAKER_00: So, I found two very good prototypes for this interface from our competitors.
+SPEAKER_00: So, can you...
+SPEAKER_01: This are usual functionality.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: So, ours is a bit different.
+SPEAKER_00: So, these are two examples.
+SPEAKER_00: One is from...
+SPEAKER_00: OpaG, the other one is from...
+SPEAKER_00: Tasks.
+SPEAKER_00: Yeah.
+SPEAKER_00: Engineering Central.
+SPEAKER_00: Yeah.
+SPEAKER_00: This is the most competing prototypes I found.
+SPEAKER_00: But then, look.
+SPEAKER_00: But then I found, if you look at...
+SPEAKER_00: You see on the left one, there are too many buttons.
+SPEAKER_01: And they are small.
+SPEAKER_00: Yeah.
+SPEAKER_00: On the right, I tried to play with.
+SPEAKER_00: The problem is that if I have 100 channels, I have to press the other button to choose the 100 channels.
+SPEAKER_00: And I have to compose the number, so it's very lousy.
+SPEAKER_00: So, you move to the next...
+SPEAKER_00: The next one?
+SPEAKER_00: Yeah.
+SPEAKER_00: So, I talk about the problem.
+SPEAKER_00: And then I look at the user manual, the 100 page is thick, so we don't want that.
+SPEAKER_00: Yeah.
+SPEAKER_00: So, I propose that easy to use prototype.
+SPEAKER_00: You can navigate on TV screen, and we can prove it to the user's preference.
+SPEAKER_00: And we need to have the TV connected to the internet.
+SPEAKER_00: So, in order to access the TV programs by XML, and we need some...
+SPEAKER_00: To do some pre-processing, from the technical aspect, the processing should be done on the TV set, then on the remote controller.
+SPEAKER_00: Right.
+SPEAKER_00: And then, the speech recognition is a...
+SPEAKER_00: Harry says we may just put in... we may KIV.
+SPEAKER_01: What do you mean by the pre-processing will be done on the TV?
+SPEAKER_00: Yeah, all the processing is done.
+SPEAKER_00: The TV is a computer. It has some processing power there.
+SPEAKER_01: So, we should have specific TV or...
+SPEAKER_02: So, I use this...
+SPEAKER_02: A TV with the remote control.
+SPEAKER_00: Yeah, because...
+SPEAKER_00: I use this one remote controller.
+SPEAKER_00: Yeah, I think it is.
+SPEAKER_02: There is a technology like ShowView, who is already available on most of the TV set, on recorders or things like that, and we can try to get this information onto the remote control to do the processing on the remote controller.
+SPEAKER_00: Yeah, that's right.
+SPEAKER_00: So, we do the processing on the remote controller.
+SPEAKER_00: Yeah.
+SPEAKER_00: So, can you be using any TV, any conventional TV sets?
+SPEAKER_01: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: Speech recognition?
+SPEAKER_01: Yeah, that's all.
+SPEAKER_00: The next one.
+SPEAKER_00: So, I cover a simple design.
+SPEAKER_00: Just keep the navigation buttons.
+SPEAKER_00: That's a good idea.
+SPEAKER_02: I think we don't need really much buttons to... if we have a screen to navigate on TV.
+SPEAKER_02: Yeah.
+SPEAKER_02: So, well, four or five buttons.
+SPEAKER_02: It's sufficient.
+SPEAKER_02: It's easy to build.
+SPEAKER_02: Yeah, that does not consume much power.
+SPEAKER_00: Okay.
+SPEAKER_00: That's all.
+SPEAKER_03: Oh, but you have a catch there.
+SPEAKER_03: Assume that if you want to go to... if you're watching channel two and if you want to go to channel 99, then...
+SPEAKER_02: Well, then you go to the main menu and you have a go to channel and then...
+SPEAKER_00: No, because you choose by channel and so...
+SPEAKER_00: Yeah.
+SPEAKER_00: You buy TV programs so you don't have 100 channels to choose from.
+SPEAKER_02: If you go by channel, you don't have to do that.
+SPEAKER_02: But I think he said if you want to make a big jump.
+SPEAKER_02: Oh, jump.
+SPEAKER_02: Yeah, that's right.
+SPEAKER_02: Well, you have to have a device when you could...
+SPEAKER_00: A mouse or...
+SPEAKER_02: Not a mouse, but something that says more clearly that right.
+SPEAKER_02: Right, left, up, down.
+SPEAKER_02: Okay.
+SPEAKER_02: To have the ability to write something to the navigator, maybe directly.
+SPEAKER_02: Okay.
+SPEAKER_02: We can think of buttons like in the telephone to send messages or things like that.
+None: Mm-hmm.
+SPEAKER_01: But how do you...
+SPEAKER_01: We can see the external... this remote.
+SPEAKER_00: It's gonna be small.
+SPEAKER_00: Yeah, of course.
+SPEAKER_01: It's too small.
+SPEAKER_01: It's too small.
+SPEAKER_00: Under the sofa and we can't find it.
+SPEAKER_00: So, if you want to find it, you just...
+SPEAKER_00: You just... it just has to respond to you when you look for the device.
+SPEAKER_00: Yeah, this one.
+SPEAKER_00: I don't know how.
+SPEAKER_03: We'll just give it an aim and we call him.
+SPEAKER_00: And you respond to you.
+SPEAKER_00: And there...
+SPEAKER_01: The other side.
+SPEAKER_02: Okay, so, next presentation.
+SPEAKER_02: What is it, print for?
+SPEAKER_01: So, hi.
+SPEAKER_03: Okay, after having the inputs from industrial design and user interface, I think most of the points which I want to already covered here.
+SPEAKER_03: And to find the most interesting features, what the users would be interested in, what we have done is we have put our feedback forms in all the magazines.
+SPEAKER_03: And the users sent the feedbacks.
+SPEAKER_03: And based on that, these are the findings which we got.
+SPEAKER_03: And adding up a speech interface is always good for a TV remote.
+SPEAKER_03: But the technology, we already know that.
+SPEAKER_03: What is it?
+SPEAKER_02: I think it will be a bit complicated to make a speech recognized.
+SPEAKER_02: It runs on the small...
+SPEAKER_03: It has to be seen how feasible it is.
+SPEAKER_00: But I think if you want to recognize numbers, it's a well-studied problem.
+SPEAKER_00: If you just recognize numbers, it's limited.
+SPEAKER_03: We can put a limited vocabulary as in the mobile phones.
+SPEAKER_03: We just have the...
+SPEAKER_02: And this can allow to choose the program, for instance, without adding buttons.
+SPEAKER_02: So, it's a good idea.
+SPEAKER_03: It's not going to take much space also.
+SPEAKER_03: It's going to be very slim.
+SPEAKER_03: And next one was the size of the remote control.
+SPEAKER_03: It has to be, of course, a very slim and small one.
+SPEAKER_03: And, of course, most of the people are interested in if it's less expensive.
+SPEAKER_03: So, this is an important criteria here.
+SPEAKER_01: But do you think what they suggested is possible to...
+SPEAKER_01: I mean, we have to look for the trade-off.
+SPEAKER_03: The futures and the cost.
+SPEAKER_00: I think that if we go for quality, people may tolerate it for high quality.
+SPEAKER_00: And, of course, it comes with a reasonable cost.
+SPEAKER_00: Maybe not less, but they may be willing to pay.
+SPEAKER_00: A little bit more.
+SPEAKER_03: A little bit more for...
+SPEAKER_00: With extra futures.
+SPEAKER_00: Yeah, extra futures.
+SPEAKER_02: Yeah, speech is an important extra future.
+SPEAKER_02: Yeah, that's right.
+SPEAKER_01: But is it useful or not?
+SPEAKER_01: Well, there is a noisy thing.
+SPEAKER_03: I mean, for a lazy guys, they could just say nine.
+SPEAKER_03: And the nine channel comes.
+SPEAKER_03: Or just say a movie name.
+SPEAKER_03: I don't go for movie names, but only for the numbers on the channel, or volume up, volume down, brightness, contrast.
+SPEAKER_03: So, I think that should be a good idea to put these features.
+SPEAKER_03: And the fourth one was the teletext in various languages.
+SPEAKER_02: Well, we just have to find a mean how to write a microphone.
+SPEAKER_02: Well, there's a microphone into the remote control.
+SPEAKER_02: So...
+SPEAKER_02: I think it should be all right.
+SPEAKER_01: What is the teletext?
+SPEAKER_01: The next thing is that we can do that.
+SPEAKER_01: We can integrate small microphones in the remote.
+SPEAKER_01: So, it's not a really problem.
+SPEAKER_02: Okay.
+SPEAKER_01: What about lighting adaptive options?
+SPEAKER_01: Yeah, as this goes on the...
+SPEAKER_01:...alurementing.
+SPEAKER_01: But require more traffic.
+SPEAKER_03: I think not much people are really interested in this point.
+SPEAKER_03: If it's not really...
+SPEAKER_00: It is interesting, but we are only concerned with the remote controller.
+SPEAKER_00: So, you need special TV sets to do that.
+SPEAKER_00: It's done via this remote controller.
+SPEAKER_02: It's very complex.
+SPEAKER_02: Yeah, I think it's a bit complex too.
+SPEAKER_03: Yeah, it's for the industrial design and users, interface designers to decide if it's going to be working or not.
+SPEAKER_02: For our next product, our new TV set with...
+SPEAKER_02: Yeah, the automatic control...
+SPEAKER_00:...sound adjustment.
+SPEAKER_00: Yeah, but it's quite possible.
+SPEAKER_00: But maybe not in this project.
+SPEAKER_01: So, we have...
+SPEAKER_01: I think we have...
+SPEAKER_01:...still we have...
+SPEAKER_01:...capped off me.
+SPEAKER_01: So, anything to discuss?
+SPEAKER_03: I think as I discussed, that four points would be good for unmarketing.
+SPEAKER_03: The speech interface and the less reasonable...
+SPEAKER_03:...cause and the lighting adaptation and the teletext.
+SPEAKER_03: And regarding the teletext, these are the text information which you go on the televisions.
+SPEAKER_03: If you're watching a foreign movie, you get a subtitle sometimes.
+SPEAKER_03: And if you're a French guy watching an English movie, you would like to have it in French.
+SPEAKER_03: And if I'm a German, then I would like to have my options in German.
+SPEAKER_03: So, the remote...
+SPEAKER_03: It should have some...
+SPEAKER_03: It should give me some flexibility of choosing the languages.
+SPEAKER_03: That's a really good point.
+SPEAKER_02: Yeah, but what about the new projects requirements?
+SPEAKER_02: I think we should give up with teletext.
+SPEAKER_01: I guess it's the popular.
+SPEAKER_02: Well, so maybe we can already think about a way to access the internet.
+SPEAKER_02: We had a television.
+SPEAKER_00: Using the TV to access the internet.
+SPEAKER_00: Are you thinking about the internet?
+SPEAKER_02: Yeah, but we can think that in a few years there will be TV set that can access the internet.
+SPEAKER_02: Yeah, okay.
+SPEAKER_02: So, it's a good idea if we think about how to build up our remote control with this functionality.
+SPEAKER_02: Which would come in a few years.
+SPEAKER_02: So, if we already have it in our remote control...
+SPEAKER_01: So, you have to...
+SPEAKER_01:...remod control...
+SPEAKER_00:...the future.
+SPEAKER_00: Yeah.
+SPEAKER_00: The future demand, market demand.
+SPEAKER_00: Yeah, to design.
+SPEAKER_02: Well, not to implement it, but to find a way to add this functionality in a...
+SPEAKER_00: In the future?
+SPEAKER_02: Yeah.
+SPEAKER_02: In an easy manner, if it's possible.
+SPEAKER_00: Because all the TV sets will be digital, right? All the programs, everything will be in digital, then...
+SPEAKER_00:...and a lot.
+SPEAKER_00: The system will change and...
+SPEAKER_00: Yeah.
+SPEAKER_00:...we have to enter the bed for those changes.
+None: Yeah.
+None: Okay.
+SPEAKER_01: Okay.
+SPEAKER_01: So...
+SPEAKER_01: So, let's go for the...
+SPEAKER_01:...the Nenshiprik.
+SPEAKER_01: And...
+SPEAKER_01: Okay.
+SPEAKER_01: Thank you.
+SPEAKER_00: Okay.
+SPEAKER_00: Thank you.
+None: Okay.
+None: All right.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: All right.
+None: Now

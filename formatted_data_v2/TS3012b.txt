@@ -1,0 +1,797 @@
+SPEAKER_01: I'll wait for the marketing director, actually.
+SPEAKER_01: Anyways, I knew Disney's me.
+None: Nothing.
+SPEAKER_01: So you show me a way to make sure he's later, or later, whatever.
+SPEAKER_01: I'm going to start to have, no, don't have much time anyway.
+SPEAKER_01: Sorry, okay.
+SPEAKER_01: A little bit of a problem.
+SPEAKER_01: We're about to start, so I'll see.
+SPEAKER_01: Okay, welcome again today, functional design phase.
+SPEAKER_01: I'm going to take you over the minutes of last meeting.
+SPEAKER_01: Okay, that was just to get to know each other, have a little thoughts on what your vision is on this project.
+SPEAKER_01: I put the minutes on the, I made on the project chair, so if you want to review them, they're there.
+SPEAKER_01: I'll do this after every meeting.
+SPEAKER_01: So if you have some information, you want to take back, you can find it there.
+SPEAKER_01: Anyways, today's presentation is for everyone of you.
+SPEAKER_01: After I got some new project requirements from the project board, so I'm going to go over those later.
+SPEAKER_01: But I want to start with the stuff you did first, so we can see what everybody came up with.
+SPEAKER_01: And after that, we can have the new requirements and shares and thoughts.
+SPEAKER_01: We want to go first.
+SPEAKER_03: Yeah, share no problem.
+SPEAKER_03: Take it.
+SPEAKER_03: There was a little problem with my computer, so not the wool press station.
+SPEAKER_01: Anyway, let's see what you have.
+SPEAKER_03: Yeah.
+SPEAKER_03: Okay.
+SPEAKER_01: I still have it open.
+SPEAKER_03: I want to open the mice.
+SPEAKER_01: Oh, no.
+SPEAKER_01: I should close it on your own notebook, I guess.
+SPEAKER_03: Oh, no.
+None: Okay.
+SPEAKER_03: It's not true.
+SPEAKER_03: Yes.
+SPEAKER_03: The functional requirements, it's very important for the user.
+SPEAKER_03: It wants to, yeah.
+SPEAKER_03: The method we used, it's not a slide because it went wrong.
+SPEAKER_03: But the method we used, we tested it with 100.
+SPEAKER_03: 100 men.
+SPEAKER_03: And we asked them to what the remote feel like and what's important.
+SPEAKER_01: Is it people or men?
+SPEAKER_01: People, sorry.
+SPEAKER_01: People.
+SPEAKER_01: Okay.
+SPEAKER_01: Both women were the only men.
+SPEAKER_03: Okay.
+SPEAKER_03: The findings, 75% of the use is fine.
+SPEAKER_03: Most remotes are ugly.
+SPEAKER_03: That's pretty shocking.
+SPEAKER_02: Yeah, we have to do something about that.
+SPEAKER_03: Yeah, they want to spend money for a better system, for better remote control.
+SPEAKER_03: So we can do a little nice things with it.
+SPEAKER_03: And the use, yeah, the use, a lot of it doesn't say that.
+SPEAKER_03: So that's the most important thing.
+SPEAKER_03: Oh, yeah.
+SPEAKER_03: Not all is it on my PowerPoint presentation.
+SPEAKER_03: The relevant buttons are the power, the channel selection and the volume selection.
+SPEAKER_03: It's the most basic buttons the user wants to use.
+SPEAKER_03: And less important teletext.
+SPEAKER_03: They use it, but it's not very important on a scale of 0 to 10.
+SPEAKER_03: They 6.5.
+SPEAKER_03: Okay.
+SPEAKER_03: But not important is the channel selection.
+SPEAKER_03: That's a little weird.
+SPEAKER_03: Which channel?
+SPEAKER_03: No, no, no, no.
+SPEAKER_03: That's very important.
+SPEAKER_03: But not important is audio settings, display settings.
+SPEAKER_03: And we could hide those in a menu or something.
+SPEAKER_03: And new preferences, and beep to find your control.
+SPEAKER_03: That was open the test.
+SPEAKER_03: The most people find it irritating when they cannot find their remote control.
+SPEAKER_03: So I think it's beep to sound it and you can find it.
+SPEAKER_03: And another thing they want was speech recognition.
+SPEAKER_03: So they can say what they want.
+SPEAKER_03: Let's go to channel one.
+SPEAKER_03: That's a kind of thing.
+SPEAKER_03: Anyone that may be on LCD screen to look at what's on every channel.
+SPEAKER_01: What they want.
+SPEAKER_01: Preview on the remote control.
+SPEAKER_01: Yeah.
+SPEAKER_01: Preview on the channel.
+SPEAKER_02: Okay.
+SPEAKER_02: Is that manageable?
+SPEAKER_02: Because it sounds pretty expensive.
+SPEAKER_01: It sounds too easy.
+SPEAKER_01: It's possible.
+SPEAKER_01: I think it's best to continue.
+SPEAKER_03: Yeah.
+SPEAKER_03: My personal preferences.
+SPEAKER_03: It's better for my favorite channel so I can zip to my quick to my favorite channel.
+SPEAKER_03: So the remote must see or see what my preferences are for which channel.
+SPEAKER_01: I can tell if you have a step to the channel that you're on most.
+SPEAKER_01: You want it to be programmed, for example, or you want it to recognize your favorite channel.
+SPEAKER_01: You spend 20 million each day on that channel so it recognizes your favorite channel.
+SPEAKER_03: Yeah.
+SPEAKER_03: That's what my personal preference is.
+SPEAKER_01: Okay.
+SPEAKER_01: So it does recognize itself.
+SPEAKER_01: You don't have to say it.
+SPEAKER_03: Okay.
+SPEAKER_03: Maybe it's easier to say it.
+None: Okay.
+SPEAKER_00: I don't know.
+SPEAKER_03: It's manageable.
+SPEAKER_03: I see.
+SPEAKER_03: We will see.
+SPEAKER_03: It's a little bit the end of it.
+SPEAKER_03: Okay.
+SPEAKER_03: A little bit.
+SPEAKER_03: I lost the computer request.
+SPEAKER_01: No problem.
+SPEAKER_01: It's okay.
+SPEAKER_01: Should I go?
+SPEAKER_01: Yeah.
+None: Go ahead.
+None: Yeah.
+SPEAKER_02: So some technical functions.
+SPEAKER_02: Basically, I have some issues which you discussed earlier.
+SPEAKER_02: Let's just start with the method.
+SPEAKER_02: It sounds really easy.
+SPEAKER_02: What does the user do?
+SPEAKER_02: What does the remote control do?
+SPEAKER_02: But there are quite some issues.
+SPEAKER_02: So the things I'm going to concentrate on are the user aspect because the technical aspect, that's pretty much covered.
+SPEAKER_02: We can do that.
+SPEAKER_02: What goes wrong with the user gets the remote control.
+SPEAKER_02: Where is the remote control?
+SPEAKER_02: We've all had it once.
+SPEAKER_02: I want to watch some television.
+SPEAKER_02: Where's the remote control?
+SPEAKER_02: That was one of your ideas which you posted in the network folder.
+SPEAKER_02: It's a very good idea.
+SPEAKER_02: These are just the issues.
+SPEAKER_02: I come to some personal experience findings, possible solutions later.
+SPEAKER_02: Search is for the button.
+SPEAKER_02: There are many buttons on a remote control which are not clear.
+SPEAKER_02: So either we lose those or we try to make it a little bit more clear.
+SPEAKER_02: Also, symbols tend to fade after a while.
+SPEAKER_02: There's nothing more annoying than faded symbols because you don't know which channel is this button.
+SPEAKER_02: So possibly we could find something for that.
+SPEAKER_02: Yes, covered that.
+SPEAKER_02: Oh yes, user presses the button.
+SPEAKER_02: Usually when you have a lot of buttons, buttons are small.
+SPEAKER_02: So you press once, remote control goes completely or something like that.
+SPEAKER_02: So we have to pay attention not to put too many buttons on the remote control.
+SPEAKER_02: And possibly also the size, so more important buttons.
+SPEAKER_02: This is bigger.
+SPEAKER_02: So this is basically what I had in mind in that.
+SPEAKER_02: Fade-proof symbols, locator, sound, so clear.
+SPEAKER_02: We should stick to existing symbols but maybe we could do a little investigation to see whether some symbols need to be replaced by others.
+SPEAKER_02: This I pretty much covered.
+SPEAKER_02: So what we want to go to is not this one.
+SPEAKER_02: But more or less buttons, easy, some bigger buttons.
+SPEAKER_02: So that's basically where I had in mind.
+SPEAKER_02: This is not the final design.
+SPEAKER_02: This is just the general idea of how I'd like to see a general idea.
+SPEAKER_02: So that was it.
+SPEAKER_01: That was it.
+SPEAKER_01: Okay, that was good.
+SPEAKER_01: So we agree on the part that we need to get something on the remote to find it somewhere.
+SPEAKER_01: It gives you a really good idea.
+SPEAKER_01: The durability of the thing.
+SPEAKER_01: Other aspects we'll just see what he came up with and what's possible for that budget.
+SPEAKER_00: Yeah.
+SPEAKER_04: Okay.
+SPEAKER_04: Okay, that's fine.
+SPEAKER_04: Okay, now, working on with me.
+SPEAKER_04: Okay.
+SPEAKER_04: Let's start.
+SPEAKER_04: Let's just...
+SPEAKER_04: Okay, the method.
+SPEAKER_04: There are a few questions that need to be answered.
+SPEAKER_04: You already talked about it a little bit.
+SPEAKER_04: Which buttons are I wanted?
+SPEAKER_04: Is our remote control universal or should it be programmable?
+SPEAKER_04: If it should be programmable, then we need something like a mode that you can switch it.
+SPEAKER_04: Because then the buttons have to send out a different signal than they would normally do.
+SPEAKER_04: And how big is the remote control going to be?
+SPEAKER_04: I'll tell you why that's important to me.
+SPEAKER_04: There are a lot of technical parts in remote control.
+SPEAKER_04: So that's why I also would like to say go a little bit easy on the designs.
+SPEAKER_04: You're talking about beeps and about video screens, but the material inside and the technical aspects are quite complex already.
+SPEAKER_04: So keep in mind that everything that you think of, it has to be built.
+SPEAKER_04: So that's not as easy as it might look like.
+SPEAKER_04: Material study, I'm working on that for the costs.
+SPEAKER_04: I have to check out how far I can go with that.
+SPEAKER_04: Normally a circuit board is made of fiberglass and wires are made of copper.
+SPEAKER_04: That is how it is done and all remote controls work that way.
+SPEAKER_04: I think we can just go on with that.
+SPEAKER_04: Then I've read more integration of materials, it means less cost for the production.
+SPEAKER_04: The more we can make at once in one piece, that is cheaper.
+SPEAKER_01: You may integrate them all into the circuit board.
+SPEAKER_04: Exactly.
+SPEAKER_04: So if we make a circuit board with the connections already on it, then that's cheaper.
+SPEAKER_04: So we have to make something that's not too difficult in the design again.
+SPEAKER_04: This is what it looks like if you press one button.
+SPEAKER_04: So this is not the entire thing.
+SPEAKER_04: You have the power coming in, then you have like a switch.
+SPEAKER_04: If you press it, then some electrical charge goes into the processor.
+SPEAKER_04: That thinks of a Morse code.
+SPEAKER_04: That's how you should see it.
+SPEAKER_04: A Morse code goes to the amplifier, then the signal ascends to two light bulbs.
+SPEAKER_04: You have infrared and an, I would say, a light and indication light that you know that it's functioning.
+SPEAKER_04: Here again, that's my story about the different modes.
+SPEAKER_04: If you want to make remote universal, then the processor has to make up a different Morse code when some button is pressed.
+SPEAKER_04: That makes it much more complex, so we really need to have a look at what we want.
+SPEAKER_04: I don't have any personal preferences so far, except for the materials to be used light at your light.
+SPEAKER_01: Okay.
+SPEAKER_01: That was it.
+SPEAKER_04: I'm going to go back to my thing.
+SPEAKER_01: Okay, back to this screen.
+SPEAKER_01: So I got some new information on the project specifications or changing a little.
+SPEAKER_01: Like you said, TEDx is not very popular anymore because the internet, people don't use TEDx anymore or heartily, so we can either, well, I don't think we should remove the button because there are always people who are using it, but I don't think it should be very, it should be one of the big buttons, for example.
+SPEAKER_01: Just put it somewhere or under a second option or whatever.
+SPEAKER_01: It's not important anymore.
+SPEAKER_01: We're targeting young people now because this is a new product and with this new product we want to appeal to younger people, which are younger people we define under 40.
+SPEAKER_01: So I think it's also good with the fashion and everything.
+SPEAKER_03: And they want to pay for it.
+SPEAKER_01: They want to pay for it.
+SPEAKER_01: People are willing to spend money actually to buy a remote that they like.
+SPEAKER_01: They like the way it looks, the way it functions, so they're actually going to spend money on it.
+SPEAKER_03: With more technical specifications.
+SPEAKER_01: Yeah, and of course, we can go with that anyway.
+SPEAKER_01: And one thing that should be important is that the corporate color and slogan are recognizable, which is apparently black and yellow, but I'm not sure if we, I think we should keep the logo in mind because with colors, you can have a lot of fashionable colors and everything on it, which suits everybody's stay.
+SPEAKER_01: So with that concept, I started thinking, so why not just steal Nokia's idea and just make changeable covers for your, I mean, those cost hardly anything, I think, and people could even spend extra money on buying a cover.
+SPEAKER_01: So I have an entirely remote control that they like to see, or we could, for example, we could make a different, a basic design and sell the cover separately.
+SPEAKER_01: For example, it's just a little marketing idea that could be applied.
+SPEAKER_01: So we can, into people suit really everyone.
+SPEAKER_01: So you don't have to, I think you don't have to make, Ontario remote controls make a basic one and manufacture the cover separately.
+SPEAKER_01: So that was, that was my idea on what we could do to appeal this product to everyone.
+SPEAKER_01: So just, I'm not sure if you came up with anything.
+SPEAKER_01: In the meantime, after making a presentation, let's go back to share.
+SPEAKER_04: No, I think this is a good idea.
+SPEAKER_04: Okay.
+SPEAKER_00: But that is it manageable.
+SPEAKER_03: Yeah.
+SPEAKER_03: With, with an LCD screen, you can.
+SPEAKER_01: Oh, yeah, I think we should lose the LCD screen.
+SPEAKER_01: I think, for example, it's huge.
+SPEAKER_01: I think the LCD is huge.
+SPEAKER_01: It consumes batteries like hell.
+SPEAKER_01: I think it takes over a lot of power.
+SPEAKER_01: It costs too much to have a lot.
+SPEAKER_01: Okay.
+SPEAKER_01: What we could do, what could be possible is maybe not an LCD screen with, with a preview, but I'm not sure if it's even possible.
+SPEAKER_01: For example, a little TV guide.
+SPEAKER_01: Like you have a, just a text only, not a color, just a little text thing so you can use a remote as a TV guide.
+SPEAKER_01: I'm not sure it's even possible.
+SPEAKER_01: After checking that out, maybe you could.
+SPEAKER_01: Yeah, find a little compromise in that, but, yeah, I think the, yeah, the beep is very simple.
+SPEAKER_01: Think to implement, just make a button on your TV and just hit the button in beep somewhere.
+SPEAKER_01: Yeah.
+SPEAKER_01: I think it's easy to implement.
+SPEAKER_04: We want to hit, we want a button on the television.
+SPEAKER_04: I think, yeah.
+SPEAKER_04: I mean, where else should you put it?
+SPEAKER_04: Okay.
+SPEAKER_04: But that rules out universal remote control.
+SPEAKER_01: Yeah, but how are you going to use that if you're, I mean, if you're running a remote, if you're, I mean, if your remote control is lost, how are you going to press, where are you going to press the button?
+SPEAKER_01: Exactly.
+SPEAKER_02: Maybe just a slap on sticker with a button, which sends out a.
+SPEAKER_01: A slap on sticker.
+SPEAKER_01: Oh, you mean like a separate thing you can attach to your TV?
+SPEAKER_00: Yeah, that could be possible.
+SPEAKER_01: A little box.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay.
+SPEAKER_04: I'd like to know now if we want the universal remote to fall in the house because that's.
+SPEAKER_04: I think it's universal.
+SPEAKER_01: Everything I'm going to do.
+SPEAKER_01: I think we should go for universal because apparently we're a separate company making separate remote controls to sell to a lot of people.
+SPEAKER_01: I think universal remote controls to be possible.
+SPEAKER_01: Okay.
+SPEAKER_03: Every one wants to buy it.
+SPEAKER_03: Yeah.
+SPEAKER_03: I think we're targeting everyone.
+None: Yeah.
+SPEAKER_04: It's fine with me, but then I know what's okay.
+SPEAKER_01: Universal is good.
+SPEAKER_01: Speech recognition.
+SPEAKER_01: I think it's very hard because we're selling across multiple countries.
+SPEAKER_01: So I think implementing speech recognition is such a small.
+SPEAKER_01: One.
+SPEAKER_01: And then I think it's very hard to do.
+SPEAKER_03: When you say one to it.
+SPEAKER_01: See, I see Arabian people speaking one to whatever.
+SPEAKER_02: Besides that, the technology isn't really super yet.
+SPEAKER_02: So that is a problem.
+SPEAKER_01: It's not a mature technology.
+SPEAKER_01: I think it takes a lot of memory and everything in the remote control.
+SPEAKER_02: It's a good idea, but it's just not.
+SPEAKER_02: I don't think the market's right for that yet.
+SPEAKER_01: I don't think it should be implemented in the remote control yet.
+SPEAKER_01: Yeah.
+SPEAKER_01: What else do we have?
+SPEAKER_01: Well, you should look into the materials that are a little durable.
+SPEAKER_01: So the symbols won't fade, maybe a little harder plastic.
+SPEAKER_01: Maybe you don't have to do all the buttons, especially the ones that are the popular buttons.
+SPEAKER_01: So those always fade first.
+SPEAKER_01: All right.
+SPEAKER_01: I think that's the most important things that we have now.
+SPEAKER_01: Let's see.
+SPEAKER_04: If we make remote control with changeable covers, then we can also make a cover for every language area.
+SPEAKER_04: That's especially for all the people that they can read it in their own language.
+SPEAKER_01: We're not targeting older people.
+SPEAKER_01: Do you remember that?
+SPEAKER_01: Everything.
+SPEAKER_01: We target is under 40.
+SPEAKER_01: You assume that they read correctly.
+SPEAKER_01: I think the most important thing about young people is that they're really sensitive to trends that are passing through the world.
+SPEAKER_02: But should the exchangeable covers include the buttons themselves?
+SPEAKER_01: No, for now, I think it's just something you put over them.
+SPEAKER_01: That's not even a bad idea.
+SPEAKER_01: I mean, for example, if you're into a durability issue, for example, if your buttons are faded, if you make a durable remote there are faded, you can just buy a new cover.
+SPEAKER_01: I'm not sure it's hard to make.
+SPEAKER_01: But I have no bad idea.
+SPEAKER_04: The buttons are like an ochit telephone on one sleeve, so you don't have to change your whole cover.
+SPEAKER_04: If you can make something that you can only remove the sleeve.
+SPEAKER_04: It works the same as an ochit telephone.
+SPEAKER_01: Yeah, I know.
+SPEAKER_01: It's just one piece of rubber.
+SPEAKER_01: Yeah, that's what I mean.
+SPEAKER_01: Something you have to look into.
+SPEAKER_01: Either change both the buttons and the cover or just the cover.
+SPEAKER_01: I'm not sure which is easy.
+SPEAKER_01: Anyway, yeah.
+SPEAKER_01: This is what we're going to do after just lunch break and have more individual work after that.
+SPEAKER_01: So let's see where we can see the...
+SPEAKER_01: So you have to come up with the components concepts.
+SPEAKER_01: Yeah, you want some...
+SPEAKER_01: You just don't trend watching because even if we're going to do those covers and everything, what people really want, that's what we need to know in this phase because that's going to be the essential final design we're going to come up with.
+SPEAKER_01: Okay.
+SPEAKER_01: Yeah, I think usually in the phase it's pretty obvious.
+SPEAKER_01: I mean, it should be very intuitive.
+SPEAKER_01: Yeah, it should speak for itself.
+SPEAKER_01: For example, I bought a remote control last week with an Intv8.
+SPEAKER_01: It's like old buttons and you have no idea what it does at first.
+SPEAKER_01: And I'm not a total TV nuke anyway.
+SPEAKER_01: So I think it should be...
+SPEAKER_01: Have less or very little buttons and maybe a second level menu for the advanced things.
+SPEAKER_01: Or maybe just stick them under a menu.
+SPEAKER_01: Like you said, the sound options and the surround or whatever.
+SPEAKER_01: The more complicated, just stick them under one menu and give it a...
+SPEAKER_01: Just put it in a software piece, a menu and you can select everything you want to set on your TV.
+SPEAKER_02: Is it technically possible to send a signal to a television and then pops up a menu because we're working with different types of television?
+SPEAKER_02: So we're going to work with that.
+SPEAKER_04: That is true.
+SPEAKER_04: I don't think so.
+SPEAKER_04: No, that's true.
+SPEAKER_04: I don't think so.
+SPEAKER_04: Because the television needs to respond to a signal.
+SPEAKER_02: Yeah, that's true.
+SPEAKER_04: That's not how it is.
+SPEAKER_04: Exactly.
+SPEAKER_02: That's how possible.
+SPEAKER_02: So basically we...
+SPEAKER_01: I'm not sure if it's impossible, but there's a chance it's not.
+SPEAKER_02: Or we could use a double-sided for less-used functions.
+SPEAKER_01: A double-sided remote control?
+SPEAKER_01: Yeah.
+SPEAKER_02: I think that's useful.
+SPEAKER_02: With the cover, it's basically an idea to overcome these issues.
+SPEAKER_01: Yeah, but then you're going to have a lot of wasted buttons.
+SPEAKER_01: For example, you have a Sony TV, the half of the buttons won't function if you have a...
+SPEAKER_01: Or a Sony.
+SPEAKER_02: Now, that one's a portfolio of TV.
+SPEAKER_02: Basic functions, but functions which are not frequently used.
+SPEAKER_02: I don't think we should.
+SPEAKER_02: Yeah.
+SPEAKER_02: Universal remote control.
+SPEAKER_02: We're going to have to have most buttons on it.
+SPEAKER_02: A notch.
+SPEAKER_01: Yeah.
+SPEAKER_01: You have to make it a little decision between the part if you want to get your universal remote control.
+SPEAKER_01: That it should do what people usually do with our TVs.
+SPEAKER_01: The very complicated settings, they can usually do that with either the old remote control if they really hate that thing.
+SPEAKER_01: But you cannot take into consideration all the different brands of TVs.
+SPEAKER_01: I think there is a standard, for example, between...
+SPEAKER_01: Because usually the menu button is usable between different brands, especially the big ones, the big brands.
+SPEAKER_01: I have a universal remote control and I can use the menu button.
+SPEAKER_01: I'm not sure if you can put some reason to that if it's possible.
+SPEAKER_01: I think just the navigation is very basic.
+SPEAKER_01: It's usually...
+SPEAKER_04: But I think there must be a way to invoke the more complicated functions of the television.
+SPEAKER_04: For instance, if your old remote control is broken and you buy hours, then you should be able to get everything out of the television that's in it.
+SPEAKER_04: Yeah, that's true.
+SPEAKER_01: Otherwise, you lose functions by buying all of them.
+SPEAKER_01: I would just reach into that if we can open the menu.
+SPEAKER_01: I think it's possible.
+SPEAKER_01: Okay.
+SPEAKER_01: It's a way how to.
+SPEAKER_01: Yeah.
+SPEAKER_01: Then they can do everything, I suppose, because usually the TVs have that inside their little pieces of software.
+SPEAKER_01: So, it's okay.
+SPEAKER_04: I think that our remote control should not look like any other.
+SPEAKER_04: For instance, Sony makes all the remote controls exactly the same for all the devices.
+SPEAKER_04: And you always grab the wrong one because the formatting of the buttons is exactly the same, only the labels are different.
+SPEAKER_01: It should be a little distinct from everything else.
+SPEAKER_01: It's either...
+SPEAKER_01: Yeah, absolutely.
+SPEAKER_01: Maybe the shape can be a little different.
+SPEAKER_03: Maybe it's a little more curved or whatever.
+SPEAKER_03: Yeah, division.
+SPEAKER_03: And with different colors.
+SPEAKER_02: I'll put some on paper and present them next time.
+SPEAKER_02: Yeah.
+SPEAKER_01: The idea is very nice.
+SPEAKER_01: So, I'm on work.
+SPEAKER_01: Okay.
+SPEAKER_01: I'm not sure what...
+SPEAKER_01: Because we had 40 minutes, I'm not sure how much time we have left for the meeting anyway.
+SPEAKER_01: I heard it beep.
+SPEAKER_01: Yeah, but it wasn't me.
+SPEAKER_01: It was him closing something.
+SPEAKER_01: So, anyway, we could do some work now on the design, for example.
+SPEAKER_01: What do you want?
+SPEAKER_01: Not a trilogut thing.
+SPEAKER_02: Yeah, but we like some curves or...
+SPEAKER_01: Yeah, maybe something like this.
+SPEAKER_01: With a little smooth inside.
+SPEAKER_01: So, you have the transmitter here, for example.
+SPEAKER_01: Let's see that you...
+SPEAKER_01: What we'll be having.
+SPEAKER_01: I think that the button should be...
+SPEAKER_01: The channel button should be...
+SPEAKER_01: And it'll be on the round.
+SPEAKER_01: Let's see.
+SPEAKER_01: One, two...
+SPEAKER_01: God damn it.
+SPEAKER_02: Oh, we get the general idea here.
+SPEAKER_01: Yeah, okay.
+SPEAKER_01: Another one here.
+SPEAKER_01: Let's see what...
+SPEAKER_01: I think those are always on top of the controls.
+SPEAKER_01: So, they should be here.
+SPEAKER_02: And since you're holding it like this, I suggest you put the channel up, channel down.
+SPEAKER_01: With it.
+SPEAKER_01: Yeah, just take it.
+SPEAKER_02: So, you have the up channel.
+SPEAKER_02: Channel.
+SPEAKER_02: The volume.
+SPEAKER_02: Do we want that horizontal or vertical?
+SPEAKER_01: You take triangles or...
+SPEAKER_03: Well, that's fine.
+SPEAKER_01: This is basically what people are accustomed to.
+SPEAKER_01: Maybe we should make them bigger or whatever.
+SPEAKER_01: Yeah, but it just is.
+SPEAKER_01: General idea.
+SPEAKER_02: Maybe the menu button can go in the middle.
+SPEAKER_01: In the middle.
+SPEAKER_01: Usually there.
+SPEAKER_04: Perhaps you should also make something like a flash on it, if it's lost.
+SPEAKER_04: For people that are deaf, they won't do it at the beep.
+SPEAKER_01: Yeah, but for example, if it's lost in your armchair, we'll see a flash.
+SPEAKER_01: You won't be able to find it.
+SPEAKER_01: And flash takes up a lot of batteries again.
+SPEAKER_04: That's true, but it only has to do so when you press a button that is lost.
+SPEAKER_04: Yeah.
+SPEAKER_02: We could make a combination that it goes beep and that's...
+SPEAKER_01: That's an other idea.
+SPEAKER_01: Yeah, I thought for deaf people, for example.
+SPEAKER_01: We could do that.
+SPEAKER_01: Just a little bit.
+SPEAKER_02: So, we have the basic channels we've got here.
+SPEAKER_02: The power button.
+SPEAKER_02: Yeah, that's true.
+SPEAKER_02: Somewhere over here.
+SPEAKER_01: It should be central.
+SPEAKER_01: You shouldn't press it by accident, but it shouldn't be stacked away somewhere.
+SPEAKER_02: I usually press it on top.
+SPEAKER_02: At least that's what I'm accustomed to.
+None: Yeah.
+None: I have no idea.
+SPEAKER_04: I'm not sure if it's possible.
+SPEAKER_04: What would you like to use?
+SPEAKER_01: Yeah, I thought maybe we should move the button's down.
+SPEAKER_01: And you're a reading from...
+SPEAKER_03: You always read from the top to the bottom.
+SPEAKER_03: The bottom will help the bottom.
+SPEAKER_01: Yeah, that's true.
+SPEAKER_01: I think the power button should be on top.
+SPEAKER_01: Yeah.
+SPEAKER_01: First thing you do is turn it on.
+SPEAKER_01: So, a power button on top.
+SPEAKER_02: Okay, mute button.
+SPEAKER_02: Is that somewhere here?
+SPEAKER_01: I think it should be at the bottom somewhere.
+SPEAKER_02: Is that used often?
+SPEAKER_02: Sorry?
+SPEAKER_02: The mute button.
+SPEAKER_02: The picture you don't have.
+SPEAKER_02: Oh.
+SPEAKER_02: I'm pretty much accustomed to it right over here.
+SPEAKER_02: At least in general.
+SPEAKER_01: I don't think it's important.
+SPEAKER_01: I think it should be.
+SPEAKER_03: Or if the volume selection...
+SPEAKER_01: No, because people are accustomed to it.
+SPEAKER_03: It's not at top, but around the volume selection.
+SPEAKER_03: I don't know where I'm.
+SPEAKER_01: Exactly.
+SPEAKER_01: Take this out.
+SPEAKER_01: See.
+SPEAKER_01: I'm going to take triangles anyway.
+SPEAKER_01: I'm drawing triangles, but...
+SPEAKER_02: That's pretty much what people are accustomed to.
+SPEAKER_01: Yeah, it's maybe a bigger, lesser than thing.
+SPEAKER_01: So, anyway, I think this should be the channels.
+SPEAKER_01: What?
+SPEAKER_01: Well, I'm accustomed to the channels being...
+SPEAKER_01: Here, okay.
+SPEAKER_01: That's better.
+SPEAKER_01: Okay, should we channel up and down?
+SPEAKER_04: So, we also look if it's possible to make a rechargeable remote.
+SPEAKER_04: That you don't have to buy no batteries.
+SPEAKER_01: So, that is one part.
+SPEAKER_01: It's a good thing to recharge it.
+SPEAKER_01: Maybe what could be possible is one with rechargeable batteries, for example.
+SPEAKER_01: You have to just put pet-night batteries that are rechargeable.
+SPEAKER_01: It's very annoying.
+SPEAKER_01: I'm not sure if it's expensive, but just take a look at it.
+SPEAKER_01: It might be a very good idea, because it's useful to have it rechargeable.
+SPEAKER_01: But at the same time, if you don't want to recharge it, and you want to watch TV now, you want to be able to put different batteries in it to use it now, and not in half an hour.
+SPEAKER_04: Okay.
+SPEAKER_04: Now, you could make a device, but I'm not sure how that's possible with the cost, that you can put in normal batteries rechargeable.
+SPEAKER_01: I think I have a nice idea.
+SPEAKER_04: The remote also can act as a rechargeer.
+SPEAKER_04: So, then you can choose.
+SPEAKER_04: You have every decision.
+SPEAKER_04: Know what I mean?
+SPEAKER_01: Not exactly.
+SPEAKER_04: You can put in normal pen lights, rechargeable pen lights, but they can also be recharge with the remote, with a wire.
+SPEAKER_01: I think it's a pretty good idea to have a, like, sort of, maybe a base station that you put on the TV, it could be flat, you could insert your remote into it.
+SPEAKER_04: But I think that it will cost a lot.
+SPEAKER_04: Normal wire would be better.
+SPEAKER_04: Like a PDA, a handheld.
+SPEAKER_04: You can just put it in the electricity and it charges itself.
+SPEAKER_01: We were talking about the fact that we wanted to insert either a beep or a flash, or a little separate signaler.
+SPEAKER_01: So, you could put that on the TV, for example.
+SPEAKER_01: It could be very flat.
+SPEAKER_01: It could be very small.
+SPEAKER_01: It's a very small, yeah, I'm drawing it big now, but.
+SPEAKER_01: So, you can put your remote on flat, for example.
+SPEAKER_01: And at the backside of your remote, just a little hole.
+SPEAKER_01: For example, you just put it on and it recharges, for example.
+SPEAKER_01: I think it's very good.
+SPEAKER_02: But again, isn't that too expensive?
+SPEAKER_02: Because that means that we have to implement that.
+SPEAKER_01: That's what you buy yourself.
+SPEAKER_04: I wanted to try to find out that.
+SPEAKER_04: I'm not sure if there's information about it.
+SPEAKER_02: It's just an idea.
+SPEAKER_02: If it's possible.
+SPEAKER_02: Do people actually want that to pay extra for it?
+SPEAKER_01: They want to pay for it.
+SPEAKER_01: They want to pay for it.
+SPEAKER_01: They want to charge for it.
+SPEAKER_01: I'm not sure.
+SPEAKER_01: You should find out if it's rechargeable.
+SPEAKER_03: There was not an ask.
+SPEAKER_03: Yes.
+SPEAKER_04: These are comfort issues.
+SPEAKER_04: So, I think people will pay, they want to pay for comfort.
+SPEAKER_01: They want to pay for comfort, which is just so we could either make a separate station or just send a signal to the remote control to either beep or flash to find it.
+SPEAKER_01: We have to either that or make it integrated with a docking station.
+SPEAKER_04: I think this is a brilliant project.
+SPEAKER_04: I would buy it myself.
+SPEAKER_04: I think it would be good.
+SPEAKER_01: I like to be part of it.
+SPEAKER_01: I like the coffee.
+SPEAKER_01: Can we save this?
+SPEAKER_01: Yeah, we can save this.
+SPEAKER_01: We even save the end.
+SPEAKER_01: Everything.
+SPEAKER_01: Okay.
+SPEAKER_01: So, what do we have here?
+SPEAKER_01: I think you have just a lot of work on if it's possible for the cost.
+SPEAKER_04: I hope if I have information about it.
+SPEAKER_01: Maybe you could find out what people are willing to pay.
+SPEAKER_01: We are going for 24 euro sales price.
+SPEAKER_01: Just try to find out what they are willing to pay for because if they are willing to pay more, we could lose a little profit and maybe attract more customers and just have to see what that looks like.
+SPEAKER_04: I would like to make a decision model.
+SPEAKER_04: What it costs and what kind of materials.
+SPEAKER_04: Choose what we want to do.
+SPEAKER_04: We have some financial information.
+SPEAKER_01: Exactly.
+SPEAKER_01: That would be nice.
+SPEAKER_02: Could you post some other essentials of what people want so that I can work with some buttons?
+SPEAKER_02: Where to put it?
+SPEAKER_02: You seem to have information on that.
+SPEAKER_02: I would like to see some of it.
+SPEAKER_04: Was it not possible to send emails around the office?
+SPEAKER_04: No, it wasn't.
+SPEAKER_01: It was possible not allowed.
+SPEAKER_01: So, that's not why I'm not sure that you're allowed to share.
+SPEAKER_00: Very popular.
+SPEAKER_01: So, I don't care.
+SPEAKER_03: I don't have any information yet.
+SPEAKER_03: I have the...
+SPEAKER_02: I have your PowerPoint presentation.
+SPEAKER_03: The homepage of our Internet.
+SPEAKER_01: I would include the new one.
+SPEAKER_01: Where would we...
+SPEAKER_03: Here's my marketing report.
+SPEAKER_03: Maybe you can look at that.
+SPEAKER_02: Where would we want the teletext button?
+SPEAKER_02: We decided that it's not that important.
+SPEAKER_01: Do we put it somewhere over here?
+SPEAKER_03: It just increases a little.
+SPEAKER_02: This is something for the next meeting.
+SPEAKER_01: It draws up some designs of the phosphory.
+SPEAKER_01: I have not a figure.
+SPEAKER_01: Keep in mind that the important button should be on top.
+SPEAKER_02: We have decided more or less the basic structure.
+SPEAKER_01: I can put the other buttons in.
+SPEAKER_01: Just play a little with this, shift a little up or down, and we'll see what looks best.
+SPEAKER_04: What did you want to say?
+SPEAKER_01: Post your designs from time to time on the product share.
+SPEAKER_03: What I already said is that the remote controls are always lost.
+SPEAKER_03: But it's also for people, they want to learn it fast.
+SPEAKER_01: So we don't want very little buttons.
+SPEAKER_01: Just the buttons use a lot.
+SPEAKER_03: It's easy to learn.
+SPEAKER_02: It should cover all the functions.
+SPEAKER_01: Possibly just an idea that pops.
+SPEAKER_01: We had a function of what people do.
+SPEAKER_01: People change channels, people change volume, and they change channels.
+SPEAKER_01: They turn TV off and on.
+SPEAKER_01: That's what you do.
+SPEAKER_01: I'm not sure who presented that again.
+SPEAKER_01: Those are the basic functions that people use it for.
+SPEAKER_01: So those should be very well represented.
+SPEAKER_02: We could go a step further because some TVs have the possibility to adjust brightness.
+SPEAKER_02: That kind of menus.
+SPEAKER_01: That's true.
+SPEAKER_01: That's why we stick under the menu button.
+SPEAKER_01: Usually in every TV that's configured under the menu.
+SPEAKER_04: That's why we make this.
+SPEAKER_04: Because it needs to be configured in a television.
+SPEAKER_04: If it isn't, then we cannot reach it.
+SPEAKER_04: We need to adjust.
+SPEAKER_04: I think most modern TVs have it in their menu.
+SPEAKER_04: True.
+SPEAKER_04: Isn't there a possibility to do research in that?
+SPEAKER_04: We know that for sure.
+SPEAKER_04: If you rule out functions, then that gets known.
+SPEAKER_04: Then people are not going to buy it.
+SPEAKER_04: Then the consumer bond or something says you cannot do this and that with it.
+SPEAKER_04: If that's commercial.
+SPEAKER_04: We'll see what we can come up with.
+SPEAKER_03: Another thing I want to say is that we are looking at the market for the age younger than 40.
+SPEAKER_03: On my report, I didn't show it in my presentation because of my computer press.
+SPEAKER_03: They want to pay for an LCD screen and a speech recognition.
+SPEAKER_04: I want to pay for...
+SPEAKER_04: Did I really say that like that?
+SPEAKER_04: Yeah.
+SPEAKER_03: Those two things.
+SPEAKER_04: Did I realize how much that costs?
+SPEAKER_02: That's how much I'm doing.
+SPEAKER_02: We're not going to be able to sell it for 25.
+SPEAKER_04: But the LCD screen.
+SPEAKER_04: If they own it, then in features, we cannot do it for that price.
+SPEAKER_01: Okay.
+SPEAKER_01: So we're not focusing on this.
+SPEAKER_01: All the interesting features, not really the LCD.
+SPEAKER_01: Would you pay for speech recognition or control?
+SPEAKER_04: Okay.
+SPEAKER_03: So we can...
+SPEAKER_03: Speech recognition is...
+SPEAKER_03: We can look at the possibilities for an LCD and...
+SPEAKER_03: Yeah, just look at the possibilities.
+SPEAKER_01: I don't know how it's about...
+SPEAKER_01: Apparently it's what people want.
+SPEAKER_01: How much it's supposed to be the most...
+SPEAKER_01: It's called a serious remote.
+SPEAKER_01: Maybe it's not even that expensive.
+SPEAKER_01: Or find a compromise, maybe just black and white.
+SPEAKER_01: Or if it works some extra information on it.
+SPEAKER_04: I doubt it.
+SPEAKER_04: But I really need finance information.
+SPEAKER_04: Me too.
+SPEAKER_01: We all do.
+SPEAKER_01: I think it's something we should put into consideration.
+SPEAKER_01: Apparently it's what people want.
+SPEAKER_01: We should see what it costs if it's possible.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+None: Yeah.
+SPEAKER_01: We should do a little thing about the design because it looks boring, really, to me.
+SPEAKER_01: Even if you put a different cover on it, it looks different.
+SPEAKER_04: It looks taller, maybe.
+SPEAKER_04: And the design.
+SPEAKER_04: It's different.
+SPEAKER_01: This is like phillipsa.
+SPEAKER_01: I have no clue.
+SPEAKER_01: I just do something where it would fit into your hand easily.
+SPEAKER_02: Something like this to make it kind of futuristic.
+SPEAKER_04: Oh, I realize if we make it small, then it needs to be a little thicker.
+SPEAKER_04: I think it's a very old electronica in it.
+SPEAKER_04: Sorry.
+SPEAKER_04: If we make it smaller, that's why, then we need to make it a little thicker.
+SPEAKER_04: Because I have to put all the electrons in it.
+SPEAKER_01: Yeah, we have to keep in mind it shouldn't be too heavy.
+SPEAKER_01: Maybe we can stick it in there, I think.
+SPEAKER_01: Even if in the worst case, you can even, you give me the pen back?
+SPEAKER_01: Yeah, sure.
+SPEAKER_01: So let's say people would want an LCD thing.
+SPEAKER_01: Let's take the basic design again.
+SPEAKER_01: Oh, crap.
+SPEAKER_01: What it came up with.
+SPEAKER_01: Let's make it a little bigger now.
+SPEAKER_01: Let's make it here.
+SPEAKER_01: Anyway, we could, let's say we have an LCD screen.
+SPEAKER_01: People want an LCD screen.
+SPEAKER_01: So then we should probably put it here.
+SPEAKER_01: It doesn't have to be really big, but it just has to be there.
+SPEAKER_01: Things are good place.
+SPEAKER_01: People do it.
+SPEAKER_03: If you're reading from top to bottom, I think it's better to put it at the top.
+SPEAKER_01: It's not the most important function.
+SPEAKER_01: It's just an extra thing.
+SPEAKER_01: You press the buttons on top, but your finger is on top.
+SPEAKER_03: If you are going to put an LCD on it, I think it's very important to use it because it's...
+SPEAKER_01: How can you use an LCD screen?
+SPEAKER_03: The function of it.
+SPEAKER_03: So you can use it maximum because it's caused a lot.
+SPEAKER_02: Now it's pretty much tucked away in your hand.
+SPEAKER_01: If you press a button, you can see it right.
+SPEAKER_01: I'm trying to imagine myself what it would look like.
+SPEAKER_04: I personally would prefer it on the top.
+SPEAKER_04: You would prefer it on the top.
+SPEAKER_01: So we have three people saying it should be on top.
+SPEAKER_01: Then you would have to stack away your buttons somewhere else.
+SPEAKER_01: Anyways.
+SPEAKER_03: It's expensive to build it.
+SPEAKER_03: I'm still not going to stick it to the maximum.
+SPEAKER_01: Well, the LCD thing.
+SPEAKER_01: If it's possible, if it's not too expensive, we should include it because it's cool.
+SPEAKER_04: We should just try to make out if it's possible.
+SPEAKER_04: If it is possible, we should really do it.
+SPEAKER_04: We need that information.
+SPEAKER_04: Also, keep in mind again, the LCD screen is very flat, but it needs transistors, resistors, I don't know what more, and that needs space.
+SPEAKER_04: So I'll have to look if that's possible.
+SPEAKER_03: Yeah, I know.
+SPEAKER_02: So basically, we have to decide now, is what goes on top.
+SPEAKER_02: Do we put the volume control and the channel control here?
+SPEAKER_02: Would we like to press A?
+SPEAKER_01: We could have something that has it on the bottom, maybe in a circle, for example, like in this example.
+SPEAKER_01: I think this is not good, but we could make circular buttons, for example, for up and down.
+SPEAKER_02: Do you agree that we keep this at the center because it's basically the most important?
+SPEAKER_01: I think the channel button should be in the center.
+SPEAKER_01: The channel button should be stick together, for example, here in this section.
+SPEAKER_02: Well, that would make them quite small.
+SPEAKER_01: We're not sure about the size, anyway, it's just a general design to make it as big as we want.
+SPEAKER_02: For example, we could take a big remote control, probably not something we could keep in mind.
+SPEAKER_04: Let's see.
+SPEAKER_04: If we have a space issue, we can also lose one battery.
+SPEAKER_04: It is rechargeable, so we can stick with one instead of two minutes.
+SPEAKER_01: If we even use an LCD screen, we need two.
+SPEAKER_01: Definitely.
+SPEAKER_04: If we need two batteries and an LCD screen, that means enough space.
+SPEAKER_01: We have to see what the size is.
+SPEAKER_01: LCD doesn't have to be very big.
+SPEAKER_04: No, but the things behind it, any space.
+SPEAKER_03: Finish meeting now.
+SPEAKER_02: So, would you like this or would we like the...
+SPEAKER_01: I have to decide with what people want.
+SPEAKER_01: Either this one, this could be the luxurious one.
+SPEAKER_01: So, we have channel buttons here.
+SPEAKER_01: I'm just drawing something.
+SPEAKER_01: I think this wouldn't look cool.
+SPEAKER_01: You could have, for example, small buttons here for some extra functions.
+SPEAKER_01: So, if your basic functions here, which, like we decided before, programs up and down,
+None: we can do that. And what about the speech recognition?
+SPEAKER_01: You could just...
+SPEAKER_03: I'm not sure if we could do that, but you could put a microphone in here.
+SPEAKER_03: Or an LCD or a speech.
+SPEAKER_01: I think LCD is better now.
+SPEAKER_01: Just do research into both.
+SPEAKER_01: What it costs and what it takes for space.
+SPEAKER_04: But let's cut the meeting for now.
+SPEAKER_04: One more thing, I'd like to say.
+SPEAKER_04: Let's give this a name and not like some serial number that no one understands.
+SPEAKER_04: Let's go.
+SPEAKER_01: Shall we try to think about a name?
+SPEAKER_01: Let's say a name.
+None: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: Anyways, the minutes will be on the web shortly.
+SPEAKER_01: There we go.
+SPEAKER_02: Just go and finish up and I'll see you at lunch.
+None: Yeah.
+SPEAKER_04: Good luck.
+SPEAKER_04: Yeah.
+SPEAKER_03: Same.
+SPEAKER_04: Do we have any other...
+SPEAKER_01: Okay.

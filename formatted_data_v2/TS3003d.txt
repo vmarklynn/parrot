@@ -1,0 +1,626 @@
+None: Hello.
+None: Good afternoon.
+SPEAKER_03: Sorry I'm a little late.
+None: Oh, probably.
+None: It got stuck in the traffic.
+SPEAKER_02: It's possible this time of day.
+SPEAKER_02: It starts at 3 o'clock.
+SPEAKER_01: Yeah.
+SPEAKER_01: Let me see. Our fourth and last meeting.
+SPEAKER_01: There he is.
+SPEAKER_01: Yes.
+SPEAKER_01: Okay, this is our last meeting.
+SPEAKER_01: In this meeting we will discuss our final design.
+SPEAKER_01: And we will do some evaluation about not only the product, but also the project.
+SPEAKER_01: And then we're going to close the project today as well.
+SPEAKER_01: So, after that you'll be free to go and spend all your money.
+SPEAKER_01: This design, detailed design meeting, we will discuss the look and feel of the design, the usability interface design, and we will do the product evaluation.
+SPEAKER_01: In order to do that we have this agenda.
+SPEAKER_01: We will have the prototype presentation first.
+SPEAKER_01: Then we will set up some evaluation criteria.
+SPEAKER_01: Then we will look at the finance.
+SPEAKER_01: We will have to see if everything we want to do is also possible within our budget.
+SPEAKER_01: Because everything costs money and the more functions you want to have, the more money it will cost.
+SPEAKER_01: So, we will see if it fits within the 12 and a half euro per remote.
+SPEAKER_01: We will see that later.
+SPEAKER_01: Then we will do the project evaluation and the closing after that.
+SPEAKER_01: We've got 40 minutes.
+SPEAKER_01: So, we will be finished at half past three.
+SPEAKER_01: But first we will do the prototype presentation.
+SPEAKER_01: So, if somebody wants to sit forward.
+SPEAKER_00: Well, this is what me and Richard came up with.
+SPEAKER_00: The default spot for the on-off button, the mute button just below that.
+SPEAKER_00: Then there's the volume and channel selectors.
+SPEAKER_00: Simple plus minus button.
+SPEAKER_00: We thought of a help button.
+SPEAKER_00: If you hold it and you press another button, the help goes to the LCD screen.
+SPEAKER_00: Then there's the 0 to 1 to 0 buttons, a button for teletext, a button for the subtitles and the company logo.
+SPEAKER_00: So, it's rather simple prototype.
+SPEAKER_00: We'll have to see from testing how do users take it.
+SPEAKER_02: Okay.
+SPEAKER_02: Is this a moment where we can ask questions about the functionality?
+SPEAKER_00: Sure. Just pop in at any time.
+SPEAKER_02: When you're in teletext, usually your buttons where you just press it and you go to the next teletext page.
+SPEAKER_04: That's just the normal, as the normal remote controls.
+SPEAKER_04: So, you press it, you come in page 100.
+SPEAKER_04: You can use the normal 1 to 0 buttons.
+SPEAKER_04: You can also use the button for changing the channel, so the shifting button.
+SPEAKER_04: For shifting up in the teletext and shifting down.
+SPEAKER_02: Okay.
+SPEAKER_01: I thought in a few meetings earlier, we tried to give it simple.
+SPEAKER_01: Just a few buttons and large buttons.
+SPEAKER_01: But I think these are all together.
+SPEAKER_01: Quite a few buttons.
+SPEAKER_01: I'm wondering if we really need all of those buttons.
+SPEAKER_00: I think if you look at most controls, they've got more buttons than this.
+SPEAKER_00: And, well, the on-off button, it's a necessity.
+SPEAKER_00: You can't drop that one.
+SPEAKER_00: The volume and channel buttons, you obviously need those.
+SPEAKER_00: The mute button could be replaced by pressing the volume down button twice.
+SPEAKER_00: So, we could cancel that one.
+SPEAKER_00: I think the help button really is necessary because there's no other way to know when someone wants to know what a button does.
+SPEAKER_04: Or you can build in when you press one button.
+SPEAKER_04: Long time.
+SPEAKER_04: Yeah.
+SPEAKER_04: We just discussed that already.
+SPEAKER_04: But we think all people don't know that option.
+SPEAKER_04: They just put in a press button.
+SPEAKER_01: Yeah.
+SPEAKER_01: Okay.
+SPEAKER_00: Well, you can't leave out the number buttons, I guess.
+SPEAKER_00: Yeah.
+SPEAKER_01: And it takes some subtitles.
+SPEAKER_01: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: So, it's rather basic already.
+SPEAKER_02: Yeah.
+SPEAKER_02: I think so.
+SPEAKER_02: That's what I pointed out earlier.
+SPEAKER_02: You just make a control for just the TV.
+SPEAKER_02: There's just not much to gain here.
+SPEAKER_03: Yeah.
+SPEAKER_01: Okay.
+SPEAKER_01: So, yeah, somebody, but, you can do something about the design of the buttons there.
+SPEAKER_00: Yeah.
+SPEAKER_00: It's not a lot of hard to draw on the whiteboard, but they're supposed to be equal sized round with a little logo on it for the volume, the dry angle and stuff.
+SPEAKER_00: Just for recognition.
+SPEAKER_04: Yeah.
+SPEAKER_04: And we don't need a letter or...
+SPEAKER_04: No.
+SPEAKER_04: Yeah.
+SPEAKER_04: So, because we use the little display, we don't have to use it.
+SPEAKER_01: Yeah.
+SPEAKER_00: Okay.
+SPEAKER_00: So, and for the materials we've just chosen for rubber buttons with a different color than the case, so they jump out.
+SPEAKER_00: Okay.
+SPEAKER_00: That's about it.
+SPEAKER_01: That's nice.
+SPEAKER_01: Then, because we only have 30 minutes left.
+SPEAKER_01: I will move on to the finance part, which is pretty exciting to see if it's all possible what we want to do.
+SPEAKER_01: And I can tell you that we're going to have a pretty hard time producing this for 12 and half euros.
+SPEAKER_01: If we see...
+SPEAKER_01: I don't know if I'm filming correctly, so just correct me if you see something wrong.
+SPEAKER_01: I counted two batteries, but maybe we can also use one.
+SPEAKER_01: I don't know if it's possible.
+SPEAKER_01: It's rechargeable.
+SPEAKER_01: It's rechargeable.
+SPEAKER_01: That's right.
+SPEAKER_04: Okay.
+SPEAKER_01: That's two euros off.
+SPEAKER_01: We need the advanced chip, so there's not much to say there.
+SPEAKER_01: Here we have the single curve.
+SPEAKER_01: We can see that the difference between N-curved and the single curve is one euro.
+SPEAKER_01: I don't know, but I think the single curve is good for the design and also for the display to have a prominent place on the remote control.
+SPEAKER_01: I think we have to keep that.
+SPEAKER_01: Then we have the case material supplements.
+SPEAKER_01: It's plastic.
+SPEAKER_01: It's the cheapest one we need.
+SPEAKER_01: That's not much to say either.
+SPEAKER_01: The biggest cost are the buttons.
+SPEAKER_01: Maybe we really should try to discard some buttons to keep our cost though, because we will have to get 12 and half euros at the end.
+SPEAKER_01: Let's first count the buttons we have now, because I'm 16.
+SPEAKER_01: That will be even more than 18 euros.
+SPEAKER_01: So 17.
+SPEAKER_01: Okay, including the help?
+SPEAKER_01: Yeah, 17.
+SPEAKER_01: I think we can discard the help and the mute button by pressing down volume long or pressing down a number.
+SPEAKER_01: Long.
+SPEAKER_01: That saves us one euro already.
+SPEAKER_01: Then we have got 15, I think.
+SPEAKER_01: Yeah.
+SPEAKER_01: 15.
+SPEAKER_01: And this is...
+SPEAKER_02: I assume you count the volume and channel things for two buttons each, right?
+SPEAKER_01: Those are one, I think.
+SPEAKER_04: I think actually there are two buttons.
+SPEAKER_04: It's just one bit.
+SPEAKER_04: Two, one big button, but they are more expensive than the small ones I hear.
+SPEAKER_01: Yeah, but it's not stated in this class.
+SPEAKER_01: Maybe we can even make one button with the volume and the channel in one by pressing...
+SPEAKER_02: Well, I'm thinking maybe you could just integrate three of those numbers to one button.
+SPEAKER_01: That's a possibility as well.
+SPEAKER_02: That would cut the cost.
+SPEAKER_01: So, and it's good for the design as well, so you can make...
+SPEAKER_01: Let's see.
+SPEAKER_01: Like this.
+SPEAKER_01: Looks a bit like a...
+SPEAKER_01: A cross.
+SPEAKER_01: Min?
+SPEAKER_04: But I don't know if it's here.
+SPEAKER_04: Yeah, I still got four buttons, but just...
+SPEAKER_04: So...
+SPEAKER_01: Yeah, I think they count the materials.
+SPEAKER_04: Not a better one, itself, but...
+SPEAKER_04: On the chip there.
+SPEAKER_01: Yeah, on the chip you got still four as well.
+SPEAKER_01: That's right.
+SPEAKER_01: But I think because we have the other ones, chip, we can just count this as one button.
+SPEAKER_02: But now, but I think...
+SPEAKER_02: I think this really is four buttons, anyhow.
+SPEAKER_02: Yes.
+SPEAKER_01: Yeah.
+SPEAKER_01: Maybe it is, but then it seems to me that it's impossible to get the 12 and a half euros.
+SPEAKER_01: Also, the LC display.
+SPEAKER_01: I think it's too expensive for the display we use.
+SPEAKER_00: I think they try...
+SPEAKER_00: If we leave out the display, we can also save money on the chip.
+SPEAKER_01: That's right, but what's the biggest advantage of our remote then?
+SPEAKER_02: Only the docking station, I guess?
+SPEAKER_00: Yeah.
+SPEAKER_00: The docking station isn't even in this schematic.
+SPEAKER_00: No, it's not even taking into the price.
+SPEAKER_01: That's extra.
+SPEAKER_01: That's right.
+SPEAKER_02: Maybe we should move to a different supplier.
+SPEAKER_01: That's an option.
+SPEAKER_01: Poland, something.
+SPEAKER_01: Polish, a player.
+SPEAKER_01: Don't you think we can...
+SPEAKER_01: If we can count this as one button and integrate these buttons in three,
+SPEAKER_00: then we save a lot of money as well. We could save money on it, but would it make the remote more usable for elderly people?
+SPEAKER_02: Yeah, that's what I'm wondering.
+SPEAKER_00: My motor can't even send an SMS message.
+SPEAKER_01: Yeah.
+SPEAKER_01: That's a point.
+SPEAKER_04: We kind of buy a remote control when you can use it.
+SPEAKER_04: We missed...
+SPEAKER_04: Stay below 1250 or...
+SPEAKER_04: Yeah.
+SPEAKER_04: Can't...
+SPEAKER_03: No.
+SPEAKER_02: Well, since the market research indicated that older people spend their money easier, more easy, maybe it's feasible to just put the price of the remote up a little, especially since we have those nice features.
+SPEAKER_01: Yeah, but we have to stick to the 12 and a half years.
+SPEAKER_01: We don't have any more budget to the market.
+SPEAKER_04: It's possible to make one for 1250.
+SPEAKER_01: I don't think so.
+SPEAKER_01: And if you leave out the LC display and if you use less buttons, say...
+SPEAKER_01: You can't use the single chip.
+SPEAKER_04: There it is.
+SPEAKER_04: Do you want to make a...
+SPEAKER_04: So fancy and...
+SPEAKER_04: Quick looking.
+SPEAKER_04: Yeah, objective option.
+SPEAKER_04: So you can stay below 1250.
+SPEAKER_01: I think it's difficult as well.
+SPEAKER_02: Basically becoming a choice between either a good remote and a higher production cost and just any other remote control.
+SPEAKER_01: Or we can leave out the 10 buttons and take one scroll wheel for the program numbers.
+SPEAKER_01: That was one.
+SPEAKER_01: Because then we save 10 buttons and we have five and one.
+SPEAKER_01: And let's see if we have this one and we've got the other ones.
+SPEAKER_00: We're getting closer.
+SPEAKER_02: But how would the scroll wheel work here?
+SPEAKER_01: Then you will...
+SPEAKER_01: Maybe you can...
+SPEAKER_01: If you scroll, you will see the numbers on the LCD display.
+SPEAKER_01: Until you've got the right number and then you push it.
+SPEAKER_02: That would bring up the price of the scroll wheel also.
+SPEAKER_01: Alright, so you scroll and push.
+SPEAKER_01: But then you can push some other buttons as well.
+SPEAKER_00: You could just not scroll for half a second.
+SPEAKER_01: Yeah, so if you scroll to a number and then you wait a half second, then it turns to that channel.
+SPEAKER_02: I think that would be the end of our usability.
+SPEAKER_01: It would definitely drop cost a lot.
+SPEAKER_01: And we need battery.
+SPEAKER_01: And the regular chip is not possible.
+SPEAKER_00: It has to be advanced.
+SPEAKER_00: If you want to use an LCD screen, you need an advanced chip.
+SPEAKER_01: Now we can save a euro by a flat design.
+SPEAKER_01: That's an option we can...
+SPEAKER_01: Then we're almost there.
+SPEAKER_00: If you could just leave out one more button.
+SPEAKER_04: Or we have to skip the subtitle button.
+SPEAKER_01: But I think that is a big advantage for us.
+SPEAKER_01: But can we integrate the data text and the subtitles in one button?
+SPEAKER_01: I think so.
+SPEAKER_02: If you push it three times.
+SPEAKER_02: The teletext subtitles are right now.
+SPEAKER_02: You just push the teletext button.
+SPEAKER_02: Go to page 888.
+SPEAKER_02: And the teletext disappears.
+SPEAKER_02: But the subtitles stay there.
+SPEAKER_04: But if you push the data twice.
+SPEAKER_00: What if you have to scroll to page 888?
+SPEAKER_02: That could be like the scroll to page 8.
+SPEAKER_02: Scroll to page 8.
+SPEAKER_02: But then again, there would be just an option for older people.
+SPEAKER_02: You don't even know what a scroll wheel is.
+SPEAKER_02: Holding a remote with the respect to have 10 buttons for the numbers 1 to 0.
+SPEAKER_02: There are only 5 buttons on it.
+SPEAKER_02: And a scroll wheel.
+SPEAKER_01: I think if you make a good advertisement on television and in the guide, you can explain to the people how to use the scroll wheel.
+SPEAKER_01: You can just make it real simple.
+SPEAKER_01: It saves a lot of money and we can keep our LCD screen which can provide extra information how to use the scroll wheel, how to use the other buttons as subtitles.
+SPEAKER_01: And it's good for the innovative design as well.
+SPEAKER_01: If you would erase these.
+SPEAKER_01: If you would erase them.
+SPEAKER_01: If you would put the...
+SPEAKER_01: It looks a bit odd maybe.
+SPEAKER_02: It's a pretty big scroll wheel.
+SPEAKER_03: Something like that.
+SPEAKER_01: Then you've got the scroll wheel.
+SPEAKER_01: If you erase this one.
+SPEAKER_01: And these are two buttons then.
+SPEAKER_00: You could make two buttons out of that and just if you press the volume button you can control the volume with the scroll wheel.
+SPEAKER_00: So that would save two buttons if you do the same for the channel.
+SPEAKER_01: That's really a good idea I think.
+SPEAKER_01: And that will make the use of the scroll wheel more obvious.
+SPEAKER_01: So we make one for the volume, one for the channel.
+SPEAKER_01: So if we've got one, two, three.
+SPEAKER_00: If we leave out all those buttons perhaps you can go with the flat case and make it smaller overall.
+SPEAKER_00: So if you put the volume and channel buttons on the same height as the enough button, the screen right under that then the scroll button.
+SPEAKER_00: You get a much smaller remote.
+SPEAKER_01: So you can decrease this one to four buttons.
+SPEAKER_04: You can make a big remote control for just the same price as a small one.
+SPEAKER_04: You have to pay for the double curved or single curved.
+SPEAKER_01: It's more the moles in which they are being made I think single curved is really easy to fill in and cases come right out of the machine and single curves you have to have a different machine than a flat one.
+SPEAKER_01: I think this is a really easy one.
+SPEAKER_01: Does everybody think about the flat or single curved design?
+SPEAKER_02: I still think we should go for the single curved design.
+SPEAKER_02: Rich at argument was very good.
+SPEAKER_02: Since we have to cut costs.
+SPEAKER_02: I'm agreeing with the use of research and see what the options are.
+SPEAKER_01: I think we can keep the single curved one just to express our LCD screen a bit more.
+SPEAKER_01: So people will use it more and especially for the help functions will be good if we have scroll button.
+SPEAKER_01: It's necessary to have a good help function as well.
+SPEAKER_01: I think it was better to have this price this bit earlier before we went on to the whole design.
+SPEAKER_01: But I'm glad we could make a bit.
+SPEAKER_01: That's pretty different.
+SPEAKER_02: This is not really like for the group we were making or remote.
+SPEAKER_02: This will really require a lot of marketing to get this to sell.
+SPEAKER_02: If other people like familiar firms and familiar stuff, this is not familiar for them.
+SPEAKER_02: No, but I think they have to do a lot of convincing them.
+SPEAKER_04: I think the most, but they know the scroll buttons from old radio.
+SPEAKER_04: They also have buttons like that for changing.
+SPEAKER_01: We can stick it out.
+SPEAKER_01: It's like an old button.
+SPEAKER_01: Maybe that's recognizable for them as well.
+SPEAKER_01: That's a good one.
+SPEAKER_01: So I'm afraid we have to move on.
+SPEAKER_01: It's less frightening, I think, if they see this design, they think there are only five buttons.
+SPEAKER_02: It might be confusing too.
+SPEAKER_04: That's very special.
+SPEAKER_01: I would buy it.
+SPEAKER_01: Yeah, but you're not 60.
+SPEAKER_01: I would buy it if I was 60.
+SPEAKER_01: No, I didn't know.
+SPEAKER_01: Articos and the 12 and 12 euros?
+SPEAKER_01: No.
+SPEAKER_01: Yes, they are.
+SPEAKER_01: No, but we can go on with the project evaluation.
+SPEAKER_01: Let's see.
+SPEAKER_01: I can sit down.
+SPEAKER_01: I think we still have 15 minutes left, so nice on schedule.
+SPEAKER_01: The project process.
+SPEAKER_02: So I like to set up all these criteria.
+SPEAKER_02: Evaluation criteria.
+SPEAKER_01: That's right.
+SPEAKER_01: That was the point I forgot.
+SPEAKER_01: There we are.
+SPEAKER_01: Evaluation criteria.
+SPEAKER_01: Thank you.
+SPEAKER_01: Go ahead.
+SPEAKER_01: We've got five minutes, I think.
+SPEAKER_01: Five more minutes?
+SPEAKER_01: No, we've got 15 minutes, but okay.
+SPEAKER_01: Yes.
+SPEAKER_02: Okay, so I did some literature study, analysis of the requirements we set up earlier.
+SPEAKER_02: Translated it into criteria, which would be these.
+SPEAKER_02: It's a remote fancy, a shaped look and feel.
+SPEAKER_02: Innovative, what new functions are there.
+SPEAKER_02: Easy to use.
+SPEAKER_02: Is it functional?
+SPEAKER_02: Are there not too many functions?
+SPEAKER_02: Those functions are there useful?
+SPEAKER_02: The cost.
+SPEAKER_02: The target group is the remote really for the group we're making it for.
+SPEAKER_02: And great cognitive ability.
+SPEAKER_02: If our company is easily recognizable, their company made it.
+SPEAKER_02: So we're supposed to evaluate it right now.
+SPEAKER_02: Okay.
+SPEAKER_02: Let's see.
+SPEAKER_02: It's hard because the minutes of our last meeting were not here.
+SPEAKER_01: That's because my pen failed to upload his data.
+SPEAKER_01: Okay.
+SPEAKER_01: I tried to, but it's giving errors by downloading software.
+SPEAKER_02: Okay.
+SPEAKER_02: It's the design fancy on a scale of one to seven.
+SPEAKER_04: I think it's fancy.
+SPEAKER_04: Six.
+SPEAKER_02: Good.
+SPEAKER_02: Is the design innovative?
+SPEAKER_02: Very.
+SPEAKER_02: So with our LCD-
+SPEAKER_01: Set that up station. Let's go to buttons.
+SPEAKER_01: Yeah.
+SPEAKER_01: Seven.
+SPEAKER_01: Seven?
+SPEAKER_01: Yeah.
+SPEAKER_01: So we've got 20 cents for our docking station.
+SPEAKER_02: Should be dual.
+SPEAKER_02: Yeah.
+SPEAKER_02: Is the design easy to use?
+SPEAKER_01: Yeah.
+SPEAKER_02: It's a bit dodgy.
+SPEAKER_01: Well, would be for us, but for all of the...
+SPEAKER_01: I would say four or five.
+SPEAKER_01: Four or five.
+SPEAKER_01: It's between four.
+SPEAKER_02: I'd go for four or two.
+SPEAKER_01: Is it functional?
+SPEAKER_02: Is the design functional?
+SPEAKER_02: Do we have all functions that we want to include?
+SPEAKER_02: Yes.
+SPEAKER_02: I think we do.
+SPEAKER_02: Do we have too many functions?
+SPEAKER_02: No.
+SPEAKER_02: I think so.
+SPEAKER_01: It's pretty slow.
+SPEAKER_01: I think it's seven.
+SPEAKER_02: Seven.
+SPEAKER_02: Oh, and do we take care of the biggest frustrations of the remote control, like it getting lost?
+SPEAKER_02: And...
+SPEAKER_02: Oh, sorry.
+SPEAKER_00: I haven't thought of that one.
+SPEAKER_01: It was...
+SPEAKER_01: I think we do.
+SPEAKER_01: I had them work there.
+SPEAKER_01: They are ugly, not very functional, and getting lost.
+SPEAKER_02: Are the production costs within the preset limits?
+SPEAKER_02: Well, they are now.
+SPEAKER_03: Yeah.
+SPEAKER_02: Does the design fit the group of focus?
+SPEAKER_00: I think that's a free.
+SPEAKER_00: Yeah.
+SPEAKER_01: I think with a new radio button, I think it's better.
+SPEAKER_04: We have to test this.
+SPEAKER_00: Oh, no.
+SPEAKER_00: I still...
+SPEAKER_00: I think it's too fancy to fleshy.
+SPEAKER_02: I think your button is not exactly what older people expect of remote control.
+SPEAKER_02: Yeah.
+SPEAKER_02: True.
+SPEAKER_01: I will give you the four.
+SPEAKER_02: I'm not sure.
+SPEAKER_02: I think I'd go for two.
+SPEAKER_02: I'd go for three.
+SPEAKER_04: So...
+SPEAKER_03: I think I'll do three.
+SPEAKER_02: Is the company recognizable?
+SPEAKER_02: Yes, it is.
+SPEAKER_02: Or is it the logo there?
+SPEAKER_02: Yeah.
+SPEAKER_02: So...
+SPEAKER_01: And they want to put fashion in their products in the slogan of the company.
+SPEAKER_01: We have the removable front cases.
+SPEAKER_01: Yeah.
+SPEAKER_01: So...
+SPEAKER_01: I think it's very recognizable.
+None: Yep.
+SPEAKER_02: So, that would be this.
+SPEAKER_02: I was also supposed to calculate the score, but thought we would have another private...
+SPEAKER_02: We've got the company after this.
+SPEAKER_00: Is this...
+SPEAKER_02: Like after this?
+SPEAKER_01: Are we done?
+SPEAKER_01: We've got to evaluate it.
+SPEAKER_02: Anyhow, these are seven factors.
+SPEAKER_02: Time seven is forty...
+SPEAKER_02: Something?
+SPEAKER_02: Two?
+SPEAKER_02: No.
+SPEAKER_01: Nine?
+SPEAKER_01: No, 49.
+SPEAKER_02: Minus one.
+SPEAKER_02: Minus three, minus four.
+SPEAKER_02: Minus four.
+SPEAKER_02: It will be minus eight.
+SPEAKER_02: Forty-one, out of forty-nine.
+None: That's...
+SPEAKER_03: I'm around eighty percent.
+SPEAKER_02: I guess I'll just type that in on the bottom here.
+SPEAKER_01: That's eighty-four percent.
+SPEAKER_01: I think that's a pretty nice score.
+SPEAKER_02: So that would be the evaluation.
+SPEAKER_01: Okay, thank you.
+SPEAKER_01: So that brings us to the project evaluation.
+SPEAKER_01: Yep.
+SPEAKER_01: Thank you.
+SPEAKER_01: Project process.
+SPEAKER_01: Did we move through the right faces, you think, along the process?
+SPEAKER_04: Yes.
+SPEAKER_02: I think we should have the finance thing a lot earlier.
+SPEAKER_01: That's right.
+SPEAKER_02: In the design phase.
+SPEAKER_01: So a lack of information about prices.
+SPEAKER_01: Yeah.
+SPEAKER_01: That's true.
+SPEAKER_01: Okay.
+SPEAKER_03: Okay.
+SPEAKER_01: Okay.
+SPEAKER_01: So that's the evaluation.
+SPEAKER_02: Was there room for creativity?
+SPEAKER_01: No.
+SPEAKER_01: No.
+SPEAKER_00: Not too much.
+SPEAKER_00: No.
+SPEAKER_01: It's because of the finance sheet.
+None: Yeah.
+SPEAKER_02: It wasn't enough room, but the finance.
+SPEAKER_02: The room was...
+SPEAKER_02: Yeah.
+SPEAKER_02: And I would have liked to go for the younger users also.
+SPEAKER_02: But I was able to access internet and get something of your own.
+SPEAKER_01: Strictions.
+SPEAKER_01: Internet access.
+SPEAKER_01: Okay.
+SPEAKER_01: Leadership.
+SPEAKER_01: Was it clear what everybody had to do?
+SPEAKER_01: According to their roles and functions.
+SPEAKER_04: Yes.
+SPEAKER_01: Teamwork.
+SPEAKER_01: Did it work out?
+SPEAKER_01: Working together.
+SPEAKER_01: Also, you too, here with the...
+SPEAKER_01: Yeah, it was okay.
+SPEAKER_01: Last phase.
+SPEAKER_01: Nice.
+SPEAKER_00: The tasks are very strictured, so you can just do step by step.
+SPEAKER_00: It was very easy.
+SPEAKER_01: Strictions.
+SPEAKER_01: Okay.
+SPEAKER_01: Where the means efficient for the tasks we had to do?
+SPEAKER_01: Or where they...
+SPEAKER_01: Too much.
+SPEAKER_00: Well, the smart board, the drawing is just a pain in the ass, but...
+SPEAKER_00: Smart board.
+SPEAKER_00: The digital pen is very nice.
+SPEAKER_01: If it wants to download this, very data.
+SPEAKER_01: Smart board was irritating.
+SPEAKER_01: So you rather wanted to have a flip over or something else?
+SPEAKER_00: A flip over or a more precise...
+SPEAKER_01: Faster as well.
+SPEAKER_03: Yes.
+SPEAKER_03: Yeah.
+SPEAKER_01: Flip over.
+SPEAKER_04: But if you want to share of when you make a picture like this on the presentation, it's easier to share it with other people.
+SPEAKER_04: So you can save it and put it on the internet or...
+SPEAKER_04: In shared folder or shared.
+SPEAKER_02: Yeah, I tried to open the file on my laptop, but...
+SPEAKER_01: No, it didn't work.
+SPEAKER_01: No, you need the smart board application, I think.
+SPEAKER_01: But I think you can...
+SPEAKER_01: Yeah.
+SPEAKER_01: It should be possible.
+SPEAKER_01: Yeah, you can export this image.
+SPEAKER_01: Yeah, it must be.
+SPEAKER_02: You should have done that, man.
+SPEAKER_01: So the sharing of information was okay.
+None: Turn this here.
+SPEAKER_01: Yeah, it's working.
+SPEAKER_01: Yeah, it's been in here on the table.
+SPEAKER_01: Yeah.
+SPEAKER_01: Yeah, it's possible.
+SPEAKER_01: Yeah.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay.
+SPEAKER_01: That's nice.
+SPEAKER_01: We've found new IDs for having this kind of meeting.
+SPEAKER_01: So...
+SPEAKER_04: Yeah, maybe...
+SPEAKER_04: Just give the numbers of...
+SPEAKER_04: One of our...
+SPEAKER_04: Yeah.
+SPEAKER_04: So it's easier to lose things like that on a computer.
+SPEAKER_04: Yeah.
+SPEAKER_04: So it's like a university.
+SPEAKER_04: Yeah.
+SPEAKER_01: So everybody puts his own score and then it mediates the score and you can get one.
+SPEAKER_01: Yeah, that's better.
+SPEAKER_01: So it's...
+SPEAKER_01: How do we go?
+None: Okay.
+SPEAKER_01: Any further action?
+SPEAKER_01: Right, there we are.
+SPEAKER_01: Okay.
+SPEAKER_01: Any more ideas or questions about the project or about the product?
+SPEAKER_01: It goes, I think...
+SPEAKER_01: Then that's it.
+SPEAKER_01: Get to our last few articles within the budget.
+SPEAKER_04: Yeah.
+SPEAKER_02: Yeah.
+SPEAKER_00: So we are considering we are not going to make a docking station.
+SPEAKER_01: That's a good point.
+SPEAKER_01: But maybe because of the docking station, the price of the remote can also be a little bit higher.
+SPEAKER_02: Yeah.
+SPEAKER_01: And I think you can compensate that as well.
+SPEAKER_01: So I think that shouldn't be the biggest problem because it's very cheap to make as well.
+SPEAKER_01: Do we think we are going to get 12 and a half million?
+SPEAKER_01: What was it?
+SPEAKER_01: 15 million.
+SPEAKER_01: 15 million.
+SPEAKER_01: I think we will.
+SPEAKER_01: If we are going to export this product, it's innovative.
+SPEAKER_01: Especially in America.
+SPEAKER_01: People are pretty.
+SPEAKER_01: Take a dent.
+SPEAKER_01: Sometimes.
+SPEAKER_02: Yeah, still nothing.
+SPEAKER_02: I mean if we are going to make a scroll button anyway, we can do more.
+SPEAKER_02: You can do more for the younger people and for the older people.
+SPEAKER_02: Yeah.
+SPEAKER_02: So maybe we should just refocus.
+SPEAKER_01: Just put it on the market for everybody.
+SPEAKER_01: Specifically for everybody.
+SPEAKER_01: You can change markets by changing the front cover.
+SPEAKER_01: That's one thing you can change it with.
+SPEAKER_01: So you can also try to reach the younger people by putting fancy covers on the market.
+SPEAKER_01: Just as a test.
+SPEAKER_01: See how it works?
+SPEAKER_01: That's I think a good advantage.
+SPEAKER_02: Yeah, I think then it would be way more popular with younger people than it is.
+SPEAKER_02: Then we would be with older people.
+SPEAKER_01: Yeah.
+SPEAKER_02: Even if it were their covers.
+SPEAKER_01: Then I think we can have our little celebration right now.
+SPEAKER_01: That's it.
+SPEAKER_01: I think we still have to fill in one more questionnaire.
+SPEAKER_01: Okay.
+SPEAKER_01: I think, I don't know, I didn't get a message from the ending of the...
+SPEAKER_01: Oh, I think I have one.
+SPEAKER_01: Five more minutes.
+SPEAKER_01: Oh, that's nice.
+SPEAKER_01: Then we still have some questions.
+SPEAKER_01: If somebody has some questions, they can ask them now.
+SPEAKER_01: We can put these in the project folder as well.
+SPEAKER_01: This one.
+SPEAKER_01: Export it.
+SPEAKER_01: Picture, I think.
+SPEAKER_04: Yeah.
+SPEAKER_01: This is another, that's where I guess.
+SPEAKER_01: Let's see, project folder.
+SPEAKER_03: I don't.
+SPEAKER_01: My documents.
+SPEAKER_04: Maybe they will save it.
+SPEAKER_01: I just put it in my documents and that's okay.
+SPEAKER_01: I think I'm going to make our final presentation now.
+SPEAKER_01: You're supposed to make it.
+SPEAKER_01: I will be back in about 10 minutes to show you the final presentation.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay.
+SPEAKER_01: Summary of the project.
+SPEAKER_02: Are we supposed to go into our rooms again?
+SPEAKER_04: Maybe we have to fill in our questionnaire.
+SPEAKER_01: I think you'll get the questionnaire in your room.
+SPEAKER_01: Yeah.
+SPEAKER_01: And then I'll meet you in, think about 10 minutes.
+SPEAKER_01: Okay.
+SPEAKER_01: Okay.
+None: Thank you.
+SPEAKER_01: Hopefully my panel download is software.
+SPEAKER_01: Yeah.
+SPEAKER_01: Or data.
+SPEAKER_02: That would be nice.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.

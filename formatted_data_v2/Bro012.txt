@@ -1,0 +1,667 @@
+SPEAKER_07: Hello. Hey, we're on.
+SPEAKER_07: Okay, so I had some interesting mail from Dan Ellis. Actually, I think he redirected everybody also. So the PD-A mics have a big bunch of energy at five hertz. Where this came up was that I was showing off these waveforms that we have on the web and I just sort of had noticed this, but the major component in the wave in the second waveform, in the pair of waveforms, is actually the air conditioner.
+SPEAKER_07: So I have to be more careful about using that as a good illustration. In fact, it's not of effects of rumor or vibration. It isn't a bad illustration of the effects of room noise on some mics.
+SPEAKER_07: And then we had this other discussion about whether this affects the dynamic range, because I know, although you start off with 32 bits, you end up with 16 bits and, you know, are we getting hurt there, but Dan's pretty confident that we're not that the quantization error is still not a significant factor there.
+SPEAKER_07: So there was a question of whether we should change things here, whether we should change a capacitor on the put box for that or whether we should. Yeah, he suggested a smaller capacitor, right?
+SPEAKER_07: Right. He then I had some other thing discussed with him and the feeling was once we start munching with that, and many other problems could happen. And additionally, we already have a lot of data that's collected with that.
+SPEAKER_07: Yeah. The simple thing to do is he has a, I forget if this wasn't that mayor in the following mail, but he has a simple filter, a digital filter that he suggested. We just run over the data, where we deal with it.
+SPEAKER_07: The other thing, I don't know the answer to, but when people are using Fickalk here, whether they're using it with the high pass filter option or not. And I don't know if anybody knows.
+SPEAKER_07: You can go check. Yeah. So when we're doing all these things using our software, there is, if it's based on the RASTA PLP program, which does both PLP and RASTA PLP, then there is an option there, which then comes up through to Fickalk, which allows you to do a high pass filter.
+SPEAKER_07: And in general, we like to do that because of things like this. And it's pretty, it's not a very severe filter, doesn't affect speech frequencies, even pretty low speech frequencies at all.
+SPEAKER_04: What's the cutoff frequency that you use?
+SPEAKER_07: Oh, I don't know why I wrote this a while ago. Is it like 20? Something like that.
+SPEAKER_07: I mean, I think there's some effect above 20, but it's mild.
+SPEAKER_07: So, I mean, it's probably, there's probably some effect up to 100 hertz or something, but it's pretty mild.
+SPEAKER_07: I don't know, in the strut implementation of this stuff, is there a high pass filter or pre-impicist or something?
+SPEAKER_05: I think we use a pre-impic basis.
+SPEAKER_07: So, we want to go and check that for anything that we're going to use the PDA mic for.
+SPEAKER_07: He says that there's a pretty good roll-off in the PCM mics.
+SPEAKER_07: So, we don't need to worry about them, I'm aware of the other, but if we do make use of the cheap mics, we want to be sure to do that that filtering before we process them.
+SPEAKER_07: And again, if it's depending on the option that our software is being runway, it's quite possible that's already being taken care of.
+SPEAKER_07: But I also have to pick a different picture to show the effects of reverberation.
+SPEAKER_04: Did somebody notice it during your talk?
+SPEAKER_07: No. Well, they may have, but they were...
+SPEAKER_07: They were nice. But, I mean, the thing is, since I was talking about reverberation and showing this thing that was noise, it wasn't a good match, but it certainly was still an indication of the fact that you get noise with distant mics.
+SPEAKER_07: It's just not a great example because not only isn't a reverberation, but it's a noise that we definitely know what to do.
+SPEAKER_07: It doesn't take deep, new bold new methods to get rid of the fiber-hearts noise.
+SPEAKER_07: But so, it was a bad example in that way, but it's still a real thing that we did get out of the microphone in a distance, so it wasn't wrong in the scene appropriate.
+SPEAKER_07: But someone noticed it later, right out to me, and they went, oh, man, why didn't I notice that?
+SPEAKER_07: So I think we'll change our picture around the web when we go that way.
+SPEAKER_07: One of the things I was trying to think about, what's the best way to show the difference?
+SPEAKER_07: I had a couple thoughts. One was that spectrogram that we show is okay, but the thing is, the eyes, and the brain behind them, so good at picking out patterns from noise, that in first glance, you look at them, it doesn't seem like it's that bad, because there's many features that are still preserved.
+SPEAKER_07: So one thing to do might be to just take a piece of the spectrogram where you can see that something looks different, and blow it up, and have that be the part, just to show as well.
+SPEAKER_07: Some things are going to be hurt.
+SPEAKER_07: Another I was thinking of was taking some spectral slices, like we look at with the recognizer, look at the spectrum or capstrom that you get out of there, and the reverberation does change that, so maybe that would be more obvious.
+SPEAKER_03: Spectral slices?
+SPEAKER_07: What do you mean?
+SPEAKER_07: I mean, all the recognizers look at frames, so that one instant time.
+SPEAKER_07: So it's one point in time, or over 20 milliseconds, or something, you have a spectrum or a capstrom, that's why I meant slice.
+SPEAKER_04: You could just throw up the MFCC feature vectors, one from one, one from the other, and then you can look and see how different the numbers are.
+SPEAKER_04: Right, what else are I saying either?
+SPEAKER_04: See how different these sequences are numbers.
+SPEAKER_07: Or I could just add them up and get a different total. It's not the square.
+None: What else is going on?
+SPEAKER_05: Yeah, at first I had to remark, why, I am wondering why the PDA is so far. We were always meeting at the beginning of the table.
+SPEAKER_07: I guess because we had one of the moves. We could move us.
+SPEAKER_05: Yeah, so since the last meeting, we've tried to put together the clean, the OPS, the new filter that's replacing the Filters, and also the delay issues, so that we can consider the delay issue for the online organization.
+SPEAKER_05: So we've put together all this, and we have results that are not very impressive, but there is no real improvement.
+SPEAKER_07: But it's not worse, and it's better latency, right?
+SPEAKER_05: Actually, it's better. It seems better when we look at the mismatch case, but I think we are like cheated here by this problem that in some cases when you modify a slight, slightly modified initial condition, you end up completely somewhere error, somewhere else in the space.
+SPEAKER_05: Yeah.
+SPEAKER_05: Well, the other system, for instance, for Italian, is at 78% recognition rate on the mismatch.
+SPEAKER_05: This new system has 89%, but I don't think it indicates something really.
+SPEAKER_05: I don't think it means that the system is more robust, it's simply affected.
+SPEAKER_07: Well, the test would be if you then tried it on one of the other tests.
+SPEAKER_07: So this was Italian, right?
+SPEAKER_07: So then if you take your changes, then...
+SPEAKER_05: From the 78% recognition rate system, I could change the transition probabilities for the first HMM between the NWC and the MWC.
+SPEAKER_05: By using 0.5 instead of 0.6, 0.4, I think the HMMC is great.
+SPEAKER_04: Yeah, I looked at the results when Stefan did that, and it really happens.
+SPEAKER_04: I mean, the only difference is you change the self-loop transition probability by a tenth of a percent, and it causes 10% difference in the word of a percent.
+SPEAKER_04: Yeah, from point...
+SPEAKER_04: I'm sorry, you change a point one.
+SPEAKER_04: And then not a tenth of a percent, one tenth.
+SPEAKER_04: So from 0.6 to 0.5, and you get 10% better.
+SPEAKER_04: And I think it's what you basically hypothesized in the last meeting about just being very...
+SPEAKER_04: And I think you've mentioned this in your email too. It's just very... you know, you get stuck in some local minimum and this thing throws you out of it, I guess.
+SPEAKER_07: Well, what are... according to the rules, what are we supposed to do about the transition probability? Are they supposed to be 0.5 or 0.6?
+SPEAKER_04: I think you're not allowed to... yeah, it's supposed to be 0.6.
+SPEAKER_07: 0.6. It's supposed to be 0.6.
+SPEAKER_04: Yeah, but changing into 0.5, I think, is... which gives you much better results, but that's not allowed.
+SPEAKER_05: Yeah, but even if you miss 0.5, I'm not sure if we'll always give you the better results.
+SPEAKER_04: Yeah.
+SPEAKER_04: That's sad.
+SPEAKER_04: Right, we only tested it on the medium mismatch, right?
+SPEAKER_04: You said on the other cases you didn't notice.
+SPEAKER_05: I think the reason is... yeah, I...
+SPEAKER_05: So I see my name, I think.
+SPEAKER_05: So it's the fact that the mismatch is trained only on the far microphone.
+SPEAKER_05: Well, for the mismatch case, everything is... using the far microphone training testing.
+SPEAKER_05: Whereas for the I-N-Mismatch training is done on the close microphone, so it's clean speech-based.
+SPEAKER_05: So you don't have this program of looking at the microphone.
+SPEAKER_05: And for the well-match, it's a mix of close microphone and distant microphone.
+SPEAKER_04: I did notice something...
+SPEAKER_04: So it's not just the whole difficult training.
+SPEAKER_04: Somebody, I think, was Morgan suggested at the last meeting that I actually count to see how many parameters and how many frames.
+SPEAKER_04: And there are almost 1.8 million frames of training data and less than 40,000 parameters in the baseline system.
+SPEAKER_04: So it's very, very few parameters compared to how much training data.
+SPEAKER_07: Yeah, so that says that we could have lots more parameters.
+SPEAKER_04: Yeah, I did one quick experiment just to make sure I had everything worked out.
+SPEAKER_04: And I just... for most of the... for all of the digit models, they end up at three mixtures per state.
+SPEAKER_04: And so I just did a quick experiment, or I changed it so that it went to four.
+SPEAKER_04: And it didn't have any significant effect at the medium mismatch and high mismatch cases.
+SPEAKER_04: And it was just barely significant for the well-match better.
+SPEAKER_04: So I'm going to run that again, but with many more mixtures per state.
+SPEAKER_07: Yeah, because at 40, you could have... yeah, easily four times as many parameters.
+SPEAKER_04: And I think also, just seeing what we saw in terms of the expected duration of the silence model when we did this tweaking of the self-loop, the silence model expected duration was really different.
+SPEAKER_04: And so in the case where it had a better score, the silence model expected duration was much longer.
+SPEAKER_04: So it was like, it was a better match.
+SPEAKER_04: I think, you know, if we make a better silence model, I think that will help a lot too for a lot of these cases.
+SPEAKER_04: So, but one thing I wanted to check out before I increased the number of mixtures per state was in their default training script, they do an initial set of three re-estimations.
+SPEAKER_04: And then they build the silence model.
+SPEAKER_04: And then they do seven iterations.
+SPEAKER_04: Then they add mixtures. And then they do another seven. Then they add mixtures.
+SPEAKER_04: Then they do a final set of seven. And they quit.
+SPEAKER_04: Seven seems like a lot to me. And it also makes the experiments go take a really long time.
+SPEAKER_04: I mean, to do one turn around of the well-matched case takes like a day.
+SPEAKER_04: And so, you know, in trying to run these experiments, I noticed, you know, it's difficult to find machines, you know, compute to run on.
+SPEAKER_04: And so one of the things I did was I compiled HTK for the Linux machines.
+SPEAKER_04: Because we have this one from IBM that's got like five processors in it.
+SPEAKER_04: Right.
+SPEAKER_04: And so now you can run stuff on that. And that really helps a lot.
+SPEAKER_04: Because now we've got, you know, extra machines that we can use for compute.
+SPEAKER_04: And if I'm doing running an experiment right now where I'm changing the number of iterations from seven to three, to see how it affects the baseline system.
+SPEAKER_04: And so if we can get away with just doing three, we can do many more experiments more quickly.
+SPEAKER_04: And if it's not a huge difference from running with seven iterations, you know, we should be able to get a lot more experiments done.
+SPEAKER_04: And so I'll let you know what happens with that.
+SPEAKER_04: But if we can, you know, run all of these back ends with many fewer iterations.
+SPEAKER_04: And on Linux boxes, we should be able to get a lot more experimenting done.
+SPEAKER_04: So I wanted to experiment with cutting down the number of iterations before I increased the number of Gaussian.
+SPEAKER_07: So how is it going on the?
+SPEAKER_07: So you did some things.
+SPEAKER_07: They didn't improve things in a way that convinced you you'd substantially improved anything.
+SPEAKER_07: But they're not making things worse and we have reduced latency, right?
+SPEAKER_05: Yeah, but actually, actually it seems to do a little bit worse for the one-match case.
+SPEAKER_05: And we just noticed that actually the way the final score is computed is quite funny.
+SPEAKER_05: It's not a mean of word error rate.
+SPEAKER_05: It's not a weighted mean of error rate.
+SPEAKER_05: It's a weighted mean of improvements.
+SPEAKER_05: So which means that actually the weight on the well-match is...
+SPEAKER_05: Well, what happened is that if you have a small improvement or a small bit on the well-match case, it will have a huge influence on the improvement compared to the reference because the reference system is quite good for well-match case also.
+SPEAKER_04: So it weights the improvement on the well-match case really heavily compared to the improvement on the other cases?
+SPEAKER_05: It's a weighting of the improvement, not of the error rate.
+SPEAKER_04: Yeah, and it's hard to improve on the best case because it's already so good, right?
+SPEAKER_05: Yeah, but what I mean is that you can have a huge improvement on the HM case, like 5% absolute.
+SPEAKER_05: And this will not affect the final score, or most... this will not affect the final score because the improvement relative to the baseline is small.
+SPEAKER_07: So they do improvement in terms of accuracy rather than word error rate?
+SPEAKER_05: Improvements.
+SPEAKER_05: It's compared to the word error rate.
+SPEAKER_07: Okay, so if you have 10% error and you get 5% absolute improvement, then that's 50%.
+SPEAKER_07: Okay, so what you're saying then is that if it's something that has a small word error rate, then even a relatively small improvement on it, and absolute terms will show up is quite large in this. Is that what you're saying? Yes. Okay, but yeah, that's the notion of relative improvement.
+SPEAKER_07: Yeah.
+SPEAKER_07: Word error rate.
+SPEAKER_05: Sure, but when we think about the weighting, which is 0.5, 0.3, 0.2, it's an absolute... on relative figures.
+SPEAKER_05: Yeah.
+SPEAKER_05: So we look at this error rate?
+SPEAKER_07: That's why I've been saying we should be looking at word error rate and not at accuracy.
+SPEAKER_07: I mean, we probably should have standardized the 9 all the way through.
+SPEAKER_04: Well, I mean, it's not that different, right? I mean, just subtract the accuracy.
+SPEAKER_07: Yeah, but when you look at the numbers, your sense of the relative is quite different.
+SPEAKER_07: If you had 90% correct and 5% 5 over 90, it doesn't look like it's a big difference, but 5 over 10 is big.
+SPEAKER_07: So just when you're looking at a lot of numbers, getting a sense of what was important.
+SPEAKER_04: That makes sense.
+SPEAKER_05: Well, anyway, so yeah, so it hurts a little bit on the well match.
+SPEAKER_07: What's a little bit like?
+SPEAKER_05: Like, it's difficult to say because again, I'm not sure I have to...
+SPEAKER_04: Hey Morgan, do you remember that signif program that we used to use for testing signif?
+SPEAKER_04: Is that still valid? I've been using that.
+SPEAKER_07: Yeah, it was actually updated.
+SPEAKER_07: It was updated some years ago and cleaned it up, made some things better.
+SPEAKER_04: Okay, I should find that new one. I just used my old one from 92 or whatever.
+SPEAKER_07: Yeah, I'm sure it's not that different, but...
+SPEAKER_07: He was a little more rigorous as I recall.
+SPEAKER_05: So it's around like 0.5...
+SPEAKER_05: 0.6% absolute on the Daniel.
+SPEAKER_07: Worst?
+SPEAKER_07: Worst, yeah.
+SPEAKER_07: Out of what?
+SPEAKER_05: We start from 94.64, and we go to 94.04.
+SPEAKER_07: So that's 6...
+SPEAKER_04: 93.64, right?
+SPEAKER_04: Is the baseline.
+SPEAKER_05: Oh, the baseline.
+SPEAKER_05: Yeah.
+SPEAKER_05: But I'm not talking about the baseline.
+SPEAKER_04: Oh, oh, I'm sorry.
+SPEAKER_05: My baseline is the submitted system.
+SPEAKER_04: Oh, okay.
+SPEAKER_05: For finish, we start 93.84, and we go to 93.74.
+SPEAKER_05: And for Spanish, we were at 95.05, and we go to 93.61.
+SPEAKER_07: Okay, so we are getting hurt somewhat.
+SPEAKER_07: And is that what, you know what piece?
+SPEAKER_07: You've done several changes here.
+SPEAKER_07: Do you know what piece?
+SPEAKER_05: I guess it's the filter.
+SPEAKER_05: Because, well, we don't have complete result, but the filter...
+SPEAKER_05: So the filter with a shorter delay, earns on the Italian and the light.
+SPEAKER_05: And the other things like...
+SPEAKER_05: Don't sampling something from simple words.
+SPEAKER_05: I'm...
+SPEAKER_05: You're like normalization either.
+SPEAKER_04: So...
+SPEAKER_04: I'm really confused about something.
+SPEAKER_04: If we saw that making a small change, like, you know, a tenth to the self-loop had a huge effect, can we really make any conclusions about...
+SPEAKER_04: Yeah, that's differences in the stuff.
+SPEAKER_04: I mean, especially when they're this small.
+SPEAKER_05: I think we can be completely fooled by this thing.
+None: But...
+SPEAKER_05: Well, yeah...
+SPEAKER_05: There is first this thing, and then...
+SPEAKER_05: I computed the confidence level on the different test sets.
+SPEAKER_05: And for the well-matched, they are around 0.6 percent.
+SPEAKER_05: For the mismatched, they are around...
+SPEAKER_05: I see 1.5 percent.
+SPEAKER_05: For the well-m, HM, they are also around 1.5.
+SPEAKER_07: But, okay, so these degradations you were talking about, were on the well-matched case.
+SPEAKER_07: Yeah.
+SPEAKER_07: Does the new filter make things better or worse for the other cases?
+SPEAKER_05: About the same, it doesn't hurt.
+SPEAKER_07: Doesn't hurt, but it doesn't get a little better or something.
+SPEAKER_07: No.
+SPEAKER_07: Okay, so...
+SPEAKER_07: I guess the argument one might make is that, yeah, if you look at one of these cases, and you jiggle something and it changes, then, you know, I'm quite sure what to make of it.
+SPEAKER_07: You look across a bunch of these, and there's some pattern.
+SPEAKER_07: I mean, so, here's all the...
+SPEAKER_07: If in all these different cases, it never gets better, and there's significant number of cases where it gets worse, then you're probably...
+SPEAKER_07: For any things.
+SPEAKER_07: That would say.
+SPEAKER_07: So, I mean, at the very least, that would be a reasonable prediction of what would happen with a different test set that you're not jiggling things with.
+SPEAKER_07: So, I guess the question is, if you can do better than this.
+SPEAKER_07: If we can approximate the old numbers while still keeping the latency down.
+SPEAKER_07: So...
+SPEAKER_07: So, what I was asking though is, what's the level of communication with the OGI gang now about this?
+SPEAKER_05: Yeah. When we are exchanging data, so, as we see, we have significant results.
+SPEAKER_05: For the moment, they are working on integrating the spectrosuppraction from Eric's.
+SPEAKER_05: Yeah. And so, yeah. We are working northside on other things, also trying to set spectrosuppraction, but...
+SPEAKER_05:...the spectrosuppraction.
+SPEAKER_05: Yeah, so I think it seems okay.
+SPEAKER_07: It's depending further discussion about this idea of having some sort of source code control.
+SPEAKER_05: Yeah. Well, for the moment, everybody is quite...
+SPEAKER_05: There is this Eurospeg deadline.
+SPEAKER_05: I see.
+SPEAKER_05: Yeah. But, yeah. As soon as we have something that's significant, that's better than what was submitted, we will fix this.
+SPEAKER_04: Okay, so, what is your answer to this?
+SPEAKER_07: Do you want me to take this on?
+SPEAKER_07: Yeah. Sounds like a good idea, but I think that that keeps saying people are scrambling for your Eurospeg deadline.
+SPEAKER_04: But that will be done in a week, so maybe after.
+SPEAKER_04: Wow, already a week, man.
+SPEAKER_07: You're right. It's amazing.
+SPEAKER_07: I think anything for your speech or...
+SPEAKER_05: We are trying to do something with the meeting recorded digits.
+SPEAKER_05: And the good thing is that there is this first deadline.
+SPEAKER_05: Yeah.
+SPEAKER_05: Well, some people from OGI are working on paper for this, but there is also the special session about Aurora, which is an extended deadline.
+SPEAKER_07: Oh, for your speech?
+SPEAKER_05: Yeah. So far.
+SPEAKER_07: Oh, special dispensation. That's great.
+SPEAKER_04: Where is your Eurospeg this year?
+SPEAKER_07: Alborg. Alborg.
+SPEAKER_07: So the deadline, once a deadline.
+SPEAKER_05: Once a deadline?
+SPEAKER_07: That's great.
+SPEAKER_07: So we should definitely get something after that.
+SPEAKER_07: But on meeting digits, maybe.
+SPEAKER_05: Yeah.
+SPEAKER_07: So I think that you could certainly start looking at the issue, but I think it's probably on...
+SPEAKER_07: It's from what Stefan is saying. It's unlikely to get sort of active participation
+SPEAKER_04: from the two sides until after they've... Well, I could at least...
+SPEAKER_04: Well, I'm going to be out next week, but I could try to look into like this CVS over the web. That seems to be a very popular way of people distributing changes and over, you know, multiple sites and things.
+SPEAKER_04: So maybe if I can figure out how to do that easily and then pass the information on to everybody that's easy to do is possible and people won't interfere with their regular work, then maybe that would be good.
+SPEAKER_04: And I think we could use it for other things around here too.
+SPEAKER_06: Good. That's cool.
+SPEAKER_03: And if you're interested in using CVS, I've set it up here.
+SPEAKER_03: Oh, great. Okay.
+SPEAKER_04: I used it a long time ago, but it's been a while, so maybe I can ask you some questions.
+SPEAKER_03: So I'll be away tomorrow and Monday, but I'll be back on Tuesday or Wednesday.
+None: Okay.
+SPEAKER_07: You do the other thing, actually, is business about this waveform.
+SPEAKER_07: Maybe you and I can talk a little bit at some point about coming up with a better demonstration of the effects of reverberation for our web page.
+SPEAKER_07: So the...
+SPEAKER_07: Actually, the...
+SPEAKER_07: It made a good audio demonstration because when you play that clip, the really obvious difference is that you can hear two voices in the second one.
+SPEAKER_04: You can just...
+SPEAKER_06: Like, talk into a pet.
+SPEAKER_06: Yeah.
+SPEAKER_04: It's not good reverb.
+SPEAKER_07: No, I mean, it sounds pretty reverber, but I mean, when you play back in a room with a big room, nobody can hear that difference, really.
+SPEAKER_07: They hear that it's lower amplitude and they hear this second voice.
+SPEAKER_07: But that...
+SPEAKER_07: Actually, that makes for a perfectly good demo because that's real obvious thing.
+SPEAKER_07: Not a good two voices.
+SPEAKER_07: Well, that's okay, but for the visual, just, you know, like to have the spectrogram again because your visual abilities as a human being are so good, you can pick out...
+SPEAKER_07: You look at the good one, you look at the screwed up one, and you can see the features in it.
+SPEAKER_04: I noticed that in the pictures I thought, my initial thought was, this is not too bad.
+SPEAKER_04: Right.
+SPEAKER_07: If you look at it closely, you see, well, here's a place where this one has a big format.
+SPEAKER_07: The major formats here are moving quite a bit, and then you look in the other one, and they look practically flat.
+SPEAKER_07: So, I mean, that's why I was thinking in a section like that, you could take a look at just that part of the spectrogram, and you could say, oh, yeah, this really distorted it quite a bit.
+SPEAKER_04: The main thing that struck me in looking at those two spectrograms was the difference in the high frequencies.
+SPEAKER_04: It looked like, for the one that was far the way, you know, everything was tenuated.
+SPEAKER_04: Right.
+SPEAKER_04: I mean, that was the main visual thing that I noticed.
+SPEAKER_07: Right.
+SPEAKER_07: But it's, so, yeah, so there are clearly spectral effects.
+SPEAKER_07: Since you're getting all this indirect energy, then a lot of it does have reduced high frequencies.
+SPEAKER_07: But the other thing is the temporal courses, the things really are changed, and we want to show that in some obvious way.
+SPEAKER_07: The reason I put the waveforms in there was because they do look quite different.
+SPEAKER_07: And so I thought, oh, this is good, but I just, after you put in there, I didn't really look at them anymore.
+SPEAKER_07: So I just, they're different.
+SPEAKER_07: So, what's something that has a more interesting explanation for why they're different?
+SPEAKER_03: So maybe we can just substitute one of these waveforms, and then do some kind of zoom in on this spectrogram on an interesting area.
+SPEAKER_07: Something like that.
+SPEAKER_07: Yeah. The other thing that we had in there that I didn't like was that the most obvious characteristic of the difference when you listen to it is that there's a second voice.
+SPEAKER_07: And the cuts that we have there actually don't correspond to the full waveform.
+SPEAKER_07: It's just the first, I think there was something where he was having some trouble getting so much in, or I forget the reason behind it, but it's the first six seconds or something of it, and it's in the seventh or eighth second or something where the second voice comes in.
+SPEAKER_07: So we would like to actually see the voice coming in too, I think.
+SPEAKER_07: Since that's the most obvious thing when you listen to it.
+SPEAKER_06: So.
+SPEAKER_05: Yeah.
+SPEAKER_05: Yeah.
+SPEAKER_05: So.
+SPEAKER_05: Figures here. Well, we started to work on spectrograms of traction.
+SPEAKER_05: And the preliminary results were very bad.
+SPEAKER_05: So the thing that we did is just to add spectrograms of traction before this, the whole process which contains a monomine vision.
+SPEAKER_05: And it hurts a lot.
+SPEAKER_05: And so we started to look at things like this, which is, well, it's.
+SPEAKER_05: So you have the C0 bar meters for one Italian utterance, and I plotted this for two channels.
+SPEAKER_05: Channel zero is the closed-wave microphone, which is like just a microphone.
+SPEAKER_05: And it's perfectly synchronized.
+SPEAKER_05: And the sentence contains only one word, which is doing.
+SPEAKER_04: This is, this is a lot of C0, the energy.
+SPEAKER_05: There is a lot of C0 when we don't use spectrograms of traction.
+SPEAKER_05: And when there is no online normalization.
+SPEAKER_05: So there is just some filtering with the LDA.
+SPEAKER_05: So that's an example.
+SPEAKER_04: C0 is the closed-talking, the closed channel.
+SPEAKER_05: And channel one is the.
+SPEAKER_05: So C0 is very key.
+SPEAKER_05: Yeah.
+SPEAKER_05: Then when we apply normalization, it looks like the second figure.
+SPEAKER_05: Which is good, well, the noise part is around zero.
+SPEAKER_05: The third figure is what happens when we apply mineralization and variance.
+SPEAKER_05: So what we can clearly see is that on the speech portion, the two channels become very close.
+SPEAKER_05: But also what happens on the noisy portion is that the variance of the analysis.
+SPEAKER_04: This is still being a plot of C0.
+SPEAKER_04: Can I ask, what does variance normalization do?
+SPEAKER_04: What is the effect of that?
+SPEAKER_07: Normalization is the variance.
+SPEAKER_05: What does that mean?
+SPEAKER_05: No, I understand that.
+SPEAKER_04: No, I understand what it is.
+SPEAKER_04: What is it?
+SPEAKER_04: What's the rationale?
+SPEAKER_04: Yeah.
+SPEAKER_07: Why do it?
+SPEAKER_07: Well, I mean, because everything, if you have a system based on Gaussian, everything is based on means and variances.
+SPEAKER_07: So if there's an overall reason, you know, it's like if you're doing image processing.
+SPEAKER_07: And some of the pictures you were looking at, there was a lot of light.
+SPEAKER_07: And some there was low light.
+SPEAKER_07: You'd want to adjust for that in order to compare things.
+SPEAKER_07: And the variance is just sort of like the next moment.
+SPEAKER_07: So what if one set of pictures was taken so that throughout the course, it was one through daylight and night.
+SPEAKER_07: Ten times, another time.
+SPEAKER_07: I mean, it's, you know, how much, how much very, or, no, I guess a better example would be, how much of the light was coming in from outside rather than artificial light.
+SPEAKER_07: So if it was a lot, if more was coming in from outside, then it would be the bigger effect of the change.
+SPEAKER_07: So every mean, every, all of the parameters that you have, especially the variances, are going to be affected by the overall variance.
+SPEAKER_07: And so it's a bit, okay.
+SPEAKER_07: If you remove that source, then, you know, you can...
+SPEAKER_04: So the major effect is that you're going to get is by normalizing the means.
+SPEAKER_04: But it may first order, but first order, thank you.
+SPEAKER_07: But then the second order is the variances.
+SPEAKER_07: Because again, if you, if you're trying to distinguish between E and B, if it just so happens that the E's were more, you know, recorded when the energy was large.
+SPEAKER_07: It was, was, was larger or something, or the variation in it was larger.
+SPEAKER_07: Uh-huh.
+SPEAKER_07: Then the B's, then this will give you some, some bias.
+SPEAKER_07: So it's removing these sources of variability in the data that have nothing to do with the linguistic component.
+SPEAKER_07: Gotcha.
+SPEAKER_07: Okay. Sorry, dinner.
+SPEAKER_07: But the, let me, I just ask you something.
+SPEAKER_07: Is, if, if you have a good voice activity, a checker, isn't, isn't it going to pull that out?
+SPEAKER_05: Yes. Sure.
+SPEAKER_05: Sure. If you have a good, yeah. Well, what it shows is that, yeah, perhaps a good voice activity detector is, is good before magnumization.
+SPEAKER_05: And that's what we already observed.
+SPEAKER_05: But, yeah, voice activity detection is not...
+SPEAKER_04: But after you do this, after you do the variance normalization, I mean, I don't know, it seems like this would be a lot easier than this signal.
+SPEAKER_05: So, to work with... Well, I prefer to look at the second bigger than the third one, because you clearly see where a speech is.
+SPEAKER_05: Yeah. Yeah.
+SPEAKER_05: But the problem is that on the speech portion, channel zero and channel one are more different than when you use variance on the evaluation, where channel zero and channel one become closer.
+SPEAKER_04: But for the purposes of finding this speech, you're more interested in the difference between the speech and the non-speech, right?
+SPEAKER_05: So, I think, yeah, for... I think that perhaps it shows that the parameters that the voice activity detector should use, after use should be different than the parameters that have to be used for speech recognition.
+SPEAKER_07: Yeah. So, basically, you want to reduce this effect. So, you can do that by doing the voice activity detection. You also could do it by special spectral subtraction before the variance normalization, right?
+SPEAKER_05: Yeah, but it's not clear, man.
+SPEAKER_05: So... Well, it's just to... Yeah.
+SPEAKER_05: The number that are here are recognition experiments on the Italian, HM and M, with these two kinds of parameters.
+SPEAKER_05: But it's better with variance normalization.
+SPEAKER_07: Yeah. Yeah, so, that's good, better even out of luck, sogley.
+SPEAKER_07: But does this have the voice activity detection in it? Yeah.
+SPEAKER_05: Okay. So, the fact is that the voice activity detector doesn't work on the channel one, so... Yeah, channel one.
+SPEAKER_04: Yeah.
+SPEAKER_04: What stage is the voice activity detector applied? Is it applied here or after the variance normalization?
+SPEAKER_05: It's applied before variance normalization, so it's a good thing. Because I guess we're setting the detection on this. Yeah. Is it applied all the way back here?
+SPEAKER_05: It's applied... Yeah, something like this.
+SPEAKER_04: Maybe that's why it doesn't work for channel one.
+SPEAKER_05: It could perhaps do just mean normalization before... Nice guy.
+SPEAKER_07: Sort of a couple of other questions, which is if most of what the OGI folk are working with is trying to integrate this other spectrum subtraction, where are we working about it?
+SPEAKER_05: Speckless subtraction. Yeah. It's just... Well, it's another... They are trying to use the...
+SPEAKER_05: Ericsson, and we're trying to use something, nothing else. Yeah, and also to understand what happened, because...
+SPEAKER_05: Okay.
+SPEAKER_05: Well, when we do spectrum subtraction, actually, I think this is the two last figures.
+SPEAKER_05: It seems that after spectrum subtraction, speech is more emerging than...
+SPEAKER_06: Mm-hmm. Speech is more what?
+SPEAKER_05: Well, the difference between the energy of the speech and the energy of the spectrum subtracted no expression is larger.
+SPEAKER_05: Well, if you compare the first figure with this one, I'm trying to just get it's not the same, but if you look at the numbers, you clearly see that the difference between the zero of the speech and the zero of the nice portion is larger.
+SPEAKER_05: But when it advances that after spectrum subtraction, you also increase the variance of the zero.
+SPEAKER_05: So if you apply variance or my addition of this, it completely is...
+SPEAKER_05: Ericsson, everything. Yeah. So yeah.
+SPEAKER_05: And what they did at RGI is just...
+SPEAKER_05: They don't use online on my addition for the moment of spectrum subtraction, I think.
+SPEAKER_05: Yeah. I think as soon as they were trying to do an online addition, it would be a problem.
+SPEAKER_05: So yeah, we're working on the same thing, but I think...
+SPEAKER_05: With different systems.
+SPEAKER_07: Right. I mean, the...
+SPEAKER_07: In election, it's interesting to work on things one way or the other, but I'm just wondering if...
+SPEAKER_07: The list of things that there are to do, if there are things that we won't do because we got two groups doing the same thing.
+SPEAKER_07: That's...
+SPEAKER_07: Just asking.
+SPEAKER_04: There also could be... I mean, I can maybe see a reason for both working on it too, if...
+SPEAKER_04: You know, if you work on something else and you're waiting for them to give you spectral subtraction, I mean, it's hard to know whether the effects that you get from the other experiments you do will carry over once you've then bring in their spectral subtraction module.
+SPEAKER_04: So it's almost like everything's held up waiting for this one thing.
+SPEAKER_04: I don't know if that's true or not, but I could see how. Maybe that's what you were thinking.
+SPEAKER_07: I mean, we still evidently have a latency reduction plan, which isn't quite what you'd like it to be.
+SPEAKER_07: That seems like one prominent thing.
+SPEAKER_07: And then what there are issues of having a second stream or something, that was...
+SPEAKER_07: There was this business that we could use up at 4,800 bits.
+SPEAKER_05: Yeah, but I think we want to work on this day, also want to work on this.
+SPEAKER_05: Yeah, we will try MSG.
+SPEAKER_05: But...
+SPEAKER_05: I think they want to work on this second stream or something.
+SPEAKER_05: Some kind of...
+SPEAKER_05: Not get that one.
+SPEAKER_05: And they call it crap.
+SPEAKER_06: You know, it's crap.
+SPEAKER_07: Okay.
+SPEAKER_07: Do you remember when the next meeting is supposed to be?
+SPEAKER_07: In June.
+SPEAKER_07: Yeah.
+SPEAKER_07: Yeah, the other thing is that you saw that mail about the VAD.
+SPEAKER_07: VAD is performing quite differently.
+SPEAKER_07: So there was this experiment of what if you just take the bass line, a feature, just Melcapster, and you incorporate the different VADs.
+SPEAKER_07: And it looks like the French VAD is actually better.
+SPEAKER_07: It improves the bass line.
+SPEAKER_04: Yeah.
+SPEAKER_05: I don't know which VAD they use.
+SPEAKER_05: If they use the small VAD, I think it's easy to do better because it doesn't work at all.
+SPEAKER_05: So...
+SPEAKER_05: Which one is pretty better than the bass as well?
+SPEAKER_00: Yeah.
+SPEAKER_05: We should ask which VAD.
+SPEAKER_00: I think that he said with the good VAD of Prongoji with the Arcade VAD.
+SPEAKER_00: And the experiment was sometimes better, sometimes worse.
+SPEAKER_05: Yeah, but I think you're talking about the other way that you use VAD on the reference features.
+SPEAKER_05: Yes.
+SPEAKER_07: And on that one, the French one was better.
+SPEAKER_07: I mean, it was enough better that it would account for a fair amount of the difference between a performance, actually.
+SPEAKER_07: So if they have a better one, we should use it.
+SPEAKER_07: You know, it's...
+SPEAKER_07: You can't work on everything.
+SPEAKER_05: Yeah, so we should find out if it's really better, if it's...
+SPEAKER_05: Yeah.
+SPEAKER_05: Compared to the small, on a big band.
+SPEAKER_05: Yeah.
+SPEAKER_05: And perhaps we can easily prove if we put, like, the normalization before...
+SPEAKER_06: Yeah.
+SPEAKER_07: He can't go back in town the week after next, back in the country.
+SPEAKER_07: So start organizing more visits and connections and so forth.
+SPEAKER_07: Working towards students.
+SPEAKER_00: Also, Stefan was thinking that maybe it was useful to sing about voice and voice to work here in voice and voice detection.
+SPEAKER_00: And we are looking at the singing.
+SPEAKER_05: Actually, when we look at all the proposals, everybody is still using some kind of spectrum hand look.
+None: Right?
+SPEAKER_07: No use of pitch, basically.
+SPEAKER_05: Yeah, well, the pitch, but to look at the...
+SPEAKER_05: Fine.
+SPEAKER_05: Well, that's just everyone to find the pitch and the sound.
+SPEAKER_05: It's another feeling that when we look at the...
+SPEAKER_05: Yeah, well, there is no way you can tell if it's for it and then for it.
+SPEAKER_05: If there is some...
+SPEAKER_05: It's easy in clean speech because voice sound, I'm all over it, I'll see.
+SPEAKER_05: So there will be more.
+SPEAKER_05: Yeah.
+SPEAKER_05: There is the first problem, just the larger.
+SPEAKER_05: And then voice sound or more eye frequencies because it's vacation.
+SPEAKER_05: Right.
+SPEAKER_05: But, yeah.
+SPEAKER_05: When you have noise, you have a low frequency, you know, you could be even for voice speech.
+SPEAKER_07: Yeah, you can make these mistakes, but...
+SPEAKER_04: Isn't there some other...
+SPEAKER_04: I think it would be good.
+SPEAKER_04: I'm not going to say, isn't there... aren't there lots of ideas for doing voice activity or speech non-speech rather by looking at, you know, I guess, harmonics or looking across time?
+SPEAKER_07: I think you sound about the voice non-voiced though.
+SPEAKER_04: Yeah.
+SPEAKER_04: Or that, you know, even with voice non-voiced and voiced, I thought that you were...
+SPEAKER_07: I'm really was talking about...
+SPEAKER_07: Well, yeah, we should have finished with it.
+SPEAKER_05: Okay.
+SPEAKER_05: It's good.
+SPEAKER_05: Yeah, so yeah, I think if we try to develop a second stream...
+SPEAKER_05: Well, there would be one stream that is the envelope and the second, it would be interesting to have something that's more related to the fact structure of the spectrum.
+SPEAKER_05: Yeah, so I don't know. We were thinking about like using ideas from Larry Sohn.
+SPEAKER_05: Have a good voice detector or...
+SPEAKER_05: Have a good voice speech detector.
+SPEAKER_05: Let's work in...
+SPEAKER_05: Larry Sohn could be an idea.
+SPEAKER_05: We were thinking about just kind of taking this background and computing the variance.
+SPEAKER_05: I have a resolution spectrum.
+SPEAKER_07: Okay, so today's something about that.
+SPEAKER_07: We had a guy here some years ago who did some work on making use of voicing information to help in reducing the noise.
+SPEAKER_07: So what he was doing is basically you do estimate the pitch.
+SPEAKER_07: Or you estimate fine harmonic structure, which are either way, it's more of the same.
+SPEAKER_07: The thing is that you then can get rid of things that are not...
+SPEAKER_07: If there is strong harmonic structure, you can throw away stuff that's not a harmonic.
+SPEAKER_07: And that is another way of getting rid of part of the noise.
+SPEAKER_07: So that's something that is sort of finer, brings in a little more information than just spectrum of subtraction.
+SPEAKER_07: And he did that sort of in combination with Rostovs, kind of like Rostovs, taking care of convolutional stuff.
+SPEAKER_07: And that's some decent results doing that.
+SPEAKER_07: But yeah, there's all these cues.
+SPEAKER_07: Actually, back when Chuck was here, we did some voice-to-voice classification using a bunch of these.
+SPEAKER_07: And works okay, obviously it's not perfect.
+SPEAKER_07: But the thing is that you can't, given the constraints of this task, we can't, in a very nice way, feed forward to the recognizer, the information, the probabilistic information that you might get about, whether it's voice-to-own voice, we can't affect the distributions or anything.
+SPEAKER_07: But what we, I guess we could.
+SPEAKER_04: Didn't the head dude send around that message?
+SPEAKER_04: I think you sent us all a copy of the message where he was saying that I'm not sure exactly what he was saying, but something having to do with the voice activity detector and that people shouldn't put their own in or something was going to be...
+SPEAKER_07: Okay, so that's voice activity detector as opposed to voicing detector.
+SPEAKER_07: So we're talking about something a little different.
+SPEAKER_07: I'm sorry.
+SPEAKER_07: I'm sorry.
+SPEAKER_07: I guess what you could do, maybe this would be.
+SPEAKER_07: So if you have, if you view this second stream, before you do KLTs and so forth, if you do view it as probabilities.
+SPEAKER_07: And if it's an independent, so if it's not so much envelope based, but fine structure based, looking at harm and acidity or something like that.
+SPEAKER_07: If you get a probability from that information and then multiply it by, you know, multiply it by all the voiced outputs and all the unvoiced outputs, you know.
+SPEAKER_07: Then use that as the take the log of that or pre-nonlinearity.
+SPEAKER_07: And do the KLT on that.
+SPEAKER_07: Then that would, I guess, be a reasonable use of independent information.
+SPEAKER_07: So maybe that's what you meant.
+SPEAKER_07: That would be...
+SPEAKER_05: Yeah, well, that would be...
+SPEAKER_05: Yeah.
+SPEAKER_05: So you'll mean that some kind of probability from the voice thing and that...
+SPEAKER_07: Right, so you have a second neural net, it could be pretty small.
+SPEAKER_07: Yeah, if you have a tandem system, you have some kind of, it could be pretty small, net.
+SPEAKER_07: We did some of this stuff.
+SPEAKER_07: I did some use go and you use...
+SPEAKER_07: The thing is to use information primarily that's different, as you say, it's more fine structure based than envelope based.
+SPEAKER_07: So then you can pretty much guarantee it's stuff that you're not looking at very well with the other one.
+SPEAKER_07: And then you only use it for this one distinction.
+SPEAKER_07: And so now you've got a probability of the two cases and you've got the probability of the finer categories on the other side, you multiply them more appropriate.
+SPEAKER_07: And if they really are from independent information sources, then they should have different kinds of errors and roughly independent errors.
+SPEAKER_07: That's a good choice for...
+SPEAKER_07: Yeah, that's a good idea.
+SPEAKER_05: Because yeah, well, spectrosuffraction is good and we could use the finer structure to let the finer scheme of the null.
+SPEAKER_05: But still, the very...
+SPEAKER_05: This issue with spectrosuffraction that seems to increase the variance of...
+SPEAKER_05: Yeah.
+SPEAKER_05: Well, this is a couple of...
+SPEAKER_05: Right.
+SPEAKER_05: I know in a few of you do some kind of a leg-on-eye addition at the end of the...
+SPEAKER_05: Well, spectrosuffraction has a leg-on-eye addition to...
+SPEAKER_07: What if you do the spectrosuffraction, do some spectrosuffraction first, then do some online normalization, then do some more spectrosuffraction?
+SPEAKER_07: I mean, maybe you can do it in layers or something, so it doesn't hurt too much or something.
+SPEAKER_07: But anyway, I think I was sort of arguing against myself there by giving that example.
+SPEAKER_07: I mean, because I was already sort of suggesting that we should be careful about not spending too much time on exactly what they're doing.
+SPEAKER_07: In fact, if you go into a harmonics-related thing, it's definitely going to be different than what they're doing and should have some interesting properties and noise.
+SPEAKER_07: I know that when people have done sort of the obvious thing of taking your feature vector and adding in some variables which are pitch-related or that it hasn't...
+SPEAKER_07: My impression is it hasn't particularly helped. It has not.
+SPEAKER_07: Yeah, but I think that's a question for this...
+SPEAKER_07: Extending the feature vector versus having different streams.
+SPEAKER_07: Was it nice and nice and conditioned for the example?
+SPEAKER_07: And it may not have been noisy conditions.
+SPEAKER_07: I don't remember the example, but it was on some DARPA data some years ago, so it probably wasn't, actually.
+SPEAKER_05: But we are thinking we're discussing very...
+SPEAKER_05: Perhaps...
+SPEAKER_05: I was thinking about some kind of cheating experiment. It's voicing bit.
+SPEAKER_07: Why don't you just do it with a rure?
+SPEAKER_07: Just in each frame...
+SPEAKER_05: We don't have a free-telling brush. We don't have a labeling...
+SPEAKER_05: We just have a labeling word model.
+SPEAKER_02: You have frame, frame, level.
+SPEAKER_07: But you can align so that it's not perfect, but if you know what was said...
+SPEAKER_04: The problem is that their models are all word-level models. There's no phone models that you get alignable.
+SPEAKER_04: You see, you can find out where the word boundaries are, but that's about it.
+SPEAKER_07: Yeah. I see.
+SPEAKER_02: But we could use the noisy version of Timit, which is similar to the noises found in the TI digits.
+SPEAKER_02: The portion of our aura.
+SPEAKER_05: I guess we can see nothing to be out.
+SPEAKER_05: If this voicing bit doesn't help...
+SPEAKER_05: I think we don't have to...
+SPEAKER_07: We want more about this.
+SPEAKER_07: Right.
+SPEAKER_07: In experiments, we did a long time ago, and it was probably a resource management or something.
+SPEAKER_07: I think you were getting something like still 8% or 9% error on the voicing as I recall.
+SPEAKER_07: So what that said is that sort of love to its own devices, like without a strong language model and so forth, that you would make significant number of errors just with your probabilistic machinery.
+SPEAKER_04: It also... I think there was one problem with that in that we used canonical mapping. So our truth may not have really been true to the acoustics.
+SPEAKER_07: Yeah. Well, back 20 years ago when I did this voiced-on-voiced stuff, we were getting more like 97% or 98% correct in voicing, but that was speaker-dependent.
+SPEAKER_07: Actually, we were doing training on a particular announcer and getting a very good handle on the features.
+SPEAKER_07: We did this complex feature selection thing where we looked at all the different possible features one could have for voicing and exhaustively searched all-size subsets.
+SPEAKER_07: For that particular speaker, you'd find the five or six features which really did well.
+SPEAKER_07: Doing all of that, we get down to 23% error, but that, again, the speaker-dependent with lots of feature selection and very complex sort of thing.
+SPEAKER_07: So I would believe that it was quite likely that looking at envelope-only that would be significantly worse than that.
+SPEAKER_05: And the speech-cordes?
+SPEAKER_05: Yeah, I do. What do they even have to detect first? The modern ones don't do a simple switch. They work on the code book, excitation.
+SPEAKER_07: Yeah, they do analysis by synthesis. They try every possible excitation they have in their code book and find the one that matches best.
+SPEAKER_05: Yeah.
+SPEAKER_04: Okay. Can I just mention one other interesting thing? One of the ideas that we had come up with last week for things to try to improve the system.
+SPEAKER_04: I guess I wrote this in after the meeting, but the thought I had was looking at the language model that's used in the HTK recognizer, which is basically just a big loop.
+SPEAKER_04: So it goes digit, and then that can either go to silence or go to another digit, which that model will allow for the production of infinitely long sequences of digits.
+SPEAKER_04: So I thought, well, I'm going to just look at the what actual digit strings do occur in the training data. And the interesting thing was it turns out that there are no sequences of two long or three long digit strings in any of their training data. So it's either one, four, five, six, up to 11, and then it skips, and then there's some at 16.
+SPEAKER_07: But what about the testing data?
+SPEAKER_07: I don't know. I didn't look at the test data yet. So if there's some testing data that has, has two or three.
+SPEAKER_04: Yeah, but I just thought that was a little odd that there were no two or three long.
+SPEAKER_04: So I just, for the heck of it, I made a little grammar, which had its separate path for each length digit string you could get.
+SPEAKER_04: So there was a one long path, and there was a four long and a five long. And I tried that and it got way worse. There were lots of deletions. So it was, you know, I didn't have any weights on these paths, or I didn't have anything like that.
+SPEAKER_04: And I played with tweaking the word transition penalties a bunch, but I couldn't go anywhere. But I thought, well, if I only allow, I guess I should have looked at to see how often there was a mistake where a two long or three long path was actually put out as a hypothesis.
+SPEAKER_04: So to do that right, you'd probably want to have a lot for them all, but then have weightings and things. So I just thought that was an interesting thing about the data.
+SPEAKER_07: Okay, so we're going to read some more just strings, I guess.
+SPEAKER_04: Yeah.
+SPEAKER_07: I'm going to go ahead and read it.
+SPEAKER_07: 5, 5, 4, 0, 1, 8, 8, 7, 2, 2, 4, 6, 3, 8, 5, 3, 9, 5, 6, 1, 6, 1, 4, 0, 2, 9, 4.
+SPEAKER_07: 737-339.
+SPEAKER_07: 3126-114850.
+SPEAKER_07: 685-3-741-3923.
+SPEAKER_07: 917-839-7546.
+SPEAKER_05: Transcript L-19.
+SPEAKER_05: 874-30-928.
+SPEAKER_05: 859-43471.
+SPEAKER_05: 020-975-009.
+SPEAKER_05: 677-601-5254.
+SPEAKER_05: 423-575-426.
+SPEAKER_05: 903-4-6231.
+SPEAKER_05: 380-08007-8351.
+SPEAKER_05: 471-929-180.
+SPEAKER_04: Transcript L-16.
+SPEAKER_04: 5608-425566.
+SPEAKER_04: 735-475-477.
+SPEAKER_04: 037-715-505.
+SPEAKER_04: 3255-8169-34.
+SPEAKER_04: 393-057-019.
+SPEAKER_04: 588-625-7698.
+SPEAKER_04: 850-33434.
+SPEAKER_04: 230-46550.
+SPEAKER_03: Transcript L-17.
+SPEAKER_03: 946-470139.
+SPEAKER_03: 671-268-209.
+SPEAKER_03: 7500-462280.
+SPEAKER_03: 527-1-7133-5202.
+SPEAKER_03: 616-1120-8959.
+SPEAKER_03: 031-522-71.
+SPEAKER_03: 388-420-8457.
+SPEAKER_03: 680-4835-00.
+SPEAKER_00: Transcript L-18.
+SPEAKER_00: 585-771-443.
+SPEAKER_00: 9241-91-301-1.
+SPEAKER_00: 784-528-3698.
+SPEAKER_00: 739-724-523-96.
+SPEAKER_00: 572-921-08.
+SPEAKER_00: 698-2.
+SPEAKER_00: 288-541.
+SPEAKER_00: 794-9.
+SPEAKER_00: 792-420-563.
+SPEAKER_00: 567-978-558-1.
+SPEAKER_01: Transcript L-21.
+SPEAKER_01: 010-453366.
+SPEAKER_01: 125-545-434.
+SPEAKER_01: 410-6960-7230.
+SPEAKER_01: 793-1-4150.
+SPEAKER_01: 417-083-532-4.
+SPEAKER_01: 165-687-594.
+SPEAKER_01: 377-5030-568.
+SPEAKER_01: 747-999-119.

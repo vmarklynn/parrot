@@ -1,0 +1,456 @@
+SPEAKER_02: That's great.
+SPEAKER_03: Okay, all right.
+SPEAKER_03: Let me just PowerPoint this up.
+SPEAKER_03: Right, so this meeting will be about the conceptual design.
+SPEAKER_03: Don't ask me precisely what conceptual design is.
+SPEAKER_03: It's just something important that we need to do.
+SPEAKER_03: I think it's kind of a turning the abstract into slightly more concrete, and this meeting ideally will come to some final decisions on what we're going to do for the prototype.
+SPEAKER_03: Right, so apologies for the last meeting.
+SPEAKER_03: It was brought to my attention that I did not make the rules clear enough, so I will attempt to do so more accurately in this particular meeting.
+SPEAKER_03: Fair enough. Thanks for the input. It's always good.
+SPEAKER_03: So basically all we're going to do is have some presentations again, much like last time.
+SPEAKER_03: I'm going to go through you. Whoever wants to go first is fine by me, and we'll collate what we know about what we discussed in the last meeting, possible directions. And then we'll make some more decisions on basic, firm up our idea on how we want this remote control to look and work.
+SPEAKER_03: Perfect. So without further ado, whoever wants to go first is free too.
+SPEAKER_03: I'll go first. All right, Nathan. Take it away.
+SPEAKER_03: It is Nathan. I'm not calling you the wrong name over.
+SPEAKER_00: No, Nathan's fine. Good.
+SPEAKER_00: It's either Nathan or participant too.
+SPEAKER_01: Mr. and participant too, that is.
+SPEAKER_01: Nice. Okay. Nice.
+SPEAKER_00: So basically what I'm going to have to talk to you about today is component design.
+SPEAKER_00: And it's been brought to my attention that we may be somewhat limited as to what we can do because of what our manufacturer offers.
+SPEAKER_00: So basically what I'm going to be doing is talking to you about that.
+SPEAKER_00: Components of remote control. Okay. We've already kind of gone over this, but we're going to have to get into more detail and probably have to reach some conclusions sometimes soon. Energy source.
+SPEAKER_00: Our manufacturer offers a variety of energy sources.
+SPEAKER_00: Your standard battery, solar cells are manufactured in to anything about lithium.
+SPEAKER_00: So we might have to look, if we do go that route, we might have to look elsewhere.
+SPEAKER_00: And also there's a kinetic energy possibility.
+SPEAKER_00: Basically it's like a idea of moving the remote would create enough energy to keep it running.
+SPEAKER_00: So that's one possibility, but I don't know whether that would be powerful enough to illuminate a touch screen. So we'll have to look into that.
+SPEAKER_00: The case, we have a few options.
+SPEAKER_00: Plastic, rubber, or wood.
+SPEAKER_00: And then as far as the way it's shaped, we can do standard-borne flat, which we probably don't want to do. Curved or very sexy, double-curved.
+SPEAKER_03: What kind of thickness are we looking at?
+SPEAKER_00: I imagine that we could specify.
+SPEAKER_00: I don't see any reason to go outside of the convention of three or four millimeters.
+SPEAKER_00: Okay.
+SPEAKER_00: The buttons, there are multiple scope buttons available for a manufacturer, but to use those we would have to use more chips.
+SPEAKER_00: And that would cost us more.
+SPEAKER_00: And if we do go with rubber, double-curved case, we'll have to use rubber push buttons.
+SPEAKER_00: Because the other buttons aren't compatible with that.
+SPEAKER_00: And just a little note there, touch screen equals many chips, which equals many euro.
+SPEAKER_00: Right.
+SPEAKER_00: One thing that I noticed is that most remotes operate on the infrared part of the spectrum.
+SPEAKER_00: So you notice when you push a button on the remote, you can't see anything coming out of it.
+SPEAKER_00: But in fact, there is light coming out of the remote and the television conduct that.
+SPEAKER_00: And if you were to record, if you were to make a video recording, you could actually see the light.
+SPEAKER_00: One thing that I thought might be interesting was to use visible light coming out of the remote, just kind of as a fun gimmick.
+SPEAKER_00: So you could actually see something coming out of the remote when you pushed it.
+SPEAKER_00: Of course, it would have to be a part of the spectrum that wouldn't damage the human eye.
+SPEAKER_03: Is there an option that we could have that offer on so a person could select like...
+SPEAKER_00: Yeah. I am sure that we could do that.
+SPEAKER_00: Of course, yeah, yeah, it's a good idea.
+SPEAKER_00: Yeah, just as a fun gimmick.
+SPEAKER_00: Just to set us apart a little bit.
+SPEAKER_00: And then onto the circuit board that we're going to use, also, notice the chip.
+SPEAKER_00: We really don't have any way around the TA-11835.
+SPEAKER_00: Findings. Okay.
+SPEAKER_00: We're very limited by what our current manufacturers can offer.
+SPEAKER_00: And my question to all of you is, should we look to other manufacturers, or just make two with what we have available?
+SPEAKER_00: Interesting question.
+SPEAKER_00: It's a bit of a challenge question.
+SPEAKER_02: Well, I'd say shop around, but with our time constraints, is that really a feasible option?
+SPEAKER_00: Right. That's my concern too.
+SPEAKER_00: If we do go to the lithium battery route, then we'll have to go outside current manufacturing.
+SPEAKER_00: My personal preference is, I'll just throw my cards on the table.
+SPEAKER_00: I think we should probably go to the solar battery route, just to kind of keep with the environmentally friendly theme that we have going on.
+SPEAKER_00: I like the idea that visible light signaling is something to set us apart.
+SPEAKER_00: And I was thinking about...
+SPEAKER_00: I was thinking of ways that we could produce the remote in a variety of different case materials to suit different tastes.
+SPEAKER_00: So not so confined by one style and say, say, if we just go with one, and it doesn't go over well, then we're in a bad situation.
+SPEAKER_03: Right.
+SPEAKER_03: Can we do marketing piloting too?
+SPEAKER_03: Try to see what kind of before we launch. Can we see how they're received?
+SPEAKER_02: It's an option. Actually, I've got some research already on what we're looking at and trends in casing right now, which actually might even come into play beforehand.
+SPEAKER_02: Okay, perfect.
+SPEAKER_02: I'm coming up with a side for now.
+SPEAKER_02: Great. Thank you very much.
+SPEAKER_03: It's perfect. So I guess that makes sense for you to take it from here.
+SPEAKER_02: I guess so.
+SPEAKER_02: Because I found some interesting things.
+SPEAKER_02: Fascinating.
+SPEAKER_02: I know.
+SPEAKER_02: I wanted to hear.
+SPEAKER_02: Right.
+SPEAKER_02: So current market trends.
+SPEAKER_02: Screen.
+SPEAKER_02: Basically, I was looking at what's going on in the remote control market right now, and what's going on in other design fields to see sort of what's trendy, what's new, what's happening.
+SPEAKER_02: Remote control right now, basically, everybody says they want newer, fancier, more exciting.
+SPEAKER_02: They're sick of this boring, normal, functional, that we need innovative design options, and that needs to be an easy user interface.
+SPEAKER_02: The challenge is that current trends right now across the board in fashion, in furniture, in technology is a very organic, fruit and vegetable kind of thing.
+SPEAKER_02: Now, I'm not saying we should have, you know, tomato shaped remote controls or anything, but I think it is possible maybe to use natural colors, like if wood is an option that whole organic sleek clean, lined thing, maybe something we can look into, different skin options, or if we can't afford this touch plate thing or touch face screen interface, maybe having the images be specific like you could choose your menu bullets to be different.
+SPEAKER_02: Okay, not the example I would choose, but you know what I mean to sort of, and apparently the feel of the next couple of years is spongy.
+SPEAKER_02: Not something I come up with a definite answer on, though, if we can get around to getting piloting, I thought maybe a casing option, like not like a skin, but like a holder almost, if you could do like,
+SPEAKER_00: leather options or wood options or something. I should have mentioned this, as far as the rubber that we can use, we can use a rubber as part of the case, it has a consistency of those stress balls.
+SPEAKER_02: Might be an issue way to go. Yeah, so something to sit down for now. So overall, I think we should stick with what we're finding. Every's looking for easy use, technologically innovative and this fancy new, I think perhaps the double curve thing and maybe this rubber option is our best way to go for right now.
+SPEAKER_03: Interface. Oh, the interface graphics for the.
+SPEAKER_02: Well, but then if the touch screen thing isn't going to work out for us, that's really not an issue.
+SPEAKER_00: I like the idea of rubber at sea because it's tenset, be associated with being durable, something that you can drop and it doesn't matter.
+SPEAKER_00: So many, you go to so many houses these days and you see broken remote control.
+SPEAKER_00: Very true.
+SPEAKER_00: Yeah, it's like with duct tape.
+SPEAKER_00: Very much so.
+SPEAKER_00: You would have a problem.
+SPEAKER_01: You could have a duct tape casing.
+SPEAKER_02: I think that goes against the whole fancy something.
+SPEAKER_01: But worth a shot.
+SPEAKER_01: The granola crowd.
+SPEAKER_02: Yeah, that's what I know.
+SPEAKER_03: Great. Thanks for that, Sarah.
+SPEAKER_03: No problem.
+None: Run.
+SPEAKER_01: Computer is adjusting.
+SPEAKER_01: One moment, please.
+SPEAKER_01: So, interface concept by your faithful user interface.
+SPEAKER_01: So, user interface guys is basically aspects of a computer system that we can see.
+SPEAKER_01: Or here.
+SPEAKER_01: Or otherwise, perceive commands and mechanisms that basically user uses to control the operating system.
+SPEAKER_01: Here's a series of different remote controls that are out on the market today.
+SPEAKER_01: I think we're definitely trying to get away from this kind of a look.
+SPEAKER_01: Yeah.
+SPEAKER_01: So, the following are a bunch of different interface concepts.
+SPEAKER_01: Voice recognition.
+SPEAKER_01: We actually have some new information from our research design team.
+SPEAKER_01: But I'll get to that in a moment.
+SPEAKER_01: So, current voice recognition starts up to about 80 speech samples.
+SPEAKER_01: And basically record your own verbal labels and connect them to the remote control.
+SPEAKER_01: Now, our design team, research team has been able to set up a system in which you can teach the remote control voice recognition system to respond to with standard responses like you could say good morning remote control.
+SPEAKER_01: And it will say in a sexy female voice.
+SPEAKER_01: Good morning, too.
+SPEAKER_01: In fact, we already have this for our copy maker line.
+SPEAKER_03: A lot of single people on the remote control.
+SPEAKER_01: Yeah.
+SPEAKER_01: Another concept is what Apple has come up with.
+SPEAKER_01: The spinning wheel with LC display like on the iPods which I'm sure most of you know.
+SPEAKER_01: Then we have this scroll button with the integrated push button.
+SPEAKER_01: Like a modern loss of both of you.
+SPEAKER_01: Crazy. I don't think that's what we're necessarily going for.
+SPEAKER_01: And some special components.
+SPEAKER_01: Ideas like blocking having the ability to block channels from your children.
+SPEAKER_01: And dedicated buttons for commonly used channels.
+SPEAKER_01: And even ideas like secured or hidden programming.
+SPEAKER_01: But again, if we go with touch screen, I don't think that's a big issue.
+SPEAKER_01: And this is kind of the big daddy.
+SPEAKER_01: The jumble universal remote control is almost impossible to miss place.
+SPEAKER_01: Again, probably not what we're going for.
+SPEAKER_01: So I mean, my ideas here and kind of where I think we're heading is something slightly larger than a regular iPod.
+SPEAKER_01: With a hard classic plastic casing, I think some of the suggestions we've come up with are definitely very good ideas.
+SPEAKER_01: Changeable casings of our design team was possibly talking about including one extra faceplate with the package to kind of set the idea that you can change it.
+SPEAKER_01: And you can try changing and kind of get used to thinking about maybe buying another one which can add value to our bottom line.
+SPEAKER_01: Touch screen interface, possibly having go to buttons being stuck into the system so those don't move away from the screen.
+SPEAKER_01: The important ones like power volume and jump between channels.
+SPEAKER_01: And of course our voice commands system which I've talked a little bit about already.
+SPEAKER_01: And the use of recognizable colors in shave state recognition of the features that are around.
+SPEAKER_01: Red for power arrows for different volume ups and downs and channels ups and downs and whatnot.
+SPEAKER_01: And perhaps you've been adding in some stupid little jokes with the voice recognition idea.
+SPEAKER_01: For instance, my toasty maker that I got from my bank has jokes when it's ready.
+SPEAKER_01: Nice.
+SPEAKER_01: Great and that is about it.
+SPEAKER_03: Great wonderful run. Cool.
+SPEAKER_03: A lot of good ideas, good facts to have.
+SPEAKER_03: That's what they need is like a little dongle that just sticks up this furthest.
+SPEAKER_03: You don't have to stand up every time.
+SPEAKER_03: Right.
+SPEAKER_03: So good to know all that stuff. Thanks guys.
+SPEAKER_03: I know we kind of have to come to some decisions.
+SPEAKER_03: I figure we can just go down the line and all three of us can have a chat about it.
+SPEAKER_03: Based on what Nathan presented as far as the various costs and benefits.
+SPEAKER_03: I think, I don't know, what do you guys think about the touch screen at this point?
+SPEAKER_02: I think it's our most marketable feature just because it's so new and it's something that is showing up in other places.
+SPEAKER_03: Okay.
+SPEAKER_02: But can we really afford it because it looks like they would be that would be a really main cost source then.
+SPEAKER_02: Right.
+SPEAKER_00: My estimate is that in order to incorporate touch screen technology, it's going to cost those upwards of 1750 euro.
+SPEAKER_00: It's pretty easy to watch.
+SPEAKER_01: It's just an estimate that.
+SPEAKER_01: You guys are always the dampers on these hands.
+SPEAKER_01: You're industrial designer.
+SPEAKER_01: I know.
+SPEAKER_02: And our goal was to be under 1250 or we have to be under 1250.
+SPEAKER_00: Well, I thought there was some flexibility with that.
+SPEAKER_03: There is.
+SPEAKER_03: It's just it is a question of.
+SPEAKER_03: To justify it.
+SPEAKER_03: And how much does that mean we're going to have to increase the price to make money.
+SPEAKER_03: From 1250 if we want to get a 100% profit margin.
+SPEAKER_03: That would mean selling it for 25.
+SPEAKER_03: If you multiply 1750 by two, that's 35.
+SPEAKER_03: Right.
+SPEAKER_03: So.
+SPEAKER_01: Where do you guys come up with these numbers?
+SPEAKER_00: There's just stuff in the head.
+SPEAKER_00: It is pending for their emails.
+SPEAKER_03: From the board.
+SPEAKER_03: Well.
+SPEAKER_02: Do I think that's what people would pay for.
+SPEAKER_02: I mean, if you're going to pay for an expensive high-class remote, you're going to expect to do something.
+SPEAKER_00: That's true.
+SPEAKER_03: I would be in a class of a term.
+SPEAKER_03: Yeah.
+SPEAKER_03: And that's to be fair.
+SPEAKER_03: The percent of the market, we're not going for mass, you know, mass sales anyway.
+SPEAKER_03: We're going to make.
+SPEAKER_03: I mean, we're not talking about selling eight zillion of these things.
+SPEAKER_03: We just couldn't not for 25 euros.
+SPEAKER_03: So.
+SPEAKER_03: We could probably maybe shrink the profit margin rather than selling for 25, sell them for 30.
+SPEAKER_03: But that's something we can have finance deal with.
+SPEAKER_03: I say that we provision would go with the touchscreen.
+SPEAKER_01: What was your thought of the matter on?
+SPEAKER_01: It's a really good idea.
+SPEAKER_01: And I also think that we could probably come up with some sort of a cheaper means to go about this kind of production.
+SPEAKER_01: My team on the third floor suggested that.
+SPEAKER_02: Well, and we can look into this other manufacturing option.
+SPEAKER_02: I mean, you can get them somewhere else cheaper.
+SPEAKER_00: Yeah.
+SPEAKER_00: It's true.
+SPEAKER_00: We could initially go with what we have and if we can find the system.
+SPEAKER_03: Starting point anyway.
+SPEAKER_03: So.
+SPEAKER_03: We could have a very simple touchscreen.
+SPEAKER_03: You know, there's always the opportunity that's going to be about the size of the iPod or whatever.
+SPEAKER_03: Yeah, I guess we can play around with it.
+SPEAKER_03: All right.
+SPEAKER_03: Let's say that.
+SPEAKER_03: Okay.
+SPEAKER_03: So the touchscreen will be our main selling point here.
+SPEAKER_01: I mean, I think that we really have two main selling points.
+SPEAKER_01: I think that our casing.
+SPEAKER_01: And the voice record.
+SPEAKER_02: I mean, really, this is pretty bells and whistles kind of remote.
+SPEAKER_03: Yeah.
+SPEAKER_03: The voice rack thing.
+SPEAKER_03: I mean, if we're looking at bottom line.
+SPEAKER_03: Now we're looking at opening the cost of 17 to get the touchscreen on.
+SPEAKER_03: I think we might have to drop the voice rack.
+SPEAKER_02: I think we'd have to decide between them.
+SPEAKER_02: Definitely.
+SPEAKER_01: Yeah.
+SPEAKER_01: To be honest, we have the key.
+SPEAKER_01: We have the design in house.
+SPEAKER_01: I mean, we've, we've come up with this, which is new voice.
+SPEAKER_01: We're using it for coffee machines already.
+SPEAKER_01: I can pass you on that email from my guy and guy down the hall.
+SPEAKER_01: Sounds good.
+SPEAKER_03: What do you think on anything about the voice rack?
+SPEAKER_00: I think if we, we do both the obviously production costs are going to go way up.
+SPEAKER_00: But it does put it into become the Rolls Royce of remote controls.
+SPEAKER_00: Pretty much.
+SPEAKER_00: Very nice.
+SPEAKER_01: I mean, we have to reflect back on what our market research did say.
+SPEAKER_02: Right.
+SPEAKER_02: And they said they won voice recognition.
+SPEAKER_02: Of course, maybe they hadn't thought of this whole touchscreen option.
+SPEAKER_02: But definitely we know the market is there for voice recognition.
+SPEAKER_02: So to say we have the technology and we're not going to use it, even though we know it will sell.
+SPEAKER_02: There's a call I don't think I can give the high-ups.
+SPEAKER_02: Like really, I can't go in and say no.
+SPEAKER_02: We're going to stick nor everything we know.
+SPEAKER_03: Yeah.
+SPEAKER_01: Does having both really up our costs?
+SPEAKER_03: I can't see how it wouldn't.
+SPEAKER_03: I mean, there's, you know, the old aphorism.
+SPEAKER_03: You can have it fast.
+SPEAKER_03: You can have it cheap.
+SPEAKER_03: You can have it quality.
+SPEAKER_03: Pick two of three.
+SPEAKER_03: You know, you can't have all three.
+SPEAKER_00: Because you, it's just a number of chips that you need to deal with each different function.
+SPEAKER_03: Well, if we're going to pick it to, all right.
+SPEAKER_03: So we have to pick between one of the two.
+SPEAKER_03: Otherwise, yeah, we just, it just becomes cost prohibitive.
+SPEAKER_03: What, which, which do we suspect we should hold on?
+SPEAKER_03: We should hold on to.
+SPEAKER_02: Well, we already have research backing voice recognition as, you know, viscerally solvent.
+SPEAKER_02: But I, I, I personally would tend to the direction, but if that's what's going to sell, I think that's what we need to go with.
+SPEAKER_02: And maybe we can table this touchscreen for our next model.
+SPEAKER_00: I would have to side with that.
+SPEAKER_00: I think the voice recognition is simpler.
+SPEAKER_00: We have the, all the technology in house that's ready to go.
+SPEAKER_00: It's packaged.
+SPEAKER_03: What does the cost look like?
+SPEAKER_03: Well, it's a cheaper to do the VR to do the touchscreen.
+SPEAKER_00: Well, I, um, it's just off the top of my head.
+SPEAKER_00: Keep in mind.
+SPEAKER_00: But I think the voice recognition would, they're both it.
+SPEAKER_00: They're both going to push the cost up.
+SPEAKER_00: But, um, since we already have the technology in house for the voice recognition, we're not going to have to do as much design work.
+SPEAKER_00: And sometimes the design work is what pushed the cost up.
+SPEAKER_00: Right.
+None: If you know what I mean.
+SPEAKER_01: I definitely have to agree with that last.
+SPEAKER_02: And we're still not, then we don't have to deal with this battery issue really as much either.
+SPEAKER_02: We can stick with what we've already got in a lot of other ways too.
+SPEAKER_03: Okay.
+SPEAKER_03: So I'm getting.
+SPEAKER_03: So more or less, you guys think that of the two of them, the voice recognition will be better.
+SPEAKER_02: I think it's our lower risk option, which right now we can have it on the market sooner, which is all in all our best option.
+SPEAKER_03: Okay.
+SPEAKER_03: Sorted.
+SPEAKER_03: We will omit the touchscreen in favor of voice recognition.
+SPEAKER_02: So, and when are we going to have basic prototypes coming up next?
+SPEAKER_02: That's you guys next step, right?
+SPEAKER_03: Yeah.
+SPEAKER_03: So, I'm going to sort out what what what else we're going to talk about for the prototype.
+SPEAKER_03: But yeah, that's our next step.
+SPEAKER_00: Are we going to talk now about the materials we're going to use for the case.
+SPEAKER_00: We'll just run through it.
+SPEAKER_03: Yeah.
+SPEAKER_03: Okay.
+SPEAKER_03: You discussed either a lithium or a solar power with the solar power be enough to fuel a voice recognition of this kinesthetic one.
+SPEAKER_03: Would that be enough to fuel a voice recognition remote control?
+SPEAKER_00: The solar power definitely would be, but I think just to keep people from getting annoyed because sometimes solar power fails just not around that.
+SPEAKER_00: We should install a small backup battery.
+SPEAKER_02: Hmm.
+SPEAKER_00: Just to cover those moments when for whatever reason the remote has some experts.
+SPEAKER_00: Well, people like to be in their basement.
+SPEAKER_02: Like we're we can't guarantee someone everywhere.
+SPEAKER_02: So having a factory source is probably.
+SPEAKER_00: Yeah.
+SPEAKER_00: It works about the same as a solar powered calculator.
+SPEAKER_00: And you know how those this don't really require that much light.
+SPEAKER_00: Obviously a little more light than calculated, but we're not talking about a lot of light doesn't have to be out taking some bath.
+SPEAKER_00: Right.
+SPEAKER_00: Right.
+SPEAKER_00: Okay.
+SPEAKER_03: What do you think?
+SPEAKER_01: I'm going to do agree with everything that's been said.
+SPEAKER_01: Okay.
+SPEAKER_01: I have to say though that another idea is coming up in my head.
+SPEAKER_01: If we're really not handling the remote control to a great extent, we could possibly get away from the idea of having a handheld remote control and maybe kind of have a round remote control that kind of looks like a paperweight or something like that.
+SPEAKER_01: Kind of a sweet little thing that sits on your table or something.
+SPEAKER_02: Can you say?
+SPEAKER_01: Why?
+SPEAKER_00: Why moving away from handheld?
+SPEAKER_00: Why?
+SPEAKER_01: Why not?
+SPEAKER_01: Well, if you don't need to pick it up, it could kind of be a selling point.
+SPEAKER_02: It's got voice recognition.
+SPEAKER_02: It can be technically anywhere in your room and still do its job.
+SPEAKER_00: Do you think people that are people that buy remote, are they always going to want to use the voice recognition?
+SPEAKER_00: It's just something that they do sometimes.
+SPEAKER_02: True.
+SPEAKER_02: And probably I think we're banging on selling it to more than just voice recognition people like we want it to work fundamentally.
+SPEAKER_02: We have to.
+SPEAKER_03: Right.
+SPEAKER_03: But that's done.
+SPEAKER_03: They might have.
+SPEAKER_03: Who is it?
+SPEAKER_03: Apple makes these really pretentious speakers with the subwoofers, like clear and glass and the little pyramidal type of speakers.
+SPEAKER_03: Why not have a little rounded kind of thing?
+SPEAKER_03: It could still have the basic buttons on it because we're going for basic functionality primarily as well.
+SPEAKER_03: It's about, yeah.
+SPEAKER_03: And maybe a menu button and so forth, you know, use the channel button to scroll through the menu if they want to record programs or whatever, you know.
+SPEAKER_00: I think you're onto something because we need to escape the traditional shape of the remote.
+SPEAKER_00: Maybe something that looks nice on a table would be good, even though, and handheld at the same time.
+SPEAKER_01: I think it's all about following Apple's week.
+SPEAKER_02: Yeah, I'm thinking of the airport portal, you know, like that little pod looking thing.
+SPEAKER_03: Yeah, I mean, and I, although we do, as I'm recalling what she mentioned, we need to get away from the surgical white kind of brush to the aluminum thing and get back to it.
+SPEAKER_03: But you could have a very tasteful wood colored or earth tone kind of.
+SPEAKER_02: Terracotta bowl or something.
+SPEAKER_03: Still, I mean, yeah, along those lines.
+SPEAKER_03: Yeah, I like that.
+SPEAKER_03: I like that idea a lot.
+SPEAKER_03: Let's see what we can do as far as that goes. Okay. And the material like the plastics and so forth, we were discussing that being using like a rubber kind of softer feel.
+SPEAKER_03: You know, I feel the tip on this pen is a bit gives just a bit.
+SPEAKER_03: Yeah, something where it's a more advanced form of plastic that has some kind of a tactile response to it.
+SPEAKER_00: Right.
+SPEAKER_00: Just kind of the squishy feel.
+SPEAKER_02: Yeah, which is the next big thing. So that's not going to hurt us either.
+SPEAKER_03: Yeah, let's see if we can do a squishy, non remote control looking remote control.
+SPEAKER_03: But to be fair, yeah, I mean, you just could just put it literally put it on the night, the coffee table next to the telly and say volume up.
+SPEAKER_03: I like it. I like that.
+SPEAKER_03: That's good.
+SPEAKER_03: And we've sort of discussed costs.
+SPEAKER_03: I guess that's going to be a thing if we run a bit over budget, it might be okay.
+SPEAKER_00: Sorry about the lack of information costs. I just haven't been provided information by manufacturers.
+SPEAKER_00: Well, I have more ideas.
+SPEAKER_03: We'll have more of an idea later on.
+SPEAKER_03: Yeah, go from there.
+SPEAKER_03: So we've revisited the touch screen and more or less ruled that out. I think so we're more or less in agreement that we want to have a simple kind of function.
+SPEAKER_03: You know, not too complex.
+SPEAKER_02: Right.
+SPEAKER_02: Well, when the majority of people are only using the most primary functions on a daily basis, although I'm not saying we should completely rule out major functions, they should be secondary, at least if not functionally then visually like those shouldn't be.
+SPEAKER_03: Right.
+SPEAKER_03: Like maybe have menu things.
+SPEAKER_00: If we're not going to touch screen root, then we can just incorporate maybe something that folds out like what you often see on these kinds of remotes is the most basic functions up here.
+SPEAKER_00: And then something that slides down into the field, you know, the more complicated things.
+SPEAKER_02: We want to consider like an iPod screen, which isn't a touch screen, but you're still scrolling through menu options.
+SPEAKER_01: Then we're hitting our cost issue.
+SPEAKER_01: Sure.
+SPEAKER_03: And we've also got the thing of we're going to have a non-remote looking remote.
+SPEAKER_03: How do we?
+SPEAKER_03: Yeah.
+SPEAKER_03: But no, I mean, we could do a slide or a compartment, you know, like if it's say it's a little vaguely avoidable type of thing, it'd be easy to have a compartment in there.
+SPEAKER_03: Or, you know, a series of, you know, three or four buttons with a menu button and then a side and up and down type of thing like on a DVD player.
+SPEAKER_03: You see the modern DVD players will just have a menu button on the side and then four buttons around them.
+SPEAKER_03: And you can just kind of maneuver through the menu like that.
+SPEAKER_00: So are we talking, we need to figure out what kind of buttons we're going to use.
+SPEAKER_00: Are we going to use scroll buttons, rubber buttons?
+SPEAKER_03: Well, it seems like, I don't know, it seems to me that we could just do the stick with the rubber, because we're probably going to be using some kind of rubber for the outside case.
+SPEAKER_03: Myles will stick with that.
+SPEAKER_03: Right.
+SPEAKER_01: I think to a certain extent, we have to stick with kind of a little bit traditional in terms of the buttons and then, and then make our unique future casing and whatnot.
+SPEAKER_02: And our place.
+SPEAKER_02: Well, those basic, just like four directions that are that can use as menu or channel and volume or however you want to do it are really versatile and every's already got them to some extent.
+SPEAKER_02: I'm a moat there.
+SPEAKER_02: So it's not like we're dealing with everybody re-learning things because it's not so many.
+SPEAKER_02: It's been one of my new four.
+SPEAKER_03: Right.
+SPEAKER_03: Okay.
+SPEAKER_03: We've already kind of covered this as well.
+SPEAKER_03: Seems to be selling.
+SPEAKER_03: And we're more or less agree that we want to target this youth market.
+SPEAKER_03: Especially now with 18 to 35 year olds being a large quantity of the population.
+SPEAKER_02: Particularly in technological fields.
+SPEAKER_02: So it's exactly where we're headed.
+SPEAKER_03: Okay.
+SPEAKER_03: Yeah. All right. Well, more or less covered.
+SPEAKER_03: But we need to cover, I think, in the final thoughts before we think about doing the product, moving out of the prototype.
+SPEAKER_01: Well, what are we actually doing?
+SPEAKER_01: Right.
+SPEAKER_03: I was just going to step on to.
+SPEAKER_02: Oh, it wasn't in the way.
+SPEAKER_03: Oh, it wasn't.
+SPEAKER_03: Oh, my bad.
+SPEAKER_03: Sorry.
+SPEAKER_03: No, no, we're not.
+SPEAKER_03: Yeah, okay, I was just going to assign tasks in the next.
+SPEAKER_03: Any other final thoughts before we go ahead and cool.
+SPEAKER_00: So I would say that we are going to go with different style cases for different people.
+SPEAKER_00: Or we just going to go with one.
+SPEAKER_00: It's very, it's very hard thing to predict because you have different cases that might open up the market a little bit.
+SPEAKER_00: Obviously, but you have just one case and it doesn't go over well.
+SPEAKER_00: Yeah, it's a situation, but obviously having more cases also costs more.
+SPEAKER_03: Well, then again, colors wouldn't be so hard to do.
+SPEAKER_03: You could have a, you know, I am kind of a natural wood color, like a stained wood and, I don't know, all of green or something.
+SPEAKER_03: That wouldn't be so much of a problem to incorporate into the color of the rubber, I don't think.
+SPEAKER_01: And again, copying IMAX kind of for iPod Mac apples, color scheme.
+SPEAKER_02: Yeah, totally.
+SPEAKER_03: Yeah, I think that's probably good. Okay, so let's work on multiple case colors.
+SPEAKER_03: But yeah, stick with the same kind of, kind of.
+SPEAKER_03: Yeah, the same basic non-remote kind of remote design.
+SPEAKER_03: Cool.
+SPEAKER_03: All right, so we'll have the next meeting in about half an hour.
+SPEAKER_03: I want the, I'd like, Nathan, I'd like you to work on just the basic look and feel.
+SPEAKER_03: What can we accomplish given these parameters that we've sort of sorted out this kind of a non-remote remote.
+SPEAKER_03: What are broad constraints before we design a prototype?
+SPEAKER_03: And, Ron, if you can figure out how probably best to lay out this idea of the simple design with the voice recognition built in and also this kind of drop down or on the side kind of menu options simple, somehow work out how we can get this all in the same place.
+SPEAKER_03: And if you can check product evaluation with some pilots and stuff, I need you guys to work together on making a prototype using prototype building materials.
+SPEAKER_03: And also specific instructions will be sent to you by your coaches as well.
+SPEAKER_03: So that's what to start with for now. Is that all right?
+SPEAKER_03: That's so clear about this.
+SPEAKER_03: All right.
+SPEAKER_03: I guess we'll just hit the bricks. Thanks guys.
+SPEAKER_02: Cool.
+None: Thank you.

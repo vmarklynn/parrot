@@ -1,0 +1,365 @@
+None: Okay.
+SPEAKER_03: Welcome to this second meeting.
+SPEAKER_03: It's now quarter after 12 and we're given 40 minutes for this meeting.
+SPEAKER_03: This is a meeting on functional design.
+SPEAKER_03: And I want to welcome you all and thank you all for doing some research in between.
+SPEAKER_03: I did took minutes from the first meeting and I'll show them to you in a moment.
+SPEAKER_03: I know each of you have a presentation and in thinking about the 40 minutes, I thought it would take only like three minutes for the previous minutes.
+SPEAKER_03: Each of you having about seven minutes or maybe a little less for your presentations and a little discussion because I happen to have been told there was some new project requirements and we have to make some decision on what functions it will have.
+SPEAKER_03: Okay.
+SPEAKER_03: Does everybody agree with this?
+SPEAKER_03: Yes.
+SPEAKER_03: Okay.
+SPEAKER_03: And after the meeting, there'll be things to be done and as you can see, it says we get to get lunch and then some more individual work and then putting minutes away and individual actions.
+SPEAKER_03: Now, for the minutes of the first meeting.
+None: Good.
+SPEAKER_03: That one.
+SPEAKER_03: As you can see, it was this earlier today.
+SPEAKER_03: Kate, Steph, Sarah and myself in our full capacities were present.
+SPEAKER_03: I opened the meeting.
+SPEAKER_03: The product was developed and reviewed and we talked about the financial end of it and some implications, the four million sales target and new ideas of not too many buttons, bright colors and some of the influence of the Japanese and we closed early so you could then proceed with your research and getting reports together for this meeting.
+SPEAKER_03: Anybody have any questions on those minutes?
+SPEAKER_03: Are they complete?
+SPEAKER_03: Did they discuss everything that we covered last time?
+SPEAKER_03: Kate?
+SPEAKER_02: Did I miss something?
+SPEAKER_02: We talked about the individual roles that we tried as well.
+None: Yeah.
+SPEAKER_03: I'm afraid I incorporated that when I said who was present.
+SPEAKER_03: Okay.
+SPEAKER_03: Yes.
+SPEAKER_03: We did and we did a little bit of thought team building of making the pictures but I didn't think those were appropriate to the minutes necessarily.
+SPEAKER_03: So as a group, I think they are accepting minutes.
+None: Okay.
+SPEAKER_00: Is that what we were supposed to say?
+SPEAKER_01: Yeah.
+SPEAKER_03: Yeah, I did.
+SPEAKER_03: Good.
+SPEAKER_03: Then we'll move to the three presentations.
+SPEAKER_03: Okay.
+SPEAKER_03: Okay.
+None: Okay.
+SPEAKER_03: We need to move this.
+SPEAKER_03: Who wants to go first?
+SPEAKER_03: As far as it goes.
+SPEAKER_01: Not really meant to touch these.
+SPEAKER_01: Okay.
+SPEAKER_01: It doesn't have any on this one.
+None: Excellent.
+SPEAKER_02: Thank you.
+SPEAKER_03: She said we didn't need to screw it in.
+SPEAKER_00: Okay.
+SPEAKER_03: It's doing it.
+SPEAKER_00: There we are.
+SPEAKER_00: All right.
+SPEAKER_00: Thank you very much.
+SPEAKER_00: One of the biggest issues I thought about from last meeting was the fact that we need to sell 4 million of these remote controls.
+SPEAKER_00: I think that this was an opportunity to really take real reaction in the direction of similar of handheld tools that have been used and are used by many of us and to kind of bring the remote control into the same realm as an accessible, useful electronic device as opposed to something that is lost in the couch and for having it.
+SPEAKER_00: My main goal here is to re-envision remote control in this context and to think about menu functionality and current technology and the fact that it could be interactive with other tools.
+SPEAKER_00: Some of the research in the market has shown that people really are not happy with remote controls as they are now.
+SPEAKER_00: That means we do need to make some decisions about what keys or buttons on the remote control to perhaps keep and what ones to discard.
+SPEAKER_00: If we devote some energy into this, I think the recent productions of real reaction, the IGO, everywhere power and the high definition DVD players, although it makes immediate sense to have our remote control interact with these, I think we can also use this as a platform to make it interact with other tools.
+SPEAKER_00: In fact, I think the high definition DVD players and all of this will come along and will only benefit from the positive feedback from our well-designed tool.
+SPEAKER_00: Again, most users really dislike the current look and feel of remote controls.
+SPEAKER_00: 50% of all these numbers, most important, is 50% of users say they only use 10% of the buttons and 80% of users.
+SPEAKER_00: If we think about this, there are a lot of television, DVD, stereo, remote control users out there, 80% and spend more money on a remote control that looks fancy.
+SPEAKER_02: Can I ask for these figures to come up with this?
+SPEAKER_00: There was market research and there were 100 people from the room, so 80 out of 100 said they would spend more money.
+SPEAKER_03: Now, in between, as the project manager, they sent me an email from the powers that be.
+SPEAKER_03: That teletext is outdated and the internet is coming in as important, but that they want this remote control to only be for TV with incorporating the corporate image, color and slogan.
+SPEAKER_00: I think we can really focus on this remote and, again, bring the real reaction brandy in and get some positive marketing for other tools, even if we directly don't advertise for the I-Go everywhere.
+SPEAKER_00: An interesting element was the, would you pay more for speech recognition question?
+SPEAKER_00: So these market research questionnaires looked into your concern about technology and specifically wanted to find out if you're not speech recognition.
+SPEAKER_00: Okay, now the early adopters, those of us who grew up with technology and lucky for us, have the cash to pay for it, the young age group without the mortgages and responsibilities, 91% of them would pay more for speech recognition and a remote control.
+SPEAKER_00: Very interesting, I leave this up to the group to decide if we want to use this in the designers, but 91% is a large enough target market to target it.
+SPEAKER_00: Well, I think, especially in terms of growth, I think this would be a very smart group to target, I mean, three quarters of the next age group, 25 to 35 are interested in with the technologies improving if we can get to the same.
+SPEAKER_03: In real numbers, this is the 91% and the 76% translate to in excess of the 4 million or
+SPEAKER_00: 8 million, yes. But would you pay more and it doesn't work and is it approachable and did I know that it was a very good question?
+SPEAKER_00: I don't know if speech recognition should be included, but I think it's an interesting, I think that maybe shows more about being open to technology.
+SPEAKER_01: Definitely.
+SPEAKER_01: I've got more research on how much more it would be and any existing examples and what reactions to that would be.
+SPEAKER_02: Yeah.
+SPEAKER_02: And this, how well how well target growths would be, the typical price of these things,
+SPEAKER_00: that can best be a little, but if we're even two, to fill this thing, the total year is 50. Is that a little?
+SPEAKER_00: Exactly.
+SPEAKER_00: So, I think that's a little bit of a competition, sussing out what other people are doing and what's in the pipeline is very, very important because there was a question about to want an LCD screen that wasn't responded to, but some of the larger remotes do have screens where you can navigate, you know, so it turns into something perhaps you all have seen and it's attempting to manage this super entertainment system with something that looks like a small train.
+SPEAKER_00: And I think, you know...
+SPEAKER_02: What are the easy little age groups you must be one of the small population?
+SPEAKER_02: No, no, no.
+SPEAKER_00: You're exactly right there.
+SPEAKER_00: But I think the key is to get the early adopters, people with familiar technology and they'll be...
+SPEAKER_03: Well, we're not looking at whether the earlier adopters on that screen, that's looking at age groups.
+SPEAKER_00: Yes, and I'm making the leap that people who are familiar, younger people are more familiar with technology.
+SPEAKER_00: Or comfortable.
+SPEAKER_00: So, okay, you had the other power...
+SPEAKER_00: I think the most important thing is an attractive streamline remote control and to be extraordinarily reductionist, power, channel volume, and everything else is...
+SPEAKER_00:...up to the designers.
+SPEAKER_00: And this is also supported by the market research.
+SPEAKER_03: Okay.
+None: Thank you.
+SPEAKER_00: That's my contribution.
+SPEAKER_03: All right.
+SPEAKER_03: And we'll turn to the next presentation.
+SPEAKER_03: I think she said we don't need to screw it in, just stick it in.
+SPEAKER_03: And then press what?
+SPEAKER_03: FN and F8.
+SPEAKER_03: And then we'll be patient.
+SPEAKER_01: Yeah, here we go.
+SPEAKER_02: Ta-da.
+SPEAKER_02: Okay, just do each one of those.
+SPEAKER_02: There we are.
+SPEAKER_02: Yay!
+SPEAKER_01: Right, technical functions design.
+SPEAKER_01: Well, I think first off, basically I do agree with what Sarah has defined as your personal preferences and I think we need a more streamlined volume with no extraneous functions.
+SPEAKER_01: So my method was to look at the existing amounts and what functions they have.
+SPEAKER_01: And what we all need to discuss is whether we want those functions pretty much the same as what existing amounts have if we can build on this with the speech recognition.
+SPEAKER_01: That's not something I thought about at all, but it's also something we can discuss.
+SPEAKER_01: Okay.
+SPEAKER_01: And I presume we can miss out functions related to a video or DVD remote control if this is only going to be, you know, satellite cable TV remote control.
+SPEAKER_01: So these are two models of existing remote controls.
+SPEAKER_01: The one on the left seems to be a fairly standard universal remote control.
+SPEAKER_01: It has fast forward, stop play, all related to movies.
+SPEAKER_01: It also has, seems to have channel up and channel down, which is more of what you'd expect from either like a sky or cable remote control where you've got hundreds of channels instead of a nearly terrestrial one.
+SPEAKER_01: But I think we should be looking more along the lines of the one on the right, which has also a play, stop and pause, or a thing.
+SPEAKER_01: I don't think we need them at all.
+SPEAKER_01: I think we just need channel selection, volume up, volume down, and I think an inter function where you can access, it's not like teletext but along the same line, to access things on the screen.
+SPEAKER_01: Not related to internet one that you mentioned because that would be far outside our budget and what we want this to do.
+SPEAKER_03: And exceed the requirements to expecting others.
+SPEAKER_01: Really exceed the requirements because the requirements really I just want to be able to change channels and functions, which is more a text on the screen thing than the actual buttons.
+SPEAKER_01: I was thinking something, some smooth, sleek little remote control where big user friendly buttons and a menu that you can access.
+SPEAKER_01: But then I do think we need to discuss the speech recognition possibility.
+SPEAKER_03: Okay.
+SPEAKER_03: Anything else you want to add?
+SPEAKER_01: Okay.
+SPEAKER_01: So we could go back to the pictures of the, what I thought, the pictures of the remote controls and possibly discuss what we think about them.
+SPEAKER_01: Or, but I may just hear what Kate has to say first.
+SPEAKER_03: Yeah.
+SPEAKER_03: That's your word Kate has to say.
+SPEAKER_00: Maybe afterwards we could do a whiteboard that you're the one on the right.
+SPEAKER_03: I think the white, the one on the right is as well as less cluttered.
+SPEAKER_01: Definitely less quiet.
+SPEAKER_01: I mean, but still it's.
+SPEAKER_01: It's there but it's assumed something else I was going to say.
+SPEAKER_01: The style of these is terrifying.
+SPEAKER_01: Yeah.
+SPEAKER_01: I really think we need to not only possibly the materials like the type of plastic used but everything including size and shape of buttons, positioning of buttons, the actual shape of the handheld device, colors, ergonomics.
+SPEAKER_01: Yeah.
+SPEAKER_01: Everything to do with this has to be revolutionized.
+SPEAKER_01: But.
+SPEAKER_01: So that's that for now.
+SPEAKER_02: Okay.
+SPEAKER_02: Okay.
+SPEAKER_02: So, I want to bring us down to earth again.
+SPEAKER_02: So, let's go back to what the basic function of remote control is.
+SPEAKER_02: It's sending a message.
+SPEAKER_02: And the basic components we've got to build in for our 12 heroes 50 are an energy source, the user interface, which will incorporate an integrated circuit that actually composes the message based on what the button's use it presses, we turn into a message.
+SPEAKER_02: And then we need a sending mechanism to send it to the receiver.
+SPEAKER_02: Now, I would have hoped, I think that's my only slide actually, I would have hoped to do you a pretty powerpoint slide of my first cut design but unfortunately the technology defeated me so if you'll bear with me, I'll do it on the whiteboard.
+SPEAKER_02: So, we want an energy source.
+SPEAKER_02: So, we've got to think about what that might be.
+SPEAKER_02: And then we have the user interface.
+SPEAKER_02: On the main components in the RV.
+SPEAKER_02: The chip that actually has the intelligence of the machine that translates button presses into a message, which then transfers to some sending mechanism, which encodes it and sends the message to the receiver.
+SPEAKER_02: So, those are the basic things that we've got to get in for our 12 heroes 50.
+SPEAKER_03: Thank you.
+None: Okay.
+SPEAKER_03: Right.
+SPEAKER_03: But those things, it's also we can get those components.
+SPEAKER_03: The block, that rectangle for the user interface is where the user comes in of what's it look like, what do the buttons look like, what does it feel like, that's where the user interface is really coming into its own.
+SPEAKER_03: The technical end is what's actually going to be in there.
+SPEAKER_03: But also it has to be easy enough to change or repair if something goes wrong.
+SPEAKER_03: For example, the battery energy source or what if the chip for whatever reason breaks down after a certain amount of time, do you just replace it?
+SPEAKER_03: Is there any, because it may be in the same area with several other user interfaces like for DVDs, movies, whatever, does it have to have a way of being segregated from the others in a different frequency or something?
+SPEAKER_02: Well, I may wrong here, but I've been thinking of those devices being a cheap, less produced device with a Microsoft phone, million of them.
+SPEAKER_02: That's almost one in every 10th house or whatever it is.
+SPEAKER_02: And I haven't thought of it as being a repair or anything.
+SPEAKER_02: You just check it out.
+SPEAKER_02: And that's why I'm a bit concerned.
+SPEAKER_02: I like the idea of speech recognition.
+SPEAKER_02: That's a good idea.
+SPEAKER_02: But I'm not convinced we've been put it into this box for the price that we're going to need to hit.
+SPEAKER_00: Do we have some idea of how much it would cost to create a device that has these basic elements?
+SPEAKER_00: Because then...
+SPEAKER_01: Isn't that your job?
+SPEAKER_00: No, the chip composer marketing.
+SPEAKER_00: Oh.
+SPEAKER_00: Oh, no, the chip composer sending.
+SPEAKER_00: I don't believe I know.
+SPEAKER_02: I'm hoping that my personal coach is going to give me some advice.
+SPEAKER_02: I'll ask him.
+SPEAKER_00: Okay.
+SPEAKER_00: Yeah.
+SPEAKER_00: Yeah.
+SPEAKER_00: Hmm.
+SPEAKER_01: It does seem as if we're just to do something really simple and mass-produced, which is pretty much the same as these existing models, just maybe...
+SPEAKER_01: Inspired?
+SPEAKER_01: A little bit more inspired.
+SPEAKER_01: But basically just the same.
+SPEAKER_01: But what suddenly came into my head is they always take two AA batteries, which is really not very efficient at all.
+SPEAKER_01: It could be possible to have a rechargeable internal battery, like an MPC player does.
+SPEAKER_01: You could just...
+SPEAKER_01: Or a mobile phone or whatever.
+SPEAKER_01: You could just plug into a parasauce with a couple of hours and then it would be charged for ages and ages and ages.
+SPEAKER_01: And you don't have to worry about replacing AA batteries.
+SPEAKER_01: Well, that has a...
+SPEAKER_00: No, I don't.
+SPEAKER_00: Which is, if every time you're done using a remote, you put it on a charger, then it has a...
+SPEAKER_00: You'd never need the batteries.
+SPEAKER_00: Yeah, but it also has a place.
+SPEAKER_01: It's not stuck down the back of the sofa.
+SPEAKER_01: But then again, I don't know if this is within our christ-ringing.
+SPEAKER_01: That's really good.
+SPEAKER_02: Well, I think that's a very interesting idea.
+SPEAKER_02: But I'm not a very good industrial designer and I don't know much about what is this cost.
+SPEAKER_02: I'll do some research for the next meeting.
+SPEAKER_02: Okay.
+SPEAKER_00: It's better than 90 of that solar probably.
+SPEAKER_00: Yeah.
+SPEAKER_02: And solar may not be so good when you're watching TV in the night.
+SPEAKER_02: Yeah.
+SPEAKER_02: Well, it is just so...
+SPEAKER_03: It would have to store up the energy.
+SPEAKER_03: Yeah, I guess.
+SPEAKER_03: And then use it.
+SPEAKER_03: Solar can do that.
+SPEAKER_02: It might be looking quite heavy then.
+SPEAKER_03: Yeah.
+SPEAKER_03: We are not pretty heavy and cost too much.
+SPEAKER_01: But just a rechargeable internal battery would probably...
+SPEAKER_01: I mean, it might cost more at first to develop and to install.
+SPEAKER_01: But for a long-term use, there'll be so much more convenient and economic than fiddling around trying to replace chunky AA batteries and not having any in your kitchen drawer.
+SPEAKER_02: So you think you might make that a selling point if it was something that you probably could afford to develop?
+SPEAKER_00: Definitely, because I'm thinking in terms of the loss and breakage of remote temperature that is supposed to be not really having a home or a nest.
+SPEAKER_00: So it's a little dock.
+SPEAKER_00: Yeah.
+SPEAKER_00: So if you can dock it, you know, you could argue that.
+SPEAKER_00: And the dock could look very fancy.
+SPEAKER_00: Exactly.
+SPEAKER_03: That could be your inspiration.
+SPEAKER_01: I don't know if you're decent.
+SPEAKER_01: Right.
+SPEAKER_01: Within our crisis.
+SPEAKER_00: You're talking about another component.
+SPEAKER_00: I think it's a big one.
+SPEAKER_03: Yeah.
+SPEAKER_03: Okay.
+SPEAKER_03: Are we agreed as to what our target group is, though?
+SPEAKER_03: Pretty much so that we'd be looking for the younger end.
+SPEAKER_00: Exactly.
+SPEAKER_00: But I think you may see the questions about are there enough for these people out there?
+SPEAKER_00: Or are they making purchasing decisions?
+SPEAKER_00: Yeah.
+SPEAKER_02: Because I agree that there are people with, how can I put it more money than cents?
+SPEAKER_02: You are the buyer.
+SPEAKER_02: I usually put more money than brains.
+SPEAKER_00: Oh, well, I'll make a note of that.
+SPEAKER_00: Good comment.
+SPEAKER_02: But what I was going to say was although they may be buying personal music devices, are they necessarily buying TV remote controls because they probably live in a household that has a TV or phone.
+SPEAKER_02: That is low end of the range.
+SPEAKER_00: It might be good to know.
+SPEAKER_00: Who is actually buying television.
+SPEAKER_00: And are we in the region where people have money and television?
+SPEAKER_02: I think we've got a big heel to climb it.
+SPEAKER_02: I mean, we've got this way people who go on remote control because it paid you the telly that they should buy our product instead.
+SPEAKER_02: Yeah.
+SPEAKER_03: Or do we make sure that it goes through the manufacturer?
+SPEAKER_03: We sell to the manufacturer as the remote that goes with it.
+SPEAKER_01: Yeah.
+SPEAKER_03: That's probably what would be a more efficient way of doing it.
+SPEAKER_00: Yeah.
+SPEAKER_00: And some of our TV players incidentally have them because we have federal issues with them in the department.
+SPEAKER_00: But more of them need to go through them.
+SPEAKER_03: Okay.
+SPEAKER_03: Right.
+SPEAKER_01: I'm not going to get any resolutions by the end of the day.
+SPEAKER_03: Probably not.
+SPEAKER_03: The other thing that we're supposed to do is make decision on our functions.
+SPEAKER_03: Our functions we've so far decided I think that power channel volume make it attractive.
+SPEAKER_03: It has to have an enter key and of course the number keys.
+SPEAKER_03: It has to have big user friendly buttons.
+SPEAKER_03: And definitely we want to be inspired that the current.
+SPEAKER_03: Styles are just playing awful.
+SPEAKER_00: Do we need.
+SPEAKER_03: Is that agreeable to everyone?
+SPEAKER_00: Actually.
+SPEAKER_00: The enter key.
+SPEAKER_00: I have a chart here that I didn't include.
+SPEAKER_00: Yeah.
+SPEAKER_03: Throw some light on that.
+SPEAKER_03: Actually, we're, you know, we are almost a half hour out of the 40 minutes.
+SPEAKER_03: So we have to get close to finishing.
+SPEAKER_00: My only comment is I think maybe we could somehow include an enter key in like a power key.
+SPEAKER_00: That was my.
+SPEAKER_00: Okay.
+SPEAKER_00: Enter power as a.
+SPEAKER_03: So simultaneous key.
+SPEAKER_00: Exactly.
+SPEAKER_00: Again.
+SPEAKER_00: Is that okay with you?
+SPEAKER_00: Sorry.
+SPEAKER_01: I was.
+SPEAKER_02: I was.
+SPEAKER_02: I was.
+SPEAKER_00: Well, if you're pressing enter the thing that I already.
+SPEAKER_00: And so maybe when you press power.
+SPEAKER_00: Enter.
+SPEAKER_00: Well, I was thinking maybe you to turn it off.
+SPEAKER_02: You'd have to press power twice.
+SPEAKER_02: And maybe power follows something like a channel.
+SPEAKER_00: Yeah, or something that has a turning dial where.
+SPEAKER_00: Who's got an iPod then.
+SPEAKER_00: Yeah, I don't.
+SPEAKER_00: I wish.
+SPEAKER_00: Anyway, that was the only comment about some of the decisions people made.
+SPEAKER_01: What's most important.
+SPEAKER_01: Definitely channel volume power.
+SPEAKER_01: Yeah.
+SPEAKER_01: Things like screen settings and audio settings.
+SPEAKER_01: I would generally.
+SPEAKER_01: Yeah, you have a.
+SPEAKER_01: You know, a little flat with a little control panel on the actual box itself.
+SPEAKER_01: I wouldn't know how to do it using a remote control.
+SPEAKER_01: So.
+SPEAKER_01: I would say that they are definitely less relevant.
+SPEAKER_00: Okay.
+SPEAKER_00: Thanks for looking at that.
+SPEAKER_03: It's easy to use is the other thing that we want to be able to do.
+SPEAKER_03: We don't want to be smart.
+SPEAKER_03: Yeah, don't make it too hard for the granny.
+SPEAKER_03: I just joined that set last week.
+SPEAKER_03: First grandchild around.
+SPEAKER_03: So are we agreed then of those things?
+SPEAKER_03: And let's go back to agenda.
+SPEAKER_03: And hook me up.
+SPEAKER_03: I thought it'd be fun.
+SPEAKER_03: We probably won't go the first time.
+SPEAKER_03: I'll probably be in the mess.
+SPEAKER_03: It lost it off here.
+SPEAKER_03: No, it was up there, but I couldn't see it down here.
+SPEAKER_03: This time it should be both.
+SPEAKER_03: You have to keep doing the FN and F8 to five minutes to finish.
+SPEAKER_03: Thank you a lot for telling me.
+SPEAKER_03: Right.
+SPEAKER_03: We're ready to close that will be completed questionnaire.
+SPEAKER_03: Then we'll have some time for individual work to continue our research.
+SPEAKER_03: I'll put some minutes of this meeting together.
+SPEAKER_03: Your individual assignments are for Kate to do the components for you, Steph, to do the user interface.
+SPEAKER_03: And for you, the trend watching.
+SPEAKER_03: And each of us will get help from our coach.
+SPEAKER_03: We're agreed to get ourselves together and then have lunch.
+SPEAKER_03: That's the end of this meeting.
+SPEAKER_03: I hope that's good enough for her to tell her that's the end.
+SPEAKER_01: We didn't come to any sort of decision on the functions.
+SPEAKER_03: I think I went over the functions and wrote them down and marked them.
+SPEAKER_03: That's what I went over and nobody was objecting to them.
+SPEAKER_00: And you mentioned I was just going to say could you really like the new project requirements?
+SPEAKER_00: It has to be for a TV.
+SPEAKER_03: The teletext is outdated.
+SPEAKER_03: The internet is important.
+SPEAKER_03: It's only to be for a TV and it must include the corporate image, color and slogan, which I think is more in the user range with Steph.
+SPEAKER_01: So what actually are these?
+SPEAKER_01: Is that the yellow and black?
+SPEAKER_01: It doesn't tell me.
+SPEAKER_01: I'll just use it on my website.
+SPEAKER_02: Okay.
+None: Thank you.
