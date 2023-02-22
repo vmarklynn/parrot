@@ -421,17 +421,18 @@ function countSpeakers(transcript) {
   return { count: sortedSpeakerTags.length, speakers: sortedSpeakerTags };
 }
 
-function countWordsAfterColon(input) {
-    const regex = /:\s*(\S+)/g;
-    let match = regex.exec(input);
-    let count = 0;
-    
-    while (match !== null) {
-        count += match[1].split(/\W+/).length;
-        match = regex.exec(input);
+function countWordsAfterColon(text) {
+    const sections = text.split(/\d{1,2}:\d{2}:\d{2}\s-\s\d{1,2}:\d{2}:\d{2}\s\|\s/);
+    let totalWords = 0;
+  
+    for (let i = 1; i < sections.length; i++) {
+      const section = sections[i];
+      const colonIndex = section.indexOf(':');
+      const words = section.substring(colonIndex + 1).trim().split(/\s+/);
+      totalWords += words.length;
     }
-    
-    return count;
+  
+    return totalWords;
 }
 
 function getFileNameWithExtension(filePath) {

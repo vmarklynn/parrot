@@ -84,7 +84,7 @@ function textUploadClickCB(responseTxt, statusTxt, xhr) {
     salert("Processed!! ", "btn-success", 2000);
     wordCountSumm = countWords(responseTxt.summary)
 
-    // generateList(responseTxt.keywords_list_1, responseTxt.keywords_list_2, responseTxt.keywords_list_3)
+    generateList(responseTxt.keywords_list_1, responseTxt.keywords_list_2, responseTxt.keywords_list_3)
 
     $('#summary').val(responseTxt.summary);
     $('#wordCount-summ').val(wordCountSumm);
@@ -102,6 +102,7 @@ function textUpload() {
     var formData = new FormData($('form#textupload')[0]);
     formData.append('transcription', localStorage.getItem('transcription'));
     formData.append('text', localStorage.getItem('text'));
+    formData.append('wordCount', localStorage.getItem('wordCount-ori'));
     $('#loading').show();  // Show the loading interface
     $.ajax({
       url: '/parrot/summarize_text/',

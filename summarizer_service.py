@@ -4,6 +4,7 @@ from mangorest.mango import webapi
 import whisper, hashlib, os, datetime, json, torch
 from transformers import pipeline
 import keybert
+import math
 
 def preprocess(text):
     """
@@ -20,7 +21,7 @@ def preprocess(text):
     return '\n'.join(result)   
 
 #-----------------------------models------------------------------------------------------------------------               
-summarizer = pipeline("summarization", "vmarklynn/bart-large-cnn-samsum-acsi-ami", truncation=True)
+summarizer = pipeline("summarization", "vmarklynn/bart-large-cnn-samsum-icsi-ami", truncation=True)
 kw_model = keybert.KeyBERT(model='all-mpnet-base-v2')
 #-----------------------------------------------------------------------------------------------------               
 
@@ -29,10 +30,12 @@ def summarizeText(request, **kwargs):
     post_data = request.POST.dict()
     transcription = post_data.get('transcription')
     text = post_data.get('text')
+    wordCount = post_data.get('wordCount')
+    print(wordCount)
     
     input_cleanned_text = preprocess(transcription)
     print("\n\nSummarizing...")
-    summary = summarizer(input_cleanned_text, min_length = 100,max_length=500)[0]['summary_text']
+    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.5))[0]['summary_text']
     
     keywords = kw_model.extract_keywords(text, 
                                      keyphrase_ngram_range=(1, 1), 
