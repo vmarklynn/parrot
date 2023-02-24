@@ -31,11 +31,13 @@ def summarizeText(request, **kwargs):
     transcription = post_data.get('transcription')
     text = post_data.get('text')
     wordCount = post_data.get('wordCount')
-    print(wordCount)
     
     input_cleanned_text = preprocess(transcription)
+    print("\n\n", input_cleanned_text, "\n\n")
+    print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.2))
     print("\n\nSummarizing...")
-    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.5))[0]['summary_text']
+    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.2))[0]['summary_text']
+    print("\n", summary, "\n")
     
     keywords = kw_model.extract_keywords(text, 
                                      keyphrase_ngram_range=(1, 1), 
@@ -62,4 +64,19 @@ def summarizeText(request, **kwargs):
     response = {'transcription': transcription, 'summary': summary, 
                 'keywords_list_1': keywords_list_1, 'keywords_list_2': keywords_list_2,
                 'keywords_list_3': keywords_list_3,}
+    return HttpResponse(json.dumps(response), content_type='application/json')
+
+#-----------------------------------------------------------------------------------------------------               
+@webapi("/parrot/summarize_summary/")
+def summarizeSummary(request, **kwargs):
+    post_data = request.POST.dict()
+    summary_input = post_data.get('summary')
+    wordCount = post_data.get('wordCount-summ')
+    
+    print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.2))
+    print("\n\nSummarizing again...")
+    summary = summarizer(summary_input, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.2))[0]['summary_text']
+    print("\n", summary, "\n")
+    
+    response = {'summary': summary}
     return HttpResponse(json.dumps(response), content_type='application/json')
