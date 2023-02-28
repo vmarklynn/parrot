@@ -36,7 +36,7 @@ def summarizeText(request, **kwargs):
     print("\n\n", input_cleanned_text, "\n\n")
     print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.2))
     print("\n\nSummarizing...")
-    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.2))[0]['summary_text']
+    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1))[0]['summary_text']
     print("\n", summary, "\n")
     
     keywords = kw_model.extract_keywords(text, 
@@ -75,7 +75,7 @@ def summarizeSummary(request, **kwargs):
     
     print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.2))
     print("\n\nSummarizing again...")
-    summary = summarizer(summary_input, min_length = math.ceil(int(wordCount) * 0.1), max_length= math.ceil(int(wordCount) * 0.2))[0]['summary_text']
+    summary = summarizer(summary_input, min_length = math.ceil(int(wordCount) * 0.1))[0]['summary_text']
     print("\n", summary, "\n")
     
     response = {'summary': summary}
