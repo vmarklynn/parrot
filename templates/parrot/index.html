@@ -51,7 +51,43 @@
     border-radius: 10px;
     font-size: 13px;
     font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.3);
 }
+
+.btn-clear {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 18px;
+    background-color: #007bff;
+    color: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.3);
+}
+.btn-change {
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 18px;
+    display: none; 
+    margin-left: 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3), -2px -2px 4px rgba(255, 255, 255, 0.3);
+}
+.btn-clear:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+.btn-change:hover {
+    background-color: #0069d9;
+    cursor: pointer;
+}
+
 .container {
     padding: 10px;
     width: 1024px;
@@ -119,6 +155,10 @@ hr {
     border: 1px solid #ddd;
     border-radius: 10px;
 }
+#download-link{
+    margin-top: 20px;
+    margin-left: 15px;    
+}
    
 </style>
 <!-- -----------------------------------------------------------------------------
@@ -141,7 +181,7 @@ hr {
        <div class="upload-btn">
           <button class="btn-primary" onclick="handleUploadClick()">Upload File</button>
        </div>
-       <button style="margin-left: 20px;" onclick="clearCache()">Clear</button>
+       <button style="margin-left: 20px;" class="btn-clear" onclick="clearCache()">Clear</button>
     </div>
     <p class="loading" id="loading"></p>
     <audio class="audiobar" id="audiobar" src="" controls></audio>
@@ -159,7 +199,8 @@ hr {
             <tbody id="table-body">
             </tbody>
         </table>
-        <button id="change-btn" style="display: none; margin-left: 20px;">Change</button>
+        <button id="change-btn" class="btn-change">Change</button>
+        <a id="download-link" href="#" style="display: none;">Download your transcript</a>
     </div>
     <br>
     <div id="transcript-container" class="transcript-container"></div>
@@ -173,11 +214,13 @@ $(document).ready(function() {
         $('#audiobar').attr('src', getFileNameWithExtension(localStorage.getItem('file_url')));
     $('#trans').val(localStorage.getItem('transcription'));
     $('#wordCount-ori').val(localStorage.getItem('wordCount-ori'));
+    updateDownloadLink();
     document.getElementById('audiobar').load();
     var storedTranscript = localStorage.getItem('ori-transript');
     if (storedTranscript) {
         $('#transcript-container').html(storedTranscript);
         $('.transcript-container').show();
+        $('#download-link').show();
     }
     const speakers = getSpeakers();
     if (speakers.length != 0) {
@@ -216,6 +259,7 @@ function clearCache() {
     localStorage.setItem('wordCount-summ', 0);
     localStorage.setItem('speakers', "");
     localStorage.setItem('ori-transript', "");
+    localStorage.setItem('text', "");
 }
 
 transTextarea = document.getElementById('trans');
@@ -226,6 +270,7 @@ transTextarea.addEventListener('input', function() {
     console.log('Input event fired!');
 });
 
+const downloadLink = document.getElementById('download-link');
 const changeBtn = document.getElementById('change-btn');
 changeBtn.addEventListener('click', function() {
     if (transChanged) {
@@ -245,8 +290,11 @@ changeBtn.addEventListener('click', function() {
     }
     transTextarea.value = localStorage.getItem('transcription');
     $('#trans').val(localStorage.getItem('transcription'));
+    
     updateWordCount();
+    updateDownloadLink();
     saveSpeakerTable();
+    salert("Updated your transcript!", "btn-success", 2000);
 });
 
 function handleUploadClick(url) {
@@ -271,53 +319,18 @@ function handleUploadClick(url) {
       data: formData,
       success: function(responseTxt, statusTxt, xhr) {
         $('#loading').hide();  // Hide the loading interface
+        salert("Processed!! ", "btn-success", 2000);
         handleUploadClickCB(responseTxt, statusTxt, xhr);
       },
       error: function(response) {
         $('#loading').hide();
-        salert("Error!!!" + response.responseText, "btn-error");
+        salert("Error!!!" + responseTxt, "btn-error");
       },
       cache: false,
       contentType: false,
       processData: false
     });
 }
-
-/*
-function handleUploadClickCB(responseTxt, statusTxt, xhr) {
-    $('.loading').hide();
-    if (JS_error(responseTxt, statusTxt, xhr, true) ) 
-        return;
-    salert("Processed!! ", "btn-success", 2000);
-
-    wordCountOri = countWordsAfterColon(responseTxt.transcription)
-    $('#trans').val(responseTxt.transcription);
-    $('#wordCount-ori').val(wordCountOri);
-    $('#audiobar').attr('src', getFileNameWithExtension(responseTxt.file_url));
-    document.getElementById('audiobar').load();
-
-    localStorage.setItem('transcription', responseTxt.transcription);
-    localStorage.setItem('wordCount-ori', wordCountOri);
-
-    // table
-    const tableBody = document.getElementById('table-body');
-    tableBody.innerHTML = '';
-    const speakersArray = countSpeakers(localStorage.getItem('transcription'));
-    for (let i = 0; i < speakersArray.count; i++) {
-        const speakerTag = speakersArray.speakers[i];
-        const row = document.createElement('tr');
-        const col1 = document.createElement('td');
-        col1.innerText = speakerTag;
-        row.appendChild(col1);
-        const col2 = document.createElement('td');
-        const input = document.createElement('input');
-        input.type = 'text';
-        col2.appendChild(input);
-        row.appendChild(col2);
-        tableBody.appendChild(row);
-    }
-}
-*/
 
 function replaceSpeakerName(speakerName, inputName, transcript) {
 
@@ -333,6 +346,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     $('.column-name').show();
     $('.transcript-container').show();
     $('.speaker-table').show();
+    $('#download-link').show();
     if (JS_error(responseTxt, statusTxt, xhr, true)) {
         return;
     }
@@ -369,6 +383,7 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
         tableBody.appendChild(row);
     }
     saveSpeakerTable();
+    updateDownloadLink();
 }
   
 function displayTranscript(transcript) {
@@ -440,12 +455,22 @@ function updateWordCount() {
     const transcription = transTextarea.value;
     const wordCount = countWordsAfterColon(transcription);
     $('#wordCount-ori').val(wordCount);
+    localStorage.setItem('wordCount-ori', wordCount);
 }
 
 function getFileNameWithExtension(filePath) {
     let pathArray = filePath.split('/');
     let fileName = pathArray[pathArray.length - 1];
     return "../../../static/data/parrot/" + fileName;
+}
+
+function updateDownloadLink() {
+    let transcription = localStorage.getItem('transcription');
+    transcription = transcription.replace(/(\d{1,2}:\d{2}:\d{2}\s-\s\d{1,2}:\d{2}:\d{2}\s\|\s)/g, '\n$1');
+    const blob = new Blob([transcription], { type: 'text/plain' });
+    const url = URL.createObjectURL(blob);
+    downloadLink.href = url;
+    downloadLink.download = 'transcript.txt';
 }
 
 function getSpeakers() {
