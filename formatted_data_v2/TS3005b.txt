@@ -1,0 +1,453 @@
+None: Hello.
+None: Good morning.
+None: Again.
+None: Again.
+None: Again.
+SPEAKER_00: Again.
+SPEAKER_02: Good morning.
+None: Again.
+SPEAKER_03: One question.
+SPEAKER_03: Two and a number.
+None: A four.
+None: Okay.
+SPEAKER_00: All set.
+SPEAKER_00: Good.
+SPEAKER_00: Okay.
+SPEAKER_00: Let's see what we can find here.
+SPEAKER_00: Okay.
+SPEAKER_00: A very warm welcome again to everyone.
+SPEAKER_00: Here we are already in our functional design meeting.
+SPEAKER_00: The opening, which we are doing now.
+SPEAKER_00: In the special note, I'm project manager, but on the meetings I'm also the secretary, which means I will make minutes as I did as the previous meeting.
+SPEAKER_00: And I'll also put these as fast as possible in the project folder so you can see them and review what we have discussed.
+SPEAKER_00: If I'm right, there are three presentations, I guess each one of you has prepared one.
+SPEAKER_00: Good.
+SPEAKER_00: And we will also take a look at new project requirements if you haven't heard about them yet.
+SPEAKER_00: And then of course we have to take a decision on the remote control functions and we have some more time, 40 minutes, but I think we will need it.
+SPEAKER_00: Well, I don't know who wants to go first with this presentation.
+SPEAKER_00: Go first.
+SPEAKER_00: Okay.
+SPEAKER_00: Okay.
+SPEAKER_04: Should I go first with the user?
+SPEAKER_04: Let's see.
+SPEAKER_04: Everybody already has it.
+SPEAKER_01: You can adjust it.
+SPEAKER_03: Okay.
+SPEAKER_00: And one question, your name, Denny, is it with AEA?
+SPEAKER_00: AEA.
+SPEAKER_00: Okay.
+SPEAKER_00: Thank you.
+SPEAKER_03: Okay.
+SPEAKER_03: I wanted to explain the working design of a remote control.
+SPEAKER_03: It's possible if you want to design one of those.
+SPEAKER_03: Well, it basically works as I wrote down in this little summary.
+SPEAKER_03: When you press a button, that's when you do, for example, when you want to turn up the volume, a little connection is made.
+SPEAKER_03: The rubber button just presses on a little pin plate, which makes a connection that you can use.
+SPEAKER_03: A connection that gives the chips, which is mounted beneath those, that plastic of a rubber button, sends that connection has been made and knows what button you press, for example, the volume up or volume down button.
+SPEAKER_03: The chip makes Morse code like signal, which then is signaled to several transistors.
+SPEAKER_03: Which sends the signal to a little lat.
+SPEAKER_03: You know what a lat is?
+SPEAKER_03: Okay.
+SPEAKER_03: And that makes the infrared light signal, which is sent to the television set, which has a sensor in it to send the signal of the infrared.
+SPEAKER_03: And that's basically how it works.
+SPEAKER_03: The findings that I found searching up some detail information about remote controls are that they are very easy to produce.
+SPEAKER_03: This piece is possible to make them a mass production because it is as easy as printing a page, just a fiberglass plate.
+SPEAKER_03: It's covered with some coatings and chips.
+SPEAKER_03: And the technology is already available.
+SPEAKER_03: We don't have to find out how remote controls have to work or how to make some chips that are possible to transmit those signals.
+SPEAKER_03: I made a little animation about how remote control works.
+SPEAKER_04: Innovation.
+SPEAKER_01: There is something turning.
+SPEAKER_00: Yeah, it's a little bug.
+SPEAKER_03: It's in the smartboard.
+SPEAKER_03: Well, the subcomponent I suppose that you understand what the subcomponent is.
+SPEAKER_03: In this example, it's the button.
+SPEAKER_03: When it is pressed down, the switch is switched on.
+SPEAKER_03: So with the wire is sent to the chip in cooperation with the battery, of course, because to make a signal possible, you have to have some sort of electronic infrared light.
+SPEAKER_03: Yes.
+SPEAKER_03: After it's being composed by the chip, the signal is transported to the infrared bulb.
+SPEAKER_03: From there, it signals a Morse code-like signal to the bulb in the television cell.
+SPEAKER_03: I wrote down some personal preferences about the remote control.
+SPEAKER_03: Of course, it is very handy if the remote control is handheld, so you don't have to wind it up or something.
+SPEAKER_03: It's very light to use it.
+SPEAKER_03: I personally prefer that it would become available in various colors and easy to use buttons, but I suppose that one of the other team members thought of that too.
+SPEAKER_03: It is possible for several designs and easy to use buttons.
+SPEAKER_03: Perhaps soft touch, touch screen buttons because the rubber buttons are always slightly damaged.
+SPEAKER_03: So the numbers on the buttons are not possible to read anymore.
+SPEAKER_03: And as I said before, we can make several designs.
+SPEAKER_03: Okay.
+SPEAKER_03: That's my contribution to this meeting.
+SPEAKER_00: I'll go next.
+SPEAKER_00: Please.
+SPEAKER_00: So.
+SPEAKER_01: Spoke it.
+SPEAKER_01: Well, my name is Emke Ljung and I looked at the technical functions design of the remote.
+SPEAKER_01: I did this by looking at examples of other remote controls, how they look and information from the web that I found.
+SPEAKER_01: What I found was that the actual use of remote control is to send messages to the video set, how you describe them.
+SPEAKER_01: And it can be all sorts of messages, turn it on, turn it off, change the channel, just fill in that kind of thing, play video text, but also play CD if you use your CD player.
+SPEAKER_01: There are some examples.
+SPEAKER_01: You can see they are very different.
+SPEAKER_01: The one has got all the functions that you could possibly need in a lot of buttons, etc.
+SPEAKER_01: And the other is more user friendly, little, it's big buttons and not all the stuff you can do with it, but the essential stuff is there.
+SPEAKER_01: I guess you could better, you should look at the user centered approach because the user centered approach because the customers have to use them and if they don't think it's usable, they won't buy it.
+SPEAKER_01: A lot of buttons they may think from idle meets as much as that.
+SPEAKER_01: Personal preferences is a simple remote with the basic functions that you can need that you could use, but keep in mind the new functions of TV, what we discussed earlier, split screen, is that a function that you should have because all the TVs will have them or because only a few ones isn't really necessary.
+SPEAKER_01: And then I would make so that you could use it on more than one appliance.
+SPEAKER_01: If you have one that does the video, it could also work with the stereo because play is play and stop, stop and let's read it.
+SPEAKER_01: You could reuse the buttons so you don't have to have a lot of buttons for anything.
+SPEAKER_01: And it should be user friendly, clear buttons and not too much.
+SPEAKER_01: And that's just my presentation.
+SPEAKER_04: Okay, so, we're going to discuss the functional requirements of the remote.
+SPEAKER_04: That means that functions user want to have on the remote control or just the users actually.
+SPEAKER_04: The method I prefer is we're going to look which section of the users we're going to focus on more.
+SPEAKER_04: Are the younger people going to buy remote control or the elderly people?
+SPEAKER_04: And that section we're going to focus and adjust the remote more to that section than the whole user section.
+SPEAKER_04: Some data. Younger people from 16 to 45 years are more interested in features like LCD screens, speech recognition, etc.
+SPEAKER_04: And we possess about two-thirds of the market from in that range of H.
+SPEAKER_04: The elderly people from 45 years to 65 years are not that much interested in features and we possess less than two-thirds.
+SPEAKER_04: That's two-fifth of the market share in that area.
+SPEAKER_04: Okay, findings. 50% of the users lose their remote often.
+SPEAKER_04: So we don't have to make it very small like a mobile phone or something but somewhat bigger than small so you don't lose it that much anymore.
+SPEAKER_04: 75% of the users also find it ugly and 75% of users have a lot.
+SPEAKER_04: So the buttons should be that small or should be that complex because you have to search for buttons which one you're going to use.
+SPEAKER_04: Important issues about the remote. I think it would be better with the personal reference but okay.
+SPEAKER_04: Remote control have to have a low power usage because 75% of the users only step one time an hour.
+SPEAKER_04: So the power usage is also one time an hour so with a high power usage we would use a lot of batteries.
+SPEAKER_04: The following buttons and the channel buttons are the two most important buttons on the remote control so those have to be find very easily and have to be somewhat like bigger etc.
+SPEAKER_04: It has also we have to find easily when the label is gone.
+SPEAKER_04: My colleague also knows that that label should be scratched off or who be off the slate.
+SPEAKER_04: So if that's the problem you also have to find it easily on the remote.
+SPEAKER_04: Buttons like what our colleague said have to be minimalized or should be covered or in LCD screen.
+SPEAKER_04: The LCD screen is easy because you have the LCD screen.
+SPEAKER_04: You have the first options put one option and then you have all the buttons of that option so the other options will be gone and you don't see the buttons.
+SPEAKER_04: So LCD screen should be easy but an LCD screen, the problem with the LCD screen is that elderly people from 45 to 65 years don't use the LCD screen.
+SPEAKER_04: So we have to keep that in mind that if you're going to implement LCD screen don't have to make it that hard to learn or to use.
+SPEAKER_03: LCD screen as in touch screen?
+SPEAKER_04: Yeah touch screen.
+SPEAKER_04: The last but not least, younger people are more critical about the features because they use the remote control often more often and are more technical than all the people.
+SPEAKER_04: And all the people spend more money and easily on the remote control.
+SPEAKER_04: So we have to keep in mind to focus not a lot, not that much on the younger people but also somewhat on elderly people.
+SPEAKER_04: And on my personal references I don't have any more time to comment that but like I said LCD screen is easily to use because you can implement a lot of buttons in one remote with not that much buttons.
+SPEAKER_04: And it should be easy to use especially the following buttons, the channel buttons and the number buttons to step through the channels.
+SPEAKER_04: And that is it.
+SPEAKER_00: Okay.
+SPEAKER_00: Okay.
+SPEAKER_00: Thank you.
+SPEAKER_00: Well thank you all.
+SPEAKER_00: I don't know.
+SPEAKER_00: Did everyone receive an email with the new project requirements?
+SPEAKER_00: No.
+SPEAKER_00: No.
+SPEAKER_01: I did not.
+SPEAKER_01: Perhaps there is.
+SPEAKER_00: And then I think it's a good thing that I made a separate slide of them so you can all read them.
+SPEAKER_00: Oh, well not in this presentation.
+SPEAKER_00: It should be in there.
+SPEAKER_00: Well I can tell you them from my laptop.
+SPEAKER_00: The data text has become outdated since the popularity of the internet.
+SPEAKER_00: So that's the first thing I think we should pay less attention to the data text.
+SPEAKER_00: Remote control should only be used for the television otherwise the project becomes more complex which endangers the time to market and of course we'll make it more costly I think.
+SPEAKER_00: Our current customers are within the age group of 40 plus.
+SPEAKER_00: New products should reach a new market with customers that are younger than 40 and you talked about it before.
+SPEAKER_00: And a last point but also very important.
+SPEAKER_00: Our corporate image should stay recognizable in our products which means that our corporate color and slogan must be implemented in the new design.
+SPEAKER_00: So we have to keep that in mind.
+SPEAKER_00: Well according to our agenda it's time to take a decision on the remote control functions.
+SPEAKER_00: So who has any idea what should be on it and what shouldn't?
+SPEAKER_01: You said it should only be with one appliance or with one the only the TV.
+SPEAKER_01: Yeah, only with video also.
+SPEAKER_01: Only for television.
+SPEAKER_00: Makes it a lot easier.
+SPEAKER_04: So yeah then you can requirements, no functions.
+SPEAKER_01: Then it should have on off.
+SPEAKER_04: Yeah, stand by basics, stand by a volume channel, one till two zero numbers on it.
+SPEAKER_04: The data text doesn't have to be.
+SPEAKER_04: Other functions.
+SPEAKER_01: Yeah, I can say from one number to two.
+SPEAKER_01: Yeah, yeah.
+SPEAKER_04: I think it's easy to implement the button with a special, which especially do that because some TVs if you press this one and then the two.
+SPEAKER_04: It makes it be between five seconds you make twelve.
+SPEAKER_04: That's relaxed.
+SPEAKER_03: And there are some models that don't accommodate that function.
+SPEAKER_03: So the Philips television makes plus one and that indeed to press one and then two to make an easy reach, to reach them twelve.
+SPEAKER_03: But all the television makes use of those buttons where you first press that button and then press two digits to.
+SPEAKER_01: So you tap that one.
+SPEAKER_04: Main targets, HR were 45 plus or?
+SPEAKER_00: Well, new products should reach a market with customers that are younger than 40.
+SPEAKER_04: And now we have every customer.
+SPEAKER_04: Because younger people have 16 to 25 age or 81% interest in LCD screen from 26 to 35 to 66% and 36 to 45 to 55%.
+SPEAKER_04: So I think because most of the print plate will be broken for about two years, you have to press very hard to go to the next channel with the LCD screen.
+SPEAKER_04: It's easy because you only have to wipe the screen for a fingerprint.
+SPEAKER_03: And then you can use that.
+SPEAKER_03: That collides with our mission to make it very cheap.
+SPEAKER_03: Because LCD screens are very expensive.
+SPEAKER_03: Touch screen.
+SPEAKER_03: Probably even more.
+SPEAKER_03: True.
+SPEAKER_03: Well, it's possible to make an LCD screen.
+SPEAKER_03: How was the information?
+SPEAKER_04: Yeah, it only says that this percentage like LCD screen, because it says that younger age between 16 and 45 highly interested features more critical.
+SPEAKER_03: Perhaps we should focus on the LCD screen.
+SPEAKER_04: Yeah, because our target is 16 to 45.
+SPEAKER_03: Yeah, but will we not exceed our reduction cost?
+SPEAKER_04: Yeah, you don't know how much cost LCD screen is it possible to find out?
+SPEAKER_04: I don't have any costs here.
+SPEAKER_04: I only have percentages.
+SPEAKER_01: What if you do an LCD, do we have any buttons?
+SPEAKER_03: An LCD screen is just like a drone here.
+SPEAKER_03: It displays several buttons.
+SPEAKER_03: For example, if you want the minimal use buttons such as channel and volume, it displays four buttons on the screen.
+SPEAKER_03: And it's possible to press them down just like a touchscreen.
+SPEAKER_01: So you can adjust which buttons you want on them.
+SPEAKER_04: Yeah, it's possible to adjust the audio settings, press audio on the touchscreen and you get the buttons for audio settings.
+SPEAKER_04: So the other buttons are gone.
+SPEAKER_04: Yeah.
+SPEAKER_00: So we're going for an LCD screen?
+SPEAKER_04: Yeah.
+SPEAKER_00: I think it's the most easy thing.
+SPEAKER_00: And I'm hoping that when we produce a lot, it won't be too expensive.
+SPEAKER_01: We had 1250, I guess?
+SPEAKER_00: Yeah, 1250?
+SPEAKER_01: Yeah, I don't know how expensive.
+SPEAKER_01: Any guesses?
+SPEAKER_03: Well, I suppose if the young people are interested in LCD screens, we surely make them.
+SPEAKER_03: And if that is our market share to our goal to deliver those remotely.
+SPEAKER_01: You also said that we should not only focus on the younger people, but also the older.
+SPEAKER_01: Yeah, but...
+SPEAKER_01: Will they use it if it's only as an LCD screen?
+SPEAKER_04: It's 46 to 45, 33% and 56 to 65 to 12%.
+SPEAKER_04: But our project requirements are the new products will be reached for new markets with customers that are younger than 40.
+SPEAKER_01: But you don't want to eliminate the other ones?
+SPEAKER_04: No, they're not now.
+SPEAKER_01: But if they also buy them, that's all right.
+SPEAKER_04: Yeah, but market share for 40 years and younger is higher than 65 in younger.
+SPEAKER_02: All right.
+SPEAKER_00: Okay, so LCD it is?
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay, let's try to...
+SPEAKER_04: Yeah, if it gets too much to expensive, then we should be sticking to rubber buttons.
+SPEAKER_03: Yeah, I think that they will send you some information about the cost of LCD.
+SPEAKER_04: No costs at all.
+SPEAKER_03: So if you receive an email about that, can you post it in our project map?
+SPEAKER_04: I think that should... I think we all get the costs of everything.
+SPEAKER_03: Because you are the marketing expert.
+SPEAKER_04: I'll post it.
+SPEAKER_01: I figured out the backup plan that we would use.
+SPEAKER_01: Sure, sure.
+SPEAKER_01: Yeah.
+SPEAKER_04: Yeah.
+SPEAKER_02: Okay, but for now, LCD.
+SPEAKER_04: Then you have 75% of use finding it ugly.
+SPEAKER_01: LCD?
+SPEAKER_01: Yeah.
+SPEAKER_04: And 80% of the users would spend more money with it when a remote would look fancy.
+SPEAKER_01: Oh, this is a problem.
+SPEAKER_04: It'll fancy with the LCD screen.
+SPEAKER_01: Yeah, but they don't like it.
+SPEAKER_01: They think it's ugly when it has an LCD.
+SPEAKER_04: Yeah, just the play remotes, not specific LCD remotes.
+SPEAKER_01: All right, that's all the new setup.
+SPEAKER_00: Yeah, maybe you can make something fancy out of an LCD remote because it's new as far as I know.
+SPEAKER_00: Yeah, of course.
+SPEAKER_04: And then you have the other thing that's 75% sep a lot, but that's not a question with the LCD screen.
+SPEAKER_04: The only thing you have to do is wipe the screen off of one of these in time to get all your fingerprints off of it.
+SPEAKER_02: No.
+SPEAKER_02: Okay.
+SPEAKER_00: Okay, what else does a remote need?
+SPEAKER_00: A mute button.
+SPEAKER_00: Mute button.
+SPEAKER_00: Mm-hmm.
+SPEAKER_04: I think.
+SPEAKER_04: The most important thing on the remote control are channel selection, volume selection, and power usage.
+SPEAKER_04: Yeah.
+SPEAKER_04: And the Taylor text, but that is not of the question.
+SPEAKER_04: Other things are...
+SPEAKER_01: I think you put a button of Taylor text for people who want to use it.
+SPEAKER_01: Yeah, it would be.
+SPEAKER_01: I mean, I've got a big remote.
+SPEAKER_01: Yeah.
+SPEAKER_00: I'd have to fill it.
+SPEAKER_00: Yeah, and we could make a separate menu on the LCD.
+SPEAKER_00: Yeah.
+SPEAKER_04: And also less important things are screen settings, audio settings, and channel settings.
+SPEAKER_01: Yeah, less important, because I think they should be there.
+SPEAKER_03: Yeah, it should be there, but not...
+SPEAKER_03: But in a sub-press menu.
+SPEAKER_03: Yeah, sub-menu.
+SPEAKER_03: I think it's also important to make possible to...
+SPEAKER_03: Anycon in English?
+SPEAKER_03: And to not use batteries and use...
+SPEAKER_03: But...
+SPEAKER_03:...acry batteries to...
+SPEAKER_02: I would be very proud.
+SPEAKER_03: Yeah, sure.
+SPEAKER_03: Yeah, so you can mount the...
+SPEAKER_03:...the remote control to charge it.
+SPEAKER_01: We should think of it 1250.
+SPEAKER_04: Yeah, but we don't...
+SPEAKER_03: I don't know why it says...
+SPEAKER_03: Yeah, so...
+SPEAKER_03: Okay, because when you get an LCD screen, you run it on batteries.
+SPEAKER_03: Yeah.
+SPEAKER_03: Yeah.
+SPEAKER_01: The batteries will be...
+SPEAKER_01:...the very...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_03:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the...
+SPEAKER_01:...the very...
+SPEAKER_01:... phr capital for extra that you have...
+SPEAKER_01:...first to turn the remote on, and then you can...
+SPEAKER_04: Yeah, I think it's not...
+SPEAKER_04:...that easy, because I don't think people like to...
+SPEAKER_04:...that you have to do it first, and then use it.
+SPEAKER_04: I think it's better than...
+SPEAKER_04: The ticket shuts down, the remote shuts down...
+SPEAKER_04:...the...
+SPEAKER_03:......code standard, when you know users...
+SPEAKER_01:... hijack!
+SPEAKER_01: Automatically...
+SPEAKER_01: Okay, I have to rearrange this.
+SPEAKER_03:... a few minutes or so here, not a few minutes.
+SPEAKER_00: Yeah, and maybe a low battery indicator
+SPEAKER_04: Before our when it's get again gets empty they have plenty of time to recharge it I've put it in a charger
+SPEAKER_00: We are going for a recharge
+SPEAKER_04: Yeah Because when you're watching TV you're zapping you have to put it in a rechargeer
+SPEAKER_03: When you're done with
+SPEAKER_04: Yeah, okay, but don't be watching you sure that the batteries go of our six hours five
+SPEAKER_01: Yeah
+SPEAKER_03: But you also forget to buy batteries Yeah, you can you can't use it so I or have to be sure that the batteries lost a couple of days with the church
+SPEAKER_01: So I think the battery should should work a lot longer than a couple of yeah, but but you have a LCD screen
+SPEAKER_03: My power uses so It should be a standard move to put your remote control in the charger when you're done watching television. That's also a Great advantage because you can't lose it anymore Because you are obliged to put in the charger and not to leave any couch between some cushions
+SPEAKER_04: Okay
+SPEAKER_01: You're near your couch Because otherwise you have to yeah, just a small device
+SPEAKER_04: Like definitely charge or something and just just the cable or even
+SPEAKER_03: Charging when you come out it on yeah something like that
+SPEAKER_04: Okay, well easy to use also My chair speaker speech recognition I
+SPEAKER_03: For the otherly you could make it possible to enlarge the screen to make it possible to not Display a button at 10 points. I think that this will be standard I have a bunch of options you have to specify because we can look at perhaps 40 buttons at the screen but in the otherly I only look at two buttons
+SPEAKER_00: Something about speech recognition. Yeah, it says
+SPEAKER_04: Also 91% 60 to 25 26 to 35 years 76% and 36 to 45 35%
+SPEAKER_03: Let's leave out all the remote controls and just put a microphone That's an idea It has to be remote control
+SPEAKER_01: No, they want to talk into the remote control
+SPEAKER_04: I think the LCD screen should be sufficient
+SPEAKER_00: Yeah, that's a lot. That's the option should be why not? Why not?
+SPEAKER_04: I think it's better to have LLC screen because in the area of 36 to 45 we have about 30% of the market share in Our hands and 55 of those people want LCD screen at 35 on speech recognition So I think it's better to keep it with LCD screen
+SPEAKER_00: Would it be useful to implement both?
+SPEAKER_04: Yeah, with the costs of allowed
+SPEAKER_01: I don't know that can be done with the cost of 12
+SPEAKER_04: If it should be done if it could be done
+SPEAKER_01: Yeah, I would like to implement that you say volume up and then
+SPEAKER_03: Certain systems already exist I think
+SPEAKER_01: Then you also have to have different languages if we go international It's used to do French and English
+SPEAKER_04: But that should be also coming with some software also with LCD screen Because I think it's a different written volume is different within than So I hear you're something
+SPEAKER_01: You can use icons for the The speaker and the That's better than language
+SPEAKER_03: So you want to hear it's international
+SPEAKER_04: Okay, what else?
+SPEAKER_00: So no speech recognition?
+SPEAKER_01: Well, if it could be done with
+SPEAKER_03: It should be done, it could be done
+SPEAKER_00: And then with different languages
+SPEAKER_01: Yeah, that should be
+SPEAKER_03: That's not so difficult I already used several Voice-operated systems and they are all possible to No, that's difficult
+SPEAKER_01: Well, you should suggest everything
+SPEAKER_04: Every language of dialects Yeah, I think it's very difficult
+SPEAKER_01: You have to speak so that it can understand
+SPEAKER_04: I think it can be implemented but maybe
+SPEAKER_01: You can use that as an option Yes, an option, yes
+SPEAKER_04: Money left or something 50 years, yes
+SPEAKER_03: Let's do speech Speech recognition
+SPEAKER_00: Okay, so we only do it when we have enough money left Okay, well, I've written down an honor off button Volume selection channel selection digits from 1 to 0 From 0 to 9 A digit button to switch between 1 and 2 digits Mute button, a separate menu for a teletext A battery indicator We're going to use a docking station And probably LCD And if there's enough money, speech recognition And the possibility to enlarge buttons or to have large buttons
+SPEAKER_01: With teletext, it wasn't really important No, but Also now I've colored I don't know if we should implement that Color?
+SPEAKER_01: Yeah, when you press the red button You go to page 102 and we press the I don't know if we should implement that Because it says that teletext is not really important Short cuts Yeah, short cuts
+SPEAKER_04: I'll take which we could also implement the audio settings, screen settings And channel settings but at sub menus
+SPEAKER_02: Yeah
+SPEAKER_04: The mainly, if you turn the remote control on You have to see 1 to 0 channel volume And if you want to use the teletext screen or audio then you can press it
+SPEAKER_03: It should be available but not directly available Yeah, okay
+SPEAKER_00: Okay, so not too much the teletext support But in a separate menu
+SPEAKER_01: So actually it is there But it's just not ready there
+SPEAKER_03: It's not ready there So it doesn't confuse the user We have to search It has to be easy to use I'll search If you want to use the teletext You can press the teletext button And then the options become available
+SPEAKER_04: The side of it
+SPEAKER_00: Okay, but no more buttons or functions Though what else can you do with that?
+SPEAKER_00: And we forgetting something I've got to cut you examples here
+SPEAKER_01: But I don't think there's anything we should
+SPEAKER_04: Play pause doesn't need to be
+SPEAKER_01: We don't have a video on this
+SPEAKER_04: So if you have a voice issue or presentation You could check the other remote controls Technical functions
+SPEAKER_01: Hey, you could hear Oh, the other
+SPEAKER_04: Which was real
+SPEAKER_01: And the technical functions They're a bit small You could be able to shoot stretch them Because
+SPEAKER_04: Bing! Yeah, yeah, yeah, yeah Technical functions Okay
+SPEAKER_01: I guess we've got a more
+SPEAKER_04: Uh, I think I got you half only You have a mute play Yeah, let's ask you for the video Free slow Yeah, the zoom buttons
+SPEAKER_01: Yeah, white screen
+SPEAKER_04: High screen Different things you have
+SPEAKER_01: I'll let you put them on now Yeah, different too Yeah With that should also be a sub menu
+SPEAKER_04: Yeah, it should be available But that is a screen setting or something
+SPEAKER_01: Yeah So we should also implement a screen setting
+SPEAKER_04: Yeah, screen settings, audio settings The other settings you have
+SPEAKER_01: Yeah
+SPEAKER_04: General settings
+SPEAKER_01: Yeah So you can probably Those four and of course the main Yeah, so first you see the main And the other ones you can go to
+SPEAKER_04: Like depth screens or something or I don't know
+SPEAKER_01: I hope we can do this Yeah, actually it depends
+SPEAKER_03: On what kind of television you got Because if you don't got a white screen Television, you don't need to be I don't need to be Screen settings
+SPEAKER_04: They don't use it
+SPEAKER_03: And if the television does not support Such operations
+SPEAKER_01: So you don't have to use that tab
+SPEAKER_04: Yeah Yeah So you leave it Hello Yeah Yeah Or it could be possible to have a Standard version of the remote Yeah Expanded version
+SPEAKER_01: And do we want to win different colors or The buttons, you say?
+SPEAKER_01: Colors
+SPEAKER_03: Colors I think the main color of the Remote Control is the color of the LCD screen Because we don't want to love itself And if I
+SPEAKER_04: Have a device of how many percent? 80% I think it's ugly We'll spend more money if it looks fancy
+SPEAKER_03: Okay, so use a lot of people
+SPEAKER_01: Perhaps you can make a adjustable front Like with the Un- I just want phones You can Okay You can Okay So you're a system But I think that's
+SPEAKER_03: Well Make it a little bit different colors
+None: Yeah Red, white, blue, black And a sea Gray She's your first Simpsons versions And she press a button
+SPEAKER_04: It turns green Yeah Leave
+SPEAKER_02: Well
+SPEAKER_00: Five minutes Single for our Final five minutes So I have the things I just read Then we have separate menus for Data Text Screen Settings Audio Settings And well
+SPEAKER_04: Channel Settings
+SPEAKER_01: Alright So you can program that too Yeah
+SPEAKER_00: Okay So you can
+None: Yeah Perhaps you should Throw them in one pile So options And then use them Yeah Otherwise you have all those data Perhaps they'll text Not
+SPEAKER_04: Or like If we menu button
+SPEAKER_00: Also a separate menu
+SPEAKER_04: Or also a menu button First menu Then you have Main All the settings
+SPEAKER_00: Okay, but we can work it out Yeah So later I guess So we're having a general menu With the most used functions Data Text Screen Settings Audio Settings Channel Settings And maybe there are options for the remote itself Like large icons or small icons What else?
+SPEAKER_04: I think Because we don't have a lot of buttons on the one screen I think the buttons Yeah, but Like we only have the general button The volume button Those buttons Yeah
+SPEAKER_02: There's also an ESD Right Yeah Right
+SPEAKER_01: So we don't have any normal buttons No, no normal buttons
+SPEAKER_04: Yeah Maybe only the on and off button
+SPEAKER_00: We don't need the special options menu for the remote itself No Okay
+SPEAKER_01: Oh well, you should be able to set which TV you have If you have a TV
+SPEAKER_03: Of course you need the settings button Or a settings option for the remote control
+SPEAKER_01: Yeah But is it an idea to use what you said Normal on and off button for the TV?
+SPEAKER_01: No, no, no
+SPEAKER_04: Because we discussed that you could charge it Otherwise it It jumps to standby mode
+SPEAKER_01: Yeah, but not for the remote but for the TV
+SPEAKER_04: Yeah, the TV of course I think that's the best thing is that To implement that one in the menu with the volume
+SPEAKER_01: But they're not as normal but the ESD
+SPEAKER_00: Well, maybe there should be a separate button Apart from the ESD Because you can't turn it on when the ESD is off So how do you turn the thing on that?
+SPEAKER_00: So we are Why you just tap it?
+SPEAKER_00: Yeah, you just tap it That's proofing Okay, then it's turn it off And then the television is on also or just remote?
+SPEAKER_00: No, just remote
+SPEAKER_04: The television doesn't have to be on That's where you can press on
+SPEAKER_03: Yeah, it should be a standby mode
+SPEAKER_04: Yes, standby then Press on the remote Press on and then TV should be Affailable
+SPEAKER_01: Or not I don't know whether it's handling to have a normal on button Just for the TV so you can turn it on And then you can choose channel Otherwise you I don't know whether or not That's
+SPEAKER_03: A normal button on the remote control
+SPEAKER_01: Yeah, or normal To turn it on Or you should put it in the ESD screen
+SPEAKER_03: Yeah, because when you touch the ESD screen When it is in standby mode It should pop on Why would it be handy to have an on button?
+SPEAKER_01: I guess if you use the ESD screen You first have search where it's the on button And then you then turn And then the TV goes on But if you have a normal on button on the remote Then you do it on And then you search the channel Which you want
+SPEAKER_04: Yeah, but I think the remote control If you press tap the screen It always should jump to the screen Which has the volume button Channel button And of course also the on and off button
+SPEAKER_03: I think it looks a lot more fancy Yeah, I think so too
+SPEAKER_00: I don't have any buttons on No, actually we're going to create a button less No buttons at all Okay, well that might be a unique selling point Remote If you can afford it Well, I guess Let's put on the discussion to our next meeting Because we're running out of time For now we're having a lunch break And then there will be Half an hour for the next share of individual work I will write minutes If I can create them out of this And put them in the project document folder And here are the individual actions for the other roles And of course specific instructions will be sent to you again By your personal coach Luckily as we are Okay, well thank you very much You just want to have a nice lunch Food
+SPEAKER_01: Should we put this back in our room? I think so
+SPEAKER_03: Yeah, I think so I think it's a small piece
+None: Yeah Yeah But look, there you go Yep, yep, yep Yeah That's right Oh, sorry s So...

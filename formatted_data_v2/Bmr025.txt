@@ -1,0 +1,539 @@
+SPEAKER_03: Yep.
+SPEAKER_03: So if we can't, we can.
+SPEAKER_03: But we're trying to make this abbreviated meeting because the next documents are pushing for it.
+SPEAKER_03: So.
+SPEAKER_03: So, gendith, according to this, is transcription status, DARPA demos, XML tools, disks, backups, et cetera, and crosspads.
+SPEAKER_05: Does anyone have anything to add to the agenda?
+SPEAKER_03: OK.
+SPEAKER_03: We're just going order transcription status.
+SPEAKER_03: That's probably.
+SPEAKER_03: I'm going to get quickly.
+SPEAKER_01: I have several more transcribers and making more.
+SPEAKER_01: Seven?
+SPEAKER_01: Several.
+SPEAKER_01: Oh.
+SPEAKER_01: I'm sorry.
+SPEAKER_01: And I've been finishing up the double checking.
+SPEAKER_01: I hope to have that done by today, but it's going
+SPEAKER_05: to take one more week. As a somewhat segue into the next topic, could I get a hold of the data, even if it's not really corrected yet, just so I can get the data formats and make sure the information retrieval stuff is working?
+SPEAKER_05: So can just, oh, it is.
+SPEAKER_05: OK, just so transcripts.
+SPEAKER_05: Is the sub directory?
+SPEAKER_05: Yes.
+SPEAKER_05: OK.
+SPEAKER_05: So I'll probably just make some copies of those rather than use the ones that are there.
+SPEAKER_05: And then just we'll have to remember to delete them once the corrections are made.
+SPEAKER_01: OK.
+SPEAKER_02: I also got a shoulder mark to transcription.
+SPEAKER_02: I just processed the first five e-meaning since they are chunked up.
+SPEAKER_02: So they probably can be sent to IBM whenever they want them.
+SPEAKER_02: Well, the second one of those is already at IBM.
+SPEAKER_04: But the other one that we're waiting to hear from them on.
+SPEAKER_01: These are separate from the ones that.
+SPEAKER_04: They're the IBM set.
+SPEAKER_04: Yeah.
+SPEAKER_04: Excellent.
+SPEAKER_04: So as soon as we hear from Brian that this one is OK, and we get the transcript back, and we find out that hopefully there are no problems matching the transcripts with what we gave.
+SPEAKER_04: Then we'll be ready to go and we'll just send them the next four as a big back.
+SPEAKER_04: I'm going to work on that.
+SPEAKER_05: And so we're doing those as disjoint from the ones we're transcribing here?
+SPEAKER_04: Yes.
+SPEAKER_04: Exactly.
+SPEAKER_04: We're sort of doing things in parallel by way we can get as much time.
+SPEAKER_05: Yeah, I think that's the right way to do it, especially for the information retrieval stuff.
+SPEAKER_05: Anything else on transcription says?
+SPEAKER_03: OK.
+SPEAKER_03: There are pedagogues where you had the sub meeting the other day.
+SPEAKER_05: Right.
+SPEAKER_05: Which, so I've been working on using the Thistle tools to do information retrieval on meeting data.
+SPEAKER_05: And the Thistle tools are, there are two sets.
+SPEAKER_05: There's a back end and a front end.
+SPEAKER_05: So the front end is the user interface and the back end is the indexing tool and the querying tool.
+SPEAKER_05: And so I've written some tools to convert everything into the right phyiformats and the demand line version of the indexing and the querying is now working.
+SPEAKER_05: So at least on the one meeting that I had the transcript for, conveniently, you can now do information retrieval on it, do type in a string and get back a list of start end times for the meeting of hits.
+SPEAKER_04: And then what does that look like?
+SPEAKER_04: The string that you type in?
+SPEAKER_04: Are you the keywords?
+SPEAKER_04: Keywords.
+SPEAKER_05: Right.
+SPEAKER_05: And then it munges it to pass it to the Thistle YR, which uses an SGML-like format for everything.
+SPEAKER_03: And then does it play something back?
+SPEAKER_05: Right now, I have a tool that will do that on a command line using our standard tools.
+SPEAKER_05: But my intention is to do a prettier user interface based either.
+SPEAKER_05: So that's the other thing I want to discuss is, well, what should we do for the user interface?
+SPEAKER_05: We have two tools that have already been written.
+SPEAKER_05: The soft sound guys did a web-based one, which I haven't used, haven't looked at.
+SPEAKER_05: Dan says it's pretty good, but it does mean you need to be running a web server.
+SPEAKER_05: And so it's pretty big and complex.
+SPEAKER_05: And it would be difficult to port to Windows because it means porting the web server to Windows.
+SPEAKER_05: The other option is Dan did the Tickle TK Thistle GUI front end for broadcast news, which I think looks great.
+SPEAKER_05: I think that's a nice demo.
+SPEAKER_05: And that would be much easier to port to Windows.
+SPEAKER_05: And so I think that's the way we should go.
+SPEAKER_01: Can I ask a question?
+SPEAKER_01: So as it stands within the channel trans-interface, it's possible to do a fine play.
+SPEAKER_01: You can find a search string in play.
+SPEAKER_01: So you're adding like, I don't know, are they fuzzy matches or are they?
+SPEAKER_05: It's a sort of standard text retrieval based.
+SPEAKER_05: So it's term frequency inverse document frequency scoring.
+SPEAKER_05: And then there are all sorts of metrics for spacing.
+SPEAKER_05: How far apart they have to be in things like that.
+SPEAKER_05: So it's a lot more sophisticated.
+SPEAKER_05: It's like doing a Google query or anything else like that.
+SPEAKER_05: So it produces an index ahead of time so you're not doing a linear search through all the documents.
+SPEAKER_05: Because you can imagine if we have the 60 hours worth, you wouldn't want to do a search.
+SPEAKER_05: You have to do a pre-indexing.
+SPEAKER_05: And so these tools do all that.
+SPEAKER_05: And so the work to get the front end to work would be porting it, well, to get it to work on the Unix systems our side is just rewriting them and modifying them to work for meetings.
+SPEAKER_05: So that it understands that they're different speakers and that it's one big audiophile instead of a bunch of little ones and just sort of things like that.
+SPEAKER_04: So what does the user see as the result of the query?
+SPEAKER_05: On which tool?
+SPEAKER_05: The Thistle.
+SPEAKER_05: The Thistle GUI tool, which is the one that Dan wrote, TIGLTK.
+SPEAKER_05: You type in a query and then you get back a list of hits.
+SPEAKER_05: And you can type on them and listen to them.
+SPEAKER_05: Click on them rather with a mouse.
+SPEAKER_04: So if you typed in small heads or something.
+SPEAKER_04: Right.
+SPEAKER_04: You get something that will make you feel like a system audio where that's going to work.
+SPEAKER_04: You get a little step.
+SPEAKER_05: Beep.
+None: That was a really good look.
+SPEAKER_03: It's too early.
+SPEAKER_03: It didn't get to work.
+SPEAKER_03: It didn't get to work.
+SPEAKER_06: Guess who I practice on.
+SPEAKER_01: It's not what we're going to do to say what that private joke is.
+SPEAKER_03: Yeah.
+SPEAKER_03: And then again, maybe not.
+SPEAKER_03: So that sounds reasonable.
+SPEAKER_03: Right.
+SPEAKER_03: My recollection of it's a pretty reasonable.
+SPEAKER_03: That sounds really nice.
+SPEAKER_05: That sounds really nice.
+SPEAKER_05: It'd be minimal effort to get it to work minimally.
+SPEAKER_05: And then we want to add things like query by speaker and by meeting and all that sort of stuff.
+SPEAKER_05: Dave Gilbert expressed some interest in working on that.
+SPEAKER_05: So I'll work with him on it.
+SPEAKER_05: And it's looking pretty good.
+SPEAKER_05: The fact that I got the query system working.
+SPEAKER_05: So if we want to just do a video based one, I think that'll be easy.
+SPEAKER_05: If we want to get it to Windows, it's going to be a little more work because the Thistle I are the information retrieval tools.
+SPEAKER_05: I had difficulty just compiling them on Solaris.
+SPEAKER_05: So getting them to compile on Windows might be challenging.
+SPEAKER_04: You were saying that there's that set of tools, the signal tools.
+SPEAKER_05: It certainly helps.
+SPEAKER_05: I mean, without those, I wouldn't even attempt it.
+SPEAKER_05: But what those do is provide sort of the BSD compatibility layer so that the normal Unix function calls all work.
+SPEAKER_05: But the problem is that the Thistle Tools didn't use anything like AutoConf.
+SPEAKER_05: So you have the normal porting problems of different header files and some things are defined and some things aren't.
+SPEAKER_05: And different compiler work around and so on.
+SPEAKER_05: So the fact that it took me a day to get a compile under Solaris means it's probably going to take me significantly more than that to get it to compile under Windows.
+SPEAKER_05: Well, I'm going to run under free BSD.
+SPEAKER_05: Free BSD would probably be easier.
+SPEAKER_07: All you need to do is say to Dan, gee, it would be nice if this worked under Underconf and it'll be done in a day.
+SPEAKER_07: That's true.
+SPEAKER_05: Actually, no, I should check because he did port it to SproutCore.
+SPEAKER_07: So you might have done that already.
+SPEAKER_07: I wouldn't be surprised.
+SPEAKER_05: So I'll check it.
+SPEAKER_03: But I would serve both purposes as you contact him and ask him if he's already done it.
+SPEAKER_03: Yeah, right.
+SPEAKER_03: If he has, then you learn, if he hasn't, then he'll do it.
+SPEAKER_03: Right.
+SPEAKER_04: I hope he never listens.
+SPEAKER_05: I've been corresponding with Dan and also with SoftSound guy, Blinking on his name.
+SPEAKER_05: Tony Robinson.
+SPEAKER_05: Do I mean Tony?
+SPEAKER_05: I guess I do.
+SPEAKER_05: Or Steve Reynolds.
+SPEAKER_05: Steve Reynolds.
+SPEAKER_07: Do I mean Steve Reynolds?
+SPEAKER_07: Steve Reynolds is not a soft sound, is he?
+SPEAKER_05: No.
+SPEAKER_05: My brain is not working.
+SPEAKER_07: I don't remember who I've been corresponding with.
+SPEAKER_07: Steve Reynolds wrote this whole IR.
+SPEAKER_05: Bennett Steve Reynolds.
+SPEAKER_05: So just getting documentation and format.
+SPEAKER_05: So that's all going pretty well.
+SPEAKER_04: And I think we'll be able to do this.
+SPEAKER_04: So this is a playing sound file between the two platforms.
+SPEAKER_05: We have, well that's a good point too.
+SPEAKER_07: Here's a crazy idea.
+SPEAKER_07: I don't know.
+SPEAKER_07: Actually, why don't you try and merge Transcriber and this will IR?
+SPEAKER_07: Well, this is one of the interfaces.
+SPEAKER_05: This is one of the reasons that I can have Dave Gilbart having him volunteer to work on I just a really good thing because he's worked on the Transcriber stuff.
+SPEAKER_05: Right.
+SPEAKER_07: And he's more familiar with that.
+SPEAKER_07: So Windows media playing for free.
+SPEAKER_05: Well, that's snack, not transcriber.
+SPEAKER_07: Right.
+SPEAKER_07: But the point is that the transcriber uses snack and then you can use a lot of the same functionality.
+SPEAKER_05: Yeah, I mean, I think this will, this will gooey probably use a snack.
+SPEAKER_05: And so my intention was just to base it on that.
+SPEAKER_07: Yeah.
+SPEAKER_07: Well, my thought was, it would be nice to have the running transcripts from a speaker to speaker.
+SPEAKER_07: Right.
+SPEAKER_07: You have a speaker mark here and a speaker mark.
+SPEAKER_05: Right.
+SPEAKER_05: We'll have to figure out a user interface for that.
+SPEAKER_07: Well, my thought was if you had like multi-trans or whatever, do it.
+SPEAKER_05: Yeah.
+SPEAKER_05: It might be fairly difficult to get that to work in the little short segments we'd be talking about and having the search tools and so on.
+SPEAKER_05: We can look into it.
+SPEAKER_03: But the thing I was asking about with the FreeBSD is that it might be easier to get PowerPoint shows running in FreeBSD than to get the other package running in.
+SPEAKER_05: Yeah, I mean, we have to, I have to sit down and try it before I make too many judgments.
+SPEAKER_05: My experience with the GNU compatibility library is really, it's just as hard and just as easy to port to any system.
+SPEAKER_05: The Windows system isn't any harder because it looks like a BSD system.
+SPEAKER_05: It's just, you know, just like all of them, the include files are a little different.
+SPEAKER_05: The function calls are a little different.
+SPEAKER_05: It might be a little easier, but it's not going to be a lot easier.
+None: Okay.
+SPEAKER_03: So there was that demo, which was one of the main ones.
+SPEAKER_03: And then we talked about some other stuff which would basically be showing off the transcriber interface itself.
+SPEAKER_03: And as you say, maybe we could even merge those in some sense.
+SPEAKER_03: But in part of that, we're showing off with the speech non-speech stuff that TLo has done.
+SPEAKER_03: Yeah.
+SPEAKER_01: Looks like.
+SPEAKER_01: So with the answer, you end up with somewhat prioritized.
+SPEAKER_05: Right.
+SPEAKER_05: Excellent.
+SPEAKER_06: So another idea I've just now actually for the demo was whether it might be of interest to show some of the prosody work that Don's been doing.
+SPEAKER_06: Actually show some of the features and then show, for instance, a task like finding sentence boundaries or finding turn boundaries.
+SPEAKER_06: You can show that graphically sort of what the features are doing.
+SPEAKER_06: It doesn't work great, but it's definitely giving us something.
+SPEAKER_06: I don't know if that would be of interest.
+SPEAKER_03: At the very least, we're going to want something illustrative of that because I'm going to want to talk about it.
+SPEAKER_03: And so if there's something that shows it graphically, it's much better than me just having a bullet point pointing at something.
+SPEAKER_06: I mean, you're looking at this now.
+SPEAKER_06: Are you looking at waves?
+SPEAKER_06: I'm at it.
+SPEAKER_00: I'm starting to.
+SPEAKER_00: Yeah, we can probably find some examples of different type of prosotic events going
+SPEAKER_03: on. So when we hear having this demo meeting, what we're sort of coming up with is that we want to have all these pieces together the first order by the end of the month.
+SPEAKER_03: And then that will give us a little bit of this month or next month.
+SPEAKER_06: Oh, do you mean like today?
+SPEAKER_06: Oh, sorry.
+SPEAKER_06: Next month.
+SPEAKER_05: Next month.
+SPEAKER_05: This is it.
+SPEAKER_03: That will give us a week or so to port things over to my laptop and make sure that works.
+SPEAKER_03: I think I mean, we're not be here.
+SPEAKER_06: Yeah, if Don can sort of talk to whoever's because we're doing this anyway as part of our, the research, visualizing what these features are doing.
+SPEAKER_06: And so either might not be integrated, but it could potentially be in it.
+SPEAKER_03: Yeah, this is to an audience of researchers.
+SPEAKER_03: So I mean, let's go ahead and let them know what it is we're doing.
+SPEAKER_06: I don't think anyone's done this on meeting data, so it might be neat.
+SPEAKER_06: Yeah.
+None: Yeah.
+SPEAKER_03: Done with that?
+SPEAKER_05: XML tools?
+SPEAKER_05: So I've been doing a bunch of XML tools where we're sort of moving to XML as the general format for everything.
+SPEAKER_05: And I think that's definitely the right way to go because there are a lot of tools that let you do extraction and reformatting of XML tools.
+SPEAKER_05: So yet again, we should probably meet to talk about transcription formats in XML because I'm not particularly happy with what we have now.
+SPEAKER_05: I mean, it works with transcriber, but it's a pain to use in other tools because it doesn't mark starting end of each utterance.
+SPEAKER_05: So it's implicit in there, but you have to do a lot of processing to get it.
+SPEAKER_05: And so, and also I'd like to do the indirect timeline business.
+SPEAKER_05: But regardless, I mean, that's something that you and me and Jane can talk about later.
+SPEAKER_05: And I've installed XML tools of various sorts and various languages.
+SPEAKER_05: And so if people are interested in doing extracting any information from any of these files, either information on users because the user databases that way, I'm converting the key files to XML so you can extract various sort of information on individual meetings and then also the transcripts.
+SPEAKER_05: And so let me know there.
+SPEAKER_05: It's mostly Java and Pearl, but we can get other languages too if that's desirable.
+SPEAKER_06: Quick question.
+SPEAKER_06: Do we have the seat information in the key files?
+SPEAKER_05: The seat information is on the key files for the ones which it's been recorded.
+SPEAKER_05: For the new one.
+SPEAKER_05: Okay.
+SPEAKER_05: Seat?
+SPEAKER_03: Yeah.
+SPEAKER_03: Where you're sitting.
+SPEAKER_03: Oh, not the quality, you're right.
+SPEAKER_05: Right.
+SPEAKER_05: It's pretty soft and squishy.
+SPEAKER_05: Yeah.
+SPEAKER_05: Okay.
+SPEAKER_05: That might just be me.
+SPEAKER_05: All right.
+SPEAKER_06: I'm just trying to figure out, you know, when we use the keys on someone's microphone.
+SPEAKER_06: Are they next to him or are they crushed?
+SPEAKER_04: Where is it in the key file?
+SPEAKER_05: The square bracket.
+SPEAKER_06: Because I mean, I haven't been putting it in and you haven't been putting it in.
+SPEAKER_06: Right.
+SPEAKER_03: I have not.
+SPEAKER_05: And some of these are missing, aren't they?
+SPEAKER_06: Yeah.
+SPEAKER_05: So we can go back and fill them in for the ones we have.
+SPEAKER_06: I mean, they're on the right, these, but I just hadn't ever been putting it in the key files and I don't think Chuck was either.
+SPEAKER_06: I never knew we were supposed to put it in.
+SPEAKER_05: I had told you guys about it.
+SPEAKER_04: Oh, sorry.
+SPEAKER_04: Sorry.
+SPEAKER_05: So this is why I want to use a tool to do it rather than the plain text because with the plain text, it's very easy to skip those things.
+SPEAKER_05: So if you use the edit key or key edit, I think it's edit key.
+SPEAKER_05: Command, did I show you guys that?
+SPEAKER_05: I did show it to you, but I think you both said no.
+SPEAKER_05: You'll just use text file.
+SPEAKER_05: It has it in there.
+SPEAKER_05: I placed a fill it in.
+SPEAKER_04: Oh, okay.
+SPEAKER_05: Yeah.
+SPEAKER_05: And so if you don't fill it in, you're not going to get it in the meetings.
+SPEAKER_05: Right.
+SPEAKER_06: Well, I just realized I hadn't been doing it in probably.
+SPEAKER_06: So.
+SPEAKER_05: And then the other thing also that TLo noticed is on the microphone on channel zero, it says handheld mic or a crown mic.
+SPEAKER_05: You actually have to say which one.
+SPEAKER_06: I know.
+SPEAKER_06: Yeah, I usually delete the.
+SPEAKER_06: Oh, okay.
+SPEAKER_06: Maybe I forgot to.
+SPEAKER_06: It's almost.
+SPEAKER_06: Yeah, that's because.
+SPEAKER_05: I know.
+SPEAKER_05: I know.
+SPEAKER_06: I know.
+SPEAKER_06: I know.
+SPEAKER_06: I was like, it's Chuck's like, oh, what did Chuck do?
+SPEAKER_06: Okay, I'll do that.
+SPEAKER_05: And then also in a couple of places, instead of filling the participants under participants, they were filled in under description.
+SPEAKER_05: And so that's also a problem.
+SPEAKER_05: So anyway, we will do better.
+SPEAKER_05: Oh, also I'm working on another version of this tool, the one that shows up here that will flash yellow if the mic isn't connected.
+SPEAKER_05: And it's not quite ready to go yet because it's hard to tell whether the mic's connected or not because the best quality ones, the crown ones, are about the same level if they're off or if they're on and no one's talking.
+SPEAKER_05: These ones are much easier.
+SPEAKER_05: There's a bigger difference.
+SPEAKER_05: So I'm working on that and it sort of works.
+SPEAKER_05: And so eventually we will change to that and then you'll be able to see graphically if your mic is dropping in or out.
+SPEAKER_00: That also included batteries dying?
+SPEAKER_00: Yep, just anytime the mic's putting out zeros basically.
+SPEAKER_00: Yep.
+SPEAKER_05: Now, we're off the screensaver too.
+SPEAKER_05: The thing is, as I've said before, it is actually on the thing.
+SPEAKER_05: There's a little level meter, but of course no one ever pays attention to it.
+SPEAKER_05: So I think having it on the screen is more easy to notice.
+SPEAKER_01: It'll be nice if these have little light indicators.
+SPEAKER_05: Buzzer.
+SPEAKER_03: Bam, bam.
+SPEAKER_03: Small shocks.
+SPEAKER_03: Yeah.
+SPEAKER_03: It's a leaf.
+SPEAKER_03: Minister to the.
+SPEAKER_03: Okay.
+SPEAKER_03: Okay.
+SPEAKER_05: Dispack up the center.
+SPEAKER_05: I spoke with Dave Johnson about putting all the meeting recorder stuff on non-backed of disk to save the overhead of backup.
+SPEAKER_05: And he pretty much said, yeah, you could do that if you want, but he thought it was a bad idea.
+SPEAKER_05: In fact, what he said is doing the manual one, doing a NW archive to copy it is a good idea and we should do that and have it backed up.
+SPEAKER_05: He's a firm believer in lots of different modalities of backup.
+SPEAKER_05: I mean, his point was well taken.
+SPEAKER_05: The state cannot be recovered.
+SPEAKER_05: And so if a mistake is made and we lose the backup, we should have the archive.
+SPEAKER_05: And if the mistake is made and we lose the archive, we should have the backup.
+SPEAKER_03: Well, I guess it is true that even with something that's backed up, it's not going to, if it's stationary, it's not going to go through you increment.
+SPEAKER_03: It's not going to burden things in the incremental.
+SPEAKER_03: Just the monthly full.
+SPEAKER_03: Yeah.
+SPEAKER_03: So the monthly full will be a bearer.
+SPEAKER_05: He said that we shouldn't worry too much about that.
+SPEAKER_05: That we're getting a new backup system and we're far enough away from saturation on the full backups that it's probably okay.
+SPEAKER_05: And so the only issue here is the timing between getting more disks and recording meetings.
+SPEAKER_03: So I guess the idea is that we would be reserving the non-backed up space for things that took less than 24 hours to recreate or something like that.
+SPEAKER_05: Things that are recreatible easily and also, yeah, basically, things that are recreatible.
+SPEAKER_05: They expanded files and things like that.
+SPEAKER_05: They take a lot more room anyway.
+SPEAKER_05: Yeah.
+SPEAKER_05: But we do need more disk.
+SPEAKER_05: So we can get more disk.
+SPEAKER_05: Yeah.
+SPEAKER_05: And I think I agree with him.
+SPEAKER_05: His point was well taken.
+SPEAKER_05: If we lose one of these, we cannot get it back.
+SPEAKER_03: Okay.
+SPEAKER_05: I don't think there was any other, et cetera, there.
+SPEAKER_03: Well, that was allowing someone else to come up with something related that they had done.
+SPEAKER_07: I thought you guys were going to burn CDs.
+SPEAKER_05: Unfortunately, we could burn CDs, but first of all, it's a pain because you have to copy it down to the PC and then burn it and that's a multi-step procedure.
+SPEAKER_05: And second of all, the right ones, burners, as opposed to a professional press, don't last.
+SPEAKER_05: So I think burning them for distribution is fine, but burning them for backup is not a good idea.
+SPEAKER_05: I see.
+SPEAKER_05: Because they, they, they all after a couple of years.
+SPEAKER_00: All right.
+SPEAKER_01: I want to ask, I know that, that T.L., you were bringing the channel trends in your face onto the Windows machine.
+SPEAKER_01: Yeah, it's basically, it's done.
+SPEAKER_01: It's all done.
+SPEAKER_05: It's wonderful.
+SPEAKER_05: Great.
+SPEAKER_05: And it runs on it basically, things will just work.
+SPEAKER_02: Yeah, it was just from with the SNEC version and the transcribed version, but it's soft.
+SPEAKER_01: So.
+SPEAKER_01: And that, does that mean?
+SPEAKER_01: I think I shouldn't have this, but I don't.
+SPEAKER_01: Does this mean that this could be ported to a think pad note or is some other type of?
+SPEAKER_02: Yeah, basically, I didn't install it on my laptop and, yeah, you were.
+SPEAKER_02: Hmm.
+None: Good.
+None: Crosspads?
+SPEAKER_05: I got an email from James Landay, who basically said, if you're not using them, could you return them?
+SPEAKER_05: So he said he doesn't need them.
+SPEAKER_05: He just periodically, at the end of each term, sends out email to everyone who has recorded this having them and asks them if they're still using them.
+SPEAKER_03: So we've never used them.
+SPEAKER_05: We used them a couple times, but yeah, we have two.
+SPEAKER_05: So my opinion on it is, first, I never take notes anyway, so I'm not going to use it.
+SPEAKER_05: And second, it's another level of infrastructure that we have to deal with.
+SPEAKER_01: And I have, so my feeling on it is that I think in principle, it's a really nice idea and you have the time tags, which makes it better than just taking raw notes.
+SPEAKER_01: On the other hand, the downside for me was that I think the pen is really noisy.
+SPEAKER_01: So you have a couple of, and I don't know if it's audible on the, I sort of thought it was a disadvantage.
+SPEAKER_01: I do take notes, I mean I could be taking notes on these things.
+SPEAKER_01: And I guess the plus, the crosspads would be the time markings, but...
+SPEAKER_02: What is it, crosspads?
+SPEAKER_03: So it's a regular pad, just a regular pad of paper, but there's this pen, which indicates position.
+SPEAKER_03: And so you have time and position stuff stored so that you can, you have a record of whatever it is you've written.
+SPEAKER_05: Okay.
+SPEAKER_05: And then you can download it and they have OCR and searching and all sorts of things.
+SPEAKER_05: So if you take notes, it's a great little device, but I don't take notes.
+SPEAKER_03: And one of the reasons that it was brought up originally was because we were interested in higher level things, not just the microphone stuff, but also summarization and so forth in the question is if you were going to go to some gold standard of what was it that happened in the meeting, where would it come from?
+SPEAKER_03: And I think that was one of the things, right?
+SPEAKER_03: And so it seemed like a neat idea.
+SPEAKER_03: Well have a scribe, have somebody take good notes and then that's part of the record of the meeting.
+SPEAKER_03: And then we did it once or twice.
+SPEAKER_03: Yep, and I'm just sort of dying out.
+SPEAKER_03: I've been chose to write, but...
+SPEAKER_03: Yeah, that's right.
+SPEAKER_01: But I guess the other thing I'm thinking is we wanted that kind of thing.
+SPEAKER_01: I wonder if we lose that much by having someone be as scribe by listening to the recording afterwards, taking notes.
+SPEAKER_01: I mean we're transcribing it anyway.
+SPEAKER_04: Because that's summary.
+SPEAKER_06: I think there's also, there's this use that...
+SPEAKER_06: Summarize it from the transcript.
+SPEAKER_06: Well what if you're sitting there and you just want to make an X and you don't want to take notes and you just want to get the summary of the transcript from this time location like, you know, and then while you're bored you don't do anything in once in a while.
+SPEAKER_06: Maybe there's a joke and you put an X.
+SPEAKER_06: But in other words you can use that just to highlight times in a very simple way.
+SPEAKER_06: Also with, I was thinking, I know Morgan disagrees with me on this, but suppose you have a group in here and you want to let them note whenever they think there might be something later that they might not want to distribute in terms of content.
+SPEAKER_06: They could just sort of make an X near that point or a question mark that sort of alerts them that when they get the transcript back they get some red flags in that transcript region and they can then look at it.
+SPEAKER_06: So I know we haven't been using it, but I can imagine it being useful just for sort of marking time periods, would you then get back in a transcript?
+SPEAKER_03: So what makes one thing is maybe we should actually schedule some periods where people go over something later and put some kind of summary or something, you know, to be some scribe who would actually listen, who would agree to actually listen to the whole thing, not transcribe it, but just sort of write down things that struck them as important.
+SPEAKER_03: But then you don't have the time reference that you have if you had it live.
+SPEAKER_06: And you don't have a lot of other cues that might be...
+SPEAKER_05: I mean, that was one of the issues we talked about originally and that's part of the difficulty is that we need an infrastructure for using the time, the cross-pads.
+SPEAKER_05: So that means synchronizing the time, you know, you want to pretty close and there's a form on a skew because it's a handheld unit with a battery.
+SPEAKER_05: And so you have to synchronize at the beginning of each meeting all the pads that are being used so that it's synchronized with the time on that.
+SPEAKER_05: And then you have to download to an application and then you have to figure out what the data formats are and convert it over if you want to do anything with this information.
+SPEAKER_05: And so there's a lot of infrastructure which...
+SPEAKER_05: There is an alternative.
+SPEAKER_01: I mean, still, you know, your point stands about there being need to be an infrastructure, but it doesn't have to be synchronized with a little clock timer on it.
+SPEAKER_01: When I did it, I synchronized it by voice by whispering 1, 2, 3, 4 into the microphone.
+SPEAKER_05: Well, but then there's the infrastructure at the other end, which someone has to listen to that and find that point and then mark it.
+SPEAKER_05: So...
+SPEAKER_06: Well, could we keep one of these things for another year?
+SPEAKER_06: I mean, is there a big problem?
+SPEAKER_05: We keep up.
+SPEAKER_06: Just in case we...
+SPEAKER_06: Just in case we...
+SPEAKER_06: Even maybe some of the transcribers who might be wanting to annotate...
+SPEAKER_06: There's a bunch of things that might be neat to do, but it might not be the case that we can actually synchronize them and do all the infrastructure, but we can at least try it out.
+SPEAKER_03: Well, one thing that we might try is on some set of meetings, some collection of meetings, maybe EDU is the right one or maybe something else, we get somebody to buy into the idea of doing this as part of the task.
+SPEAKER_03: I mean, part of the reason...
+SPEAKER_03: I think part of the reason that Adam was so interested in the speech quarter sort of idea from the beginning is he set the beginning, he had you taking notes and so forth.
+SPEAKER_03: And Jane is more into it, but I don't know if you want to really do this all the time.
+SPEAKER_03: So I think the thing is to get someone to actually buy into it and have at least some series of meetings where we do it.
+SPEAKER_03: And if so, it's probably worth having one.
+SPEAKER_03: The problem with the more extended view, all these other, you know, with equibbling about particular applications of it is that it looks like it's hard to get people to routinely use it.
+SPEAKER_03: I mean, it just hasn't happened anyway.
+SPEAKER_03: Maybe if we can get a person.
+SPEAKER_06: Yeah, I don't think it has to be part of what everybody does in a meeting, but it might be a useful, neat part of the project that we can, you know, show off as a mechanism for synchronizing events in time that happen that you just want to make a note of, like what Jane was talking about, with some later browsing just as a convenience, even if it's not a full-blown note-taking substitute.
+SPEAKER_07: If you wanted to do that, maybe the right architecture for it is to get a PDA with a wireless card.
+SPEAKER_07: And that way you can synchronize very easily with the meeting because you'll be synchronized with the Linux server.
+SPEAKER_06: And so what kind of input would you be?
+SPEAKER_06: So, I mean, if you're not worried about it.
+SPEAKER_07: You just be pressing like, well, you have a PDA and you could have the same sort of X interface or whatever.
+SPEAKER_07: I mean, you'd have to do a little bit of coding to do it.
+SPEAKER_07: But you could imagine, I mean, if all you really wanted was you didn't want this secondary note-taking channel, but just sort of being able to use markers of some sort, a PDA with a lot of wireless card would be probably the right way to go.
+SPEAKER_07: I mean, even buttons you could do, sort of, I mean-
+SPEAKER_05: I mean, for what you've been describing buttons would be more convenient than anything else,
+SPEAKER_06: right? That would be fine too.
+SPEAKER_06: I mean, I don't have, you know, grandiose ideas in mind, but I'm just sort of thinking, well, we're getting into the next year now.
+SPEAKER_06: We have a lot of these things worked out in terms of the speech.
+SPEAKER_06: Maybe somebody will be interested in this.
+SPEAKER_03: I do like, if you have a couple buttons where one button was, oh, another button was that's great.
+SPEAKER_06: Or like, this is my, I'm supposed to do this kind of button.
+SPEAKER_06: I better remember it.
+SPEAKER_06: Action item.
+SPEAKER_06: Yeah, something like that or.
+SPEAKER_05: I mean, I think the cross-border idea is a good one.
+SPEAKER_05: It's just a question of getting people to use it and getting the infrastructure set up in such a way that it's not a lot of extra work.
+SPEAKER_05: I mean, that's part of the reason why it hasn't happened is that it's been a lot of extra work for me.
+SPEAKER_01: It's also, it has this problem of having to go from an analog to a digital record, too,
+SPEAKER_05: isn't it? Well, it's digital, but it's in a format that is not particularly standard.
+SPEAKER_01: If you're writing notes in it, it can't do handwriting recognition.
+SPEAKER_03: No, no, but it's just storing the pixel information, information, it's how digital.
+SPEAKER_01: I guess what I'm thinking is that the PDA solution, you have it already, without needing to go to pixelization to that.
+SPEAKER_03: Right.
+SPEAKER_07: The transfer function is less errorful.
+SPEAKER_07: Yeah.
+SPEAKER_06: Yeah.
+SPEAKER_06: Well, and also it's maybe realistic because people are supposed to be bringing their PDAs to the meeting eventually, right?
+SPEAKER_06: That's why we have this little, I don't know what I don't want to cause more work for anyone, but I can imagine some interesting things that you could do with it.
+SPEAKER_06: And so if we don't have to return it and we can keep it for a year, I don't know.
+SPEAKER_05: We certainly don't have to return it.
+SPEAKER_05: As I said, all he said is that if you're not using it, could you return it if you are using it, feel free to keep it?
+SPEAKER_05: The point is that we haven't used it at all, and are we going to?
+SPEAKER_03: So we have note, I would suggest you return one.
+SPEAKER_03: Yeah.
+SPEAKER_03: Because we haven't used it at all.
+SPEAKER_03: Why would probably-
+SPEAKER_06: Maybe we could do like a student project, maybe someone who wants to do this as their main project for something would be cool.
+SPEAKER_05: And if we had them out and sitting on the table, people might use them a little more.
+SPEAKER_03: Are there any incidents and meetings and press a button when somebody laughs?
+SPEAKER_03: Well, yeah, that's not a bad.
+SPEAKER_06: Jeremy is going to be- he's a new student starting on modeling breath and laughter, actually, which sounds funny, but I think it should be cool.
+SPEAKER_05: Sounds breathy to me.
+SPEAKER_05: Ha-ha.
+SPEAKER_05: Ha-ha.
+SPEAKER_05: Oh dear.
+SPEAKER_05: Um, that reminded me of something, oh well, too late.
+SPEAKER_05: It flipped out.
+SPEAKER_05: Are you going to tease me?
+SPEAKER_05: Okay.
+SPEAKER_05: Well, I'm always going to do that.
+SPEAKER_05: We ordered more wireless, and so they should be coming in at some point.
+SPEAKER_05: And then at the same time, I'll probably rewire the room as per Jane's suggestion, so that the first end channels are wireless, are the closed talking in the next stand, are far-field.
+SPEAKER_03: You know what he means, but isn't that funny, something?
+SPEAKER_03: We ordered more wireless.
+SPEAKER_03: It's like wires are the thing, so you're ordering- you're- you're- you're- we ordered more absence of the thing.
+SPEAKER_06: That's a very philosophical- It's sort of an acronym, am I right?
+SPEAKER_06: That's great.
+SPEAKER_05: Should we do digits?
+SPEAKER_05: Do we have anything else?
+SPEAKER_03: Yeah.
+SPEAKER_03: I mean, there's all this stuff going on between Andreas and- and Dave and Chuck and others with various kinds of runs.
+SPEAKER_03: Recognition runs trying to figure things out about the features, but it's all sort of in process, so it's not much to say.
+SPEAKER_03: Right now.
+SPEAKER_03: When we start with our esteemed guest.
+SPEAKER_07: Okay.
+SPEAKER_07: All right.
+SPEAKER_05: So just a transcript number, and then the-
+SPEAKER_07: Yes, this is number two for me today.
+SPEAKER_03: The idea to do is go away to move way up and-
+SPEAKER_06: You can do simultaneous. Initiate him.
+SPEAKER_06: Should we do simultaneous?
+SPEAKER_06: Well, I'm just thinking, are you going to try to save the data before this next group comes in?
+SPEAKER_05: Yeah, absolutely.
+SPEAKER_06: Yes, we might want to do a simultaneous.
+SPEAKER_03: Right, so- Okay, so let's do a simultaneous one.
+SPEAKER_03: We might need to do that, actually.
+SPEAKER_03: Okay.
+SPEAKER_03: Are you ready?
+SPEAKER_03: You have to plug your ears by the way.
+SPEAKER_03: Why?
+SPEAKER_03: You start laughing.
+SPEAKER_03: Okay.
+SPEAKER_03: One, two, and three.
+SPEAKER_03: Transformation.
+SPEAKER_03: Transformation.
+SPEAKER_03:formation.
+None: Form 6400 West six four 7 Four seven five four seven five zero five of two coach six six six nine five six five five two store five four five set of 10 four service zero one six nine six seven four five twenty six five three two two four five three five five four five four five five six five five six seven four five seven three three four five seven three four four five seven seven five four four five seven four four five five
+None: seven six four five six five seven five seven seven seven seven seven seven pode seven seven eight nine eight n jagu 426-744-2-426-499-666
+SPEAKER_03: OK, battle, take 5.

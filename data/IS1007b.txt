@@ -1,273 +1,1119 @@
-0:00:00	None
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:00:30	SPEAKER_01
+ So we are coming again for the second meeting.
 
-0:02:00	SPEAKER_02
- 1.5% 1.5% 1.5%
+0:00:41	SPEAKER_01
+ So for the aim of this meeting, now it's to make presentation about the world for each one and you will take the decision, the design and the functionality of the world.
 
-0:02:12	SPEAKER_03
- 1.5% 1.5%
+0:01:10	SPEAKER_01
+ And we have, I think I got a new project requirement.
 
-0:02:20	SPEAKER_01
- 1.5%
+0:01:15	SPEAKER_01
+ So I think the teletext becomes outdated.
 
-0:02:24	SPEAKER_03
- 1.5%
+0:01:22	SPEAKER_01
+ So the popularity of the, since the popularity of the internet and I think we don't need writing adaptive.
 
-0:02:28	SPEAKER_01
- 1.5%
+0:01:31	SPEAKER_01
+ So the remote control should be only used for the telefiction.
 
-0:02:32	SPEAKER_00
- 1.5%
+0:01:37	SPEAKER_01
+ And of course we shouldn't have our immersion in the design.
+
+0:01:45	SPEAKER_01
+ So let's start with the, the industry designer.
+
+0:01:54	SPEAKER_02
+ Yeah.
+
+0:01:55	SPEAKER_02
+ All right.
+
+0:01:56	SPEAKER_01
+ So you can use the whiteboard.
+
+0:01:59	SPEAKER_02
+ When I have a PowerPoint presentation stored in my, in my personal folder.
+
+0:02:06	SPEAKER_02
+ So I think you can reach it from here.
+
+0:02:10	SPEAKER_03
+ Just go to Explorer or Open.
+
+0:02:16	SPEAKER_03
+ The participant.
+
+0:02:17	SPEAKER_02
+ The participant to this one.
+
+0:02:24	SPEAKER_01
+ Yeah.
+
+0:02:25	SPEAKER_03
+ Open.
+
+0:02:26	SPEAKER_03
+ Okay.
+
+0:02:27	None
+ No.
+
+0:02:28	None
+ Open.
+
+0:02:29	SPEAKER_00
+ You can use up an email.
+
+0:02:34	SPEAKER_00
+ All right.
 
 0:02:36	SPEAKER_02
- 1.5%
+ So I will talk about the working design.
 
 0:02:40	SPEAKER_03
- 1.5%
+ Slideshow.
 
-0:02:44	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:02:41	SPEAKER_03
+ Will slideshow or this one.
 
-0:04:52	SPEAKER_00
- 1.5%
+0:02:43	SPEAKER_02
+ And well, I will present my first idea on how to build the, our new remote control for television.
+
+0:02:54	SPEAKER_02
+ So can you go one page down please.
+
+0:02:59	SPEAKER_02
+ So I think the first thing to do is to define the hardware components needed to achieve what we want to do.
+
+0:03:07	SPEAKER_02
+ So I'm thinking, I think I'll do a survey about what is, what is available on the market and what is the cheapest possible thing we can use.
+
+0:03:27	SPEAKER_02
+ Then I will try with the technical team to, to build a prototype and to see how this little box would look like.
+
+0:03:40	SPEAKER_02
+ And how, and we can start troubleshooting first communication problems or things like that.
+
+0:03:48	SPEAKER_02
+ And when we are ready with this first prototype, I think we can have some software functionalities on a problemable chip like browsing by content or things like that.
+
+0:03:59	SPEAKER_02
+ Okay.
+
+0:04:00	SPEAKER_02
+ So can you go down there?
+
+0:04:03	SPEAKER_02
+ So what I think for now is we, we don't want to have a remote control which is wide.
+
+0:04:14	SPEAKER_02
+ So I think we can use that tree for the implementation.
+
+0:04:20	SPEAKER_02
+ Then two programmable chips for both software functionalities and communication.
+
+0:04:26	SPEAKER_02
+ And the communication with TV set is made through infrared communication.
+
+0:04:34	SPEAKER_02
+ So this is the schema of the story.
+
+0:04:40	SPEAKER_02
+ Of the future, I'm remote control.
+
+0:04:43	SPEAKER_02
+ So you can see the components, battery and the two chips goes to the infrared connection to the TV set.
+
+0:04:53	SPEAKER_00
+ What is the other chip for?
+
+0:04:55	SPEAKER_00
+ The one on top.
 
 0:04:56	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+ The one on top is for the, well, the functionality, the functionalities and the red, sorry, the green one is to, well, putting things together, transform the data into the format to protect the color, to communicate with the TV set.
 
-0:05:32	SPEAKER_03
- 1.5%
+0:05:17	SPEAKER_00
+ Okay.
 
-0:05:36	SPEAKER_00
- 1.5%
+0:05:18	SPEAKER_02
+ And that's it.
 
-0:05:40	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5%
+0:05:20	SPEAKER_02
+ I think we should use a FPGA for the functionalities which is easy to...
 
-0:05:56	SPEAKER_00
- 1.5%
+0:05:27	SPEAKER_02
+ What is FPGA?
 
-0:06:00	SPEAKER_02
- 1.5%
+0:05:29	SPEAKER_02
+ It's field programmable something.
+
+0:05:32	SPEAKER_02
+ Get various.
+
+0:05:34	SPEAKER_03
+ So how is it different from the Bluetooth?
+
+0:05:39	SPEAKER_02
+ Well, FPGA is just cheap.
+
+0:05:42	SPEAKER_02
+ You can program it with whatever you want.
+
+0:05:47	SPEAKER_02
+ Okay.
+
+0:05:48	SPEAKER_02
+ And the Bluetooth chip is just responsible to make communication between the two devices.
+
+0:05:55	SPEAKER_00
+ So these are the, they have to work together or do they have to work together to separate choice?
+
+0:06:01	SPEAKER_02
+ The FPGA will produce the data to send.
 
 0:06:04	SPEAKER_03
- 1.5%
+ Okay.
 
-0:06:08	SPEAKER_00
- 1.5% 1.5%
+0:06:05	SPEAKER_03
+ Or something like, is it hardware, the first one?
 
-0:06:16	SPEAKER_02
- 1.5% 1.5%
+0:06:07	SPEAKER_03
+ And the second one is for the software.
 
-0:06:24	SPEAKER_03
- 1.5% 1.5%
+0:06:09	SPEAKER_00
+ It's the software part.
 
-0:06:32	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5%
+0:06:10	SPEAKER_00
+ Yeah, to run.
+
+0:06:11	SPEAKER_00
+ To make it run.
+
+0:06:12	SPEAKER_00
+ Okay.
+
+0:06:13	SPEAKER_00
+ So you can control it, you're not booking if you want, right?
+
+0:06:16	SPEAKER_00
+ Yeah.
+
+0:06:17	SPEAKER_02
+ All right.
+
+0:06:18	SPEAKER_02
+ And that's it for the working design.
+
+0:06:20	SPEAKER_02
+ So if you have any questions.
+
+0:06:22	SPEAKER_01
+ Okay.
+
+0:06:23	SPEAKER_03
+ And how about the battery power?
+
+0:06:25	SPEAKER_03
+ You mean that battery will be somewhere there and the remote control, the power to the battery comes through in private?
+
+0:06:30	SPEAKER_03
+ No, no, no.
+
+0:06:31	SPEAKER_02
+ I think we have to have a embedded battery in the...
+
+0:06:37	SPEAKER_02
+ Into the...
+
+0:06:38	SPEAKER_02
+ Into the...
+
+0:06:39	SPEAKER_02
+ Yeah, into the...
+
+0:06:40	SPEAKER_02
+ More compact.
+
+0:06:41	SPEAKER_02
+ Yeah.
+
+0:06:42	SPEAKER_02
+ Okay.
+
+0:06:43	SPEAKER_02
+ And I don't think it will need very much power to make it run.
 
 0:06:48	SPEAKER_00
- 1.5%
+ Yeah.
 
-0:06:52	SPEAKER_03
- 1.5% 1.5% 1.5% 1.5%
+0:06:49	SPEAKER_00
+ Okay.
+
+0:06:50	SPEAKER_00
+ You can put it on a charger when you don't need to use it.
+
+0:06:52	SPEAKER_02
+ It's a good idea.
+
+0:06:53	SPEAKER_03
+ Yeah.
+
+0:06:54	SPEAKER_03
+ That's right.
+
+0:06:55	SPEAKER_03
+ Having a charger rather than putting a battery cell is always...
+
+0:06:58	SPEAKER_03
+ Yeah.
+
+0:06:59	SPEAKER_03
+ People don't like it to have...
+
+0:07:01	SPEAKER_03
+ To buy the batteries when they run out.
+
+0:07:03	SPEAKER_03
+ We just make a small charger and put it...
+
+0:07:06	SPEAKER_00
+ Yeah.
+
+0:07:07	SPEAKER_00
+ Because you're using...
 
 0:07:08	SPEAKER_00
- 1.5% 1.5%
+ Yeah.
 
-0:07:16	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5%
+0:07:09	SPEAKER_00
+ Because I think if some people have PDA, they can use their PDA to control the TV if they want to.
 
-0:07:32	None
- 1.5% 1.5%
+0:07:14	SPEAKER_02
+ Also, but...
 
-0:07:40	None
- 1.5% 1.5%
+0:07:15	SPEAKER_02
+ But...
+
+0:07:16	SPEAKER_00
+ I don't know.
+
+0:07:17	SPEAKER_02
+ I think the goal is to sell our...
+
+0:07:20	SPEAKER_02
+ We don't want to make a PDA.
+
+0:07:23	SPEAKER_02
+ So...
+
+0:07:24	SPEAKER_02
+ Okay.
+
+0:07:25	SPEAKER_02
+ So...
+
+0:07:26	SPEAKER_02
+ Okay.
+
+0:07:27	SPEAKER_02
+ Okay.
+
+0:07:29	SPEAKER_02
+ So, charger for the identity.
+
+0:07:31	None
+ Here's the key.
+
+0:07:32	SPEAKER_01
+ Um...
+
+0:07:39	SPEAKER_00
+ So, it's mine.
+
+0:07:47	SPEAKER_00
+ It's mine.
 
 0:07:48	SPEAKER_01
- 1.5%
+ Oh.
+
+0:07:49	SPEAKER_01
+ Partition point one.
+
+0:07:51	SPEAKER_00
+ No?
 
 0:07:52	SPEAKER_00
- 1.5%
+ Yeah.
 
-0:07:56	SPEAKER_01
- 1.5% 1.5%
+0:07:53	SPEAKER_01
+ Okay.
 
-0:08:04	SPEAKER_00
- 1.5%
+0:07:58	SPEAKER_01
+ Oh, we have 14.
+
+0:08:00	SPEAKER_01
+ So, let's move to...
+
+0:08:03	SPEAKER_01
+ To use the entire first design.
+
+0:08:05	SPEAKER_00
+ Yeah.
+
+0:08:06	SPEAKER_00
+ So, you can open...
 
 0:08:08	SPEAKER_01
- 1.5%
+ Dr. Sipa...
 
-0:08:12	SPEAKER_00
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:08:09	SPEAKER_01
+ Three.
+
+0:08:15	SPEAKER_00
+ Yeah.
+
+0:08:16	SPEAKER_00
+ So...
+
+0:08:19	SPEAKER_00
+ So, I'm working on the technical functions design.
+
+0:08:23	SPEAKER_00
+ Okay.
+
+0:08:24	SPEAKER_00
+ Let's show the next line.
+
+0:08:26	SPEAKER_00
+ So, the purpose is to find the important questions to ask is what effects should the apparatus have.
+
+0:08:35	SPEAKER_00
+ So...
+
+0:08:37	SPEAKER_00
+ So, I found on the website...
+
+0:08:39	SPEAKER_00
+ On the internet.
+
+0:08:40	SPEAKER_00
+ Doing everything.
+
+0:08:42	SPEAKER_00
+ Yeah.
+
+0:08:43	SPEAKER_00
+ I spent a lot of time searching.
+
+0:08:45	SPEAKER_00
+ That's right.
+
+0:08:46	SPEAKER_00
+ And I found that the function of remote control is the same messages the television set.
+
+0:08:54	SPEAKER_00
+ For example, switch on, switch off, switch the next channel and so on and so on.
+
+0:09:01	SPEAKER_00
+ So, I found two very good prototypes for this interface from our competitors.
+
+0:09:08	SPEAKER_00
+ So, can you...
+
+0:09:09	SPEAKER_01
+ This are usual functionality.
+
+0:09:11	SPEAKER_00
+ Yeah.
+
+0:09:12	SPEAKER_00
+ Yeah.
+
+0:09:13	SPEAKER_00
+ So, ours is a bit different.
+
+0:09:16	SPEAKER_00
+ So, these are two examples.
+
+0:09:18	SPEAKER_00
+ One is from...
+
+0:09:19	SPEAKER_00
+ OpaG, the other one is from...
+
+0:09:22	SPEAKER_00
+ Tasks.
+
+0:09:23	SPEAKER_00
+ Yeah.
+
+0:09:24	SPEAKER_00
+ Engineering Central.
+
+0:09:26	SPEAKER_00
+ Yeah.
+
+0:09:27	SPEAKER_00
+ This is the most competing prototypes I found.
+
+0:09:30	SPEAKER_00
+ But then, look.
+
+0:09:32	SPEAKER_00
+ But then I found, if you look at...
+
+0:09:34	SPEAKER_00
+ You see on the left one, there are too many buttons.
 
 0:09:36	SPEAKER_01
- 1.5%
+ And they are small.
 
-0:09:40	SPEAKER_00
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:09:38	SPEAKER_00
+ Yeah.
 
-0:10:40	SPEAKER_01
- 1.5%
+0:09:39	SPEAKER_00
+ On the right, I tried to play with.
 
-0:10:44	SPEAKER_00
- 1.5% 1.5%
+0:09:41	SPEAKER_00
+ The problem is that if I have 100 channels, I have to press the other button to choose the 100 channels.
 
-0:10:52	SPEAKER_01
- 1.5%
+0:09:49	SPEAKER_00
+ And I have to compose the number, so it's very lousy.
+
+0:09:54	SPEAKER_00
+ So, you move to the next...
+
+0:09:56	SPEAKER_00
+ The next one?
+
+0:09:57	SPEAKER_00
+ Yeah.
+
+0:09:58	SPEAKER_00
+ So, I talk about the problem.
+
+0:10:00	SPEAKER_00
+ And then I look at the user manual, the 100 page is thick, so we don't want that.
+
+0:10:05	SPEAKER_00
+ Yeah.
+
+0:10:06	SPEAKER_00
+ So, I propose that easy to use prototype.
+
+0:10:11	SPEAKER_00
+ You can navigate on TV screen, and we can prove it to the user's preference.
+
+0:10:15	SPEAKER_00
+ And we need to have the TV connected to the internet.
+
+0:10:18	SPEAKER_00
+ So, in order to access the TV programs by XML, and we need some...
+
+0:10:25	SPEAKER_00
+ To do some pre-processing, from the technical aspect, the processing should be done on the TV set, then on the remote controller.
+
+0:10:33	SPEAKER_00
+ Right.
+
+0:10:34	SPEAKER_00
+ And then, the speech recognition is a...
+
+0:10:38	SPEAKER_00
+ Harry says we may just put in... we may KIV.
+
+0:10:41	SPEAKER_01
+ What do you mean by the pre-processing will be done on the TV?
+
+0:10:45	SPEAKER_00
+ Yeah, all the processing is done.
+
+0:10:47	SPEAKER_00
+ The TV is a computer. It has some processing power there.
+
+0:10:51	SPEAKER_01
+ So, we should have specific TV or...
+
+0:10:55	SPEAKER_02
+ So, I use this...
 
 0:10:56	SPEAKER_02
- 1.5%
+ A TV with the remote control.
 
-0:11:00	SPEAKER_00
- 1.5%
+0:10:59	SPEAKER_00
+ Yeah, because...
 
-0:11:04	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5%
+0:11:01	SPEAKER_00
+ I use this one remote controller.
+
+0:11:04	SPEAKER_00
+ Yeah, I think it is.
+
+0:11:06	SPEAKER_02
+ There is a technology like ShowView, who is already available on most of the TV set, on recorders or things like that, and we can try to get this information onto the remote control to do the processing on the remote controller.
+
+0:11:23	SPEAKER_00
+ Yeah, that's right.
 
 0:11:24	SPEAKER_00
- 1.5% 1.5%
+ So, we do the processing on the remote controller.
 
-0:11:32	SPEAKER_01
- 1.5%
+0:11:26	SPEAKER_00
+ Yeah.
+
+0:11:27	SPEAKER_00
+ So, can you be using any TV, any conventional TV sets?
+
+0:11:30	SPEAKER_01
+ Yeah.
+
+0:11:31	SPEAKER_00
+ Okay.
+
+0:11:32	SPEAKER_00
+ Speech recognition?
+
+0:11:34	SPEAKER_01
+ Yeah, that's all.
 
 0:11:36	SPEAKER_00
- 1.5% 1.5%
+ The next one.
 
-0:11:44	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5%
+0:11:37	SPEAKER_00
+ So, I cover a simple design.
+
+0:11:39	SPEAKER_00
+ Just keep the navigation buttons.
+
+0:11:41	SPEAKER_00
+ That's a good idea.
+
+0:11:43	SPEAKER_02
+ I think we don't need really much buttons to... if we have a screen to navigate on TV.
+
+0:11:50	SPEAKER_02
+ Yeah.
+
+0:11:51	SPEAKER_02
+ So, well, four or five buttons.
+
+0:11:55	SPEAKER_02
+ It's sufficient.
+
+0:11:57	SPEAKER_02
+ It's easy to build.
+
+0:11:59	SPEAKER_02
+ Yeah, that does not consume much power.
+
+0:12:03	SPEAKER_00
+ Okay.
 
 0:12:04	SPEAKER_00
- 1.5%
+ That's all.
+
+0:12:06	SPEAKER_03
+ Oh, but you have a catch there.
 
 0:12:08	SPEAKER_03
- 1.5% 1.5%
+ Assume that if you want to go to... if you're watching channel two and if you want to go to channel 99, then...
 
 0:12:16	SPEAKER_02
- 1.5% 1.5%
+ Well, then you go to the main menu and you have a go to channel and then...
 
 0:12:24	SPEAKER_00
- 1.5% 1.5%
+ No, because you choose by channel and so...
+
+0:12:27	SPEAKER_00
+ Yeah.
+
+0:12:28	SPEAKER_00
+ You buy TV programs so you don't have 100 channels to choose from.
 
 0:12:32	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+ If you go by channel, you don't have to do that.
 
-0:13:16	SPEAKER_01
- 1.5% 1.5%
+0:12:36	SPEAKER_02
+ But I think he said if you want to make a big jump.
+
+0:12:42	SPEAKER_02
+ Oh, jump.
+
+0:12:43	SPEAKER_02
+ Yeah, that's right.
+
+0:12:45	SPEAKER_02
+ Well, you have to have a device when you could...
+
+0:12:50	SPEAKER_00
+ A mouse or...
+
+0:12:52	SPEAKER_02
+ Not a mouse, but something that says more clearly that right.
+
+0:12:57	SPEAKER_02
+ Right, left, up, down.
+
+0:13:00	SPEAKER_02
+ Okay.
+
+0:13:01	SPEAKER_02
+ To have the ability to write something to the navigator, maybe directly.
+
+0:13:08	SPEAKER_02
+ Okay.
+
+0:13:11	SPEAKER_02
+ We can think of buttons like in the telephone to send messages or things like that.
+
+0:13:17	None
+ Mm-hmm.
+
+0:13:19	SPEAKER_01
+ But how do you...
+
+0:13:20	SPEAKER_01
+ We can see the external... this remote.
 
 0:13:24	SPEAKER_00
- 1.5%
+ It's gonna be small.
 
-0:13:28	SPEAKER_03
- 1.5%
+0:13:26	SPEAKER_00
+ Yeah, of course.
 
-0:13:32	SPEAKER_00
- 1.5% 1.5% 1.5%
+0:13:28	SPEAKER_01
+ It's too small.
 
-0:13:44	SPEAKER_03
- 1.5%
+0:13:30	SPEAKER_01
+ It's too small.
+
+0:13:31	SPEAKER_00
+ Under the sofa and we can't find it.
+
+0:13:34	SPEAKER_00
+ So, if you want to find it, you just...
+
+0:13:37	SPEAKER_00
+ You just... it just has to respond to you when you look for the device.
+
+0:13:41	SPEAKER_00
+ Yeah, this one.
+
+0:13:42	SPEAKER_00
+ I don't know how.
+
+0:13:45	SPEAKER_03
+ We'll just give it an aim and we call him.
 
 0:13:48	SPEAKER_00
- 1.5%
+ And you respond to you.
 
-0:13:52	SPEAKER_01
- 1.5%
+0:13:50	SPEAKER_00
+ And there...
 
-0:13:56	SPEAKER_02
- 1.5%
+0:13:51	SPEAKER_01
+ The other side.
+
+0:13:53	SPEAKER_02
+ Okay, so, next presentation.
+
+0:13:57	SPEAKER_02
+ What is it, print for?
 
 0:14:00	SPEAKER_01
- 1.5%
+ So, hi.
 
-0:14:04	None
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:14:03	SPEAKER_03
+ Okay, after having the inputs from industrial design and user interface, I think most of the points which I want to already covered here.
 
-0:14:52	SPEAKER_02
- 1.5% 1.5% 1.5%
+0:14:20	SPEAKER_03
+ And to find the most interesting features, what the users would be interested in, what we have done is we have put our feedback forms in all the magazines.
+
+0:14:30	SPEAKER_03
+ And the users sent the feedbacks.
+
+0:14:34	SPEAKER_03
+ And based on that, these are the findings which we got.
+
+0:14:40	SPEAKER_03
+ And adding up a speech interface is always good for a TV remote.
+
+0:14:46	SPEAKER_03
+ But the technology, we already know that.
+
+0:14:50	SPEAKER_03
+ What is it?
+
+0:14:51	SPEAKER_02
+ I think it will be a bit complicated to make a speech recognized.
+
+0:14:58	SPEAKER_02
+ It runs on the small...
+
+0:15:01	SPEAKER_03
+ It has to be seen how feasible it is.
 
 0:15:04	SPEAKER_00
- 1.5% 1.5%
+ But I think if you want to recognize numbers, it's a well-studied problem.
 
-0:15:12	SPEAKER_03
- 1.5% 1.5%
+0:15:09	SPEAKER_00
+ If you just recognize numbers, it's limited.
 
-0:15:20	SPEAKER_02
- 1.5% 1.5%
+0:15:13	SPEAKER_03
+ We can put a limited vocabulary as in the mobile phones.
 
-0:15:28	SPEAKER_03
- 1.5% 1.5% 1.5% 1.5%
+0:15:17	SPEAKER_03
+ We just have the...
 
-0:15:44	SPEAKER_01
- 1.5% 1.5%
+0:15:19	SPEAKER_02
+ And this can allow to choose the program, for instance, without adding buttons.
 
-0:15:52	SPEAKER_00
- 1.5% 1.5% 1.5% 1.5% 1.5%
+0:15:25	SPEAKER_02
+ So, it's a good idea.
 
-0:16:12	SPEAKER_02
- 1.5%
+0:15:26	SPEAKER_03
+ It's not going to take much space also.
 
-0:16:16	SPEAKER_01
- 1.5%
+0:15:29	SPEAKER_03
+ It's going to be very slim.
 
-0:16:20	SPEAKER_03
- 1.5% 1.5% 1.5% 1.5% 1.5%
+0:15:31	SPEAKER_03
+ And next one was the size of the remote control.
 
-0:16:40	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5%
+0:15:33	SPEAKER_03
+ It has to be, of course, a very slim and small one.
+
+0:15:37	SPEAKER_03
+ And, of course, most of the people are interested in if it's less expensive.
+
+0:15:43	SPEAKER_03
+ So, this is an important criteria here.
+
+0:15:45	SPEAKER_01
+ But do you think what they suggested is possible to...
+
+0:15:50	SPEAKER_01
+ I mean, we have to look for the trade-off.
+
+0:15:52	SPEAKER_03
+ The futures and the cost.
+
+0:15:54	SPEAKER_00
+ I think that if we go for quality, people may tolerate it for high quality.
+
+0:15:59	SPEAKER_00
+ And, of course, it comes with a reasonable cost.
+
+0:16:03	SPEAKER_00
+ Maybe not less, but they may be willing to pay.
+
+0:16:06	SPEAKER_00
+ A little bit more.
+
+0:16:07	SPEAKER_03
+ A little bit more for...
+
+0:16:08	SPEAKER_00
+ With extra futures.
+
+0:16:09	SPEAKER_00
+ Yeah, extra futures.
+
+0:16:10	SPEAKER_02
+ Yeah, speech is an important extra future.
+
+0:16:14	SPEAKER_02
+ Yeah, that's right.
+
+0:16:15	SPEAKER_01
+ But is it useful or not?
+
+0:16:17	SPEAKER_01
+ Well, there is a noisy thing.
+
+0:16:19	SPEAKER_03
+ I mean, for a lazy guys, they could just say nine.
+
+0:16:22	SPEAKER_03
+ And the nine channel comes.
+
+0:16:24	SPEAKER_03
+ Or just say a movie name.
+
+0:16:26	SPEAKER_03
+ I don't go for movie names, but only for the numbers on the channel, or volume up, volume down, brightness, contrast.
+
+0:16:33	SPEAKER_03
+ So, I think that should be a good idea to put these features.
+
+0:16:38	SPEAKER_03
+ And the fourth one was the teletext in various languages.
+
+0:16:42	SPEAKER_02
+ Well, we just have to find a mean how to write a microphone.
+
+0:16:50	SPEAKER_02
+ Well, there's a microphone into the remote control.
+
+0:16:54	SPEAKER_02
+ So...
+
+0:16:55	SPEAKER_02
+ I think it should be all right.
 
 0:17:00	SPEAKER_01
- 1.5% 1.5% 1.5% 1.5%
+ What is the teletext?
 
-0:17:16	SPEAKER_03
- 1.5% 1.5%
+0:17:01	SPEAKER_01
+ The next thing is that we can do that.
 
-0:17:24	SPEAKER_00
- 1.5% 1.5% 1.5%
+0:17:04	SPEAKER_01
+ We can integrate small microphones in the remote.
 
-0:17:36	SPEAKER_02
- 1.5%
+0:17:07	SPEAKER_01
+ So, it's not a really problem.
 
-0:17:40	SPEAKER_03
- 1.5% 1.5% 1.5%
+0:17:10	SPEAKER_02
+ Okay.
+
+0:17:11	SPEAKER_01
+ What about lighting adaptive options?
+
+0:17:14	SPEAKER_01
+ Yeah, as this goes on the...
+
+0:17:15	SPEAKER_01
+...alurementing.
+
+0:17:16	SPEAKER_01
+ But require more traffic.
+
+0:17:18	SPEAKER_03
+ I think not much people are really interested in this point.
+
+0:17:22	SPEAKER_03
+ If it's not really...
+
+0:17:23	SPEAKER_00
+ It is interesting, but we are only concerned with the remote controller.
+
+0:17:28	SPEAKER_00
+ So, you need special TV sets to do that.
+
+0:17:33	SPEAKER_00
+ It's done via this remote controller.
+
+0:17:37	SPEAKER_02
+ It's very complex.
+
+0:17:39	SPEAKER_02
+ Yeah, I think it's a bit complex too.
+
+0:17:42	SPEAKER_03
+ Yeah, it's for the industrial design and users, interface designers to decide if it's going to be working or not.
 
 0:17:52	SPEAKER_02
- 1.5% 1.5%
+ For our next product, our new TV set with...
 
-0:18:00	SPEAKER_00
- 1.5%
+0:17:55	SPEAKER_02
+ Yeah, the automatic control...
 
-0:18:04	None
- 1.5% 1.5% 1.5% 1.5%
+0:17:58	SPEAKER_00
+...sound adjustment.
 
-0:18:20	None
- 1.5% 1.5% 1.5%
+0:17:59	SPEAKER_00
+ Yeah, but it's quite possible.
 
-0:18:32	SPEAKER_03
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:18:01	SPEAKER_00
+ But maybe not in this project.
 
-0:19:20	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:18:12	SPEAKER_01
+ So, we have...
 
-0:19:44	SPEAKER_00
- 1.5% 1.5%
+0:18:14	SPEAKER_01
+ I think we have...
+
+0:18:15	SPEAKER_01
+...still we have...
+
+0:18:17	SPEAKER_01
+...capped off me.
+
+0:18:26	SPEAKER_01
+ So, anything to discuss?
+
+0:18:31	SPEAKER_03
+ I think as I discussed, that four points would be good for unmarketing.
+
+0:18:36	SPEAKER_03
+ The speech interface and the less reasonable...
+
+0:18:41	SPEAKER_03
+...cause and the lighting adaptation and the teletext.
+
+0:18:46	SPEAKER_03
+ And regarding the teletext, these are the text information which you go on the televisions.
+
+0:18:54	SPEAKER_03
+ If you're watching a foreign movie, you get a subtitle sometimes.
+
+0:18:59	SPEAKER_03
+ And if you're a French guy watching an English movie, you would like to have it in French.
+
+0:19:04	SPEAKER_03
+ And if I'm a German, then I would like to have my options in German.
+
+0:19:08	SPEAKER_03
+ So, the remote...
+
+0:19:10	SPEAKER_03
+ It should have some...
+
+0:19:11	SPEAKER_03
+ It should give me some flexibility of choosing the languages.
+
+0:19:15	SPEAKER_03
+ That's a really good point.
+
+0:19:18	SPEAKER_02
+ Yeah, but what about the new projects requirements?
+
+0:19:24	SPEAKER_02
+ I think we should give up with teletext.
+
+0:19:29	SPEAKER_01
+ I guess it's the popular.
+
+0:19:34	SPEAKER_02
+ Well, so maybe we can already think about a way to access the internet.
+
+0:19:43	SPEAKER_02
+ We had a television.
+
+0:19:46	SPEAKER_00
+ Using the TV to access the internet.
+
+0:19:49	SPEAKER_00
+ Are you thinking about the internet?
 
 0:19:52	SPEAKER_02
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+ Yeah, but we can think that in a few years there will be TV set that can access the internet.
 
-0:20:20	SPEAKER_00
- 1.5%
+0:19:57	SPEAKER_02
+ Yeah, okay.
 
-0:20:24	SPEAKER_02
- 1.5% 1.5% 1.5%
+0:19:58	SPEAKER_02
+ So, it's a good idea if we think about how to build up our remote control with this functionality.
 
-0:20:36	SPEAKER_00
- 1.5% 1.5% 1.5% 1.5%
+0:20:12	SPEAKER_02
+ Which would come in a few years.
+
+0:20:16	SPEAKER_02
+ So, if we already have it in our remote control...
+
+0:20:19	SPEAKER_01
+ So, you have to...
+
+0:20:20	SPEAKER_01
+...remod control...
+
+0:20:21	SPEAKER_00
+...the future.
+
+0:20:22	SPEAKER_00
+ Yeah.
+
+0:20:23	SPEAKER_00
+ The future demand, market demand.
+
+0:20:24	SPEAKER_00
+ Yeah, to design.
+
+0:20:25	SPEAKER_02
+ Well, not to implement it, but to find a way to add this functionality in a...
+
+0:20:33	SPEAKER_00
+ In the future?
+
+0:20:34	SPEAKER_02
+ Yeah.
+
+0:20:35	SPEAKER_02
+ In an easy manner, if it's possible.
+
+0:20:38	SPEAKER_00
+ Because all the TV sets will be digital, right? All the programs, everything will be in digital, then...
+
+0:20:43	SPEAKER_00
+...and a lot.
+
+0:20:44	SPEAKER_00
+ The system will change and...
+
+0:20:46	SPEAKER_00
+ Yeah.
+
+0:20:47	SPEAKER_00
+...we have to enter the bed for those changes.
+
+0:20:49	None
+ Yeah.
+
+0:20:50	None
+ Okay.
+
+0:20:51	SPEAKER_01
+ Okay.
 
 0:20:52	SPEAKER_01
- 1.5% 1.5%
+ So...
 
-0:21:00	SPEAKER_00
- 1.5%
+0:20:53	SPEAKER_01
+ So, let's go for the...
 
-0:21:30	None
- 1.5% 1.5% 1.5% 1.5% 1.5% 1.5% 1.5%
+0:20:56	SPEAKER_01
+...the Nenshiprik.
+
+0:20:57	SPEAKER_01
+ And...
+
+0:20:59	SPEAKER_01
+ Okay.
+
+0:21:00	SPEAKER_01
+ Thank you.
+
+0:21:01	SPEAKER_00
+ Okay.
+
+0:21:02	SPEAKER_00
+ Thank you.
+
+0:21:03	None
+ Okay.
+
+0:21:04	None
+ All right.
+
+0:21:11	None
+ Okay.
+
+0:21:14	None
+ Okay.
+
+0:21:17	None
+ Okay.
+
+0:21:24	None
+ Okay.
+
+0:21:25	None
+ Okay.
+
+0:21:26	None
+ All right.
+
+0:21:29	None
+ Now
 

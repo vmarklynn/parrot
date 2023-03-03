@@ -1,0 +1,671 @@
+SPEAKER_02: Okay, so we had a meeting with Heneck, in which snow and stuff on the
+SPEAKER_03: What was the update? What was the update?
+SPEAKER_03: Yeah.
+None: So there is nothing.
+None: All the new features.
+SPEAKER_03: All right, suppression.
+SPEAKER_03: The CVS.
+SPEAKER_05: Is the CVS mechanism working well?
+SPEAKER_05: Are people epidemiogi-gramming code via that?
+SPEAKER_01: I don't think...
+SPEAKER_01: I don't think they use it?
+SPEAKER_01: Yeah, I don't think anybody up there is working on it right now.
+SPEAKER_02: I think it's more likely that what it means is that when Sunil is up there, he will grab it.
+SPEAKER_01: Yeah.
+SPEAKER_01: So right now nobody is working on it.
+SPEAKER_02: Yeah, they're working on different tasks.
+SPEAKER_02: But what will happen is he'll go back up there and Prattibah will come back from these coasts.
+SPEAKER_02: And I guess actually after your speech for a little bit, he'll go up there too.
+SPEAKER_02: So actually everybody who is working on it will be up there for at least a little while.
+SPEAKER_02: So they'll remotely access it.
+SPEAKER_05: So has anybody tried remotely accessing the CVS using SSH?
+SPEAKER_03: I don't know if I read that.
+SPEAKER_01: I can actually do it today.
+SPEAKER_01: I can just log into...
+SPEAKER_01: Have you tried it yet?
+SPEAKER_01: No, I didn't.
+SPEAKER_03: I tried it.
+SPEAKER_03: Yeah.
+SPEAKER_03: It worked really well.
+SPEAKER_03: Okay.
+SPEAKER_03: So right now it's a mechanism with SSH.
+SPEAKER_03: I didn't set up...
+SPEAKER_03: You can also set up a CVS server on a new core.
+SPEAKER_05: Yeah, right.
+SPEAKER_05: And that's used in CVS password.
+SPEAKER_05: So when you came in from Belgian, Belgian using SSH, was it asking you for your own password into ICSI?
+SPEAKER_05: So if you can only do that if you have an account to ICSI.
+SPEAKER_05: Because there isn't a way to set up anonymous CVS.
+SPEAKER_03: Yeah, this way you have to set up a CVS server or put them...
+SPEAKER_03: Yeah, you can access it.
+SPEAKER_03: Okay, so the anonymous mechanism...
+SPEAKER_03: You can access it.
+SPEAKER_05: Because a lot of the open-source stuff works with anonymous CVS.
+SPEAKER_05: And I'm just wondering...
+SPEAKER_05: I mean, for our transcripts, we may want to do that.
+SPEAKER_02: Yeah.
+SPEAKER_02: Yeah, for this stuff, I don't think we're quite up to that.
+SPEAKER_02: I mean, we're still so much in development.
+SPEAKER_05: We want to have just the insiders.
+SPEAKER_05: Of course.
+SPEAKER_05: Yeah.
+SPEAKER_05: Yeah.
+SPEAKER_05: Okay.
+None: Cool.
+None: Yeah.
+SPEAKER_02: So...
+SPEAKER_05: What's name?
+SPEAKER_02: Well, I mean, I think maybe the thing to be...
+SPEAKER_02: I'm sure you've just been working on details of that since the meeting, right?
+SPEAKER_02: I mean, so...
+SPEAKER_03: Since the meeting?
+SPEAKER_02: Yeah, that was Tuesday.
+SPEAKER_02: Training a new PD and a new feature name.
+SPEAKER_04: Okay.
+SPEAKER_03: So this should be right?
+SPEAKER_02: But I guess maybe the thing...
+SPEAKER_02: Since you guys weren't at that meeting, might be just to...
+SPEAKER_02: sort of recap the conclusions of the meeting.
+SPEAKER_02: You're talking about meeting with Heena.
+SPEAKER_02: Yeah, because that was sort of...
+SPEAKER_02: We'd sort of been working up to that that he would come here this week.
+SPEAKER_02: And we would sort of...
+SPEAKER_02: He's going out of town like now.
+SPEAKER_02: And I'm going out of town a couple of weeks.
+SPEAKER_02: And time is marching, sort of...
+SPEAKER_02: Given all the many wonderful things we could be working on, what will we actually focus on?
+SPEAKER_02: And what do we freeze?
+SPEAKER_02: And, you know, what do we...
+SPEAKER_02: So, I mean, this software that these guys created was certainly a key part.
+SPEAKER_02: So then there's something central.
+SPEAKER_02: And there are at least a bunch of different versions going off in ways that differ trivially.
+SPEAKER_02: And...
+SPEAKER_02: That's nice.
+SPEAKER_02: And then within that, I guess the idea was to freeze a certain set of options for now.
+SPEAKER_02: To run it a particular way and decide on what things are going to be experimented with, as opposed to just experimenting with everything.
+SPEAKER_02: So, a certain set of things constant.
+SPEAKER_02: So, maybe describe roughly what we are keeping constant for now.
+SPEAKER_03: Yeah, well, so we've been working like six weeks in the nice compensation.
+SPEAKER_03: We endeavor to...
+SPEAKER_05: So, you're going to use which of the two techniques?
+SPEAKER_03: So, finally, it's a winner-fragile on FSD-based, and it uses two steps, smoothing the transfer function.
+SPEAKER_03: And the first step, that's on the kind which is the direction.
+SPEAKER_03: And after these steps, there is a further smoothing and a frequency which use, and it's lighting and there are different techniques.
+SPEAKER_05: So, this is on the...
+SPEAKER_05: Before any mel scaling.
+SPEAKER_05: Yeah, that's it.
+SPEAKER_02: So, this smoothing is done on the estimate of what you're going to subtract, or on the thing that has already had something subtracted.
+SPEAKER_03: It's on the transfer function.
+SPEAKER_02: Oh, it's on the transfer function for the winner filter.
+None: Yeah, okay.
+SPEAKER_03: Yeah, so basically we tried different configuration within this idea.
+SPEAKER_03: We tried to add down these some mel bands, having spectroscopy, instead of phenophiltering.
+SPEAKER_03: But finally, we ended up with this configuration that works quite well.
+SPEAKER_03: So, we're going to fix this for the monitor work of the other aspects.
+SPEAKER_03: The world system, so...
+SPEAKER_02: Actually, let me...
+SPEAKER_02: Dave isn't here to talk about it, but let me just interject.
+SPEAKER_02: This module, in principle, I mean you would know whether it's true, in fact, is somewhat independent from the rest of it, because you recent the size speech, right?
+SPEAKER_02: So, well, you know, I guess you don't recent the size speech, but you could.
+SPEAKER_03: Well, we do, but we don't recent the size.
+SPEAKER_03: In the program, we don't recent the size, and then realize once again, we just used to clean the evidence.
+SPEAKER_02: But you have a recent the size thing that you, that's an option.
+SPEAKER_02: Yeah, I guess my point is that in some of the work he's doing in reverberation, one of the things that we're finding is that for an artificial situation, we can just deal with reverberation, and his techniques work really well.
+SPEAKER_02: But for the real situation, problem is that you don't just have reverberation, you have reverberation in noise, and if you don't include that in the model, it doesn't work very well.
+SPEAKER_02: So, in fact, it might be a very nice thing to do, to just take the noise, remove a part of it, and put that in front of what he's looking at, and generate new files or whatever, and then do the reverberation part.
+SPEAKER_02: So, it's...
+SPEAKER_02: Anyway.
+SPEAKER_05: The Dave hasn't tried that yet.
+SPEAKER_02: No, no, he's...
+SPEAKER_05: I guess he's busy with...
+SPEAKER_05: Prelims, right?
+SPEAKER_02: Yeah, so...
+SPEAKER_02: But, you know, that'll...
+SPEAKER_02: It's clear that we are not...
+SPEAKER_02: With the real case that we're looking at, we can't just look at reverberation and isolation because the interaction between that noise is considerable.
+SPEAKER_02: And that's...
+SPEAKER_02: I mean, in the past, we've looked at...
+SPEAKER_02: And this is hard enough.
+SPEAKER_02: The interaction between channel effects and...
+SPEAKER_02: And the additive noise is so convolutional effects and additive effects.
+SPEAKER_02: And that's hard enough.
+SPEAKER_02: I mean, I don't think we really...
+SPEAKER_02: I mean, we're trying to deal with that.
+SPEAKER_02: In a sense, that's what we're trying to deal with in this Aurora task.
+SPEAKER_02: And we have the...
+SPEAKER_02: LDA stuff that, in principle, is doing something about convolutional effects.
+SPEAKER_02: And we have the noise suppression that's doing something about noise.
+SPEAKER_02: Even that's hard enough in the online normalization as well.
+SPEAKER_02: There's all these interactions between these two, and they work so hard and...
+SPEAKER_02: And struggling everything around.
+SPEAKER_02: But now, when you throw in the reverberation, it's even worse, because not only do you have these effects, but you also have some long-time effects.
+SPEAKER_02: And so Dave has something which...
+SPEAKER_02: Is doing some nice things under some conditions with long-time effects, but when there's noise there too, it's pretty hard.
+SPEAKER_02: So we have to start.
+SPEAKER_02: Since any...
+SPEAKER_02: Almost any real situation is going to have...
+SPEAKER_02: Where you have the microphone distant, it's going to have both things.
+SPEAKER_02: We actually have to think about both at the same time.
+SPEAKER_02: So, there's this noise suppression thing, which has sort of worked out, and then maybe just continued telling what else is in the...
+SPEAKER_02: The former half.
+SPEAKER_03: What are parts of the system?
+SPEAKER_03: The blocks that were present before...
+SPEAKER_03: Would you have put it back in?
+SPEAKER_02: So that's again, that's the Wiener filtering followed by...
+SPEAKER_02: That's done at the FFT level.
+SPEAKER_03: Then...
+SPEAKER_03: Yeah, then the mail, sit or bank...
+SPEAKER_03: And the lug of the ratio.
+SPEAKER_02: Well, the filtering is done...
+SPEAKER_02: In frequency domain?
+SPEAKER_02: Yeah.
+SPEAKER_02: Then the mail, then the lug, and then the LDA filter.
+SPEAKER_02: And then...
+SPEAKER_02: Downsample...
+SPEAKER_02: DCT...
+SPEAKER_02: Online...
+SPEAKER_03: Online...
+SPEAKER_03: The same thing.
+SPEAKER_03: And then compute that.
+SPEAKER_02: And replace...
+SPEAKER_02: Then you run natural.
+SPEAKER_02: And then in parallel with...
+SPEAKER_02: In neural net and then following neural net,
+SPEAKER_03: and finally friend dropping, which... Would be a neural network, so you first need to sign up for these, and the input of this neural network would be somewhere between lug and mail band.
+SPEAKER_04: So...
+SPEAKER_02: So that's sort of...
+SPEAKER_02: Most of the stuff is...
+SPEAKER_02: Yeah, it's operating parallel with this other stuff.
+SPEAKER_02: Yeah.
+SPEAKER_02: So the things that we...
+SPEAKER_02: I guess we sort of...
+SPEAKER_02: There's some neat ideas for VADs.
+SPEAKER_02: So, I mean, I think there's sort of like...
+SPEAKER_02: There's a bunch of tuning things to improve stuff.
+SPEAKER_02: There's questions about raceplaces where there's an exponent.
+SPEAKER_02: If it's the right exponent, or ways that we're estimating noise, that we can prove estimating noise, and there's going to be a host of those.
+SPEAKER_02: And, certainly, it seemed like the things...
+SPEAKER_02: The main things that we were brought up that are going to need to get worked on seriously are...
+SPEAKER_02: A significantly better VAD...
+SPEAKER_02: Putting the neural net on...
+SPEAKER_02: Which, you know, we haven't been doing anything with the neural net at the end there.
+SPEAKER_02: And the...
+SPEAKER_02: Opening up the second front.
+SPEAKER_05: The other happens to sound.
+SPEAKER_02: Yeah, yeah, I mean, because we have...
+SPEAKER_02: We have half the data rate that they allow.
+SPEAKER_02: And so the initial thing, which came from the meeting that we had down south, was that we'll initially just put in a mouse spectrum.
+SPEAKER_02: That's the second one.
+SPEAKER_02: It's, you know, TEPZ.
+SPEAKER_02: There's a question about exactly how we do it.
+SPEAKER_02: We probably will go to something better later.
+SPEAKER_02: But, initial thing is that...
+SPEAKER_02: Capster and Spectre behave differently, so.
+SPEAKER_02: I think Tony Robinson used to do...
+SPEAKER_02: I was saying this before, I think he used to do...
+SPEAKER_02: Mel, Spectre and Mel Capster used them as alternate features.
+SPEAKER_02: Put them together.
+SPEAKER_05: So, if you took the system, the way it is now, the way it's... you're going to freeze it.
+SPEAKER_05: And ran it on the last evaluation.
+SPEAKER_05: Where would it be?
+SPEAKER_05: In terms of ranking.
+SPEAKER_05: So, again...
+SPEAKER_02: Well, you know, you haven't tested it actually on the German and Danish have you.
+SPEAKER_02: No, you didn't.
+SPEAKER_05: Yeah.
+SPEAKER_05: So, on the ones that you did test it on, it would have been second.
+SPEAKER_02: Yeah.
+SPEAKER_02: What did...
+SPEAKER_02: I mean, but when you're saying second, you're comparing to the numbers that the...
+SPEAKER_02: Yeah, the best system before got on...
+SPEAKER_02: We also without German and Danish.
+SPEAKER_01: And the ranking actually didn't change after the German and Danish.
+SPEAKER_01: So, yeah.
+SPEAKER_02: Well, ranking didn't before, but I'm just asking where this is to...
+SPEAKER_02: Yeah.
+SPEAKER_02: Where there was without the German and Danish, right?
+SPEAKER_05: Where were we actually on the last test?
+SPEAKER_02: Oh, we were also essentially second, although there were...
+SPEAKER_02: I mean, we had a couple systems and they had a couple systems.
+SPEAKER_02: And so, I guess by that, we were third, but I mean, there were two systems that were pretty close.
+SPEAKER_02: They came from the same place.
+SPEAKER_02: So, institutionally, we were second.
+SPEAKER_02: So, the second that you're saying now is...
+SPEAKER_02: Same-wide.
+SPEAKER_02: Oh, no, I think it's also institutionally.
+SPEAKER_02: Still, it's next-wide.
+SPEAKER_02: I mean, I think both of their systems probably...
+SPEAKER_02: We're between their two systems.
+SPEAKER_02: Oh, are we?
+SPEAKER_01: Yeah.
+SPEAKER_01: So, their first system is 54 points, something, and we are 53 points, something.
+SPEAKER_01: And their second system is all the 53 points, something.
+SPEAKER_01: Yeah, 1%.
+SPEAKER_02: Yeah, so basically, they're all pretty close.
+SPEAKER_02: And in some sense, we're all doing fairly similar things.
+SPEAKER_02: I mean, good argue about the LDA and so forth, but I think, yeah, a lot of ways are doing very similar things.
+SPEAKER_05: So, how do they fill up all these bits?
+SPEAKER_05: I mean, for...
+SPEAKER_02: Why are we using half?
+SPEAKER_02: Yeah.
+SPEAKER_02: Well, so you could...
+SPEAKER_05: How are they using more than half, I guess, maybe?
+SPEAKER_02: Yeah, so I think, guys, closer to it, me, so correctly, from wrong.
+SPEAKER_02: But I think that what's going on is that in both cases, some kind of normalization is done to deal with convolutional effects.
+SPEAKER_02: They have some capital modification, right?
+SPEAKER_02: In our case, we have a couple things.
+SPEAKER_02: We have the online normalization, and we have the LDA roster.
+SPEAKER_02: And they seem to complement each other enough and be different enough that they both seem to help us.
+SPEAKER_02: But then, anyway, they're both doing the same sort of thing, but there's one difference.
+SPEAKER_02: The LDA roster throws away high modulation frequencies, and they're not doing that.
+SPEAKER_05: So...
+SPEAKER_02: So that if you throw away high modulation frequencies, then you can downsample.
+SPEAKER_05: I see.
+SPEAKER_05: I see.
+SPEAKER_05: So...
+SPEAKER_05: So what if you didn't...
+SPEAKER_05: So do you explicitly downsample them?
+SPEAKER_05: Do we explicitly downsample them?
+SPEAKER_05: Yeah.
+SPEAKER_05: And what if we didn't do that?
+SPEAKER_02: Would we get worse performance?
+SPEAKER_05: I think it doesn't affect it, doesn't it?
+SPEAKER_02: Yeah.
+SPEAKER_02: I see.
+SPEAKER_02: Yeah.
+SPEAKER_02: So I think the thing is, since we're not evidently throwing away useful information, let's try to put it into useful information.
+SPEAKER_02: Yeah.
+SPEAKER_02: And so, you know, we've found in a lot of ways for quite a while that having a second stream helps a lot.
+SPEAKER_02: So that's put in.
+SPEAKER_02: And you know, I may even end up with Mel Spectrum, even though I'm saying I think we can do much better just because it's simple.
+SPEAKER_02: And, you know, in the long run having something everybody will look at and say, oh yeah, I understand, is very helpful.
+SPEAKER_05: So you're thinking to put the Mel Spectrum in before any of the noise removal stuff?
+SPEAKER_05: Well, that's a question.
+SPEAKER_02: I mean, we were talking about that.
+SPEAKER_02: It looks like it'd be straightforward to remove the noise.
+SPEAKER_05: And...
+SPEAKER_05: Because that happens before the Mel conversion, right?
+SPEAKER_02: Yeah.
+SPEAKER_02: So, I mean, to do it after the Mel conversion, after the noise removal, after the Mel conversion.
+SPEAKER_02: And it's even a question in my mind, anyhow, whether you should take the log or not.
+SPEAKER_02: I sort of think you should, but...
+SPEAKER_04: I don't know.
+SPEAKER_03: What about normal ideas?
+SPEAKER_02: Right.
+SPEAKER_02: Well, but normalizing Spectrum instead of Capster?
+SPEAKER_02: Yeah.
+SPEAKER_02: Yeah, probably.
+SPEAKER_02: Some kind would be good, you know, I would think.
+SPEAKER_01: Well, it actually makes it dependent on the overall energy of the frame.
+SPEAKER_01: If you do or don't, don't analyze.
+SPEAKER_01: If you don't, don't analyze.
+SPEAKER_01: And if you don't, don't analyze.
+SPEAKER_02: Right.
+SPEAKER_02: Yes, I mean, one would think that you'd want to normalize.
+SPEAKER_02: But my thought is, particularly if take the log, try it.
+SPEAKER_02: And then if normalization helps, then you have something to compare against and say, okay, this much effect.
+SPEAKER_02: I mean, you don't want to change six things and then see what happens.
+SPEAKER_02: You want to change them one at a time.
+SPEAKER_02: So, adding this other stream in, that's simple in some way.
+SPEAKER_02: And then, saying, particularly because we found the past, there's all these different results you get with slight modifications of how you do normalization.
+SPEAKER_02: Normalization is a really tricky sensitive thing and you learn a lot.
+SPEAKER_02: So, I would think you would want to have some baselines that says, okay, we don't normalize this is what we get.
+SPEAKER_02: And we do this normalization and we do that normalization.
+SPEAKER_02: But the other question is, so I think ultimately one depends on normalization, I agree.
+SPEAKER_05: So, this second stream, will it add latency to the system?
+SPEAKER_02: No, it's in parallel.
+SPEAKER_02: We're not talking about computation time here.
+SPEAKER_02: We're actually pretty far out.
+SPEAKER_02: So, it's just in terms of what data it's depending on.
+SPEAKER_02: It's depending on the same data as the other.
+SPEAKER_02: Same.
+SPEAKER_00: So, with this new stream, would you train up the VAD on both features somehow?
+SPEAKER_01: No, I guess the VAD has its own set of features.
+SPEAKER_01: Okay.
+SPEAKER_01: Which could be one of these streams or it can be something derived from these streams.
+SPEAKER_03: Okay.
+SPEAKER_03: And there is also the idea of using Crap's maybe.
+SPEAKER_01: Yeah, it's also.
+SPEAKER_03: Well, right, you bought for an empty show.
+None: It's a good idea.
+SPEAKER_00: With that fit on the handset or...
+SPEAKER_00: Oh.
+SPEAKER_00: Okay.
+SPEAKER_01: Let me test.
+SPEAKER_01: Yeah.
+SPEAKER_01: Let me test to fit the delays and all this stuff.
+SPEAKER_02: Well, this is delays in the storage, yeah.
+SPEAKER_02: But I don't think the storage is so big for that.
+SPEAKER_02: I think the biggest thing we've run into for storage is neural net.
+SPEAKER_02: You, right.
+SPEAKER_02: And so, I guess the issue there is, are we using neural net-based traps?
+SPEAKER_02: And how big are they?
+SPEAKER_02: That'll be an issue.
+SPEAKER_00: Maybe they could be little ones.
+SPEAKER_00: Right.
+SPEAKER_00: Because she also does the correlation-based traps without the neural net just looking at the coordinates.
+SPEAKER_02: Maybe for VAD, they would be okay.
+SPEAKER_02: Yeah.
+SPEAKER_02: Yeah.
+SPEAKER_02: It's true.
+SPEAKER_02: Or simple neural net, right?
+SPEAKER_02: I mean, the thing is, if you're doing correlation, you're just doing a simple dot product with some weights, which you happen to learn from the data.
+SPEAKER_02: And so, putting it on linearity on it is not that big a deal.
+SPEAKER_02: It certainly doesn't take much space.
+SPEAKER_02: Right.
+SPEAKER_02: So, the question is, how complex a function you need to have an added layer or something, in which case, potentially, you know, it could be big.
+SPEAKER_02: So, what's next?
+None: Maybe.
+SPEAKER_02: Not like this.
+SPEAKER_05: So, the meeting with Henik that you guys just had was to decide exactly what you were going to freeze in this system.
+SPEAKER_05: Is that, or was there, are you talking about what the new stuff for?
+SPEAKER_02: What the freeze and then what to do after we froze?
+None: Yeah.
+SPEAKER_02: And, like I said, I think that the basic directions are, I mean, there's lots of little things, such as improvement noise estimator, but the bigger things are adding on the neural net and the second stream and then improving the VAD.
+SPEAKER_01: So, I have actually, after the meeting, added the second stream to the data and maybe I'll start with the feature net in that case.
+SPEAKER_01: It's like you're looking at the VAD, right?
+SPEAKER_03: Yeah.
+SPEAKER_01: For the VAD?
+SPEAKER_01: No.
+None: But the network on the VAD and one.
+SPEAKER_01: So, you already have it?
+SPEAKER_01: Okay.
+SPEAKER_01: So, just to take the features from the final.
+SPEAKER_01: Okay.
+SPEAKER_03: But, yeah, I think that's your issue.
+SPEAKER_05: What about the new part of the evaluation, the Wall Street Journal part?
+SPEAKER_02: Right.
+SPEAKER_02: Have you ever, very good question.
+SPEAKER_02: Have you ever worked with the Mississippi State Software?
+SPEAKER_04: No.
+SPEAKER_02: Oh.
+SPEAKER_02: Well, you may be called up a hand to help.
+SPEAKER_02: I think that kind of all the work in this stuff here has been in the small vocabulary.
+SPEAKER_05: So, how was the interaction supposed to happen?
+SPEAKER_05: I remember last time we talked about this, it was sort of up in the air, whether they were going to be taking people's features and then running them or they were going to give the system out.
+SPEAKER_05: So, they're going to just deliver a system base.
+SPEAKER_05: Do we already have it?
+SPEAKER_01: Yeah, I guess it's almost ready.
+SPEAKER_01: So, that's what, so they have released a document describing the system.
+SPEAKER_02: Maybe you could point it at Chuck, because we'll have to grab this over CVS or something.
+SPEAKER_01: No, it's just downloadable from their website.
+SPEAKER_02: Because one of the things that might be helpful if you've got time and all of this is, is if these guys are really focusing on improving all the digit stuff, maybe you got the front end from them, maybe you could do the runs for the, and you know, iron out hassles that you have to tweak Joe about, or whatever, because you're more experienced who's going to urge vocabulary stuff.
+SPEAKER_01: So, I'll point you to the website and the mail corresponding.
+SPEAKER_05: And it's not ready yet, this is the thing.
+SPEAKER_01: I think they are still tuning something on that.
+SPEAKER_01: So, they're like varying different parameters like the insertion penalty and all those stuff and then seeing what's the performance.
+SPEAKER_05: So, what is going to be parameters that are frozen, nobody can change?
+SPEAKER_01: I guess there is time during which people can make suggestions.
+SPEAKER_05: Oh, but everybody's going to have to use the same value.
+SPEAKER_05: After that.
+SPEAKER_01: So, this suggestion, this, this, this, Peter, during which people can make suggestions is to know whether it is actually biased towards any set of features or.
+SPEAKER_02: Yeah, so, certainly the thing that I would want to know about is whether we get really hurt on insertion penalty, language model scaling, sorts of things.
+SPEAKER_02: Yeah, yeah, yeah.
+SPEAKER_02: In which case, Hary or Henik will need to, you know, push the case or about this.
+SPEAKER_05: And we may be able to revisit this idea about, you know, somehow modifying our features to.
+SPEAKER_02: Yes, in this case, that's right.
+SPEAKER_02: Yeah.
+SPEAKER_02: That's right.
+SPEAKER_02: Some of that may be a last minute rush thing because if our features are changing.
+SPEAKER_02: Yeah.
+SPEAKER_02: But, yeah, the other thing is that even though it's a month away, it's starting to seem to me now like November 15th is right around the corner.
+SPEAKER_02: And if they haven't decided things like this, what the parameters are going to be for this.
+SPEAKER_02: When deciding is not just somebody deciding, I mean, in fact, there should be some understanding behind the deciding, which means some experiments and so forth.
+SPEAKER_02: It seems pretty tight to me.
+SPEAKER_05: So, what's the significance of November 15th?
+SPEAKER_02: That's when the evaluation is.
+SPEAKER_02: Yeah.
+SPEAKER_02: So, yeah.
+SPEAKER_02: So, yeah.
+SPEAKER_02: So I have to, but, you know, they may even decide in the end to push it off.
+SPEAKER_02: It wouldn't, you know, entirely surprise me.
+SPEAKER_02: But due to other reasons, like some people are going away, I'm hoping it's not pushed off for a long while.
+SPEAKER_02: That would be, but it's an awkward position.
+SPEAKER_02: But anyway.
+SPEAKER_02: Okay.
+SPEAKER_02: Great.
+SPEAKER_02: Yeah, I think that'll be helpful.
+SPEAKER_02: There's not anybody, OGI currently, who's working with this.
+SPEAKER_05: Is this part of the evaluation just a small part of how important is this to the overall?
+SPEAKER_02: I think it depends how badly you do.
+SPEAKER_02: I mean, I think that it is...
+SPEAKER_02: This is one of those things that will be debated afterwards.
+SPEAKER_02: Yeah.
+SPEAKER_02: Well, I mean, it's conceptually, my impression, again, you guys correct me if I'm wrong, my impression is that they want it as a double check that you haven't come across, you haven't invented features, which are actually going to do badly for a significantly different task, particularly one with larger vocabulary.
+SPEAKER_02: But it's not the main emphasis.
+SPEAKER_02: I mean, the truth is most of the applications they're looking at are pretty small vocabulary.
+SPEAKER_02: So it's a double check.
+SPEAKER_02: So they'll probably assign it some sort of low weight.
+SPEAKER_05: It seems to me that if it's a double check, they should give you a 1 or a 0.
+SPEAKER_05: You passed the threshold, you didn't pass the threshold, and they shouldn't even...
+SPEAKER_05: Yeah, you're not going to score it.
+SPEAKER_02: But I mean, we'll see what they come up with.
+SPEAKER_02: But in the current thing, for instance, where you have this well-matched, moderately matched, and this highly mismatched, the emphasis is somewhat on the well-matched, but it's only a marginal, right?
+SPEAKER_02: It's a 40, 35, 25 or something like that.
+SPEAKER_02: So you still, if you were way, way off on the highly mismatched, it would have a big effect.
+SPEAKER_02: And it wouldn't surprise me if they did something like that with this.
+SPEAKER_02: So again, if you get...
+SPEAKER_02: If it doesn't help you much for noisy versions of this large vocabulary data, then it may not hurt you that much.
+SPEAKER_02: But if you don't... if it doesn't help you much at all, or put another way, if it helps some people a lot more than it helps other people, there are strategies too.
+SPEAKER_05: So is this...
+SPEAKER_05: Goodter was putting a bunch of Wall Street Journal data on our disks.
+SPEAKER_05: So that's the data that we'll be running on.
+SPEAKER_02: Yeah.
+SPEAKER_02: I see.
+SPEAKER_02: So if the data just not the recognized...
+SPEAKER_02: Okay.
+SPEAKER_05: So this test may take quite a while to run, then.
+SPEAKER_05: A judging by the amount of data that he was putting.
+SPEAKER_02: Well, it's training and test, right?
+SPEAKER_05: I guess I'm not sure.
+SPEAKER_02: No, I mean, if it's like the other things, there's data for training the HMMs and data for testing it.
+SPEAKER_02: So I wouldn't... so it's...
+SPEAKER_05: Okay.
+SPEAKER_02: So training, the recognizer.
+SPEAKER_02: But I think it's trained on clean.
+SPEAKER_02: Is it trained on clean?
+SPEAKER_02: Wall Street?
+SPEAKER_03: Yeah.
+SPEAKER_03: Probably no.
+SPEAKER_03: It's training range between 10 and 20 dB.
+SPEAKER_03: I think it's testing between 5 and 15 dB.
+SPEAKER_03: Yeah.
+SPEAKER_02: Okay.
+SPEAKER_01: So it's like a medium mismatch condition, sort of.
+SPEAKER_04: I see.
+SPEAKER_03: So the noise is...
+SPEAKER_03: There is a range of different noises.
+SPEAKER_03: So...
+SPEAKER_03: The jar select can run on the media.
+SPEAKER_03: Okay.
+SPEAKER_03: And to the files.
+SPEAKER_03: There are noises that are different.
+SPEAKER_03: And the noise is used on the 8 digits.
+SPEAKER_04: Yeah.
+None: Yeah.
+SPEAKER_02: Yeah.
+SPEAKER_02: I mean, I wouldn't imagine that the amount of testing data was that huge.
+SPEAKER_02: I probably put training...
+SPEAKER_02: Almost certainly, put training data there, too.
+SPEAKER_02: Maybe not.
+SPEAKER_02: So, that's that.
+SPEAKER_05: Okay.
+SPEAKER_05: One last question on that.
+SPEAKER_05: Did they estimate that they would have that system available for download?
+SPEAKER_01: I guess one...
+SPEAKER_01: Some preliminary version is already there.
+SPEAKER_05: Oh, so there's something you can download to just learn.
+SPEAKER_01: Yeah.
+SPEAKER_01: But they're actually paralleling doing some modifications also, I think.
+SPEAKER_01: Okay.
+SPEAKER_01: So I guess the final system will be frozen by middle of like one more week, maybe.
+SPEAKER_02: Oh, that's pretty simple.
+SPEAKER_01: Yeah, that's just one more.
+SPEAKER_00: Is this their SVM recognizer?
+SPEAKER_01: No, it's just a straight-forward achievement.
+SPEAKER_02: You know, they have a lot of options.
+SPEAKER_02: And they recognize your SVM is one of the things they've done with it.
+SPEAKER_02: But it's not their more standard thing.
+SPEAKER_02: For most part, it's Gaussian mixed using.
+SPEAKER_00: Okay.
+SPEAKER_01: Just the HTML.
+SPEAKER_01: Gaussian mixed with momentum.
+SPEAKER_00: Gaussian mixed with momentum.
+SPEAKER_02: Yeah, the SVM thing was an HTML also.
+SPEAKER_02: Yeah, this is a hybrid.
+SPEAKER_05: Yeah.
+SPEAKER_05: So just so that I understand they're providing scripts and everything so that basically you push a button and it does training and then it does test and everything.
+SPEAKER_05: Is that the idea?
+SPEAKER_01: I think, yeah, I guess something like...
+SPEAKER_01: It's like...
+SPEAKER_01: As painless as possible is work.
+SPEAKER_01: Do they provide all the scripts and everything and then...
+SPEAKER_01: Yeah, there's books to put your features out.
+SPEAKER_02: Yeah, in fact, I mean, if you look into it a little bit, it might be reasonable, you know, Joe, right?
+SPEAKER_02: Yeah, just to sort of ask him about the issue of different features having different kinds of scaling, characteristics and so on.
+SPEAKER_02: So that, you know, possibly having entirely different optimal values for the usual twittles, factors and what's the plan about that?
+SPEAKER_01: Should we like add check all through to the mailing list?
+SPEAKER_01: Maybe better, I mean, in that case, if he's going to...
+SPEAKER_01: Yeah.
+SPEAKER_05: So there's a mailing list for this?
+SPEAKER_05: Yeah, that'd be great.
+SPEAKER_01: Yeah, I guess maybe Harry or Heneke, one of them has to send a mail to Joe.
+SPEAKER_01: Or maybe if you...
+SPEAKER_01: I could send it.
+SPEAKER_01: Yeah, I know, maybe.
+SPEAKER_01: I know, really.
+SPEAKER_01: Yeah, so that's just fine.
+SPEAKER_01: So...
+SPEAKER_02: Yeah, and just maybe...
+SPEAKER_02: You have Harry's...
+SPEAKER_02: Have Harry's?
+SPEAKER_02: Yeah, so maybe just CC Harry and say that you've just been asked to handle the larger vocabulary part here.
+SPEAKER_02: And, you know...
+SPEAKER_05: Would it be better if I asked Harry to ask Joe?
+SPEAKER_02: Why don't you just ask Joe but CC Harry and then in the notes say Harry, hopefully this is okay with you.
+SPEAKER_02: And then if Joe feels like he needs a confirmation, Harry can answer it.
+SPEAKER_02: That way you can get started asking Joe quickly while he's maybe still putting in nails and screws and do it.
+SPEAKER_01: And there is an archive of all the mails that has been...
+SPEAKER_01: That has gone between these people, among these people.
+SPEAKER_01: So, just you can see all those mails in the ISIP website.
+SPEAKER_01: Okay.
+SPEAKER_01: This is the website.
+SPEAKER_01: Is that a password?
+SPEAKER_01: Yeah, it's password-productive.
+SPEAKER_01: So, like...
+SPEAKER_01: It's...
+SPEAKER_01: Like...
+SPEAKER_02: What do you think about how long would be most useful for you to go up to OJ?
+SPEAKER_03: I don't know.
+SPEAKER_03: We can.
+SPEAKER_03: For September we can sit up.
+SPEAKER_03: Work schedule.
+SPEAKER_03: At some point, maybe we better...
+SPEAKER_02: Oh, so you're imagining more that you would come back here first for a while and then go up there.
+SPEAKER_02: I mean, it's up to you guys, are you?
+SPEAKER_02: Well, anyway, you don't have to decide the second.
+SPEAKER_02: But think about it, about what you think would be the best way to work it all supported either way.
+SPEAKER_02: Okay.
+SPEAKER_02: Anything to tell us?
+SPEAKER_00: Well, I've been reading some literature about clustering of data.
+SPEAKER_00: Just...
+SPEAKER_00: I guess, let me put it in context.
+SPEAKER_00: Okay.
+SPEAKER_00: So, we're talking about discovering intermediate categories to classify.
+SPEAKER_00: And I was looking at some of the work that San Gita was doing on these traps things.
+SPEAKER_00: So, she has... she has temporal patterns for a certain set of phonemes from Timmit, right?
+SPEAKER_00: The most common phonemes.
+SPEAKER_00: Each one of them has a nice pattern over time, one second window, and it has these patterns.
+SPEAKER_00: So, she has a trap for each one of the phonemes times 15 for each of the 15 critical bands.
+SPEAKER_00: And she does this agglomerative hierarchical clustering, which basically is a clustering algorithm that starts with many, many, many different points, many different clusters corresponding to the number of data patterns that you have in the data.
+SPEAKER_00: And then you have this distance metric, which measures how closely related they are.
+SPEAKER_00: And you start by merging the patterns that are most closely related.
+SPEAKER_00: You created three.
+SPEAKER_05: Yeah, yeah, yeah, a dendrogram tree.
+SPEAKER_05: You can think of values anywhere along that tree to fix your set of clusters.
+SPEAKER_00: Right.
+SPEAKER_00: Usually, it's when the similarity measures don't go down as much.
+SPEAKER_00: And so, so you stop at that point.
+SPEAKER_00: And what she found was that there were five broad categories corresponding to things like fricatives and vocalic and stops and one for silence and another one for schwa sounds.
+SPEAKER_00: And I was thinking about ways to generalize this because it's not a completely automatic way of clustering because beforehand you have these traps, you're saying that these frames correspond to this particular phonemes.
+SPEAKER_00: And that's constraining your clustering to the set of phonemes that you already have.
+SPEAKER_00: Whereas, maybe we want to just take a look at arbitrary windows in time, a varying length, and cluster those.
+SPEAKER_00: And I'm thinking if we do that, then we would probably, at some point in the clustering algorithm, find that we've clustered things like, okay, this is a transition, this is a relatively stable point.
+SPEAKER_00: Now, hoping to find other things of similarity and maybe use these things as the intermediate categories that later classify.
+SPEAKER_02: Are you looking at this in their own bands?
+SPEAKER_00: Right.
+SPEAKER_00: I guess what you're going to be using. Yeah, I've been exactly figured out the exact details for that.
+SPEAKER_00: But the representation of the data that I was thinking of was using critical band energies over different lengths of time.
+SPEAKER_02: Yeah, I mean, it seems somehow that needs to, there's a couple things that I wonder about with this. So one is, again, looking at the same representation.
+SPEAKER_02: I mean, if you're going for this sort of thing where you have little detectors that are looking at narrow bands, then what you're going to be looking for should be some category that you can find with the narrow bands.
+SPEAKER_02: That seems to be kind of fundamental to it.
+SPEAKER_02: And then the other thing is that I wonder about with it and don't take this in the wrong way like I know what I'm doing or anything.
+SPEAKER_02: But I mean, just wondering, really, the sort of standard answer about this sort of thing is that if you're trying to find the right system in some sense, whether you're trying to categorize or parameters.
+SPEAKER_02: And your goal is discrimination. Then having choices based on discrimination as opposed to unsupervised nearness of things is actually better.
+SPEAKER_02: And I don't know if that means since you're dealing with issues for busness, you know, maybe this isn't right. But it'd be something I'd be concerned about because, for instance, you can imagine.
+SPEAKER_02: If you remember from your quarrels, John O'Halla saying that Bon Pa differed, not really because of voicing, but because of aspiration.
+SPEAKER_02: I mean, as far as what's really there in the acoustics.
+SPEAKER_02: So if you looked, if you're doing some coarse clustering, you probably would put those two sounds together. And yet I would guess that many of your recognition errors were coming from screwing up on this distinction.
+SPEAKER_02: So in fact, it's a little hard because recognizers to first order sort of work. And the reason we're doing the things we're doing is because they don't work as well as we'd like.
+SPEAKER_02: And since they sort of work, it means that they are already doing, if you go and take any recognizer that's already out there, and you say, how well is it distinguishing between schwa's and stops?
+SPEAKER_02: Boy, I bet they're all doing nearly perfectly on this. So these big categories that differ in huge, obvious ways, we already know how to do.
+SPEAKER_02: So what are we bringing to the party? I mean, in fact, what we want to do is have something that, particularly in the presence of noise, is better at distinguishing between categories that are actually close to one another. And hence would probably be cluster together.
+SPEAKER_02: So that's the hard thing. I mean, I understand that it's this other constraint that you're considering is that you want to have categories that would be straightforward for, say, a human being to mark if you had manual annotation.
+SPEAKER_02: And something that you really think you can pick up. But I think it's also essential that you want to look at what are the confusions that you are making. And how can you come up with categories that can clarify these confusions?
+SPEAKER_02: So I mean, the standard sort of way of doing that is take a look at the algorithms, you're looking at them, throw in some discriminative aspect to it. This is more like, how does LDA differ from PCA?
+SPEAKER_02: I mean, the same sort of thing, they're both authorizing, but, you know, and this is a little harder because you're not just trying to find parameters, you're actually trying to find the categories themselves.
+SPEAKER_02: A little more like brain surgery, I think, on yourself.
+SPEAKER_02: So, anyway, that's my thought.
+SPEAKER_02: Okay.
+SPEAKER_02: You've been thinking about this for a long time, actually, I mean, well, actually you stopped thinking about it for a long time, but you used to think about it a lot.
+SPEAKER_02: You were thinking about it more now. Yeah. Yeah. It's categories.
+SPEAKER_05: I guess, I don't, I don't, it's not clear to me how to reconcile, you know, what you're saying, which I think is right, with the way I've been looking at it, it's, it's all not very clear to me.
+SPEAKER_05: But it seems to me that the desire, the desirable feature to have is something that is bottom up.
+SPEAKER_05: Now, however we do that, and so, I guess what I don't understand is how to do that and still be discriminative because to be discriminative, you have to have categories, and the only categories that we know up to use are, sort of, these human, human-significant categories that are significant to humans, like phonemes, things like that.
+SPEAKER_02: But that's sort of what you want to avoid. Well, here's a, here's a, here's a generic and possibly useless thought, which is, what do you really, I mean, in a sense, the only systems that make sense are ones that have something from top down in them.
+SPEAKER_02: Right, because if even the smallest organism is trying to learn to do anything, if it doesn't have any kind of reward for, or penalty for doing anything, then it's just going to behave randomly.
+SPEAKER_02: So whether you're talking about something being learned through evolution or being learned through experience, it's got to have something come down to it that gives its reward, or at least some sort of reinforcement.
+SPEAKER_05: So the question is how far down, and stop at words, but we don't, right, we go all the way down to phonemes.
+SPEAKER_02: Right, but I think it maybe in some ways, part of the difficulty is trying to deal with these phonemes.
+SPEAKER_02: And it's almost like you want categories, if our metric of goodness, or correction, if our metric of badness is word error rate, then maybe we should be looking at words.
+SPEAKER_02: I mean, for very nice reasons, we've looked, well, it's syllables, and they have a lot of good properties.
+SPEAKER_02: But if you go all the way to words, I mean, that's really, I mean, in many applications, you want to go further, you want to go to concepts or something.
+SPEAKER_02: Yeah, I have concepts, actions, the sort of thing.
+SPEAKER_02: Words aren't bad, yeah.
+SPEAKER_05: So the common, right, the common wisdom is you can't do words because there's too many of them, right? So you have to have some smaller set that you can use.
+SPEAKER_05: And so everybody goes to phonemes. But the problem is that we build models of words in terms of phonemes, and these models are really cartoonish, right?
+SPEAKER_05: So when you look at conversational speech, for example, you don't see the phonemes that you have in your word models.
+SPEAKER_02: But we're not trying for models of words here. See, so here's maybe where, if the issue is that we're trying to come up with some sort of intermediate categories, which will then be useful for later stuff, then maybe it doesn't matter that we can't have enough.
+SPEAKER_02: I mean, what you want to do is build up these categories that are best for word recognition. And somehow if that's built into the loop of what the categories, I mean, we do this every day in this very gross way of running over a thousand experiments because we have asked computers picking the thing that has the best word error, right?
+SPEAKER_02: In some way, I mean, we derive that all the time. In some ways, that's not a bad thing to do because it tells you, in fact, how your adjustments at the very low level affect the final goal.
+SPEAKER_02: So maybe there's a way to even put that in a much more automatic way, where you take something about the error at the level of the word or some other, it could be so, but it's some large unit.
+SPEAKER_02: And, yeah, you may not have word models, you may have phone models, whatever, but you just sort of don't worry about that. And just somehow feed it back through.
+SPEAKER_05: So that's what I call a useless comments because I'm not really telling you how to do it. But I mean, it's, it's, it's, you know, I think the important part is there is that, you know, if you want to be discriminative, you have to have, you know, categories.
+SPEAKER_05: And I think this, the important categories are the words. Yeah.
+SPEAKER_05: Not the phones, maybe. And so, right, if you can put the words in to the loop, somehow for determining goodness of your sets of clusters.
+SPEAKER_02: Now, that being said, I think that, that if you have something that is, once you start dealing with spontaneous speech, all the things you're saying are really true.
+SPEAKER_02: If you have read speech that's been manually annotated like Tim at, yeah, then, you know, the phones are going to be right, actually, yeah, for the most part.
+SPEAKER_02: So, it doesn't really hurt them to, to do that, to put in discrimination at that level. If you go to spontaneous speech, then it's, it's trickier. And, and the phones are, you know, it's going to be based on bad pronunciation models that you have.
+SPEAKER_05: And it won't allow for the overlapping phenomena. So, it's almost like there's this mechanism that we have that, you know, when, when we're hearing read speech and all the phones are there, you know, we deal with that.
+SPEAKER_05: But, when we go to conversational and all of a sudden, not all the phone names are there, it doesn't really matter that much to us as humans, because we have some kind of mechanism that allows for these word models, whatever those models are to be.
+SPEAKER_05: And it doesn't really hurt them.
+SPEAKER_05: I'm not sure how, how to build that in.
+SPEAKER_02: Yeah, I mean, I guess the other thing is, is to think a little bit, when you, when you start looking at these kind of results, I think it usually is, is pretty intuitive. But, start looking at what are the kinds of confusions that you do make, you know, between words if you want or, or even between phones in, in, in red speech, say, when there is noise.
+SPEAKER_02: You know, so, is it more across place or more across manor or is it court, you know, is it, I mean, I know one thing that happens is that you, you, you lose low energy phones.
+SPEAKER_02: I mean, if it's added noise, then low energy phones sometimes don't get heard. And if that, if that is, if it's, if that turns it into another word or, or different, you know, another pair of words or something, then it's more likely to happen.
+SPEAKER_02: But, I don't know, I would, I would guess that you, I don't know, anyway, that's.
+SPEAKER_05: I think part of the difficulty is that a lot of the robustness that we have is probably coming from a much higher level, you know, we understand the context of the situational work, having conversation.
+SPEAKER_05: And so, there's noise in there, you know, our brain fills in.
+SPEAKER_00: Well, that's what, what should be the prediction?
+SPEAKER_02: Oh, sure, that's really big. But, I mean, even if you do diagnostic rhyme tests, kind of things, you know, where there really isn't any information like that, people are still better in noise than they, than they are in, then the machines are.
+SPEAKER_02: So, I mean, that's, right, we can't, we can't get it at all without any language models, language models are there and important. But, but, if we're not working on that, then we should work on something else and improve it, but, especially if it looks like the potential is there.
+SPEAKER_02: Should we just do this? Yeah. So, that's right here.
+SPEAKER_02: Okay, transcript, L-338.
+SPEAKER_02: 86556-481-5134-2727-1998-2524-8858-0302-7580-0105-992-945-8519-69249-692-497249-339-07342-89.
+SPEAKER_02: 734330 20417517
+SPEAKER_03: Let's click L-389 8892 640700 1759 8489 284 851 551 671 09 5065 288 895 282 793 078 707 079 36 2614 9813 8997 4467 0405
+SPEAKER_05: Transcript L-333 6370 690 60028327 777607174 7381141066 957431990 440680058 081543724 527481348
+SPEAKER_00: Transcript L-336 760149538 179649399 890002238 1195436059 0477569867 303895392 861464648 638406072019
+SPEAKER_01: Transcript L-334 1374091804 4794665647 1248047514 8221735705 9106363594 3960392838 0691690 238458830 Preserved
+SPEAKER_02: Exactly
+None: 1000

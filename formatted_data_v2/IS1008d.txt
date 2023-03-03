@@ -1,0 +1,380 @@
+SPEAKER_00: Welcome back everybody.
+SPEAKER_00: So this meeting agenda will be the detailed design meeting and opening and PMs are secretary of the meet minutes prototype presentation from Christie and Agni.
+SPEAKER_02: Agni, yes.
+SPEAKER_00: And evolution criteria, the finance it's from my side from the management and production evolution then closing.
+SPEAKER_00: So we have 40 minutes to discuss and finalize and close the product and project and to move further.
+SPEAKER_00: So let's talk about maybe first prototype.
+SPEAKER_03: I've done a presentation but it pretty much covers work that we've both done.
+SPEAKER_03: If I'm missing anything, Christie.
+SPEAKER_03: So shall I go to correct me?
+SPEAKER_03: So you did a PowerPoint presentation.
+SPEAKER_02: Let's go to MI.
+SPEAKER_03: It's not the biggest PowerPoint presentation in the world.
+SPEAKER_00: In 2003 or?
+SPEAKER_03: Free.
+SPEAKER_03: I think it's the last one.
+SPEAKER_01: Technical.
+SPEAKER_01: I would say.
+SPEAKER_03: No, then that one.
+SPEAKER_03: Technical design.
+SPEAKER_03: It is named appropriately.
+SPEAKER_03: You just couldn't see the name.
+SPEAKER_03: Okay.
+SPEAKER_03: Can I have a minute?
+SPEAKER_03: All right.
+SPEAKER_03: So from when we were discussing specifying the case in the last meeting, we decided that we wanted an ergonomic shape.
+SPEAKER_03: The material that we chose was wood and that the color would be customizable because you can stain the wood, whatever color.
+SPEAKER_03: So in terms of function, you have to be able to turn the TV on and off, volume and channel control, menu control, voice recognition control.
+SPEAKER_03: And we've incorporated the LCD screen on the panel as part of the design.
+SPEAKER_03: If we figure out it's too expensive, well, then you just take it off.
+SPEAKER_03: So to unveil our lovely product.
+SPEAKER_03: This is our remote control with the flip panel, as you can see.
+SPEAKER_03: So if you lift up the panel, you can see the lovely yellow LCD display.
+SPEAKER_03: This is actually hard to do.
+SPEAKER_03: The yellow button you have is the on off button, so it's really big, hard to miss.
+SPEAKER_03: You have the red triangles or the toggles for changing the volume.
+SPEAKER_03: So up, volume up, down, volume down.
+SPEAKER_03: The green are the channel changing.
+SPEAKER_03: And it's one of those very light, very touchable displays.
+SPEAKER_03: And then you have the numeric pad in the dark blue at the bottom.
+SPEAKER_03: And on the right hand side, you have the access to the menu on the TV.
+SPEAKER_03: And on the left hand side, you have the ability to turn off the voice recognition.
+SPEAKER_03: So this is pretty much what we had on the whiteboard the last time.
+SPEAKER_03: And additional feature on the back is you can have your own customized backing.
+SPEAKER_03: And I suppose you could do the same thing on the flip case on the front, so that you can really make this a highly, highly customizable remote control.
+SPEAKER_02: We haven't specified where the speaker or the microphone will be placed.
+SPEAKER_02: That depends on the design of the circuit board inside and what room is left.
+SPEAKER_00: I think the microphone is on the top.
+SPEAKER_00: Yes, okay.
+SPEAKER_00: Under the flip.
+SPEAKER_00: So that will be the safe.
+SPEAKER_00: So it's not on the chip because you need to have microphone out.
+SPEAKER_02: No, it depends on the design of the circuit board.
+SPEAKER_02: Yes.
+SPEAKER_03: But it shouldn't be under the flip either because you can have the remote control closed, but you still might want to activate it by voice.
+SPEAKER_00: Yeah, but my opinion, I think it's about under the flip because whenever you want to the talk, okay, so then you can speak, then you can close it.
+SPEAKER_00: Because if you put it on the flip, okay, then technical, I don't think it's feasible because most of the time you speak, then it will be recognized.
+SPEAKER_03: If you've already got the remote control in your hand, I need to open the flip to use the voice.
+SPEAKER_03: Why use the voice?
+SPEAKER_03: Why not just use your hand?
+SPEAKER_03: I mean, the whole point of the voice is that if the remote control is sitting there and I'm too lazy to reach over and pick it up, I can just use my voice.
+SPEAKER_02: Maybe I've got my hand in the popcorn bowl and I'm holding my cup of Coca-Cola in the other hand.
+SPEAKER_02: Yeah.
+SPEAKER_02: You don't want to let go of either one.
+SPEAKER_03: No, it doesn't have to be on the flip.
+SPEAKER_03: It can be on the sides somewhere.
+SPEAKER_00: The sides may be good.
+SPEAKER_03: That's good, I mean, I can pass this around if anyone wants to.
+SPEAKER_02: Yes, the sides may be a good idea.
+SPEAKER_02: Very fast around with the napkin.
+SPEAKER_01: You can easily put a microphone on the side that would have no problem, would have not been damaged or anything and it'd be accessible all the time to a voice.
+SPEAKER_02: Yeah, exactly.
+SPEAKER_02: The sides may be a good idea.
+SPEAKER_01: It's a compliment to the artist.
+SPEAKER_02: It's, you need to work on the weight a little bit.
+SPEAKER_02: Yes.
+SPEAKER_02: And maybe the shape of the buttons.
+SPEAKER_02: I'm satisfied.
+SPEAKER_03: The little egg shapes aren't the most eaten.
+SPEAKER_03: We're glad your satisfied.
+SPEAKER_00: It looks more heavy, but I think when it comes to the reality, maybe it's the less weight.
+SPEAKER_03: Yeah.
+SPEAKER_03: I mean, this is plasticine.
+SPEAKER_03: There's only so much you can do.
+SPEAKER_03: We could have possibly made it a lot thinner as well.
+SPEAKER_03: And part of the thing is a lot of people say that they don't like something that's too light because they don't feel like they have enough control over it.
+SPEAKER_03: I mean, maybe this is excessively heavy, but I think it needs to have some weight.
+SPEAKER_03: It needs to feel like you're still holding something.
+SPEAKER_03: So that's pretty much it for our presentation, actually.
+SPEAKER_00: That's your prototype, Maudet.
+SPEAKER_00: Yes.
+SPEAKER_00: Okay, that's good.
+SPEAKER_00: Thank you very much.
+SPEAKER_00: So any comments or?
+SPEAKER_01: Well, the prototype is very well within the design and idea that we've talked about on the previous meetings.
+SPEAKER_01: Now it goes into this next phase as a financial marketing.
+SPEAKER_00: Yes, that's right.
+SPEAKER_00: I'll come back to the...
+SPEAKER_00: So, evolution criteria, I think that will be good.
+SPEAKER_00: So when it's come to the finance, I have some calculations which I made as for the budget.
+SPEAKER_00: So here you can look like the energy source and handy dynamo and kinetic and solar cells.
+SPEAKER_00: It's optional, some are optional and advanced chip on print.
+SPEAKER_00: That's what we were talking about that.
+SPEAKER_00: So then we have sample sensor and sample speaker.
+SPEAKER_00: Then we have the wood material, then special color and push button.
+SPEAKER_00: So it's... actually our budget was 12.5 euro, but it's coming to 9.95 euro.
+SPEAKER_00: So we are under below the budget.
+SPEAKER_00: Okay, so still we are saving some money.
+SPEAKER_00: I think it's a good figure.
+SPEAKER_02: Yes, great.
+SPEAKER_02: I'm surprised.
+SPEAKER_02: Congratulations.
+SPEAKER_02: Thank you.
+SPEAKER_01: Oh, we haven't covered the money yet, so we're going to go with the rest of the print.
+SPEAKER_02: You've got a lot of money to market it.
+SPEAKER_00: So maybe for some money we can utilize for our marketing for the sales.
+None: Okay.
+SPEAKER_01: Well, it just depends.
+SPEAKER_01: If we're going to add on this provisionary cost analysis, we do not have an LCD display.
+SPEAKER_01: LCD display is going to be very expensive.
+SPEAKER_03: No, we do, but it's not filled in.
+SPEAKER_03: It's not necessarily.
+SPEAKER_01: We don't have the price up there.
+SPEAKER_01: Oh, yeah.
+SPEAKER_01: All right.
+SPEAKER_01: Yes.
+SPEAKER_01: So if we add approximately 2 to 3 euro per remote, now we're up around about 12, 12 and a half as to what the company had initially requested.
+SPEAKER_02: That means we can put the...
+SPEAKER_01: Display in.
+SPEAKER_01: But as far as production, I'm putting up a question because we're talking about profit also.
+SPEAKER_01: And in mine, you'll see the problem with our survey, the possibility of how many units can be sold or percentages of the market, et cetera, et cetera, because that has to be taken into consideration.
+SPEAKER_01: This is just production cost.
+SPEAKER_01: It is not advertising cost.
+SPEAKER_01: It's not transportation cost.
+SPEAKER_01: Yes.
+SPEAKER_00: So still we have 2.5 minutes.
+SPEAKER_01: And that will inflate quite a bit on the cost of the unit for the company.
+SPEAKER_01: So to come up with what the company wants is a 50 million pound profit, we're going to have to go a long way.
+SPEAKER_00: Yes.
+SPEAKER_00: This we are talking about one unit.
+SPEAKER_00: Yes.
+SPEAKER_00: So then it's going to the quantity and the cost will come down slightly.
+SPEAKER_02: Although customization, because this is being done on an order basis, might be the quantity you want, the circuit board, you're right, would be in producing quantity, but the cost of the case would be fixed.
+SPEAKER_02: You got some pretty cheap labor that can do this case for one euro.
+SPEAKER_02: That's the cost of material and it's really outstanding.
+SPEAKER_00: But anyhow, still we are under control.
+SPEAKER_00: So what I will do is I will try to negotiate with the vendors to get the production cost less so that we can save some money to put it into our marketing or the promotions, whatever.
+SPEAKER_00: So that I will look after.
+SPEAKER_00: I will speak to the management and how to get some more cost down.
+SPEAKER_01: If we can go to my display and we'll come back to yours just to give everybody an idea of the market.
+SPEAKER_01: So now I'm going to scare everybody out of this project.
+SPEAKER_01: If I'm still here, press the button.
+SPEAKER_00: You're in full?
+SPEAKER_01: Yep.
+SPEAKER_01: The forward gives me a try and watch.
+SPEAKER_02: It's the same one you did before.
+SPEAKER_01: No.
+SPEAKER_02: Okay.
+SPEAKER_01: It shouldn't be if it's not the right one.
+SPEAKER_01: No.
+SPEAKER_01: That's the same one.
+SPEAKER_01: You have to go back and find another one.
+SPEAKER_01: Whatever name it popped up under.
+SPEAKER_01: So functional.
+SPEAKER_01: Try function on might not be it either, but we'll see.
+SPEAKER_03: It looks like it.
+SPEAKER_01: Yep.
+SPEAKER_01: That's it.
+SPEAKER_01: So we'll go screen by screen.
+SPEAKER_01: Since we need to have some type of idea on the market, we had an independent study that says that this market has an availability to absorb 8 million units per year.
+SPEAKER_01: Our internal company evaluation puts it between 8 to 9 million, which is approximately the same as the independent study.
+SPEAKER_01: So if we continue, we look at the findings.
+SPEAKER_01: Next screen.
+SPEAKER_01: Which means that if we have a target of 2 million, the company has to take 25% of the market in the first year, which is actually a tremendous amount.
+SPEAKER_01: No kidding.
+SPEAKER_02: I admit they already expected some.
+SPEAKER_01: So if we put an inflated price of 50 year old at a production cost, they cannot exceed 25 year old.
+SPEAKER_01: Okay.
+SPEAKER_01: We're already in that price.
+SPEAKER_01: Yes.
+SPEAKER_01: Okay.
+SPEAKER_01: With transport promotion labor, because we haven't included the promotion in the cost, transport for the material to the stores or whatever, however, we're going to break this down between our retailers.
+SPEAKER_01: 25% of the market to get to 2 million units, we have to have a profit of 25 year old per unit to get to the 50 million year old profit.
+SPEAKER_01: Yep.
+SPEAKER_01: Okay.
+SPEAKER_01: So obviously, I just did a rundown of the evaluation of the form, the fancy stylishness of the unit, the ease of use, speech recognition, cost, we've gone through these.
+SPEAKER_01: Now the company must evaluate the feasibility of being able to take enough of the market to justify a production.
+SPEAKER_01: Or we project this over two years by being that the market changes very, very quickly.
+SPEAKER_01: Maybe there's no more interest in buying this thing in 18 months from now.
+SPEAKER_01: So now we have to come up with a decision.
+SPEAKER_01: Can the company sell 2 million units?
+SPEAKER_01: Can it sell it for 50 year olds?
+SPEAKER_02: Could I go to findings?
+SPEAKER_02: I would like to explore the possibility of using alternative delivery in sales channel, which would be to use the internet for promotion and ordering and then to drop ship the product to the customers, residents.
+SPEAKER_02: That way you have no storage, you do have transportation, you still have the labor cost, but you don't have the transport to the point of sale.
+SPEAKER_02: The point of sale is online.
+SPEAKER_03: You can do a shipping center somewhere or strategically place shipping centers.
+SPEAKER_03: Right.
+SPEAKER_02: To minimize distance costs.
+SPEAKER_02: You should sell through Amazon, don't you?
+SPEAKER_02: Or eBay, yeah.
+SPEAKER_03: Yeah.
+None: Yeah.
+SPEAKER_02: That's an idea.
+SPEAKER_02: That's right.
+SPEAKER_00: Going with the un...
+SPEAKER_00: To improve more profit and...
+SPEAKER_01: Upscale technology.
+SPEAKER_02: Ah, we're selling a unique product.
+SPEAKER_03: It actually makes more sense if we're going to make it so highly customizable because on the web people can look at the different options they have, see maybe what other people have done, what the range of possibilities are.
+SPEAKER_00: There's some companies that come that way.
+SPEAKER_03: Where you can't...
+SPEAKER_03: Unless you're a highly imaginative person, you may not really know what it is you want.
+SPEAKER_03: Whereas on the web, if you have a bunch of pictures, it can trigger ideas and you can
+SPEAKER_02: even have a movie that you can rotate the object and look at the... The only thing that you're missing really is the weight.
+SPEAKER_01: The weight, the feel of the product but...
+SPEAKER_02: We're getting used to that.
+SPEAKER_02: It's not quite like trying on a shoe but people are getting used to buying things online that they can't touch before buying.
+SPEAKER_01: Several that have gone through with the watches too.
+SPEAKER_01: You can customize the watch.
+SPEAKER_01: You can see how it is at the end of the production.
+SPEAKER_01: You can change it.
+SPEAKER_01: There's a lot of online that is doing this now.
+SPEAKER_01: You're rotating and you look behind and look this way.
+SPEAKER_01: It's possible to do this.
+SPEAKER_01: Maybe there's a possibility of selling more than 2 million units in one year which could feasibility lower the price of the unit.
+SPEAKER_00: You can.
+SPEAKER_00: Great.
+SPEAKER_00: I don't think that's not possible.
+SPEAKER_00: It's...
+SPEAKER_00: Okay, then let's wait for the production.
+SPEAKER_00: Then you can evaluate the product.
+SPEAKER_00: So how it looks like technically and how it looks like the real.
+SPEAKER_03: What turnaround time do we have?
+SPEAKER_03: Because I mean production evaluation can be very, very quick or very, very long.
+SPEAKER_00: It's very quick.
+SPEAKER_00: Of course.
+SPEAKER_00: It will come back in two weeks.
+SPEAKER_00: Okay.
+SPEAKER_00: It will work in two weeks.
+SPEAKER_00: Works for me.
+SPEAKER_00: For evolution.
+None: Okay.
+SPEAKER_02: Prototypes you mean?
+SPEAKER_02: Yes.
+SPEAKER_00: The prototype.
+SPEAKER_02: Prototype product evolution.
+SPEAKER_02: That should do some market tests once we have prototypes.
+SPEAKER_01: Well obviously.
+SPEAKER_02: And just some orders and things like that.
+SPEAKER_02: And test market it.
+SPEAKER_01: You might have to be throwing out on the market for people to get an idea to see.
+SPEAKER_00: So you can take the minimum two weeks.
+SPEAKER_00: Get there.
+SPEAKER_03: Get the maximum four weeks.
+SPEAKER_03: Minimum two weeks if we're going to develop prototypes and then try to take them to different places and see how people use.
+SPEAKER_03: It's not trivial tests.
+SPEAKER_00: Yeah, because we are not going to do it in all five three.
+SPEAKER_00: Okay, so we can get the product chosen.
+SPEAKER_00: No, no.
+SPEAKER_00: We definitely shouldn't do it in our factory.
+SPEAKER_00: So we will do it in the other place.
+SPEAKER_00: And I don't think it's take more than four weeks time.
+SPEAKER_00: Okay.
+SPEAKER_00: So then the real production we will start once we product evolution.
+SPEAKER_00: Okay.
+SPEAKER_00: Then it's approved from the technical team and your team.
+SPEAKER_00: Okay.
+SPEAKER_00: From the management.
+SPEAKER_00: Then we can launch in the market.
+SPEAKER_02: Any outstanding.
+SPEAKER_00: Any other questions or comments to be discussed?
+SPEAKER_01: No, I think we've pretty much covered everything.
+SPEAKER_00: Okay.
+SPEAKER_03: So then.
+SPEAKER_03: Did you have something?
+SPEAKER_03: I was just wondering about if we're going to do product evaluation, then what about time for redesign?
+SPEAKER_03: If the users come back and tell us, no, this is bad, this is bad, we want this done differently.
+None: Okay.
+SPEAKER_00: Let's take like this, let's proceed with this model for the market introduction.
+SPEAKER_00: Okay.
+SPEAKER_00: So no more changes will be made in this, the basic design.
+SPEAKER_00: Okay.
+SPEAKER_00: So we will introduce this model and let's introduce in the market and let's take the feedback from the customers.
+SPEAKER_00: Then we can go for the.
+SPEAKER_00: Second generation.
+SPEAKER_00: Second generation.
+SPEAKER_00: Okay.
+SPEAKER_00: There is no end, there is no limit.
+SPEAKER_03: The problem is it may not be a second generation of the first generation flops for some silly reason.
+SPEAKER_00: Every customer, okay, they have the right idea.
+SPEAKER_00: They have the wrong taste.
+SPEAKER_00: Okay.
+SPEAKER_00: So there is no end, there's no limit.
+SPEAKER_03: No, but there's a difference between releasing a product that has been minimally tested and fine tuned to suit a general range of requirements versus releasing a product that we think will work, but we don't really have anything to back it up.
+SPEAKER_00: It was very specific.
+SPEAKER_00: Yeah, so that's the reason you're here for the design.
+SPEAKER_00: Okay.
+SPEAKER_03: I hope you made a good design.
+SPEAKER_03: Yes, but I'm not everybody.
+SPEAKER_03: I mean, the whole point of user evaluation is to see what real people need.
+SPEAKER_03: We have our own motivations in mind.
+SPEAKER_03: We have our own ideas in mind, but that doesn't mean that that's what's going to sell.
+SPEAKER_00: Yeah, but see, we have to take a few considerations.
+SPEAKER_00: Okay.
+SPEAKER_00: One is the price consideration, one is the future consideration.
+SPEAKER_00: Okay.
+SPEAKER_00: Like you can eat, you can order it more chill.
+SPEAKER_00: I can eat more chilli.
+SPEAKER_00: Okay.
+SPEAKER_00: So it depends on individual taste.
+SPEAKER_00: You know, so we have to balance somewhere.
+SPEAKER_03: Yeah, of course.
+SPEAKER_03: I'm just trying to point out that I think that your evaluation and redesign turnaround time is too short.
+SPEAKER_03: Well, you have no redesign, not you personally, but in the project, we have no redesign time.
+SPEAKER_02: Ed, do you know what season of the year or time of the year is the most important for TV remote control sales?
+SPEAKER_02: Would it be the Christmas season by any chance?
+SPEAKER_00: The sports time.
+SPEAKER_02: Sports season.
+SPEAKER_02: Right before the year.
+SPEAKER_01: The world cup.
+SPEAKER_01: The world cup soccer.
+SPEAKER_00: Yeah.
+SPEAKER_00: The world cup soccer.
+SPEAKER_01: They need those things.
+SPEAKER_01: They have a hand occupied and they need to be able to talk to the remote control.
+SPEAKER_02: So I think what we need to do is perhaps to synchronize the final, the launch of a user tested device with some special event.
+SPEAKER_02: Yeah, that's a good idea.
+SPEAKER_02: And then, so that gives us a little more time perhaps than we anticipated because I don't know when the world cup is, but I'm sure there's going to be one.
+SPEAKER_02: Or any major sports.
+SPEAKER_02: Or another major sports event.
+SPEAKER_02: Probably not the football game is coming up the end of January.
+SPEAKER_02: I think that might be a little too aggressive.
+SPEAKER_02: But so I'm just pointing out a strategy to do some additional user testing and then to launch at a major sports event or perhaps to also.
+SPEAKER_03: That's a good place to advertise it too.
+SPEAKER_02: And to work with motion pictures, there might be some motion pictures that are coming out that are coming out on DVD that they need to have a special remote control to work with it so we could maybe work out a campaign with Sony pictures for example.
+SPEAKER_02: Maybe some management has got relationships there.
+SPEAKER_02: We can leverage.
+SPEAKER_00: Yes, that of course I will convince the management to do that.
+SPEAKER_03: That's great.
+SPEAKER_03: It's just something to keep in mind because it's really, really important.
+SPEAKER_03: A lot of products have gone out there without being properly user tested and completely flopped when in fact it gets re-released a few years down the line with proper testing and it takes off like crazy.
+SPEAKER_02: Disposable diapers is an example of that in fact.
+SPEAKER_02: Really?
+SPEAKER_02: Yes.
+SPEAKER_02: One of the first consumer products that was launched about 30 years that was a disposable consumer product and people at the market hadn't really gotten on to the concept that you could use something and then throw it away because it wasn't.
+SPEAKER_02: But then when they relaunched them 30 years later, they were virtually the same design but people had gotten to throw away paper cups and napkin, all kinds of things that they hadn't.
+SPEAKER_02: So you're right, timing is very important but I think we've got a good product.
+SPEAKER_00: That's the reason Ed is here.
+SPEAKER_00: I think you can promote the brand value and the product value.
+SPEAKER_00: It's going to be very important to the company.
+SPEAKER_00: We are behind the scene and he's a friend screen so.
+SPEAKER_00: Yep.
+SPEAKER_00: I have no idea what he's doing.
+SPEAKER_01: Exactly.
+SPEAKER_01: Good luck Ed.
+SPEAKER_01: It's a flop, it's the marketer.
+SPEAKER_02: You look very relaxed.
+SPEAKER_02: Yes.
+SPEAKER_02: Considering the place on your shoulders.
+SPEAKER_00: Yeah.
+SPEAKER_00: Okay, so then let's come to the closing.
+SPEAKER_00: Celebration.
+SPEAKER_00: The cost within the budget and is the project evaluated?
+SPEAKER_00: Okay, so that will come soon.
+SPEAKER_00: Okay, but time being, thanks for all your efforts and great work and great design and let's leave it to the ad later for once production is over.
+SPEAKER_00: And I mean that I'm let's celebrate.
+SPEAKER_00: So let's meet up this evening to hang up for some party.
+SPEAKER_02: Sounds good.
+SPEAKER_01: It's good.
+SPEAKER_01: Thank you.
+SPEAKER_01: Nice working with you.
+SPEAKER_00: Thank you very much.
+SPEAKER_00: Thank you.
+SPEAKER_00: Thank you again for all.
+SPEAKER_00: See you in the evening.
+SPEAKER_01: Good to see you.
+SPEAKER_01: Okay, see you later on.
+SPEAKER_01: Thank you.
+None: Indeed, goodround.
+None: Oh!

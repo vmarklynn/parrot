@@ -1,0 +1,568 @@
+SPEAKER_00: I'm not sure that that thing should move.
+SPEAKER_05: Yes, positive.
+SPEAKER_05: Ah, positive.
+SPEAKER_05: I'm positive.
+SPEAKER_05: It's the POS.
+SPEAKER_05: Yes.
+SPEAKER_05: You've soaked up all the positivity.
+SPEAKER_04: Yes, right.
+SPEAKER_04: It's sort of happened.
+SPEAKER_04: That would be good day, man.
+SPEAKER_04: That's nice.
+SPEAKER_00: It really is.
+SPEAKER_00: Oh, it's really bad.
+None: It's so few.
+SPEAKER_06: Yeah, they're getting bigger.
+SPEAKER_06: Oh, so it's recording.
+SPEAKER_06: Thank you, man.
+SPEAKER_02: So we got this.
+SPEAKER_02: That's weird.
+SPEAKER_02: I remember when she was gathering her data for a dissertation.
+SPEAKER_02: Were you around?
+SPEAKER_02: I was doing the I-Ever.
+SPEAKER_02: All right.
+SPEAKER_06: Well, I don't know why the POS isn't moving.
+SPEAKER_04: Yeah.
+SPEAKER_04: That's something the trick cut.
+SPEAKER_04: Check out.
+SPEAKER_05: So, so, this is the first we are.
+SPEAKER_05: We have, our and have been recording.
+SPEAKER_07: Yeah, it is working.
+SPEAKER_07: I don't know why the numbers aren't going up, but the files are getting bigger.
+SPEAKER_07: And what is it?
+None: Nothing.
+SPEAKER_07: Well, I didn't change anything.
+SPEAKER_07: It may have been working before.
+SPEAKER_07: It probably was working before.
+SPEAKER_07: And the only way I just checked is that the numbers are getting bigger and the files.
+SPEAKER_07: The files are getting bigger.
+SPEAKER_07: The file size is.
+SPEAKER_07: You want to put your mic on while we're talking?
+SPEAKER_03: Probably, stop.
+SPEAKER_03: So, in the future, if the POS is not moving.
+SPEAKER_07: Ignore it.
+SPEAKER_07: It's probably working.
+SPEAKER_07: I mean, we'll find out for sure in a moment.
+SPEAKER_07: So, that means we got the joke on that.
+SPEAKER_05: That's what we asked.
+SPEAKER_04: We have the joke.
+SPEAKER_04: Yeah.
+SPEAKER_07: So, I want to discuss digits briefly, but that won't take too long.
+SPEAKER_04: Okay, agenda items.
+SPEAKER_04: We have digits.
+SPEAKER_04: What else we got?
+SPEAKER_04: You were the presentation.
+SPEAKER_04: You were the presentation.
+SPEAKER_04: I'm going to ask you a question.
+SPEAKER_02: Do we want to say something?
+SPEAKER_02: Yeah, why don't you summarize an update of the transcript?
+SPEAKER_04: Update on transcripts.
+SPEAKER_03: And I guess that includes the filtering for the ASRFs.
+SPEAKER_05: And filtering for what?
+SPEAKER_03: For the references that we need to go from the fancy transcripts to the sort of...
+SPEAKER_02: Basically, it'll be recap on the meeting that we had in jointly this morning.
+SPEAKER_02: I think it's done as well.
+None: Got it.
+SPEAKER_04: Anything else more pressing than those things?
+SPEAKER_04: So, finally, just do those.
+SPEAKER_07: As you can see from the numbers on the digits we're almost done.
+SPEAKER_07: The digits goes up to about 4,000.
+SPEAKER_07: And so, we probably will be done with the TI digits in another couple of weeks, depending on how many we read each time.
+SPEAKER_07: So, there were a bunch that we skipped.
+SPEAKER_07: Someone fills out the form and then they're not at the meeting.
+SPEAKER_07: So, it's blank.
+SPEAKER_07: But those are almost all filled in as well.
+SPEAKER_07: And so, once it's done, it would be very nice to train up a recognizer and actually start working with this data.
+SPEAKER_06: So, what's a corpus that's the size of the TI digits?
+SPEAKER_07: One particular test set of TI digits.
+SPEAKER_07: So, I extracted...
+SPEAKER_07: There was a file sitting around which people have used here as a test set.
+SPEAKER_07: It had been randomized.
+SPEAKER_07: That's just what I used to generate the order of these particular ones.
+SPEAKER_04: So, first of all, what we could do is take the standard training set for TI digits, train up with whatever great features we think we have.
+SPEAKER_04: For instance, and then test on this test set.
+SPEAKER_04: Presumably, you should do reasonably well on that.
+SPEAKER_04: And then, presumably, we should go to the distant mic and do poorly.
+SPEAKER_04: And then, you should get really smart over the next year or two.
+SPEAKER_07: And then, you should get a good reason by one or two percent.
+SPEAKER_07: But, in order to do that, we need to extract out the actual digits.
+SPEAKER_07: So, the reason it's not just a transcript is that their false starts and misreads and miscues and things like that.
+SPEAKER_07: And so, I have a set of scripts and next waves where you just select the portion, hit R, it tells you what the next one should be, and you just look for that.
+SPEAKER_07: So, it'll put on the screen.
+SPEAKER_07: The next set is 69922. And you find that and hit the key and it records it in a file in a particular format.
+SPEAKER_07: So, the question is, should we have the transcribers do that or should we just do it?
+SPEAKER_07: Or some of us? I've been doing, I've done eight meetings, something like that.
+SPEAKER_07: Just by hand. Just myself, rather.
+SPEAKER_07: So, it will not take long.
+SPEAKER_06: What do you think?
+SPEAKER_02: What's not going to be discussed is, we discussed this for coffee and I think it's a fine idea, partly because it's not unrelated to the present skill set.
+SPEAKER_02: But it will add, for them, an extra dimension might be an interesting break for them.
+SPEAKER_02: And also, it is contributing to the composition of the transcript, because we can incorporate this number strictly and it will be more complete transcripts.
+SPEAKER_02: So, I think it's fine.
+SPEAKER_04: So, you think it's fine to have the transcribers do it?
+SPEAKER_07: There's one other small bit which is just entering the information which is at the top of this form onto the computer to go along with where the digits are recorded automatically.
+SPEAKER_07: And so, it's just typing in name, time date and so on, which again, either they can do, but it is firing up an editor or again, I can do or someone else can do.
+SPEAKER_02: And that, you know, that one, I'm not so sure fits into the things that I want to use.
+SPEAKER_02: I want to use the hours for because in the time that they'd be spending doing that, they wouldn't be able to be putting more words on it.
+SPEAKER_02: But that's really your choice.
+SPEAKER_06: So, are these two separate tasks that can happen?
+SPEAKER_06: Or do they have to happen at the same time?
+SPEAKER_07: No, they don't have this.
+SPEAKER_07: You have to enter the data before you do the second task, but they don't have to happen at the same time.
+SPEAKER_07: So, it's just I have a file which has this information on it.
+SPEAKER_07: And then when you start using my scripts for extracting the times, it adds the times at the bottom of the file.
+SPEAKER_07: And so, I mean, it's easy to create the files and leave them blank.
+SPEAKER_07: And so, actually, we could do it in either order.
+SPEAKER_07: Okay.
+SPEAKER_07: It's sort of nice to have the same person do it just as a double check to make sure you're entering for the right person.
+SPEAKER_07: But either way.
+SPEAKER_04: Yeah. Yeah, just by way of a order of magnitude, we've been working with this Aurora data set.
+SPEAKER_04: And the best score on the nicest part of the data, that is where you've got training and test set that are basically the same kinds of noise and so forth, is about, I think, the best score was something like 5% error per digit.
+SPEAKER_04: So, that digit.
+SPEAKER_04: Right. So, if you were doing 10 digit recognition, it would really be in trouble.
+SPEAKER_04: So, the point there, and this is car noise, things but real situation, well, real.
+SPEAKER_04: There's one microphone that's close that they have.
+SPEAKER_04: It's this sort of thing, the close first is distant, but in a car instead of having a projector noise, it's car noise.
+SPEAKER_04: But it wasn't artificially added to get some artificial signal that was racially when it was just people driving around a car.
+SPEAKER_04: So, that's an indication.
+SPEAKER_04: That was with many sites competing, and this was the very best score and so forth.
+SPEAKER_06: Although, more typical models weren't that good, right?
+SPEAKER_06: I mean, the models are pretty crappy.
+SPEAKER_04: You're right. I think that we could have done better on the models.
+SPEAKER_04: But the thing is that this is a kind of typical number for all of the things in this task, all of the languages.
+SPEAKER_04: And so, I think we probably, the models, would be better in some than in others.
+SPEAKER_04: So, anyway, just an indication.
+SPEAKER_04: Once you get into this kind of realm, even if you're looking at connected digits, it can be pretty hard.
+SPEAKER_02: It's going to be fun to see how we compare it.
+SPEAKER_02: How do we do with the prosaudage?
+SPEAKER_07: There's so much difference.
+SPEAKER_07: It's going to be strange.
+SPEAKER_07: I mean, the prosaudics are not the same as TI digits, for example.
+SPEAKER_07: So, I'm not sure how much of effect that we'll have.
+SPEAKER_07: How do we connect the prosaudage?
+SPEAKER_07: Just what we were talking about with grouping.
+SPEAKER_07: That with these, the grouping, there's no grouping at all.
+SPEAKER_07: And so, it's just the only sort of discontinuity you have is at the beginning and the end.
+None: So, what are they doing in Aurora?
+SPEAKER_07: Are they reading all number?
+SPEAKER_07: Aurora, I don't know.
+SPEAKER_03: I don't know what they're doing in Aurora.
+SPEAKER_04: I'm not sure.
+SPEAKER_04: No, no, I mean, it's connected.
+SPEAKER_04: It's connected to digits.
+SPEAKER_03: But it's also not just the prosaudage that cross the crossword model.
+SPEAKER_07: Right.
+SPEAKER_07: But in TI digits, they're reading things like zip codes and phone numbers and things like that.
+SPEAKER_07: How do we do on TI digits?
+SPEAKER_07: I don't remember.
+SPEAKER_07: I mean, very good, right?
+SPEAKER_07: Yeah, I mean, we were in one and a half percent, two percent.
+SPEAKER_04: Oh, I think we got under a percent.
+SPEAKER_04: Oh, really?
+SPEAKER_04: But I mean, the very best system that I saw in literature was 0.25 percent or something, and somebody had a Bell Labs.
+SPEAKER_04: Right.
+SPEAKER_04: But sort of pulling out all the stuff.
+SPEAKER_04: But I think a lot of systems sort of get half a percent.
+SPEAKER_04: Right.
+SPEAKER_04: We were in there somewhere.
+SPEAKER_07: But that means it's really, it's close talking mics, no noise, clean signal, just digits.
+SPEAKER_07: I mean, everything is good.
+SPEAKER_03: Yeah, exactly.
+SPEAKER_03: Yeah.
+SPEAKER_07: And we only recently got it to anywhere near a human.
+SPEAKER_07: Prehistory.
+SPEAKER_03: Beginning of life, yeah.
+SPEAKER_07: And it's still like an order of magnitude worse than humans, too.
+SPEAKER_04: Right.
+SPEAKER_04: When they're right away, yeah.
+SPEAKER_04: Yeah.
+SPEAKER_04: After coffee.
+SPEAKER_04: After coffee.
+SPEAKER_04: Not after lunch.
+SPEAKER_07: Okay, so what I'll do then is I'll go ahead and enter this data and then hand off to Jane and the transcribers to do the actual extraction of the digits.
+SPEAKER_04: Yeah.
+SPEAKER_04: One question I have that, I mean, we wouldn't know the answer to now, but do some guessing about it.
+SPEAKER_04: I was talking before about doing some modeling, marking of our territory features, with overlap, and so on.
+SPEAKER_04: And on some subset, one thought might be to do this on the digits or some of these digits.
+SPEAKER_04: It would be easier.
+SPEAKER_04: So if we're the only thing is I'm a little concerned that maybe the kind of phenomena.
+SPEAKER_04: And the reason for doing it is because the argument is that certainly with conversational speech, the stuff that we've looked at here before, just doing the simple mapping from the phone to the corresponding features that you could look up in a book, isn't right.
+SPEAKER_04: It isn't actually right.
+SPEAKER_04: In fact, there's these overlapping processes where some voicing comes up and then some, you know, some miziality comes in here and so forth.
+SPEAKER_04: And you do this gross thing and saying, well, I guess it's this phone starting there.
+SPEAKER_04: So that's the reasoning.
+SPEAKER_04: But it could be that when we're reading digits because it's for such a limited set that maybe that phenomenon doesn't encourage much.
+SPEAKER_04: Do you have any opinion about that?
+SPEAKER_02: It strikes me that there are more, each of them is more informative because it's so random and that people might articulate more and they might end up with more across the correspondence.
+SPEAKER_02: Yeah, I agree.
+SPEAKER_06: It's sort of less predictability.
+SPEAKER_03: Yeah.
+SPEAKER_03: Well, it's definitely true that when people are reading, even if they're re-reading what they had said spontaneously, that they have very different patterns, mid-show that and the desertations have shown that.
+SPEAKER_03: So the fact that they're reading, first of all, whether they're reading in a room of people or, you know, the fact that they're reading will make a difference.
+SPEAKER_03: Yeah.
+SPEAKER_03: Well, it depends what you're interested in.
+SPEAKER_07: Would this corpus really be the right one to even try that on?
+SPEAKER_04: See, I don't know.
+SPEAKER_04: So maybe the thing will be to do takes a very small subset.
+SPEAKER_04: I mean, I'd have a big program and take a small subset of the conversational speech and a small subset of the digits and look and just get a feeling for it.
+SPEAKER_04: Just take a look, really.
+SPEAKER_04: Because I don't think anybody is, at least I don't know of anybody.
+SPEAKER_04: Well, I don't know.
+SPEAKER_04: I can be interesting in design too.
+SPEAKER_02: Because then you have the comparison of the predictable speech versus the last predictability speech and maybe you'd find it at work too.
+SPEAKER_02: And the case of the beginning.
+SPEAKER_06: I have to think about the particular acoustic features to mark too because, I mean, the things they wouldn't be able to mark, like, you know, tens lacks.
+SPEAKER_06: And some things are really difficult, you know.
+SPEAKER_07: I think we can get a hollow end to give us some advice on that.
+SPEAKER_02: Also, I thought you were thinking of a much more restricted set of features.
+SPEAKER_04: Yeah, but I was like, he said, I was going to bring Todd in and then, but I mean, you want to be restrictive, but you also want to have coverage.
+SPEAKER_04: You know, you should, it should be such that if you, if you, if you had all of the features determined that you, that you have chosen, that that would tell you in the study's day case, the phone, so.
+SPEAKER_07: Even, I guess, with vowels, that would be pretty hard, wouldn't it?
+SPEAKER_07: Which identify, actually, you know, which one it is?
+SPEAKER_02: It seemed to me that the points of articulation would be more, I mean, that's, I think, about articulation, which means, rather than bells.
+SPEAKER_06: Points of articulation, what do you mean?
+SPEAKER_02: So is it bilabial or dental or is it, you know, paladine?
+SPEAKER_02: Which are all like, where are you talking about?
+SPEAKER_02: Place of articulation.
+SPEAKER_02: Yeah.
+SPEAKER_02: Just thank you, whatever I said.
+SPEAKER_04: Okay.
+SPEAKER_04: Yeah.
+SPEAKER_04: Okay, we got our jargon in.
+SPEAKER_04: Yeah.
+SPEAKER_03: Well, it's also, there's really a difference between the pronunciation, vowels, and the dictionary, and the pronunciations that people produce.
+SPEAKER_03: And so, you get some of that information from Steve's work on that labeling, and it really, I actually think that data should be used more, that maybe, although I think the meeting context is great, that he has transcriptions that give you the actual phone sequence, and you can go from, not from that to the articulatory features, but that would be a better starting point for marking the gestural features than data where you don't have that, because we, we want to know both about the way that they're producing a certain sound and what kinds of, what kinds of phonemic differences you get between the transcribed sequences and the dictionary ones.
+SPEAKER_04: Well, you might be right, that might be the way at getting it, what I was talking about, but the particular reason why I was interested in doing that was because I remember when that happened, and John O'Hall was over here, and he was looking at the spectrograms of the more difficult ones.
+SPEAKER_04: He didn't know what to say about what is the sequence of phones there.
+SPEAKER_04: They came up with some compromise, because that really wasn't what it looked like.
+SPEAKER_04: It didn't look like a sequence of phones.
+SPEAKER_04: It looked like this blending thing happening here.
+SPEAKER_06: Yeah, so you have this feature here.
+SPEAKER_03: There's no name for that.
+SPEAKER_03: But it still is, there's a, there are two steps.
+SPEAKER_03: One is going from a dictionary pronunciation of something, like, you're going to see you tomorrow.
+SPEAKER_03: It could be going to or gun to, you know, or gun to.
+SPEAKER_03: Yeah, you're going to see you tomorrow, you'll see you tomorrow.
+SPEAKER_03: And that would be nice to have these intermediate or these, some, these reduced pronunciations that those transcribed marked, or to have people mark those as well, because it's not, it's not that easy to go from the dictionary word pronunciation, the dictionary phone pronunciation to the gestural one without this intermediate sort of civil level kind of representations.
+SPEAKER_07: Well, I don't think more consistent thing that we do that, though.
+SPEAKER_04: Yeah, I mean, I'm just, the moment, of course, we're just talking about what to provide is a tool for people to do research.
+SPEAKER_04: You have different ideas about how to do it.
+SPEAKER_04: So for instance, you might have someone who just has a word, has words with states and has, comes from our particular gestures to that.
+SPEAKER_04: And someone else might actually want some phonetic, you know, intermediate thing.
+SPEAKER_04: So I think it would be best to have all of it if we could.
+SPEAKER_04: But, uh,
+SPEAKER_07: What I'm imagining is a score like notation, where each line is a particular feature.
+SPEAKER_07: Right? So you would say, you know, it's a voice through here, and you have label here, you have nasal here, and they could be overlapping in all sorts of bizarre ways that don't correspond to the timing on phones.
+SPEAKER_04: I mean, this is the kind of reason I remember when one of the switchboard workshops that when we talked about doing the transcription project, Dave Tolkien said can't be done.
+SPEAKER_04: Right.
+SPEAKER_04: And he was, what he meant was that this isn't, you know, a sequence of phones, and we actually look at switchboard, that's not what you see.
+SPEAKER_07: And in fact, the interannotary agreement was not that good, right?
+SPEAKER_07: On the harder ones?
+SPEAKER_07: Yeah, I mean...
+SPEAKER_03: I don't know how you look at it, and I understand what you're saying about this kind of transcription, exactly, because I've seen, you know, where does the voicing of our start and so forth.
+SPEAKER_03: All I'm saying is that it is useful to have that the transcription of what was really said and which syllables were reduced if you're going to add the features.
+SPEAKER_03: It's also useful to have some level of representation, which is a reduced...
+SPEAKER_03: It's a pronunciation variant that currently the dictionaries don't give you because if you add them to the dictionary and you run recognition, you add confusion.
+SPEAKER_03: So people purposely don't add them.
+SPEAKER_03: So it's useful to know which variant was produced at least at the phone.
+SPEAKER_06: So it would be great if we had either these kind of lablings on the same portion of switchboard that Steve marked or Steve's type markings on this data.
+SPEAKER_03: Exactly.
+SPEAKER_03: Exactly.
+SPEAKER_03: Yeah, no, I don't disagree with that.
+SPEAKER_03: It's not that slow, I don't know what that means.
+SPEAKER_04: Yeah, I don't disagree with it.
+SPEAKER_04: The only thing is that what you actually would end up with is something...
+SPEAKER_04: It's all compromise, right?
+SPEAKER_04: So the string that you end up with isn't actually what happened, but it's the best compromise that a group of people scratching their heads could come up with to describe what happened.
+SPEAKER_06: And it's more accurate than...
+SPEAKER_04: And it's more accurate than the dictionary, or if you've got a pronunciation lexicon that has three or four, this might have been the fifth one.
+SPEAKER_03: So it's like a catcher or whatever, go and start the way down.
+SPEAKER_03: That's what I meant.
+SPEAKER_03: And in some places it would fill in the kinds of gestural features are not everywhere.
+SPEAKER_03: So there are some things that you don't have access to either from your ear or the spectrogram, but you know what phone it was, and that's about all you can say.
+SPEAKER_03: And then there are other cases where...
+SPEAKER_06: It's basically to have multiple levels of information marking.
+SPEAKER_07: Well, the other difference is that the features are not synchronous, right? They overlap with each other in weird ways.
+SPEAKER_07: So it's not strictly one-dimensional signal.
+SPEAKER_07: So I think that's sort of qualitatively different.
+SPEAKER_03: You can add those features in, but it'll be under specified.
+SPEAKER_03: There'll be no way for you to actually mark what was said completely by features.
+SPEAKER_07: Well, not with our current system, but you could imagine designing a system that the states were features rather than phones.
+SPEAKER_03: Well, we probably have a separate discussion of that.
+SPEAKER_03: It's not that it was that.
+SPEAKER_02: But that was not the kind of direction I thought.
+SPEAKER_04: Yeah, so I mean, where this is...
+SPEAKER_04: I mean, I wanted...
+SPEAKER_04: I would like to have something that's useful to people other than those who are doing the specific kind of research.
+SPEAKER_04: I have in mind, so it should be something broader.
+SPEAKER_04: But what I'm coming from is we're coming off of stuff that Larry Saul did with...
+SPEAKER_04: with John Dallin and Muzzie Rahim, in which they have a multi-band system that is trained through combination and gradient learning and NDM to estimate the value for particular feature.
+SPEAKER_04: And this is part of a larger image that John Dallin has, but how he brain does it, which he's sort of imagining that individual frequency channels are coming up with their own estimate of these kinds of...
+SPEAKER_04: something like this might not be exact features that Jacobs and Thott over something.
+SPEAKER_04: But I mean, something like that's a kind of low-level features which are not fully phone classification.
+SPEAKER_04: And this particular image of how it's done is that then given all of these estimates at that level, there's a level above it, which is making some kind of sound unit classification such as phone.
+SPEAKER_04: And you could argue what those sound units should be.
+SPEAKER_04: That's sort of what it was imagining doing.
+SPEAKER_04: But it's still open within that, whether you would have an intermediate level in which it was actually phones or not, you wouldn't necessarily have to.
+SPEAKER_04: But again, I wouldn't want to...
+SPEAKER_04: I wouldn't want what we produced to be so local and perspective that it was matched what we were thinking of doing one week.
+SPEAKER_04: And what you're saying is absolutely right that if we can, we should put in another level of description there if we're going to get into some of this low-level stuff.
+SPEAKER_06: Well, you know, I mean, if we're talking about having the annotators annotate these kinds of features, it seems like, you know, the question is, do they do that on meeting data, or do they do that on switchboard?
+SPEAKER_07: That's what I was saying. Maybe meeting data isn't the right corpus.
+SPEAKER_02: Well, it seems like you could do both. I mean, I was thinking that it would be interesting to do it with respect to parts of switchboard anyway, in terms of, partly to see if you could generate first guesses at what the articulatory feature would be based on the phone representation of that lower level, that might be a time game, but also in terms of compatibility of...
+SPEAKER_06: Well, because then, yeah, and then also, if you did it on switchboard, you would have the full continuum of transcriptions.
+SPEAKER_06: You'd have it from the lowest level, the acoustic features, then you'd have the, you know, the fanatic level that Steve did.
+SPEAKER_06: It would be a complete set of things.
+SPEAKER_04: It could be an altered game.
+SPEAKER_04: It's so it's a little different.
+SPEAKER_04: So, I mean, we'll see how much we can get the people to do and how much more I have in all this stuff.
+SPEAKER_04: It might be good to do with your boat.
+SPEAKER_06: You know, seed it with guesses about what we think the features are based on, you know, the phone or Steve's transcriptions or something.
+SPEAKER_06: It's a basic...
+SPEAKER_07: Quicker.
+SPEAKER_07:...of the phone transcripts, so they would all be synchronous, but then you could imagine adjusting them here and there.
+SPEAKER_06: Exactly.
+SPEAKER_06: Scoot the voicing over a little bit.
+SPEAKER_04: Right. Well, I think what, I mean, I'm a little behind in what they're doing now and the stuff they're doing on switchboard now, but I think that Steve and getting are doing something with an automatic system first and then doing some adjustment as a recall.
+SPEAKER_04: So, I mean, that's probably the right way to go anyways.
+SPEAKER_04: It's to start off with an automatic system with a pretty rich pronunciation dictionary that, you know, tries to label it all.
+SPEAKER_04: And then people go through and fix it.
+SPEAKER_02: So, in our case, you'd think about us starting with regular dictionary.
+SPEAKER_04: Well, regular dictionary, I mean, it's a pretty rich dictionary. It's got a number of pronunciation.
+SPEAKER_06: You could start from the, if we were going to do the same set of sentences that Steve had done, we could start with those transcriptions.
+SPEAKER_06: That's actually what I was thinking about.
+SPEAKER_03: The problem is when you run, if you run a regular dictionary, even if you have variants in there, which most people don't, you don't always get out the actual pronunciation, so that's why the human transcribers giving you that pronunciation.
+SPEAKER_03: Actually, maybe they're using phone recognizers.
+SPEAKER_03: They, they, they, they were, I think they were, I think they would be good.
+SPEAKER_04: Yeah, so I think that we also don't have, I mean, we've got a good start on it, but we don't have a really good meeting recorder recognizer or transcribe or anything yet.
+SPEAKER_04: So, I mean, the other way to look at this is to, is to do some stuff on switchboard, which has all this other stuff to it.
+SPEAKER_04: And then, as we get further down the road, we can do more things ahead of time.
+SPEAKER_04: We can do some of the same things to the meeting data.
+SPEAKER_04: Yeah.
+SPEAKER_02: And these people might, they, they are, most of them are trained with IPA. They'd be able to do, than any level coaching.
+SPEAKER_06: Are they busy for the next couple of years?
+SPEAKER_02: You know, I mean, they, they're interested in continuing working with us.
+SPEAKER_02: So, I mean, I, and this would be up their alley, so we could, when, when you meet with, with John O'Hall and find what, just text on him, he want to apply them.
+SPEAKER_02: Maybe, you're good to train them too.
+SPEAKER_02: Yeah.
+SPEAKER_04: Anyway, this is not an urgent thing at all. It's just a team-mob team that have that data.
+SPEAKER_07: How would you do a forced alignment?
+SPEAKER_07: Interesting idea. You want to iterate somehow.
+SPEAKER_07: Interesting thing they think about.
+SPEAKER_07: I mean, you'd want models for spreading.
+SPEAKER_06: Of the acoustic teachers.
+SPEAKER_05: Yeah.
+SPEAKER_03: Well, it might be, you need to do some phonetic features.
+SPEAKER_03: These non-word words, or these kinds of words that people never, the, the, the, hums or the, these, no, I'm serious.
+SPEAKER_03: They're all these kinds of functional elements.
+SPEAKER_03: I don't know what you call them.
+SPEAKER_03: It's not just field-positive, but all kinds of ways of interrupting and some of them are, yeah, a hus and, hmm.
+SPEAKER_03: Okay. Grants. Now, that might be interesting.
+SPEAKER_02: He's got the Vibes eating.
+SPEAKER_05: We should move on.
+SPEAKER_05: New version of pre-signitation.
+SPEAKER_01: Oh, yeah. I worked a little bit on a pre-signitation to get the non-version, which does channel-specific speech-transpeak detection.
+SPEAKER_01: And what I did is I used some normalized features, which look into the, which is normalized energy, energy normalized by the mean over the channels and by the minimum over the, over within each channel.
+SPEAKER_01: And to, to, yet, to normalize also loudness and modified loudness and things, and those special features, which are in my feature actor.
+SPEAKER_01: And, and therefore, to be able to somewhat distinguish between foreground and background speech in, in the different, in each channel.
+SPEAKER_01: And, I tested it on, on three or four meetings, and it seems to work really well, I would say.
+SPEAKER_01: There are some problems with the lapel mic, of course.
+SPEAKER_07: That's great.
+SPEAKER_07: Yeah. So, I understand that's what you were saying about your problem with minimum.
+SPEAKER_01: Yeah, and I had, I had specific problems with the...
+SPEAKER_07: 90th quartile rather than minimum.
+SPEAKER_01: Wow.
+SPEAKER_01: Yeah, yeah. I did some, some, something like that.
+SPEAKER_01: And, I mean, there are, there are some, some problems in, when, in the channel there, there, there, there's a speaker dozen, doesn't work match or doesn't talk at all.
+SPEAKER_01: Then, the, yeah, there are, there are some problems with, with the normalization and, then, the system doesn't work at all.
+SPEAKER_01: So, I'm glad that there is the, the digit part where everybody's supposed to say something.
+SPEAKER_01: So, that's, that's great for, for my purpose.
+SPEAKER_01: And, the thing is, I, I, the evaluation of, of the system is a little bit hard as I don't have any references.
+SPEAKER_07: Well, we did the hand, the one by hand.
+SPEAKER_01: Yeah, that's the one, where, where I do the training on, so I come to the evaluation on that.
+SPEAKER_01: So, the thing is, can the transpray was perhaps do some, some, some meetings in, in terms of speech, non speech in, in the specific transpray?
+SPEAKER_01: Well, won't you have that from their transcriptions?
+SPEAKER_06: Well, okay.
+SPEAKER_02: So, I think I might have done what you're requesting, though I did it in a service of a different thing.
+SPEAKER_02: I have 30 minutes that I, more tightly transcribe with reference to individual channels.
+SPEAKER_01: Okay, that's great, that's great for me, okay.
+SPEAKER_07: So, hopefully that's not the same meeting that we did.
+SPEAKER_07: No, actually it's different meeting.
+SPEAKER_02: So, um, so, you know, we have the, they transcribe as if it's one channel with these, with the slashes to separate the overlapping parts.
+SPEAKER_02: And then we run it through, then I'm going to edit it, then I'm going to run it through channelize, which takes it into Dave Gilbert's format.
+SPEAKER_02: And then you have all these things split across according to channel.
+SPEAKER_02: And then that means that if a person contributed more than one synagogum overlap during that time bin that, that two parts of the utterance end up together, it's the same channel.
+SPEAKER_02: Okay.
+SPEAKER_02: And then I took his tool, and last night for the first 30 minutes of one of these transcripts, I tightened up the boundaries on individual speakers channels.
+SPEAKER_02: Because his, his interface allows me to have total flexibility in the time tags across the channels.
+SPEAKER_01: And, um, so, yeah, yeah, that's great, but would be nice to have some more meetings, not just one meeting to be sure that that we could get a couple meetings done with that level of precision.
+SPEAKER_07: I think that would be a good idea.
+SPEAKER_02: Oh, okay.
+SPEAKER_02: How much time, so the meeting is very in length.
+SPEAKER_02: What are we talking about in terms of the number of minutes you'd like to have as your, as your dream is at?
+SPEAKER_01: It seems to me I would be good to have a few minutes from, from different meetings.
+SPEAKER_01: So, but I'm not sure about how much.
+SPEAKER_02: Okay. Now, you're saying different meetings because of different speakers or because of different audio quality or both different, different, different number of speakers, different speakers, different.
+SPEAKER_04: Yeah, we don't have that much variety of meetings yet. I mean, we have this meeting and future meeting. We have a couple others that we have a couple examples of.
+SPEAKER_00: Even probably with the games differently will affect it.
+SPEAKER_01: Not really as, because of the normalization.
+SPEAKER_03: We can try running, we haven't done this yet because Andreas is going to move over the SRI recognizer.
+SPEAKER_03: Basically, I ran out of machines at SRI because we're running the e-vails and I just don't have machine time there.
+SPEAKER_03: But once that's moved over, hopefully in a couple days, then we can take what Jane just told us about as the pre-segmented, the segmentations that you did at level eight or some threshold that same, right.
+SPEAKER_03: And try doing forced alignment on the word strings. And if it's good, then that will, that may give you a good boundary. Of course, if it's good, we don't, then we're fine.
+SPEAKER_03: But I don't know yet whether these segments that contain a lot of pauses around the words will work or not.
+SPEAKER_01: I would quite like to have some manually transcribed references for a system as I'm not sure if it's really good to compare with some other automatic boundaries.
+SPEAKER_02: Well, now if we were to start with this and tweak it manually, they might be okay. It really depends on a lot of things.
+SPEAKER_03: But I would have maybe a transcriber look at the old forced alignment and then adjust those that might save some time.
+SPEAKER_03: If they're horrible, it won't help at all. But they might not be horrible.
+SPEAKER_03: So I'll let you know on the...
+SPEAKER_03: Okay, great.
+SPEAKER_02: How many minutes would you want from... I mean, we could easily get a section, you know, like say a minute or so, from every meeting that we have. So from the newer ones that we're working on.
+SPEAKER_02: And then...
+SPEAKER_01: If it's not the first minute of the meeting, that's okay with me, but in the first minute, there are often there are some strange things going on, which are really well for which are really good.
+SPEAKER_01: So what I'd quite like perhaps is to have some five minutes of different meetings.
+SPEAKER_02: Somewhere not in the very beginning, five minutes, okay.
+SPEAKER_02: And then I wanted to ask you just for my information then, would you be training...
+SPEAKER_02: So would you be training then the segment or so that it could on the basis of that segment the rest of the meeting?
+SPEAKER_02: So if I give you like five minutes, is the idea that this would then be applied to providing a higher...
+SPEAKER_01: I could do a retraining with that, yeah.
+SPEAKER_01: But I hope that I don't need to do it.
+SPEAKER_01: So it can be doing an unsupervised way.
+SPEAKER_02: Excellent.
+SPEAKER_02: Okay.
+SPEAKER_01: I'm not sure, but for those three meetings, which I did, it seems to be quite well.
+SPEAKER_01: But there are some, as I said, some of some problems with the lapel mic, but perhaps we can do something with cross correlations to get rid of those.
+SPEAKER_01: That's what I, that's my future work.
+SPEAKER_01: What I want to do is to look into cross correlations for removing those false overlaps.
+SPEAKER_03: Wonderful.
+SPEAKER_03: Are the wireless different than the wired mics at all?
+SPEAKER_01: I'm not sure. If there are any wired mics in those meetings, or I have to look at them.
+SPEAKER_01: But I think there's no difference between...
+SPEAKER_03: This is just the lapel versus everything else.
+SPEAKER_02: Okay, so then if that's five minutes per meeting, we got like 12 minutes, 12 meetings.
+SPEAKER_02: We're happy that I've been working with.
+SPEAKER_04: Of the meetings that you're working with, how many of them are different?
+SPEAKER_04: Are there any of them that are different than these two meetings?
+SPEAKER_02: Oh, in terms of the speakers or the...
+SPEAKER_02: Yes, speakers. Sorry.
+SPEAKER_02: We have different combinations of speakers.
+SPEAKER_02: I mean, just from what I've seen, there are some where your present are not present.
+SPEAKER_02: And then you have the difference between the network's group and this group.
+SPEAKER_02: Yeah, so I didn't know any of the group you had.
+SPEAKER_02: So you have the networks meeting?
+SPEAKER_04: Do you have any of Jerry's meetings in your time?
+SPEAKER_02: No.
+SPEAKER_02: No.
+SPEAKER_02: We could. I mean, you recorded one last week or so.
+SPEAKER_02: Yes, we.
+SPEAKER_03: We're going to be recording them every Monday.
+SPEAKER_04: Because I think he really needs a variety and having as much variety for speaker, we certainly would be a big part of that.
+SPEAKER_02: Okay, so if I, okay, include.
+SPEAKER_02: Okay, then if I were to include all together samples from 12 meetings, that would only take an hour.
+SPEAKER_02: And I could get the transcripts to do that, right?
+SPEAKER_02: I mean, what I mean is that would be an hour of sample, and then they transcribe those that hour, right?
+SPEAKER_02: That's what you should do.
+SPEAKER_04: Yeah.
+SPEAKER_04: And, right, like the yours.
+SPEAKER_02: I mean, I mean, adjust.
+SPEAKER_02: So they get it into the multi-channel format and then adjust the time bands.
+SPEAKER_04: So that should be faster than the 10 times.
+SPEAKER_02: Absolutely.
+SPEAKER_02: I did, I did.
+SPEAKER_02: So last night I did.
+SPEAKER_02: Well, last night I did about half an hour in three hours, which is not terrific, but anyway, it's an hour and a half per.
+SPEAKER_02: So I can't calculate on my.
+SPEAKER_01: The transcripts actually stop with transcribing new meetings or are they?
+SPEAKER_02: Well, they're still working. They still have enough to finish that I haven't assigned a new meeting.
+SPEAKER_02: But the next, I was about to need to assign a new meeting and I was going to take it from one of the new ones, and I can easily give them Jerry Feldman's meeting no problem.
+SPEAKER_02: Okay.
+SPEAKER_03: So they're really running out of data.
+SPEAKER_03: I mean, that's good.
+SPEAKER_03: At that first set, okay.
+SPEAKER_04: They're running out data unless we make the decision that we should go over and start transcribing the other set.
+SPEAKER_04: So the first set, the first set.
+SPEAKER_02: And so I was in the process of like adding this wonderful news.
+SPEAKER_02: We funded experiment, but also we were thinking maybe applying that to getting the final date very useful to getting the overlaps to be more precise all the time.
+SPEAKER_04: This blends nicely into the update on transcripts.
+SPEAKER_02: Yes, it does.
+SPEAKER_02: Well, Liz and Don and I met this morning in the Barco room and this afternoon.
+SPEAKER_02: It's afternoon.
+SPEAKER_02: It's afternoon.
+SPEAKER_02: It's afternoon to the afternoon.
+SPEAKER_02: Concerning this issue of the, well, there's basically the issue of the interplay between the transcript format and the processing that they need to do for the SRI recognizer.
+SPEAKER_02: And well, so I mentioned the process that I'm going through with the data.
+SPEAKER_02: So I get the data back from the transcript.
+SPEAKER_02: Well, I met it for like, get the data back from the transcriber and then I check for a simple things like spelling errors and things like that.
+SPEAKER_02: And I'm going to be doing a more thorough editing with respect to consistency of the conventions.
+SPEAKER_02: But they're generally very good.
+SPEAKER_02: And then I run it through the channelized program to get into the multi-channel format.
+SPEAKER_02: Okay.
+SPEAKER_02: And what we discussed this morning, I would summarize, is saying that these units that result in a particular channel and a particular time band at that level, very in length.
+SPEAKER_02: And their recognizer would prefer that the unit's not the overly long, but it's really an empirical question.
+SPEAKER_02: Whether the units we get at this point through just that process I described might be sufficient for them.
+SPEAKER_02: So as a first pass through, the first chance without having to do a lot of hand editing, what we're going to do is I'll run it through channelized, give them those data after I've done the editing process.
+SPEAKER_02: I'm sure it's great.
+SPEAKER_02: I can do that pretty quickly with just that minimal editing without having to hand break things.
+SPEAKER_02: And then we'll see if the units that we're getting at that level are sufficient and maybe don't need to be further broken down.
+SPEAKER_02: And if they do need to be further broken down, then maybe it just be piecewise.
+SPEAKER_02: Maybe it won't be the whole thing.
+SPEAKER_02: So that's what we were discussing.
+SPEAKER_02: Right?
+SPEAKER_02: Also, we discussed a lot of educational things.
+SPEAKER_02: So it's like, I hadn't incorporated a convention explicitly to handle acronyms, for example.
+SPEAKER_02: But if someone says PCM, it would be nice to have that be directly interpretable from the transcript, what they said, or tickle TCL.
+SPEAKER_02: And so I've incorporated also convention with that, but that's easy to handle with the post-editing phase.
+SPEAKER_02: And I'll mention it to transgarbers for the next phase.
+SPEAKER_02: And that's okay.
+SPEAKER_02: And then a similar convention for numbers.
+SPEAKER_02: So they say 183 versus 183.
+SPEAKER_02: And also I'll be encoding, as I do my post-editing, the things that are in curly brackets, which are clarificational material, to incorporate keyword at the beginning.
+SPEAKER_02: So it's going to be either a gloss, or it's going to be a vocal sound like a laugh or a cough, or a non-vocal sound like a dorsal, dorsal, and that can be easily done with a, you know, just a lemon-like additional thing in a general format.
+SPEAKER_03: Yeah, we just needed a way to strip, you know, all the comments, all the things that the linguist wants, but the recognizer can't do anything with.
+SPEAKER_03: But to keep things that we mapped to like reject models, or mouth noise, or cough.
+SPEAKER_03: And then there was this interesting issue, Jane, brought up, which I hadn't thought about before, but I was realizing as I went through the transcripts that there are some noises like, well, the good example was an in-breath where a transcriber working from the mixed signal doesn't know whose breath it is.
+SPEAKER_03: And they've been assigning it to someone that may or may not be correct. And what we do is, if it's a breath sound, you know, a sound from the speaker, we map it to a noise model, like a mouth noise model in the recognizer.
+SPEAKER_03: It probably doesn't hurt that much once in a while to have these, but if they're in the wrong channel, that's not a good idea.
+SPEAKER_03: And then there's also things like door slams that's really in no one's channel. They're like, it's in the room. And Jane had this nice idea of having like an extra...
+SPEAKER_03: An extra channel.
+SPEAKER_03: Yeah, I've been adding that.
+SPEAKER_03: And we were thinking that is useful also when there's uncertainty. So if they hear a breath and they don't know whose breath it is, better to put it in that channel than to put it in the speaker's channel because maybe it was someone else's breath.
+SPEAKER_03: So I think that's a good... you can always clean that up post-processing. There's a lot of little details, but I think we're coming to some kind of closure.
+SPEAKER_03: So the idea is that Don can take Jane's post-process channelized version and with some scripts convert that to a reference for the recognizer and we can run these.
+SPEAKER_03: So when that's ready, as soon as that's ready and as soon as the recognizer is here, we can get 12 hours of force aligned and recognize data and start working on it.
+SPEAKER_03: So I don't know, a couple of weeks or two away, I would say. If that process is automatic once we get your post-processed transcript.
+SPEAKER_02: And that doesn't mean that a better thing that it would require is not very much. They're just hoping that the units that are provided in that way will be sufficient because that would save a lot of time dividing things.
+SPEAKER_03: Yeah, some of them are quite long. I don't know how long you did one.
+SPEAKER_00: I saw a couple around 20 seconds and that was just without looking too hard for it. So I would imagine that there might be something that are longer.
+SPEAKER_00: One question, would that be a single speaker? Is that multiple speakers overlap? No, but if we're going to segment it, like if there's one speaker in there that says okay or something, right in the middle is going to happen around it.
+SPEAKER_03: It's not the fact that we can't process a 20 second segment. It's the fact that there's 20 seconds in which to place one word in the wrong point.
+SPEAKER_03: If someone has a very short utterance there and that's where we might want to have this individual, you know, have your pre-processed input.
+SPEAKER_01: And I just don't know how to do that. It's not that perhaps the transcripts could stop then from those multiple speakers detections.
+SPEAKER_03: Right. And enjoying the hand margin. Yeah, that's what I was thinking too. That's probably what will happen, but we'll try it this way and see.
+SPEAKER_03: I mean, it's probably good enough for a force alignment. If it's not then we're really, and we definitely, but for free recognition, it'll probably not be good enough.
+SPEAKER_03: Like it lots of errors because of the crosstalk and noise.
+SPEAKER_04: Good. I think that's probably agenda. Oh, I want to ask one thing. Yeah, then microphones and microphones. When do we get to?
+SPEAKER_03: They said to take about a week. You already. So what happens to our old microphones?
+SPEAKER_07: Well, the only thing we're going to have extra. Right. We don't have extra now is just the lapel, not the body pack, just lapel.
+SPEAKER_07: And then one of the one of those since what I decided to do on Morgan's suggestion was just get two new microphones and try them out.
+SPEAKER_07: And then if we like them, we'll get more. Since they're there like 200 bucks a piece. We want to at least try them out.
+SPEAKER_07: So it's a replacement for this headset and mic. Yeah. And they're going to do the wiring for us. What's the style of the headset?
+SPEAKER_07: It's it's by crown and it's one of these sort of mount around the ear thingies. And when I when I mentioned that we thought it was uncomfortable, he said it was a common problem with the Sony. And this is how apparently a lot of people are getting around it. And I checked on the web and every side I went to raved about this particular mic. It's apparently comfortable and stays on the head well. So we'll see if it's any good. But I think it's promising.
+SPEAKER_07: Yeah. Yeah. So it was.
+SPEAKER_07: It was accurate.
+SPEAKER_05: Yeah. It was a great employee. It was for the record Adam is not a patient. That's our self-employee. It's a listed out. Well we're using the crown. These are crown aren't they? The PCMs are crown aren't they?
+SPEAKER_07: Yeah. Yeah. They were you bet. And they worked very well. So if we go to a workshop about all this, it's going to be a meeting about meetings about meetings.
+SPEAKER_07: And then we have to go to the planning session for that workshop. Oh, that would be a meeting about the meeting.
+SPEAKER_07: Start saying M4. Yeah.
+SPEAKER_04: And we did it.
+SPEAKER_07: Yep. Go for it.
+SPEAKER_05: Okay.
+SPEAKER_04: Transcript.
+SPEAKER_04: 261-126-3-0. 3-20-5653-4-450-57566-662-789-0215263-2512-37-4706800-5681-93 04012
+SPEAKER_06: Transcript 2591-2610-2497980-3406-4656-7087621-93-0205-0413100-1754 280-2814-3405-620-73913-841-9720100-0106-7931
+SPEAKER_07: Transcript 3731-3750-7200-499-888-9800-2116-337-47-59304-69922-78-0104-19557-2990-34 509-714-1200
+SPEAKER_03: Transcript 3711-3730-607-307-890454-12439-263456095-81966-3810-057012-30708-308-1080 7 0 8 5 3 1 4 8 0 3 6 4 2
+SPEAKER_07: Paws between lines remember.
+SPEAKER_02: 2 1 7 1 dash 2 1 9 0 6 2 9 7 7 2 7 0 7 9 7 8 6 9 9 0 0 8 9 0 1 0 7 3 2 3 1 4 2 2 4 5 7 7 8 4 6 8 0 7 0 7 8 0 3 4 7 9 0 2 0 1 7 7 0 7 2 3 0 8 3 9 4 9 5
+SPEAKER_01: Transcript 2 1 5 1 dash 2 1 7 0 5 2 4 8 6 3 7 6 8 7 5 6 9 8 9 0 0 7 8 1 1 2 3 6 3 8 4 8 1 3 0 2 5 6 7 9 2 8 3 5 2 8 0 3 0 0 9 3 1 8 0 8 2 3 2 2 3
+SPEAKER_00: 0 4 8 6 0 9 6 5 Transcript 2 3 5 1 dash 2 3 7 0 2 3 5 4 0 4 2 6 4 1 7 7 4 8 7 2 1 8 9 0 0 2 3 3 0 4 8 2 5 8 9 6 0 9 0 4 8 2 7 8 0 9 8 0 4 0 0 0 1 7 0 4 3 0 2 8 1 1 7 8 0 5 7 2 9 6 2 0 excuse me 2 9 6 2 1 1 0 ok

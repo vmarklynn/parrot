@@ -1,693 +1,1557 @@
 0:00:30	None
- So....
-
-0:00:37	SPEAKER_02
- Bock's coming.
-
-0:00:41	SPEAKER_02
- 2019 o'clock, Okay now.
-
-0:00:56	None
  Okay.
 
-0:01:03	SPEAKER_01
- Hey everybody, welcome to the detailed design meeting.
+0:00:32	SPEAKER_02
+ My what this.
+
+0:00:40	None
+ Sorry.
+
+0:00:42	None
+ Yep.
+
+0:00:43	SPEAKER_02
+ Okay.
+
+0:00:46	None
+ Okay.
+
+0:00:48	None
+ Is that okay now?
+
+0:00:52	SPEAKER_02
+ Okay.
+
+0:01:05	SPEAKER_01
+ Okay.
+
+0:01:09	SPEAKER_01
+ Hey everybody.
+
+0:01:10	SPEAKER_01
+ Welcome to the detailed design meeting.
 
 0:01:13	SPEAKER_01
- Let's see, our agenda.
+ Um, let's see.
 
-0:01:19	SPEAKER_01
- Last time we discussed the squishy fruitiness of our remote controls and how we might pursue that.
+0:01:17	SPEAKER_01
+ I'm going to talk about the agenda.
 
-0:01:28	SPEAKER_01
- And I think it looks like we've come up with some ideas.
+0:01:22	SPEAKER_01
+ Last time we discussed the squishy foodiness of our remote controls and how we might pursue that.
 
-0:01:32	SPEAKER_01
- And we also talked about materials we'd use and what kind of chip would be necessary.
+0:01:30	SPEAKER_01
+ Um, and I think looks like we've come up with some ideas.
 
-0:01:39	SPEAKER_01
- So, for later in the meeting I've done a spreadsheet of production costs.
+0:01:34	SPEAKER_01
+ Um, and we also talked about materials we'd use and what kind of chip would be necessary.
 
-0:01:45	SPEAKER_01
- So we'll take a look at that and see if it's changed at all from when we last discussed it.
+0:01:41	SPEAKER_01
+ Um, so for later in the meeting, I've done a spreadsheet of.
 
-0:01:55	SPEAKER_01
- So, actually, yeah.
+0:01:46	SPEAKER_01
+ I'm going to look at that and see if it's changed at all from what we last discussed it.
 
-0:02:04	SPEAKER_01
- You guys want to give a prototype presentation?
+0:01:52	SPEAKER_01
+ Um, soon.
+
+0:01:57	SPEAKER_01
+ Actually, yeah.
+
+0:02:03	SPEAKER_01
+ Um, you guys want to give a prototype presentation?
+
+0:02:08	None
+ Okay.
 
 0:02:09	SPEAKER_02
- Okay, well, so our design looks something like this.
+ Well, um, so our design looks something like this.
 
 0:02:15	SPEAKER_02
  This being the wheel that you use to change channels or volume or whatever.
 
 0:02:20	SPEAKER_02
- So, the button serves as the power button if you hold it down and you just tap on it.
+ There's a button serves as the power button.
 
-0:02:25	SPEAKER_02
- I think it brings up the menu.
+0:02:22	SPEAKER_02
+ If you hold it down and just tap on it, I think it brings up the menu.
 
 0:02:28	SPEAKER_02
- And the base of the remote control, which has a squishy sponge you'd ever feel, is interchangeable.
+ And the base of the remote control, which has a squishy, spun, you grab what you feel is interchangeable.
 
 0:02:35	SPEAKER_02
- So, you can change the color according to, you know, the suit your living room or whatever.
+ So you can change the color according to, you know, the suit, your living room or whatever.
 
 0:02:39	SPEAKER_02
  I can change the vegetable.
 
 0:02:41	SPEAKER_02
- Yeah, I can change the vegetable.
-
-0:02:42	SPEAKER_01
- It was that broccoli.
-
-0:02:43	SPEAKER_02
- Yeah, broccoli.
-
-0:02:45	SPEAKER_02
- So, this snaps off and you can put on whichever one you want.
-
-0:02:51	SPEAKER_02
- This is not to scale because it would have the battery inside it.
-
-0:02:54	SPEAKER_02
- It's a mango.
-
-0:02:55	SPEAKER_02
- It's trendy fruit.
-
-0:02:56	SPEAKER_02
- It's not just ordinary fruits.
-
-0:02:57	SPEAKER_02
- You don't have orange.
-
-0:02:58	SPEAKER_02
- You have mango.
-
-0:02:59	SPEAKER_02
- I guess strawberries, not just trans-eat.
-
-0:03:02	SPEAKER_02
- Very bright strawberry.
-
-0:03:03	SPEAKER_02
- So, we'll come up with a variety of trendy and exciting fruit designs for the remote control.
-
-0:03:10	SPEAKER_02
- And the people will be encouraged to buy three or five of them because they'll need to switch them up.
-
-0:03:14	SPEAKER_02
- It's been a little bit difficult to make sure that it's hand-holdable and that the user can use it.
-
-0:03:22	SPEAKER_02
- You know, it's not too big.
-
-0:03:24	SPEAKER_02
- But we think that this size will be okay.
-
-0:03:29	SPEAKER_02
- And we will have to fit the battery case in there somehow.
-
-0:03:33	SPEAKER_02
- And I guess the only other thing that we really didn't talk about was design yet, actually, would be the thing, the locator.
-
-0:03:44	SPEAKER_02
- So, the locator is just chip it inside there.
-
-0:03:46	SPEAKER_02
- Okay. So, that's just...
-
-0:03:47	SPEAKER_02
- The beeper is also inside there too, somewhere.
-
-0:03:49	SPEAKER_02
- So, you have to have a button on your...
-
-0:03:51	SPEAKER_02
- You have to attach the button to the...
-
-0:03:53	SPEAKER_02
- Yeah, we didn't design that.
-
-0:03:54	SPEAKER_00
- Yeah, we have that...
-
-0:03:55	SPEAKER_02
- But it would be coordinating with that.
-
-0:03:58	SPEAKER_02
  Yeah.
 
-0:03:59	SPEAKER_02
- Hit that...
+0:02:42	SPEAKER_02
+ So this snaps off and you can put on whichever one you want.
 
-0:04:00	SPEAKER_02
- You know, match the handset.
+0:02:47	SPEAKER_02
+ This is not to scale because it would have the battery inside it.
 
-0:04:02	SPEAKER_02
- Get up the broccoli.
+0:02:50	SPEAKER_02
+ This is a mango.
 
-0:04:04	SPEAKER_02
- Mango.
+0:02:52	SPEAKER_02
+ It's trendy fruit.
 
-0:04:06	SPEAKER_02
+0:02:53	SPEAKER_02
+ It's not just ordinary fruits.
+
+0:02:54	SPEAKER_02
+ You don't have orange.
+
+0:02:55	SPEAKER_02
+ You have mango.
+
+0:02:56	SPEAKER_02
+ Um, I guess strawberries, not just tran very bright strawberry.
+
+0:03:08	SPEAKER_02
+ It's been a little bit difficult to make sure that it's hand holdable and that the user can use it.
+
+0:03:15	SPEAKER_02
+ You know, it's not too big, but we think that this size will be okay.
+
+0:03:22	SPEAKER_02
+ And we will have to fit the battery case in there somehow.
+
+0:03:26	SPEAKER_02
+ And I guess the only other thing that we really didn't talk about was the battery.
+
+0:03:32	SPEAKER_02
+ It would be the thing, the locator.
+
+0:03:39	SPEAKER_02
+ So locator is just chiplets inside there.
+
+0:03:42	SPEAKER_02
+ Okay.
+
+0:03:43	SPEAKER_02
+ So that's just the beepers also inside there too.
+
+0:03:45	SPEAKER_02
+ So you have to have a button on your, on your, you have to attach the button to the.
+
+0:03:50	SPEAKER_02
+ Yeah, we didn't design that.
+
+0:03:51	SPEAKER_02
+ Yeah, we have that, that is, yes.
+
+0:03:52	SPEAKER_02
+ But it would be coordinating with that.
+
+0:03:54	SPEAKER_00
+ Yeah.
+
+0:03:55	SPEAKER_02
+ Like, hey, that, that, you know, match the handset.
+
+0:03:58	SPEAKER_02
+ Get out the broccoli.
+
+0:04:03	SPEAKER_02
+ There you go.
+
+0:04:07	SPEAKER_02
  Ta-da.
 
-0:04:08	SPEAKER_01
- If you want to look in your project documents folder, there's a Excel spreadsheet.
+0:04:10	SPEAKER_01
+ Um, if you want to look in your project documents folder, there's an Excel spreadsheet.
 
-0:04:20	SPEAKER_01
+0:04:19	SPEAKER_01
  The only one that's in there, production costs.
 
-0:04:25	SPEAKER_01
+0:04:24	SPEAKER_01
  And if you open it up, I've just stuck the numbers in.
 
 0:04:29	SPEAKER_01
- There's a real challenge there.
+ It's a real challenge there.
 
 0:04:31	SPEAKER_01
- But if I missed anything that we've gone over, or if you see something in that, it has changed.
+ But if I missed anything that we've gone over, or if you see something that has changed, I mean, we decided on batteries and the regular chip would be necessary for the more advanced iPod-like button.
 
-0:04:39	SPEAKER_01
- I mean, we decided on batteries.
-
-0:04:41	SPEAKER_01
- And the regular chip would be necessary for the more advanced iPod-like button.
-
-0:04:52	SPEAKER_01
- I said, Uncurved or flat.
+0:04:50	SPEAKER_01
+ Um, I said, uncurve your flat.
 
 0:04:55	SPEAKER_01
  I think that's what you have there.
 
+0:04:56	SPEAKER_01
+ Is that right?
+
 0:04:57	SPEAKER_01
- For the plastic part would be...
+ For the, for the plastic part would be.
 
 0:04:59	SPEAKER_02
- My impression was that flat meant like one of the square remotes.
+ My impression was that flat meant like, like one of those square remotes.
 
-0:05:03	SPEAKER_02
- But it's really not very clear.
+0:05:02	SPEAKER_02
+ But it's really not very clear because you got single curve and double curve and.
 
-0:05:05	SPEAKER_02
- Because you've got single curve and double curve.
+0:05:07	SPEAKER_02
+ Right.
 
 0:05:08	SPEAKER_02
- I don't know what that means.
+ Yeah, I don't know what that means.
 
 0:05:10	SPEAKER_02
  One side is curved and then the other side is curved.
 
 0:05:14	SPEAKER_01
- Well, if we're talking about the area just...
+ Well, if we're talking about the area, just.
 
-0:05:20	SPEAKER_01
+0:05:18	SPEAKER_01
  I don't know.
 
-0:05:21	SPEAKER_01
+0:05:20	SPEAKER_01
  I guess we'd have to contact the company that makes them and see.
 
-0:05:28	SPEAKER_01
- So what else?
+0:05:27	SPEAKER_01
+ Um, so what else?
 
 0:05:29	SPEAKER_01
  There's plastic for that area around the button.
 
 0:05:33	SPEAKER_01
- And then rubber would be the squishy, like saying, right?
+ Um, and then rubber would be the squishy, like, thing, right?
 
 0:05:38	SPEAKER_01
- And lots of special colors, actually.
+ Um, and lots of special colors, actually.
 
 0:05:43	SPEAKER_01
- School wheel.
+ Uh, school real.
 
-0:05:44	SPEAKER_01
+0:05:45	SPEAKER_01
  Do you see anything that I've missed?
 
-0:05:46	SPEAKER_02
+0:05:47	SPEAKER_02
  No, I think that's all right.
 
-0:05:48	SPEAKER_01
- Okay.
-
 0:05:49	SPEAKER_01
- So that would make our total of 11.9, which is...
+ Okay, so that would make our total of 11.9, which is less than 12.5, which means we have to make you more of a profit.
 
-0:05:54	SPEAKER_01
- And less than 12.5, which means we'd be making more of a profit.
-
-0:05:59	SPEAKER_01
- And if we saw a lot of squishy things...
+0:05:58	SPEAKER_01
+ And if we saw a lot of squishy things.
 
 0:06:02	SPEAKER_01
- Ooh, yeah.
+ Oh, yeah.
 
 0:06:05	SPEAKER_01
- Okay.
+ Um, okay.
 
-0:06:08	None
- So...
+0:06:07	SPEAKER_00
+ So.
 
-0:06:11	SPEAKER_00
- Hmm.
+0:06:15	SPEAKER_00
+ Um,
 
-0:06:20	SPEAKER_01
- What did you work on?
+0:06:28	SPEAKER_01
+ what did you work on?
 
 0:06:30	SPEAKER_02
- I've got some evaluation criteria.
+ Um, evaluation, quite.
+
+0:06:32	SPEAKER_01
+ Okay.
 
 0:06:33	SPEAKER_02
- Okay.
-
-0:06:34	SPEAKER_02
- I've got the presentation.
-
-0:06:36	SPEAKER_02
- Silence.
-
-0:06:37	SPEAKER_02
- Okay.
+ I've got the presentation. Okay.
 
 0:06:40	SPEAKER_02
  All right.
 
-0:06:49	SPEAKER_02
- What happens is we have to decide whether this whole project we've been working on, and actually meet the standards we were set at the start.
+0:06:50	SPEAKER_02
+ What happens is we have to, um, decide whether this, this whole, this whole project we've been working on actually, um, meets the standards we were set at the start.
 
 0:07:06	SPEAKER_02
- Okay.
+ Um, Okay.
 
-0:07:07	SPEAKER_02
- The method is...
-
-0:07:14	SPEAKER_02
- Well, I've analyzed the user requirements and integrated them to the TransFunding Marketing reports and in our company's strategy marketing.
+0:07:13	SPEAKER_02
+ Um, the method is we, well, I've analyzed the user requirements and integrated them to the trans found in marketing reports and in our company's strategy marketing.
 
 0:07:25	SPEAKER_02
- And the findings were that we needed to look in a certain way, feel in a certain way.
-
-0:07:32	SPEAKER_02
- And this is everything's listed down.
+ And, um, the findings were that we needed to look in a certain way, feel in a certain way, and this is everything's listed down.
 
 0:07:35	SPEAKER_02
- Looking in a certain way, feel in a certain way.
-
-0:07:38	SPEAKER_02
- It has to be technologically and overtive.
+ Um, looking at certain way, feeling a certain way, it has to be technologically innovative.
 
 0:07:41	SPEAKER_02
- And it has to be easy to use.
-
-0:07:43	SPEAKER_02
- These are all things we looked at at the start.
+ And it has to be easy to use. These are all things we looked at at the start.
 
 0:07:46	SPEAKER_02
- And criteria that have to be met.
+ Um, and criteria that have to be met. We have to use a table. I'll show you that later together to decide whether it meets the standards.
 
-0:07:48	SPEAKER_02
- We have to use a table.
+0:07:55	SPEAKER_02
+ And we, we have therefore in total, um, we have five.
 
-0:07:50	SPEAKER_02
- I'll show you that later together to decide whether it meets the standards.
-
-0:07:54	SPEAKER_02
- And we have therefore in total, we have five...
-
-0:08:03	SPEAKER_02
+0:08:04	SPEAKER_02
  We have 11 points according to which this should be evaluated.
 
 0:08:09	SPEAKER_02
- And the quite...
-
-0:08:11	SPEAKER_02
- Well, basically the findings are the same as the evaluation criteria.
+ And, um, the quite, well, basically the findings are the same as the evaluation criteria.
 
 0:08:15	SPEAKER_02
  I would like to show you the table we have to use.
 
 0:08:19	SPEAKER_02
- No? This is the table.
+ Um, Nope.
 
-0:08:25	SPEAKER_02
- Can you see this here?
+0:08:24	SPEAKER_02
+ This is the table. Can you see this here?
 
-0:08:28	SPEAKER_02
- So the questions I've given you...
-
-0:08:31	SPEAKER_02
- Could you write that down?
+0:08:27	SPEAKER_02
+ Um, so the questions I've given you, could you write that down?
 
 0:08:32	SPEAKER_02
- True is one and four is seven.
+ Um, Santa is one and, and forces seven.
 
 0:08:38	SPEAKER_02
- And we'll just go through each point together.
+ And we'll just go through each point together, hopefully.
 
-0:08:46	SPEAKER_02
- I think if each of us gives an opinion, then they can be mixed somehow.
+0:08:43	SPEAKER_02
+ Um, I think if each of us gives an opinion, then they can be mixed somehow. I don't know how it works exactly.
 
-0:08:50	SPEAKER_02
- I don't know how it works, exactly.
+0:08:52	SPEAKER_02
+ I'm really told.
 
-0:08:52	None
- Yeah.
-
-0:08:52	SPEAKER_00
- I've been told...
-
-0:08:53	SPEAKER_02
+0:08:54	SPEAKER_02
  Is it possible that we can bring this up on our own?
 
 0:08:57	SPEAKER_02
- Yeah, it's in the...
+ Yeah, it's in the, um, it's in the project documents. Is it meeting three minutes? No, it's, it's called evaluation criteria.
 
-0:08:59	SPEAKER_02
- It's in the project documents.
+0:09:08	SPEAKER_02
+ And it's under evaluation.
 
-0:09:01	SPEAKER_02
- Is it meeting three minutes now?
+0:09:13	SPEAKER_01
+ The PowerPoint one. Yeah. Okay.
 
-0:09:03	SPEAKER_02
- It's called evaluation criteria.
+0:09:17	SPEAKER_02
+ So it was, um, yeah, choose one.
 
-0:09:07	SPEAKER_02
- And it's...
-
-0:09:10	SPEAKER_02
- Under evaluation.
-
-0:09:12	SPEAKER_01
- The PowerPoint one.
-
-0:09:14	SPEAKER_01
- Yeah, okay, cool.
-
-0:09:16	SPEAKER_02
- We found that open.
-
-0:09:24	SPEAKER_02
- So it was...
-
-0:09:27	SPEAKER_02
- Yeah, choose one.
-
-0:09:34	SPEAKER_02
- Choose one and four is seven.
-
-0:09:35	SPEAKER_02
- Do you want us to discuss this together?
-
-0:09:37	SPEAKER_02
- Do you want us to do it, sing?
+0:09:31	SPEAKER_02
+ Choose one and forces seven. Do you want us to discuss this together? Do you want us to do it soon, do you?
 
 0:09:39	SPEAKER_01
- We can do it separately and then discuss it.
+ Um, we can do it separately and then discuss it.
 
-0:09:42	SPEAKER_01
+0:09:43	SPEAKER_01
  If that's what people want to do.
 
 0:09:50	SPEAKER_02
- So it's actually a scale.
-
-0:09:52	SPEAKER_01
- Wait, one is true and...
-
-0:09:56	SPEAKER_01
- So these are the questions we're answering.
-
-0:09:58	SPEAKER_01
- Yes.
-
-0:09:59	SPEAKER_02
- And one is...
-
-0:10:00	SPEAKER_02
- If it's fancy, you put one.
-
-0:10:01	SPEAKER_01
- One, right.
-
-0:10:02	SPEAKER_02
- If it's really unfancy, it's...
+ So it's actually a scale. Right. One is true. And, um, so these are the questions we're answering. Yes. And one is, if it's fancy, you put one, right? If it's really unfancy.
 
 0:10:04	SPEAKER_01
- If it's somewhere in between, you put four.
+ I've said somewhere in between you put four. Okay.
 
-0:10:06	SPEAKER_01
- Yeah, something.
+0:10:22	None
+ Okay.
 
-0:10:07	SPEAKER_01
- Yeah.
-
-0:10:37	SPEAKER_02
- Does it feel fancy?
+0:10:42	SPEAKER_02
+ Okay.
 
 0:11:02	SPEAKER_02
- It feels like a video.
+ Does it feel fancy?
 
-0:11:09	None
- No.
+0:11:08	SPEAKER_02
+ There's already big questions.
 
-0:11:18	SPEAKER_02
- There should already be questions.
+0:11:28	SPEAKER_02
+ Okay.
 
-0:11:20	SPEAKER_02
- Should be more.
-
-0:11:35	None
- The black two is easy to insert.
-
-0:11:53	SPEAKER_02
- I'm going to say yes.
-
-0:11:57	SPEAKER_02
- Yes.
-
-0:11:58	SPEAKER_02
- Very, very true.
+0:11:54	SPEAKER_02
+ So it's easy to insult. I'm going to say yes. Yes. Very, very true.
 
 0:11:59	SPEAKER_02
- I imagine there's somewhere on the front.
+ I imagine there's somewhere on the front, we have a little case that you slip them in. Go.
 
-0:12:01	SPEAKER_02
- There's a little case that you still don't know.
+0:12:28	None
+ Okay.
 
-0:12:31	None
- I'm going to say yes.
+0:12:48	SPEAKER_02
+ Okay.
 
-0:12:38	None
- I'm going to say yes.
+0:13:11	SPEAKER_01
+ Do we, um, is it necessary? I don't think so. It's just the marker. I kind of stopped working.
 
-0:12:45	None
- I'm going to say yes.
-
-0:12:52	None
- I'm going to say yes.
-
-0:13:05	SPEAKER_02
- I'm going to say yes.
-
-0:13:14	SPEAKER_01
- I don't think so.
-
-0:13:24	SPEAKER_02
+0:13:25	SPEAKER_01
  Unless you feel you need it.
 
-0:13:33	SPEAKER_02
- So, 1.1, we're just going to circle.
+0:13:31	SPEAKER_02
+ Right. Right. So 1.1. We're just going to circle one. Five. Oh, I don't know. Right. One. Five. Five. Five. Two. Okay. So do we just start it up and divide it by four? Is that the company?
 
-0:13:47	SPEAKER_02
- 2.
+0:13:54	SPEAKER_02
+ I think we should. It's four if you want to do that. Yeah. Yeah. That's the 16. That's four. Oh, no, that's the 13. 1552. Oh, I thought she said five. 1552 13 over four for now.
 
-0:14:05	SPEAKER_02
- 1.5 to 13.
+0:14:13	SPEAKER_02
+ So do we have the next three? Six. Six? Six.
 
-0:14:26	SPEAKER_02
- So, 1 was 2 and 7 was false.
+0:14:23	SPEAKER_02
+ It wasn't cheating. Right. 1.3. Is.
 
-0:14:36	SPEAKER_01
- So, we do have about the same thing.
+0:14:31	SPEAKER_02
+ Sorry. Wait. So one was true and seven was false.
 
-0:14:44	SPEAKER_02
- I was thinking 1 means no points.
+0:14:38	SPEAKER_02
+ Yeah. Okay.
 
-0:15:14	SPEAKER_02
+0:14:40	SPEAKER_01
+ So we do have them about the same thing.
+
+0:14:41	SPEAKER_01
+ We just have it in the free.
+
+0:14:43	SPEAKER_01
+ Yeah, yeah, yeah.
+
+0:14:44	SPEAKER_01
+ I was thinking one means no points.
+
+0:14:46	SPEAKER_00
+ Full of self.
+
+0:14:47	SPEAKER_02
+ I should have cut the table up.
+
+0:14:49	SPEAKER_00
+ Oh, gosh.
+
+0:14:50	SPEAKER_00
  OK.
 
-0:15:28	SPEAKER_02
- So, starting again, 1.1.
+0:14:50	SPEAKER_00
+ Well, first of all, it's no problem.
+
+0:14:52	SPEAKER_00
+ Yeah.
+
+0:14:53	None
+ All right.
+
+0:14:55	SPEAKER_02
+ Well, I'm glad this came out.
+
+0:14:56	SPEAKER_02
+ I was like, why did you guys design it that way?
+
+0:14:58	SPEAKER_00
+ I thought you guys hated it.
+
+0:15:00	SPEAKER_00
+ Yeah.
+
+0:15:00	SPEAKER_00
+ Yeah.
+
+0:15:01	SPEAKER_02
+ It's quite funny.
+
+0:15:23	SPEAKER_02
+ OK.
+
+0:15:24	SPEAKER_02
+ OK.
+
+0:15:25	SPEAKER_02
+ Yeah.
+
+0:15:26	SPEAKER_02
+ OK.
+
+0:15:27	SPEAKER_02
+ So, sorting again 1.1.
 
 0:15:31	SPEAKER_02
- So, 1.2.
+ So 2.3.
+
+0:15:36	None
+ OK.
+
+0:15:37	SPEAKER_02
+ 1.2.
+
+0:15:40	SPEAKER_02
+ 3.2.
+
+0:15:43	SPEAKER_02
+ 2.2.
+
+0:15:45	SPEAKER_02
+ OK.
 
 0:15:46	SPEAKER_02
  1.3.
 
-0:16:04	SPEAKER_02
- 1.4.
+0:15:49	SPEAKER_01
+ 1.1.1.
 
-0:16:25	SPEAKER_02
- 1.2.
+0:15:53	SPEAKER_02
+ 2.1.
 
-0:16:44	SPEAKER_02
- 1.3.
+0:15:57	SPEAKER_02
+ 2.2. 2.2.
 
-0:17:05	SPEAKER_02
- 2.4.3.
+0:16:02	SPEAKER_01
+ I think I missed 2.
+
+0:16:04	SPEAKER_01
+ Wait, is that 2.1?
+
+0:16:06	SPEAKER_02
+ Yeah, I put it down to 0.4.
+
+0:16:08	SPEAKER_02
+ 1.4. 1.5.
+
+0:16:10	SPEAKER_01
+ OK, right.
+
+0:16:11	SPEAKER_01
+ That's I have to.
+
+0:16:12	SPEAKER_01
+ I can use all kinds of problems.
+
+0:16:13	SPEAKER_02
+ 1.
+
+0:16:14	SPEAKER_02
+ Sorry about that.
+
+0:16:15	SPEAKER_02
+ 2.2, which is 1.5.
+
+0:16:18	SPEAKER_01
+ 1.
+
+0:16:19	SPEAKER_02
+ 3.
+
+0:16:20	SPEAKER_02
+ Wait, wait, wait, wait.
+
+0:16:22	SPEAKER_02
+ I put 3.
+
+0:16:23	SPEAKER_02
+ 1.
+
+0:16:24	SPEAKER_02
+ Then 1 on my 2.3.1.
+
+0:16:27	SPEAKER_02
+ Is that correct on my slide?
+
+0:16:29	SPEAKER_02
+ Yeah.
+
+0:16:30	SPEAKER_02
+ 1.
+
+0:16:31	SPEAKER_02
+ 3.1.
+
+0:16:33	SPEAKER_02
+ I have 4.
+
+0:16:35	SPEAKER_02
+ 3.1.4.3.3.3.3.3.3.3.3.3.3.3.1.3.3.1.3.1.3.1.3.1.3.1.1.2.
+
+0:16:50	SPEAKER_02
+ 2.4.1.2.1.2.1.2.4.3.4.2.4.3.4.2.4.2.1.2.1.2.
+
+0:17:12	SPEAKER_02
+ Right, so I put 1 on that.
 
 0:17:15	SPEAKER_02
- OK.
+ Okay, I'll just do the calculations now if you want to continue.
 
-0:17:23	SPEAKER_01
- So, 1.3.
+0:17:21	SPEAKER_02
+ Or is it tedious? I'm sorry this was so tedious.
 
-0:17:44	SPEAKER_02
- 1.3.
+0:17:24	SPEAKER_01
+ No, no, that's...
 
-0:18:02	SPEAKER_02
- 1.3.
+0:17:26	SPEAKER_01
+ I think we should look at the ones that, like, where people set four, where it looks like we might want to discuss changing an aspect of the remote.
 
-0:18:23	SPEAKER_02
- 1.3.
+0:17:39	SPEAKER_02
+ Well, the worst ones were 3.1. Does everyone have a slide? 3.1?
 
-0:18:41	SPEAKER_01
- 1.3.
+0:17:48	SPEAKER_01
+ That was material.
 
-0:19:02	SPEAKER_02
- 1.3.
+0:17:50	SPEAKER_02
+ Slide show.
 
-0:19:20	SPEAKER_02
- 1.3.
+0:17:53	SPEAKER_02
+ Material, technologically innovative.
+
+0:17:57	SPEAKER_02
+ Okay.
+
+0:17:58	SPEAKER_02
+ Do you want to change it? What's the suggestion?
+
+0:18:03	SPEAKER_02
+ Which one is that again, sorry? 3.1?
+
+0:18:06	SPEAKER_02
+ Yeah, it's 3.1 was not that good. 4.1.
+
+0:18:12	SPEAKER_01
+ Does the shape?
+
+0:18:14	SPEAKER_02
+ Shape. I think 4.2.
+
+0:18:17	SPEAKER_01
+ See, I'm having trouble imagining that it's going to be the size, like the controller.
+
+0:18:25	SPEAKER_01
+ Or bigger.
+
+0:18:26	SPEAKER_02
+ What if we just smashed all the vegetables down flat?
+
+0:18:31	SPEAKER_02
+ And, like, then you could hold it in your hand better.
+
+0:18:34	SPEAKER_02
+ I think the base would definitely be larger, because some of these are not as easy to hold.
+
+0:18:38	SPEAKER_02
+ Yeah.
+
+0:18:39	SPEAKER_02
+ Kind of smallish.
+
+0:18:40	SPEAKER_01
+ No, but I imagine even if it was bigger, like, if it's round and it's big, then you can't get...
+
+0:18:45	SPEAKER_01
+ That's why remote controls are not long, because you have that thumb kind of...
+
+0:18:49	SPEAKER_01
+ So they could all be bananas in cucumbers.
+
+0:18:52	SPEAKER_01
+ Yeah.
+
+0:18:53	SPEAKER_01
+ But I don't...
+
+0:18:55	SPEAKER_01
+ I personally don't think this is comfortable to sit there.
+
+0:19:00	SPEAKER_02
+ But, like, if you just squashed them flat, like, you made it flat.
+
+0:19:04	SPEAKER_02
+ If they're that stress ball stuff, they would be pretty squishable.
+
+0:19:10	SPEAKER_02
+ But it's still too big, I think.
+
+0:19:12	SPEAKER_02
+ Yeah.
+
+0:19:13	SPEAKER_01
+ And would it even resemble fruit that way?
+
+0:19:18	SPEAKER_01
+ I mean...
+
+0:19:19	SPEAKER_02
+ Yeah, like certain ones you'd have to limit the fruit selection.
+
+0:19:22	SPEAKER_02
+ Like, you could probably do a strawberry still.
+
+0:19:25	SPEAKER_02
+ I think the broccoli would be out.
+
+0:19:27	SPEAKER_02
+ You could do a little bit of that. Although the broccoli is quite comfortable, I have to say.
+
+0:19:31	SPEAKER_02
+ Yeah, but when you were holding that before, it actually looked...
+
+0:19:35	SPEAKER_02
+ Yeah, I looked really good.
+
+0:19:37	None
+ Yeah, so...
+
+0:19:38	SPEAKER_02
+ And then you thought it looked like broccoli, no?
 
 0:19:41	SPEAKER_02
- 1.3.
+ Eh...
 
-0:19:59	SPEAKER_01
- 1.3.
+0:19:42	SPEAKER_02
+ I thought I could think of rhubarb.
+
+0:19:45	SPEAKER_02
+ Rhubarb.
+
+0:19:47	SPEAKER_02
+ I think it's a mistake.
+
+0:19:49	SPEAKER_02
+ I think broccoli is my favourite, actually.
+
+0:19:51	SPEAKER_02
+ It's quite fair.
+
+0:19:53	SPEAKER_01
+ I think we need...
+
+0:19:54	SPEAKER_01
+ So, it was just patterns on...
+
+0:19:58	SPEAKER_01
+ Like, we chose the shape, or the shape could be whatever we wanted, and then it would just be like a design on the rubber.
+
+0:20:07	SPEAKER_02
+ Huh?
+
+0:20:09	SPEAKER_02
+ Oh, okay.
+
+0:20:10	SPEAKER_01
+ Like, just the printed.
+
+0:20:11	SPEAKER_01
+ So, just colour it, not just the shape of it.
+
+0:20:13	SPEAKER_02
+ Yeah, that could work.
+
+0:20:14	SPEAKER_02
+ Yeah, that could work.
+
+0:20:15	SPEAKER_02
+ Or...
+
+0:20:16	SPEAKER_01
+ I mean, we could even have fruit, like, around...
 
 0:20:20	SPEAKER_01
- 1.3.
+ Yeah.
 
-0:20:38	SPEAKER_02
- 1.3.
+0:20:21	SPEAKER_01
+ I mean...
+
+0:20:22	SPEAKER_02
+ Yeah, I don't know.
+
+0:20:23	SPEAKER_01
+ But if we need...
+
+0:20:24	SPEAKER_01
+ If we need...
+
+0:20:25	SPEAKER_01
+ If we want to incorporate the fruit thing somehow, there might be...
+
+0:20:31	SPEAKER_01
+ I mean, if it conflicts with the comfort of actually holding me.
+
+0:20:36	SPEAKER_02
+ Yeah, because no one wants to hold a remote that's uncomfortable, obviously.
+
+0:20:41	SPEAKER_02
+ Like, I don't know, some of them you can kind of think...
+
+0:20:44	SPEAKER_02
+ See is like...
+
+0:20:46	SPEAKER_02
+ Like, you could...
+
+0:20:48	SPEAKER_02
+ If it was only this, you know, if it was shaped like that, and it just had that, but the problem is you have to attach it.
+
+0:20:52	SPEAKER_02
+ And this has to be detachable.
+
+0:20:55	SPEAKER_02
+ Yeah.
+
+0:20:56	SPEAKER_02
+ So, like, maybe that's just too big because...
+
+0:20:58	SPEAKER_01
+ Well, some of it...
 
 0:20:59	SPEAKER_01
- 1.3.
+ The reason the broccoli works is you can kind of hold it like that.
+
+0:21:02	SPEAKER_01
+ Yeah, it's kind of...
+
+0:21:03	SPEAKER_01
+ Joystick.
+
+0:21:04	None
+ Yeah.
+
+0:21:05	None
+ But...
+
+0:21:06	SPEAKER_02
+ Yeah, I don't know.
+
+0:21:08	SPEAKER_01
+ I mean, is there some way we could make it this kind of shape?
+
+0:21:12	SPEAKER_01
+ Because like...
+
+0:21:13	SPEAKER_02
+ We could make it that shape, but just have different colours.
+
+0:21:16	SPEAKER_01
+ Yeah.
 
 0:21:17	SPEAKER_01
- 1.3.
+ And like, even with a shape, because we were having fun with that.
+
+0:21:20	SPEAKER_01
+ And like...
+
+0:21:22	SPEAKER_01
+ Yeah, like you said like a joystick like that, you know?
+
+0:21:25	SPEAKER_02
+ Yeah.
+
+0:21:26	SPEAKER_02
+ Like, we could do...
+
+0:21:28	SPEAKER_02
+ I'm trying to think of other shapes, like fruits that are...
+
+0:21:31	SPEAKER_01
+ Just that, I think.
+
+0:21:33	SPEAKER_01
+ I mean, that fits the whole round iPod idea.
+
+0:21:37	SPEAKER_01
+ Yeah.
 
 0:21:38	SPEAKER_01
- 1.3.
+ And you still have the comfort of holding it like that.
 
-0:21:56	SPEAKER_02
- 1.3.
+0:21:41	None
+ Mm.
 
-0:22:17	SPEAKER_02
- 1.3.
+0:21:42	SPEAKER_01
+ And you could...
 
-0:22:35	SPEAKER_02
- 1.3.
+0:21:44	SPEAKER_01
+ Like, if it's like this, you could put fruit designs and stuff on...
 
-0:22:56	SPEAKER_02
- 1.3.
+0:21:49	SPEAKER_01
+ Yeah.
 
-0:23:14	SPEAKER_02
- 1.3.
+0:21:50	SPEAKER_01
+ But yeah.
 
-0:23:35	SPEAKER_01
- 1.3.
+0:21:51	SPEAKER_01
+ Alright.
 
-0:23:53	SPEAKER_01
- 1.3.
+0:21:52	SPEAKER_01
+ But I mean, to really have any other ideas about that?
+
+0:21:57	SPEAKER_00
+ Um...
+
+0:22:02	SPEAKER_00
+ We could...
+
+0:22:03	None
+ Shh.
+
+0:22:04	None
+ Yeah.
+
+0:22:08	SPEAKER_02
+ The critical ones came out to be...
+
+0:22:11	SPEAKER_02
+ Yeah, that one...
+
+0:22:13	SPEAKER_02
+ The...
+
+0:22:14	SPEAKER_02
+ Bats are easier to then suck, somewhere easy.
+
+0:22:19	SPEAKER_02
+ Which could be easily...
+
+0:22:22	SPEAKER_02
+ They're not fun to problem them.
+
+0:22:23	SPEAKER_02
+ The better is they're going...
+
+0:22:24	SPEAKER_02
+ I thought everyone gave that a one or two.
+
+0:22:25	SPEAKER_02
+ In the back?
+
+0:22:26	SPEAKER_02
+ Yeah, they'd probably be either on the front or the side.
+
+0:22:28	SPEAKER_02
+ The reason I didn't give it a one...
+
+0:22:30	SPEAKER_01
+ I think I gave it a three, because I thought you'd have to like unclip.
+
+0:22:34	SPEAKER_01
+ No.
+
+0:22:35	SPEAKER_01
+ No, you'd...
+
+0:22:36	SPEAKER_02
+ I imagine there'd be sort of a...
+
+0:22:37	SPEAKER_02
+ Catch...
+
+0:22:38	SPEAKER_01
+ Just like any other one.
+
+0:22:39	SPEAKER_02
+ I don't want the normal enough.
+
+0:22:40	None
+ Alright.
+
+0:22:41	SPEAKER_02
+ So it'd probably be either...
+
+0:22:42	SPEAKER_02
+ No, it can't be in the front.
+
+0:22:43	SPEAKER_02
+ Because the IRR is right there, but it'd be on one of the sides, probably.
+
+0:22:46	SPEAKER_02
+ I think everyone's in the end of three, anyway.
+
+0:22:51	SPEAKER_02
+ So I think it's...
+
+0:22:53	SPEAKER_02
+ That's the end of two points.
+
+0:22:56	None
+ Cool.
+
+0:22:57	SPEAKER_02
+ Well...
+
+0:23:00	SPEAKER_02
+ Yeah, the broccoli...
+
+0:23:02	SPEAKER_02
+ I guess, when this...
+
+0:23:03	SPEAKER_02
+ Yeah, I'd agree with changing the shape.
+
+0:23:05	SPEAKER_02
+ Why would you just having fun making strawberries and stuff?
+
+0:23:09	SPEAKER_02
+ We were a bit off task.
+
+0:23:11	SPEAKER_02
+ So...
+
+0:23:13	SPEAKER_02
+ I can't think of any...
+
+0:23:17	SPEAKER_02
+ So we'll have to like...
+
+0:23:25	SPEAKER_02
+ Yeah, I don't know.
+
+0:23:27	SPEAKER_02
+ You could make the touchpad in different shapes, but then that kind of redesigns the whole project.
+
+0:23:33	SPEAKER_02
+ But you could do...
+
+0:23:34	SPEAKER_02
+ Like, some sort of annoying people who get used to having the buttons.
+
+0:23:37	SPEAKER_02
+ Yeah, that's a shame.
+
+0:23:39	SPEAKER_01
+ Yeah.
+
+0:23:40	SPEAKER_01
+ And it would probably cost more to produce.
+
+0:23:42	SPEAKER_01
+ Yeah, that's just that irregular.
+
+0:23:46	SPEAKER_02
+ How about having different colors and what you've been having different shapes too?
+
+0:23:49	SPEAKER_02
+ Yeah.
+
+0:23:51	SPEAKER_01
+ Which is why printing might be, like, just printing the...
+
+0:23:54	SPEAKER_01
+...through...
+
+0:23:55	SPEAKER_01
+...on.
+
+0:23:56	SPEAKER_01
+ Okay.
 
 0:24:14	SPEAKER_01
- 1.3.
+ Well, we've done finance evaluation criteria.
 
-0:24:32	SPEAKER_01
- 1.3.
+0:24:17	SPEAKER_01
+ Production evaluation.
 
-0:24:53	SPEAKER_02
- 1.3.
+0:24:26	SPEAKER_01
+ So project evaluation.
+
+0:24:28	SPEAKER_02
+ You want this and it can...
+
+0:24:33	SPEAKER_01
+ I guess we're supposed to discuss the process of the project and how satisfied.
+
+0:24:41	SPEAKER_01
+ Oh, it's alright.
+
+0:24:44	SPEAKER_01
+ That's a lot.
+
+0:24:45	SPEAKER_01
+ Yeah.
+
+0:24:48	SPEAKER_01
+ Did you feel there was a lot of room for creativity?
+
+0:24:51	SPEAKER_01
+ Sort of.
+
+0:24:52	SPEAKER_01
+ Sure.
+
+0:24:55	SPEAKER_01
+ I did.
+
+0:24:57	SPEAKER_01
+ I mean, fruit and squishiness are more creative.
+
+0:25:00	SPEAKER_01
+ Bunchiness.
+
+0:25:01	SPEAKER_02
+ The prototype making was very creatively stimulating.
+
+0:25:06	SPEAKER_02
+ And I think we've come up with a product that's fun.
 
 0:25:11	SPEAKER_02
- 1.3.
+ And it's all the criteria.
 
-0:25:32	SPEAKER_02
- 1.3.
+0:25:15	SPEAKER_01
+ And how is our leadership and teamwork?
 
-0:25:50	SPEAKER_01
- 1.3.
+0:25:18	SPEAKER_02
+ I think it was good.
 
-0:26:11	SPEAKER_02
- 1.3.
+0:25:20	SPEAKER_02
+ We knew what we were doing.
 
-0:26:29	SPEAKER_02
- 1.3.
+0:25:21	SPEAKER_02
+ It was a very democratic process.
 
-0:26:50	SPEAKER_02
- 1.3.
+0:25:22	SPEAKER_02
+ Everyone got to contribute.
+
+0:25:26	SPEAKER_01
+ Well, I thought my leadership was crap personally.
+
+0:25:29	SPEAKER_01
+ He told us when to start and end and that's all the tips.
+
+0:25:33	SPEAKER_01
+ I think you were fine.
+
+0:25:35	SPEAKER_02
+ I'm just going to jump.
+
+0:25:36	SPEAKER_01
+ I'm never going to do a management position.
+
+0:25:38	SPEAKER_01
+ I know that now.
+
+0:25:40	SPEAKER_01
+ Yeah, I thought we all worked very well together.
+
+0:25:42	SPEAKER_02
+ It all sort of blended.
+
+0:25:44	SPEAKER_02
+ Yeah, I think it more than anything.
+
+0:25:46	SPEAKER_02
+ We didn't really have our set role so much as we just would be like, you know, all had ideas.
+
+0:25:50	SPEAKER_02
+ Very democratic.
+
+0:25:51	SPEAKER_02
+ Yeah.
+
+0:25:52	SPEAKER_01
+ No spats.
+
+0:25:53	SPEAKER_01
+ That was good.
+
+0:25:58	SPEAKER_01
+ And the means for like the materials we used, how convenient were they?
+
+0:26:04	SPEAKER_01
+ Like the pens, the whiteboard.
+
+0:26:06	SPEAKER_02
+ I mean, well, I'm not a big fan of any Microsoft PowerPoint or any Mac person.
+
+0:26:12	SPEAKER_02
+ No, no, I never touch Macs either.
+
+0:26:14	SPEAKER_02
+ I just use the Unix or the off market sort of word perfect and all these other things.
+
+0:26:20	SPEAKER_02
+ Which is a lot of you need to be able to.
+
+0:26:23	SPEAKER_02
+ Well, the problem is if you don't like my new computer never has word perfect.
+
+0:26:27	SPEAKER_02
+ So I have to go track someone down who has an old disk and then I have to reinstall it.
+
+0:26:31	SPEAKER_02
+ So I have all these documents.
+
+0:26:32	SPEAKER_02
+ I can't use them.
+
+0:26:33	SPEAKER_02
+ No.
+
+0:26:34	SPEAKER_02
+ But yeah, I mean, I guess it's okay.
+
+0:26:37	SPEAKER_02
+ I don't know if it was just my role, but I thought that the information that was available to me was kind of just like, or maybe it was just the idea that we had, but there's kind of, it was kind of like, okay, I don't really think, I don't know what I'm doing here.
+
+0:26:52	SPEAKER_02
+ So I didn't really think it was helpful.
+
+0:26:54	SPEAKER_02
+ So I kind of just made up my own stuff.
+
+0:26:58	SPEAKER_02
+ And I didn't really like the PowerPoint presentations.
+
+0:27:03	SPEAKER_02
+ So I kind of wrote a lot of notes instead.
+
+0:27:05	SPEAKER_02
+ But yeah, I don't really like PowerPoint, personally.
 
 0:27:08	SPEAKER_02
- 1.3.
+ It's kind of stupid.
+
+0:27:09	SPEAKER_02
+ I never use it.
+
+0:27:10	SPEAKER_01
+ Yeah, but I can't say I found everything particularly helpful.
+
+0:27:16	SPEAKER_01
+ Yeah, I didn't really.
+
+0:27:17	SPEAKER_01
+ Yeah.
+
+0:27:18	SPEAKER_02
+ I first bit of information was like, the child's drawn.
+
+0:27:21	SPEAKER_00
+ Actually, how it would work.
+
+0:27:23	SPEAKER_02
+ Mine was really helpful.
+
+0:27:24	SPEAKER_02
+ I don't know.
 
 0:27:29	SPEAKER_01
- 1.3.
+ My problem was you guys had access to, like, they'd send you to sites and stuff, right?
 
-0:27:47	SPEAKER_02
- 1.3.
+0:27:36	SPEAKER_01
+ Yeah.
 
-0:28:08	SPEAKER_02
- 1.3.
+0:27:37	SPEAKER_01
+ So I didn't really know what you guys were doing.
 
-0:28:26	SPEAKER_01
- 1.3.
+0:27:39	SPEAKER_01
+ And when you were talking about it, it's just like, that's why it seems so ignorant when you're explaining things.
 
-0:28:47	SPEAKER_02
- 1.3.
+0:27:46	SPEAKER_02
+ Yeah, mine was mostly made up, except when they told me, like, you know, titanium costs more than it would to make a remote control.
 
-0:29:05	SPEAKER_02
- 1.3.
+0:27:53	SPEAKER_02
+ But it must have been quite difficult for them to build the whole system.
 
-0:29:26	SPEAKER_02
- 1.3.
+0:27:58	SPEAKER_02
+ The whole system, because of course they can't give you anything comparable to the internet.
 
-0:29:44	SPEAKER_02
- 1.3.
+0:28:04	SPEAKER_02
+ Yeah, I mean, I think it's interesting how it all went together.
 
-0:30:05	SPEAKER_02
- 1.3.
+0:28:07	SPEAKER_02
+ Like, I had the stuff about how rubber is cheap and you have how people want it to be spongy.
 
-0:30:23	SPEAKER_02
- 1.3.
+0:28:12	SPEAKER_02
+ Yeah.
 
-0:30:44	SPEAKER_02
- 1.3.
+0:28:13	SPEAKER_02
+ It seems planned.
+
+0:28:14	SPEAKER_02
+ Yeah.
+
+0:28:15	SPEAKER_02
+ Yeah, I kind of thought that I felt like I would go and, like, try to use my information.
+
+0:28:19	SPEAKER_02
+ Or, like, I'd make this stupid little presentation and then, like, I just would end up talking about something completely unrelated because I felt like I was off task all the time.
+
+0:28:28	SPEAKER_02
+ But, um...
+
+0:28:30	SPEAKER_01
+ Well, I mean, we really got into talking about, like, personal practicality.
+
+0:28:34	SPEAKER_01
+ Like, it wasn't necessarily what was, like, we would never have thought of fruit or sponginess, you know?
+
+0:28:40	SPEAKER_01
+ Yeah.
+
+0:28:41	SPEAKER_01
+ Yeah.
+
+0:28:42	SPEAKER_02
+ So...
+
+0:28:43	SPEAKER_02
+ So...
+
+0:28:44	SPEAKER_02
+ Yeah.
+
+0:28:45	SPEAKER_02
+ And it might be to see whether people actually all come up with the same.
+
+0:28:50	SPEAKER_01
+ Oh, right.
+
+0:28:51	SPEAKER_01
+ Given certain information or...
+
+0:28:54	SPEAKER_02
+ Yeah, like, if everyone's given the same input, I don't know.
+
+0:28:57	SPEAKER_02
+ I don't know.
+
+0:28:58	SPEAKER_02
+ Um...
+
+0:28:59	SPEAKER_02
+ What's next?
+
+0:29:00	SPEAKER_02
+ I know that's not...
+
+0:29:02	SPEAKER_02
+ Um...
+
+0:29:03	SPEAKER_01
+ What did you guys think of the pens that asked about?
+
+0:29:06	SPEAKER_01
+ It's pretty cool.
+
+0:29:07	SPEAKER_02
+ I want to start to write with them.
+
+0:29:10	SPEAKER_01
+ Yeah.
+
+0:29:11	SPEAKER_01
+ And I...
+
+0:29:12	SPEAKER_01
+ I forgot one to try to check the box.
+
+0:29:14	SPEAKER_02
+ I'd like to see what it looks like.
+
+0:29:18	SPEAKER_02
+ Oh, wow.
+
+0:29:19	SPEAKER_02
+ They're nicer than the pen that I'm using.
+
+0:29:22	SPEAKER_02
+ Because, like, your stuff actually shows up here rather than having to look at the screen and write.
+
+0:29:27	SPEAKER_00
+ Mm-hmm.
+
+0:29:28	SPEAKER_02
+ That even so, how did I...
+
+0:29:31	SPEAKER_01
+ And...
+
+0:29:34	SPEAKER_01
+ New ideas found?
+
+0:29:36	SPEAKER_02
+ That's all very new.
+
+0:29:39	SPEAKER_02
+ Yeah.
+
+0:29:40	SPEAKER_02
+ I don't know.
+
+0:29:45	SPEAKER_02
+ Yeah, I think I'd like to...
+
+0:29:48	SPEAKER_02
+ I don't know.
+
+0:29:51	SPEAKER_02
+ Like, it was that I think the microphones are okay when you're sitting down, but, like, they're kind of clumsy.
+
+0:29:57	SPEAKER_02
+ I guess I'm just going up to the light, probably.
+
+0:30:00	SPEAKER_02
+ Well, I drop off if you like moved too much.
+
+0:30:02	SPEAKER_00
+ Yeah, I don't know, but there.
+
+0:30:03	SPEAKER_02
+ I don't think we're supposed to be testing these microphones.
+
+0:30:06	SPEAKER_02
+ Maybe we are.
+
+0:30:07	SPEAKER_02
+ I don't know.
+
+0:30:08	SPEAKER_02
+ I think, and I think that, uh...
+
+0:30:11	SPEAKER_02
+ All this technology, like, I guess some people must be interested in using it, but I can't imagine finding it any more useful than, like, looking at someone's notes.
+
+0:30:20	SPEAKER_02
+ Or, like, I actually worked in a company and I had a role and I had to go to meetings.
+
+0:30:25	SPEAKER_02
+ And, like, the last thing I would have wanted would be to have to watch a video because I missed a meeting.
+
+0:30:30	SPEAKER_02
+ Like, usually I miss meetings deliberately.
+
+0:30:32	SPEAKER_02
+ There's just...
+
+0:30:33	SPEAKER_02
+ There's really not that much information that actually goes through a real meeting.
+
+0:30:36	SPEAKER_02
+ Like, when you're actually at a real meeting in a real company.
+
+0:30:38	SPEAKER_02
+ Especially, like, rehashing old stuff.
+
+0:30:40	SPEAKER_02
+ And just sort of going over general stuff that anybody who sort of wants tasks should already know.
+
+0:30:45	SPEAKER_02
+ It's like, there's just really not a lot of information.
+
+0:30:48	SPEAKER_02
+ It's kind of, like, an excessive iteration.
+
+0:30:50	SPEAKER_01
+ It seems like way overkill.
+
+0:30:51	SPEAKER_02
+ Like, if I missed a meeting, I could probably get it summed up in, like, one sentence.
+
+0:30:54	SPEAKER_02
+ Yeah.
+
+0:30:55	SPEAKER_02
+ I wouldn't need to have to watch, like, a two-hour video with a sound and a transcript.
+
+0:30:59	SPEAKER_02
+ Mm-hmm.
+
+0:31:00	SPEAKER_02
+ I guess it would be...
 
 0:31:02	SPEAKER_02
- 1.3.
+ It's got to be worth it.
 
-0:31:23	SPEAKER_01
- 1.3.
+0:31:05	SPEAKER_02
+ I guess I'm just mostly curious about, like, what kind of person or, like, company would really find it useful?
 
-0:31:41	SPEAKER_01
- 1.3.
+0:31:12	SPEAKER_02
+ Can't really imagine.
 
-0:32:02	SPEAKER_01
- 1.3.
+0:31:15	SPEAKER_02
+ I don't know.
+
+0:31:16	SPEAKER_02
+ How about a...
+
+0:31:18	SPEAKER_02
+ A pita?
+
+0:31:19	SPEAKER_02
+ Er...
+
+0:31:23	SPEAKER_00
+ Er...
+
+0:31:28	SPEAKER_01
+ Well, that's anyone want to talk about fruit more while we still have time?
+
+0:31:32	SPEAKER_01
+ When are you other ideas?
+
+0:31:35	SPEAKER_02
+ Well, what we... we supposed to... we supposed to watch report.
+
+0:31:40	SPEAKER_02
+ We end there.
+
+0:31:42	SPEAKER_02
+ Erm...
+
+0:31:43	SPEAKER_01
+ We still have time to face any other input.
+
+0:31:47	SPEAKER_01
+ I mean, I think we did really well, personally, which is why we've, you know, gone through this so quickly.
+
+0:31:57	SPEAKER_01
+ Because, I mean, we've all, we all kind of agree that our product is satisfactory.
+
+0:32:03	SPEAKER_01
+ It fits the budget, and it's trendy.
+
+0:32:07	SPEAKER_01
+ It's amazing.
+
+0:32:09	SPEAKER_01
+ So...
+
+0:32:11	SPEAKER_01
+ Erm...
+
+0:32:12	SPEAKER_02
+ I'm with my dad.
+
+0:32:16	SPEAKER_01
+ So I think that's all for today.
+
+0:32:19	SPEAKER_01
+ Okay.
 
 0:32:20	SPEAKER_02
- 1.3.
+ We'll have to put in all this stuff.
 
-0:32:41	SPEAKER_01
- 1.3.
+0:32:23	SPEAKER_02
+ Meeting adjourned.
 
-0:32:59	None
- 1.3.
+0:32:24	SPEAKER_02
+ Meeting adjourned.
+
+0:32:25	SPEAKER_02
+ I think I've learned not to bring, play, note to meetings.
+
+0:32:30	SPEAKER_02
+ I think it would be a good idea.
+
+0:32:34	SPEAKER_02
+ I like it.
+
+0:32:35	SPEAKER_02
+ I'm probably not enough to get people actually paying attention, especially if you have food.
+
+0:32:44	SPEAKER_01
+ So I guess we're supposed to write final reports.
+
+0:32:48	SPEAKER_01
+ All of this?
+
+0:32:49	SPEAKER_01
+ I don't know.
+
+0:32:50	SPEAKER_02
+ Well, as well, I have nine...
+
+0:32:52	SPEAKER_00
+ Mmm...
+
+0:32:55	SPEAKER_01
+ Is that just me?
 

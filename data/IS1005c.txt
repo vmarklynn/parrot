@@ -1,434 +1,575 @@
-0:00:30	None
- Hanna, Hello, This meeting should be focused on conceptual design of the remote control.
+0:00:30	SPEAKER_03
+ Hello, this meeting should be focused on conceptual design of the remote control.
 
-0:00:50	SPEAKER_03
- The goal of this meeting is to reach a decision at the end of the concept I think the last time we talked about and we had a rough idea of what is going to be but at the end of this meeting we have to reach a decision.
+0:00:51	SPEAKER_03
+ The goal of this meeting is to reach a decision at the end on the concept and I think the last time we talked about a lot and we had a rough idea of what it is going to be but at the end of this meeting we have to reach a decision.
 
 0:01:12	SPEAKER_03
- So, we will have again three presentations from all of you and I hope it will be fast because I would like to have time to have a long discussion and decisions.
+ So we will have again three presentations from all of you and I hope it will be fast because I would like to have time to follow long description and decisions.
 
 0:01:29	SPEAKER_03
- So, we want to start.
+ So who wants to start?
 
 0:01:33	SPEAKER_01
- I so...
-
-0:01:34	SPEAKER_01
- Okay.
+ I think.
 
 0:01:35	SPEAKER_01
- No, no.
+ Okay.
 
 0:01:36	SPEAKER_01
+ No, no.
+
+0:01:37	SPEAKER_00
  You get a start.
 
-0:01:37	SPEAKER_01
- Okay, I'll start.
-
 0:01:38	SPEAKER_00
+ Okay, how's that?
+
+0:01:39	SPEAKER_00
  Can you open my presentation please?
 
-0:01:40	SPEAKER_00
- Good.
-
-0:01:50	SPEAKER_00
- The number four.
+0:01:46	SPEAKER_00
+ I'm number four.
 
 0:01:54	SPEAKER_03
- I'm trying this one.
+ Train this one?
 
-0:01:55	SPEAKER_03
+0:01:57	None
  Yep.
 
-0:02:01	SPEAKER_00
+0:01:58	SPEAKER_00
  Can you pass the mouse please?
 
 0:02:03	SPEAKER_00
- Okay, that's fine.
-
-0:02:05	SPEAKER_00
- Okay.
-
-0:02:06	SPEAKER_00
- So, basically I just want to present to you some recent results we've had from looking at some remote control market research and some fashion trends around the world.
+ Okay, so I'm basically just want to present to you some recent results we've had from looking at some remote control market research and some fashion trends around the world.
 
 0:02:23	SPEAKER_00
  Fashion trends we got from talking to our contacts in the fashion industry based in Paris and Milan.
 
-0:02:29	SPEAKER_00
- So, from our market research, basically we've come to the conclusion that a fancy look and feel as opposed to a functional look and feel is our number one priority.
+0:02:32	SPEAKER_00
+ So from our market research basically we've come to the conclusion that a fancy look and feel as opposed to a functional look and feel is our number one priority.
 
 0:02:44	SPEAKER_00
  Fancy is the highest priority.
 
-0:02:47	SPEAKER_00
- Secondly, that our remote control needs to be technologically innovative.
+0:02:48	SPEAKER_00
+ Secondly that our remote control needs to be technologically innovative.
 
-0:02:54	SPEAKER_00
- So, this is number two priority but it's two times less important as the fancy criteria.
+0:02:55	SPEAKER_00
+ So this is number two priority but it's two times less important as the fancy criteria.
 
 0:03:02	SPEAKER_00
- And thirdly, the easiness of use is important as well but again two times less important as the technologically innovativeness of the remote control.
+ And thirdly the easiness of use is important as well but again two times less important as the technologically innovativeness of the remote control.
 
-0:03:15	SPEAKER_00
- From our fashion people in Paris and Milan, we've discovered that this year fruit, the fruit and vegetable motif will be the most important thing in clothes, shoes and furniture.
+0:03:20	SPEAKER_00
+ From our fashion people in Paris and Milan we've discovered that this year the fruit and vegetable motif will be the most important thing in clothes, shoes and furniture.
 
 0:03:33	SPEAKER_00
- So, I'm pretty confident that our remote control fits into the furniture category.
+ So I'm pretty confident that our remote control fits into the furniture category.
 
 0:03:40	SPEAKER_00
- And also, the feel of material this year is expected to be spongy.
+ And also the feel of material this year is expected to be spongy.
 
 0:03:50	SPEAKER_00
- So, hopefully our remote control reflects that in some way.
+ So hopefully our remote control reflects that in some way.
 
-0:03:54	SPEAKER_02
+0:03:54	SPEAKER_00
  What does it mean spongy?
 
 0:03:57	SPEAKER_00
  Sort of squishy.
 
 0:04:00	SPEAKER_00
- Like soft or something?
+ Like soft or something.
 
 0:04:01	SPEAKER_00
- Yeah, soft. Like a sponge.
-
-0:04:04	SPEAKER_00
- Okay.
+ Yeah soft like a sponge.
 
 0:04:07	SPEAKER_00
- So, in conclusion, our remote control needs to be something that's really fancy.
+ So in conclusion our remote control needs to be something that's really fancy.
 
 0:04:13	SPEAKER_00
- It has lots of technology in it.
+ Has lots of technology in it.
 
 0:04:17	SPEAKER_00
- Somehow, we'd be good to have it related to fruit and vegetables with this spongy feel.
+ Somehow it would be good to have it related to fruit and vegetables with the spongy feel.
 
-0:04:22	SPEAKER_00
+0:04:23	SPEAKER_00
  And that's easy to use.
 
 0:04:25	SPEAKER_00
- And from our last meeting, Fabian taught us that one of the requirements is that we have to reflect the look and feel of the real reaction company.
+ And from our last meeting our you know Fabian told us that you know one of the requirements is that we have to reflect the look and feel of the real reaction company.
+
+0:04:36	SPEAKER_03
+ That's it.
 
 0:04:39	SPEAKER_03
- Is it to use?
+ Easy to use is it as much importance and technology offensive and it's less important
 
-0:04:43	SPEAKER_03
- As much as important and technology of fancy things.
-
-0:04:46	SPEAKER_03
- It's less important, right?
-
-0:04:48	SPEAKER_00
- Less important.
+0:04:47	SPEAKER_00
+ right? Less important.
 
 0:04:49	SPEAKER_00
- So, fancy-ness first and then 2.5 is important as that is technology.
+ Fancyness first and then two to you know half as important as that is technology.
 
 0:04:56	SPEAKER_00
- And then half important as technology is easy to use.
+ And half important as technology is easy to use.
 
 0:05:02	SPEAKER_03
- So, Ahmed, can you?
+ So Ahmed can you?
 
-0:05:04	SPEAKER_03
- Yeah, please.
+0:05:05	SPEAKER_01
+ Yeah.
 
-0:05:07	SPEAKER_01
- I'll show the presentation number 3.
-
-0:05:11	SPEAKER_02
+0:05:06	SPEAKER_02
  I think the biggest struggle will be the easy to use feature.
 
-0:05:15	SPEAKER_03
- Yeah. And number 3.
+0:05:14	SPEAKER_02
+ Yeah.
+
+0:05:16	SPEAKER_03
+ One number three.
 
 0:05:22	SPEAKER_03
  This one?
 
-0:05:24	SPEAKER_01
+0:05:25	SPEAKER_01
  Yes.
 
-0:05:30	SPEAKER_01
- I just could you please check if it is the first one or the second?
+0:05:27	SPEAKER_01
+ Just could you please check if it is the first one or the second?
 
-0:05:37	SPEAKER_01
- No, no, no, it's the first one.
+0:05:35	SPEAKER_01
+ No no no it's the first one.
 
 0:05:39	SPEAKER_01
  The second one.
 
 0:05:40	SPEAKER_03
- So, it's not this one.
+ And this one.
 
-0:05:47	None
+0:05:47	SPEAKER_01
  Okay.
 
-0:05:49	SPEAKER_00
- Okay.
-
-0:05:52	SPEAKER_01
- So, I'm going to talk about a little bit about how this remote control should be appear to be more easy to use.
+0:05:55	SPEAKER_01
+ So I'm going to talk about a little bit about how this remote control should be appear to be more easy to use.
 
 0:06:04	SPEAKER_01
- I think the feature is more important than being fancy, but we can discuss about it later.
+ I think I think the future is easy to use is more important than being fancy but okay we can discuss about it later.
 
-0:06:13	SPEAKER_01
- Generally, this remote control should be something in my opinion.
+0:06:16	SPEAKER_01
+ Generally this remote control should be something in my opinion.
 
-0:06:24	SPEAKER_01
+0:06:25	SPEAKER_01
  The first feature is just to be easy to use.
 
 0:06:27	SPEAKER_01
- So, the more frequent buttons should be larger, they should be placed in a good position inside the remote control.
+ So the more frequent buttons should be larger.
+
+0:06:31	SPEAKER_01
+ They should be placed in a good position inside the remote control.
 
 0:06:37	SPEAKER_01
  And I can conclude like this that we shouldn't need to learn how to use it.
 
 0:06:44	SPEAKER_01
- We shouldn't need to open a book and start reading and learning how to use this remote control.
+ It should be we shouldn't need to open a book and start reading and learning how to use this remote control.
 
-0:06:56	SPEAKER_01
- Okay.
+0:06:58	SPEAKER_01
+ Okay so what I found out that as I said I think it's better to put more frequent buttons which are used more in the middle of the remote control and they should be bigger in size.
 
-0:06:59	SPEAKER_01
- So, what I found out that, as I said, I think it's better to put more frequent buttons which are used more in the middle of the remote control.
+0:07:18	SPEAKER_01
+ The shape of remote control should be in a way which should be taken easily in hand.
 
-0:07:14	SPEAKER_01
- And they should be bigger in size.
-
-0:07:17	SPEAKER_01
- The shape of remote control should be in a way which should be taken easily in hand, it should not be completed like a cube.
+0:07:24	SPEAKER_01
+ It should not be completed like a cube.
 
 0:07:29	SPEAKER_01
- It should have round edge, so then it's easier and maybe just like some toys, some joystick which is easier to take inside the hand.
+ It should have round edge so then it's easier and maybe just like some toys some duosick which is easier to take inside the hand.
 
 0:07:41	SPEAKER_01
- And also, because customer doesn't like to buy a glass of battery, it should not consume a glass of energy.
+ And also because customer doesn't like to buy lots of battery it should not consume lots of energy.
 
 0:07:56	SPEAKER_01
- Okay. And my personal preference is, as I said, just putting these buttons in special places and cover some buttons which are not used that much, like settings buttons, like mobile phones, usually some mobile phones cover the dialing number part.
+ Okay and my personal preference is as I said just putting these buttons in special places and cover some buttons which are not used that much like settings buttons like mobile phone usually some mobile phone cover the dialling number part.
 
-0:08:19	SPEAKER_01
- So, we can cover these buttons which are not used or number buttons for the channels and just put volume change or channel change buttons in the remote control.
-
-0:08:37	SPEAKER_01
- And if the user needed to do some more complex tasks, he can open the cover and change settings or something like this.
+0:08:18	SPEAKER_01
+ So we can cover these buttons which are not used or number buttons for the channels and just put volume change or channel change buttons in the remote control and if the user needed to do some more complex tasks he can open the cover and then change settings or something like this.
 
 0:08:49	SPEAKER_01
- And also, I think if we put some buttons in size of the remote control, it can be used easier, not unremote control. I don't know if I can explain well, but just in size, for example, sliding or rolling stuff, if we put it in size, then we can easily manipulate it with a thumb.
+ And also I think if we put some buttons in size of the remote control it can be used easier not on remote control.
+
+0:09:01	SPEAKER_01
+ I don't know if I can explain well but just in size for example sliding or rolling stuff if we put it in size then we can easily manipulate it with thumb.
 
 0:09:17	SPEAKER_01
- So, it can be another preference. And I don't know, but I think you, the specific recognizer can be good. I know that it consumes lots of energy, but if we do it in some way, that it slips when there is no sound and when it detects some sound, it may consume less energy.
+ So it can be another preference.
+
+0:09:20	SPEAKER_01
+ And I don't know but I think usually just speech recognizer can be good.
+
+0:09:28	SPEAKER_01
+ I know that it consumes lots of energy but if we do it in some way that it sleeps when there is no sun and when it detects some sun it may consume less energy.
 
 0:09:40	SPEAKER_01
- And I think it's good because it's something new and usually young people like something new. So, it may not be very useful, but because it's new people may buy it.
+ And I think it's good because it's something new and usually young people like something new so it may not be very useful but because it's new people may buy it.
 
 0:09:54	SPEAKER_01
- I personally think there should be a big difference between something, otherwise they prefer to buy something which is coming from a famous company.
+ I personally think there should be a big difference between something otherwise they prefer to buy something which is coming from a famous company.
 
-0:10:12	SPEAKER_02
- Okay, so good news for me, for me from Hamet, but Benius from Bob, obviously because it's a pointy design, I don't know if it's an engine, but...
+0:10:06	SPEAKER_01
+ That's fine.
 
-0:10:24	SPEAKER_02
- Could you please go beyond opening? Yeah, I'm present too. And which one? Probably the first one, I'm not sure, but the first one. Most of the things I have to write myself on this board, but yeah, that's it.
+0:10:11	SPEAKER_02
+ Okay, good news for me from Hamet but then here's the remote obviously because it's pointy design and I don't like it as an engine but okay so could you please go down and open it?
+
+0:10:26	SPEAKER_02
+ Yeah.
+
+0:10:27	SPEAKER_02
+ First and two and which one probably the first one I'm not sure but check the first one.
+
+0:10:39	SPEAKER_02
+ Most of the things I have to write myself on this board but yeah that's it.
 
 0:10:47	SPEAKER_02
- It's only this slide. Yeah, this is just one thing I wanted to mention and show you that I just found this, that our company developed seven fingers or an inch TFT screen, which is good news for us since we wanted to include the display there.
+ It's only this slide.
 
-0:11:15	SPEAKER_02
- So, I probably draw it down the overall scheme. This is the stuff that I can use.
+0:10:50	SPEAKER_02
+ Yeah.
+
+0:10:52	SPEAKER_02
+ This is just one thing I wanted to mention and show you that I just found this that our company developed seven fingers or yeah seven inch TFT screen which is good news for us since we wanted to include the display there.
+
+0:11:17	SPEAKER_02
+ So I probably draw it down overall scheme.
+
+0:11:24	SPEAKER_02
+ This is the stuff that I can use.
 
 0:11:28	SPEAKER_02
- Okay, so this will be like the overall scheme or overall requirements from the engineering point of view.
+ So this will be like the overall scheme or overall requirements from the engineering point of view.
 
 0:11:38	SPEAKER_02
- First thing is this will be the overall shape. No, I'm not speaking about the real shape of the device, but the shape of the inside of the device.
+ First thing is this will be the overall shape.
+
+0:11:42	SPEAKER_02
+ Now I'm not speaking about the real shape of the device but the shape of the inside of the device.
 
 0:11:50	SPEAKER_02
- So there will be some circuit for the power, so say power circuit here.
+ So there will be some circuit for the power.
+
+0:11:56	SPEAKER_02
+ So say power circuit here.
 
 0:11:58	SPEAKER_02
- The main energy will be taken from batteries. And if we decide to use the speech recognition stuff there, we must use additional source of energy, which I found the best is to use the solar cells, which can supply everything.
+ The main energy will be taken from batteries that we can and if we decide to use the speech recognition stuff there we must use additional source of energy which I found the best is to use the solar cells which can supply everything.
 
 0:12:20	SPEAKER_02
- I was computing all the things related to the speech recognition and it's okay to use just two batteries and solar cells, so no problem. There can be also solar cells.
+ I was computing all the things related to the speech recognition and it's okay to use just two batteries and solar cells.
+
+0:12:26	SPEAKER_02
+ So no problem.
+
+0:12:27	SPEAKER_02
+ There can be also solar cell.
 
 0:12:30	SPEAKER_02
- The main board with all the circuits will take at least 7 to 7 centimeters. So this is my like hard requirement for the guys from the design.
+ The main board with all the circuits will take at least 7 to 7 centimeters so this is my like hard requirement for the guys from the design.
 
 0:12:42	SPEAKER_02
- So at least 7 to 7, it depends where you put your screen, because the screen is 7 inch, so it depends when you where you put it as a matter.
+ So at least 77.
 
-0:12:52	SPEAKER_02
- It's just one cord from the main board to the screen, which can be elsewhere. So this will be TFT.
+0:12:44	SPEAKER_02
+ It depends where you put your screen because the screen is 7 inch so it depends when you where you put it doesn't matter.
 
-0:13:02	SPEAKER_02
- And on the main board, we have the interface to the microphone, which is somewhere. Say here, interface to the microphone, then the graphical card for the TFT.
+0:12:53	SPEAKER_02
+ It's just one cord from the main board to the screen which can be elsewhere.
 
-0:13:18	SPEAKER_02
- And the third unit is the good news is that we decided to use the infrared unit, because our company has also developed the chip for communication by the infrared, including all the stuff inside, so it will be very cheap for us.
+0:12:58	SPEAKER_02
+ So this will be TFT.
 
-0:13:36	SPEAKER_02
- So infrared here. So once again, the overall requirement is 7 to 7 centimeters for the board, which can be spongy, but has to be this size.
+0:13:03	SPEAKER_02
+ And on the main board we have the interface to the microphone which is somewhere.
 
-0:13:48	SPEAKER_02
- And the TFT, which is 7 inches. I have to check what I want to do.
+0:13:12	SPEAKER_02
+ Say here.
 
-0:13:56	SPEAKER_02
- From my point of view, I don't care about the material used for the overall device.
+0:13:13	SPEAKER_02
+ Interface to the microphone then the graphical card for the TFT and the third unit is the IR.
 
-0:14:08	SPEAKER_03
- Can you fit any, for example, the TFT or any electronic device in a spongy thing, or is there any problem for that?
+0:13:22	SPEAKER_02
+ The good news is that we can we decided to use the infrared unit because our company has also developed the chip for communication by the infrared including all the stuff inside so it will be very cheap for us.
 
-0:14:18	SPEAKER_03
- Or could the electronic card on a spongy thing, can imagine it could be a problem?
+0:13:37	SPEAKER_02
+ So infrared here.
 
-0:14:26	SPEAKER_02
- All these things in this box are okay to put in any shape, basically. But we have to take care of the TFT sponginess. Maybe it's a good feature, since it takes, if it's around the TFT, then it's good, because it just keeps it safe.
+0:13:39	SPEAKER_02
+ So once again the overall requirement 7 to 7 centimeters for the board which can be this pointy but has to be this size and the TFT which is 7 inches.
+
+0:13:53	SPEAKER_02
+ I have to check what I wanted to.
+
+0:13:59	SPEAKER_02
+ From my point of view I don't care about the material used for the overall device.
+
+0:14:09	SPEAKER_03
+ Do you fit any TFT or any electronic device in a sponge thing or is there any problem for that?
+
+0:14:17	SPEAKER_03
+ For example, put the electronic card on a sponge thing.
+
+0:14:21	SPEAKER_03
+ I can imagine it could be a problem.
+
+0:14:23	SPEAKER_02
+ All these things in this box are okay to put in any shape basically.
+
+0:14:29	SPEAKER_02
+ But we have to take care of the TFT.
+
+0:14:32	SPEAKER_02
+ Wow.
+
+0:14:33	SPEAKER_02
+ It's a good feature since it takes if it's around the TFT.
+
+0:14:39	SPEAKER_02
+ And it's good because it just keeps it safe.
+
+0:14:43	SPEAKER_02
+ I don't know.
 
 0:14:44	SPEAKER_01
- Or maybe it's a hard shell inside, and maybe it puts electronic in a box and spongy thing around.
+ Maybe you can have two shells, a hard shell inside and a sponge.
 
-0:14:54	SPEAKER_02
- Which is that? Well, it's maybe related to the UI.
+0:14:49	SPEAKER_03
+ Maybe put electronic in a box and a sponge thing around.
 
-0:14:58	SPEAKER_02
+0:14:54	SPEAKER_03
+ Where is that?
+
+0:14:55	SPEAKER_02
+ Well, it's maybe related to the UI.
+
+0:14:57	SPEAKER_02
  Can I ask a question?
 
-0:15:00	SPEAKER_02
+0:14:59	SPEAKER_02
  Yeah, that's all for me.
 
 0:15:01	SPEAKER_00
- This 7-inch TFT screen. How big is it in reality?
+ This 7 inch TFT screen.
+
+0:15:03	SPEAKER_00
+ How big is it in reality?
 
 0:15:05	SPEAKER_02
  Well, 7 to 7 inches.
 
 0:15:07	SPEAKER_00
- So like that?
+ Sort of like that.
 
 0:15:09	SPEAKER_02
  Yes.
 
-0:15:11	SPEAKER_00
- That's quite big. We decided that we're going to use this TFT screen.
+0:15:10	SPEAKER_00
+ That's quite big.
+
+0:15:14	SPEAKER_00
+ We decided that we're going to use this TFT screen.
 
 0:15:17	SPEAKER_03
- I don't think it's 7 by 7, I think it's 7.
+ I don't think it's 7 by 7.
 
-0:15:20	SPEAKER_03
- To be honest, I was like, usually when this thing is 7 inches.
+0:15:19	SPEAKER_03
+ I think it's 7 by 7.
+
+0:15:21	SPEAKER_03
+ Usually when they say 7 inches.
 
 0:15:23	SPEAKER_03
- Even that is still like this big.
+ I mean, even that is still likely to speak.
 
 0:15:25	SPEAKER_03
- I don't know, I don't know, one each.
+ Yeah.
+
+0:15:26	SPEAKER_03
+ I don't know.
+
+0:15:27	SPEAKER_03
+ I don't know.
+
+0:15:28	SPEAKER_03
+ One each one.
+
+0:15:29	SPEAKER_03
+ Yeah, I should think.
 
 0:15:30	SPEAKER_02
- Honestly speaking, I was thinking that it was 7 centimeters initially, but I think we can cut it.
+ Honestly speaking, I was thinking that it was 7 centimeters initially.
+
+0:15:34	SPEAKER_02
+ It's 7 inches.
+
+0:15:36	SPEAKER_02
+ And I think we can cut it.
 
 0:15:39	SPEAKER_00
- Yeah, no problem.
+ You can cut the TFT screen.
+
+0:15:40	SPEAKER_00
+ Yeah.
+
+0:15:41	SPEAKER_00
+ No problem.
 
 0:15:42	SPEAKER_02
- Because then the size of the graphic card will be one-fourth.
+ Because then the size of the graphic card will be one fourth.
 
-0:15:47	SPEAKER_00
- So, yeah, but no problem to need to cut this screen.
+0:15:46	SPEAKER_00
+ So, you have no problem to meet your card screen.
 
-0:15:53	SPEAKER_02
- Okay, so for the same price, we have four screens now.
+0:15:53	SPEAKER_00
+ Okay.
+
+0:15:54	SPEAKER_02
+ So for the same price, we have four screens.
+
+0:15:56	SPEAKER_00
+ Okay.
 
 0:15:57	SPEAKER_03
- Okay.
+ Technica engineers.
 
 0:15:59	SPEAKER_00
  So what's the size of the device?
 
-0:16:02	SPEAKER_02
- Well, this is almost nothing. 7 to 7, 2 at least, some 3 millimeters or something.
+0:16:03	SPEAKER_02
+ Well, this is almost nothing.
+
+0:16:07	SPEAKER_02
+ 7 to 7, 2 at least, well some 3 millimeters or something.
 
 0:16:10	SPEAKER_00
- Even from my perspective, 7 to 7 centimeters by 7 centimeters is still...
+ Even from my perspective, 7 centimeters by 7 centimeters is still.
+
+0:16:14	None
+ Yeah.
 
 0:16:15	SPEAKER_02
- Yeah, but we wanted to put some stuff like that.
+ But we wanted to be spot- Can you hold that?
 
-0:16:20	SPEAKER_02
- Because if it's too small, we can lose it at home.
+0:16:18	SPEAKER_02
+ Stuff like that, you know.
+
+0:16:21	SPEAKER_02
+ Because if it's too small, we can lose it at home, you know.
 
 0:16:25	SPEAKER_03
- What's user ones? They want a small remote control?
+ What user wants?
 
-0:16:29	SPEAKER_03
- Yeah, small remote control.
+0:16:26	SPEAKER_03
+ They want a small remote control.
 
-0:16:32	SPEAKER_00
- It should be the big one.
+0:16:28	SPEAKER_03
+ Yeah.
 
-0:16:34	SPEAKER_00
- But is something that 7 centimeters square? Easy to hold.
+0:16:29	SPEAKER_00
+ It's a good control.
 
-0:16:38	SPEAKER_02
- Well, I think so. If the roller buttons are on the side, you don't have to catch it like that.
+0:16:30	SPEAKER_00
+ They can hold it in the hands of something.
+
+0:16:33	SPEAKER_00
+ But it's something that 7 centimeters square.
+
+0:16:36	SPEAKER_00
+ Easy to hold.
+
+0:16:37	SPEAKER_02
+ Well, I think so.
+
+0:16:40	SPEAKER_02
+ If the roller buttons are on the side, you don't have to catch it like that.
 
 0:16:44	SPEAKER_02
- But just like this and you know, follow, follow.
+ But just like this and, you know, follow, follow.
 
 0:16:47	SPEAKER_02
- Well, that's, there's no task for me, but...
+ Well, that's, does not task for me.
 
-0:16:51	SPEAKER_03
- So maybe you can finish your presentation enough to discuss this.
+0:16:50	SPEAKER_03
+ But, well, so maybe you can finish your presentation and after we discuss these experiences.
 
-0:16:56	SPEAKER_02
- Okay, thanks. That's it.
-
-0:16:59	SPEAKER_02
+0:16:55	SPEAKER_02
  Okay.
 
-0:17:13	SPEAKER_03
- So I think we have a lot... we have to take decision today.
+0:16:56	SPEAKER_02
+ Thanks.
 
-0:17:17	SPEAKER_03
- So I think we have some more to finalize our ID and take decisions.
+0:16:57	SPEAKER_02
+ That's it.
+
+0:16:58	SPEAKER_02
+ Okay.
+
+0:16:59	SPEAKER_03
+ So, so I think we have a lot.
+
+0:17:14	SPEAKER_03
+ We have to take decision today.
+
+0:17:16	SPEAKER_03
+ So I think we have to take some work to finalize our idea and take decisions.
 
 0:17:24	SPEAKER_03
  First, I think energy is a key problem because it depends what can we have as feature if we use only batteries, for example, or something like that.
 
 0:17:39	SPEAKER_03
- Because can we have LCD and speech recognition with battery and...
+ Because can we have LCD and speech recognition with battery and it's also related to the size of the, oh, still.
 
-0:17:44	SPEAKER_03
- It's also related to the size of the...
-
-0:17:49	SPEAKER_02
- Just the point to the energy is things.
+0:17:50	SPEAKER_02
+ Just a point to do energy things.
 
 0:17:54	SPEAKER_02
- If we use the batteries and the additional solar cell, then it's okay for speech recognition and LCDs.
+ If we use the batteries and the additional solar cell, then it's okay for speech recognition and LCD.
+
+0:18:03	SPEAKER_02
+ So no problem in energy.
 
 0:18:04	SPEAKER_02
- Oh no problem.
+ So, thing.
+
+0:18:05	SPEAKER_02
+ Okay.
 
 0:18:06	SPEAKER_02
- So, we have to use the solar cell.
+ But we have to use the solar cell.
+
+0:18:08	SPEAKER_03
+ Otherwise not.
 
 0:18:09	SPEAKER_03
- Otherwise, no.
+ Like, but using how many batteries, for example, or what?
 
-0:18:11	SPEAKER_03
- But using how many batteries, for example, maybe what is the size of the batteries?
+0:18:15	SPEAKER_03
+ Maybe what is the size of the batteries?
+
+0:18:17	SPEAKER_02
+ Yeah.
 
 0:18:18	SPEAKER_02
- I think we can just come in AA cells.
+ So, just common A-A cells.
 
 0:18:21	SPEAKER_02
- Okay, so like 1, 2, 5 centimeters, I don't know exactly, but...
+ Okay.
+
+0:18:22	SPEAKER_02
+ So like one or two, five centimeters.
+
+0:18:24	SPEAKER_02
+ I don't know exactly what.
 
 0:18:27	SPEAKER_00
  So if we use solar cells, where is the sun?
@@ -436,486 +577,549 @@
 0:18:31	SPEAKER_00
  If someone's watching TV inside.
 
-0:18:33	SPEAKER_02
- It doesn't need to be, it's just the daylight.
+0:18:32	SPEAKER_02
+ Oh, there's a need to be.
+
+0:18:34	SPEAKER_02
+ It's just the daylight, you know.
+
+0:18:36	SPEAKER_02
+ To come on eyes.
 
 0:18:38	SPEAKER_02
- I suppose that this remote control won't be in the room like this, where there is light only.
+ I suppose that this remote control won't be in the room like this, whereas there is light only.
 
-0:18:47	SPEAKER_03
+0:18:46	SPEAKER_03
  And there are people, but at least when there is TV, you can get light from the TV.
 
+0:18:52	SPEAKER_02
+ Yeah.
+
 0:18:53	SPEAKER_03
- I don't think it's the alarm.
+ I don't think so.
+
+0:18:54	SPEAKER_03
+ I don't know.
+
+0:18:55	None
+ Okay.
 
 0:18:56	SPEAKER_03
  Okay.
 
-0:18:59	SPEAKER_02
- It's a compromise, you know.
+0:18:57	SPEAKER_02
+ Well, it's a compromise, you know.
 
-0:19:04	SPEAKER_03
- At least it's new when maybe technology.
+0:19:01	SPEAKER_03
+ At least it's new and maybe technology.
 
-0:19:08	SPEAKER_02
- Yeah, that's why I wanted to innovate.
+0:19:07	SPEAKER_03
+ Yeah, the toy I want to introduce.
 
-0:19:11	SPEAKER_02
- Because of the speech recognition, because you want it all the different things.
+0:19:09	SPEAKER_02
+ You can put the speech recognition because you want it all in the same.
 
-0:19:14	SPEAKER_00
- But it's very useful.
+0:19:13	SPEAKER_00
+ And if you watch TV outside, it's very useful.
 
-0:19:17	SPEAKER_03
- I think before talking about the other thing, it's the case.
+0:19:16	SPEAKER_03
+ I think before talking about the other thing, it's important thing.
+
+0:19:21	SPEAKER_03
+ It's the case.
 
 0:19:23	SPEAKER_03
  What are going to be the size?
 
-0:19:25	SPEAKER_03
- Because it's with drives, there's what we are going to use as features and so on.
+0:19:24	SPEAKER_03
+ Because it's with drives, what we are going to use as features and so on.
 
 0:19:29	SPEAKER_03
- For example, for the LCD, if we choose to have a small device, we cannot use this.
+ For example, for the LCD.
 
-0:19:38	SPEAKER_02
- The screen is okay, but the board is a problem.
+0:19:31	SPEAKER_03
+ If we choose to have a small device, we cannot use this as such.
 
-0:19:44	SPEAKER_02
- What would you guess as a shape?
+0:19:37	SPEAKER_02
+ Oh, the screen is okay about the board.
+
+0:19:41	SPEAKER_02
+ That's a problem.
+
+0:19:43	SPEAKER_02
+ Well, what would you guess as a shape or what would be the shape?
 
 0:19:49	SPEAKER_01
- I think the bank large or small is not important.
+ I think the bank, large or small is not important.
 
 0:19:54	SPEAKER_01
- The only important thing is to be able to take it in the sidehand easily.
+ The only important thing is to be able to take it inside hand easily.
 
-0:20:00	SPEAKER_01
- So let's say an average size, and it should not be very heavy also.
+0:19:59	SPEAKER_01
+ So let's say an average size, okay, and it should not be very heavy also.
 
 0:20:06	SPEAKER_01
  And I prefer to, it shouldn't have a uniform shape.
 
-0:20:11	SPEAKER_01
- So in the middle, it should be a little bit thinner, maybe, maybe.
+0:20:10	SPEAKER_01
+ So in the middle, it should be a little bit thinner maybe.
 
-0:20:16	SPEAKER_01
+0:20:15	SPEAKER_01
  So it's like some joysticks.
 
 0:20:19	SPEAKER_01
- You can take some joysticks.
+ You can take, some joysticks, you can take inside hand easier because it's designed for your taking into account your finger shape and your palm shape.
 
-0:20:22	SPEAKER_01
- You can take insidehand easier, because it's designed for your taking into account your finger shape and your palm shape.
+0:20:31	SPEAKER_01
+ So the general shape should be like this.
 
-0:20:32	SPEAKER_01
- The general shape should be like this. I think 7 cm by 7 cm is a little bit large.
+0:20:34	SPEAKER_01
+ I think 7 cm by 7 cm is a little bit large.
 
-0:20:41	SPEAKER_01
- So not 7, but let's say 5 by 10.
+0:20:40	SPEAKER_01
+ So 7, not 7, but let's say 5 by 10.
 
 0:20:49	SPEAKER_01
- I think that's my opinion.
+ I think it's just my opinion.
 
-0:20:52	SPEAKER_01
+0:20:51	SPEAKER_01
  Which is the same area.
+
+0:20:53	SPEAKER_00
+ Yeah.
 
 0:20:54	SPEAKER_00
  Could you redesign your board?
 
-0:20:57	SPEAKER_00
+0:20:56	SPEAKER_02
  5 to 10.
 
-0:20:59	SPEAKER_00
- Which is 10 cm by 10 cm?
+0:20:57	SPEAKER_00
+ Oh, 5 centimeters by 10 centimeters.
+
+0:21:00	SPEAKER_02
+ Yeah, right.
 
 0:21:02	SPEAKER_02
- I think it's fissure.
+ Yeah, I think it's feasible.
 
 0:21:05	SPEAKER_02
- Well, one...
-
-0:21:08	SPEAKER_02
- How could we do it?
+ Well, one, how could we do it?
 
 0:21:10	SPEAKER_02
- We could put the board under the LCD, and for example make the LCD be totally unrelated to the thing that you hold in your hand.
+ We could put the board next to, well, under the LCD.
 
-0:21:21	SPEAKER_02
- Like holding something and the LCD to be just on top of it.
+0:21:14	SPEAKER_02
+ And for example, make the LCD be totally unrelated to the thing that you hold in your hand, like holding something and the LCD should be just on top of it, you know, somehow.
 
-0:21:27	SPEAKER_02
+0:21:28	SPEAKER_02
  But maybe let's stick to the spongy thing, like one unit.
 
 0:21:32	SPEAKER_02
- 5 to 10, it would be fissure.
+ 5 to 10.
 
-0:21:34	SPEAKER_03
- That is just thing could be two.
-
-0:21:36	SPEAKER_03
- Two after smaller LCD, if it's possible.
+0:21:33	SPEAKER_03
+ So I think it's just thing could be to have a smaller LCD if it's possible.
 
 0:21:40	SPEAKER_02
  Okay, so 5 to 10, I think it's feasible.
 
 0:21:44	SPEAKER_03
- So we are doing it with a smaller LCD.
+ So we have to be with a smaller.
+
+0:21:47	SPEAKER_01
+ Or a 3 to 5 by 10.
 
 0:21:48	SPEAKER_01
- I don't know, but I don't want to now invent something new, because we didn't discuss about it.
+ All right, I don't know, but I don't want to now invent something new because we didn't discuss about it.
 
 0:21:53	SPEAKER_01
- So using some LCDs we can touch so we can remove keys and just having...
-
-0:22:00	SPEAKER_01
- I don't know the name.
+ So using some LCDs, we can touch, so we can remove keys and just having, I don't know, the name.
 
 0:22:02	SPEAKER_01
- LCD is supposed to be a finger touching screen.
+ I'll see the response into fingers touching the screen.
+
+0:22:06	SPEAKER_01
+ Some touch.
 
 0:22:07	SPEAKER_01
- Touch screen.
+ Some touch.
 
-0:22:10	SPEAKER_01
- But for now if we don't want to use such kind of screen, I think using a smaller screen is better.
+0:22:08	SPEAKER_01
+ So, but for now, if we don't want to use such kind of screen, I think we're using a
 
-0:22:19	SPEAKER_03
- Because the problem is we have a limited amount of time, so we cannot do something very new.
+0:22:16	SPEAKER_03
+ smaller screen is better because the problem is we have a limited amount of time, so we cannot do something very new.
 
 0:22:26	SPEAKER_03
- So that's both a small LCD.
+ So that's both for small LCD.
 
-0:22:29	SPEAKER_02
- Yes, so just give me the 5 by 10 numbers that you find the best and send it to me at my live by 10.
+0:22:28	SPEAKER_02
+ Yeah, so just give me the 5 by 10 numbers that you find the best and send me.
 
-0:22:37	SPEAKER_01
+0:22:35	SPEAKER_01
+ So 5 by 10.
+
+0:22:39	SPEAKER_03
  Okay.
 
-0:22:46	SPEAKER_03
- So what about the case we talked about?
+0:22:47	SPEAKER_03
+ So what about, so the case we talked about?
 
 0:22:53	SPEAKER_03
- Is it to use?
+ Something easy to use.
 
-0:22:55	SPEAKER_03
- You said something is it to use, but how does that fit in a fashion way?
-
-0:22:59	SPEAKER_03
- Like with fruit and vegetable?
-
-0:23:02	SPEAKER_03
- What's the color and logo of the company?
+0:22:54	SPEAKER_03
+ But how does that fit in a fashion way like with fruit and vegetable and about the color and logo of the company and so on.
 
 0:23:07	SPEAKER_03
- And so now can we do that?
+ Now, can we do that?
 
 0:23:12	SPEAKER_03
- My first idea is because our color is more yellow and it should be easy to take in a hand.
+ My first idea is because our color is more yellow and it should be easy to take in your hand, I thought about banana or something like that, which is fruit and 7 to 10 banana.
 
-0:23:20	SPEAKER_03
- I thought about banana or something like that, which is fruit.
+0:23:26	SPEAKER_02
+ A big banana.
 
-0:23:25	SPEAKER_02
- I'm 7 to 10 banana.
+0:23:29	SPEAKER_02
+ More yellow.
+
+0:23:30	SPEAKER_02
+ Rather mango or something.
 
 0:23:32	SPEAKER_00
- It's definitely the obvious choice with the color of your company.
+ Well, it's definitely obvious choice with the color of our company.
+
+0:23:36	SPEAKER_00
+ I mean, what are the other fruit vegetables?
 
 0:23:38	SPEAKER_00
- But just an idea, I don't know what you think about it.
+ Just an idea.
+
+0:23:39	SPEAKER_00
+ I don't know what you feel about.
+
+0:23:40	SPEAKER_00
+ Do you know any other fruit and vegetables that are yellow?
 
 0:23:43	SPEAKER_03
- I don't know if you can fit with the technology you have with the specialists.
+ Yeah.
 
-0:23:49	SPEAKER_02
- I think banana.
+0:23:44	SPEAKER_03
+ I don't know if you can fit with the technology you want to specialist.
 
-0:23:56	SPEAKER_02
- If the banana is big enough, then yes.
+0:23:47	SPEAKER_02
+ I don't know if you want to put that in banana.
+
+0:23:52	SPEAKER_02
+ Well, but if it's, if the banana is big enough, then yes.
 
 0:24:04	SPEAKER_02
- So if you want to look at the screen and banana, you know.
+ So if you want to look at the screen at banana, you know.
+
+0:24:10	SPEAKER_03
+ Yeah.
 
 0:24:11	SPEAKER_03
- I think the screen has to be square or it can be like a shape quite.
+ I think this is the screen that has to be square or it can be like a shape quite.
 
-0:24:20	SPEAKER_02
- It can be whatever you want.
+0:24:19	SPEAKER_02
+ Well, it can be whatever you want.
 
-0:24:23	SPEAKER_02
+0:24:22	SPEAKER_02
  But if it's square, then we get four screens out of one by cutting just.
 
 0:24:27	SPEAKER_02
  But if you want some shape, then we can only get like two screens out of 7 to 7 inches.
 
-0:24:34	SPEAKER_02
- It's like more expensive to have a shape like that, but I don't care.
+0:24:33	SPEAKER_02
+ So it's like more, more expensive to have shaped like that.
 
-0:24:40	SPEAKER_02
- I think it's a big requirement.
+0:24:37	SPEAKER_02
+ But I don't care.
+
+0:24:39	SPEAKER_02
+ You know, if we, if we, if we're quite a man.
 
 0:24:43	SPEAKER_00
  I'd like a shaped screen.
 
-0:24:45	SPEAKER_00
- I think that's more important than saving a bit of money on the TFT screen.
+0:24:44	SPEAKER_00
+ I think that's more important than saving a bit of money on, on the TFT screen.
 
-0:24:50	SPEAKER_02
- Maybe the banana could be a bit fatter than the cut common one.
+0:24:49	SPEAKER_02
+ Maybe the banana could be like a bit fatter than the car, the car coming in one.
 
 0:24:55	SPEAKER_03
- Yeah, you should remember banana, but it doesn't have to be a banana.
+ Yeah, you should remember banana, but it doesn't have to be like banana.
+
+0:25:00	SPEAKER_03
+ Like more than banana, okay.
 
 0:25:01	SPEAKER_03
- It's a size and exactly the shape of banana.
+ Where is the size and exactly the shape of banana.
 
 0:25:06	SPEAKER_02
- So well, we stick to banana.
+ Okay.
 
-0:25:10	SPEAKER_00
+0:25:09	SPEAKER_00
  Yeah, banana is good.
 
-0:25:13	SPEAKER_03
- So, the last point we decided it's in 4 red.
+0:25:11	None
+ Okay.
+
+0:25:12	SPEAKER_03
+ So, this is the last point we decided it's in far-right.
+
+0:25:22	SPEAKER_03
+ Yes.
 
 0:25:23	SPEAKER_03
- Yes, that's the right answer.
+ Yes, I think about the concept.
 
-0:25:30	SPEAKER_03
- So that's it. I think about the concept. You have other thing to add to this point.
+0:25:31	SPEAKER_03
+ You have also thing to add to this point.
 
-0:25:39	SPEAKER_03
+0:25:36	SPEAKER_03
  No.
 
-0:25:41	SPEAKER_03
- But the user interface, we are going to use LCD.
+0:25:39	SPEAKER_03
+ So, about the user interface.
+
+0:25:43	SPEAKER_03
+ So we are going to use NCD.
 
 0:25:46	SPEAKER_03
- In the last meeting, we talked about hidden buttons.
+ In the last meeting we talked about hidden buttons.
 
 0:25:51	SPEAKER_03
  I don't know what we're going to do with that.
 
-0:25:55	SPEAKER_03
- You talked about the feeling of buttons on the side.
+0:25:54	SPEAKER_03
+ You talked about healing buttons on the side.
 
-0:25:59	SPEAKER_02
+0:25:57	SPEAKER_01
+ Yes, that's banana.
+
+0:25:58	SPEAKER_02
  It would be cool.
 
+0:25:59	SPEAKER_02
+ Yeah.
+
+0:26:00	SPEAKER_02
+ Yeah.
+
 0:26:01	SPEAKER_02
- Feeling of the banana, you know, you should discover the other buttons.
+ Feeling of the banana, you know.
 
-0:26:08	SPEAKER_03
- And you mean the first layer would be spongy?
+0:26:02	SPEAKER_02
+ Yeah.
 
-0:26:13	SPEAKER_02
- Obviously.
+0:26:03	SPEAKER_02
+ Discover the other buttons.
 
-0:26:15	SPEAKER_02
- So it's like silly, but the people will appreciate it.
+0:26:05	SPEAKER_03
+ Yeah.
 
-0:26:19	SPEAKER_03
+0:26:06	SPEAKER_03
+ Okay.
+
+0:26:07	SPEAKER_03
+ And you mean the first layer would be spongy.
+
+0:26:11	SPEAKER_03
+ Yeah.
+
+0:26:12	SPEAKER_02
+ First layer, open the spoon.
+
+0:26:14	SPEAKER_02
+ So, it's like silly, but the people will appreciate it.
+
+0:26:18	SPEAKER_03
  Is it possible to do that?
 
-0:26:21	SPEAKER_03
- It would be a great idea, but possible technique.
+0:26:20	SPEAKER_03
+ It would be a great idea, but possible technical.
 
-0:26:27	SPEAKER_03
- Like doing spongy layer.
+0:26:25	SPEAKER_03
+ Like doing a spongy layer of the banana.
 
 0:26:30	SPEAKER_00
- If we have a spongy layer on the outside of the banana, it's easy to manipulate that.
+ If we have a spongy layer on the outside of the banana, then it's easy to manipulate that to be a cover that you can pull off.
 
-0:26:39	SPEAKER_00
- It would be a cover that you can pull off.
+0:26:40	SPEAKER_01
+ Something like plastic cover covering some interface, USB interfaces in digital cameras.
 
-0:26:41	SPEAKER_01
- Something like a plastic cover covering some interface, USB interfaces in digital camera.
-
-0:26:51	SPEAKER_01
- You see, it's like pulling you open a plastic cover and you see some USB interfaces, some interfaces for adaptors.
+0:26:50	SPEAKER_01
+ You see it's like pulling you open a plastic cover and you see some USB interfaces, some interfaces for adapter.
 
 0:27:00	SPEAKER_01
  So, buttons can be covered like this with a plastic cover.
 
-0:27:06	SPEAKER_01
+0:27:05	SPEAKER_01
  And when you open this cover, it's like pulling a banana.
 
-0:27:10	SPEAKER_01
- So something like this.
+0:27:09	SPEAKER_01
+ So, something like this.
 
-0:27:13	SPEAKER_03
- But do you see that as a rigid thing?
+0:27:12	SPEAKER_03
+ Yeah, but do you see that as rigid thing or like a banana?
 
-0:27:17	SPEAKER_03
- Like a banana, something very soft.
+0:27:18	SPEAKER_03
+ Something very soft. You can open a banana.
 
 0:27:22	SPEAKER_02
  Is it possible to make it soft?
 
+0:27:24	SPEAKER_02
+ Yeah.
+
 0:27:25	SPEAKER_01
- Yeah, it's like a plastic cover.
+ It's like a plastic cover.
 
-0:27:28	SPEAKER_01
- So I think it's so that it's cool.
+0:27:27	SPEAKER_01
+ So, I think it's so.
 
-0:27:30	SPEAKER_03
+0:27:29	SPEAKER_03
  I don't know what you think, Bob, but it would be great for users, I think.
 
+0:27:33	SPEAKER_03
+ I think for sure.
+
 0:27:34	SPEAKER_00
- I think for sure, definitely the softer the better.
+ Definitely the softer the better.
+
+0:27:36	SPEAKER_00
+ Yeah.
 
 0:27:37	SPEAKER_00
  Cool.
 
-0:27:40	SPEAKER_02
- I was just speaking, I cannot imagine it so far, but it will be terrible.
+0:27:38	SPEAKER_02
+ Oh, it's the speaker.
 
-0:27:47	SPEAKER_02
- Yeah, it's sitting in buttons.
+0:27:43	SPEAKER_02
+ I cannot imagine it so far, but it will be terrible.
 
-0:27:54	SPEAKER_03
- He doesn't know.
+0:27:47	SPEAKER_03
+ Sitting buttons hidden in a...
 
-0:28:18	SPEAKER_03
- Is there any other remarks or something we didn't talk about?
+0:27:57	SPEAKER_03
+ Over remarks.
 
-0:28:24	SPEAKER_03
- Yes, yes.
+0:28:19	SPEAKER_03
+ Something we didn't talk about, yes.
 
-0:28:27	SPEAKER_03
+0:28:26	SPEAKER_03
  I think we're almost there.
 
 0:28:32	SPEAKER_03
- Maybe, if we have a soft thing like this, and to open it, we have to attach it somewhere.
+ Maybe how can we, if we have a soft thing like this, and to open it we have to attach it somewhere.
 
-0:28:43	SPEAKER_03
- I don't know how to do that, technically.
+0:28:42	SPEAKER_03
+ I don't know how to do that.
 
-0:28:48	SPEAKER_00
- Could you spell card?
+0:28:47	SPEAKER_00
+ I could use Velcro.
 
-0:28:52	SPEAKER_00
- Maybe magnetic.
+0:28:50	SPEAKER_00
+ Yeah, maybe magnetic.
 
-0:28:55	SPEAKER_01
- It's a good idea.
+0:28:53	SPEAKER_01
+ Yes, it's a good idea.
 
-0:28:57	SPEAKER_03
+0:28:56	SPEAKER_01
  Magnetic.
 
-0:29:00	SPEAKER_01
- Yeah, it can be a plastic cover sticking to all this stuff.
+0:28:57	SPEAKER_03
+ Magnetic?
 
-0:29:08	SPEAKER_01
- Magnetic materials in the border, so it sticks like refrigerator door completely.
+0:28:58	SPEAKER_01
+ Yeah, it can be a plastic cover sticking to the oldest stuff, like magnetic materials in the border.
+
+0:29:15	SPEAKER_01
+ So, it sticks like a refrigerator door completely.
 
 0:29:21	SPEAKER_01
- When you try to open it, it will be opened easily.
+ And when you try to open it, it will be opened easily.
 
-0:29:26	SPEAKER_01
- You can be sure that it will not be opened while you are commonly using buttons under the banner.
+0:29:25	SPEAKER_01
+ So, you can be sure that it will not be opened while you're commonly using buttons under the manner.
 
 0:29:47	SPEAKER_03
- And what would be the material of the first layer?
+ It could be the material of the first layer, I mean, like soft plastic.
 
-0:29:53	SPEAKER_03
- Soft plastic?
+0:29:56	SPEAKER_00
+ Yeah, I imagine some sort of vinyl thing, in a sort of a... with a suede sort of feel.
 
-0:29:57	SPEAKER_00
- I imagine some sort of vinyl.
+0:30:07	SPEAKER_02
+ Well, since the things like the screen and the solar cell has to be kept in shape, we cannot.
 
-0:30:02	SPEAKER_00
- With a swayed feel.
-
-0:30:08	SPEAKER_02
- Since the things like the screen and solar cell has to be kept in shape.
-
-0:30:24	SPEAKER_02
- We need that to be linked.
-
-0:30:33	SPEAKER_02
- We should take care of these two things.
+0:30:23	SPEAKER_02
+ So, we need that appealing.
 
 0:30:38	SPEAKER_02
- If the solar cell won't be visible while the banana is closed, then the material must be able to put light inside.
-
-0:30:50	SPEAKER_02
- So that we can raise the energy out of it.
+ So, if the solar cell won't be visible while the banana is closed, then the material must be able to put the light inside, you know, so that we can reach the energy out of it.
 
 0:30:55	SPEAKER_00
- So you're saying it's possible to have a solar cell and this removable cover.
+ So, your sign is possible to have a solar cell and this removable cover.
+
+0:31:00	SPEAKER_02
+ It is possible, but...
+
+0:31:02	SPEAKER_02
+ And a banana.
 
 0:31:04	SPEAKER_02
- I don't know.
+ I don't know how to do it, if it's better to put the solar cell to the peeling, or inside, but then it must be some window.
 
-0:31:07	SPEAKER_02
- Let's do it.
+0:31:22	SPEAKER_03
+ And something we forgot maybe about the speech recognition system, now we're going to use it.
 
-0:31:09	SPEAKER_02
- If it's better to put the solar cell to the peeling.
-
-0:31:16	SPEAKER_02
- Or inside, but then it must be some window.
-
-0:31:23	SPEAKER_03
- And something we forgot maybe about the speech recognition system.
-
-0:31:30	SPEAKER_01
- I think it's important.
+0:31:30	SPEAKER_00
+ I think it's important, I think, one of our...
 
 0:31:34	SPEAKER_00
- It seems feasible and it's something for technology.
+ It's very big, something very bright.
 
-0:31:37	SPEAKER_03
- So we have the design, the good shape, new and so on.
-
-0:31:42	SPEAKER_03
- And we have also the technology thing.
+0:31:36	SPEAKER_03
+ So, we have the designs, a good shape, new and so on, and we have also the technology thing, it won't be.
 
 0:31:45	SPEAKER_03
- Even the easy to use things.
+ And even the easy to use thing, so it will be perfect.
 
 0:31:49	SPEAKER_03
- So we also have speech recognition.
+ So, we had also the speech recognition device.
 
-0:32:02	SPEAKER_03
- So that's great.
+0:31:52	SPEAKER_03
+ So, that's great, we have decided everything and I think, wow, in a good way.
 
-0:32:03	SPEAKER_03
- We have decided everything and think well on a good way.
+0:32:09	SPEAKER_03
+ So, the next meeting we start in 30 minutes.
 
-0:32:13	SPEAKER_03
- The next meeting we start in 30 minutes.
+0:32:18	SPEAKER_03
+ So, the industry and manager will work on the look and feel design.
 
-0:32:20	SPEAKER_03
- So the industrial manager will work on the look and fill design.
+0:32:29	SPEAKER_03
+ The user interface manager will work on the user interface device and the marketing expert will do the first product evaluation.
 
-0:32:30	SPEAKER_03
- The user interface manager will work on the user interface device.
+0:32:46	SPEAKER_03
+ So, I hope you can do that in 30 minutes.
 
-0:32:41	SPEAKER_03
- And the marketing expert will do the first product evaluation.
-
-0:32:48	SPEAKER_03
- So I hope you can do that in 30 minutes.
-
-0:32:54	SPEAKER_03
- I think you should work together with your Hamad and Peter to work in a first prototype.
-
-0:33:06	SPEAKER_03
- And more about the shape and so on.
+0:32:51	SPEAKER_03
+ And, yeah, I think you should work together, you have made a picture to work in the first prototype, and more about the shape and so on, and how you can manage to put everything together.
 
 0:33:13	SPEAKER_03
- And as usual, you will receive some specific instructions.
+ And, as usual, you will receive some specific instructions and so on.
 
-0:33:21	SPEAKER_03
+0:33:19	SPEAKER_03
  Thank you everybody and see you in 30 minutes.
 
-0:33:24	SPEAKER_00
- Thank you.
+0:33:23	SPEAKER_00
+ Okay, thank you.
 
-0:33:54	None
+0:33:53	None
  Thank you.
 

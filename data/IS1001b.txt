@@ -1,23 +1,29 @@
 0:00:00	SPEAKER_00
  Okay, everyone's ready.
 
-0:00:28	SPEAKER_00
+0:00:27	SPEAKER_00
+ Hello.
+
+0:00:30	SPEAKER_00
  So we are here for our functional design.
 
 0:00:35	SPEAKER_00
- Okay. So we are here for the functional design meeting.
+ Okay.
+
+0:00:37	SPEAKER_00
+ So we are here for the functional design meeting.
 
 0:00:44	SPEAKER_00
  So first I will show the agenda.
 
 0:00:48	SPEAKER_00
- So I will take notes during this meeting.
+ So we will, I will take notes during this meeting.
 
 0:00:53	SPEAKER_00
- So I will try to summarize it and put that summary in the shared folder if you want to look at it afterwards.
+ So I will try to summarize it and put that somewhere in the shed folder if you want to look at it afterwards.
 
 0:01:03	SPEAKER_00
- So then each of you will lead a presentation on the task that has been required last time.
+ So then each of you will lead the presentation on the task that has been required last time.
 
 0:01:11	SPEAKER_00
  So user requirements, specification, technical function design and working design.
@@ -25,41 +31,35 @@
 0:01:18	SPEAKER_00
  Then I will present you some new project requirements I received from the management board.
 
-0:01:28	SPEAKER_00
+0:01:29	SPEAKER_00
  Then we will take the decision on the remote control needed functions.
 
-0:01:36	SPEAKER_00
- And then I will assign you to task for the next part of the meeting of the process.
+0:01:37	SPEAKER_00
+ And then I will assign you to task for the next part of the meeting, of the process.
 
 0:01:49	SPEAKER_00
- So we want to start the presentation of what they do.
+ So we want to start the presentation of what the...
 
-0:01:59	SPEAKER_01
+0:01:55	SPEAKER_01
  Do you want to start?
 
-0:02:01	SPEAKER_03
- You can start.
-
-0:02:08	SPEAKER_03
- You have a PowerPoint.
+0:02:00	SPEAKER_03
+ I can start.
 
 0:02:10	SPEAKER_03
- It should be in the folder, no?
+ Should be my folder, no?
 
 0:02:13	SPEAKER_00
- I am maybe there.
+ Yeah, maybe there.
 
-0:02:15	SPEAKER_00
- Okay.
-
-0:02:16	SPEAKER_03
+0:02:17	SPEAKER_03
  Where are you?
 
-0:02:18	SPEAKER_03
- I'm Triasnick.
+0:02:20	SPEAKER_05
+ I'm still here.
 
 0:02:27	SPEAKER_00
- Ouch.
+ I'm going to go out.
 
 0:02:32	SPEAKER_02
  Okay.
@@ -67,290 +67,422 @@
 0:02:33	SPEAKER_00
  There is a technical problem.
 
-0:02:37	SPEAKER_03
+0:02:35	SPEAKER_03
  Do you think we said it in the wrong folder?
 
-0:02:42	SPEAKER_03
- It was somewhere in something like this.
+0:02:40	SPEAKER_03
+ Maybe.
+
+0:02:41	SPEAKER_03
+ Is it possible?
+
+0:02:43	SPEAKER_03
+ You put it somewhere in something like this.
 
 0:02:46	SPEAKER_03
- I don't remember the name.
+ I don't remember the name of something like messenger army or something.
 
 0:02:49	SPEAKER_01
- What do you have in short?
+ What do you have in shortcut?
 
 0:02:51	SPEAKER_01
  Go up.
 
 0:02:52	SPEAKER_01
- But it's been two.
+ Participant too.
 
 0:02:53	SPEAKER_03
- Go up.
+ Yeah, go up.
 
-0:02:55	SPEAKER_03
+0:02:55	SPEAKER_02
+ Yeah.
+
+0:02:56	SPEAKER_03
  Again?
 
-0:02:58	SPEAKER_03
+0:02:57	SPEAKER_03
  No.
 
-0:02:59	SPEAKER_03
- We will back.
+0:02:58	SPEAKER_03
+ We are back.
 
 0:03:00	SPEAKER_03
- Maybe we have to enter the RAM.
+ We have no...
 
-0:03:04	SPEAKER_03
- We have to enter.
+0:03:02	SPEAKER_03
+ Maybe messenger army.
+
+0:03:05	SPEAKER_03
+ Messenger.
 
 0:03:06	SPEAKER_03
  Over?
 
-0:03:08	SPEAKER_02
+0:03:07	None
  Okay.
 
-0:03:09	SPEAKER_03
+0:03:08	SPEAKER_03
  No, there is nothing.
 
-0:03:15	SPEAKER_00
+0:03:11	None
  There is no...
 
-0:03:17	SPEAKER_00
+0:03:14	SPEAKER_00
  We have a technical problem.
 
-0:03:19	SPEAKER_01
- Otherwise, could you just describe by hand?
+0:03:19	SPEAKER_03
+ Yeah.
 
-0:03:24	SPEAKER_01
- With the whiteboard.
+0:03:20	SPEAKER_01
+ Otherwise, could you just describe by hand with the white ball?
+
+0:03:26	SPEAKER_00
+ Yeah.
 
 0:03:27	SPEAKER_00
  If you remember, yeah.
 
-0:03:30	SPEAKER_03
- Basically, what we want here is remote control.
+0:03:29	SPEAKER_03
+ Yeah.
 
-0:03:36	SPEAKER_03
- Of course, we want to control.
+0:03:30	SPEAKER_03
+ So basically, what we want here is a remote control, right?
+
+0:03:34	SPEAKER_03
+ Yeah.
+
+0:03:35	SPEAKER_03
+ So the question goes first of all, what to control?
 
 0:03:38	SPEAKER_03
- Most people want to have a remote for the high-fi and TV and stuff like that.
+ So most people want to have a remote for the high-five and TV and stuff like that.
 
 0:03:45	SPEAKER_03
  But other people want also remote for controlling toys like robotic pets and robots and stuff.
 
-0:03:53	SPEAKER_03
- Other people also want to have remote for controlling the whole house.
+0:03:54	SPEAKER_03
+ And other people also want to have remotes for controlling the whole house.
 
 0:04:00	SPEAKER_03
- There is a project called X-Houd or something like that.
+ Yeah.
+
+0:04:01	SPEAKER_03
+ So there is a project I think called X-Houd or something like that.
+
+0:04:04	SPEAKER_03
+ That does that.
 
 0:04:05	SPEAKER_03
  You can integrate your remote with computers and stuff.
 
+0:04:09	SPEAKER_03
+ So there is one, not one thing.
+
 0:04:11	SPEAKER_03
- There is one thing.
+ The other thing is the finder feature by whistling or whatever.
 
-0:04:12	SPEAKER_03
- The other thing is the finder feature by Wistling or whatever.
+0:04:20	SPEAKER_03
+ If you have the finder feature, then you can also have at the same time, general voice commands if you want.
 
-0:04:19	SPEAKER_03
- If you have the finder feature, then you can also have, at the same time, any general Wist commands.
-
-0:04:26	SPEAKER_03
- If you want.
+0:04:28	SPEAKER_03
+ Yeah.
 
 0:04:29	SPEAKER_03
- I think it should be a packet in that case.
+ So I think it would be a package in that case.
 
 0:04:33	SPEAKER_03
- Usually, the Facebook consists of two parts.
+ So the user in the Facebook consists of two parts.
 
 0:04:36	SPEAKER_03
- One is the voice command.
-
-0:04:37	SPEAKER_03
- The one is the actual buttons part.
+ One is the voice command part and one is the actual buttons part.
 
 0:04:41	SPEAKER_03
- The buttons part would be a set of buttons for choosing devices.
+ The buttons part would be a set of buttons for choosing devices, a set of buttons for spatial navigation and space, a set of buttons for linear access of medium and a set of buttons for random access.
 
-0:04:46	SPEAKER_03
- A set of buttons for special navigation in space.
-
-0:04:50	SPEAKER_03
- A set of buttons for linear access of medium and a set of buttons for random access.
+0:04:59	SPEAKER_01
+ Okay.
 
 0:05:00	SPEAKER_01
+ Yeah.
+
+0:05:01	SPEAKER_01
  What do you mean by linear access?
 
 0:05:03	SPEAKER_03
- Video tape goes forward backwards, fast and stuff.
+ Like a video tape goes forward backwards, fast and stuff.
 
-0:05:08	SPEAKER_00
- Special navigation, linear access, random access and there is a false one.
+0:05:06	SPEAKER_03
+ Yeah.
 
-0:05:16	SPEAKER_00
- The button is for special navigation.
-
-0:05:19	SPEAKER_03
- For special navigation, you might have a TV in the menu and you will say yes.
-
-0:05:23	SPEAKER_00
- Linear access, random access.
-
-0:05:26	SPEAKER_03
- Parameter.
-
-0:05:27	SPEAKER_03
- Yes, Parameter.
-
-0:05:29	SPEAKER_03
- If there are common parameters, maybe you could use special buttons for that.
-
-0:05:35	SPEAKER_03
- Or maybe you could have everything generic.
-
-0:05:38	SPEAKER_03
- But there are a lot of remotes on the market right now.
-
-0:05:44	SPEAKER_03
- Basically, most of everybody has this stuff.
-
-0:05:48	SPEAKER_00
- And voice command, did you...
-
-0:05:51	SPEAKER_03
- Was command you could specify and think you could assign any button to any button.
-
-0:05:56	SPEAKER_03
- If you have enough processing power, I guess.
-
-0:06:01	SPEAKER_00
- So that closes your investigations.
-
-0:06:06	SPEAKER_03
- Yeah, I think so.
-
-0:06:09	SPEAKER_00
- Maybe we can have a look at the user requirements with...
-
-0:06:13	SPEAKER_04
- I don't know if you can open this.
-
-0:06:19	SPEAKER_00
- I don't know if I can open this.
-
-0:06:21	SPEAKER_04
- Maybe you can...
-
-0:06:22	SPEAKER_04
- It's not here.
-
-0:06:24	SPEAKER_04
- It's in...
-
-0:06:26	SPEAKER_04
+0:05:07	SPEAKER_03
  Okay.
 
-0:06:27	SPEAKER_04
- It's in here.
+0:05:08	SPEAKER_00
+ So spatial navigation, linear access, random access and there is a false one.
 
-0:06:31	SPEAKER_04
- A document.
+0:05:16	SPEAKER_00
+ So the button offers spatial navigation?
 
-0:06:33	SPEAKER_04
- I think we can open it.
+0:05:18	SPEAKER_03
+ Yeah.
 
-0:06:36	SPEAKER_00
+0:05:19	SPEAKER_03
+ For spatial navigation, for example, you might have a TV in the menu and you're going to
+
+0:05:22	SPEAKER_00
+ see it. Okay.
+
+0:05:24	SPEAKER_00
+ Then linear access, then random access.
+
+0:05:26	SPEAKER_03
+ Yeah.
+
+0:05:27	SPEAKER_03
+ And also parameter.
+
+0:05:28	SPEAKER_00
+ Ah, yeah.
+
+0:05:29	SPEAKER_03
+ For a meter, okay.
+
+0:05:30	SPEAKER_03
+ So if there are common parameters, maybe we should put spatial buttons for that.
+
+0:05:34	SPEAKER_03
+ Okay.
+
+0:05:35	SPEAKER_03
+ Or maybe we could have everything generic, but there are a lot of remotes on the market right now.
+
+0:05:43	SPEAKER_03
+ Okay.
+
+0:05:44	SPEAKER_03
+ So basically, this is most of the, almost everybody has the stuff.
+
+0:05:48	SPEAKER_00
+ Okay.
+
+0:05:49	SPEAKER_00
+ And voice command, did you?
+
+0:05:51	SPEAKER_03
+ Voice command, we could specify anything.
+
+0:05:53	SPEAKER_03
+ We could assign a command to any button.
+
+0:05:56	SPEAKER_03
+ Okay.
+
+0:05:57	SPEAKER_03
+ If we have enough processing power, I guess.
+
+0:06:01	SPEAKER_00
+ Yeah.
+
+0:06:02	SPEAKER_00
+ Okay.
+
+0:06:03	SPEAKER_00
+ Yeah.
+
+0:06:04	SPEAKER_00
+ So that's, that close your investigations?
+
+0:06:06	SPEAKER_00
+ Yeah.
+
+0:06:07	SPEAKER_03
+ Yeah.
+
+0:06:08	SPEAKER_03
+ I think so.
+
+0:06:09	SPEAKER_00
+ Okay.
+
+0:06:10	SPEAKER_00
+ Maybe we can have a look at the user requirements with.
+
+0:06:13	SPEAKER_04
+ Yeah.
+
+0:06:14	SPEAKER_04
+ Okay.
+
+0:06:15	SPEAKER_04
+ I don't know if you can open.
+
+0:06:18	SPEAKER_04
+ I don't know if I can open it.
+
+0:06:20	SPEAKER_04
+ Maybe you can.
+
+0:06:21	SPEAKER_00
+ It's not here.
+
+0:06:22	SPEAKER_04
+ It's in, okay.
+
+0:06:23	SPEAKER_04
+ It's in the same room.
+
+0:06:24	None
+ Yeah.
+
+0:06:25	SPEAKER_04
+ Yeah.
+
+0:06:26	SPEAKER_00
  In which folder?
 
-0:06:39	SPEAKER_04
+0:06:27	SPEAKER_04
+ You could do.
+
+0:06:28	SPEAKER_04
  Here.
 
+0:06:29	SPEAKER_04
+ Here.
+
+0:06:30	None
+ Here.
+
+0:06:31	None
+ Short cut to random.
+
+0:06:32	SPEAKER_04
+ But it's not.
+
+0:06:33	SPEAKER_04
+ Yeah.
+
+0:06:34	None
+ Yeah.
+
+0:06:35	SPEAKER_00
+ Yeah.
+
+0:06:36	SPEAKER_00
+ Yeah.
+
+0:06:37	SPEAKER_04
+ Yeah.
+
+0:06:38	SPEAKER_04
+ Yeah.
+
+0:06:39	None
+ Yeah.
+
+0:06:40	SPEAKER_00
+ Yeah.
+
 0:06:41	SPEAKER_00
- Shortcut to maybe...
+ Yeah.
+
+0:06:42	SPEAKER_05
+ Yeah.
 
 0:06:43	SPEAKER_05
- But it's not there.
+ Yeah.
+
+0:06:44	SPEAKER_05
+ Yeah.
+
+0:06:45	None
+ Yeah.
+
+0:06:46	SPEAKER_00
+ Yeah.
 
 0:06:47	SPEAKER_00
- Maybe you can send it to me by email.
+ Maybe you can send it to me by email just to participant one.
 
-0:06:52	SPEAKER_00
- Just to participate one.
+0:06:53	SPEAKER_00
+ At AME.
 
-0:06:56	SPEAKER_04
- Add Ami.
+0:06:54	None
+ Yeah.
 
-0:06:59	SPEAKER_00
- I'm trying to show it to everyone.
+0:06:55	SPEAKER_00
+ I can do that.
 
-0:07:02	SPEAKER_00
- That would be more comfortable.
+0:06:58	SPEAKER_00
+ I'll try to show it to everyone.
+
+0:07:01	SPEAKER_00
+ That would be more of a whatever.
 
 0:07:06	SPEAKER_04
  Okay.
 
-0:07:09	SPEAKER_00
- You send it?
+0:07:07	SPEAKER_00
+ You said it?
 
-0:07:13	SPEAKER_04
+0:07:11	SPEAKER_04
  It's participant one.
 
-0:07:16	SPEAKER_00
+0:07:14	SPEAKER_00
  Yeah.
 
-0:07:17	SPEAKER_00
- This is this email.
+0:07:15	SPEAKER_00
+ This is the email.
 
-0:07:23	SPEAKER_03
- I'm designing it.
+0:07:18	SPEAKER_03
+ I'm designing the, you can run my face.
 
-0:07:26	None
- It's in my face.
-
-0:07:29	None
+0:07:36	None
  Okay.
-
-0:07:32	None
- You can.
 
 0:07:41	None
  Okay.
 
-0:07:44	SPEAKER_04
+0:07:43	SPEAKER_04
+ You can.
+
+0:07:46	SPEAKER_02
  Okay.
 
-0:07:47	SPEAKER_00
+0:07:49	SPEAKER_00
  So maybe I can switch slides whenever you ask.
 
-0:07:59	SPEAKER_00
+0:08:01	SPEAKER_00
  That would be more convenient.
 
 0:08:02	SPEAKER_00
+ So okay.
+
+0:08:03	SPEAKER_00
  Okay.
 
-0:08:05	SPEAKER_04
- You can go.
+0:08:04	SPEAKER_04
+ So you can go.
+
+0:08:07	SPEAKER_04
+ Okay.
 
 0:08:09	SPEAKER_04
+ So in our usability lab, we observed the remote control use among 100 subjects.
+
+0:08:18	SPEAKER_04
+ And this subject also filled a questionnaire.
+
+0:08:21	SPEAKER_04
  Okay.
 
-0:08:11	SPEAKER_04
- In how our usability lab, we observed the remote control use among 100 subjects.
+0:08:22	None
+ Yeah.
 
-0:08:16	SPEAKER_04
- And the subject also filled a questionnaire.
-
-0:08:22	SPEAKER_04
- Okay.
-
-0:08:25	SPEAKER_04
- And here are the results.
+0:08:23	SPEAKER_04
+ And yeah, here are the results.
 
 0:08:28	SPEAKER_04
- So you can see that the 25% of users find most remote controls ugly.
+ So you can see that 75% of users find most remote controls ugly.
 
 0:08:35	SPEAKER_04
  So we have to find something to make them more nice, more kind.
@@ -359,412 +491,319 @@
  80% of users would spend more money when a remote control would look fancy.
 
 0:08:49	SPEAKER_04
- 80% of users would spend more money when a remote control would look...
+ 80% of users would spend more money when a remote control would look up.
 
 0:08:55	SPEAKER_04
- Oh, it's not good.
+ It's not good.
 
-0:08:59	SPEAKER_04
- Okay.
+0:08:58	SPEAKER_04
+ So okay.
+
+0:08:59	SPEAKER_00
+ So it's not really good.
 
 0:09:00	SPEAKER_04
- It's not really interesting.
+ But I can say, yeah, 50, 75% of users say they zap a lot.
 
-0:09:02	SPEAKER_04
- I can say, yeah.
-
-0:09:04	SPEAKER_04
- 75% of users say they zap a lot.
-
-0:09:08	SPEAKER_04
- We have to have a remote control very hard for that.
+0:09:07	SPEAKER_04
+ So we have to have a remote control very hard for that.
 
 0:09:15	SPEAKER_04
- The buttons have to be...
-
-0:09:20	SPEAKER_04
- Like you say, resisting to shocks.
+ The buttons have to be like to say, resisting to shocks.
 
 0:09:25	SPEAKER_04
  And 50% of users say they only use 10% of the buttons in the remote control.
 
 0:09:35	SPEAKER_04
- So all the buttons we have to have to use a real use and not to...
+ So all the buttons we have to put are, have to have a use, a real use and not a medium.
 
 0:09:47	SPEAKER_00
  Okay.
 
 0:09:48	SPEAKER_00
- So if you have buttons, maybe you can be good.
+ So fewer buttons may be good.
 
 0:09:51	SPEAKER_04
- Not many buttons and you use the above buttons.
+ But many buttons and, and you use able buttons.
 
-0:09:58	SPEAKER_03
+0:09:57	SPEAKER_03
  Okay.
 
-0:09:59	SPEAKER_03
- But what kind of remote controls do you have?
+0:09:58	SPEAKER_03
+ But what kind of remote controls do you think that?
+
+0:10:01	SPEAKER_03
+ Sorry.
 
 0:10:02	SPEAKER_03
- Sorry?
+ What kind of task was it?
 
-0:10:03	SPEAKER_03
- I have to use the above buttons.
+0:10:04	SPEAKER_03
+ It was a TV.
 
-0:10:06	SPEAKER_04
- It's a TV.
-
-0:10:07	SPEAKER_04
+0:10:05	SPEAKER_04
  Yeah.
 
-0:10:08	SPEAKER_04
- Most of it is a TV.
+0:10:06	SPEAKER_04
+ Yeah.
+
+0:10:07	SPEAKER_04
+ Most, most is TV.
+
+0:10:09	SPEAKER_00
+ Yeah.
 
 0:10:10	SPEAKER_00
- Yeah, but in fact, it seems that we are going to make a TV remote control.
-
-0:10:16	SPEAKER_00
- According to new requirements I received from the manager.
+ But in fact, we, it seems that we are going to make a TV remote control according to new requirements I receive from the management board.
 
 0:10:19	SPEAKER_00
- I would present them in the following.
+ I will present them in the following.
 
 0:10:21	SPEAKER_00
  Ah, good.
 
-0:10:24	SPEAKER_04
- Okay, you can give us...
+0:10:22	SPEAKER_04
+ Okay.
+
+0:10:23	SPEAKER_04
+ You can go.
 
 0:10:27	SPEAKER_04
  So there are the frustrations expressed by users.
 
 0:10:31	SPEAKER_04
- So they say they lost often the remote control in the room.
+ So they said they lost, uh, often the remote control in the room.
 
 0:10:39	SPEAKER_04
- So they want to have a way to...
+ So they want to have a way to, to find it.
 
 0:10:44	SPEAKER_00
  To find it.
 
-0:10:45	SPEAKER_00
- To find it.
-
-0:10:46	SPEAKER_04
+0:10:45	SPEAKER_04
  Yeah.
 
-0:10:48	SPEAKER_04
- And a lot of the time, it takes too much time to learn how to use a new remote control.
+0:10:46	SPEAKER_04
+ Um, and, um, a lot of the time they, it takes too much time to learn how to use a new remote control.
 
 0:10:56	SPEAKER_04
- So they want something very simple and...
-
-0:11:00	SPEAKER_04
- Easy to use.
+ So they want something very, very simple and easy to use.
 
 0:11:03	SPEAKER_04
- And remote controls are bad for...
+ And the remote controls are bad for.
 
 0:11:08	SPEAKER_04
- What is RSI?
+ What is the other side?
+
+0:11:10	SPEAKER_04
+ Um, other side.
 
 0:11:13	SPEAKER_03
- RSI, yeah.
+ Yeah.
 
 0:11:14	SPEAKER_03
- You're a wrist.
-
-0:11:17	SPEAKER_03
- You can't be painful.
+ Yeah, you're, you're a wrist can become painful.
 
 0:11:18	SPEAKER_03
- You can't tell on this.
+ You can have talent in this.
 
 0:11:20	SPEAKER_00
- Oh, yeah?
+ Ah, yeah.
 
 0:11:21	SPEAKER_00
  Yeah.
 
-0:11:22	SPEAKER_00
- I didn't know that.
+0:11:22	SPEAKER_03
+ I didn't knew that.
 
 0:11:23	SPEAKER_03
- If you also fit up on the computer in a tense position.
+ If you also fit up on the computer in a strange position.
 
 0:11:25	SPEAKER_00
- Okay, so we have to make it more ergonomic.
+ Okay.
+
+0:11:26	SPEAKER_00
+ So we have to make it, uh, more ergonomic.
 
 0:11:28	SPEAKER_03
- Yeah, but...
-
-0:11:30	SPEAKER_03
- You can say...
-
-0:11:31	SPEAKER_03
- I can say...
-
-0:11:34	SPEAKER_00
- It's your job.
-
-0:11:41	SPEAKER_00
- Sorry.
-
-0:11:44	SPEAKER_00
- But the message from Microsoft.
-
-0:11:47	SPEAKER_04
- Okay, before that, I have some...
-
-0:11:52	SPEAKER_04
- Some...
-
-0:11:54	SPEAKER_04
- I think...
-
-0:11:58	SPEAKER_04
- To say, before.
-
-0:12:00	None
  Yeah.
 
-0:12:02	SPEAKER_04
- We know that...
+0:11:29	SPEAKER_03
+ But, uh, yeah.
 
-0:12:04	SPEAKER_04
- I use a lot of remote control to change channel.
+0:11:30	SPEAKER_00
+ Have to say, it's your job.
+
+0:11:35	SPEAKER_00
+ Oh.
+
+0:11:36	SPEAKER_00
+ Uh, sorry.
+
+0:11:37	SPEAKER_00
+ But the message from Microsoft.
+
+0:11:46	None
+ Okay.
+
+0:11:47	SPEAKER_04
+ Before that, I have some, some, some, some thing.
+
+0:11:54	SPEAKER_04
+ Yeah.
+
+0:11:55	SPEAKER_04
+ Uh, to say before.
+
+0:11:59	SPEAKER_04
+ Yeah.
+
+0:12:01	SPEAKER_04
+ Um, we know that, uh, that as I use, uh, a lot, uh, remote control.
+
+0:12:07	SPEAKER_04
+ Um, to, to change channel.
 
 0:12:12	SPEAKER_04
  Yeah.
 
-0:12:14	SPEAKER_04
- And to change volume selection of...
+0:12:13	SPEAKER_04
+ Um, and, um, to, to change the volume selection of the.
 
-0:12:20	SPEAKER_04
+0:12:19	SPEAKER_04
  Okay.
 
-0:12:21	SPEAKER_04
- And not a lot for setting...
-
-0:12:26	SPEAKER_04
- For setting the...
-
-0:12:28	SPEAKER_04
- The channels and things like that.
+0:12:20	SPEAKER_04
+ And, uh, and not, uh, a lot for setting, for setting the, the channels and, uh, things, things like that.
 
 0:12:31	SPEAKER_04
  Okay.
 
 0:12:32	SPEAKER_04
- So it's better to put...
+ Um, it's better to put, uh, uh, something very easy to that and, uh, yeah.
 
-0:12:36	SPEAKER_04
- Something very easy to that.
-
-0:12:39	SPEAKER_04
- Yeah.
-
-0:12:40	SPEAKER_04
+0:12:41	SPEAKER_00
  This function should be very accessible.
 
 0:12:43	SPEAKER_00
- Very accessible, yes.
+ Accessible, yes.
+
+0:12:44	SPEAKER_00
+ Okay.
 
 0:12:45	SPEAKER_00
- Okay.
-
-0:12:46	SPEAKER_00
  This is the main function.
 
-0:12:48	SPEAKER_04
- So then we ask some questions to them.
-
-0:12:51	SPEAKER_04
- Yeah.
-
-0:12:52	SPEAKER_04
- And we ask this question.
-
-0:12:54	SPEAKER_04
- If they prefer an LCD screen or...
-
-0:12:57	SPEAKER_04
- On a remote function remote control.
-
-0:13:00	SPEAKER_04
- And if they pay more for a speech recognition in remote control.
-
-0:13:04	SPEAKER_04
- Yeah.
-
-0:13:05	SPEAKER_04
- And you can go...
-
-0:13:07	SPEAKER_04
- We have here the results of...
-
-0:13:10	SPEAKER_03
- The first question.
-
-0:13:12	SPEAKER_04
- Of the questions.
-
-0:13:14	SPEAKER_04
- So you know that...
-
-0:13:18	SPEAKER_04
- For the younger...
-
-0:13:20	SPEAKER_04
- It's very important.
-
-0:13:22	SPEAKER_04
- To have the speech recognition.
-
-0:13:26	SPEAKER_04
- And the others is...
-
-0:13:29	SPEAKER_04
- Not so important, but...
-
-0:13:31	SPEAKER_04
- We know that people between 15 and 25 are people who watch a lot TV.
-
-0:13:39	SPEAKER_04
- And who can use a lot of this...
-
-0:13:44	SPEAKER_04
+0:12:47	SPEAKER_00
  Okay.
 
+0:12:48	SPEAKER_04
+ So then we ask some questions to them and, um, we ask this question.
+
+0:12:54	SPEAKER_04
+ If they prefer an LCD screen or on the remote function remote control and if they, um, pay more for a speech recognition in remote control and you can go, we have here the results of the first question of the questions.
+
+0:13:14	SPEAKER_04
+ So you know that, um, for the younger, it's very important to have this and speech recognition.
+
+0:13:26	SPEAKER_04
+ And the others is not so important, but, uh, we know that, uh, uh, people between 15 and 25 are people who watch a lot TV and who, who can use a lot this, uh, okay.
+
 0:13:45	SPEAKER_04
- So maybe we can have a speech recognition.
+ So maybe we, we can have a speech recognition.
+
+0:13:47	SPEAKER_00
+ Yeah.
 
 0:13:48	SPEAKER_00
- Yeah, maybe this is important.
+ Maybe this is important.
+
+0:13:49	SPEAKER_00
+ Yeah.
 
 0:13:50	SPEAKER_00
- Moreover, maybe those...
+ Maybe those, uh, like those teenager customer can, uh, advise their parents to buy this equipment.
 
-0:13:53	SPEAKER_00
- Like those teenager customers can advise their parents to buy...
-
-0:13:58	SPEAKER_00
- This equipment.
-
-0:14:00	SPEAKER_00
- So we have to take care of that point of view, I think.
-
-0:14:04	SPEAKER_00
- Also.
+0:13:59	SPEAKER_00
+ And so we can, we have to take care of that point of view, I think, or so.
 
 0:14:05	SPEAKER_04
+ Mm.
+
+0:14:06	SPEAKER_04
  Yeah.
 
 0:14:07	SPEAKER_04
- Okay. And after it's a conclusion.
+ Okay.
+
+0:14:08	SPEAKER_04
+ And after is the conclusion.
 
 0:14:10	SPEAKER_04
- So as we said before, I think...
+ So as we say before, I think, uh, uh, uh, remote control lightning in the dark.
 
-0:14:14	SPEAKER_04
- A remote control lighting in the dark, it's a good thing.
+0:14:16	SPEAKER_04
+ It's, it's a good thing.
 
 0:14:18	SPEAKER_04
  Okay.
 
 0:14:19	SPEAKER_04
- Not too many buttons like we said before.
-
-0:14:22	SPEAKER_04
- It's easy to use a way to find it easily in the room.
-
-0:14:28	SPEAKER_04
- And...
-
-0:14:31	SPEAKER_04
- Resistance...
-
-0:14:33	SPEAKER_04
- To...
-
-0:14:34	SPEAKER_04
- To shock and to...
+ So many, many buttons like we, we said before, easy to use, uh, a way to find it easily in the room and, uh, resistance to, to short camp to, to.
 
 0:14:37	SPEAKER_02
  Okay.
 
+0:14:38	None
+ And I, okay.
+
+0:14:39	SPEAKER_04
+ These are.
+
 0:14:40	SPEAKER_04
- And nice.
+ I don't know if you see something else, important.
 
-0:14:41	SPEAKER_00
- Okay, these aren't...
-
-0:14:42	SPEAKER_04
- I don't know if you see something else important or...
-
-0:14:49	SPEAKER_01
+0:14:45	SPEAKER_01
  I'm just thinking of something.
 
-0:14:52	SPEAKER_01
+0:14:51	SPEAKER_01
  Yeah.
 
-0:14:55	SPEAKER_01
- We want to have a...
+0:14:52	SPEAKER_01
+ Um, we want to have a, no, I don't know if this is a good idea.
 
-0:14:57	SPEAKER_01
- I don't know if this is a good idea.
-
-0:14:59	SPEAKER_01
+0:14:58	SPEAKER_01
  We want to have a general remote control for everything.
 
-0:15:02	SPEAKER_00
- No, no.
+0:15:01	SPEAKER_00
+ No, no, no, no.
 
 0:15:04	SPEAKER_00
- It seems that we know what to have a TV remote control.
+ We, it seems that we know want to have a TV remote control.
 
-0:15:08	SPEAKER_00
+0:15:07	SPEAKER_00
  Okay.
 
-0:15:09	SPEAKER_00
- From the management port, I receive an email.
+0:15:08	SPEAKER_00
+ From the management port I receive an email because it would be costly.
 
-0:15:12	SPEAKER_00
- Because it would be costly.
+0:15:13	SPEAKER_00
+ Uh, and, and also it would take more time to develop to have a general generic remote
 
-0:15:15	SPEAKER_00
- And also, it would take more time to develop to have a...
+0:15:20	SPEAKER_03
+ control. I, it's not true.
 
-0:15:19	SPEAKER_00
- A general remote control.
+0:15:25	SPEAKER_03
+ I think that it would be too long to develop.
 
-0:15:22	SPEAKER_03
- It's not...
+0:15:30	SPEAKER_03
+ I think that should be the same.
 
-0:15:24	SPEAKER_03
- I think...
-
-0:15:26	SPEAKER_03
- The second claim.
-
-0:15:28	SPEAKER_00
- That it would be too long to develop.
-
-0:15:31	SPEAKER_03
- That should be the same.
-
-0:15:33	SPEAKER_00
+0:15:32	SPEAKER_00
  Oh yeah.
 
-0:15:34	SPEAKER_00
- Because I receive that email from management board.
-
-0:15:37	SPEAKER_00
- And it seems to tell that...
-
-0:15:39	SPEAKER_00
- That if we want to be on the market as early as possible, we should focus on TV more.
+0:15:33	SPEAKER_00
+ Because I received that email from management board and this seems to tell that, that if we want to be on the market as early as possible, we should focus on TV more.
 
 0:15:47	SPEAKER_00
  It seems that the market is more important.
@@ -772,73 +811,70 @@
 0:15:52	SPEAKER_00
  So maybe it's a good decision.
 
-0:15:54	SPEAKER_03
- I don't know what's happening.
+0:15:53	SPEAKER_03
+ I don't know what's your opinion.
 
-0:15:56	SPEAKER_03
- I don't know if they should know what to do.
+0:15:55	SPEAKER_03
+ I'm not the, I'm gonna, I should know a bit more about how fast we can design.
 
-0:15:58	SPEAKER_03
- I'm not going to be able to do a fast-to-can design.
+0:16:00	SPEAKER_03
+ I don't think.
 
-0:16:01	SPEAKER_03
- I don't think...
+0:16:02	SPEAKER_03
+ Yeah.
+
+0:16:03	SPEAKER_01
+ Yeah.
 
 0:16:04	SPEAKER_01
- Finish tonight.
+ Finished tonight.
+
+0:16:05	SPEAKER_01
+ Okay.
 
 0:16:06	SPEAKER_01
- Okay.
+ But basically, yeah, maybe I can continue with my, my opinion.
 
-0:16:07	SPEAKER_01
- But basically, yeah, maybe I can continue with my presentation.
-
-0:16:11	SPEAKER_01
- Okay.
+0:16:09	SPEAKER_01
+ My presentation would be okay.
 
 0:16:12	SPEAKER_01
- But I think we have some technical problem also.
+ But I think we have some technical problems.
 
-0:16:15	SPEAKER_01
+0:16:14	SPEAKER_01
  So I'm just going to describe briefly what we do in the remote control.
 
 0:16:19	SPEAKER_00
  Maybe you can go to the whiteboard if you have some drawings to do.
 
-0:16:22	SPEAKER_00
- I don't know.
-
-0:16:24	SPEAKER_01
- Do I have...
+0:16:22	SPEAKER_01
+ Do I have, oh yeah.
 
 0:16:25	SPEAKER_01
- Oh yeah.
-
-0:16:26	SPEAKER_01
  I have enough cables.
 
-0:16:29	SPEAKER_03
- You can even like a dog with it.
-
-0:16:32	SPEAKER_01
- Okay, so I'm just going to describe.
-
-0:16:34	SPEAKER_01
- In fact, for remote control, this is quite easy.
-
-0:16:37	SPEAKER_01
- We just have...
-
-0:16:38	SPEAKER_01
- Sorry.
-
-0:16:39	SPEAKER_01
- Kind of going...
-
-0:16:40	SPEAKER_00
+0:16:27	SPEAKER_03
  Okay.
 
-0:16:44	SPEAKER_01
+0:16:28	SPEAKER_03
+ I feel like a dog is.
+
+0:16:31	SPEAKER_01
+ Okay.
+
+0:16:32	SPEAKER_01
+ So I'm just going to describe in fact for, for a remote control.
+
+0:16:36	SPEAKER_01
+ This is quite easy.
+
+0:16:37	SPEAKER_01
+ We just have, sorry.
+
+0:16:40	None
+ Okay.
+
+0:16:41	SPEAKER_01
  Are you okay?
 
 0:16:45	SPEAKER_01
@@ -848,31 +884,25 @@
  I'm just going to describe.
 
 0:16:47	SPEAKER_01
- Basically, we have a battery, a power supply here.
+ Basically we have a battery, a power supply here.
 
 0:16:51	SPEAKER_01
- After that, we just have a user in the face.
+ After that we just have a user interface.
 
 0:16:54	SPEAKER_01
- Let's say that...
+ Let's say that something like that, which could be LCD, let's say, or an array of push button, something like that.
 
-0:16:59	SPEAKER_01
- Something like that, which could be an LCD, let's say, or an array of push button, something like that.
-
-0:17:12	SPEAKER_01
+0:17:13	SPEAKER_01
  Push button or LCD.
 
 0:17:15	SPEAKER_01
- After that, we feed that into an electronic chip.
+ After that we, we feed that into an electronic chip.
 
-0:17:21	SPEAKER_01
- So I say, you see, and I feed that to an LED, which is infrared, which is an infrared component.
+0:17:22	SPEAKER_01
+ So I say new, see, and I feed that to LED, which is infrared, which is an infrared component.
 
 0:17:35	SPEAKER_01
- And so, what we...
-
-0:17:37	SPEAKER_01
- For myself, this is for us, this is quite easy.
+ And so what we, for myself, for us, this is quite easy.
 
 0:17:41	SPEAKER_00
  You see the central unit?
@@ -884,102 +914,105 @@
  Okay.
 
 0:17:45	SPEAKER_01
- This is just a chip, which does all the numerical...
-
-0:17:52	SPEAKER_01
- Computational?
-
-0:17:53	SPEAKER_01
- numerical computation according to you display.
+ It's just a chip which does all the numerical computation, numerical computation according to you display.
 
 0:17:56	SPEAKER_01
  And so for us, this is quite easy.
 
 0:17:58	SPEAKER_01
- We just need to define what we want to do when the user in the face wants something.
+ We just need to define what we want to do when the user interface wants something.
 
 0:18:09	SPEAKER_01
- And after that, we just do the coding to send that to the television.
+ And after that we just do the coding to send that to the, not the, to the television.
 
-0:18:16	SPEAKER_01
+0:18:15	SPEAKER_01
  Okay.
 
-0:18:17	SPEAKER_01
+0:18:16	SPEAKER_01
  So for us, this is quite easy.
 
-0:18:19	SPEAKER_00
- Okay. So this is quite easy.
+0:18:18	SPEAKER_00
+ Okay.
 
-0:18:21	SPEAKER_00
+0:18:19	SPEAKER_00
+ So this is quite easy.
+
+0:18:20	SPEAKER_00
  Yeah.
 
-0:18:22	SPEAKER_01
- And we just have to define the processing power that we need, especially if we want to do some speech recognition, in that case, that we are going to use more...
+0:18:21	SPEAKER_01
+ And we just have to define the processing power that we need, especially if we want to do some speech recognition in that case, that we are going to use more.
 
 0:18:33	SPEAKER_01
  This will take more time to develop.
 
 0:18:35	SPEAKER_01
- Yeah, of course, of course.
+ Yeah, of course.
 
 0:18:37	SPEAKER_01
+ Of course.
+
+0:18:39	SPEAKER_01
  But for a standard one, this is really easy.
 
 0:18:41	SPEAKER_01
  It's a question of one month and so on.
 
 0:18:44	SPEAKER_00
- Do you speak about voice control?
+ Do you have a, you speak about voice control?
 
 0:18:48	SPEAKER_00
- No, no, no, I say.
+ No, no, no.
 
 0:18:49	SPEAKER_00
- Stand at both and when?
-
-0:18:50	SPEAKER_00
- Yeah.
+ I say standard button one.
 
 0:18:51	SPEAKER_01
- Stand on remote control.
-
-0:18:53	SPEAKER_01
- Text may be one month to do that.
-
-0:18:56	SPEAKER_03
- So the only time problem is the voice control equation?
-
-0:19:00	SPEAKER_03
  Yeah.
 
-0:19:01	SPEAKER_03
- Definitely.
+0:18:52	SPEAKER_01
+ So the standard remote control takes maybe one month to do that.
 
-0:19:02	SPEAKER_00
+0:18:57	SPEAKER_03
+ So the only time problem is the voice recognition.
+
+0:19:00	SPEAKER_03
+ Yeah, definitely.
+
+0:19:03	SPEAKER_00
  So do you have any idea of how long it would take to have voice recognition?
 
-0:19:08	SPEAKER_00
- I would say...
+0:19:08	SPEAKER_01
+ No, I would say.
 
-0:19:09	SPEAKER_01
- Tamir.
+0:19:10	SPEAKER_01
+ Yeah.
 
-0:19:14	SPEAKER_01
- I would say about 8 months to have the first results.
+0:19:11	SPEAKER_01
+ It's about eight months to have the first results.
 
 0:19:19	SPEAKER_00
- Okay, so it's a bit long, yeah.
+ Okay.
+
+0:19:20	SPEAKER_00
+ So it's a bit long.
+
+0:19:21	SPEAKER_00
+ Yeah.
 
 0:19:22	SPEAKER_00
  Yeah.
 
-0:19:34	SPEAKER_00
+0:19:23	None
+ I can.
+
+0:19:24	SPEAKER_00
  One month for the standard one with button.
 
-0:19:37	SPEAKER_00
+0:19:36	SPEAKER_00
  Yeah.
 
-0:19:38	SPEAKER_00
+0:19:37	SPEAKER_00
  Even if we have a LCD display.
 
 0:19:40	SPEAKER_01
@@ -989,49 +1022,49 @@
  I mean, this is really standard devices now.
 
 0:19:44	SPEAKER_01
- And 8.
+ And eight for speech recognition.
 
-0:19:47	SPEAKER_01
- For a speech recognition.
-
-0:19:51	SPEAKER_00
+0:19:48	SPEAKER_01
  Okay, yeah.
 
-0:19:55	SPEAKER_00
- Okay, so we can take this into account.
+0:19:52	SPEAKER_00
+ Okay.
+
+0:19:54	SPEAKER_00
+ So we can take this into account.
 
 0:20:00	SPEAKER_00
- So we think it would be good to go for speech recognition.
+ So we think it would be good to go for like speech recognition.
 
 0:20:06	SPEAKER_03
  But we don't have time to market.
 
 0:20:09	SPEAKER_01
- And also, how much?
+ And also how much?
 
 0:20:11	SPEAKER_01
- I think...
+ I think.
 
 0:20:12	SPEAKER_01
- I think we should go on that.
+ I think we should.
 
-0:20:14	SPEAKER_01
- During the kickoff meeting, you said that we shouldn't go up to 12.5.
+0:20:13	SPEAKER_01
+ During the kickoff meeting, you said that we shouldn't, we shouldn't go up to.
 
-0:20:20	SPEAKER_01
- Euro, some units.
+0:20:18	SPEAKER_01
+ 12.5 euros.
 
-0:20:23	SPEAKER_01
+0:20:19	SPEAKER_01
  Yeah.
 
-0:20:24	SPEAKER_01
- So how many units should we sell together?
+0:20:20	SPEAKER_01
+ So how many units should we sell to ever?
 
-0:20:32	SPEAKER_00
+0:20:29	SPEAKER_00
  Well, each unit is sell 25 euros.
 
 0:20:36	SPEAKER_01
- Yeah, but how many...
+ Yeah, but how many?
 
 0:20:38	None
  Yeah.
@@ -1039,113 +1072,128 @@
 0:20:39	SPEAKER_03
  How much do you get?
 
-0:20:41	SPEAKER_03
- If you buy 1 million units, 1,000 units.
+0:20:40	SPEAKER_03
+ How much do you buy one million units?
 
-0:20:46	SPEAKER_03
- Tips, because you need tips, right?
+0:20:44	SPEAKER_03
+ How much do you get?
 
-0:20:50	SPEAKER_03
+0:20:49	SPEAKER_03
  Yeah.
 
-0:20:51	SPEAKER_03
- How much would it cost for 1,000?
+0:20:50	SPEAKER_03
+ How much do you cost for one hundred thousand?
 
-0:20:53	SPEAKER_01
- Usually, this is less than that $2 per chip.
+0:20:52	SPEAKER_01
+ Usually, I get this is less than that two dollars per chip.
 
-0:20:57	SPEAKER_03
+0:20:56	SPEAKER_03
  Okay.
 
-0:20:58	SPEAKER_03
- Because we have...
+0:20:57	SPEAKER_03
+ Because we are.
 
-0:20:59	SPEAKER_03
- Even for a powerful one that has good enough for those possible missions.
+0:20:58	SPEAKER_03
+ Because we are for a powerful one that has a good enough for a speech recognition.
+
+0:21:03	SPEAKER_01
+ Yeah.
 
 0:21:04	SPEAKER_01
  Yeah.
 
 0:21:05	SPEAKER_00
- Okay.
+ We can.
+
+0:21:06	SPEAKER_00
+ So.
 
 0:21:07	SPEAKER_00
- It seems that we want to sell like 4 million units from the first meeting.
+ It seems that we want to sell like four million units from the first meeting.
+
+0:21:13	SPEAKER_00
+ Okay.
+
+0:21:14	SPEAKER_03
+ Form a little.
 
 0:21:15	SPEAKER_03
  Okay.
 
-0:21:16	SPEAKER_03
- For more than 4 million units.
+0:21:16	SPEAKER_00
+ Maybe we can look at the new requirement I received from the management board and discussed all functions we want to have.
 
-0:21:18	SPEAKER_03
- Okay.
-
-0:21:19	SPEAKER_00
- Maybe we can look at the new requirements I received from the management board and discuss all functions we want to have.
-
-0:21:33	SPEAKER_01
+0:21:30	SPEAKER_01
  I just had a question.
 
 0:21:35	SPEAKER_01
- Do you want to continue with your presentation?
+ Do you want to continue with your present?
+
+0:21:37	SPEAKER_00
+ Yeah.
 
 0:21:38	SPEAKER_00
- Yeah, I will continue.
+ I will continue.
 
-0:21:40	SPEAKER_00
+0:21:39	SPEAKER_00
  Well, ask your question if you want.
 
 0:21:42	SPEAKER_01
  You say that I don't remember my heart, but 30% of the people say that it's quite difficult to use the remote control.
 
-0:21:58	SPEAKER_01
- Do they say that this is difficult, but for the same reason, or do they have other reason?
+0:21:57	SPEAKER_04
+ Yeah.
 
-0:22:07	SPEAKER_01
- Maybe to keep in mind, maybe to access to that menu, you should do something.
+0:21:58	SPEAKER_01
+ Do they say that this is difficult, but for the same reason or do they have other reason?
+
+0:22:05	None
+ Oh.
+
+0:22:06	SPEAKER_01
+ To, to, to keep in mind maybe to access to that money you should do something like that.
+
+0:22:12	SPEAKER_04
+ Yeah.
 
 0:22:13	SPEAKER_04
  I think they say that it's difficult to learn how to use it.
 
-0:22:19	SPEAKER_04
+0:22:18	SPEAKER_04
  But when you know how to use it, it's okay.
 
-0:22:22	SPEAKER_01
- It's not intuitive.
+0:22:21	SPEAKER_01
+ And it's not intuitive.
+
+0:22:23	SPEAKER_01
+ Yeah.
 
 0:22:24	SPEAKER_01
- But yeah, maybe, and what about if we design a remote control, which can be configured as you want?
+ But yeah, maybe and what about if we design a remote control which can be configured as you want.
 
 0:22:31	SPEAKER_01
- You say that I want...
+ You say that I want, I have six buttons.
 
-0:22:33	SPEAKER_01
- I have six words on it.
-
-0:22:34	SPEAKER_03
- A lot of people are... if you have the LCD screen, you can do it completely the way you want because the buttons also would look the way you want them.
+0:22:33	SPEAKER_03
+ A lot of people are, if you have the LCD screen, you can do completely the way you want because the buttons also would look the way you want them.
 
 0:22:42	SPEAKER_03
- But it would be hard to configure.
+ But also it would be hard to configure.
 
-0:22:45	SPEAKER_03
- I mean, imagine that.
+0:22:44	SPEAKER_03
+ I mean, imagine.
 
-0:22:47	SPEAKER_03
+0:22:46	SPEAKER_03
  So it's really something for the expert user.
 
-0:22:50	SPEAKER_03
- I mean, there are markets and markets.
+0:22:49	SPEAKER_03
+ So I mean, there are markets and markets.
 
 0:22:52	SPEAKER_03
- I think the young people that are...
+ I think the young people that are Christine here said that have a, yeah, it is.
 
-0:22:56	SPEAKER_03
- Christine here said that...
-
-0:22:59	SPEAKER_03
- Yeah, it is. So for our young people, it would be cool.
+0:23:01	SPEAKER_03
+ So for our young people, it would be cool.
 
 0:23:04	SPEAKER_03
  They are able to use it.
@@ -1153,404 +1201,449 @@
 0:23:06	SPEAKER_03
  Maybe their parents will not, but they will configure it.
 
-0:23:08	SPEAKER_03
- I guess, I don't know if there's study.
+0:23:07	SPEAKER_03
+ I guess I don't know if there's a study.
 
-0:23:10	SPEAKER_00
- Maybe it would be more complex to configure it, to be simple.
+0:23:09	SPEAKER_00
+ Maybe it would be more complex to configure it to be simple than creating a simple project.
 
-0:23:14	SPEAKER_00
- Then creating a simple project.
+0:23:16	SPEAKER_03
+ Yeah.
 
 0:23:17	SPEAKER_03
- And the other thing is that if you make something that's simple, and it's the user, the user means that it will be exactly the same as everything else.
+ I think that if we make something that simple and needs to use that means that it will be exactly the same as everything else.
 
 0:23:25	SPEAKER_03
- Otherwise, if it's different, then of course it will be hard to learn first.
+ Right.
+
+0:23:26	SPEAKER_03
+ Yeah.
+
+0:23:27	SPEAKER_03
+ Otherwise, if it's different, then of course it will have some of it has to learn to use it first.
 
 0:23:31	SPEAKER_00
  Yeah.
 
 0:23:32	SPEAKER_00
- But also, we see that most people find remote controls to complex because they have too many buttons.
-
-0:23:41	SPEAKER_00
- And they mainly use only channels and volume buttons.
+ But also we, we see that that most people find it, find remote controls to complex because they have too many buttons and they mainly use only channels and volume buttons.
 
 0:23:46	SPEAKER_00
- So we made just... make it very easy to use remote control, with mainly those buttons. And maybe also some lightning stuff because most people find also hard to find remote controls, lose it, etc.
+ So we may just make a very easy to use remote control with mainly those buttons.
 
-0:24:10	SPEAKER_00
- These two points are the main frustrations.
+0:23:53	SPEAKER_00
+ Yeah.
 
-0:24:14	SPEAKER_00
- Maybe if we design something very simple and easy to find when lost, it will add a serious competitive advantage without making something too complex and too long to develop.
+0:23:54	SPEAKER_00
+ And maybe also some lightning stuff to, because most people find also hard to, to find the remote controls, lose it, et cetera.
 
-0:24:33	SPEAKER_00
- But let us see first the new requirement.
+0:24:11	SPEAKER_00
+ These are, these two points are the main frustration.
+
+0:24:13	SPEAKER_00
+ So maybe if we design something very simple and easy to find when lost, it will add a serious competitive advantage without making something too complex and too long to develop.
+
+0:24:31	SPEAKER_00
+ So, but let, let us see first the new requirement.
 
 0:24:37	SPEAKER_00
- So we don't have to... so this is in the same direction as we were speaking.
+ So we don't have to, so this, this is a, is a, is a, this is in the same direction as we were speaking.
 
 0:24:48	SPEAKER_00
- So we don't have to make a very complex remote controls to access teletext.
+ So we don't have to make a very complex remote controls to access teletext and stuff like that.
 
-0:24:53	SPEAKER_00
- And stuff like that.
+0:24:54	SPEAKER_03
+ Just one button.
 
-0:24:55	SPEAKER_03
- That takes just one button.
-
-0:24:57	SPEAKER_00
- Yeah, but then you have to define the buttons to serve amongst pages.
+0:24:56	SPEAKER_00
+ Yeah, but then you have to, you have to define the buttons to surf amongst pages.
 
 0:25:03	SPEAKER_03
- So we'll do that with the channel key.
+ Just write the, write the numbers.
+
+0:25:05	SPEAKER_00
+ Yeah.
+
+0:25:06	SPEAKER_03
+ So, wait.
+
+0:25:07	SPEAKER_03
+ We're at with the channel keys, right?
+
+0:25:09	SPEAKER_00
+ Yeah.
 
 0:25:10	SPEAKER_00
- So anyway, we don't have to include this feature because it's not used anymore by users.
+ So anyway, we don't have to include this feature because it's, it's not used anymore by users.
 
-0:25:18	SPEAKER_03
- I'm sure that it doesn't like, but I don't see just one button.
+0:25:18	SPEAKER_00
+ They prefer to.
+
+0:25:19	SPEAKER_03
+ Yeah.
+
+0:25:20	SPEAKER_03
+ I'm sure that I don't like, but I don't see, just one button.
 
 0:25:25	SPEAKER_00
- Yeah, I don't know.
+ Yeah.
+
+0:25:26	SPEAKER_00
+ So, I don't know.
 
 0:25:28	SPEAKER_00
- If one button is still one more button, if we want to make it very simple, we have to reduce the number of buttons compared to our competitors.
+ If one button is still one more button, if, if, if we want to make it very simple, we have to reduce the number of buttons compared to the, to our competitors.
 
-0:25:40	SPEAKER_00
- Well, anyway, I have this point we can discuss.
+0:25:38	SPEAKER_00
+ Well, anyway, I have this point we can discuss also.
 
-0:25:43	SPEAKER_00
- Also, as I told before, it would be better if it's only for the TV because we want to be quick on the market.
+0:25:46	SPEAKER_00
+ So as I told before, it would be better if it's only for the TV because we want to be quick on the market.
 
 0:26:02	SPEAKER_00
- And then also we have to make very clear that this remote control is part of our products and show our corporate logo and colors on the design as well, so that they identify it as one of our products.
+ And then also we have to make very clear that this, this remote control is, is part of, of our products and show our co-operators logo and, and colors and the, and the design as well so that they identify it as one of our products.
 
-0:26:27	SPEAKER_00
- So this is the key point.
+0:26:25	SPEAKER_00
+ So this is the, the key point.
 
 0:26:30	SPEAKER_00
- So before finishing, we can define what would be the characteristic of the control, of the remote control and which button do we need, which function do we want, etc.
+ So before finishing, we can define what would be the characteristic of the, of the control, of the remote control and which button do we need, which function do we want, etc.
 
 0:26:48	SPEAKER_00
  Capital.
 
-0:26:51	SPEAKER_00
- So, do you...
+0:26:50	SPEAKER_00
+ So, do you, so, so from, from the marketing expert, I think a key aspect is the easy to use aspect is should be very simple and most button are never used.
 
-0:26:56	SPEAKER_00
- So from the marketing expert, I think a key aspect is the easy to use aspect.
-
-0:27:06	SPEAKER_00
- It should be very simple and most buttons are never used only 10% of the buttons are used often.
+0:27:11	SPEAKER_00
+ Only 10% of the button are, are used often.
 
 0:27:15	SPEAKER_00
  So I think we have to do something very simple and I think we all agree on that point.
 
-0:27:20	SPEAKER_03
- Well, if it is going to be just the TV remote control, it is going to be very simple.
+0:27:19	SPEAKER_03
+ No, well, if it is going to be just a TV remote control, it's going to be very simple.
+
+0:27:23	SPEAKER_00
+ Yeah.
 
 0:27:24	SPEAKER_00
- Yeah, okay.
+ Okay.
 
 0:27:25	SPEAKER_00
- So, the key point here is simple.
+ So, yeah, the key point here is simple.
 
 0:27:30	SPEAKER_00
- Maybe, so, a few buttons, channel volume control, and what function do you see?
+ Maybe so few buttons, channel volume control and what, what function do you see?
 
-0:27:41	SPEAKER_03
- The key point is simple, just the TV remote control, there is no other function.
+0:27:40	SPEAKER_03
+ Well, if you want to get as simple as possible and just let the very remote control, there is no other fraction of the country.
+
+0:27:46	SPEAKER_00
+ Yeah.
 
 0:27:47	SPEAKER_00
  Maybe switch TV on and off.
 
-0:27:52	SPEAKER_03
- You want to keep all the zones so that advertising can, even you can come back.
+0:27:50	SPEAKER_03
+ No, you want to keep it always on so that advertising can, rather than you can come back to us.
+
+0:27:56	SPEAKER_00
+ Yeah.
+
+0:27:57	SPEAKER_00
+ Something.
 
 0:27:58	SPEAKER_00
- Yeah, volume, maybe a mute button and then one off button.
+ So, a volume, maybe a mute button and an off button and that's all.
 
-0:28:06	SPEAKER_00
- And that's all.
+0:28:07	SPEAKER_01
+ I know that some, you say that many people are doing plenty of, a lot of zapping.
 
-0:28:08	SPEAKER_01
- I know that you say that many people are doing plenty of zapping.
+0:28:13	SPEAKER_01
+ Mm-hmm.
 
 0:28:14	SPEAKER_01
- I know I discovered that when I did a quick look.
+ I know, I discovered that when I did a quick look.
 
 0:28:19	SPEAKER_01
  They do not, so they do something which is quite nice now.
 
-0:28:23	SPEAKER_01
- You have a button, you press it and this is the previous channel which is coming back.
+0:28:22	SPEAKER_01
+ You have a button, you press it and this is the previous channel which is come back.
 
-0:28:28	SPEAKER_00
+0:28:27	SPEAKER_00
  Yeah, this is cool.
 
-0:28:29	SPEAKER_00
- Maybe we can include that also, previews channel button.
+0:28:28	SPEAKER_00
+ Maybe we can include that also, previous, previous channel button.
 
 0:28:33	SPEAKER_00
- So, we have like channel button, the previous channel button, the volume button, press a mute button and just the traditional one off button.
+ So we have like channel button, the previous channel button, the volume button, press a mute button and just the traditional on off button.
 
 0:28:45	SPEAKER_03
  And of course, the channel changing buttons.
 
-0:28:49	SPEAKER_03
- Yeah, I talk about that.
+0:28:48	SPEAKER_03
+ Yeah.
 
-0:28:51	SPEAKER_03
- How should we implement that?
+0:28:49	SPEAKER_02
+ I took a lot of that.
 
-0:28:53	SPEAKER_03
- Because there could be numerical only, there could be also incremental.
+0:28:50	SPEAKER_03
+ How should we implement them?
+
+0:28:52	SPEAKER_03
+ Because they could be numerical only, they could be also incremental.
 
 0:28:57	SPEAKER_00
  Yeah.
 
 0:28:58	SPEAKER_00
- Incremental, definitely because zapping you switch them.
+ So, incremental definitely because zapping you, you switch them.
 
-0:29:03	SPEAKER_01
+0:29:02	SPEAKER_01
  Let's say that we can do something like that.
 
 0:29:05	SPEAKER_01
- This is a ninx remanthal.
+ This is incremental.
 
-0:29:08	SPEAKER_01
- But when you press it for a long time, you go 5 by 5.
+0:29:07	SPEAKER_01
+ But when you press it for a long time, you go five by five.
+
+0:29:12	SPEAKER_01
+ You go five?
 
 0:29:14	SPEAKER_01
- You go faster?
+ Two faster?
 
 0:29:15	SPEAKER_01
- You go faster.
+ Two faster.
 
-0:29:18	SPEAKER_03
- Hmm, the standard thing idea that if you press it for a long time, it does something else in general.
+0:29:16	None
+ Mm-hmm.
+
+0:29:17	SPEAKER_03
+ It's an interesting idea that if you press it for a long time, it does something else in general.
 
 0:29:24	SPEAKER_03
- So, if you have your 10 buttons for the numerical buttons and you have, instead of having just one memory, you have a few percent for a long time.
+ So if you have your 10 buttons for the numerical buttons and you have, instead of having just one memory, you have a few percent for a long time.
 
 0:29:37	SPEAKER_03
  No, it doesn't work.
 
-0:29:39	SPEAKER_03
- Maybe we should have also a DG, but have a complete keyboard and type console commands.
+0:29:41	SPEAKER_03
+ Maybe we should have also a digi, but have a complete keyboard and like console commands.
+
+0:29:48	SPEAKER_03
+ That's it.
 
 0:29:50	SPEAKER_03
- Yeah, thanks to the channel 2A.
-
-0:29:55	SPEAKER_00
- Maybe we have also two FDG, or only incremental.
-
-0:30:00	SPEAKER_03
- I don't know, because if you have this for like, if you want to 10 to 203 channels, for example, then you cannot work with just memory and incremental.
-
-0:30:09	SPEAKER_00
- Yeah, because you have your previous channel button, if you have incremental only, it doesn't work.
-
-0:30:17	SPEAKER_00
- Because the previous channel is either minus one or plus one.
-
-0:30:22	SPEAKER_00
  Yeah.
 
-0:30:23	SPEAKER_00
- So, I think we need also DG.
+0:29:51	SPEAKER_00
+ Okay, maybe we have also to have the jits only incremental.
+
+0:29:59	SPEAKER_03
+ I don't know because if you have to, if you want to turn between three times for example, then you cannot work with just number and then incremental.
+
+0:30:09	SPEAKER_00
+ Yeah.
+
+0:30:10	SPEAKER_00
+ Because you have your previous channel button, if you have incremental only, it doesn't work, because the previous channel is either minus one or plus one.
+
+0:30:22	SPEAKER_00
+ So I think we need also digits.
+
+0:30:25	SPEAKER_00
+ Okay.
 
 0:30:26	SPEAKER_00
- Maybe we can make very obvious the channel and volume button, and smaller button, turned there with the DG.
+ Maybe we can make very obvious the channel and volume button and smaller button done there with the digits.
 
 0:30:36	SPEAKER_03
- Yeah, when you tap usually, you would like to press the same button at the time.
+ Yeah, one user usually you would like to press the same button on the time.
 
 0:30:41	SPEAKER_01
- Oh, we can do something like that.
+ Yeah.
 
-0:30:43	SPEAKER_01
- We can design the remote control to have access.
+0:30:42	SPEAKER_01
+ If you can do something like that, we can design the remote control to have access.
 
-0:30:48	SPEAKER_01
- Some remote control have protection.
+0:30:46	SPEAKER_01
+ You know, some remote control have protection.
 
-0:30:51	SPEAKER_01
- And so, you...
+0:30:50	SPEAKER_01
+ And so you, you, yeah.
 
 0:30:53	SPEAKER_01
  Yeah.
 
 0:30:54	SPEAKER_03
- Yeah, I just was thinking, there is a...
+ Yeah.
 
-0:30:57	SPEAKER_03
- You know, that's some mass with a wheel like this.
+0:30:55	SPEAKER_03
+ Yeah.
 
-0:31:00	SPEAKER_03
- Just having the up-down buttons.
+0:30:56	SPEAKER_03
+ Just all just thinking there is a, I mean, you know, there's, there's some mask with a wheel like this.
 
-0:31:02	SPEAKER_03
- Yeah, kind of justic.
+0:30:59	SPEAKER_03
+ It's just having the up down buttons.
+
+0:31:01	SPEAKER_03
+ Yeah.
+
+0:31:02	SPEAKER_00
+ Yeah.
+
+0:31:03	SPEAKER_00
+ Kind of just stick.
 
 0:31:04	SPEAKER_00
- Yeah, maybe we can have a wheel for incremental.
+ Yeah.
+
+0:31:05	SPEAKER_00
+ Yeah.
+
+0:31:06	SPEAKER_00
+ Yeah.
+
+0:31:07	SPEAKER_00
+ Maybe we can have a wheel for incremental.
 
 0:31:08	SPEAKER_00
- So, have a wheel for incremental, have the DG on the lower side that can be closed.
+ Okay.
 
-0:31:15	SPEAKER_00
- So, as you say, protected.
+0:31:09	SPEAKER_00
+ So that I have the digit on the lower side that can be closed.
+
+0:31:14	SPEAKER_00
+ So I say protected.
 
 0:31:18	SPEAKER_00
- And, yeah, I think this is the first side.
+ And yeah, I think this is the lower side.
 
-0:31:22	SPEAKER_03
- You have to turn it.
+0:31:21	SPEAKER_03
+ I think you have to turn it.
 
 0:31:24	SPEAKER_01
- And do we have a...
+ And do we, do we have a ball?
 
 0:31:26	SPEAKER_01
- Or a ball?
+ Yeah.
 
 0:31:27	SPEAKER_01
- Yeah, not a wheel, but a ball.
+ Not a wheel, but a ball.
 
-0:31:29	SPEAKER_01
- And you say, it's better.
+0:31:29	SPEAKER_00
+ And you say, I would say the wheel is better.
 
-0:31:31	SPEAKER_00
- I would say the wheel is better.
+0:31:32	SPEAKER_00
+ Because it is the expert of, yeah.
 
-0:31:33	SPEAKER_03
- It is the expert of...
+0:31:35	SPEAKER_03
+ Because it's not like a volume, it's smooth, yeah, it's only 10 to one by one.
 
-0:31:38	SPEAKER_03
- Because it's not like a volume with a smooth, you turn it into one by one.
+0:31:40	SPEAKER_03
+ Yeah.
 
 0:31:41	SPEAKER_03
- So, you have to...
+ So you have to, the user should like to, should fill the, the, the script.
 
-0:31:42	SPEAKER_03
- The user should feel the...
-
-0:31:44	SPEAKER_03
- Yeah, the script.
+0:31:45	SPEAKER_03
+ Yeah.
 
 0:31:46	SPEAKER_03
- Okay, a bit.
+ Okay.
+
+0:31:47	SPEAKER_00
+ Yeah.
 
 0:31:48	SPEAKER_00
- Yeah, that's a good idea.
+ That's a good idea.
 
-0:31:51	None
- And...
+0:31:50	SPEAKER_00
+ And while also we have to decide the, so it should be lightning in the dark, I think because most people lost their remote control.
 
-0:31:52	SPEAKER_00
- Well, also, we have to decide...
-
-0:31:54	SPEAKER_00
- So, it should be lightening in the dark.
-
-0:31:57	SPEAKER_00
- I think, because most people lost their remote control.
+0:31:59	SPEAKER_00
+ It's quite easy.
 
 0:32:00	SPEAKER_01
- It's quite easy with backlight on the...
-
-0:32:03	SPEAKER_01
- With LED or...
-
-0:32:05	SPEAKER_03
- If it's a blue LED and we set that...
+ And we do that with backlight on the, if it's a blue, a blue lady and we serve that.
 
 0:32:08	SPEAKER_00
- And we put an LCD display, because it was important for young customers, if you remember.
+ And do we put an LCD display?
+
+0:32:11	SPEAKER_00
+ Because it was important for young customers, if you remember.
 
 0:32:15	SPEAKER_03
- I think it's all important if you have multifunction.
+ I think it's all important if you have multi-function.
+
+0:32:17	SPEAKER_03
+ Yeah.
 
 0:32:18	SPEAKER_03
- If it's not multifunction, then there's no proponing, actually.
-
-0:32:22	SPEAKER_03
- Just increase the cost.
+ If you have multi-function, then there's no point in having the, actually, just increase the cost.
 
 0:32:23	SPEAKER_03
- Okay, the user doesn't have an advantage of that.
+ Okay.
+
+0:32:24	SPEAKER_03
+ The user doesn't have an advantage.
 
 0:32:25	SPEAKER_00
- So, no LCD.
+ So no LCD.
 
-0:32:27	SPEAKER_00
- And so, no speech as well, because it would delay too much...
-
-0:32:32	SPEAKER_00
- The development tools.
+0:32:28	SPEAKER_00
+ And so no speech as well because it would delay too much the development.
 
 0:32:33	SPEAKER_03
- The delay, yeah.
+ Okay.
 
 0:32:34	SPEAKER_03
- It would be cool.
+ The development goes as well.
+
+0:32:35	SPEAKER_03
+ Yeah.
 
 0:32:36	SPEAKER_03
- It would go to your country.
+ But it would be cool.
 
 0:32:37	SPEAKER_03
- Say, CNN, for example.
+ Because the user could say a CNN for example.
 
-0:32:38	SPEAKER_03
- It would go to CNN.
+0:32:39	SPEAKER_03
+ A CNN.
 
-0:32:40	SPEAKER_00
- Yeah, that would be cool.
+0:32:40	SPEAKER_03
+ Yeah.
+
+0:32:41	SPEAKER_00
+ That would be cool.
 
 0:32:42	SPEAKER_00
- But, eight months is really long.
+ But eight months is really long.
 
-0:32:45	SPEAKER_00
- Maybe we can just...
+0:32:46	SPEAKER_00
+ Maybe we can just, 10 years.
 
-0:32:50	SPEAKER_00
- Ten years.
+0:32:53	SPEAKER_00
+ So I will, so we will move to next meeting.
 
-0:32:51	SPEAKER_00
- So...
-
-0:32:54	SPEAKER_00
- I will...
-
-0:32:58	SPEAKER_00
- So...
-
-0:33:01	SPEAKER_00
- We will move to next meeting, so...
-
-0:33:04	SPEAKER_00
- After the lunch break.
-
-0:33:07	SPEAKER_00
- You are the individual action.
-
-0:33:10	SPEAKER_00
- You are required to do, but you will be recalled to those actions...
-
-0:33:15	SPEAKER_00
- By email, I think.
+0:33:03	SPEAKER_00
+ So in after the launch break, you are the individual action you are required to do, but you will be recalled those actions by email I think.
 
 0:33:17	SPEAKER_00
  But you can take notes if you want.
 
 0:33:20	SPEAKER_00
- But, well, the instruction would be sent.
+ But while the instruction will be sent.
 
 0:33:24	SPEAKER_00
- So, thank you for your suggestion.
+ So thank you for your suggestion.
 
 0:33:28	SPEAKER_00
  And I will make a summary of that meeting that I will put in the shared folder.
@@ -1558,44 +1651,32 @@
 0:33:33	SPEAKER_00
  You can't see.
 
-0:33:35	SPEAKER_00
- And then you will...
+0:33:36	SPEAKER_00
+ And then you will be able to see what has been said on this meeting and what has been decided.
 
-0:33:38	SPEAKER_00
- You will be able to see what has been...
+0:33:50	SPEAKER_00
+ Maybe for next meeting, send me your presentation before by email so that we can see them all together.
 
-0:33:43	SPEAKER_00
- Has been said on this meeting and what has been decided.
-
-0:33:49	SPEAKER_00
- Maybe, for next meeting, send me your presentation before, by email.
-
-0:33:54	SPEAKER_00
- So that we can see them all together.
-
-0:33:58	SPEAKER_00
+0:33:58	SPEAKER_03
  That would be easier.
 
 0:33:59	SPEAKER_03
- What is the folder that you put in the origin?
+ What is the folder that people use?
 
 0:34:01	SPEAKER_03
- It would work.
+ It works.
 
-0:34:03	SPEAKER_00
+0:34:02	SPEAKER_03
  No.
 
-0:34:04	SPEAKER_00
+0:34:03	SPEAKER_00
  No, it did not work.
 
-0:34:05	SPEAKER_03
+0:34:04	SPEAKER_03
  She sent it to me by email.
 
 0:34:07	SPEAKER_00
- I don't know it.
-
-0:34:08	SPEAKER_00
- So, maybe this is better to send it by email.
+ So maybe this is better to send it by email.
 
 0:34:10	SPEAKER_00
  Okay.
@@ -1604,16 +1685,16 @@
  What is your email?
 
 0:34:12	SPEAKER_00
- So, yeah.
+ So yeah.
 
 0:34:13	SPEAKER_00
- It's in the first email, so I'm participant one.
+ I'm, it's in the first email.
+
+0:34:15	SPEAKER_00
+ So I'm participant one.
 
 0:34:17	SPEAKER_00
- I'll put it in the description.
-
-0:34:19	SPEAKER_00
- Okay.
+ I'm participant one.
 
 0:34:20	SPEAKER_00
  Where is that?
@@ -1621,54 +1702,27 @@
 0:34:21	SPEAKER_00
  It's here.
 
-0:34:23	SPEAKER_00
- Participant one at Amy.
+0:34:22	SPEAKER_00
+ participant one at enemy.
+
+0:34:26	SPEAKER_00
+ Okay.
 
 0:34:28	SPEAKER_00
- Okay.
+ So see you after lunch break.
 
-0:34:29	SPEAKER_00
- So, see you after lunch break.
-
-0:34:32	SPEAKER_03
- Can't take you.
+0:34:31	SPEAKER_03
+ Can't think of.
 
 0:34:33	SPEAKER_03
- Can't take you.
-
-0:34:34	SPEAKER_03
- Can't take you.
-
-0:34:35	SPEAKER_03
- Can't take you.
-
-0:34:36	None
- Can't take you.
-
-0:34:37	None
  Okay.
 
-0:34:39	None
- So, next time we'll see each other fight.
+0:34:47	None
+ So next time we should try to fight.
 
-0:34:49	None
- We'll see each other.
+0:34:50	None
+ You don't fight anyMusic.
 
-0:34:51	None
- I bought a ticket, but I don't know.
-
-0:34:54	None
- We'll have to send you a friend.
-
-0:35:02	None
- You said fight, hey, when did we go to night?
-
-0:35:10	None
- Mm-hmm.
-
-0:35:11	None
- It's everywhere, even.
-
-0:35:15	None
- Okay.
+0:35:05	None
+ you just fight a detENT FX
 
