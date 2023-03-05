@@ -1,0 +1,412 @@
+Speaker B: All right, yep, I just have a quick overview of the minutes.
+Speaker B: I think to sum up the last meeting would be to say the requirements that we've set out.
+Speaker B: We were going to go for what seemed to be a fairly minimal design based on a small joystick, LCD and a couple of other buttons for navigation with power being, let's suppose, one of the main single purpose buttons.
+Speaker B: We were also going to use a novelty of being able to locate the remote control again via a small transmitter of any luck, the idea to try and separate us and also because of the minimal design, it looks like we'll be able to be fairly adventurous in the actual physical shape of our remote control of any luck.
+Speaker B: Pretty much sums up the last one.
+Speaker B: So we'll just crack on.
+Speaker B: Like to maybe start with the industrial designer if it's possible.
+Speaker B: As you can see today is the conceptual design phase and it's to cover things like what the parts might be made of, can we outsource these from elsewhere, what we have to construct the items ourselves.
+Speaker B: I have a presentation area, I'll just say that in the, yep, okay, I'll just award the upman.
+Speaker B: Which one?
+Speaker B: Oh, interface concept.
+Speaker B: That's you.
+Speaker B: We've got trend watching.
+Speaker D: Components design.
+Speaker B: Okay.
+Speaker D: So the case, that's for the role.
+Speaker D: First of all, it could be plastic or plastic.
+Speaker D: So later on, we found out that it can be rubber as well or titanium or even wood.
+Speaker D: So it's probably plastic.
+Speaker D: We need the infrared transmitter.
+Speaker D: Get that off the shelf.
+Speaker D: Joy-Sick will probably, if we're going to use it, could be plastic or rubber even as well.
+Speaker D: If you go on to the next slide, if you go on to findings, it's two or three slides there.
+Speaker D: So this is what a family can use.
+Speaker D: Three different types of batteries can either use a hand dynamo or the kinetic type ones that they use in watches or else.
+Speaker D: Solid power.
+Speaker B: No, the kinetic one.
+Speaker B: Of course.
+Speaker B: Because that's the ones where like you, the movement causes it.
+Speaker B: The battery for a watch wouldn't require a lot of power would be my one query.
+Speaker B: Is a kinetic one going to be able to supply enough power?
+Speaker C: Do you think watch moves around a great deal more?
+Speaker D: I don't think it would.
+Speaker D: And solar cells, I don't know about that.
+Speaker A: Been inside and all, yeah.
+Speaker D: You should probably just use conventional batteries.
+Speaker D: Just like a new one can cause.
+Speaker B: Which I suppose as well would allow us to go off the shelf again, you too?
+Speaker D: Yeah.
+Speaker D: These are two different types of shapes.
+Speaker D: You can have one as a flat one.
+Speaker D: And then more original ones are single curved one with a double curved.
+Speaker D: And the materials are there as you can see.
+Speaker D: But you can't have a titanium one for a double curved.
+Speaker A: The titanium, they're really strong metal.
+Speaker D: Is it also expensive?
+Speaker D: It thinks so as well.
+Speaker D: I'm curious.
+Speaker B: I don't know if he'd be able to off the top of your head or not.
+Speaker B: The single curved with double curved.
+Speaker B: We could be able to give an example.
+Speaker B: Could you maybe draw something?
+Speaker B: It doesn't have to be perfect.
+Speaker B: It's just because I'm not quite sure if I understand the difference between the two.
+Speaker D: For curved, well I was thinking to sit in the palm of your hand.
+Speaker D: Maybe like this with the joy pod here.
+Speaker D: Do I stick here?
+Speaker D: Maybe an okay button around here so that the thumb can use it quite easily.
+Speaker D: But don't exactly double curves.
+Speaker D: The problem means this is probably double curves.
+Speaker D: Whereas a single curve would be like that.
+Speaker D: I guess.
+None: Or not.
+Speaker B: So it might literally just be two curves.
+Speaker B: Okay.
+Speaker D: Whereas this is two curves.
+Speaker D: So I guess that's what they mean by double curve.
+Speaker D: It looks better than a single curve.
+Speaker D: You can't have it in titanium.
+Speaker D: A nice material.
+Speaker D: For the buttons, you can have the scroll wheel which they use in mouse.
+Speaker D: It's a little bit more expensive.
+Speaker D: If you want to use LCD, it's a little more expensive.
+Speaker D: So you can decide to trade off there.
+Speaker D: If you want the buttons to be, if you have a double curve, control and it's rubber, then you have to use rubber buttons as well.
+Speaker D: You're going to have to have a number keypad for the amount of channels these days.
+Speaker D: You wouldn't want to just have to scroll through all the channels together when you want to.
+Speaker D: You want to enter just a number if you know.
+Speaker D: So I think we're going to have to have a number keypad anyway.
+Speaker D: Do you think?
+Speaker B: Okay.
+Speaker B: I'm going to have to make sure that we can talk about it.
+Speaker B: So you've got a little bit about the chip that we might require as well.
+Speaker D: Yeah.
+Speaker D: So it depends where you're going to spend the money.
+Speaker D: If you want to fancy LCD display.
+Speaker B: Do you have any idea so far when we're saying that we need an advanced chip for an LCD, does that shoot the cost up by a drastic amount or?
+Speaker A: You need an advanced chip for the LCD.
+Speaker B: I think compared to say with pressing of buttons.
+Speaker B: Advanced light.
+Speaker B: If you press a button and it sends a certain transmission through the infrared, whereas if we're controlling the LCD, we definitely require a much more powerful chip.
+Speaker B: Just compared to the chip you would use for pushing buttons.
+Speaker B: I think see.
+Speaker B: Okay.
+Speaker B: If I've not overstepped.
+Speaker B: Okay.
+Speaker B: Should I go on or go for that?
+Speaker A: If we only have 12 pounds 50.
+Speaker A: 12 euros, not even 12 pounds.
+Speaker A: 12 euros was that like 8 pounds or something like that.
+Speaker B: Well, we'd also be relying on the bulk buying and produce and such.
+Speaker B: I assume we have to look into the cost of those.
+Speaker B: So sorry.
+Speaker D: The previous slides just explain what the internal components of the control.
+Speaker D: If you don't want to be further.
+Speaker D: So it just says what it does.
+Speaker D: Translate the key press into the infrared signal and this is received by the TV.
+Speaker D: The chip just needs to detect the key press and then it's added to the amplifier.
+Speaker B: Okay.
+Speaker D: And then the next slide shows the copper wires interact with the buttons to get sent to the chip.
+Speaker D: So that's just how the power works inside.
+Speaker D: It's a side on what buttons are they use.
+Speaker B: Okay.
+Speaker B: You just got a section of the press.
+Speaker B: So in the information that you've been supplied, how feasible would you say that the idea of using an LCD looks?
+Speaker D: I think we can do it if we use conventional buttons and not have solar cells, they're connected.
+Speaker D: And then maybe use a single curved case because you might need to be curved for the film to use the joystick easily.
+Speaker D: And then you'll need the advanced chip for the LCD.
+Speaker B: I mean that sounds like a good requirement to me.
+Speaker B: Conventional battery would seem to make sense.
+Speaker B: I'm not sure if there's any cost differences between single and double curved.
+Speaker B: And I don't know about anybody else but plastic or rubber is a traditional format casing would seem to be a good way forward.
+Speaker C: I'm actually going to be a golden go street for rubber.
+Speaker A: Okay.
+Speaker A: I also have a preference for rubber.
+Speaker B: First of my reasons.
+Speaker B: Yeah.
+Speaker B: Well, we move on to user interface and...
+Speaker B: Yeah.
+Speaker B: Sorry, as long as we use...
+Speaker B: Yep.
+Speaker B: Okay.
+Speaker B: And I'll...
+Speaker B: And interface concept.
+Speaker C: I'm going to have to work between the slides and the whiteboard because I actually have some fairly concrete things.
+Speaker C: It's time.
+Speaker C: I was given an HTML file giving various ideas from other previous remote control designs and pretty much decided to just dump them off.
+Speaker C: I wasn't very impressed by them and I didn't seem to...
+Speaker C: Nothing I saw seemed to meet the sorts of design specifications that were going for today.
+Speaker C: So rather than looking at other remote, it would be better to simply look at the human hand and try and figure out a way of laying out the elements we've already decided on.
+Speaker C: So the finger is...
+Speaker C: Each finger or thumb is wherever it needs to be already.
+Speaker C: So...
+Speaker C: Next slide, please.
+Speaker C: And what we've basically decided on was the joystick two function buttons and the LCD.
+Speaker C: Just keep it paired down to the absolute minimum.
+Speaker C: I don't actually think we need the numeric keypad because one of the menus that we could have available via the LCD is one where you scroll through channels.
+Speaker C: So if there's something...
+Speaker C: Bear in mind, since this isn't meant to work for...
+Speaker C: For digital or for cable or whatever, you're basically looking at four or five terrestrial channels and then the channel for your VCR and R DVD player and R set top box.
+Speaker C: So it's not really excessive to the inside of that.
+Speaker C: Because I have two modes, basic mode where the joysticks left right for channels up down for volume and the menu mode for further functions.
+Speaker C: The reason I was particularly interested in using rubber for this is if we're going to have a highly ergonomic design, it needs to be ergonomic for left or right handed people.
+Speaker B: Can I jump in slightly there?
+Speaker B: That would suggest that double curve design is probably going to be most appropriate then.
+Speaker C: Yes, absolutely.
+Speaker C: Basically what I...
+Speaker C: Basically what this would be having, I would say the whole thing articulated at two points.
+Speaker C: So if you're handing it from a left or right handed, you can adjust it so that the LCD and the joystick could be in the right place.
+Speaker C: Also this is a rather nicer design gimmick that the whole thing should have sort of organic feel to it because it should be soft to touch and can be moved around.
+Speaker C: Onto the next slide.
+Speaker B: Just to let you know, we'll probably be quite tight for time as well.
+Speaker B: Because I think you've probably got a lot you'd like to say I guess.
+Speaker C: Basically, I can add pretty pictures to this.
+Speaker C: Assuming the hand to be in a sort of disposition, not holding the remote, the joystick unit should rest up with the joint of the forefinger.
+Speaker C: So it's directly visible for the thumb.
+Speaker C: And it would need to be articulated just below that so that it could be switched around for left or right handed users.
+Speaker C: So...
+Speaker C: You then have a grip section that can be more or less the same irrespective of handedness.
+Speaker C: You just have two big buttons that cover most of the area so it can end the upper part, one for the forefinger, one for the middle finger.
+Speaker C: This part here is the joystick.
+Speaker C: This would be the actual grip, probably where you don't have the battery as well.
+Speaker C: That would be probably the bulkiest part.
+Speaker C: And you then have at the bottom the LCD and this would need to be articulated as well.
+Speaker C: And basically I'd want this to rest here right at the base of the wrist so it would fit just nicely in the hand.
+Speaker C: And again, this part could be rotated so it can...
+Speaker C: So that it can be adjusted to either left or right handed user.
+Speaker C: So the top function button in basic mode would be the on off switch and menu mode would be the enter button.
+Speaker C: And then the bottom function button switches between modes.
+Speaker C: Now, programming it...
+Speaker C: Actually, this is one thing I found with the replacement remote control.
+Speaker C: Programming them can be a right pain.
+Speaker C: So I thought that the simplest way around that would be to have a cable to connect it to the computer.
+Speaker C: So I'm fairly simple software on the computer just so that you could program it in a rather more comfortable interface.
+Speaker C: And you could download programs for TVs from all the main manufacturers.
+Speaker C: Though it would be necessary to have a mode for programming it without the computer.
+Speaker C: Just in case there are still people left out there who don't have them yet.
+Speaker B: Okay, that's my idea.
+Speaker B: Excellent, right?
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker A: So to gather my research to be basic methods, we compared whether people want the remote control to do a lot of stuff, or they want it to look cool.
+Speaker A: And then we researched our fashion trends in Europe.
+Speaker A: What's the new black, you know, as it goes?
+Speaker A: Next slide, okay.
+Speaker A: We found in order of importance, people want the remote control to look cool more than they wanted to be cool.
+Speaker A: And they wanted to do a lot of good stuff.
+Speaker A: They wanted to look like it does a lot.
+Speaker A: And if it does do a lot, that's a bonus, but they don't care so much, you know.
+Speaker A: They want it to be...
+Speaker A: Sounds a bit like a contradiction.
+Speaker A: Technically, technically innovative.
+Speaker A: People want it to be that, but still they care more about the way it looks than what it does.
+Speaker A: So like the interface is really important.
+Speaker A: And easy to use.
+Speaker A: It just so happens that from the second point to the third point is twice as important.
+Speaker A: I mean, the second point is twice as important as the third point.
+Speaker A: People want it...
+Speaker A: It has to be cooler than easy to use, you know, if it has the newer speeches, even if it's difficult to use, to prefer it to have the newer speeches.
+Speaker A: And if it's easy to use, that's a bonus.
+Speaker A: The fashion now, this seems better to me, but fruit and bears is the new black for furniture, for clothes, for shoes.
+Speaker A: I had that relates to a remote control, I don't know.
+Speaker A: But I see, I come onto that in the next slide.
+Speaker A: Spongy.
+Speaker A: I've always been saying everything is the new black.
+Speaker A: Well, spongy is the new black as well.
+Speaker A: So we had the choice between rubber and plastic.
+Speaker A: If it's a type of rubber that you can squeeze, you know, it's spongy, then that's good for it.
+Speaker D: I mentioned that the rubber material is the type of stress ball material.
+Speaker A: Not just normal rubber.
+Speaker A: Okay, so kind of spongy material.
+Speaker A: So my personal opinion, we want some advanced internet technologically innovative, obviously.
+Speaker A: What we need is something that looks like it's from the future that looks cool.
+Speaker A: That's different, you know, that's everyone has a white remote control, black remote control.
+Speaker A: You need something cool.
+Speaker A: Like titanium is cool, but it's expensive.
+Speaker A: And maybe it's a bit of overkill for a remote control.
+Speaker A: Now the fruit and veg options.
+Speaker A: Even we go in that direction or we stay totally away from it.
+Speaker A: I mean, the research did come up with fruit and veg, so maybe it is important.
+Speaker A: It's up to the interface guy.
+Speaker A: So if we stay away from it, you know, stay away from it.
+Speaker A: But if we're going to go along with it, then it doesn't necessarily have to be like an apple or something like that or a kiwi fruit.
+Speaker A: There can be something like, I say potato peeler, but I'm sure you guys have a much cooler idea than I do.
+Speaker A: So I think cool is the key.
+Speaker A: A few questions about a spongy remote control. I've never seen one before. I've seen plastic remote controls.
+Speaker A: I think maybe they were.
+Speaker A: I don't know, back in the day when they first come up with remote controls, they had a reason for it being.
+Speaker A: Sturdy, you know, for being stronger, sturdy.
+Speaker A: So if we want something stronger than sturdy, I say stay with plastic or titanium.
+Speaker A: But if we go with spongy, we can stress that you can drop this as many times as you want.
+Speaker A: It doesn't matter. Spongy material is not going to break.
+Speaker A: I just don't know how the LED and the lights are going to fit into a spongy material because it's not going to be completely squeezable.
+Speaker A: So how do things fit in? And if we are going to use spongy, we can say it's long lasting.
+Speaker A: You know, it's damage resistant and stuff like that.
+Speaker A: So just to summarize, people want stuff that's cool, that looks like it's cool.
+Speaker A: And if it is cool, it's a bonus where there doesn't have to be people like Fruit and Veg.
+Speaker A: We can either go down that alley or stay totally away from it.
+Speaker A: People like spongy material, if we're going to use spongy material, we have to think of how practical it is and how we can further promote that idea.
+Speaker A: So this was this year. So things change all the time, every year, you know, they always talk about this year.
+Speaker A: This is a new black. Well, next year, something else is going to be the new black and we're stuck with last year's Fruit and Veg type stuff.
+Speaker A: Okay. That's me.
+Speaker B: Well, I would say that the most you could probably hope for is gaining a year's lead than most people anyway. You always have to bring out new designs. So if we can get next year, then that's possibly a good place to start anyway.
+Speaker B: Seems like a lot of the components could be off the shelf. So I don't know exactly what cost would be incurred. I can see your point about the numbered key back.
+Speaker B: But I would say that we can probably incorporate it into the menu system.
+Speaker B: If you need to do traversal of a large number of channels, my feeling would be that even if at a later date this was to be taking control of set boxes as well.
+Speaker B: And you should be LCD and a joystick would probably allow you to manipulate enough channel numbers for you to be.
+Speaker C: Actually, if you've got a lot of channels, the numbered key back can be quite annoying as well because if you're trying to remember what numbers the discovery child is.
+Speaker A: That's a good point. You can incorporate names into different.
+Speaker C: But if you have a menu structure, then you can subgroup them.
+Speaker B: So what it looks like to me is we'll use a large number of standard components.
+Speaker B: Say something like lithium ion battery, the kind that you find in most small hand-held devices now.
+Speaker B: It looks like we're going for a double curve design. I don't know what cost implications there are in that.
+Speaker B: It looks like we're pretty much decided on some kind of flexible rubber.
+Speaker B: So I'd have to say, depending on how flexible it is, we might need to have some kind of inner frame.
+Speaker C: Yeah, I would say definitely.
+Speaker C: I mean, the idea of having it articulated, there would be basically two points of articulation.
+Speaker C: One below and one above, the main sort of grip.
+Speaker B: Do you think there's any way we can maybe remove the articulation?
+Speaker B: I can see why it looks appealing, but it could be a weak point in the structure, do you think?
+Speaker B: That would be a worry of mine.
+Speaker D: If you're going with the fruit and vegetables, it looks like a banana.
+Speaker D: I don't want to sign it that way.
+Speaker C: I don't think it would be a structural weakness.
+Speaker C: I mean, if you have a firm substructure, you can then incorporate articulation into that.
+Speaker C: If you then have other outer skin of flexible, spongy rubber, then you have something very much organic.
+Speaker C: I think it would look rather cool.
+Speaker C: I mean, drawing there doesn't do it just as it makes it.
+Speaker C: It makes it look a little bit more like a vibrator than a remote control, but we won't add that functionality.
+Speaker B: One interesting point is I don't know how serious you were there, but if we take some of the ideas of a banana, why don't we make the damping yellow to incorporate the color of the logo?
+Speaker B: I don't know.
+Speaker B: It's certainly a different color from your average...
+Speaker C: You make it harder to lose, as well.
+Speaker C: Yeah, that's true.
+Speaker B: Was there anything in your research?
+Speaker A: The noise for when you lose the banana.
+Speaker A: Yeah, but when you lose the remote control, it could be like a monkey noise or something like that rather than a standard B.
+Speaker A: You lose the monkey, the banana.
+Speaker A: You lose the banana, you press the button, and you hear like monkeys scream to someone like that to direct you towards the banana.
+Speaker C: I think that's something that could perhaps be programmable, though we have monkeys default.
+Speaker A: Oh, I was going to talk about the programmable remote control.
+Speaker A: I think it would be cool if you had one remote control that can work with all TVs, you know, you click a button and it finds the frequency that works with your particular television.
+Speaker A: But why you'd need to program it like as a standard feature?
+Speaker C: I don't know.
+Speaker C: Well, basically, the...
+Speaker C: For...
+Speaker C: I mean, each manufacturer will have a particular command set that the TV responds to.
+Speaker C: It's not simply a matter of frequency.
+Speaker C: So, usually what's done is you have a big booklet full of different possibilities.
+Speaker C: You'll have all of them sort of programmed into the...
+Speaker C:...remote and you'll have this little booklet of codes.
+Speaker C: You then find your...
+Speaker C:...find your manufacturer and try the different codes that come under that manufacturer's name until you find the right one.
+Speaker A: That's because televisions, they don't give the remote control any type of feedback when you send it.
+Speaker A: Yeah, that's right.
+Speaker C: Okay.
+Speaker C: So, that's quite annoying and we probably would still have to do that.
+Speaker C: But if we had some sort of hookup to your computer as an option, then if you've got a computer, you can avoid that rather irritating.
+Speaker B: An interesting point is that if the person doesn't have the computer, we can still make the process easier because instead of having to look up codes, maybe we can have it for one of the options they have, is it the lookup, the name of the company on the LCD, and then maybe look up different names of different actual units that have been produced.
+Speaker B: Or we have the little control, just go through them until it's like, does a Stufa correct function and such?
+Speaker A: Is it actually a book of names to digits or is it like a few pages?
+Speaker C: booklet.
+Speaker C: Some pages.
+Speaker A: I just think if we were to store this information, some type of mapping, this person probably need to use this feature like once.
+Speaker A: When they first buy the remote control, whenever they buy a new television.
+Speaker A: So, once every-
+Speaker B: It's not to be used very often, that's right. Yeah.
+Speaker C: But it's a nuisance.
+Speaker C: And it's a nuisance very close to the, to actually purchasing it.
+Speaker C: So, it's something you're likely to be thinking about.
+Speaker C: If there's one in the shop that says it can avoid much of that nuisance, you might be favorably inclined towards it.
+Speaker B: Okay, this is just to give us a rough idea of what we're meant to be doing for the next stage.
+Speaker B: I'm pretty sure that you've got that anyway.
+Speaker B: This was a conceptual one.
+Speaker B: I think we've covered everything we need to here.
+Speaker B: I think we've decided on standard items for most of them, rubber and such.
+Speaker B: So, we're now looking at the detail design and what we need to be doing for the next meeting.
+Speaker B: So, for example, we'll just start the talk.
+Speaker B: But yourself and the industrial and designer are going to be working quite closely at this stage because it'll be hard not to, obviously.
+Speaker B: Looking for a prototype thing of some of the description using clay.
+Speaker B: I suppose you'll be told a lot more about that as progress.
+Speaker B: The user interface design.
+Speaker B: It looks like the idea of push forward so far is maybe more of a physical one now, or possibly be more interested in maybe how the LCD is going to incorporate, you think?
+Speaker B: Or do you perceive that most of the design decisions still need to be based on the physical layout?
+Speaker C: Well, I think other than getting a sort of more aesthetically pleasing form for it, most of the sort of layout design decisions are made, I would say.
+Speaker C: But then again, the menu structure to a considerable extent is going to vary according to the model of television and also any customizations that the user might wish to incorporate.
+Speaker C: So, one of the nice things about having an LCD and a menu structure is that there is that flexibility to it.
+Speaker B: That's very true.
+Speaker B: OK.
+Speaker B: I've got product evaluation as well.
+Speaker A: Yeah, see, some of these things kind of logically follow the others.
+Speaker A: How can product evaluation doesn't that come after?
+Speaker A: Have you seen any product prototype?
+Speaker B: I think it would be more case of how do you envisage us performing the product evaluation once we have a model to test with?
+Speaker B: Oh, that's true.
+Speaker B: OK.
+Speaker B: So, it would be a case of do you think that just bringing users in, do you have them test out?
+Speaker B: Maybe putting a certain number of products into the field in certain places, which I suppose is quite similar, or just kind of hitting the streets and saying, this is a new remote control, what do you think it will look at it?
+Speaker B: OK.
+Speaker A: So, at this stage, we still have an old target audience.
+Speaker B: I think the target audience is pretty much anybody under the age of, say, maybe 60 or something, with the address.
+Speaker B: The reason I'm saying that is that we're just looking at a replacement remote control, something that's stylish.
+Speaker B: So, maybe you're even just, maybe you're narrowing down your target audience simply by saying, it's nervous.
+Speaker B: If they're buying it that often, or they're maybe looking to replace something, then they've got a bit of free cash, so that puts them potentially in the younger age bracket.
+Speaker B: Maybe even single, just for the reasons of excess cash flow.
+Speaker B: Of course, I mean, at 25 euros, I don't think we're looking at charging the air for the device.
+Speaker B: Yeah.
+Speaker B: I think that's a lot of the best way to do that, as well as the normal bracket.
+Speaker B: Your idea of a USB, I think, would largely depend on the cost.
+Speaker B: The USB is definitely one of the cheapest interfaces out there, but it might push the cost of the overall unit up, because we require not just the connection, but the chip for communicating with the rest of the system.
+Speaker B: That one would have to be based on the USB approach for the remote control.
+Speaker B: The idea was that maybe it could connect tops for allowing a software interface in the PC for a larger programming, due to the fact that we've gone for such a nice, easy, minimal design normally.
+Speaker A: Definitely broken some type of...
+Speaker D: But didn't they just say it was just for TV?
+Speaker B: It's just for TV, but for different programming it to use your TV, you might hook it up to the PC.
+Speaker B: I'm not sure, but I'm thinking maybe that the additional cost of the USB might be prohibitive, but we don't know unless it would make sense to.
+Speaker A: But you're going to need some type of flash memory or something.
+Speaker A: Well, something that doesn't...
+Speaker A: You wouldn't have to redo the whole thing once the batteries are changed.
+Speaker C: Yeah.
+Speaker C: Yeah, I think it would need to have...
+Speaker C: It would need to have some sort of onboard memory in any way.
+Speaker C: For one thing, I do think the menu system should be...
+Speaker C: Although it's not going to be terribly complicated.
+Speaker C: It's just controlling one device, the menu system ought to be customizable.
+Speaker A: Different languages and different schemes and stuff like that.
+Speaker C: How you want to say the menu structure for looking through channels, if you've got lots of channels.
+Speaker A: If it was customizable, it's in different languages and stuff.
+Speaker A: It is supposed to be international, right?
+Speaker B: It would make sense to you.
+Speaker B: It would make sense to you.
+Speaker B: And we'd better be careful at the time as well.
+Speaker B: Everybody had a five minute warning, so...
+Speaker B: I would say international would make sense.
+Speaker B: You're going to look at product evaluation.
+Speaker B: I'd better start writing up the hell of a lot of crap.
+Speaker B: You're going to look a bit more at the physical makeup.
+Speaker B: It looks like we're going to need to maybe prototype and play.
+Speaker B: We'll see how that goes.
+Speaker B: We'll be supplied with the clay as well.
+Speaker C: Where is the clay?
+Speaker B: I think we've got an idea of where we need to go for the next meeting.
+Speaker D: We'll go with the fashion thing.
+Speaker D: The fruit and veg.
+Speaker D: It's a spongy, it's over.
+Speaker B: Yeah, that would be my idea.
+Speaker C: I think I would largely not have to ask you to clear the whole fruit and veg.
+Speaker C: But the spongy, I like it a lot.
+Speaker B: I have quite a general consensus that the idea of the rubber could be quite...
+Speaker C: I don't know if you're wondering about having bright yellow.
+Speaker C: Maybe we could have options for colors as well.
+Speaker C: And again, it has the advantages of being harder to lose.
+Speaker A: Sure.
+Speaker A: We are trying to promote a remote control, but we want to keep the company brand as well.
+Speaker B: So we always need to remember that somewhere we're getting the slogan on.
+Speaker B: Possibly, I'm not sure, but I'm seeing a little bit of space around the joystick area, which could be used.
+Speaker C: Like I said before, I think we should have the RRR on the top function.
+Speaker B: Okay.
+Speaker B: And I think that says it all really.
+Speaker B: I'm going to throw it to it.
+Speaker B: Right.
+Speaker B: We'll see everybody in a half hour.

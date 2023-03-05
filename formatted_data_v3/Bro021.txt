@@ -1,0 +1,674 @@
+Speaker C: Okay.
+Speaker F: Somebody else should run this.
+Speaker F: I'm sick of being the one sort of go through and say, well what do you think about this?
+Speaker H: Do you want me to run it today?
+Speaker H: Why should I?
+Speaker H: Okay.
+Speaker H: Let's see maybe we should just get a list of items, things that we should talk about.
+Speaker H: I guess there's the usual updates everybody going around saying, you know, what they're working on, things that happen the last week, but aside from that, is there anything in particular that anybody wants to bring up?
+Speaker H: No. Okay. So why don't we just go around it?
+Speaker D: You want to start?
+Speaker D: All right. We had the first thing maybe that the Euros pitch paper is accepted.
+Speaker H: This is what's in the paper there?
+Speaker D: So it's the paper that described basically the system that we're proposed for the one that
+Speaker H: we submitted the last round.
+Speaker D: Right. Two under commands seems from the reviewer.
+Speaker D: Good.
+Speaker D: Where is it going to be this year?
+Speaker D: It's Alborg in Denmark.
+Speaker D: September.
+Speaker D: Yeah. Well, I've been working mainly on line normalization this week, trying different, slightly different approaches.
+Speaker D: The first thing is trying to play a little bit again with the time constant.
+Speaker D: One thing is trying on line normalization with two different means, one mean for the silence and one for the speech.
+Speaker D: And so I have two recursions which are controlled by the probability of the voice activity detector.
+Speaker D: This actually doesn't seem to help.
+Speaker D: So, but well both online normalization approach seems equivalent.
+Speaker H: Are the means pretty different?
+Speaker D: Yes. They can be very different.
+Speaker F: Do you maybe make errors in different places?
+Speaker D: I didn't look more closely.
+Speaker D: It might be here.
+Speaker D: There is one thing that we can observe is that the mean are more different for C0 and C1 than for the other coefficients.
+Speaker D: Yeah. C1 is...
+Speaker D: There is strange thing happening with C1 is that when you have different kind of noises, the mean for the silence portion can be different.
+Speaker D: So, when you look at the trajectory of C1, it's a strange shape.
+Speaker D: I was expecting that this two mean helps, especially because of the strange C1 shape, which can...
+Speaker D: You can have a trajectory for the speech and then when you are in the silence, it goes somewhere.
+Speaker D: But if the noise is different, it goes somewhere else.
+Speaker D: So, which would mean that if we estimate the mean based on all the signal, even though we have frame dropping, but we don't frame drop everything, this can hurt the estimation of the mean for speech.
+Speaker D: But I still have to investigate further, I think.
+Speaker D: The third thing is that instead of having a fixed time constant, I try to have a time constant that's smaller at the beginning of the utterances to adapt more quickly to the...
+Speaker D: Something that's closer to the right mean.
+Speaker D: And then this time constant increases and I have a threshold that...
+Speaker D: If it's higher than a certain threshold, I keep it to this threshold to still adapt the mean.
+Speaker D: When...
+Speaker D: If the utterances long enough to continue to adapt after like one second.
+Speaker D: Well, this doesn't help neither, but this doesn't hurt.
+Speaker H: Wasn't there some experiment you were going to try where you did something differently for each?
+Speaker H: I don't know whether it was each male band or each FFT band or something.
+Speaker H: There's something you were going to...
+Speaker H: Some parameter you were going to vary depending on the frequency.
+Speaker H: I don't know if that was...
+Speaker D: I guess it was...
+Speaker D: I don't know, maybe it's this idea of having different online normalization for each...
+Speaker D: Tuning for the different MFCCs.
+Speaker H: Yeah, I thought Morgan knew brought it up a couple of meetings ago and then it was something about...
+Speaker H: Then somebody said, yeah, it does seem like C0 is the one that's the major one.
+Speaker H: I can't remember exactly what it was now.
+Speaker D: Actually, yeah, it's very important to normalize C0 and much less to normalize the other coefficients.
+Speaker D: Well, at least with the current online normalization scheme.
+Speaker D: I think we kind of know that normalizing C1 doesn't help with the current scheme.
+Speaker D: In my idea, I was thinking that the reason is maybe because of this funny things that happen between speech and silence, which have different means.
+Speaker D: But maybe it's not so easy to...
+Speaker F: I really would like to suggest looking a little bit at the kinds of errors.
+Speaker F: I know you can get lost in that and go forever and not see too much, but sometimes.
+Speaker F: Just seeing that each of these things didn't make things better may not be enough.
+Speaker F: Maybe that they're making them better in some ways and worse than others or increasing insurgents and increasing delusions or...
+Speaker F: helping with noisy case, but hurting in quiet case. If you saw that, then maybe something would occur to you. How to deal with that.
+Speaker D: All right.
+Speaker D: Yeah.
+Speaker D: So that's it, I think, for the online normalization.
+Speaker D: I've been playing a little bit with some kind of thresholding.
+Speaker D: As a first experiment, I think what I did is to take to measure the average, no, the maximum energy of each utterance and then put a threshold.
+Speaker D: Well, this for each band. Then put a threshold. That's 15 dB below. Well, a couple of dB below this maximum.
+Speaker D: Actually, it was another threshold. It was just adding noise.
+Speaker D: I was adding a white noise, energy. That's 15 dB below, the maximum energy of the utterance.
+Speaker D: Yeah. When we look at the MFCC that results from this, there are a lot more smoother.
+Speaker D: When we compare like a channel zero and channel one utterance, so a clean and the same noisy utterance.
+Speaker D: Well, there is almost no difference between the capture coefficient of the two.
+Speaker D: And the result that we have in terms of speed recognition, actually, it's not worse. It's not better neither.
+Speaker D: But it's kind of surprising that it's not worse because basically you had noise at 15 dB, just 15 dB below, the maximum energy.
+Speaker H: So why does that smooth things out? I don't understand.
+Speaker D: Oh, there's less difference. It's whitening.
+Speaker D: The portion that are more silent, as you add to a white noise that is very high energy, it whitens everything.
+Speaker D: And the high energy portion of the speech don't get much affected anyway.
+Speaker D: The other noise, as the noise you add is the same, the shape is also the same.
+Speaker D: So the trajectory are very, very similar.
+Speaker F: I mean, again, if you trained in one kind of noise and tested in the same kind of noise, you know, given enough training data, you don't do badly.
+Speaker F: The reason we have the problems we have is because it's different in training and test.
+Speaker F: Even if the general kind is the same, the exact instances are different.
+Speaker F: So when you whiten it, then it's like the only noise to first order the only noise that you have is white noise, and you've added the same thing for training and test.
+Speaker H: So would that be similar to doing the smoothing then over time?
+Speaker D: I think it's different.
+Speaker D: It's something that affects more of the silent portions because, well, anyway, the portion of speech that have high energy are not a lot affected by the noises in the order of database.
+Speaker D: If you compare the two channels of speech that are during speech portion, the MFCC are not very different.
+Speaker D: They are very different when energy is lower, like during fricatives or during speech poses.
+Speaker F: But you're still getting more recognition errors, which means that the differences, even though they look like they're not so big, are hurting your recognition.
+Speaker D: So it destroys the speech, right?
+Speaker D: So performance went down?
+Speaker D: No, it didn't.
+Speaker D: So in this case, I really expect that maybe the two stream of features are very different.
+Speaker D: Maybe we could gain something by combining them.
+Speaker F: Well, the other thing is that you just picked one particular way of doing it. First place is 15 dB down across the utterance.
+Speaker F: Maybe you'd want to have something that was a little more daft.
+Speaker F: Secondly, you happened to pick 15 dB and maybe 20 dB better, or 12.
+Speaker H: What was the threshold part of it?
+Speaker H: Was the threshold far down?
+Speaker H: Yeah.
+Speaker F: Well, he had to figure out how much to add.
+Speaker F: So he was looking at the peak value.
+Speaker H: And so what's, I don't understand, how does it go?
+Speaker H: If the peak value is above some threshold, then you add the noise, or it's below some.
+Speaker D: I systematically particularly add the noise, but the noise level is just some kind of threshold below the peak.
+Speaker D: Oh, I see.
+Speaker D: Yeah, which is not really, no, it actually is just adding a constant to each of the male energy.
+Speaker D: To each of the male energy.
+Speaker D: To each of the male energy.
+Speaker D: So yeah, it's really white noise.
+Speaker C: Yeah.
+Speaker F: So then afterwards the log is taken, and that's sort of why the little variation tends to go away.
+Speaker D: Yeah, so maybe, well, this threshold is still a factor that we have to look at.
+Speaker D: I don't know, maybe a constant noise addition would be final.
+Speaker F: Or not constant, but varying over time.
+Speaker F: In fact, it's another way to go.
+Speaker D: Yeah.
+Speaker F: Were you using the normalization in addition to this? I mean, what was the rest of the system?
+Speaker D: Yeah, it was the same system.
+Speaker D: It was the same system.
+Speaker D: Yeah.
+Speaker D: The third thing is that I play a little bit with finding what was different between...
+Speaker D: And there were a couple of differences, like the LDF filters were not the same.
+Speaker D: He had the French-elect complied localization in the system.
+Speaker D: The nerve of MFCC was different, you used 13 and we used 15.
+Speaker D: Well, a bunch of differences.
+Speaker D: And actually, the result that you got were much better on the IDGET, especially.
+Speaker D: So I kind of investigated to see what was the main factor of this difference.
+Speaker D: And it seems that the LDF filter is less hurting.
+Speaker D: So when we put some noise compensation, the LDF filter that's derived from noisy speeches, not more, any more optimal.
+Speaker D: And it makes a big difference on the IDGETs, trained on clean.
+Speaker D: If we use the old LDF filter, I mean the LDF filter that was in the proposal, we have like 82.7% recognition rate on noisy speech when the system is trained on clean speech.
+Speaker D: But when we use the filter that's derived from clean speech, we jumped from 82.7 to 85.1, which is a huge leap.
+Speaker D: So now the results are more similar.
+Speaker D: I will not investigate on the other differences, which is like the number of MFCC that we keep and other small things that we can optimize later on.
+Speaker F: Sure.
+Speaker F: But on the other hand, if everybody is trying different kinds of noise suppression things and so forth, it might be good to standardize on the piece that we're not changing.
+Speaker F: So if there's any particular reason to have pick one or the other, which one is closer to what the proposal was that was submitted to Aurora, are they both?
+Speaker D: I think the new system that I tested, I guess, is closer because it doesn't have less of a front telecom stuff.
+Speaker B: But the water you tested with at least, you're like, yeah.
+Speaker F: Yeah, you're trying to add in front telecom, in front of the rest of it, like you said, the number of filters may be different or something.
+Speaker F: The number of capsule coefficients.
+Speaker F: Yeah, so I mean, I think we want to standardize there with me.
+Speaker F: So I should pick something.
+Speaker D: I think we were going to work with this new system.
+Speaker B: So the right now, the system that is there in the, what we have in the repository is, it uses 15.
+Speaker C: Right.
+Speaker C: Yeah, so.
+Speaker D: But we will use the LDA filters derived from clean speech.
+Speaker D: Yeah, yeah.
+Speaker D: And so actually it's not the LDA filter.
+Speaker D: It's something that's also short enough in latency.
+Speaker B: So we have been always using 15 coefficients, not 30.
+Speaker C: Yeah.
+Speaker C: Well, that's something.
+Speaker C: Yeah.
+Speaker F: I think as long as you guys agree, it doesn't matter.
+Speaker F: I think we have a maximum of 60 features that we're allowed to sell.
+Speaker B: Maybe we can at least run some experiments to see whether, once I have this, noise compensation to see whether 13 and 15 really matters or not.
+Speaker B: Never tested it with the compensation, but without compensation, it was like 15 was slightly better than 13.
+Speaker B: So that's why we stuck to 13.
+Speaker D: And there is so this like energy versus zero.
+Speaker B: Yeah, the larger the devices is zero.
+Speaker B: But if that's the other thing, I mean, without noise compensation, certainly zero is better than log energy.
+Speaker B: I mean, because there are more mismatched conditions than the matching conditions for testing.
+Speaker B: You know, always for the matched condition, you always get a slightly better performance for log energy than C0.
+Speaker B: But not for, I mean, for matched and the clean condition, both you get log energy.
+Speaker B: You get a better performance with log energy.
+Speaker B: Well, maybe once we have this noise compensation, I know we have to try that also, so that we want to go for C0 log energy.
+Speaker C: You can see that.
+Speaker H: So do you have more?
+Speaker H: That's it, I think.
+Speaker F: You have anything more than this?
+Speaker F: No, I'm just, you know, being a manager this week.
+Speaker E: I'll actually get.
+Speaker E: Still working on my equals preparation stuff.
+Speaker E: So I'm thinking about starting some cheating experiments to determine the relative effectiveness of some intermediate categories that I want to classify.
+Speaker E: So for example, I know where voicing occurs and everything.
+Speaker E: I do a phone recognition experiment, somehow putting in the perfect knowledge that I have about voicing.
+Speaker E: So in particular, I was thinking in the hybrid framework, just taking those L&A files and setting to 0 those probabilities that these phones are not voicing.
+Speaker E: So say like I know this particular segment is voicing.
+Speaker E: I would say go into the corresponding L&A file and solve out the post-series for those phonemes that are not voiced and then see what kinds of improvements I get.
+Speaker E: And so this would be a useful thing to know in terms of which of these categories are good for speech recognition.
+Speaker E: So I hope to get those experiments done by a time queues come around in July.
+Speaker H: So do you just take the probabilities of the other ones and spread them out evenly among them?
+Speaker E: Yeah, I was thinking, okay, so just set to some really low number of the non-voiced phones and then re-normalize.
+Speaker H: That would be really interesting to see.
+Speaker H: So then you're going to feed those into some standard recognized art.
+Speaker E: Are you going to do a dig answer?
+Speaker E: Well, I'm going to work with Timit.
+Speaker H: And then you'll feed those.
+Speaker H: Sorry, so where are the outputs of the net going to if you're doing follow.
+Speaker E: Oh, the outputs of the net go into the standard XE hybrid recognized it.
+Speaker E: So maybe.
+Speaker H: And you're going to do phone recognition with the net.
+Speaker E: Right.
+Speaker E: Another thing would be to extend this to digits or something where I can look at whole words.
+Speaker E: And I would be able to see not just like phony events, but interphony events.
+Speaker E: From stop to a vocalic.
+Speaker E: Something that's transitional.
+Speaker H: Yeah.
+Speaker E: Okay.
+Speaker E: That's it.
+Speaker H: Okay.
+Speaker H: So I haven't done a whole lot on anything related to this.
+Speaker H: It's weak. I've been focusing mainly on meeting recorders done.
+Speaker H: So, so just that's it on the day.
+Speaker G: Well, in my last talk last week, I said I tried phase normalization and gotten garbage results.
+Speaker G: I didn't have long term means of traction approach. Turned out there was a bug in my mat.
+Speaker G: I tried it again.
+Speaker G: And the results were better.
+Speaker G: I got intelligible speech back, but they're still wearing as good as just the fact that they magnitude.
+Speaker G: The long magnitude means.
+Speaker G: And also, I'll be talking to.
+Speaker G: I'm doing some QL about the smart online which model and about coming up with a good model for.
+Speaker G: Far might use the smart com system.
+Speaker G: So I'm going to be working on implementing this means of fashion approach from the.
+Speaker G: Far make system for the smart com system.
+Speaker G: And one of the experiments we're going to do is.
+Speaker G: We're going to train the broadcast news net, which is because that's what we've been using so far.
+Speaker G: And adapted on some other data.
+Speaker G: And I just want to use data that resembles red speech.
+Speaker G: Like these picture readings because he feels that the smart com system interaction is not going to be exactly conversational.
+Speaker G: So actually, I was wondering how long does it take to train that broadcast news net?
+Speaker F: The big one takes a while.
+Speaker F: Yeah, it takes two, three weeks.
+Speaker F: So, but you know, you can get.
+Speaker F: I don't know if you want to run the big one in the final system because it takes a little while to run it.
+Speaker F: So you can scale it down by.
+Speaker F: I'm sorry, it was two, three weeks for training up for the large broadcast news test set training set.
+Speaker F: I don't know how much you'd be training on.
+Speaker F: Full.
+Speaker F: So if you trained on half as much and made the net half as big, then it would be one fourth.
+Speaker F: A lot of time and it'd be nearly as good.
+Speaker F: Also, I guess we had, we've had these little discussions, I guess you have an chance to work with it too much.
+Speaker F: We've had about other ways of taking care of the phase.
+Speaker F: So, I mean, I guess I was something I could say would be that we've talked a little bit about just doing it all with complex arithmetic.
+Speaker F: And not doing the polar representation with magnitude and phase, but it looks like there's ways that one could potentially just work with the complex numbers.
+Speaker F: And in principle, get rid of the effects of the average complex spectrum.
+Speaker G: And actually regarding the phase normalization.
+Speaker G: So I did two experiments and one is, so phases get added modulo 2 pi.
+Speaker G: Because you only know the phase of the complex number of the two, about you modulo 2 pi.
+Speaker G: And so I thought it first, that what I should do is unwrap the phase, because that will undo that.
+Speaker G: But I actually got worse results doing that unwrapping using the simple phase unwrapping.
+Speaker G: I did not unwrapping at all.
+Speaker F: Yeah. So.
+Speaker G: And that's all happening.
+Speaker F: So I'm still hopeful that, I mean, we don't even know if the phase is something, the average phase is something that we do want to remove.
+Speaker F: I mean, maybe there's some deeper reason why it isn't the right thing to do.
+Speaker F: At least in principle, it looks like there's a couple potential ways to do one being to just work with the complex numbers.
+Speaker F: And in rectangular coordinates.
+Speaker F: And the other is to do a Taylor series.
+Speaker F: Well, so they work with the complex numbers.
+Speaker F: And then when you get the spectrum, the average complex spectrum actually divided out as opposed to taking the log and subtracting.
+Speaker F: So then there might be some numerical issues.
+Speaker F: I mean, we don't really know that.
+Speaker F: The other thing we talked a little bit about was Taylor series expansion.
+Speaker F: And actually I was talking to Dick Carp about a little bit.
+Speaker F: And since I got thinking about it.
+Speaker F: The other thing is that you have to do, I think we have to do this on a white board.
+Speaker F: But I think you have to be a little careful about scaling the numbers that you're taking the complex numbers that you're taking the log off.
+Speaker F: Because the Taylor expansion for it has square on a cube and so forth.
+Speaker F: And so if you have a number that is modulus, you know, very different from one, should be right around one.
+Speaker F: Because it's an expansion of log 1 minus epsilon.
+Speaker F: One plus epsilon.
+Speaker F: Well, it's an epsilon squared over 2 and an epsilon cubed over 3 and so forth.
+Speaker F: So if epsilon is bigger than 1, then it diverges.
+Speaker F: So you have to do some scaling.
+Speaker F: But that's not a big deal.
+Speaker F: Because it's the log of k times the complex number.
+Speaker F: And you can just the same as log of k plus log of the complex number.
+Speaker F: So there's converges.
+Speaker B: Okay.
+Speaker B: How about you, Sena?
+Speaker B: So I've been implementing this, we're filtering for this robot task.
+Speaker B: And I actually thought it was doing fine when I tested it once.
+Speaker B: It's like using a small section of the code and then I ran the whole recognition experiment with Italian.
+Speaker B: And I got like, was results then not using it.
+Speaker B: So I've been trying to find where the problem came from and then it looks like I have some problem in the way.
+Speaker B: There's some very silly bugs somewhere.
+Speaker B: I mean, it actually made the whole thing worse.
+Speaker B: I was looking at the spectrograms that I got.
+Speaker B: And it's like, it's very horrible.
+Speaker F: I miss the, I'm sorry, I missed the very first sense.
+Speaker F: Oh, Ben was on the rest.
+Speaker F: But what?
+Speaker B: Oh, yeah, I actually implemented the filter as a module and then I stood it out separately.
+Speaker B: And it gave like, I just got the signal out and it was okay.
+Speaker B: So I plugged it in somewhere and then, I mean, it's like I had to remove some part and then plugging it in somewhere.
+Speaker B: And then in that process, I messed it up somewhere.
+Speaker B: So, I mean, I thought it was all fine and then I ran it and I got something worse than not using it.
+Speaker B: So I was like, I'm trying to find what problem came in.
+Speaker B: It seems to be like somewhere, some silly stuff.
+Speaker B: And the other thing was, he showed up one day and then I was talking.
+Speaker B: Yeah, as he's wanted to do.
+Speaker B: Yeah, so I was actually that I was thinking about doing something about the minute filtering and then Carlos method of stuff.
+Speaker B: And then he showed up and then I told him and then he gave me a whole bunch of filters what Carlos used for his thesis.
+Speaker B: That was something which came up and then, so I'm actually thinking of using that also in this, a winner filtering because that is a modified winner filtering approach where instead of using the current frame, he uses adjacent frames also in designing the winner filter.
+Speaker B: So instead of designing our own new winner filters, I may just use one of those Carlos filters in this implementation and see whether it actually gives me something better than using just the current current frame.
+Speaker B: Which is in a way, something like the smoothing the winner filter.
+Speaker B: So I'm like, that's so that is the next thing once this, once I saw this problem out, maybe I'll just go into that also.
+Speaker B: And the other thing was about the subspace approach.
+Speaker B: So I like plugged some routines for computing this eigen values and eigen vectors.
+Speaker B: So just trying to assemble some small block of things which I need to put together for the subspace approach.
+Speaker B: And I'm in the process of like building up that stuff.
+Speaker C: And I guess, yeah, because that's it and that's where I am right now.
+Speaker A: I'm working with VTS.
+Speaker A: I do several experiments with the Spanish database first, only with VTS and nothing more, not VAD, no LDA, nothing more.
+Speaker H: What is VTS again?
+Speaker A: Vectorial, Tyler said to remove the noise.
+Speaker H: I think I ask you that every single minute.
+Speaker H: What?
+Speaker H: I ask you that question every meeting.
+Speaker F: It's not big of a analysis. It's good to have some cases of the same address.
+Speaker F: Yeah.
+Speaker H: What is VTS?
+Speaker A: VTS.
+Speaker A: Well, and the question is that, what?
+Speaker A: Remove some noise, but not too much.
+Speaker A: And when we put the VAD, the result is better.
+Speaker A: And we put everything, the result is better, but it's not better than the result that we have with the VTS.
+Speaker A: You know.
+Speaker F: I see.
+Speaker F: So that given that you're using the VAD, also the effect of the VTS is not similar.
+Speaker F: How much of that do you think is due to just the particular implementation, how much are you adjusting it, or how much do you think is intrinsic?
+Speaker A: I don't know, because...
+Speaker D: Are you still using only the 10th-first frame for noise estimation?
+Speaker A: I do the experiment using only the...
+Speaker A: Yeah.
+Speaker A:...doing only one first estimation of the noise.
+Speaker A: And also I did some experiment doing a line estimation of the noise.
+Speaker A: Well, it's a little bit better, but not...
+Speaker D: Maybe you have to standardize this thing also, noise estimation, because all the things that you are testing use different...
+Speaker D: They all need some...
+Speaker D: No, it's not a bad idea.
+Speaker D: They all use a different one.
+Speaker F: I have an idea.
+Speaker F: If you're right, I mean, each of these require this.
+Speaker F: Given that we're going to have, for this test, at least, boundaries, what if initially we start off by using known sections of non-speech for the estimation?
+Speaker F: Right?
+Speaker F: Yes.
+Speaker F: So first place, I mean, even if ultimately we wouldn't be given the boundaries, this would be a good initial experiment to separate out the effects of things.
+Speaker F: I mean, how much is the poor, you know, relatively unhelpful result that you're getting in this or this or this, is due to some inherent limitation to the method for these tests and how much of it is just due to the fact that you're not accurately finding enough regions that are really noise.
+Speaker F: So maybe if you tested it using that, you'd have more reliable stretches of non-speech to the estimation from and see if that helps.
+Speaker A: Another thing is the code book, the initial code book, that maybe, well, it's too clean.
+Speaker A: Because it's, I don't know, the methods.
+Speaker A: If you want, I can say something about the method.
+Speaker A: Yeah, indeed.
+Speaker A: Because it's a little bit different after the method.
+Speaker A: But we have, if this is the noise signal, in the log domain, we have something like this.
+Speaker A: And the idea of this method is to, given, how do you say, I will read because it's other in my English.
+Speaker A: It's the estimate of the PDF of the noise signal when we have a statistic of the Glinger's speech and a statistic of the noise's speech.
+Speaker A: And the Glinger's speech, the statistic of the Glinger's speech is from a code book.
+Speaker A: This is the idea. Well, like this relation is not linear, the methods propose to develop this in the Dr. Taylor series.
+Speaker A: Approximately.
+Speaker F: I'm actually just confused about the equations you have up there.
+Speaker F: So the topic equation is, this is the log domain.
+Speaker A: Which is the log domain?
+Speaker A: It's the T, it's equal to log of.
+Speaker F: But why is what? Why of the spectrum?
+Speaker A: This is this and this is this.
+Speaker F: No, no. The top Y is what?
+Speaker F: Is that the power spectrum?
+Speaker F: No, is that power spectrum?
+Speaker F: Yeah, this is the power spectrum.
+Speaker A: Yeah, it's the power spectrum.
+Speaker A: So this is the netted, yes.
+Speaker A: I'll evaluate you.
+Speaker F: Yeah, okay, so this is the magnitude, the error or something.
+Speaker F: Yeah.
+Speaker F: Okay, so you have power spectrum added there.
+Speaker F: And down here you have, you put the depends on T.
+Speaker F: But, Billy, this is just, you just mean the log of the one up above.
+Speaker F: And so that is X times...
+Speaker A: Yeah, maybe...
+Speaker A: Well, we can put this...
+Speaker F: X times one plus...
+Speaker F: And in minus X.
+Speaker F: Yeah.
+Speaker F: And then...
+Speaker F: And then I see...
+Speaker F: That's log of X plus log of one plus...
+Speaker F: Well...
+Speaker F: Is that right?
+Speaker F: I'll go and see.
+Speaker A: Well...
+Speaker F: I actually don't see how you get that.
+Speaker A: Well, if we apply the log, we have...
+Speaker A: It's...
+Speaker A: Log...
+Speaker A: It's equal to log of X plus N.
+Speaker A: Yeah.
+Speaker A: And well...
+Speaker A: We can say that...
+Speaker A: E...
+Speaker A: Is equal to log of...
+Speaker A: Exponential of X plus exponential of N.
+Speaker F: No.
+Speaker F: No.
+Speaker C: That doesn't follow.
+Speaker C: Blow of E every week.
+Speaker C: Well, this is...
+Speaker A: This is the time...
+Speaker A: The time the mind.
+Speaker A: Well, we have that...
+Speaker A: We have first that, for example, X...
+Speaker A: Is equal...
+Speaker A: Well...
+Speaker A: This is the frequency domain.
+Speaker A: And we can put that...
+Speaker A: The log domain...
+Speaker A: Log of X...
+Speaker A: Oh my god, but...
+Speaker A: Well, in the time the mind, we have an exponential.
+Speaker A: No?
+Speaker A: No?
+Speaker A: Oh, maybe...
+Speaker F: Yeah, I mean, just never mind what they are.
+Speaker F: It's just if X and N are variables.
+Speaker F: Right?
+Speaker F: The log of X plus N is not the same as the log of E the X plus E the N.
+Speaker A: Yeah, but this is...
+Speaker A: I don't...
+Speaker A: Maybe I can take it offline, but...
+Speaker A: I can do this incorrectly.
+Speaker A: The expression that they're bearing in the paper is...
+Speaker A: Very long.
+Speaker B: The Taylor series expansion for log 1 plus N by X is...
+Speaker B: It's X.
+Speaker B: Yes, the first one.
+Speaker B: Yeah, I guess.
+Speaker F: Yeah, because it doesn't just follow as there has to be some...
+Speaker B: If you take log X into log 1 plus N by X and then expand the log 1 plus N by X into Taylor's...
+Speaker A: Yeah, this is the...
+Speaker A: And then...
+Speaker D: Yeah, but the second...
+Speaker D: Expression that you put is the first order expansion of...
+Speaker D: Not something.
+Speaker A: The first order.
+Speaker A: No, no, no, it's not the first...
+Speaker A: We have...
+Speaker A: We can put that X is equal...
+Speaker A: I is equal to log of...
+Speaker F: That doesn't follow.
+Speaker A: I mean, we can put...
+Speaker F: That... I mean, the top one does not imply the second one.
+Speaker F: Because the log of a sum is not the same as...
+Speaker A: Yeah, yeah, yeah, yeah, but we can...
+Speaker A: We know that, for some, the log of E plus B is equal to log of E plus log.
+Speaker F: Right.
+Speaker F: To B.
+Speaker A: And we can say...
+Speaker A: Right, so you can...
+Speaker A: Yes, it is.
+Speaker A: And we can put this inside.
+Speaker A: And then we can...
+Speaker A: You know?
+Speaker F: No, but...
+Speaker A: Yeah?
+Speaker F: I don't see how you get the second expression from the top one.
+Speaker F: I mean, just more generally here.
+Speaker F: If you say log of a plus B, the log of a plus B is not...
+Speaker F: Or a plus B is not the log of E to the a plus E to the B.
+Speaker A: No, no, no, no, no, no, no, it's not.
+Speaker F: Right?
+Speaker F: And that's what you seem to be saying.
+Speaker F: No, but this is the same...
+Speaker F: Right?
+Speaker F: Because you appear you have the a plus B.
+Speaker A: No, I say...
+Speaker A: I have a log of E is equal to log of...
+Speaker A: In this side is equal to log of X plus N.
+Speaker A: Right.
+Speaker A: No?
+Speaker A: Right.
+Speaker A: And that's how you go from there to the...
+Speaker A: And then if I apply exponential to half here...
+Speaker A: Look, here's what's...
+Speaker F: I mean C equals a plus B.
+Speaker D: Of capital Y, right?
+Speaker D: And then...
+Speaker D: X...
+Speaker C: X...
+Speaker C: This is X inside.
+Speaker A: Right.
+Speaker F: We have this, no?
+Speaker F: Yeah, that one's right.
+Speaker F: Mm-hmm.
+None: BEEP BEEP BEEP BEEP
+Speaker A: BEEP We can put here the set transformation.
+Speaker F: I see.
+Speaker F: No?
+Speaker F: I see.
+Speaker F: Okay, I understand that.
+Speaker F: All right, thanks.
+Speaker A: Yeah, in this case, what we can put here...
+Speaker A: Y.
+Speaker F: Okay, so yeah, just by definition, that the individual...
+Speaker F: So capital X is by definition the same as each of the little X because he's saying that the little X is the log.
+Speaker A: All right, we can put this.
+Speaker A: Yeah.
+Speaker A: And here we can...
+Speaker F: I think these things are a lot clearer when you can use fonts.
+Speaker F: Oh, yeah.
+Speaker F: For fonts.
+Speaker A: They're saying that which is what...
+Speaker A: Yeah, yeah, yeah.
+Speaker A: I understand.
+Speaker A: Okay.
+Speaker A: But this is correct.
+Speaker A: Sure.
+Speaker A: And now I can do...
+Speaker A: I can put log...
+Speaker A: Of EX...
+Speaker A: Plus log.
+Speaker F: Yeah, so I understand now.
+Speaker F: And this is...
+Speaker G: Yeah.
+None: Yeah.
+Speaker D: Right.
+Speaker G: Let's call that.
+Speaker A: Right.
+Speaker A: Okay, thanks.
+Speaker A: Well, the idea, well, we have fixed this, segue.
+Speaker F: Okay, so now once you get that one, then you...
+Speaker F: Then do a first or second order or something, Taylor?
+Speaker A: Yeah.
+Speaker A: This is an linear relation that is to develop this in...
+Speaker A: Backter Taylor's say.
+Speaker A: Sure.
+Speaker A: Right.
+Speaker A: And for that, well, the goal is to estimate a PDF for the noise speech.
+Speaker A: When we have a statistic for clean speech and for the noise speech.
+Speaker A: And the way to obtain the PDF for the noise speech is...
+Speaker A: Well, we know this statistic.
+Speaker A: And we know the notes is...
+Speaker A: Well, we can apply first order of the vector Taylor series of the order...
+Speaker A: The order that we want to increase the complexity of the problem.
+Speaker A: And then when we have a expression for the...
+Speaker A: Mean that variance of the noise speech.
+Speaker A: We apply a technique of minimum mean square estimation to obtain the expected value of the clean speech given the...
+Speaker A: And this statistic for the noise speech, the statistic for clean speech and the statistic of the noise speech.
+Speaker A: This only that.
+Speaker A: But the idea is that...
+Speaker D: And the model of clean speech is a code book, right?
+Speaker D: Yeah.
+Speaker A: We have a code boot with different density Gaussian.
+Speaker A: We can put the...
+Speaker A: For the clean speech, the probability of the clean speech is equal to...
+Speaker C: Well, we got the data.
+Speaker F: So, how much in the work they reported, how much noise speech did you need to get good enough statistics for to get this mapping?
+Speaker A: I don't know, sadly.
+Speaker A: Yeah.
+Speaker A: I need this...
+Speaker A: I don't know, sadly.
+Speaker F: I think what's certainly characteristic of a lot of the data in this test is that you don't have...
+Speaker F: The training set may not be a great estimator for the noise in the test set.
+Speaker F: Sometimes it is and sometimes it's on.
+Speaker A: Yeah, the clean speech, the code book for clean speech, I am using themit.
+Speaker A: And I have now 64 Gaussian.
+Speaker F: And what are you using for the noise?
+Speaker A: I estimate the noises.
+Speaker A: For the noises, I usually use one Gaussian.
+Speaker F: And you train it up entirely from non-speech sections in the test?
+Speaker A: Yes, the first experiment that I do is only to calculate this value.
+Speaker A: The compensation of the dictionary one time using the noise at the beginning of the sentence, this is the first experiment.
+Speaker A: And I fix this for all the sentences.
+Speaker A: Because well, the VDS matters.
+Speaker A: In fact, the first thing that I do is to obtain an expression for E.
+Speaker A: Probability is expression of E.
+Speaker A: That means that the VDS with the VDS we obtain...
+Speaker A: We obtain the means for each Gaussian and the variance.
+Speaker A: This is one.
+Speaker A: This is the compensation of the dictionary.
+Speaker A: And the other thing that is with this matters is to obtain to calculate this value.
+Speaker A: Because we can write that the estimation of the Gling speed is equal at a expected value of the Gling speed conditional to the noise seen.
+Speaker A: The probability of the statistic of the Gling speed and the statistic of the noise.
+Speaker A: This is the matters that say that we obtain this.
+Speaker A: And we can put that this is equal to the estimate value of E minus a function that conditional to the naysina.
+Speaker A: This is the term after the developed this, the term that we obtain.
+Speaker A: And we can put that this is equal to the naysina minus.
+None: Okay.
+Speaker A: I put this name and I can calculate this.
+Speaker F: What is the first variable in that probability?
+Speaker F: The Gaussian.
+Speaker A: This is the...
+Speaker A: It's not exactly this.
+Speaker A: It's modified.
+Speaker A: If we have the Gling speed, we have the probability of a weight for each Gaussian.
+Speaker A: And now this weight is different.
+Speaker A: And I need to calculate this.
+Speaker A: I can't develop an expression that this.
+Speaker A: I can calculate this value with the statistic of the noise.
+Speaker A: I can calculate this value with the statistic of the noise speed that I calculated before with the VTS approximation.
+Speaker A: And what normalizes?
+Speaker A: And I know everything.
+Speaker A: When I developed this in Taylor's series, I can't calculate the mean and variance of the...
+Speaker A: For each of the Gaussian of the dictionary for the noise speed.
+Speaker A: And this is fixed.
+Speaker A: If I never do a new estimation of the noise, this mean and variance are fixed.
+Speaker A: And for each frame of the speed, the only thing that I need to do is to calculate this in order to calculate the estimation of the Gling speed.
+Speaker A: Giving a noise speed.
+Speaker F: So I'm not following this perfectly, but are you saying that all of these estimates are done using estimates of the probability density for the noise that are calculated only from the first 10 frames?
+Speaker F: And never change throughout anything else.
+Speaker A: This is one of the estimation that I do.
+Speaker F: Per utterance?
+Speaker A: Per utterance.
+Speaker F: So it's done new for each new address.
+Speaker F: So this changes the whole mapping for every address.
+Speaker A: Yeah, it's fixed, the dictionary.
+Speaker A: And the other estimation is when I do the underlying estimation, I change the means and variance of the noise speed.
+Speaker A: It's time that I detect noise.
+Speaker A: I do again this, the value, estimate the new mean and variance of the nice speed.
+Speaker A: And with this new mean and variance, I estimate again.
+Speaker F: So you estimate it completely forgetting what you had before?
+Speaker A: Or is there some...
+Speaker A: No, no, no, no, it's not completely noise.
+Speaker A: I am doing something like another station of the noise.
+Speaker F: Now do we know, either from their experience or from yours, that just having two parameters that mean variance is enough?
+Speaker F: Yeah, I mean, I know you don't have a lot of data to estimate with, but...
+Speaker A: I estimate mean and variance for each one of the Gaussian of the code, Boo.
+Speaker F: No, I'm talking about the noise.
+Speaker A: There's only one Gaussian.
+Speaker A: I'm using only one.
+Speaker A: Right.
+Speaker F: I don't know.
+Speaker F: And it's only one...
+Speaker F: Wait a minute, what's the dimensionality of the Gaussian?
+Speaker A: It's in after the Melvator Bank.
+Speaker A: So it's 20...
+Speaker F: So it's actually 40 numbers that you're getting.
+Speaker F: Yeah, maybe...
+Speaker A: The original papers say that only one Gaussian for the noise.
+Speaker F: Well, yeah, but I mean...
+Speaker F: Yeah, maybe...
+Speaker F: No paper is a Bible, you know.
+Speaker F: The question is whether it would be helpful, particularly if you had more...
+Speaker F: So suppose you did, this is almost cheating, it certainly isn't real time, but if you suppose you used the real boundaries that you were going to refactor given by the VAD and so forth, or I guess we're going to be given even better boundaries than that.
+Speaker F: And you take all of the non-speech components in an utterance, so you have a fair amount.
+Speaker F: Do you benefit from having a better model for the noise? That would be another question.
+Speaker F: Maybe.
+Speaker F: So first question would be, to what extent are the errors that you still seeing based on the fact that you have poor boundaries for the non-speech?
+Speaker F: The second question might be given that you have good boundaries, could you do better if you use more parameters to characterize the noise?
+Speaker F: Also, another question might be, they are using first term only of the vector Taylor series.
+Speaker F: If you do a second term, does it get too complicated?
+Speaker F: Yeah, it's quite complicated.
+Speaker F: Yeah, okay.
+Speaker F: I want to ask the last question then.
+Speaker A: For me, it's the first time that I am working with VTS.
+Speaker F: Yeah, no, it's interesting. We haven't had anybody work with it before, so it's interesting to get your feedback.
+Speaker A: It's another type of approximation because it's a statistic approximation to remove the noise.
+Speaker H: Right.
+Speaker H: Okay, well, I guess we're about done.
+Speaker H: So some of the digit forms don't have digits.
+Speaker H: If you ran out and there were some blanks in there, so not everybody will be reading digits.
+Speaker H: I guess you've got some right Morgan.
+Speaker H: I have some.
+Speaker H: I want you to go ahead and start and I think it's just us down here.
+Speaker C: Okay, switch off the phone.
+Speaker F: Leave it on.
+Speaker F: They prefer to have them on just so that they're continuing to get the distant information.
+Speaker F: Transcript, LDASH 169.
+Speaker F: 393 095 798 2760 565 867 611 1 8 2 4 2 6 1 9 0 0 2 7 8 3 8 8 1 2 2 6 7 4 1 9 7 9 4 9 8 5 7 8 7 9 0 9 2 375 417 612 3762 6367 2942
+Speaker E: Transcript LDASH 167 7 5 6 0 5 373 147 4 4 9 2 7 8 1167 38 85 57 8 164 64 8 203 377 5 263 2857 95672 2 9 0 18 32 2623 32 5 2 7 7 9 4 9 6
+Speaker H: Transcript LDASH 168 7 9 9 9 2 4 8 8 0 6 9 8 7 0 1 8 4 8 0 3 1 7 8 4 1 7 8 2 5 2 3 2 6 5 9 8 3 6 6 5 4 0 4 1 5 0 5 8 8 2 0 357 2 6 0 6 5 9 7 6 2 8 1 9 5 9 8 11 4 2 0 8 6 7 9 8
+Speaker G: Transcript LDASH 174 4911 8 4 7 9 2 4 1 2 7 8 9 2 5 1 6 6 367 7 3 2 8 9 7 6 2 7 9 3 6 1 0 5 9 3 5 7 5 6 0 4 8 8 8 2 9 8 5 9 6 7 2 5 0 6 9 4 8 2 2 0 19 269 1
+Speaker F: Okay Okay

@@ -1,0 +1,888 @@
+Speaker B: Okay, we're all set.
+Speaker B: Right.
+Speaker B: Well, this is the final detailed design meeting.
+Speaker B: We're going to discuss the look and feel design, the easier interface design, and we're going to evaluate the product.
+Speaker B: And the end result of this meeting has to be a decision on the details of this remote control, like absolute final decision.
+Speaker B: And then I'm going to have to specify the final design in the final report.
+Speaker B: So just from last time to recap, we said we were going to have a snowman shaped remote control with no LCD display, no need for talk back.
+Speaker B: It was hopefully going to be kinetic power and battery with rubber buttons, maybe back lighting the buttons with some internal LEDs to shine through the casing, hopefully a job dial, incorporating the slogan somewhere as well.
+Speaker B: Anything I missed?
+Speaker B: Okay.
+Speaker B: Sue, if you want to present your prototype, go ahead.
+Speaker G: That's it.
+Speaker G: Ninja Homa made in Japan.
+Speaker C: There are a few tunes we've made.
+Speaker C: We're looking at the expansion.
+Speaker C: And it's going to be quite a lot expensive to have open up now what's the buttons and stuff inside.
+Speaker C: So instead of this is going to be an LCD screen.
+Speaker C: Just a very, very basic one, very small, with access to the menu through the screw wheel and confirm.
+Speaker C: And button.
+Speaker C: Okay.
+Speaker C: Part of my, there's pretty much the same thing we discussed last time.
+Speaker G: And there isn't a, it doesn't open up to the advanced functions.
+Speaker G: So the advanced functions are still hidden from you, but they're hidden in this inset.
+Speaker G: They're not in use.
+Speaker G: Where are they?
+Speaker G: They're in the LCD panel and the job dial.
+Speaker G: All right.
+Speaker B: So what kind of thing is going to be?
+Speaker G: The LCD panel just displays functionally what you're doing.
+Speaker G: If you're using an advanced function, right, like brightness, contrast, whatever, it would just say, you know, it's like, it only has four columns.
+Speaker G: It's a very simple LCD.
+Speaker G: Like, or as many, the minimum amount we need that they usually automatically know, like, this is brightness, or this is contrast.
+Speaker G: It might even be one, a bit more complex LCD panel, which pictures like maybe the sun, or, you know, the symbols of the various.
+Speaker G: And what is this here?
+Speaker G: That's a number pad.
+Speaker G: Okay.
+Speaker B: So the number pad is where we're going to have the slogan.
+Speaker G: Um, just like along the side.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker G: Cool.
+Speaker G: You have this space here and then you have this thing on the side as well, or at the bottom.
+Speaker G: So, the slogans are usually quite small, right?
+Speaker G: They're not like huge.
+Speaker G: So, there's, say, buttons about this size, right?
+Speaker G: So you would still have plenty of space for a slogan.
+Speaker B: So if this isn't to scale, what kind of dimensions are you thinking about here?
+Speaker C: Well, I want the buttons to be bigger enough to push easily with my fingers.
+Speaker C: So we're going to, maybe that'll be about the same size as in Pam and, yeah.
+Speaker G: So that would be about centimeter for a button.
+Speaker G: So one, two, three, four centimeters plus maybe half, five, six, seven, eight.
+Speaker B: Yeah.
+Speaker B: That sounds good.
+Speaker B: That would be good.
+Speaker B: So 10 centimeters in height.
+Speaker B: Okay.
+Speaker B: Um, that would be good.
+Speaker B: In fact, a pen is about 10 centimeters usually.
+Speaker B: So that would be, that sounds like a really good sign.
+Speaker B: Yeah.
+Speaker D: You see it there.
+Speaker D: That's great.
+Speaker B: And it's very bright as well.
+Speaker B: So, um, okay.
+Speaker D: Is it possible?
+Speaker D: Uh, just going to bring up the idea of colors.
+Speaker D: Is these, are these the colors that have production?
+Speaker D: Um, is this just what we had available?
+Speaker C: We're going to have again the sort of the foggy, um, yellow, masking that the app when you beat the button, right?
+Speaker B: Okay.
+Speaker B: I can do this list of all the things that it does.
+Speaker C: So I can write them in the report.
+Speaker C: Um, this button.
+Speaker C: Um, because it's red, it's sort of very small.
+Speaker C: I'm going to use it as, uh, it's going to be the power button if you hold it for maybe two seconds.
+Speaker C: I'll send it in the mic if you want to make a change, or be used to be more popular and can use this as a jog though.
+Speaker B: Okay. So that's like an okay button?
+Speaker B: Yeah.
+Speaker G: Mm-hmm.
+Speaker G: Oh, we discussed how high it is, but how wide is it?
+Speaker G: Okay.
+Speaker G: How high is it?
+Speaker G: No, as in the height.
+Speaker G: Yeah.
+Speaker G: But what about the width?
+Speaker B: Oh, like depth of the...
+Speaker B: We need five.
+Speaker G: Yeah, we need about three and a half.
+Speaker G: Okay.
+Speaker B: Oh, is this to get an idea of scale from your...
+Speaker B: Sure.
+Speaker B: Sure.
+Speaker B: Sure.
+Speaker B: Okay.
+Speaker C: No, what else can you do?
+Speaker C: You can skip straight to the channel using these buttons.
+Speaker B: Okay.
+Speaker C: We're going to have the volume control here.
+Speaker C: But because we've got the LCD and the jog dial, we just start with the new start as the volume.
+Speaker B: Okay, jog dial for volume.
+Speaker B: What else do you do as the jog dial?
+Speaker C: You can use it for more advanced functions like contrast, color, and...
+Speaker B: Contrast.
+Speaker B: Contrast.
+Speaker B: Brightness.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: And then if not...
+Speaker C: Um, it's whatever else we wanted to include as the advanced functions.
+Speaker C: Um, but then I still got to inspect by the...
+Speaker B: Well, as the designers, what are they?
+Speaker C: Uh, what can a TV do?
+Speaker G: Okay, things like, um, brightness contrast.
+Speaker G: Uh-huh.
+Speaker G: Um, maybe tuning the channels.
+Speaker G: Okay, channels.
+Speaker B: Um, what else?
+Speaker B: Um, the various inputs.
+Speaker G: So, you're having VCR, you're having, you know, which input you have.
+Speaker B: Okay.
+Speaker B: Exactly.
+Speaker G: Probably color sharpness.
+Speaker G: Yeah.
+Speaker G: Color sharpness.
+Speaker G: Um, a lot of these things will have to be, um, free and open for users to define them.
+Speaker B: Okay, what about, uh, sign settings?
+Speaker B: Or can you change any of those at all?
+Speaker G: Yeah.
+Speaker G: Audio.
+Speaker G: We have like your basic...
+Speaker G: Your base, your mid-range, your high-range.
+Speaker G: Um, they have the bounce.
+Speaker G: Yep.
+Speaker G: Left-right-balance.
+Speaker G: Um, maybe even pre-programmed.
+Speaker G: Okay.
+Speaker G: Um, the user could determine, like, a series of sound modes, and then what could happen would be, um, when you click on that, then we'll go to that setting.
+Speaker B: Okay.
+Speaker B: Yeah.
+Speaker B: Is there anything else that it can do?
+Speaker B: Cause that's fine.
+Speaker B: You just need to know so I can write it down.
+Speaker B: Okay.
+Speaker B: Um, right?
+Speaker B: I guess that's it.
+Speaker B: So we can now, um, we can now have a little look at, uh, the Excel sheet and price this thing and see if we need to, um, if we need to rethink anything at all.
+Speaker B: So, um, for this first part here, par-wise, have we got...
+Speaker B: Battery.
+Speaker B: Battery.
+Speaker B: Do we have kinetic as well?
+Speaker B: No.
+Speaker B: No?
+Speaker B: Okay.
+Speaker B: Um, just battery.
+Speaker G: We need...
+Speaker B: That's because of cost restraints, is it?
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Um, what about the electronics here?
+Speaker G: We need a...
+Speaker G: The advanced chip.
+Speaker G: Let me just confirm that.
+Speaker G: Yes, I think so.
+None: Okay.
+Speaker B: Um, the case, what does it mean by single and double, do you know?
+Speaker C: I think single just be sort of one, or a double, where it doubles this sort of thing.
+Speaker B: Double car.
+Speaker B: Yep.
+None: Okay.
+Speaker B: Um...
+Speaker B: Plastic.
+Speaker B: Is there any rubber at all in the button?
+Speaker B: I think we're gonna have to skip a rubber.
+Speaker B: Okay.
+Speaker B: Um, and we want it to special colors, don't we?
+Speaker B: So, I'll have to pop that.
+Speaker B: Oh, no, wait.
+Speaker B: How many colors have we got there?
+Speaker G: For the case itself, one color.
+Speaker G: It's one special color.
+Speaker B: Just one color, okay.
+Speaker G: Because the case unit itself, the rest of it.
+Speaker B: Okay.
+Speaker B: So, interface-wise, is it this third option we have?
+Speaker G: It's one of the other ones.
+Speaker G: Okay.
+Speaker B: Um, then buttons.
+Speaker B: I mean, we have one.
+Speaker B: Two colors.
+Speaker B: We've got push buttons as well.
+Speaker G: Like, oh wait, so push button and integrated screw.
+Speaker B: Okay.
+Speaker C: We've got one button for this thing, because it's just one big sheet of rubber.
+Speaker C: Uh-huh.
+Speaker C: Um, not sure if that counts.
+Speaker G: Okay.
+Speaker G: So, let's just be safe and put, like, say, four buttons for that one.
+Speaker B: Okay.
+Speaker G: Okay.
+Speaker G: Um, and maybe a special color for the months.
+Speaker G: So, maybe four again.
+Speaker G: Four.
+Speaker B: So, why are we arriving at the number four?
+Speaker B: Where does the number four come from?
+Speaker G: Because that's one button, but it's the complexity of 12 buttons.
+Speaker B: Okay.
+Speaker B: All right.
+Speaker G: So, we're just estimating that, yeah, it'll be less.
+Speaker B: Okay.
+Speaker B: Are we wanting them?
+Speaker B: No.
+Speaker B: Is everything going to be faster?
+Speaker B: Okay.
+Speaker B: So, we're all quite far over.
+Speaker B: Something's going to have to go.
+Speaker B: Um, we're at 16.8.
+Speaker B: And...
+Speaker D: How are we going to achieve this high end product?
+Speaker B: Well, something has to go to the tune of 2.3 euro.
+Speaker B: So, let me see.
+Speaker B: What are we?
+Speaker B: I mean...
+Speaker B: Oh, yeah, sorry, 4.3.
+Speaker C: Oh, we could take it once when we can get a single curve.
+Speaker C: Just fill in those bits.
+None: Yeah.
+Speaker F: And then we're...
+Speaker F: How much did that say?
+Speaker F: How much did that say?
+Speaker F: That one say if you want one.
+Speaker G: The other thing could be that, um, you could take away the LCD panel and advance chip together.
+Speaker G: Um, because when you do something on the TV, the TV responds and reacts as well.
+Speaker G: So, the user could be looking at the TV and pushing this thing so they may not need to...
+Speaker G: So, when we scroll, we need just some way to get the TV to respond.
+Speaker G: Okay, so...
+Speaker G: Which I think is a technically doable thing, so...
+Speaker B: So, what's our review suggestion?
+Speaker B: Um, take away the LCD display.
+Speaker B: Yep.
+Speaker G: And the advance chip goes away as well.
+Speaker B: To be replaced with a...
+Speaker B: Regular chip.
+Speaker B: Regular chip.
+Speaker B: Okay.
+Speaker G: So, what that means is that...
+Speaker G: Oh.
+Speaker B: So, we've got 0.3 to get rid of.
+Speaker B: Um, and we have...
+Speaker B: Where are the four...
+Speaker B: The four push buttons are where exactly now?
+Speaker G: The 12 buttons that you see there.
+Speaker B: 12 buttons?
+Speaker C: That's one piece of rubber, but it's going to have 12 buttons.
+Speaker C: Yeah.
+Speaker G: Functionally, you have to intercept.
+Speaker G: So, 4 is a good estimate for...
+Speaker B: Do you think?
+Speaker G: Yeah.
+Speaker G: So, you can't actually cut...
+Speaker G: It's like three times the number of buttons.
+Speaker B: Okay.
+Speaker B: 4, 8, 12.
+Speaker B: Is that one big button or is it 12 buttons?
+Speaker B: How can it be something in between?
+Speaker G: It needs to be more than one big button because if you open up your phone and then there's actually one button underneath, it's just that the panel itself is a single panel.
+Speaker B: Okay.
+Speaker B: Well, we have 0.3 to get rid of somewhere.
+Speaker G: Just report that it has to be over budget.
+Speaker G: Or the colors.
+Speaker G: No, there's no...
+Speaker G: Take away colors for the buttons.
+Speaker G: Yeah, we could just go with normal color buttons.
+Speaker B: Well, do you want color differentiation here?
+Speaker G: No, that's not the button with all of this.
+Speaker G: Oh, sorry.
+Speaker G: The buttons only refer to the pads.
+Speaker B: Right.
+Speaker B: So...
+Speaker B: Take that off.
+Speaker B: Aww.
+Speaker G: It's back to the original.
+Speaker G: So then these just become normal color buttons.
+Speaker G: So that might be some way of cutting the cost.
+Speaker B: Okay.
+Speaker B: Off that's the sheet.
+Speaker B: And...
+Speaker B: Right.
+Speaker B: So take away that completely.
+Speaker B: Aww.
+Speaker B: And now we're under budget.
+Speaker B: So we do have 0.5 euro to play with if we wanted.
+Speaker D: How about with embossing the logo?
+Speaker D: Isn't that going to cost us some money?
+Speaker B: It doesn't say so.
+Speaker C: I can't afford your current as a special form for the buttons.
+Speaker B: Yeah.
+Speaker B: Yeah, that's a good idea.
+Speaker B: There's one.
+Speaker B: Does that mean that one button has a special form or...?
+Speaker C: I think one button.
+Speaker C: There's just one button.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Well, there we go.
+Speaker B: So I'm just going to have to re-draw this nice.
+Speaker B: We're not going to have the LCD anymore.
+Speaker B: We're just going to have an on the TV.
+Speaker B: It'll show you what you're doing.
+Speaker B: But I think it's fair enough.
+Speaker B: And so this is going to be one big thing here.
+Speaker B: Erm...
+Speaker D: Was the goal in your prototype design that it be as low profile as possible?
+Speaker D: What do you mean by profile?
+Speaker D: Sort of flat as possible.
+Speaker C: No.
+Speaker C: Yeah.
+Speaker C: It's quite deep.
+Speaker C: Yeah.
+Speaker C: It's quite deep.
+Speaker G: Yeah.
+Speaker G: It's quite light and black.
+Speaker G: Sure.
+Speaker G: We didn't have enough play to make it.
+Speaker G: Yeah.
+Speaker G: Alright.
+Speaker G: Okay.
+Speaker G: Just...
+Speaker G: So there's one more dimension to the thing which we need to add.
+Speaker B: And you might want to add in a report length width and height.
+Speaker B: Right.
+Speaker B: Okay.
+Speaker B: So just to...
+Speaker B: Well, to be thorough then, width wise, we're looking at about what three centimeters or something?
+Speaker B: Yeah.
+Speaker B: So height wise...
+Speaker B: High toward envisaging.
+Speaker B: I like that.
+Speaker B: I like two centimeters.
+Speaker B: Okay.
+Speaker D: Two's not very high at all though.
+Speaker D: This is about two.
+Speaker G: Slightly more than two.
+Speaker G: Yeah.
+Speaker G: I'm about that thick.
+Speaker D: Okay.
+Speaker B: Maybe closer to three.
+Speaker B: Okay.
+Speaker B: We'll say two point five.
+Speaker B: Okay.
+Speaker B: So we have it within cost anyway.
+Speaker B: So yeah.
+Speaker B: Project evaluation is this point.
+Speaker B: Right.
+Speaker B: Okay.
+Speaker B: So can we close that?
+Speaker B: This is what it's the final spec that's going to be.
+Speaker B: So I'm just going to have to...
+Speaker B: Yeah.
+Speaker D: That's fine.
+Speaker D: It's probably just...
+Speaker D: It's worth getting into.
+Speaker D: But just in that we want this to be stylish, should we think a little bit more out of the box in terms of a button grid?
+Speaker D: Because I've seen there's lots of devices out there that instead of taking your standard nine square grid and they have it sort of stylized or in different concept.
+Speaker G: I think that's something that's very hard to catch.
+Speaker G: Yeah.
+Speaker G: So you restrict the number of people when they try something.
+Speaker G: Sure.
+Speaker G: Okay.
+Speaker G: The look and the color is something which is cool.
+Speaker G: Yeah.
+Speaker G: So there's also that factor of if it's too unfamiliar.
+Speaker G: Okay.
+Speaker G: Sure.
+Speaker D: Because when you put it on the shelf...
+Speaker G: Or button shape.
+Speaker G: Square buttons.
+Speaker G: Yeah.
+Speaker G: Bunch shape might be a good idea to change.
+Speaker G: Okay.
+Speaker G: Rather than positioning.
+Speaker G: Because I think positioning is...
+Speaker G: Sure.
+Speaker G: We're kind of ingrained into the telephone kind of.
+Speaker B: Okay.
+Speaker B: Right.
+Speaker B: So at this point we...
+Speaker B: Is it?
+Speaker B: Discuss how satisfied we all are with these four points with the room for creativity in the project and leadership and teamwork and the stuff we have.
+Speaker B: Or on this I guess.
+Speaker D: Do you want me to...
+Speaker D: Do you want me to do my design evaluation last?
+Speaker D: I'm not really sure what that was.
+Speaker D: Yeah.
+Speaker B: Evaluation.
+Speaker B: Yeah.
+Speaker B: Go for that first.
+Speaker B: I wasn't entirely sure what he was supposed to be doing that but you go for it.
+Speaker D: All right.
+Speaker D: So the way this works.
+Speaker D: I'm going to need to plug in the PowerPoint.
+Speaker D: Okay.
+Speaker D: I'll try and do it as quick as possible.
+Speaker D: Okay.
+Speaker D: So I'll just go over your head if that's okay.
+Speaker D: Yeah.
+Speaker G: I don't think you need the power.
+Speaker G: So what's that?
+Speaker G: It's okay.
+Speaker G: It's okay.
+Speaker G: I don't need the power point.
+Speaker G: The power cord itself.
+Speaker D: Oh, of course.
+Speaker G: Yeah.
+Speaker G: Freedom.
+Speaker G: A bit more.
+Speaker D: So what this is is a sub-frust to use kind of like a...
+Speaker D: I'm not sure what the idea is that I've set up, I've reviewed all of the points of discussion from the beginning and use that as a criteria of evaluation for the...
+Speaker D: For the current design or the plan and so we can review that.
+Speaker D: I think it's going to end up being sort of elementary because we're not going to properly use it to change anything but...
+Speaker D: Okay, great.
+Speaker D: And I'm going to write up our results on the board so this will be a way for us to go through and decide if we're...
+Speaker D: To review where we're standing.
+Speaker D: Okay.
+Speaker D: So...
+Speaker D: So sort of bringing together two things for design goals and also the market research that we had.
+Speaker D: When we write this, one is high in succeeding or fitting to our original aim and seven is low.
+Speaker D: Okay.
+Speaker D: So these are... and then we've been asked to... to collectively write this so we can use try and just keep work on a consensus system.
+Speaker D: So we just come to an agreement.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker D: So the first one, the stylish look and feel.
+Speaker G: I rate that pretty high.
+Speaker B: Well, yeah.
+Speaker B: I mean compared to most remote controls you see, that's pretty good.
+Speaker B: I didn't know like a six or something.
+Speaker B: Yeah.
+Speaker D: What does anybody else say?
+Speaker D: My only reservation was that we basically went with yellow because it's a company's color and I don't know if yellow is going to really be a hit.
+Speaker B: But...
+Speaker B: Okay.
+Speaker B: I should apply that.
+Speaker D: What do you guys think?
+Speaker B: I would say five or six.
+Speaker B: Okay.
+Speaker G: Yep.
+Speaker G: I'm fine with that.
+Speaker G: Okay.
+Speaker B: Okay.
+Speaker D: Okay.
+Speaker D: Oh, it's actually one to seven.
+Speaker B: Oh, yes.
+Speaker B: Sorry.
+Speaker G: Then I would say two or three.
+Speaker G: Okay.
+Speaker G: Wait.
+Speaker G: What's the scale?
+Speaker G: One to seven.
+Speaker G: One is high.
+Speaker D: Okay.
+Speaker C: Yeah.
+Speaker C: Two is free.
+Speaker C: Okay.
+Speaker D: Okay.
+Speaker D: So that's a bit more than five then.
+Speaker D: Okay.
+Speaker D: Control high tech innovation.
+Speaker D: Well, how do we jog down?
+Speaker D: So we had to remove a few of our features we wanted, but jog down.
+Speaker D: I'd say it's more three or four.
+Speaker G: Maybe, yeah, but going towards a little bit higher than medium.
+Speaker G: Okay.
+Speaker D: Okay.
+Speaker D: Style reflects a fruit inspired colored line.
+Speaker D: Let me say color.
+Speaker G: The blue colors and don't actually represent the color except for the red button.
+Speaker G: Okay.
+Speaker G: For one of the yellow.
+Speaker B: I mean, it could be a yellow color.
+Speaker G: Yeah.
+Speaker G: The yellow is more representative of the color, but the button itself, the blue can be anything else.
+Speaker D: Okay.
+Speaker D: So two.
+Speaker D: Okay.
+Speaker D: And design is simple to use, simple and features.
+Speaker D: Yeah.
+Speaker B: And it's really basic.
+Speaker B: I mean, I'd give that nearly a one.
+Speaker D: You guys think?
+Speaker D: Yeah.
+Speaker D: One.
+Speaker D: Yeah.
+Speaker D: One.
+None: That's fine.
+Speaker D: Soft and spongy.
+Speaker D: We achieved that.
+Speaker D: We've used mostly plastic in the end.
+Speaker D: It's going to be quite a bit of a compromise for price.
+Speaker D: Bye.
+Speaker D: Bye.
+Speaker B: That's really low.
+Speaker B: Well, I have to use a plastic.
+Speaker B: Yeah.
+Speaker B: It's closed.
+Speaker D: Okay.
+Speaker D: Yeah.
+Speaker D: Could we use an entirely rubber frame?
+Speaker D: Is that an option?
+Speaker D: I think it would be close.
+Speaker C: It would be more than plastic.
+Speaker C: And then it seems like logo.
+Speaker D: We've got it in there.
+Speaker D: Yeah.
+Speaker B: Gonna have that on the side.
+Speaker D: And it's within budget.
+Speaker D: Yep.
+Speaker D: Okay.
+Speaker D: So we can say then.
+Speaker D: Out of a possible.
+Speaker B: Or.
+Speaker B: Yeah.
+Speaker D: Yeah.
+Speaker D: 49 with zero being highest.
+Speaker D: And.
+Speaker D: 15.5.
+Speaker D: Pretty good.
+Speaker D: Translate to something like.
+Speaker D: About approximately 72% efficacy.
+Speaker D: Of our original goal.
+Speaker D: Right.
+Speaker D: I think because if you turn that into.
+Speaker D: A hundred.
+Speaker D: It would be about.
+Speaker B: Twice that.
+Speaker B: About 31.
+Speaker D: And then invert that.
+Speaker B: So yeah, well, you have a 69.
+Speaker B: Oh, right.
+Speaker D: That's pretty good.
+Speaker D: Okay.
+Speaker D: That was just a little formality for us to go through.
+Speaker D: Okay.
+Speaker D: Oh, a hundred pound pen.
+Speaker D: Sorry.
+Speaker B: Nobody saw that on a stick.
+Speaker G: Cameras did.
+Speaker B: Is that your finish?
+Speaker D: Yeah, that's that's me.
+Speaker D: I did have one other one other frame.
+Speaker D: I mean, I'm not knowing how we would deal with this information.
+Speaker D: I thought, okay.
+Speaker D: In theory, this kind of process would be, but refining our design.
+Speaker D: Re-visiting our original goals.
+Speaker D: It's not something I need to push through, but I thought.
+Speaker D: We're thinking more about the dimensions.
+Speaker D: Sort of like more of a three dimensional shapes as well as opposed to just that.
+Speaker D: Flat.
+Speaker D: Could our design of all the series of colors that it's more of like a line where we have like sort of the.
+Speaker D: I don't know, like the harvest line or the vibrant.
+Speaker D: Whatever, just some theme and we have different tones, line, green.
+Speaker D: Okay.
+Speaker D: It's just discussion.
+Speaker D: I mean, obviously we can just abandon this.
+Speaker D: It's fine.
+Speaker D: Just thinking about what we originally said it to do.
+Speaker D: Yep.
+Speaker D: Okay.
+Speaker D: Great.
+Speaker B: Are you submitting the.
+Speaker B: The evaluation criteria for my, I don't know what your instructions are being.
+Speaker D: I think they record it and I haven't been asked to submit it yet.
+Speaker B: Okay.
+Speaker B: Just wondering if I need to shoot it in the minutes because if you're submitting it anyway.
+Speaker B: I will.
+Speaker B: Okay.
+Speaker B: Great.
+Speaker B: Right.
+Speaker B: Well, next up then, because we've done finance is the project evaluation.
+Speaker G: I'm listening.
+Speaker G: I'm just trying to incorporate the logo into the.
+Speaker G: So I'm playing with the play.
+Speaker G: Just in case you're wondering.
+Speaker G: Just about right.
+Speaker B: Okay.
+Speaker B: Do you want to just individually say you think about about these four points and not those four points.
+Speaker B: My four points.
+Speaker B: I don't know.
+Speaker B: I like this printer cables.
+Speaker D: I just have the two little buttons like clips.
+Speaker B: Right.
+Speaker B: Okay.
+Speaker B: So here we are.
+Speaker B: As I know, we'll do this alphabetically and to the start.
+Speaker D: So what is it you're asking me now?
+Speaker B: I don't know.
+Speaker B: In your opinion on those four, these four points really and how we.
+Speaker D: I sort of are working on setting this up.
+Speaker D: Well, okay.
+Speaker D: I'll just go through your system.
+Speaker D: The room.
+Speaker D: Is.
+Speaker D: Is.
+Speaker D: The main thing is, I think.
+Speaker D: Our use of the space is more just to report on things as opposed to be creative and.
+Speaker D: Constructive and would probably help to.
+Speaker D: Have a sort of a cumulative effect of we have ideas and we come back and then the ideas are still in discussion.
+Speaker D: In other words, this room is sort of a center point of creativity.
+Speaker B: But do you feel that you were able to have quite a lot of creative input into this?
+Speaker D: Yeah, yeah.
+Speaker D: But that's just the thing is the question in terms of the first point there, the room.
+Speaker D: It feels that the creativity goes on.
+Speaker D: We leave and then we come here and then we kind of put out our ideas and then.
+Speaker B: I don't think it means the room is in this room.
+Speaker B: It means like, you know, all right, all right.
+Speaker D: All right.
+Speaker D: I just looked up and said, okay, wait for a digital pen to the room.
+Speaker B: Oh, yeah.
+Speaker B: Of course.
+Speaker B: Yeah.
+Speaker B: I think it means, I think it means did you feel you were able to give creative input.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: Yeah.
+Speaker D: If answering the question in those terms, I'd say that actually there's sort of a tease of creativity because we're asked to work through this, but actually the guidelines are fairly contrived in terms of.
+Speaker D: Okay.
+Speaker D: Fashion trends, a fruit and vegetable color scheme, but then we're told that he's company company colors.
+Speaker D: So what do we do?
+Speaker D: We're told, okay.
+Speaker D: I think in terms of style and looking feel and technology, but build something for 12 and a half pounds.
+Speaker D: Okay.
+Speaker D: So actually the creativity was more of like a sort of a formality than.
+Speaker G: You feel like caged within whatever you strength.
+Speaker G: It's like a balloon in a cage. You can go so big. If not hit the site.
+Speaker B: The constraints do come in.
+Speaker B: Actually, let's take each point and everybody discuss that.
+Speaker B: Yeah.
+Speaker B: So still on the topic of room for creativity.
+Speaker B: Next up is great.
+Speaker C: I agree with his point.
+Speaker C: It's quite like fun to go to and then you have to have the end and go right.
+Speaker C: Go everything out because we don't have enough money.
+Speaker C: Yeah.
+Speaker B: Yeah.
+None: Yeah.
+Speaker G: I think another point is that the meetings are more brainstorming sessions than meetings.
+Speaker G: So time is also a very strong factor and structure.
+Speaker G: Yeah.
+Speaker G: Because for brainstorming meeting, you want to structure that allows you to allows ideas to get tossed to be evaluated and to be reviewed and to get feedback and come back.
+Speaker G: And I guess that point about the room not being very friendly to that, I think that's a very big thing. And I think the fact that we're wearing these things restricts.
+Speaker G: I feel it because I wear my glasses right.
+Speaker G: But that irritates me.
+Speaker G: It does actually affect how, whether you feel comfortable to communicate.
+Speaker G: I feel like I'm hiding behind the equipment rather than the equipment is helping me.
+Speaker G: So you think a more relaxed atmosphere would be more kind of, not so much an atmosphere is very relaxed, but the actual environment creates boundaries to that.
+Speaker G: And the time given also restricts.
+Speaker B: Very good.
+Speaker B: What about leadership?
+Speaker B: I don't know if I did a good job or something.
+Speaker D: I mean, my sense on that is sort of what kind of guidance and direction encouragement.
+Speaker B: So I'm like your personal coach person and stuff like that.
+Speaker D: Yeah, from in you as well.
+Speaker D: I think I'm sort of acting as a team leader.
+Speaker D: Okay.
+Speaker D: Yeah, I think it's huge.
+Speaker D: I think it's good.
+Speaker D: I mean, my personal views on leadership is that effective leadership sort of gives people a certain room for freedom and delegation, but then to come back to something that they take great ownership and innovative thought with.
+Speaker D: In reality, I think here the different elements of leadership, such as the original briefing and then the personal coach and then having you with the meeting agenda is actually quite a quite a, quite a confining framework to work with.
+Speaker D: And so it is leadership, most of the point of sort of disempowering the team member.
+Speaker D: Okay. But it's not bad leadership is just sort of fairly strong.
+Speaker D: It turns it turns the individual into more of like a sort of predetermined mechanism as opposed to.
+Speaker B: So they may be able to control him or.
+Speaker F: Yeah.
+Speaker F: I think controlling is not the right word.
+Speaker F: I mean, the interaction is very structured.
+Speaker G: I think structure is probably what you're saying that each individual is structured to one particular task and one rather than controlling.
+Speaker G: I don't mean as a sense of control because decisions have been made in terms of a consensus, right?
+Speaker G: We go around and we think about it, but that, you know, process actually says you have to do it in a certain way.
+Speaker G: Okay.
+Speaker G: It doesn't tell you, you know, sometimes you might want to be a bit more creative in terms of the process.
+Speaker B: Yeah.
+Speaker B: Not that.
+Speaker B: Okay.
+Speaker B: What about teamwork?
+Speaker C: Did you want to correct? That was a bit hard because we could only discuss things in the meeting.
+Speaker C: If we could just go up somebody outside meeting and have a quick talk to them, I would have been that a lot easier.
+Speaker B: Okay.
+Speaker G: You tried to use the common share folder to communicate, but it just comes back to us so slow in the email.
+Speaker G: Yeah.
+Speaker G: It doesn't have a messenger.
+Speaker B: Did you guys get the email I sent you?
+Speaker B: Yeah.
+Speaker B: I was wondering if that got very good.
+Speaker B: Okay.
+Speaker B: So to summarize the teamwork issue, saying that if we could communicate outside the meeting, you know, just like quick questions, quick thoughts, whatever, it probably would be.
+Speaker G: I think the tools that they were given, the tools that they were given to us are fancy, but they don't support collaboration.
+Speaker G: I think that's the word.
+Speaker G: They don't support the team working together.
+Speaker D: Yeah.
+Speaker G: They're still very individual tools.
+Speaker D: Yeah.
+Speaker D: I mean, sort of taking upon that idea, the way I see this is that it's the structure in which we've approached this whole task is quite contrary to the principle of teamwork because the tasks were sort of divided and then the work went on in isolation.
+Speaker D: I don't know what you guys did while you were together.
+Speaker D: Maybe that was different.
+Speaker D: They don't find it.
+Speaker D: But actually, if you imagine not entirely completely same task given to us, but us said, okay, first thing we have to do is come up with, let's say, a design concept and we sit here together and do it.
+Speaker D: Yeah.
+Speaker D: Well, that's what teamwork is, to say, okay, go off and don't talk to each other.
+Speaker D: It actually sort of predisposes you to quite the contrary of teamwork.
+Speaker D: Okay.
+Speaker D: Not that we haven't done, I think, the best we could have done.
+Speaker D: Okay.
+Speaker D: I'm satisfied with it.
+Speaker B: Right.
+Speaker B: Anything else?
+Speaker B: Teamwork tool?
+Speaker B: No, okay.
+Speaker B: Okay.
+Speaker B: What about the, you know, how we use the whiteboard, the digital pens, the projector, stuff like that.
+Speaker B: And did anybody think anything was really useful?
+Speaker B: Anything was pretty un-
+Speaker D: I think the whiteboard, for me, is the kind of thing I would use all the time, but it's not quite as useful to us as it could have been. Maybe just in the way that we use it in the sense that once we have an idea out there or while work was going on in between meetings, that could have been up on a board, you know, opposed to in like, in text.
+Speaker D: And then we could then keep our ideas sort of building on that.
+Speaker D: I know that people who design cars and, you know, in aviation, they quite often just have a simple, like, fiberglass prototype and it's completely, you know, abstract from the final product, but they use it as a kind of a product.
+Speaker D: Yeah.
+Speaker D: And so we're just, we're actually just, each of us discussing something in each of our own minds.
+Speaker D: It wasn't until we had this year, you know, like at one point, I peaked across and looked at Craig's paper and I'm like, now I know what he's thinking because I saw his book.
+Speaker D: But the, the whiteboard could have actually been this kind of continuing.
+Speaker D: So do you think producing a prototype earlier in the process would have been a good idea.
+Speaker G: I think the focus of it a lot was the PowerPoint as opposed to the, to the whiteboard.
+Speaker G: And I think that that is also does.
+Speaker G: Yeah.
+Speaker G: The PowerPoint or maybe the whiteboard and the PowerPoint in the same place.
+Speaker D: Yeah.
+Speaker D: Because the PowerPoint was provided to us while we had time to prepare.
+Speaker D: Whereas I can imagine if I've been encouraged to use paintbrush, for example, or whatever, I would have actually used it.
+Speaker D: Just because that's sort of how we were set up to you go.
+Speaker B: Okay.
+Speaker B: Too many PowerPoint.
+Speaker G: Yeah.
+Speaker G: The plugin and the plugging spent, we spent a lot of time doing that and a lot of information on the PowerPoint.
+Speaker G: I don't think, you know, we need it to actually, it could have, we could have gone through them very verbally, especially my slides.
+Speaker G: I felt that, you know, as opposed to having to present them.
+Speaker B: What about the digital pens?
+Speaker B: Did you find them easy enough to use?
+Speaker G: Yeah.
+Speaker G: Yeah.
+Speaker G: Conkey.
+Speaker G: Agreed.
+Speaker B: Okay.
+Speaker G: Having to take it before you go off was a bit hindering as well.
+Speaker G: Because you're halfway through a thought and then you run out of paper and then you have to jump.
+Speaker B: I know I think at the very start of today, I like wrote a whole load of stuff.
+Speaker B: Didn't click note on one.
+Speaker B: Then went back and wrote one tiny thing on the another page.
+Speaker B: But then did click note.
+Speaker B: So I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway.
+Speaker B: And I haven't done that.
+Speaker G: I think the pen is very intuitive.
+Speaker G: Everybody knows how to use it.
+Speaker G: You don't have to worry.
+Speaker G: Yeah.
+Speaker G: I think the pen is good.
+Speaker G: It's one of the best things.
+Speaker D: On the topic of the technology, it just occurred to me that we actually didn't need to move our computers because each computer has all of the files.
+Speaker D: Yeah.
+Speaker A: It just occurred to me that.
+Speaker D: Yeah.
+Speaker D: We only needed one computer.
+Speaker D: We only actually needed one computer.
+Speaker D: Yeah.
+Speaker G: There had been a fifth that could have just been sitting there ready to go.
+Speaker G: And the computer may not be conducive to a meeting because you tend to look at your computer and want to have the urge to check something.
+Speaker G: Yeah.
+Speaker B: It's useful.
+Speaker B: But do you think the computers just provide distraction in the meeting?
+Speaker G: I think too many computers are just distracting.
+Speaker G: Okay.
+Speaker B: And I like to have things written down in front of me actually.
+Speaker B: Like a lot of the stuff that was emailed to me.
+Speaker B: I ended up being like riding down there or something.
+Speaker B: So I could look at it really quickly and not have the distraction of all of that.
+Speaker B: And I'll buy any videos.
+Speaker B: What else?
+Speaker B: I'm not really sure what they're looking for in the same new ideas.
+Speaker B: I don't know.
+Speaker B: Can you think of that?
+Speaker B: Anything else that would have been helpful today at all?
+Speaker D: The main one for me is that the process and the natural context would not have been interrupted by this necessity to discommunicate ourselves.
+Speaker D: That's kind of a new idea for me is like just sort of that idea while you make it.
+Speaker D: It's kind of hard to keep working forward on a team-based project when you're told you must now work away from the team.
+Speaker B: Yeah.
+Speaker B: I think it's quite good that we had time limits on the meetings because they really could have run on.
+Speaker B: And my experience of meetings is that they really do.
+Speaker B: I think it's been a lot of time to talk about the only thing is that when we had our meeting about the conceptual design, I thought maybe another 15 minutes would have been useful there.
+Speaker B: I think maybe if we all have been working in the one room and they just said, you know, like, every hour or something, everybody makes sure you just have a short meeting and just to have something written down, just like, you know, a milestone if you like.
+Speaker B: I'm not having meetings, but there you go.
+Speaker B: So, in closing, I haven't got my five minutes to go.
+Speaker B: Oh, there it is.
+Speaker B: Five minutes to go.
+Speaker B: Wonderful.
+Speaker B: Okay.
+Speaker B: Are the courses in the budget?
+Speaker B: Yes, they are.
+Speaker B: And is the project evaluated?
+Speaker B: Yes, it is.
+Speaker B: So, I celebrate.
+Speaker G: So, we have Ninja Homo.
+Speaker G: So, no, yeah.
+Speaker B: Well, apparently, now I write the final report.
+Speaker D: What are you guys doing now?
+Speaker D: I don't know.
+Speaker D: Oh, wow.
+Speaker D: That is lovely.
+Speaker B: Yeah.
+Speaker B: I said Ninja Homo.
+Speaker C: What did you call it?
+Speaker G: Ninja Homo.
+Speaker G: See, it looks like Homer Simpson.
+Speaker G: So, is that the Stilogu or is it doing a thing?
+Speaker B: Yeah, it's just the logo.
+Speaker B: Just the logo and then, like, Ninja Homo.
+Speaker B: Right, okay.
+Speaker G: The red is supposed to represent the whatever else you want to print on the side of it.
+Speaker G: It's crashing technology or something.
+Speaker G: You can throw Homer when you're frustrated.
+Speaker B: It's cool.
+Speaker B: I'm kind of slightly gutted that we couldn't get Plastigand rubber.
+Speaker B: I think that would have been nice.
+Speaker B: Yeah.
+Speaker B: Oh, well, maybe for now on real reactions, you should give us more money.
+Speaker G: Oh, I did learn something.
+Speaker G: Plato is useful.
+Speaker G: No, it is.
+Speaker G: It is useful in conceptualizing, in being more interested.
+Speaker G: It's like you say it's something you can put your hands on and feel and touch.
+Speaker G: Yeah.
+Speaker G: Yeah, the sense where we were playing with the Plato and the ideas came with the Plato rather than with everything else.
+Speaker G: You might want to write that.
+Speaker G: No.
+Speaker G: Okay.
+Speaker G: I'm just filling with the Plato.
+Speaker C: Yeah.
+Speaker C: It's not true.
+Speaker C: I forgot how you just did a smile.
+Speaker C: Yeah, it's not funny, doesn't it?
+Speaker B: The Plato's are actually edible, aren't they?
+Speaker B: The whole Plato is in the Gulf, Montauk.
+Speaker B: It's just sweet.
+Speaker G: It's the stuff that your mom could make with preservedism.
+Speaker B: And so what are your summarizing words about Plato?
+Speaker G: It's helpful to the creative process.
+Speaker G: It engages all your senses, not just your sight, but your sense of feel, your sense of touch, and it helps you to understand the dimension as well.
+Speaker G: I think that's very helpful because it's such to pop up where it's on a piece of paper on a computer on a board.
+Speaker G: Yeah.
+Speaker G: Even with a treaty graphic thing, it still requires a lot of time.
+Speaker G: Yeah.
+Speaker G: It's tangible.
+Speaker G: It becomes tangible.
+Speaker B: It's tangible.
+Speaker B: Okay.
+Speaker B: Er...
+Speaker B: I don't know if there's anything else.
+Speaker B: Nope.
+Speaker B: I need to discuss.
+Speaker B: I'll pass the board up really.
+Speaker D: Do we retreat to our...
+Speaker G: I think we could probably do it here as long as we do it.
+Speaker B: I'm sure that the thing will pop up any minute now.
+Speaker G: Can we turn off the microphones?
+Speaker B: Yeah.
+Speaker B: The meeting's over.
+Speaker G: And my microphone has no signal.
+None: Which would explain why you don't get into the sound.
+None: Yeah.
+Speaker C: Might be because of the power storm.
+Speaker D: I think the time has to run out first to get any more instructions.
+Speaker F: Yeah.
+Speaker D: Okay.
+Speaker D: That's really cool.
+Speaker D: I can see the...
+Speaker D: I can see my own voice.
+Speaker D: You really want...
+None: I can see my own voice.
+None: You can see my own voice.
+None: You can see my own voice.
+None: You can see my own voice.
+None: You can see my own voice.
+None: You can see my own voice.

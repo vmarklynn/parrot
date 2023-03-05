@@ -1,0 +1,546 @@
+Speaker A: Oh yes, I forgot my test.
+None: Okay.
+Speaker A: Is that all right now?
+Speaker A: Okay.
+None: Let's go.
+Speaker D: Someone turn these on.
+Speaker D: Sorry?
+Speaker D: Someone turn these on.
+None: Great.
+Speaker A: Okay.
+Speaker A: I'll set to start the meeting.
+Speaker A: Okay.
+Speaker A: We've got half an hour for this one.
+Speaker A: I'll discuss the functional design.
+Speaker A: Okay.
+Speaker A: Thanks.
+Speaker A: All ready to go? Okay.
+Speaker A: Okay.
+Speaker A: So hopefully, if I've been working away, and I've put the minutes of the last meeting in the project folder.
+Speaker A: So I guess just to recap on what we did last time.
+Speaker A: I got to nature a little bit and got familiar with all the equipment and started to discuss a bit about the project, and you've caused how much money we had to spend.
+Speaker A: Just want to tell you that we have three new requirements, which is the first one, is that the companies decided that teletext is outdated because of how popular the internet is.
+Speaker A: Nobody uses teletext very much anymore.
+Speaker A: So we don't really need to consider that in the functionality of the remote control.
+Speaker A: They've also suggested that we only use the remote control to control the television, not the VCR or DVD or anything else.
+Speaker A: I think the worry is that if the project becomes too complex, it'll affect how long it takes us to get it into production, the time to market.
+Speaker A: Okay.
+Speaker A: So we're just going to keep it simple and it'll just control the TV.
+Speaker A: The first thing was that the company wants the corporate color and slogan to be implemented in the new design.
+Speaker A: I'm not entirely sure what the corporate color is.
+Speaker A: It might be yellow because there seems to be a lot of yellow everywhere.
+Speaker D: And the slogan, like the actual written slogan, or just to embody the idea of the slogan?
+Speaker A: Well, that's the thing. I'm not sure.
+Speaker A: Because on the company website, what does it say?
+Speaker A: What's the thing in the fashion and electronics?
+Speaker A: Yeah. I mean, is that something they want to actually written on?
+Speaker A: Because it's quite long.
+Speaker A: Or, yeah, just the idea that I'm not sure.
+Speaker A: So that's something we can discuss as well.
+Speaker A: So those are the three things.
+Speaker A: Just not to worry about teletext, only control the TV and incorporate the color and slogan of the company.
+Speaker A: So, is everybody okay with any of that?
+Speaker A: I don't really need to recap at all.
+Speaker A: But time for presentations, and who would like to go first?
+Speaker C: I'm not going first.
+Speaker E: Okay, cool.
+Speaker C: All right, can I steal this from the back of your laptop?
+Speaker A: Yeah, of course.
+Speaker C: Okay.
+Speaker C: Just like opaque, you can shoot � If I were to look online I had a look at the home page which has given us some inspiration from previous products.
+Speaker C: I had a look at the previous products to see what they offer and I would like to ask you guys for your ideas about the design at the end of the meeting and unfortunately when I looked at all the talk I was thinking.
+Speaker C: Okay, having a look at the existing products I found that it tends to come into two extremes.
+Speaker C: There's either a very complicated one that's got lots of buttons, lots of colours, very confusing.
+Speaker C: You don't know what you're doing.
+Speaker C: In that case the label is going to be very bad.
+Speaker C: There's an example I should eat the end.
+Speaker C: I'll show you now.
+Speaker C: I'll see you see here.
+Speaker C: There's a button there and there.
+Speaker C: This one's perg.
+Speaker C: Sorry, that one's perg and that one's perg and it doesn't really tell you what it does.
+Speaker C: I'm not sure if you had a look at the other controller now in that example.
+Speaker C: It's a very simple one.
+Speaker C: It's got only the basic functions but the same size as the hard to use one.
+Speaker C: It's a very big and not very much used for actual buttons.
+Speaker C: It's a very hard to access the advanced functions.
+Speaker C: There's nothing for instance for a slow motion button.
+Speaker C: My own preference is I prefer the clunky one.
+Speaker C: It's very easy to use but unfortunately it does like the advanced functions which I quite like having on the controls.
+Speaker C: I believe the advanced functions should maybe be hidden in the drawer.
+Speaker C: I don't think I have any problem with it.
+Speaker C: I've got to put your preferences unless you're a problem we'll go.
+Speaker A: I would come to chat for five minutes or so I think.
+Speaker A: I'd most discover that anyway.
+Speaker D: A lot of what I've read and prepared for this meeting fits in really closely with what Craig has just gone over.
+Speaker D: I could give you some of my personal preferences but I could also add some of this which is just about market research.
+Speaker A: We'll stick to kind of your area.
+Speaker C: I think it's supposed to be the same size but it's got much fewer buttons.
+Speaker C: I think it's a valid point.
+Speaker A: The one on the left looks quite complicated and that PROG thing is incredibly confusing.
+Speaker A: I see why you might prefer the simpler design but you don't want to lose out on what it does so maybe you know you get a lot of remote controls where you kind of open up the thing and that's a good idea.
+Speaker A: I think it's a good idea.
+Speaker C: Do we have any functions we'd want on it?
+Speaker C: So far I've got iron off so it's the channel up and down and the volume up and down.
+Speaker C: They're just the very basic use by TV.
+Speaker A: And then actual numbers for channels as well.
+Speaker C: You see that's how the quad one or a question one which was that?
+Speaker C: The numbers are the up down.
+Speaker A: I would say that's required.
+Speaker A: There's no way anybody's going to buy a remote control these days so she can't actually individually select channels.
+Speaker A: I mean would anybody disagree with that?
+Speaker A: What else?
+Speaker A: So don't need to worry about teletext, don't need to worry about VCR.
+Speaker A: Any kind of display controls at all do you think we need to worry about?
+Speaker D: Is it brightness and contrast?
+Speaker D: We're doing right now as we're categorizing we're saying we want this to be a product that offers all the more tricky features but we want them to be in another area.
+Speaker D: Is that right?
+Speaker D: Is that what we're kind of sorting with them?
+Speaker D: Or are we actually eliminating things we just don't want product to have?
+Speaker A: I think are you maybe kind of thinking what we absolutely have to have and what would
+Speaker C: be nice? To start with, we need to find out exactly what we have to have.
+Speaker C: Not that we can add things if they're possible.
+Speaker A: Okay, right.
+Speaker A: Well, do you want to maybe just at this point decide on what we absolutely must have as a function of this.
+Speaker A: So so far just to recap we've got volume and channel control.
+Speaker C: And volume and channel and skip to certain channels with the numbers.
+Speaker A: Right, okay.
+Speaker D: Well, one way I would look at this would be that we approach the different controls in terms of like control types so that for the user it's very clear what they want to do, where they go.
+Speaker D: And I also think maybe a little bit about what we just want to be easily accessible.
+Speaker D: For example, if we had audio controls those could be something people set up very rarely.
+Speaker D: Maybe they're in a little area, but covered up.
+Speaker D: Things like channel and volume are used all the time.
+Speaker D: So we just have them right out on top.
+Speaker D: Very just very self explanatory.
+Speaker D: So maybe we need to think about having three or more groupings of controls.
+Speaker D: You know, like one which are just the habitual ones that should be right within your natural grip and others that are also available and then others that are concealed.
+Speaker A: Okay, and we're just to wrap up quickly on this little section.
+Speaker A: Do you think maybe that's the only kind of essential requirements and there may be just things that would be nice if it could do would be things like audio setup and display setup and things like that.
+Speaker A: Maybe like a mute button.
+Speaker A: That's really saying any of the ins and outs of that at all.
+Speaker A: No.
+Speaker A: Okay.
+Speaker A: Right.
+Speaker A: Okay, if we can move on to next presentation then please.
+Speaker A: Sure.
+Speaker D: Can this reach, can this plug come across?
+Speaker A: Probably not actually.
+Speaker D: So why don't I just pick up and.
+Speaker D: Yeah.
+Speaker G:UK.
+Speaker D: Can you go behind me?
+Speaker D: I'm all in the audience.
+Speaker D: It's very complicated.
+Speaker A: I'm all in the audience.
+Speaker A: It's very complicated.
+Speaker A: It's very nice if everything was wireless in it.
+None: Okay.
+Speaker A: Right.
+Speaker D: So I can say already, I don't know whether this is for good or for bad, but there will be a lot of kind of redundancy in the issues and the...
+Speaker D: Oh, like overlap between what you said.
+Speaker D: Oh, probably not necessarily bad thing, but what I've already started doing is I created a slide in my presentation here so that we kind of think, well, what's the cumulative effect of what we've taken from your ideas and mine, because certainly I have a hard time separating things completely.
+Speaker D: It's hard to know what your land is in.
+Speaker D: Obviously what you just told me impacts a lot on what, like market research that I've been...
+Speaker D: So how do I get this up?
+Speaker A: I put yeah, I put function in F8, yeah.
+Speaker G: Okay.
+Speaker G: All right.
+Speaker G: So...
+None: Actually...
+Speaker F: I'm sharing the blue button.
+Speaker B: Thanks for the control on the left.
+Speaker B: Oh, and F8.
+Speaker B: Okay.
+Speaker G: Appreciate it together.
+None: Mm-hmm.
+None: Okay.
+None: I think that's it.
+None: Yeah.
+Speaker D: Okay.
+Speaker E: Okay.
+Speaker C: Again, we need the one, the button might be this.
+Speaker A: Okay.
+Speaker E: Oh, here we go.
+Speaker E: Okay.
+None: Okay.
+Speaker D: Okay.
+Speaker D: Just before I bring this up, what I'll just say is what I've done is try to collect some information so that I can then relay this to you guys so that it now becomes a collective thing and then kind of lead us in the direction of deciding, okay, what are our options?
+Speaker D: What should we decide?
+Speaker D: And do you know what I mean?
+Speaker E: Okay.
+Speaker F: Okay.
+Speaker F: Okay.
+Speaker E: Right.
+Speaker E: Can you...
+None: Right.
+Speaker A: Okay.
+None: All right.
+None: Okay.
+Speaker A: All right.
+Speaker A: Okay.
+Speaker D: All right.
+Speaker D: Okay.
+Speaker D: So, um, that makes sense.
+Speaker D: So what I basically got is I just looked into some information and sort of tried to think about how we could review it and how we could and what kind of decisions we could take away from it and then maybe by the end of just looking at some of these things we can think about what are our priorities because certainly there's lots of different information to go through.
+Speaker D: So, um, I'm thinking here about primarily about customer needs that we start with the customer and what they want and what are issues with existing products.
+Speaker D: I just think about trends and also about try and connect that as you see with the company vision which is about fashion and electronics.
+Speaker D: And then as I say, we'd like to prioritize our design features from this and...
+None: Okay.
+Speaker D: So, this is what I've found here.
+Speaker D: A lot of this is new to me.
+Speaker D: So, we'll just read two together.
+Speaker D: Users dislike the look and feel of current remote control.
+Speaker D: So, if I find them ugly, most people find them ugly.
+Speaker D: The vast majority would spend more money for it to look fancy as well.
+Speaker D: We'll see later, the vast majority of people would spend more money for slightly more intuitive controls such as voice recognition.
+Speaker D: Okay.
+Speaker D: I'm going to...
+Speaker D: We'll look at that in a second.
+Speaker D: Most people use only a very slim portion of all the controls.
+Speaker D: So, I guess what we're looking at here is people want this technology.
+Speaker D: They tend to use the most simple controls and overall, they find remote controls to be something they don't...
+Speaker D: Doesn't really appeal to them.
+Speaker D: So, I think what we're doing is we're trying to take like...
+Speaker D: For me, this is sort of like three different, different, um, inspirations.
+Speaker D: One is that we want something that's high tech but we want it to seem easy.
+Speaker D: And in spite of the primitive side of it and the very high tech side, we want it to just be an appealing piece of equipment in people's hands.
+Speaker D: Frustrations, they get lost a lot as it came up in our last meeting.
+Speaker D: Takes time to learn how to use them.
+Speaker D: This is why I mentioned when Craig was showing us some ideas that we actually try and group control.
+Speaker D: So, it doesn't just look like a big panel.
+Speaker D: Kind of like when you look at, you know, a new computer keyboard or something that is quite explanatory if you want audio, if you want visual, and you have those.
+Speaker D: And I will admit, I don't know what RSI stands for.
+Speaker A: Headed it's train injury.
+Speaker B: Is installing a remote control for many people?
+Speaker D: No, that did not come up at all.
+Speaker D: So here's another sort of a review here of the main things.
+Speaker D: I also found most people would, adults at least, would pay more for voice recognition.
+Speaker D: Apparently, we do have access to all the cutting edge technology and remote control.
+Speaker D: So I don't know if that's possible.
+Speaker D: We might consider getting into it.
+Speaker D: And again, here as we sort of move, sort of things, start thinking about how we want to sell and market this, I think a recurring theme here is the company wants us to make something that's fashionable and sleek and trendy.
+Speaker D: People additionally aren't liking the appearance of their product.
+Speaker D: So we want to think about, as we take all the sort of the techie features, how we can put that into a unit which is, which people like, you know, they like the aesthetics and the ergonomics.
+Speaker A: So once in the end, it looks good and it's easy to use.
+Speaker A: Big priorities.
+Speaker D: Yeah, so just looking at what Craig's ideas there, sort of tell me that maybe what we want to do is try and separate the different things that we want to include in this.
+Speaker D: If we do say, well, we want there to be all the technology, but we try and make that almost be like optional technology.
+Speaker D: No, it's like, I find a lot of TVs these days, something really nice about them is, if you want to just turn them on and off, you can.
+Speaker D: But they have little panels where you click.
+Speaker D: And there's just like tons of features.
+Speaker A: So you want to grip all the different kind of types of functions together.
+Speaker A: You know, that's the thing that I do.
+Speaker D: That's sort of, but I hope here is that I'm putting out this information so we can then say, okay, well, how do we collectively move on with it?
+Speaker D: I haven't brought out one specific marketing idea, although my sense is that what we should try and think about is what are the current trends in materials and shapes and styles and then use that, but not let that confine us technologically.
+Speaker D: Okay.
+Speaker A: Right.
+Speaker D: All right.
+Speaker D: Any comments on all of that?
+Speaker A: Well, one of the things that we have to decide on by the end of the meeting is who we're going to be, who's our target audience or target market.
+Speaker A: So if we want something that looks good and it's easy to use, but has, is fairly powerful product or whatever, who do we really want to aim that at?
+Speaker A: Okay.
+Speaker D: I mean, where's the money?
+Speaker A: Yeah, who would have the money to spend?
+Speaker A: Well, if like 25 euro is our selling price, and you can imagine, well, I'm not really sure how much that will retail at, but you want, it's somebody who's not going to just use the remote that comes with their tally.
+Speaker A: I suppose they're going to actually go out and buy one.
+Speaker A: So who do you think we're aiming this at?
+Speaker B: I think it'll be the mid range to high end market in terms of people because 25 euros for a remote, how much is that?
+Speaker B: It's about 16, 17 pounds, I think.
+Speaker B: Is that a lot of money to buy an extra remote or a replacement remote?
+Speaker B: Okay.
+Speaker B: So maybe not the high end range, but maybe middle, middle, up-ish.
+Speaker B: Okay.
+Speaker B: So how much, I don't know, I guess you would be like 10, 10, 10, 10, 10, 10, 10, 10, 10, like a simple replacement.
+Speaker B: Yeah.
+Speaker B: I mean, if you lost your remote and the first thing you just want to go out and get-
+Speaker D: Yeah. This kind of touches on your comments here, David.
+Speaker D: These are the age groups which we have information on, and these are, this is a table of what people would pay more for a certain feature.
+Speaker D: Okay.
+Speaker D: Just give us a rough idea of where the will to spend money on TV equipment is.
+Speaker D: Okay.
+Speaker D: Mostly focused around the 25 age group.
+Speaker A: Yeah.
+Speaker A: So do you think we're aiming at a fairly young market then?
+Speaker D: Yeah.
+Speaker D: Sort of young professional.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: Do you think then voice recognition is something we should really seriously consider?
+Speaker A: What do you think, Craig?
+Speaker C: Well, you don't see it was the adults that were going through the voice recognition.
+Speaker F: Oh, yeah.
+Speaker F: That's the- Yeah.
+Speaker D: It does fit with the market that we're sort of identifying in terms of-
+Speaker A: I think we are going to have to narrow it down to say, let's target these people and give them what they want.
+Speaker A: Yeah.
+Speaker A: Because you know, there needs to be some kind of selling point to it.
+Speaker A: So anybody, anything to add, just kind of young professionals, like if we are going to include speech recognition, it's kind of between 15 and 35.
+Speaker A: It seems to be like a really high response to that.
+Speaker A: So we could say that was our target.
+Speaker B: Yeah, so 5 to 35 is fair to add that in and that's more than half a group of people who are willing to at least try to use it.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: So 15 to 35, look fairly young.
+Speaker A: Yeah.
+Speaker A: You know, they have a bit of expandable income to spend on this sort of thing.
+Speaker B: I think perhaps that age group is significant as well, because those are people who use the computer who are familiar with the computers in the everyday world.
+Speaker B: Yeah.
+Speaker B: I think people who are ABBOP, I wouldn't say 35, but people are on a 48-ish and above now would not be so dependent and reliant on a computer or about phone or something like that.
+Speaker B: So the people who are gadgety, right?
+Speaker B: Yeah.
+Speaker B: Growing up used to, you know, in schools and universities, when they go on to their working lives, they go forward.
+Speaker A: Yeah.
+Speaker A: So they're not shy away from something quite high-tech.
+Speaker A: That's a good point.
+Speaker A: Okay.
+Speaker A: So shall we make the decision to include speech recognition?
+Speaker A: If we can.
+Speaker B: I think one thing we should try not to avoid is not to say, you have to use speech recognition right now.
+Speaker B: Okay.
+Speaker B: Why is that?
+Speaker B: Based on what you, everybody's saying that you want something simple.
+Speaker B: You want basic stuff and you want something that's easy.
+Speaker B: You speech recognition might not be the simplest thing.
+Speaker D: Right.
+Speaker D: Okay.
+Speaker D: Could it be an on-off thing?
+Speaker D: Like if you want it.
+Speaker B: We can act a bit and de-actress.
+Speaker B: Yeah.
+Speaker B: We're trying to lock ourselves into a particular kind of technology.
+Speaker B: Yeah.
+Speaker B: So we're focusing on exactly what are the features that we're going to say.
+Speaker B: Okay.
+Speaker B: Sure.
+Speaker B: Say speech recognition is good for this.
+Speaker B: Speech recognition is not good for this.
+Speaker B: Sure.
+Speaker B: Okay.
+Speaker B: I suggest that we think about speech recognition.
+Speaker B: Sure.
+Speaker B: It's something that can be used to fulfill a function.
+Speaker B: Uh-huh.
+Speaker B: And then, you know, today we don't look at the technology but we'll get the function first.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: Well, do you want to give us your presentation and then we can, I might have been a good idea to all deliver presentations and then discuss.
+Speaker A: But this is a hybrid.
+Speaker A: Good to get ideas out while there's a question in mind.
+Speaker A: Yeah.
+Speaker A: Exactly.
+Speaker A: Yeah.
+Speaker A: It's something that's just occurred to me as well as if we make it, um, speech recognition, if we incorporate speech recognition, that's appealing to people, um, maybe with, uh, physical disability as well.
+Speaker A: Yeah.
+Speaker D: And not losing.
+Speaker D: And also it helps in terms of people not losing this, you know, they, they're saying, oh, it's, I lose it in the couch.
+Speaker D: Yeah.
+Speaker D: It's like we're kind of, we're, we're sort of getting into here is mating different, uh, design features together.
+Speaker D: Okay.
+Speaker C: One problem is speech recognition is, um, I've actually seen one of them used and, uh, the technology was, and that one wasn't, but I'm using it.
+Speaker C: So you end up yelling control for hours, for example, up.
+Speaker D: Oh, really, you've seen one before.
+Speaker A: Do you think maybe we need like further advances in that kind of area until it's worthwhile incorporating it?
+Speaker A: I think it'd probably be quite expensive to, to, to.
+Speaker E: Of course not.
+Speaker E: I think so.
+None: Nice.
+Speaker B: Well, this is just the working design.
+Speaker B: Oh, this is just what, how I would go about it.
+Speaker B: Um, I guess I tried to define like what we're doing now.
+Speaker B: Try to define what we're trying to get done.
+Speaker B: Um, I think in a practical way, we kind of know what it is.
+Speaker B: We've used it with familiar with it, but we're, we can't, we have a narrow down, um, exactly what the things we're trying to fulfill.
+Speaker B: But, um, I think in the back of our minds, we know what the basics are.
+Speaker B: It's changed how it all does, it came falling, but in like specifics, which one of the basics are you trying to target?
+Speaker B: Um, are there certain parts of the basics that are more important or less important than the basics?
+Speaker B: Um, and I just, the idea is just to get everybody to, um, I usually have a, have a design as a, as a basic.
+Speaker B: So, you know, things that, to start everything going, but I guess everybody does have some ideas.
+Speaker B: I don't think, um, anything to that.
+Speaker B: Um, okay, this finding things is a little bit confusing, so I'll go into the diagram.
+Speaker B: It just explains how the process goes through from the, from the basic technology point of view, the basic steps that you need, um, in the diagram.
+Speaker B: This slide probably works better.
+Speaker B: Um, okay, you need some power source, get a battery or something to keep it going.
+Speaker B: Um, and that power source is important because it ties you down to, um, how long the device will last?
+Speaker B: Uh-huh.
+Speaker B: I mean, it ties you down perhaps a bit later on in terms of technologies.
+Speaker B: Um, how far you can transmit the signal or the complexity of the functions that you want.
+Speaker B: Like for example, voice recognition, right?
+Speaker B: That might be constrained because that you might need to power microphone, you might need to power other thing.
+Speaker B: So that's one, perhaps, constraint, yeah.
+Speaker B: Um, okay, the basic thing is, as a user in a program, you can, you know, you can, you can shut it apart.
+Speaker B: Inipped that path using a device.
+Speaker B: If one button has an opinion, when the object iservesin, um, looks blank to it because it applies slide, so the network actually is done.
+Speaker B: If it is used forWhoosheduct, you've got, two questions, aAndViewà, andickers.
+Speaker B: a series of logic has to decide what the user is telling the device and the device has to you know, based on push button A, so I will do something with button A, so maybe button is a problem. And then it needs to be able to send it to the device itself, which is a secret here. And I think that's what it's about. It's fairly general. And I guess the purpose of this is also not to restrict you in the way you're thinking, like voice recognition, that if it's something which is important, then we just add more power, rather than having a thing that we don't have enough power, so it's not going to be a constraint in that sense.
+Speaker B: I mean, these are functionally, you know, what they're going to do.
+Speaker B: Okay. So I guess the rest of it, I think we should, maybe you want to go back to what the questions are. I think you're more relevant to discussion.
+Speaker A: Do you want to finish up your presentation? Are you all done?
+Speaker B: Oh, it's just putting the rest of it into words, but it's essentially a thing.
+Speaker B: You have a translator and you can just write it to the computer.
+Speaker D: Okay. And like, on the, I mean, since we're on the topic of the technology, are there any, like, what are our options? What's, what is in, is this the only way that we go about it?
+Speaker D: Are there other?
+Speaker B: These, these aren't technology options in that sense.
+Speaker B: This is just the basic principle of principles and basic components that I needed.
+Speaker B: Right.
+Speaker B: For example, if you needed to add a voice recognition, right, then you use it in the base, we'll just put broken down more components, right?
+Speaker B: You have a microphone, but we are something that.
+Speaker A: So it's just how we're kind of modularizing the whole thing.
+Speaker B: Okay.
+Speaker B: So each component represents one function, but I think the basic functions are the logic, the transmitter, and the receiver, okay, and the power are things that you won't have to care about.
+Speaker B: Yeah.
+Speaker B: And those are things that based on what your user interface requires and will add more functionality to it.
+Speaker B: Okay.
+Speaker B: There might be one other consideration which would be the transmission between the remote control and the TV, for example.
+Speaker B: Okay.
+Speaker B: Are we going to restrict ourselves to using the traditional technologies as an indicator?
+Speaker B: Okay.
+Speaker B: Because that's something unique to actually be physically pointing to.
+Speaker B: Okay.
+Speaker A: Right.
+Speaker A: Well, a worry that was expressed in the new requirements was that if we made this too complex, it would affect how long it took us to get this to market.
+Speaker A: So I suspect it might be a good idea to restrict our kind of creative influence on this on the user interface and not worry so much about how we transmit it.
+Speaker A: Because it's tried and tested and for ads.
+Speaker B: So there might be a little problem with the transmission in particular analysis we're talking about voice recognition.
+Speaker B: If somebody's going to talk to the device, you really want them to hold it to them.
+Speaker B: You may not require that, but it's something very natural, I guess, to hold it to signal to the user and push a button to start talking about it.
+Speaker B: Then you need to send the signal out, so if you're using infrared, the line of sight, I'll say the TV is at that chair and I'm standing in front of here and the transmitter here blocks it.
+Speaker B: Okay.
+Speaker B: So in that sense, there's not really a restriction, but it's something you may have to think about later on in the process.
+Speaker D: Okay.
+Speaker D: And just a clarification before we finish this, is our controller, have the option of being on a standard frequency as all of the other equipment?
+Speaker D: So that the one controller can control several pieces of equipment?
+Speaker B: There's not much specific information, but I think that one indication of infrared means that they're just targeting traditional devices.
+Speaker B: Because infrared is something that you've been having.
+Speaker A: Well, we've in the new requirements spec, they said just to focus on a TV, so that's what we should do for now, I think.
+Speaker A: Something I was wondering about was the power.
+Speaker A: Is it worth considering having a charging unit as opposed to just regular batteries?
+Speaker A: I mean, is that something you really want to go into, do you think?
+Speaker A: Or should we just consider running on regular batteries?
+Speaker B: From a component point of view, there's added complexity, and you add cost to it.
+Speaker B: And then there's probably the fact that you need another physical component, you need a docking cradle, for example.
+Speaker B: Yeah.
+Speaker B: Put it into charge.
+Speaker B: Okay.
+Speaker B: Or you need to get the user to plug it in.
+Speaker B: Okay.
+Speaker B: So most users are used already, use the value of buying batteries and putting it into the controller.
+Speaker B: Yeah.
+Speaker B: Unless the controller is going to consume a lot of batteries, like, it's going to run through batteries a month, then I don't think we charge about something that you're not doing.
+Speaker A: Okay, so just stick to regular.
+Speaker A: Okay.
+Speaker A: Right.
+Speaker A: So, basically, I'm just going to just recap.
+Speaker A: When I said at the start, it was that the whole point of this meeting was to absolutely finalise who were going to aim this at and what exactly the product is going to do.
+Speaker A: So, just to recap on, are we all happy about the idea of aiming the product at the 15 to 35 bracket?
+Speaker A: Yeah.
+Speaker A: And also the actual functions of what it's going to do, do you want to recap on that, Craig?
+Speaker C: I think we used to say that it was going to be the most basic stuff possible.
+Speaker C: On, off, up and down, down, up and down, volume, and skip to the channel.
+Speaker A: Okay.
+Speaker D: Is it going to include any of the more advanced features or are we going to eliminate those?
+Speaker C: I think we include new, but apart from that, I think we just go for the simplest.
+Speaker C: Okay.
+Speaker D: Is it, is it, is it, is it not an option still that we include some things just as a sort of under, like, sort of under a door?
+Speaker A: Yeah, it's as optional functions.
+Speaker D: What I might be a bit worried about is if someone was had previously developed habits of expecting to control surround sound or this and that with their controller and then, and then they.
+Speaker D: You know, they get ours.
+Speaker D: It's, it doesn't have that.
+Speaker D: I don't know if that'd be a problem.
+Speaker B: And I think that you're saying about categorizing the people.
+Speaker B: Maybe I could suggest we break them down in this reasonable kind of use.
+Speaker B: Yeah.
+Speaker B: One would be audio control.
+Speaker B: One would be video control.
+Speaker B: Okay.
+Speaker B: Yeah, one would be a device.
+Speaker B: This may not map very well to advanced functionality especially, but I think that from a manufacturer point of view, I think from a point of view of a person using it, you know, a TV is something to see and something to hear.
+Speaker B: And it's something they do other things to like turn it on and turn it off.
+Speaker B: Yeah.
+Speaker B: Right.
+Speaker B: What we could have is like two buckets.
+Speaker B: We could throw things into like if you want this feature, that's where you can hear.
+Speaker B: Yeah.
+Speaker B: And then from there, it's basically what's non-basic.
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker B: And it would actually help with the component.
+Speaker B: Okay.
+Speaker A: Okay.
+Speaker A: Great.
+Speaker A: Okay.
+Speaker A: Well, I've got a kind of got five minutes to wrap up now.
+Speaker A: Next thing we're doing is having lunch.
+Speaker A: And then we're going to have 30 minutes of working on the next stage.
+Speaker A: So I'll be pulling the minutes of this, this meeting into the project documents folder.
+Speaker A: So I guess just to confirm that we know what we're doing in the next, well, in the 30 minutes after lunch anyway.
+Speaker A: For our industrial designer, you're going to be thinking about the components concept.
+Speaker A: User interface designer, you're going to be thinking about our user interface and marketing.
+Speaker A: You're going to be thinking about trend watching.
+Speaker A: And you'll all get specific instructions as well.
+Speaker A: So I know just to ask now, if you've got anything else you thought about while we've been talking.
+Speaker A: And do you want to start with David, then else to say at all.
+Speaker A: No.
+Speaker A: Okay.
+Speaker D: Yeah.
+Speaker D: I just wanted to ask them before we wrap up, should we agree for sake of sort of clarity and when we resume that we'll use this idea, David's proposal, we think of these three sort of buckets and.
+Speaker D: Yeah, I think that's definitely a good idea.
+Speaker D: Okay.
+Speaker D: We're talking about this.
+Speaker C: Should we do that?
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker C: So I know the three buckets, what would go in the device function is fine.
+Speaker B: Things like on off.
+Speaker B: Because they don't have anything to do with what you see.
+Speaker B: Yeah.
+Speaker B: In terms of picture and the entertainment value.
+Speaker B: Okay.
+Speaker B: So.
+Speaker B: And channel.
+Speaker B: And channel.
+Speaker B: Because the on off also goes, you know, like on off like power, not on off sound.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker B: You have a choice of putting it on to others for device.
+Speaker B: Device is basically anything which we can't categorize.
+Speaker B: Okay.
+Speaker A: So you're going to have audio, which is going to be like, you know, you base settings and actual volume.
+Speaker A: Anything to do with what you hear.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: And then visual.
+Speaker A: Anything that you can see.
+Speaker A: Okay.
+Speaker A: So brightness contrast, things like that.
+Speaker A: And then just actual device things like what channel you're watching, turning it on and off.
+Speaker A: Stuff like that.
+Speaker A: Okay.
+Speaker D: And I suppose quite likely what would happen is in the device category, there might be some which are just like the habitual standard and then others, which are maybe a bit more.
+Speaker D: Like random, which we have no other place to push.
+Speaker B: Okay.
+Speaker B: Somewhere there.
+Speaker B: Okay.
+Speaker B: So I think very clearly what happens is that people at least have some in their mind.
+Speaker B: It's easy to use.
+Speaker B: I think that's one thing that.
+Speaker B: And I guess from the corner point.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: So yeah, I guess just things to think about are, you know, like the fact it's got to look good because of who were, you know, targeting this up.
+Speaker A: Something maybe kind of quirky in design, maybe make it kind of ergonomic kind of to hold, you know, things like that.
+Speaker A: So I guess, I guess that's it.
+Speaker A: Right.
+Speaker A: It's the meeting over.
+Speaker A: Oh.
+Speaker E: Okay.
+Speaker D: Now we get to go find out what was picked up for lunch for us.
+Speaker D: Yeah.
+Speaker D: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.

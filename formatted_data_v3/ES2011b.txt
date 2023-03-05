@@ -1,0 +1,399 @@
+Speaker A: Okay, so we'll try to zip through this since we're short on time.
+Speaker A: Welcome everybody.
+Speaker A: Hope your sessions went well.
+Speaker A: So this is our functional design meeting.
+Speaker A: We're going to consider user needs, technical effects, and the working design of our remote control.
+Speaker A: I've been taking meetings on the minutes, and I'll be putting them in the shared documents folder so if there's anything you need to refer to, you can find them in there.
+Speaker A: I'll get the ones up next time.
+Speaker A: They're not finished yet.
+Speaker A: So can we have updates from everyone from what you've worked on?
+Speaker A: Just kind of a quick summary of anything interesting that you'd like to share or discuss
+Speaker C: in the list. Is that an order?
+Speaker C: No, I decided on an order.
+Speaker A: No, any order is fine.
+Speaker C: How do I put this?
+Speaker C: I'll just put the cable in.
+Speaker A: Oh yeah, sorry.
+None: Is that it?
+Speaker C: Can you see?
+Speaker C: It's all up.
+Speaker B: It takes a few seconds I think.
+Speaker B: You may need to.
+Speaker D: Who's that?
+Speaker D: Look.
+Speaker B: It's like a three-setting cycle, so press it a couple of times.
+Speaker C: Hold down function and then press function.
+Speaker A: Yeah.
+None: And then F8.
+Speaker D: Could you just plug it back into hers?
+Speaker C: Yeah.
+Speaker B: Okay.
+Speaker C: In order to see what the functional requirements were to be found, 100 people were tested in usability laboratory through just their habits.
+Speaker C: They're habits were observed and questionnaires were given out.
+Speaker C: The findings in some cases matched what we were talking about.
+Speaker C: Customers and users don't like the way remote controls look.
+Speaker C: They don't like the way they feel.
+Speaker C: They don't think they match their operating behavior.
+Speaker C: And an example is what we were talking about, the buttons.
+Speaker C: They only use 10% of the buttons.
+Speaker C: And later on there's a study of the buttons that they use most.
+Speaker C: And I think we should design according to these buttons.
+Speaker C: Easy to lose and RSI.
+Speaker C: I don't know what RSI means.
+Speaker C: The person that did the questionnaire, obviously did.
+Speaker C: I don't know.
+Speaker C: According to the frequency of use and the relevance of each buttons, I have made a list of the buttons that we should focus on in order of importance.
+Speaker C: The most important buttons in those do with channel selection.
+Speaker C: They're used about 160 times per hour.
+Speaker C: And people like to zap a lot, apparently.
+Speaker C: So this is the order, translation, teletext, volume and power.
+Speaker C: The other ones are the settings and they're used less than 0.8 to 0.5 times per hour.
+Speaker C: This means that I think we could have a button for all the settings.
+Speaker C: And then just one and then from there go on to the audio on the screen, either on the remote or on the television.
+Speaker C: About the screen and speech recognition, some people are more willing than others to actually pay for that.
+Speaker C: And if we look at the market, people from 15 to 35 year olds, I don't really know how to describe this.
+Speaker C: So that's the number of people that are above 35 years old.
+Speaker C: Go from 35% to 8%.
+Speaker C: So people that are 65, for example, wouldn't actually pay for this sort of thing.
+Speaker C: I don't know what the decision to be made is, but I think that the people that actually do buy remotes more are those like teenagers and young professionals and most likely, but we should discuss this together.
+Speaker C: And that's what I have to say about the matter.
+Speaker C: Shall I? What do I do? Do I give this to someone else?
+Speaker C: Yeah, just move right on.
+Speaker D: Let's do this.
+Speaker D: Okay, so now I need to press F8. What is it?
+Speaker D: A function of it.
+Speaker D: What's function?
+Speaker D: It's the little blue.
+Speaker A: It's the function.
+Speaker A: That should be cool.
+Speaker D: Okay.
+Speaker D: This is my presentation about the technical functions design.
+Speaker D: I basically just tried to focus on what functions we need and how to make that the best function for the user.
+Speaker D: I thought about it myself and looked on the internet.
+Speaker D: I think it is really important that we sort of get this done in a user-friendly and fashionable way.
+Speaker D: Keeping buttons together, close together, that are used in the same way or maybe making the same color, keeping the number of buttons to a minimum.
+Speaker D: Can you, small enough, large enough, I'm not sure.
+Speaker D: I guess we would need to do some research about what size is appropriate and that sort of thing.
+Speaker D: But basically we need to make sure that it turns on and off the TV.
+Speaker D: Does it have capacity to change the channels?
+Speaker D: Do we need to have functions for cable or VCR and then is it findable and how do we want to do that?
+Speaker D: I just thought that these two remotes were pretty boring.
+Speaker D: I think we can find something that is more fun to look at and use than either of those.
+Speaker D: I like the one on the right better just because it does have fewer buttons.
+Speaker D: I think we can sort of think about things like color and size shapes and that sort of thing to best fit the user.
+Speaker D: That concludes my presentation.
+Speaker A: Thank you.
+Speaker B: This is on the working design, which is one of the mechanical functions of the remote.
+Speaker B: The method I used was to basically look at existing designs and incorporate ideas from our last meeting.
+Speaker B: I think we need two basic functions, which is the basic remote functions.
+Speaker B: User can input a channel or a volume setting and it would be output to the TV.
+Speaker B: Also we talked about a location function where maybe you could press a button on the TV and it would send a signal to the remote where it would be for flash or vibrate or whatever to tell you where the remote is.
+Speaker B: The components we need are an energy source to power through a node.
+Speaker B: Processor to take the information.
+Speaker B: Something to transmit it to the TV.
+Speaker B: We also need something on the remote that would receive the location signal and have an output, like possibly a beep or a vibration.
+Speaker B: You need a sender for location signal, which would probably be a separate thing that we would have to sell with the remote and if you could stick it on the TV or stick it on the wall.
+Speaker B: This is an overview of how the remote works.
+Speaker B: Power comes from the battery, it goes to the chip, and then it is sent from there to an infrared bulb, which would probably be the easiest way to send to the TV.
+Speaker B: Then the location function would have a sender on the TV, which would output some sort of signal.
+Speaker B: We could use IR, but we probably want to use radio instead.
+Speaker B: That signal would go to a receiver, it would process it, and it would be output in the form of a buzzer or a light lighting up.
+Speaker B: My personal preference is for how to build the remote would probably be a battery for the energy source, that way you wouldn't have to plug it in.
+Speaker B: A button pad, input, we can purchase a pre-made chip, which will handle all the processing stuff.
+Speaker B: IR transmitter to communicate to the TV, that is standard.
+Speaker B: Most TVs have an IR receiver.
+Speaker B: It is a radio receiver to send out a location function and to receive it.
+Speaker B: That includes my presentation.
+Speaker D: Do you know about, I don't know, do you seem like you know about?
+Speaker B: Yeah, I was an engineer.
+Speaker B: Okay.
+Speaker A: Cool.
+Speaker A: So, we have, we'll discuss that in a minute, I just want to mention some new project requirements that came in.
+Speaker A: Teletext is apparently outdated, so due to internet popularity, so that's off the list.
+Speaker A: Also, our remote should be used only for television.
+Speaker A: No, extra internet, kind of fancy things, just throw out in the television.
+Speaker A: And also, we need to incorporate our corporate image onto this.
+Speaker A: So, the phase is we put fashion in electronics, so let's be fashionable with the bullet, I guess.
+Speaker A: If we have something, I mean silver and gold or yellow are colors, so if we have like a kind of silver on like you saw.
+Speaker A: And yellow writing, so now watch that.
+Speaker A: Okay.
+Speaker A: So, we need to make some decisions on the remote control functions.
+Speaker A: Yeah.
+Speaker A: Do, I guess we should, yeah, make some kind of brainstorming.
+Speaker D: Like in terms of how it looks or like what it does?
+Speaker A: What, well, probably our target group and how it's going to appeal to our target group in, I don't know, the buttons and what it does.
+Speaker A: Yeah.
+Speaker A: That sort of thing.
+Speaker D: So, it's our target group, then people, so do you want to go ahead and design this thing with the finder button?
+Speaker A: So, I think that seems to, yeah.
+Speaker C: Okay.
+Speaker C: So, yeah, yeah.
+Speaker D: So then our target age group would be the 19 to 35 range.
+Speaker A: Yeah, teenagers and young professionals.
+Speaker C: Well, that's the speech recognition.
+Speaker C: Oh, well, that's the screen.
+Speaker B: I was thinking about that, but, I mean, speech recognition is really hard to program.
+Speaker B: And also, if the TV is on, it's making sound and the people on the TV are talking, you know, somebody says like one and the TV is going to switch itself to channel one.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: It seems like a silly.
+Speaker B: Yeah.
+Speaker B: I'm not sure how you would implement it.
+Speaker C: I just put the button.
+Speaker A: I mean, if you consider a budget, if you consider a budget to have speech recognition programmed in every single remote might be a little crazy.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: So, okay.
+Speaker D: So, are we going to have just some kind of a, like, we'll have the buzzer on the, like, on the TV itself?
+Speaker B: Well, you would have to have a button on a TV or on your wall or someplace, but it's a TV already has power.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: You click the button.
+Speaker B: It's going to send out a signal.
+Speaker B: You know, I was thinking IR is line of sight.
+Speaker B: So, unless the remote is like, actually in front of the TV, it's not going to work.
+Speaker B: So probably like a radio signal.
+Speaker B: Okay.
+Speaker B: So, you'd need like a separate base for that or like something.
+Speaker B: It would have to be sold separately because if the sender is on the remote, then you'd have to find the remote first to click the button.
+Speaker B: So, do you plug it in the TV?
+Speaker C: Yeah, probably just take it on your TV.
+Speaker B: Okay.
+Speaker D: So it's now like a two part.
+Speaker D: Yeah.
+Speaker B: Okay.
+Speaker D: So we get to design that too.
+Speaker D: Thank you.
+Speaker D: Fashionable.
+Speaker D: Okay.
+Speaker A: So do you think even though we're not talking about speech recognition, our target group should still be teenagers and young professionals?
+Speaker C: Yeah.
+Speaker C: Just, yeah.
+Speaker C: Yeah.
+Speaker C: We should that thing be on the thing to put the, you're talking about the home for it.
+Speaker C: Do you still want to build a little thing next to the telly or to pan on the wall or shall we leave that for now?
+Speaker A: We probably leave that.
+Speaker A: I mean, I guess one takes care of the other.
+Speaker A: Okay.
+Speaker A: Yeah.
+Speaker A: If you can, yeah, if you can call it, then it's.
+Speaker A: Then it can live anywhere.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker C: So you have that button that so this is our light or shall we leave just have a radio.
+Speaker C: Oh, we just have a TV on the phone on the phone.
+Speaker C: Um, seems like a need to lie.
+Speaker B: I think that's what the phone is.
+Speaker B: Yeah.
+Speaker B: We only need to find your phone.
+Speaker B: You just have to call it and it starts ringing somewhere and then you can figure out.
+Speaker A: And like if the phone's under the couch, you're right.
+Speaker A: That's the light.
+Speaker A: Yeah.
+Speaker C: Um, so I need the other buttons.
+Speaker C: So you have this.
+Speaker A: So I mean, the two remotes that you had shown.
+Speaker A: I don't remember who shown me.
+Speaker A: Yeah, you need to.
+Speaker A: Um, there.
+Speaker A: I mean, one look like it was for VCR type thing and the other looked like just television.
+Speaker D: I think they're both sort of just like general.
+Speaker D: They're both general.
+Speaker D: They're both general.
+Speaker A: That is something we have to decide is whether we want to have VCR capabilities.
+Speaker A: Yeah.
+Speaker B: Does anyone know VCRs are the same across international?
+Speaker C: They're not.
+Speaker C: They're not.
+Speaker B: Okay.
+Speaker B: So you need like a whole difference.
+Speaker A: Yeah.
+Speaker A: It's not VCRs.
+Speaker A: But DVD probably is.
+Speaker B: Yeah, other than that region including thing.
+Speaker B: Um, but VCRs.
+Speaker A: And if we're targeting young professionals and teenagers, I mean, it's going to be DVD type.
+Speaker D: That's the technology these days.
+Speaker D: So, okay.
+Speaker D: I think still it shouldn't be that hard to type like just reduce the number of buttons, you know?
+Speaker D: You just have like one menu button that works like with, you know, where you can just kind of scroll through the options.
+Speaker C: Well, for sure we need the, I think we can just design the channels.
+Speaker C: I mean, power is just about.
+Speaker C: Yeah.
+Speaker C: And it's not used that much.
+Speaker C: So it's usually that red.
+Speaker C: Yeah.
+Speaker C: And I think it's quite nice to keep it like.
+Speaker A: You know, I've seen some remotes that were you just hold one, like if you hold one down, it's a different color than the other buttons, but that turns it on.
+Speaker A: So you don't actually have a separate power button.
+Speaker A: Oh, okay.
+Speaker D: It seems like that would be hard though.
+Speaker D: I mean, because unless you know.
+Speaker D: Am I pecan confusing?
+Speaker D: Yeah.
+Speaker D: Just because I wouldn't, I would probably pick it up and just be like, uh, why is there no
+Speaker A: audience? Besides you like to be able to go power.
+Speaker A: Yeah.
+Speaker A: I have the power.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: So we definitely want a power button and numbers.
+Speaker C: Yeah.
+Speaker C: Or even, um, I don't know if people like this, but if you want to reduce the number of buttons, instead of having like one to nine, have a sort of, that sort of like joystick flat.
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: Because people like seem, now the eye puts up.
+Speaker C: And I like this thing that there's no, no, you don't have one to.
+Speaker D: Yeah.
+Speaker D: I think that's an interesting idea because it's cool.
+Speaker D: It's, it's funny.
+Speaker D: Like you've, like, I just, I don't have an iPod, but like, you know, I just like started messing around with one of my friends the other day and you just sort of, and it's funny how you pick it up and you just figure out how to use it quite easily.
+Speaker D: Like it's not that hard.
+Speaker D: Yeah.
+Speaker C: Yeah.
+Speaker C: It's just, and it's one thing.
+Speaker C: Yeah.
+Speaker D: And it is.
+Speaker D: Yeah.
+Speaker D: It is really, but do you need a screen then?
+Speaker C: Do you have to have a screen then?
+Speaker C: Well, can't it tell the, like, can't you?
+Speaker C: Yeah.
+Speaker C: If you have the number, you can have the number.
+Speaker B: Okay.
+Speaker B: The telly go.
+Speaker C: Yeah.
+Speaker C: One, two, three, four, five.
+Speaker D: Once you scroll.
+Speaker D: Okay.
+Speaker D: So we have this like scrolling sort of button.
+Speaker A: Is that like an on a mouse pad where you're kind of, yeah.
+Speaker D: It's like, it's just like the same.
+Speaker C: It's like, analogy as a mouse pad.
+Speaker C: Like that.
+Speaker C: And then you do that.
+Speaker C: Okay.
+Speaker C: And then you can have, if you actually just want to zap, you can have like a thing.
+Speaker C: Like that and that and then it can just be plus and minus.
+Speaker D: Okay.
+Speaker D: So like it's like a little part of the circle that.
+Speaker D: Or yeah.
+Speaker D: Oh, so it's just a region of the circle that you can.
+Speaker D: Yeah.
+Speaker C: Click.
+Speaker A: Okay.
+Speaker A: We could even have four buttons.
+Speaker A: Like if that's the, if that's the mouse, you could have the volume.
+Speaker A: Yeah.
+Speaker A: The channel changes.
+Speaker A: Yeah.
+Speaker D: So volume could be like the top and the bottom.
+Speaker D: So do you need to.
+Speaker B: Okay.
+Speaker B: So it'll be.
+Speaker D: Well, you have to like be able to change the function of it to like.
+Speaker C: What do you mean the function?
+Speaker D: I mean, like, okay, cause so.
+None: I don't know.
+Speaker D: I guess.
+Speaker D: Okay.
+Speaker D: So when you scroll your thumb like around it, it'll like, let's say you're going, you're going to clockwise that.
+Speaker D: That means you're going to go up the channels and then scroll the other way and it'll go down.
+Speaker D: Yeah.
+Speaker D: But then so if you want to switch to the, do you have to switch to a function where.
+Speaker D: Like, so either in that mode or you're in the mode where like.
+Speaker D: It just has like the four, like, you know, this is channel that way.
+Speaker D: That's that way and volume is up and down.
+Speaker C: Yeah, but it knows for some reason.
+Speaker C: It just, the iPod knows.
+Speaker C: It just knows.
+Speaker C: The iPod knows.
+Speaker B: If it works on an iPod, then it works.
+None: Yeah.
+Speaker D: So you just, you just can either do this or like you can just touch it if you want.
+Speaker C: Well, for the volume, you have to press the middle.
+Speaker C: Okay.
+Speaker D: That's what I mean.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker D: So you have to like press this middle region and then you can scroll up.
+Speaker D: Go up and then it's like holding.
+Speaker C: So it's like holding.
+Speaker C: But if you like that makes more sense because there's already ones with up and down here.
+Speaker A: Okay.
+Speaker A: That I've seen.
+Speaker A: And you, is there an extra, actual button or you actually, you're just using the mass to go up and down?
+Speaker C: Well, what do you, for the, I can put you press and, right, if you're on the channel, let's say, then you press on the middle and then if you do that again, the volume goes up and if you do that, it goes down.
+Speaker C: But if you want to keep it with volume here and here, I'm pretty sure.
+Speaker A: Well, I mean, if we are going to use this for channels, right, and you, wouldn't the volume need to be separate somehow?
+Speaker A: Like you could just have, I don't know, you can then have it up and down.
+Speaker D: Or you could actually.
+Speaker D: I think we can go on the fact that it does just work with you.
+Speaker D: But the only thing is like, I've had, they're so expensive.
+Speaker D: Like it has to be.
+Speaker D: Is that part of it?
+Speaker D: Is that what makes me expensive?
+Speaker D: Yeah.
+Speaker A: I don't know.
+Speaker A: They have so much memory, though.
+Speaker A: I think so.
+Speaker A: I think it's the.
+Speaker A: I think it's the capability.
+Speaker A: I mean, they can hold what?
+Speaker A: Like 5,000.
+Speaker D: I'm thinking we could, if we have, so, I mean, but an iPad just has that circle thing.
+Speaker B: Yeah.
+Speaker B: So that's really why they're expensive.
+Speaker B: Yeah.
+Speaker D: Yeah.
+Speaker D: But like, since it just has this circle thing, you could make it a kind of cool shape.
+Speaker D: Like it could be a cool sort of, you know, because it could be circular.
+Speaker D: Yeah.
+Speaker C: Yeah.
+Speaker C: Or something weird like that.
+Speaker C: It could just be simple instead of being a mess.
+Speaker C: Because the other thing I didn't tell you on my presentation is that people find it, find that it's a big waste of time to have to learn how to use your remote.
+Speaker C: Yeah.
+Speaker C: That's another thing they complained about.
+Speaker C: Yeah.
+Speaker C: What are the buttons, whether?
+Speaker C: Volume.
+Speaker C: I don't know if it's just said that.
+Speaker D: So, okay.
+Speaker D: This is just for TV.
+Speaker D: It's not for, or it is, does need to be compatible with.
+Speaker B: DVD is simple.
+Speaker B: You just have play, pause.
+Speaker A: So how do you know, actually, our new project requirements, I'm not sure if they meant, oh, use only for television as a not for DVD or just not internet type thing.
+Speaker A: So I'll check that and update you on the next.
+Speaker A: So like if we have that, we'll hold off on that.
+Speaker A: Yeah.
+Speaker A: So yeah.
+Speaker C: But DVD players do usually have their own remote.
+Speaker D: That's true.
+Speaker D: Yeah.
+Speaker D: So I know I'm not clear.
+Speaker B: I'm clear I don't have it all on one because you know, you turn it on, then you want to turn off the volume, and then you want to go to the menu.
+Speaker D: So you'd have to have like, I think you would have to have like a function switch button, you know, somewhere.
+Speaker D: So like you're either on TV or on DVD or you're on VCR or you're like, so.
+Speaker B: Well, the DVD is only like four buttons.
+Speaker D: Yeah, but I mean like to switch the, so like, to switch the function of the little circle disk, the touchpad.
+Speaker B: Yeah.
+Speaker B: The circle only does channel is an applicable to DVD really because you don't want to.
+Speaker B: Yeah, but it would be.
+Speaker B: Volume is, and volume is actually controlled on the TV so you don't have to switch.
+Speaker D: So, but I'm saying like, does it make sense to have like some kind of a button?
+Speaker D: So like you're, if you're on TV, like you can switch channels, but then if, if you're on DVD, then like the channel button, like the, the region of the disk that was for channels is for like switching to different tracks or, you know, to different.
+Speaker D: I mean, do we need to think about that?
+Speaker A: That like, yeah, let's think about it because we need to wrap up.
+Speaker A: Let's see.
+Speaker A: So everyone's going to go finish their questionnaire.
+Speaker A: Then when we come back after lunch, we'll have 30 minutes of individual work.
+Speaker A: Yeah.
+Speaker A: So think about the things we've discussed and bring some ideas to our next meeting.
+Speaker A: See you soon.
+Speaker D: Okay.
+Speaker D: So I feel like I want to spaceship.
+None: We're done.

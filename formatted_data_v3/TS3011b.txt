@@ -1,0 +1,540 @@
+Speaker B: Welcome back. Hello. Let me see. There's one of mine.
+Speaker B: The waiting is for Sebastian. There he is.
+Speaker D: We have a flight problem. I opened the CD-ROM box.
+Speaker D: You can't. Sorry.
+Speaker D: During my work I have no time either.
+Speaker B: Well, this is live. Sorry, Edel.
+Speaker D: Yeah, I opened the CD-ROM box.
+Speaker B: Okay. People, welcome back with the second meeting.
+Speaker B: For now, on the schedule are a few points.
+Speaker B: First of all, the opening, which we are doing now.
+Speaker B: Second, I received some new project requirements.
+Speaker B: I'm not sure if you received them as well, but I will tell you about it.
+Speaker B: Then the three of you prepared a presentation, I think.
+Speaker B: Sebastian? I think so too.
+Speaker C: Ruh? Yeah.
+Speaker C: Ruh? Almost.
+Speaker B: Almost. Okay. Then we'll do your one last.
+Speaker B: Top goal of this.
+Speaker D: Your presentation from here, I believe.
+Speaker B: We will figure that out.
+Speaker C: If as well as I can just... I don't think it's why.
+Speaker B: It is.
+Speaker B: The top goal of this meeting is to reach a decision on the product, on the target group, and the functions of the remote control.
+Speaker B: Keep that in mind.
+Speaker B: We have 40 minutes.
+Speaker B: The new project requirements.
+Speaker B: First of all, we didn't speak about it, but we should not support data text in the remote, because our board feels that data text is out of date, and Internet is replacing data text.
+Speaker B: So we are not even going to try to implement it in our product.
+Speaker B: It's a board decision.
+Speaker B: Remote control should only be used for television, because it's not feasible.
+Speaker B: We cannot make it because of the time to market that we have to deal with.
+Speaker B: The third requirement is that we should focus on customers that are younger than 40, which is important for you, Ruh, and as well for Ruh, because the product should be interesting and should be bought.
+Speaker B: It should be bought by people younger than 40.
+Speaker B: Then for Ruh, as well, important.
+Speaker B: The corporate image should be recognizable in our product.
+Speaker B: So the colors and the slogan do have to be in the product.
+Speaker B: Is that clear?
+Speaker B: Any questions on these requirements?
+Speaker B: No?
+Speaker B: The individual presentations.
+Speaker B: Ruh, or Sebastian, who would you like to start?
+Speaker D: Yeah, I'll start.
+Speaker D: Jeez, this one.
+Speaker D: Well, we discussed already in the previous discussion.
+Speaker D: The function of remote control is basically to send messages to the television set.
+Speaker D: The main important thing, what a remote control should do.
+Speaker D: I found two different kind of remote controls.
+Speaker D: The multi-function remote control with many possibilities, but the lack of the feeling I already mentioned in the previous discussion.
+Speaker D: And the ease of use remote control with less possibilities, but a great feeling in touching the buttons.
+Speaker D: Yeah.
+Speaker D: My personal preference is the ease of use remote control, because the user-friendliness can be more trendy in user design.
+Speaker D: But your new goal was for people less than 40 years old.
+Speaker D: So maybe the multi-function can be implemented in our design.
+Speaker D: But it should be a combination, but teletext buttons are not in our design.
+Speaker D: So it should take out eight buttons or so.
+Speaker D: But in my opinion, the ease to use RC is the best possibility for us.
+Speaker B: Okay.
+Speaker B: Rude, did you get that?
+Speaker C: Yeah, most.
+Speaker B: Okay, so the important thing here is-
+Speaker D: And it's also indeed a good insight in the topic.
+Speaker B: In the market.
+Speaker D: Yeah. What does the market want? I don't know.
+Speaker B: Yeah, okay.
+Speaker D: Just for user-friendliness, I should choose for the ease of use remote control.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker D: Question.
+Speaker C: Okay.
+Speaker D: Excuse me.
+Speaker D: Cool.
+Speaker D: And still the right thing.
+Speaker D: Okay.
+Speaker D: Well, there are some changes in the design requirements.
+Speaker D: So there are some changes in the method also.
+Speaker D: Basically, all this device has to do is send messages to a TV set.
+Speaker D: And the most easy way to do this is by sending pulses of infrared light to a TV set.
+Speaker D: Well, I've tried to implement a picture here, but it's hardly readable.
+Speaker D: Can you see it?
+Speaker D: No, it's not visible.
+Speaker D: Well, there's an energy source here.
+Speaker D: And basically, it's connected to three things.
+Speaker D: A user interface connected to a chip, which is connected to the sender, which generates messages using infrared light, which are sent to the receiver.
+Speaker D: That's basically the idea.
+Speaker D: And there's a little picture just for your imagination how a device like this should look or can look.
+Speaker D: Okay.
+Speaker D: What have I found?
+Speaker D: Usually, these kind of things consist of battery, infrared, diode, buttons, chips, and circuit boards.
+Speaker D: That's all.
+Speaker D: Let's case together.
+Speaker D: Nothing more than that.
+Speaker D: It's almost every piece of equipment.
+Speaker D: Every TV set is controlled infrared.
+Speaker D: There are some exceptions, but most of all have infrared controls.
+Speaker D: And the more luxury remote controls have little buttons.
+Speaker D: And I think that's a little bit more fancy also.
+Speaker D: So maybe we should consider that.
+Speaker D: Okay.
+Speaker D: I have a basic scheme of the things which are implemented.
+Speaker D: Basically, this is all there is.
+Speaker D: There are a few buttons connected.
+Speaker D: The buttons are lit.
+Speaker D: And the whole thing is transmitted by infrared light diode.
+Speaker D: And there's not a power source here.
+Speaker D: So that's basically the total design of this piece of equipment.
+Speaker D: It's fairly easy.
+Speaker D: It's fairly easy.
+Speaker D: It's been done many times before.
+Speaker D: I think we should succeed in our plan to do this.
+Speaker D: Okay.
+Speaker D: Personally, I think we should use infrared because otherwise our device cannot communicate with almost every TV set.
+Speaker D: I think that should be clear.
+Speaker D: Another important point is we really should use energy sparse friendly components.
+Speaker D: There are specially designed energy friendly components which consume far less power than conventional components.
+Speaker D: And if we want to use rechargeable design or energy safe design, we should really implement them.
+Speaker D: For cost effectiveness, we should really use a very low cost circuit board because most of the production costs are in this part of the equipment.
+Speaker D: Okay.
+Speaker D: And the money we save when using this, we can use for elaborate fancy lighting techniques, blinking lights and all that kind of fancy stuff.
+Speaker D: I think our users will really like that.
+Speaker D: And if we use less, does it use much more energy?
+Speaker D: No, the power friendly less also.
+Speaker D: So we can use them.
+Speaker D: So that's no problem.
+Speaker D: For the same costs, they're a little bit more expensive, but by making low cost circuit boards, we can make it, I think.
+Speaker C: You could only let the buttons that are used most.
+Speaker C: So the channel switching.
+Speaker B: Yeah.
+Speaker B: But the question is whether two or four buttons makes a difference in the costs.
+Speaker B: If you already plan to include fancy lighting techniques, I guess.
+Speaker D: I think it's the same as in cell phone, just one light in the device that shines on all the buttons.
+Speaker D: But one light, there are more lights in there.
+Speaker B: Yeah, but not for each button.
+Speaker D: No, no, no, no.
+Speaker D: That's right.
+Speaker D: Okay.
+Speaker D: So, well, this should be it.
+Speaker D: Okay.
+Speaker A: Have a think about it.
+Speaker C: Yeah.
+Speaker C: Okay, dude.
+Speaker C: Mine is already outdated.
+Speaker B: Okay.
+Speaker B: Well, we are very curious to what the market will feel about such a product.
+Speaker B: Any income is welcome in PUT.
+Speaker C: Well, then I'm sure the target market is 10 million units, of which we should sell about 40% to make the 5 million.
+Speaker D: Could you just have a little bit more to the right?
+Speaker C: Yeah, since the other part is 40% of the market, I thought earlier we might want to constrain that portion of the market.
+Speaker C: But since the requirements changed, that's not a good idea.
+Speaker C: Well, skip this.
+Speaker C: But this is the truth, of course, that they only use temps and buttons.
+Speaker C: The buttons to zap are used about 1500 times when the power button is only used one time.
+Speaker C: And the volume button is only four times.
+Speaker C: So they're obviously the most important button.
+Speaker C: And lots of people complain that they can't find their remote control.
+Speaker C: So we might want to build in a feature to support them.
+Speaker C: Some audio signal like home phones.
+Speaker B: Well, that's interesting.
+Speaker B: Finding function.
+Speaker B: Yeah, that's definitely interesting.
+Speaker B: It separates our product from others as well.
+Speaker B: Okay, go on.
+Speaker C: Well, I just said that, and this is obvious, and he also said it.
+Speaker B: Okay.
+Speaker B: So that's what the market tells us.
+Speaker C: That's about it.
+Speaker B: Yeah.
+Speaker D: Okay.
+Speaker D: The volume and the zap buttons are mostly used.
+Speaker C: The zap buttons most, they are used a lot, but more than the other buttons.
+Speaker D: Just have a perfect design for those, only those buttons.
+Speaker D: Yes.
+Speaker D: First, we should focus on that, I guess.
+Speaker D: Yeah.
+Speaker D: Well, the technical, I think there are no technical difficulties.
+Speaker D: There's no elaborate technique used in this kind of equipment.
+Speaker D: So I don't think we have any hiccups there.
+Speaker D: So we can fully concentrate on developing a product that is really what the market needs.
+Speaker D: So maybe it's a good idea to think about these buttons.
+Speaker D: Yeah.
+Speaker D: And the sound signal.
+Speaker D: And the sound signal.
+Speaker D: That's one thing I'm just wondering.
+Speaker D: The sound signal from where do you execute the sound?
+Speaker D: Yes.
+Speaker B: The sound.
+Speaker B: None of the devices.
+Speaker B: That's the reason.
+Speaker B: Well, maybe you should be.
+Speaker B: Maybe like clapping in your hands, like turning on and off the light.
+Speaker D: Maybe there are some devices who incorporate this technique already.
+Speaker D: There are video sets and there's a special button.
+Speaker D: Find the remote control button.
+Speaker D: You press it and your TV set starts to make a kind of weird sound.
+Speaker D: And your remote controls then start beating.
+Speaker B: Report.
+Speaker D: And just like the phones.
+Speaker D: Yes.
+Speaker D: Same thing.
+Speaker D: But the fees don't have all.
+Speaker D: No.
+Speaker D: So we must shoot you something else.
+Speaker D: Yeah.
+Speaker B: Because we do not have a home.
+Speaker D: We do not control the TV set.
+Speaker C: So even if the TV set would have such a button, you would have to walk to your TV.
+Speaker D: And we want it to make sure it's as easy as possible for our customers.
+Speaker D: Okay.
+Speaker B: So what about the clapping technique?
+Speaker D: I'm convinced Sebastian will find one solution for us.
+Speaker D: It's quite complicated.
+Speaker D: Because how can you separate the clapping sound from other sounds?
+Speaker B: Well, you see it a lot in lightning.
+Speaker D: Well, basically the characteristics, the characteristics of clapping is just an increase in the volume, the amplitude, the sound, which is generated a few times within a certain period of time.
+Speaker D: But there are many other sounds, which are exactly the same from the point of view from a recording movie.
+Speaker C: It would constantly beep.
+Speaker C: Yeah, that's true.
+Speaker D: So we don't want to have just a home station, a base station next to the TV.
+Speaker D: Just a little antenna or something, something like that.
+Speaker D: Well, if you love something more easily.
+Speaker D: I don't think people would bother walking to the TV and press that button.
+Speaker D: I don't think.
+Speaker D: Because they lost their remote.
+Speaker D: The most important thing for people is that there's a central point to which they can go and perform some kind of humbling.
+Speaker D: And then the remote control reports itself.
+Speaker D: So we should use something like that.
+Speaker D: You do not want another device, which can be everywhere now, which you have to find first before you can find your remote control.
+Speaker D: Just a base station next to the TV or something like that.
+Speaker D: But that will be very costly, I think.
+Speaker B: So that's not good.
+Speaker B: Maybe we do agree on the thing that the remote should have such a function if it's possible within the costs and all that kind of things.
+Speaker B: Maybe Sebastian should have a detailed look later on and come up with a solution.
+Speaker B: Because that's his field of expertise.
+Speaker D: Yes, but before I do it, I want to warn you that by implementing this kind of a function, the technical design will become more complicated.
+Speaker D: And it will become more costly also.
+Speaker D: Because there will be additional components which will be used.
+Speaker D: And there are some people even prefer the sound above the lathes.
+Speaker D: I think so, because when you have a newspaper over your remote control item, you cannot see it.
+Speaker D: Yeah, it's a distinction in the market.
+Speaker B: It's a different model.
+Speaker B: Exactly.
+Speaker B: It's in a unique feature.
+Speaker B: And I think it's worth looking and probably more interesting than the light.
+Speaker D: Just about the user interface, I come up with an easy remote control and advanced remote control.
+Speaker D: What should we choose in design?
+Speaker B: Yeah, well, according to Root, people do not use all the extra features very often.
+Speaker C: I have the numbers right here.
+Speaker C: Okay, well, we won't support teletext, which was the third most, the second most used function.
+Speaker B: Okay, well, we do have a wise board, so I'm not questioning that.
+Speaker C: Well, channel selection is obviously the most important.
+Speaker B: Yeah.
+Speaker B: Okay, so on the relevant scale, the channel selection, the volume selection and the teletext.
+Speaker D: So just the basic functions.
+Speaker D: And we don't have to use it for DVD players and all kinds of stuff.
+Speaker D: So that's out of the question.
+Speaker D: Yeah.
+Speaker D: Just the easy.
+Speaker B: I think we should go for the easy.
+Speaker D: We can make a nice design when there are not much buttons in it.
+Speaker D: We should save costs by not implementing a lot of functions and the money that we can save from that.
+Speaker D: We should use for a recognized design and thinking about the user interface.
+Speaker B: Okay, Root, how do you feel about that?
+Speaker B: Do you agree that you think the market would respond to a simple?
+Speaker C: Well, if we include other innovative functions, then they might.
+Speaker C: And then we can use young people like new features.
+Speaker D: Yeah, that's right.
+Speaker B: Okay, so this is kind of a...
+Speaker D: Just a few buttons, friendly design, nice, lightning effects.
+Speaker A: Okay.
+Speaker D: Well, maybe there's not a possibility.
+Speaker D: You can make it look like an easy piece of equipment, but it's quite elaborated because it has many functions.
+Speaker D: Yeah.
+Speaker D: It's more important to make it look like a very friendly, easy to catch piece of equipment.
+Speaker D: But are we not in the manual?
+Speaker B: I mean, if you have few buttons, no display.
+Speaker B: I mean, I guess it's working with shift functions and one button can...
+Speaker D: Oh, like that.
+Speaker D: I was more thinking about the more elaborate way of controlling by these kinds of sticks or something like that.
+Speaker D: I don't know if it's user friendly, that's your field of expertise.
+Speaker B: Yeah, but how does the remote report give back to the user in what state it is because we do not implement usage.
+Speaker D: But there's no way to do that because we cannot implement that kind of the system.
+Speaker B: I know, but if we use like a stick, for example, well, maybe we can use a light for that.
+Speaker D: When you move the stick to a position, maybe a light next to it can lit up.
+Speaker D: So you know, I've just pushed the button or changed the channel or tuned up the volume, something like that.
+Speaker C: And if you use that stick for volume control and channel selection, you would add them to most important functions.
+Speaker C: Yeah.
+Speaker B: And we could have other buttons for the advanced functions.
+Speaker D: Instead of the stick, like many cell phones, just around...
+Speaker D: Yeah, draw them on board.
+Speaker D: It's already...
+Speaker D: Oh, we have a blank.
+Speaker A: Oh.
+Speaker D: Oh, yeah, something like that.
+Speaker D: It's just an easy way of a round button which can be pushed in four directions.
+Speaker D: Instead of a stick, a stick is vulnerable when it's running down.
+Speaker D: It can break down.
+Speaker D: Just around the button should be the trick, I think.
+Speaker D: And there's also looks more fancy, I think.
+Speaker D: I think it will attract more...
+Speaker D: I'm a public, I think, but you're remarketing that.
+Speaker C: And it's also quite easy to use, so it'll attract younger people because they're new.
+Speaker C: And it might attract older people because it's easy to use.
+Speaker C: Geez.
+Speaker D: Well, volume and...
+Speaker D: Something like that.
+Speaker D: So, I'm up and down.
+Speaker D: Okay, yeah.
+Speaker D: The pen doesn't really do that's what I want.
+Speaker B: Okay, that's good.
+Speaker B: Okay, but we're still in the question of putting in advanced options.
+Speaker B: So, the market is interested in some advanced new techniques.
+Speaker B: However, keeping it simple is important for the costs and all those kind of things.
+Speaker B: We need to find a balance between the advanced techniques and the user friendliness.
+Speaker D: I think our next step to look at is just that.
+Speaker D: So, I don't think it's...
+Speaker D: We have something to do, we can discuss it right now because no one of us has the information to discuss about that.
+Speaker B: Well, I think...
+Speaker B: We do have to decide this meeting.
+Speaker B: We need to have the user functions, the functions, decided, and our target audience.
+Speaker D: Okay, the teletext is just...
+Speaker D: Do you want a list of functions? Do you want an explicit list which incorporates all functions available on a device?
+Speaker B: Well, I do not want a full...
+Speaker B: It's not necessary to have a full list, but I want the kind of functions.
+Speaker B: For example, the most important are volume and program, selecting...
+Speaker B: The 10 digits?
+Speaker B: Well, for example, that's what we should think about.
+Speaker B: How is the remote going to look? Not in the user interface.
+Speaker D: The program to program button, it switches to channels.
+Speaker D: When you have something on channel 4 and something on channel 6, just one button which can...
+Speaker D: A bit of a split note, like...
+Speaker B: Yeah, yes.
+Speaker B: Dual channel watch.
+Speaker B: Okay, well, maybe I should write that down.
+Speaker B: You're the secretary.
+Speaker B: Ruth, what's your last name?
+Speaker C: Mute.
+Speaker B: Mute, because I was writing it down in the last...
+Speaker B: Mute, right.
+Speaker B: I put all the minutes I make into the shared folder, so if you want to have a look at it, you know where to find it.
+Speaker D: Okay, we'll make a sub-folder for it because it's starting to fail up already.
+Speaker B: Yeah, if you want to do it, it's almost the end.
+Speaker D: Our BSCW hooroo.
+Speaker B: Okay.
+Speaker B: Okay, so...
+Speaker B: Volume, program, dual channel.
+Speaker D: That's important.
+Speaker B: And do we want...
+Speaker C: Ten digits?
+Speaker C: Yeah, I believe so.
+Speaker D: If you want to go to channel 90 and you only have that button.
+Speaker D: That's complicated.
+Speaker D: But is that so relevant?
+Speaker D: Because I don't think...
+Speaker D: I wouldn't buy it personally if it were more controlled without the ten digits.
+Speaker D: I can imagine when all of you have a set-by-order and you have about 600 channels, I can imagine you want this.
+Speaker D: But if you're a regular TV user and you just want to watch the Dutch television networks, well, you can use about ten buttons.
+Speaker B: But we do have 13 different Dutch channels.
+Speaker D: Yeah, a lot of people, how often do you watch all these channels?
+Speaker C: They'll probably watch more channels than the older people.
+Speaker D: Yeah, you're probably right.
+Speaker D: Yeah, okay.
+Speaker D: But I think these ten buttons look a bit dull, don't you think?
+Speaker B: Well, it depends on the looks on the...
+Speaker D: Okay, well, then there should be something specific.
+Speaker B: You can make them very fancy by...
+Speaker B: I mean, Nokia.
+Speaker B: They have ten digits on their phones and it still looks very fancy.
+Speaker B: So I do not agree.
+Speaker D: Okay, so you can experiment with shape or with size or with color.
+Speaker C: Exactly, exactly.
+Speaker C: There are some numbers about speech recognition here that younger people would like it.
+Speaker C: It might be expensive and hard to implement, but it would be a solution there.
+Speaker D: Okay, speech.
+Speaker D: Well, maybe it can be combined with the find-to-remote control.
+Speaker D: So when you add speech recognition to your remote control, it's very easy to change the channel.
+Speaker D: Yeah.
+Speaker D: That's one thing.
+Speaker D: And it's very easy to find your remote control.
+Speaker D: Yeah.
+Speaker D: So maybe that's a possibility, but I'm afraid it will be a bit costly.
+Speaker B: Maybe when we... if we would drop the ten digits, but keep the program in the volume, because maybe people do not always want to use their voice.
+Speaker C: Especially other people don't like voice recognition, so we should implement such a both.
+Speaker B: Yeah, but we do focus on younger people.
+Speaker B: It's a board decision.
+Speaker D: I think it should work.
+Speaker D: We should manage it yet.
+Speaker D: Okay.
+Speaker D: To make a decision between the ten digits or the voice recognition.
+Speaker D: Yes.
+Speaker D: Well, the voice recognition has the main advantage.
+Speaker D: It makes it very easy for us to implement the find-to-remote control button, remote control function.
+None: Okay.
+Speaker D: That's a big advantage, I think.
+Speaker B: Okay.
+None: Good.
+None: Okay.
+Speaker D: There's only one disadvantage by implementing this.
+Speaker D: The power saving, power saving will be a bit more difficult.
+Speaker D: So we can expect that there will be a less longer life to the batteries.
+Speaker D: But maybe we can think something smart about it.
+Speaker D: There are some Hebrida hybrid devices, which incorporate the solar panel and rechargeable batteries.
+Speaker D: Okay.
+Speaker D: So when you just leave the device in a lightroom, it charges itself.
+Speaker B: But can we manage it for the cause?
+Speaker B: No, probably.
+Speaker D: It's like a very...
+Speaker C: Maybe, maybe not.
+Speaker C: I'll have to find that.
+Speaker C: And include a cradle in which it could recharge.
+Speaker C: Yes.
+Speaker C: So that wouldn't be a big problem.
+Speaker D: No, that's very cheap.
+Speaker D: Is the cradle very cheap?
+Speaker D: Oh, it's very cheap.
+Speaker D: There's no problem.
+Speaker D: It's just a case with two metal contacts.
+Speaker B: I know.
+Speaker B: But there should be an adapter as well.
+Speaker D: Yes, but their mass production, they're very cheap.
+Speaker D: Okay.
+Speaker D: It will cost us practically nothing.
+Speaker B: We have about 10 minutes left this meeting.
+Speaker B: I would like to hear maybe you all have things not spoken about yet, but that are important.
+Speaker B: You came up with the voice recognition data.
+Speaker B: Are there other things about the market we should know?
+Speaker C: I think we dealt with the most important information.
+Speaker C: Just that the younger part of the market isn't the 40% we want to sell to.
+Speaker C: So we should, for at least a bit, look at all the people.
+Speaker C: Okay.
+Speaker C: But not like that.
+Speaker C: We should use, we might attract them to.
+Speaker C: Okay.
+Speaker C: I think that's a big problem.
+Speaker B: Okay.
+Speaker B: So although we are focusing on younger people to make it profitable.
+Speaker B: Yeah.
+Speaker B: Profitable.
+Speaker B: Profitable.
+Speaker B: We still need to take into account the bit older people.
+Speaker B: Yes.
+Speaker B: Okay.
+None: Ruh.
+Speaker B: I have nothing to add.
+Speaker D: Nothing to add.
+Speaker B: I suppose, yeah.
+Speaker D: I just want to make a summary of all things spoken.
+Speaker D: Yeah.
+Speaker D: Great.
+Speaker D: The different possibilities.
+Speaker D: So basically we've decided to implement a seemingly easy design.
+Speaker D: So on the outside it looks easy, but we can make it easy on the inside or elaborate on the inside.
+Speaker D: So those are the choices we have to make.
+Speaker D: But I think there's a big advantage in making it more elaborate by implementing speech techniques and voice recognition, these kinds of things.
+Speaker D: It makes it also more attractable, I think, to our audience.
+Speaker D: There are some advantages and some disadvantages.
+Speaker D: And the main advantages that we can implement fancy techniques, which I think our customers will like, the disadvantage is that there are some concerns about the costs and things like battery lifetime energy saving.
+Speaker D: Yeah.
+Speaker D: Another advantage is that a circuit board will become much more easier if we do not implement these buttons.
+Speaker D: If we just add a chip, which does the voice recognition, our circuit board will become even more cheap.
+Speaker D: Yeah.
+Speaker B: And that was the main issue, right?
+Speaker D: Well, it was an issue, but we also thought that we already thought we should do it as cheaply as possible.
+Speaker D: Yeah.
+Speaker D: And this even makes it more cheap.
+Speaker D: But the cheaper the chip or the board, the fewer buttons you can use.
+Speaker D: No, it's the fewer buttons you have.
+Speaker B: Yeah.
+Speaker B: The cheaper circuit board.
+Speaker D: It's the other way around.
+Speaker D: And it's very cheap to incorporate integrated circuits with chip.
+Speaker D: So it's not an issue.
+Speaker D: It shouldn't be a big issue.
+Speaker D: Then we should just take a look at the costs.
+Speaker D: And because I don't know.
+Speaker D: Especially for the voice recognition.
+Speaker D: I really don't know.
+Speaker D: No.
+Speaker B: It can be costly, maybe not.
+Speaker B: I'm not sure how I will determine the costs.
+Speaker B: I will have a look at it.
+Speaker B: Maybe you will get some information on that.
+Speaker B: I'm not sure how I will.
+Speaker D: I hope my personal coach will have a look at it.
+Speaker B: Okay, great.
+Speaker B: Well, I think we are quite done.
+Speaker B: For now we will have the lunch break.
+Speaker D: How nice.
+Speaker B: I don't know how long the break will be.
+Speaker B: But we'll find out.
+Speaker B: Then we will have 30 minutes of time to perform our individual work.
+Speaker B: And I'm sure your personal coaches will assist you with it.
+Speaker B: I will put the minutes I just made in the project.
+Speaker B: Documents folder if you want to look at it.
+Speaker B: Well, just do.
+Speaker B: The interface designer.
+Speaker B: I would like to, the next meeting, I would like to receive the components concept.
+Speaker B: Ruh.
+Speaker B: From you, I would like to see.
+Speaker B: I'm sorry.
+Speaker B: Yeah.
+Speaker B: I'm sorry.
+Speaker B: User interface designer.
+Speaker B: Ruh.
+Speaker B: I would like to see the user interface concept.
+Speaker D: And the only problem is that it depends on the decisions the decisions Sebastian makes.
+Speaker D: About the four is what we said.
+Speaker B: Well, it should be easy.
+Speaker B: That's what we concluded.
+Speaker B: It should be an easy interface with not so much buttons.
+Speaker B: Just a volume and a program one.
+Speaker B: And yeah, some fancy lights.
+Speaker B: I think that's what we decided.
+Speaker D: So we dropped the first recognition?
+Speaker B: No, no, no.
+Speaker B: But it shouldn't be integrated.
+Speaker B: Yeah, of course it's user interface.
+Speaker B: But I was talking about really the design of the.
+Speaker D: Well, do we really have to decide now?
+Speaker D: No.
+Speaker B: We can decide the next meeting.
+Speaker D: Okay.
+Speaker D: Yeah.
+Speaker D: Because I'll have some updated info on that.
+Speaker B: Yeah.
+Speaker B: I guess all of you have updated info.
+Speaker B: I'm sure the marketing expert will receive that you will do some trend watching.
+Speaker B: And I'm sure the market will.
+Speaker B: We'll change, adapt.
+Speaker B: So we will see that.
+Speaker B: Yeah.
+Speaker B: That's it for now.
+Speaker B: Okay.
+Speaker B: Any other questions or can we have the lunch?
+Speaker D: We can have the lunch.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: Good.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
