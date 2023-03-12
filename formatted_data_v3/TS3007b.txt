@@ -1,0 +1,344 @@
+Speaker B: Hey guys.
+Speaker A: Hi.
+Speaker A: Hi.
+Speaker A: I see my bunny is still standing.
+Speaker A: Yeah.
+Speaker A: All enjoying it.
+Speaker A: Yeah.
+Speaker A: I figured I had that much.
+Speaker A: I'm going to wake up.
+Speaker B: A minute please, my laptop is there.
+Speaker B: There it is.
+None: Thank you.
+Speaker B: So, welcome back at the functional design meeting.
+Speaker B: The plan is that each one of you, so not me, but only you, will present the things you worked on the last half hour.
+Speaker B: I will take minutes and we'll put the minutes that I have at the end of the session in the shared folder.
+Speaker B: Also, the minutes of the previous session are also in the shared folder now.
+Speaker B: So, you can read that now or afterwards.
+Speaker B: I had an email from the management board.
+Speaker B: I don't know if you all also received it, but there were four points, which I think are very important.
+Speaker B: The first one is they think that teletext, teletext, becomes outdated and internet will be the main focus.
+Speaker B: The second one is also important because it's one of the discussion points of the previous session.
+Speaker B: The remote controls should only be used for the television, so it's not going to be a multi-purpose remote control.
+Speaker B: So, that's one thing to keep in mind.
+Speaker B: Second, and I think that's important for the marketing expert.
+Speaker B: The current customers are in the age group of 40 years and older, but with this new remote, they would like to reach a group younger than 40.
+Speaker B: And a thing to keep in mind, but not really for now, is that they want the slogan and the logo to be recognizable in the remote.
+Speaker B: So, we have 40 minutes, so I think not more than 10 minutes per presentation each.
+Speaker B: And please use all the facilities so that you have the smart boards, the word files, whatever you want.
+Speaker B: So, Tim, can you start?
+Speaker D: Okay, yeah.
+Speaker D: Okay, welcome.
+Speaker D: I have some new findings on marketing expert level, which I will show you.
+Speaker D: The method I used was giving orders to our usability lab to do a questionnaire.
+Speaker D: 100 respondents were involved, and my marketing department generated a report with a lot of results.
+Speaker D: These were a couple of findings, first page of three.
+Speaker D: We have three audiences, of two audiences, I'm sorry.
+Speaker D: The first one, this skill of 16 to 45 years in age.
+Speaker D: The second one is from 46 to 65.
+Speaker D: As you can see here, the market share for the first audience is about 60%, 65.
+Speaker D: The second audience is 35%.
+Speaker D: And some interest from the age groups.
+Speaker D: It seems like the young users of remote controls really like the fancy new technology stuff, like an LCD screen on the remote control speech recognition.
+Speaker D: I don't think that's really appropriate.
+Speaker D: And when you see the audience, the age is going up.
+Speaker D: Yeah, they don't really want it anymore.
+Speaker D: At least the new technology.
+Speaker D: The second findings out of the questionnaire are the opinions of the audience about current remote controls.
+Speaker D: First point is 75% of the users find the most remote controls very ugly, and 80% of the users would spend more money when a remote control would look fancy.
+Speaker D: So that's maybe something for the user interface.
+Speaker D: Designing.
+Speaker D: Third findings, according to a frequency of use versus importance investigation.
+Speaker D: Following buttons are most important.
+Speaker D: I will tell something about the way this test was done.
+Speaker D: The persons were asked what the buttons were.
+Speaker D: They used most, how much an hour.
+Speaker D: And in the second table, the importance of those buttons.
+Speaker D: When you multiply them, you get these three points.
+Speaker D: Switching channels.
+None: Yeah.
+Speaker D: That's pretty normal.
+Speaker D: That's what you do with a remote control.
+Speaker D: The second, data text.
+Speaker D: And the third, volume controls.
+Speaker D: I think it's good that we know what the user wants.
+Speaker D: At least these three points have to be very clear.
+Speaker B: But it's strange that the management board said that the teletext will be outdated by the internet.
+Speaker B: Yeah, okay.
+Speaker D: At the moment, data text is the best thing you can get on TV.
+Speaker D: Like getting information.
+Speaker D: So when you ask people what do they use, they use data text and not the internet or remote control.
+Speaker D: That's ridiculous.
+Speaker D: It's a new technology, but it's not incorporated right now.
+Speaker D: Okay.
+Speaker D: My personal preferences.
+Speaker D: I think we should aim at the audience from 16 to 45.
+Speaker D: First of all, it's the biggest share.
+Speaker D: The biggest audience.
+Speaker D: 65%.
+Speaker D: Second, I think you will get the most revenue from it.
+Speaker D: Yeah, people from 16 to 45 watch a lot of TV more than people who are elder.
+Speaker D: Second point.
+Speaker D: We have to improve the most used functions.
+Speaker D: As I said here, switching channels, data text and volume controls.
+Speaker D: Third point that came out of the questionnaire.
+Speaker D: People used to get lost of the remote control law.
+Speaker D: So maybe it's an idea for us to design a kind of placeholder.
+Speaker D: And sign off the TV where you can put the remote control in.
+Speaker D: That's about it.
+Speaker A: I think.
+Speaker A: We mentioned improving functions.
+Speaker A: What do you mean by that?
+Speaker D: Not the functions, but it came out that a lot of buttons weren't even used on a remote control.
+Speaker D: So you can have a remote control full of buttons, hundreds of buttons, but if you don't use them.
+Speaker A: Oh, focusing more on the use buttons.
+Speaker D: They have to be on it just to get it done if necessary.
+Speaker D: But the most used buttons have to be bigger or.
+Speaker A: Could you use perhaps one button for multiple functions?
+Speaker A: For example, pressing it in longer makes it switch to a different function.
+Speaker D: Yeah, perhaps.
+Speaker D: Just for the minor functions perhaps.
+Speaker A: Yeah, perhaps.
+Speaker A: Just not yet.
+Speaker D: Just to get less buttons on the remote control to make it easier and quicker to learn.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker B: Okay, that's it.
+Speaker A: Thank you, Tim.
+None: Yeah.
+Speaker A: Right. I'll be explaining a bit about working design about the project. Well, what I did was I dissected current remote controls and I viewed how they worked, what kind of components are involved and how they are connected together. And after that I put up a scheme about how these things are organized and I'll show it to you in a few seconds. And I'll explain a bit about how it works and how we could build one and why I think several possibilities that we discussed in an earlier meeting falls off. Right. Well, what I did was I checked the remote controls and the remote controls of today are all infrared like you probably know. And the thing about that is the remote controls have to access a TV or a stereo or something and those have transmitted that's also focused on infrared. So if we want to build a remote control with Bluetooth for instance, then the TV should have Bluetooth too in order to communicate. So that would mean extra cost for the user and that wouldn't mean a cheap remote control for us. So that's probably why most controls are still infrared.
+Speaker A: Firmware all have very simple structures that would probably mean lower cost and that could mean for us a good thing because we should be able to build a relatively cheap remote.
+Speaker A: Well, as I mentioned, radio waves and Bluetooth, well, it may be possible but I figured it wouldn't be possible within our budget but that's not for me to decide but that's maybe something for marketing to look into because my personal opinion is not to do Bluetooth
+Speaker D: or radio waves although. What do you think about incorporating Bluetooth or radio receiver in the place or next to the TV connected to the TV? Yeah, actually it's in our own product.
+Speaker A: Yeah, yeah, I actually figured that would be rather nice but then you still have the infrared function so and very you actually just move the problem but what I did think about was when you mentioned about the couple is why not introduce a speech function like where is the remote? If somebody says where is the remote then it goes BPP for something.
+Speaker A: I don't know maybe something to look into. I don't know what the cost for that something like that would be but it may be maybe something to explore. I'll just explain a bit of the components. First you have the energy source. The energy source would be a battery simple battery that you could find anywhere. I figured that would be best because when the battery stops functioning we could just use it, we could just go out and buy a new one so we don't have to do all to be too complicated about that. The energy source is connected to the infrared button but the infrared button works only via the chip and the sub-component to the switch. There is a switch between these. When the switch is pressed in, on this case the switch is a button. When the button is pushed in, the electric current goes through here and immediately a bulb lights up displaying to the user that something has happened. The user won't be thinking, well, did the button be pressed? What happened? I pressed the button but nothing is happening on the TV so it's something wrong or something. So that's just to explain, make it clearer to the user. While the signal goes via chip that's translated into electronic signals and then it's processed and then it's sent to the infrared bulb where it will be received on the receiving end and those interpreted by the device, well, in this case, television. Well, my personal preference is we have to keep it simple, not too many gadgets and functions. Just like you said, the most users, you have a lot of buttons and you usually don't use them. Why should we spend more time on those? I think we should stick with infrared transmitting and no receiving, so no input from the television. So I think we shouldn't be spending time on teletext and things like that because when you want teletext on infrared, you'd have to build a receiver too. So in order to receive the signals from what's on TV and such, so I figured that would be spending too much money and
+Speaker D: time and maybe another problem. I think current TVs can even send. Yes, but should we, I agree
+Speaker A: with you, but should we spend money and time on building a receiver into the remote control because that would be an extra component, extra design, larger remote control. These are all stuff that we have to take in account. So in my personal opinion, there's no receiver at all. Well, we should look into the design and the functionality. Like I said, use one button, for instance, for multiple functions or just hide a few buttons or switching it open or something. You use stuff. And don't overbuild. We shouldn't make big remote control for simple functions, but we should stick to the basics. So that was my personal opinion.
+Speaker A: And that was my presentation. Okay, thank you, Janice. Yes, I can go ahead.
+Speaker B: The last presentation, you have plenty of time. Tim and Janice, don't talk for 10 minutes.
+Speaker B: So take your time. If you take your time too long, I will eventually warn you. Well, I
+Speaker C: am going to give a presentation about some of the technical functions of the design and usability function. What's my opinion about? What's most important to combine the design technical possibilities and the use of friendliness in one. So if you go into design, remote, that looks good, it shouldn't weigh over the, if it's possible to make, of course, but also use friendliness. So that's some of the main points. And another one is the use of many functions. Well, make it more difficult. So use as little functions as possible, or at least don't display them all at once on the same remote if you have 50 functions. You don't want 50 buttons to be shown at the same time. When you visit an internet, the size, you don't want 50 links to see, but maybe use a hierarchy structure. And one of the ideas was maybe use touchscreen, but I don't know how far it is possible since we have taken to infrared and the remote cannot receive anything. But we might consider that. Well, of course, I hope this is all clear to you. You can use a remote like this with all the functions and many functions, but well, your thumb is a little bigger than this. You have to be very careful what you push. And if you're looking for teletext, you'll be searching for half an hour from, well, where is it? Well, here I guess, when you have to use something else. So just keep simple, make clear buttons easy to use. For example, if you want to use a play and back and stop, that's very important. Well, this was because of our last discussion.
+Speaker C: If multiple machines are used, create easy switch between the machines, but it's no longer applying. Well, yeah, I prefer to use it only for TV. And not to give too many options.
+Speaker C: And if possible, the buttons should give a direct action. So first select. You just
+Speaker B: had, you wanted to combine more functions in one. So you want to keep it simple. But I think that if you want to do that, then you can't escape the fact that there will be buttons which gives more options than one. Yes. But thing you have to wait against yourself
+Speaker C: do we want to use a few options and might not be so original or multipurpose as we thought. Or do we want to use many buttons? And wing those factors. It's maybe an option if you
+Speaker D: use an LCD or touch screen that in the middle are the main keys like displayed on the, yeah, yeah, yeah, something like that. Okay, just in the middle the general functions like play channel switching. Yeah. And then at the top or at the bottom some menus like settings
+Speaker C: or that you can drop down. Yeah, another question I had, do we want to use a menu display on the TV or have to everything be in remote? If you use a memory display on the TV, you can simply push a menu and then select the options you want to have and press OK. So that's my recommendation. If you use many options in one button, display the menu on the TV and use combination of two buttons at the same time or pressing buttons three times or five seconds is too complicated for most users. I think so too. And that's partly
+Speaker D: because a lot of TVs have different menus and when you have a particular menu at your device, it could be that don't correspond to the menu what's actually on TV. Yeah, that will be a
+Speaker A: problem. Well, you have to keep in mind that several TVs don't even have a menu structure or they have a very simple menu structure. So you have to keep in mind that not all our remote won't be able to work on all televisions. Yes. And that would be a considerable problem.
+Speaker C: We have to stick with current technologies and well, the restrictions of what's on the market today. Yeah, you should keep it at this. Use big clear buttons, not too many. So maybe we'll lose a few options, but I think this is more important. Especially the important buttons. If you want to switch channel, change your volume, use teletext. It has to work at once and more advanced options may be put it somewhere away on the remote. It's behind something like a touchscreen or a good menu. Yeah, if you want to put the on standby or change the channel, that should always be possible to do not first change menu options or switch something. Well, yeah, as you already told, give some feedback. If the user is pushing a button, you should know if the television or at least remote is reacting and not just the batteries may be low. And well, my conclusion is less. It's more, keep it simple. So maybe we should just ease down on the functionality to keep it accessible because you all know if there are a lot of function on the television. Some you will never know and never use. And therefore, it's important if you want to change the volume or the channel that is always accessible and easy and other functions that are not so important. Well, we should consider just not using them or at least putting them somewhere on the remote where they're not in a way for
+Speaker D: the most important function. Yeah. I think the idea about touchscreen is very good. I think it's a good idea because recently I saw a news item on TV about new telephones for elder people. They have like a touchscreen with really big pictures on it, like a call hang up. And that's a big advantage, I think, because on the one end, you make the remote control compatible for elder users just by scaling up the pictures or something. It's very visual intended. What was I to say more? Maybe the snorps, keep the primary buttons
+Speaker C: visible and make a remote that fits easily in the hand and for some design issues, well, put the logo on it and maybe use it in some aesthetic form. But the important buttons make them always accessible and pushable and clear and maybe use a touchscreen or if that's will become too difficult. Just like some older telephones, maybe it's possible to flip them open and just expand the number of options that are normally visible. Yeah, okay, but
+Speaker D: if you picked the left idea, then what's going to be displayed on a touchscreen? The extra
+Speaker C: function. The extra function. Yeah, but like menu from system functions or teletext functions and you just choose one and then all the options will become available and you just go through
+Speaker A: them. Wouldn't it be better to just make one big touchscreen? Yeah, I want one small touchscreen and I'll just make let's say 15 buttons on it and where three of those are actually just menus with sub menus or sub items or functions. I'd like to make a proposal. If you make one
+Speaker C: big touchscreen, use the same concept as here. Keep the buttons always available and use the lower part of the touchscreen for the rest. Yeah, yeah, I like the iPod idea that we just saw.
+Speaker A: You just have a few selected buttons and a few menus and with this idea you could actually make several. You can also improve later on. Yes. I think that would be great. Okay, so you think it
+Speaker B: will be better to have a kind of total touchscreen. Yeah, I would actually go. Okay, I agree but I
+Speaker C: think it's very important that always make the same buttons accessible. So use just for special options with part of the touchscreen. Yeah, and so an aloe designer picks up the of an elder parent or grandparent picks up the remote from the little child and who's all in the system functions.
+Speaker C: You have to have the possibility to turn off the TV or the switch channel without well using all the menu structures to get back to the primary function. Yeah, I had another
+Speaker D: idea about maybe parental control. Like building in some kind of pink code which allows parents to switch to all channels but children don't know the pink code. They can switch to violent
+Speaker A: channels. That is possible. Well, that actually depends on the television but I think that would be just a simple login. Well, you see the thing is when you buy remote you set the channels. The channels are different on each television. They aren't certain preset order. So if you lock on a remote let's say channel 15, well channel 15 on this television is different than channel 15 on another thing. So that would be that would be actually the main concern. I think that he means that
+Speaker C: maybe by some option make sure to remote control on a TV match and then after that you can use some inserts and passwords as being apparent that the children cannot use this. Change the
+Speaker D: settings of the TV like color and volume and that kind of stuff but maybe if you log in first as a barrel you address the channels and like oh this channel 15 that's a violent channel.
+Speaker D: My kids I don't want my kids to work. Yeah, they set the priority to only parents.
+Speaker C: Yeah, for example but make it a separate option in the menu. Yeah, okay but the late
+Speaker B: former yeah that's just late here so that's another future. Okay, but let's not go too wide about those things. It's a nice idea but I think that's we'll later in the stage. I have one little question about a total touchscreen or a partial. Yeah, a partial because I think elderly people may be not used to a touchscreen so they want the normal functions like tailored sex, volume changing to be kind of traditional and the other functions, the more difficult functions, to be maybe on a touchscreen but to keep this as normal as possible to keep it accessible.
+Speaker D: But if you display it on LCD screen with really big numbers.
+Speaker C: Yeah, you can display it on a new style.
+Speaker A: I do agree because it's just not the same when you touch a touchscreen or when you touch a button.
+Speaker A: That's different. We have to look at what target audience we are aiming for younger people.
+Speaker D: Yeah, they chose below 40. Yeah, that's probably and those young people yeah you saw it in my marketing report. They like the new fancy stuff. Yeah, touch green like Microsoft already developed something like that for multimedia applications. I think we can do that too.
+Speaker B: Yeah, okay as you can see the minutes from the second meeting, this one are done.
+Speaker B: I've added this four things from the management board just to keep in mind.
+Speaker B: Each time I had a sort of summary on what you told and what you personal think.
+Speaker B: So that can be read out. A few things I noticed were...
+Speaker B: The main points in this meeting is I think how it's going to look.
+Speaker B: We must keep it simple but have the opportunity to have more options and have them hidden or something. So you don't have a big thing full of buttons or the point that you want to use one controller for, hypothetically, each television. So you must the functions like the menus or the parents or control must be all done by the remote control and not by the television. I think that's the point with... We discussed some of them.
+Speaker D: The menus are not identical for all TVs so you have to display in a one-a-tv.
+Speaker C: When you think of the remote and the TV, there's always possibilities to change the color and the brightness and volume. Maybe you can look out if there are options that are remote.
+Speaker C: In this memory you can see what kind of TV it is.
+Speaker C: For us, the feedback is in this and that and then give the options that are capable of.
+Speaker B: That's an opportunity. You have an international market range.
+Speaker C: So you have big range of personal remotes and they all have functionality for all the TVs.
+Speaker C: So there wouldn't be an extra feature to incorporate the menus.
+Speaker A: It's not too complex to do it. Well, they all have to be programmed to fit your TV.
+Speaker A: And that is a bit of a tricky job. I actually use one of those.
+Speaker A: They are kind of troublesome. But the thing is, when you start building something like this, you have to build a receiver into the remote. Because in order for the remote to process something from the TV, to synchronize, you have to send and receive.
+Speaker C: No, no, no. You can just build it.
+Speaker D: It means just one other thing. With the current remote controls, the universal ones, you have to press a code for a TV.
+Speaker C: You look up, I have a Philips H55. It says press code 455 and you press code 455 and the remote and it displays all your menu options. Oh, yeah, sure.
+Speaker D: Now we just connect the TV type to a set of options in just in a memory.
+Speaker D: So if you like profile, if you touch in like 1410, kind of TV, the memory pops up the options.
+Speaker D: Yeah, yeah, that would be possible. I don't think that takes a lot of storage space.
+Speaker C: No, that wouldn't be just for arrival. If you look at the menus from universal remotes, there are maybe three, four hundred TVs at maximum. If you have all of them, all the old and new TVs summed up, so I think it is possible.
+Speaker D: But on the other hand, five minutes to go, on the other hand, if you have a remote, a buy new TV that isn't incorporated in a remote.
+Speaker C: Well, then you have to buy new ones, very good from what?
+Speaker C: New remote, maybe, or an update software update.
+Speaker D: Firmware, I would write. That's firmware. Ah, maybe.
+Speaker A: That's maybe the cup holder.
+Speaker D: Maybe we can incorporate some kind of USB or a firewire connection so that you can connect it to the PC and download newest firmware from the internet.
+Speaker A: Well, not everybody has a PC at home.
+Speaker A: Well, most people have, but not everybody.
+Speaker C: You can go back to the shop and like a kind of service.
+Speaker C: Yeah, maybe something like that.
+Speaker A: You can download it for you.
+Speaker A: Or you could actually look at the place, all you talked about earlier.
+Speaker A: And you could probably make a connection to an telephone line or Internet connection.
+Speaker C: Well, all the very digital information is sent to the standard TV connections.
+Speaker C: You can see what's programmed on the new channels.
+Speaker C: So maybe we can send that information along with standard TV.
+Speaker A: Well, then you'd be back to the building and receiving.
+Speaker A: Oh, yeah.
+Speaker A: Yeah.
+Speaker A: If it's actually worth it to build it in, we could actually look into it.
+Speaker A: But I don't know. It would be bringing more cost for it with it.
+Speaker A: Yeah.
+Speaker D: I think it's most cheap or cheapest to just do the updates at the service center.
+Speaker C: Yeah, that would be really best.
+None: Yeah.
+None: At the shop.
+None: Yeah.
+Speaker A: Like when you buy a TV, it just, I'll follow.
+Speaker D: It's not a lot of work.
+Speaker D: Just one docking station where you put it in, press start, bling, bling, updated.
+Speaker A: Yeah, that would be best.
+Speaker A: Yeah.
+Speaker D: You don't buy a TV every week.
+Speaker D: No, no.
+Speaker C: It doesn't.
+Speaker C: It doesn't.
+Speaker C: It doesn't mean a while.
+Speaker C: For which one are we going?
+Speaker C: My mistake.
+Speaker A: That's about that one or?
+Speaker A: Yeah.
+Speaker A: My vote goes out to the right here.
+Speaker A: Your vote?
+Speaker A: My vote.
+Speaker A: Yeah.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: And your vote?
+Speaker C: Well, I was doubting about which you want to take, but if convinced me that if you display buttons about the same as they would look on a normal remote or elderly, people will know what to do.
+Speaker D: And also like a clapping, like if I said, almost not open.
+Speaker D: Too difficult or not too difficult.
+Speaker D: Maybe it's easier to break it.
+Speaker C: Yeah.
+Speaker D: Break it.
+Speaker B: That is very sensitive.
+Speaker B: Yeah.
+Speaker D: Like my telephone.
+Speaker D: It's sensitive.
+Speaker D: Yeah.
+None: Yeah.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Well, it's almost at the end.
+Speaker B: We have now a lunch break.
+Speaker B: Oh.
+Speaker A: Me?
+Speaker B: Yeah.
+Speaker B: After the lunch break, it's back to individual work.
+Speaker B: Once again, 30 minutes.
+Speaker B: I will put my minutes.
+Speaker B: I have updated them.
+Speaker B: So they're updated in the shared folder too.
+Speaker B: 30 minutes.
+Speaker B: 30 minutes.
+Speaker B: Oh, minutes.
+Speaker B: Fader.
+Speaker B: The specific instructions for the next meeting you will all receive at the email.
+Speaker B: I don't think I can say much about it.
+Speaker B: So wait for the email and hopefully you get it done in the 30 minutes.
+Speaker B: And I will see you after the lunch break in the 30 minutes.
+Speaker B: One question.
+Speaker D: Yeah.
+Speaker D: How late do we have to get back?
+Speaker B: Be back here.
+Speaker B: Well, 30 minutes.
+Speaker D: A quarter to one.
+Speaker D: Yeah.
+Speaker D: 30 minutes of lunch break.
+Speaker B: 30 minutes of lunch break.
+Speaker B: Okay.
+Speaker D: About 45.
+Speaker B: 45?
+Speaker B: Yeah.
+Speaker B: Well done.
+Speaker B: Would it be one o'clock?
+Speaker B: Yeah.
+Speaker B: Oh, we ask our personal coach.
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Thank you.
+Speaker B: Thank you.
+Speaker B: It was very good session I think.
+Speaker C: We have possible distorted social documents.
+Speaker B: Uh, well.
+Speaker D: Save us.
+Speaker B: Yeah, because all things are stored in Smartboard.xdk and that's in.
+Speaker D: But you can open it from your, from your laptop.
+Speaker C: You can save it as an image.
+Speaker D: Yeah, maybe.
+Speaker D: Save us.
+Speaker A: I can move.
+Speaker A: Maybe an export function.
+Speaker A: Export.
+Speaker B: Well, I can.
+Speaker B: HTML.
+Speaker C: Well, it usually makes you possible.
+Speaker C: Huh?
+Speaker C: Image?
+Speaker C: Ypeg.
+Speaker A: Yeah, a tree peg.
+Speaker D: Ypeg.
+Speaker D: Yeah, it's better.
+Speaker D: Very precise.
+Speaker D: A4.
+Speaker D: One screen size.
+Speaker D: And this.
+Speaker D: Yeah.
+Speaker D: Directory.
+Speaker C: No.
+Speaker C: Oh, yeah.
+Speaker C: It's not connected to the...
+Speaker C: You all have to have the...
+Speaker B: The questionnaire again.
+Speaker B: About the DFT work.
+Speaker D: Yeah, it is connected.
+Speaker D: It's connected.
+Speaker D: Yeah.
+Speaker D: I think so.
+Speaker D: Do you?
+Speaker B: Oh.
+Speaker A: No.
+Speaker A: I'll just save it in my documents.
+Speaker A: Yeah, am I on messenger?
+Speaker B: Yeah.
+Speaker B: That's exactly what you're doing.
+Speaker B: Yeah.
+Speaker C: You give the name?
+Speaker C: Oh.
+Speaker C: Yes.
+Speaker C: Okay, thank you.
+Speaker C: The questionnaire filling with fill out after lunch.
+Speaker B: Sure.
+Speaker B: Well, it's simply filling...
+Speaker B: Oh, no.
+Speaker B: It's also filling out.
+Speaker B: I do it after lunch.
+Speaker B: I'm hungry, so I do it after lunch.
+Speaker D: Yes.
+Speaker D: Thank you all.
+Speaker D: Thank you.
+Speaker C: You're welcome.
+Speaker C: You can leave the PC on, I think.
+Speaker C: Yeah.
+Speaker B: I'll bring it to my personal room.
+Speaker B: Yeah.
+Speaker B: My executive room.
+Speaker B: My executive room with the painting.
+None: I The
+Speaker B: He went there.
+None: you you you you you you you you you you you you you you you you you you you you you you

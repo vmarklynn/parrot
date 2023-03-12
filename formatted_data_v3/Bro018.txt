@@ -1,0 +1,482 @@
+Speaker C: Okay, so, it's not here, so.
+Speaker G: Yeah, I would try to explain the thing that I did this week, during this week.
+Speaker G: Well, you know that I began to work with a new feature to the text voice and voice, where I tried to MLP to with this new feature and the feature from the bass system.
+Speaker E: The Melcapsum?
+Speaker G: No, exactly the Melcapsum, the new bass system, the new bass system.
+Speaker G: Oh, the Aurora system.
+Speaker G: Yeah, the Aurora system with the new filter, the idea, something like that.
+Speaker G: And I tried to MLP one that only have three outputs, voice and voice and silence, and other one that have 56 outputs, the probabilities that they have.
+Speaker G: And I tried to do some experiment of recognition with that.
+Speaker G: And I only have a result with the MLP with the three outputs.
+Speaker G: And I put together the 15 features and the three MLP outputs.
+Speaker G: And while the results are a little bit better but more or less similar.
+Speaker C: I'm slightly confused.
+Speaker C: What feeds the three output net?
+Speaker G: Voice and voice and silence.
+Speaker C: No, no, what feeds it? What features does it say?
+Speaker G: The input, the input are the 15, the 15 basses feature with the new code.
+Speaker G: And the other three features are the variance of the different between the two spectrum.
+Speaker G: The variance of the autocorrelation function, I said that the first point, because half the height value is 0 and also R0.
+Speaker G: The first coefficient of the autocorrelation function, that is like the energy with the three features.
+Speaker C: You wouldn't do like R1 over R0 or something like that.
+Speaker C: Usually for voice and voice, you do something, you do energy but then you have something like spectral slope, which is you get like R1 over R0 or something like that.
+Speaker G: What are the R's?
+Speaker B: Are the correlations?
+Speaker G: No, autocorrelations, yes, the variance of the autocorrelation function that used that.
+Speaker G: Well, that's the variance.
+Speaker C: But if you just say what is, I mean, the first order, one of the different between voice and voice and silence is energy.
+Speaker C: But the other one is the spectral shape.
+Speaker C: The spectral shape, yes.
+Speaker C: Yeah, and so R1 over R0 is what you typically use for that.
+Speaker G: No, I don't use that. I can use.
+Speaker C: No, I'm saying that's what people usually typically use.
+Speaker C: See, because this is just like a single number to tell you does the spectrum look like that or does it look like that?
+Speaker C: So if it's low energy but the spectrum looks like that or like that, it's probably silence.
+Speaker C: But if it's low energy and the spectrum looks like that, it's probably unvoiced.
+Speaker C: Yeah.
+Speaker C: So if you just had to pick two features to determine voice and voice, you pick something about the spectrum like R1 over R0 and R0.
+Speaker C: Or you know, you have some other energy measure and like in the old days people did like zero crossing counts.
+Speaker C: Yeah, yeah.
+Speaker G: Right.
+Speaker G: I can also use this.
+Speaker B: Yeah.
+Speaker G: Because the result are really better but we have in a point that everything is more or less similar.
+Speaker G: But not quite the...
+Speaker C: Right, but it seemed to me that what you were getting at before was that there is something about the difference between the original signal or the original FFT.
+Speaker C: And what the filter, which is what...
+Speaker C: And the variance was one take on it.
+Speaker C: Yeah, I used this too.
+Speaker C: Right, but it could be something else because suppose you didn't have anything like that.
+Speaker C: Then in that case, if you have two nets, and this one has three outputs, and this one has whatever, 56 or something.
+Speaker C: If you were to sum up the probabilities for the voice and for the unvoiced and for the silence here, we found in the past you would do better at voice and voice silence than you do with this one.
+Speaker C: So just having the three output thing doesn't really value anything.
+Speaker C: Yeah.
+Speaker C: The issue is what you feed it.
+Speaker G: Yeah, I have...
+Speaker G: Yeah.
+Speaker C: So you're saying...
+Speaker E: So you can take the features that go into the voice and voice silence net and feed those into the other one as additional inputs rather.
+Speaker C: Yeah.
+Speaker C: Well, that's another way.
+Speaker C: That wasn't what I was saying, but yeah, that's certainly another thing to do.
+Speaker C: Now, I was just trying to say, if you bring this into the picture over this, what more does it buy you?
+Speaker C: And what I was saying is that the only thing that I think that it buys you is based on whether you feed it something different.
+Speaker C: And something different and something fun to men away.
+Speaker C: And so the kind of thing that she was talking about before was looking at something...
+Speaker C: Something about the difference between the log FFT log power and the log magnitude FF spectrum in the filter bank.
+Speaker C: Yeah.
+Speaker C: And so the filter bank is chosen, in fact, to sort of integrate out the effects of pitch.
+Speaker C: And she's saying, you know, trying...
+Speaker C: So the particular measure that she chose was the variance of this difference.
+Speaker C: But that might not be the right number.
+Speaker C: Maybe.
+Speaker C: I mean, maybe there's something about the variance that's not enough or maybe there's something else that one could use.
+Speaker C: I think that for me, the thing that struck me was that you want to get something back here.
+Speaker C: So here's an idea.
+Speaker C: What about if you skip all the really clever things and just fed the log magnitude spectrum into this?
+Speaker G: I'm sorry.
+Speaker C: This is...
+Speaker C: You have the log magnitude spectrum.
+None: Yeah.
+Speaker C: And you were looking at that and the difference between the filter bank and computing the variance.
+Speaker C: That's a clever thing to do. What if you stop being clever?
+Speaker C: And you just took this thing in here because it's a neural net and neural nets are wonderful and figure out what they can...
+Speaker C: What they most need from things.
+Speaker C: Yeah.
+Speaker C: I mean, that's a good act.
+Speaker C: So I mean, you're trying to be clever and say, what's the statistic that we should get about this difference?
+Speaker C: But in fact, you know, maybe just feeding this in or feeding both of them in.
+Speaker C: In other words, saying let it figure out what is the interaction.
+Speaker C: Especially if you do this over multiple frames, then you have this over time and both kinds of measures and you might get something better.
+Speaker E: So don't do the division but let the net have everything.
+Speaker B: That's another thing you could do, yeah.
+Speaker C: I mean, it seems to me if you have exactly the right thing, then it's better to do it without the net because otherwise you're asking the net to learn this thing.
+Speaker C: You know, say if you wanted to learn how to do multiplication.
+Speaker C: I mean, you could feed two numbers that you wanted to multiply into a net and have a bunch of nonlinearities in the middle and train it to get the product at the output.
+Speaker C: And it would work, but it's kind of crazy because we know how to multiply and you'd be much lower error usually if you just multiply it out.
+Speaker C: But suppose you don't really know what the right thing is.
+Speaker C: And that's what these sort of dumb machine learning methods are good at.
+Speaker E: How long does it take Carmen to train up on a business?
+Speaker G: Oh, not too much. One day useless.
+Speaker C: Yeah, it's probably worth it.
+Speaker A: What are your frame error rates?
+Speaker G: 56, the frame error rate 56 AC.
+Speaker G: Is that maybe that's accuracy?
+Speaker A: The accuracy.
+Speaker A: 56% accurate for voice unvoiced.
+Speaker G: No, yes.
+Speaker G: I don't remember for voice unvoiced.
+Speaker G: Maybe for the other one.
+Speaker G: Yeah, for voice unvoiced, hopefully it'd be a lot better.
+Speaker G: Maybe for voice unvoiced.
+Speaker G: This is for the other one.
+Speaker G: I can't say that.
+Speaker G: But I think that 55 was for the when the output are the 56 foam.
+Speaker G: That I look in the with the other.
+Speaker G: The other MLP that we have are more or less the same number.
+Speaker G: It's a little bit better, but more or less the same.
+Speaker C: I think at the frame level for 56, I was the kind of number we were getting for.
+Speaker C: Reduce bandwidth.
+Speaker G: I think that for the other one for the three output is 62, 63 more or less.
+Speaker G: That's all?
+Speaker C: Yeah.
+Speaker G: That's pretty bad.
+Speaker G: Yeah, because it's noise also.
+Speaker G: And we have.
+Speaker C: I know.
+Speaker C: But even in training still.
+Speaker C: Well, actually, so this is a test you should do then.
+Speaker C: If you're getting 56% over here, that's a noise also, right?
+Speaker C: Yeah, yeah, yeah.
+Speaker C: Okay.
+Speaker C: If you're getting 56 here, try adding together the probabilities of all of the voice phones here and all the unvoiced phones and see what you get then.
+Speaker C: I bet you get better than 63.
+Speaker G: Well, I don't know.
+Speaker G: I think that we have to resolve more.
+Speaker G: Maybe.
+Speaker G: I don't know.
+Speaker G: I'm not sure, but I remember it's a sensitivity.
+Speaker G: I can't solve that.
+Speaker C: Okay, but that's a good checkpoint.
+Speaker C: You should do that anyway.
+Speaker C: Given this regular old net that's just what you're using for other purposes, add up the probabilities of the different subclasses and see how well you do.
+Speaker C: Anything that you do over here should be at least as good as that.
+Speaker G: How do you do that?
+Speaker E: The targets for the neural net.
+Speaker E: They come from forced alignments.
+Speaker G: Timmit.
+Speaker G: Oh, this is trained on Timmit.
+Speaker C: Yeah.
+Speaker G: Okay.
+Speaker G: Yeah, this is for Timmit.
+Speaker C: But noisy Timmit?
+Speaker G: No, it's a Timmit.
+Speaker G: We have no system with the noise of the TID digits.
+Speaker G: And now we have another noise system, it also with the noise of Italian database.
+Speaker B: Yeah.
+Speaker C: Well, there's going to be, it looks like there's going to be a noisy, some large vocabulary noisy stuff too.
+Speaker C: Something that's preparing.
+Speaker C: Yeah.
+Speaker C: I forget it will be resource management, Wall Street Journal, something.
+Speaker C: Some red task, actually, that there.
+Speaker C: Or what?
+Speaker C: Or a raw?
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: So the issue is whether people make a decision now based on what they've already seen or they make it later.
+Speaker C: And one of the arguments for making it later is let's make sure that whatever techniques that we're using work for something more than connected digits.
+Speaker B: So.
+Speaker E: When are they planning, when would they do that?
+Speaker C: I think in the summer sometime.
+Speaker B: Okay.
+Speaker G: This is the work that I did in this date.
+Speaker G: And also, I, Henik, last week, say that if I have time, I can't begin to study seriously the French telecom proposal to look at the code and something like that.
+Speaker G: To know, is that what they are doing?
+Speaker G: Because maybe that we can have some ideas.
+Speaker G: But not only to read the proposal, look carefully what they are doing with the program and something like that.
+Speaker G: And I begin to work also in that.
+Speaker G: But the first thing that they don't understand is that they are using the lock energy.
+Speaker G: That this quiet, I don't know why they have some constant in the expression of the law energy.
+Speaker G: I don't know what that means.
+Speaker E: They have a constant.
+None: Yeah.
+Speaker C: At the front, it says, a lock energy is equal to the rounded version of 16 over the log of two.
+Speaker B: Well, this is natural log and maybe something to do with the fact that this is, I have no idea.
+Speaker B: Yeah, that's what I was thinking.
+Speaker B: But there's a 64.
+Speaker G: Because maybe the threshold that they are using and the basis of this value, I don't know exactly.
+Speaker G: Because I thought maybe they have a meaning, but I don't know what the meaning of this value is.
+Speaker G: Yeah, that's pretty funny.
+Speaker E: The number inside the log and raising it to 16 over log is two.
+Speaker B: Yeah, I'm right.
+Speaker E: I have to do with the 64.
+Speaker C: For you know, the 16, the natural log of one over the natural log of two times the natural, I don't know.
+Speaker C: Maybe something will think of something, but this is, it may just be that they want to have some very small energies.
+Speaker G: They want to have some kind of a...
+Speaker G: I can understand the effect of this, because it's too, to do something like that.
+Speaker C: Well, since you're taking a natural log, it says that when you get down to essentially zero energy, this is going to be the natural log of one, which is zero.
+Speaker C: So it'll go down to the natural log being the lowest value for this will be zero.
+Speaker C: So it restricted to being positive and sort of smoothed it for very small energies.
+Speaker C: Why they chose 64 and something else, that was probably just experimental.
+Speaker C: Yeah.
+Speaker C: And the constant in front of it, I have no idea.
+Speaker G: What?
+Speaker G: I will look to try if I move this parameter in the code, what happens?
+Speaker G: Maybe the thresholds are in basis of this.
+Speaker C: I agree.
+Speaker C: They probably have some particular fixed pointer arithmetic that they're using.
+Speaker E: They're just...
+Speaker E: They do with hardware.
+Speaker C: Yeah.
+Speaker C: I mean, there's probably work with fixed pointer integer or something.
+Speaker C: I think you're supposed to in this stuff anyway, and maybe that puts it in the right realm somewhere.
+Speaker C: Yeah.
+Speaker C: I think given that the level you're doing things in floating point on the computer, I don't think it matters to be my guess.
+Speaker G: This is more of a thing.
+Speaker C: Okay, and when did Stefan take off?
+Speaker G: I think that the stuff I will arrive today, which tomorrow...
+Speaker C: Well, he was gone this first few days, and then you see her for a couple days before he goes to Salt Lake City.
+Speaker G: I think that he's in Las Vegas until then, that.
+Speaker C: Yeah.
+Speaker C: So he's going to a cast, which is good.
+Speaker C: I don't know if there are many people here, but I cast, so make sure somebody go.
+Speaker E: Have people sort of stopped going to a cast?
+Speaker C: People are less consistent about going to a cast, but I think it's still a reasonable form for students to present things.
+Speaker C: I think for engineering students of any kind, I think it's if you haven't been there much, it's good to go to, get a feel for things, a range of things, not just speech.
+Speaker C: But I think for sort of diving the world's speech people, I think that ICSOP and Euro-Speech are much more targeted.
+Speaker C: And then there are these other meetings like HLT and ASRU.
+Speaker C: So there's actually plenty of meetings that are really relevant to computational speech processing, of one sort or another.
+Speaker C: So, I mean, I mostly just ignored it because I was too busy, and didn't get to it.
+Speaker C: So, I want to talk a little bit about what we're talking about this morning, just briefly.
+Speaker A: Anything else?
+Speaker A: Yeah, so I guess some of the progress I've been getting my committee members for the calls.
+Speaker A: And so far, I'm more again, and being at Mike Jordan, and I asked John O'Halla to be agreed.
+Speaker A: Cool? Yeah, yeah.
+Speaker A: So, I just need to ask Malik.
+Speaker A: And then I talked a little bit about continuing with these dynamic acoustic events.
+Speaker A: And we're thinking about a way to test the completeness of a set of dynamic events, completeness in the sense that if we pick these X number of acoustic events, do they provide sufficient coverage for the phones that we're trying to recognize, or the words that we're going to try to recognize from Iran?
+Speaker A: So, Morgan and I were discussing a form of a cheating experiment where we get a chosen set of features or acoustic events.
+Speaker A: And we train up a hybrid system to do phone recognition on timet. So, the idea is if we get good phone recognition results using the set of acoustic events, then that says that these acoustic events are sufficient to cover a set of phones at least found a timet.
+Speaker A: So, it would be a measure of, are we on the right track with the choices of our acoustic events.
+Speaker A: So, that's going on. And also just working on my final project for Jordan's class, which is...
+Speaker C: Actually, let me hold that thought. Let me back up while we're still on it. The other thing I was suggesting though is that given that you're talking about binary features, maybe the first thing to do is just to count and count co-occurrences and get probabilities for discrete HMM.
+Speaker C: So, that would be pretty simple because it's just to say if you had 10 events that you were counting each frame would only have a thousand possible values for these 10 bits.
+Speaker C: And so, you could make a table that would say if you had 39 phone categories, it would be a thousand by 39 and just count the co-occurrences and divide them by the...
+Speaker C: count the co-occurrences between the event and the phone and divide them by the number of occurrences of the phone.
+Speaker C: And that would give you the likelihood of the event given the phone. And then just use that in a very simple HMM.
+Speaker C: And you could do phone recognition then and wouldn't have any of the issues of the training of the net or... I mean, it'd be on the simple side.
+Speaker C: The example I was giving was if you had onset of voicing and end-of-voicing as being two kinds of events, then if you had those on mark correctly and you counted the co-occurrences, you should get it completely right.
+Speaker C: So, but you'd get all the other distinctions randomly wrong. I mean, there'd be nothing to tell you that. So, if you just do this by counting, then you should be able to find out in a pretty straightforward way whether you have a sufficient set of events to do the kind of level of classification of phones that you'd like.
+Speaker C: So, that was the idea. And the other thing that we were discussing was, okay, how do you get your training data?
+Speaker C: Because the Switchboard Transcription Project was half-thousand people or so working off and on over a couple years.
+Speaker C: Similar amount of data to what you're talking about with Dimit training. So, it seems to me that the only reasonable starting point is to automatically translate the current timid markings into the markings you want.
+Speaker C: And it won't have the kind of characteristic that you'd like of catching funny kind of things that maybe aren't there from these automatic markings, but it's...
+Speaker E: It's probably a good place to start.
+Speaker C: Yeah, and a short amount of time. Just to, again, just to see if that information is sufficient to determine the phones.
+Speaker E: And you could even then get an idea about how different it is you could maybe take some subset and go through a few sentences, mark them by hand and see how different it is from the clinical ones.
+Speaker E: Just to get an idea of rough idea of if it really even makes a difference.
+Speaker C: You get a little feeling for it that way. Yeah, that's probably right.
+Speaker C: I guess it would be that this is since Dimit's red speech that this would be less of a big deal if you want to look at spontaneous speech before or after.
+Speaker C: And the other thing would be say if you have these 10 events you want to see what if you took two events or four events or ten events.
+Speaker C: And hopefully there should be some point in which having more information doesn't tell you really all that much more about what the phones are.
+Speaker E: You could define other events as being sequences of these events.
+Speaker C: You could, but the thing is what he's talking about here is a translation to a per frame feature vector.
+Speaker C: So there's no sequence in that, I think.
+Speaker C: Unless you've got your second pass over or something after you've got your...
+Speaker C: Yeah, but we're just talking about something simple here.
+Speaker C: Yeah, I'm adding complexity.
+Speaker C: Yeah, with a very simple statistical structure, could you at least verify that you've chosen features that are sufficient?
+Speaker C: Okay, and you were saying some of these are going to say something else about your class project?
+Speaker A: Yeah, so for my class project, I'm tinkering with support vector machines, something that we learned in class, and basically just another method for doing classification.
+Speaker A: So I'm going to apply that to compare it with the results by King and Taylor who did using recurrent known as they recognized a set of phonological features made of mapping from the MFCC's to phonological features.
+Speaker A: So I'm going to do a similar thing with support vector machines.
+Speaker E: So what's the advantage of support vector machines?
+Speaker A: So support vector machines are good with dealing with less amount of data.
+Speaker A: So if you give it less data, it still does a reasonable job in learning the patterns.
+Speaker C: I guess they're sort of succinct.
+Speaker E: Does there is some kind of a distance metric they use or what do they do for classification?
+Speaker A: So the simple idea behind the support vector machine is you have this feature space, right? Then it finds the optimal separating play between these two different classes.
+Speaker A: And so at the end of the day, what it actually does is it picks those examples of the features that are closest to the separating boundary and remembers those and uses them to recreate the boundary for the test set.
+Speaker A: So given these features are these examples, critical examples, which they call support vectors, then given a new example, if the new example falls away from the boundary in one direction, then it's classified as being part of this particular class.
+Speaker E: So why save the examples? Why not just save what the boundary itself is?
+Speaker A: Yeah, that's a good question.
+Speaker C: That's another way of doing it. So I guess it goes back to nearest neighbor sort of thing.
+Speaker C: When is nearest neighbor good? Well nearest neighbor good is good if you have lots and lots of examples.
+Speaker C: But of course if you have lots and lots of examples, then it can take a while to use nearest neighbor's lots of lookups. So a long time ago people talked about things where you would have condensed nearest neighbor where you would pick out some representative examples, which would be sufficient to represent to correctly classify everything that came in.
+Speaker E: I think support vector stuff goes back to that kind of thing. So rather than doing nearest neighbor where you compare to every single one, you just pick a few critical ones.
+Speaker C: And the neural net approach or gothse mixtures for that matter are sort of fairly brute force kinds of things where you sort of predefined that there's this big bunch of parameters and then you place them as your best can to define the boundaries.
+Speaker C: And in fact, as you know, these things do take a lot of parameters. And if you have only a minus amount of data, you have trouble learning them.
+Speaker C: So I guess the idea to this is that it is reputed to be somewhat better in that regard.
+Speaker A: It can be a reduced parameterization of the model by just keeping certain selected examples.
+Speaker C: But I don't know if people have done sort of careful comparisons of this on large tasks or anything. Maybe they have. I don't know.
+Speaker D: So do you get some kind of number between zero and one at the output?
+Speaker A: Actually, you don't get a nice number between zero and one. You get either a zero or one.
+Speaker A: Basically, you get a distance measure at the end of the day. And then that distance measure is translated to a zero or one.
+Speaker E: But that's looking at it for a binary classification. And you get that for each class. You get a zero or one.
+Speaker C: But you have the distances to work with. Because actually, Mrs. Cippy stayed people to use support vector machines for speech recognition. And they were using it to make probabilities.
+Speaker A: Yeah, they had a way to translate the distances into a probability with a simple sigmoidal function.
+Speaker C: So they used sigmoidal or a softmax type thing. And didn't they like exponential or something and divide by the sum of them.
+Speaker C: Oh, so it is a sigmoidal.
+Speaker E: Did they get good results with that?
+Speaker C: No, they were okay. I mean, I don't think they were earth shattering. But I think that this was a couple years ago.
+Speaker C: I think people were very critical because it was interesting just to try this. And it was the first time they tried it.
+Speaker C: So the numbers were not incredibly good. But there was reasonable.
+Speaker C: I don't remember anymore. I don't remember what the task was. It was broadcast news or something.
+Speaker A: So I'm not planning on doing speech recognition with it. Just doing detection of phonological features.
+Speaker A: So for example, this feature set called the sound patterns of English is just a bunch of binary valued features.
+Speaker A: So I don't know if you can say, is this voicing or is this not voicing this sound or is this.
+Speaker A: Did you find any more mistakes in their table?
+Speaker A: I haven't gone through my table. Yesterday I brought Chuck the table and I was like, is the mapping from N to this phonological feature called coronal?
+Speaker A: Should it be a one? Or should it be a coronal instead of not coronal as it was labeled in the paper?
+Speaker A: So I haven't hunted down all the mistakes yet.
+Speaker C: But as I was saying, people do get probabilities of these things. And we were just trying to remember how they do.
+Speaker C: But people have used it for speech recognition. They have gotten probabilities. So they have some conversion from these distances to probabilities.
+Speaker C: You have the paper, right, the Mississippi State paper. Yeah, if you're interested.
+Speaker A: I can show you.
+Speaker E: So in a thing you're doing, you have a vector of ones and zeros for each phone.
+Speaker A: Is this the class project?
+Speaker A: Yeah.
+Speaker A: Is that what you're right? Right, right. So for every phone there is a vector of ones and zeros.
+Speaker A: Of course, whether it exhibits a particular phonological feature or not.
+Speaker E: And so when you do your, what is the task for the class project to come up with the phones or to come up with these vectors to see how close they match the phone?
+Speaker A: To come up with a mapping from MFCCs or some features that to whether there is an existence of a particular phonological feature.
+Speaker A: And yeah, basically it's to learn a mapping from the MFCCs to phonological features.
+Speaker A: Is it the answer to your question? I think so.
+Speaker E: I guess, I mean, I'm not sure what you get out of your system.
+Speaker E: Do you get out a vector of these ones and zeros and then try to find the closest matching phoneme to that vector?
+Speaker A: Oh, no, no. I'm not planning to do any phoneme mapping yet.
+Speaker A: It's basically, it's really simple, basically, a detection of phonological features.
+Speaker A: I see.
+Speaker A: Because the, so King and Taylor did this with recurrent neural nets.
+Speaker A: And their idea was to first find a mapping from MFCCs to phonological features.
+Speaker A: And then later on, once you have these phonological features, then map that to folks.
+Speaker A: So I'm sort of reproducing phase one.
+Speaker E: So they had one recurrent net for each particular feature.
+Speaker E: Did they compare that? I mean, what if you just did phone recognition and did the reverse look up?
+Speaker E: So you recognize a phone, then whichever phone was recognized, you spit out its vector of ones and zeros.
+Speaker C: The spectrary could do that. That's probably not what you're going to do in this class, Brian.
+Speaker C: So have you had a chance to do this thing we talked about yet with the search and penalty?
+Speaker C: No, actually, I was going different, that's a good question too, but I was going to ask about the changes to the data in comparing PLP and no capstrom for the SRI system.
+Speaker E: Well, what I've been changes to data, I'm not sure.
+Speaker C: So we talked on the phone about this, that there was still a difference of a few percent, and you told me that there was a difference in how the normalization was done.
+Speaker C: And I was asking if you were going to redo it for PLP with a normalization done as it had been done for the mock-up stream.
+Speaker E: Right, no, I haven't had a chance to do that.
+Speaker E: So what I've been doing is trying to figure out, it just seems to me like there's a, well, it seems like there's a bug because the difference in performance is, it's not gigantic, but it's big enough that it seems wrong.
+Speaker C: I agree, but I thought that the normalization difference was one of the...
+Speaker E: Yeah, but I don't know how this is.
+Speaker E: Yeah, I guess I don't think that the normalization difference is going to count for everything. So what I was working on is just going through and checking the headers of the wave files to see if maybe there was a certain type of compression or something that was done that my script wasn't catching.
+Speaker E: For some subset of the training data, the features I was computing were junk, which would cause it to perform okay, but the models would be all messed up.
+Speaker E: So I was going through and just double checking that kind of thing first to see if there was just some kind of obvious bug in the way that I was computing the features.
+Speaker E: Looking at all the sampling rates, make sure all the sampling rates were what HK, what I was assuming they were...
+Speaker E: Yeah, that makes sense to check out. So I was doing that first before I did these other things just to make sure there wasn't something.
+Speaker C: Although really, a couple of 3% difference in order or rate could easily come from some difference in normalization, I would think.
+Speaker E: Yeah, and I think, I'm trying to remember, but I think I recall that Andreas was saying that he was going to run sort of the reverse experiment, which is to try to emulate the normalization that we did, but with ML Cup Straw features.
+Speaker E: Sort of, you know, back up from the system that he had. I thought he said he was going to have to look back through my email from him.
+Speaker C: Yeah, he's probably off at the end of his meeting there.
+Speaker C: Yeah, but yeah, I just think they should be roughly equivalent. I mean, again, the Cambridge folk found the PLP actually be a little better.
+Speaker C: I mean, the other thing I wondered about was whether there was something just in the bootstrapping of a system which was based on, but maybe not.
+Speaker E: So one thing that's a little bit, I was looking, I've been studying and going through the logs for the system that Andreas created.
+Speaker E: And his way that the SRI system looks like it works is that it reads the way files directly and does all of the capture computation stuff on the fly.
+Speaker E: Right. And so there's no place where these, where the capture files are stored in, where that I can go look at and compare to the PLP one.
+Speaker E: So, whereas with our features, he's actually storing the capture.
+Speaker E: Yes, going to read those in, but it looked like he had to give it, even though the capture was already computed, he has to give it a front end parameter file, which talks about the kind of.
+Speaker E: Computation that his malfunction thing does. So, I don't know if that probably doesn't mess it up, it probably just ignores it if it determines that it's already in the right format or something, but the two processes that happen are a little different.
+Speaker E: So, anyway, there's stuff there to start with.
+Speaker C: Yeah. So, okay, let's go back to what you thought I was asking you.
+Speaker E: Yeah, no, and I didn't have a chance to do that.
+Speaker E: Same answer anyway. Yeah, I've been working with Jeremy on his project, and then I've been trying to track down this bug.
+Speaker E: That's a seed front end features.
+Speaker E: So, one thing that I did notice yesterday, I was studying the, the, the Rostecode.
+Speaker E: And it looks like we don't have any way to control the frequency range that we use in our analysis. We basically, it looks to me like we do the FFT, and then we just take all the bins, and we use everything.
+Speaker E: We don't have any set of parameters where we can say, you know, only process from, you know, 110 hertz to 3750.
+Speaker C: At least I couldn't see any kind of. Yeah, I don't think it's in there. I think it's in the, the filters.
+Speaker C: So, the FFT is on everything, but the filters, for instance, ignore the lowest bins and the highest bins.
+Speaker C: What it does is it copies the filter bank, which is created by integrating over FFT bins.
+Speaker C: When you get the mail, when you get the mail scale. Yeah, it's a, it, it actually copies the, the second filters over to the first.
+Speaker C: So, the first filters are always, and you can, you can specify a different number of features, different number of filters, I think.
+Speaker C: So, you can specify a different number of filters, and whatever you specify, the last ones are going to be ignored.
+Speaker C: So, that, that's a way that you sort of change what the, what the bandwidth is.
+Speaker C: You, you can't do it without, I think, changing the number of filters.
+Speaker E: I saw something about, it looked like it was doing something like that, but I didn't quite understand it.
+Speaker C: So, maybe, yeah. So, the idea is that the very lowest frequencies, and typically the various highest frequencies are kind of junk.
+Speaker C: Uh-huh. And so, you just, for continuity, you just approximate them by, by the second to highest and second to lowest.
+Speaker C: It's just a simple thing we put in.
+Speaker C: And so, but that's a fixed thing, there's nothing to put in. Yeah, I think that's a fixed thing, but see, see my point, if you had, if you had 10 filters, then you would be throwing away a lot at the two ends.
+Speaker C: And if you had, if you had 50 filters, you'd be throwing away hardly anything.
+Speaker C: I don't remember there being an independent way of saying we're just going to make you, just from here to here.
+Speaker E: I don't know, it's actually been a while since I've looked at it. Yeah, I went through the FICAL code and then looked at, it was calling the RUST Alive and things like that.
+Speaker E: And I didn't, I couldn't see any place where that kind of thing was done, but I didn't quite understand everything that I saw.
+Speaker C: Yeah, see, I don't know FICAL at all, but it calls RUST with some options.
+Speaker C: But I think, I don't know, I guess for some particular database, you might find that you could tune that and tweak that to get that a little better, but I think that in general, it's not that critical.
+Speaker C: I mean, there's, you can, you can throw away stuff below 100 hertz or so and it's just not going to affect phonetic classification at all.
+Speaker E: The other thing I was thinking about was, is there a, I was wondering if there's maybe certain settings of the parameters when you compute PLP, which would basically cause it to output Malcapsterum.
+Speaker E: So that in effect, what I could do is use our code to produce Malcapsterum and compare that directly to...
+Speaker C: Well, it's not precisely, yeah. I mean, what you can do is, you can definitely change the filter bank from being a trapezoidal integration to a triangular one, which is what the typical Malcapsteral filter bank does.
+Speaker C: So some people have claimed that they got some better performance doing that, so you certainly can do that easily.
+Speaker C: But the fundamental difference, I mean, there's other small differences.
+Speaker E: There's a few groups that happen, sorry.
+Speaker C: Yeah, but, you know, as opposed to the log and the other case.
+Speaker C: I mean, the fundamental difference that we've seen any kind of difference from before, which is actually an advantage for PLP, I think is that the, the smoothing at the end is autoregressive instead of being kept from kept from location.
+Speaker C: So it's a little more noise robust.
+Speaker C: And that's why when people start getting databases that had a little more noise in it, like broadcast news and so on, that's why Cambridge Switched to PLP, I think.
+Speaker C: So that's a difference that I don't think we put any way to get around since it was an advantage.
+Speaker C: But we did, we did hear this comment from people at some point that it, they got some better results with the triangular filters rather than the trapezoidal, so that is an option in Rasta.
+Speaker C: And you can certainly play with that.
+Speaker C: But I think you're probably doing the right thing to look for books first.
+Speaker E: Yeah, just, it just seems like this kind of behavior could be caused by, you know, some of the training data being messed up.
+Speaker E: Yeah, you're sort of getting most of the way there, but there's a, so I started going through and looking, one of the things that I did notice was that the log likelihoods coming out of the recognizer from the PLP data were much lower, much smaller than for the male kept still stuff.
+Speaker E: And that the average amount of pruning that was happening was therefore a little bit higher for the PLP features.
+Speaker E: So since he used the same exact pruning thresholds for both, I was wondering if it could be that we're getting more pruning.
+Speaker C: Oh, he, he, he used the identical pruning thresholds even though the, the range of the, the likelihood, oh well, that's, that's a pretty good point right there.
+Speaker C: Yeah.
+Speaker C: So I would think that you might want to do something like, you know, look at a few points to see where you were starting to get significant search errors.
+Speaker E: Right. Well, what I was going to do is I was going to take a couple of the utterances that he had run through, then run them through again, but modify the pruning threshold and see if it, you know, affects the score.
+Speaker C: Yeah.
+Speaker C: But I mean, you could, if, if that looks promising, you could, you know, run the overall test set with a, with a few different pruning thresholds for both.
+Speaker C: Yeah. And presumably he's running at some pruning threshold that's, that's, you know, gets very few search errors, but is, is relatively, right?
+Speaker E: I mean, yeah, generally, these things, you, you turn back pruning really far. So I, I didn't think it would be that big a deal because I was freaking well, you'd have it turned back so far that, you know, but you may be in the wrong range for the PLP features for some reason.
+Speaker E: And the, the, the runtime of the recognizer on the PLP features is longer, which sort of implies that the networks are busier.
+Speaker E: You know, there's more things it's considering, which goes along with the fact that the matches aren't as good.
+Speaker E: So, you know, it could be that we're just pruning too much.
+Speaker E: So yeah.
+Speaker C: Yeah, maybe just be different kind of distributions and, and yes, so that's, that's another possible thing.
+Speaker C: They, they should really shouldn't, there's no particular reason why they would be exactly behave exactly the same.
+Speaker C: Right.
+Speaker E: So, so there's lots of little differences. Yeah. Yeah.
+Speaker C: Trying to track it down. Yeah. I guess this was a little bit off topic. I guess I guess I was, I was thinking in terms of that this is being a core item that once we, once we had it going, we would use for a number of the front end things also.
+Speaker D: That's as far as my stuff goes. Yeah. Well, I tried this mean subtraction method due to Avandano.
+Speaker D: I'm taking six seconds of speech. I'm using two second FFT analysis frames, step by a half second. So it's a quarter length step.
+Speaker D: And I take that frame and four, the four, I take the, sorry, I take the current frame and the four past frames and the four future frames.
+Speaker D: And that, that adds up to six seconds of speech. And I calculate the spectral mean of the log magnitude spectrum over that.
+Speaker D: And I use that to normalize the current center frame by mean subtraction. And then I move to the next frame and I do it again.
+Speaker D: Well, actually I calculate all the means first and then I do the subtraction. And I tried that with HDK, the Aurora setup of HDK training on clean TI digits.
+Speaker D: And it helped in a phony reverberation case where I just use a simulated impulse response. The error rate went from something like 80, from something like 18% to 4%.
+Speaker D: And on meeting recorded for my digits, my channel F, it went from 41% error to 8% error.
+Speaker E: On the real data, not with artificial reverb.
+Speaker D: Right. And that that was trained on clean speech only, which I'm guessing is the reason why the baseline was so bad.
+Speaker C: And that's actually a little side point is I think that's the first results that we have of any sort on the far field data for recorded in meetings.
+Speaker D: Well, I'm actually Adam, around the SRI recognizer on the near field on the far field, also he did one 2CM channel and one PDH channel.
+Speaker C: Oh, I didn't recall that. What kind of numbers was he getting with that?
+Speaker D: I'm not sure. I think it was about 5% error for the PCM channel.
+Speaker C: Five. Yeah. So why were you getting 41?
+Speaker D: I'm guessing it was the training data. Clean TI digits is pretty pristine training data. And if they trained the SRI system on this TV broadcast type stuff, I think it's a much brighter range of channels.
+Speaker C: No, but wait a minute. I think he was getting 1% error for the near field.
+Speaker C: Yeah, I think it was getting around 1% for the close mic. So it's still this kind of ratio. It's just, yeah, it's a lot more training data.
+Speaker C: So it probably should be something we should try then is to see if at some point is to transform the data and then use it for the SRI system.
+Speaker C: So you have a system which for one reason or another is relatively poor.
+Speaker C: Yeah. And you have something like 41% error and then you transform it to 8th by doing this work.
+Speaker C: So here's this other system which is a lot better. There's still this kind of ratio. It's something like 5% error with the distant mic and 1% close mic.
+Speaker C: So the question is how close to that one can you get if you transform the data using that system?
+Speaker D: Right. So I guess the SRI system is trained on a lot of broadcast news or switchboard data.
+Speaker E: Yeah. So do you know which one it is?
+Speaker E: It's trained on a lot of different things. It's trained on a lot of switchboard, call home, a bunch of different sources, some digits or some digits training in there.
+Speaker D: One thing I'm wondering about is what this mean subtraction method will do if it's faced with additive noise.
+Speaker D: Because I don't know what log magnitude spectral subtraction is going to do to additive noise.
+Speaker C: Yeah. Well, it's not exactly the right thing. But you were already seeing that because there is added noise here.
+Speaker D: Yeah, that's true. Yeah. It's a good point.
+Speaker D: So... Okay. So it's a reasonable to expect. It would be helpful if we used it with the SRI system.
+Speaker C: Yeah. I mean, as helpful. So that's the question. We're often asked this when we work with a system that isn't sort of industry standard grade.
+Speaker C: And we see some reduction error using some clever method, then we'll work on a good system.
+Speaker C: So the other one is pretty good system. I think 1% would aerate on digits strings. It's not stellar.
+Speaker C: But given that this is real digits is supposed to sort of laboratory.
+Speaker C: And it wasn't trained on this task.
+Speaker C: And it wasn't trained on this task. Actually, 1% sort of a reasonable range. People would say, I can imagine getting that.
+Speaker C: And so the 4% or 5% or something is quite poor. If you're doing a 16-digit credit card number, you basically get it wrong almost all the time.
+Speaker C: So significant reduction error for that would be great.
+Speaker C: And then... Yeah. So... Yeah. Cool. Sounds good.
+Speaker C: Right. I actually have to run. So I don't think I can do the digits. But I guess I'll leave my microphone on.
+Speaker E: Yeah.
+Speaker C: Yeah. Yeah. Yeah. Yeah. Yeah. You're actually kind of disinterprets. Yeah? Yeah. Yeah. I know. You're quickly.
+Speaker C: Sorry. I just have to run for another appointment. Okay. Did I? Yeah, I left it.
+Speaker C: Okay. Okay. Okay. This is transcript L-110. 902-573-266-166-674208. 5169-477-7950. 5602-2577.
+Speaker C: 6089-07264-5. 2192-89558. 3250-2934-4612-0885.
+Speaker A: Transcript L-111-362-8332-207-16654268-9006-39334-754-7960-9903-7432-7542. 493-519-103-7452.
+Speaker A: 519-788-504-940753-758-441-701-8553253-8.
+Speaker E: Transcript L-112-07876216-4653-1258-477-727-770. 636-34797-776. 529-327-329.
+Speaker E: 939-389-141-7604-400-867-458-066-359-777. 7355-3245-08.
+Speaker D: I'm reading transcript L-113-65697-284-4087-5187-405702-425-037-681-779-217-909-0605-68859.
+Speaker D: 522-55662-911-7206-7162-023-019-023.
+Speaker G: Transcript L-115-064-732-271-08758-673-755-119-14.
+Speaker G: 988-419-3102-410-368-219-628-969-186-565-0-3116-639-8-78-398-9.
+None: AS6-0810.

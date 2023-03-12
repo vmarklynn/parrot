@@ -1,0 +1,410 @@
+Speaker C: So, we come to the third meeting, I hope the lunch was good.
+Speaker C: So, in the last meeting we have discussed the functional design and now we will talk about the conceptual design.
+Speaker D: So, I think I will do my presentation on the components concept. So, can you please open the slide? I'm participant 2, couple of these design.
+Speaker D: Okay, so the first thing I have done is to make a review together with the manufacturer department, which components were available to build remote control.
+Speaker D: So, for energy sources we have to choose between the solar energy, hand-in-a-mo and kinetic, well, kinetic technique to store the energy.
+Speaker D: We also can put regular battery in the remote control. This is what we have decided in the last meeting. But if we use battery.
+Speaker D: Yeah, well, I meant by battery, I would not have a wire between the remote control and an energy source. But we didn't decide yet which kind of battery we will put inside the remote.
+Speaker D: So, it's a point to discuss. Then the case material we have also several choices like hood, rubber, titanium or latex.
+Speaker D: But it's not a really issue from the technical point of view. Concerning the interface, we can put just simple buttons or scrolls. Our buttons are much more complicated.
+Speaker D: But it also requires that the chip to process the button is more complicated. So this is the last points, the choice of chips.
+Speaker D: So, what I have found is that I think basic battery or kinetic energy collection is the better way to provide energy because I think solar energy won't work in the accretal environment.
+Speaker D: So, I think we can start with these two main things. For the case, I think that a titanium is a good choice because it's trendy and it's a well, it's modern.
+Speaker D: So, the user will be very happy to have a nice remote. For the interface, I think that we can achieve all the desired functionalities by just using rubber buttons, simple buttons.
+Speaker D: And does this allow to use a regular chip? That's alright, well, cheaper.
+Speaker D: So, we can move to the next slide. Sorry. What is a single curved? What does it mean?
+Speaker D: The shape of the remote, you will have the curve will fit into your hand when you grab the...
+Speaker B: When you hold on it, it's comfortable with the hole.
+Speaker D: It's more comfortable that if it is completely flat.
+Speaker B: And the battery is kind of rechargeable or it doesn't matter.
+Speaker D: That's the point. The kinetic one is you can recharge by the...
+Speaker B: That's what it means by kinetic?
+Speaker D: Well, but just by moving your arm, the remote will accumulate energy.
+Speaker D: But I don't know if it is feasible because I don't know if the user will move enough to provide the remote or the necessary energy.
+Speaker B: We might check with our R&D department to see if they have this product.
+Speaker B: Yeah. Ready for market.
+Speaker D: And so can you go to the next slide, please?
+Speaker D: So, that's summarizing what I have said.
+Speaker D: So you're right. We can see our R&D.
+Speaker B: The department.
+Speaker D: If the kinetic method is sufficient to provide enough energy. That's it.
+Speaker B: So I'll keep in touch with the R&D department.
+Speaker D: Oh yeah, I take care of it.
+Speaker B: So the titanium case is the normal case.
+Speaker B: I'll show you some pictures that I have and you tell me whether they are titanium case or not.
+Speaker B: Or something very...
+Speaker B: Plastic, titanium or whatever.
+Speaker B: There's another point I want to make is that the... Well, you have seen my presentation later on.
+Speaker B: I point out some wide buttons and not the only ways you can use.
+Speaker C: Maybe we can work it.
+Speaker B: So the user interface is...
+Speaker B: It gives you the aspect of a computer system, a program which can be seen or heard or otherwise perceived by the human user in the commands and mechanism the user uses to control its operation and input data.
+Speaker B: So it just gives you the ways to input data and we have an emphasized mode on the graphical user interface here.
+Speaker B: The idea is to represent buttons as figures, diagrams, symbols and so you can easily...
+Speaker B: When you look at the symbols you understand what it is doing.
+Speaker B: Watch the function of this.
+Speaker B: It makes the exact first way.
+Speaker B: Is it to use...
+Speaker B: So next one?
+Speaker B: This is function 5.
+Speaker B: So I can use the button, the mouse maybe.
+Speaker C: The graph you can use on the entire first surface I still use.
+Speaker B: So next night.
+Speaker B: So here are some examples.
+Speaker B: So they cluster the buttons together.
+Speaker B: They group them into color and they have different forms as well.
+Speaker B: But these interface are kind of confusing.
+Speaker B: Basically they are too many buttons.
+Speaker B: Next one?
+Speaker B: So some people propose voice recognition and...
+Speaker B: So by the way I received an email from one of the departments saying that the voice recognition has been used in the coffee machine.
+Speaker B: Produced by a company.
+Speaker B: When you tell the user, good morning coffee machine and the machine will reply to you.
+Speaker B: So I just got an email saying that...
+Speaker B: And it seems like this voice recognition technology is ready to be used.
+Speaker B: So we might consider that.
+Speaker B: Yeah, firstly.
+Speaker B: The next one?
+Speaker B: So some people use a spinning wheel with the LC display.
+Speaker B: So instead of using the buttons, you have an LCD screen.
+Speaker B: And then there you can use that as buttons.
+Speaker B: You can use that as wheel.
+Speaker B: So there could be an option as well.
+Speaker B: Touch screen.
+None: Next one?
+Speaker B: And some people propose a scroll button integrated with push button.
+Speaker B: So you may have scroll button instead of just the push button like the one we have here.
+Speaker B: Next one?
+Speaker B: So there are a few aspects that I collected here.
+Speaker B: So basically these deals with special users, children, handicapped people, old people, and...
+Speaker B: Basically they are programmable, especially for children.
+Speaker B: And then they also secure covers to protect secured and hidden programming and battery covers.
+Speaker B: They will protect your settings.
+Speaker B: But we don't have to integrate all these complicated features.
+Speaker B: I'm just saying that currently in the market, they are remote controllers customizable for different people.
+Speaker B: So that's the point.
+Speaker B: Next one?
+Speaker B: And you see this is the one where you have the protection cover.
+Speaker B: It may be useful for children, they only see the buttons outside.
+Speaker B: And for adults where you have more control, you can see the one inside.
+Speaker B: So the adults might want to have a key to lock that.
+Speaker B: So children will not touch the button inside.
+Speaker D: Yeah.
+Speaker D: That's a good idea.
+Speaker B: Next one?
+Speaker B: So this guy, this is another company that provides big buttons.
+Speaker B: I see that it's useful for all people and then you don't get lost.
+Speaker B: But for our product, we don't need a big one because you have voice recognition.
+Speaker B: Eventually it is used and you can call your remote controller if you don't know where it is.
+Speaker B: TV remote controller, where are you?
+Speaker B: And then your BIPs and to say that I'm here.
+Speaker B: For example, is it possible?
+Speaker C: We should think of speech sentes in this case.
+Speaker D: But as no man safe, there is already a commercial product available to do this.
+Speaker D: We can check to integrate it into our new remote control.
+Speaker B: Yeah.
+Speaker B: And this is another one where you can...
+Speaker B: The parts that are V standing for the volume.
+Speaker B: So there's up arrow and down arrow.
+Speaker B: But you see that in the V appears to be the down arrow on the top.
+Speaker B: On the top up arrow, there's a V.
+Speaker B: As if it's turning down, so it's confusing in the phrase.
+Speaker B: So you want to avoid this kind of thing in the design.
+Speaker B: And here is a short summary that I compiled.
+Speaker B: After the findings I found.
+Speaker B: Big buttons are convenient, voice recognition helps.
+Speaker B: Push buttons, scroll buttons, spinning wheels can be used as navigation tools.
+Speaker B: And user-customizable is important.
+Speaker B: And finally, simplicity is the key.
+Speaker B: So we have many concepts there, but we have to choose later on which ones are important to be used.
+Speaker D: Well, I think it's fine to have reviewed all the possibilities.
+Speaker D: But if we consider that the user interface is displayed on the TV screen, I don't think we need much buttons in the remote.
+Speaker D: Since we just have to navigate and to have an OK or an enter key or things like that.
+Speaker D: Because adding wheels or scrolls makes the thing more complicated and more expensive also.
+Speaker C: Or maybe we can include the user in the remote model and we should have just a button like help and you can get your button help.
+Speaker C: And maybe you can see the user.
+Speaker D: That's a good idea to have a help button.
+Speaker B: A help button.
+Speaker B: So you have to play on the screen.
+Speaker B: So the user is removed.
+Speaker B: So the element is the complicated documentation.
+Speaker B: So people are afraid of looking at the help.
+Speaker A: Once the user has a help button, they say this is a complicated stuff.
+Speaker A: In the case of where they need it.
+Speaker C: It's a psychological.
+Speaker C: Why are they doing the marketing?
+Speaker A: OK.
+Speaker A: And let us see what the market demands.
+Speaker A: We could just go to my presentation.
+Speaker C: Well, I think it's just for user.
+Speaker C: Testimizes.
+Speaker C: Yeah, that's why.
+Speaker C: For kids or old people.
+Speaker A: I mean, it's just short as the remote with uncap which could be used for kids and if you remove the.
+Speaker C: So it's the same.
+Speaker C: Same remote with some can be used by both kids and old people.
+Speaker B: Well, what I propose is that, you know, a remote controller, it could be a cube.
+Speaker B: It's a small device that looks like a cube.
+Speaker B: And maybe you can just change the buttons.
+Speaker B: If you turn one side, you get one one button.
+Speaker B: You turn the other side, you get the other buttons.
+Speaker B: So for maybe new generation people who get used to the computer, they want lots of controls.
+Speaker C: Maybe for kids, they like a small.
+Speaker C: So let's see what the.
+Speaker D: Let's see the market demand.
+Speaker B: One, we can decide what the market.
+Speaker B: Yes.
+Speaker A: So we just made an marketing survey of what people need from our remotes and how it could be special from the other remotes.
+Speaker A: And we got the based on the responses from the questionnaires.
+Speaker A: We also have some prizes for the most creative suggestions and we found the following suggestions which we could, which would be helpful for our design.
+Speaker A: So 75% of the users, they find their remote controls very ugly.
+Speaker A: They don't find it pleasant to use in the size or usage or anything.
+Speaker A: And 80% of the people, they are always, I mean, they are willing to spend more money if their remote control would look fancy.
+Speaker A: And the current remote controls do not match well the operating behavior of the user.
+Speaker A: And 75% of the users said there's a lot.
+Speaker A: And 50% say they use only 10% of the buttons.
+Speaker A: So the rest of the 90% of the buttons, they are not used most of the times.
+Speaker A: Yes.
+Speaker A: So these were the findings which we found.
+Speaker A: And also these are the frustrations with the present remote controls.
+Speaker A: Most of 50% of the time the remote controls are lost somewhere in the room and people are always searching for them rather than watching the TV.
+Speaker A: And while the time they found the remote control, the program is finished.
+Speaker A: So they have frustrated a lot.
+Speaker A: And if the remote control is too complicated, it takes much time to learn the functionality of it.
+Speaker A: So you can just see the percentage, 50% people responded that they always lose the remote, and 34% they say that it's quite difficult to learn if it's too complex.
+Speaker A: So keeping in view of all these findings and the frustrations, I think this should be the solution for them.
+Speaker A: We should have an LCD on the remote control.
+Speaker D: Oh.
+Speaker D: Well, I don't really see the advantage of having LCD on the remote control if we have a big screen and display on the screen.
+Speaker D: Yeah, of course it's fancy, trendy and so on, but it's expensive to produce.
+Speaker D: And it's not really easy.
+Speaker A: As our service is that people are willing to pay more if we are remote or fancy.
+Speaker A: So if you have an LCD on the remote, rather than looking onto the TV, you just look into your remote and navigate it.
+Speaker A: We just say menu.
+Speaker A: As we saw that iPod remote control, we just play around.
+Speaker D: Yeah, but when you play with the iPad, you don't have a big screen in front of you.
+Speaker C: You can't use the screen instead of the big screen.
+Speaker B: The existing screen, you eliminate the LCD.
+Speaker B: After all, the LCD is just to display.
+Speaker B: And if you have the colorful screen, you can make the display colorful, fancy, a fancy SD-1 on the LCD, maybe even better.
+Speaker B: So...
+Speaker A: I mean, these were the points which we got from the market demands.
+Speaker D: So...
+Speaker D: I think we can focus on the fancy look on the...
+Speaker B: Yeah, more on the fancy design.
+Speaker D: On the speech recognition, if the technology is available, but I think LCD will make us spend a lot of money for not so big results.
+Speaker B: Remember we have a budget for the cost of producing the remote controller.
+Speaker B: Yeah, we have it.
+Speaker B: So the thing is you can find out how much an LCD will cost.
+Speaker B: And then we will decide again.
+Speaker A: I mean, that should be found out by the industry designers.
+Speaker B: Oh, we can find out the price in the previous time.
+Speaker D: So the price of LCD display.
+Speaker A: Yeah.
+Speaker A: And it's always good to have an voice recognition for the remote controller.
+Speaker B: And also the cost for the speech recognition.
+Speaker B: Yeah.
+Speaker C: That's our R&D department.
+Speaker C: It's just for our sport vocabulary.
+Speaker A: Yeah, it's only for a limited vocabulary.
+Speaker A: Yeah.
+Speaker A: Say, IT commands or so.
+Speaker A: Yeah, okay.
+Speaker B: And also the scroller button, how much will it cost?
+Speaker D: Well, compared to the SIMPRA, SIMPRA, SIMPRA.
+Speaker A: The scroll button, anyway, from the survey, we never see that people would like to have some scrolling button.
+Speaker A: Because they are just frightened to use the scrolling or help button.
+Speaker D: Yeah, I think that as we have seen in the presentation, we have about 50% of the person.
+Speaker D: Don't use the button.
+Speaker D: Don't use the button.
+Speaker D: So I think to have a five simple button is sufficient for our functionality.
+Speaker D: Yeah.
+Speaker C: It doesn't mean that the other buttons are not necessary or important.
+Speaker C: Yeah.
+Speaker C: But they are just...
+Speaker A: They are not those much.
+Speaker D: The thing is that we can add a functionality on the TV screen, like a list of functions.
+Speaker D: And then you choose with the button to navigate.
+Speaker C: So they add more power?
+Speaker C: Or maybe we can make this 10% of the pattern more bigger than the others.
+Speaker C: Yeah.
+Speaker D: But if we could have a display, a user interface that is very complete on the TV screen, I think that just five buttons are sufficient.
+Speaker D: You want to up left, right, down, and enter.
+Speaker D: And you just select the functionality you want to access, things like that.
+Speaker D: Yeah.
+Speaker A: Or it could be like this as the people say if they have an LCD on the remote, not on the television.
+Speaker A: Because when you have the LCD onto the television screen, you miss the picture in the background.
+Speaker A: We are most focused on the commands.
+Speaker A: So if you have an LCD in the remote, you just have a menu and increasing and lower the signs here to change the programs.
+Speaker A: And this menu, when you press the menu, in the LCD, it displays as you go on pressing the menu.
+Speaker A: It first displays volume, then the program, then the brightness, contrast and all this stuff.
+Speaker A: And accordingly you can just increase or decrease.
+Speaker D: Yeah, but if you look at the LCD, you don't look at the TV screen.
+Speaker D: So it's not really worth to get to have the image if you don't look at it.
+Speaker C: And I think it changes the cost of the remote control.
+Speaker C: Yeah, that has to be checked out.
+Speaker B: I think there is no contradiction here.
+Speaker B: Because if there are a few buttons, you don't have to look at your controller anymore because you know where the buttons are.
+Speaker B: So if you want to control the screen sharpness, you just say sharpness.
+Speaker B: And then you just press left, increase or decrease button.
+Speaker B: And the same for the volume.
+Speaker B: Yeah.
+Speaker B: And the channel, if you have the speech recognition day, just show your channel.
+Speaker B: And then you don't even have to look at the controller.
+Speaker B: So finally, that eliminates the need for LCD.
+Speaker B: With the help of speech recognizer, you can...
+Speaker A: I mean, it would be better if you could just check out the cost with LCD and also with the speech recognition.
+Speaker A: Yeah.
+Speaker A: And then we could find which would be the most suitable for this case.
+Speaker A: Yeah.
+Speaker B: And the third problem was to find the remote control.
+Speaker A: Always. So 50% of the people say they lose the remote.
+Speaker D: Well, so we can think about a vocal cover and like find and when the remote control is signed.
+Speaker D: Yeah.
+Speaker D: And you can sign to a peep.
+Speaker D: Yeah.
+Speaker A: Just to make him beep.
+Speaker D: Yeah, that's right.
+Speaker A: That's exactly what I mean by voice commander.
+Speaker A: Or it could be also something like this.
+Speaker A: It's always boring to change the batteries of the remote control.
+Speaker A: So we have someone charger there and whenever we don't use the remote control, we put it in the charger.
+Speaker A: Yeah.
+Speaker A: And when we are using that remote and if you miss player somewhere, in the charger we have a small button.
+Speaker A: And just by pressing the button in the charger, the remote control beeps.
+Speaker A: Yeah.
+Speaker A: Wherever it is.
+Speaker D: That's a good idea.
+Speaker D: That's simple.
+Speaker D: Yeah.
+Speaker A: I mean, it also doesn't require a voice commander.
+Speaker A: Because there are problems with the voice commander.
+Speaker C: Sometimes we have to move the charger.
+Speaker C: Yeah, yeah, yeah.
+Speaker A: I mean, charge it with the fixed speakers.
+Speaker A: Because it's always with the electricity plug.
+Speaker A: Yeah.
+Speaker D: If there is not enough battery.
+Speaker D: Also, and the remote is lost.
+Speaker D: Yeah.
+Speaker B: That's right.
+Speaker B: What we can do is we can program a function whereby when you press the switch off TV button, the off button, the remote, there will be an instructional screen.
+Speaker B: Please charge me.
+Speaker B: Yeah.
+Speaker B: You never get it lost because every time you off the computer, the TV, you have asked the command, the TV command remote control will tell you to put it back to where the charger is.
+Speaker B: That's a good reminder.
+Speaker A: Yeah.
+Speaker B: That's right.
+Speaker B: So you never get lost.
+Speaker B: Okay.
+Speaker B: Yeah.
+Speaker C: Maybe for some people, but for my lazy people.
+Speaker B: Yeah, because everything is programming inside.
+Speaker B: Yeah.
+Speaker B: So it's all about strategy.
+Speaker A: And of course, the final point is the fancy look.
+Speaker A: As we have seen earlier, the remotes which were displayed by Norman, they were on fancy.
+Speaker A: Lovely.
+Speaker A: Very big or something with lot of buttons.
+Speaker A: I think we should have something.
+Speaker D: Well, the last one with the...
+Speaker D: Yeah, the two parts was in the original.
+Speaker A: I mean, you say, if it's like that, even a kid who wants to have a control, he could just plug it and use it.
+Speaker A: You can't avoid him.
+Speaker A: But you can have a button for child lock.
+Speaker E: Yeah.
+Speaker A: Yeah.
+Speaker A: So just by pressing the button with some code, you put a lock onto the remote so that he can't use even if I...
+Speaker D: No, we can think about having on the user interface when you switch on the TV.
+Speaker D: You can write a code or choose a category if it is kids.
+Speaker C: Yeah, that's right.
+Speaker C: Or maybe you have to choose some specific programs for kids.
+Speaker C: And then...
+Speaker C: Oh, did the...
+Speaker C: Just push a kid's button so it's automatically...
+Speaker C: I'm sorry.
+Speaker C: So if he carries you much, we...
+Speaker A: I think these are the four points where the market demands.
+Speaker A: And so it's for the user interface, the design and industrial design.
+Speaker D: So for my part, I will check the prices, the prices difference of what to use, where to use.
+Speaker A: I think it's a little clearer for us in the next meeting that this poverty school being ordered.
+Speaker B: I think we need to define also the set of vocabularies for the speech recognizer.
+Speaker B: Yeah.
+Speaker B: Because if you want this, say we can sort by channels or sort by TV programs, you have to decide the category of vocabularies for them.
+Speaker B: If numbers, they are easy.
+Speaker B: But if you want to name the channel by name.
+Speaker D: Well, I think we can have just numbers for channels and you can say to your remote control like sports.
+Speaker D: And then on the TV, you have a list with sports program playing now.
+Speaker A: No, you have a problem there.
+Speaker A: You see, if you have a voice, comments, and you are watching a score on a basketball score or something.
+Speaker A: And if the score comes 25, 35, you just say 25.
+Speaker A: And suddenly, the channel goes to 25.
+Speaker A: So I think there should be a prefix to some numbers.
+Speaker D: Well, every possible world has a probability to come about the TV.
+Speaker A: You just check out the probability that saying TV 25 and just ordinary 25.
+Speaker A: Ordinary 25, almost there's a probability of being said about 60, 70%.
+Speaker A: And TV 25, I don't know, it should be around one or two percent.
+Speaker A: So it's better to have some prefix code before the number.
+Speaker B: But I think that the user would like to associate the channel, we'll call the channel rather than the number.
+Speaker A: Yeah, something, some code.
+Speaker B: You say number channel number five of your TV corresponds to something else in the channel.
+Speaker B: So some people may want to say I want to see this channel.
+Speaker A: That would be too big and it would be difficult for the vocabulary also.
+Speaker B: Check with the R&D department, the capability I recognize.
+Speaker C: If you have the name of the channel, it would be difficult to say just the name of the channel.
+Speaker C: Well, it's convenient for the user.
+Speaker C: Yeah, but you have to have all the name of the channel in your vocabulary.
+Speaker A: Also, it might be you just forgot the channel name, you'd only know the number.
+Speaker C: Or maybe the user can create his own vocabulary just for announcing the name of channels and include the vocabulary.
+Speaker B: I think there's another way you can do is that when the user press a button to choose the channel, for example, then what you can do is that you can make the TV screen to split them into small little squares of images where you have a snapshot of every channel.
+Speaker B: So let's say it's a 4x4 matrix of the images.
+Speaker B: So now what you do is looking at all the 16 channels available at one time, you just use the control button there.
+Speaker B: You just choose the option you want and then you just hit the button and then you go to that channel.
+Speaker C: Or let's say the user create his own vocabulary.
+Speaker B: So you don't use the speech recognizer in that way?
+Speaker C: No, just you have in the beginning you have to train, you have to create a vocabulary.
+Speaker C: Oh, okay.
+Speaker C: Yeah.
+Speaker C: I also think each channel with the name.
+Speaker D: I also think about another problem if there is more than one person watching TV.
+Speaker A: Yes, that's why I just wanted to recognize this.
+Speaker D: One of the speakers recognizer should be able to distinguish between the two because I remember when I was a young child with my sister.
+Speaker D: I want to watch this, I want to watch this.
+Speaker D: We always want to watch different emission at the same time.
+Speaker D: It could be a problem if someone passes by when you are watching TV and say, oh, TV, 30.
+Speaker D: And just try.
+Speaker A: And in the same lines we would have one more problem.
+Speaker A: If you are using the television in the different environments, say in the factories or in the shops, there is a lot of noise and these voice commands if they fail to work, that would bring a bad name by a repetition for our company.
+Speaker A: So I think we should specify some pre-requirements if we want to use the voice commands.
+Speaker A: Say that it should be used in a silent, homely environment or something.
+Speaker C: I will switch on or switch off the speech.
+Speaker C: Yeah, that should be an option.
+Speaker D: Yeah, I think that is a good option because it is simple and simple to implement.
+Speaker A: These are the practical problems.
+Speaker A: So we need to take care of them in the design.
+Speaker C: We will discard them in the next meeting. It is time to close this meeting.
+Speaker C: We still have five minutes.
+Speaker B: Oh, it came around three minutes back.
+Speaker A: So we are releasing.
+Speaker A: I think we are just plastic.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker E: Okay.
+Speaker D: So I see.
+Speaker A: Okay.
+Speaker A: Save another.
+Speaker A: 30 minutes.
+None: Okay.
+Speaker C: It is time to make this order or after the meeting.
+None: What is it?
+Speaker C: When we are going to meet.
+None: Don't take that word.
+None: No, after the next one.
+None: Yes, it is on your person.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+Speaker E: Okay.
+None: Okay.
+None: Okay.

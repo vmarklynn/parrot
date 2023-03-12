@@ -1,0 +1,519 @@
+None: Okay.
+Speaker C: My what this.
+None: Sorry.
+None: Yep.
+Speaker C: Okay.
+None: Okay.
+None: Is that okay now?
+Speaker C: Okay.
+Speaker B: Okay.
+Speaker B: Hey everybody.
+Speaker B: Welcome to the detailed design meeting.
+Speaker B: Um, let's see.
+Speaker B: I'm going to talk about the agenda.
+Speaker B: Last time we discussed the squishy foodiness of our remote controls and how we might pursue that.
+Speaker B: Um, and I think looks like we've come up with some ideas.
+Speaker B: Um, and we also talked about materials we'd use and what kind of chip would be necessary.
+Speaker B: Um, so for later in the meeting, I've done a spreadsheet of.
+Speaker B: I'm going to look at that and see if it's changed at all from what we last discussed it.
+Speaker B: Um, soon.
+Speaker B: Actually, yeah.
+Speaker B: Um, you guys want to give a prototype presentation?
+None: Okay.
+Speaker C: Well, um, so our design looks something like this.
+Speaker C: This being the wheel that you use to change channels or volume or whatever.
+Speaker C: There's a button serves as the power button.
+Speaker C: If you hold it down and just tap on it, I think it brings up the menu.
+Speaker C: And the base of the remote control, which has a squishy, spun, you grab what you feel is interchangeable.
+Speaker C: So you can change the color according to, you know, the suit, your living room or whatever.
+Speaker C: I can change the vegetable.
+Speaker C: Yeah.
+Speaker C: So this snaps off and you can put on whichever one you want.
+Speaker C: This is not to scale because it would have the battery inside it.
+Speaker C: This is a mango.
+Speaker C: It's trendy fruit.
+Speaker C: It's not just ordinary fruits.
+Speaker C: You don't have orange.
+Speaker C: You have mango.
+Speaker C: Um, I guess strawberries, not just tran very bright strawberry.
+Speaker C: It's been a little bit difficult to make sure that it's hand holdable and that the user can use it.
+Speaker C: You know, it's not too big, but we think that this size will be okay.
+Speaker C: And we will have to fit the battery case in there somehow.
+Speaker C: And I guess the only other thing that we really didn't talk about was the battery.
+Speaker C: It would be the thing, the locator.
+Speaker C: So locator is just chiplets inside there.
+Speaker C: Okay.
+Speaker C: So that's just the beepers also inside there too.
+Speaker C: So you have to have a button on your, on your, you have to attach the button to the.
+Speaker C: Yeah, we didn't design that.
+Speaker C: Yeah, we have that, that is, yes.
+Speaker C: But it would be coordinating with that.
+Speaker A: Yeah.
+Speaker C: Like, hey, that, that, you know, match the handset.
+Speaker C: Get out the broccoli.
+Speaker C: There you go.
+Speaker C: Ta-da.
+Speaker B: Um, if you want to look in your project documents folder, there's an Excel spreadsheet.
+Speaker B: The only one that's in there, production costs.
+Speaker B: And if you open it up, I've just stuck the numbers in.
+Speaker B: It's a real challenge there.
+Speaker B: But if I missed anything that we've gone over, or if you see something that has changed, I mean, we decided on batteries and the regular chip would be necessary for the more advanced iPod-like button.
+Speaker B: Um, I said, uncurve your flat.
+Speaker B: I think that's what you have there.
+Speaker B: Is that right?
+Speaker B: For the, for the plastic part would be.
+Speaker C: My impression was that flat meant like, like one of those square remotes.
+Speaker C: But it's really not very clear because you got single curve and double curve and.
+Speaker C: Right.
+Speaker C: Yeah, I don't know what that means.
+Speaker C: One side is curved and then the other side is curved.
+Speaker B: Well, if we're talking about the area, just.
+Speaker B: I don't know.
+Speaker B: I guess we'd have to contact the company that makes them and see.
+Speaker B: Um, so what else?
+Speaker B: There's plastic for that area around the button.
+Speaker B: Um, and then rubber would be the squishy, like, thing, right?
+Speaker B: Um, and lots of special colors, actually.
+Speaker B: Uh, school real.
+Speaker B: Do you see anything that I've missed?
+Speaker C: No, I think that's all right.
+Speaker B: Okay, so that would make our total of 11.9, which is less than 12.5, which means we have to make you more of a profit.
+Speaker B: And if we saw a lot of squishy things.
+Speaker B: Oh, yeah.
+Speaker B: Um, okay.
+Speaker A: So.
+Speaker A: Um,
+Speaker B: what did you work on?
+Speaker C: Um, evaluation, quite.
+Speaker B: Okay.
+Speaker C: I've got the presentation. Okay.
+Speaker C: All right.
+Speaker C: What happens is we have to, um, decide whether this, this whole, this whole project we've been working on actually, um, meets the standards we were set at the start.
+Speaker C: Um, Okay.
+Speaker C: Um, the method is we, well, I've analyzed the user requirements and integrated them to the trans found in marketing reports and in our company's strategy marketing.
+Speaker C: And, um, the findings were that we needed to look in a certain way, feel in a certain way, and this is everything's listed down.
+Speaker C: Um, looking at certain way, feeling a certain way, it has to be technologically innovative.
+Speaker C: And it has to be easy to use. These are all things we looked at at the start.
+Speaker C: Um, and criteria that have to be met. We have to use a table. I'll show you that later together to decide whether it meets the standards.
+Speaker C: And we, we have therefore in total, um, we have five.
+Speaker C: We have 11 points according to which this should be evaluated.
+Speaker C: And, um, the quite, well, basically the findings are the same as the evaluation criteria.
+Speaker C: I would like to show you the table we have to use.
+Speaker C: Um, Nope.
+Speaker C: This is the table. Can you see this here?
+Speaker C: Um, so the questions I've given you, could you write that down?
+Speaker C: Um, Santa is one and, and forces seven.
+Speaker C: And we'll just go through each point together, hopefully.
+Speaker C: Um, I think if each of us gives an opinion, then they can be mixed somehow. I don't know how it works exactly.
+Speaker C: I'm really told.
+Speaker C: Is it possible that we can bring this up on our own?
+Speaker C: Yeah, it's in the, um, it's in the project documents. Is it meeting three minutes? No, it's, it's called evaluation criteria.
+Speaker C: And it's under evaluation.
+Speaker B: The PowerPoint one. Yeah. Okay.
+Speaker C: So it was, um, yeah, choose one.
+Speaker C: Choose one and forces seven. Do you want us to discuss this together? Do you want us to do it soon, do you?
+Speaker B: Um, we can do it separately and then discuss it.
+Speaker B: If that's what people want to do.
+Speaker C: So it's actually a scale. Right. One is true. And, um, so these are the questions we're answering. Yes. And one is, if it's fancy, you put one, right? If it's really unfancy.
+Speaker B: I've said somewhere in between you put four. Okay.
+None: Okay.
+Speaker C: Okay.
+Speaker C: Does it feel fancy?
+Speaker C: There's already big questions.
+Speaker C: Okay.
+Speaker C: So it's easy to insult. I'm going to say yes. Yes. Very, very true.
+Speaker C: I imagine there's somewhere on the front, we have a little case that you slip them in. Go.
+None: Okay.
+Speaker C: Okay.
+Speaker B: Do we, um, is it necessary? I don't think so. It's just the marker. I kind of stopped working.
+Speaker B: Unless you feel you need it.
+Speaker C: Right. Right. So 1.1. We're just going to circle one. Five. Oh, I don't know. Right. One. Five. Five. Five. Two. Okay. So do we just start it up and divide it by four? Is that the company?
+Speaker C: I think we should. It's four if you want to do that. Yeah. Yeah. That's the 16. That's four. Oh, no, that's the 13. 1552. Oh, I thought she said five. 1552 13 over four for now.
+Speaker C: So do we have the next three? Six. Six? Six.
+Speaker C: It wasn't cheating. Right. 1.3. Is.
+Speaker C: Sorry. Wait. So one was true and seven was false.
+Speaker C: Yeah. Okay.
+Speaker B: So we do have them about the same thing.
+Speaker B: We just have it in the free.
+Speaker B: Yeah, yeah, yeah.
+Speaker B: I was thinking one means no points.
+Speaker A: Full of self.
+Speaker C: I should have cut the table up.
+Speaker A: Oh, gosh.
+Speaker A: OK.
+Speaker A: Well, first of all, it's no problem.
+Speaker A: Yeah.
+None: All right.
+Speaker C: Well, I'm glad this came out.
+Speaker C: I was like, why did you guys design it that way?
+Speaker A: I thought you guys hated it.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker C: It's quite funny.
+Speaker C: OK.
+Speaker C: OK.
+Speaker C: Yeah.
+Speaker C: OK.
+Speaker C: So, sorting again 1.1.
+Speaker C: So 2.3.
+None: OK.
+Speaker C: 1.2.
+Speaker C: 3.2.
+Speaker C: 2.2.
+Speaker C: OK.
+Speaker C: 1.3.
+Speaker B: 1.1.1.
+Speaker C: 2.1.
+Speaker C: 2.2. 2.2.
+Speaker B: I think I missed 2.
+Speaker B: Wait, is that 2.1?
+Speaker C: Yeah, I put it down to 0.4.
+Speaker C: 1.4. 1.5.
+Speaker B: OK, right.
+Speaker B: That's I have to.
+Speaker B: I can use all kinds of problems.
+Speaker C: 1.
+Speaker C: Sorry about that.
+Speaker C: 2.2, which is 1.5.
+Speaker B: 1.
+Speaker C: 3.
+Speaker C: Wait, wait, wait, wait.
+Speaker C: I put 3.
+Speaker C: 1.
+Speaker C: Then 1 on my 2.3.1.
+Speaker C: Is that correct on my slide?
+Speaker C: Yeah.
+Speaker C: 1.
+Speaker C: 3.1.
+Speaker C: I have 4.
+Speaker C: 3.1.4.3.3.3.3.3.3.3.3.3.3.3.1.3.3.1.3.1.3.1.3.1.3.1.1.2.
+Speaker C: 2.4.1.2.1.2.1.2.4.3.4.2.4.3.4.2.4.2.1.2.1.2.
+Speaker C: Right, so I put 1 on that.
+Speaker C: Okay, I'll just do the calculations now if you want to continue.
+Speaker C: Or is it tedious? I'm sorry this was so tedious.
+Speaker B: No, no, that's...
+Speaker B: I think we should look at the ones that, like, where people set four, where it looks like we might want to discuss changing an aspect of the remote.
+Speaker C: Well, the worst ones were 3.1. Does everyone have a slide? 3.1?
+Speaker B: That was material.
+Speaker C: Slide show.
+Speaker C: Material, technologically innovative.
+Speaker C: Okay.
+Speaker C: Do you want to change it? What's the suggestion?
+Speaker C: Which one is that again, sorry? 3.1?
+Speaker C: Yeah, it's 3.1 was not that good. 4.1.
+Speaker B: Does the shape?
+Speaker C: Shape. I think 4.2.
+Speaker B: See, I'm having trouble imagining that it's going to be the size, like the controller.
+Speaker B: Or bigger.
+Speaker C: What if we just smashed all the vegetables down flat?
+Speaker C: And, like, then you could hold it in your hand better.
+Speaker C: I think the base would definitely be larger, because some of these are not as easy to hold.
+Speaker C: Yeah.
+Speaker C: Kind of smallish.
+Speaker B: No, but I imagine even if it was bigger, like, if it's round and it's big, then you can't get...
+Speaker B: That's why remote controls are not long, because you have that thumb kind of...
+Speaker B: So they could all be bananas in cucumbers.
+Speaker B: Yeah.
+Speaker B: But I don't...
+Speaker B: I personally don't think this is comfortable to sit there.
+Speaker C: But, like, if you just squashed them flat, like, you made it flat.
+Speaker C: If they're that stress ball stuff, they would be pretty squishable.
+Speaker C: But it's still too big, I think.
+Speaker C: Yeah.
+Speaker B: And would it even resemble fruit that way?
+Speaker B: I mean...
+Speaker C: Yeah, like certain ones you'd have to limit the fruit selection.
+Speaker C: Like, you could probably do a strawberry still.
+Speaker C: I think the broccoli would be out.
+Speaker C: You could do a little bit of that. Although the broccoli is quite comfortable, I have to say.
+Speaker C: Yeah, but when you were holding that before, it actually looked...
+Speaker C: Yeah, I looked really good.
+None: Yeah, so...
+Speaker C: And then you thought it looked like broccoli, no?
+Speaker C: Eh...
+Speaker C: I thought I could think of rhubarb.
+Speaker C: Rhubarb.
+Speaker C: I think it's a mistake.
+Speaker C: I think broccoli is my favourite, actually.
+Speaker C: It's quite fair.
+Speaker B: I think we need...
+Speaker B: So, it was just patterns on...
+Speaker B: Like, we chose the shape, or the shape could be whatever we wanted, and then it would just be like a design on the rubber.
+Speaker C: Huh?
+Speaker C: Oh, okay.
+Speaker B: Like, just the printed.
+Speaker B: So, just colour it, not just the shape of it.
+Speaker C: Yeah, that could work.
+Speaker C: Yeah, that could work.
+Speaker C: Or...
+Speaker B: I mean, we could even have fruit, like, around...
+Speaker B: Yeah.
+Speaker B: I mean...
+Speaker C: Yeah, I don't know.
+Speaker B: But if we need...
+Speaker B: If we need...
+Speaker B: If we want to incorporate the fruit thing somehow, there might be...
+Speaker B: I mean, if it conflicts with the comfort of actually holding me.
+Speaker C: Yeah, because no one wants to hold a remote that's uncomfortable, obviously.
+Speaker C: Like, I don't know, some of them you can kind of think...
+Speaker C: See is like...
+Speaker C: Like, you could...
+Speaker C: If it was only this, you know, if it was shaped like that, and it just had that, but the problem is you have to attach it.
+Speaker C: And this has to be detachable.
+Speaker C: Yeah.
+Speaker C: So, like, maybe that's just too big because...
+Speaker B: Well, some of it...
+Speaker B: The reason the broccoli works is you can kind of hold it like that.
+Speaker B: Yeah, it's kind of...
+Speaker B: Joystick.
+None: Yeah.
+None: But...
+Speaker C: Yeah, I don't know.
+Speaker B: I mean, is there some way we could make it this kind of shape?
+Speaker B: Because like...
+Speaker C: We could make it that shape, but just have different colours.
+Speaker B: Yeah.
+Speaker B: And like, even with a shape, because we were having fun with that.
+Speaker B: And like...
+Speaker B: Yeah, like you said like a joystick like that, you know?
+Speaker C: Yeah.
+Speaker C: Like, we could do...
+Speaker C: I'm trying to think of other shapes, like fruits that are...
+Speaker B: Just that, I think.
+Speaker B: I mean, that fits the whole round iPod idea.
+Speaker B: Yeah.
+Speaker B: And you still have the comfort of holding it like that.
+None: Mm.
+Speaker B: And you could...
+Speaker B: Like, if it's like this, you could put fruit designs and stuff on...
+Speaker B: Yeah.
+Speaker B: But yeah.
+Speaker B: Alright.
+Speaker B: But I mean, to really have any other ideas about that?
+Speaker A: Um...
+Speaker A: We could...
+None: Shh.
+None: Yeah.
+Speaker C: The critical ones came out to be...
+Speaker C: Yeah, that one...
+Speaker C: The...
+Speaker C: Bats are easier to then suck, somewhere easy.
+Speaker C: Which could be easily...
+Speaker C: They're not fun to problem them.
+Speaker C: The better is they're going...
+Speaker C: I thought everyone gave that a one or two.
+Speaker C: In the back?
+Speaker C: Yeah, they'd probably be either on the front or the side.
+Speaker C: The reason I didn't give it a one...
+Speaker B: I think I gave it a three, because I thought you'd have to like unclip.
+Speaker B: No.
+Speaker B: No, you'd...
+Speaker C: I imagine there'd be sort of a...
+Speaker C: Catch...
+Speaker B: Just like any other one.
+Speaker C: I don't want the normal enough.
+None: Alright.
+Speaker C: So it'd probably be either...
+Speaker C: No, it can't be in the front.
+Speaker C: Because the IRR is right there, but it'd be on one of the sides, probably.
+Speaker C: I think everyone's in the end of three, anyway.
+Speaker C: So I think it's...
+Speaker C: That's the end of two points.
+None: Cool.
+Speaker C: Well...
+Speaker C: Yeah, the broccoli...
+Speaker C: I guess, when this...
+Speaker C: Yeah, I'd agree with changing the shape.
+Speaker C: Why would you just having fun making strawberries and stuff?
+Speaker C: We were a bit off task.
+Speaker C: So...
+Speaker C: I can't think of any...
+Speaker C: So we'll have to like...
+Speaker C: Yeah, I don't know.
+Speaker C: You could make the touchpad in different shapes, but then that kind of redesigns the whole project.
+Speaker C: But you could do...
+Speaker C: Like, some sort of annoying people who get used to having the buttons.
+Speaker C: Yeah, that's a shame.
+Speaker B: Yeah.
+Speaker B: And it would probably cost more to produce.
+Speaker B: Yeah, that's just that irregular.
+Speaker C: How about having different colors and what you've been having different shapes too?
+Speaker C: Yeah.
+Speaker B: Which is why printing might be, like, just printing the...
+Speaker B:...through...
+Speaker B:...on.
+Speaker B: Okay.
+Speaker B: Well, we've done finance evaluation criteria.
+Speaker B: Production evaluation.
+Speaker B: So project evaluation.
+Speaker C: You want this and it can...
+Speaker B: I guess we're supposed to discuss the process of the project and how satisfied.
+Speaker B: Oh, it's alright.
+Speaker B: That's a lot.
+Speaker B: Yeah.
+Speaker B: Did you feel there was a lot of room for creativity?
+Speaker B: Sort of.
+Speaker B: Sure.
+Speaker B: I did.
+Speaker B: I mean, fruit and squishiness are more creative.
+Speaker B: Bunchiness.
+Speaker C: The prototype making was very creatively stimulating.
+Speaker C: And I think we've come up with a product that's fun.
+Speaker C: And it's all the criteria.
+Speaker B: And how is our leadership and teamwork?
+Speaker C: I think it was good.
+Speaker C: We knew what we were doing.
+Speaker C: It was a very democratic process.
+Speaker C: Everyone got to contribute.
+Speaker B: Well, I thought my leadership was crap personally.
+Speaker B: He told us when to start and end and that's all the tips.
+Speaker B: I think you were fine.
+Speaker C: I'm just going to jump.
+Speaker B: I'm never going to do a management position.
+Speaker B: I know that now.
+Speaker B: Yeah, I thought we all worked very well together.
+Speaker C: It all sort of blended.
+Speaker C: Yeah, I think it more than anything.
+Speaker C: We didn't really have our set role so much as we just would be like, you know, all had ideas.
+Speaker C: Very democratic.
+Speaker C: Yeah.
+Speaker B: No spats.
+Speaker B: That was good.
+Speaker B: And the means for like the materials we used, how convenient were they?
+Speaker B: Like the pens, the whiteboard.
+Speaker C: I mean, well, I'm not a big fan of any Microsoft PowerPoint or any Mac person.
+Speaker C: No, no, I never touch Macs either.
+Speaker C: I just use the Unix or the off market sort of word perfect and all these other things.
+Speaker C: Which is a lot of you need to be able to.
+Speaker C: Well, the problem is if you don't like my new computer never has word perfect.
+Speaker C: So I have to go track someone down who has an old disk and then I have to reinstall it.
+Speaker C: So I have all these documents.
+Speaker C: I can't use them.
+Speaker C: No.
+Speaker C: But yeah, I mean, I guess it's okay.
+Speaker C: I don't know if it was just my role, but I thought that the information that was available to me was kind of just like, or maybe it was just the idea that we had, but there's kind of, it was kind of like, okay, I don't really think, I don't know what I'm doing here.
+Speaker C: So I didn't really think it was helpful.
+Speaker C: So I kind of just made up my own stuff.
+Speaker C: And I didn't really like the PowerPoint presentations.
+Speaker C: So I kind of wrote a lot of notes instead.
+Speaker C: But yeah, I don't really like PowerPoint, personally.
+Speaker C: It's kind of stupid.
+Speaker C: I never use it.
+Speaker B: Yeah, but I can't say I found everything particularly helpful.
+Speaker B: Yeah, I didn't really.
+Speaker B: Yeah.
+Speaker C: I first bit of information was like, the child's drawn.
+Speaker A: Actually, how it would work.
+Speaker C: Mine was really helpful.
+Speaker C: I don't know.
+Speaker B: My problem was you guys had access to, like, they'd send you to sites and stuff, right?
+Speaker B: Yeah.
+Speaker B: So I didn't really know what you guys were doing.
+Speaker B: And when you were talking about it, it's just like, that's why it seems so ignorant when you're explaining things.
+Speaker C: Yeah, mine was mostly made up, except when they told me, like, you know, titanium costs more than it would to make a remote control.
+Speaker C: But it must have been quite difficult for them to build the whole system.
+Speaker C: The whole system, because of course they can't give you anything comparable to the internet.
+Speaker C: Yeah, I mean, I think it's interesting how it all went together.
+Speaker C: Like, I had the stuff about how rubber is cheap and you have how people want it to be spongy.
+Speaker C: Yeah.
+Speaker C: It seems planned.
+Speaker C: Yeah.
+Speaker C: Yeah, I kind of thought that I felt like I would go and, like, try to use my information.
+Speaker C: Or, like, I'd make this stupid little presentation and then, like, I just would end up talking about something completely unrelated because I felt like I was off task all the time.
+Speaker C: But, um...
+Speaker B: Well, I mean, we really got into talking about, like, personal practicality.
+Speaker B: Like, it wasn't necessarily what was, like, we would never have thought of fruit or sponginess, you know?
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker C: So...
+Speaker C: So...
+Speaker C: Yeah.
+Speaker C: And it might be to see whether people actually all come up with the same.
+Speaker B: Oh, right.
+Speaker B: Given certain information or...
+Speaker C: Yeah, like, if everyone's given the same input, I don't know.
+Speaker C: I don't know.
+Speaker C: Um...
+Speaker C: What's next?
+Speaker C: I know that's not...
+Speaker C: Um...
+Speaker B: What did you guys think of the pens that asked about?
+Speaker B: It's pretty cool.
+Speaker C: I want to start to write with them.
+Speaker B: Yeah.
+Speaker B: And I...
+Speaker B: I forgot one to try to check the box.
+Speaker C: I'd like to see what it looks like.
+Speaker C: Oh, wow.
+Speaker C: They're nicer than the pen that I'm using.
+Speaker C: Because, like, your stuff actually shows up here rather than having to look at the screen and write.
+Speaker A: Mm-hmm.
+Speaker C: That even so, how did I...
+Speaker B: And...
+Speaker B: New ideas found?
+Speaker C: That's all very new.
+Speaker C: Yeah.
+Speaker C: I don't know.
+Speaker C: Yeah, I think I'd like to...
+Speaker C: I don't know.
+Speaker C: Like, it was that I think the microphones are okay when you're sitting down, but, like, they're kind of clumsy.
+Speaker C: I guess I'm just going up to the light, probably.
+Speaker C: Well, I drop off if you like moved too much.
+Speaker A: Yeah, I don't know, but there.
+Speaker C: I don't think we're supposed to be testing these microphones.
+Speaker C: Maybe we are.
+Speaker C: I don't know.
+Speaker C: I think, and I think that, uh...
+Speaker C: All this technology, like, I guess some people must be interested in using it, but I can't imagine finding it any more useful than, like, looking at someone's notes.
+Speaker C: Or, like, I actually worked in a company and I had a role and I had to go to meetings.
+Speaker C: And, like, the last thing I would have wanted would be to have to watch a video because I missed a meeting.
+Speaker C: Like, usually I miss meetings deliberately.
+Speaker C: There's just...
+Speaker C: There's really not that much information that actually goes through a real meeting.
+Speaker C: Like, when you're actually at a real meeting in a real company.
+Speaker C: Especially, like, rehashing old stuff.
+Speaker C: And just sort of going over general stuff that anybody who sort of wants tasks should already know.
+Speaker C: It's like, there's just really not a lot of information.
+Speaker C: It's kind of, like, an excessive iteration.
+Speaker B: It seems like way overkill.
+Speaker C: Like, if I missed a meeting, I could probably get it summed up in, like, one sentence.
+Speaker C: Yeah.
+Speaker C: I wouldn't need to have to watch, like, a two-hour video with a sound and a transcript.
+Speaker C: Mm-hmm.
+Speaker C: I guess it would be...
+Speaker C: It's got to be worth it.
+Speaker C: I guess I'm just mostly curious about, like, what kind of person or, like, company would really find it useful?
+Speaker C: Can't really imagine.
+Speaker C: I don't know.
+Speaker C: How about a...
+Speaker C: A pita?
+Speaker C: Er...
+Speaker A: Er...
+Speaker B: Well, that's anyone want to talk about fruit more while we still have time?
+Speaker B: When are you other ideas?
+Speaker C: Well, what we... we supposed to... we supposed to watch report.
+Speaker C: We end there.
+Speaker C: Erm...
+Speaker B: We still have time to face any other input.
+Speaker B: I mean, I think we did really well, personally, which is why we've, you know, gone through this so quickly.
+Speaker B: Because, I mean, we've all, we all kind of agree that our product is satisfactory.
+Speaker B: It fits the budget, and it's trendy.
+Speaker B: It's amazing.
+Speaker B: So...
+Speaker B: Erm...
+Speaker C: I'm with my dad.
+Speaker B: So I think that's all for today.
+Speaker B: Okay.
+Speaker C: We'll have to put in all this stuff.
+Speaker C: Meeting adjourned.
+Speaker C: Meeting adjourned.
+Speaker C: I think I've learned not to bring, play, note to meetings.
+Speaker C: I think it would be a good idea.
+Speaker C: I like it.
+Speaker C: I'm probably not enough to get people actually paying attention, especially if you have food.
+Speaker B: So I guess we're supposed to write final reports.
+Speaker B: All of this?
+Speaker B: I don't know.
+Speaker C: Well, as well, I have nine...
+Speaker A: Mmm...
+Speaker B: Is that just me?

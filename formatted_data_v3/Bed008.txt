@@ -1,0 +1,722 @@
+None: Yeah, yeah.
+Speaker C: Hey, bus.
+Speaker C: Yeah, it's a guy.
+None: Yeah.
+None: Yeah.
+None: And just more to come.
+Speaker C: And forever you get to.
+Speaker C: I didn't look for air, but at the end.
+Speaker D: And please turn off the microphone.
+Speaker D: At the end, if you can remember, that's the most exciting light.
+None: Great.
+None: We'll move.
+None: Make sure they're all on.
+Speaker E: Yeah.
+Speaker E: Yeah.
+None: You know your record should be on, even if you're not talking like this.
+Speaker C: Right.
+Speaker D: Yeah.
+Speaker D: Got anything good?
+Speaker D: Good.
+Speaker D: Well, Keaton, today we get to sort of do our stuff and drumming that.
+Speaker F: Yeah.
+Speaker F: That's all.
+Speaker F: Yeah.
+Speaker C: OK, got it.
+Speaker C: Thank you putting it on backwards.
+Speaker C: I think the hinge bent.
+Speaker C: Anyway, there you go.
+Speaker F: All right.
+Speaker F: I should read all of these numbers.
+Speaker F: 8551 14 8198 807 966 85 7691 9493 4771 246 00 7533 3226 3880 7491 9493 954896 097 347 163 56161 9731
+Speaker D: Hey, transcript L87 864 664 171 803 256 803 225 202 311 611 7 424 058 8 4 2 1 8 3 6 9 1 7 5 2 1 4 3 5 9 0 9 7 6 1 6 9 6 6 0 281 209 8 1 3 0 4 5 or 7 8
+Speaker B: Transcript L85 57367 1 348 4 545 8 5 9 9 6 5 4 7 3 2 0 1 8 3 7 8 2 2 1 9 0 9 2 0 6 6 7 7 2 6 4 6 1 6 4 4 4 3 9 7 5 4 1 1 0 5 3 3 2 6 4 3 8 4 8 5 1 6 7 5 5 5 7 8 4 4 4 4 4 4 6 7 0 9 0 4 5 9 8 4 1 1 6 8 0 1 1 1 1 4 1
+None: 8 4 4 7 6 7 1 8 9 7 8 8 8 8 4 4 0 9 3 0 9 9 9 9 9 9 9 Transcript L83 9247 6 9 4 5 5 5 7 8 7 0 9 9 8 8 2 9 4 5 3 0 9 7 1 5 4 1 4 2 7 6 6 8 6 1 8 7 6 8 0 7 2 7 4 2 4 9 9 4 6 9 6 7 7 0 7 4 2 9 4 2 1 4 2 2 5 5 0 0 6 4 6 82 8 2 4 5 4 6
+Speaker B: No 2 So my idea for today, and we can decide that that isn't the right thing to do, was to spend at least part of the time trying to build the influence links, which sets things are relevant to which decisions. And actually I had specific gestion to start first with the path ones, the database ones being in some sense less interesting to us although probably have to be done. And so to do that, so there's, and the idea was we were going to do two things.
+Speaker B: Oh right. Well, we're going to do two things, one of which is just lay out the influence structure of what we think influences what. And then as a separate but related task, particularly buscrow and I were going to try to decide what kinds of belief nodes are needed in order to do what we need to do once. So we should sort of have all of the basic design of what influences what done before we decide exactly how to compute it. So did you get a chance to look at all? Yeah, look at some of that stuff. Great. Okay, so let's start with the belief that's general influence stuff and then we'll also, at some point,
+Speaker D: break and talk about the techie stuff. Well, I think one could go, I think we can do this because everything. First of all, this I added, I knew from sort of basically this has to be there, right? Oh, are you going to go there or not? Yeah. So one, not transverse the castle, the decision is that's the first one to go there. Right. True. Does have to
+Speaker B: be there. And I'm sure we'll find more as we go then. So go there in the first place
+Speaker D: or not just definitely one of the basic ones we can start with that interesting effort. Is this basically true of false or maybe we'll get? Well, go there. So there is this question about we actually get just the entities, right? For each one here. Yeah, when we're done.
+Speaker B: The reason it might not be true or false is that we did have this idea of when. So it's you know, current for next and so forth and so on or not at all, right? And so that's a decision would be do we want that? So you could do two different things you could do.
+Speaker B: You could have all those values for go there or you could have go there be binary and given that you're going there. So let's say. I mean, it seems that you could. It seems
+Speaker F: that those things would be logically independent like you would want to have them separate a binary go there and then the possibility is hard to go there because. Okay. Let's start that way because you know, it might be easy to figure out that this person is going to need more film eventually from their utterance, but it's much more complex to query when
+Speaker D: would be the most appropriate time. Okay. And so I've tried to come up with some initial things one could serve. So who is the user? Everything that has user, it comes with the user model. Everything that has situation comes with the situation model. It should be here.
+Speaker D: But when it comes to sort of writing down when you do these things, is it here? You sort of have to write the values this can take. Right? And here I was really, and sometimes I was really sort of standing in front of a wall feeling very stupid because in this case, it's pretty simple, but as we will see the other ones. For example, if it's a running budget, so what are the discrete values of a running budget? So maybe my understanding goes to a power. Right here that this is something a number that keeps on changing, but okay. This is understandable. Yes. So here. You've seen this before. I'll keep these
+Speaker F: belief net things. No, but I think I'm following it. So here is the, that we had that the
+Speaker D: user sponsored me influence the outcome of decisions. There we wanted to keep sort of a running
+Speaker G: total of things. Is this like an humble represents how much money they have left to spend? Okay. Well, I mean, how is it different from user finance? The finance is sort of here
+Speaker D: thought of as the financial policy person carries out in his life. He's actually cheap, average or spendy. Right. And I did become maybe a user. I don't know. I didn't want to write
+Speaker B: that. But, or cheapness. Well, a user-thrift. Thrift is good. Right. There it is. So Keith, what's behind this is actually a program that will, once you fill all this in, actually solve your belief nets for you and stuff. So this is not just a display. This is actually a GUI to a simulator that will, if we tell it all the right things, will wind up with a functioning belief net at the other end. And it's so simple that I can use it. Wow,
+Speaker D: that is simple. Okay. So here it was. Okay. I can think of people being cheap, average, or spendy, or we can even have a finer scale of the matter. It doesn't matter. It doesn't matter. Agreed there. But here, I wasn't sure what to write in. Let's go ahead. Well,
+Speaker G: I mean, you've written in what seems to be required. Like what else do you want?
+Speaker B: If that's permissible, then. Well, yeah. So here's what's permissible is that you can arrange so that the value of that is going to have to be updated. It's not a belief update, right? You took some actions, you spent money and stuff. So the update of that is going to have to be essentially external to the belief net. Right? And then what you're going to need is for the things that it influences. Well, let's see if it does influence anything.
+Speaker B: And if it does influence anything, then you're going to need something that converts from the number here to something that's relevant to the decision there. So it could be right, there are quite different ranges that are relevant for different decisions or whatever, but for the moment, this is just a node that is conditioned externally and might influence
+Speaker D: various things. Yeah, this is where, okay, anyways, let's get it. That's fine. Well, anyway.
+Speaker G: Okay. And so the other thing is that every time that's updated, belief is up to be propagated, but then the question is, do you want to propagate, believe every single time it's updated
+Speaker B: or when we need to? Yeah, that's a good question. And does it have a lazy mode? I don't remember.
+Speaker G: Well, I mean, in Trini's thing, there was this thing, there was this option like propagate
+Speaker B: differences, which suggests that it probably does. So what if the track hit down? And I think actually one of the items for the user home base should be essentially non-local. They're only there for the day and they don't have a place that they're staying.
+Speaker D: I'll just accidentally erase this. I just had values here, such as, we had in our list, we had, is he staying in our hotel? Is he staying with friends? Yeah.
+Speaker B: Okay. So it's clear where we are right now. So my suggestion is we just pick up.
+Speaker B: Yeah, one of the, well, let's do the first one. Let's do the one that we already think we did.
+Speaker B: So that would be endpoint.
+Speaker G: So it's two or false? No, that's a BBA. So what's the same mode? Yeah.
+Speaker G: And endpoint? Oh, that mode was, that's more of transportation? Yeah. Okay. Also true of false. Yeah, he hasn't filled the bin yet.
+Speaker D: No, probably nothing done here. Oh, we're just doing the other ones. Okay. Make sense. Okay. So this was EVA.
+Speaker D: Maybe we can think of more things across. Yeah. Okay. I'm Rob. I'm the merge.
+Speaker C: Yeah. That's just the point. But it would be an endpoint if you were crossing over it.
+Speaker B: Yeah, it would be for a given segment. You know, you first go to the town square.
+Speaker F: Well, I mean, if you go to, you know, if you go to Prague or whatever, one of your key points that you have to do is cross the Charles Bridge.
+Speaker F: It doesn't really matter which way you cross, which where you end up at the end, but the part that good part is walking over it.
+Speaker B: That's subtle, but true. Anyway. So let's just leave it with three for now.
+Speaker B: And let's see if we can get it linked up just to get ourselves started.
+Speaker B: Okay. You'll see it. You'll see something comes up immediately. That reason I want to do this.
+Speaker D: Well, the user was right. Definitely more likely to write for if he's a local, more likely to view if he's a tourist.
+Speaker D: And then of course, we had the fact that given the fact that he's thrifty and there will be admission that we get all these cross.
+Speaker B: We did, but the three things that contributed this, in fact, the other two aren't up there. So one was the ontology.
+Speaker D: What type of building is it?
+Speaker B: Yeah. And the third thing we talked about was something from the discourse.
+Speaker D: What he has mentioned before.
+Speaker B: Okay. So this is right. So what we seem to need here.
+Speaker B: And this is why it starts getting into the technical stuff. The way we had been designing this, there were three intermediate nodes, which were the endpoint decision as seen from the user model as seen from the ontology and as seen from the discourse.
+Speaker B: So each of those, the way we had it designed, now we can change the design. The design we had was there was a decision with the same three outcomes based on those three separate considerations.
+Speaker B: So if we wanted to do that, would have to put in three intermediate nodes.
+Speaker B: And then what you and I have to talk about is, okay, if we're doing that and they get combined somehow, how do they get combined? But they're not only going to be more things to worry about.
+Speaker D: So this was just it for this one.
+Speaker D: So let's, in our, in John was sort of pictogram everything that could contribute to whether person wants to interview or approach some.
+Speaker B: Oh, it was called mode. So this is, this is mode here means the same as endpoint.
+Speaker B: Okay, why don't we change that?
+Speaker B: Yeah, but that was actually, yeah, unfortunately, that was a, kind of an intermediate version. That's, I don't think what we would currently do.
+Speaker C: Can I ask about slurred and angry? Absolutely. Like, they're either true or false and the, well, I see if the, if the person talking is angry or slurs their speech, it might be tired or, you know,
+Speaker B: they're strong. And therefore, and, you know, possibly less likely to enter some, yeah, that seems to be, yeah, so, somebody else must do is, is get this down to what we think is actually likely to be a strong influence. But yeah, that was what he had in mind.
+Speaker B: Let's think about this, this question of how do we want to handle the two separate things. One is, at least two.
+Speaker B: One is, how do we want to handle the notion of the ontology? Now, what we talked about, and this is another technical thing, mascara, is, can we arrange so that, I think we can, so that the belief that itself has properties.
+Speaker B: And the properties are filled in from ontology items. So let's take the case of the, this endpoint thing. The notion was that if you had a few key properties like, is this a tourist site, you know, some kind of landmark, is it a place of business?
+Speaker B: Is it something you physically could enter? Okay, et cetera. So that there be certain properties that would fit into the decision node.
+Speaker B: And then, again, as part of the outer control and conditioning of this thing, those would be set so that somehow, someone would find this word, look it up in the ontology, pull out these properties, put it into the belief net, and then the decision would flow.
+Speaker D: Now, it seems to me that we've sort of embodied a lot embedded a lot of these things we had previously, in some of the other final decisions done here, for example, if we would know that this thing is exhibiting something.
+Speaker D: If it's exhibiting itself, it is a landmark, and it would be more likely to be viewed. If it is exhibiting pictures or sculptures and stuff like this, then it's more likely to be entered.
+Speaker B: I think that's completely right, and I think that's good. So what that says is that we might be able to take and in particular, so the ones we talked about were exhibiting and selling accessibility.
+Speaker D: If it's closed, one probably won't enter. Or if it's not accessible to a tourist ever. The likelihood of that person actually wanting to enter it, given that he knows it.
+Speaker B: So let me suggest this. Could you move those up about halfway? The ones that youth in selling, I guess.
+Speaker B: So here's what it looks like to me, is that you want an intermediate structure which is essentially the order of, for this purpose, of selling, fixing, or servicing.
+Speaker B: So that is for certain purposes, it becomes important, but for this kind of purpose, one of these places is quite like the other. So it seems right?
+Speaker B: So it's basically just merging those for just the take of endpoint decision. So the idea would be that you might want to merge those three.
+Speaker B: Well, it's here's where it gets a little tricky. From the belief net point of view it is. From another point of view, of course, it's important to know what it's selling or servicing and so forth.
+Speaker B: So for this decision, it's just a true or false. And in this is a case where the order seems just what you want. If any of those things is true, then it's the kind of place that you are more likely to enter.
+Speaker B: So you just want to have them all pointing to a, yeah, so let's do that.
+Speaker B: No, no, no, no, no, an intermediate node. That's the part of the idea.
+Speaker D: Is that the object type node?
+Speaker D: Is it the kind of object that sells fixes or servicing?
+Speaker B: Open up object type and let's see what its values are.
+Speaker B: So it's not so far. Oh, well, first of all, it's not objects we call them entities, right?
+Speaker D: We have sort of the, let's say put commercial.
+Speaker D: I was just going to commercial action inside.
+Speaker B: Let's do commercial landmark and. What was the. Well, accessible. I think it's different because that's temporary. That varies temporarily. Whereas this is a.
+Speaker C: What would a hotel fall under?
+Speaker B: I would call that a service, but, but I don't know. Well, I mean in terms of entity type.
+Speaker B: It's a, well, it's, I would again, and for this purpose, I think it's commercial.
+Speaker B: Some place you want to go in to do some kind of business.
+Speaker G: What is the underscore T at the end of each of those things?
+Speaker D: Things. So places that service things.
+Speaker D: So things. Okay. Or fix things. This is an exhibit things.
+Speaker G: That also points to entity type, I guess.
+Speaker F: So we're deriving. This, this feature of whether the main action at this place happens inside or outside or what we're deriving that from what kind of activity is done there.
+Speaker F: Couldn't you have it as just a primitive feature of the. Well, you could. That's a choice.
+Speaker F: So, I mean, it seems like that's much more reliable because you could have outdoor places that sell things and indoor places.
+Speaker B: Yeah, the problem with it is that it's sort of putting in a feature just for one decision.
+Speaker B: Now, we may wind up having to do that. That's an, at a metal level, that's what we're going to have to sort out.
+Speaker B: So, you know, what does this look like? What are what are intermediate things that are worth computing?
+Speaker B: So, what are the features we need in order to make all these decisions? And what's the best way to organize this so that it's clean and consistent and all that sort of stuff?
+Speaker F: I'm just thinking about how people, human beings who know about places and places to go and so on would store this.
+Speaker F: And it would probably, you wouldn't just sort of remember that they sell stuff and then deduce from that.
+Speaker D: Well, it must be going on. I think entity maybe should be regard as a vector of several possible things that can either do sell things, fix things, service things, fix things.
+Speaker D: It can be a landmark at the same time as doing these things. It's not either or.
+Speaker D: It certainly best can be a hotel and a famous site.
+Speaker D: Many people might think it can be generally a landmark and be accessible, i.e. a castle or can be a landmark and not accessible of some statue.
+Speaker B: Anyway, so let me suggest to do something else, which is to get rid of that long link between the user and the endpoint.
+Speaker B: No, no, I don't want the link there at all.
+Speaker B: Because what we're going to want is an intermediate thing, which is the endpoint decision based on the user model.
+Speaker B: So what we talked about is three separate endpoint decisions. So let's make a new node.
+Speaker C: Just as a suggestion, maybe you could save as to keep your old one nice and clean and so you can mess with this one.
+Speaker D: The old one was not there. Not that important, I think.
+Speaker C: Okay, well, not a big deal then.
+Speaker D: Let's do it then.
+Speaker C: Isn't there a save as inside of Java page?
+Speaker D: Okay.
+Speaker D: This was user.
+Speaker B: Let's put it this way. Let's do endpoint under bar U. End point. It's the endpoint. Let's say under bar U. So that's the endpoint decision as seen through the.
+Speaker B: As related from the user model. Right. So let's actually. Yeah, so you can link that up to the.
+Speaker B: Should I rename this? Yeah, so that I guess it's endpoint.
+Speaker D: Under underscore e underscore e for entity and we may change all this, but. Right. And.
+Speaker B: Actually, I guess the easiest thing would move move the endpoint. Well, go ahead. Just do whatever.
+Speaker D: Isn't this possible?
+Speaker C: Yeah, thank you. You have to be in move mode before.
+Speaker A: Right.
+Speaker B: So now we look for user related things that. Yeah. And maybe maybe it's just one who is the user. I don't know. Maybe maybe there's more.
+Speaker D: Well, if he's using a car right now.
+Speaker D: What was that people with Harry drove the car into the coffee? Never mind.
+Speaker B: Anyway, this is crude. Now, but so the but then the question is.
+Speaker B: So and we assume that some of these properties would come in directly through an ontology, but then we had this third idea of input from the discourse.
+Speaker D: Well, that's finished. Sure. Okay. The user interests.
+Speaker B: User thrift, the user budget. Well, maybe I again, I'd go, okay, put him in, but what we're going to want to do is actually.
+Speaker D: This was one of my problems. We have the user interest is a vector of 500 values. So.
+Speaker D: Oh, you mean this problem? No, not levels of interest, but things you can be interested in.
+Speaker D: Somebody else has built this user model. So it's like a vector of 500 ones or zeros.
+Speaker G: Like for each thing, I see.
+Speaker B: Okay. So you could. So here, let me give you two ways to handle that. All right. One is.
+Speaker B: You could ignore it. But the other thing you could do is have a, this is, you give me the flavor of the way it's going to.
+Speaker B: You can have a node that's that was a measure of the match between the objects feature, you know, the match between the object, the entity.
+Speaker B: I'm sorry. And the user. So you could have a fit node. And again, that would have to be computed by someone else.
+Speaker B: But so that.
+Speaker D: Just as a mental note.
+Speaker B: Yeah, that's all.
+Speaker D: And should we say that this interests affects the likelihood of entering?
+Speaker E: Yeah. Which could.
+Speaker D: And also, if it's an expensive place to enter, this may also.
+Speaker F: Okay. User schedule.
+Speaker F: Time to go in and climb all the way to the top of the kernel DOM. Or do I just have to.
+Speaker C: It seems like everything in the user model affects.
+Speaker B: Well, that's what we don't want to do. See that? Yeah. Because then we get into huge combinatorics and stuff like that.
+Speaker C: Because if the user is tired, the user state, right, it would affect stuff.
+Speaker C: But I can't see why anything, everything in the model wouldn't be.
+Speaker B: Well, that's what we say we can't do that. So we're going to have to.
+Speaker B: This is a good discussion. We're going to have to somehow figure out.
+Speaker B: So if there is some general notion of, for example, the relation to the time to do this to the amount of time the guy has.
+Speaker B: Or something like that is the compatibility with his current state.
+Speaker B: So that's what you'd have to do. You'd have to get it down to something which.
+Speaker B: It's the same thing. So it could be compatibility with his current state, which would include the money in this time and his energy.
+Speaker C: Yeah, it just seems like it pushed the problem back a level.
+Speaker G: It does. No, but it's more than that. The more sort of you break it up, the more that it.
+Speaker G: Because if you have everything pointing to one node, it's like exponential.
+Speaker G: Whereas if you like you break it up more and more, it's not exponential anymore.
+Speaker B: So the two advantages. That's the one technical one.
+Speaker C: It's a great solution. It gets you subgrouping. Subgrouping basically.
+Speaker C: Yeah. So basically make it more tree like going backwards.
+Speaker B: Right. Right. But there's two advantages. One is the technical one that you don't wind up with such big exponential.
+Speaker B: Cpt's the others can be it presumably can be used for multiple decisions.
+Speaker B: So if you have this idea of the compatibility with requirements of an action to the state of the user.
+Speaker B: You can well imagine that that was not only is it is it cleaner to compute it separately, but it could be that it's used in multiple places.
+Speaker B: So in general, this is the design. This is a really designed problem.
+Speaker B: Okay. You've got to send it all into set of decisions.
+Speaker B: How do we do this?
+Speaker D: What do I have under user state? Because I named that already something. Oh, that's tired fresh.
+Speaker D: Maybe should be renamed into physical state.
+Speaker B: Or if it's user fatigue, even.
+Speaker D: That's what the G.
+Speaker D: Whatever that we can make a user state.
+Speaker B: What's what we were talking about is compatibility.
+Speaker B: Or something. I don't know.
+Speaker C: I guess the question is it's hard for me to imagine how everything wouldn't just contribute to user state again.
+Speaker B: Or user compatibility.
+Speaker B: The thing is that we had some things that don't.
+Speaker D: The user interest and the user who the user is are completely apart from the fact whether he is tired.
+Speaker C: The node we're creating right now is user compatibility to the current action.
+Speaker C: Everything in the user model would contribute to whether or not the user was compatible with something.
+Speaker B: Maybe not. That's the issue.
+Speaker B: Even if it was true in some abstract general sense, it might not be true in terms of the information we actually had and can make use of.
+Speaker B: Anyway, we're going to have to find some way to get this sufficiently simple to make it feasible.
+Speaker D: If we split it up again and if we look at the end point again, we said that for each of these things there are certain preconditions.
+Speaker D: So you can only enter a place if you are not too tired to do so and also have the money to do so because of something.
+Speaker D: So if you can afford it and perform it, preconditions.
+Speaker D: Viewing usually is cheap.
+Speaker B: With the way we're defining it, I think.
+Speaker D: Viewing without definition of view is free.
+Speaker F: What about the grand canyon?
+Speaker B: I mean, never mind. No, you have to enter the park. Almost by definition, paying involves entering, going through some.
+Speaker B: So let me suggest we switch to another one. I mean, clearly it's more work to be done on this, but I think it's going to be more instructive to think about other decisions that we need to make in path land.
+Speaker B: And what they're going to look like.
+Speaker C: So you can save this one as and open up the old one, right?
+Speaker C: And then everything would be clean. So you could do it again.
+Speaker B: I think we're saving this one, but I think I'd like to keep this one because I want to see if we're going to reuse any of this stuff.
+Speaker D: What makes it?
+Speaker B: Well, you tell me. So in terms of the planner, what's a good one to do?
+Speaker D: Go there or not. I think it's a good one. It's a very basic one.
+Speaker D: So what makes things more likely that?
+Speaker B: Well, the first thing is getting back to the thing we left out of the other is the actual discourse.
+Speaker B: So Keith, this is going to get into your world because we're going to want to know which constructions indicate various of these properties.
+Speaker B: And so I don't yet know how to do this. I guess we're going to wind up pulling out discourse properties like we have object properties.
+Speaker B: And we don't know what they are yet. So that the go there decision will have a node from discourse.
+Speaker B: And I guess why don't we just stick a discourse thing up there to be as a placeholder for?
+Speaker D: We also had discourse features, of course, for the endpoint.
+Speaker D: Of course.
+Speaker D: Identify that.
+Speaker D: And so again, that's completely correct. We have the user model of the situation model here.
+Speaker D: We don't have the discourse model here yet. We're just in the way. We don't have the ontology here.
+Speaker B: Well, the ontology we sort of said we would pull these various kinds of properties from the ontology, like exhibiting, selling, and so forth.
+Speaker B: So in some sense, it's there. But the discourse we don't have represented at all yet.
+Speaker D: Let's be specific for a second here.
+Speaker D: And we probably would have something like a discourse for endpoint.
+Speaker B: But if we do, we don't have the three values. You don't have the EVA values.
+Speaker D: If we have it, just for starters. And here discourse, for go there, probably is true and false, let's say.
+Speaker B: That's what we talked about.
+Speaker D: Well, I think, I mean, looking at the little data that we have, so people say, how do I get to the castle?
+Speaker D: And this usually means they want to go there. So this should sort of push it.
+Speaker D: Right. In one direction, however, people also sometimes say, how do I get there in order to find out how to get there without wanting to go there?
+Speaker D: And sometimes people say, where is it? Because they want to know where it is. But in most cases, they're from...
+Speaker B: Yeah, but that doesn't change the fact that you want these two values.
+Speaker D: Yeah, true.
+Speaker D: So this is sort of some external thing that takes all the discourse stuff and then says, here it's either, yep, A or A.
+Speaker E: Okay.
+Speaker B: And there'll be a user go there.
+Speaker G: And maybe that's all I don't know. A situation go there, I mean, because whether it's open or not.
+Speaker G: Okay, good. That definitely is.
+Speaker G: But that... Now that kind of... What's the word...
+Speaker G: That interacts with the EVA thing. If they just want to view it, then it's fine to go there when it's closed.
+Speaker G: Whereas if they want to...
+Speaker B: Right.
+Speaker B: Right. So that's where it starts getting to be potentially more interesting.
+Speaker B: So what Baskar says, which is completely right, is if you know that they're only going to view it, then it doesn't matter whether it's closed or not in terms of...
+Speaker B: The time of day.
+Speaker B: You know, whether you want to go there.
+Speaker C: It does matter though if there's like a strike or a riot or something.
+Speaker B: Absolutely. There are other situational things that do matter.
+Speaker G: So, yeah, that's just that just having one situational node may not be enough because that node by itself wouldn't distinguish.
+Speaker B: Well, it can have various values.
+Speaker B: But you're right, it might not be enough.
+Speaker G: Yeah, I mean, see, I'm thinking that any node that begins to go there is either going to be true or false.
+Speaker F: Ah, I see. That could be.
+Speaker F: So that node, I mean, the go there is S node would just be fed by separate ones for...
+Speaker F: There's different things.
+Speaker G: Next situation traffic and so on.
+Speaker B: So now the other thing that Baskar pointed out is what this says is that there should be a link.
+Speaker B: And this is where things are going to get very messy.
+Speaker B: From the endpoint decision, maybe the final...
+Speaker B: I guess the very bottom end point decision to the go there node.
+Speaker B: And don't worry about layout. I mean, we'll go nuts.
+Speaker G: But maybe we could have an intermediate node that just the endpoint and the go there S node sort of fed into.
+Speaker G: Could be.
+Speaker G: Right? Because that's what we... I mean, that's where this is.
+Speaker B: Or actually the endpoint node could feed into the go there S.
+Speaker B: Yeah, that's right. So the endpoint node, make that up to the go there there.
+Speaker B: And again, we'll do layout at some point. But something like that.
+Speaker B: Now it's going to be important not to have loops by the way.
+Speaker B: It's really important to be in the belief world not to have loops.
+Speaker D: How long does it take you to compete?
+Speaker B: No, it's much worse than that.
+Speaker B: Things don't converge. It's not well defined if they're loops.
+Speaker B: You just... You have to...
+Speaker B: There are all sorts of ways of breaking it up so that there isn't...
+Speaker D: Okay.
+Speaker D: This is not a loop yet. I'm just saying we...
+Speaker G: But the good thing is we could have loopy belief propagation, which we all love.
+Speaker B: Okay. So anyway, so that's another decision. What's another decision you like?
+Speaker D: Okay. These have no parents yet, but I guess it sort of doesn't matter.
+Speaker D: Right?
+Speaker B: Well, the idea is that the go there you go comes from something about the user.
+Speaker B: This comes from something about the situation. And the...
+Speaker B: The discourse is a mystery.
+Speaker B: Should I just make some?
+Speaker D: Sure, if you want.
+Speaker D: If there's parking, maybe...
+Speaker E: Okay.
+Speaker D: Okay. And if he has seen it already or not...
+Speaker D: Right.
+Speaker D: Okay.
+Speaker D: This discourse is something that sort of...
+Speaker D: Should we make a key note here?
+Speaker B: Sure.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker B: Then also the discourse endpoint.
+Speaker B: I guess it points up to you if you want to make it consistent.
+Speaker F: Actually, is this the right way to have it where go there from the user and go there from the situation?
+Speaker F: Just sort of don't know about each other, but they both need to go their decision.
+Speaker F: I think so.
+Speaker F: I mean...
+Speaker F: Okay.
+Speaker F: And maybe not.
+Speaker F: It still allows for the possibility of the user model affecting our decision about whether a strike is the sort of thing which is going to keep you going.
+Speaker F: Right.
+Speaker F: All that kind of decision making happens at the go there node.
+Speaker B: If you needed to do that.
+Speaker F: If you needed to do that.
+Speaker F: Yeah.
+Speaker F: But okay.
+Speaker F: I was just thinking...
+Speaker F: I guess maybe I'm conflating that user node with possible asking of the user.
+Speaker F: Is this strike on?
+Speaker F: Does that affect whether or not...
+Speaker F: Good point.
+Speaker F: I don't know how we're going to...
+Speaker F: Yes, that might not come out of the user model, but directly out of direction.
+Speaker B: I get the yes, my current...
+Speaker B: Don't you know, yes, yes, enough.
+Speaker B: My current idea on that would be that each of these decision nodes has questions associated with it.
+Speaker B: And the question wouldn't itself be one of these conditional things.
+Speaker B: Given that you know there's a strike do you still want to go.
+Speaker B: But if you told him a bunch of stuff, then you would ask him do you want to go.
+Speaker B: But I think trying to formulate the conditional question, that sounds too much.
+Speaker B: Right, sure.
+Speaker B: To me.
+Speaker B: Let's stay with us a minute because I want to do a little bit of organization before we get more in the details.
+Speaker B: The organization is going to be that the flavor of what's going on is going to be that...
+Speaker B: As we sort of do in detail, indeed Keith is going to worry about the various constructions that people might use.
+Speaker B: And John O. has committed himself to being the parser wizard.
+Speaker B: So what's going to happen is that eventually, like by the time he graduates, okay, there'll be some sort of system which is able to take the discourse in context and have outputs that can feed the rest of the belief net.
+Speaker B: I assume everybody knows that I just want to get closer that that'll be the game then.
+Speaker B: So the semantics that you'll get out of the discourse will be values that go into the various discourse-based decision notes.
+Speaker B: And now some of those will get fancier like mode of transportation and stuff.
+Speaker B: So it isn't by any means necessarily a simple thing that you want out.
+Speaker B: So if there is, and there is mode of transportation.
+Speaker D: There's sort of also a split if you blow this up and look at it in more detail, there is something that comes from the discourse in terms of what was actually just set, what's the utterance giving us, and then what's the discourse history.
+Speaker B: Yeah, well, we'll have to decide how much of where that goes.
+Speaker B: And it's not clear yet.
+Speaker B: It could be those are two separate things. It could be that the discourse gadget itself integrates which would be my guess.
+Speaker B: You'd have to do, see in order to do reference and stuff like that, you've got to have both the current discourse and the context to say, I want to go back there. Why don't, what does that mean?
+Speaker B: All right.
+Speaker D: So, but is this picture that's emerging here?
+Speaker D: Just my wish that you have noticed already for symmetry or is it that we get for each, each decision on the very bottom, we sort of get the sub e sub d sub u and maybe a sub o for autonomy.
+Speaker D: Meta node.
+Speaker B: I don't know.
+Speaker B: But it might just, it could be, this is getting into the thing I want to talk about next, which is, if that's true, how do we want to combine those or when it's true.
+Speaker D: But this would be nice though that we only have at most four at the moment.
+Speaker D: Yeah.
+Speaker D: And then, eros going to each of the bottom decisions. Yeah. And four, we can handle.
+Speaker B: No.
+Speaker B: Well, if it's four things and each of them has four values, it turns out to be a big CPT. It's not completely impossible.
+Speaker B: It's not beyond what the system could solve, but it's probably beyond what we could actually write down or learn.
+Speaker B: But, you know, it's four to the fourth.
+Speaker A: It's pretty big.
+Speaker C: 256, as I was saying.
+Speaker B: Yeah, I mean, it's, and I don't think it's going to, I don't think it will get worse than that, by the way.
+Speaker D: So that's a good, didn't we decide all of these are true or false?
+Speaker B: Forgot there, but not for the other ones, three values for endpoint already.
+Speaker G: Yeah, I mean, you'll need actually three to the five because, well, I mean, if it has four inputs and then it itself has three values.
+Speaker G: I mean, it can get big fast.
+Speaker D: For endpoint? No, it's the EVA.
+Speaker D: Yeah, down here, but this one only has two.
+Speaker G: No, it's still has three.
+Speaker B: It will still have three.
+Speaker B: From each point of view, you're making the same decision.
+Speaker B: So from the point of view of the entity.
+Speaker G: And also, I mean, there's other places where, like, for example, consider endpoint U.
+Speaker G: It has inputs coming from user budget, user-driven.
+Speaker B: So even, those are not necessarily binary.
+Speaker B: We're going to have to use some care in the knowledge engineering to not have this explode.
+Speaker B: And in fact, I think it doesn't, in the sense that, actually, with the underlying semantics and stuff, I think it isn't like you have 256 different ways of thinking about whether this user wants to go to some place.
+Speaker B: So we just have to figure out what the regularities are and code them.
+Speaker B: But what I was going to suggest next is maybe we want to work on this a little longer.
+Speaker B: But I do want to also talk about the thing that we started into now of, well, it's all fine to say all these arrows come into the same place.
+Speaker B: What rule of combination is used there?
+Speaker B: So these things all affected. How do they affect it?
+Speaker B: And belief nets have their own beliefs about what are good ways to do that.
+Speaker B: So it's clear enough what the issue is.
+Speaker B: So we want to switch to that. Now we want to do some more of this.
+Speaker D: Basically, we just need to sort of get some closure on this.
+Speaker D: Figure out how we're going to get this picture sort of completely messy.
+Speaker B: Well, here's one of the things that I don't know how easy to just do this in the interface.
+Speaker B: But it would be great if you could actually just display at a given time all the things that you pick up, you click on endpoint, okay, and everything else fades.
+Speaker B: And you just see the links that are relevant to that.
+Speaker B: And do anybody remember the GUI on this?
+Speaker C: I would only say that the way to do that would be to open up or make, you know, and many belief nets and then open them every time you wanted to look at a different one versus that.
+Speaker D: It's very easy to do it in HTML.
+Speaker G: Yeah, but HTML.
+Speaker D: Yeah, each of these things, each of the end leaflets be a patron and you click on the thing and then.
+Speaker B: Yeah, anyway, so it's clear that even with this, if we put in all the arrows, nobody's going to be able to read the diagram.
+Speaker B: Yeah.
+Speaker B: All right, so we have to figure out some basically display hack or something to do is because, anyway, let me suggest that's not a first order consideration.
+Speaker B: We have two first order considerations, which is what are the influences A and B, how do they get combined mathematically?
+Speaker C: How do we display them as an issue, but?
+Speaker C: I don't, yeah, I just don't think this has been designed to support something like that.
+Speaker G: Yeah, I mean, it might soon, if this is going to be used in a serious way like JavaBase, then it might soon be necessary to start modifying it.
+Speaker G: Right.
+Speaker B: So, that's what we're going to do with our purposes.
+Speaker B: Yeah, and that seems like a perfectly feasible thing to get into, but we have to know what we want first.
+Speaker B: So, there's a little bit about decision nodes and what the choices might be for these.
+Speaker C: You can technically wear that as you're talking.
+Speaker C: Yeah.
+Speaker E: I guess this board works fine.
+Speaker G: So, recall the basic problem, which is that you have a belief net and you have a lot of different nodes, all contributing to one node.
+Speaker G: Right. So, as you discussed, specifying this kind of thing is a big pain and it will take a long time to write down, because for example, if these have three possibilities each and this has three possibilities, then you have 243 possibilities, which is already a lot of numbers to write down.
+Speaker G: So, what helps us in our situation is that these all have values in the same set.
+Speaker G: Right. These are all like saying EV or A. Right.
+Speaker G: So, it's not just a generalized situation.
+Speaker G: I mean, basically, we want to just take a combination of, we want to view each of these as experts, each of them is making a decision based on some factors, and we want to sort of combine their decisions and create, you know.
+Speaker G: Sort of a weighted combination.
+Speaker D: The rover decision.
+Speaker G: The what decision?
+Speaker D: rover. All of their outputs combined.
+Speaker G: Yeah. Yeah. So, the problem is to specify the, so the conditional probability of this given all those.
+Speaker G: Right. That's the way belief nets are defined, like each node given its parent.
+Speaker G: Right. So, that's what we want.
+Speaker G: We want, for example, p of, let's call this guy y, and let's call these x1, x2, xn.
+Speaker G: Right. So, we want probably that y equals, you know, for example, e, given that these guys are, as it's referred to this as like x, hat or something, like all of them, given that, for example, say this is, you know, a, v, a, e, or something.
+Speaker G: Right.
+None: Yep.
+Speaker G: So, we would like to do this kind of combination.
+Speaker B: All right. So, is that, I want to make sure everybody is with us before he goes on.
+Speaker B: It's clear. Is it clear what he wants to compute?
+Speaker G: So, right. So, basically, what we don't want to do is to, for every single combination of e and v and a, and every single letter e is given number, because that's obviously not desirable.
+Speaker G: What we want to do is find some principle way of saying what each of these is, and we want it to be a valid probability distribution.
+Speaker G: So, we want it to add up to one, right.
+Speaker G: So, those are the two things that we need.
+Speaker G: So, what, I guess what Jerry suggested earlier was basically that we, you know, view these guys' voting, and we just take the, we essentially take averages, right.
+Speaker G: So, for example, here are two people of word for a.
+Speaker G: One is word for v and one is word for e.
+Speaker G: So, we could say that the probabilities are, you know, probably being e is 1 over 4, because one person word for e are 4.
+Speaker G: And similarly, probably if, so this is probability of e, and then probably of a given all that is 2 out of 4.
+Speaker G: And probably if v is 1 out of 4.
+Speaker G: Right. So, that's, step, that's the, yeah, that's the basic thing.
+Speaker D: Now, is that all the way?
+Speaker D: So, step 1 outcome, that's, what?
+Speaker D: If x, x 1 voted for a, x 2 voted for v, and so forth.
+Speaker B: Right. Yeah.
+Speaker B: So, this is sum symmetry and equal weights and all those sort of things, which may or may not be a good assumption.
+Speaker G: So, that, yeah.
+Speaker G: So, step 2 is, right.
+Speaker G: So, we've assumed equal weights, whereas it might turn out that, you know, some, we, that, for example, what the, the actual, the verbal content of what the person said, like what, what might be, somehow more important than the, x 1 matters more in the next, sure.
+Speaker G: Sure. So, we don't want to, like, give them all equal weights.
+Speaker G: So, currently we've been giving them all weight 1, 4th.
+Speaker G: So, we could replace this by, uh, w 1, w 2, w 3, and w 4.
+Speaker G: Right. And in order for this to be a valid probability distribution for each, um, x hat, we just need that the w sum to 1.
+Speaker G: So, they can be, for example, you know, you could have 0.1, 0.3, 0.2, and 0.4.
+Speaker G: See.
+Speaker E: That's 1.
+Speaker G: And that would be 1.
+Speaker G: So, that, um, also seems to work fine.
+Speaker C: And, um, so it just, just to make sure I understand this, so in this case, um, we would still compute the average.
+Speaker C: So, the probability of e would be, uh, so in this case, the probability that y equals a would be, uh, w 1 times, or a, or, let's say, 1, 4, quarter times 0.1.
+Speaker G: Not 1 quarter. So, these numbers have been replaced with 0.1, 0.3, 0.2, and 0.4.
+Speaker G: So, you can view this as gone.
+Speaker G: Okay.
+Speaker B: So, in this case, it would be, probably, a value of a would be 0.3.
+None: Probably.
+None: If v would be 0.3, and the probability of v would be 0.4.
+Speaker A: Okay.
+Speaker G: Yeah.
+Speaker G: Okay.
+Speaker G: So, all right.
+Speaker G: So, this is a step two.
+Speaker G: So, the next possibility is that, um, we've given just a single weight to each expert, right?
+Speaker G: Whereas it might be the case that, um, in certain situations, one of the experts is more reliable, and in certain situations, the other expert is more reliable.
+Speaker G: So, the way this is handled is by what's called a mixture of experts.
+Speaker G: So, what you can have is, you augment this diagram slightly.
+Speaker G: So, you have a new thing called H. Okay.
+Speaker G: This is a hidden variable.
+Speaker G: And what this is, is, it gets as input from x1, x2, x3, and x4.
+Speaker G: And what it does is it decides which of the experts is to be trusted in this particular situation.
+Speaker G: Right?
+Speaker G: And then, these guys all come here.
+Speaker G: So, this is slightly more complicated.
+Speaker G: So, what's going on is that, um, this H node looks at these four values of those guys.
+Speaker G: And it decides, in, given these values, which of these, isn't likely to be more reliable or most reliable.
+Speaker G: So, H produces some, you know, it produces a number, either one, two, three, or four, in our situation, right?
+Speaker G: Now, this guy, he looks at the value of H, say it's two, and then he just selects the, uh, thing.
+Speaker G: Yeah. So, that's one thing you can do.
+Speaker G: So, here we go on and say, you can say, you can say, you can say, you can say, I guess, about it.
+Speaker B: What is it? Because the other thing you can do is you, so this, in this case, a mixture of x3, or just a mixture of x4.
+Speaker G: Right. So, you can have a mixture of that.
+Speaker G: So, what you can do, if you need it, is to say that, in here, there's a fourth frame.
+Speaker B: There's a fifth frame, okay, which is the eighth frame.
+Speaker B: So, let's suppose the H says, in such, let me do alpha.
+Speaker B: Okay. In situation alpha, that's the waiting vector.
+Speaker B: But in situation beta, is the other waiting vector.
+Speaker B: So, you still, you might need to wait, but the weights aren't always the same.
+Speaker B: That this guy, uh, detects for you, that this is a situation in which you should wait as more or less.
+Speaker F: So, the function of the thing that comes out of H is very different from the function of the other input.
+Speaker F: Right. It's actually, it's driving how the other four are interpreting.
+Speaker B: It's, it's conditioning how the other four are.
+Speaker B: Yeah. So, in what people do in another literature is learn, don't stop.
+None: So, you learn the weights, you can learn the expert, etc.
+Speaker B: If you have not dated, then make perfect good sense to do that.
+Speaker C: So, H passes a vector on to the next node?
+Speaker C: It could, it could.
+Speaker C: No, I know, it could, could just pass a vector of the weights is, yeah, it could.
+Speaker B: No, not normally, it would just pass to the selected.
+Speaker B: So, it could pass either...
+Speaker F: Well, a vector with three zeroes and one one.
+Speaker B: Well, it could, yeah, it could, yeah, it could do that.
+None: Okay. Uh, you know, uh, uh, a binary max.
+Speaker C: Oh, it's basically to tell the bottom node which one of the situations that's in?
+Speaker C: Or which one of the weighting systems?
+Speaker C: Right. So, I would just, if you wanted to do it, you just...
+Speaker C: I mean, the way you do it, or the one, you could pass a weighting system, though, too.
+Speaker B: I think what...
+Speaker B: That's not, that's harder than to just say there are discrete numbers,
+None: in this situation, and this says, you know, in your situation alpha. Um, because each have to have another input to tell it alpha, beta, whatever.
+Speaker F: Or is the, that's determined by what the experts are saying, like the type of...
+Speaker F: Yeah.
+Speaker F: Okay.
+Speaker B: Well, this definitely could have other, it absolutely could have other inputs from something
+None: that has, how they can directly do with these experts. And it's actually often done.
+Speaker F: So, I mean, it just seems that, like, without that, that outside input, you've got a situation where, you know, like, if, if, uh, X1 says no, you know, a low value coming out of X1, or if X1 says no, then ignore X1, you know, I mean, that seems like...
+Speaker G: Yeah, well, it could be things like if X2 and X3C, yes, then ignore X1 also.
+Speaker F: Oh, okay.
+Speaker F: Or X2 is greater than X1.
+Speaker B: It could have imagined it all towards the perfect.
+Speaker B: All right.
+Speaker B: So, these, so this is, this is one collection of technology that we could bring to the back of the app.
+Speaker C: The situations that H has, are they built into the net or...
+Speaker C: Okay.
+Speaker C: So, they could either be hand coded or learned or...
+Speaker C: Yeah.
+None: Okay.
+Speaker C: Based on training data, okay.
+Speaker B: And there were some, some, some, actually, Michael Jordan did a lot of nice work in the earlier, on,
+None: the situation which you could actually train and stuff and stuff. I don't think we're going to be in a situation where, realistic, we're going to have enough data to actually train these things.
+None: Any time soon.
+None: But, it still thinks a nice idea of the architecture is a force.
+None: So, you know, you say here's the sign and, and, and, and, and, and, update, it comes along.
+None: You could, you could, you could, you could, you could, you could do that.
+None: I still have some of the things that I'm very, very, very, very, very, very, and, I don't know.
+Speaker D: So, this is two for the case that X1 born at 4A, it's the word, but, yes.
+Speaker D: Now, X1 puts the potentially awesome board key.
+Speaker B: That would be another sort of thing.
+Speaker B: Absolutely.
+Speaker C: So, you specify one of these things for every one of those possible situations.
+Speaker B: No, because, no, because you've got a general rule.
+Speaker B: Oh, yeah.
+Speaker B: You see, the point is rather especially on the combination, you could, you could, you could, you know, you've got a general rule that says, let's just take the average.
+Speaker B: It doesn't matter who specifies one, we're just going to count the number of votes for each of the real three.
+Speaker B: So, you know, like an actual combative.
+None: So, that, that was the first thing about the first thing.
+None: Forget who voting, let's just count the number of votes.
+None: You know, you think about that much, much, much better.
+Speaker E: Okay, so, the whole problem is, yeah.
+Speaker B: And so, what he's saying here is, well, maybe that's right, but then you, you still, you can still get by without specifying all the combinations by saying, well, there are a few different situations in which you want to do a different one.
+Speaker B: Or, you know, a different one.
+Speaker B: Now, we might be able to learn, that was probably already possible that we could learn waiting on, you know, this, these, these gubby's.
+Speaker G: Well, I mean, to learn them, we need data, where are we going to get data?
+Speaker B: Well, so that's what's going on with this.
+Speaker G: Well, I mean, we need data about people's intentions, right?
+Speaker B: Which is slightly tricky.
+Speaker B: I'm not so sure. So, we're having these people come in and have these dialogues.
+Speaker B: Right.
+Speaker B: Okay, that's what I just do it.
+None: Okay, far here.
+Speaker B: So, so we're going to get them. So they have some data.
+Speaker B: They've taken before.
+None: And, really able.
+Speaker G: But what's the data about like, are we able to get these nodes from the data?
+None: I think so.
+Speaker F: Like how thrifty the user is, don't do we have access to that?
+Speaker B: No, but you don't need that. This is just combining, this is simple. This is a very important point.
+Speaker B: All you're saying here is give it these considerations from the user, the text, you know, what he says, and the kind of object, which is the best predictor of either he's going to use one of these nodes.
+Speaker B: It doesn't say, how is it that you make that decision based on user or for that matter on the input line?
+Speaker B: So there's a whole issue of how the hell do you do that and what constructions tell you from the input that you think he wants to handle?
+Speaker B: All this says it is give it, we think these things are independent, which I think they are.
+Speaker B: How do you wait?
+Speaker B: Can we create an update for that?
+Speaker G: Yeah, but that's my question. Like how do we, I mean, how do we have data about something like endpoint sub-e or endpoint sub?
+Speaker C: Well, this is based on this dialogue that we have, which one of the things that they said, whether it was the entity relations or whatever, was the thing that determined what mode it was, right?
+Speaker B: So it could be, for example, that you should really wait the intent, what you got to dialogue very strongly, because he said I want to enter it.
+Speaker B: So, for example, it could be that our dialogue processing is not all that good, and that you shouldn't give it a high way. We just aren't good enough yet to get it in line.
+Speaker B: And it may be that in this model, what it could be is that the autology information should be weighted quite highly.
+Speaker B: The autology plus the situation information is basically what determines it.
+Speaker B: Because in the kind of thing you could answer your US situation where it's possible to enter, and if those things are true and you've talked about it, it would be actually one ender.
+None: I don't know.
+Speaker G: So this is what we want to learn.
+None: So, maybe we could do it over time that you have to.
+Speaker B: The more important thing is to have an architecture in which, if you have more information as the designer you can add it, and if you get an update in so that you could turn a learning crank on it, the architecture supports that.
+None: So, I think the language...
+Speaker D: You're learning hard days, and you're going to walk around for this system, try to learn all the parking situations, and realize the trimester's approach.
+Speaker D: And then they connect you down that and then you go.
+None: So, there are, yeah, there's this geography, part of the entire version, has people doing busy on things like this.
+Speaker B: Anyway, so this is one of these. Another one we talked about is the destruction. So this says these are all empty.
+Speaker B: Oh, this is one over here about exhibiting, selling, fixing, et cetera. So this was not a situation where you would expect some weighted factors if it's a place that exhibits or sell, or repairs, or whatever, if they're commercial selling.
+Speaker B: So it'll be some of which you want to disjunction. There will be some of which you probably have to actually lay out the product with the, you know, actions really lay out to do the hopefully will be those, you can think of it as small.
+None: But that's, you know, the actual decision-making.
+None: So, I'm going to do it.
+Speaker E: So, and is there, and is there another one which we, if it turned out that there was something to do with this contract, you know, that you always think that we could be familiarized with sure that that's fine.
+Speaker G: I don't think, well, you have a, can you bring up the function thing?
+Speaker G: Where is the thing that allows you to sort of, that's only added variables, isn't it? Oh, a function property is decided. I guess not.
+Speaker G: Yeah, that's. Right. Okay. And it, so either it'll allow us to do everything which I think is unlikely. I think more likely it allows to do very few of these things.
+Speaker G: And in that case, we'll have to just write up little things that allow you to create such CPDs on your own in the Java-based format.
+None: So, I think, yeah, I think the one with, what, here's what's tricky about it. It is that the, this is not only in Swayberg, this is actually a system that's all of these methods. And you can't just drop one of these in and expect all of its solution algorithms, because, oh, good.
+Speaker B: And if it isn't, if it isn't, the problem of putting it is, it's not something you want to do. But you have to get into the guts of propagation algorithms.
+None: And that, that, I would think it's possible. I mean, what Bofi was saying is, you can always convert into a CPD. You can have one macro that takes whatever role you have.
+Speaker G: And then the system is going to have to go through its standard. I was assuming that's what we always do, because, yeah, I was assuming that's what we'd always do. It's.
+Speaker B: So, and then the other question is, is this display question? Maybe you can check that out. What we can, you can look at this before.
+Speaker C: How is, what are the options? Highly, is there some way to just see parts of things? How, how is it going to do it?
+Speaker C: Well, in terms of Java based, I think it's basically what you see is what you get. And I don't, yeah, I would be surprised if it supports anything more than what we have right here.
+None: And it doesn't matter. I mean, it does have enough space. It seems that you can stretch it out. Oh, you can make it very big. So that's not the problem. The problem I was interested in was, we all know that we can just argue and discuss it.
+Speaker D: We should discuss from each detail and future control of free up new stuff. And in this, we would consider it as your final decision. And as we ended up at time with this, it was not simpler.
+Speaker D: because you're just
+None: You know, the other people are so much different. You're the one who really does have the understanding of the new.
+None: And what the planning system is going to need is...
+Speaker B: So we've done this guys coming in Germany next week.
+Speaker B: So we'll probably be meeting you all in the last week as focus on the next guy ahead.
+Speaker B: So we're really looking at how he manages the new.
+None: So we're going to be doing probably...
+None: We probably are talking about smart phones.
+None: Parts in general.
+None: So throughout the end of the smart phone operating, I understand that the media is promoted as a striped keyboard.
+None: And that's why it's quite a lot of the picture of the system.
+None: It's not too action-finding and the issue.
+None: So the...
+None: I think we're going to have him here on Monday.
+None: And see what we do.
+Speaker D: We really want to talk to them about the parsing issues.
+Speaker D: And maybe we can expect out of the parsing issues.
+Speaker D: We don't understand.
+None: And maybe a lot of us are thinking about future work.
+None: We're not in the business.
+Speaker D: Wouldn't that be a goal to try to persuade them to abandon the way they're parsed
+None: and some things for people and all these discussion-based work in the future? One of the questions is that.
+None: What I think we want to do is get the first set of results and then show them.
+None: Yeah.
+Speaker D: So, in the missionary work only after you've done the system on a miracle.
+Speaker F: Yeah.
+Speaker B: That's my view of the...
+Speaker B: The mirror of the smart mirror.
+Speaker F: So...
+Speaker F: By the way, I'm just talking about that general end of things.
+Speaker F: Is there going to be data soon from what people say when they're interacting with the system and so on?
+Speaker F: Like, I mean, what kind of questions are we going to be asking?
+Speaker F: Okay.
+Speaker F: Yeah, yeah.
+None: The new data is on the website.
+None: Okay.
+None: You can just move by a lot.
+None: And I hope the pay is working on this.
+None: But I haven't heard from...
+None: We have someone who's supposedly gathering us 50 or so.
+None: Okay, you mean?
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Okay.
+Speaker F: Okay.
+None: Okay.
+Speaker F: I'm just wondering because in terms of, you know, I mean, the figure...
+Speaker F: I was thinking about this figure that we talked about 50 constructions or whatever.
+Speaker F: That's a whole lot of constructions.
+Speaker F: You bet.
+Speaker F: And, you know, I mean, one might be fairly pleased with getting a really good analysis of five, maybe 10 in a summer.
+Speaker F: So, I mean, I know we're going for sort of a...
+Speaker B: Rough and rate is...
+None: Including the little trigum of the appraisal.
+None: It's not...
+None: We're not going to talk about 50...
+None: Okay.
+None: So, you want the composition.
+Speaker F: So, in order to do 10 potential constructions, I agree that we do 5.
+Speaker F: You're going to need phrasal constructions or the VPs smaller.
+Speaker F: Okay.
+Speaker F: I mean, I was talking about the...
+Speaker F: You know, if you wanted to do it really into tail, and we don't really need all the detail for what we're doing right now.
+Speaker B: But anyway, in terms of just narrowing that task, you know, which 50 do I do?
+Speaker B: I want to see what people are using, so.
+Speaker B: And, you know, they inspire me.
+None: Yeah, I agree.
+None: I agree.
+Speaker E: Do we only want some blend of what people use and what you actually do?
+Speaker E: Right, sure.
+None: We're going to be able to do this.
+Speaker D: We're probably not going to have to take this because it can't be...
+Speaker D: Right.
+Speaker D: Yeah, sure.
+Speaker D: Did you raise for sure?
+Speaker D: Were they spontaneous people?
+Speaker F: Yeah.
+Speaker F: Okay.
+Speaker F: Right.
+Speaker F: Okay.
+None: Okay.
+None: Okay.
+Speaker B: So, in terms of this thing, I believe that I've never seen this.
+None: Let's see.
+None: You

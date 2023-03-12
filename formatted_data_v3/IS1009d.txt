@@ -1,0 +1,547 @@
+Speaker C: Okay, okay.
+None: I'll let the arches go first.
+Speaker B: Okay, oops.
+None: How did I do this before?
+Speaker A: Well, hi everyone again.
+Speaker A: Hello.
+Speaker A: Like before, I have to reduce the meetings from the minutes from the last meeting.
+Speaker A: And so here we go.
+Speaker A: It was discussed in the last meeting, which was opened by the presentation from the interface designer that looks would be very important on this new remote.
+Speaker A: And it is to send messages, of course, to the TV.
+Speaker A: Switch to control features, color, contrast, sharpness, etc.
+Speaker A: You would have a memory switch, a mute button, in case the telephone rings or something.
+Speaker A: Beach recognition is one of her very favorite personal features she would like to be integrated in this new remote.
+Speaker A: It should be a child-friendly design with few buttons, colorful, maybe with star-shaped or other-shaped buttons.
+Speaker A: She presented also an oversized remote, which she guarantees nobody will ever be able to lose.
+Speaker A: She was challenged on that point.
+Speaker A: But her very personal favorite really, she would very much like to see a speech recognizer integrated in this remote.
+Speaker A: The industrial designer presented her thoughts on the issue.
+Speaker A: She would like a special case made out of plastic that is very strong, not using any harmful materials.
+Speaker A: It should be recyclable and should be colorful.
+Speaker A: It should have an integrated circuit board that's highly sophisticated and temperature-resistant.
+Speaker A: She would like to see a timer and or alarm facility integrated.
+Speaker A: Technically, this thing would also have a resistor and a capacitor, a diode, a transistor, resonator, and, if possible, a rechargeable battery.
+Speaker A: And, of course, the circuit board and how it would work, you press the button, the chip is more code-related to the generator amplification.
+Speaker A: The circuit board is very inexpensive to build.
+Speaker A: And so she thinks this is a great feature to consider.
+Speaker A: This whole thing should be push buttons with a simple chip.
+Speaker A: The scrolling method is more expensive and not that practical anymore.
+Speaker A: It should be battery-operated and, of course, should have the special cases.
+Speaker A: The marketing expert who has to finally come up with to market this product has been watching the competition, has done some research on the internet, and also has used personal observations to come up with the fact that such a remote should be small, easy to use, and it should be eye-catching.
+Speaker A: From her point of view, of course, one of the most important facts is that we should get to market before our competition does.
+Speaker A: To do that, maybe one or two features should be developed on which we could dwell on, or in other words, on which our campaign could be built on.
+Speaker A: Too many new features or too many points would only confuse matter.
+Speaker A: So we prefer to have one or two features that can be really driven home.
+Speaker A: It should have a fruit and vegetable design and should have a soft feel.
+Speaker A: She feels that's really what people want today.
+Speaker A: The decision that we took last time was that the special feature we would like to see is a speech recognizer.
+Speaker A: The energy should be battery, should be on a chip, should be drain design, compact and strong, and should have buttons.
+Speaker A: And that concludes the presentation from the last minutes, from the last meeting.
+Speaker A: Now, we are ready for the presentation of the prototype.
+Speaker D: Just the look-alike, the buttonpad I'll explain.
+Speaker E: So this is what we have made. This is a model of the remote controller which we are going to build.
+Speaker E: This is in a snail shape. It is attractive and it's blue in color, bright.
+Speaker E: It has yellow buttons and all the different color buttons.
+Speaker E: So it is beautiful and compact in shape.
+Speaker E: It will be easy to fit into the hands and you can access all the buttons easily.
+Speaker E: You used to have all the buttons.
+Speaker E: The material which we are going to use for the case is plastic which is strong.
+Speaker E: The material is plastic and for the buttons it is soft rubber.
+Speaker E: Oh, that's good.
+Speaker E: That's awesome.
+Speaker E: You will be touching the buttons more so it is soft when you touch it.
+Speaker E: For the light emitting diode it is a fluorescent green and it is a bulb like an ordinary infrared.
+Speaker E: And the button's part will be explained by Francina.
+Speaker D: We decided upon including certain features are remote.
+Speaker D: Now these features include the signal emitting signal.
+Speaker D: It's the LED or LED infrared.
+Speaker D: Now we have included the switch on and off button.
+Speaker D: Now we have included another feature that is the mute button on the side of the model.
+Speaker D: Then we have included one to nine buttons for controlling the programs, the different channels.
+Speaker D: We have also included two buttons for increasing or decreasing the volume.
+Speaker D: And we have also included two buttons for scrolling up and scrolling down the program channels.
+Speaker D: Our model also contains a button which is called as a menu button.
+Speaker D: A menu button at the center.
+Speaker D: We have included a button which is fluorescent green color and this is the menu button which will control the color sharpness, brightness of the screen of this picture.
+Speaker D: We have also included a button which is called as the swapping button.
+Speaker D: Now this is a special feature which we have included.
+Speaker D: Now this button is an elongated shaped button and this is slightly flexible.
+Speaker D: So if it is turned towards the right it will take to the previous channel.
+Speaker D: If it is turned towards the right it will take to the next channel.
+Speaker D: It will take the user to the previous and the next channel.
+Speaker D: So this is a swapping button.
+Speaker B: The next channel in the numeric pattern or?
+Speaker D: No, swapping is if example you are watching the second channel and then you go to the tenth channel.
+Speaker D: And if you want to go back to the second channel you can swap this button.
+Speaker B: Okay.
+None: Yes.
+Speaker D: And at the end this remote has inbuilt voice recognizer which will recognize the user's voice and then it will act accordingly.
+Speaker D: So this is a proposed model.
+Speaker D: The marketing expert has to give her suggestion and it will be sellable.
+Speaker D: It will request a vector.
+Speaker B: Okay.
+Speaker B: Well, what I really like a lot about it is that you can reach the whole thing with one thumb.
+Speaker B: Yes.
+Speaker B: You can really hold it in one hand.
+Speaker B: You don't need two hands and it's easily reachable even for somebody with a small hand.
+Speaker A: Yes.
+Speaker A: The buttons are all raised.
+Speaker B: And if you hold it in the center of your hand you can even reach it over here.
+Speaker B: Right.
+Speaker B: So you don't have to turn it around, turn it upside down, move it up, up and down.
+Speaker B: I really like that.
+Speaker B: You really did a good job on that.
+Speaker B: My little designers.
+Speaker B: And I like the idea that the on off button is in a really prominent place.
+Speaker B: That's a really good thing.
+Speaker B: Yes.
+Speaker A: And it sort of sticks up.
+Speaker A: So you don't have to first go like, oh yeah, here it's on.
+Speaker B: The color is very attractive.
+Speaker B: These buttons around here are the mute.
+Speaker D: No, these the front buttons here are the mute buttons.
+Speaker D: On both sides?
+Speaker B: Yes.
+Speaker B: So you can push either one.
+Speaker B: Yes.
+Speaker A: Okay.
+Speaker A: So if you left handed or right handed you the button.
+Speaker B: And this brings the menu up on the screen.
+Speaker B: Yes, yes.
+Speaker B: And the orange ones are.
+Speaker D: These two are the to increase or decrease the volumes.
+Speaker D: Okay.
+Speaker D: And these two are to scroll the program channels.
+Speaker B: Okay.
+Speaker D: All right.
+Speaker D: Roll up was scroll down the channels.
+Speaker B: Looks like something I can sell.
+Speaker B: Okay.
+Speaker B: And now I'm supposed to.
+Speaker A: I have one question.
+Speaker A: Will there be anything written on the buttons like that people know or they have to learn that from a piece of paper which button does what?
+Speaker D: Yes.
+Speaker D: These buttons will have the numbers and all the rest of the buttons will have symbols.
+Speaker D: Will have symbols so that that can be easily.
+Speaker A: That you really know, you know, it doesn't have to.
+Speaker B: First point because we need the symbols because we're going into an international market.
+Speaker B: We can't have anything with language dependent.
+Speaker A: But anyway, it has to have some kind of symbols or text or something.
+Speaker A: Yes.
+Speaker E: We can have on the case.
+Speaker E: That's right.
+Speaker A: We can be printed on the case.
+Speaker E: Okay.
+Speaker D: I just want to make sure of that.
+Speaker D: And one more feature is we have a holder for this remote which is an oyster shape.
+Speaker D: A shell shape.
+Speaker B: For the snail.
+Speaker B: Right.
+Speaker B: We have the snail shell.
+Speaker B: He goes right back into his shell.
+Speaker B: Right.
+Speaker B: Well, you know, I think we could do something really funny with this too because the snail is known to be slow.
+Speaker B: And we could have some sort of little comic effect on our marketing about how this is a rapid snail or something like that.
+Speaker B: You know, that would really work.
+Speaker A: Now, what are our special features for the marketing that's really the voice recognition that's really unusual?
+Speaker B: I think voice recognition is our big selling point because nobody else seems to have that in this price range.
+Speaker A: And then the other thing would basically be shape or practicality or fuse.
+Speaker A: Yeah.
+Speaker B: Well, I think that everybody is going to say their remote control is practical.
+Speaker B: I think we have to do well on the appearance.
+Speaker B: You're really going to have the best, the cutest remote control on the block.
+Speaker B: So I think we have to play with the image, play with the snail image, play with the visual, and then the voice recognition.
+Speaker B: I think those are the two things to push.
+Speaker B: The look and the voice recognition, they're going to be our two selling points.
+Speaker A: Okay.
+Speaker A: Now, having said that.
+Speaker A: I'm supposed to make a little presentation on it.
+Speaker A: No, now this was our evaluation criteria which we just have done.
+Speaker A: Now we're going to talk about financing.
+Speaker C: Ah.
+Speaker B: But in my instructions, I think it's how I was supposed to go to the board and do something.
+Speaker A: Well, there's a production evaluation, is that you?
+Speaker A: Yeah, that's me.
+Speaker A: But that's after the financing.
+Speaker B: Oh, okay.
+Speaker B: Sorry.
+Speaker B: Sorry.
+Speaker B: Sorry.
+Speaker A: Okay.
+Speaker A: We had looks and voice recognition.
+Speaker A: Okay.
+Speaker A: Now, on the financing, we bring up the...
+Speaker A: There it is.
+Speaker A: Okay.
+Speaker A: Energy source, we say that's battery, right?
+Speaker A: That's right.
+Speaker A: Okay.
+Speaker A: Now.
+Speaker A: So we...
+Speaker A: I guess we use one.
+Speaker D: Yeah, yes.
+Speaker D: What?
+Speaker A: The seller chart, you're trying to change this project.
+Speaker A: Oh, that's nice.
+Speaker A: She told me I could just change it here and then it would...
+Speaker A: It doesn't work.
+Speaker A: Hmm.
+Speaker B: Can you just fill it in the yellow boxes or...?
+Speaker B: Oh, okay.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: Let's see.
+Speaker A: Okay.
+Speaker A: One.
+Speaker A: Okay.
+Speaker A: I'll go away.
+Speaker A: Kinetic solar.
+Speaker A: So that's in the energy source, that's all we need.
+Speaker A: Electronic simple chip on print, is that what we're using?
+Speaker A: One of those.
+Speaker A: Come on.
+Speaker A: Okay.
+Speaker A: One.
+Speaker A: Regular chip on print?
+Speaker A: No.
+Speaker A: No.
+Speaker A: That's all we need.
+Speaker A: The one case.
+Speaker A: Uncurved flat, single curved, double curved.
+Speaker B: Oh.
+Speaker E: This is a single curved.
+Speaker A: I guess it's double curved.
+Speaker A: Double curved.
+Speaker A: One of those.
+None: Mm-hmm.
+Speaker A: Case materials supplements.
+Speaker A: Plastic, we said, right?
+Speaker A: Plastic.
+Speaker A: Would rubber?
+Speaker B: Rubber because we're going to have the soft buttons.
+Speaker A: Uh, but yes, but...
+Speaker E: I think that is a...
+Speaker E: That's just for the case materials.
+Speaker A: Okay.
+Speaker A: Special color zone.
+Speaker A: We're having that, right?
+Speaker A: Yes.
+Speaker A: And then we have the interface push buttons.
+Speaker A: Mm-hmm.
+Speaker A: Scroll wheel no, integrative scroll wheel LC display.
+Speaker B: No.
+Speaker B: We didn't put the clock in it after all, right?
+Speaker B: No.
+Speaker A: Uh, button supplement special color.
+Speaker A: Yes.
+Speaker A: Special form.
+Speaker A: Yes.
+Speaker D: Yes.
+Speaker D: We do have special form.
+Speaker A: And special material rubber would, yes.
+None: Yeah.
+Speaker A: Okay.
+Speaker A: Total 7.6, whatever that means.
+Speaker E: I think that's the...
+Speaker A: That's the price.
+Speaker A: Mm-hmm.
+Speaker A: You should just...
+Speaker A: 8.2.
+None: Nice points.
+Speaker D: Okay.
+Speaker A: Yes.
+Speaker A: Okay. Yes.
+Speaker A: 8.2, right?
+Speaker A: So we...
+Speaker A: Looks like we are well within budget.
+Speaker A: Mm-hmm.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: I guess I should save this, I suppose, huh?
+Speaker B: Yeah.
+Speaker C: Oops.
+None: Ha-ha-ha.
+Speaker D: And the desktop?
+Speaker A: I just tried that.
+Speaker A: My documents computer.
+Speaker A: My computer.
+Speaker A: I don't know.
+None: Okay.
+Speaker A: Fine.
+Speaker A: Save.
+Speaker A: Okay.
+None: Good.
+Speaker A: So that's the good news.
+Speaker A: You're going to be popular.
+Speaker A: Mm-hmm.
+Speaker A: Um...
+Speaker A: So that, I think, financing was pretty simple.
+Speaker A: Mm-hmm.
+Speaker A: Now we would like to have a presentation by the marketing expert.
+Speaker A: On production evaluation.
+Speaker A: Okay.
+Speaker B: I'll take my file down so you can bring it up.
+Speaker B: Okay.
+Speaker B: Should be able to get it now.
+None: Okay.
+Speaker B: Why don't you move just to the next slide right away?
+Speaker B: You want to go to the next slide?
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker B: Well, obviously my method for the marketing of this thing is first asked the big question.
+Speaker B: Will it sell?
+Speaker B: And I think we should show this prototype to people from various age and socioeconomic groups and see about any fine-tuning that maybe little things that we haven't thought of.
+Speaker B: We can't accept every suggestion, of course, but maybe we just need to get a few.
+Speaker B: And show the prototype to consider research groups who want somebody to suddenly come to us and tell us that this button is toxic and some child will swallow it and then we won't sell any.
+Speaker B: So we have to get some input from those people.
+Speaker B: And then after that we just have to go with our best intuition.
+Speaker B: And we like it.
+Speaker B: We think it's good.
+Speaker B: We're going to get behind it and sell it.
+Speaker B: Next slide, please.
+Speaker B: Okay.
+Speaker B: Now the things that I was thinking and my wish list has really been realized in this prototype.
+Speaker B: I wanted the shape to be biomorphic.
+Speaker B: I didn't want anything with angles on all square.
+Speaker B: I wanted it to be comfy and roundy.
+Speaker B: So we've got that.
+Speaker B: The size is small.
+Speaker B: The color is bright and warm, which is what we wanted.
+Speaker B: We wanted the feel to be as soft as possible.
+Speaker B: We'll have the soft buttons.
+Speaker B: And the way this is shaped, even though it's going to be hard plastic, it feels good in your hands.
+Speaker B: So that's nice.
+Speaker B: And functionality I put last on my list because people aren't going to use it before they buy it.
+Speaker B: So paradoxically the other features, in other words, the look, the feel, and the shape, that's what people are going to get in the store.
+Speaker B: They don't have a television in the store.
+Speaker B: They can't play with it.
+Speaker B: So they'll be our main selling points.
+Speaker B: So those have been fulfilled by your prototype.
+Speaker B: And go ahead to the next slide, please.
+Speaker B: Okay.
+Speaker B: So the shape, I think, is a one.
+Speaker B: That's really excellent shape.
+Speaker B: The size is small.
+Speaker B: And these points are in the importance for the marketing.
+Speaker B: These aren't in how I feel.
+Speaker B: I think that it's plenty small enough to sell, but I think the scale is one to seven.
+Speaker B: I think we're right in the middle as far as other competitors.
+Speaker B: And our color, I think, is great.
+Speaker B: The colors are bright and warm, and we really do a great job there.
+Speaker B: And given the constraints that we had, I think we got it as soft as possible.
+Speaker B: And then functionality, I think you did a really good job on functionality.
+Speaker B: Obviously we could have added different functions, but then we disturbed something else.
+Speaker B: So I would say that we got to a five out of seven on functionality.
+Speaker B: So I think that basically we've got a great product, and we can get off and running with it.
+Speaker A: I just realized one thing.
+Speaker A: In the financing, there was no room for our voice recognizer.
+Speaker A: And I don't know how we can evaluate that or how we can include that.
+Speaker B: Well, we had what, eight euros, 20 as our cost?
+Speaker B: Yes.
+Speaker B: And so we've got four euros to go to spend.
+Speaker A: And then in the same time, we have another 4.3 euros, I mean, 430.
+Speaker A: But we have no way of presenting that to management as a finished product and saying, okay, we always recognize that costs so much.
+Speaker A: So we just have to be aware of that.
+Speaker A: And know whether the 430 will really cover that.
+Speaker B: Well, as we know in today's technological world, you can do just about anything at any price, the problem is quality.
+Speaker B: So we're just going to have to settle for whatever quality that will buy us.
+Speaker B: And it may not be the greatest quality, but it may sell anyway.
+Speaker B: Yeah.
+Speaker B: As we've seen with so many of these kind of products.
+Speaker A: I'm sorry to interrupt them, but I just remembered that there was no, that was not included, that there was no room for any special features.
+Speaker A: Okay.
+Speaker A: So to be aware of that, you want to go to the next slide, marketing expert?
+Speaker A: Well, isn't this my last slide?
+Speaker B: I don't know.
+Speaker A: Yes, it is.
+Speaker B: This is my last slide.
+Speaker B: And I'm supposed to present the scale on the whiteboard.
+Speaker B: And we're supposed to talk about those things as a team now.
+Speaker B: So if you put my last slide back up there.
+None: Oh.
+Speaker B: I'm sorry.
+Speaker B: I got to get.
+Speaker A: Wow.
+Speaker A: Why you need that up?
+Speaker B: Well, because I can't remember what I put on there.
+Speaker B: Okay.
+Speaker B: Now I'm supposed to see how long my leash is here.
+Speaker B: I think you can make it there.
+Speaker B: Okay.
+Speaker B: Alrighty.
+Speaker B: So now we're all supposed to say what we think.
+Speaker B: Okay.
+Speaker B: So on shape.
+Speaker B: I gave it one.
+Speaker B: What would you, one being good and seven being the worst?
+Speaker B: It was okay.
+Speaker B: What do you think the shape is?
+Speaker B: One.
+Speaker B: One.
+Speaker B: Okay.
+Speaker B: And Betsy?
+Speaker A: Yes.
+Speaker A: I think shape is one.
+Speaker A: Okay.
+Speaker B: And how about on size?
+None: On size.
+Speaker B: You gave it a four.
+Speaker B: I gave it a four.
+Speaker B: Yeah.
+Speaker B: I feel it's just average.
+Speaker A: I don't know.
+Speaker A: I think I would give it at least a two.
+Speaker A: Okay.
+Speaker A: One.
+Speaker D: Mm-hmm.
+Speaker E: Yeah.
+Speaker E: You and I think it is one.
+Speaker E: Okay.
+Speaker B: It's quite small.
+Speaker B: Okay.
+Speaker B: You're the designer.
+Speaker B: Of course you want to give it one.
+Speaker B: And then how about how are we doing on color?
+Speaker B: Color.
+None: Color.
+Speaker C: I gave it one.
+Speaker B: I really like all those nice bright, warm colors.
+Speaker A: I like the colors.
+Speaker E: One.
+Speaker E: One.
+Speaker B: One.
+Speaker B: One.
+Speaker B: Okay.
+Speaker B: And how about the feel?
+Speaker B: Taking into consideration texture and comfort in the hand.
+Speaker A: I think I will give it a two.
+Speaker B: Okay.
+Speaker B: I gave it a three.
+Speaker B: Two.
+Speaker B: I gave three.
+Speaker B: Three.
+Speaker E: Maybe two.
+Speaker E: Two.
+Speaker B: Okay.
+Speaker B: And the next is functionality.
+Speaker B: Where I admit I was a little hard on our team here.
+Speaker B: But.
+Speaker A: Well, it's also you can't really try it out.
+Speaker A: Yeah.
+Speaker A: The other things you have more, it's more tangible.
+Speaker A: So from that point of view, but, um...
+Speaker A: I'll give it a three.
+Speaker B: Okay.
+None: Two.
+None: Two.
+None: Okay.
+Speaker B: Three.
+Speaker B: Three.
+Speaker E: Okay.
+Speaker E: Well, um...
+Speaker B: It looks like we've got ourselves a pretty good product.
+Speaker B: Um, functionality is the only place where maybe we have to think about maybe having forbid having another meeting.
+Speaker B: But, um...
+Speaker B: Otherwise, I think we're ready to go with this product.
+Speaker B: Anybody else have any other comments or any other things that we feel we should evaluate?
+Speaker C: Uh...
+Speaker A: Here is what we're looking at.
+Speaker A: Uh, satisfaction on, for example, room for creativity.
+Speaker A: Um...
+Speaker A: Is there more room for creativity or are we absolutely happy?
+Speaker D: We can always improve.
+Speaker E: Yes.
+Speaker E: Include some more buttons and the features.
+Speaker E: Yeah, features.
+Speaker E: We can make the buttons, few buttons smaller.
+Speaker E: Uh, I think they are quite big.
+Speaker E: So I think, I mean, we can just have small buttons and more buttons in that case if we want to have more features in that.
+Speaker B: Well, then again, if we're gonna, um...
+Speaker B: Do the speech recognition thing, we're gonna, there's gonna be some buttons that are gonna have to be added for that for the recording of the speech.
+Speaker B: So that's where we're gonna have to do, maybe we can eliminate one of the mute buttons instead of having two mute buttons.
+Speaker B: And, um, then maybe we can do something with the, um...
+Speaker B: The volume control, maybe we can put that all on one button.
+Speaker B: Um...
+Speaker B: And a couple of other, maybe consolidate some of the usage and see what we can do with that.
+Speaker A: Yeah, obviously, bearing in mind that right now we are, of course, well within the budget and that we still, you know, we probably can't...
+Speaker A: With this particular item, we probably can't just add a whole lot of more things.
+Speaker A: No.
+Speaker A: Um, we need the...
+Speaker A: You know, we need to leave space money-wise for the voice recognizer.
+Speaker A: Mm-hmm.
+Speaker A: So the question really is, how do we feel with the project process?
+Speaker A: Um...
+Speaker A: Are we happy with the creativity that has passed here, or we're not happy with the new product we created, or that was created?
+Speaker A: Uh, I think, personally, I think, uh, I'm pretty happy.
+Speaker A: I'm pretty happy with the show now.
+Speaker A: Um...
+Speaker A: That's something I think I can market.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: And then the next question is, are we happy with the leadership of this project?
+Speaker A: Uh...
+Speaker B: I think you've done a good job, Ms. Leedor.
+Speaker B: Yes.
+Speaker A: And I think teamwork, I think, was very, very good.
+Speaker A: I think we were, I think, well, together as a team, yeah.
+Speaker A: Uh-huh.
+Speaker A: And, uh, I think we...
+Speaker A: Are we happy with the means we used, we used whiteboard, we didn't use digital pens, I guess, are these things?
+Speaker B: Yeah, maybe we could have used the whiteboard a little bit more.
+Speaker A: Yeah.
+Speaker A: We didn't use that enough.
+Speaker A: Yes, we could.
+Speaker A: Uh, it's maybe not in the best position in the room.
+Speaker A: Uh, you know, like, sometimes it's positioned so that it's much better visible for everybody.
+Speaker A: Uh-huh.
+Speaker A: And I think from that point, if you, we sort of ignored it a little bit.
+Speaker A: And we used the slide because it was better position.
+Speaker B: Yes, I think so.
+Speaker B: I think that's true.
+Speaker A: I think that's true.
+Speaker A: And, fortunately, we all had slides.
+Speaker A: Presentation, which made it a little easier.
+Speaker A: Uh-huh.
+Speaker A: Um, did we find new ideas?
+Speaker A: I think we did.
+Speaker A: I think we were very good.
+Speaker A: I think we did, uh, in more than one respect.
+Speaker A: And, uh, so I think we did very well here.
+Speaker A: Okay.
+Speaker A: Are the costs within budget?
+Speaker A: Yes, yes.
+Speaker A: Uh, is the project evaluated?
+Speaker A: Yes, yes.
+Speaker A: Yes.
+Speaker A: Uh, so...
+Speaker A: And celebration.
+Speaker A: And celebration.
+Speaker A: If you want to see this.
+Speaker B: Yes.
+Speaker B: Today we have apple juice and after we sell a million of them, we have champagne.
+Speaker A: So, I thank you all very much.
+Speaker A: Um, I think this was very good.
+Speaker A: And, um, I think we did come up with a new product that's, uh, feasible.
+Speaker A: Visible from the production point of view and feasible from a marketing point of view.
+Speaker A: Uh-huh.
+Speaker A: So, okay.
+Speaker A: Thank you.
+Speaker A: Thank you.
+Speaker A: Okay.
+Speaker B: Watch, I have my cord behind you.
+Speaker B: Okay.
+None: Okay.
+Speaker A: Oops.
+Speaker A: I always get it on there, but getting it off is...
+Speaker D: Oh, you have time to put me on there.
+Speaker B: But we were told we could end the final meeting at any time.
+Speaker B: Yeah.
+Speaker B: Whenever we felt we were friends.
+None: Yeah, because we were friends.
+None: Okay.
+None: Okay.
+None: Okay.
+None: I'm going to get my microphone out for my necklace.
+Speaker B: Now there we go.
+None: Okay.

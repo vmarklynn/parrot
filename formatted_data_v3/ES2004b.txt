@@ -1,0 +1,480 @@
+None: How?
+None: Maybe.
+Speaker B: Is that clear?
+Speaker B: Huh.
+Speaker B: That's green flat.
+Speaker D: No, not really too hard.
+Speaker B: Oh, my God.
+Speaker B: Okay.
+Speaker B: That's good.
+Speaker B: Right, okay.
+Speaker B: I'll go over what was decided on universal control.
+Speaker B: One hand set for all TV videos.
+Speaker B: That it was important that the product that built a wide range of consumers, wide age range, not limited in one.
+Speaker B: It's very important to affect the company's image and our product, the profession, and electronics, and that kind of thing.
+Speaker B: Our budget would have to affect, try not to reflect our budget that we might have a bit of...
+Speaker B: Oh, you can do it.
+Speaker B: The dissonance between what our budget was and what we wanted to look like.
+Speaker B: We discussed the flip-o from design, reducing the size of control and an electronic panel.
+Speaker B: The further features that we're programming, things like that.
+Speaker B: Three presentations I've got written here, so...
+Speaker B:...surely here for my team, though.
+Speaker C: Is it okay if I postpone that to later? I just want to get access to a little bit more information.
+Speaker D: Is that okay?
+Speaker D: Okay, yeah, okay, first. Can I grab the...
+Speaker B:...like me?
+Speaker D: Thanks.
+Speaker D: Okay, so, I think...
+Speaker B:...and F.A.
+Speaker B:...butching.
+Speaker B: All right.
+Speaker E: Maybe.
+Speaker D: Okay, this is the working design presented by me, the industrial design extraordinaire.
+Speaker D: Okay, this is where I went a bit mad with PowerPoint, so...
+Speaker D: Well, the first thing question asked was, what are we trying to design?
+Speaker D: Well, a device which basically just sends the signal to the TV to change it, and just say whether that be the power or the channel, or the volume, everything is just some sort of signal to change the state of the TV or other appliances, sending a signal to.
+Speaker D: So, I decided that I'd have a look at what other people have designed and try and take some inspiration from that.
+Speaker D: But although we will want to be taking ideas from other people, we want to make sure that our design stands out.
+Speaker D: And I thought that was something that, well, it wasn't really in my area because I'm dealing with the inside, really.
+Speaker D: I ran out of time so I couldn't do this one as fun as the last time.
+Speaker D: And I found out that most controls use some form of infrared sent signals to the TV, presumably because of the cost issue of something like the same thing that can be used wireless, and you don't need to send very much information.
+Speaker D: Most of them are powered by some form of battery.
+Speaker D: Now, R1, I'm not sure whether we want to look at the size issue, because most of them are powered by AAA batteries, but those can be quite bulky.
+Speaker D: So, I didn't know if you wanted to look at something else, so we could shrink down the size of the control.
+Speaker C: Can I interject to ask the question?
+Speaker C: Is that appropriate?
+Speaker C: You're saying the AAA batteries are small or the current?
+Speaker D: No, no, if you look at most remote controls, they're quite chunky, and that's because of the size of the batteries.
+Speaker D: They have to be, obviously, this certain size to fit those batteries.
+Speaker C: The AAA's are the smallest you can get.
+Speaker D: Yeah, well, you can get the sort of circular round ones, but I'm just wondering about power consumption and how much you need to send the battery across, which leads on to the next point about being small and easy to carry around.
+Speaker D: Now, the ones at the moment are small, but I was just wondering if we can look at something a bit smaller.
+Speaker D: Now, the main components I came up with were obviously the power source for the batteries, because otherwise it's not going to work.
+Speaker D: As I said about the which batteries we're going to choose, we can discuss that later, and then obviously you need something to decode the information that you're putting in from the controller and to turn it into an infrared signal, which we're going to use to send the information.
+Speaker D: Now, these have a wireless range up to about five meters, which is so suitable for anyone who's watching their TV unless they're in a cinema, which not most people do say as we're applying for the most audience, that should be fine, and then I was just had a quick look at the external design, but I left that mostly to the interface designer.
+Speaker D: And so this is what I had as the basic idea of what we want to do.
+Speaker D: It's not a proper circuit.
+Speaker D: I'm not sure if it works or not.
+Speaker D: I'm not even confident that those are the real way you'd wire it up.
+Speaker D: But anyway, we've just got the power going to the infrared bowl with the chip and the UI interface.
+Speaker D: Which would basically, when you pressed anything, the chip would convert it into some form of IR data, which could be decoded by the TV receiver, which obviously means that we're going to have to conform to whatever form of communication that the TVs are already using.
+Speaker D: And since that's another reason to use infrared, because that's what all TVs are doing.
+Speaker D: And then finally, we want it to be available to a wide audience at a low cost.
+Speaker D: So all the components that I've put forward are low-end costs, so that should be good.
+Speaker D: It should be different enough from the alternative products to get a good consumer base.
+Speaker D: We were talking about it before, and also just something that I was thinking about.
+Speaker D: Because they're small, they're also easy to lose.
+Speaker D: So if we could look into some way of, I don't know, some anti-going down the side of the sofa.
+Speaker D: The thing that you could have, that was just sort of a general point there.
+Speaker C: That's a very important point. It came up in our market research findings too, so I can refer to that.
+Speaker D: I really like my tip, isn't it?
+Speaker D: Yeah, that's what I came up with there.
+Speaker B: Would you like to continue more from there?
+Speaker B: It's completely different.
+Speaker A: It's completely different.
+None: It's completely different.
+Speaker A: I think that's okay. I feel right.
+Speaker D: It's a good function.
+Speaker D: I think it's a good function.
+Speaker A: It's a good function.
+Speaker A: Actually, some of my points might overlap with what William just mentioned.
+Speaker A: But basically, my method was like whatever brainstorming we did in the last movie, just took up valuable points and started developing on that.
+Speaker A: There might be some missing loops in this thing, which I think will take a feedback from the marketing.
+Speaker A: Because I haven't had some marketing data, and basically every product is market driven.
+Speaker A: So purpose as William already said, I would put it to simplify the interaction with TV, to make it as simple as possible.
+Speaker A: And to summarize, I would say it should be user friendly by being easy to use, rather than having a lot of complex buttons, because you can have an engineering driven, maybe having 100 buttons, and maybe having a remote control, which has the main features, like volume control or channel changing the channel or whatever.
+Speaker A: But we have to make it unique so that people want to buy it, will punch in these two features together.
+Speaker A: So what the concept is to have a flip top model, the main functions such as which are often used will be on the top, and the complex functions which say you can say like the young generation or trendy generation want to say program their favorite channels or whatever, can be put in the middle part of the flip top.
+Speaker A: So it could be accessed by wider range of audience.
+Speaker A: And we can punch in new features such as added features such as shockproof body, and maybe designed to appeal to a lot of people.
+Speaker A: Finding most people prefer user friendly rather than complex remote controls, because there are times like people have used a remote control for, say, a year or something, and they are not used maybe 30 to 40% of the buttons.
+Speaker A: So it is no use of punching in those, trying to put in those things on the top of the remote controls and try to confuse our user.
+Speaker A: As we saw we have to make a profit also.
+Speaker A: So we can maybe go for an economy of a higher production by 50 million we said.
+Speaker A: With that I think we will be able to achieve the economies of scale also.
+Speaker A: So we can add in more features and make it less costly.
+Speaker A: And that is, so this is, if you ask me personally, I would make a flip top with a trendy design and maybe we should look at also like the buttons, whether they are like soft or a little hard because there are times where the buttons tend to be a bit hard after continuous usage and all that.
+Speaker A: So in overall the simple and user friendly design, any comments?
+Speaker B: I think we should ask for it at the end.
+Speaker B: Okay.
+Speaker B: So anyone wants to write something down, or want to put them up at the end?
+Speaker C: I have to move it one time.
+Speaker C: I need to push it a bit more.
+Speaker C: A bit more?
+Speaker C: Yep.
+Speaker C: I do.
+Speaker A: Okay.
+Speaker D: I want to go a bit more.
+Speaker A: Is that okay?
+Speaker C: Thank you.
+Speaker C: Just pull it closer a little bit.
+Speaker D: You should be able to.
+Speaker D: Okay.
+Speaker C: Get it right over.
+Speaker C: Thank you.
+None: Okay.
+Speaker C: I am going to look at the functional requirements from the marketing point of view.
+Speaker C: And obviously our starting point with marketing is always market research.
+Speaker C: So that's where we started.
+Speaker C: We used our usability lab, the company's usability lab.
+Speaker C: We did our usual selection methods to get a cross section of the general public male and female all age groups on 15 upwards.
+Speaker C: And we observed them in the lab, just their general use of the remote control.
+Speaker C: You can see we had 100 subjects there.
+Speaker C: Our findings, lots of findings, I have just summarized some of them here.
+Speaker C: The overall thing, which I have at the top there in italics, is that users dislike the look and feel of current remote control.
+Speaker C: So that's obvious design implications there.
+Speaker C: We found that 75% of users find most remote controls ugly.
+Speaker C: 80% would spend more money when a remote control would look fancy.
+Speaker C: We were quite surprised by that finding.
+Speaker C: But that's quite a high portion of our international target group are prepared to spend more money for something that's a bit nicer.
+Speaker C: But nice looking.
+Speaker C: Current remote controls do not match well with the operating behavior of the user overall.
+Speaker C: For example, you can see below there 75% of users zap a lot.
+Speaker C: So you've got your person sunk back in the sofa channel hopping.
+Speaker C: So again, there's power implications there.
+Speaker C: 50% of users only use 10% of the buttons.
+Speaker C: So again, a big design issue there.
+Speaker C: And possibly we can also cut back on cost if we don't have so many functions actually on the remote control.
+Speaker C: The biggest frustrations that people found was regard to personal preferences were something that you mentioned earlier.
+Speaker C: Remote controls are often lost in the room.
+Speaker C: It's the slipping down the back of the sofa type of thing.
+Speaker C: 50% were particularly frustrated by that.
+Speaker C: 34% of people said they take too much time to learn to use.
+Speaker C: And I think that ties in with the previous finding of people only using 10% of the buttons.
+Speaker C: They just can't be bothered to learn about the other functions.
+Speaker C: Slightly more than a quarter of people said it was bad for repetitive strain injury.
+Speaker C: You know, there's small movements of the remote control can lead to kind of shoulder and elbow problems.
+Speaker C: The vast majority of the 35 and under age group would like a good crystal display and speech recognition.
+Speaker C: Again, that was to aid, I think, in when they've lost the actual remote control, some kind of speech recognition.
+Speaker C: Something we didn't put to them, but which I'm thinking of now is even if perhaps the lost control can give off a bleep every now and again till you find it or a flashing light possibly.
+Speaker C: That trend reverses in the older age groups.
+Speaker C: So 35s and unders who would like those two features.
+Speaker C: That kind of evens out 35 to 45s and in the older age group it kind of reverses and not supported with this.
+Speaker C: I had marvelous tables and things that I could show you, but I think I'll just keep it simple.
+Speaker C: If there's any more information I can email you.
+Speaker C: Extra details. Is that okay?
+Speaker B: Right.
+Speaker B: We have new project formats.
+Speaker B: We're not going to be using teletext.
+Speaker B: Partly consumers consider outdated for the internet now.
+Speaker B: Our control is only going to be for TV. It's not going to be combined control, which limits all of the different things.
+Speaker B: It limits the cost for us.
+Speaker B: It also makes it easier to understand.
+Speaker C: So can we not program a video with this remote control?
+Speaker B: Says for TV only.
+Speaker B: So it looks like this channel.
+Speaker B: I think maybe Skye, things like that might be incorporated into it.
+Speaker B: But I don't know what do you think it just said for TV only.
+Speaker B: Would that imply a video using controls?
+Speaker B: Yeah.
+Speaker B: Do you do video as well?
+Speaker D: I don't know.
+Speaker B: Well, if you get combined TV and video.
+Speaker D: Yeah. If you've got Skye, one of those Skye Plus boxes now you can record straight off the TV anyway.
+Speaker D: On to the TV hard drive or something.
+Speaker B: I think we've seen it still got small and soft.
+Speaker B: Yeah.
+Speaker B: So grabbing.
+Speaker A: Anything about that on the market research or something regarding whether people want a combined something on that?
+Speaker C: We didn't really look into that, but remember we found that finding that most people only use about 10% of the buttons.
+Speaker C: I think that those did tend to be the basic channel hopping things and on and off of the video fast forwarding so on.
+Speaker C: And I think it's sort of general knowledge that people do find programming their videos a night.
+Speaker C: So I don't know if that's something we need to do.
+Speaker D: Just as an idea on the speech recognition thing.
+Speaker D: It would probably be quite expensive to incorporate an entire speech recognition thing and they're not that great.
+Speaker C: I've just called up that table there.
+Speaker C: We asked those two questions. The table relates to both questions so we didn't differentiate.
+Speaker C: Would you prefer an LCD screen? That's a multifunctional mode.
+Speaker C: And would you pay more for speech recognition and remote control so you can see how the yes, no sort of varies across the age group.
+Speaker C: A substantial number of don't know is in the older age group.
+Speaker C: I think that's just general fear of new technology.
+Speaker D: But on that again I just thought because you can get those key chains now and you whistle.
+Speaker D: And then it allowed for loud noise to let you know where it is.
+Speaker B: So I thought that could be for us.
+Speaker B: We do have a budget limitation that we can't control ourselves.
+Speaker B: So I think when we can take a cheaper option which still does the same kind of thing.
+Speaker B: Because it is something.
+Speaker B: It needs to be the thing that you use to find it needs to be something you don't lose.
+Speaker B: You're listening to whistling.
+Speaker B: Maybe on the TV you could put like a pack on the TV or something.
+Speaker B: So you can't see the remote. You go and press the button on top of the TV and it beeps.
+Speaker B: And it beeps.
+Speaker A: Yeah, okay.
+Speaker B: It's over there.
+Speaker B: It's a super idea.
+Speaker B: But that sounds a lot cheaper too.
+Speaker B: Yeah.
+Speaker B: The third thing was that we have to make sure the corporate image is very much incorporated into the handset.
+Speaker B: So we want logo.
+Speaker B: We want fashionable trendy.
+Speaker B: I mean what you were talking about with the marketing.
+Speaker B: People paying more to loot goods.
+Speaker B: We need to focus on that as well.
+Speaker C: Further market research will be needed to focus on what that is.
+Speaker C: It's going to be different for a 15 year old from somebody who's 60.
+Speaker C: And also across the world of reaming the international market.
+Speaker C: What is attractive to a trending New Yorker and what is attractive to a retired South African?
+Speaker C: I don't know.
+Speaker C: You get the idea.
+Speaker C: It's going to vary around the world.
+Speaker C: At the end of the day, the engineering design is one thing.
+Speaker C: It's the user interface design that may sort of be a fashionable aspect of it.
+Speaker C: We might have to change the different markets around the world.
+Speaker A: So are we talking about a single model or maybe a classic design?
+Speaker D: Well, yeah, you could have a number of different designs.
+Speaker D: I mean inside that would be essentially the same.
+Speaker A: We just could be same in the body, because we're not good at it.
+Speaker A: So...
+Speaker B: What about...
+Speaker B: We were talking about the buttons.
+Speaker B: The controls that are coming out now have kind of big rubber buttons.
+Speaker B: Not tiny, but on big rubber buttons.
+Speaker B: But what about...
+Speaker B: I mean, because we've got to make it original.
+Speaker B: What about...
+Speaker B: You know with the touch screen, you do?
+Speaker B: Yeah, that's what I was just...
+Speaker B: Yeah.
+Speaker B: So it's like a little panel that you touch rather than a button.
+Speaker B: Which shouldn't wear out as much either.
+Speaker D: Well, no, because you don't actually have to press.
+Speaker B: I don't have to press it, you just have to put yourself onto it.
+Speaker B: I think that might appeal to Japan thinking young office people trendy.
+Speaker C: It will appeal to sections of the market.
+Speaker B: But quite easily labelled so that anyone can...
+Speaker B: Oh yeah, that's obvious what that's for.
+Speaker B: And it's not daunting to maybe the older generation.
+Speaker D: Well, say ergonomics, as we're saying with the different designs.
+Speaker D: Ergonomics, there's sort of physically different things.
+Speaker D: Because if you've ever seen the Xbox, they had to make two different sized controllers.
+Speaker D: Because people in Japan wouldn't buy it.
+Speaker D: Because the controller was physically too big.
+Speaker D: Because they're cut just generally.
+Speaker D: Japanese people have smaller hands.
+Speaker D: So they can get around the controller.
+Speaker D: So if you...
+Speaker D: I don't know what, because you obviously can have bigger buttons for some countries or something.
+Speaker D: Small ones rather.
+Speaker A: Maybe to...
+Speaker A: It was indicated that the risk for the replicated use, the injuries.
+Speaker A: So a touchscreen could be a better option for them.
+Speaker A: Yeah.
+Speaker A: So a bigger...
+Speaker A: Okay, so you're dividing designs based on not only segment age groups.
+Speaker A: You're dividing it according to the countries also, the market.
+Speaker A: Maybe for US and all you can have a slightly bigger remote menu.
+Speaker A: And maybe in Japan and all you need to have is small.
+Speaker B: I think we have to design one product.
+Speaker B: And then the company can take it wherever they want to.
+Speaker B: And then they can make it smaller, or they can make it bigger, or they can change features slightly.
+Speaker C: The internal engineering design has got to remain the same.
+Speaker B: It's going to be the same.
+Speaker B: So we need to focus on just one thing.
+Speaker B: You can get bogged down in lots of different possibilities.
+Speaker C: I'm concerned when you raise the RSI issue again, the p additive strain injury.
+Speaker C: I don't think just moving your finger around in a small screen is going to deal with that enough.
+Speaker C: That is still a kind of question mark issue, how we deal with that.
+Speaker C: RSI tends to be caused by repetitive small movements.
+Speaker C: I really can't get my head round.
+Speaker C: This one is me.
+Speaker C: I have to be postponed to a future meeting, but it's something we should think about.
+Speaker D: I was just thinking about how you can combat that.
+Speaker D: Because without doing something where you have to move your arm.
+Speaker D: I know.
+Speaker B: And it becomes ridiculous.
+Speaker B: Yeah.
+Speaker B: I think that's the only way that you can avoid that issue.
+Speaker C: Do we have to initially, you know, looking at the findings here, focus on a younger age group initially, and then broaden out the market later?
+Speaker C: Do we really have to go for everyone right away?
+Speaker A: Focus on the biggest market.
+Speaker A: Yeah.
+Speaker C: When we've been throwing up our ideas, we're automatically talking about business people, young people trying to do it.
+Speaker B: We are talking about the type of company that we're working for as well.
+Speaker B: They want it to be fashionable.
+Speaker B: They want it to be trendy.
+Speaker B: And you wouldn't automatically assume, associate that with the older generation.
+Speaker B: Now, with the baby boomers, the older generation are actually larger.
+Speaker B: They have a greater population than us young people.
+Speaker B: But I don't think we're focusing on that.
+Speaker B: I think we are focusing on a sort of mid-range business kind of class.
+Speaker C: I'm just thinking of budgetary issues too.
+Speaker C: For when it does get to the broad scale marketing stage, we want to waste money, not be profligate.
+Speaker C: And, you know, focus on where the idea will be taken up.
+Speaker C: First, it's more slightly to be taken up.
+Speaker C: First of all, where the main purchasing power is coming from for a product like this.
+Speaker B: Okay.
+Speaker B: So, the remote control functions, we've got the TV, we've got the video.
+Speaker B: Now, there's, I can't remember what it's called, the little code at the end of program details.
+Speaker B: Video pass.
+Speaker B: Yeah.
+Speaker B: We could use that as an alternative to programming in times, things like that.
+Speaker B: Yeah.
+Speaker B: Is that, I always find that really easy when I discovered it.
+Speaker B: Mm-hmm.
+Speaker B: Because you've got your general record anyway.
+Speaker B: There's a program on you once put the card on, that's fine.
+Speaker B: But if you do want to take something in today's time, you're not sure if you're going to, you put the number in, and it's just a number.
+Speaker B: It's not a date, it's not a time, it's not a channel, it's not when it finishes, it's not anything like that.
+Speaker D: It's just a number.
+Speaker D: And you wouldn't, you wouldn't need a whole host of extra buttons for that.
+Speaker D: Yeah.
+Speaker D: You just need to work, because you've already got numbers there.
+Speaker B: You've already got numbers there.
+Speaker C: I'm not going to cross that function, but it sounds wonderful.
+Speaker B: It is after, if you look in the newspaper, a TV guide or any TV guide, there's a five, six digit number afterwards, and that's number you put in.
+Speaker B: Huh?
+Speaker B: And it's recorded, but it's going to be on on Tuesday, but ten o'clock, on the seventeenth, things like that, so you don't have to worry about dates, and you don't have to worry about times.
+Speaker B: And it has been around for a long time.
+Speaker D: It's been around for a long time.
+Speaker D: It's just, it's not very well advertised.
+Speaker B: No, it's not.
+Speaker B: I don't know.
+Speaker B: I think if awareness was kind of much more fun about that.
+Speaker D: Yeah.
+Speaker D: So if you've got something like Sky Anyway, you can just click on it, you can just press the button on the program once, and it will record that program.
+Speaker D: Well, it's on it.
+Speaker D: You press it on it twice, and it will record the whole series.
+Speaker D: Excellent.
+Speaker D: So that, yeah.
+Speaker D: But just add that function.
+Speaker D: Yeah.
+Speaker D: It would be really good.
+Speaker D: Okay.
+Speaker C: Can I just run this past your oil that occurs to me?
+Speaker C: I don't mean to quickly jump from one subject to another, but just discussing the different age groups and targeting the different age groups.
+Speaker C: It occurs to minority producer on mobile phones.
+Speaker C: That's kind of what led us on to comparing TB remote controls with their design features.
+Speaker C: Chain companies like Carful and Warehouse, you can pop in anytime with a phone that you bought for them, if you've got any problems with it, and they'll fix it before the company, you can use their telephone.
+Speaker C: Is it worthwhile with our retail outlets having a similar kind of service?
+Speaker C: So that if older users were deterred from buying this, if they know they can just pop into one of our high street outlets, you know, which button is it I press for this?
+Speaker C: That's a free aspect of our service.
+Speaker C: Would that not make it more attractive to them?
+Speaker D: Mm.
+Speaker D: But the only problem is that with a mobile phone, you sign for a contract.
+Speaker D: So the companies who you deal with have actually got an obligation to help you out and also, I mean, it's fair enough that I have some sort of help service, but I'm not sure how much the cost would be.
+Speaker B: Right. The functionality of it in the sense that you're sitting there, you're pressing this button and your TB's not doing it.
+Speaker B: All right. Taking your TB and your phone is saying, look, this is what I'm doing, it's not what the question I do.
+Speaker C: If it was something as simple as you couldn't change the channel, but I mean, for a three anymore, or are we absolutely deaf and it's only going to be for TB in video?
+Speaker C: Yeah, I mean, no.
+Speaker D: Okay. Just a thought.
+Speaker D: I mean, instruction, but I feel like I'm saying.
+Speaker B: I mean, there's customer service.
+Speaker B: There will be a customer service number thing that you can phone up and speak to.
+Speaker B: Sure. And that way there's no call out charge. There's no extra person has to walk to your shop in the high street.
+Speaker A: Yeah. I think I'm going to do much of an effort for a person to, for a phone, maybe he might walk down the street.
+Speaker A: But for a remote, he will just...
+Speaker C: Not perception simple functions because we're focusing on that. Yeah.
+Speaker B: We should focus on making manuals user-friendly as possible because a lot of them are just trying to write in lots and lots of pages.
+Speaker B: It puts people of reading them, so they just do the obvious.
+Speaker B: Sure.
+Speaker B: That should be something I'm thinking about.
+Speaker B: What other functions that we need?
+Speaker B: I'm not sure if we need a design decision now, but we should think about...
+Speaker B: Because you've got the dilemma between old batteries, that's why I think you're back.
+Speaker B: What about phone batteries? What kind of batteries are that?
+Speaker D: That's specially made for the mobile phones.
+Speaker D: But they come with the charger. I mean, you could bundle a charger.
+Speaker B: They've been last quite a long time.
+Speaker B: And if you had... The thing that you get with mobile headphones, you sit it in its charger when you're not using it or at night or something, but it doesn't really matter because it never really runs out because it lasts a long time when it is charged.
+Speaker B: Something like that. Shoot with juice.
+Speaker D: Yeah, if you had one of those, just coming back to your other point about pressing the button and setting off the bleeper and the rim, it could be on that.
+Speaker B: Yeah, on that as well.
+Speaker A: So, are we talking about the concept of a rechargeable?
+Speaker D: Yeah, some sort of docking station.
+Speaker B: May charge for a little bit of protection.
+Speaker B: So, the rechargeable would be your...
+Speaker D: Yeah, that would be fine. And also that would mean they wouldn't have to go out buying batteries all the time.
+Speaker B: Yes, which is too.
+Speaker B: The shape you've got trendy. I don't want a big box with lots of things.
+Speaker B: You don't want a tiny sort of little thing either because then you have got the repetitive stranger, no matter how much you try and make it simple.
+Speaker C: And we don't want so many remote controls look absolutely identical.
+Speaker C: These long-grown things with the same coloured buttons or crammed in on the surface.
+Speaker C: We definitely, an obvious thing, a very simple thing, is to get away from these brown rectangles. We don't want that.
+Speaker B: Okay, so we've got a flip screen.
+Speaker A: What I was thinking of a design which Nokia came up with almost six or seven years back.
+Speaker A: Basically, we have a flat one. It looks like a box, like a chocolate. That's very strenuous because your thumb is slightly up.
+Speaker A: So, they come up with something like this, curved up. So, here. And you don't have to bend your thumb too much.
+Speaker A: So, it's like a banana cutter, kind of curved up with a boat.
+Speaker A: So, what happens is you don't have to press your thumb too down.
+Speaker A: So, it's already curved up. So, your thumb doesn't need it.
+Speaker A: So, we can have a mold it according to your...
+Speaker A: The way you hold up. It's kind of semi-circular in the bottom.
+Speaker A: I wouldn't say exactly semi-circular.
+Speaker B: So, when you look into the company logo, things that are associated with the company, in view to try and incorporate that into the design of the product?
+Speaker B: I mean, for example, if it was a C or something like that, you could have it in a vague C shape that opens up kind of like a shell or something.
+Speaker B: Something along those lines to be able to incorporate it quite obviously into the design, while also making it quite different from anything else you can say.
+Speaker A: If you look at that, what we were talking is to make it more...
+Speaker A: Other than like, C-shells logo could become...
+Speaker A: You could put a logo in the corner of the model, rather than, you know, trying to make it like a C-shell or whatever you're telling it.
+Speaker B: Well, we need to think about how it's going to look different.
+Speaker C: I think that's... that sounds really attractive idea.
+Speaker C: If not come across anything like that before, if it kind of...
+Speaker C: Yeah, and that opens out into your flip-top, then it's nice to...
+Speaker C: You can make it lightweight plastic, nice to hold in the palm of the hand.
+Speaker C: And just because you're having to actually insert in between the two covers, that's going to take care of some of the additive strain injury, trying to prevent a lot of it, I think.
+Speaker C: I think it's a really nice idea.
+Speaker C: And plus, you can get... even though we're using plastic, you can still...
+Speaker C: I mean, think of the design you can get in plastic, you can do a nice C-shell or a scallop shell exterior.
+Speaker B: Or you could do different... like you get with mobile phones, different fashers.
+Speaker B: You could have different kind of casings.
+Speaker B: Yeah.
+Speaker B: So you could have like psychedelic ones for younger people and sleek ones.
+Speaker C: Less chance of it being lost, too. It's not like a chocolate brown-loseenge that's going to go down the sofa.
+Speaker C: People might want to put it on their mantelpiece or whatever, as if it looks attractive enough.
+Speaker C: As a kind of ornament, and they're not going to lose it so much at all.
+Speaker C: It's easy to fit nice to handle.
+Speaker A: Yeah, maybe we could come with some C-56 designs and then choose which one would have been some of those.
+Speaker A: That could be the most common design.
+Speaker A: Okay.
+Speaker A: If you can think of C-56.
+Speaker B: Right, I think we have to round it out.
+Speaker C: Can I just quickly go over the new project requirements that I haven't missed anything?
+Speaker C: There's no teletext. It's only for TV and by implication video.
+Speaker C: Corporate image should be incorporated in their remote control.
+Speaker C: Something about video plus.
+Speaker B: That was in cutting down the number. That was kind of separate.
+Speaker B: Cutting down the number of odd functions.
+Speaker B: Right.
+Speaker B: Making it simpler instead of having lots of things.
+Speaker C: So when they press for programming, you can come up on the LCD reminder about using video plus.
+Speaker C: So that they will look at the guidance.
+Speaker C: Is this nothing to do with the project requirements? Is this just a thumbs up and add on feature?
+Speaker B: It kind of takes the place of having a button to press for the date and having the right press for the channel and things like that.
+Speaker B: So it's kind of doing away with the programming feature.
+Speaker B: Yes.
+Speaker B: Right.
+Speaker B: It could be an advertisement feature rather than design feature.
+Speaker B: You know, draw attention to that and also pay lip service in the instruction manual.
+Speaker B: Because it's very simple. So putting it down in words should be helpful.
+Speaker B: And they be chargeable batteries.
+Speaker C: Yeah.
+Speaker C: Was there anything else there that we...
+Speaker C: Any new project requirements?
+Speaker B: We've got the button that I think will work through that with the design event.
+Speaker C: That's not at the moment a requirement. It's something we're looking at.
+Speaker C: Yeah.
+Speaker C: Preference. So we come around to market research at some point.
+Speaker B: And we're talking about there being an alarm or something, a beeping or being lost.
+Speaker B: Learning how to use it should be as simple as possible.
+Speaker B: There aren't going to be that many functions incorporated into it.
+Speaker B: So it should be fine. And the instruction manual.
+Speaker B: I don't know if we deal with that.
+Speaker B: I think...
+Speaker B: Yeah. I'm definitely going to work that way.
+Speaker B: Okay.
+Speaker C: Yeah. I think that's us.
+Speaker C: What would you specifically like marketing to look at before the next meeting?
+Speaker C: Or should I just sort of generally look at all the issues?
+Speaker B: I think you might get guided, but...
+Speaker B: I...
+Speaker B: In-sharked manuals.
+Speaker B: Because there tends to be a demonized thing there.
+Speaker B: Everyone's got like big pilots and button-on videos.
+Speaker B: Okay.
+Speaker B: Oops.
+Speaker C: Questionnaireful.
+Speaker C: Yes. Right.
+Speaker C: Because we're at lunchtime and now I think...
+Speaker B: Okay.
+Speaker B: I think you can email me if there's any more questions.
+Speaker B: Absolutely.

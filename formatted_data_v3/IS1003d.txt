@@ -1,0 +1,979 @@
+Speaker C: I'm sorry, not really.
+Speaker C: Thanks for being here.
+Speaker B: Your judgment is biased.
+Speaker C: I need to do my control and stay for her time.
+Speaker B: So, let's go for our detailed design meeting.
+Speaker B: So, I will still play the role of the secretary and we'll have first the presentation by our user interface designer, David Jordan, and our industrial designer, Baba.
+Speaker B: So, we'll have to evaluate your proposed remote control and have an idea of the price that this thing will cost.
+Speaker B: In case if we all agree on the fabric of building a C3 remote control, we'll evaluate the production.
+Speaker B: So, maybe I will let our two designers talk about some...
+Speaker B: I have slides.
+Speaker B: You have slides.
+Speaker C: This is our product prototype.
+Speaker C: This is made by Klin.
+Speaker C: It looks strange.
+Speaker C: The basic color is yellow and red. Yellow is our company color. I read it. It's more attractive.
+Speaker C: So, we use two basic colors.
+Speaker C: At the ship, there's two basic ships. The first is the cycle.
+Speaker C: And the second is the triangle space.
+Speaker C: We call it mushroom design. It looks like the mushroom design.
+Speaker C: This is the introduction of our product.
+Speaker B: Genetically modified mushroom, I will say.
+Speaker C: Okay.
+Speaker C: Yeah, the next slide. So, there are several key features of our prototype.
+Speaker C: The first is that it is fancy. I'm sure this would be the unique design in the market.
+Speaker B: Maybe I hope so.
+Speaker C: Yeah, so it's a fancy design and a unique design.
+Speaker C: The second key feature is that the circle channel selection.
+Speaker C: In the traditional controller, you use button to select the channel.
+Speaker C: But now we have a suck circle. So, we can turn this ball to select channel.
+Speaker C: It's quite convenient for users to use it.
+Speaker B: Yeah, but don't touch. Don't destroy your first time.
+Speaker C: Okay. The third feature is the stable triangle base.
+Speaker C: This triangle base is very stable. So, it's unlikely you cannot find it.
+Speaker C: So, you can put it in the table. So, you can turn the ball to select the channel.
+Speaker C: And there's some cute button. You can see the shape of the button is a mushroom.
+Speaker B: Everything's mushroom. So, we can call our remote control that mushroom.
+Speaker C: It was not really mushroom because you have lemon shape.
+Speaker C: Yeah, that's why if you put it in the table, careful somebody will eat it.
+Speaker C: I hope nobody will eat it anyway. You're trying to get the food aspect.
+Speaker D: Mushroom was not in the trance.
+Speaker D: For its vegetables.
+Speaker D: It's vegetable.
+Speaker C: It's vegetable.
+Speaker B: It's something eatable.
+Speaker C: We integrated the different color.
+Speaker D: But this is not a mushroom anyway. So, it's fine.
+Speaker C: I think we take into account what you said about fruit and vegetable biasing.
+Speaker D: These colors.
+Speaker C: And spider color.
+Speaker C: And very sophisticated material.
+Speaker C: So, next slide.
+Speaker C: So, what I can add is that he talks about what is outside.
+Speaker C: So, what is inside is what we talked about.
+Speaker C: The chip is a low level chip.
+Speaker C: So, we cut it.
+Speaker C: The low level chips inside.
+Speaker C: And the LCD button.
+Speaker A: So, where's the battery?
+Speaker C: The battery is under the base.
+Speaker B: In the base.
+Speaker D: And where is the solar set?
+Speaker C: This is a kind of new revolutionary receptor that we can put outside.
+Speaker B: Do you think it won't be, it won't Christ increase the price?
+Speaker C: I don't think so.
+Speaker B: Okay, we'll see after.
+Speaker B: We'll have the first.
+Speaker B: Okay.
+Speaker B: So, Mr. Monet, what's your opinion, according to this remote control?
+Speaker D: I mean, we're going to try to measure how good it is instead of just talking about.
+Speaker D: We had three key points for this remote control design.
+Speaker D: And first one was fancy look and feel.
+Speaker C: Yeah.
+Speaker D: So, we tried to judge this feature with a one to seven scale.
+Speaker D: One being no.
+Speaker D: I think.
+Speaker D: Just let me check.
+Speaker C: So, 4.3.5, it means it's acceptable.
+Speaker D: One being true and seven being false.
+Speaker D: Okay.
+Speaker D: Oops.
+Speaker D: So, do we have a fancy look and feel?
+Speaker C: I think you have nice colors.
+Speaker C: The shape, the ball shape.
+Speaker C: Yeah, the shape is unique.
+Speaker C: The colors.
+Speaker D: I agree, it's unique, but is it really?
+Speaker C: So, is it really fancy?
+Speaker C: Do we define fancy?
+Speaker D: Yeah, I mean, fancy was defined by fruit and vegetable look.
+Speaker C: You have the lemon aspect of this.
+Speaker C: This is it.
+Speaker A: Yeah.
+Speaker B: Maybe if you change, if you take the buttons out.
+Speaker D: Maybe do you think like that?
+Speaker D: I don't know where the lemon is, but I mean, it's not obvious.
+Speaker C: This shape is the lemon line.
+Speaker B: It would be more like a lemon.
+Speaker D: If.
+Speaker D: Maybe improving the texture, like having less.
+Speaker D: Less buttons.
+Speaker D: Oh.
+Speaker C: So, my mush.
+Speaker B: Looks like more fruit.
+Speaker B: Maybe a pineapple.
+Speaker D: Yeah, I don't know.
+Speaker B: And you know, you have the finger here with the buttons?
+Speaker C: Yeah, it's a good idea.
+Speaker B: It looks more like a pineapple.
+Speaker B: Sorry.
+Speaker B: What's the use for that?
+Speaker B: I don't know.
+Speaker C: If you want to tame the ball, I have no idea.
+Speaker C: It's very convenient for you to tame the ball, to change the channel.
+Speaker B: Okay.
+Speaker C: It's embedded.
+Speaker C: Yeah, that's the second point.
+Speaker D: The second point is we have to judge the.
+Speaker B: If it is fancy or not.
+Speaker B: Fancy looking feel.
+Speaker B: Is it better like that?
+Speaker B: Okay, let's say it's a pineapple now.
+Speaker C: The color is the color acceptable.
+Speaker D: No, the color is okay.
+Speaker D: That's fine.
+Speaker C: So, the shame.
+Speaker D: It's like.
+Speaker D: I'd say there is more too much red.
+Speaker C: Not too much red.
+Speaker B: In the basement.
+Speaker B: It looks like a pineapple with cherry on top.
+Speaker B: Okay.
+Speaker D: Right.
+Speaker D: So, from one to seven.
+Speaker B: I'll give.
+Speaker B: Seven is the maximum?
+Speaker D: No, seven is false.
+Speaker D: And one is true.
+Speaker C: I'll give two or three.
+Speaker C: Three, I will say three.
+Speaker C: Three is fine for me.
+Speaker C: Okay.
+Speaker D: Three.
+Speaker B: Is it better like that?
+Speaker D: Yeah.
+Speaker D: Then, let me.
+Speaker D: What are the other criterias?
+Speaker D: Is it easier to use technically, technologically innovative?
+Speaker B: You said previously that there is some microphone inside.
+Speaker C: Yeah, this is microphone ring.
+Speaker C: It's a microphone.
+Speaker B: Okay.
+Speaker B: And you have the microphone ring.
+Speaker B: There's the technology inside that recognizes simple vocal comments.
+Speaker B: And you can turn it so maybe it's techno.
+Speaker B: Yeah.
+Speaker B: So, you can.
+Speaker C: I have a lot of things around remote control.
+Speaker D: Yeah, but when you say technology, it's more in the core of the single.
+Speaker B: We have tactile buttons.
+Speaker D: Mm-hmm.
+Speaker C: I said you have microphone ring, but you have...
+Speaker C: No, that's good.
+Speaker C: Yeah.
+Speaker C: That's good.
+Speaker C: And you have this solar receptor.
+Speaker D: Yeah.
+Speaker D: That's another really good point.
+Speaker D: Yeah.
+Speaker C: I think that's not going to do it acceptable.
+Speaker B: Maybe two.
+Speaker B: So using the same scale?
+Speaker B: Two?
+Speaker B: Two, yeah.
+Speaker C: Two.
+Speaker C: You agree?
+Speaker B: Yeah.
+Speaker D: Okay.
+Speaker D: Now, maybe the most critical one.
+Speaker D: Okay.
+Speaker D: Last one I would like to judge is...
+Speaker D: Is it easy to use?
+Speaker C: The local common, yes.
+Speaker C: It might be easy.
+Speaker C: Yeah, but it's stunning.
+Speaker D: Can you just explain me the...
+Speaker D: Can you just explain me the...
+Speaker C: It's a print saying.
+Speaker C: Yeah.
+Speaker C: Please.
+Speaker C: This is the base.
+Speaker C: Yeah.
+Speaker C: So you can tend to change the channel.
+Speaker D: Yeah, but how intuitive is it to turn things to change channels?
+Speaker D: I think maybe if you...
+Speaker C: Like if you want to go from...
+Speaker C: Oh, I understand.
+Speaker B: If you take...
+Speaker B: Take from the remote.
+Speaker B: So...
+Speaker B: And you can turn like that to change the channel to...
+Speaker B: Yeah, but imagine...
+Speaker B: I think it's quite easy to do zapping, but maybe it will be too fast.
+Speaker D: Yeah, I'm not definitely convinced.
+Speaker D: It's the best way to...
+Speaker D: If you want to jump from, I don't know, 1 to 20.
+Speaker D: Yeah, that's different.
+Speaker D: How can you go directly to 20, for example?
+Speaker C: No, no.
+Speaker C: It depends on the angle.
+Speaker C: Yeah.
+Speaker C: I agree.
+Speaker C: I agree.
+Speaker C: But I mean...
+Speaker C: You need to know...
+Speaker C: Is it the channel wide?
+Speaker C: So it could be channel...
+Speaker C: I think something that's three, channel four, channel five.
+Speaker B: Yeah, you have a click click click click click click click.
+Speaker D: Just imagine you have 50 channels.
+Speaker C: Oh, yeah.
+Speaker C: 50 channels you buy the number by 330 degree.
+Speaker C: Yeah.
+Speaker C: So you got how many degree you...
+Speaker B: Yeah, but you have to go through all the channels.
+Speaker C: No, no, no, no, no, no, no, no, no, no.
+Speaker C: When you stop...
+Speaker C: When you stop the...
+Speaker C: The tone...
+Speaker C: Mm-hmm.
+Speaker C: Then the angle you stop, it's angle you, it's the channel you...
+Speaker D: How do you know this angle is the correct one?
+Speaker C: It's very easy because you know how many channels are there...
+Speaker D: So you count at one degree, two degrees, no?
+Speaker C: Yeah, yeah, you can do it.
+Speaker D: I don't think so.
+Speaker D: Yeah, that's great.
+Speaker C: That's great.
+Speaker C: I think so, you can...
+Speaker C: Yes.
+Speaker C: I think...
+Speaker C: But the vocal common is easy to...
+Speaker C: You can say 50.
+Speaker C: Yeah, vocal common is okay.
+Speaker C: 50, it's okay.
+Speaker D: So we've said previously that maybe it's not going to be...
+Speaker B: Yeah, but when you're zapping, you're changing from one channel to the other, so you're passing through all the channels.
+Speaker B: So when you say I want to go to the channel number 20, that's you've decided to go to channel 20, so you can say channel 20.
+Speaker B: All right, yeah.
+Speaker B: Or channel 4, because you really want to go on this channel, but if you really want to...
+Speaker B: And this would be more for browsing.
+Speaker B: To do zapping, you don't really know what you want to do, you can turn it.
+Speaker B: Yeah.
+Speaker B: Just go through all the channels and maybe stop if there is something interesting.
+Speaker D: Mm-hmm.
+Speaker B: Seems to be good.
+Speaker B: Good choice, Mr. David Jordan.
+Speaker B: Yeah, I mean, you're famous.
+Speaker B: And whatever you do.
+Speaker B: Yeah, what's this?
+Speaker B: What's this?
+Speaker C: Cherry?
+Speaker C: Oh, you can...
+Speaker A: Also, the turner.
+Speaker C: Turner for the tune.
+Speaker C: Turner for the tune.
+Speaker C: If you want to skip from channel 1 to channel 2, you skip this.
+Speaker C: If you want to skip from channel 1 to channel 10, you turn this.
+Speaker C: It's like fine from cost to fine.
+Speaker C: This is cost.
+Speaker C: This is fine.
+Speaker C: Yeah, yeah, yeah.
+Speaker C: It's cost to fine.
+Speaker C: It's great technology.
+Speaker C: Yeah, this looks better.
+Speaker C: Yeah, you see, this is from one channel to...
+Speaker C: I didn't see where it is.
+Speaker C: It's the turner.
+Speaker C: Turner for the tuneer.
+Speaker C: Turner for the tuneer.
+Speaker C: Actually, it's one of the...
+Speaker B: Yeah, you have the vocal comment.
+Speaker C: Uh, it's...
+Speaker C: On off.
+Speaker D: On off, yeah.
+Speaker D: Yeah, but it has to be on to...
+Speaker B: Most of the time you have them.
+Speaker B: Yeah, it's sleeping remote control.
+Speaker B: Yeah, sleeping.
+Speaker D: That's not the ecological...
+Speaker D: That's true.
+Speaker B: That's why we have the solar...
+Speaker C: To come back to the end.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker D: So, which number?
+Speaker C: Three.
+Speaker C: It is, it's very relative, but three, it's fine, I think.
+Speaker C: It's rather than a...
+Speaker C: Do you agree?
+Speaker D: Yeah, I agree.
+Speaker D: So, the reason about this is four is one.
+Speaker C: Three.
+Speaker C: Three for me.
+Speaker C: It's...
+Speaker C: It's okay.
+Speaker C: It's...
+Speaker C: So...
+Speaker C: Four.
+Speaker C: Three.
+Speaker C: Maybe you can vote to see how many everybody gives and just take the...
+Speaker B: Or what's your opinion?
+Speaker D: Uh, we can even say, I mean...
+Speaker D: Those are sort of agree, but this one would be more five to me.
+Speaker D: Five?
+Speaker D: I would like...
+Speaker D: I mean, this is just a prototype.
+Speaker D: I'm not really convinced it's so easy to use.
+Speaker D: Yeah, so...
+Speaker C: I don't know.
+Speaker C: What do you...
+Speaker C: What...
+Speaker C: You compare with traditional...
+Speaker C: Yeah.
+Speaker C: To...
+Speaker C: Traditional controller.
+Speaker C: I think it's easier than traditional controller.
+Speaker C: If you use traditional controller, you have to put the button.
+Speaker C: And now you don't have to put the button.
+Speaker C: You have...
+Speaker C: You just tend the...
+Speaker C: Yeah, but you know...
+Speaker C: That's who kind of...
+Speaker C: The smaller...
+Speaker C: Yeah.
+Speaker C: So you can control the scale.
+Speaker C: But in the traditional controller, how do...
+Speaker C: How can you control the scale?
+Speaker C: By pushing zero...
+Speaker C: You just put two buttons.
+Speaker C: Zero.
+Speaker C: That's the first one.
+Speaker C: And one.
+Speaker C: Yeah, yeah, you can do it.
+Speaker C: Yeah.
+Speaker C: But you can also do it in the...
+Speaker C: But if you do not want to browsing all the channels, you can just...
+Speaker C: There's also a button here.
+Speaker C: And there's some buttons, okay.
+Speaker C: Yeah.
+Speaker C: This function is just for your broadened.
+Speaker C: From one channel to the next one.
+Speaker C: The next...
+Speaker C: That's not what you say previously.
+Speaker B: Yeah, if you're changing your mind...
+Speaker B: This was the fine...
+Speaker B: Fine to course.
+Speaker B: Fine.
+Speaker B: Of course.
+Speaker B: And from 10 to 10 channels.
+Speaker C: Why do 10, 10 to 12...
+Speaker C: 10 to 20?
+Speaker C: And this one, one, two, three, four, five, six.
+Speaker C: Like this.
+Speaker C: Okay.
+Speaker C: So there's different scale.
+Speaker C: So you can...
+Speaker C: Okay.
+Speaker C: You can choose.
+Speaker D: But this...
+Speaker D: This has to stay on the table, right?
+Speaker D: Mm-hmm.
+Speaker D: This has to stay on the table.
+Speaker C: Alright.
+Speaker C: You can fuck on a flat.
+Speaker C: This is just a bit.
+Speaker C: You can just...
+None: You can...
+Speaker C: Yeah.
+Speaker D: But then when you turn it...
+Speaker C: Oh, yeah.
+Speaker B: Just right?
+Speaker B: No, no.
+Speaker B: You can't put it out.
+Speaker B: That's just your turn in from the base.
+Speaker B: You need to have everything in hand.
+Speaker B: If you want to turn, you can't use it and turn.
+Speaker B: You need to put it on and turn.
+Speaker D: You know, that's the weak point because with the traditional one, you just have one hand.
+Speaker B: Yeah, but nobody would be able to take it in the pocket and bring it in the kitchen.
+Speaker B: Say, I've lost the remote control.
+Speaker B: Nobody would take it.
+Speaker D: Yeah, you would never lose it on the...
+Speaker C: So this is the next generation.
+Speaker C: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Maybe.
+Speaker C: It's the next prototype.
+Speaker B: Maybe we can change from...
+Speaker B: Maybe for it's okay.
+Speaker B: For...
+Speaker B: Easy to use for.
+Speaker B: You can save it.
+Speaker D: Yeah, for it's more.
+Speaker D: It's even easier to...
+Speaker D: Maybe.
+Speaker C: You can...
+Speaker C: You can error this.
+Speaker C: Yeah.
+Speaker D: I don't know.
+None: Yeah.
+None: Yeah.
+None: Yeah.
+Speaker C: Yeah, for it's more than I would say.
+Speaker C: So average...
+Speaker C: Nine over three?
+Speaker C: Three?
+Speaker C: Three.
+Speaker C: Three.
+Speaker C: It's average, it's more than I.
+Speaker D: Okay.
+Speaker D: So...
+Speaker C: It need maybe some further work, but...
+Speaker D: Yeah, especially on the easy to use.
+Speaker D: Yeah.
+Speaker D: Absolutely.
+Speaker D: Target.
+Speaker B: So the project is accepted.
+Speaker B: Yeah.
+Speaker C: Yeah.
+Speaker B: I think...
+Speaker B: I think that it will be good to do some more work to transform this into a pineapple.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: If you really want to have a fruitful, remote country.
+Speaker C: Okay.
+Speaker B: So...
+Speaker B: Is that fine?
+Speaker B: Okay.
+Speaker B: We had a prototype presentation with the evaluation.
+Speaker B: So as we all agree to accept...
+Speaker B: Yeah.
+Speaker B: Under certain conditions, the prototype will have looked to the financial view.
+Speaker B: So we need to calculate the projection cost.
+Speaker B: As I said in the first meeting, when to have remote control, that would cost more than 12 and more than 50 euros.
+Speaker B: And if not, if it's not the case, you would have to redesign it.
+Speaker B: Yeah.
+Speaker B: So just have a look at the...
+Speaker B: Okay.
+Speaker B: Here is the...
+Speaker B: Excel...
+Speaker B: Shit.
+Speaker B: So...
+Speaker B: So as the energy source, we have Hundinamo.
+Speaker B: No.
+Speaker B: We don't use that.
+Speaker B: We have battery, right?
+Speaker B: Yeah.
+Speaker B: Not battery.
+Speaker B: Kinetic.
+Speaker B: We don't have it, I suppose.
+Speaker B: But we have solar cells.
+Speaker B: Yeah.
+Speaker B: How many do you need solar cells?
+Speaker B: Do you think one would be enough for them?
+Speaker B: Such as...
+Speaker C: I think it's about...
+Speaker B: You have three.
+Speaker C: Three.
+Speaker C: Three.
+Speaker C: Three batteries, three solar cells.
+Speaker B: So...
+Speaker B: Electronic.
+Speaker B: Single, simple chip on print.
+Speaker B: Just one would be necessary.
+Speaker B: Simple, yeah.
+Speaker C: One.
+Speaker B: Zero for the others.
+Speaker B: And sample sensors and pull speaker.
+None: One.
+Speaker B: One.
+Speaker D: One.
+Speaker B: As we have voice recognition, I think.
+Speaker C: Yeah.
+None: Yeah.
+Speaker B: So the case...
+Speaker C: It would be...
+Speaker D: So we are all already 19.
+Speaker C: Wooden.
+Speaker C: Yeah.
+Speaker B: Okay.
+Speaker B: Just...
+Speaker B: Keep on going.
+Speaker B: Just have an idea.
+Speaker B: Yes, yes.
+Speaker C: Wooden...
+Speaker C: There's no good plastic just on anything.
+Speaker B: Yeah, but what about case?
+Speaker B: Uncurved, flat, single curved, double curved.
+Speaker B: I think it's more like double curved.
+Speaker B: That's a little bit of a double curved.
+Speaker B: Yeah, double curved.
+Speaker B: Yeah, double curved.
+Speaker B: One.
+Speaker C: One, yeah.
+Speaker B: One, yeah.
+Speaker B: Uh, wood?
+Speaker C: But it's...
+Speaker C: A rubber...
+Speaker B: Do you want it's special color?
+Speaker B: You may be too.
+Speaker A: Yeah, yeah.
+Speaker B: Two special colors.
+Speaker B: Yeah, yeah.
+Speaker B: Push button.
+Speaker C: Yeah, we have four.
+None: Five.
+Speaker C: Five.
+Speaker C: Okay.
+Speaker C: Okay.
+None: Okay.
+Speaker B: Scroll wheel?
+Speaker B: No.
+Speaker B: It's more like integrated.
+Speaker B: I think this will be like a scroll wheel.
+Speaker C: Yeah, you turn it.
+Speaker C: Sorry.
+Speaker C: Yeah.
+Speaker B: Maybe two scroll wheel eyes.
+Speaker B: Yeah, true.
+Speaker B: Yeah.
+Speaker B: We have the course to find a scroll wheel.
+Speaker B: Okay.
+Speaker B: So, no button supplements?
+Speaker B: No.
+Speaker D: Okay.
+Speaker D: No.
+Speaker D: No.
+Speaker B: Okay.
+Speaker B: I think we have problem.
+Speaker C: As you display maybe.
+Speaker C: Interphase.
+Speaker B: I think with...
+Speaker B: If we keep on adding things.
+Speaker B: It's okay.
+Speaker B: That's fine.
+Speaker B: So, we have to...
+Speaker D: Yeah.
+Speaker D: One of the key points is solar cells.
+Speaker B: Maybe if...
+Speaker B: If suppose if we change and we put just one.
+Speaker D: Yeah.
+Speaker B: Has it changed?
+Speaker D: Yeah, it was actually...
+Speaker D: It did change, but...
+Speaker D: Okay.
+Speaker C: We have to switch to electronics.
+Speaker C: From the samples of the cell to regular tip.
+Speaker C: Oh.
+Speaker C: We have to delete the samples.
+Speaker B: Yeah, but we have the voice recognition.
+Speaker B: No.
+Speaker D: Yeah, but this one, one of the features we were not able to...
+Speaker C: Yeah, it's the one...
+Speaker C: Maybe we have tumor and the first part in the basic version.
+Speaker C: I think you can transform the wood into plastic maybe.
+Speaker B: It seems that this can be...
+Speaker C: Oh, it would be better.
+Speaker C: Yeah, wood into plastic.
+Speaker C: It should be fine.
+Speaker C: Plastic is free.
+Speaker D: Yeah.
+Speaker B: So, do we need special color?
+Speaker D: Yeah, that's one of...
+Speaker D: Because we have red.
+Speaker B: Red and yellow.
+Speaker B: Red and yellow.
+Speaker D: We can turn everything in either yellow or black.
+Speaker D: Black then is a regular color.
+Speaker D: I think so.
+Speaker B: If we try to have a kind of...
+Speaker B: Yeah.
+Speaker A: Pineapple B.
+Speaker B: Okay.
+Speaker D: So, push button then it's the next...
+Speaker D: Yeah.
+Speaker B: And we have integrated scroll wheel with push button.
+Speaker B: But now I think this is one.
+Speaker B: Integrated scroll wheel push button.
+Speaker B: So, we have only one.
+Speaker B: And...
+Speaker B: Push button.
+Speaker B: Close to.
+Speaker B: So, if we have all integrated in the scroll wheel and push button.
+Speaker B: It's...
+Speaker C: Okay, remove maybe...
+Speaker C: You have five push buttons so we can just...
+Speaker C: Try to modify some of them.
+Speaker D: Okay, so what's the...
+Speaker D: Like...
+Speaker C: How about we change our color?
+Speaker C: Double curve.
+Speaker C: We can transform the double curve into single...
+Speaker B: Something flat.
+Speaker D: Yeah, but flat.
+Speaker B: Uncurved.
+Speaker B: Okay.
+Speaker B: Yeah, maybe not.
+Speaker B: Single curve better.
+Speaker C: Yeah.
+Speaker C: Single curve should be fine.
+Speaker A: Ooh, quick.
+Speaker A: Oh, we have only one.
+Speaker D: Really?
+Speaker D: One you were left.
+Speaker A: Um...
+Speaker B: Maybe don't...
+Speaker B: No battery on me, so myself.
+Speaker D: I think somebody gets...
+Speaker B: I think there's a problem with the push button.
+Speaker B: We only need...
+Speaker A: Just one.
+Speaker A: One push.
+Speaker A: Just one.
+Speaker A: Yeah.
+Speaker A: That's fine.
+Speaker A: Okay.
+Speaker C: So, actually...
+Speaker D: So, we have one button.
+Speaker D: Yeah, we have...
+Speaker B: So, one button and...
+Speaker C: One scroll wheel.
+Speaker C: Scroll wheel with push button on it.
+Speaker C: And the vocal cover, it's fine.
+Speaker C: It's fine.
+Speaker B: So...
+Speaker D: It's good they're not charging anything for them.
+Speaker D: So, yeah.
+Speaker B: I think we've done a good job as the cost is...
+Speaker B: Could we have looked at...
+Speaker C: Could we have looked at...
+Speaker C: Yeah, yeah.
+Speaker C: Actually, it's wrong.
+Speaker D: We're not under...
+Speaker D: The cost?
+Speaker D: Yeah, but it's under our equal.
+Speaker B: It's not rated.
+Speaker B: Sometimes it's under our equal.
+Speaker B: It's under our equal.
+Speaker C: It's fine.
+Speaker C: Okay.
+Speaker C: Okay.
+Speaker C: So, let's see...
+Speaker C: Twelve.
+Speaker B: Twelve.
+Speaker C: Fifty.
+Speaker C: Yeah.
+Speaker C: It's fine, right?
+Speaker C: Which part is the most defensive part?
+Speaker C: Solar cells.
+Speaker C: Solar cells, right?
+Speaker C: Yeah.
+Speaker C: Is it?
+Speaker C: Is it?
+Speaker B: I think...
+Speaker B: Yeah.
+Speaker B: But it would be interesting for our marketing team to make lots of advertisements...
+Speaker B: Yeah, to be able to sell to the same.
+Speaker B:...and concerning these solar cells to be...
+Speaker D: That's a nice argument.
+Speaker D: Yeah.
+Speaker C: It's still for our...
+Speaker C: It's really, really, really, really, very expensive.
+Speaker C: Yeah.
+Speaker C: Maybe...
+Speaker B: Yeah, but it would be technologically innovative.
+Speaker D: Yeah, but we just have one button.
+Speaker B: So, it's easy to use in Powerful, as the remote controller has only one button?
+Speaker D: Easy, you know, about Powerful.
+Speaker D: Yeah.
+Speaker C: Easy Power.
+Speaker C: Easy to use.
+Speaker B: So, I don't think we need to redesign the product.
+Speaker D: Yeah.
+Speaker C: Yeah.
+Speaker C: Or that's what we've just done.
+None: We've done it.
+Speaker D: Yeah.
+Speaker D: It's under the...
+Speaker D: If it was low, high and so...
+None: So...
+Speaker C: Okay.
+Speaker C: Now...
+Speaker C: So, what are we going to do with this project evaluation?
+Speaker C: So...
+Speaker D: I think we have to just have to discuss it.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker B: So, did you enjoy your clay modeling?
+Speaker B: Yes.
+Speaker B: Of course.
+Speaker B: This is my job.
+Speaker B: Yeah.
+Speaker B: Was it a nice way to create your remote control?
+Speaker C: Yeah.
+Speaker C: It's a...
+Speaker C: It's good to create a control instead of a computer.
+Speaker C: Yeah.
+Speaker C: I think I found it really funny and amazing and interesting to go through all the process from the beginning to the end and designing, looking at the chips, solar cells, and...
+Speaker C: It is very informative for me.
+Speaker B: And for the marketing guy?
+Speaker D: That was good, but we should have more brainstorming like meetings maybe.
+Speaker D: Because we're just presenting, one is presenting his stuff, next one his stuff, and then we try to combine afterwards.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker B: And new ideas about new products maybe, which would be fashion and yellow.
+Speaker B: Yellow.
+Speaker C: I think you can think about yellow TV now after a food TV or I don't know.
+Speaker C: It can be interesting.
+Speaker B: Yes, just lemon.
+Speaker C: Yeah, just lemon TV.
+Speaker C: You know the traditional TV is flat.
+Speaker C: Yeah, it's flat.
+Speaker C: It's square.
+Speaker C: Yeah, the chip is very boring.
+Speaker C: It's really boring.
+Speaker A: It's really boring.
+Speaker C: Come up with new TV.
+Speaker C: Yeah.
+Speaker C: With such as this kind of TV.
+Speaker C: So you can...
+Speaker C: You can have this, triangle base, so you have the TV.
+Speaker B: The lemon TV with the pineapple remot control.
+Speaker B: Yeah, that's...
+Speaker C: Yeah.
+Speaker C: That is really interesting.
+Speaker C: Yeah.
+Speaker C: Because the TV...
+Speaker B: Oh, that's interesting.
+Speaker B: We could do a kind of fruit collection of...
+Speaker B: Oh, you like this.
+Speaker B:...electronic device.
+Speaker B: Yeah.
+Speaker D: Yes.
+Speaker D: You just don't trust too much the trends.
+Speaker D: Maybe.
+Speaker D: Because fruit and vegetables last for 10 years.
+Speaker D: Yeah, maybe the message will be insects.
+Speaker C: Yeah.
+Speaker C: But I think it's good to follow the flow and make it now and after, you know, if the people have changed their mind, you changed their mind.
+Speaker D: Yeah, but this is good because it's not a long life product.
+Speaker D: Yeah.
+Speaker D: TV is more like 15 years maybe so.
+Speaker D: Yeah, that's a lemon TV for...
+Speaker C: Yeah.
+Speaker C: We can think about TV with, you know, where you can change, you know, the aspect.
+Speaker C: So, like for the cell phones.
+Speaker C: Yeah.
+Speaker B: You customize it every time.
+Speaker C: So every time you go to a channel, you just change the appearance.
+Speaker B: Oh, so, yeah.
+Speaker B: You can do it all the time.
+Speaker C: You can make it.
+Speaker C: Yeah.
+Speaker C: And keep the number up here.
+Speaker C: Yeah, and following...
+Speaker C: The mood of person, the fashion.
+Speaker C: Yeah.
+Speaker C: It's interesting.
+Speaker B: Maybe we can create a line of TV.
+Speaker C: Yeah.
+Speaker C: TV.
+Speaker C: Yeah.
+Speaker C: But TV for autumn and a TV for winter, you know.
+Speaker C: So, that's...
+Speaker C: So, what is it?
+Speaker C: Okay.
+Speaker B: So, I think the costs are within the project.
+Speaker B: We're just...
+Speaker B: Yeah, that's actually...
+Speaker B: 12.50 euros.
+Speaker B: So...
+Speaker B: Do you think you can celebrate your own?
+Speaker B: Yeah.
+Speaker B: You can celebrate your creation.
+Speaker C: Yeah, you can celebrate your leadership.
+Speaker B: Oh, thanks a lot.
+Speaker B: Thank you.
+Speaker B: Well, I say yes.
+Speaker B: David Jordan.
+Speaker C: It's really a celebrating object.
+Speaker C: So, it's, you know, very...
+Speaker C: Yeah.
+Speaker C: It's very happy.
+Speaker C: Yeah.
+Speaker C: It's a party.
+Speaker D: It's a very much control.
+Speaker B: Yeah.
+Speaker B: The thing now is to...
+Speaker B: to sell it.
+Speaker C: Yeah, it's your job.
+Speaker C: Yeah.
+Speaker B: You sell it.
+Speaker C: You sell it.
+Speaker A: Good luck.
+Speaker A: Yeah.
+Speaker C: Okay, and the...
+Speaker C: 12.50...
+Speaker C: 12.25 euros.
+Speaker C: 25 euros.
+Speaker C: Yeah.
+Speaker C: Yeah, I think it's...
+Speaker C: 25 euros.
+Speaker C: 25 euros.
+Speaker C: Yeah, I think it's...
+Speaker C: 25 euros.
+Speaker C: So, maybe a little bit expensive.
+Speaker A: Maybe a little bit expensive.
+Speaker A: No, I'm...
+Speaker A: It's not so easy.
+Speaker D: I'm not so happy about the fruit chip, you know.
+Speaker C: What, really?
+Speaker C: It should be fine, you know, actually.
+Speaker C: Okay.
+Speaker C: Okay.
+Speaker C: Okay.
+Speaker C: Maybe you eat it.
+Speaker C: Maybe you eat it.
+Speaker A: Maybe you eat it.
+Speaker B: Maybe you can do a test, put it outside and you become...
+Speaker B: I mean, you become...
+Speaker B: I eat...
+Speaker A: really fruit.
+Speaker A: I think...
+Speaker A: But don't put sugar in it.
+Speaker A: The color I'm making is...
+Speaker C: The color I'm making.
+Speaker C: So, actually...
+Speaker C: No, the colors are...
+Speaker D: It's perfect, yeah.
+Speaker D: It's perfect.
+Speaker D: And two.
+Speaker D: Yeah, another thing is the logo is missing still.
+Speaker B: Yeah, but the color, I think the color is more...
+Speaker B: The yellow, more...
+Speaker B: The yellow, more...
+Speaker B: I don't think you have ever seen something like that before for remote control.
+Speaker D: Still, that was one of the requirements we had.
+Speaker D: Yeah, but I don't think it's such a problem.
+Speaker D: Just putting the logo somewhere.
+Speaker C: We can put some...
+Speaker B: Yeah, we decided to have something yellow and red for the costs.
+Speaker B: Yeah.
+Speaker B: So, maybe we can just integrate it on one side.
+Speaker B: The double R.
+Speaker C: Okay, yeah.
+Speaker C: That's a really good idea, so...
+Speaker B: So, we have logo, we have the color, and we have the fashion in electronics.
+Speaker B: So, we have the slogan too?
+Speaker C: So, we have give him...
+Speaker C: Give him...
+Speaker C: Give him...
+Speaker C: A cute name.
+Speaker B: A cute man.
+Speaker B: Yes, mushroom control.
+Speaker B: No, it's the pineapple control.
+Speaker B: You cannot say mushroom because it's not the same.
+Speaker B: It's the pineapple now.
+Speaker B: It's changed.
+Speaker C: It's pineapple.
+Speaker C: Pine apple.
+Speaker C: Pine apple.
+Speaker C: Pine apple.
+Speaker C: Yeah, just flying saucer.
+Speaker C: Let's carry him top.
+Speaker C: Okay.
+Speaker C: Oh, that's a flying saucer.
+Speaker C: And he didn't fire him once in one.
+Speaker C: Okay.
+Speaker C: Okay.
+Speaker C: That's pineapple remote control.
+Speaker C: I think it's fine.
+Speaker C: Would you buy one?
+Speaker B: Yeah, I'd try to.
+Speaker B: I tried to.
+Speaker B: 25.
+Speaker C: That's beautiful.
+Speaker C: I can't...
+Speaker C: I would try to work and see how easy it is.
+Speaker C: Yeah, you taught me you lost your control.
+Speaker C: Yeah, I already saw that.
+Speaker C: So...
+Speaker C: To need buy buy.
+Speaker C: So, if it is a universal, I can use it to my TV.
+Speaker C: Okay.
+Speaker B: One thing I like is the shape because, you know, it's not like the...
+Speaker B: The remote controls you can put in your pockets, in your jacket.
+Speaker C: This is why, this is why.
+Speaker C: What do you choose?
+Speaker C: I prefer the laser remote control.
+Speaker C: What do you choose?
+Speaker C: I think I will choose this one because of the color.
+Speaker C: It's okay.
+Speaker C: It's you light your house and your home and your TV.
+Speaker C: Okay.
+Speaker B: Oh, maybe next if we decide to do something, we can put light inside.
+Speaker B: Yeah.
+Speaker B: That would be a nice one.
+Speaker D: That's gonna be expensive, you know.
+Speaker D: We have some problems.
+Speaker D: I think...
+Speaker B: Going to have euros and...
+Speaker B: It would be interesting to just to see if we can...
+Speaker B: If people will buy this one and maybe add some features to it.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker D: If it's a new trend.
+None: Okay.
+Speaker D: So...
+Speaker D: That's fine.
+Speaker C: So, we can celebrate now.
+Speaker C: It's our new product.
+Speaker C: Champagne, see you later.
+Speaker B: Mr. Baba.
+Speaker C: It's fine.
+Speaker C: I like it.
+Speaker C: So bye-bye.
+None: Next time.
+Speaker C: We're eight by one.
+Speaker A: Yeah.
+Speaker C: So...
+Speaker C: That's fine.
+Speaker C: Okay.
+None: I will close this.
+Speaker B: Yeah.
+Speaker B: Go.
+None: So, I think we have...
+None: Finished.
+None: Yeah.
+None: Okay.
+None: Okay.
+Speaker C: I will close this.
+Speaker B: Yeah.
+Speaker B: Go.
+Speaker B: So, I think we have...
+Speaker B: Finished.
+Speaker C: Okay.
+Speaker C: Okay.
+None: Okay.
+None: Okay.
+Speaker B: So, I think we have...
+Speaker B: Finished.
+Speaker B: Okay.
+Speaker B: The designing and the evaluation of our remote control.
+Speaker D: Okay.
+Speaker B: Yeah.
+Speaker B: And we have a nearly final product.
+Speaker D: Oh, final prototype.
+Speaker B: Final prototype, right?
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker B: So...
+Speaker B: Okay.
+Speaker B: Thank you very much.
+Speaker B: Okay.
+Speaker B: Okay.
+Speaker C: Very predictive.
+Speaker C: Okay.
+Speaker C: Thanks.
+None: Okay.
+Speaker C: So what is that storage in the remote?
+None: Mm.
+None: Yeah.
+None: A memory upgrade is closing so that the grid is in there.
+None: So, that should consume.
+None: Okay.
+None: Okay.
+None: Mm.

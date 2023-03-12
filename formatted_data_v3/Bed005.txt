@@ -1,0 +1,620 @@
+None: I think I got my mic on.
+None: Okay.
+Speaker E: See, 38, 871, 4627, 692, 640, 979, 271, 4627, 692, 640, 979, 2116, 462, 3096, 861, 6489, 36408, 569, 880, 0742, 824491577, 1197, 487, 93, 4240.
+Speaker F: Okay, I may do yours then.
+Speaker F: Is she a son?
+Speaker F: Yeah.
+Speaker E: Yeah, it's a little thing on top.
+Speaker E: It doesn't, it should be the other way.
+Speaker B: 156, 741, 564, 051, 453, 9205, 1, 3, 3, 8, 0, 250, 8, 0369, 289, 671, 19, 819, 8508, 98455, 8307, 7884817, 0839, 8383.
+Speaker F: Okay, so we all switched on?
+Speaker E: We all switched on, yeah.
+Speaker F: It's all right.
+Speaker F: So before we get started with the technical part, I just want to review what I think is happening with the R-Data collection.
+Speaker F: So probably after today, that shouldn't come up in this meeting.
+Speaker F: This should be, there's another thing going on of gathering data, and that's pretty much independent of this.
+Speaker F: But I just want to make sure we're all together on this.
+Speaker F: What we think is going to happen is that, in parallel, starting about now, we're going to get say to, were you working with me in Robert Draft, a note that we're going to send out to various cogs like another class is saying, here's an opportunity to be a subject, contact, say, and then there'll be a certain number of hours during the week, which she will be available, and we'll bring in people, roughly how many Robert?
+Speaker F: Do we know?
+Speaker D: 50 was sort of a first.
+Speaker F: So we're looking for a total of 50 people, not necessarily by any means, all students, but we'll start with that.
+Speaker F: In parallel with that, we're going to need to actually do the script.
+Speaker F: And so, I guess there's a plan to have a meeting Friday afternoon, with Jane, and maybe Liz, and whoever, on actually getting the script worked out.
+Speaker F: But what I'd like to do if it's okay, is to, I say start recruiting in parallel and possibly start running subjects next week.
+Speaker F: Week after that spring break, and maybe we'll look for some subjects next door,
+Speaker D: or... Also, Fay will not be here during spring break,
+Speaker F: but we won't do it. Okay, so that's easy.
+Speaker F: So, is that...
+Speaker F: makes sense to everybody?
+Speaker D: Yeah.
+Speaker D: Also, both Fay and I will do something of which I may kindly ask you to do the same thing, which is we're going to check out our social infrastructures for possible subjects, meaning, kid children's, gymnastics classes, preschool parents, and so forth.
+Speaker D: They also sometimes have flexible schedules.
+Speaker D: So if you happen to be sort of in a non-student social setting, and you know people who may be interested in being subjects, we also consider using the Berkeley High School and their teachers, maybe, and get them interested in...
+Speaker D: That's a good idea.
+Speaker D:...stuff.
+Speaker D: And so, as far as our brainstorming was concerned.
+Speaker F: Oh, yeah, the high school is a great idea.
+Speaker D: So...
+Speaker D: But I will just make a first draft of the note, the write-up notes, and it'll you and Fay, and then...
+Speaker F: And one else, it'll copy Jane on it.
+Speaker D: And are we, have we conquered that these forms are sufficient for us, and necessary?
+Speaker D: I think they're necessary.
+Speaker F: This is the permission form.
+Speaker F: There has to be one, and I think we're just going to use it as it is.
+Speaker F: And...
+Speaker F: Yeah, everybody with that.
+Speaker F: Yeah.
+Speaker F: There's one tricky part about...
+Speaker F: They have the right...
+Speaker F: The last paragraph, if you agree to participate, do other opportunities to have anything excised, which you would prefer not to have included in the data set.
+Speaker F: Okay?
+Speaker F: Now, that we had to be included for this other one, which might have meetings, you know, about something.
+Speaker F: In this case, it doesn't really make sense.
+Speaker F: So, what I'd like to do is also have our subject sign a waiver, saying, I don't want to see the final transcript.
+Speaker F: And if they don't, if they say, no, I'm not willing to sign that, then we'll show them the final transcript.
+Speaker F: But...
+Speaker F: That makes sense.
+Speaker F: That...
+Speaker F: So, we might actually...
+Speaker F: Jane may say that, you know, you can't do this on the same form.
+Speaker F: We need a separate form.
+Speaker F: But anyway, I'd like to add a little thing.
+Speaker F: I think for them to initial saying that, I don't want to see the final transcript.
+Speaker F: But other than that, that one's been approved.
+Speaker F: And this really is the same project.
+Speaker F: You know, and so forth.
+Speaker F: I think we just go ahead.
+Speaker D: Okay.
+Speaker D: So much for the data.
+Speaker D: Except that with Munich, everything is fine now.
+Speaker D: I'm going to transcribe.
+Speaker D: They also got a translate, the German data from the GV in cinema stuff for Andreas, so they're awesome to be happy now.
+Speaker D: With that.
+Speaker D: So, we move on to the technical side.
+Speaker D: Well, I guess the good news of last week was the parser.
+Speaker D: So, Baskar and I started working on the parser.
+Speaker D: Then Baskar went to class and once he came back, it was finished.
+Speaker D: So, I didn't measure it, but it was about an hour and ten minutes.
+Speaker D: Yep.
+Speaker D: And now we have a complete English parser that does everything determined parser does.
+Speaker F: Which is not a lot.
+Speaker D: That's not a lot.
+Speaker D: Right.
+Speaker D: And...
+Speaker A: What did you end up having to do?
+Speaker A: I mean, was there anything...
+Speaker D: Well, we can show it then.
+Speaker D: Well, the first thing we did is we tried to do change the the lauf into run or running or runs.
+Speaker D: And we noticed that whatever we tried to do, it had no effect.
+Speaker D: And we were puzzled.
+Speaker D: And the reason was that the parser completely ignores the verb.
+Speaker D: So, this sentence...
+Speaker D: Just the parser property.
+Speaker D: Sentence is parses, the same output, even if you leave out all of this, so it's basically feature film and TV.
+Speaker D: That's what you need.
+Speaker D: And the time.
+Speaker D: If you add today and evening, it'll add time or not.
+Speaker D: So, it does look at that.
+Speaker D: But all the rest is simply frosting on the cake and it's optional for that parser.
+Speaker F: So, are you going to show us the little templates?
+Speaker D: Yeah.
+Speaker D: I can show you the templates.
+Speaker D: I also have it running here.
+Speaker D: So, if I do this now, you can see that it parsed the wonderful English sentence which films are on the cinema today, evening.
+Speaker D: Don't worry about it.
+Speaker D: It could be this evening which films are on the cinema or running in the cinema.
+Speaker D: Which today evening is anything happening in the cinema this evening?
+Speaker A: Okay, keywords, basically.
+Speaker D: Will elaborate or more or less...
+Speaker F: Actually, it's a little tricky in that there are some allowable German orders which aren't allowable English orders and so forth.
+Speaker F: And it is order-based.
+Speaker F: So, isn't it?
+Speaker F: No.
+Speaker F: Oh, so it's actually a set, not a sequence?
+Speaker D: Yeah, we were...
+Speaker D: I was afraid that...
+Speaker D: It really is keyword.
+Speaker A: Really is, basically.
+Speaker F: Oh, wow.
+Speaker D: I mean, these sentences are just silly.
+Speaker D: I mean, these were not the ones we actually did it.
+Speaker D: What's an idiomatic way of phrasing this?
+Speaker D: Which films are showing?
+Speaker D: Playing?
+Speaker D: Playing?
+Speaker A: Tonight.
+Speaker C: I changed this file actually, but it's on my card.
+Speaker C: Do you want to get it?
+Speaker D: Or is it easy to get it?
+Speaker D: I have no net here.
+None: Okay.
+Speaker D: So, wonderful parts, same thing.
+Speaker D: Except that we don't have this time information here now, which is...
+Speaker D: Oh, the reserve.
+Speaker D: Anyways.
+Speaker D: So, these are sort of the ten different sentence types that the parts that was able to do, and still is now in English.
+Speaker D: And...
+Speaker D: Sorry.
+Speaker D: And you have already started to make it a little bit more elaborate, right?
+Speaker C: Yeah, I mean, I changed those sentences to make it more idiomatic.
+Speaker C: And of course, you can have it.
+Speaker C: Many variations of those sentences, they will still be fine.
+Speaker C: So, in a sense, it's pretty broad.
+Speaker D: Okay.
+Speaker D: So, if you want to look at the templates, they're conveniently located in a file template.
+Speaker D: And this is what I had to do.
+Speaker D: I had to change...
+Speaker D: Spiels Film to Film, Film to Movie, Kino to Cinema.
+Speaker D: Today, or today, evening, evening.
+Speaker D: Capitalized as well.
+Speaker C: And...
+Speaker C: One thing I was wondering was, those functions,
+Speaker D: are those things that modify the M3L, basically? Yeah.
+Speaker D: Okay.
+Speaker D: And that's the next step, but we'll get to that in a second.
+Speaker D: And so, this means...
+Speaker D: This and C are not optional.
+Speaker D: What I like is all maybe in there, but may also not be in there.
+Speaker F: So, the point is, if it says this and C, in the other order, it says 2 keywords.
+Speaker F: This is the one I want to see.
+Speaker F: Or whatever.
+Speaker D: Okay.
+Speaker D: Action Watch.
+Speaker D: Whatever.
+Speaker D: Nothing was specified.
+Speaker D: Except that it has some references to audio-visual media here, where it gets set from...
+Speaker D: It's correct, but I don't know where it gets the phone.
+Speaker D: Oh, C.
+Speaker D: Yeah.
+Speaker D: Oh, it's order.
+Speaker D: Yeah.
+Speaker D: And see this...
+Speaker D: It's exactly the same thing.
+Speaker D: Okay, so it is set-based.
+Speaker C: All right.
+Speaker C: One thing I was wondering was, those percentage signs, right?
+Speaker C: So, I mean, why do you have them?
+Speaker C: Because if you didn't have them...
+Speaker D: I tell you why, because it gives you a score.
+Speaker D: And the value of the score is, I assume, I guess, the more of these optional things are actually in there, the higher the score...
+Speaker D: That's the arrangement purpose, all right.
+Speaker D: So, we shouldn't be a little bit too much.
+None: It's doing something.
+None: Somethings.
+Speaker D: And it's very flexible.
+Speaker D: I've just tried to be nice.
+Speaker D: I know, fine.
+Speaker D: Yeah, flexible.
+Speaker D: Okay.
+Speaker D: Let's hope that the generation will not be more difficult,
+Speaker F: even though the generator is a little bit more complex.
+Speaker D: And that's the way it is. And the next thing I would like to be able to do, and it seems like this should not be too difficult either, is to say, okay, let's now pretend we actually wanted to...
+Speaker D: Not only change the mapping of words to the M3, but we're not going to change the map.
+Speaker D: And we're going to change the map.
+Speaker D: And we're going to change the map.
+Speaker D: And we're going to change the map.
+Speaker D: And the mapping of words to the M3, but we also wanted to change, add a new sentence type
+Speaker F: and make up some new M3. A big, great.
+Speaker F: A big, good exercise to just see whether one can get that run.
+Speaker F: Yeah.
+Speaker D: And...
+Speaker D: That shouldn't be too tough.
+Speaker C: Yeah, so where are those functions actually in good buy and so on, right?
+Speaker C: Are they actually...
+Speaker C: Are they going to be called?
+Speaker C: Are they present in the code for the parser?
+Speaker D: Yeah, I think what it does...
+Speaker D: It does something sort of fancy it loads.
+Speaker D: It has these style sheets and also the...
+Speaker D: Schimata.
+Speaker D: So what it probably does is it takes the...
+Speaker D: This is where it is.
+Speaker D: This is already the XML stuff.
+Speaker D: This is where it takes its own syntax.
+Speaker D: And converts it somehow.
+Speaker D: Where is the...
+Speaker D: We didn't for.
+Speaker D: Where it actually produces the XML out of the parsed stuff.
+Speaker D: Now this...
+Speaker D: I can't find it now.
+Speaker D: I mean, where the action...
+Speaker D: How the action could buy maps into something...
+Speaker E: Yeah, where are those constructors defining?
+Speaker D: No.
+Speaker D: Yeah, this is sort of what happens.
+Speaker D: This is what you would need to change to get the XML changed.
+Speaker D: So when it encounters and contrasts day, it will...
+Speaker D: Activate those classes in the XML stuff.
+Speaker D: But I saw these actions.
+Speaker D: They're good buy steps and where.
+Speaker E: Can you grab for it?
+Speaker D: Yeah, let's do that.
+Speaker A: M3L.TTD.
+Speaker C: Yeah.
+Speaker C: That should start specification for the XML.
+Speaker E: Yeah.
+Speaker D: Well, we'll find that out.
+Speaker D: So whatever this does, I mean, this is basically looks to me like a function call, right?
+Speaker D: Oh, yeah.
+Speaker D: So whenever it encounters good buy, which we can make it do in a second here?
+Speaker C: That function auto might be generates an initialized XML structure.
+Speaker C: I think these are those functions act in the current XML structure and change it in some way.
+Speaker F: For example, by adding a field to it or something.
+Speaker F: Yeah, they also seem to affect state because some of them...
+Speaker F:...stake variable somewhere like the discourse status confirm.
+Speaker F: Yeah.
+Speaker F: Okay, so that's going to be a call on the discourse and confirm that it's...
+Speaker C: Oh, you mean that's not going to actually modify the tree, but it's...
+Speaker F: I think that's right.
+Speaker F: I think it's actually...
+Speaker F: That looks like it's state modification.
+Speaker D: Well, there is a feature called discourse status.
+Speaker D: Yeah.
+Speaker D: And so whenever I just say write, it will put this in here.
+Speaker F: Oh, so it always just...
+Speaker F: So let's go back then because maybe that all those things...
+Speaker F:...while they look like function calls are just a way of adding exactly that to the XML.
+Speaker F: Yeah.
+Speaker F: Ah-ha.
+Speaker F: So this...
+Speaker D: I'm not sure.
+Speaker D: I'm not sure that...
+Speaker D: Well, we'll see.
+Speaker D: When we say let's test something good buy.
+Speaker D: It causes it to create basically an action, good buy and action.
+Speaker D: Which is a means of telling the system to shut down.
+Speaker D: Right.
+Speaker D: So if we know that write produces a feature discourse status, confirm discourse status.
+Speaker D: So if I now say write, good buy, it should do that.
+Speaker D: It creates this, confirm, good buy.
+Speaker C: Yeah.
+Speaker C: But there is some kind of function called because how does it know to put good buy and content, but...
+Speaker C:...confirming features?
+Speaker C: Oh, it did.
+Speaker C: That's because...
+Speaker C: So it's not just that it's adding that field.
+Speaker F: Right.
+Speaker F: It's a good point.
+Speaker F: It's under what subtype you're doing it.
+Speaker E: It's mystery functions.
+Speaker D: Well, sometimes...
+Speaker D: It's a bit of a bit of a presentation.
+Speaker F: Sometimes.
+Speaker F: Yeah.
+Speaker F: So that's funny.
+Speaker F: You bury this state in the function.
+Speaker E: All right.
+Speaker E: So you just automatically initialize this thing, stir comment, right?
+Speaker E: So it's just a story.
+Speaker D: For example, oh, this is German, sorry.
+Speaker D: So now this, it cannot do anymore.
+Speaker D: Nothing comes out of here.
+Speaker E: Not a number is value awesome.
+Speaker D: Sorry.
+Speaker D: It doesn't speak German anymore, but it does speak English.
+Speaker D: There is here a reference.
+Speaker D: So this tells us that whatever has the ID zero is referenced here by the restriction seat.
+Speaker D: And this is actually...
+Speaker D: I want...
+Speaker D: What was the sentence?
+Speaker D: I want to see it here.
+Speaker D: Here to see it here.
+Speaker D: And where is it playing?
+Speaker D: There should also be a reference or something.
+Speaker D: Maybe...
+Speaker D: Or this is...
+Speaker D: Here we changed...
+Speaker D: So we here we add something to the discourse status that the user wants to change something that was sort of done before.
+Speaker D: And that whatever is being changed has something to do with the cinema.
+Speaker E: And then whatever takes us in three others that actually changes the state.
+Speaker F: Yeah.
+Speaker F: Under the discourse maintainer.
+Speaker F: And it runs around looking for discourse status tags and doing whatever it does with them.
+Speaker F: And other people ignore those tags.
+None: All right.
+Speaker F: So yeah, I definitely think it's worth the exercise of trying to actually add something that isn't there.
+Speaker F: So I'm just going to complete it on this thing.
+Speaker F: Yeah, I can understand it much more.
+Speaker F: But then the next thing we talked about is actually thinking on how to add our own tags and stuff like that.
+Speaker D: Okay.
+Speaker D: Point number two.
+Speaker D: I got the M3L for the routes today.
+Speaker D: So I got some more.
+Speaker D: This is sort of the interesting.
+Speaker D: It's just going up.
+Speaker D: It's not going back down.
+Speaker D: So this is what I got today is the new M3L for the maps.
+Speaker D: With some examples.
+Speaker D: So this is the XML.
+Speaker D: And this is sort of what it will look like later on.
+Speaker D: You can't see it on this resolution.
+Speaker D: And this is what it sort of is the structure of map requests.
+Speaker D: Also not very interesting.
+Speaker D: And here is the more interesting stuff for us is the routes.
+Speaker D: Route elements.
+Speaker D: And again, as we thought, it's really simple.
+Speaker D: This is sort of the parameters.
+Speaker D: We have simple from objects and two objects and so forth.
+Speaker D: Points of interest along the way.
+Speaker D: And I asked them whether or not we could, first of all, I was a little bit.
+Speaker D: It seemed to me that this way of doing it is sort of a stack step backwards from the way we've done it before.
+Speaker D: It seems to me that some notions were missing.
+Speaker D: So these are these are your friends back at eml.
+Speaker F: So this is not a complicated negotiation.
+Speaker F: No.
+Speaker D: It's not a seven committee user anything, right?
+Speaker D: No, this is very straightforward.
+Speaker F: So this is just trying to, it's a design thing, not a political thing.
+Speaker F: Yeah, we can sort of agree on what ought to be done.
+Speaker F: Exactly.
+Speaker D: And however the, so that you understand it, it's really simple.
+Speaker D: You have a route and you cut it up in different pieces.
+Speaker D: And every element of that, of that, every segment we call a route element.
+Speaker D: And so from A to B we cut up in three different steps.
+Speaker D: And every step has a firm object where you start a two object way, where you sort of end in some points of interest along the way.
+Speaker D: But I was sort of missing here and maybe it was just me being too stupid as I didn't sort of get the notion of the global goal of the whole route.
+Speaker D: It was not straightforward, visibly for me.
+Speaker D: And some other stuff in I suggested that they should be kind enough to do two things for us.
+Speaker D: One, also allocating some tags for our action schema, enter Vista approach.
+Speaker D: And also, since you had suggested that we figure out if we ever for a demo reason wanted to shortcut directly to the GIS and the planner of how we can do it.
+Speaker D: Now what's the state of the art of getting to entrances? What's the syntax for that? Getting to Vista points and calculating those on the spot.
+Speaker D: And the approach mode anyhow is the default. That's all they do with these days.
+Speaker D: Wherever you find a route planner, it does nothing but get to the closest point where the street network is at minimal distance to the geometric center.
+Speaker F: So, well now this is important. Again, it's kind of almost managerial point.
+Speaker F: You're in the midst of this, you know better, but it seems to me it's probably a good idea to minimize the number of change requests we make of them.
+Speaker F: So, it seems to me what we ought to do is get our story together. Okay, and think about it some internally before asking them to make changes.
+Speaker F: Is this makes sense to you guys? I mean, you're doing the interaction, but it seemed to me that what we ought to do is come up with something where you...
+Speaker F: And I don't know who's working most closely on it, probably, Chano. Okay, take what they have.
+Speaker F: Send it to everybody saying this is what they have. This is what we think we should add. Okay, and then have an iteration within our group saying, well, okay, and get our best idea of what we should add.
+Speaker D: And then go back to them. I don't know, just make sense to you or... Yeah, especially if we want sort of what I... my feeling was we sort of reserve something that has an okay label.
+Speaker D: That was my first sort of step. No matter how we want to call it, this is sort of our playground.
+Speaker D: And if we get something in there that is a structure elaborate and complex enough to maybe enable a whole simulation. Right, one of these days. That would be...
+Speaker F: That's right, so it's a good goal. Yeah, the problem isn't the short range optimization. It's the sort of one or two-year kind of thing.
+Speaker F: One of the classic things we think we might try to do in a year or two, how would we try to characterize those and what do we want to request now that's going to leave enough space to do all of this stuff? Right, and that requires some thought.
+Speaker F: And so that's something like a great thing to do as a priority item as soon as we can do it.
+Speaker F: So you guys will send to the rest of us a version of this and the description.
+Speaker E: Yes, suggested improvements.
+Speaker F: Yeah, so not everyone reads German, so if you change the description to English. And then, yeah, then with some suggestions about where do we go from here.
+Speaker F: And this, of course, is just the action end. At some point, we're going to have to worry about the language end, but for the moment, just for this class of things we might want to try to encompass.
+Speaker E: And this goes with this is beyond approach and...
+Speaker F: Oh, yeah, yeah, yeah, yeah, yeah. This is everything that...
+Speaker F: We might want to do in the next couple of years. So what would... Okay.
+Speaker F: I mean, that's an issue. We don't know one entirely.
+Speaker E: Yeah, but I'm just...
+Speaker E: But the... Yeah, okay. So this XML stuff here just has to do with source path goal type stuff in terms of traveling through Hadelberg or travel specifically.
+Speaker E: So is the domain greater than that?
+Speaker F: No, I think the idea is that...
+Speaker F: Well, it's beyond source path goal, but I think we don't need to get beyond the tourists in Hadelberg.
+Speaker F: It seems to me we can get all the complexity we want in actions and in language without going outside of tourists in Hadelberg.
+Speaker F: But depending on people are interested in, one could have tours, one could have explanations of why something is...
+Speaker F: Why was this done? No, there's no end to the complexity you can build into the...
+Speaker F: What a tourist in Hadelberg might ask.
+Speaker F: So at least unless somebody else wants to suggest otherwise, I think the general domain...
+Speaker F: We don't have to broaden that is tourists in Hadelberg.
+Speaker F: And if there's something somebody comes up with that can't be done that way, then sure.
+Speaker F: We'll look at that. But I'd be surprised that if there's any important issue then.
+Speaker F: And I may have given you one to push us into reference problems, that would be great.
+Speaker F: Okay, so this is his specialty is reference.
+Speaker F: And what are these things referring to? Not only an Afro, but more generally, this whole issue of referring expressions and what is it that they're actually dealing with in the world.
+Speaker F: And again, this is in the database. This is also pretty well formed because there is an ontology and the database and stuff.
+Speaker F: So it isn't like the evening star or stuff like that. All the entities do have concrete reference.
+Speaker F: Although to get at them from the language may not be trivial. There aren't really deep mysteries about what things the system knows about.
+Speaker B: We have both proper names and descriptions.
+Speaker F: All those things. You have proper names and descriptions. And the offer and pronouns and all those things.
+Speaker D: And unfortunately the whole database is in German. We have just commissioned someone to translate some bits of it, i.e. the short, the more general descriptions of all the objects and persons and events.
+Speaker D: It's a relational database with persons events and objects. And it's quite, I think that would be great because the reference problem really is not trivial.
+Speaker D: Even if you have such a well-defined world.
+Speaker D: Throwing a, carrying hours to Athens.
+Speaker D: How do I get to the powder tower? We sort of think that our bit in this problem is interesting. But just to get from powder tower to an object ID in a database is also not really trivial.
+Speaker B: Or if you take something even more scary. How do I get to the self-building after the tower? I don't know. It's something that I'm using.
+Speaker E: Or the church across the city hall. Or the restaurant where they were later. That would be fine.
+Speaker D: Or this tower or that building.
+Speaker F: Or you can say how do I get back?
+Speaker F: And again, it's just a question of which of these things people want to dive into. What I think I'm going to try to do. And I guess, let's say that by the end of spring break, I'll try to come up with some general story about construction grammar and what constructions we'd use and how all this might fit together.
+Speaker F: There's this whole framework problem that I'm feeling really uncomfortable about. And I haven't had a chance to think about it seriously.
+Speaker F: But I want to do that early rather than late. You and I will try to talk about this.
+Speaker D: It also strikes me that we did a small, something maybe we should address one of these days. That most of the work people actually always do is look at some statements and analyze those, whether it's abstracts or newspapers and so on.
+Speaker D: But the whole is it really relevant that we are dealing mostly with questions?
+Speaker D: Well, I mean, yeah, and this seems to be that we shouldn't maybe at least spend a session of brainstorm a little bit about whether that is a special case in that sense.
+Speaker D: Do we ever find metaphorical use and questions in that sense really? Yeah. You will in house or not. Oh, yeah.
+Speaker F: Who got kicked out of friends? Yeah, or you know, why is he pushing for promotion or who's pushing? Just pick any of them and just do the, I don't think it's at all difficult to convert them to question forms that really exist and people say all the time.
+Speaker F: We don't know how to handle them too. We don't know how to handle the declarative forms really and then the interrogative forms.
+Speaker A: So, you know, I think it's a very different case. So, we had this problem last year and we first thought about this domain actually was that most of the things we talked about our story understanding, we're going to have a short discourse and the person talking is trying to, I don't know, give you a statement and tell you something and here.
+Speaker A: Is it a mental problem? Yeah, I guess so. And then here, the person is getting information and they may or may not be following some larger plan that we have to recognize or infer and their discourse pattern probably don't follow quite as many.
+Speaker F: Right, now I think that's one of the things that's interesting is in this sort of overarching story, we worked it out for, as you say, the storytelling scenario and I think it's really worth thinking through what it looks like, what does the SIM spec mean, etc.
+Speaker A: Right, because for a while we're thinking, well, how can we change the data to sort of illicit, illicit actions out of more like what we are used to, but obviously we'd rather try to figure out what.
+Speaker F: Well, I don't know, I mean maybe that's what we'll do is we can do anything we want with it.
+Speaker F: I mean, once we have fulfilled these requirements, okay, and the one for next summer is just half done and then the other half is this generation thing which we think isn't much different.
+Speaker F: So once that's done, then all the rest of it is sort of what we want to do for the research and we can do all sorts of things that don't fit into their framework at all.
+Speaker F: There's no reason why we're constrained to do that.
+Speaker F: If we can use all the execution engines, then we can really try things that would be too much pain to do ourselves, but there's no obligation on it.
+Speaker F: So if we want to turn it into understanding stories about Heidelberg, we can do that.
+Speaker D: And that would just be a, always matter of fact, we need, I mean, if we take a 10 year perspective, we need to do that because assuming we have this, in that case we actually do have these wonderful stories and historical anecdotes and nights jumping out of windows and tons of stuff.
+Speaker D: So the database is huge and if we want to answer a question on that, we actually have to go one step before that and understand that.
+Speaker D: No, do sensible information extraction.
+Speaker D: And so this has been a deep map research issue that was part of the unresolved and to do something for the future is how can we sort of run our text, our content through a machine that will enable us later to.
+Speaker D: Retrieve or answer questions more sensibly.
+Speaker B: Anyway, so what is the basic thing that you are obligated to do?
+Speaker F: So what happened is there's this, Robert was describing the, there's two packages, there's a quote parser, there's a particular piece of this big system which in German takes these to sentence templates and produces XML structures.
+Speaker F: And one of our jobs was to make the English equivalent of that, that these guys did in a day. The other thing is that at the other end, roughly at the same level, there's something that takes XML structures, produces an output XML structure which is instructions for the generator.
+Speaker F: Okay, and then there's a language generator and then after that, a synthesizer that goes from an XML structure to a language generation to actual specifications for a synthesizer.
+Speaker F: But again, there's one module in which there's one piece that we have to convert to English.
+Speaker F: Is that, okay, and this is all along with viewed as a kind of a minor thing, necessary but not, okay.
+Speaker F: And much more interesting is the fact that as part of doing this, we are inheriting this system that does all these other things, not precisely what we want.
+Speaker F: That's where it gets difficult and I don't pretend to understand yet what I think we really ought to do.
+Speaker D: Okay. So, you know how that, but the sort of journal and I will take up that responsibility and get a first draft of that.
+Speaker D: Now we have just I think two more short things. You guys sort of started fighting on the basenet, noisy or front?
+Speaker C: Yeah, I thought I should talk a little bit about that because it might be a good sort of architecture to have in general for problems with multiple inputs to anode.
+Speaker F: And what's the other one so that just we know what the agenda is? The wallpaper, I think.
+Speaker F: Oh, yeah, I've got a couple new whoo papers as well. So I've been in contact with who.
+Speaker F: So probably let's put that off till I to I understand better what he's doing.
+Speaker F: It's a little embarrassing because all this was in his thesis and I was on his thesis committee.
+Speaker F: And so I really knew this at one time. But I, it's part of what I haven't figured out yet is how all this goes together.
+Speaker F: So they got some more stuff from DeKai. And so why don't we just do the.
+Speaker C: Okay. So should I, is there a whiteboard here that I can use?
+Speaker F: Yeah, you could, or should I just use this? Probably just as easy.
+Speaker E: Yeah, yeah, you can put the microphone in your pocket.
+Speaker E: Okay.
+Speaker E: I was in being you in your pocket because I don't have one.
+Speaker C: That's why they invented pocket. Yeah. So we call it.
+Speaker C: We want to have this kind of structure in our basements, namely that.
+Speaker C: You have these nodes that have several parents, right? So the, I mean, this sort of.
+Speaker C: The typical example is that these are all a bunch of cues for something.
+Speaker C: And this is a certain effect that we'd like to conclude. So like, let's just look at the case where.
+Speaker C: And this is actually the final action, right? So this is like.
+Speaker C: You know, touch or sorry.
+Speaker C: Eva.
+Speaker C: Yeah. Eva, right.
+Speaker C: Enter view approach.
+Speaker C: Right.
+Speaker C: So it's decided out for.
+Speaker C: Yeah. Enter view approach.
+Speaker C: Right.
+Speaker C: So I mean, we'd like to take all these various cues, right? So this one might be say.
+Speaker C: Well, I'm going to say.
+Speaker C: I don't know.
+Speaker C: I could be like.
+Speaker C: This isn't the way it really is, but let me say that's supposed someone mentioned.
+Speaker C: Admission fees.
+Speaker C: It takes too long, right? Let me just say landmark.
+Speaker C: If the thing is a landmark, you know, there's another thing that says if.
+Speaker C: If it's closed or not at the moment.
+Speaker C: Right. So you have nodes, right?
+Speaker C: And the problem that we were having was that, you know, given end nodes, there's two to the end.
+Speaker C: Given end nodes.
+Speaker C: And for the more the fact of these three things here, we need to specify three times two to the end probabilities.
+Speaker C: Right.
+Speaker C: That's assuming these are all binary, which they may not be. For example, they could be time of day in which case we could say, you know, morning, afternoon, evening night.
+Speaker C: So this could be more.
+Speaker C: So it's a lot anyway.
+Speaker C: And that's a lot of probabilities to put here, which is kind of a pain.
+Speaker C: So no, as you are, is our way to sort of deal with this.
+Speaker C: So the idea is that.
+Speaker C: Let's call these c1, c2, c3, and c4, and e for a cause and effect.
+Speaker C: I guess.
+Speaker C: The idea is to have these intermediate nodes.
+Speaker C: Well, actually, the idea first of all is that each of these things has a quote-unquote distinguished state, which means that this is the state in which we don't really know anything about it.
+Speaker C: So for example, if we don't really know if the thing is a landmark or not, or if that distance isn't relevant, then that would be sort of the distinguished state.
+Speaker C: And similarly, you know, if there's something for the person talking about the admission fee, you know, if they didn't talk about that would be the distinguished state.
+Speaker D: So this is a principle way of saying default.
+Speaker C: Yeah.
+Speaker C: That's just what they were used in that paper.
+Speaker C: So the idea is that you have these intermediate nodes, e1, e2, e3, and e4.
+Speaker C: So this is the heck of a paper you're working with.
+Speaker C: So the idea is that each of these ei represents what this would be if all the other ones were in the distinguished state.
+Speaker C: So for example, suppose the thing that they talked about is a landmark, but none of the other sort of queues really apply.
+Speaker C: Then this would be the, this would just represent the probability distribution of this assuming that this queue was turned on and the other one just didn't apply.
+Speaker C: So you know, it was a landmark and none of the other things really applicable, then this would represent the probability distribution.
+Speaker C: So maybe in this case, maybe we just, maybe we decide that if the thing is a landmark and we don't know anything else, then we're going to conclude that they want to view it with probability, you know, 0.4.
+Speaker C: They want to enter it with probability, with probability 0.5 and they want to approach it, probably 0.1 say.
+Speaker C: So we come up with these little tables for each of those.
+Speaker C: Okay.
+Speaker C: And the final thing is that this is a deterministic function of these.
+Speaker C: So we don't specify any probabilities.
+Speaker C: We just have to say what function this is.
+Speaker C: So we can let this be g of e1, e2, e3, e4.
+Speaker C: And our example g would be majority vote.
+Speaker F: Well, okay. So the important point is not what the g function is. The important point is that there's a general kind of idea of short cutting the full CPT, the full conditional probability table, with some function, okay.
+Speaker F: Which you choose appropriately for each case. So depending on what your situation is, they're different functions which are most appropriate.
+Speaker F: And so I gave Baskar a copy of this sort of 92 paper. And you got one rubber. I don't know who else has seen it.
+Speaker C: I mean, yeah. It's hecka min, short. It's short.
+Speaker F: So, if you read it yet.
+Speaker F: Now you should take a look at it.
+Speaker F: Okay. So you should take a look. Nancy, I'm sure you read it at some point in life.
+Speaker F: Okay. And so you guys can decide how interesting.
+Speaker F: No, wait. So the paper isn't real hard. And one of the questions is, how much of this does Java-based support?
+Speaker C: Yeah. It's a good question.
+Speaker C: So what we want is basically Java-based support deterministic functions. And in a sense, we can make it supported by manually entering probabilities that are 1 and 0's.
+Speaker F: Right. So the little thing that I sent, I sent a message saying, here's a way to take one thing you could do, which is kind of in a way stupid.
+Speaker F: So let's take this deterministic function and use it to build the CPT. So the Java-based won't do it for you.
+Speaker F: That you can convert all that into what the CPT would be.
+Speaker F: And what I sent out about a week ago was an idea of how to do that for evidence combination.
+Speaker F: So one function that you could use as your G function is evidence combining. So you just take the, if each of the ones has its own little table like that, then you could take the strength of each of those times its little table when you'd add up the total evidence for the E and A.
+Speaker C: I don't think you can do this because if G is a function from that to that. Right. So there's no numbers. There's just quadruplets of, well, n-tuplets of, you know what I'm saying is, there is, even if you decide what is appropriate is probabilistic evidence combination.
+Speaker F: You can write a function that does it. But it's actually one of the examples he's got in there. But anyways, skipping, skipping the question of exactly which functions.
+Speaker F: Is it clear that you might like to be able to shortcut the whole conditional probability table?
+Speaker D: I mean, it seems very plausible in some sense where we will be likely to not be observed some of the stuff because we don't have the access to the information.
+Speaker F: Right. That's one of the problems is where we're at all.
+Speaker C: So it's all right. Would not be able to observe what?
+Speaker D: If it's a discourse initial phrase, we will have nothing in the discourse history.
+Speaker C: So if we ever want to wonder what? If you're not able to observe certain, that's fine. That is not the only thing.
+Speaker F: There's two separate things, Robert. The basenets in general are quite good at saying if you have no current information about this variable, just take the prior for that.
+Speaker F: That's what they're real good at. So if you don't have any information about the discourse, you just use your priors of whatever the discourse, and it's basically whatever, it's probabilistically whatever would be. It's not a great estimate, but it's the best one you have.
+Speaker F: And so forth. So that they're good at. The other problem is how do you fill in all these numbers? And I think that's the one he was getting.
+Speaker C: So specifically, in this case, you have to have this many numbers. Whereas in this case, you have to have three for this, three for this, three for this, three for this.
+Speaker C: So you have to have just three n. So this is much smaller than that.
+Speaker E: That's not a good estimate, I think. Well, pretty quickly. You don't need data enough to cover.
+Speaker E: Really, what a nice thing to kind of neural net size these basenets.
+Speaker F: No, no, so noise use is a funny way of referring this because the noise error is only one instance.
+Speaker C: This isn't a noise or that one actually isn't the noise or so what to think of of a way to.
+Speaker E: It's a noisy arg max or noisy whatever. Yeah, whatever. Yeah. So my point was more that we just, with the neural net right, things come in, you have a function that combines them.
+Speaker F: Yeah, that's true. It's also more neural net like, although it isn't necessarily some, you know, some of weights or anything like that.
+Speaker F: I mean, you could have, like the noisy or function really is one that's essentially says, take the max. Well, the or.
+Speaker F: Same. Right. I guess you're right. Yeah. But anyway, so.
+Speaker F: And I think that's the standard way people get around the. There are a couple other ones. There are ways of breaking this up into some nets and stuff like that. But.
+Speaker F: I think we definitely, I think it's a great idea to pursue that.
+Speaker D: Well, still sort of leaves one question. I mean, you can always see easily that I'm not grasping everything correctly. But what seems attractive to me in the last discussion we had was that we find a means of.
+Speaker D: Of getting these point 4.5.1 of C4. Not because you know, A is then mug or not, but we we we we label this whatever object type. And if it's a garden, it's 0.3.4.2. If it's a castle, it's 0.8.1.1. If it's.
+Speaker D: Town hall, it's 0.2.3.5. And so forth. And we don't want to write this down necessarily every time for something. But.
+Speaker D: It would be students will be stored. That's the question. Well, in the beginning, we'll write up a flat file. We know we have 20 objects and we'll write it down.
+Speaker F: Let me say something because there's a pretty point about this. We're not so good in right now, which is the hierarchy that comes with the ontology is just what you want for this.
+Speaker F: So that. If you know about it, let's say a particular town hall. That it's one that is a monument, then that would be stored there. If you don't, you look up the hierarchy.
+Speaker F: So you may or so that you'd have this little vector of. You know, approach mode or even mode. Let's OK. So we have the eve of vector for various kinds of landmarks. If you know it for a specific landmark, you put it there.
+Speaker F: If you don't, you just grab the hierarchy to the first place you find one. So is the idea to put it in the ontology? Absolutely. OK.
+Speaker F: Or link to or but in any case, view it logically as being in the ontology. It's part of what you know about an object is its eve vector. OK.
+Speaker F: And if you say if you know about a specific object, you put it there. This is part of what the guy was doing. So when you get the row, we'll see what he says about that. And then if you if it isn't there, it's higher.
+Speaker F: And if you don't know anything except that it's it's a building, then I put the highest thing you have the what amounts to a prior. You don't know anything else about a building.
+Speaker F: You just take whatever your crew approximation is up at that level, which might be equal or whatever it is. So that's a very pretty relationship between these local vectors and the ontology.
+Speaker F: And it seems to me the obvious thing to do unless we find a reason to do something different.
+Speaker F: Does it make sense to you? Yeah. So we are doing the ontology. So we have to get to over is doing the ultimately. And that's another thing we're going to need to do is to either we're going to need some way to either get a tag in the ontology or add fields or some way to associate or it may be that all we can do is some our own hash table that.
+Speaker F: There's always a way to do that just a question. Yeah, hash on object name to. Yeah, the probability. Right. And so.
+Speaker D: It's most strikes me as a word. If we get the mechanism. That would be sort of the wonderful part and then how to make it work is the second part in the sense that. I mean, the guy who's doing the ontology.
+Speaker D: The apologize that it will take him another through two to three days because they're having really trouble getting the upper level straight. Right now the reason is given the crop, but the projects that all carry their own taxonomy and on all history.
+Speaker D: They're really trying to build one top level ontology that covers all the email projects and that's sort of a tough cookie a little bit tougher than they figured I could have told them. So. Right. Yeah. But nevertheless, it's going to be there by next Monday. And I will show you what's what some examples from that for towers and stuff. And what I don't think is ever going to be in the ontology is sort of, you know, the likelihood of people.
+Speaker D: People entering town halls and looking at town halls and approaching town halls, especially since we're dealing with a case based on an instant based ontology.
+Speaker D: So there will be nothing on on that town hall or on the Berkeley town hall or on the high work town hall. Just be information on town halls.
+Speaker D: But how what are they going to do with instances? Well, that's that's a different question. I mean, the first they had to make a design question.
+Speaker D: Do we take ontologies that have instances or just one that does not that just says the types. Okay. And so since the decision was on types on a simply type based.
+Speaker D: We now have to hook it up to instances.
+Speaker F: What is smart come going to do about that?
+Speaker D: Because they have instances all the time. Yeah, the ontology is really not a smart come thing in enough itself. That's more something that I kick loose in email.
+Speaker D: So it's a complete email thing. But smart comes going to need an ontology. Yes. A lot of people are aware of that.
+Speaker F: I understand. But we do anything about it. Okay. Political problem. We won't worry about it. No, but the I still think that there is enough information in there.
+Speaker D: For example, whether. Okay. So it will know about the 20 object types there are in the world. Let's assume there are only 20 object types in this world.
+Speaker D: And it will know if any of those have institutional meanings. So in a sense, I used as institutions for some some sense or the other.
+Speaker D: Which makes them. Entrubble right in a sense. Anyway, so we may have to this is the whole thing. We may have to build another data.
+Speaker F: Conceptually, we know what should be done. When we see what people have done, it may turn out that the easiest thing to do is to build a separate thing that that just pulls.
+Speaker F: Like it may be that the instance, we have to build our own instance. Yes.
+Speaker F: Things that. Right. We can just. Those are types and then it goes off the oncology once you have its type. So we build a little data structure.
+Speaker F: And so what we would do in that case is in our instance gadget have our EVAs. And if there isn't one, we'd get the type and then have the EVAs for the type.
+Speaker F: So we would have our own little. EVA tree. And then for other. Vectors that we need. So we'd have our own little things so that whenever we needed one, we'd just use the oncology to get the type.
+Speaker F: And then would hash or whatever we do to say off it's that type of thing and we want its EVA vector. It's that.
+Speaker F: So I think we can handle that and then the combination functions and whether we can put those in Java Bayes and all that sort of stuff is is the bigger deal.
+Speaker F: Yeah. I think that's where we have to get technically clever.
+Speaker E: We could just steal the classes in Java Bayes and then interface to them with our own code. Well, you quite understanding the classes in Java Bayes.
+Speaker F: Yeah, I mean, that's cute. I mean, you've been around enough to just. Well, I mean, this is huge package, which may or may not be consistent.
+Speaker E: But yeah, we could look at it. Well, just. Okay. Yeah.
+Speaker F: It's sort of a kind of a thing is it's kind of an interpreter and it expects its data structures to be in a given form. And if you say, hey, we're going to make a different kind of data structure to stick in there.
+Speaker F: Well, no, but that just means there's a protocol right that you could. It may or may not. I don't know. That's a question is to what extent is it allows us to put in these G functions.
+Speaker E: And I don't know. No, but I mean, what I would say you could have four different basements as you're running and then run your own right your own function that would take the output of those four and make your own G function.
+Speaker F: Yeah, that's fine. If it comes only at the end, but suppose you wanted embedded.
+Speaker E: Well, then you'd have to break all of your basements up in the smaller basements with all the.
+Speaker F: Oh, yeah, that's a truly horrible way to do it. One would hope. Yeah, but I'm just. Yeah, yeah, yeah, yeah, yeah. But at that point, you may say, hey, Java base isn't the only package in town. Let's see if there's another package that's more civilized about this.
+Speaker F: Now, Streney is worth talking to on this because he said that he actually did.
+Speaker F: He had some combining functions in the Java base, but he doesn't remember unless when I talked to him, he didn't remember whether it was an easy thing in natural thing or whether he had to do some violence to it to make it work.
+Speaker C: But he did do it. I don't see why the combining function have to be directly hacked into Java base. I mean, they're used to create tables so we can just make our own functions that create tables.
+Speaker F: So what I did do it is to just convert it into into a CPD that uses it's blown up. It's huge, but it doesn't require any data fitting or complication.
+Speaker C: I don't think I mean, the fact that it blows up is a huge issue in the sense that I mean, okay, so say it blows up, right? So say this like.
+Speaker C: 10, 10, 15 things. It's going to be like two to the bat, which isn't so bad. I understand. I'm just saying that that was my note. The little note I said said that.
+Speaker F: I said, here's the way you take the logical G function and turn it into a CPD. I mean, the the evidence combining function.
+Speaker F: So we could do that. And maybe that's what we'll do. But don't know.
+Speaker F: So I will be for next week. Push somewhere on the stuff that Decker I would did and try to understand it.
+Speaker F: You'll make a couple more copies of the document paper to give people. Okay. Okay. And.
+Speaker D: I think through this getting even vacatars dynamically out of autologes, what would I because I'm not quite sure whether we all think of the same thing or not here. You and I should talk about it.
+Speaker F: Okay. All right. Great. And Robert, thank you for coming in under. He's been sick. Robert.
+Speaker E: I was thinking maybe you should just cough into the microphone and see if they can handle it.
+Speaker A: Okay. So Nancy, about. Yep. Sure.
+Speaker D: And. So Robert, we have the money to hire. This is.
+Speaker D: The question.
+Speaker D: Also.
+None: You You You You

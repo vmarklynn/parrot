@@ -1,0 +1,468 @@
+None: I don't know.
+Speaker B: I'm going to go.
+Speaker D: Was the questioner supposed to be filled in before or after the matter?
+Speaker D: We just got a third one.
+Speaker D: Do you want us to do it really fast or wait?
+None: Okay.
+None: Oh, yeah.
+None: That was quick.
+None: Okay.
+None: Okay.
+None: Oh, there we go.
+Speaker D: Okay.
+Speaker D: Welcome to our second meeting.
+Speaker D: This is the functional design meeting.
+Speaker D: And I hope you all had a good individual working time.
+Speaker D: Okay.
+Speaker D: Let's get started.
+Speaker D: Okay.
+Speaker D: Here's the agenda for the meeting.
+Speaker D: After the opening, I am going to fulfill the role of secretary.
+Speaker D: Take the meeting minutes.
+Speaker D: Then we're going to have three presentations, one from each of you.
+Speaker D: Then we're going to discuss some new project requirements.
+Speaker D: Going to come to a decision on the functions of their mode control.
+Speaker D: And then we're going to close up the meeting.
+Speaker D: And we're going to do this all in about 40 minutes.
+Speaker D: Okay.
+Speaker D: First, I want to discuss the goals of this meeting.
+Speaker D: First, we need to determine the user requirements.
+Speaker D: And the question that we can ask ourselves is what needs and desires are to be fulfilled by this remote control.
+Speaker D: And then we're going to determine the technical functions.
+Speaker D: What is the effect of the apparatus?
+Speaker D: What actually is it supposed to do?
+Speaker D: What do people pick up a remote and use it for?
+Speaker D: And then lastly, we're going to determine its working design.
+Speaker D: How exactly will it perform its functions?
+Speaker D: That's the whole technical side of.
+Speaker D: I'll just give you a minute because it looks like you're making some notes.
+Speaker D: Okay.
+Speaker D: Oh, well let's go ahead and...
+Speaker D: I'm going to go back.
+Speaker D: So what I want to do right now is hear from all three of you on your research that you just did.
+Speaker D: Who would like to start us off?
+Speaker B: On the line going first.
+Speaker D: Okay.
+Speaker D: Do you have a PowerPoint or no?
+Speaker B: Yeah, it should be in the...
+Speaker B: I'm going to do our PowerPoint now.
+Speaker B: You can do it yourself actually.
+Speaker E: Oh, did you send it?
+Speaker E: Save it in the project documents?
+Speaker A: Yeah.
+None: Okay.
+None: This one?
+None: Sure.
+None: Okay.
+None: Yeah.
+None: Okay.
+None: Okay.
+Speaker D: Okay.
+Speaker D: Great.
+Speaker A: Okay.
+Speaker D: Okay.
+None: Okay.
+None: Okay.
+Speaker B: Okay.
+None: Okay.
+Speaker E: Okay.
+None: Great.
+Speaker B: Oh, the function of a remote control as we've been informed is basically to send messages to the television side.
+Speaker B: For example, switch it on, switch it off, go to this channel, go to channel nine, turn the volume up, etc.
+Speaker B: So, some of the considerations is just, for example, what it needs to include is the numbers, you know, zero to nine, so you can move to channel.
+Speaker B: The power button on slash off.
+Speaker B: The channel going up and down, volume going up and down, and then mute.
+Speaker B: And mute function.
+Speaker B: And then functions for VHS DVD, for example, play, rewind, fast forward stop pause, enter, and enter would be for like, you know, the menu.
+Speaker B: And then other menus for DB as well as TV, whether that means like we can go and decide the brightness of the screen, things like that, all the more complicated functions of menus.
+Speaker B: And we can decide if that's what we want.
+Speaker B: If we want to include that on the remote, or if that's something that would stay on the TV itself, for example.
+Speaker B: Okay.
+Speaker B: These are two examples, and you can see on the left, it's got a lot more buttons, and I don't know if you can read it, but it says step, go to freeze, slow repeat program mute.
+Speaker B: And so there's just some of the buttons, and so it gives you an idea, one example, and then on the right, it's a lot more simpler, it's got volume, it's got the play, like circle set, which is play rewind, but it's also what is fast forward is also like next on a menu.
+Speaker B: So you have functions that are duplicating.
+Speaker B: And you have a mute button in the numbers, and the eject and the power button, so that gives you two different kinds of more complex and more simple version.
+Speaker B: And then lastly, it's just the questions that we want to consider, like what functions do we want it to include, and how simple complex it should be, and what functions it needs to complete.
+Speaker B: What are needed to complete the installation process, because it's something that also has to be considered, and it's going to be hopefully a one time thing when you set it up should be set to go, but we have to include the functions that can allow it to set up in the first place.
+Speaker B: Okay, so that's it.
+Speaker D: All right.
+Speaker D: Very good presentation.
+Speaker D: Thank you.
+Speaker D: Speak with such authority on the menu.
+Speaker D: Okay, who would like to follow that one up?
+Speaker D: Yeah, that we just go. Okay.
+Speaker D: Do you want me to run it or you want to run it? Okay.
+Speaker D: Do you do functional requirements?
+Speaker D: Yes.
+Speaker D: All right.
+Speaker D: Now we have Courtney with the functional requirements.
+Speaker C: Yes. Okay, so we tested 100 subjects in our lab, and we just we watched them, and we also made them fill out a questionnaire and we found that the users are not typically happy with current remote controls.
+Speaker C: 75% think they're ugly.
+Speaker C: 80% want they are willing to spend more, which is good news for us.
+Speaker C: If we make it look fancier.
+Speaker C: And basically we just need something that really I mean there's some other points up there, but they need to be snazzy and but yet simple. So that's really what we need to do.
+Speaker C: And we need we need it to be simple yet.
+Speaker C: It needs to be high-tech looking.
+Speaker C: So that like they like I guess use the buttons a lot.
+Speaker C: Oh, yeah.
+Speaker C: I don't know. It's from my research.
+Speaker C: Okay, my team wasn't very clear. Oh, sorry.
+Speaker D: What do you mean by the current remote controls not match well the operating behavior of the user like I think it's like the engineering versus user.
+Speaker C: Okay.
+Speaker C: Whereas like the engineering she showed that the engineering ones are more complex and users don't really need all of the buttons that are contained over because they only use 10% of the buttons.
+Speaker C: Yeah.
+Speaker E: Okay, we use 10% of our brains.
+Speaker E: Good point.
+Speaker C: It works.
+Speaker C: It's a necessary tool.
+Speaker C: Yeah.
+Speaker C: Ready for the next five.
+Speaker C: And so people say that they typically lose it as you yourself know because you probably lose your remote control the time much like any small planes like cell phone.
+Speaker C: And they we need something simple because most people well 34% say that it's just too much time to learn how to use a new one and we don't want to go.
+Speaker C: We don't want to vary too far from the normal standard remote.
+Speaker C: I mean they do need to be able to identify it and or I am not very sure what that is.
+Speaker C: It's okay.
+Speaker C: It's very important.
+Speaker C: It is important for the remote control world.
+Speaker B: Is that like ergonomics like your hand movement system?
+Speaker C: It could be.
+Speaker C: Possibly.
+Speaker E: Maybe really need to provide more information on what RS I am.
+Speaker C: Yeah, that's what my website said.
+Speaker D: I think that's a pretty good guess though.
+Speaker C: Yeah, I would assume so.
+Speaker C: I think we're supposed to know it as remote control experts.
+Speaker C: But also so the channel the volume and the power buttons are most important on our company website.
+Speaker C: You can find like the specific statistics concerning to how much each button is used.
+Speaker C: But those are the definitely the top ones.
+Speaker C: Okay.
+Speaker C: Next slide.
+Speaker C: Yes.
+Speaker C: And so personally I think that we need a modern eye catching design but it really needs to be simple.
+Speaker C: So saying from your site, your presentation, the engineering versus the user specified or modes.
+Speaker C: I think that we should go with something that's more user friendly where the engineering ones, the boxes tend to make it look more complicated than it really is.
+Speaker C: The functionality of the product really needs to be considered as to like what type of buttons do we really need on it.
+Speaker C: And it needs to be open to a wide range of consumers.
+Speaker C: So even though we need a small number of buttons, we also need to take in like our most people going to be using it for a DVD player or a TVO.
+Speaker C: So what exactly are we using it for as well as the age range.
+Speaker C: So we need a hip but not a corny marketing scheme for promoting our product.
+Speaker C: And also we found our team found that speech recognition is it's like an up and coming thing.
+Speaker C: They really consumers are really interested in it.
+Speaker C: And since our findings found that people are willing to pay more money for a remote for it to be more high class.
+Speaker D: Just to clarify by speech recognition you mean they would say channel 5 and I guess so.
+Speaker B: Okay.
+Speaker B: I had to just say where are you?
+Speaker B: I guess we can interpret it.
+Speaker C: We can just try out different types of speech recognition with an R.
+Speaker D: Didn't our rival companies manufacture a remote that you would press the button on TV and it would promote with beeps so that if you ever lost it.
+Speaker D: We can just use a remote phone.
+Speaker B: Oh yeah.
+Speaker D: That's true.
+Speaker D: We could definitely include that if we wanted to.
+Speaker D: If it's within our race.
+Speaker D: Okay.
+Speaker D: Are we ready for our last presentation?
+Speaker E: Yeah, I'm just trying to move it.
+Speaker E: Okay.
+Speaker E: Okay.
+Speaker E: I think it should be there.
+Speaker E: Working design.
+Speaker E: Okay.
+Speaker E: I didn't get a chance to complete this one because some of the tools that I was giving more frustrate.
+Speaker E: Oh, that's fine.
+Speaker E: Okay.
+Speaker E: So.
+Speaker E: Method.
+Speaker E: Method of our design.
+Speaker E: I think I just started listing some of the things that we actually need to put into this.
+Speaker E: We need a power source.
+Speaker E: We're going to need a smart chip if we're going to make it multifunctional.
+Speaker E: Extra functions will probably need an additional chip either that or this smart chip will have to be extremely smart.
+Speaker C: What exactly is a smart chip?
+Speaker E: Usually a smart chip is just a chip that's been programmed and designed so that it can complete a fair range of functions.
+Speaker B: Well, how much extra would the additional chip be?
+Speaker B: Is that going to push us over our production costs?
+Speaker E: I wouldn't think so because we could probably get it from bulk from a newer company and they tend to sell their chips pretty cheap.
+Speaker E: Okay.
+Speaker E: Yep.
+Speaker E: Nothing here.
+Speaker E: That's okay.
+Speaker E: Power source.
+Speaker E: I figured batteries because they're easily available.
+Speaker E: Typically, remote has either two double A's or four triple A's, sometimes three.
+Speaker E: It really kind of depends on the size of the actual remote itself.
+Speaker E: A large on off button demographically, we're moving towards an older generation of people, so a large on off button would probably be good.
+Speaker E: Selection button for various entertainment devices, so you want something that will permit you to select the DVD player or the TV or the stereo system.
+Speaker E: A smart chip that permits, sorry, universal application.
+Speaker E: Again, something that will allow us to skip over between devices.
+Speaker E: That's kind of it.
+Speaker E: This is my 52nd design.
+Speaker E: Power source over here.
+Speaker E: We're going to have a switch, obviously, between the power source and the rest of it.
+Speaker E: You're going to need the switch.
+Speaker E: Extra bulb could just be for flashiness.
+Speaker E: Subcomponent, which would be like a way of diverting the power to different parts of the device.
+Speaker E: The chip and, of course, the infrared bulb, so it can communicate with the various devices that it needs to talk to you.
+Speaker C: So what exactly are you looking at?
+Speaker C: Is this like the front of the...
+Speaker E: This is just like a rough schematic.
+Speaker D: So this is the internal workings.
+Speaker D: So the red would be the front of the remote, though.
+Speaker B: Yeah.
+Speaker B: That's going to be what's communicating with the TV, but the other bulb, I think, is good just to indicate I'm doing something sort of like a...
+Speaker E: We don't have to stare at that infrared because, you know, when the battery starts dying on your remote, currently you have to actually stare at that bulb and go, okay, when I push this button, is it working?
+Speaker E: We can skip that whole thing, right?
+Speaker E: Yeah.
+Speaker E: So you can put it in the dark.
+Speaker E: Yeah, that's good.
+Speaker D: We should make a glow in the dark.
+Speaker D: Yeah, definitely.
+Speaker D: Okay, next.
+Speaker D: Yeah, that's it.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker D: Anything you want to add for personal preferences, though?
+Speaker D: You said already that we need a large on-off button, you think.
+Speaker E: I think that that's a good idea because, you know, that's one of the most important buttons.
+Speaker B: Well, should it be larger buttons in general?
+Speaker B: You know, like the examples that I had, they're quite small, so should we try and go for something that has larger buttons?
+Speaker C: I think we should.
+Speaker C: Like, I think that would be an, like, for the design, sorry.
+Speaker C: I think we should definitely go with buttons that don't look like a normal remote because most remotes have small square buttons.
+Speaker C: I think we should do something like bigger and round.
+Speaker C: Like, almost.
+Speaker D: Okay.
+Speaker D: Okay, let's talk about all of our.
+Speaker D: We'll come to a decision later about all the components that we need to include.
+Speaker D: Let's wrap up this one and I'm going to go back to my PowerPoint because we need to discuss the new project requirements, which you might have already seen flashed up on the screen a bit earlier.
+Speaker D: Wait.
+Speaker D: Come back.
+Speaker D: All right.
+Speaker D: Sorry.
+Speaker D: Let's go through this.
+Speaker D: All right.
+Speaker D: Here we go.
+Speaker D: New product requirements.
+Speaker D: First, it's only going to be a TV remote.
+Speaker D: We're trying not to over-complicate things.
+Speaker D: So no DVD, no Tivo, no stereo.
+Speaker D: It's not going to be multifunctional.
+Speaker D: Hey, and we need to promote our company more.
+Speaker D: So we need to somehow include our color and our company slogan on the remote.
+Speaker D: We're trying to get our name out there in the world.
+Speaker D: Okay.
+Speaker D: And you know what teletext is?
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: In the States, we don't have it, but it's like they just have this channel where it just has news and weather kind of sports.
+Speaker D: It's very bland looking.
+Speaker D: It's just text on the screen.
+Speaker A: Not even black with text.
+Speaker D: Like running along the bottom.
+Speaker E: Yeah.
+Speaker E: You can also get the kind of the TV guide.
+Speaker C: Wait, is it like the weather channel where it's got like the ticker running on the bottom?
+Speaker B: It's the entire screen.
+Speaker E: It's the entire screen.
+Speaker E: It's just running information.
+Speaker E: You can see me.
+Speaker B: So anyway, you can pick the news, entertainment.
+Speaker D: So it's like a separate channel from like what I'm watching.
+Speaker D: But it's becoming outdated now because of the internet.
+Speaker D: Nobody needs to go to the teletext channel to check the news.
+Speaker D: And we have 24 hour news channels now too.
+Speaker D: So those are our new product requirements.
+Speaker D: Okay.
+Speaker E: So do we have to include the company color within that?
+Speaker D: Yes.
+Speaker D: It's part of the logo.
+Speaker D: Okay.
+Speaker B: Company color being yellow.
+Speaker D: What we're going to do right now is come to some decisions definitive that we can all agree on about the target group and the functions and just definite things that we need to do.
+Speaker D: And then we'll close up the meeting.
+Speaker D: So.
+Speaker D: All right.
+Speaker A: Okay.
+Speaker D: So our target group is you mentioned older people.
+Speaker D: Would it just be universal for everyone you think because I think even if something has large buttons as long as they're not childishly large, like even technically non technically challenged people are going to use it.
+Speaker D: I mean, they want something user friendly.
+Speaker E: So well, even if we kept the regular standard size of remote, if we reduce the buttons down to the ones that people are saying that they use the most often and a couple extra, because they're saying they only use 10% of them.
+Speaker E: Yeah.
+Speaker E: Then we should be able to accommodate fairly decent sized buttons.
+Speaker D: Okay.
+Speaker D: So we want for our target group, would we say, I mean, young and old, all age ranges, all not kids, obviously, right?
+Speaker C: No, kids need to know how to use a remote.
+Speaker C: Most of them will into a picture between Disney channel, Cartoon Network.
+Speaker D: Okay.
+Speaker D: So we're going to go anywhere.
+Speaker D: Yeah, I think we need to adult in the age range.
+Speaker D: What about technical specifications, like how, how technically literate are these people who are going to be using our vote.
+Speaker C: I would say we should say dumber than the average person.
+Speaker B: Go for the lowest denominator.
+Speaker D: Yeah.
+Speaker D: Right.
+Speaker D: Okay.
+Speaker D: High school.
+Speaker D: So they need no technical experience to operate.
+Speaker E: How about little to no, because there's no way that you're going to be able to make it no.
+Speaker D: Okay.
+Speaker D: And we also need to determine the specific functions of this just to get it all out on paper.
+Speaker D: So we said it needs to send messages to the TV, needs to change the channel, turn on and off, just basic simple stuff like this.
+Speaker B: So if you have something, just say it and we'll add it to my meeting minutes.
+Speaker C: Yeah.
+Speaker D: Those are the most important ones.
+Speaker D: Right.
+Speaker D: And we want to keep, I'll make a note here that we want to keep the number buttons down.
+Speaker D: Correct?
+Speaker D: Because people only use 10%.
+None: Yeah.
+Speaker D: Hey, what else?
+Speaker E: Do we want this thing to be able to be found easily?
+Speaker D: I think so.
+Speaker D: What do you.
+Speaker B: Sure.
+Speaker B: Yeah.
+Speaker B: So what?
+Speaker B: Finding.
+Speaker D: We need to like,
+Speaker E: like, underneath the couch.
+Speaker E: How are we going to accommodate the quick ability to finding?
+Speaker C: Because people really are looking for our mother's more high tech.
+Speaker E: What if we gave it a charger and on the charger, just like a phone, like you get a portable phone and it's got a charger.
+Speaker E: Leave your phone somewhere.
+Speaker E: You push the button to find it.
+Speaker E: It finds.
+Speaker E: Do you think the phone really goes for that though?
+Speaker E: Because useful for the remote phone.
+Speaker D: Yeah.
+Speaker D: Would that add to our cost though?
+Speaker D: I wonder.
+Speaker C: I would think so because you'd have to develop a base.
+Speaker C: Right.
+Speaker B: Well, if you have a base, you can start putting in a charger and then you have a different kind of battery.
+Speaker E: Yeah.
+None: Mmm.
+Speaker E: Returgical batteries are cheaper usually.
+Speaker E: Yeah.
+Speaker D: Okay.
+Speaker D: I think we can make a decision about that later.
+Speaker D: We'll still put that as a point that we need to discuss.
+Speaker D: So that would include battery source.
+Speaker D: Power source rather.
+Speaker D: Is it going to have a charger?
+Speaker D: Or is it going to be run strictly off batteries?
+Speaker D: And we asked the need to deal with the issue that you mentioned of speech recognition if we want.
+Speaker B: If we have the speech recognition, then we can start aiming at it like another kind of more handicapped.
+Speaker B: Disabled demographic.
+Speaker C: Well, there's the people who desire speech recognition.
+Speaker C: The different demographics have different desires.
+Speaker C: I don't know if you guys can.
+Speaker C: You could, it wouldn't copy onto the things.
+Speaker C: It's black.
+Speaker C: But all the different age groups have different desires for speech recognition.
+Speaker C: So basically older people don't really care.
+Speaker C: It's really the people 25 to 35.
+Speaker C: I feel those are the people that really watch a lot of TV though.
+Speaker C: They're the ones that get addicted to soap operas and sitcoms.
+Speaker D: And if we introduce it when they're at this stage, they're going to probably always buy a remote that has.
+Speaker B: Then do you put the voice recognition?
+Speaker B: Do you put the receiver on the actual television in the base or in the actual remote?
+Speaker B: Because then you've already got the remote in the hand.
+Speaker B: Why are you just going to speak to the remote?
+Speaker B: Right.
+Speaker B: Whereas if you just speak in general and you don't have to have the remote in your hand and talk at it.
+Speaker D: Yeah.
+Speaker D: Well, and the speech recognition could be part of the lost and found device too.
+Speaker D: If we said find remote, locate remote or something.
+Speaker D: A certain phrase, then it could be just thrown it out there.
+Speaker A: Yeah.
+Speaker D: Well.
+Speaker B: 15 minutes.
+Speaker D: Okay.
+Speaker B: Anything else you want to discuss?
+Speaker B: Well, do we want to include the numbers like 0-3-9?
+Speaker B: Can we conceive of leaving them out?
+Speaker B: Wait on the remote itself?
+Speaker B: Yeah.
+Speaker B: Like you have 1-2-3-4-5-6-7-8-9-0.
+Speaker B: Well, we definitely need those.
+Speaker B: How do you leave those out?
+Speaker B: Well, I don't know.
+Speaker B: I mean, if you can conceive, it's like, well, I don't know.
+Speaker E: It's just a way of leaving them out.
+Speaker E: I think people would find that too foreign.
+Speaker D: Yeah.
+Speaker D: Yeah, that's true.
+Speaker D: And also remember that in this day and age, we need, you know, like a hundred button too.
+Speaker D: I used to have a remote that's not even go up past like 50.
+Speaker D: So I couldn't, whenever I got cable, I had to get a new TV.
+Speaker E: So we need to get to satellite.
+Speaker D: Yes, I get your own remote or digital cable.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: I guess we're going to discuss the project financing later, making sure that we can fit all of the stuff that we want to on our budget.
+Speaker E: Yeah, because I don't have any material pricing information available to me at the moment.
+Speaker D: So I don't forget we need to include the color of our company and the logo.
+Speaker B: The color being yellow?
+Speaker D: I'm guessing.
+Speaker D: I feel like the double R would be too garish.
+Speaker C: We could just have the logo in yellow or maybe a yellow light for the keys.
+Speaker C: I'll put like stripes.
+Speaker C: Oh, yeah, yellow.
+Speaker E: Yeah, yellow could be and it doesn't have to be huge.
+Speaker B: Yeah, well, if you have like, you have this sort of strip kind of down at the bottom, the base of it, it's just like yellow with the R.
+Speaker A: Right.
+Speaker D: So we've simplified, we don't need all those play fast forward, we're wind.
+Speaker D: Right.
+Speaker D: You know, no menu buttons.
+Speaker D: So we've pretty much pared it down to on off volume mute channel up down the numbers.
+Speaker A: Yeah.
+Speaker D: Can we go back to, I'm going to look really quickly back at those two examples and see if there's anything, which one was yours technical functions for functional requirement?
+Speaker C: Yeah.
+Speaker C: Audio settings and screen settings.
+Speaker C: We need those like audio settings, mono, stereo, pitch, screen settings like brightness color.
+Speaker C: Or do we just want that access from television itself?
+Speaker D: I think that that's fine just through the TV.
+Speaker D: I mean, how often does the average user need to do that kind of stuff?
+Speaker B: Well, the other options sort of like down at the bottom, like farther away, you just have this sort of box in set where it's like the buttons that you don't use as much, but occasionally you will use.
+Speaker C: Yeah, because we definitely need to have buttons for like subtitles and things like that.
+Speaker C: Because the foreign film market is expanding and stuff.
+Speaker C: And like on television, like I know living in Los Angeles, it's tons of Spanish network television.
+Speaker C: And if it has English subtitles, it's definitely helpful.
+Speaker D: Can we do that off through wind button?
+Speaker D: There's a menu button that pops up with a menu on the TV that says audio, video, whatever language.
+Speaker C: So we need up, down and side to side buttons for the menu.
+Speaker B: Well, that's what you know you can just double up with like the channel or the volume buttons.
+Speaker B: That's true.
+Speaker B: Yeah.
+Speaker B: The channel's just up and down.
+Speaker C: Okay, yeah.
+Speaker D: And then something that such as, yeah, the one, you know, the one over there on the left, the engineering center one.
+Speaker C: Right.
+Speaker C: Right, right, right.
+Speaker B: So we just have like add a menu button then for the various things needed, including the middle of the mission.
+Speaker B: If we have any like settings for voice recognition, though.
+Speaker B: Included menu.
+Speaker B: Yep.
+Speaker C: We just got an idea for design.
+Speaker D: Okay.
+Speaker D: Anybody have anything else I'd like to bring up in this meeting?
+Speaker E: I had something, but I forgot.
+Speaker D: Okay.
+Speaker D: Get out of here.
+Speaker D: Let's go back to the meeting closure then and see what we need to do next.
+Speaker D: All right.
+Speaker D: After this meeting, we're going to be sent a questionnaire and summary again, which we need to reply to that email.
+Speaker D: And then we're going to have lunch break.
+Speaker D: And after lunch, 30 minutes of individual work time.
+Speaker D: I'm going to put the minutes, I put the minutes for the first meeting already in the product documents folder.
+Speaker D: If you'd like to review them and I'm going to type up the minutes for this one as well.
+Speaker D: Here's what we're each going to do.
+Speaker D: The ID is going to work on the components concept.
+Speaker D: UID, the user interface concept, and you're going to do some try and watch it.
+Speaker D: Hey, specific instructions will be sent to you by your personal coach.
+Speaker D: And if anybody has anything they would like to add?
+Speaker D: No?
+Speaker D: Okay.
+Speaker D: Well, this meeting is officially over.
+Speaker D: Thank you all.

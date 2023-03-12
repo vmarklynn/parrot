@@ -1,0 +1,266 @@
+None: Good morning.
+Speaker D: Good morning.
+Speaker B: Marketing experts.
+None: All right.
+Speaker B: Are you ready?
+Speaker A: You should put the laptop right into the square for the cameras.
+Speaker A: Good morning.
+Speaker C: Good morning.
+Speaker C: Mr. P.M.
+Speaker A: How are you today?
+Speaker C: I'm fine.
+Speaker C: How was your business trip to Boston?
+Speaker A: Well, actually, I didn't go.
+Speaker A: I didn't feel like it.
+Speaker A: Do you want to open it as read-only?
+Speaker A: I guess I should close it here.
+Speaker D: You have the same message of Windows connection?
+Speaker D: Yeah, we will have a tip that I would like to play.
+Speaker A: Oh, stand by and close the window.
+Speaker A: Okay. The waiting is for our marketing expert.
+Speaker A: Root.
+Speaker A: Project kick-off.
+Speaker C: Is there a schedule for this meeting?
+Speaker A: Yes, there is, actually.
+Speaker A: I will... this is the agenda for today, for this meeting.
+Speaker A: Good morning, Root.
+Speaker A: It's important.
+Speaker A: Shall I close the door?
+Speaker A: Yeah, great.
+Speaker A: It's important that the laptops are exactly on the square for the cameras.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: We're here to develop a new product.
+Speaker A: I'm sure you've had a mail from our account manager about it.
+Speaker A: And this is the first meeting to generate some ideas about it.
+Speaker A: You are here in a specific role.
+Speaker A: Root is here as the marketing expert.
+Speaker A: Root is here as the user interface designer, and Sebastian is here in the role of industrial designer.
+Speaker A: Is that correct?
+Speaker A: That's correct.
+Speaker A: Okay.
+Speaker A: We're going to do a little tool training for the tools we are going to use during the meetings we are going to have here.
+Speaker A: Then I will tell you a little bit about my idea of the project plan, and we will have a discussion.
+Speaker A: This meeting should take no more than 25 minutes, so we should keep that in mind.
+Speaker C: Is there any room for a little presentation?
+Speaker C: Maybe during the discussion session?
+Speaker C: There is.
+Speaker A: Yeah, there is.
+Speaker C: Okay.
+Speaker A: No problem.
+Speaker A: Okay, this new product we are going to develop.
+Speaker A: It's remote control, a television remote control.
+Speaker A: First of all, it should be original, it should be trendy and user friendly.
+Speaker A: Those are kind of easy goals.
+Speaker A: And I'm sure we can find more goals for the product we are going to develop.
+Speaker A: We will discuss later on more ideas about how the remote should look and how it should function.
+Speaker A: All those kind of things.
+Speaker A: The market, we should have a look at the market.
+Speaker A: We are going to use a project method during this development, which consists of three different design stages.
+Speaker A: The functional design, the conceptual design and the detailed design.
+Speaker A: All of these stages mean that we do some individual work, prepare, and then meet to discuss the programming.
+Speaker A: The progressions.
+Speaker A: The first stage, the functional design.
+Speaker A: We are going to search for the user requirements and we will make a specification of that.
+Speaker A: The second is the technical functional design.
+Speaker A: What effect should the remote have?
+Speaker A: Well, in this case, control the television, I think.
+Speaker A: The last one is the working design. How exactly does it work in the technical sense?
+Speaker A: The other design stages, we will discuss that later.
+Speaker A: We will keep it with the functional design.
+Speaker A: Before we think about remote control, we will work with some of the tools we have here.
+Speaker A: As you see now, I can give a presentation.
+Speaker A: It is also possible to use this one as well. You can display two presentations as you want to.
+Speaker A: To present it, to show us a file, you will need to place it in your project documents folder, which is on your desktop.
+Speaker A: Then we have this electronic whiteboard system.
+Speaker A: I will show that now.
+Speaker A: You can draw on the board using this pen.
+Speaker A: There are little sensors.
+Speaker A: Do not grab it here, but a little bit more to the end.
+Speaker A: It is on the eraser now. We click the pen button.
+Speaker A: Not too fast writing.
+Speaker A: You can insert a new slide or whiteboard file by either using the insert function or by clicking the next button or the blank button.
+Speaker A: All our smartboard notes should be kept in the same file.
+Speaker A: Do not make a new file. Just use this one during the day.
+Speaker A: You can use the eraser to make something go away.
+Speaker D: You can use the same whiteboard file.
+Speaker D: We can work together on it while we are going to only use it in the meetings.
+Speaker A: In the meetings, only in the meetings. It is really like the regular whiteboard.
+Speaker A: You can choose the format.
+Speaker A: Let me see.
+Speaker A: I guess it is maybe because I am not pen selected.
+Speaker A: Current color. You can choose another color.
+Speaker A: You can choose the line width.
+Speaker A: Now I have a different line width and a color.
+Speaker A: It is quite easy if you do have any questions.
+Speaker A: I wrote down the documents.
+Speaker A: It should be in the project documents folder if you want to discuss it with us.
+Speaker A: As a little training, I will ask Root first to draw your own animal on a new slide with a different color and a different line width than the one now selected.
+Speaker B: Okay.
+Speaker B: It is a funny rabbit.
+Speaker A: A rabbit.
+Speaker A: Could you do the same?
+Speaker D: Sebastian is thinking about the animal.
+Speaker D: It is a cat.
+Speaker A: It should be a cat.
+Speaker B: It should be a cat.
+Speaker A: I am guessing a horse.
+Speaker D: With a very small legs.
+Speaker C: I guess you get the idea.
+Speaker A: Beautiful.
+Speaker A: Beautiful.
+Speaker A: You can use this at any time during the presentation if you want to.
+Speaker A: Back to our project.
+Speaker A: The remote control we are going to develop.
+Speaker A: We will have a selling price of about 25 euros.
+Speaker A: This product is 50 million euros.
+Speaker A: The product will be sold if there is market interest in more than one country.
+Speaker A: The production costs should not be more than 12 euros 50.
+Speaker A: We should keep that in mind during the development because those are important numbers.
+Speaker A: Then the discussion may be the time for Sebastian to show his presentation.
+Speaker C: I have some technical issues which I would like to present to you before we start the discussion.
+Speaker C: There might be some.
+Speaker C: First, my role of the industrial designer.
+Speaker C: I would like to think about the implementation of things and the technical possibilities and impossibilities.
+Speaker C: If someone comes up with ideas, I will try to translate them in technical functions.
+Speaker C: There might be some impossibilities.
+Speaker C: I will propose some implementations for that.
+Speaker C: I will remind people of some new technical possibilities which are available and which might be interesting to implement in our product.
+Speaker C: I have some initial ideas about some things which are maybe nice to take with you in the upcoming discussion.
+Speaker C: One thing about interoperability.
+Speaker C: I think modern remote control shoots control a diverse subset of equipment.
+Speaker C: For instance, DVD player, cell phones, video and audio equipment.
+Speaker C: One remote control for all your equipment.
+Speaker D: For cell phone?
+Speaker C: There should be some interoperability between them.
+Speaker C: I think it can come in handy.
+Speaker C: We should discuss that.
+Speaker C: We should think about the way how these things should communicate with each other.
+Speaker C: We are not living in the 1980s anymore.
+Speaker C: You should think about Bluetooth.
+Speaker D: The infrared is a little old-fashioned.
+Speaker D: But all the fees are equipped with infrared.
+Speaker D: You cannot know.
+Speaker D: That is the most of them.
+Speaker C: That is something we should discuss about everybody should think about it.
+Speaker C: That is just my role.
+Speaker C: I will give you some technical input.
+Speaker C: I think now the time is to have a little discussion about what the product should be and how it should look.
+Speaker C: Take these things into account when you start the discussion.
+Speaker A: The main point you are telling us is focus on the interoperability.
+Speaker C: One remote control shoots control one or more pieces of equipment.
+Speaker A: The way of communicating with these equipment.
+Speaker A: That was your presentation.
+Speaker A: I will go back to my own presentation.
+Speaker A: I do think it is time now to discuss some things.
+Speaker A: Sebastian told us a few things about the technical implications.
+Speaker A: There are other things like how to make it trendy, which is, I think, most routes role.
+Speaker A: The way how it should be controlled by the user, which is a rule during this part.
+Speaker A: Let us start with you.
+Speaker A: How do you think the remote should function for the user?
+Speaker D: A few things in mind.
+Speaker D: The remote should work on different TVs or different devices.
+Speaker D: It is a universal remote control for customers to buy a store.
+Speaker D: It is not for Philips or whatever to buy our remote for their own product.
+Speaker A: We are going to business to consumer.
+Speaker C: We are not developing this product for a specific vendor.
+Speaker C: We are developing this product and we want to set it to a very broad public.
+Speaker C: You should fit to every device.
+Speaker A: Do you agree?
+Speaker D: The technical function, like what you said, is just by pressing the button.
+Speaker D: You should change the state of the TV.
+Speaker D: That is just the basic technical function.
+Speaker D: That is my part for this session.
+Speaker A: Is that ease of use?
+Speaker D: The technical function is pure.
+Speaker D: What should the remote control do?
+Speaker D: What is his task?
+Speaker D: It just should change the TV's state.
+Speaker C: You see the buttons as a means of doing this.
+Speaker D: Maybe you want a touchscreen.
+Speaker C: I have seen these remote controls with this little stick, which you can move forward.
+Speaker C: It is very easy for a user to switch between channels or between tracks on a CD or on a DFT player.
+Speaker C: Maybe that is an idea.
+Speaker D: For other user interface, I had more industrial point to get a DFT.
+Speaker D: It is quite disturbing when you always have to point directly to the DFT.
+Speaker D: You must point it everywhere.
+Speaker D: Maybe not even point it.
+Speaker D: In that case, infrared should be a restriction to that.
+Speaker C: It is a restriction for the operating range too.
+Speaker C: When you are not able to point at the device, the range is fairly important.
+Speaker D: For TV, you are always in the neighborhood of a TV.
+Speaker D: I don't think the range should be a problem to that.
+Speaker D: If you want to get it working with a radio and you are in outside your garden with just one speaker, then maybe the range should be a...
+Speaker A: Okay, gentlemen.
+Speaker A: Just to remind you, we have five minutes left for this meeting.
+Speaker D: Two more things.
+Speaker D: You are able to feel the buttons without...
+Speaker D: You have to know what you do without looking at the buttons.
+Speaker D: It should be a user interface for feeling.
+Speaker D: It should be good to understand.
+Speaker D: You must use the buttons for volume or whatever.
+Speaker D: Of course, you don't always know where all buttons are.
+Speaker D: It should be visible in dark too.
+Speaker D: Those are two really user interface.
+Speaker A: I will write down glow in the dark.
+Speaker A: Yeah, that's perfect.
+Speaker A: Okay.
+Speaker A: I just want to hear Ruth's input for this meeting.
+Speaker A: Do you have anything already idea about how the market will respond to such a product or what we should take in account when developing such a product?
+Speaker B: I think most things have already been said like control multiple devices.
+Speaker B: And infrared might be an issue because...
+Speaker B: Well, he said about pointing, but lots of devices already use infrared.
+Speaker B: We'll probably have to implement that.
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: Sebastian, did you have any other ideas?
+Speaker C: Well, yes, I had about three minutes ago.
+Speaker C: I seem to forget them.
+Speaker C: I forgot them.
+Speaker C: Oh, yes, I remember.
+Speaker C: You said something about visibility in dark.
+Speaker C: Would it be nice for a user to have display on this remote control on which you can see functions which makes it easier to operate this?
+Speaker D: Yeah, well, maybe I...
+Speaker D: It can be quite simple.
+Speaker D: You can just have white buttons with black mark on it.
+Speaker D: The digits in black, then it's already visible in dark.
+Speaker D: So it don't have to be lightning or fancy.
+Speaker D: Well, it can be for design.
+Speaker A: Yeah, okay, because we want to develop a trendy product.
+Speaker C: So there's a cost limitation too.
+Speaker C: Yeah.
+Speaker A: Twelve year or fifty.
+Speaker C: So, yes.
+Speaker C: A big problem, I think.
+Speaker C: I think the financial part of this project implicates that it's not going to be high end product.
+Speaker C: The cost price is very low.
+Speaker D: Just remind something.
+Speaker D: The digits of the painting on the buttons should not fade.
+Speaker D: Okay.
+Speaker D: Always have the soft buttons always clear the paint on it.
+Speaker D: The mark.
+Speaker A: Okay, I have one point which comes in mind now.
+Speaker A: I think the device should either be rechargeable very easily, or should not consume too much power.
+Speaker A: Because it's very annoying if you need to change the batteries every other week.
+Speaker C: Yeah.
+Speaker A: So maybe we could, for example, only light the buttons that are applicable at that moment.
+Speaker A: Or, yeah, I don't know.
+Speaker A: That's more, Sebastian's.
+Speaker D: But then Bluetooth might be a problem.
+Speaker D: Because I think Bluetooth uses a lot of...
+Speaker C: Yeah.
+Speaker C: I'm not sure.
+Speaker C: I know cell phones have integrated Bluetooth also.
+Speaker C: Well, it seems to work quite okay.
+Speaker D: But you can use Bluetooth all the time, 24 hours a day.
+Speaker A: Okay.
+Speaker A: Gentlemen.
+Speaker A: It's over.
+Speaker A: I'm afraid we do not have any more time.
+Speaker A: So we will go back to our own work.
+Speaker A: Next meeting starts in 30 minutes.
+Speaker A: And well, you know your individual actions or your personal coach will probably email you about it.
+Speaker A: So, this was it.
+Speaker A: Okay.
+Speaker A: See you in 30 minutes.
+None: Okay.

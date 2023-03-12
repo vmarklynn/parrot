@@ -1,0 +1,606 @@
+Speaker G: Okay, we seem to be recording.
+Speaker G: All right.
+Speaker G: Sorry about not pre-doing everything the lunch went a little later than I was expecting.
+Speaker G: Chuck.
+Speaker F: Chuck was selling too many jokes.
+Speaker F: Yeah, pretty much.
+Speaker F: Does anybody have an agenda?
+Speaker H: Nope.
+Speaker B: Well, I've sent a couple of items.
+Speaker B: I thought somebody had a lot of your...
+Speaker F: Yeah, we only watched the end of the video.
+Speaker F: No, why don't we talk about practical things?
+Speaker B: Well, I can give you an update on the transcription effort.
+Speaker B: Great.
+Speaker B: Maybe raise the issue of microphone procedures with reference to the finalyness of the recordings.
+Speaker E: Okay, transcription, microphone issues.
+Speaker B: And then, maybe ask these guys, we have great steps forward in terms of the non-speech speech pre-segmenting of the signal.
+Speaker B: Okay.
+Speaker G: Well, we have steps forward.
+Speaker G: Yeah, we prefer this.
+Speaker F: Okay.
+Speaker I: We don't know if it's the results.
+Speaker G: I have a little bit of I-RAM stuff, but I'm not sure if that's of general interest.
+Speaker F: I-RAM?
+Speaker F: I-RAM.
+Speaker F: I-RAM by-gram.
+Speaker F: Yeah, let's see where we are at 330.
+Speaker C: Since I have to leave this usually at 330, can we do the interesting stuff first?
+Speaker C: I'm sorry.
+Speaker C: Well, I'm sorry.
+Speaker F: I'm sorry.
+Speaker F: Yeah, now you get to tell us what's the least specified.
+Speaker C: Well, I guess the work that's been done on segmentation.
+Speaker B: I think that was a good thing to start with.
+Speaker E: Okay.
+Speaker E: And the other thing, which I'll just say very briefly, that maybe relates to that a little bit, which is that one of the suggestions that came up in a brief meeting I had the other day when I was in Spain with Lola Parto and Javier Ferreros, who was here before, was when I started with what they had before, but adding the non-silence boundaries.
+Speaker E: So in what Javier did before, when they were doing, he was looking for speaker change points.
+Speaker E: As a simplification, he originally did this only using silence as a punitive speaker change point.
+Speaker E: And he did not say, look at points where you were changing broads, for that class, for instance.
+Speaker E: And for broadcast news, that was fine.
+Speaker E: Here obviously it's not.
+Speaker E: And so one of the things that they were pushing and discussing with me is why you're spending so much time on the feature issue, when perhaps if you sort of deal with what you were using before, and then just broad did it instead of just using silence as punitive change point.
+Speaker E: So then you've got, you already have the superstructure with Gaussian and HM and simple HM and so forth.
+Speaker E: So there was a little bit of a difference of opinion because I thought it was interesting to look at what features are useful.
+Speaker E: But on the other hand, I saw that they had a good point that if we had something that worked for many cases before, maybe starting from there a little bit because ultimately we're going to end up with some kind of structure like that where you have some kind of simple HM, you're testing the hypothesis that there is a change.
+Speaker E: So anyway, just reporting that.
+Speaker E: So yeah, why don't we do this speech?
+Speaker D: Speech?
+Speaker D: Speech?
+Speaker D: Okay.
+Speaker D: So what we basically did so far was using the mixed file to detect speech or non-speech or something like that, and what I did so far is I just used our old Munich system which is a nation-based system with Gaussian mixtures for speech and non-speech.
+Speaker D: And it was a system which used only one Gaussian for silence and the one Gaussian for speech and now I added multi-mixer possibility for speech and non-speech and I did some training on one dialogue which was transcribed by, yeah, we did a non-speech transcription atom, Dave and I, we did for that dialogue and I trained it on that and I did some pre-segmentations for Jane and I'm not sure how good they are or what other transcribes say.
+Speaker D: They can use it or?
+Speaker B: They think it's a terrific improvement and it really just makes it a world of difference.
+Speaker B: And you also did something in addition which was for those in which there were quiet speakers in the mix.
+Speaker D: Yeah, yeah, that was one one thing.
+Speaker D: Why I added more mixtures for the speech?
+Speaker D: So I saw that there were loudly speaking speakers and quietly speaking speakers and so I did two mixtures, one for the loud speakers and one for the quiet speech.
+Speaker G: And did you hand label who was loud and who was quiet?
+Speaker D: I did that for five minutes of one dialogue.
+Speaker D: That was enough to train the system and so it adapts on while running.
+Speaker C: So what kind of a front end processing did you do?
+Speaker D: It's just our old, mionic loudness-based spectrum on male scale, 20, 20, 20, 20 bands and on loudness and for additional features which is energy, loudness, modified loudness and zero crossing grade.
+Speaker D: So it's 24 features.
+Speaker B: And you also provided me with several different versions which I compared.
+Speaker B: And so you change parameters, do you want to say something about the perverse?
+Speaker D: You can specify the minimum length of speech and silence portions which you want.
+Speaker D: And so I did some modifications in those parameters basically changing the minimum length for silence to have more or less silence portions in the literature.
+Speaker G: So this would work well for pauses and utterance boundaries and things like that before overlap I imagine that doesn't work at all, that you'll have plenty of sections that are.
+Speaker B: That's true, but it saves so much time.
+Speaker B: The transgoers just enormous, enormous savings.
+Speaker E: That's great.
+Speaker E: Just one quickly still on the features.
+Speaker E: So you have these 24 features, a lot of my spectral features.
+Speaker E: Is there a transformation, principal components, transformation or something?
+Speaker D: No, we're just, we're sourced too.
+Speaker D: Originally we did that, but we saw when we used it for our closed talking microphone which, yeah, for our recognition as a mionic, we saw that it's not as necessary.
+Speaker D: It works as well without the LDA or something.
+Speaker E: Okay, no, I was curious.
+Speaker E: I think it's a big deal for this application.
+Speaker E: Yeah, yeah.
+Speaker B: Okay, then there's another thing that also Tilo has involved in, which is, okay, and also Dave Galbart.
+Speaker B: So this is this problem.
+Speaker B: So we had this meeting, also Adam, before you went away.
+Speaker B: Regarding the representation of overlaps, because it's present, because of the limitations of the interface we're using, overlaps are not being encoded by the transgoers in this complete and detailed away as it might be.
+Speaker B: And as might be desired, I think would be desired in the corpus, ultimately.
+Speaker B: So we don't have start and end points at each point where there's an overlap.
+Speaker B: We just have the overlaps encoded in the simple bin.
+Speaker B: Well, okay, so the limits of the interface are such that we were, in this meeting, we were entertaining how we might either expand the interface or find other tools which already do what would be useful, because what would ultimately be ideal in my view, and I think, and I had the sense that it was consensus, is that a thoroughgoing musical score notation would be the best way to go, because you can have multiple channels.
+Speaker B: There's a single timeline.
+Speaker B: It's very clear, flexible, and all those nice things.
+Speaker B: Okay, so I spoke, I had a meeting with Dave Galbart, and he had excellent ideas on how the interface could be modified to do this kind of representation.
+Speaker B: But in the meantime, you were checking into the existence of already existing interfaces, which might already have these properties, so do you want to see something about that?
+Speaker D: Yes.
+Speaker D: I talked with the many guys from Ludwig-Manns-Millianz University who do a lot of transcribing and transliterations, and they basically said they have a tool they developed themselves and they can't give away if it's to our own and it's not supported.
+Speaker D: But Zanipur, who was at CMU, who was formerly at Munich, and is now with CMU, she said she has something which she uses to do a trans-transferrations, a channel simultaneously, but it's running under Windows.
+Speaker D: So, I'm not sure if we can use it.
+Speaker D: She said she would give it to us, it wouldn't be a problem, and I've got some kind of manual down in my office.
+Speaker G: Well, maybe we should get it, and if it's good enough, we'll arrange Windows machines to be available.
+Speaker B: I also wanted to be sure, I've seen this is called PROT, the RAA, which I just mean speech
+Speaker D: and speech. Yeah, but I'm not sure that's the right thing for us.
+Speaker B: In terms of it being Windows versus Windows, but I'm just wondering if it's not.
+Speaker G: No, no PROT.
+Speaker B: Oh, I see.
+Speaker B: Oh, I see, so PROT may not be.
+Speaker D: That's not PROT, it's called trans-edit.
+Speaker D: I see.
+Speaker E: The other thing, to keep in mind, I mean, we've been very concerned to get all this rolling so that we would actually have data.
+Speaker E: But I think our outside sponsor is actually going to kick in and ultimately, that path could be smoothed out.
+Speaker E: I don't know if we have a long-term need to do lots and lots of transcribing.
+Speaker E: I think we had a very quick need to get something out, and we'd like to be able to do some later because it's interesting.
+Speaker E: It's interesting.
+Speaker E: But as far with any luck, we'll be able to wind down the link to PROT.
+Speaker G: What our decision was is that we'll go ahead with what we have with a not very fine time scale on the overlaps and do what we can later to clean that up if we need to.
+Speaker B: I was just thinking that if it were possible to bring that in like this week, then when they're encoding the overlaps, it would be nice for them to be able to specify when the start points and then points of overlaps.
+Speaker B: They're making really quick progress.
+Speaker B: That's great.
+Speaker B: So my goal was, my charge was to get 11 hours by the end of the month and it'll be, I'm clear that we'll be able to do that.
+Speaker G: That's great.
+Speaker G: And did you forward Morgan, Brian's thing?
+Speaker B: I sent it to, who can I send that to?
+Speaker B: I sent it to a list and I thought I sent it to the...
+Speaker B: Meeting the court list?
+Speaker B: Oh yeah, okay, so you probably forgot.
+Speaker B: So Brian did tell me that in fact what you said that they are making progress and that he's going to check the output of the first transcription.
+Speaker E: I mean, basically it's all a different world, and basically he's on it.
+Speaker B: Oh, that's just a new development.
+Speaker B: So this is, so it will happen.
+Speaker B: Super.
+Speaker E: Okay.
+Speaker E: I mean, basically it's just saying one of our best people is on it.
+Speaker E: It just doesn't happen to hear anymore someone else's face.
+Speaker C: But about the need for transcription, I mean, don't we, didn't we previously decide that the IBM transcripts would have to be checked anyway?
+Speaker C: Yes.
+Speaker C: Positive, augmented, so I think having a good tool is worth something.
+Speaker C: Yeah, okay.
+Speaker C: That's a good point.
+Speaker G: Yeah, Dave Galbert did volunteer and since he's not here, I'll repeat it to at least modify transcriber, which if we don't have something else that works, I think that's a pretty good way of doing.
+Speaker G: And we discussed on some methods of doing it.
+Speaker G: My approach originally, and I've already hacked on it a little bit, it was too slow because I was trying to display all the waveforms, but he pointed out that you don't really have to, and then it's a good point, that if you just display the mix waveform and then have a user interface for editing the different channels, that's perfectly sufficient.
+Speaker B: Yeah, exactly, and just keep those things separate.
+Speaker B: And Dan Ellis's hack already allows them to be able to display different waveforms to clarify overlabs the things, so that's what it is.
+Speaker G: They can only display one, but they can listen to different ones.
+Speaker B: Well, yes, but what I mean is that from transcribers perspective, those two functions are separate, and Dan Ellis's hack handles the choice, the ability to choose different waveforms from moment to moment.
+Speaker G: But only to listen to, not to look at.
+Speaker G: The waveform you're looking at doesn't change.
+Speaker B: That's true, yeah, but that's okay, because they're focused on it anyway.
+Speaker B: And then the hack to preserve the overlap better would be one which creates different output files for each channel, which then would also serve Liz's request of having single channel, separable, cleanly, easily separable, transcriber tied to single channel audio.
+Speaker E: Have folks from this been in contact with you?
+Speaker B: Not directly.
+Speaker B: If I could have gotten it over list, I don't think so.
+Speaker E: Okay, well, holidays may have interrupted things, because they seem to want to get absolutely clear on standards for transcription standards and so forth.
+Speaker E: Oh, this was supposed to be for December.
+Speaker E: Right, because they're presumably going to start recording next month.
+Speaker G: Okay, okay.
+Speaker G: So we should definitely get with them then and agree upon a format.
+Speaker G: I don't remember your email on that, so Wes, I had not in the loop on that.
+Speaker E: Yeah, I don't think I mailed anybody.
+Speaker E: I just think I told them the contact gene.
+Speaker E: Okay.
+Speaker E: That's right.
+Speaker E: That's the point person on it.
+Speaker G: Yeah, I think that's right.
+Speaker E: So yeah, maybe I'll hang in there a little bit about it.
+Speaker E: Okay.
+Speaker B: Keeping the conventions absolutely simple as possible.
+Speaker E: Yeah, because with any luck, there will actually be collections at Columbia and collections at UW and Dan.
+Speaker E: Dan is very interested in doing this.
+Speaker E: Right.
+Speaker E: Yeah.
+Speaker G: Well, I think it's important both for the notation and machine representation to be the same.
+Speaker G: Yeah.
+Speaker B: So there was also this email from Dan regarding the speech nonsense presentation.
+Speaker B: Yeah.
+Speaker B: I don't know if we want to end Dan.
+Speaker B: Dave Gowart is interested in pursuing the aspect of using amplitude as basis for the separation.
+Speaker B: Oh, yeah.
+Speaker E: He was a correlation.
+Speaker E: I mean, we hit cross correlation.
+Speaker E: I mentioned this a couple times before the commercial devices that do voice active miking.
+Speaker E: Basically, look at the at the energy and each of the mics.
+Speaker E: You basically compare the energy here to some function of all of the mics.
+Speaker E: So by doing that, rather than setting any absolute threshold, you actually do pretty good selection of who's talking.
+Speaker E: And those systems work very well.
+Speaker E: So people use them in panel discussions and so forth with sound reinforcement.
+Speaker E: And this, why the guy knew we built them like 20 years ago.
+Speaker E: So the techniques worked pretty well.
+Speaker B: It's fantastic.
+Speaker B: Because here's one thing that we don't have right now.
+Speaker B: And that is the automatic channel identifier.
+Speaker B: That would help in terms of encoding of overlaps, the transcribers would have less than just dangling to do if that were available.
+Speaker B: Yeah.
+Speaker E: So I think basically you can look at some, you have to play around a little bit to figure out what the right statistic is, but you compare each microphone to some statistic based on the overall.
+Speaker E: We also have the advantage of having distant mics too.
+Speaker G: Now using the close talking I think would be much better with the...
+Speaker E: I don't know.
+Speaker E: If I was actually working on it, sit there and play around with it and get a feeling for it.
+Speaker E: But you certainly want to use the close talking.
+Speaker E: Right.
+Speaker E: At least.
+Speaker E: I don't know if the other would add some other helpful dimension or not.
+None: Okay.
+Speaker I: What is the difference that classes to code the overlap?
+Speaker I: You would use?
+Speaker B: To code some types of overlap?
+Speaker B: Yeah.
+Speaker B: So, and I mean that it wasn't transcribed.
+Speaker B: We worked up a typology.
+Speaker B: And...
+Speaker I: It looked like you explained in the book.
+Speaker I: Yes, exactly.
+Speaker B: That hasn't changed.
+Speaker B: So, that's basically a two-tiered structure where the first one is whether...
+Speaker B: The person who's interrupt continues or not.
+Speaker B: And then below that there's subcategories, have more to do with, you know, is it simply back channel or is it someone...
+Speaker B: Completing someone else's thought or is it someone who introduced a new thought?
+Speaker G: And I hope that if we do a forced alignment with the close talking mic, that will be enough to recover at least some of the time.
+Speaker G: The time information of when the overlap occurred.
+Speaker I: We hope.
+Speaker I: Yeah, who knows.
+Speaker C: Who's going to do that?
+Speaker C: Who's going to do forced alignment?
+Speaker G: Well, IBM was going to.
+Speaker G: And I imagine they still plan to, but, you know, I haven't spoken with them about that recently.
+Speaker E: Well, my suggestion now is that all of these things to contact my...
+Speaker B: Okay, this is wonderful to have a direct contact like that.
+Speaker B: Well, let me ask you this.
+Speaker B: It occurs to me.
+Speaker B: One of my transcribers told me today that she'll be finished with one meeting by...
+Speaker B: Well, she sent tomorrow, but then she said, but, you know, let's just say maybe the day after just we just on the same side.
+Speaker B: I consent Brian, the transcript.
+Speaker B: I know these are...
+Speaker B: I consent him that it would be possible or a good idea or not to try to do a forced alignment on what we're on the way we're encoding overlaps now.
+Speaker E: I'll just talk to him about it.
+Speaker E: I mean, you know, basically he's just a colleague, friend, and...
+Speaker E: And, you know, the organization always did one.
+Speaker E: I hope this was just a question of getting the right people connected to him at the time.
+Speaker G: Is he on the mailing list?
+Speaker G: Who should add him?
+None: Yeah, I don't know for sure.
+Speaker H: Did something happen?
+Speaker H: Or can he put on this or was he already on it?
+Speaker E: No, I think it...
+Speaker E: Yes, something happened.
+Speaker E: I don't know what it was.
+Speaker E: Yes, for war.
+Speaker B: That would be like, that would be great.
+Speaker F: Right.
+Speaker F: So, where would...
+Speaker F: Maybe a brief...
+Speaker F: Well, let's...
+Speaker F: Why don't we talk about microponations?
+Speaker F: Yeah.
+Speaker G: That would be great.
+Speaker G: So one thing is that I did look on Sony's for replacement for the mics...
+Speaker G: for the head-worn ones, because they're so uncomfortable.
+Speaker G: But I think I need someone who knows more about mics than I do, because I couldn't find a single other model that seemed like it was.
+Speaker G: It seemed like it would fit the connector, which seems really unlikely to me.
+Speaker G: Does anyone like no stores or...
+Speaker G: know about mics who would know the right questions to ask?
+Speaker E: Oh, I probably would.
+Speaker E: I mean, my knowledge is just 20 years out of date, but some of it still disconnects.
+Speaker E: So, where...
+Speaker H: You couldn't find the right connector that go into these things?
+Speaker G: Yep.
+Speaker G: When I looked, they listed one microphone, and that's it.
+Speaker G: As having that type of connector.
+Speaker G: And guess is that Sony maybe uses a different number for their connector than everyone else does.
+Speaker G: And so...
+Speaker G: Oh, let's look at it.
+Speaker G: It seems really unlikely to me that there's only one.
+Speaker B: And there's no adapter for it?
+Speaker B: It seems like it would be a...
+Speaker G: Okay.
+Speaker G: Does that who knows?
+Speaker G: Who are we buying these for?
+Speaker G: I have it downstairs.
+Speaker E: I don't remember off the top of my head.
+Speaker E: Yeah, we can try and look at that together.
+Speaker G: And then...
+Speaker G: Just in terms of how you wear them.
+Speaker G: I had thought about this before.
+Speaker G: When you use a product like Dragon Dictate, they have a very extensive description about how to wear the microphone and so on.
+Speaker G: But I felt that in a real situation, we were very seldom going to get people to really do it.
+Speaker G: And maybe it wasn't worth concentrating on.
+Speaker E: Well, I think that that's a good back-off position that I was saying earlier.
+Speaker E: We are going to get some recordings that are imperfect and pay that's life.
+Speaker E: But I think that it doesn't hurt the naturalness of the situation to try to have people wear the microphones properly if possible.
+Speaker E: Because the natural situation is really what we have with the microphones on the table.
+Speaker E: Oh, that's true.
+Speaker E: In the target applications, we're talking about people aren't going to be wearing headmine mics anyway.
+Speaker E: So this is just for these headmine mics are just for use with research.
+Speaker E: And it's going to make, you know, if Andreas plays around with language modeling.
+Speaker E: He's not going to be want to be used up by people breathing into the microphones.
+Speaker G: Well, I'll dig through the documentation to Dragon Dictate and see if they still have the little form.
+Speaker E: But it does form.
+Speaker C: It's interesting.
+Speaker C: I talked to some IBM guys last January.
+Speaker C: I think I was there. So people who are working on their V-Avoise vacation product.
+Speaker C: And they said the breathing is really a terrible problem for them to not recognize breathing as speech.
+Speaker C: So anything to reduce breathing is a good thing.
+Speaker G: It seemed to me when I was using Dragon that it was really microphone placement helped an enormous amount.
+Speaker G: So you want it enough to the side so that when you exhale through your nose, the wind doesn't hit the mic.
+Speaker G: Everyone's adjusting their microphone of course.
+Speaker G: And then just close enough so that you get good volume.
+Speaker G: So you know, wearing it right about here seems to be about the right way to do it.
+Speaker E: I remember when I used a prominent laboratory's speech recognizer.
+Speaker E: This is a bonus as well, I guess, about 12 years ago or something.
+Speaker E: And they were perturbed with me because I was breathing in instead of breathing out.
+Speaker E: And they had models for the Markov models for the breathing out that they didn't have for breathing in.
+Speaker B: How do I wonder, is whether it's possible to have to maybe use the display at the beginning to be able to judge how correctly.
+Speaker B: Or how do I do that?
+Speaker G: I mean, when it's on, you can see it.
+Speaker G: You can definitely see it.
+Speaker G: Absolutely.
+Speaker G: And so, you know, I've sat here and watched sometimes the breathing and the bar going up and down and thinking, I can say something.
+Speaker G: I don't want to make people self-conscious.
+Speaker E: Stop breathing.
+Speaker E: It's going to be imperfect.
+Speaker E: And you can do some, you know, first-order thing about it, which is to have people move it away from being just directly in front of the middle, but not too far away.
+Speaker E: And then, you know, I think there's not much because you can't, you know, interfere.
+Speaker E: You can't fine tune the meeting that much.
+Speaker B: Right.
+Speaker B: That's true.
+Speaker B: It just seems like if something simple like that can be tweaked and the quality goes, you know, dramatically up in my people.
+Speaker G: And then also, the position of the mic also, if it's more directly, you'll get better volume.
+Speaker G: So, like, there's this pretty far down, the lower mouth.
+Speaker B: My feedback from the transcribers is he is always close to Chris McLaren, and just been fantastic.
+Speaker G: I don't know why that is.
+Speaker B: You're also, your volume is greater, but still, I mean, they say...
+Speaker G: I've been eating a lot.
+Speaker E: It makes it their job extremely easy.
+Speaker B: I could say something about the why I don't you want to.
+Speaker B: About what?
+Speaker B: About the transcribers or anything?
+Speaker C: Well, why don't we do that?
+Speaker C: But just to one more remark concerning the SRI recognizer, it is useful to transcribe and then ultimately train models for things like breadth and also the laughter is very, very important.
+Speaker C: So, in your transcribers mark them.
+Speaker C: Mark very audible breaths and laughter especially.
+Speaker B: They are putting... so in curly brackets, they put inhale or breath.
+Speaker B: Oh, great.
+Speaker B: And then in curly brackets, they say laughter.
+Speaker B: Now, they're not being awfully precise.
+Speaker B: So, the two types of laughter, they're not being distinguished.
+Speaker B: One is, when sometimes someone will start laughing one there in the middle of a sentence.
+Speaker B: And then the other one is when they finish the sentence and then they laugh.
+Speaker B: So, I did some double checking to look through.
+Speaker B: You need to have extra complications like time tags indicating the beginning and ending up laughing.
+Speaker B: That's a lot of different than that.
+Speaker B: What they're doing is, in both cases, just saying Craig is laughing at it.
+Speaker C: As long as there is an indication that there was laughter somewhere between two words, I think that's a fish worth the most.
+Speaker C: Actually, the recognition of laughter once you know, it's pretty good.
+Speaker C: So, as long as you can stick a tag in there that indicates that there was laughter, that would probably be a very interesting, prismatic feature.
+Speaker B: And I'm going to ask one thing about that.
+Speaker B: So, if they laugh between two words, you'd get it in between the two words.
+Speaker B: But if they laugh across three or four words, you get it after those four words, does that matter?
+Speaker C: Well, the thing that's hard to deal with is when they speak while laughing.
+Speaker C: And I don't think that we can do very well with that.
+Speaker C: But that's not as frequent as just laughing between speaking.
+Speaker G: So, do you treat breath and laughter as phonetically or as word models or what?
+Speaker C: We tried both. Currently, we use special words.
+Speaker C: There's actually a word for, it's not just breathing, but all kinds of mouth stuff.
+Speaker C: And then laughter is a special word.
+Speaker G: How would we do that with the hybrid system?
+Speaker G: So, train a phone in the neural net?
+Speaker C: Yeah. Oh, and each of these words has a dedicated phone.
+Speaker C: So, the mouth noise word has just a single phone.
+Speaker G: Right, so, in the hybrid system, we could train the net with a laughter phone and a breath sound phone.
+Speaker E: So, it's the same thing, right? I mean, you could say, well, we now think that laughter should have three states.
+Speaker E: So, some units, three states, different states, and then you would have three.
+Speaker C: Do whatever you want.
+Speaker C: The pronunciation, the pronunciations are somewhat non-standard. They actually are. It's just a single phone in the pronunciation, but it has a self-loop on it.
+Speaker C: So, it can...
+Speaker C: To go on forever.
+Speaker G: And how do you handle it in the language model?
+Speaker C: It's just a word.
+Speaker C: It's just a word in the language of the other word.
+Speaker C: Yeah.
+Speaker C: We also tried absorbing these both laughter and actually also noise.
+Speaker B: So, it's...
+Speaker B: Yes. Okay.
+Speaker C: Anyway, we also tried absorbing that into the pause model. I mean, the model that matches the stuff between words.
+Speaker C: And it didn't work as well.
+Speaker F: Yeah. Okay.
+Speaker G: Can you hand me your digit form?
+Speaker G: Sure.
+Speaker G: It's on a mark that you did not read digits.
+Speaker E: Say hi for me.
+None: Yeah.
+Speaker B: You didn't get me to thinking that. I'm not really sure which is more frequent, whether laughing.
+Speaker B: I think maybe an individual thinks that people are more prone to laughing when they're speaking.
+Speaker B: Yeah. I think...
+Speaker G: I was noticing that with Dan and the one that we...
+Speaker G: And Dan and the one that we're doing, we're not claiming to be getting the representation of mankind in these recordings.
+Speaker E: We have very, very tiny sample of speech researchers.
+Speaker G: Yeah.
+Speaker E: It was really nice.
+Speaker E: So...
+Speaker E: Why we just... since we're on this main line, we just continue with what you're going to see about the transcriptions.
+Speaker B: Okay. I'm really very...
+Speaker B: I'm extremely fortunate with people who apply new...
+Speaker B: Are transcribing for us. They are really perceptive.
+Speaker B: And I'm not just saying that...
+Speaker H: Because they're going to be transcribing it. That's the...
+Speaker H: No, they're super.
+Speaker H: Okay, turn the mic off and let's talk.
+Speaker B: I know. I'm serious. They're just super.
+Speaker B: So I brought them in and trained them in pairs because I think people can raise questions.
+Speaker B: That's a good idea.
+Speaker B: They think about different things and they think of different.
+Speaker B: And I trained them on about a minute or two of the one that was already transcribed.
+Speaker B: This also gives me a sense of...
+Speaker B: I can use that later with ribbons to intercut your liability kind of issues.
+Speaker B: And the main thing was to get them used to the conventions and the idea of the...
+Speaker B: The size of the unit versus how long it takes to play it back.
+Speaker B: So it's sort of calibration issues.
+Speaker B: And then just set them loose.
+Speaker B: And they're...
+Speaker B: They all have already background and using computers.
+Speaker B: They're trained in linguistics.
+Speaker B: Oh, no, is that good or bad?
+Speaker B: So one of them said, well, you know, he really said, not really.
+Speaker B: And so what should I do with that?
+Speaker B: And I said, oh, for our purposes, I do have a convention if it's a non-canonical...
+Speaker B: That one, I think, you know, with Eric's work, I sort of figure we can just treat that as a variant.
+Speaker B: But I told them if there's an obvious speech here, like I said in one thing and I gave my example.
+Speaker B: I said, my phone instead of my phone, didn't bother...
+Speaker B: I knew when I said it. I remember thinking, oh, that's not correctly pronounced.
+Speaker B: But I thought it's not worth fixing because often when you're speaking, everybody knows what you mean.
+Speaker B: But I have a convention that if it's obviously a non-canonical pronunciation, a speech error within the realm of resolution that you can tell in this American-English speaker, you know that I didn't mean to say microphone.
+Speaker B: Then you put a little tick at the beginning of the word and that just signals that this is not standard and then curly-brack is a prong error.
+Speaker B: And other than that, it's a word level. But when you know the fact that they noticed, you said, not end.
+Speaker B: What shall I do with that? I mean, they're very receptive. And several of them are trained in IDEA.
+Speaker B: They really could do phonetic transcription if we wanted to.
+Speaker E: Right. Well, where were they when they wanted to do with some small subset of the whole thing?
+Speaker E: I certainly would want to do everything.
+Speaker B: I'm also thinking these people are terrific. Cool. I mean, so I told them that we don't know if this will continue past the end of the month.
+Speaker B: And I also think they know that the data source is limited and I may not be able to keep them employed till the end of the month, even though I hope to.
+Speaker E: The other thing we could do actually is use them for a more detailed analysis of the overall.
+Speaker G: That would be so super. I mean, this is something that we were talking about. We could get a very detailed overlap if they were willing to transcribe each meeting four or five times.
+Speaker G: Right one for each participant. So they could by hand.
+Speaker E: Well, that's one way to do that. But I would say the other thing is just go through for the overlaps.
+None: Yeah.
+Speaker E: So instead of doing phonetic transcription for the whole thing, which we know from the Steve's experience with the source transcription is very, very, very, tank consuming. And it took them, I don't know how many months to get four hours.
+Speaker E: So that hasn't been really our focus. We can consider it. But I mean, the other thing is this is something so much time thinking about overlaps is maybe get much more detailed analysis of the overlaps.
+Speaker E: But anyway, I'm open to our consideration. I don't want to say that I feel I'm open to a consideration of what are some other kinds of detailed analysis that would be most useful.
+Speaker E: And I think this year we actually do it. It says we have due to variations in funding. We seem to be doing very well on money for this this year next year with any have much less.
+Speaker E: You mean 2001 calendar year or I mean calendar year 2001. Yeah, so it's it's we don't want to hire a bunch of people a lot of time staff because the funding that we've gotten is sort of a big chunk for this year.
+Speaker E: But having temporary people doing some specific thing is actually perfect.
+Speaker B: Wonderful. And then school start in the 60 on the 16th. Some of them will have to cut back their hours.
+Speaker B: Yeah, they were people time now or some of them are. Wow.
+Speaker B: Well, I wouldn't say 40 hour weeks. No, but what I mean is I shouldn't say that way because it does sound like 40 hour weeks. No, I would say they're probably they don't have they don't have other things that are taking away.
+Speaker B: I don't see how someone to do 40 hours a week on transcription. No, you're right. It's it's too taxing but they're putting in a lot.
+Speaker B: And I checked them over. I haven't checked them all but just spot checking. They're fantastic. I think it would be transcribing.
+Speaker E: I mean, for Ron Tay volunteer to do some of that. The first first stuff he did was transcribing Chuck.
+Speaker E: And he said, you know, I was thought Chuck spoke really well.
+Speaker B: Well, you know, I also thought Liz has this, you know, and I do also this, this interest in the types of overlaps that are involved.
+Speaker G: So would be great choices for doing coding of that type if we wanted or whatever. So I think it would also be interesting to have a couple of the meetings have more than one transcriber do because I'm curious about interanotator agreement.
+Speaker B: Yeah, I think that's a good idea. And there's also in my mind, I think on Andreas was leading to the topic the idea that we haven't yet seen the type of transcript that we get from IBM.
+Speaker B: And it may just be, you know, pristine, but on the other hand, given the lesser interface, because this is, you know, we've got a good interface. We've got great headphones.
+Speaker E: It could be that they will, there's one that being a kind of first pass or something like that.
+Speaker E: Maybe a lot of them because again, they probably are going to do these in one which will also be.
+Speaker B: That's true. Although you have to, don't you have to start with the close enough approximation of the verbal part.
+Speaker E: Well, that's, that's available, right? I mean, so the argument is that if your statistical system is good, it will in fact clean things up.
+Speaker E: So it's got its own objective criterion. And so in principle, you could start up with something that was kind of raw.
+Speaker E: I mean, give an example of something we used to do at one point back with, like this area, in the other times as we would take, take a word and have a canonical pronunciation.
+Speaker E: And if there's five phones in a word, break up the word into five equal length pieces, which is completely rough.
+Speaker E: Yeah.
+Speaker E: I mean, the timing is off all over the place, just about any word.
+Speaker E: It's okay.
+Speaker E: But it's okay. You start off with that and the statistical system then lines things. Eventually, you get something that doesn't really look to bad.
+Speaker E: Oh, excellent.
+Speaker E: So, so I think using a good aligner actually can help a lot.
+Speaker E: But, you know, they both help each other. If you have a better starting point than it helps the aligner, if you have a good aligner, it helps the human taking less time to graduate.
+Speaker E: So, excellent.
+Speaker B: I guess there's another aspect too. And I don't know. This is very possibly different topic.
+Speaker B: But, just let me say, with reference to this idea of higher order organization within meetings. So, like, you know, the topics that are covered during a meeting with reference to the other uses of the data.
+Speaker B: So, being able to find where so and so talked about such and such.
+Speaker B: Then, I mean, I did sort of a rough pass on encoding, like, episode, like, level things on the transcribed meeting.
+Speaker B: Already transcribed meeting.
+Speaker B: I don't know if, or if that's something that we want to do with each meeting, sort of like a manifest when you get a box full of stuff. Or if that's, I mean, I don't know what level of detail would be most useful.
+Speaker B: I don't know if that's something that I should do when I look over it. Or if we want someone else to do, or whatever, at this issue of the contents of the meeting in an outline form.
+Speaker E: Meaning, really, my thing.
+Speaker G: I think just whoever is interested can do that. So, someone wants to use that data.
+Speaker E: I think it's a little short here. We've been trying to finish. Well, you know, the thing that sort of I wanted to do these digits and haven't heard from the beginning.
+Speaker G: We could skip the digits. We don't have to read digits each time.
+Speaker E: I think, you know, another, another, what you did, it's more than that is good.
+Speaker E: So, I'd like to do that. I think you maybe, did you prepare some all thing you wanted to see? Or is prepared?
+Speaker I: Yeah. How long?
+Speaker I: I think it's fast because I have the results of the study of the training energy without lowering.
+Speaker I: I'm just trying to do the medium, the average, dividing by the variance.
+Speaker I: The last meeting, I don't know if you remain, we have problems with the parameters, with representations, the parameters.
+Speaker I: Because the values of the peaks in the signal look like that's a follow to the energy in the signal.
+Speaker I: And it was probably not with the scale. With what?
+Speaker I: Scale.
+Speaker I: And I change the score and we can see the variance.
+Speaker E: But the bottom line is still not separating out.
+Speaker E: That's an option.
+Speaker E: There's no point in going through all that.
+Speaker E: I think we have to start.
+Speaker E: There's two suggestions really, which is what we said before, is that it looks like, at least you have probably the obvious way to normalize so that the energy is anything like a reliable indicator of the overlap.
+Speaker E: I'm still low. I think that's a low funny.
+Speaker E: It seems like it should be.
+Speaker E: But you don't want to keep knocking at it if you're not getting any result of that.
+Speaker E: But I mean the other things that we talked about is pitch related things and hominicity related things, which also should be some kind of reasonable indicator.
+Speaker E: But a completely different tack on it is the one that was suggested by your colleagues in Spain, which is to say, don't worry so much about the features.
+Speaker E: That is to say use, as you're doing with speech, non-speech use of very general features.
+Speaker E: And then look at it more from the aspect of models.
+Speaker E: Have a couple of mark-up models.
+Speaker E: And try to determine when is the layer you're in an overlap when you're not in overlap.
+Speaker E: And let the statistical system determine what's the right way to look at the data.
+Speaker E: I think it would be interesting to find individual features put them together.
+Speaker E: I think that you'd end up with a better system overall, but given the limitation in time, given the fact that heavier system already exists, doing this sort of thing.
+Speaker E: But its main limitation is that again, it's only working at silences, which maybe that's a better place to go.
+Speaker I: I think that the possibility can be that fellow working with a new class, not only non-speech and speech, that in the speech class, dividing speech from speaker and overlapping to do a fast experiment to prove that this general feature can solve the problem.
+Speaker I: How far is...
+Speaker I: I have prepared the pitch tracker now.
+Speaker I: I hope the next week we have some results.
+Speaker I: We will see the parameter of pitch tracking with the problem.
+Speaker E: Have you ever looked at the heavier speech segmenter?
+Speaker E: No.
+Speaker E: Maybe you could show...
+Speaker E: Yeah, sure.
+Speaker E: The limitation there again was that he was only using it to look at silences as a punitive split point between speakers.
+Speaker E: But if you included broad classes, then principle maybe you could cover the overlap cases.
+Speaker D: But I'm not too sure if we can really represent overlap with the detector I use, up to now, the speech.
+Speaker D: I think that's right.
+Speaker G: I think that the heavier speech might be able to.
+Speaker G: It doesn't have the same HMM modeling, which is a drawback.
+Speaker E: It's just a Gaussian for each.
+Speaker G: Yeah.
+Speaker G: And then you choose optimal splitting.
+Speaker E: What does it have? Does it have any temporal...
+Speaker G: Maybe I'm misremembering, but I did not think it had a mark-off.
+Speaker E: I guess I don't remember either.
+Speaker E: It's been a while.
+Speaker I: Yeah.
+Speaker I: I could have looked at it.
+Speaker I: You can see the same word with the mark-off.
+Speaker I: Yeah, I didn't think so.
+Speaker E: He just computes a Gaussian over a Gaussian.
+Speaker G: And so I think it would work fine for detecting overlap.
+Speaker G: What he does is, as a first pass, he does a guess at where the divisions might be.
+Speaker G: And he overestimates.
+Speaker G: And that's just a data reduction step so that you're not trying it every time interval.
+Speaker G: And so those are the punitive places where he tries.
+Speaker G: And right now he's doing that with silence.
+Speaker G: And that doesn't work with the meeting recorder.
+Speaker G: So if we use another method to get a first pass, I think it would probably work.
+Speaker G: It's a good method.
+Speaker G: As long as the segments are long enough.
+Speaker G: That's the other problem.
+Speaker E: Okay, so let me go back to what you had.
+Speaker E: The other thing one to do is...
+Speaker E: So you have two categories.
+Speaker E: And the mark-off model is reached.
+Speaker E: Good, you have a third category?
+Speaker E: So you have non-speech, single-person speech, and multiple-person speech?
+Speaker E: He has a non-speech board, actually.
+Speaker B: Don't you have any other categories on the board?
+Speaker E: And you have a mark-off model for each?
+Speaker D: I'm not sure.
+Speaker D: I'm not about adding another class to it.
+Speaker D: It's not too easy, I think, the transition between a different class, in the system I have now.
+Speaker D: But it could be possible, I think, in principle.
+Speaker D: Yeah, I mean, this is all pretty gross.
+Speaker E: I mean, the reason why I was suggesting originally to look at the features is because I thought, well, we're doing something we haven't done before.
+Speaker E: We should at least look at the space, understand.
+Speaker E: It seems like if two people, two or more people talk at once, should get louder.
+Speaker E: Yeah.
+Speaker E: And there should be some discontinuity and pitch contours.
+Speaker E: And there should overall be a smaller proportion of the total energy that is explained by any particular harmonic sequence in the spectrum.
+Speaker E: So those are all things that should be there.
+Speaker E: So far, Jose has been, although I was told I should be calling you a paper, but anyway, has been exploring largely the energy issue.
+Speaker E: As with a lot of things, it's not as simple as it sounds.
+Speaker E: And there's a lot of energy, as it helps you see residual energy, is it delta of those things?
+Speaker E: Obviously, just a simple number.
+Speaker E: Absolute number isn't going to work, so it should be compared to watch.
+Speaker E: There'd be a long window for the normalizing factor, a short window for what you're looking at, or how short should they be.
+Speaker E: So that he's been playing around with a lot of these different things, and so far, at least has not come up with any combination that really gave you an indicator.
+Speaker E: So I still have a hunch that it's in their someplace, but it may be given that you've limited time here, it just may not be the best thing to focus on some range.
+Speaker E: So pitch related and harmonic related.
+Speaker E: But it seems like if we just want to get something to work, that there's a suggestion of, they were suggesting going to mark up models, but in addition, there's an expansion of what have you idea of.
+Speaker E: And one of those things, looking at the statistical component, even if the features that you give it are maybe not ideal for it, it's just a general filter bang or a faster one or something.
+Speaker E: It's in there somewhere probably.
+Speaker I: What did you just think about the possibility of using the Javier Sokhovur?
+Speaker I: I mean, the bike criterion, to train the Gaussian using the mark by hand to train overlapping zone and SP zone.
+Speaker I: I mean, I think that interesting experiment could be to prove that if we suppose that the first step, I mean the classified world world, classified from Javier or classified from Filo, what happened with the second step?
+Speaker I: I mean, what happened with the clustering process using the Javier?
+Speaker I: I mean, it's enough to operate or to distinguish between overlapping zone and SP zone.
+Speaker I: If we develop and classify and the second step doesn't work, we have another problem.
+Speaker G: I had tried doing it by hand at one point with a very short sample, and it worked pretty well, but I haven't worked with it a lot.
+Speaker G: So I took a hand segmented sample and I added 10 times the amount of numbers at random, and it did pick out pretty good boundaries, but this was just very anecdotal sort of thing.
+Speaker I: It's possible with my segmentation by Khan that we have information about the overlapping.
+Speaker G: Right, so if we fed the hand segmentation to Javier's and it doesn't work, then we know something's wrong.
+Speaker I: I think that's probably worth a while doing.
+Speaker I: Do you know where our software is?
+Speaker G: Do you use it?
+Speaker G: I have as well, so if you need help, let me know.
+Speaker G: Transcript 295129706030970801502.05884.
+Speaker G: 1 6 2 8 5 8 3 2 3 3 0 3 1 5 4 5 0 9 9 7 1 1 2 8 4 0 0 9 4 0 7 1 0 1 2 4 1 5 3 1 2 6 7 2
+Speaker E: correct that 6 7 2 1 0 8 6. Transfer 2 8 7 1-2 8 9 0 3 3 8 4 4 6 5 2 5 8 0 6 7 8 0 0 1 4 0 1 8 1 3 1 1 6 2 5 3 4 6 8 1 3 4 5 0 6 0 1 7 1 1 2 8 3 3 6 0 8 0 9 6 5 0 7 3 8 0 8 6 9 1 2 2
+Speaker H: transcript 2 8 3 1-2 8 5 0 1 8 6 7 0 6 5 2 3 4 0 6 1 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 8 8 1 3 2 0 8 4 5 5 0 6 7 8 0 7 8 9 0 0 5 1 3 3 5 0 0 5
+Speaker D: OK, transcript 2 7 9 1-2 8 1 0 0 0 0 2 3 7 3 3 2 4 7 5 3 0 2 6 7 8 0 8 0 1 0 7 0 3 1 5 0 3 6 2 8 0 0 0 3 4 5 0 2 0 0 7 2 0 3 3 1 7 8 9 5 1 2 2 0 9 8 5 3 9 7 8
+Speaker I: 2 3 3 3 3 3 3 4 3 4 4 4 4 1 1 0 5 6 7 7 7 7 8 9 0 1 2 9 4 8 5 9 2 2 3 3 49567979 8350 02795108254
+Speaker B: Transcript number 2771 2790 909 899 0150 1228 845 2500 3824 465608 819566 0502187 07029 1 2 3 0 0 5 3 6 3524 7764 862809
