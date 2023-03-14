@@ -7,8 +7,11 @@
 1. data: contains all the full transcripts generated from the audio files of AMI and ICSI corpus using both whisper and pyannote.
 2. formatted_data_v3: contains the data after preprocess. We are trying to make appropriate for input to the BART model. The formatted data takes the data and converts it to speaker : Dialogue format that the BART model can be trained on.
 3. docs - Important documents on the project
-- PPT - Presentation on the project 
+- parrot_presentation.pptx presentation on the project. 
+- Youtube link to presentation https://www.youtube.com/watch?v=QHgWTdenAyM
+- Youtube Link to demo
 - Final Report
+
 
 4. reference_txt:  Human made summaries for reference purposes taken from  Yale-LILY/QMSum: Dataset for NAACL 2021 paper: "QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization" (github.com)  
 5. templates: all Django template files
