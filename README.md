@@ -9,8 +9,9 @@
 3. docs - Important documents on the project
 - parrot_presentation.pptx presentation on the project. 
 - Youtube link to presentation https://www.youtube.com/watch?v=QHgWTdenAyM
-- Youtube Link to demo
-- Final Report
+- Youtube Link to demo https://www.youtube.com/watch?v=3fHrQ8I0j4c
+
+- Final Report - the final submitted report for the project
 
 
 4. reference_txt:  Human made summaries for reference purposes taken from  Yale-LILY/QMSum: Dataset for NAACL 2021 paper: "QMSum: A New Benchmark for Query-based Multi-domain Meeting Summarization" (github.com)  
