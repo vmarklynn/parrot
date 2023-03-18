@@ -1,7 +1,7 @@
 # PARROT SUMMARIZATION FOR MEETINGS
 #### Project for Data Science Capstone @ Seattle University
 #### Team Members: Vincent Marklynn, Long Yong Tan, Anjali Sebastian
-#### Advisor: Dr. Wan Bae , Sponsor: Dr.Sada Narayanappa
+#### Advisor: Dr. Wan Bae , Sponsor: Dr. Sada Narayanappa
 
 ### Information on all Modules
 1. data: contains all the full transcripts generated from the audio files of AMI and ICSI corpus using both whisper and pyannote.
