@@ -21,7 +21,7 @@ def preprocess(text):
     return '\n'.join(result)   
 
 #-----------------------------models------------------------------------------------------------------------               
-summarizer = pipeline("summarization", "vmarklynn/bart-large-cnn-samsum-icsi-ami", truncation=True)
+summarizer = pipeline("summarization", "vmarklynn/bart-large-cnn-samsum-acsi-ami-v2", truncation=True)
 kw_model = keybert.KeyBERT(model='all-mpnet-base-v2')
 #-----------------------------------------------------------------------------------------------------               
 
@@ -34,9 +34,9 @@ def summarizeText(request, **kwargs):
     
     input_cleanned_text = preprocess(transcription)
     print("\n\n", input_cleanned_text, "\n\n")
-    print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.5))
+    # print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.25))
     print("\n\nSummarizing...")
-    summary = summarizer(input_cleanned_text, min_length = math.ceil(int(wordCount) * 0.1), max_length = math.ceil(int(wordCount) * 0.5))[0]['summary_text']
+    summary = summarizer(input_cleanned_text)[0]['summary_text']
     print("\n", summary, "\n")
     
     keywords = kw_model.extract_keywords(text, 
@@ -73,12 +73,10 @@ def summarizeSummary(request, **kwargs):
     summary_input = post_data.get('summary')
     wordCount = post_data.get('wordCount-summ')
     
-    print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.5))
+    print( "min: ", math.ceil(int(wordCount) * 0.1), "max: ", math.ceil(int(wordCount) * 0.25))
     print("\n\nSummarizing again...")
-    summary = summarizer(summary_input, min_length = math.ceil(int(wordCount) * 0.1), max_length = math.ceil(int(wordCount) * 0.5))[0]['summary_text']
+    summary = summarizer(summary_input, min_length = math.ceil(int(wordCount) * 0.1), max_length = math.ceil(int(wordCount) * 0.25))[0]['summary_text']
     print("\n", summary, "\n")
     
     response = {'summary': summary}
     return HttpResponse(json.dumps(response), content_type='application/json')
-
-#-----------------------------------------------------------------------------------------------------               
