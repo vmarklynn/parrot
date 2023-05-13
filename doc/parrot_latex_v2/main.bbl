@@ -1,0 +1,185 @@
+%%% -*-BibTeX-*-
+%%% Do NOT edit. File created by BibTeX with style
+%%% ACM-Reference-Format-Journals [18-Jan-2012].
+
+\begin{thebibliography}{12}
+
+%%% ====================================================================
+%%% NOTE TO THE USER: you can override these defaults by providing
+%%% customized versions of any of these macros before the \bibliography
+%%% command.  Each of them MUST provide its own final punctuation,
+%%% except for \shownote{}, \showDOI{}, and \showURL{}.  The latter two
+%%% do not use final punctuation, in order to avoid confusing it with
+%%% the Web address.
+%%%
+%%% To suppress output of a particular field, define its macro to expand
+%%% to an empty string, or better, \unskip, like this:
+%%%
+%%% \newcommand{\showDOI}[1]{\unskip}   % LaTeX syntax
+%%%
+%%% \def \showDOI #1{\unskip}           % plain TeX syntax
+%%%
+%%% ====================================================================
+
+\ifx \showCODEN    \undefined \def \showCODEN     #1{\unskip}     \fi
+\ifx \showDOI      \undefined \def \showDOI       #1{#1}\fi
+\ifx \showISBNx    \undefined \def \showISBNx     #1{\unskip}     \fi
+\ifx \showISBNxiii \undefined \def \showISBNxiii  #1{\unskip}     \fi
+\ifx \showISSN     \undefined \def \showISSN      #1{\unskip}     \fi
+\ifx \showLCCN     \undefined \def \showLCCN      #1{\unskip}     \fi
+\ifx \shownote     \undefined \def \shownote      #1{#1}          \fi
+\ifx \showarticletitle \undefined \def \showarticletitle #1{#1}   \fi
+\ifx \showURL      \undefined \def \showURL       {\relax}        \fi
+% The following commands are used for tagged output and should be
+% invisible to TeX
+\providecommand\bibfield[2]{#2}
+\providecommand\bibinfo[2]{#2}
+\providecommand\natexlab[1]{#1}
+\providecommand\showeprint[2][]{arXiv:#2}
+
+\bibitem[pya(2021)]%
+        {pyannotewhisper}
+ \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Pyannote Whisper}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://github.com/yinruiqing/pyannote-whisper}.}.
+
+
+\bibitem[whi(2021)]%
+        {whisper}
+ \bibinfo{year}{2021}\natexlab{}.
+\newblock \bibinfo{title}{Whisper}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://github.com/openai/whisper}.}.
+
+
+\bibitem[Dja(2023)]%
+        {Django}
+ \bibinfo{year}{accessed on April 13, 2023}\natexlab{}.
+\newblock \bibinfo{title}{Django}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://www.djangoproject.com}.}.
+
+
+\bibitem[FFm(2023)]%
+        {FFmpeg}
+ \bibinfo{year}{accessed on April 13, 2023}\natexlab{}.
+\newblock \bibinfo{title}{FFmpeg}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://ffmpeg.org}.}.
+
+
+\bibitem[Bredin et~al\mbox{.}(2020)]%
+        {bredin2020pyannote}
+\bibfield{author}{\bibinfo{person}{Herv{\'e} Bredin}, \bibinfo{person}{Ruiqing
+  Yin}, \bibinfo{person}{Juan~Manuel Coria}, \bibinfo{person}{Gregory Gelly},
+  \bibinfo{person}{Pavel Korshunov}, \bibinfo{person}{Marvin Lavechin},
+  \bibinfo{person}{Diego Fustes}, \bibinfo{person}{Hadrien Titeux},
+  \bibinfo{person}{Wassim Bouaziz}, {and} \bibinfo{person}{Marie-Philippe
+  Gill}.} \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Pyannote. audio: neural building blocks for speaker
+  diarization}. In \bibinfo{booktitle}{\emph{ICASSP 2020-2020 IEEE
+  International Conference on Acoustics, Speech and Signal Processing
+  (ICASSP)}}. IEEE, \bibinfo{pages}{7124--7128}.
+\newblock
+
+
+\bibitem[Commission(2023)]%
+        {AMIurl}
+\bibfield{author}{\bibinfo{person}{European Commission}.}
+  \bibinfo{year}{accessed on April 13, 2023}\natexlab{}.
+\newblock \bibinfo{title}{AMI Corpus}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://groups.inf.ed.ac.uk/ami/corpus/}.}.
+
+
+\bibitem[International Computer Science Institute Speech~Group(2023)]%
+        {ICSIurl}
+\bibfield{author}{\bibinfo{person}{UC~Berkley International Computer Science
+  Institute Speech~Group}.} \bibinfo{year}{accessed on April 13,
+  2023}\natexlab{}.
+\newblock \bibinfo{title}{ICSI Corpus}.
+\newblock
+\newblock
+\newblock
+\shownote{\url{https://groups.inf.ed.ac.uk/ami/icsi/}.}.
+
+
+\bibitem[Janin et~al\mbox{.}(2003)]%
+        {janin2003icsi}
+\bibfield{author}{\bibinfo{person}{Adam Janin}, \bibinfo{person}{Don Baron},
+  \bibinfo{person}{Jane Edwards}, \bibinfo{person}{Dan Ellis},
+  \bibinfo{person}{David Gelbart}, \bibinfo{person}{Nelson Morgan},
+  \bibinfo{person}{Barbara Peskin}, \bibinfo{person}{Thilo Pfau},
+  \bibinfo{person}{Elizabeth Shriberg}, \bibinfo{person}{Andreas Stolcke},
+  {et~al\mbox{.}}} \bibinfo{year}{2003}\natexlab{}.
+\newblock \showarticletitle{The ICSI meeting corpus}. In
+  \bibinfo{booktitle}{\emph{2003 IEEE International Conference on Acoustics,
+  Speech, and Signal Processing, 2003. Proceedings.(ICASSP'03).}},
+  Vol.~\bibinfo{volume}{1}. IEEE, \bibinfo{pages}{I--I}.
+\newblock
+
+
+\bibitem[Kraaij et~al\mbox{.}(2005)]%
+        {kraaij2005ami}
+\bibfield{author}{\bibinfo{person}{Wessel Kraaij}, \bibinfo{person}{Thomas
+  Hain}, \bibinfo{person}{Mike Lincoln}, {and} \bibinfo{person}{Wilfried
+  Post}.} \bibinfo{year}{2005}\natexlab{}.
+\newblock \showarticletitle{The AMI meeting corpus}.
+\newblock  (\bibinfo{year}{2005}).
+\newblock
+
+
+\bibitem[Lewis et~al\mbox{.}(2020)]%
+        {bart}
+\bibfield{author}{\bibinfo{person}{Mike Lewis}, \bibinfo{person}{Yinhan Liu},
+  \bibinfo{person}{Naman Goyal}, \bibinfo{person}{Marjan Ghazvininejad},
+  \bibinfo{person}{Abdelrahman Mohamed}, \bibinfo{person}{Omer Levy},
+  \bibinfo{person}{Ves Stoyanov}, {and} \bibinfo{person}{Luke Zettlemoyer}.}
+  \bibinfo{year}{2020}\natexlab{}.
+\newblock \showarticletitle{Bart: Denoising sequence-to-sequence pre-training
+  for natural language generation, translation, and comprehension}. In
+  \bibinfo{booktitle}{\emph{the 58th Annual Meeting of the Association for
+  Computational Linguistics}}. \bibinfo{pages}{7871--7880}.
+\newblock
+
+
+\bibitem[Radford et~al\mbox{.}(2022)]%
+        {radford2022robust}
+\bibfield{author}{\bibinfo{person}{Alec Radford}, \bibinfo{person}{Jong~Wook
+  Kim}, \bibinfo{person}{Tao Xu}, \bibinfo{person}{Greg Brockman},
+  \bibinfo{person}{Christine McLeavey}, {and} \bibinfo{person}{Ilya
+  Sutskever}.} \bibinfo{year}{2022}\natexlab{}.
+\newblock \showarticletitle{Robust speech recognition via large-scale weak
+  supervision}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2212.04356}}
+  (\bibinfo{year}{2022}).
+\newblock
+
+
+\bibitem[Zhong et~al\mbox{.}(2021)]%
+        {zhong2021qmsum}
+\bibfield{author}{\bibinfo{person}{Ming Zhong}, \bibinfo{person}{Da Yin},
+  \bibinfo{person}{Tao Yu}, \bibinfo{person}{Ahmad Zaidi},
+  \bibinfo{person}{Mutethia Mutuma}, \bibinfo{person}{Rahul Jha},
+  \bibinfo{person}{Ahmed~Hassan Awadallah}, \bibinfo{person}{Asli Celikyilmaz},
+  \bibinfo{person}{Yang Liu}, \bibinfo{person}{Xipeng Qiu}, {et~al\mbox{.}}}
+  \bibinfo{year}{2021}\natexlab{}.
+\newblock \showarticletitle{QMSum: A new benchmark for query-based multi-domain
+  meeting summarization}.
+\newblock \bibinfo{journal}{\emph{arXiv preprint arXiv:2104.05938}}
+  (\bibinfo{year}{2021}).
+\newblock
+
+
+\end{thebibliography}

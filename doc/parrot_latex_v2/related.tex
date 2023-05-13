@@ -1,0 +1,19 @@
+In recent years, the transformer encoder-decoder architecture has been widely used in the field of natural language processing (NLP). The essential compoents we integrated into our proposed framework are below. 
+
+BART: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension \cite{bart}: BART is pretrained by corrupting the input text using some noise schemes and learning a model to reconstruct the original input. It reads the corrupted input in both directions, left to right or vice versa. The bidirectional encoder produces a set of hidden states that capture the meaning and context of our input text. Then, this collection of hidden states will get pushed to the autoregressive decoder. The decoder is another component that generates the output text one element at a time, where each element is conditioned on the previously generated elements.
+
+
+QMSum \cite{zhong2021qmsum}: A new benchmark for query-based multi-domain meeting summarization. \textcolor{red}{A short summary of the paper's main ideas and contributions needs to be added. A New Benchmark for Query-based Multi-domain Meeting Summarization. QMSum is a novel benchmark designed for evaluating the performance of summarization models in the context of multi-domain meetings. This benchmark focuses on query-based summarization, which aims to generate concise summaries in response to specific user queries rather than generic summaries of entire meetings. QMSum contains a diverse collection of meeting transcripts, queries, and reference summaries, which helps facilitate the development and evaluation of more advanced, context-aware models for meeting summarization. For our work, we only reuse their reference summaries. These reference summaries will be used for evaluation, as we assume that they can be served as ground truth.}
+
+\vspace{10mm}
+
+Whisper \cite{radford2022robust}: \textcolor{red}{A short summary of the paper's main ideas and contributions needs to be added. Whisper is a system designed for automatic speech recognition, developed by OpenAI. It converts spoken language into written text using advanced speech recognition techniques. It has been trained on a vast dataset of multilingual and multitask supervised data gathered from the web. It is considered a state-of-the-art speech recognition system, providing highly accurate transcriptions promptly and outperforming many existing speech-to-text solutions. We utilize the base model version of Whisper and incorporate it into our system framework.}
+
+\vspace{10mm}
+
+Pyannote \cite{bredin2020pyannote}: \textcolor{red}{A short summary of the paper's main ideas and contributions needs to be added. Pyannote is a Python library that provides tools for various tasks in multimedia processing. We only utilize their speaker diarization tool to determine "who spoke when." Speaker diarization is the process of segmenting an audio stream into speaker-homogeneous sections. The Pyannote’s speaker diarization contribution lies in its open-source nature, fostering the continuous improvement and expansion of its capabilities. It facilitates effective and flexible audio segmentation into speaker-homogeneous sections.}
+%Partitioning speakers (diarization) - Amazon Transcribe.
+\vspace{10mm}
+
+\textcolor{red}{***  A few reference papers are related to including audio summarization? Are there any work similar to our work? }
+

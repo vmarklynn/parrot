@@ -1,0 +1,101 @@
+This is BibTeX, Version 0.99d (TeX Live 2022)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+The style file: ACM-Reference-Format.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Database file #1: base.bib
+You're missing a field name---line 25 of file base.bib
+ : 
+ : % title={Bart: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in FFmpeg
+Warning--no author, editor, organization, or key in FFmpeg
+Warning--to sort, need author or key in FFmpeg
+Warning--no key, author in whisper
+Warning--no author, editor, organization, or key in whisper
+Warning--to sort, need author or key in whisper
+Warning--no key, author in pyannotewhisper
+Warning--no author, editor, organization, or key in pyannotewhisper
+Warning--to sort, need author or key in pyannotewhisper
+Warning--no key, author in Django
+Warning--no author, editor, organization, or key in Django
+Warning--to sort, need author or key in Django
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Warning--no key, author in Django
+Warning--no key, author in Django
+Warning--no key, author in FFmpeg
+Warning--no key, author in FFmpeg
+Warning--no key, author in pyannotewhisper
+Warning--no key, author in pyannotewhisper
+Warning--no key, author in whisper
+Warning--no key, author in whisper
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--no key, author in pyannotewhisper
+Warning--empty author in pyannotewhisper
+Warning--no key, author in whisper
+Warning--empty author in whisper
+Warning--no key, author in Django
+Warning--empty author in Django
+Warning--no key, author in FFmpeg
+Warning--empty author in FFmpeg
+Warning--empty publisher in bredin2020pyannote
+Warning--empty address in bredin2020pyannote
+Warning--empty publisher in janin2003icsi
+Warning--empty address in janin2003icsi
+Warning--no journal in kraaij2005ami
+Warning--no number and no volume in kraaij2005ami
+Warning--page numbers missing in both pages and numpages fields in kraaij2005ami
+Warning--empty publisher in bart
+Warning--empty address in bart
+Warning--no number and no volume in radford2022robust
+Warning--page numbers missing in both pages and numpages fields in radford2022robust
+Warning--no number and no volume in zhong2021qmsum
+Warning--page numbers missing in both pages and numpages fields in zhong2021qmsum
+You've used 12 entries,
+            5981 wiz_defined-function locations,
+            1526 strings with 20031 characters,
+and the built_in function-call counts, 12226 in all, are:
+= -- 1318
+> -- 476
+< -- 0
++ -- 172
+- -- 164
+* -- 935
+:= -- 1205
+add.period$ -- 62
+call.type$ -- 12
+change.case$ -- 98
+chr.to.int$ -- 12
+cite$ -- 69
+duplicate$ -- 1072
+empty$ -- 772
+format.name$ -- 188
+if$ -- 2845
+int.to.chr$ -- 2
+int.to.str$ -- 1
+missing$ -- 27
+newline$ -- 145
+num.names$ -- 56
+pop$ -- 517
+preamble$ -- 1
+purify$ -- 194
+quote$ -- 0
+skip$ -- 386
+stack$ -- 0
+substring$ -- 757
+swap$ -- 74
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 318
+warning$ -- 41
+while$ -- 41
+width$ -- 0
+write$ -- 266
+(There was 1 error message)
