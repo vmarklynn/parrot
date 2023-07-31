@@ -1,7 +1,11 @@
-# PARROT SUMMARIZATION FOR MEETINGS
-#### Project for Data Science Capstone @ Seattle University
-#### Team Members: Vincent Marklynn, Long Yong Tan, Anjali Sebastian
-#### Advisor: Dr. Wan Bae , Sponsor: Dr. Sada Narayanappa
+# A Framework for Abstractive Summarization of Conversational Meetings
+#### Project Repository for Research Paper
+
+Vincent Marklynn<sup>1</sup>, Anjali Sebastian<sup>1</sup>, Yong Long Tan<sup>1</sup>, Wan D. Bae<sup>1</sup>,
+Shayma Alkobaisi<sup>2</sup>, and Sada Narayanappa<sup>3</sup> <br>
+<sup>1</sup>Dept. of Computer Science, Seattle University, {vmarklynn, asebastian, ytan, baew}@seattleu.edu <br>
+<sup>2</sup>College of Information Technology, United Arab Emirates University, shayma.alkobaisi@uaeu.ac.ae <br>
+<sup>3</sup>Lockheed Martin Spaces, Inc, sada.narayanappa@lmco.com
 
 ### Information on all Modules
 1. data: contains all the full transcripts generated from the audio files of AMI and ICSI corpus using both whisper and pyannote.
