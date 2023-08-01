@@ -13,7 +13,8 @@ We aim to develop a system framework and conduct analysis of speech to text spec
 
 ### User Interface 
 ---
-Feel free to drop an email if you would like to see a demonstration of the framework.
+
+Feel free to email us (asebastian@seattleu.edu, ytan@seattleu.edu) if you want to see a demonstration of the framework.
 Here's a basic example of how to navigate through the UI to obtain a transcript, summary, and keywords:
 
 #### 1. Upload a recording file (.wav)
@@ -30,6 +31,7 @@ In the top-left corner of the current page, click on the blue `Summary` link to 
 
 ### Navigating through the Repository
 ---
+
 1. data: contains all the full transcripts generated from the audio files of AMI and ICSI corpus using both whisper and pyannote.
 2. formatted_data_v3: contains the data after preprocessing. We are trying to make appropriate input to the BART model. The formatted data takes the data and converts it to the speaker: Dialogue format that the BART model can be trained on.
 3. docs - Documentation of the framework
