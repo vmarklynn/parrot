@@ -8,11 +8,9 @@ Shayma Alkobaisi<sup>2</sup>, and Sada Narayanappa<sup>3</sup> <br>
 <sup>3</sup>Lockheed Martin Spaces, Inc, sada.narayanappa@lmco.com
 
 ## Research Paper Abstract
----
 We aim to develop a system framework and conduct analysis of speech to text specifically in conversations with more than two speakers in a meeting environment. Unlike extractive summarization, abstractive summarization creates summaries by synthesizing new words and sentences that maintain the original meaning of the source. This presents new challenges researchers and developers face when developing language processing models for text generation. With recent advances in automatic speech recognition and natural language processing models such as OpenAI’s Whisper and Meta’s BART, we simplify the process of speech recognition and abstractive summarization of long meetings. Our proposed framework consists of three phases; speech to text conversion and text summarization work as a pipeline and the models are integrated to a web user interface. We demonstrate the development of the proposed pipeline and the applications of the trained models. We also show both quantitative and qualitative analysis on the model performance comparing to the BART base model. Our model with summarizing long meeting dialogues improved summarization by 139.6% over the base model in the ROUGE-LSUM metric. Many companies and organizations can benefit from our solution in various applications. Besides granting accessibility accommodations to hard of- hearing people, our framework provides accurate and insightful analysis to industry and academia.
 
 ## User Interface 
----
 
 Feel free to email us (asebastian@seattleu.edu, ytan@seattleu.edu) if you want to see a demonstration of the framework.
 Here's a basic example of how to navigate through the UI to obtain a transcript, summary, and keywords:
@@ -30,7 +28,6 @@ A media player is provided so you can listen to the audio while following the tr
 In the top-left corner of the current page, click on the blue `Summary` link to navigate to the second page. Here, you will find the `Get my summary` button – click on it. The processing time for generating a summary and keywords depends on the length of your recording.
 
 ## Navigating through the Repository
----
 
 1. data: contains all the full transcripts generated from the audio files of AMI and ICSI corpus using both whisper and pyannote.
 2. formatted_data_v3: contains the data after preprocessing. We are trying to make appropriate input to the BART model. The formatted data takes the data and converts it to the speaker: Dialogue format that the BART model can be trained on.
@@ -63,7 +60,6 @@ Other experimental models trained are also available here.
 14. urls.py - a file that is part of the standard structure of a Django application. It is used to define URL routing for the Django web application.
 
 ## Summary of Research Work
----
 
 #### 1. Research Objectives
 - Analyze and summarize audio data in conversations with more than two speakers in a meeting environment.
