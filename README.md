@@ -11,7 +11,7 @@ Shayma Alkobaisi<sup>2</sup>, and Sada Narayanappa<sup>3</sup> <br>
 ---
 We aim to develop a system framework and conduct analysis of speech to text specifically in conversations with more than two speakers in a meeting environment. Unlike extractive summarization, abstractive summarization creates summaries by synthesizing new words and sentences that maintain the original meaning of the source. This presents new challenges researchers and developers face when developing language processing models for text generation. With recent advances in automatic speech recognition and natural language processing models such as OpenAI’s Whisper and Meta’s BART, we simplify the process of speech recognition and abstractive summarization of long meetings. Our proposed framework consists of three phases; speech to text conversion and text summarization work as a pipeline and the models are integrated to a web user interface. We demonstrate the development of the proposed pipeline and the applications of the trained models. We also show both quantitative and qualitative analysis on the model performance comparing to the BART base model. Our model with summarizing long meeting dialogues improved summarization by 139.6% over the base model in the ROUGE-LSUM metric. Many companies and organizations can benefit from our solution in various applications. Besides granting accessibility accommodations to hard of- hearing people, our framework provides accurate and insightful analysis to industry and academia.
 
-### User Interface 
+## User Interface 
 ---
 
 Feel free to email us (asebastian@seattleu.edu, ytan@seattleu.edu) if you want to see a demonstration of the framework.
