@@ -65,7 +65,7 @@ Other experimental models trained are also available here.
 ## Summary of Research Work
 ---
 
-#### 1.Research Objectives
+#### 1. Research Objectives
 - Analyze and summarize audio data in conversations with more than two speakers in a meeting environment.
 - Speaker Diarization - Identifying how many speakers are there in the conversation and when each speaker spoke.  
 - Summarization – there are two approaches - Extractive vs. Abstractive. We use the abstractive method since it is more challenging and produces more human-friendly summaries.
