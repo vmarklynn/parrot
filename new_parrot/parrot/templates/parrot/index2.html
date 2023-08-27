@@ -1,0 +1,78 @@
+{% extends "common.html" %}
+{% block content %}
+<!-- -----------------------------------------------------------------------------
+    STYLE
+------------------------------------------------------------------------------- -->
+<style>
+.rd{
+    height: 50px;
+    padding: 15px;
+    
+}    
+</style>
+
+<!-- -----------------------------------------------------------------------------
+    HTML
+------------------------------------------------------------------------------- -->
+{% include "parrot/top.html" %}
+    
+<div class="container" style ="padding: 10px; width: 1024px;" >
+
+<h3>Youtube Transcription</h3>
+    <p>
+        This is an example to show transcription service of a Youtube video.
+    </p>
+<hr/>
+    <div class="row">
+    <div class="col-md-10">
+        <label class=label1 > Youtube URL </label> 
+        <input name=url id=url  class="input1 rd" placeholder="Enter Youtube URL Here" 
+               value="https://www.youtube.com/watch?v=DuSDVj9a4WM&list=PLEpvS3HCVQ5_ZlyF1_i-WSwBzLoDLxoc9"
+               style="width:100%;"> 
+    </div>
+    <div class="col-md-2" style="display1: grid;" >
+        <br/>
+        <button class="btn btn-primary rd" style="width:100%;" onclick="handleClick1()">Process</button>
+    </div>
+    </div>
+        
+    <br/>
+    <br/>    
+    <label class=label11 > Summary: </label> 
+    <textarea rows=4 id="summary" class="input1" style="height:100px">
+    </textarea>
+
+    <br/>
+    <br/>    
+    <label class=label11 > Transcription: </label> 
+    <textarea rows=4 id="trans" class="input1" style="height:300px">
+    </textarea>
+
+    
+</div>
+<!-- -----------------------------------------------------------------------------
+    SCRIPT
+
+ * This assumes you have a service working
+------------------------------------------------------------------------------- -->
+<script>
+function handleClick1CB(responseTxt, statusTxt, xhr) {
+    if (JS_error(responseTxt, statusTxt, xhr, true) ) {
+        
+        return;
+    }
+    $('#summary').val("Returned:\n\n" + responseTxt)
+    $('#trans'  ).val("Returned:\n\n" + responseTxt)
+}
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+//    
+function handleClick1() {
+    url = '/scribe/transcribe_youtube/';
+    data= { url: $('#url').val()}
+    var data1 = GET_POSTDATA(data)
+    console.log(url);
+    $.post(url, data1, handleClick1CB)
+}
+    
+</script>
+{% endblock %}
