@@ -1,0 +1,1105 @@
+Speaker F: Okay, now we're on it. It seems to be working.
+Speaker E: So it seems like it's been sitting for a long time.
+Speaker F: I don't know what it is, but all I know is that it seems like every time I am up here after a meeting and I start it, it works fine.
+Speaker F: And if I'm up here and I start it and we're all sitting here waiting to have a meeting, it gives me that error message and I have not yet sat down with being able to get that error message at a point where I can sit down and find out where it's occurring in the code.
+Speaker F: Yeah, we will.
+Speaker F: One of these days.
+Speaker F: Was it on pause or something?
+Speaker D: No.
+Speaker D: So the new procedural change that Scott suggested, I think is a good idea, is that we do the digit recording at the end.
+Speaker D: And that way, if we're recording somebody else's meeting and the number of participants have to run off to some other meeting who don't have the time, then they can run off.
+Speaker D: Then we'll get somewhat fewer sets of digits, but I think that way we'll cut into people's time.
+Speaker D: There's someone's on strict time.
+Speaker D: Less.
+Speaker D: So I think we should start doing that.
+Speaker D: So let's see, we were having discussion the other day.
+Speaker D: I mean, we should bring that up.
+Speaker D: The nature of the data that we're collecting.
+Speaker D: That we should have a fair amount of data that is collected for the same meeting so that we can.
+Speaker D: I know.
+Speaker D: What was on the point again about that?
+None: Well, okay.
+Speaker A: I'll back up.
+Speaker A: Yeah.
+Speaker A: At the previous, at last week's meeting, this meeting, I was brave.
+None: I didn't have about wanting to get more data.
+Speaker A: I talked about this with Jane and Adam, and was thinking of this mostly just so that we could do research on this data since we'll have a new student, does want to work with us.
+Speaker A: That was at the last meeting.
+Speaker A: Great.
+Speaker A: And he's already funded part time, so we'll be paying him only for half of the normal part time.
+Speaker F: What did he?
+Speaker F: Yeah.
+Speaker F: And what's he interested in specifically?
+Speaker A: He comes from a signal processing background, but I like to unlock because he's very interested in higher level things like language and disfluencies and all kinds of, maybe, positive.
+Speaker A: So he's just getting his feedback in that.
+Speaker A: Anyway, I thought, okay, maybe we should have enough data so that he starts, he'd be starting in January next semester, that we'd have enough data to work with.
+Speaker A: But Jane and Adam brought up a lot of good points that just posting a note to Berkeley
+None: people that have them come down here has some problems in that. We need to make sure that the speakers are who you want and that the meeting type is what you want and so forth.
+Speaker A: So I thought about that and I think it's still possible.
+Speaker A: But I'd rather try to get more regular meetings of types that we know about in here than sort of a mishmash of a bunch of one time.
+Speaker A: Yeah, just because it would be very hard to process the data in all senses, both to get the figure out what type of meeting it is and to do any kind of higher level work on it like while I was talking to Morgan about things like summarization or what's this meeting about.
+Speaker A: I mean, it's very different if you have a group that's just giving a report on what they did that week versus coming to a decision and so forth.
+Speaker A: So then I was talking to Morgan about some new proposed work in this area sort of a separate issue from one student would be working on where I was thinking of doing some kind of summarization of meetings or trying to find cues in both the utterances and in the utterance patterns like in numbers of overlaps and amount of speech sort of raw cues from the interaction that can be measured from the signals and from the different microphones that point to
+None: sort of hotspots in the meeting or things where stuff is going on that might be important for someone who didn't attend to listen to.
+Speaker A: And in that regard, I thought we definitely will need, it'd be nice for us to have a bunch of data from a few different domains or a few different kinds of meetings.
+Speaker A: So this meeting is one of them, although I'm not sure I could participate if I would feel very strange being part of a meeting that you were then analyzing later for things like summarization.
+Speaker A: And then there are some others that Morgan mentioned, like the front end meeting, maybe a networking group meeting.
+Speaker F: We're hoping that they'll let us start recording regularly.
+Speaker A: So if that were the case, then I think we'd have enough.
+Speaker A: But basically for anything where you're trying to get a summarization or some kind of meeting out of the meeting, it would be too hard to have 50 different kinds of meetings where we didn't really have a good grasp of what does it mean to summarize, but rather we should have different meetings by the same group, but hopefully that have different summaries.
+Speaker A: And then we need a couple of, we don't want to just have one group because that might be very specific to that particular group.
+None: But three more times.
+Speaker F: Here we have a overlap between this meeting and the morning meeting.
+Speaker A: See, that I've never listened to the data for the front end meeting.
+Speaker F: We've only had three.
+Speaker A: But maybe that's enough.
+Speaker A: So in general, I was thinking more data, but also data where we hold some parameters, constant or fairly similar like a meeting about people doing a certain kind of work where at least have to participate in each time or the same.
+Speaker D: Now let me just give the other side to that because I don't disagree with that.
+Speaker D: But I think there is a complimentary piece to it too.
+Speaker D: For other kinds of research, particularly the acoustic oriented research, I actually feel the opposite need.
+Speaker D: I'd like to have lots of different people.
+Speaker D: As many people here and talking about the kind of thing that you're just talking about, it would have too few people from my point of view.
+Speaker D: I'd like to have many different speakers.
+Speaker D: So I think I would also very much like us to have a fair amount of really random scattered meetings or somebody coming down from campus.
+Speaker D: And I mean, sure, if we can get more from them fine, but if we only get one or two from each group, it still could be useful acoustically just because we have close and distant microphones with different people.
+Speaker B: Okay, can I say about that?
+Speaker B: The issues that I think Adam and I raised were more a matter of advertising so that you get more native speakers.
+Speaker B: Because I think if you just say, and in particular, my suggestion was to advertise to linguistics grad students because there you have people who would have proficiency enough in English that it would be useful for purposes.
+Speaker B: But I think I've gathered data from undergrad students at an on campus.
+Speaker B: You just post randomly to undergrad students.
+Speaker B: I think you'd get such a mix back.
+Speaker B: It would be hard to know how much conversation you'd have at all.
+Speaker B: Well, you want- The English you'd have with the language models would be really hard to build because it would not really be- it would be an inner language with that.
+Speaker D: Well, okay.
+Speaker D: First place, I don't think we just want to have random people come down and talk to one another.
+Speaker D: There should be a meeting that has some goal and point because I think that's what we're
+Speaker A: investigating. It needs to be a pre-existing meeting.
+Speaker A: Yeah.
+Speaker A: Right.
+Speaker A: That would always happen.
+Speaker D: So I was thinking more in terms of talking to professors and senior doctoral students who are leading projects and offering to them that they have the whole their meeting down here.
+Speaker D: That's the first point.
+Speaker D: One point is I think that for some time now going back through birth, I think that we have had speakers that we've worked with who had non-native access.
+Speaker B: Oh, I'm not saying access.
+Speaker B: I think that- The access is not the problem.
+Speaker B: Okay.
+Speaker B: No, it's more a matter of proficiency, just simply fluency.
+Speaker B: I mean, ideal for people on campus who I think sometimes people undergraduates in computer science have language skills that make, you know, they're balancing the writing skills.
+Speaker B: Oh, you're not talking about the poor language at all.
+Speaker B: Yeah, I just think- I just think- But, you know, it's like when you get into the graduate level, no problem.
+Speaker B: I mean, I'm not saying access.
+Speaker B: Yeah, that's what we're saying.
+Speaker B: It's the same.
+Speaker D: It's the same.
+Speaker D: It's the same.
+Speaker D: So that the habits are already burnt in.
+Speaker F: Well, I think that- I think the only thing that we should say in the advertisement is that the meeting should be held in English.
+Speaker F: Yeah.
+Speaker F: And I think if it's a pre-existing meeting and it's held in English, I think it's probably okay if a few of the people don't have particularly good English skills.
+Speaker F: Can I-
+Speaker B: Can I say the other aspect of this from my perspective, which is that there's this- This issue you have a corpus out there it should be used for- for multiple things because it's so expensive to put together.
+Speaker B: Right.
+Speaker B: And if people want to approach- So I know- you know, this is the idea of computational linguistics and probabilistic grammars and all may not be the folks in this group.
+Speaker B: But the idea of language models, which are fun, you know, generally speaking, you know, in terms of like the amount of benefit per dollar spent on our invested in preparing the data, if you have a choice between people who are more proficient in- more fluent, more close to being academic English, then it would seem to be a good thing.
+Speaker D: I guess- Maybe.
+Speaker B: Because otherwise you don't have the ability to have- so if you have a bunch of media like- that's the worst possible case.
+Speaker B: If you have people who are using English as an interlanguage, because they don't- they can't speak in their native languages, but their interlanguage isn't really a match to any existing language model.
+Speaker B: This is the worst case scenario.
+Speaker D: Well, that's pretty much what you're going to have in the networking group.
+Speaker D: Right?
+Speaker D: Because the network group is almost entirely Germans and Spaniards.
+Speaker B: But the thing is, I think that these people are of high enough level in their language proficiency.
+Speaker B: And I'm not objecting to accents.
+Speaker B: I'm just thinking that we have to think at a higher level view, could we have a language model, a grammar, a grammar basically, that would be a possibility?
+Speaker B: So if you wanted to bring in a model like Dandjer asks you to model and do some top-down stuff to help up the bottom of the merge of the things or whatever, it seems like I don't see that there's an argument.
+Speaker B: What I think is that why not have the corpus since it's so expensive to put together useful for the widest range of central corp things that people generally use corp-brough for and which are used in computational linguistics.
+Speaker B: That's my point.
+Speaker B: Okay.
+Speaker B: So you include both top-down and bottom-up.
+Speaker B: Okay.
+Speaker D: Well, let's see what we can get.
+Speaker D: I mean, I think that if we're aiming at groups of graduate students and professors, if they were talking about things together, and it's from the Berkeley campus, probably most of it.
+Speaker D: Exactly.
+Speaker B: And my point in my note to Liz was, I think, under graduate, are any iffy pocket-related for me to agree with that?
+Speaker A: I mean, for this person.
+Speaker F: Well, not to mention the fact that I would be hesitant, certainly, to take anyone under 18, probably even in anyone under 21.
+Speaker F: So, what's that?
+Speaker F: What's that?
+Speaker F: Well, the 18 is because of the consent form.
+Speaker F: We have to get to find their parent to sign for them.
+Speaker A: That's true.
+Speaker A: Yeah.
+Speaker A: I have a question.
+Speaker A: Well, Morgan, you were mentioning that Murray may not use the equipment from IBM if they found something else because...
+Speaker D: Yeah, they're assessing whether they should do that or you do something else, hopefully, with the next few weeks.
+Speaker A: Because I mean, one remote possibility is that if we inherited that equipment, if she weren't using it, could we set up a room in the linguistics department?
+Speaker A: And maybe a lot more or in psych, or wherever, in another building where we could record people there.
+Speaker A: I think we'd have a better chance with it.
+Speaker F: I think we'd need a real motivated partner to do that.
+Speaker A: Right.
+Speaker A: We need to find someone on campus who is interested in this.
+Speaker A: If there were such a...
+Speaker A: I mean, it's a remote possibility, then one of us could go out there and record the media or something, rather than bring all of them down here.
+Speaker A: So this is the...
+Speaker A: Well, the other thing...
+Speaker A: The end of not using.
+Speaker D: Yeah, and the other thing that I was hoping to do in the first place was to turn it into some kind of portable thing.
+Speaker D: Right.
+Speaker D: So you could wheel it around.
+None: But...
+Speaker F: I know that space is really scarce on at least NCS, to actually find a room that we could use regularly might be very difficult.
+Speaker A: You may not need a separate room.
+Speaker A: That's true.
+Speaker A: You know, if they have a meeting room and they can guarantee that the equipment will be safe and so forth, and if one of us is up there to record the meeting once a week,
+Speaker D: or something. Yeah.
+Speaker D: Well, maybe Janu, that is pretty good for now with the other person.
+Speaker A: Yeah.
+Speaker A: I think it's not out of the question.
+Speaker F: Yeah.
+Speaker F: Yeah, I think it would be interesting because then we could regularly get another meeting, another type of meeting.
+Speaker F: Right.
+Speaker C: Right.
+Speaker C: I think you need another portable team, another portable equipment to do...
+Speaker C: More easier the recording process out from next thing.
+Speaker C: Right.
+Speaker C: And probably I don't know.
+Speaker C: If you want to record a seminar or a class in the university, it could be very difficult to put a lot of headphones.
+Speaker C: Yeah, but...
+Speaker C: If you want to record a recording with this kind of...
+Speaker F: If we want to just record with the tabletop microphones, that's easy.
+Speaker F: Right.
+Speaker F: That's very easy, but that's not the corpus that we're collecting.
+Speaker D: Actually, that's an interesting point that came up in our discussions.
+Speaker D: Maybe we're through a meeting.
+Speaker D: We realized that when we're talking about this, that, okay, there's these different things we want to do with it.
+Speaker D: So it's true that we want to be selective in some ways, the way that you're speaking about with not having an interlingua and these other issues.
+Speaker D: But on the other hand, it's not necessarily true that we need all of the corpus to satisfy all of it.
+Speaker D: So, as for the example, that we want to have a fair amount that's done with a small...
+Speaker D: We recorded with a small...
+Speaker D: Tight number of types of meetings.
+Speaker D: But we can also have another part that's just one or two meetings of each of a range of them.
+Speaker D: That's okay, too.
+Speaker D: We realized in discussion that the other thing is, what about this business of distant and close microphones?
+Speaker D: I mean, we really want to have a substantial amount recorded this way.
+Speaker D: That's what we did it.
+Speaker D: But what about for these issues of summarization, a lot of these higher level things, you don't really need the distant microphone.
+Speaker A: Right.
+Speaker A: I mean, I don't really need the close microphone.
+Speaker A: You actually don't really need any.
+Speaker A: You just need some microphone somewhere.
+Speaker A: You can use a found data.
+Speaker A: You can.
+Speaker A: I mean, I can use a found data.
+Speaker A: But I think that any data that we spend a lot of effort to collect, each person who's interested, we have a bunch of different slants and perspectives on what it's useful for, they need to be taking charge and making sure they're getting enough of the kind of data that they want.
+Speaker A: Right.
+Speaker A: And so, in my case, I think there's enough data for some kinds of projects and not enough of any other projects.
+Speaker A: So I'm looking and thinking, well, I'd be glad to walk over and record people and go forward to help my interest.
+Speaker A: And other people need to do that for themselves.
+Speaker A: Right.
+Speaker A: So that discusses that we can find some optimal.
+Speaker D: But I think I'm raising that because I think it's relevant exactly for this idea up there that if you think about, well, gee, we have this really complicated setup to do.
+Speaker D: Well, maybe you don't.
+Speaker D: Maybe if really all you want is to have a recording that's good enough to get a transcription from later, you just need to grab a tape recorder and go up and make a recording.
+Speaker D: I mean, we could have a fairly, we could just go to that machine.
+Speaker A: Well, I agree with Jane, though on the other hand, that that may be true.
+Speaker A: You may say, for instance, summarization or something that sounds very language oriented.
+Speaker A: You may say, well, oh yeah, you just do that from transcripts of a radio show.
+Speaker A: I mean, you don't even need to miss speech.
+Speaker A: But what I was thinking is long-term, what would be needed to be able to pick up on, I suppose you just had a distant microphone there and you really wanted to be able to determine this.
+Speaker A: There's lots of cues you're not going to have.
+Speaker A: So I do think that long-term, you should always try to satisfy the greatest number of interest and have this parallel information, which is really what makes this special powerful.
+Speaker A: Otherwise, you know, lots of other sites can propose.
+Speaker D: I agree.
+Speaker D: So.
+Speaker D: But I think that the, we can't really underestimate the difficulty.
+Speaker D: It shouldn't really underestimate the difficulty of getting a set of like this up.
+Speaker D: And so it took quite a while to get that together and to say, oh, we'll just do it up there.
+Speaker D: If you're talking about something simple, we throw away a lot of these dimensions, then you can do that right away.
+Speaker D: I'm talking about something that has all of these different facets that we have here.
+Speaker D: It won't happen quickly.
+Speaker D: It won't be easy.
+Speaker D: And there's all sorts of issues about keeping the equipment safe or else, hauling it around and all sorts of things.
+Speaker A: So then we'll try to bring people here.
+Speaker D: I think your first priority should be to try to get people to come here.
+Speaker D: We're set up for it.
+Speaker D: The room is really underused.
+Speaker D: I thought the free lunch idea was a great idea.
+Speaker F: Yeah, I felt so too.
+Speaker A: Free lunch is good.
+Speaker A: I think we can get people to come here, but the issue is you definitely want to make sure that the kind of group that you're getting is the right groups that you don't waste a lot of your time in the overhead of bringing people down.
+Speaker E: No crunchy food.
+Speaker A: Well, I was thinking lunch afterwards, right?
+Speaker A: And they have to do their digits.
+Speaker D: Yeah, they have to do their digits or they don't get their food.
+Speaker F: I spoke with some people up at Hoss Business School who volunteered.
+Speaker F: Should I pursue that?
+Speaker A: Oh, definitely.
+Speaker F: Yeah.
+Speaker F: So they originally, they've decided not to go into speech.
+Speaker F: So I'm not sure whether they'll still be so willing to volunteer, but all of a sudden we're about the free lunch.
+Speaker F: I'll tell them about the free lunch.
+Speaker F: And they'll say there's no such thing.
+Speaker A: I'd love to get people that are not linguists or engineers.
+Speaker A: Right.
+Speaker A: They need a wider sampling.
+Speaker F: The problem with engineers is be.
+Speaker D: They make funny sounds.
+Speaker D: The other thing is that we're talking about is giving them a burn and extra CD run and give them.
+Speaker A: So if they want an audio record up there, I thought he meant giving them a music CD.
+Speaker A: I guess it depends on what audience you're talking to.
+Speaker A: I personally would not want to see my meeting.
+Speaker A: But maybe.
+Speaker D: If you're having some planning meeting of some sort, it would just be fun if nothing else.
+Speaker D: But it also I think builds up towards the goal.
+Speaker D: We're saying, look, you're going to get this.
+Speaker D: Isn't that neat?
+Speaker D: Then you're going to go home with it.
+Speaker D: It's probably going to be pretty useless to do.
+Speaker D: But you'll appreciate where it's useful and where it's useless.
+Speaker D: And then we're going to move this technology so it'll become useful.
+Speaker A: I think that's a great idea, actually.
+Speaker E: What if you could tell in the award and send it to the transcripts when they come back?
+Speaker E: Oh, yeah.
+Speaker F: Really anyone can have the transcripts.
+Speaker F: So I have to add a good point to that.
+Speaker B: So you can see what's it concerned about doing, given the CD immediately, because of these issues of this kind of stuff.
+Speaker B: Good point.
+Speaker B: That's a very good point.
+Speaker B: So we can.
+Speaker B: So we can.
+Speaker B: Right.
+Speaker A: That's right.
+Speaker A: That's the same thing that we just reviewed publicly, right?
+Speaker A: Right.
+Speaker B: Otherwise, you're not allowed to go or like you're not allowed to go up or anyone.
+Speaker B: So after the transcripts screen phase.
+Speaker B: Yeah, that's true.
+Speaker B: Otherwise we need to do lawyer's day.
+Speaker B: Yeah, it's right.
+Speaker B: You say, yeah, I got the CD and your honor, I.
+Speaker A: That's a good point.
+Speaker D: Yeah, so let's start with Haaz.
+Speaker A: Sorry, I have to leave.
+Speaker A: I will be your full time.
+Speaker F: Okay, see you.
+None: Okay.
+Speaker G: Yeah.
+None: Sorry.
+Speaker G: See you.
+Speaker G: Okay.
+Speaker G: So, let's see.
+Speaker D: So that was that topic.
+Speaker D: And then I guess another topic would be where are we in the whole disc resources question for?
+Speaker F: We are slowly, slowly getting to the point where we have enough room to record meetings.
+Speaker F: So I did a bunch of archiving and still doing a bunch of archiving.
+Speaker F: I am in the midst of doing the P files from broadcast news and it took 11 hours to copy it and it will take another 11 to do the clone.
+Speaker F: Well, it's Abbott.
+Speaker F: It's Abbott, so it's just, but it's a lot of data.
+Speaker D: It's copying from one place to another place to another place to another place.
+Speaker D: Tape.
+Speaker D: Oh, I did not want to tape.
+Speaker F: So I'm archiving it and then I'm going to delete the files.
+Speaker F: So that will give us 10 gigabytes of free space.
+Speaker F: We are archiving for a long time.
+Speaker F: And so that will be done in about two hours and so at that point we will be able to record five more meetings.
+Speaker F: So.
+Speaker B: One thing the good news about that is that once it's archived it's pretty quick to get back.
+Speaker B: I mean, the other options fast, but the instructions are really slow.
+Speaker F: Well, especially because I'm generating a clone also.
+Speaker F: Yeah.
+Speaker F: Okay.
+Speaker F: And it takes a while.
+Speaker F: Generating a clone?
+Speaker F: Two copies.
+Speaker F: Right.
+Speaker B: Oh.
+Speaker B: Now, what about is the plan to, so stuff will be saved.
+Speaker B: It's just that you're relocating it.
+Speaker F: I mean, so we're going to get more disk space or did I know that these are the P files from broadcast news, which are regeneratable, regeneratable, if we really need to, but we have a lot of them.
+Speaker F: And for the full 140 hour sets.
+Speaker F: And so they were two gigabytes per file and we had six of them or something.
+Speaker D: We are getting my space.
+Speaker D: We are getting another disk rack and 436 gigabyte disks.
+Speaker D: So, but that's not going to happen in some time.
+Speaker D: Or maybe six.
+Speaker F: Maybe six?
+Speaker F: The sun takes more disks than the Andataco one did.
+Speaker F: The sun rack takes.
+Speaker F: One took four and one took six or maybe it was eight and twelve.
+Speaker F: Whatever it was, it was, you know, 50 percent more.
+Speaker F: Was there a difference in price?
+Speaker F: Well, what happened is that we bought all our racks and disks from Andataco for years according to Dave.
+Speaker F: And Andataco got bought by another company and doubled their prices.
+Speaker F: And so we're looking into other vendors.
+Speaker F: By we, of course, I mean Dave.
+Speaker E: So, I've been looking at the Aurora data.
+Speaker E: And first, first look at it, there were basically three directories on there that could be moved.
+Speaker E: One was called Aurora.
+Speaker E: One was Spanish, which was Carmen Spanish stuff.
+Speaker E: And the other one was Spine.
+Speaker E: And so I wrote to Dan and he was very concerned that the Spine stuff was moving to a non-backed up disk.
+Speaker E: So I realized that what probably not all of that should be moved just the CD-ROM type data, the static data.
+Speaker E: So I moved that and then I asked him to check out and see if it was okay for I actually deleted the old stuff, but I haven't heard back.
+Speaker E: I told him he could delete it if he wanted.
+Speaker E: I haven't checked today to see if he's deleted it or not.
+Speaker E: And then Carmen's stuff, I realized that when I had copied all of her stuff to XA, I had copied stuff there that was dynamic data.
+Speaker E: And so I had to redo that one and just copy over the static data.
+Speaker E: And so I need to get with her now and delete the old stuff off of the disk.
+Speaker E: And then I looked, haven't done any of the Aurora stuff.
+Speaker E: I have to meet with Stefan to do that.
+Speaker D: So but you're figuring you can record in other five meetings or something with the space that you're clearing up from broadcast news.
+Speaker D: But we have some other disks, some of which you're using for Aurora, but do we have some other?
+Speaker D: Yep.
+Speaker F: So we have space on the current disk right now where Meeting Recorder is.
+Speaker F: And that's probably enough for about four meetings.
+Speaker F: Yeah.
+Speaker F: Is that the one that has, is that DC?
+Speaker F: Yep.
+Speaker F: Okay.
+Speaker F: No, no.
+Speaker F: Well, to wherever the Meeting Recorder currently is, I think it's DI.
+Speaker F: Okay, but I don't remember.
+Speaker E: I'm moving from Aurora's on the DC disk that we, I think it's DC.
+Speaker F: It's whatever that one is.
+Speaker F: Okay.
+Speaker F: I just don't remember it.
+Speaker F: It might be DC.
+Speaker F: And that has enough room for about former meetings right now.
+Speaker F: I mean, we were at 100% and then we dropped down to 86 for reasons I don't understand.
+Speaker F: Someone deleted something somewhere.
+Speaker F: And so we have some room again.
+Speaker F: And then with the broadcast news, that's five or six more meetings.
+Speaker F: So you know, we have a couple of weeks.
+Speaker F: So I think we're okay until we get the new disk.
+Speaker E: So should, one question I had for you was, we need, we probably should move the Aurora and all that other stuff off of the Meeting Recorder disk.
+Speaker E: Is there another backed up disk that you know of?
+Speaker F: We should put it onto the broadcast news one.
+Speaker F: That's probably the best thing to do.
+Speaker F: And that way we can solidate Meeting Recorder onto one disk rather than spreading the mic.
+Speaker E: Do you know what happened to know what disk guy is on?
+Speaker F: Nope.
+Speaker F: I mean, I can tell you I just don't know off the top of my head.
+Speaker F: I'll find out for that.
+Speaker F: We could just do that at the end of today once the archive is complete and I verified it.
+Speaker F: Okay.
+Speaker F: Is that what gives us plenty of disk?
+Speaker D: Okay.
+Speaker D: So then I guess the last thing I had in my agenda was to just hear her not paid on what Jose has been doing.
+Speaker D: Okay.
+Speaker C: I have the result of my work during the last days.
+Speaker C: Thank you for the information because I read the last days.
+Speaker C: I work in my house in the database and thinking within a different thing about the Meeting Recorder project.
+Speaker C: And I have some ideas.
+Speaker C: This information is very useful because you have the distribution.
+Speaker C: For me, it's interesting because here is the demonstration of the overlap problem.
+Speaker C: It's a real problem, a frequently problem because you have overlapping sums all the time.
+Speaker C: By the moment I have the IDETA mark all the overlap zone in the Meeting Recorder with a set mark.
+Speaker F: Oh, you did that by hand.
+Speaker F: That's a jet.
+Speaker C: Can I see that?
+Speaker C: Yeah, but I can't because why?
+Speaker C: My idea is to work.
+Speaker C: I don't know if it will be possible because I have enough time to work on this as you know.
+Speaker C: But my idea is very interesting to work in the line of automatic segment.
+Speaker C: But in my opinion, we need a reference session.
+Speaker F: Yes, absolutely.
+Speaker F: So are you planning to do that or have you done that already?
+Speaker F: No, sorry.
+Speaker F: Have you done that or are you planning to do that?
+Speaker C: No, I plan to do that.
+Speaker C: Okay, I plan.
+Speaker C: I plan.
+Speaker C: But the idea is the following.
+Speaker C: Now I need to delete all the overlapping sums exactly.
+Speaker C: I will talk about the in the in the lab.
+Speaker C: This information with the exactly time marks for the overlapping sums.
+Speaker C: Overlapping zone and speaker, pure speech, speaker, song.
+Speaker C: I mean, songs of speech of one speaker without any noise, any acoustic event that is not speech.
+Speaker C: I need to do a silence for that because my idea is to study the set of parameters.
+Speaker C: What are more discriminant to classify the overlapping sounds in comparison with the speech sounds.
+Speaker C: The idea is to use a not sure yet, but my idea is to use a cluster algorithms or a PerseStron neural nets to study what is the property of the different feature to classify speech and overlapping speech.
+Speaker C: My idea is to have a control set.
+Speaker C: My control set will be the silence, silent without any noise.
+Speaker B: Which means that we still use the different sounds.
+Speaker B: With the backgrounds.
+Speaker C: I mean noise, clubs, tape, clips, the difference.
+Speaker C: Which has a hard effect of the distortion in the.
+Speaker F: So you intend to hand mark those and exclude them?
+Speaker C: I have mark in that not in all the file.
+Speaker C: Only I have a, I don't remember what is the quantity, but I have marked enough speech and all the overlapping sounds.
+Speaker C: I have 230 more or less overlapping sounds and it is similar to this information.
+Speaker C: Because with the problem I cross the information of the gene with my experimentation by hand.
+Speaker C: And it is more similar.
+Speaker C: Exactly.
+Speaker C: But, sorry.
+Speaker C: My idea is to.
+Speaker F: I should get digital camera.
+Speaker C: To classify.
+Speaker C: I need the set mark of the different sound because I want to put for each frame a level indicating it's a supervised and a class in process.
+Speaker C: I put for each frame a level indicating what is the type, what is the class which belong.
+Speaker C: I mean the class overlapping speech, the class speech.
+Speaker E: And the class will be assigned by hand based on the.
+Speaker C: I put the mark by hand because my idea is in the first session.
+Speaker C: I need to be sure that information can be in validation.
+Speaker C: Sure.
+Speaker C: It's right because if not I will return to the speech file to analyze what is the problem.
+Speaker C: And I would prefer to have this level automatically.
+Speaker C: You need to.
+Speaker B: I ask you the difference between the top two.
+Speaker B: By speech do you mean one person only?
+Speaker B: One, two, three.
+Speaker B: One, two, three.
+Speaker B: One speaker in a breath overlapping.
+Speaker B: Someone else in the back.
+Speaker B: By the moment.
+Speaker B: Clicking overlapping speech.
+Speaker C: That's all those possibilities in the top.
+Speaker C: In the first moment because I have information of the overlapping sounds.
+Speaker C: Information about the overlapping sound is from speech, clear speech from a true speaker or three speaker.
+Speaker C: It's a song where the impregnance of a speaker overlaps onto a speech.
+Speaker B: A speech with something overlapping which could be speech but doesn't need to be.
+Speaker C: You know, especially overlapping speech from different speakers.
+Speaker D: No, but I think she's saying where do you in these three categories?
+Speaker D: Where do you put the instances in which there is one person speaking and other sounds which are not speech?
+Speaker C: Which category do you put that?
+Speaker C: Here I put a speech from one speaker without any events.
+Speaker D: So where do you put speech from one speaker that does have a non-speech event at the same time?
+Speaker C: Which category?
+Speaker C: Which category?
+Speaker C: No, by the moment no.
+Speaker C: Oh, you see, not marked.
+Speaker C: No, not marked.
+Speaker C: Because I want to meet the study.
+Speaker C: Fine, so even for the all of the data.
+Speaker B: So you're ignoring overlapping events unless their speech was speech.
+Speaker C: Yeah, that's fine.
+Speaker C: Why?
+Speaker C: What's the reason?
+Speaker C: Because it's the first study.
+Speaker C: Oh, no, no.
+Speaker D: It's perfectly sensible way to go.
+Speaker D: We just wanted to try and understand what you're doing.
+Speaker B: Because you've talked about other overlapping events in the past.
+Speaker C: So in the future, the idea is to extend the class.
+Speaker C: Is to consider all the information you mentioned.
+Speaker D: Yeah, I don't think we're asking for that.
+Speaker C: I don't know what we would have.
+Speaker E: Is your silence category pure silence or?
+Speaker C: Is there a door slammer?
+Speaker E: No, no, it's pure silence.
+Speaker C: Is the control set?
+Speaker C: OK.
+Speaker C: Is the control set?
+Speaker D: What you will be silent with the majority of the world.
+Speaker D: I think what you mean is that it's non-speech segments that don't have impulsive noises, right?
+Speaker D: Because what you're calling a vent is somebody coughing or clicking a wrestling paper or hitting something, which are impulsive noises.
+Speaker D: But steady state noises are part of the background, which it will be included in that.
+Speaker C: Right?
+Speaker C: Here.
+Speaker B: Yeah.
+Speaker C: So it's like a signal noise.
+Speaker C: I think there are some kind of noises that don't water to be in that control set.
+Speaker C: But I prefer the silence with this kind or the off.
+Speaker D: Right.
+Speaker D: It means background might be better word than silence.
+Speaker D: It's just sort of the background of the acoustic.
+Speaker D: Right.
+Speaker C: So it's only going on.
+Speaker C: OK.
+Speaker C: And with this information, the idea is I have a level for each friend.
+Speaker C: And with a cluster algorithms, I am sorry.
+Speaker C: And I am going to prepare a set of features, a structure, molds.
+Speaker C: Right.
+Speaker C: And maybe it's, tell me whatever.
+Speaker C: So I have a pitch structure yet.
+Speaker C: I have to test.
+Speaker C: But you have your own?
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: I have to prepare.
+Speaker C: It's a modified version of a pitch tracker from a Stanford universe.
+Speaker C: Stanford, no, from Cambridge.
+Speaker C: Oh, what's it really?
+Speaker C: I don't remember what is the name of the author.
+Speaker C: Because I have several library tools from a festival, from Edinburgh, from Cambridge, and from our department.
+Speaker C: And I have to, because in general, the pitch tracker, that's a waste.
+Speaker F: Right.
+Speaker F: Very well.
+Speaker F: Because the feature it might be OK.
+Speaker F: Yeah.
+Speaker C: So we don't know.
+Speaker C: This is an idea is to attain, for example, a different, a grid number of emphesies, for example, 25, 30, 30 parameter for each one.
+Speaker C: In the first step in the research, my idea is try to prove what is the performance of the difference parameter to classify the difference, what is the performance approach to classify the difference frames of each class.
+Speaker C: What is the error about it?
+Speaker C: This is the first idea.
+Speaker C: And the second is try to use some ideas similar to the linear discriminant analysis.
+Speaker C: Similar.
+Speaker C: Because the idea is to study what is the contribution of each parameter to the process of classify the different parameter.
+Speaker C: What sort of classifier?
+Speaker C: The classifier, by the moment, is a similar classifier used in Victoria, Quantified, is used to some distance to put a vector in a class difference.
+Speaker F: Unimodal?
+Speaker F: So is it just one cluster?
+Speaker C: It's only two clusters using a Kinear SNF or similar.
+Speaker C: Another possibility is to use a neural network.
+Speaker C: But what is my idea?
+Speaker C: What is the problem?
+Speaker C: I see.
+Speaker C: If you use the neural network.
+Speaker C: And this kind of cluster inaugurated to can test to can a share of what happened.
+Speaker C: You can't analyze it.
+Speaker C: Right.
+Speaker C: You can't analyze it.
+Speaker C: You use a neural network, a good idea.
+Speaker C: But you don't know what happened in the interior of the neural network.
+Speaker D: Well, actually, you can do sensitivity analyses, which show you what the importance of different parts of pieces input are.
+Speaker D: What's going on internally?
+Speaker D: But it's actually not that hard to analyze it and figure out the effects of different inputs, especially if they're all normalized.
+Speaker F: Well, using something simpler first, I think.
+Speaker D: Well, if you really wonder what different...
+Speaker D: Decision tree.
+Speaker D: Yeah, then, it's decision tree is really good.
+Speaker D: But the thing is, he's not like he has one, a bunch of very distinct variables like pitch and this, he's talking about all these capture all coefficients.
+Speaker D: So for the much case, any reasonable classifier is going to be a mess.
+Speaker D: Right.
+Speaker D: It's going to be hard to figure out what...
+Speaker C: I would include you to the differential.
+Speaker C: Yeah, that would be...
+Speaker D: I mean, I think the other thing, I mean, this is, I think, a good thing to do to sort of look at these things at least.
+Speaker D: See what...
+Speaker D: Let me tell you what I would do.
+Speaker D: I would take just a few features.
+Speaker D: Instead of taking all the MFCCs or all the EPLPs or whatever, I would just take a couple.
+Speaker D: Okay, like C1, C2, something like that, so that you can visualize it.
+Speaker D: And look at these different examples and look at scatter plots.
+Speaker D: Okay, so before you build up any kind of fancy classifiers, just take a look in two dimensions at how these things are split apart.
+Speaker D: That I think will give you a lot of insight of what is likely to be a useful feature when you put it to a more complicated classifier.
+Speaker D: Yeah.
+Speaker D: And the second thing is, once you actually get to the point of building these classifiers, what this lacks so far is the temporal properties.
+Speaker D: So if you're just looking at a frame at a time, you don't know anything about the structure of it over time.
+Speaker D: And so you may want to build a mark off a model of some sort or else have features that really are based on some bigger chunk of time.
+Speaker D: But I think this is a good place to start.
+Speaker D: But don't...
+Speaker D: Anyway, this is my suggestion.
+Speaker D: Don't just throw in 20 features at it, the delta is in the delta, and all that into some classifier, even if it's K-nearest neighbors, you still won't know what it's doing.
+Speaker D: You know it's not an Earl Matt.
+Speaker D: I think to know what it's...
+Speaker D: Have a better feeling for what it's doing, you want to look at it.
+Speaker D: So you want to look at some picture that shows you, here's these things are offered some separation.
+Speaker D: And in LPC, the thing that particularly look at is, I think, is something like the residual, the energy and the residual.
+Speaker B: Can I ask, it strikes me that there's another piece of information that might be useful, and that's simply the transition.
+Speaker B: So if you go from a transition of silence to overlap versus transition from silence to speech, it's going to be a big informative area there, it seems to be.
+Speaker C: But it's my ambition of the project.
+Speaker C: The meeting record project for me has a two, several parts, an adjective because it's a good thing to do.
+Speaker C: At the first, in the acoustic parts of the project, I think we have two main adjectives.
+Speaker C: One of these is to detect the chain, the acoustic chain.
+Speaker C: For that, if you don't use a speech recognizer, a pro-class or not pro-class, to try to level the different friends, I think the Ike criterion, or big criterion, will be enough to detect the chain.
+Speaker C: And probably, I would like to prove.
+Speaker C: Probably, when you have the transition of speech or silence to overlap song, this criterion is enough with probably with this kind of, the more use a regular parameter, NCC, you have to find, you can find the mark, you can find the good chain.
+Speaker C: But I understand that your adjective is too classified, to know that that song is not only a new song in the file, but you have to know that it is an overlap song because in the future, you will try to process that song with a no-regular speech recognizer, you will pretend to process the overlapping song with another claim, because it is very difficult to obtain the trackition from using a regular, normal speech recognizer.
+Speaker C: I think it is the idea, the system will have two models.
+Speaker C: A model to detect, the most, the most, the most, the most, the mark, the chain, and another model, or several models, to try, but several models, rowing models, simple models, to try to classify the different class.
+Speaker F: I am sorry, I didn't understand you, what model?
+Speaker C: The classifies, to detect the different class to the different song before trying to recognize, to track life with a speech recognizer.
+Speaker C: The idea is to use, for example, a neural net with the information we obtain from this stage, the parameter with the selected parameter to try to put a class of each frame for the different song, you have to obtain it in the first step with the, for example, BK, Heterium, Compere-Mole.
+Speaker D: I think in any event we are great that the first step is, because what we had before for speaker change detection did not include these overlaps.
+Speaker D: So the first thing is for you to build something, you will detect the overlaps.
+Speaker D: So again, I think the first thing to do to detect the overlaps is to look at these, and in, well, again, the things that you have written up there, I think are way too big.
+Speaker D: If you are talking about, say, 12th order NFCC or something like that, it is way too much, you will not be able to look at it.
+Speaker D: All you will be able to do is put into a class of fire and see how well it does.
+Speaker D: I think if you pick one or two dimensional things, or three, if you have some very fancy display, and look at how the different classes separate themselves out, you will have much more insight about what is going on.
+Speaker D: What are you doing?
+Speaker D: Well, you will get a feeling for what is happening.
+Speaker D: So if you look at, suppose you look at first and second order, capture coefficients for some of these kinds of things, and you find that the first order is much more effective than the second, and then you look at the third and there is not too much there, you may just take first and second order capture coefficients.
+Speaker D: With LPC, I think LPC per se isn't going to tell you much more than the other, maybe.
+Speaker D: On the other hand, the LPC residual, the energy in the LPC residual, would say how well a loader LPC models fitting it, which should be pretty poorly for two or more people speaking at the same time, should be pretty well for one.
+Speaker D: And so again, if you take a few of these things that are promising features, and look at them in pairs, I think you will have much more of a sense of, okay, I now have, doing a bunch of these analyses, I now have ten likely candidates, and then you can do decision
+Speaker C: countries or whatever to see how they combine. I've got a question.
+Speaker C: Sorry, but I don't know the first way to do that, and I would like to know what's the European Union.
+Speaker C: All these studies in the first moment, I will pretend to do with the equalizes pitch.
+Speaker C: The misses pitch, the mix, the mix, the mix, the mix, the speech.
+Speaker C: Why?
+Speaker C: Because the spectral distortion is a lot clearer, very much clearer if we compare with the PDA.
+Speaker C: PDA is pitchfile, it will be difficult.
+Speaker B: It's messier, the PDA is messier.
+Speaker C: Because the signal to know is relation is slow.
+Speaker C: I think that's a good way to start.
+Speaker C: I don't know that the result of the study within this speech, the mix speech, would be interesting that sounds to see.
+Speaker C: It's actually with the PDA file.
+Speaker C: Well, I think that would be an interesting result.
+Speaker C: I mean, what is the effect of the low signal to know is relation?
+Speaker D: Well, I think it's not at all unreasonable, it makes sense to start with a simpler signal, because if you have features which aren't even helpful in the high signal noise ratio, then there's no point putting them into the low signal ratio, one would think.
+Speaker D: And so if you can get, again, my prescription would be that you would with the mixed signal, you would take a collection of possible features, look at them, look at how these different classes that you've marked separate themselves, and then collect in pairs, and then collect ten of them or something, and then proceed with a bigger classifier.
+Speaker D: And then if you can get that to work well, then you go to the other signal.
+Speaker D: And you know, they won't work as well, but how much, and then you can re-optimize.
+Speaker F: But I think it would be interesting to try a couple with both, because it might be interesting to see if some features work well with close mix.
+Speaker D: And that's true, that it also could be useful to do this exploratory analysis where you're looking at scatter plots and so on in both cases.
+Speaker C: Sure.
+Speaker C: I think the parameter we found, the word with both speech file, but what is the relation of the performance when you use the speech file, the BDA, you speech file, you don't know, but I think it will be important, because people, different groups, have experience with this kind of problem, it's not easy to solve, because if you, I have seen the speech file from a PDA and some parts, but it's difficult because you don't see the spectra.
+Speaker C: That's another reason why very simple features, things like energy and things like car
+Speaker D: density and residual energy are you here? Yeah, are better to use than very complex ones because the marble libel, Chuck was going to ask something.
+Speaker E: Yeah, maybe this is a dumb question, but I thought it would be easier if you use the PDA because, couldn't you like use beam forming or something to detect speaker overlaps?
+Speaker F: I mean, well, if you use the array rather than the signal from just one.
+Speaker D: Yeah, no, you're right, that in fact, if we made use of the fact that there are two microphones, you do have some location information, which we don't have with the one.
+Speaker D: And so that's not allowed with this.
+Speaker D: Well, no, I mean, we don't have any rules, really.
+Speaker E: I mean, given the goal, I mean, is that the violation of that?
+Speaker D: I think it's an additional interesting question.
+Speaker D: I mean, I think you want to know whether you can do it with one because it's not necessarily true that every device that you're trying to do this with will have two.
+Speaker D: If on the other hand, we show that there's a huge advantage with two, then that could be a real point.
+Speaker D: But we don't even know yet what the effect of detecting, having the ability to detect overlaps is.
+Speaker D: Maybe it doesn't matter too much.
+Speaker D: So this is all pretty early stages.
+Speaker D: But no, you're absolutely right.
+Speaker D: That's a good thing to consider.
+Speaker B: There's a correlation, though.
+Speaker B: And that is, a person turns their back to the PD8, then some of the positional information goes away.
+Speaker B: Well, it does not.
+Speaker B: It does not.
+Speaker B: That's so much.
+Speaker B: The issue is that the...
+Speaker B: And everyone on the axis, on the axis of it, that's the other thing I was saying.
+Speaker B: You mentioned this last time.
+Speaker B: Yeah, we had to put it on a little turn table.
+Speaker B: If you just write down the midline, then the left right is going to be different.
+Speaker B: And in his case, he's closer to it anyway.
+Speaker B: It seems to me that it's not a...
+Speaker B: But it's another source of information.
+Speaker B: It's a topology of it is.
+Speaker B: I don't know.
+Speaker C: I think...
+Speaker C: I think because the reason between the two microphones, microphone in the PDI's brain here, it's from my opinion, it's an interesting idea to try to study the brain role, a problem with the question.
+Speaker C: Yes, because I found a difference between the speech from each microphone in the PDI.
+Speaker C: Yeah, it's timing difference.
+Speaker D: It's an important issue, right?
+Speaker B: I mean, it means the cells.
+Speaker B: I know, that's very important.
+Speaker B: Right.
+Speaker B: But I'm just saying that the way we're seated around the table is not the same with respect to each person with respect to the PDA.
+Speaker B: So we're going to have a lot of differences with reference.
+Speaker B: But that's fine.
+Speaker D: That's fine.
+Speaker D: That's...
+Speaker D: So I think the issue is, is there a clean signal coming from only one direction?
+Speaker D: If it's not coming from just one direction, if there's a broader pattern, it means there's more likely these multiple people speaking.
+Speaker D: Wherever they are.
+Speaker D: So it's sort of like how...
+Speaker D: Is it a...
+Speaker D: Is there a narrow beam pattern or is it a distributed beam pattern?
+Speaker D: Does it distribute a beam pattern?
+Speaker D: Then it looks more like it's multiple people.
+Speaker D: Wherever you are, even if he moves around.
+Speaker B: Okay.
+Speaker B: It just seemed to me that this isn't the ideal type of separation.
+Speaker B: I think it's...
+Speaker D: Oh, ideal would be to have the wall filled with him.
+Speaker D: But I mean, the thing is just having too much...
+Speaker D: If you looked at that thing on Dan's page, it was when there were two people speaking, it looked really, really different.
+Speaker D: Oh, yeah, yeah, yeah.
+Speaker D: Okay.
+Speaker D: What looked different?
+Speaker D: Well, basically, he was looking at correlation.
+Speaker D: Just cross-correlation between two sides.
+Speaker D: So cross-correlation is very sensitive.
+Speaker E: I'm not sure what Dan's page is.
+Speaker E: If you mean he was looking at the...
+Speaker D: He took a signal from the two microphones and he crossed...
+Speaker D: And you cross-correlate them with different blacks.
+Speaker D: Okay.
+Speaker D: And one person is speaking, then wherever they happen to be at the point where they're speaking, then there's a pretty big maximum right around that point in the like.
+Speaker D: So whatever angle you are...
+Speaker D: So if there's two...
+Speaker D: At some like corresponding to the time difference between the two there, you get this boost in the cross-correlation.
+Speaker F: And if there are multiple people talking, you'll see two peaks.
+Speaker F: It's spread out.
+Speaker B: Let me ask you, if both people were over there...
+Speaker B: Yeah.
+Speaker B: It would be less effective than if one was there and one was across Catechord.
+Speaker B: Oh, I'm sorry.
+Speaker D: If they're right next to another one.
+Speaker E: If I was here and Morgan was there and we're both talking right, it wouldn't work.
+Speaker B: Yeah.
+Speaker B: Versus you versus...
+Speaker B: And we're Catechord across the table and I'm farther away from this one and you're farther away from the other one.
+Speaker B: Or even if that would be strong.
+Speaker B: If people were saying right across from each other, you could tell them from either.
+Speaker B: Cross-correlate, same axis, you don't have as much difference.
+Speaker B: Well, we don't have a third dimension there.
+Speaker B: Yeah, so...
+Speaker B: It's differentially very valuable.
+Speaker B: I mean, it's not to say...
+Speaker B: I mean, I certainly think it's extremely bad.
+Speaker B: And we humans depend on...
+Speaker B: Yeah, but it's almost...
+Speaker D: It's almost... but it's almost a... I think what you're talking about is there's two things.
+Speaker D: There's a sensitivity issue and then there's a pathological or issue.
+Speaker D: So the one where someone is just right directly in line is sort of pathological here.
+Speaker D: If someone just happens to be sitting right there, then we won't get good information from it.
+Speaker B: Okay, and if they're close...
+Speaker B: If they're close...
+Speaker D: Same subject.
+Speaker D: It's just a question of the sensitivity.
+Speaker D: So if the sensitivity is good enough and we just don't have enough experience with it to know how...
+Speaker B: Oh, I'm not trying to argue against using it by any means.
+Speaker B: I just wanted to point out that weakness that it's top of the level.
+Speaker B: And I think Dan is still working on it.
+Speaker F: So he actually... he wrote me about it a little bit.
+Speaker F: Great.
+Speaker D: No, I don't understand.
+Speaker D: I mean, the other thing you can do...
+Speaker D: I mean, we're assuming that it would be a big deal just to get somebody...
+Speaker D: Come in somebody to put two microphones on the PDA.
+Speaker D: But if you have put a third in, you could put in the other axis and then you got to...
+Speaker D: You've got to.
+Speaker D: Yeah, then you pretty much could cover.
+Speaker E: What about just doing it from these mics, you know?
+Speaker C: Yeah.
+Speaker C: I mean, it's actually more interesting to study the PCN because...
+Speaker C: Say, Parisian, anything.
+Speaker D: But that's...
+Speaker D: And they're much broader.
+Speaker D: I mean, we can...
+Speaker D: We'll be...
+Speaker D: All of this is there for us to study.
+Speaker D: Yeah, we can do whatever we want.
+Speaker D: But the thing is...
+Speaker D: One of the...
+Speaker D: At least one of the things I was hoping to get out of this is what can we do with what we think would be the normal situation if some people get together and one of them has a PDA.
+Speaker D: That's what I was asking about.
+Speaker D: What are the constraints?
+Speaker D: Yeah.
+Speaker D: Well, that's the constraint of one question and I think both Adam and I were interested in.
+Speaker D: But, you know, if you can instrument a room, this is really minor league compared with what some people are doing.
+Speaker D: Right?
+Speaker D: Some people...
+Speaker D: Eight micro-round.
+Speaker D: Yeah, brown and...
+Speaker D: And...
+Speaker D: Didn't they have the main cape?
+Speaker D: And...
+Speaker D: And Cape...
+Speaker D: They both have these, you know, bigger rays on the wall.
+Speaker D: And, you know, if you can...
+Speaker D: You've got microphones all over the place.
+Speaker D: You know, tens of microphones.
+Speaker D: Oh, I saw it.
+Speaker D: I don't know.
+Speaker D: And if you do that, then you can really get very nice...
+Speaker D: Kind of selectivity.
+Speaker F: So, I saw one that was like 100 microphones.
+Speaker E: Yeah.
+Speaker E: 10 by 10, right?
+Speaker E: And you could...
+Speaker E: And you could...
+Speaker E: And you could...
+Speaker E: And you could...
+Speaker F: Very, very...
+Speaker F: They could have all kinds of noises and you can zoom right in...
+Speaker F: Pretty much.
+Speaker F: It was all in software and you could pick out an individual beam and listen to it.
+Speaker F: Yeah.
+Speaker D: That's cool.
+Speaker D: But, I was interested.
+Speaker D: The reason why I haven't focused on that is the first concern is because I'm interested in what happens for people, random people out in some random place where they're having an improv to discussion.
+Speaker D: And you can't just always go, well, let's go to this heavily instrumented room that we spent tens of thousand dollars to set up.
+Speaker E: No, what you need to do is you have a little fabric thing that you enroll and hang on a wall.
+Speaker E: It has all these mics and it has a plug-in jack to the PDA.
+Speaker D: The other thing actually gets it this little bit of something else I'd like to do is what happens if you have two PDAs.
+Speaker D: Yeah.
+Speaker D: And they communicate with each other.
+Speaker D: And then, you know, they're in random positions.
+Speaker D: The likelihood, I mean, basically, there wouldn't be any...
+Speaker F: That's likely to be any kind of network.
+Speaker F: You have two.
+Speaker F: If you're three or four.
+Speaker F: All sorts of interesting things you can do with that.
+Speaker F: I mean, not only can you do microphone arrays, but you can do all sorts of multi-band as well.
+Speaker E: I still like my rug on the wall, I guess.
+Speaker E: But it happens.
+Speaker B: In terms of...
+Speaker B: Yeah.
+Speaker F: In terms of the research, it's really...
+Speaker F: Whatever the person who is doing the research wants to do.
+Speaker F: So if Jose is interested in that, that's great.
+Speaker F: But if he's not, that's great, too.
+Speaker D: I would actually kind of like us to wind it down, see if we can still get the end of the birthday thing there.
+Speaker F: Well, I had a couple things that I didn't want to bring out.
+Speaker F: One is, do we need to sign new...
+Speaker F: Well, it's slightly different.
+Speaker B: So I would say a big idea.
+Speaker B: Oh, they need?
+Speaker B: Yeah.
+Speaker D: Oh, this morning we didn't sign anything because we said if anybody had signed it already, we have to.
+Speaker F: I should have checked with Jane first, but the form has changed.
+Speaker F: So we may want to have everyone sign the new form.
+Speaker F: I had some things I wanted to talk about with the thresholding stuff I'm doing, but if we're in a hurry, we can put that off.
+Speaker F: And then also anonymity, how we want to anonymize the data.
+Speaker F: Well, should I...
+Speaker B: I mean, I have some results to present, but I guess we'll have time to do that this time.
+Speaker B: But it seems like the anonymization is also something that we might want to discuss and greatly.
+None: I mean, what...
+Speaker D: We're about to wind down.
+Speaker B: I think what I would prefer is that we delay the anonymization thing to...
+Speaker B: I think, until next week, and I would like to present the results that I have on the
+Speaker E: overlap. We still have to do this, too, right?
+Speaker E: Right.
+Speaker E: Digits.
+Speaker F: Right.
+Speaker F: No, well, we don't have to do digits.
+Speaker D: Well, I mean...
+Speaker D: So, okay.
+Speaker D: It sounds like there were a couple technical things people would like to talk about.
+Speaker D: Why don't we just take a couple minutes to briefly do them?
+Speaker D: And then...
+Speaker D: Go ahead, Jane.
+Speaker B: I would prefer to have more time for my results.
+Speaker B: Could I do that next week, maybe?
+Speaker B: Oh, yeah, sure.
+Speaker B: That's what I'm asking.
+Speaker B: Oh, yeah.
+Speaker B: And I think the anonymization, if you want to proceed with that.
+Speaker B: Now, I just think that that's a discussion, which also really deserves...
+Speaker B: Because...
+Speaker B: You know, more than just a minute, I really do think that because you raised a couple of possibilities yourself.
+Speaker B: You and I have discussed it previously.
+Speaker B: And there are different ways that people approach it.
+Speaker F: Right.
+Speaker F: We're just...
+Speaker F: We're getting enough data now that I'd sort of like to do it now before I get overwhelmed with once we decide how to do it.
+Speaker F: Well, okay.
+Speaker B: It's just...
+Speaker B: Okay, I'll give you the short version, but I do think that it's an issue that we can't resolve in five minutes.
+Speaker B: Okay, so the short thing is we have...
+Speaker B: Table recording...
+Speaker B: Sorry, digitized recording.
+Speaker B: Those we won't be able to change if someone says, hey Roger, or so and so.
+Speaker B: So that's going to stay that person's name.
+Speaker B: Now in terms of like the transcript, the question becomes, what's simpler?
+Speaker B: Are you going to put in there for everybody's name?
+Speaker B: And whether you're going to put it in the text where he says, hey Roger, are we going to put that person's anonymized name in instead?
+Speaker F: No, because that would give you a mapping.
+Speaker F: And you don't want to have a mapping.
+Speaker B: So the first decision is we're going to anonymize the same name for the speaker identifier and also in the text whenever the speaker's name is mentioned.
+Speaker F: No.
+Speaker F: Because that would give you a mapping between the speaker's real name and the tag we're using.
+Speaker B: And we don't want...
+Speaker B: I think you're going to see what I said.
+Speaker B: Okay.
+Speaker B: So within the context of an utterance, someone says, so Roger, what do you think?
+Speaker B: Okay.
+Speaker B: And it seems to me that...
+Speaker B: Well, maybe it seems to me that if you change the name, the transcript is going to disagree with the audio video.
+Speaker B: We don't want to...
+Speaker F: We don't want to...
+Speaker F: We don't want to.
+Speaker F: We want the transcript to be Roger.
+Speaker F: Because if we made the transcript be the tag that we're using for Roger, someone who had the transcript and the audio would then have a mapping between the anonymized name and the real name.
+Speaker B: And we want to avoid that.
+Speaker B: Okay.
+Speaker B: But then there's this issue of if we're going to use this for a discourse type of thing.
+Speaker B: And you know, Liz is mentioning stuff in previous meeting about things like Gays direction and who's the address C and all.
+Speaker B: Then to have Roger be the thing in the utterance and then actually have this speaker identify who was Roger be Frank, that's going to be really confusing and make it pretty much useless for discourse in those.
+Speaker B: Yes.
+Speaker B: It's a good point.
+Speaker B: Now, if you want to, you know, I mean, in some cases, I know that Susan Irvingtrip and some of hers actually did do a filter of the signal-worth person's name was mentioned, and I saw, I mean, the question then becomes one level back.
+Speaker B: How important is it for a person to be identified by first name versus full name?
+Speaker B: Well, on the one hand, it's not a full identity.
+Speaker B: We're taking all these precautions and they'll be taking precautions, which are probably even the more important ones to, they'll be reviewing the transcripts, see if there's something they don't like.
+Speaker B: Okay.
+Speaker B: So, maybe that's enough protection.
+Speaker B: On the other hand, this is a small pool and people who say things about topic X who are researchers and well known in the field, they'll be identifiable simply from first name.
+Speaker B: However, taking one step further back, they'd be identifiable anyway, even if we changed all the names.
+Speaker B: Right.
+Speaker B: So, is it really, you know, now in terms of like, so I did some results which I'll report on next time, which do mention individual speakers by name.
+Speaker B: Now, there, the human subjects community is very precise.
+Speaker B: You don't want to mention subjects by name and published reports.
+Speaker B: Now, it'd be very possible for me to take those data, put them in a study and just change everybody's name for the purpose of the publication.
+Speaker D: Yeah, once you get to the publication, you can certainly do that.
+Speaker D: You know, Z.
+Speaker D: Yeah, exactly.
+Speaker B: Doesn't matter.
+Speaker D: Yeah, I mean, it doesn't, I mean, I'm not knowledgeable about this, but it certainly just bother me to have someone's first name in the transcript.
+Speaker D: I think you don't want their full name to be listed.
+Speaker B: And in the form that they sign, it does say your first name may arise in the course of the meetings.
+Speaker B: Yeah.
+Speaker D: So again, the issue is if you're tracking discourse things, if someone says, Frank said this and then you want to connect it to something later, you've got to have this part where that's Frank going, right?
+Speaker B: Yeah, and even more immediate than that, just being able to, well, it just seems like to track from one utterance to the next utterance, who's speaking and who's speaking to whom, because that can be important.
+Speaker B: You raise the point so and so it's kind of nice to be able to know who you are.
+Speaker B: I'm thinking too much.
+Speaker B: I remember, you remember last time we had this discussion of how I was sort of avoiding mention people's names.
+Speaker B: I was too.
+Speaker B: And we made the decision that was kind of artificial.
+Speaker B: So well, I mean, if we're going to step in after the fact and change people's names in the transcript, we've basically done something once to have worse.
+Speaker F: Yeah.
+Speaker F: Well, I don't want to change the name in the transcript, but that's because I'm focused so much on the acoustics instead of on the discourse.
+Speaker F: And so I think that's a really good point.
+Speaker F: You're right.
+Speaker F: This is going to require more thought.
+Speaker D: Yeah.
+Speaker D: Let me just back up this to make a brief comment about the, what we're covering in the meeting.
+Speaker D: I realized when you're doing this that I didn't realize that you had a bunch of things that you wanted to talk about.
+Speaker D: And so I was proceeding somewhat of random, frankly.
+Speaker D: So I think what would be helpful would be, you know, I'll mention this to Liz and Andreas too, that before the meeting, if anybody could send me any agenda items that they were interested in, and I'll take the role of organizing them into the agenda.
+Speaker D: But I'd be very pleased if everyone else completely make up the agenda.
+Speaker D: No, sorry to make it up, but if no one's told me things, then I'm just proceeding from my guesses.
+Speaker D: And yeah, I'm sorry, and it's up with you in the out here.
+Speaker D: Time to, I mean, I'm just always asking, you know what he's doing, you know what?
+Speaker D: And so it's, there's a, there's a lot of other things going on.
+Speaker F: How would the person who is doing the transcript even know who they're talking about?
+Speaker F: Do you know what I'm saying?
+Speaker E: The person who's doing the transcript, the IBM people?
+Speaker F: Yeah.
+Speaker F: I mean, so, so how is that information going to get labeled anyway?
+Speaker B: How do you mean what they're talking about?
+Speaker F: I mean, so if I'm saying in a meeting, oh and Bob, by the way, wanted to do so and so, they're just going to write Bob wanted to do so.
+Speaker F: They're just going to write Bob.
+Speaker B: And so they won't be able to change it themselves.
+Speaker F: If you're, if you're doing discourse analysis, how are you going to do any of this?
+Speaker D: Yeah, really.
+Speaker B: I'm bet we're going to have huge chunks that are just totally un, I mean, they're going
+Speaker D: to say speaker one or speaker two.
+Speaker F: Do you speak, I mean, well, the current one, they don't do speaker identity because in naturally speaking or excuse me in via voice, it's only one person.
+Speaker F: And so in their current conventions, there are no multiple speaker conventions.
+Speaker D: So it may just be one long transcript of a bunch of words.
+Speaker B: Yeah, I think that my understanding for me is it in Changs, how are you pronouncing
+Speaker D: me? You change, you change.
+Speaker B: You change, you change.
+Speaker B: It was that they will adopt the part of the conventions that we discussed where they put speaker identifier down, but you know, they won't know these people.
+Speaker B: So I think it's well, they'll adopt some convention, but we haven't specified to them.
+Speaker B: So they'll do something like speaker one, speaker two is one of it.
+Speaker B: But I'm betting there will be huge variations in the accuracy of their labeling of speakers.
+Speaker B: We'll have to review the transcripts in any case.
+Speaker D: And it may very well be, I mean, since they're not going to sit there and worry about it being the same speaker, they may very well go.
+Speaker D: So the first time it changes to another speaker, that will be speaker two.
+Speaker D: And the next time it will be speaker three, even if it's actually speaker one.
+Speaker B: That would be a very practical solution on that part.
+Speaker B: But then we need to label it.
+Speaker F: Yeah, we could probably regenerate it pretty easily from the close talking mics.
+Speaker F: I was thinking the attempt, the attempt, the attempt, the analysis, what changes.
+Speaker F: That doesn't answer the question.
+Speaker F: It's a good point.
+Speaker F: Which is what you do for this course tracking.
+Speaker C: You don't need to know what is the identification of the speaker.
+Speaker C: You don't need to know.
+Speaker F: For acoustics you don't, but for discourse you do.
+Speaker F: For the question.
+Speaker D: Yeah, if someone says what is Jose doing and then Jose says something, you need to know that that was Jose responding.
+Speaker B: And let's be adopted different set of norms, which is to not to make a point of not identifying people by name, which then leads you to be more contextual explicit.
+Speaker E: That would be hot.
+Speaker B: Well, people are very flexible.
+Speaker B: You know what I mean?
+Speaker B: So when we did this last week, I think that's what I'm saying.
+Speaker B: I felt that, you know, Andreas, he sometimes people think of something else at the same time and they miss a sentence or something.
+Speaker B: And because he missed something, then he missed the initial introduction of who we were talking about and was unable to do the tracking.
+Speaker B: But I felt like most of us were doing the tracking and knew who we were talking about and we just weren't mentioning the name.
+Speaker B: So people are really flexible.
+Speaker E: But you know, like at the beginning of this meeting or you, I think said, you know, Liz said something about, is Morgane used the equipment?
+Speaker E: I mean, how would you say that?
+Speaker E: I mean, you have to really think, you know, about what you're saying.
+Speaker D: Does you know who up and you know where?
+Speaker D: Yeah.
+Speaker E: I think it would be really hard if we made a call for you and saying that.
+Speaker F: I was going to say is that the other option is that we can't leave out the names.
+Speaker F: But then again, that kills your discourse now.
+Speaker F: Yeah.
+Speaker E: I think the, I think, I don't know, my own two-sense worth is that you don't do anything about what's in the recordings.
+Speaker E: You only anonymize to the extent you can.
+Speaker F: Well, but that said, that works great for the acoustics, but it hurts you a lot for trying to do discourse.
+Speaker F: Yeah, why?
+Speaker F: Because you don't have a map of who's talking versus their name that they're being referred
+Speaker E: to.
+Speaker F: I thought we were going to be referred to. Sure, but then you have to know that Jose is Speaker One.
+Speaker D: Then you have to know who's being referred to.
+Speaker D: Okay, so suppose someone says, well, I don't know if I really heard what, what, what Jose said.
+Speaker D: And then Jose responds.
+Speaker D: And part of your learning about the dialogue is Jose responding to it, but it doesn't say Jose, it says Speaker Five.
+Speaker D: Okay.
+Speaker E: So, oh, I see you want to associate the word Jose in the dialogue with the fact that then he responded.
+Speaker D: Right.
+Speaker D: And so if we pass out the data to someone else and it says Speaker Five there, we also have to pass them this little guide that says Speaker Five is Jose.
+Speaker D: And we're going to do that.
+Speaker F: We might as well give them Jose, say, and that violates our privacy issue.
+Speaker B: Now, I think that we have these two phases in the data, which is the one which is our US University of Washington's use, IBM SRI.
+Speaker B: And within that, it may be that it's sufficient to not change the, to not incorporate an automatization yet, but always, always in the publications we have to.
+Speaker B: And I think also when we take it that next step and distribute it to the world we have to.
+Speaker B: I don't, that's a long way for now.
+Speaker B: And it's a matter between now and then.
+Speaker B: I have to say.
+Speaker B: It makes a decision.
+Speaker B: You know, it may be that we will need to do something like actually ex out that part of the, for the public one, the audio and just put in bracket speaker one.
+Speaker F: You know, what we could do also is have more than one version of release, one that's public and one that requires licensing.
+Speaker F: And so the license one would, we could, it would be a sticky limitation.
+Speaker F: You know, like, well, we can talk about that later.
+Speaker B: I think that the public should be the same.
+Speaker B: I think that when we do that world release it should be the same.
+Speaker B: I agree with Jane.
+Speaker D: I think that we, we have a need to have a consistent licensing policy as I'm sort.
+Speaker B: I also think it consists of licensing.
+Speaker E: Well, one thing to, to take into consideration is, are there any, for example, the people who are funding this work, they want this work to get out and be useful for discourse?
+Speaker E: If we all of a sudden do this and then release it to the public and it's no longer useful for discourse, you know.
+Speaker F: Well, depending on how much editing we do, you might be able to still have it useful.
+Speaker F: Because for discourse, you don't need the audio, right?
+Speaker F: So you could bleep out the names in the audio and use the anonymized one through the transcript.
+Speaker F: Excuse me.
+Speaker F: But if you release the audio for discourse, but, excuse me, you could bleep out just the names.
+Speaker D: No, but she's saying from the argument before she wants to be able to save someone said Jose in their, in their thing and then connect to, right?
+Speaker F: But in the transcript, you could say everywhere they said Jose that you could replace it with speaker seven.
+Speaker F: Oh, I see.
+Speaker B: Yeah, but I also want to see you.
+Speaker F: And then it wouldn't match the audio anymore, but it would be still useful.
+Speaker F: But both of those are publicly available.
+Speaker D: But they, right.
+Speaker D: And the other thing is if Liz were here, what she might say is that she wants to look at things that cut across between the audio and the dialogue.
+Speaker B: And so, yeah, I think we have to think about how, I think this can't be decided today.
+Speaker B: Yeah, okay.
+Speaker B: It was good to introduce the thing in.
+Speaker F: When I wrote you that email, I wasn't thinking it was a big can of worms, but I guess it
+Speaker B: is.
+Speaker F: Yeah, a lot of discourse.
+Speaker B: Well, discourse, you know, also, I'm going to make the point that discourse is going to be more than just looking at a transcript.
+Speaker B: It's going to be interesting.
+Speaker B: Oh, yeah, sure.
+Speaker B: And prosoprosotic stuff is involved.
+Speaker B: And that means you're going to be listening to the audio.
+Speaker B: And then you come directly into this, confronting this problem.
+Speaker E: Maybe we should just not allow anybody to do research on discourse.
+Speaker E: I'm really glad.
+Speaker B: I wish you just marketed to non-English speaking countries.
+Speaker D: Maybe we should only have meetings between people who don't know one another and who are also amnesiax who don't know their own names.
+Speaker B: Did you mean the paper and yours?
+Speaker B: We have little labels.
+Speaker B: I want to introduce my reservoir dog solution again.
+Speaker B: Mr. White.
+Speaker B: Mr. White, Mr. Pink.
+Speaker F: Did you read the paper a few years ago where they were reversing the syllables?
+Speaker F: They had utterances and they would extract out the syllables and they would play them backwards.
+Speaker E: But the syllables were in the same order.
+Speaker E: Everything was in the soil.
+Speaker F: But the individual syllables were played backwards.
+Speaker F: And you could listen to it.
+Speaker F: And it would sound the same if people had no difficulty interpreting it.
+Speaker F: So what we need is something that's the reverse.
+Speaker F: That a speech recognizer works exactly the same on it, but people can't understand.
+Speaker F: Oh, well, that's easy way to do that.
+Speaker D: Just play it all backwards.
+Speaker D: Oh, right.
+Speaker D: That speech recognizer is totally symmetric.
+Speaker D: Was the speech recognizer correct?
+Speaker D: No, anyway.
+Speaker D: How do we do digit zero?
+Speaker F: We already missed the party.
+Speaker F: Okay.
+Speaker F: Reading 1471-1490-9015-2430-39425456084833936-03702-08348302 Strike that 086311823053900628375168729039989276
+Speaker D: Transcript 1531-155012050830536778 9896 0 0 0 131 2 1 0 35 4 2914 5702 6 7 8 0 308 0 0 1 0 1 14 9 1 0 0 3
+Speaker E: Transcript 1631-16505 0 7 2 8 5 9 8 6 8 7 0 8 3 0 9 1 1 0 8 4 1 2 0 4 3 5 2 6 5 8 7 7 2 7 8 9 0 0 8 0 3 1 3 1 2 6 3 3 4 7 1 5
+Speaker B: Transcript 1331-1350305396804 6 2 7 6 8 8 9 0 9 7 6 9 9 4 6 0 0 0 3 2 1 0 5 3 4 4 2 7 5 0 4 6 7 3 5 8 9 5 7 2 9 8 2 3 6 7 8 8 0 8 8 0 2 9 0 4 7 1 8 0 9
+Speaker C: 9 2 6 5 3 903. 7 9 7 6 3 0 0 7 0 0 4 0 8 6 8 7 1 3 1 2 3 0 3 0 5 3 3 0 6 6 5 8 7 8 2 0 7 0 0
+Speaker E: Okay, go off here. I think it would be fun sometime to read them with different intonations, like is if you were talking like 9 8 6 8 7.
+Speaker B: Well, you know, in the one I transcribed, I did find it, I found one instance of contrastive stress where it was like the string had a, so it was like 9 8 2 4 9 9 2 4.
+Speaker B: Oh, really? So they were like looking ahead, huh?
+Speaker B: I mean, they differed. I mean, at that, that session, I did feel like they did it more sentences, but sometimes people do it as phone numbers.
+Speaker B: I mean, I, I'm interested in, and sometimes, you know, and I, I never, when I do it, I, I ask myself what I'm doing.
+Speaker E: Yeah, well, I was thinking that it must get kind of boring for the people who are going to have to transcribe this.
+Speaker B: Well, except Rowan's interesting information.
+Speaker B: I like your question, that's very funny. I haven't heard that one.
+Speaker F: We have the transcript. We have the actual numbers they're reading, so we're not necessarily depending on that.
+Speaker F: Okay, I'm going to go off.

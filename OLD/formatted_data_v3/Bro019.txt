@@ -1,0 +1,834 @@
+Speaker G: We're on.
+Speaker G: 24th?
+Speaker C: Yeah.
+Speaker C: Joggy's a mic, wireless?
+Speaker C: Yes.
+Speaker C: Wireless headset?
+Speaker A: Yes.
+Speaker A: Okay.
+Speaker D: Yeah, for you at this.
+Speaker G: Yeah, we abandoned the lapel because they sort of were not too hot, not too cold.
+Speaker G: They were far enough away that you got more background noise and so forth, but they weren't so close that they got quite the really good.
+Speaker G: They didn't, I'm saying the right, they were not so far away that they were really good representative distant mics.
+Speaker G: On the other hand, they were not so close that they got rid of all the interference, so it didn't seem to be a good point to them.
+Speaker G: On the other hand, if you only had to have one mic in some ways, you could argue that lapel was a good choice precisely because it's in the middle.
+Speaker G: There's some kinds of junk that you get with these things that you don't get with lapel, little mouth clerks, and breaths, and so forth.
+Speaker G: They're worse with these than with lapel, but given the choice, we, there seemed to be very strong opinions for getting rid of lapels.
+Speaker G: So...
+Speaker C: You mic numbers.
+Speaker D: Your mic number is written on the back of that unit there?
+Speaker D: Oh, yeah.
+Speaker D: And then the channel number is usually one less than that.
+Speaker D: Oh, okay.
+Speaker D: It's one less than what's written on the back.
+Speaker D: Okay.
+Speaker D: So you should be zero actually.
+Speaker G: Yep.
+Speaker G: Or your channel number.
+Speaker G: You should do a lot of talking so we get a lot more of your pronunciations.
+Speaker D: So what we usually do is we typically will have our meetings and then at the end of the meetings we'll read the digits.
+Speaker D: Everybody goes around and reads the digit session.
+Speaker D: The bottom of their form.
+Speaker D: Our 19?
+Speaker D: Our 19.
+Speaker D: Yeah, we're a succession of our 19.
+Speaker G: If you say so.
+Speaker G: Okay, do we have any kind of agenda?
+Speaker G: What's going on?
+Speaker G: I guess...
+Speaker G: So...
+Speaker G: So they'll see here for the summer, right?
+Speaker G: So one thing is to talk about a kickoff meeting maybe.
+Speaker G: And then just, I guess, progress reports individually.
+Speaker G: And then plans for where we go between now and then pretty much.
+Speaker D: I could say a few words about some of the compute stuff that's happening around here.
+Speaker D: So the people in the group know.
+Speaker G: Okay.
+Speaker G: Why don't you start with that?
+Speaker D: So we just put in an order for about 12 new machines to use as sort of a compute farm.
+Speaker D: And we ordered to send blade 100s.
+Speaker D: And I'm not sure exactly how long it'll take for those to come in.
+Speaker D: But in addition, we're running...
+Speaker D: So the plan for using these is we're running P-Make and Customs here in Andreas has sort of gotten that all fixed up and up to speed.
+Speaker D: And he's got a number of little utilities that make it very easy to run things using P-Make and Customs.
+Speaker D: You don't actually have to write P-Make scripts and things like that.
+Speaker D: The simplest thing.
+Speaker D: And I can send an email around or maybe I should do an FAQ on the website about it or something.
+Speaker D: But an email that points to the FAQ.
+Speaker D: There's a command that you can use called Run command, Run-Command, Run-Hipin command.
+Speaker D: And if you say that and then some job that you want to execute, it will find the fastest currently available machine and export your job to that machine.
+Speaker D: And run it there and it'll duplicate your environment.
+Speaker D: So you can try this as a simple test with the LS command.
+Speaker D: So you can say Run-Command, LS, and it'll actually export that.
+Speaker D: LS command to some machine in the institute and do an LS on your current directory.
+Speaker D: So substitute LS for whatever command you want to run.
+Speaker D: And that's a simple way to get started using this.
+Speaker D: And so soon when we get all the new machines up, then we'll have lots more compute to use.
+Speaker D: Now one of the nice things is that each machine that's part of the P-Make and Customs network has attributes associated with it.
+Speaker D: Attributes like how much memory the machine has, what its speed is, what its operating system.
+Speaker D: And when you use something like Run-Command, you can specify those attributes for your program.
+Speaker D: For example, if you only want your thing to run under Linux, you can give it the Linux attribute.
+Speaker D: And then it will find the fastest available Linux machine and run it on that.
+Speaker D: So you can control where your jobs go, to some extent, all the way down to an individual machine.
+Speaker D: Each machine has an attribute, which is the name of itself.
+Speaker D: So you can give that as an attribute and it'll only run on that.
+Speaker D: And if there's already a job running on some machine that you're trying to select, your job will get queued up.
+Speaker D: And then when that resource, that machine becomes available, your job will yet exported there.
+Speaker D: So there's a lot of nice features to it and it kind of helps to balance the load of the machines.
+Speaker D: And right now, Andreas and I have been the main ones using it.
+Speaker D: And where the SRI recognizer has all this P-Make custom stuff built into it.
+Speaker G: So as I understand here, he's using all the machines and you're using all the machines.
+Speaker G: Yeah, exactly.
+Speaker D: Yeah, you know, I sort of got started using the recognizer just recently and I fired off a training job and then I fired off a recognition job and I get this email about midnight from Andreas saying, are you running two trainings simultaneously?
+Speaker D: My jobs are not getting run.
+Speaker D: So I had to back off a little bit.
+Speaker D: But as soon as we get some more machines, then we'll have more compute available.
+Speaker D: So that's just a quick update.
+Speaker D: What we've got.
+Speaker F: I have a question about the parallelization.
+Speaker F: So let's say I'm like a thousand little jobs to do.
+Speaker F: How do I do it with run command?
+Speaker D: You could write a script, which called run command on each subjob.
+Speaker D: Right.
+Speaker D: But you probably want to be careful with that because you don't want to saturate the network.
+Speaker D: So you should probably not run more than say ten jobs yourself at any one time.
+Speaker D: Just because then it would keep other people.
+Speaker D: Well, it's not that so much as that, you know, if everybody ran 50 jobs at once, then it would just bring everything to a halt and people's jobs would get delayed.
+Speaker D: So it's sort of a sharing thing.
+Speaker D: So you should try to limit it to sometime, some number around ten jobs at a time.
+Speaker D: So if you had a script, for example, that had a thousand things that needed to run, you'd somehow need to put some logic in there.
+Speaker D: If you were going to use run command to only have ten of those going at a time, and then when one of those finished, you'd fire off another one.
+Speaker G: I remember I figured whether it was when the Rutgers or Hopkins workshop, I remember one of the workshops I was at there where I was really excited because I got 25 machines and there's some kind of p-make-like thing that sent things out.
+Speaker G: So all 25 people were sending things to all 25 machines.
+Speaker G: And things were a lot less efficient than if you just used your own machine.
+Speaker G: Yeah, exactly.
+Speaker D: It was a very cool thing.
+Speaker D: Yeah, you have to be a little bit careful.
+Speaker D: But you can also, if you have that level of parallelization, and you don't want to have to worry about writing the logic in a Perl script to take care of that, you can use p-make.
+Speaker D: And you're basically right to make a file that, you know, your final job depends on these one thousand things.
+Speaker D: And when you run p-make on your make file, you can give it the dash capital J and a number, and that number represents how many machines to use at once.
+Speaker D: And it'll make sure that it never goes above that.
+Speaker D: Okay.
+Speaker E: So it's not systematically queued.
+Speaker E: I mean, all the japs are running.
+Speaker E: If you launch 20 japs, they're all running.
+Speaker E: It depends.
+Speaker D: Because if you run command that I mentioned before, doesn't know about other things that you might be running.
+Speaker D: So it would be possible to run a hundred run jobs at once.
+Speaker D: And they wouldn't know about each other.
+Speaker D: But if you use p-make, then it knows about all the jobs that it has to run.
+Speaker D: And it can control how many are runs simultaneously.
+Speaker G: So run command doesn't use p-make?
+Speaker D: It uses export under-lyingly.
+Speaker D: But it's meant to be run one job at a time.
+Speaker D: So you could fire off a thousand of those.
+Speaker D: And it doesn't know any one of those doesn't know about the other ones that are running.
+Speaker G: So why would one use that rather than p-make?
+Speaker D: Well, if you have, like for example, if you didn't want to write a p-make script, and you just had an HTK training job that you know is going to take six hours to run.
+Speaker D: And somebody's using the machine you typically use.
+Speaker D: You can say run command and your HTK thing.
+Speaker D: And it'll find another machine, the fastest currently available machine, and run your job.
+Speaker G: Now does it have the same sort of behavior as p-make?
+Speaker G: Which is that, you know, if you run something and somebody's machine, they come in and hit a key, then it's...
+Speaker D: Yes, yeah.
+Speaker D: There are...
+Speaker D: Right.
+Speaker D: So some of the machines at the institute have this attribute called NOEVICT.
+Speaker D: And if you specify that in one of your attribute lines, then it'll go to a machine which your job won't be evicted from.
+Speaker D: But the machines that don't have that attribute, if a job gets fired up on that, which could be somebody's desktop machine, and they were at lunch, they come back from lunch, and they start typing on the console, then your machine will get evicted...
+Speaker D: Your job will get evicted from their machine and be restarted on another machine automatically.
+Speaker D: So which can cause you to lose time, right?
+Speaker D: If you had a two hour job and you got halfway through, and then somebody came back to their machine and got evicted.
+Speaker D: So if you don't want your job to run on a machine where it could be evicted, then you give it that minus the attribute, you know, NOEVICT.
+Speaker D: And it'll pick up a machine that it can't be evicted.
+Speaker G: What about...
+Speaker G: Remember, it was used to be an issue, maybe it's not anymore, that if you...
+Speaker G: If something required...
+Speaker G: If your machine required somebody hitting a key in order to evict things around it, so you could work, but if you were logged into it from home, and you weren't hitting any keys because you were home.
+Speaker D: Yeah, I'm not sure how that works.
+Speaker D: It seems like Andreas did something for that.
+Speaker D: Okay, we can ask him.
+Speaker D: Yeah, I don't know whether monitors, the keyboard, or it actually looks at the console, TTY, so maybe if you echoed something to the...
+Speaker G: You probably wouldn't door it in early though, you're right.
+Speaker G: You probably wouldn't order it in early.
+Speaker G: I mean, you're sort of...
+Speaker G: You're at home and you're trying to log in, it takes forever to even log in, and then you probably go screw this.
+Speaker D: Yeah, so...
+Speaker D: Yeah, I'm not sure about that one.
+Speaker G: Yeah.
+Speaker G: Okay.
+Speaker C: I knew a little orientation about this environment and how to run some jobs here, because I never did anything so far for these exhibitions.
+Speaker C: Maybe I'll ask you after the meeting.
+Speaker D: Yeah, and also, Stefan's a really good resource for that feature.
+Speaker D: Okay, I'm sure.
+Speaker D: Especially with regard to the Aurora stuff.
+Speaker D: He knows that stuff better than I do.
+Speaker H: Okay.
+Speaker G: Well, when we...
+Speaker G: Sinales and Sier...
+Speaker G: I'm been one of these.
+Speaker G: That one, you tell us what's up with you.
+Speaker G: Which would be not bad, hopefully.
+Speaker C: Yeah.
+Speaker C: So...
+Speaker C: I don't know, shall I start from...
+Speaker C: I don't know, how...
+Speaker C: Okay, I think I'll start from the post...
+Speaker C: Aurora submission maybe.
+Speaker C: Yeah.
+Speaker C: Yeah, after the submission, what I've been working on really was to take other submissions and then...
+Speaker C:...over their system, what they submitted, because we didn't have any speech and enhancement system.
+Speaker C: So I tried...
+Speaker C:...and...
+Speaker C:...and then I found that...
+Speaker C:...when you were combined with LD8, you used a form of movement over there.
+Speaker D: Are you saying LDA?
+Speaker C: Yeah, LDA.
+Speaker C: Yeah.
+Speaker C: So just the LDF filters.
+Speaker C: I just plug in...
+Speaker C: I just take the capsule coefficients coming from their system and then plug in LD on top of that.
+Speaker C: But LDF filters that I used was different from what we submitted in the proposal.
+Speaker C: What I did was I took the LDF filters designed using clean speech.
+Speaker C: Mainly because the speech is already cleaned up after the enhancement.
+Speaker C: So instead of using this...
+Speaker C:...narrow band LDF filters that we submitted, I got new filters.
+Speaker C: So that seems to be giving...
+Speaker C:...improving over their system slightly, but not very significant.
+Speaker C: And that was...
+Speaker C:...showing any improvement over...
+Speaker C:...finally by plugging in an LD8.
+Speaker C: And so then after that I added the online normalization also on top of that.
+Speaker C: And there also, I found that I have made some changes to their time constant that I used.
+Speaker C: Because it has a mean and variance update time constant, which is not suitable for the enhanced speech in whatever we tried on the proposal one.
+Speaker C: But I didn't play with that time constant a lot.
+Speaker C: I just found that I have to reduce the value...
+Speaker C: I mean I have to increase the time constant or reduce the value of the update value.
+Speaker C: That's all I found so I had to...
+Speaker C: Yeah, and the other thing what I tried was...
+Speaker C: I just took the baseline and then ran it with the endpoint information.
+Speaker C: Just the Aurora baseline to see that how much the baseline itself improves...
+Speaker C:...by just supplying the information of the speech and non-speech.
+Speaker C: And I found that the baseline itself improves by 22% by just giving the...
+Speaker G: I can back up a second.
+Speaker G: I missed something.
+Speaker G: I guess my line wondered that when you added the online normalization and so forth...
+Speaker G:...things got better again.
+Speaker G: No, no, no.
+Speaker C: Things didn't get better with the same time constant that we used.
+Speaker G: No, no, with a different time constant.
+Speaker C: With a different time constant, I found that...
+Speaker C:...I mean I didn't get an improvement over not using online normalization.
+Speaker C: Oh, no, I didn't.
+Speaker C: Because I found that I would have to change the value of the update factor.
+Speaker C: But I played with...
+Speaker C:...play quite a bit to make it better than...
+Speaker C: Okay.
+Speaker C: So it's still not with online normalization didn't give me any improvement.
+Speaker C: And...
+Speaker C: So...
+Speaker C: So I just stopped there with the speech announcement.
+Speaker C: The other thing what I tried was adding the endpoint information to the baseline...
+Speaker C:...and that itself gives like 22% because the second...
+Speaker C:...the new phase is going to be with the end-pointed speech.
+Speaker C: And just to get a feel of how much the baseline itself is going to change...
+Speaker C:...by adding this endpoint information.
+Speaker D: So people won't even have to worry about doing speech non-speech.
+Speaker C: Yeah, that's what the feeling is like.
+Speaker C: They're going to give the endpoint information.
+Speaker G: I guess the issue is that people do that anyway.
+Speaker G: Everybody does that.
+Speaker G: I mean, I wanted to see given that you're doing that...
+Speaker G:...what are the best features that you have.
+Speaker G: I see.
+Speaker G: So...
+Speaker G: I mean, clearly they're interact.
+Speaker G: So I don't know that I entirely agree with it.
+Speaker G: But it might be...
+Speaker G: In some ways it might be better to...
+Speaker G:...rather than giving the endpoints to have a standard that everybody uses...
+Speaker G:...and then interacts with.
+Speaker G: But, you know, it's still something reasonable.
+Speaker D: So are people supposed to assume that there is...
+Speaker D:...are people not supposed to use any speech outside of those endpoints?
+Speaker D: Or can you then...
+Speaker D: No, no, that's not.
+Speaker C: So I think each outside of it for estimating background noise.
+Speaker C: Exactly.
+Speaker C: I guess that is what the consensus is.
+Speaker C: You will...
+Speaker C: You will be given the information about the beginning and the end of speech.
+Speaker C: But the whole speech is available to you.
+Speaker G: Okay.
+Speaker G: So should make the spectral subtraction style things work even better...
+Speaker C:...because you don't have the mistakes.
+None: Yeah.
+Speaker C: Okay.
+Speaker C: So that...
+Speaker C: That baseline itself...
+Speaker C: I mean, it improves by 20 to 1.
+Speaker C: And I found that in one of the speech that carcases...
+Speaker C:...proves by just 50% by just putting the endpoints.
+Speaker C: Wow.
+Speaker C: And you don't need any speech in answer.
+Speaker C: So the baseline itself improves by 50%.
+Speaker C: Yeah, by 50%.
+Speaker G: Yeah, so it's going to be harder to...
+Speaker C: Yeah.
+Speaker C: Big that actually.
+Speaker C: Yeah.
+Speaker C: So that is when the qualification criteria was reduced...
+Speaker C:...from 50% to something like 25% for well-matched.
+Speaker C: I think they have actually changed the qualification criteria now.
+Speaker C: And yeah, I guess after that...
+Speaker C:...I just went home for...
+Speaker C: I just had a vacation for...
+Speaker C: Sorry.
+Speaker C: Okay.
+Speaker G: That's good.
+Speaker G: That's good.
+Speaker C: Yeah.
+Speaker C: And I came back and I started working on...
+Speaker C:...some other speech enhancement algorithm.
+Speaker C: I mean, so from the submission...
+Speaker C:...you are found that people have tried to...
+Speaker C:...spectral subtraction and venerable filtering.
+Speaker C: These are the main approaches...
+Speaker C:...what people have tried.
+Speaker C: So just to...
+Speaker C:...just to fill the space with some few more speech enhancement...
+Speaker C:...algues them to see whether it...
+Speaker C:...I've been working on this...
+Speaker C:...signal subspace approach for speech enhancement...
+Speaker C:...where you...
+Speaker C:...take the noise-y signal and decompose into signal...
+Speaker C:...and the noise subspace...
+Speaker C:...and then try to estimate the clean speech from the signal person...
+Speaker C:...nois subspace.
+Speaker C: And so I've been actually running some...
+Speaker C:...so far I've been trying it only on MATLAB...
+Speaker C:...to test whether it was first or not.
+Speaker C: And then I'll put it to see...
+Speaker C:...then update it with the repository once I've...
+Speaker C:...finally giving you some positive result.
+Speaker G: So you said one thing...
+Speaker G:...I wanted to jump on for a second.
+Speaker G: So now you're getting tuned into the repository...
+Speaker G:...thing that he has here and so we'll have a...
+Speaker G:...simple place for this stuff.
+Speaker G: It's cool.
+Speaker G: So maybe just briefly...
+Speaker G:...you could remind us about the related experience...
+Speaker G:...because you did some stuff...
+Speaker G:...you talked about last week I guess...
+Speaker G:...where you were also combining something...
+Speaker G:...both of you I guess we're combining something...
+Speaker G:...from the telecom system with...
+Speaker G:...I know whether it was system one or system two...
+Speaker E:...it was system one.
+Speaker E: So the main thing that we did is...
+Speaker E:...just to take the spectrosuppraction from the front silicon...
+Speaker E:...which provide us some speech samples...
+Speaker G:...that are with noise removed.
+Speaker G: So let me just stop you there.
+Speaker G: So then one distinction is that...
+Speaker G:...you were taking the actual front telecom features...
+Speaker G:...and then applying something...
+Speaker C: No, there was a slight difference.
+Speaker C:...I mean, these are extractors at the handset.
+Speaker C: Yeah.
+Speaker C: Because they had another back end blinding...
+Speaker G: Yeah, but that's what I mean.
+Speaker G: Sorry, I'm not being clear.
+Speaker G: What I meant was you had something like Kepstra or something.
+Speaker G: And so one difference is that I guess you were taking...
+Speaker G:...spec graph.
+Speaker E: Yeah.
+Speaker E: But I guess it's exactly the same thing...
+Speaker E:...because on the handset they just...
+Speaker E:...applied the Wiener filter...
+Speaker E:...and then compute Kepstra features.
+Speaker C: Yeah, the Kepstra...
+Speaker C:...the difference is like...
+Speaker C:...there may be a slight difference in the way...
+Speaker C:...because they use exactly the baseline system...
+Speaker C:...for computing the Kepstra once you have the speech.
+Speaker C: If we are using our own code...
+Speaker C:...that could be the only difference.
+Speaker C: But you got some sort of different results...
+Speaker G:...I'm trying to understand that.
+Speaker E: Yeah, I think we should...
+Speaker E:...have a table with all the results...
+Speaker E:...because I don't know...
+Speaker E:...I don't exactly know what are your results.
+Speaker E: Okay.
+Speaker E: Yeah, but so we did this...
+Speaker E:...and another difference, I guess, is that we just applied...
+Speaker E:...properse our one system after this...
+Speaker E:...with our modification to reduce the delay of the ADA filters.
+Speaker E: And other slight modifications...
+Speaker E:...but it was the full proposal one.
+Speaker E: In your case, you tried...
+Speaker E:...only a little bit...
+Speaker E:...just putting it the ADA and maybe...
+Speaker E:...on the optimization.
+Speaker C: After that, I don't know the situation.
+Speaker E: So we just tried directly to...
+Speaker E:...just keep the system as it was.
+Speaker E: And...
+Speaker E:...when we plug the spectra-attraction...
+Speaker E:...it improves significantly.
+Speaker E: But what seems clear also is that...
+Speaker E:...we have to retune...
+Speaker E:...the time constants of the online organization...
+Speaker E:...because if we keep the value that was submitted...
+Speaker E:...it doesn't help at all.
+Speaker E: You can remove online organization...
+Speaker E:...or put it, it doesn't change anything.
+Speaker E: As long as you have the spectra-attraction.
+Speaker E: But you can still find...
+Speaker E:...some kind of optimum somewhere...
+Speaker E:...and we don't know where exactly.
+Speaker E: So it sounds like...
+Speaker G:...you should look at some tables of results...
+Speaker G:...or something and see where...
+Speaker G:...where they were different when we can learn from it.
+Speaker C: Without any change.
+Speaker C: Yeah.
+Speaker E: Well, we change it.
+Speaker E: We have to have...
+Speaker E:...alie filters.
+Speaker E: There are other things that we...
+Speaker E:...finally were shown to improve.
+Speaker E: So like the 64-hz cutoff...
+Speaker E:...it doesn't seem to hurt on TI digits, finally.
+Speaker E: Maybe because of other changes.
+Speaker E: Well, there are some minor changes.
+Speaker E: And right now if we look at the results...
+Speaker E:...it's always better than...
+Speaker E:...it seems always better than the French Telecom for mismatch.
+Speaker E: I mismatch.
+Speaker E: And it still slightly worse for well-matched.
+Speaker E: But this is not significant.
+Speaker E: But the problem is that it's not significant.
+Speaker E: But if you put this in the spreadsheet...
+Speaker E:...it's still worse, even with very minor...
+Speaker E:...even if it's only slightly worse for well-matched.
+Speaker E: And significantly better for HM.
+Speaker E: But well, I don't think it's important.
+Speaker E: Because when they will change their mid-track...
+Speaker E:...mainly because of when you plug the frame dropping...
+Speaker E:...in the baseline system...
+Speaker E:...it will improve a lot HM and MM.
+Speaker E: So I guess what will happen?
+Speaker E: I don't know what will happen.
+Speaker E: But the different contribution I think for a different test set will be more...
+Speaker C: HM and MM will also go down significantly in the spreadsheet.
+Speaker C: But the well-matched may still...
+Speaker C:...I mean, the well-matched may be the one which is least affected by adding the endpoint information.
+Speaker C: So the MM and HM are going to be hugely affected.
+Speaker C: Yeah.
+Speaker C: But everything is like...
+Speaker C:...that's how they reduce the qualification to 25% or something.
+Speaker G: But are they changing the waiting?
+Speaker C: No, I guess they're going ahead with the same rating.
+Speaker G: I don't understand that.
+Speaker G: I guess I have been part of the discussion.
+Speaker G: So it seems to me that the well-matched condition is going to be unusual.
+Speaker G: In this case, unusual.
+Speaker G: Because you don't actually have good matches ordinarily for what any particular person's car is like.
+Speaker G: Or it seems like something like the middle one is more natural.
+Speaker G: So I don't know why the well-matched is...
+Speaker C: Yeah, but actually the well-matched...
+Speaker C: I mean, the well-matched condition is not like the warning PI-Tits where you have all the training conditions exactly like replicated in that testing condition.
+Speaker C: Also, this is not calibrated by SNR or something. The well-matched has also some mismatching match.
+Speaker G: The well-matched has mismatch.
+Speaker C: Also some slight mismatches.
+Speaker C: Unlike the PI-Tits where it's perfectly matched because it's artificially added now.
+Speaker C: But this is natural recording.
+Speaker G: So remind me of what well-matched you've told many times.
+Speaker C: The well-matched is defined like it's 70% of the whole database is useful training and 30% of the full testing.
+Speaker E: So it means that if the database is large enough, it's matched.
+Speaker E: Because in each set you have a range of conditions.
+Speaker G: So I mean, yeah, unless they deliberately chose it to be different, which they didn't because they wanted to be well-matched.
+Speaker G: It is pretty much so it's sort of saying that you're in heat though.
+Speaker G: It's not guaranteed.
+Speaker C: Because the main reason for the mismatch is coming from the amount of noise and the silence frames and all those present in the database.
+Speaker G: Again, if you have enough, if you have enough.
+Speaker G: So it's sort of like if you're saying, okay, so much as you train your dictation machine for talking into your computer, you have a car.
+Speaker G: And so you drive it around a bunch and record noise conditions or something.
+Speaker G: And then I don't think that's very realistic.
+Speaker G: I guess they're saying that if you were a company that was selling the stuff commercially, that you would have a bunch of people driving around in a bunch of cars and you would have something that was roughly similar.
+Speaker G: And maybe that's the argument, but I'm not sure I'd buy it.
+Speaker G: So, well, it's gone.
+Speaker E: Yeah, we are also playing in trying to put other spectrosuppraction in the code.
+Speaker E: It would be a very simple spectrosuppraction on the male energies, which I already tested, but without the frame dropping actually.
+Speaker E: And I think it's important to have frame dropping.
+Speaker D: Is it a spectrosuppraction typically done on the after the male scaling or is it done on the FFT bands?
+Speaker D: Does it matter?
+Speaker E: I don't know. Well, both cases.
+Speaker E: Yeah, some of the proposes, I were doing this on the FFT bands, others on the male energies.
+Speaker E: You can do both, but I cannot tell you which one might be better.
+Speaker C: I guess if you want to reconstruct the speed, it may be a good idea to do it on FFT bands.
+Speaker C: But for speech recognition, it may not be very different if you do it on male warmth or whether you do it on FFT.
+Speaker C: So, you're going to do a linear waiting anyway after that.
+Speaker E: Well, it gives something different, but I don't know what are the pros and cons of both.
+Speaker C: The other thing is, when you're putting in a speech enhancement technique, is it like one stage speech enhancement?
+Speaker C: Because everybody seems to have two stages of speech enhancement and all the proposes, which is giving them some improvement.
+Speaker C: I mean, they just do the same thing again once more.
+Speaker C: And so, there's something that is good about doing it, when cleaning it up once more.
+Speaker E: Yeah, it might be. So, maybe in my implementation, I should have so tried to inspire me for this kind of thing.
+Speaker G: Well, the other thing would be to combine what you're doing.
+Speaker G: Maybe one or the other things that you're doing would benefit from the other happening first.
+Speaker G: So, if he's doing a signal subspace thing, maybe it would work better if you'd already done some simple spectrosituaction or maybe the other way around.
+Speaker C: So, the thing about combining the Venerful drink with signal subspace, just to see some such permutation combination to see whether it really helps.
+Speaker E: Yeah.
+Speaker G: How is, I guess I'm ignorant about this.
+Speaker G: I mean, since Vener filter also assumes that you're adding together the two signals, how is that different from signal subspace?
+Speaker C: Yeah. The signal subspace approach has actually an inbuilt Vener filtering in it.
+Speaker C: Okay.
+Speaker C: Yeah, it is like a KL transform followed by a Vener filter.
+Speaker C: Oh, okay. So, it definitely has the K.
+Speaker C: So, the advantage of combining two things is mainly coming from the signal subspace approach doesn't work very well if the SNR is very bad.
+Speaker C: I see. It's very poorly with that. It's very bad for SNR conditions and in colored noise.
+Speaker G: So, essentially you could do a simple spectral subtraction followed by a KL transform followed by a Vener filter.
+Speaker C: It's a cascade of.
+Speaker G: Yeah, and generally, that's right. You don't want to authorize if the things are noisy, actually.
+Speaker G: That was something that, here Vener, we're talking about with the multi-band stuff, that if you're converting things to from bands, groups of bands into capture co-efficient, you know, local sort of local capture co-efficient, that it's not that great to do it if it's noisy.
+Speaker H: Yeah. Okay. Yeah.
+Speaker C: So, that's one reason maybe it would combine.
+Speaker C: Something to improve SNR a little bit. Yeah. First stage and then do something and the second stage it should take it.
+Speaker E: Well, if you're prompt about, about the color noise.
+Speaker C: Oh, the colored noise. The color noise, the signal subspace approach has, I mean, it actually depends on inverting the matrix.
+Speaker C: So, it's the co-edits matrix of the noise. So, if it is not positive definite, when it has it, it doesn't behave very well, if it is not positive definite.
+Speaker C: It works very well with white noise because we know for sure that it has a positive.
+Speaker G: So, the spectral subtraction had noise.
+Speaker C: So, the way they get around is like they do an inverse filtering first of the colored noise and they make the noise white.
+Speaker C: And then finally when you reconstruct the speech back, you do this filtering again.
+Speaker G: I was only half-caring. You sort of do this spectral subtraction that also gets through.
+Speaker G: And then you add a little bit of noise, noise addition. I mean, that's sort of what J-Rest it does in a way.
+Speaker G: If you look at what J-Rest is doing, essentially it's equivalent to adding a little noise.
+Speaker G: Or you get rid of the effects of noise.
+Speaker E: Yeah, so there is this. And maybe we find some people also that agree to maybe work with us.
+Speaker E: And they have implementation of VTS techniques.
+Speaker E: So, it's a vector autolo series that are used to model the transformation between clean capstras and noisy capstras.
+Speaker E: So, well, if you take the standard model of channel plus noise, it's a non-linear transformation in the capstras domain.
+Speaker E: And there is a way to approximate this using first order or second order telor series.
+Speaker E: And it can be used for getting rid of the noise and channel effect.
+Speaker E: Who is doing the working in the capstras domain?
+Speaker E: So, there is one guy in Granada and another in Lucent that I met at ICASP.
+Speaker G: Who is the guy in Granada?
+Speaker B: José Carlos Segura.
+Speaker C: This VTS has been proposed by CME.
+Speaker B: Yeah, yeah, yeah. Original date was from CME.
+Speaker E: Well, it's again a different thing that could be tried.
+Speaker G: Yeah. Yeah, so anyway, you're looking general, standing back from it, looking at ways to combine one form or another of noise removal with these other things we have.
+Speaker G: Looks like a worthy thing to do here.
+Speaker E: But for sure, let's re-check everything else and re-optimize the other things.
+Speaker E: For sure, the online normalization may be the LDA filter.
+Speaker G: Well, it seems like one of the things to go through next week when Harry's here because Harry will have his own ideas to, I guess, not next week, week and a half.
+Speaker G: We sort of go through these alternatives, what we've seen so far and come up with some game plans.
+Speaker G: So, I mean, one way would...here's some alternate visions.
+Speaker G: I mean, one would be you look at a few things very quickly.
+Speaker G: You pick on something that looks like it's promising and everybody works really hard on the same different aspects of the same thing.
+Speaker G: Another thing would be to pick two plausible things and you know, have two working things for a while until we figure out what's better.
+Speaker G: But, you all have some ideas on that too.
+Speaker C: The other thing is to most of this speech and management techniques have reported research on smaller capital rate assets.
+Speaker C: But we're going to address this Wall Street Journal in the next stage, which is also going to be in our seat.
+Speaker C: So, very few people have reported something on using some continuous speech at home.
+Speaker C: So, there are some...I was looking at some literature on speech and management apply to large vocabulary.
+Speaker C: Speical subtraction doesn't seem to be the thing to do for large vocabulary.
+Speaker C: There are always people who have shown improvement with linear filtering and maybe subspace up whichever special subtraction you have.
+Speaker C: But, we have to use simple spectrum to make it...how to do some optimization.
+Speaker G: So, they're making...somebody's generating Wall Street Journal without it or artificially out of knowing or something.
+Speaker G: Sort of like what they do with TI digits.
+Speaker C: I guess, I guess, the inter-fascism.
+Speaker G: And then they're generating HTK scripts.
+Speaker C: Yeah, I know that there's no...I don't know whether they have converged on HTK or using some...
+Speaker G: It's a Mississippi State, maybe.
+Speaker G: Yeah, so that'll be a little task in itself.
+Speaker G: Well, we've...yeah, it's true for the additive noise.
+Speaker G: Artificial added noise, we've always used smoke vocabulary too.
+Speaker G: There's been noisy speech, the style of artificial vocabulary that we've worked with in broadcast news.
+Speaker G: So, we did broadcast news evaluation and some of the focus conditions were noisy.
+Speaker G: But we didn't do spectrosotraction.
+Speaker G: We were doing our funny stuff.
+Speaker G: We were doing multi-stream and so forth.
+Speaker G: But, you know, stuff we did helped.
+Speaker G: I mean, it did something.
+Speaker G: Now, we have this meeting data, the stuff we're recording right now.
+Speaker G: And that we have for the, the quote-unquote noisy data there is just noisy and reverberant actually.
+Speaker G: It's the far-failed mic.
+Speaker G: And we have the digits that we do at the end of these things.
+Speaker G: And that's what most of our work has been done with that, with connected digits.
+Speaker G: But, we have recognition now with some of the continuous speech, like vocabulary continuous speech, using switchboard, so a switchboard recognizer.
+Speaker G: No training from this, just plainly switched words.
+Speaker G: But, this is the switchboard thing that's what we're doing.
+Speaker G: Now, there's some adaptation though that Andreas has been playing with.
+Speaker G: But, we're hoping, actually Dave and I were just talking earlier today about maybe at some point, not that distant future trying some of the techniques that we've talked about on some of the electrical vocabulary data.
+Speaker G: I mean, I guess no one has done, yet done test one on the distant mic using the SRR recognizer.
+Speaker G: I don't know.
+Speaker G: How did I know of it?
+Speaker G: Yeah.
+Speaker G: It's a very scared.
+Speaker G: I see a little smoke coming up from the CPU.
+Speaker G: You were trying to do it.
+Speaker G: But, yeah.
+Speaker G: But, you're right.
+Speaker G: That's a real good point, that we don't know what, if any of these, I guess that's what they're pushing that in the evaluation.
+Speaker G: But, it's good.
+Speaker G: Anything else going on?
+Speaker G: From the day of the century?
+Speaker B: I don't have good results with the, including the new parameters, I don't have good results.
+Speaker B: Are similar or a little bit worse?
+Speaker G: Yeah, so you probably need to back up a bit, so.
+Speaker B: I tried to include another new parameter to the traditional parameter, the catch-strong coefficient, that like the autocorrelation, the R0, and R1 over R0, and another estimation of the variance of the difference of the spectrum of the signal, and the spectrum of time after the filter bank.
+Speaker C: Of course, I should have.
+Speaker B: Anyway, you have the spectrum of the signal, and the other side you have the output of the filter bank.
+Speaker B: You can extend the coefficient of the filter bank and obtain an approximation of the spectrum of the signal.
+Speaker B: I do the difference.
+Speaker B: I found the difference at the variance of this difference, because we think that if the variance is high, maybe you have noise.
+Speaker B: If the variance is small, maybe you have a speech.
+Speaker B: The idea is to find another feature for discriminating between voice sound and voice sound.
+Speaker B: We try to use this new feature.
+Speaker B: I need to change the window size of the analysis window size to have more information.
+Speaker B: This is the 2.5 milliseconds.
+Speaker B: I did the time of experiment to include this feature directly with the other feature, and to try to use a neural network to select voice and voice silence and to concate this new feature.
+Speaker B: The result with the neural network, I have more or less the same result.
+Speaker B: Sometimes it's worse, sometimes it's a little bit better, but not significant.
+Speaker C: Is it with the IDG?
+Speaker B: No, I work with the Italian and Spanish, basically.
+Speaker B: If I use the neural network and use directly the feature, the result are worse.
+Speaker B: But listen, Harry.
+Speaker G: I really wonder, though.
+Speaker G: We've had this discussion before, and one of the things that struck me was that about this line of thought that was particularly interesting to me was that whenever you condense things in an irreversible way, you throw away some information.
+Speaker G: That's mostly viewed as a good thing, the way we use it because we want to suppress things that will cause variability for a particular phonetic units.
+Speaker G: But you do throw something away.
+Speaker G: The question is, can we figure out if there's something we've thrown away that we shouldn't have?
+Speaker G: When they were looking at the difference between the filter bank and the FFT that was going into the filter bank, I was thinking, oh, they're picking on something, they're looking on it to figure out noise or voice property, whatever, that's interesting, maybe that helps to drive the thought process of coming up with the features.
+Speaker G: But for me, the interesting thing was, well, but is there just something in that difference, which is useful?
+Speaker G: So another way of doing it maybe would be just to take the FFT, power spectrum, and feed it into a neural network.
+Speaker G: And then use it in combination or alone or whatever.
+Speaker A: With what target?
+Speaker G: No, we need to. No, just the same way we're using the filter bank.
+Speaker G: Exactly the same way we're using the filter bank.
+Speaker G: I mean, the filter bank is good for all the reasons that we say it's good, but it's different.
+Speaker G: And maybe if it's used in combination, it will get at something that we're missing.
+Speaker G: And maybe using KLT or adding probabilities, I mean, all the different ways that we've been playing with, that we would let the essentially let the neural network determine what is it that's useful that we're missing here.
+Speaker E: Yeah, but there's so much variability in the power spectrum.
+Speaker G: Well, that's probably why it would be unlikely to work as well by itself, but it might help in combination.
+Speaker G: But I have to tell you, I can't remember the conference, but I think it's about 10 years ago.
+Speaker G: I remember going to one of the speech conferences and I saw within very short distance of one another, a couple different posters that showed about the wonders of some auditory inspired friend end or something.
+Speaker G: And a couple posters away with somebody who compared one to just putting in the FFT and the FFT did slightly better.
+Speaker G: So I mean, it's true there's lots of variability, but again, we have these wonderful statistical mechanisms for quantifying that variability and doing something reasonable with it.
+Speaker G: So it's the same argument that's gone both ways about we have these data driven filters, LDA, and on the other hand, if it's data driven, it means it's driven by things that have lots of variability and that are necessarily not necessarily going to be the same in training and test.
+Speaker G: So in some ways it's good to have data driven things in some ways it's bad to have data driven things. So part of what we're discovering is ways to combine things that are data driven and are not.
+Speaker G: So anyways, it's just a thought that if we had that, maybe it's just a baseline, which would show us what are we really getting out of the filters, or maybe probably not by itself in combination, you know, maybe there's something to be gained from it.
+Speaker G: And let the, what, you know, you've only worked with this for a short time, maybe in a year or two you would actually come up with the right set of things to extract from this information, but maybe the neural net and the HMMs could figure it out quicker than you.
+Speaker G: So it's just a thought.
+Speaker C: I will try to do that. Yeah. But one one one one thing and so like what before we started using this VAD name is earlier. What we did was like I guess most of you know about this adding this additional speech silence beat to the kept stream and training that you want that.
+Speaker C: That is just a binary feature and that seems to be improving a lot on the speech that color is a lot of. But not much on the TIT. So adding an additional feature to this discriminated between speech and not.
+Speaker C: I'm sorry. We actually added an additional binary feature to the kept stream just the baseline.
+Speaker C: Yeah, but in the case of the idea that they actually he was anything because there was anything that could discriminate between speech.
+Speaker C: But what Italian was like.
+Speaker C: Very good. The huge improvement.
+Speaker E: But in the question is even more is within speech can we get some features.
+Speaker E: I was dropping information that can might be useful within speech and maybe to distinguish between voice sound and voice sounds.
+Speaker G: And it's particularly more relevant now since we're going to be given the end points. So.
+Speaker G: Yeah.
+Speaker G: So.
+Speaker C: So it was a paper in I guess this I guess about the extra adding some higher order information from the kept stream coefficient.
+Speaker C: I'm a chemilins or something.
+Speaker C: It was taking the.
+Speaker C: Maybe.
+Speaker C: I think he was showing a person something on.
+Speaker G: Yeah, but again, you could argue that that's exactly what the neural network does.
+Speaker G: So the neural network is in some sense equivalent to computing higher order moments.
+Speaker G: So let's do it very specifically.
+Speaker F: You want to talk about.
+Speaker F: Yeah.
+Speaker F: So.
+Speaker F: I told you I was getting prepared to take this qualifier exam.
+Speaker F: So basically that's just trying to propose.
+Speaker F: You're following years of your PhD work trying to find a project to define and work on.
+Speaker F: So I've been looking into doing something about speech recognition using acoustic events.
+Speaker F: So the idea is you have all these these different events.
+Speaker F: For example, voicing.
+Speaker F: Faciality are coloring.
+Speaker F: Building robust primary detectors for these acoustic events and using the outputs of these robust detectors to do speech recognition.
+Speaker F: And these primary detectors will be inspired by multi band techniques doing things similar to Larry Saul's work on graphical models to detect these acoustic events.
+Speaker F: And so I've been thinking about that and some of the issues that I've been running into are exactly what kind of acoustic events I need, what acoustic events will provide a good enough coverage to in order to do the later recognition steps.
+Speaker F: And also once I decide a set of acoustic events, how do I get labels training data for these acoustic events.
+Speaker F: And then later on down the line, I can start playing with the models themselves, the primary detectors.
+Speaker F: So I kind of see like after after building the primary detectors I see myself taking the outputs and feeding them in sort of tandem style to to a Gaussian mixture of HMM back end and doing recognition.
+Speaker F: So that's just generally what I've been getting at.
+Speaker G: But by the way, the voice down voice version of that for instance could tie right into what Cameron was looking at.
+Speaker G: So you know, if you if a multi band approach was helpful as I think it is, it seems to be helpful for determining voice down voice might be another.
+Speaker F: Oh, it looks okay. Yeah, and so this this past week I've been looking a little bit into traps and doing doing traps on these events too.
+Speaker F: I'm seeing it that's possible. Other than that, I was kicked out of my house living there for four years.
+Speaker F: Oh, yeah. So that was cardboard box on the street now. Something like that.
+Speaker F: Yeah.
+Speaker C: So did you find a place? No, I ordered. Yesterday I called up a lady who will have a vacant room from May 30th and she's actually been doing to more people.
+Speaker C: So she would get back to me on Monday. That's that's only thing I have. And Diane has a few more houses. She's going to take some pictures and send me after I go back.
+Speaker C: Oh, so you're not down here permanently yet? No. I'm going back to a GI today.
+Speaker G: Okay. And then you're coming back.
+Speaker C: I mean, I planned to be here on 31st. 31st. Okay. There's a house available.
+Speaker G: Well, I mean, if they're available and they'll be able to get you something, so worse comes to worse.
+Speaker G: We'll put you up in the hotel for a while until you.
+Speaker A: If you're in an investment situation, you need a place to stay. You could stay with me for a while.
+Speaker A: I've got a spare bedroom right now.
+Speaker C: Oh, thanks.
+Speaker C: So maybe he needs.
+Speaker F: My car board box is actually a bedroom.
+Speaker G: Two bedroom car board box.
+Speaker G: That's great.
+Speaker G: You want to say anything about you actually been last week you were doing this stuff with Pierre.
+Speaker G: You were mentioning is that something worth talking about here?
+Speaker A: Well, I don't think it directly relates. Well, I was helping have speech researcher named Pierre Devenny.
+Speaker A: And he wanted to look at how people respond to formative changes, I think.
+Speaker A: So he created a lot of synthetic audio files of vowel to vowel transitions.
+Speaker A: And then he wanted a psychoacoustic spectrum.
+Speaker A: And he wanted to look at how the energy is moving over time in that spectrum.
+Speaker A: And compare that to the listener tests.
+Speaker A: And so I gave him a PLP spectrum.
+Speaker A: And he wanted to track the peak.
+Speaker A: So he could look at how they're moving.
+Speaker A: And then he took the PLP LPC coefficients.
+Speaker A: And I found the roots.
+Speaker A: This was something that's defied and suggested.
+Speaker A: I found the roots of the LPC polynomial to track the peaks and the PLP LPC spectrum.
+Speaker C: Is that a line spectral pairs?
+Speaker G: It's root LPC.
+Speaker C: So instead of the log, you took the root square, you could be good or something.
+Speaker G: So it's taking to find the roots of the LPC polynomial.
+Speaker C: Polynomial.
+Speaker C: Yeah, is that the line spectral?
+Speaker G: So it's like line spectral pairs.
+Speaker G: I think what they call line spectral pairs, they push it towards the unit circle, don't they?
+Speaker G: But what we'd used to do, when I did synthesis at National Semican Bacter 20 years ago, the technique we were playing with initially was technique LPC polynomial and finding the roots.
+Speaker G: And it wasn't PLP because he didn't invent it yet.
+Speaker G: But it was just LPC and we found the roots of the polynomial.
+Speaker G: And when you do that, sometimes, there are most people that call formats, sometimes they're not.
+Speaker G: So it's a little, a format tracking with it could be a little tricky because you get these funny values.
+Speaker G: So you just get a few roots, two or three.
+Speaker G: You get these complex pairs.
+Speaker G: It depends on the order that you're doing.
+Speaker A: Right, so if every root that's, since it's a real signal, the LPC polynomial is going to have real coefficients.
+Speaker A: So I think that means that every root that is not a real root is going to be a complex pair, a complex value and it's conjugate.
+Speaker A: So for each, and if you look at that on the unit circle, one of these, one of the members of the pair will be a positive frequency.
+Speaker A: One will be a negative frequency, I think.
+Speaker A: So I'm using an a-thorded polynomial and I'll get three or four of these pairs.
+Speaker A: Which gives me three or four P positions.
+Speaker G: This is from synthetic speech?
+Speaker G: That's right.
+Speaker G: Yeah, so if it's from synthetic speech, then maybe it'll be cleaner.
+Speaker G: I mean, for a real speech, then what you end up having is, I guess, a funny little things that don't exactly fit your notion of formats all that well.
+Speaker G: But mostly they do.
+None: Yeah.
+Speaker G: And what we were doing, which is not so much looking at things, it was okay because it was just a question of quantization.
+Speaker G: We were just, you know, a story.
+Speaker G: It was, we were doing a stored speech quantization.
+Speaker E: But in your case, actually you have peaks that are not at the form of positions.
+Speaker E: But there are lower in energy when they are much lower.
+Speaker D: If this is synthetic speech, can't you just get the formats directly?
+Speaker A: I mean, how was the speech created?
+Speaker A: It was created from a synthesizer.
+Speaker A: And was an performance synthesizer.
+Speaker G: It may have been, but maybe he didn't have control of it or something.
+Speaker A: In fact, we could get format frequencies out of the synthesizer as well.
+Speaker A: And one thing that the LPC approach will hopefully give me in addition is that I might be able to find the...
+Speaker A: the bandwidth of these HOMPS as well.
+Speaker A: I'm still fine suggested looking at each complex pair as a second order.
+Speaker A: I are filter.
+Speaker A: But I don't think there's a really good reason not to get the format frequencies from the synthesizer instead.
+Speaker A: Except that you don't have the psychoacoustic modeling in that.
+Speaker A: Yeah.
+Speaker G: So the actual...
+Speaker G: So you're not getting the actual formats per se.
+Speaker G: You're getting something that is a festrongly affected by the PLP model.
+Speaker G: And so it's more psychoacoustic.
+Speaker G: Oh, I see.
+Speaker G: It's sort of a different thing.
+Speaker G: That's sort of the point.
+Speaker G: But yeah, ordinarily, in a form of synthesizer, the bandwidths as well as the form and centers are...
+Speaker G: I mean, that's somewhere in the synthesizer that was put in.
+Speaker G: But yeah, you view each complex pair as essentially a second order section.
+Speaker G: Which has a band center bandwidth.
+Speaker G: And...
+None: Okay.
+Speaker G: So, you're going back today and then back in a week, I guess.
+Speaker G: Yeah.
+Speaker G: Yeah.
+None: Great.
+Speaker G: Welcome.
+Speaker D: I guess we should do digits quickly.
+Speaker D: Oh, yeah, digits.
+Speaker G: I don't forget.
+Speaker G: I don't forget our daily digits.
+Speaker G: I'm not bad.
+Speaker G: Sure.
+Speaker G: Transcript.
+Speaker G: L-142.
+Speaker G: 1-975-336030.
+Speaker G: 0-814-187845.
+Speaker G: 875-54232.
+Speaker G: 1-187-3211.
+Speaker G: 0-841-6505-65.
+Speaker G: 2519-2774.
+Speaker G: 708-484.
+Speaker G: 1-732-964-172.
+Speaker D: Transcript.
+Speaker D: L-143.
+Speaker D: 897-4-9168-6219.
+Speaker D: 489-9488-61.
+Speaker D: 1-619-2592-6839.
+Speaker D: 848-0-0-607.
+Speaker D: 6-515-262178.
+Speaker D: 754-292-5498.
+Speaker D: 7-427-832-97232.
+Speaker D: 1-667-5262.
+Speaker F: Transcript.
+Speaker F: L-144.
+Speaker F: 9-721-75-6322.
+Speaker F: 6-84-320-282.
+Speaker F: 0-91864-1042.
+Speaker F: 577-718592.
+Speaker F: 7-695-8549-70.
+Speaker F: 699-453-872.
+Speaker F: 9-345-722-90342.
+Speaker F: 210-829-717.
+Speaker A: Reading transcript.
+Speaker A: L-145-589-951490.
+Speaker A: 0-71143-295.
+Speaker A: 736-877-160.
+Speaker A: 3-004-65779-7.
+Speaker A: 3-127-3259.
+Speaker A: 11715-035-1050-2175.
+Speaker A: 1665-6228-4689.
+Speaker C: Transcript.
+Speaker C: L-146-913307-464.
+Speaker C: 463-773-1244.
+Speaker C: 636-930-2728.
+Speaker C: 276-875-224.
+Speaker C: 976-93896.
+Speaker C: 11913-4812-3442.
+Speaker C: 619-330-35.
+Speaker C: 794-278-5652.
+Speaker B: Transcript.
+Speaker B: L-140-353-184012.
+Speaker B: 456-334-0634.
+Speaker B: 525-922775.
+Speaker B: 718-275284.
+Speaker B: 0-478-604049.
+Speaker B: 9807-5516-0071.
+Speaker B: 0-16-059-6052.
+Speaker B: 518-457-7197.
+Speaker E: Transcript.
+Speaker E: L-141-622-760-042.
+Speaker E: 9-537-89365-4.
+Speaker E: 2589-8515-1617-3088-9492.
+Speaker E: 977-9.
+Speaker E: 923-929-0056-0901.
+Speaker E: 7985-0505.
+Speaker E: 925-4443-95.
+Speaker E: 8984-3042-3297.

@@ -1,0 +1,1233 @@
+0:00:00	None
+ We're going.
+
+0:00:07	None
+ Okay.
+
+0:00:10	None
+ Close your door.
+
+0:00:15	SPEAKER_05
+ Thanks.
+
+0:00:18	SPEAKER_05
+ Door in the way up.
+
+0:00:22	SPEAKER_05
+ Yeah, I'm going to get this other door.
+
+0:00:25	SPEAKER_05
+ Okay.
+
+0:00:32	SPEAKER_05
+ So, what are we talking about today?
+
+0:00:40	SPEAKER_03
+ Well, first of all, perhaps these meeting record or digits?
+
+0:00:45	SPEAKER_05
+ Oh, yeah.
+
+0:00:46	SPEAKER_05
+ That was kind of interesting.
+
+0:00:48	SPEAKER_05
+ Both the SRI system and for one thing, that sure shows the difference between having a lot of training data or not.
+
+0:01:01	SPEAKER_05
+ The best kind of number we have on English, on near microphone only is 3 or 4%.
+
+0:01:11	SPEAKER_05
+ And it's significantly better than that using fairly simple front ends on the SRI system.
+
+0:01:23	SPEAKER_05
+ So, I think that that's using pretty huge amount of data.
+
+0:01:30	SPEAKER_05
+ Mostly not digits, of course, but then again, well, yeah, in fact, mostly not digits.
+
+0:01:35	SPEAKER_05
+ So, in this case, what is this using digits in the digital image?
+
+0:01:42	SPEAKER_05
+ Did anybody mention about whether the SRI system is doing the digits?
+
+0:01:50	SPEAKER_05
+ The word as a word model or as a sub-phone.
+
+0:01:56	SPEAKER_03
+ I guess it's a lot of fault models.
+
+0:02:01	SPEAKER_03
+ Yeah, I think so because it's very huge system.
+
+0:02:06	SPEAKER_03
+ But so, there is one difference.
+
+0:02:08	SPEAKER_03
+ Well, the SRI system, the result for the SRI system that are presented here are with adaptation.
+
+0:02:13	SPEAKER_03
+ So, there is a complete system including online, supervised adaptation.
+
+0:02:21	SPEAKER_03
+ If you don't use adaptation, the error rate is around 50% more.
+
+0:02:30	SPEAKER_05
+ Okay, is that much?
+
+0:02:33	SPEAKER_03
+ Yeah, it's quite significant.
+
+0:02:37	SPEAKER_05
+ Still.
+
+0:02:39	SPEAKER_05
+ But what I think I'd be interested to do given that is that we should take, I guess, as somebody is going to do this right, is to take some of these tandem things, feed it into the SRI system.
+
+0:02:52	SPEAKER_03
+ Yeah.
+
+0:02:54	SPEAKER_03
+ Yeah, because...
+
+0:02:56	SPEAKER_03
+ But I guess the main point is the data because I'm not sure or back down this is very simple, but still know what the attempts to improve it, that's a thing that what I mean.
+
+0:03:10	SPEAKER_03
+ Which I tried to do.
+
+0:03:13	SPEAKER_05
+ Yeah, but he's doing with the same data, right?
+
+0:03:16	SPEAKER_05
+ So there's two things to be infected.
+
+0:03:19	SPEAKER_05
+ One is that there's something simple that's wrong with the back end, playing number states.
+
+0:03:24	SPEAKER_05
+ I don't know if he got to the point of playing with the number of Gaussian's.
+
+0:03:29	SPEAKER_05
+ But, you know, but yeah, so far he hadn't gotten any improvement, but that's all with the same data, which is pretty small.
+
+0:03:41	SPEAKER_03
+ So you could retrain some of these tandem?
+
+0:03:45	SPEAKER_05
+ Well, you could do that, but I'm saying even with that part not retrained.
+
+0:03:50	SPEAKER_05
+ Just using having the HMMs, much better HMMs, yeah.
+
+0:03:58	SPEAKER_05
+ But just train those HMMs using different features, features coming from RRAS now.
+
+0:04:05	SPEAKER_03
+ But what would be interesting to see also is perhaps it's not really the amount of data but the recording conditions, I don't know, because it's probably not the problem of noise, because our features are supposed to be robust today.
+
+0:04:20	SPEAKER_03
+ It's not the problem of channel because there is normalization with respect to the channel.
+
+0:04:27	SPEAKER_05
+ So, I'm sorry, what is the problem that you're trying to explain?
+
+0:04:33	SPEAKER_03
+ The fact that the result with the tandem or a system model.
+
+0:04:37	SPEAKER_03
+ So much worse?
+
+0:04:38	SPEAKER_03
+ No, so much worse.
+
+0:04:39	SPEAKER_05
+ Oh, but I'm almost certain that it has to do with the amount of training data.
+
+0:04:50	SPEAKER_05
+ It's orders of magnitude on.
+
+0:04:54	SPEAKER_03
+ Yeah, but retrained on the own digits and it's a digit task.
+
+0:04:58	SPEAKER_05
+ But having a huge, if you look at what commercial places do, they use a huge amount of data.
+
+0:05:03	SPEAKER_05
+ This is a modest amount of data.
+
+0:05:06	SPEAKER_05
+ So, ordinarily you would say, well given that you have enough occurrences of the digits, you can just train the digits rather than with it.
+
+0:05:14	SPEAKER_05
+ But the thing is if you have a huge, you know, the word models, but if you have a huge amount of data, then you're going to have many occurrences of similar to the alpha one.
+
+0:05:24	SPEAKER_05
+ And that's just a huge amount of training point.
+
+0:05:30	SPEAKER_05
+ So, I think it has to be that because as you say, this is near microphone.
+
+0:05:35	SPEAKER_05
+ It's really pretty clean data.
+
+0:05:38	SPEAKER_05
+ Now, some of it could be the fact that, let's see, in these multi-trained things, did we include noisy data in the training?
+
+0:05:47	SPEAKER_05
+ I mean, that could be hurting us actually for the quick.
+
+0:05:49	SPEAKER_03
+ Yeah, actually we see that the clean train for proposals are better.
+
+0:05:55	SPEAKER_05
+ It is better.
+
+0:05:56	SPEAKER_05
+ Yeah, because this is clean data.
+
+0:05:58	SPEAKER_05
+ So, that's not too surprising.
+
+0:06:01	SPEAKER_03
+ But, I guess what I meant is that, well, let's say if we add enough data to train on the meeting record digits, I guess we could have better examples of this.
+
+0:06:18	SPEAKER_03
+ What I meant is that perhaps you can learn something from this, what's wrong?
+
+0:06:26	SPEAKER_03
+ What is different between the IDGids and these digits?
+
+0:06:30	SPEAKER_05
+ What kind of numbers are we getting on the IDGids?
+
+0:06:33	SPEAKER_03
+ It's 0.8 persons.
+
+0:06:38	SPEAKER_05
+ Oh, I see.
+
+0:06:39	SPEAKER_05
+ So, on the actual TIDGIDGID database, we're getting 28 percent.
+
+0:06:43	SPEAKER_05
+ And here we're getting three or three, let's say three for this.
+
+0:06:47	SPEAKER_05
+ Yeah, sure.
+
+0:06:49	SPEAKER_05
+ But I mean 0.8 percent is something like double or triple, what people have gotten who have worked very hard at doing that.
+
+0:07:02	SPEAKER_05
+ And also, as you point out, there's adaptation in these numbers also.
+
+0:07:05	SPEAKER_05
+ So, if you put the adaptation off, then for the English near, you get something like 2 percent.
+
+0:07:12	SPEAKER_05
+ And here you had something like 3.4.
+
+0:07:15	SPEAKER_05
+ And I could easily see that difference coming from this huge amount of data that was trained on.
+
+0:07:21	SPEAKER_05
+ So, I don't think there's anything magical here.
+
+0:07:24	SPEAKER_05
+ It's a simple HGK system with a modest amount of data.
+
+0:07:27	SPEAKER_05
+ And this is a modern system.
+
+0:07:31	SPEAKER_05
+ It has a lot of nice points to it.
+
+0:07:36	SPEAKER_05
+ So, the HGK is an older HGK, you know, so.
+
+0:07:40	SPEAKER_05
+ Yeah, it's not that surprising.
+
+0:07:42	SPEAKER_05
+ For me, it just meant a practical point that if we want to publish results on digits that people pay attention to, we probably should, because we've had the problem before, we can show some nice improvement on something that seems like too large a number.
+
+0:08:01	SPEAKER_05
+ And people don't necessarily think it's so serious.
+
+0:08:11	SPEAKER_05
+ Yeah, so the 3.4 percent for this is, looks, why is it, it's an interesting question of us.
+
+0:08:20	SPEAKER_05
+ Why is it 3.4 percent for the digits reported in this environment, as opposed to the 0.8 percent for the original TI digits database?
+
+0:08:38	SPEAKER_05
+ Yeah, given the same, yes, so ignoring the SRA system for a moment, just looking at the NM system, if we're getting 0.8 percent, which, yes, it's high.
+
+0:08:52	SPEAKER_05
+ It's awfully high, but it's, you know, it's high.
+
+0:08:59	SPEAKER_05
+ Why is it 4 times it's high?
+
+0:09:03	SPEAKER_05
+ More.
+
+0:09:05	SPEAKER_05
+ I guess this much would be harder.
+
+0:09:10	SPEAKER_05
+ Yeah, I guess.
+
+0:09:11	SPEAKER_05
+ Right, I mean, even though it's close mic, there still really is background noise.
+
+0:09:18	SPEAKER_05
+ And I suspect when the TI digits were recorded if somebody fumbled or said something wrong or something, they probably made them take it over.
+
+0:09:28	SPEAKER_05
+ I mean, there's no attempt to have it be realistic in any sense at all.
+
+0:09:34	SPEAKER_03
+ And it's quite different.
+
+0:09:37	SPEAKER_03
+ Yeah, it's very, very clean.
+
+0:09:40	SPEAKER_03
+ And it's like, it's got a Uricorn, whereas it's a mid-range, it's a mid-range, sometimes you have breath noise.
+
+0:09:51	SPEAKER_05
+ Right, yeah, so I think they were, it's got a little extra.
+
+0:09:57	SPEAKER_05
+ Yeah, I think it's, it's, so, yeah, I think it's, it's an indication it's hard.
+
+0:10:03	SPEAKER_05
+ Yeah, again, that's true either way.
+
+0:10:10	SPEAKER_05
+ I mean, so take a look at the, yeah, so I result in a much better, but still you're getting something like 1.3% for things that are the same data as in TI digits, the same text.
+
+0:10:25	SPEAKER_05
+ And I'm sure the same system would get 0.3, 0.4% or something on the actual TI digits.
+
+0:10:35	SPEAKER_05
+ So this, I think, on both systems, these digits are showing up as harder.
+
+0:10:42	SPEAKER_05
+ Which I find so interesting, because I think this is closer to, I mean, still red, but I still think it's much closer to what, what people actually face.
+
+0:10:55	SPEAKER_05
+ And they're dealing with people saying digits over the telephone.
+
+0:10:58	SPEAKER_05
+ I don't think, I mean, I'm sure they wouldn't erase the numbers, but I don't think that the, the, the company is, the telephone speech get anything like 0.4% on their digits.
+
+0:11:11	SPEAKER_05
+ I'm sure they get, I mean, for one thing people do, from now prove don't have middle America access.
+
+0:11:21	SPEAKER_05
+ So you ask it has, as many people.
+
+0:11:25	SPEAKER_05
+ It's not many different ways.
+
+0:11:31	SPEAKER_05
+ Okay, that was that topic. What else we got?
+
+0:11:38	SPEAKER_05
+ Did we end up giving up on, on, in a year speech submissions?
+
+0:11:42	SPEAKER_05
+ Man, Otilo and Dan Elles are submitting something.
+
+0:11:46	SPEAKER_03
+ Yeah, I guess the only thing with these, the meeting recorder.
+
+0:11:57	SPEAKER_03
+ So I think, yeah, basically give it.
+
+0:12:03	SPEAKER_05
+ Now, for the, for the, we do have stuff for a run, right?
+
+0:12:09	SPEAKER_05
+ Yeah, yeah, yeah, for sure.
+
+0:12:14	SPEAKER_03
+ Yeah. Well, that's fine.
+
+0:12:18	SPEAKER_05
+ So, so we have a couple, couple of little things on meeting recorder.
+
+0:12:22	SPEAKER_05
+ You don't, we don't have to fly it with papers.
+
+0:12:25	SPEAKER_05
+ We don't have to prove anything to anybody.
+
+0:12:28	SPEAKER_05
+ That's fine.
+
+0:12:31	SPEAKER_05
+ Anything else?
+
+0:12:32	SPEAKER_03
+ Yeah, well, so perhaps the place that we've been working on.
+
+0:12:38	SPEAKER_03
+ Yeah, we have put the good VAD in the system.
+
+0:12:43	None
+ It really makes a huge difference.
+
+0:12:49	SPEAKER_03
+ So yeah, I think this is perhaps one of the reason why our system was that, not the best because with the new VAD, there is a similar to the, that still come with ourselves.
+
+0:13:02	SPEAKER_03
+ Perhaps even better sometimes.
+
+0:13:06	SPEAKER_03
+ So there is this point.
+
+0:13:11	SPEAKER_03
+ The problem is that it's very big and still have to think how to, where to put it.
+
+0:13:21	SPEAKER_03
+ Because it, what is VAD, yield some delay.
+
+0:13:28	SPEAKER_03
+ And we, if we put it on the server side, it doesn't work because of the server side features.
+
+0:13:33	SPEAKER_03
+ So you already have the LDA applied from the terminal side to your cumulative delay.
+
+0:13:40	SPEAKER_03
+ So the VAD should be before the LDA, which means perhaps on the terminal side and then smaller.
+
+0:13:50	SPEAKER_05
+ So where does good VAD come from?
+
+0:13:53	SPEAKER_03
+ It's from OGI.
+
+0:13:55	SPEAKER_03
+ So it's the network with the huge amount of, the huge units and nine input frames compared to the VAD that was in the proposal, which has a very small amount of hidden units and fewer inputs.
+
+0:14:15	SPEAKER_05
+ This is the one they had originally.
+
+0:14:18	SPEAKER_05
+ Yeah, but they had to be rid of it because of the space.
+
+0:14:24	SPEAKER_03
+ But the assumption is that we'll be able to make a VAD that's smaller than that.
+
+0:14:32	SPEAKER_05
+ Well, so that's the problem.
+
+0:14:35	SPEAKER_05
+ But the other thing is to use a different VAD entirely.
+
+0:14:41	SPEAKER_05
+ I don't know what the thinking was amongst the LCPOQ, but if everybody agreed to use this VAD.
+
+0:14:53	SPEAKER_03
+ Or they just one apparently they don't want to fix it really because they think there is some interaction with you.
+
+0:15:00	SPEAKER_03
+ Feature extraction and video frame dropping.
+
+0:15:06	SPEAKER_03
+ But they still want to just to give some requirement from this VAD because it will not be part of the standard.
+
+0:15:19	SPEAKER_03
+ So it must be at least somewhat fixed but not completely.
+
+0:15:24	SPEAKER_03
+ So there just will be some requirements that are still not yet.
+
+0:15:30	SPEAKER_05
+ But I was thinking that sure there may be some interaction, but I don't think we need to be stuck on using our OGI's VAD with somebody else's smaller.
+
+0:15:43	SPEAKER_05
+ Yeah.
+
+0:15:44	SPEAKER_05
+ That's good.
+
+0:15:51	SPEAKER_03
+ So there is this thing.
+
+0:15:55	SPEAKER_03
+ Yeah.
+
+0:15:57	SPEAKER_03
+ I designed a new filter because when I designed the filters, we showed a delay from the LCPOQ filters.
+
+0:16:05	SPEAKER_03
+ There was one filter with 60ms delay and the other 10ms.
+
+0:16:10	SPEAKER_03
+ Right. You'd like to suggest that both could have 65.
+
+0:16:14	SPEAKER_03
+ I think it's 65.
+
+0:16:16	SPEAKER_03
+ Yeah.
+
+0:16:17	SPEAKER_03
+ But should have 65 because I didn't gain anything.
+
+0:16:20	SPEAKER_03
+ So I did that and it's running.
+
+0:16:24	SPEAKER_03
+ Let's see.
+
+0:16:25	SPEAKER_03
+ Let's see if I have one.
+
+0:16:27	SPEAKER_03
+ But the filter is of course closer to the reference filter.
+
+0:16:37	SPEAKER_04
+ Yeah.
+
+0:16:40	SPEAKER_05
+ So that means logically, the principle should be better, so probably it will be worse.
+
+0:16:48	SPEAKER_05
+ Or the basic perverse nature of reality.
+
+0:16:51	SPEAKER_05
+ Yeah.
+
+0:16:52	SPEAKER_05
+ Okay.
+
+0:16:53	SPEAKER_05
+ Yeah.
+
+0:16:57	SPEAKER_03
+ Yeah.
+
+0:16:58	SPEAKER_03
+ And then we've started to work with this.
+
+0:17:01	SPEAKER_03
+ Vice to the vice.
+
+0:17:03	SPEAKER_03
+ And we will perhaps try to have a new system with MSG stream.
+
+0:17:16	SPEAKER_03
+ So something that's similar to the proposal too, but with MSG stream.
+
+0:17:31	SPEAKER_04
+ Okay.
+
+0:17:40	SPEAKER_01
+ Now, we're going to play with Matt Lat and to found some parameter robust for voice and voice decision, but only to play.
+
+0:17:51	SPEAKER_01
+ And we found that maybe when it's a classical parameter, the variance between the FFT of the signal and the small spectrum of time after the Melfilter bank.
+
+0:18:10	SPEAKER_01
+ And while it's smaller, it's good for clean speech.
+
+0:18:14	SPEAKER_01
+ It's quite good for noise speech.
+
+0:18:18	SPEAKER_01
+ But we must have a big statistic with timid.
+
+0:18:23	SPEAKER_01
+ And it's not right yet to use, well, I don't know.
+
+0:18:29	SPEAKER_03
+ Yeah.
+
+0:18:30	SPEAKER_03
+ So basically we want to look at something like excitation signal.
+
+0:18:35	SPEAKER_03
+ Right.
+
+0:18:36	SPEAKER_03
+ Which is a variance of 15.
+
+0:18:40	SPEAKER_01
+ Yeah.
+
+0:18:41	SPEAKER_01
+ I have here for one thing, for one frame.
+
+0:18:45	SPEAKER_01
+ The mix of the two noise and noise.
+
+0:18:48	SPEAKER_01
+ And the signal is this, clean and this noise.
+
+0:18:57	SPEAKER_01
+ They are the two, the mix, the big.
+
+0:19:00	SPEAKER_01
+ The signal is for clean.
+
+0:19:02	SPEAKER_05
+ Well, there's no, these axes are labeled.
+
+0:19:05	SPEAKER_01
+ So I don't know what this axis is.
+
+0:19:07	SPEAKER_01
+ This axis is frame.
+
+0:19:12	SPEAKER_05
+ And what's this?
+
+0:19:14	SPEAKER_01
+ This is energy, logarithm energy of the spectrum.
+
+0:19:19	SPEAKER_01
+ No, this is the variance, the difference between the spectrum of the signal and FFT of each frame of the signal and the small spectrum of time after the Melfilter.
+
+0:19:36	SPEAKER_01
+ For the two.
+
+0:19:38	SPEAKER_01
+ And the here they are to signal this is for clean and this is for noise.
+
+0:19:44	SPEAKER_05
+ Oh, there's two things on the same graph.
+
+0:19:46	SPEAKER_01
+ Yeah, I don't know.
+
+0:19:47	SPEAKER_01
+ I think that they have another graph.
+
+0:19:50	SPEAKER_04
+ Which is clean?
+
+0:19:52	SPEAKER_04
+ Which is noise?
+
+0:19:53	SPEAKER_03
+ I think the lower one is noise.
+
+0:19:55	SPEAKER_01
+ The lower is noise and the height is clean.
+
+0:19:57	SPEAKER_05
+ Okay, so it's harder to distinguish.
+
+0:20:00	SPEAKER_05
+ It's hard.
+
+0:20:01	SPEAKER_05
+ But it's worth the answer, of course.
+
+0:20:03	SPEAKER_01
+ Oh, I must have clean.
+
+0:20:06	SPEAKER_01
+ I don't have two different.
+
+0:20:08	SPEAKER_05
+ Yeah, presumably when there is a...
+
+0:20:12	SPEAKER_03
+ So this should be voiced.
+
+0:20:16	SPEAKER_01
+ Yeah, this height is voiced portion.
+
+0:20:20	SPEAKER_01
+ And this is the noise portion.
+
+0:20:23	SPEAKER_01
+ And this is more or less like this.
+
+0:20:25	SPEAKER_01
+ But I must have to have two pictures.
+
+0:20:29	SPEAKER_01
+ This is for example for one frame, the spectrum of the signal.
+
+0:20:35	SPEAKER_01
+ And this is the smooth version of the spectrum after ML filter bank.
+
+0:20:42	SPEAKER_01
+ Yeah.
+
+0:20:43	SPEAKER_01
+ And this is...
+
+0:20:44	SPEAKER_01
+ This is not the different.
+
+0:20:46	SPEAKER_01
+ This is trying to obtain with LPC model, the spectrum, but using MATLAB without going factor and...
+
+0:20:56	SPEAKER_01
+ Not pre-efficient.
+
+0:20:57	SPEAKER_01
+ Not pre-efficient, nothing.
+
+0:20:59	SPEAKER_01
+ And I think that this is good.
+
+0:21:01	SPEAKER_01
+ This is quite similar.
+
+0:21:04	SPEAKER_01
+ This is another frame, how I obtain the envelope, the same envelope, with the ML filter bank.
+
+0:21:17	SPEAKER_05
+ Right.
+
+0:21:18	SPEAKER_05
+ So now I wonder, I mean, do you want to...
+
+0:21:22	SPEAKER_05
+ I know you want to get it something orthogonal from what you get with the smooth spectrum.
+
+0:21:28	SPEAKER_05
+ But if you were really trying to get a voicetant voice, do you want to totally ignore that?
+
+0:21:33	SPEAKER_05
+ I mean, do you...
+
+0:21:34	SPEAKER_05
+ I mean, clearly a very big, very big cues for a voicetant voice come from a spectrum slope and so on.
+
+0:21:42	None
+ Right.
+
+0:21:43	SPEAKER_03
+ Yeah, well, this would be...
+
+0:21:46	SPEAKER_03
+ This would be perhaps an addition of parameters.
+
+0:21:49	SPEAKER_03
+ Yeah, I see.
+
+0:21:51	SPEAKER_01
+ Yeah, because when the noise is clear, in this section is clear, if a high value is indicative that this voice frame and no one...
+
+0:22:05	SPEAKER_05
+ Yeah, we probably won't.
+
+0:22:07	SPEAKER_05
+ Certainly, if you want to do a good voicetant voice, it's actually a need of few features.
+
+0:22:12	SPEAKER_05
+ Each feature is myself.
+
+0:22:14	SPEAKER_05
+ I don't know, but people look at it slow.
+
+0:22:18	SPEAKER_05
+ First-dollar correlation coefficient, by by power, or...
+
+0:22:23	SPEAKER_05
+ There's...
+
+0:22:27	SPEAKER_05
+ I guess we probably don't have enough computation to do a simple pitched detector or something.
+
+0:22:35	SPEAKER_05
+ A pitched detector, you could have an estimate of what the...
+
+0:22:42	SPEAKER_05
+ Or maybe you could just do it going through the FFTs, or you could get out some probable harmonic structure.
+
+0:22:49	SPEAKER_05
+ Right?
+
+0:22:50	SPEAKER_01
+ You have read, you have a paper.
+
+0:22:55	SPEAKER_01
+ The paper just gives me just the...
+
+0:22:59	SPEAKER_01
+ I don't know, but...
+
+0:23:01	SPEAKER_01
+ They are some problem.
+
+0:23:03	SPEAKER_01
+ Yeah, that's a matter of...
+
+0:23:05	SPEAKER_01
+ It's another problem.
+
+0:23:07	SPEAKER_03
+ Yeah, there is...
+
+0:23:10	SPEAKER_03
+ This fact, actually, if you...
+
+0:23:12	SPEAKER_03
+ Look at this spectrum.
+
+0:23:15	SPEAKER_03
+ Yeah.
+
+0:23:16	SPEAKER_03
+ What's this again?
+
+0:23:18	SPEAKER_03
+ Is it the main field?
+
+0:23:20	SPEAKER_01
+ Yeah, like this.
+
+0:23:21	SPEAKER_01
+ Uptime like this.
+
+0:23:23	SPEAKER_03
+ So, the envelope here is the output of the MFFFF.
+
+0:23:26	SPEAKER_03
+ And what we clearly see is that in some cases, and clearly appears here, and the harmonics are resolved by the...
+
+0:23:36	SPEAKER_03
+ Well, there is still a pair after MFFF.
+
+0:23:40	SPEAKER_03
+ And it happens for a pitched noise, because the width of the low frequency MFFF is sometimes even smaller than pitch.
+
+0:23:51	SPEAKER_03
+ Yeah, it's a problem.
+
+0:23:53	SPEAKER_03
+ Right?
+
+0:23:54	SPEAKER_03
+ 150 hertz.
+
+0:23:59	SPEAKER_03
+ And so what happens is that this...
+
+0:24:03	SPEAKER_03
+ Add additional variability to this envelope.
+
+0:24:07	SPEAKER_03
+ Yeah.
+
+0:24:10	SPEAKER_03
+ So we were thinking to modify the mass spectrum to have something that's smaller on low frequencies.
+
+0:24:21	SPEAKER_05
+ That's a separate thing, yeah.
+
+0:24:23	SPEAKER_04
+ Yeah, it's a separate thing, yeah.
+
+0:24:27	SPEAKER_04
+ Yeah, maybe so.
+
+0:24:30	SPEAKER_05
+ Yeah, so, yeah, but that was time I was just starting with the FFT.
+
+0:24:34	SPEAKER_05
+ You could do a very rough thing to estimate pitch.
+
+0:24:39	SPEAKER_05
+ And given that, you could come up with some kind of estimate of how much of the...
+
+0:24:52	SPEAKER_04
+ The energy was explained by...
+
+0:24:57	SPEAKER_04
+ by those harmonics.
+
+0:25:03	SPEAKER_05
+ It's very...
+
+0:25:09	SPEAKER_05
+ The...
+
+0:25:11	SPEAKER_05
+ The metal does give a smooth thing, but as you say, it's not that smooth here.
+
+0:25:14	SPEAKER_05
+ So if you just subtract it off, you're the S of the harmonics, then something like this would end up with quite a bit lower energy.
+
+0:25:26	SPEAKER_05
+ First, 50 hertz or so.
+
+0:25:29	SPEAKER_05
+ And if it was noisy, the proportion of it would go down to B.
+
+0:25:36	SPEAKER_04
+ And if it was on lowest, there's nothing.
+
+0:25:39	SPEAKER_04
+ So you had to be able to pick out voiced segments.
+
+0:25:43	SPEAKER_05
+ At least it should be another cue.
+
+0:25:53	SPEAKER_04
+ Okay.
+
+0:25:56	SPEAKER_05
+ That's what's going on.
+
+0:26:01	SPEAKER_02
+ So, I went to talk with Mike Jordan this week, and shared with him the ideas about extending the Larry Saul work.
+
+0:26:16	SPEAKER_02
+ And I asked him some questions about factorial HMM.
+
+0:26:20	SPEAKER_02
+ So like later down the line, when we come up with these feature detectors, how do we model the time series that happens?
+
+0:26:33	SPEAKER_02
+ And we talked a little bit about factorial HMMs and how when you're doing inference, or when you're doing recognition, there's like simple, but turbid stuff that you can do for these HMMs.
+
+0:26:46	SPEAKER_02
+ And the great advantages that a lot of times the factorial HMMs don't over-learn the problem there.
+
+0:26:55	SPEAKER_02
+ They have a limited number of parameters and they focus directly on the subproblems at hand.
+
+0:27:01	SPEAKER_02
+ So you can imagine five or so parallel features transitioning independently.
+
+0:27:09	SPEAKER_02
+ And then at the end, you couple these factorial HMMs with undirected links based on some more data.
+
+0:27:19	SPEAKER_02
+ So he seemed like really interested in this and said this is something very dual wall and learned a lot.
+
+0:27:29	SPEAKER_02
+ And I've just been continuing reading about certain things, thinking maybe using modulation spectrum stuff to as features also in the sub-air, because it seems like the modulation spectrum tells you a lot about the intelligibility of certain words and stuff.
+
+0:28:04	SPEAKER_02
+ So yeah, just about it.
+
+0:28:13	SPEAKER_00
+ Okay, and so I've been looking at Avandano's work.
+
+0:28:20	SPEAKER_00
+ I'll try to write up in my next status report, and I'll write down what he's doing, but it's an approach to deal with reverberation, or the aspect of his work that I'm interested in.
+
+0:28:31	SPEAKER_00
+ The idea is that normally, and analysis frames are too short to encompass reverberation effects in full.
+
+0:28:42	SPEAKER_00
+ You miss most of the reverberation tail in a 10 millisecond window.
+
+0:28:46	SPEAKER_00
+ And so you'd like it to be that the reverberation response is simply convolved in, but it's not really with these 10 millisecond frames.
+
+0:29:00	SPEAKER_00
+ But if you take, say, a two millisecond window, I'm sorry, a two second window, then in a room like this, most of the reverberation response is included in the window.
+
+0:29:12	SPEAKER_00
+ And then things are more linear.
+
+0:29:17	SPEAKER_00
+ It is more like the reverberation response is simply convolved.
+
+0:29:21	SPEAKER_00
+ And you can use channel normalization techniques.
+
+0:29:25	SPEAKER_00
+ Like in his thesis, he's assuming that the reverberation response is fixed, he just does mean subtraction, which is like removing the DC component of the modulation spectrum.
+
+0:29:36	SPEAKER_00
+ And that's supposed to deal pretty well with the reverberation.
+
+0:29:44	SPEAKER_00
+ And the neat thing is you can't take these two second frames and feed them to a speed recognizer.
+
+0:29:51	SPEAKER_00
+ So he does this method training, the spectral resolution for time resolution.
+
+0:30:01	SPEAKER_00
+ And synthesizes a new representation, which is with, say, 10 second frames, but a lower frequency resolution.
+
+0:30:13	SPEAKER_00
+ So I don't really know the theory.
+
+0:30:15	SPEAKER_00
+ I guess these are called time frequency representations.
+
+0:30:18	SPEAKER_00
+ And he's making the time finer grain in the frequency resolution.
+
+0:30:25	SPEAKER_00
+ Let's find grain.
+
+0:30:29	SPEAKER_00
+ So I guess my first stab actually in continuing his work is to re-implement this thing, which changes the time and frequency resolutions, because he doesn't have code for me, so that it will take some reading about the theory.
+
+0:30:44	SPEAKER_00
+ I don't really know the theory.
+
+0:30:47	SPEAKER_00
+ Oh, and another first step is, so the way I want to extend his work is make it able to deal with a time varying reverberation response.
+
+0:30:57	SPEAKER_00
+ And we don't really know how fast the reverberation response is varying in the meeting recorder data.
+
+0:31:07	SPEAKER_00
+ So we have this blockly squares, echo counselor implementation.
+
+0:31:15	SPEAKER_00
+ And I want to try finding the response between a near mic and the table mic for someone using the echo counselor and looking at the echo counselor tabs.
+
+0:31:26	SPEAKER_00
+ And then see how fast that varies from block to block that should give an idea of how fast the reverberation response is changing.
+
+0:31:33	SPEAKER_04
+ Okay.
+
+0:31:40	SPEAKER_05
+ I think we're sort of done.
+
+0:31:46	SPEAKER_05
+ Yes, we did it.
+
+0:31:48	SPEAKER_05
+ We did it and go home.
+
+0:31:51	SPEAKER_05
+ Okay.
+
+0:31:56	SPEAKER_03
+ I'm reading transcript L-40, 3, 4, 9, 1, 0, 5, 1, 8, 3, 6, 2, 0, 5, 7, 0, 4, 1, 9, 6, 0, 1, 4, 4, 9, 5, 7, 3, 7, 6, 1, 4, 2, 0, 5, 2, 7, 8, 9, 9, 3, 6, 6, 3, 8, 9, 7, 1, 7, 8, 3, 1, 9, 3, 0, 1, 9, 5, 7, 5, 5, 1, 8, 0, 8, 2, 9, 8, 4, 6, 1, 9, 4, 8, 1, 2,
+
+0:32:38	SPEAKER_00
+ So I think you read some of the zeros as always and some of zeros. Is there a particular way we're supposed to read them?
+
+0:32:49	SPEAKER_03
+ There are only zeros here.
+
+0:32:51	SPEAKER_05
+ No, oh, it's 0 and 0, two ways that we say that digit.
+
+0:32:56	SPEAKER_03
+ So it's perhaps in the sheets, it should be another sign photo.
+
+0:33:02	SPEAKER_03
+ If we want to, the guy to say photo.
+
+0:33:05	SPEAKER_05
+ No, I mean, I think people will do what they say.
+
+0:33:07	SPEAKER_05
+ It's okay.
+
+0:33:08	SPEAKER_05
+ I mean, digit recognition is done before.
+
+0:33:10	SPEAKER_05
+ You have two pronunciations for that value.
+
+0:33:15	SPEAKER_03
+ It's perhaps more difficult for the people to prepare the database.
+
+0:33:18	SPEAKER_03
+ If, because they already put me in the order.
+
+0:33:22	SPEAKER_03
+ No, they just write pronounce 0 or 0.
+
+0:33:25	SPEAKER_05
+ They write down OH or they write down ZRO.
+
+0:33:28	SPEAKER_03
+ Yeah, but if each other, she'd be prepared with a different sign photo.
+
+0:33:32	SPEAKER_05
+ But people wouldn't know what that, well, I mean, there is no convention for it.
+
+0:33:36	SPEAKER_05
+ Yeah.
+
+0:33:37	SPEAKER_05
+ I mean, you'd have to tell them, okay, when we write this, say it, they just want people to read the digits as you would in early work.
+
+0:33:44	SPEAKER_05
+ And people say it different ways.
+
+0:33:47	SPEAKER_00
+ Okay, is this a change from the last batch of, of, um, forms?
+
+0:33:51	SPEAKER_00
+ Because in the last batch, it was spelled out, which one you should read.
+
+0:33:54	SPEAKER_05
+ Yes, that's right.
+
+0:33:55	SPEAKER_05
+ It was spelled out and they decided they wanted to get at more of the way people would really say.
+
+0:33:59	SPEAKER_05
+ Okay.
+
+0:34:00	SPEAKER_05
+ That's also why they're, they're bunched together in these different groups.
+
+0:34:03	SPEAKER_05
+ Okay.
+
+0:34:04	SPEAKER_05
+ So it's, yeah, so it's, it's, it's, it's, it's, they're being spying.
+
+0:34:09	SPEAKER_05
+ Transcript L-39.
+
+0:34:13	SPEAKER_05
+ 2326-1014-2475.
+
+0:34:18	SPEAKER_05
+ 938-726-2627.
+
+0:34:22	SPEAKER_05
+ 6734-2224.
+
+0:34:26	SPEAKER_05
+ 2964040882.
+
+0:34:31	SPEAKER_05
+ 879-94082.
+
+0:34:36	SPEAKER_05
+ 780-395123.
+
+0:34:40	SPEAKER_05
+ 559-8142.
+
+0:34:44	SPEAKER_05
+ 0209-2926.
+
+0:34:49	SPEAKER_05
+ Actually, let me just, since it's spread up, I was just, it was hard not to be self-conscious about that one.
+
+0:34:54	SPEAKER_05
+ The reasons we just discussed it.
+
+0:34:56	SPEAKER_05
+ But I realized that, that, um, when I'm talking on the phone, certainly, and, and seeing these numbers, I almost always say zero.
+
+0:35:05	SPEAKER_05
+ And because, because, uh, it's too solvable, so it's, it's more likely to understand what I said.
+
+0:35:11	SPEAKER_05
+ That, that's the habit I'm in.
+
+0:35:13	SPEAKER_05
+ But some people say, oh, okay.
+
+0:35:16	SPEAKER_02
+ Yeah, I normally say, oh, it's easier to say.
+
+0:35:19	SPEAKER_05
+ Yeah, it's true.
+
+0:35:20	SPEAKER_05
+ Yeah, so, so, uh, no, don't think about it.
+
+0:35:23	SPEAKER_05
+ Oh, no.
+
+0:35:26	SPEAKER_02
+ Okay, I'm reading transcript L-38.
+
+0:35:30	SPEAKER_02
+ 545-032-858.
+
+0:35:35	SPEAKER_02
+ 338-904109.
+
+0:35:39	SPEAKER_02
+ 850-711-140.
+
+0:35:44	SPEAKER_02
+ 2161-82-5678.
+
+0:35:49	SPEAKER_02
+ 576-82004.
+
+0:35:54	SPEAKER_02
+ 710-0587-756.
+
+0:36:00	SPEAKER_02
+ 561-371913.
+
+0:36:05	SPEAKER_02
+ 436-009-9220.
+
+0:36:10	SPEAKER_00
+ I'm reading transcript L-37.
+
+0:36:14	SPEAKER_00
+ 0519-0327-1669.
+
+0:36:20	SPEAKER_00
+ 627-026-4510.
+
+0:36:26	SPEAKER_00
+ 542-9501.
+
+0:36:30	SPEAKER_00
+ 711-271-8123.
+
+0:36:35	SPEAKER_00
+ 4084-57-622-9.
+
+0:36:41	SPEAKER_00
+ 823-6726-764.
+
+0:36:46	SPEAKER_00
+ 927-3123.
+
+0:36:51	SPEAKER_00
+ 936-861-9177.
+
+0:36:57	SPEAKER_01
+ Transcript L-36.
+
+0:37:01	SPEAKER_01
+ 044-1629-0.
+
+0:37:05	SPEAKER_01
+ 477-3845654688.
+
+0:37:13	SPEAKER_01
+ 312-525459.
+
+0:37:19	SPEAKER_01
+ 970-698-5851.
+
+0:37:25	SPEAKER_01
+ 0832-973-145.
+
+0:37:32	SPEAKER_01
+ 6493-844223.
+
+0:37:39	SPEAKER_01
+ 4553-0245-422.
+
+0:37:46	SPEAKER_01
+ 682-189-819.
+
+0:37:54	SPEAKER_05
+ I have no access in postcode.
+
+0:38:09	None
+ There is some technical problem here.
+

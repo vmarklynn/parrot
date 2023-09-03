@@ -1,0 +1,2076 @@
+0:00:30	SPEAKER_05
+ Kay.
+
+0:01:13	SPEAKER_04
+ You're late.
+
+0:01:20	SPEAKER_05
+ Zoom.
+
+0:01:27	SPEAKER_01
+ Okay, all set.
+
+0:01:36	SPEAKER_01
+ Welcome to the conceptual design meeting.
+
+0:01:40	SPEAKER_01
+ The agenda. The opening, I'll again be the secretary in make minutes, take minutes, and it will be three presentations, just like the last meeting. So, who wants to start off?
+
+0:01:55	SPEAKER_01
+ Technical designer again. Okay.
+
+0:02:22	SPEAKER_01
+ Before we begin, I want to say I put minutes of the second meeting in the shared folder, but they're still not quite okay. It's still some technical difficulties, so the first part of the minutes are very hard to read because there are two documents that are layered over each other. Okay.
+
+0:02:44	SPEAKER_01
+ But from now on, I won't use my pen anymore.
+
+0:02:48	SPEAKER_01
+ It's just ordinary keyboard. It's better.
+
+0:02:52	SPEAKER_01
+ Keyboard work. I think it will be more easy for you to read minutes.
+
+0:02:57	SPEAKER_02
+ All right. Okay. When we talk about components design, it's really about material and really the stuff we build the remote controls of.
+
+0:03:13	SPEAKER_02
+ The remote control consists of components and the components of a re-riled control consists of properties and material. We have to choose these wisely and it could affect a kind of growth in buying the remote controls.
+
+0:03:34	SPEAKER_02
+ The components of remote control are of course the case.
+
+0:03:39	SPEAKER_02
+ The properties of the case are it has to be solid, a hard material like hard plastic with software for falling and it feels good in your hand.
+
+0:03:57	SPEAKER_02
+ The buttons has to be solid too and the material is software.
+
+0:04:03	SPEAKER_02
+ I've got an email from the possibilities of real reaction.
+
+0:04:12	SPEAKER_02
+ They are telling me that when we build a remote control of plastic or rubber, the buttons have to be rubber too.
+
+0:04:28	SPEAKER_02
+ Okay. When we use a rubber-doubled curved case, we must use rubber push buttons too. The rubber-doubled curved case is a three-dimensional curve in the design, which is necessary and we want to be trendy.
+
+0:04:56	SPEAKER_02
+ The energy source, I've got a lot of possibilities for that too.
+
+0:05:02	SPEAKER_02
+ The basic battery, which I prefer because of its non-dependent of here.
+
+0:05:15	SPEAKER_02
+ You have to have a kinetic energy also in this one, like in the watches, remote control can lie on the table for a day and then you push a button so you don't have to work with it all the time.
+
+0:05:35	SPEAKER_02
+ Solar shells are also a bit weird for remote controls.
+
+0:05:45	SPEAKER_02
+ Also the case material, I think plastic is the best with rubber because wood or titanium would also be a bit weird.
+
+0:05:59	SPEAKER_03
+ How about taneums? Probably trendy, I think?
+
+0:06:05	SPEAKER_04
+ That's true, I guess.
+
+0:06:07	SPEAKER_03
+ Maybe a little bit expensive.
+
+0:06:11	SPEAKER_02
+ I don't know how they don't tell anything about the cost of titanium.
+
+0:06:21	SPEAKER_02
+ The chip set and the board is all of the shelves.
+
+0:06:25	SPEAKER_02
+ Also the speaker in the remote control when we want to retrieve it.
+
+0:06:31	SPEAKER_02
+ The base station is also of the shelf. All the materials and components are just available in our factory.
+
+0:06:44	SPEAKER_02
+ I've told about the three first points.
+
+0:06:54	SPEAKER_02
+ The simple electronical chip is available with the lead transmitter.
+
+0:07:04	SPEAKER_02
+ It's all of the shelves and even the speaker and the wireless retrievers are all available in our company.
+
+0:07:13	SPEAKER_02
+ Another possibility I looked upon was the LCD displays.
+
+0:07:22	SPEAKER_02
+ Could be something special to our remote control.
+
+0:07:27	SPEAKER_02
+ It's possible, but it only costs a bit more.
+
+0:07:31	SPEAKER_02
+ Maybe it can be within the limits of 25 euros.
+
+0:07:36	SPEAKER_01
+ 12.
+
+0:07:38	SPEAKER_02
+ Actually, I've got an email with some examples.
+
+0:07:48	SPEAKER_02
+ This is where the most trendy is one.
+
+0:07:51	SPEAKER_02
+ You see a coffers which can be...
+
+0:07:55	SPEAKER_01
+ Well, are those the tooth brushes?
+
+0:07:58	SPEAKER_02
+ I don't know.
+
+0:08:01	SPEAKER_01
+ It resembles the design.
+
+0:08:11	SPEAKER_02
+ Maybe we can bring a couple of...
+
+0:08:15	SPEAKER_02
+ A couple of types of...
+
+0:08:19	SPEAKER_02
+ A whole set of different remote controls.
+
+0:08:29	SPEAKER_02
+ Maybe we can bring a whole line with a huge variety of houses.
+
+0:08:39	SPEAKER_02
+ Like maybe radios and television also in the same style.
+
+0:08:45	SPEAKER_04
+ That'll be for the future, I guess.
+
+0:08:48	SPEAKER_02
+ Yes, because we have to bring the logo and all the stuff back into it.
+
+0:08:55	SPEAKER_04
+ Definitely.
+
+0:09:00	SPEAKER_03
+ Thank you, sir.
+
+0:09:03	None
+ I'll look it up.
+
+0:09:05	SPEAKER_04
+ That's okay.
+
+0:09:08	None
+ I'll go to the next slide.
+
+0:09:20	SPEAKER_03
+ I still don't have any information about user requirements.
+
+0:09:29	SPEAKER_03
+ I was thinking about just the basic functions.
+
+0:09:34	SPEAKER_01
+ We decided on that in the last meeting.
+
+0:09:40	SPEAKER_03
+ But then when there are new user requirements.
+
+0:09:45	SPEAKER_01
+ I didn't receive any new requirements.
+
+0:09:49	SPEAKER_01
+ Nothing?
+
+0:09:50	SPEAKER_01
+ No, but we decided to use only basic functions.
+
+0:09:54	SPEAKER_03
+ I have here a couple of basic functions I could think of.
+
+0:09:57	SPEAKER_03
+ I don't know if there are maybe a little bit more.
+
+0:10:03	SPEAKER_01
+ Maybe we can think of that later.
+
+0:10:06	SPEAKER_01
+ These are the ones you already summed up.
+
+0:10:11	SPEAKER_03
+ I pointed them out here.
+
+0:10:14	SPEAKER_03
+ Just to make that a little bit easier.
+
+0:10:18	SPEAKER_03
+ Another function is, of course, we already discussed it on the side.
+
+0:10:24	SPEAKER_03
+ I don't know what costs of it.
+
+0:10:29	SPEAKER_03
+ I was also looking for what you said for I got a name about LCD in front of the remote control.
+
+0:10:39	SPEAKER_03
+ I don't know if that's a good idea or maybe it's a little bit too much for 12.5.
+
+0:10:48	SPEAKER_03
+ If we got already something like a base.
+
+0:10:51	SPEAKER_01
+ Bit redundant also maybe.
+
+0:10:53	SPEAKER_01
+ I don't know what kind of information.
+
+0:10:55	SPEAKER_03
+ I was just thinking about it and I got a problem.
+
+0:10:59	SPEAKER_02
+ Maybe we can bring a tail text to the remote control.
+
+0:11:05	SPEAKER_00
+ They've got to have like a little bit more.
+
+0:11:09	SPEAKER_03
+ Make RC a little bit too big.
+
+0:11:14	SPEAKER_03
+ Exactly.
+
+0:11:15	SPEAKER_03
+ Well, the functions are not more to discuss.
+
+0:11:20	SPEAKER_03
+ It's just the base things we already discussed at the No PCR.
+
+0:11:26	SPEAKER_03
+ That's very easy.
+
+0:11:29	SPEAKER_01
+ But you do mention the next and previous button.
+
+0:11:34	SPEAKER_03
+ Well, that's next channel.
+
+0:11:39	SPEAKER_03
+ I got an email with a remote control with a base.
+
+0:11:46	SPEAKER_03
+ It's just an idea.
+
+0:11:51	SPEAKER_03
+ I think of the button sizes and I'm not sure if they have to be big or just small.
+
+0:12:04	SPEAKER_03
+ I think it depends on the function.
+
+0:12:06	SPEAKER_03
+ Well, I'm the expert for user friendly but not for trendiness.
+
+0:12:12	SPEAKER_04
+ If you save tiny buttons aren't user friendly then we wouldn't implement that.
+
+0:12:20	SPEAKER_03
+ Well, okay.
+
+0:12:26	SPEAKER_03
+ It's a bit of a point.
+
+0:12:31	SPEAKER_03
+ Yeah, I've nothing to do.
+
+0:12:34	SPEAKER_01
+ When we only use base functions we have the possibility to make the buttons larger.
+
+0:12:38	SPEAKER_03
+ It's a little bit larger.
+
+0:12:43	SPEAKER_01
+ I think we already agreed upon the fact that the skip buttons and volume buttons, those two, they have to be large.
+
+0:12:52	SPEAKER_01
+ I mean the two basic buttons, skip channels.
+
+0:12:59	SPEAKER_01
+ I don't know why but I think that's the trend.
+
+0:13:10	SPEAKER_01
+ It puts an extra accent on the simplicity of our remote to make these two most basic functions extra big.
+
+0:13:20	SPEAKER_04
+ I also probably use the most used buttons on the unit.
+
+0:13:30	SPEAKER_04
+ It's from your research.
+
+0:13:36	SPEAKER_03
+ That was all personal preference I didn't have.
+
+0:13:41	SPEAKER_03
+ Anytime left.
+
+0:13:44	SPEAKER_04
+ You don't care.
+
+0:13:49	SPEAKER_04
+ Yeah.
+
+0:13:54	SPEAKER_04
+ Go away.
+
+0:13:59	SPEAKER_03
+ Come on.
+
+0:14:08	SPEAKER_05
+ Yeah, click on it.
+
+0:14:13	SPEAKER_04
+ Oh, great.
+
+0:14:16	SPEAKER_04
+ I've done some research again about trends on the internet.
+
+0:14:22	SPEAKER_04
+ I've done some investigation and I got some information from fashion watchers from Paris and Milan.
+
+0:14:37	SPEAKER_04
+ Some finding the most important thing is fancy look and feel of the most control.
+
+0:14:44	SPEAKER_04
+ We were going to imply that.
+
+0:14:46	SPEAKER_04
+ That's nice.
+
+0:14:47	SPEAKER_04
+ The second important thing is innovative technology in the RC.
+
+0:14:53	SPEAKER_04
+ Our market really likes that and the third point there in this order of importance, the third point is a high ease of use.
+
+0:15:04	SPEAKER_04
+ For the idea, I've put some trends for the markets for elderly people, dark colors, simple recognizable shapes.
+
+0:15:13	SPEAKER_04
+ So we probably won't do that.
+
+0:15:16	SPEAKER_04
+ The younger markets like the themes of this year are surprisingly fruits and vegetables and spongy material.
+
+0:15:30	SPEAKER_04
+ I found this image which is, well, it symbolizes the idea of fruits and vegetables.
+
+0:15:38	SPEAKER_04
+ I don't see the spongy part in it but with a little bit of fancy.
+
+0:15:42	SPEAKER_01
+ Then we have to do something with spongebob.
+
+0:15:45	SPEAKER_04
+ Exactly.
+
+0:15:46	SPEAKER_04
+ I got some ideas.
+
+0:15:49	SPEAKER_04
+ Well, pictures isn't really a good word but some symbols of fruits or vegetables may be.
+
+0:15:57	SPEAKER_04
+ Catch your colors.
+
+0:15:58	SPEAKER_04
+ Fruit is yellow, green, red, whatever.
+
+0:16:02	SPEAKER_04
+ So remote controls in catch colors.
+
+0:16:05	SPEAKER_04
+ No, we don't want dark colors.
+
+0:16:08	SPEAKER_04
+ No, I just put them there for general.
+
+0:16:11	SPEAKER_04
+ For general idea.
+
+0:16:13	SPEAKER_04
+ The darkings, I think, spongey material is very irritating for the remote control itself.
+
+0:16:22	SPEAKER_04
+ But to implement some spongey thing, maybe we can do it in the darking station at the bottom of the darking station or whatever.
+
+0:16:32	SPEAKER_04
+ And we could bring one line with the dark color to...
+
+0:16:42	SPEAKER_01
+ For diversity.
+
+0:16:44	SPEAKER_04
+ Also, a bit for elderly people who are a little bit crazy and wonder.
+
+0:16:48	SPEAKER_04
+ Maybe want a little younger design but still the dark color.
+
+0:16:52	SPEAKER_04
+ I mean, it reaches a different market but it doesn't cost really much effort to bring like a black RC on the market or whatever.
+
+0:17:01	SPEAKER_03
+ How do we use fruit and vegetables in Christ's sake with remote control?
+
+0:17:09	SPEAKER_01
+ I think that our design already resembles some piece of fruit like a pear.
+
+0:17:14	SPEAKER_04
+ There's always empty space of course on remote control.
+
+0:17:17	SPEAKER_04
+ I mean, I think this part of the RC, well...
+
+0:17:21	SPEAKER_04
+ I don't think you have to do it the upper part or whatever.
+
+0:17:25	SPEAKER_04
+ It's not used with buttons, I guess.
+
+0:17:28	SPEAKER_04
+ So you can put some fruit in.
+
+0:17:31	SPEAKER_01
+ It doesn't have to remind you explicitly of a piece of fruit but just the round curves.
+
+0:17:40	SPEAKER_01
+ I think this already resembles something like a pear to me.
+
+0:17:46	SPEAKER_04
+ Yeah, exactly.
+
+0:17:48	SPEAKER_04
+ If you make a little bit of greenish.
+
+0:17:50	SPEAKER_01
+ Do you get the idea? The fruit is kind of round.
+
+0:17:53	SPEAKER_04
+ I mean, we could use one of these for the... What is it?
+
+0:17:58	SPEAKER_00
+ I don't know.
+
+0:18:00	SPEAKER_00
+ Great.
+
+0:18:02	SPEAKER_00
+ Yeah.
+
+0:18:03	SPEAKER_03
+ I don't even need to create an artist or something like that to make it work.
+
+0:18:08	SPEAKER_03
+ Sure.
+
+0:18:09	SPEAKER_03
+ Vegetable or fruit?
+
+0:18:11	SPEAKER_03
+ We have a very big team.
+
+0:18:14	SPEAKER_04
+ We can do multiple things.
+
+0:18:17	SPEAKER_04
+ This is then the pear.
+
+0:18:19	SPEAKER_04
+ I don't know the English word.
+
+0:18:21	SPEAKER_04
+ It's pear, yes.
+
+0:18:24	SPEAKER_04
+ But maybe we don't have bananas.
+
+0:18:27	SPEAKER_04
+ Not easy for remote control, but we can't make all 10 designs.
+
+0:18:33	SPEAKER_02
+ We have to make one design, I think.
+
+0:18:36	SPEAKER_01
+ But I think it's already two or three.
+
+0:18:38	SPEAKER_01
+ What we were up to.
+
+0:18:40	SPEAKER_01
+ Yeah.
+
+0:18:41	SPEAKER_01
+ It doesn't have to resemble what I already said a specific piece of fruit.
+
+0:18:44	SPEAKER_01
+ No, sure.
+
+0:18:45	SPEAKER_01
+ But just like a fruity thing going on.
+
+0:18:47	SPEAKER_01
+ But that's great.
+
+0:18:49	SPEAKER_04
+ I don't know what I was saying.
+
+0:18:51	SPEAKER_01
+ But I do like to catch the colors.
+
+0:18:53	SPEAKER_01
+ Yeah, I do like to do the idea of making a catchy color design.
+
+0:18:58	SPEAKER_01
+ Because I think a dark color would be nice too.
+
+0:19:01	SPEAKER_00
+ Yeah.
+
+0:19:02	SPEAKER_00
+ Picked is a fruit.
+
+0:19:03	SPEAKER_00
+ Maybe it's too much.
+
+0:19:04	SPEAKER_04
+ Yeah.
+
+0:19:05	SPEAKER_03
+ We have to.
+
+0:19:06	SPEAKER_03
+ Not very simple.
+
+0:19:07	SPEAKER_03
+ There have to be the firm colors.
+
+0:19:09	SPEAKER_03
+ Our own color.
+
+0:19:10	SPEAKER_01
+ Okay.
+
+0:19:11	SPEAKER_01
+ We've got our...
+
+0:19:12	SPEAKER_02
+ Yellow.
+
+0:19:13	SPEAKER_02
+ Yellow.
+
+0:19:14	SPEAKER_02
+ A real reaction.
+
+0:19:15	SPEAKER_02
+ She can put a logo on top of it.
+
+0:19:16	SPEAKER_01
+ Yeah, I don't think our company colors are this fashionable.
+
+0:19:20	SPEAKER_04
+ Maybe we can...
+
+0:19:21	SPEAKER_04
+ If we've got a docking station over here, I can draw with this thing, but I'll try.
+
+0:19:26	SPEAKER_04
+ If this is our docking station, we can make our logo over here.
+
+0:19:30	SPEAKER_04
+ It doesn't work.
+
+0:19:31	SPEAKER_04
+ And then...
+
+0:19:32	SPEAKER_04
+ Yeah, in the button then.
+
+0:19:34	SPEAKER_02
+ With the strawberry on top.
+
+0:19:35	SPEAKER_04
+ Yeah, in the bottom of the remote.
+
+0:19:37	SPEAKER_04
+ The button over here.
+
+0:19:38	SPEAKER_04
+ Whatever.
+
+0:19:39	SPEAKER_04
+ I don't know.
+
+0:19:40	SPEAKER_04
+ Okay.
+
+0:19:41	SPEAKER_04
+ On the front, of course.
+
+0:19:42	SPEAKER_04
+ Because else you can find it.
+
+0:19:45	SPEAKER_04
+ So that will my this a little bit.
+
+0:19:48	SPEAKER_04
+ I'll close them down.
+
+0:19:50	SPEAKER_04
+ Go away.
+
+0:19:54	SPEAKER_01
+ Okay, can you open the conceptual design?
+
+0:19:56	SPEAKER_01
+ On the presentation.
+
+0:19:57	SPEAKER_01
+ Yes.
+
+0:19:58	SPEAKER_01
+ See what was on the agenda?
+
+0:20:02	SPEAKER_04
+ Lazy.
+
+0:20:03	SPEAKER_01
+ The agenda.
+
+0:20:04	SPEAKER_01
+ The decisions on the remote.
+
+0:20:06	SPEAKER_01
+ Because maybe we can start with the technical functions, but I don't think...
+
+0:20:12	SPEAKER_01
+ Do we want to use an LCD display, for example?
+
+0:20:16	SPEAKER_04
+ Well, it's nice.
+
+0:20:18	SPEAKER_04
+ Of course.
+
+0:20:19	SPEAKER_04
+ But I don't know what to display on it.
+
+0:20:21	SPEAKER_02
+ Maybe we can make a TV guide on it for the channel you're on.
+
+0:20:26	SPEAKER_04
+ Yeah, but it should be like this big.
+
+0:20:29	SPEAKER_04
+ I don't think we should do it.
+
+0:20:31	SPEAKER_02
+ The TV channel with four programs, you can zap to them with the page down button.
+
+0:20:39	SPEAKER_04
+ Yeah, sure, but it has to show an entire title of a program, or at least a quite large part of it.
+
+0:20:47	SPEAKER_04
+ And then you get a very large LCD.
+
+0:20:49	SPEAKER_02
+ No, when you're mobile phone, you can you can read text also.
+
+0:20:52	SPEAKER_02
+ So why not on your remote?
+
+0:20:55	SPEAKER_01
+ Never.
+
+0:20:56	SPEAKER_01
+ I think it's a bit redundant.
+
+0:20:59	SPEAKER_01
+ And it's also not... I don't even think it looks like sexy or something.
+
+0:21:03	SPEAKER_03
+ What would you display on it?
+
+0:21:05	SPEAKER_02
+ A program information or a guide on TV.
+
+0:21:10	SPEAKER_03
+ A lot of new TVs.
+
+0:21:12	SPEAKER_02
+ Yes, also on the internet.
+
+0:21:13	SPEAKER_04
+ A lot of TVs in each show when you...
+
+0:21:16	SPEAKER_04
+ Which already works in your TV.
+
+0:21:18	SPEAKER_01
+ You're not going to watch your remote control.
+
+0:21:20	SPEAKER_02
+ Yes, but you also want to know what's next.
+
+0:21:22	SPEAKER_04
+ But then we also need to bring out a line of TVs, which we're planning to do, or whatever.
+
+0:21:28	SPEAKER_04
+ Because the TV has to send information back to the RC.
+
+0:21:31	SPEAKER_04
+ And I don't know if that's possible.
+
+0:21:33	SPEAKER_02
+ That's really possible.
+
+0:21:35	SPEAKER_04
+ Yes, yes, of course it's possible.
+
+0:21:37	SPEAKER_04
+ But you've got to implement it in the TVs.
+
+0:21:41	SPEAKER_04
+ And I don't think everyone's going to buy a real reaction TV within a month after the release of our remote control.
+
+0:21:48	SPEAKER_01
+ I really understand you want to make your job more exciting than anything else to be in it.
+
+0:21:52	SPEAKER_01
+ But I really don't think it's a good... because it also doesn't stroke.
+
+0:21:57	SPEAKER_01
+ We wanted... when we talk about the materials, it's a good idea to use these plastic materials with the soft rubber stuff on it.
+
+0:22:04	SPEAKER_01
+ It was our idea to give it a more sturdy look.
+
+0:22:07	SPEAKER_01
+ And you can throw with it.
+
+0:22:09	SPEAKER_01
+ But I don't think LCD display fits in that image.
+
+0:22:12	SPEAKER_01
+ It's more vulnerable.
+
+0:22:14	SPEAKER_01
+ It's not very solid.
+
+0:22:18	SPEAKER_04
+ You can make it.
+
+0:22:21	SPEAKER_01
+ I don't think it's coherent with the design we're after.
+
+0:22:26	SPEAKER_04
+ No.
+
+0:22:27	SPEAKER_04
+ I don't think so.
+
+0:22:29	SPEAKER_01
+ In my opinion, we can vote for it.
+
+0:22:33	SPEAKER_01
+ The LCD display.
+
+0:22:35	SPEAKER_01
+ I don't want to.
+
+0:22:37	SPEAKER_01
+ And he doesn't, so it's up to him.
+
+0:22:39	SPEAKER_01
+ If you...
+
+0:22:42	SPEAKER_01
+ I've read somewhere that I've got some kind of fatal...
+
+0:22:46	SPEAKER_01
+...right?
+
+0:22:47	SPEAKER_01
+ So I can also say...
+
+0:22:50	SPEAKER_01
+ We can fold your way.
+
+0:22:52	SPEAKER_01
+ Yeah, you can do...
+
+0:22:54	SPEAKER_03
+ So what do you think this is?
+
+0:22:56	SPEAKER_01
+ We're not even sure what information we want to display.
+
+0:22:59	SPEAKER_01
+ No, that's right.
+
+0:23:00	SPEAKER_03
+ And I also have to think about new functions, maybe buttons or something like that, to control that LCD or something?
+
+0:23:09	SPEAKER_03
+ Yeah, I guess.
+
+0:23:10	SPEAKER_02
+ You can use buttons that are already on the remote control.
+
+0:23:15	SPEAKER_02
+ For double function.
+
+0:23:17	SPEAKER_03
+ When I go to the second channel, what does it show me?
+
+0:23:21	SPEAKER_02
+ The title and information about the program.
+
+0:23:24	SPEAKER_02
+ About that program.
+
+0:23:26	SPEAKER_02
+ But what he said was right about the televisions.
+
+0:23:29	SPEAKER_02
+ They have to be customized to that.
+
+0:23:32	SPEAKER_01
+ No, that's not going to work.
+
+0:23:33	SPEAKER_02
+ But maybe in future it will be a giant hit and when you are the first.
+
+0:23:38	SPEAKER_02
+ You have the biggest...
+
+0:23:40	SPEAKER_01
+ Like the bigger universal remotes, the LCD displays.
+
+0:23:45	SPEAKER_01
+ But then it's very functional to indicate what device you are controlling.
+
+0:23:50	SPEAKER_01
+ That's what I've seen.
+
+0:23:52	SPEAKER_02
+ You can put a little LCD display on it with lots of information.
+
+0:23:57	SPEAKER_01
+ But it just doesn't match with our whole basic concept.
+
+0:24:02	SPEAKER_02
+ But when you put a transparent plastic screen on top of it, it isn't vulnerable.
+
+0:24:10	SPEAKER_01
+ No, that's maybe not the most important.
+
+0:24:13	SPEAKER_01
+ Is it fashion?
+
+0:24:14	SPEAKER_01
+ I don't think so.
+
+0:24:15	SPEAKER_02
+ When you put maybe a color LCD screen on it, it's very special and very trendy.
+
+0:24:21	SPEAKER_02
+ I don't know.
+
+0:24:22	SPEAKER_02
+ A remotes control.
+
+0:24:23	SPEAKER_03
+ That's a rocket if it's trendy.
+
+0:24:26	SPEAKER_01
+ What do you have?
+
+0:24:27	SPEAKER_01
+ You have to do it after the trendiness of LCD display.
+
+0:24:30	SPEAKER_04
+ I think it's always pretty trendy to be honest.
+
+0:24:33	SPEAKER_04
+ But I don't know if I'm coming back to the cast again.
+
+0:24:38	SPEAKER_04
+ But I think we've got to build a pretty cheap design to stay within our limits.
+
+0:24:45	SPEAKER_04
+ And I think especially color LCD, which is pretty trendy.
+
+0:24:51	SPEAKER_04
+ I think it will be too expensive.
+
+0:24:53	SPEAKER_02
+ But I've got the email with the possibility.
+
+0:24:59	SPEAKER_02
+ And LCD was a possibility for the control.
+
+0:25:03	SPEAKER_02
+ So why don't we use it?
+
+0:25:05	SPEAKER_02
+ We're going to have it.
+
+0:25:06	SPEAKER_04
+ We're going to have it.
+
+0:25:07	SPEAKER_04
+ Also for monogramme LCD or colored LCD.
+
+0:25:12	SPEAKER_03
+ If you want to be trendy, you have to be colored.
+
+0:25:16	SPEAKER_04
+ Yeah, really.
+
+0:25:17	SPEAKER_04
+ If you have black and white or something or gray, in 2004, you can't put something on the market, which is monogramme.
+
+0:25:25	SPEAKER_04
+ Really?
+
+0:25:27	SPEAKER_02
+ No, but it doesn't say anything about the color.
+
+0:25:32	SPEAKER_02
+ But I also got the possibility to put a scroll button on it.
+
+0:25:39	SPEAKER_01
+ I didn't really know the whole idea of LCD display.
+
+0:25:43	SPEAKER_01
+ I'm sorry.
+
+0:25:44	SPEAKER_01
+ You can't convince me.
+
+0:25:46	SPEAKER_01
+ I don't know.
+
+0:25:47	SPEAKER_01
+ I'll just read you guys.
+
+0:25:50	SPEAKER_01
+ I don't really feel it.
+
+0:25:51	SPEAKER_01
+ We already were...
+
+0:25:53	SPEAKER_01
+ It's too much maybe.
+
+0:25:54	SPEAKER_01
+ We actually have the base station gadget.
+
+0:25:57	SPEAKER_01
+ And it has to be a simple design which...
+
+0:26:01	SPEAKER_04
+ Yes, but we've got a point about a little force.
+
+0:26:04	SPEAKER_04
+ And I think not a whole package of specialty.
+
+0:26:07	SPEAKER_01
+ And really, I don't see how the LCD display is going to add anything on a design level.
+
+0:26:15	SPEAKER_01
+ I think it's...
+
+0:26:16	SPEAKER_01
+ No, wait.
+
+0:26:17	SPEAKER_01
+ Slicker to have no LCD.
+
+0:26:19	SPEAKER_01
+ But at simplicity, you have two big buttons and you can do whatever you want.
+
+0:26:23	SPEAKER_01
+ Yes, but with these two buttons, you don't need an LCD.
+
+0:26:25	SPEAKER_01
+ That remote controls are already on the market.
+
+0:26:27	SPEAKER_01
+ It doesn't fit in our philosophy behind the whole remote.
+
+0:26:31	SPEAKER_02
+ Yes, but when you want to have something special.
+
+0:26:35	SPEAKER_01
+ We already have the docking station which is...
+
+0:26:38	SPEAKER_02
+ Yes, but we have a picture of it from another company.
+
+0:26:42	SPEAKER_01
+ It has to be the fellas.
+
+0:26:45	SPEAKER_01
+ No, but it does...
+
+0:26:47	SPEAKER_01
+ It does.
+
+0:26:48	SPEAKER_00
+ It does.
+
+0:26:49	SPEAKER_00
+ It does.
+
+0:26:50	SPEAKER_00
+ It does.
+
+0:26:51	SPEAKER_02
+ It does.
+
+0:26:52	SPEAKER_02
+ It's already made.
+
+0:26:53	SPEAKER_00
+ The remote controls.
+
+0:26:54	SPEAKER_00
+ We're going to develop our own docking station.
+
+0:26:55	SPEAKER_00
+ Is that something?
+
+0:26:56	SPEAKER_04
+ Yes.
+
+0:26:57	SPEAKER_04
+ The big two are the prototype?
+
+0:26:58	SPEAKER_04
+ Yeah, I don't know.
+
+0:27:00	SPEAKER_04
+ Exactly.
+
+0:27:01	SPEAKER_04
+ I've never seen it in the store.
+
+0:27:02	SPEAKER_01
+ But we really have to cut this off.
+
+0:27:04	SPEAKER_01
+ I guess the idea you really like it, you know, the LCD thing, but I think it's not a good idea.
+
+0:27:12	SPEAKER_01
+ We have already mentioned all arguments.
+
+0:27:15	SPEAKER_01
+ Do you guys think...
+
+0:27:17	SPEAKER_01
+ I think it's too much.
+
+0:27:18	SPEAKER_04
+ I think it's a little too much, yeah.
+
+0:27:20	SPEAKER_04
+ It's overdone.
+
+0:27:21	SPEAKER_01
+ Okay, we...
+
+0:27:23	SPEAKER_01
+ Let's skip the LCD.
+
+0:27:25	SPEAKER_01
+ Okay.
+
+0:27:26	SPEAKER_01
+ I'm sorry, maybe you can do something for your own place or make...
+
+0:27:31	SPEAKER_01
+ No, no, no.
+
+0:27:32	SPEAKER_01
+ Make it happen in your basement or something.
+
+0:27:35	SPEAKER_00
+ I will rule the world with it.
+
+0:27:38	SPEAKER_01
+ Okay, but for the technical part, the material, I think it was a good idea to use the plastic and the rubber.
+
+0:27:45	SPEAKER_02
+ Yes, maybe a bit of cushioning.
+
+0:27:48	SPEAKER_02
+ Yeah, yeah, yeah.
+
+0:27:49	SPEAKER_01
+ Exactly.
+
+0:27:50	SPEAKER_01
+ This is what the...
+
+0:27:51	SPEAKER_01
+ The sponge, yeah.
+
+0:27:52	SPEAKER_01
+ Yeah, but it feels so ready.
+
+0:27:53	SPEAKER_01
+ We're after, you know, to give it the soft touch in your hands and also the...
+
+0:27:57	SPEAKER_01
+ No, like, yeah, this is the airbag kind of thing.
+
+0:28:02	SPEAKER_01
+ Yes, you're just gonna drop it.
+
+0:28:03	SPEAKER_01
+ Throw it at your wheel, brother's head.
+
+0:28:05	SPEAKER_04
+ If you drop it, the airbag comes out.
+
+0:28:07	SPEAKER_01
+ No, no, no, no.
+
+0:28:08	SPEAKER_01
+ Maybe...
+
+0:28:09	SPEAKER_02
+ But then we have to look that it will not be too childish to see.
+
+0:28:17	SPEAKER_01
+ Yeah, yeah.
+
+0:28:18	SPEAKER_01
+ Okay, that's a good point.
+
+0:28:19	SPEAKER_01
+ And that's why I like the dark color bit, you know?
+
+0:28:23	SPEAKER_01
+ Yeah.
+
+0:28:24	SPEAKER_01
+ Because maybe the design...
+
+0:28:26	SPEAKER_01
+ Maybe it's a bit of...
+
+0:28:28	SPEAKER_03
+ But not black, I think.
+
+0:28:30	SPEAKER_01
+ It's a bit 90s, maybe, what we're up to right from to this point.
+
+0:28:34	SPEAKER_03
+ If it's fruit and vegetables, it has to be colorful.
+
+0:28:37	SPEAKER_01
+ Yeah, that's true.
+
+0:28:38	SPEAKER_01
+ But it has to be a little bit solid.
+
+0:28:40	SPEAKER_01
+ It mustn't be too overwhelming when you put it in.
+
+0:28:44	SPEAKER_03
+ Can we combine it or something with yellow and black?
+
+0:28:48	SPEAKER_01
+ Yeah, maybe so.
+
+0:28:49	SPEAKER_03
+ Make it a B?
+
+0:28:51	SPEAKER_04
+ What?
+
+0:28:52	SPEAKER_04
+ B.
+
+0:28:53	SPEAKER_04
+ Oh, a B.
+
+0:28:54	SPEAKER_01
+ No, I don't like to get on that combination.
+
+0:28:56	SPEAKER_01
+ But it is our company colors.
+
+0:28:58	SPEAKER_01
+ Yeah, it's real good colors.
+
+0:29:00	SPEAKER_02
+ Yeah.
+
+0:29:01	SPEAKER_02
+ We have to use yellow.
+
+0:29:03	SPEAKER_02
+ Hmm.
+
+0:29:05	SPEAKER_04
+ Hmm.
+
+0:29:06	SPEAKER_01
+ I don't like yellow.
+
+0:29:08	SPEAKER_01
+ Well, we can ask...
+
+0:29:10	SPEAKER_04
+ But that's not really pretty.
+
+0:29:11	SPEAKER_04
+ Really nicely out there.
+
+0:29:13	SPEAKER_04
+ We can put the logo on our base station.
+
+0:29:17	SPEAKER_04
+ Yeah.
+
+0:29:18	SPEAKER_04
+ And maybe very, very tiny on the remote control itself.
+
+0:29:22	SPEAKER_04
+ But...
+
+0:29:24	SPEAKER_01
+ Okay, but what are other technical things we have to discuss?
+
+0:29:28	SPEAKER_02
+ Front of the...
+
+0:29:31	SPEAKER_02
+ We can have different fronts of the...
+
+0:29:36	SPEAKER_02
+ Should we do that?
+
+0:29:37	SPEAKER_01
+ I don't think you should do that.
+
+0:29:39	SPEAKER_01
+ Maybe just bring it out in different colors, but not off the key.
+
+0:29:43	SPEAKER_01
+ I get that.
+
+0:29:44	SPEAKER_01
+ Fronts afterwards.
+
+0:29:45	SPEAKER_01
+ It's also too much.
+
+0:29:47	SPEAKER_01
+ People don't want to spend more money on their remote control.
+
+0:29:50	SPEAKER_03
+ Yeah, you can...
+
+0:29:52	SPEAKER_03
+ You can design...
+
+0:29:53	SPEAKER_03
+ Use the customer with color you want.
+
+0:29:55	SPEAKER_03
+ Yeah, definitely.
+
+0:29:56	SPEAKER_03
+ Yeah.
+
+0:29:57	SPEAKER_04
+ Just bring more design to your market.
+
+0:29:59	SPEAKER_01
+ For color.
+
+0:30:00	SPEAKER_01
+ Without...
+
+0:30:01	SPEAKER_01
+ Okay.
+
+0:30:02	SPEAKER_01
+ So, are we through the technical part then?
+
+0:30:04	SPEAKER_01
+ Yes.
+
+0:30:05	SPEAKER_01
+ Okay.
+
+0:30:06	SPEAKER_01
+ So we agreed upon...
+
+0:30:08	SPEAKER_01
+ Well, not...
+
+0:30:09	SPEAKER_01
+ Oh, yeah.
+
+0:30:10	SPEAKER_02
+ This is our real young and dynamic style.
+
+0:30:13	SPEAKER_01
+ The materials you mentioned in your personal preferences were quite okay.
+
+0:30:18	SPEAKER_01
+ It's not only the last point.
+
+0:30:20	SPEAKER_01
+ It's not titanium.
+
+0:30:21	SPEAKER_01
+ No titanium is not an out of question.
+
+0:30:23	SPEAKER_03
+ It's just like this titanium.
+
+0:30:26	SPEAKER_02
+ Yes.
+
+0:30:27	SPEAKER_01
+ But when we use both the plastic and soft things and titanium as well.
+
+0:30:33	SPEAKER_01
+ Sure.
+
+0:30:34	SPEAKER_02
+ Makes it in a homogenous design.
+
+0:30:37	SPEAKER_02
+ But then you can throw with it.
+
+0:30:39	SPEAKER_02
+ It will make a huge noise or break other stuff.
+
+0:30:45	SPEAKER_02
+ When you throw with it, you will break other stuff with your remote control.
+
+0:30:50	SPEAKER_02
+ No.
+
+0:30:51	SPEAKER_02
+ Titanium is a bit...
+
+0:30:53	SPEAKER_02
+ No, but you should be harder.
+
+0:30:55	SPEAKER_02
+ But also on the colors.
+
+0:30:57	SPEAKER_01
+ Okay, think of the possibilities to make it completely titanium.
+
+0:31:00	SPEAKER_01
+ What would it be more trendy, more chic?
+
+0:31:04	SPEAKER_04
+ I think that...
+
+0:31:06	SPEAKER_03
+ I think that the titanium nowadays is way more often used than plastic.
+
+0:31:10	SPEAKER_02
+ Yes, but the titanium remote control.
+
+0:31:13	SPEAKER_02
+ When you're watching TV or your hands are a little bit sweaty.
+
+0:31:17	SPEAKER_04
+ On the other hand, if you want to make frozen stuff with it.
+
+0:31:21	SPEAKER_01
+ I really like the idea of the plastic and the big kind of thing.
+
+0:31:25	SPEAKER_01
+ Because then it fits in our philosophy to make it sturdy and simple.
+
+0:31:31	SPEAKER_01
+ Like sports and gaming.
+
+0:31:35	SPEAKER_01
+ When you make titanium, it becomes more like some kind of gadget you actually don't need.
+
+0:31:40	SPEAKER_01
+ And when it's big and plastic, it's like some fun stuff you can always have around.
+
+0:31:45	SPEAKER_01
+ It's always fun to have something big and plastic around.
+
+0:31:48	SPEAKER_03
+ Yes, it's a empty tree player of Nike.
+
+0:31:50	SPEAKER_03
+ So isn't that titanium with a little bit rubber?
+
+0:31:54	SPEAKER_02
+ Yes, it's...
+
+0:31:55	SPEAKER_02
+ But it is plastic.
+
+0:31:57	SPEAKER_03
+ Is it plastic?
+
+0:31:58	SPEAKER_03
+ It's titanium looking.
+
+0:32:00	SPEAKER_02
+ Yes, what we can do that only.
+
+0:32:02	SPEAKER_03
+ Yes, yes, yes.
+
+0:32:03	SPEAKER_03
+ I don't know if you know the empty tree player of Nike.
+
+0:32:06	SPEAKER_03
+ Okay, that's very...
+
+0:32:08	SPEAKER_03
+ It's rubber.
+
+0:32:10	SPEAKER_02
+ We can make this a style too.
+
+0:32:12	SPEAKER_02
+ Maybe this is difficult.
+
+0:32:16	SPEAKER_04
+ Because that's different material.
+
+0:32:18	SPEAKER_04
+ And then you're going to have two material lines.
+
+0:32:22	SPEAKER_02
+ So we can make it from the same kind of plastic.
+
+0:32:26	SPEAKER_04
+ If it's just a color, which you change, then I guess it's nice to have one of these.
+
+0:32:34	SPEAKER_01
+ I do like the idea of maybe a titanium type of body and then with plastic coloration.
+
+0:32:41	SPEAKER_01
+ You don't like the soft stuff, but I don't know if it's possible.
+
+0:32:44	SPEAKER_02
+ I don't have the information.
+
+0:32:46	SPEAKER_02
+ I didn't cut it.
+
+0:32:48	SPEAKER_01
+ But you can make the plastic that titanium look.
+
+0:32:51	SPEAKER_01
+ Yes, true.
+
+0:32:52	SPEAKER_01
+ But make it just like shine.
+
+0:32:53	SPEAKER_01
+ Yeah, true.
+
+0:32:54	SPEAKER_03
+ Maybe that's a good idea.
+
+0:32:57	SPEAKER_03
+ But if you want to lay it longer, then two weeks from the end, you can maybe...
+
+0:33:03	SPEAKER_01
+ Maybe we should.
+
+0:33:04	SPEAKER_01
+ I don't know if we should talk about our months.
+
+0:33:07	SPEAKER_03
+ I don't know what time?
+
+0:33:09	SPEAKER_02
+ 40 minutes.
+
+0:33:10	SPEAKER_02
+ In a lot of other product categories, like even in bags industry, they began with typical leather bags, but then they became stylish with all sort of colors.
+
+0:33:26	SPEAKER_02
+ Kind of fun of fronts.
+
+0:33:29	SPEAKER_02
+ Like we can use on the telephone.
+
+0:33:33	SPEAKER_02
+ Like Eastpac began a revolution with all these kind of bags and colors.
+
+0:33:40	SPEAKER_02
+ And different colors.
+
+0:33:41	SPEAKER_02
+ Yes, and styles.
+
+0:33:43	SPEAKER_02
+ They have also kind of roses on it.
+
+0:33:51	SPEAKER_01
+ Oh, yeah.
+
+0:33:52	SPEAKER_01
+ Yeah.
+
+0:33:53	SPEAKER_01
+ Yeah.
+
+0:33:54	SPEAKER_01
+ Yeah.
+
+0:33:55	SPEAKER_01
+ Yeah, it's a possibility.
+
+0:33:57	SPEAKER_01
+ But let's think about the base.
+
+0:33:59	SPEAKER_02
+ Then we can always use the same design for greater resemblance, but with new colors, new prints, on this.
+
+0:34:08	SPEAKER_01
+ Yeah.
+
+0:34:09	SPEAKER_01
+ But our basic idea, I mean, you're probably going to have like two type of materials, like the plastic enclosure and then the pets that surround it and in light.
+
+0:34:20	SPEAKER_01
+ We have to incorporate the lights too.
+
+0:34:22	SPEAKER_01
+ Are we going to give it a two tone color look like the plastic mold is in one color and the caution pets around it are in another color.
+
+0:34:32	SPEAKER_01
+ Is that the idea?
+
+0:34:34	SPEAKER_01
+ Is that a good idea?
+
+0:34:35	SPEAKER_04
+ How do you mean the rubber?
+
+0:34:37	SPEAKER_01
+ How many colors are we going to have?
+
+0:34:40	SPEAKER_01
+ We're only five minutes left by the way.
+
+0:34:42	SPEAKER_01
+ Yes.
+
+0:34:43	SPEAKER_01
+ How many colors are we going to give it?
+
+0:34:44	SPEAKER_01
+ Like two tone color?
+
+0:34:45	SPEAKER_01
+ Yeah.
+
+0:34:46	SPEAKER_01
+ There are three components.
+
+0:34:47	SPEAKER_02
+ Three components type.
+
+0:34:48	SPEAKER_02
+ You have the buttons.
+
+0:34:49	SPEAKER_02
+ The case.
+
+0:34:52	SPEAKER_01
+ I think maybe the case of rubber should be in one color and then the rubber of the buttons and the cushions as well should be in another color.
+
+0:34:59	SPEAKER_03
+ Or you just make one color maybe with a kind of like a big wave or something like.
+
+0:35:07	SPEAKER_03
+ Okay, but not more than another color.
+
+0:35:09	SPEAKER_01
+ Not more than two colors.
+
+0:35:10	SPEAKER_03
+ No, definitely not.
+
+0:35:11	SPEAKER_04
+ Maybe we should talk about it.
+
+0:35:13	SPEAKER_02
+ Or when you use the buttons as black, you can use two colors as well.
+
+0:35:18	SPEAKER_02
+ Okay.
+
+0:35:19	SPEAKER_01
+ Well, do we have to think of some other important things?
+
+0:35:22	SPEAKER_01
+ Oh, yeah.
+
+0:35:23	SPEAKER_01
+ The functionalities or the devices?
+
+0:35:24	SPEAKER_03
+ I was thinking about the, do we still want the joystick idea?
+
+0:35:28	SPEAKER_04
+ No.
+
+0:35:29	SPEAKER_04
+ No, I think that's too vulnerable.
+
+0:35:31	SPEAKER_01
+ I think this is okay.
+
+0:35:32	SPEAKER_01
+ So we have basic, we have the numbers, we have the power button, we have a data text.
+
+0:35:38	SPEAKER_01
+ And maybe one to access a menu or something.
+
+0:35:42	SPEAKER_04
+ Yeah, but that's how I was thinking that's got to be on the television.
+
+0:35:46	SPEAKER_01
+ Yeah, but I think I really need a menu button.
+
+0:35:49	SPEAKER_01
+ It's just the only button.
+
+0:35:50	SPEAKER_01
+ What kind of menu?
+
+0:35:51	SPEAKER_01
+ Yeah, I...
+
+0:35:52	SPEAKER_03
+ Is it a different from every television?
+
+0:35:54	SPEAKER_01
+ No, I think most TVs have an...
+
+0:35:56	SPEAKER_01
+ Yeah, it's a different...
+
+0:35:57	SPEAKER_01
+ A menu nowadays to access the screen settings.
+
+0:36:00	SPEAKER_04
+ I think it's okay to add a menu button for...
+
+0:36:03	SPEAKER_04
+ But that covers all the...
+
+0:36:04	SPEAKER_01
+ All the other settings, it covers everything then.
+
+0:36:07	SPEAKER_02
+ But then you have to put up and down and left and right.
+
+0:36:10	SPEAKER_04
+ You can use the two, eight, four and six.
+
+0:36:13	SPEAKER_01
+ And you can also use the normal skip buttons for that.
+
+0:36:15	SPEAKER_01
+ In that way, we have only the numbers, the power button, skip and volume.
+
+0:36:20	SPEAKER_01
+ And then a remote.
+
+0:36:23	SPEAKER_01
+ And then a text.
+
+0:36:24	SPEAKER_01
+ And a menu.
+
+0:36:25	SPEAKER_01
+ And then a menu.
+
+0:36:26	SPEAKER_01
+ That's it.
+
+0:36:27	SPEAKER_01
+ So we need...
+
+0:36:28	SPEAKER_01
+ Yeah.
+
+0:36:29	SPEAKER_00
+ Okay.
+
+0:36:30	SPEAKER_00
+ Another style of some stuff.
+
+0:36:32	SPEAKER_01
+ About the design of the docking station, something important about it.
+
+0:36:36	SPEAKER_01
+ We should remind us of the remote itself, I guess.
+
+0:36:40	SPEAKER_01
+ Yeah, definitely.
+
+0:36:41	SPEAKER_04
+ In one corner.
+
+0:36:42	SPEAKER_04
+ Are we gonna do something with the spongy thing there?
+
+0:36:45	SPEAKER_01
+ I think the spongy thing already comes in the cushions, bats and things on the side.
+
+0:36:52	SPEAKER_01
+ We will make it spongy.
+
+0:36:54	SPEAKER_01
+ And the fruity thing is just the shape should be fruity.
+
+0:36:57	SPEAKER_01
+ I think this is kind of fruity.
+
+0:36:59	SPEAKER_01
+ You know, just round shapes with...
+
+0:37:00	SPEAKER_04
+ Yeah, it's kind of fruity.
+
+0:37:02	SPEAKER_04
+ Catchy colors.
+
+0:37:04	SPEAKER_01
+ Yeah, but we really have to think...
+
+0:37:06	SPEAKER_01
+ I think colors is very important because it has to be fleshy.
+
+0:37:09	SPEAKER_01
+ But it doesn't have to be annoying that when you have...
+
+0:37:12	SPEAKER_01
+ You know, some things just over the top.
+
+0:37:14	SPEAKER_01
+ And when you have the table for more than two weeks, it just gets annoying because it's so big and fleshy.
+
+0:37:19	SPEAKER_01
+ It has to be some level of subtlety.
+
+0:37:21	SPEAKER_01
+ But we still have to think of how we managed to get to that.
+
+0:37:26	SPEAKER_01
+ Okay.
+
+0:37:28	SPEAKER_01
+ I guess so.
+
+0:37:31	SPEAKER_01
+ But I think also we just show we have to do something with color.
+
+0:37:34	SPEAKER_01
+ But also I think we have to keep the dark color thing in mind.
+
+0:37:37	SPEAKER_01
+ I think that adds to the too much color maybe.
+
+0:37:40	SPEAKER_01
+ Too much color.
+
+0:37:41	SPEAKER_03
+ When you got it in the living room, it's much maybe...
+
+0:37:44	SPEAKER_03
+ But aren't it designed experts?
+
+0:37:45	SPEAKER_01
+ It has to be.
+
+0:37:47	SPEAKER_01
+ Okay.
+
+0:37:48	SPEAKER_01
+ Well, I think the meeting will be over within a minute.
+
+0:37:51	SPEAKER_01
+ So we will wrap up.
+
+0:37:53	SPEAKER_01
+ Or is there anything we'd like to discuss?
+
+0:37:56	SPEAKER_04
+ I guess not.
+
+0:37:58	SPEAKER_01
+ Do you think that?
+
+0:38:00	SPEAKER_01
+ No.
+
+0:38:01	SPEAKER_01
+ Okay.
+
+0:38:03	SPEAKER_01
+ Well, you will read the minutes in the...
+
+0:38:07	SPEAKER_01
+ You can find them in there.
+
+0:38:08	SPEAKER_01
+ Sure.
+
+0:38:09	SPEAKER_01
+ Probably.
+
+0:38:10	SPEAKER_01
+ Yeah.
+
+0:38:11	SPEAKER_01
+ Oh no, for sure.
+
+0:38:12	SPEAKER_01
+ Because I will now dive them out.
+
+0:38:14	SPEAKER_02
+ What are we going to do now?
+
+0:38:17	SPEAKER_04
+ We'll see in your email.
+
+0:38:19	SPEAKER_03
+ I don't know.
+
+0:38:20	SPEAKER_03
+ I don't know.
+
+0:38:21	SPEAKER_03
+ I hope so.
+
+0:38:22	SPEAKER_03
+ And the other thing is that you don't have kind of prototype or something like that.
+
+0:38:25	SPEAKER_03
+ You see kind of prototype you can...
+
+0:38:28	SPEAKER_02
+ I will make one more in the next 20 minutes.
+
+0:38:31	SPEAKER_02
+ Yeah.
+
+0:38:33	SPEAKER_04
+ Construct one.
+
+0:38:34	SPEAKER_04
+ Yeah.
+
+0:38:35	SPEAKER_04
+ With toilet paper or...
+
+0:38:36	SPEAKER_05
+ Okay.
+
+0:38:39	SPEAKER_01
+ Alright.
+
+0:38:40	SPEAKER_04
+ Shall we get back to work?
+
+0:38:41	SPEAKER_01
+ Yeah.
+
+0:38:42	SPEAKER_01
+ Great.
+
+0:38:43	SPEAKER_01
+ I was waiting for you.
+
+0:38:44	SPEAKER_01
+ I was going to...
+
+0:38:45	SPEAKER_02
+ Back to the pen.
+
+0:38:47	SPEAKER_02
+ You lazy.
+
+0:39:08	None
+ Okay.
+
+0:39:19	None
+ Okay.
+
+0:39:20	None
+ Okay.
+
+0:39:21	SPEAKER_01
+ Yeah.
+
+0:39:28	None
+ Oh.
+
+0:39:29	None
+ Oh yeah.
+
+0:39:33	None
+ What would you do?
+
+0:39:36	None
+ I think it's a smart time.
+
+0:39:39	None
+ Oh, okay.
+
+0:39:44	SPEAKER_01
+ Okay.
+
+0:39:47	SPEAKER_01
+ Okay.
+
+0:39:49	None
+ Okay.
+
+0:39:50	None
+ We have a lot of commissing.
+
+0:39:51	None
+ I've got half the time.
+
+0:39:52	None
+ Back to you.
+
+0:39:53	None
+ Yes.
+
+0:39:54	None
+ I'm going to do a bokeh.
+
+0:39:57	None
+ Yeah.
+
+0:40:06	None
+ Oh.
+
+0:40:11	None
+ Okay.
+
+0:40:14	None
+ Have fun.
+
+0:40:15	None
+ Yeah.
+
+0:40:16	None
+ Okay.
+
+0:40:17	None
+ Yeah.
+
+0:40:18	None
+ Yeah.
+
+0:40:19	None
+ Yeah.
+
+0:40:20	None
+ Yeah.
+
+0:40:21	None
+ Yeah.
+
+0:40:22	None
+ Yeah.
+
+0:40:23	None
+ Yeah.
+
+0:40:24	None
+ Shall we?
+
+0:40:25	None
+ Oh yeah.
+
+0:40:27	None
+ Oh yeah.
+
+0:40:28	None
+ That's what I'm going to do.
+
+0:40:31	None
+ Oh, come on.
+
+0:40:32	None
+ Back up.
+
+0:40:40	None
+ No.
+
+0:40:43	None
+ Come on on.
+
+0:40:46	None
+ No.
+
+0:40:47	None
+ I'm going to make a javatar.
+
+0:40:49	None
+ Yeah.
+
+0:40:54	None
+ Oh.
+
+0:40:57	None
+ Oh.
+
+0:41:02	None
+ Oh.
+
+0:41:08	None
+ I'm going to do this.
+
+0:41:13	None
+ Yeah.
+
+0:41:19	None
+ Okay.
+
+0:41:26	SPEAKER_01
+ Okay.
+
+0:41:33	SPEAKER_01
+ Okay.
+
+0:41:40	None
+ Okay.
+

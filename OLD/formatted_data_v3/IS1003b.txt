@@ -1,0 +1,436 @@
+None: P Resist he's fine
+None: heh Alright, so...
+None: Alrighty, sir.
+None: Alrighty, sir.
+None: Yeah, I'm a bit ready here.
+Speaker A: So I will happen now, our functional design meeting.
+Speaker A: So I will play the role of the secretary as an also program manager.
+Speaker A: So we will have the three presentations from the industry designer, user interface designer, and...
+Speaker A: I'm getting experts.
+Speaker A: After that, we will have the new project requirements, the decision on the remote control functions, and we will close the meetings after.
+Speaker A: So I suppose the first two-jute presentation will be the user interface designer.
+Speaker A: Okay.
+Speaker A: So you're a participant too?
+Speaker A: No, you...
+Speaker D: No, I'm a participant.
+Speaker A: I'm a participant.
+Speaker A: Okay, never mind.
+Speaker A: Okay, did you save your presentation?
+Speaker C: I'm fine.
+Speaker C: In one, so...
+Speaker A: Yeah?
+Speaker A: This?
+Speaker A: Yeah.
+Speaker A: Technical functions?
+Speaker D: I'm not sure.
+Speaker C: So you didn't save it, maybe?
+Speaker D: Yeah, it's mine.
+Speaker D: It's David Jordan.
+Speaker A: David Jordan?
+Speaker A: Yeah.
+Speaker A: So...
+Speaker A: David Jordan?
+Speaker D: Yeah.
+Speaker A: So I'll let David Jordan do his presentation.
+Speaker A: Okay.
+Speaker B: No, no.
+Speaker B: This one doesn't want to be moved.
+Speaker B: Okay, so...
+Speaker D: So first I will present the technical function design for user interface for our remote TV control.
+Speaker D: I will focus on user interface design.
+Speaker D: So move to the next slide.
+Speaker D: As we know, removed TV controls has very sophisticated functions.
+Speaker D: As we show from this picture, there's a lot of functions over, I think, over 12 or 20 functions of our remote TV control.
+Speaker D: So how can we design a user interface with so many sophisticated functions?
+Speaker D: Let's move to the next slide.
+Speaker D: Yeah.
+Speaker D: So we want to design an elegant, easy to use interface.
+Speaker D: A very good example is Google.
+Speaker D: As we know, Google is very successful because it's a powerful function, but it's very easy to use user interface.
+Speaker D: So move to the next slide.
+Speaker D: So my job is to design a Google TV control, which I want to have the face ticket functions, while it's very easy to use the interface.
+Speaker D: So that's the end of the presentation.
+Speaker A: So you proposed to have the remote control, which will be powerful?
+Speaker D: It's a face ticket function.
+Speaker D: So powerful.
+Speaker A: So many functions and very easy to use.
+Speaker B: So it's maybe difficult to move to system.
+Speaker B: The one on the right doesn't look so simple.
+Speaker A: You mean this one?
+Speaker A: You have to learn the manual before using this remote control, I suppose.
+Speaker D: But a very good user interface.
+Speaker D: It takes the last time for user to learn how to use it.
+Speaker C: Maybe you have some international standards where if you can use one, it's almost the same.
+Speaker A: Are you mean for the pictograms or things like that?
+Speaker C: For example, I don't know, here, escape.
+Speaker C: You have escape in computers.
+Speaker C: So if you see escape, you know, that it should be the same.
+Speaker C: Yeah, it's for the user to know.
+Speaker C: For example, the power of button, it is something really international.
+Speaker C: You know that.
+Speaker A: Yeah, such as maybe go on, go back.
+Speaker C: The question is how to merge the Google system to the system.
+Speaker B: That's my job.
+Speaker D: That's not easy to say.
+Speaker A: So you will propose something which is so powerful and easy to use.
+Speaker A: Yeah.
+Speaker D: The power of button is easy to use.
+Speaker D: So that's the point.
+Speaker A: So next I propose the industrial interface to present things.
+Speaker A: So you're...
+Speaker C: That's control.
+Speaker A: Two?
+Speaker C: Yeah.
+Speaker E: Okay.
+None: Okay.
+None: Wait a minute.
+None: Bye-bye.
+Speaker A: So, bye-bye, yeah.
+Speaker A: Industrial.
+Speaker A: Design.
+Speaker C: Oh.
+Speaker C: Designer.
+Speaker A: Okay.
+Speaker C: So we can move to the next slide.
+Speaker C: As you all know, you know, my job is to design, you know, to give an initial design of the remote control.
+Speaker C: So basically the remote control will be, you know, infrared control.
+Speaker C: So the problem is how to relate the remote control device like, for example, this one I'm holding in my hand and the TV.
+Speaker C: So this one is laser based, but I propose an infrared based...
+Speaker C: You know, so for me I think that it is better.
+Speaker C: It's better to control TV.
+Speaker C: So it will be cheaper and it is less technology than for the cheap price we have.
+Speaker C: For the cheap price we want.
+Speaker A: So you mean that infrared control is a cheap technology?
+Speaker C: I think it's cheaper than laser.
+Speaker C: Yeah.
+Speaker A: Okay.
+Speaker A: You know the requirements for the remote control.
+Speaker A: Twelve, nearly thirty.
+Speaker A: The cost.
+Speaker C: Yeah.
+Speaker C: I think for the cost you want, for the cost you want.
+Speaker C: It's better to have...
+Speaker C: Yeah.
+Speaker C: So, yeah.
+Speaker C: You can move to the next slide.
+Speaker C: So the different, the findings, you know, what you will find inside the system here inside, it is just, you know, a bulb and an infrared bulb.
+Speaker C: So here, for example, the infrared bulb will be here and the bulb, it will be somewhere inside.
+Speaker C: That manages.
+Speaker C: You can go to the next slide.
+Speaker C: I have some kind of pictures, you know, here.
+Speaker C: You have the bulb, it is the blue stuff here.
+Speaker C: And the infrared bulb, it is the right stuff here.
+Speaker C: And so, and you have the other sub-component that are not really here, so important.
+Speaker A: What is this?
+Speaker C: This is in fact some other components that are in between the electrical device.
+Speaker C: But here, what I wanted to emphasize is just, you know, the bulb and...
+Speaker C: Okay.
+Speaker C: So, and the next slide is the last one.
+Speaker C: So it's...
+Speaker C: I think it should be why less than the remote control.
+Speaker C: Because, you know, it's easier to manage and, you know, because if the battery problem can hold, you know, will use the battery or the wire to connect it to you.
+Speaker C: Or maybe some kind of thing that we can have both, but, you know, I, myself, prefer a wireless.
+Speaker A: Okay.
+Speaker C: If you have some question, I didn't answer that.
+Speaker B: What's the average price of this technology then?
+Speaker C: The average prices, I think that this technology will cost, you know, around 8 euros or only, you know, the...
+Speaker D: So what the wireless remote control?
+Speaker D: There's the wire.
+Speaker D: Wait for control.
+Speaker C: Yes.
+Speaker C: You can...
+Speaker C: So, you have to decide how you will, you know, put some energy inside.
+Speaker C: So you can think about wireless or, you know, it's a question that we can write.
+Speaker C: So we can think that, you know, with a wire or without a wire.
+Speaker C: We can have both also.
+Speaker D: Okay.
+Speaker A: So you think that...
+Speaker A: Okay, you pulled between the remote control and the TV.
+Speaker A: One secret idea.
+Speaker D: Okay.
+Speaker A: Now, it will be cheaper.
+Speaker A: I don't know.
+Speaker A: I just...
+Speaker A: Maybe making...
+Speaker B: This is what you would like to ask the user first.
+Speaker B: I don't think the user would be ready to have a...
+Speaker D: Yeah.
+Speaker D: Wireless remote control.
+Speaker C: Yeah, but...
+Speaker B: I don't think...
+Speaker C: Yeah, I don't think it would be a...
+Speaker C: I always want to have, you know, sometimes I want to have wire because...
+Speaker A: Yeah, but as industrial designer, do you think that it will be feasible to have a link or to have a link between the remote control and the TV?
+Speaker A: No.
+Speaker A: I'm just asking you, do you think it will be cheaper?
+Speaker C: I don't think it will be.
+Speaker E: Could you answer me?
+Speaker E: I have to think about the question, you know.
+Speaker C: I think it...
+Speaker C: Okay.
+Speaker C: You know, you can always, you know...
+Speaker C: I think with the wire, it's cheaper, but the wireless, it's more practical.
+Speaker A: Yeah, but I think the wireless problem is more the David Jordan's problem.
+Speaker A: Okay.
+Speaker A: So what?
+Speaker A: The wire?
+Speaker B: Yeah.
+Speaker A: I think it's more your problem.
+Speaker A: Maybe you have just to kind of research or try to ask people if they would like something wireless or not.
+Speaker A: That's my job.
+Speaker A: Okay, sorry.
+Speaker C: No, but it should be an agreement, you know, because even if you can't think of the wireless, it is the job of the...
+Speaker C: The graphical user design, but you know, if it is a lot cheaper and if you want to reach, for example, some...
+Speaker C: The money you have if you want to.
+Speaker C: So it can be good to have a wireless.
+Speaker C: It is a question.
+Speaker C: Okay.
+Speaker A: So just think of the user...
+Speaker A: The wireless remote problem.
+Speaker A: Just think of the problem if one of you have wireless remote control and if you lose it, I think it would be easier to have that link between the remote control.
+Speaker A: That's actually one of the points.
+Speaker B: Yeah.
+Speaker B: True.
+Speaker B: You will see in my presentation then.
+Speaker A: So I will let you...
+Speaker A: Yeah.
+Speaker A: To your presentation.
+Speaker B: Which is part of the statement form.
+Speaker B: I was trying to answer all the questions if the user would be happy to have something else.
+Speaker B: We've made a study.
+Speaker B: So could you go to next slide?
+Speaker B: Sorry, for the functional requirements.
+Speaker B: So that's the standard method for marketing.
+Speaker B: Okay.
+Speaker B: We had 100 subjects.
+Speaker B: We observed their remote control use in the lab.
+Speaker B: And then after all the experiments, they had to fill up a questionnaire and see what was okay or not for them.
+Speaker B: Okay.
+Speaker B: So then it's some statistics about what we have observed and what they answered.
+Speaker B: Actually 75% of the users find the most remote controls ugly.
+Speaker B: Okay.
+Speaker B: So that's...
+Speaker A: You mean the look is bad for them.
+Speaker B: So it's your job, David, maybe.
+Speaker B: Then 80% of users would spend more money.
+Speaker B: Actually, if the remote controls were not so ugly.
+Speaker B: So this is where we could have a good market, I guess.
+Speaker B: If people are ready to pay more.
+Speaker B: So it's interesting information, I think.
+Speaker B: And then...
+Speaker B: Yeah.
+Speaker B: The remote controls, like the one you've shown previously.
+Speaker B: It's not so...
+Speaker B: Doesn't fit their user requirement sometime because it's too many buttons and so on.
+Speaker B: So we should change this as well.
+Speaker B: And...
+Speaker B: Users are actually zapping a lot.
+Speaker B: So they're using the device intensively.
+Speaker B: That's something to take into account as well.
+Speaker B: And...
+Speaker B: You know, 10% of the buttons are actually used in our remote controls.
+Speaker B: And...
+Speaker B: This is one of the main points for me.
+Speaker B: I'll come back to it later.
+Speaker B: Okay.
+Speaker B: Can you go to the next slide?
+Speaker B: So as you said, remote controls are often lost somewhere in the room.
+Speaker B: So this is from the experiments we've done.
+Speaker B: So if we could solve this problem, this would be interesting for the user, I think.
+Speaker B: It takes too much time to learn how to use the remote control for 35% of the people.
+Speaker B: And the remote control are really bad for error as eye problems for 26% of the users.
+Speaker A: What is RSI?
+Speaker B: RSI is like when you're using the same...
+Speaker B: Doing the same moment several times, then you get injured.
+Speaker A: Okay.
+Speaker B: Okay.
+Speaker B: So those numbers are less important than the previous one, but still it has to be taken into account.
+Speaker B: So last slide.
+Speaker B: So my personal preference is for this problem is we have to meet the user needs.
+Speaker B: If we can make it look fancy, then we might sell more than our concurrent.
+Speaker B: Okay.
+Speaker B: And definitely if you could have less buttons, still maybe the same number of functions, less buttons, this would definitely be a good way of selling more.
+Speaker B: Okay.
+Speaker B: So...
+Speaker A: Okay.
+Speaker A: Okay.
+Speaker A: And just should you have an idea?
+Speaker A: Do you think you as the user interface designer, it would be possible to have less buttons and still have the same functionality and to have powerful remote control?
+Speaker A: Do you think it's possible?
+Speaker A: Yeah, I think you're possible.
+Speaker D: Because you can mix several functions in one button.
+Speaker D: Yeah.
+Speaker D: So that you have less buttons.
+Speaker A: Yeah, but do you think it will be easy to use?
+Speaker A: Because if you have many functions, just for one button, it would be quite difficult for the user to know.
+Speaker B: Yeah.
+Speaker B: Remember that the user is not happy to read the manual.
+Speaker C: Yeah, I think it's...
+Speaker D: You can have a switch menu, so you can...
+Speaker A: You have to be intuitive?
+Speaker D: Yeah, I think so.
+Speaker D: For example, you can category the function into several classes.
+Speaker D: Then you can have a switch menu.
+Speaker D: Yeah.
+Speaker D: You can put the switch menu to... it tends to this kind of... this category of functions.
+Speaker D: Okay.
+Speaker D: And then you put the switch button, then it... switch to another category of functions.
+Speaker D: Yeah.
+Speaker D: For example, if you have a remote control, you can control your TV.
+Speaker D: And also you can control your recorder.
+Speaker D: So there's different functions.
+Speaker D: But if there's a button, you can switch between control TV and control recorder.
+Speaker D: So you can have less buttons.
+Speaker D: Yeah, but...
+Speaker D: But I'm not sure it's about how to make the remote control look fancy.
+Speaker D: Look fancy.
+Speaker C: Not fancy.
+Speaker C: The questions that should be asked to the...
+Speaker D: Because if people have different opinion about fancy, you know...
+Speaker C: If you ask the people, maybe the market...
+Speaker C: Because...
+Speaker D: Yeah, this is something...
+Speaker D: Maybe a colorful, it's fancy for some people, but maybe simple and...
+Speaker D: This was the first step, the...
+Speaker D: Colorful, it's fancy for some other people.
+Speaker C: So this was the solution is to have many colors of, you know, instead of having one grade.
+Speaker A: Yeah, but I think it will increase the price of the...
+Speaker A: Production, a remote control.
+Speaker C: Yeah, maybe.
+Speaker A: If you need to have special colors for remote controls, it will customize color.
+Speaker A: Yeah, it will cost a little bit more.
+Speaker D: Because maybe some people prefer a red, remote control, some people prefer black.
+Speaker B: Yeah, but this is what we would ask to the users.
+Speaker B: And also...
+Speaker D: We can have several options, so users can select which color they prefer.
+Speaker A: Yeah, but as soon as you speak about options, it means that the price increases.
+Speaker A: And we don't really want the price to be too high, because we won't be able to produce it.
+Speaker A: So we want something fancy, as previously said, florant.
+Speaker A: Something very easy to use, powerful.
+Speaker A: And also, as it's written here, 75% of users, they zap a lot.
+Speaker A: So maybe just having many functions in one button is not that good, if you want to zap a lot.
+Speaker A: They don't really want to zap between functions of their remote control.
+Speaker A: They want to zap between channels on the TV.
+Speaker A: So I think you have quite a lot of points to think about and discuss with the other members.
+Speaker A: So is it okay for your presentation? Nothing else to add?
+Speaker B: Yeah, it's done.
+Speaker B: If we could remember, like, not too many buttons and make it look fancy, I think it would make it.
+Speaker A: Okay.
+Speaker A: So I had some new information about the project requirements.
+Speaker A: So you will have to take care of it in your thinking, your designing of the remote control.
+Speaker A: So the first one is that for the designing of the remote control, we don't really want to use the teletext anymore.
+Speaker A: As it's something that is not.
+Speaker A: Yeah, because now everybody has internet at home.
+Speaker A: So it's better to use internet than did it text.
+Speaker D: Yeah.
+Speaker A: So you will have to think about it in the design of your remote control.
+Speaker A: And also the remote control will only be used for television.
+Speaker A: So for your designing, you won't be...
+Speaker A: You won't have buttons to just manipulate, yet to control the recorder or maybe the garage door or things like that.
+Speaker A: It's because if we want to do a remote control, what will be used for the television, for the recorder, for the camcorder and all the others, it will become too complex and it will increase the price and we can't do that.
+Speaker A: We really want to focus on the remote control for the television.
+Speaker A: Okay.
+Speaker D: It's okay.
+Speaker D: But that's the balance between the console and the cost.
+Speaker A: It will be easier for you to design it to have very powerful and easy.
+Speaker A: And also want the image of the real reaction to be recognizable in the product, such as the color and the slugging.
+Speaker A: I mean, that's if you want to buy a remote control and if you go in a shop and if you see the remote control, you will recognize directly that it's our product.
+Speaker A: So you will have to use the color of the product of them...
+Speaker A: of the real reaction and also...
+Speaker B: So it has to be yellow, yellow...
+Speaker A: As we say, we put fashion in electronics, so it has to be a fashion remote control.
+Speaker A: Fancy fashion, powerful, easy to use, quite a lot of requirements.
+Speaker C: For cheap remote control, I'm cheap.
+Speaker D: Yeah. A low cost.
+Speaker A: Yeah.
+Speaker A: But that's your job to find something...
+Speaker C: What I'm thinking is how you will connect the TV to Internet.
+Speaker B: I don't think it's part of the remote control design.
+Speaker B: Maybe not, but maybe...
+Speaker B: It will be more in browsing.
+Speaker C: But this means that your TV will be able to connect to Internet, you know, save the wire.
+Speaker D: Yeah.
+Speaker D: There's a set box in the TV.
+Speaker D: So with a set box, you can connect Internet with your TV.
+Speaker C: Okay.
+Speaker D: But it's not so popular now.
+Speaker C: I don't think it's popular, so that's the problem.
+Speaker C: If you are designing a remote control for the global usage, so if people don't have the technology, so...
+Speaker A: So...
+Speaker A: So everybody's okay with the new requirements?
+Speaker D: For the color?
+Speaker D: What do you think?
+Speaker A: I think it has to be yellow.
+Speaker C: Yellow?
+Speaker A: Yellow?
+Speaker C: Do you think that people like the color yellow?
+Speaker D: The blue color?
+Speaker A: Maybe you can change the color.
+Speaker A: Okay.
+Speaker A: But the image of the society has to be recognized.
+Speaker A: Okay.
+Speaker C: I think if you have, you know, like a yellow urban here, it has to be fashion.
+Speaker A: Yeah.
+Speaker A: So you have to...
+Speaker C: It doesn't need to be completely yellow, but just...
+Speaker A: Yeah.
+Speaker A: It has to be a fashion and really be the image of the society.
+Speaker A: Okay.
+Speaker A: And just when you enter, I say, oh, oh, it's a real reaction.
+Speaker A: I think it's a real reaction.
+Speaker A: Okay.
+Speaker A: Remote control.
+Speaker A: And also it has to be attractive, of course, because if you want to sell the remote control...
+Speaker A: Okay.
+Speaker A: It's okay.
+Speaker B: Regarding the first line, what?
+Speaker B: So we're just expecting no more use of the teletext.
+Speaker B: Yeah.
+Speaker B: And that's it.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker C: I don't know what why no use of the teletext.
+Speaker B: It's already changed for...
+Speaker A: I think it would be simpler.
+Speaker A: Yeah.
+None: Yeah.
+Speaker A: Okay.
+Speaker A: So...
+Speaker A: I will close the meeting.
+Speaker A: Just after that, we'll have lunch break.
+Speaker A: And you will have in 30 minutes of individual work.
+Speaker A: You will have, as the idea, I don't remember, what is it?
+Speaker A: In the shared designer.
+Speaker A: In the shared designer.
+Speaker A: Yeah.
+Speaker A: To put...
+Speaker A: Compoundant.
+Speaker A: Yeah.
+Speaker A: And the user interface designer to work on the user interface concept.
+Speaker D: Okay.
+Speaker A: And through home to work.
+Speaker A: Work on a subject.
+Speaker E: Yep.
+Speaker A: And so specific instructions will be sent to you by your personal coach.
+Speaker A: Okay.
+None: It's okay.
+Speaker A: Yeah.
+Speaker A: I think the session is closed.
+Speaker A: Okay.
+None: Thank you.
+Speaker A: And by the way, Mr. David Jordan, please record your presentations in your own folder.
+Speaker A: Okay.
+Speaker A: Not in mind.
+Speaker C: It should be better.
+Speaker C: Okay.
+Speaker C: That's good.
+Speaker A: Okay.
+Speaker D: Okay.
+Speaker D: Okay.
+None: That was a funny one.
+None: Check this out.
+None: Okay.
+None: Okay.
+None: Okay.
+None: Now that's gonna be a bit...
+None: It's very good.

@@ -1,0 +1,675 @@
+Speaker E: Okay.
+Speaker E: Minutes. We decided to use a kinetic charger.
+Speaker E: Standard chip, because it can come in various different sizes, it wasn't going to be a problem factor.
+Speaker E: We wanted a standby function. The case materials can be soft, rubbery, changeable.
+Speaker E: Buttons with a combination of LCD and rubber according to design.
+Speaker E: Bright funky designs, inspired by fruit, keeping with the hip kind of feel.
+Speaker E: And to try and incorporate voice recognition software into our design until we can find out more about the cost of things like that.
+Speaker E: And the rubber buttons that we'll use will be anti-RSI.
+Speaker E: Okay.
+Speaker E: Prototype presentation.
+Speaker F: Is that for us?
+Speaker A: I think that would be you.
+Speaker A: Okay.
+Speaker A: Me and William both don't prototype and I think William is going to make a presentation on that.
+Speaker F: Yeah, shall I show?
+Speaker F: Do you want to hold it?
+Speaker F: Do you want to hold it?
+Speaker F: I'll see you at the presentation.
+Speaker E: Yes, yes, I'll get it.
+Speaker F: It looks crazy over here.
+Speaker F: Thank you.
+Speaker E: Just have one last thing you can just take it off.
+Speaker A: Oh, that other hand is...
+Speaker F: Okay, so this is our look and feel presentation, our final presentation.
+Speaker F: And we'll first look at the exterior of what we've come up with over there.
+Speaker F: It's going to have a plastic body with a sort of standard color, either we're thinking something fairly neutral like a white or a light blue or something.
+Speaker F: This is underneath the rubberized outer casing, which there'd be sort of a wide choice.
+Speaker F: They would be attached, but we can count with that.
+Speaker F: The wide choice of colors and sort of patterns.
+Speaker F: So you've got a lot of customization with it.
+Speaker F: It's obviously in a sort of clamshell design.
+Speaker F: The top LCD screen that you can see there would be sort of...
+Speaker F: A little black and white touch screen.
+Speaker F: Yeah, it would be sort of inset into the top and the bands at the bottom would say it'll fully close.
+Speaker F: Flat.
+Speaker F: And working on the inside, we've already decided on the kinetic batteries, which I actually think about it now, because you could also probably attach to the flipping open and shut as well, so that you could probably get a bit...
+Speaker E: Sort of get in the top section now, the bottom section, because it's in the top of the box.
+Speaker F: We decided that the voice recognition system, they did actually say on the email that they were sort of coming in and they were fairly easy to get hold of, so we presumed that they'd also be quite cheap.
+Speaker F: So you'd have something like, you'd shout out where is the remote, and it'll shout back, I'm here or something.
+Speaker C: And then...
+Speaker F: You can think.
+Speaker F: Yeah.
+Speaker F: It won't shout out, I'm here or something. It'll just shout out, I'm here.
+Speaker A: Okay.
+Speaker F: Or something too similar.
+Speaker F: Yeah, if it was getting that...
+Speaker F: Well, that could be something for next time, maybe.
+Speaker F: You can have a remote that tells you exactly where it is.
+Speaker F: The standard...
+Speaker F: There's a standard transmission with the TV using all the standard chips that we talked about.
+Speaker F: It would have, obviously, because it's split over two different layers.
+Speaker F: It would need two separate PCBs that would be joined at the hinge through some sort of cabling.
+Speaker F: And because, obviously, all TVs use this, the same infrared medium would just be using the same thing to transmit the data.
+Speaker F: The infrared...
+Speaker F:...sender would be on one of the bottom layers just at the front of the...
+Speaker F: I don't think we actually put it on...
+Speaker F: Yeah, someone like that.
+Speaker F: Infrared could be built on the front side of that.
+Speaker A: Oh, right.
+Speaker A: So when it's open here, the signal is on the right side.
+Speaker F: So when you've actually got it open, it would be facing the TV.
+Speaker F: And then finally, on the interface, the top screen, as we said, would be an inset black and white LCD touch screen, which...
+Speaker F: Yeah, would have all of the available functions for the remote on it.
+Speaker F: Whereas the bottom screen would just contain the standard buttons, like the volume up and down, channel up and down, the hour on and off.
+Speaker F: And things to that effect.
+Speaker F: And now, we've also decided on the inside, we could possibly either have some kind of sort of bezeled logo on it or something inset, or maybe an engraving of the logo on the top.
+Speaker F: But not interfering with the...
+Speaker E: No, not actually...
+Speaker F: No, not interfering with the whole look of the product when it's out on the thing.
+Speaker F: And finally, that's how we put the fashion back into electronics.
+Speaker F: Thank you very much.
+Speaker E: That's a company logo.
+Speaker E: Oh, don't...
+Speaker E: Okay.
+Speaker E: I've now got evaluation criteria.
+Speaker E: Certainly.
+Speaker A: So, this is the one.
+Speaker A: Sorry.
+Speaker A: Okay.
+None: Thank you.
+Speaker B: Oops.
+Speaker B: Sorry.
+Speaker B: That was delicious.
+None: Yeah.
+Speaker A: I think this looks like a chip.
+Speaker E: It's quite similar to what it was before there.
+Speaker D: Okay.
+Speaker D: This stage of the evaluation is really for us as a team to evaluate if we have now got a product specification and prototype design that meets the criteria that we got from our market research.
+Speaker D: So, this is the first stage of the evaluation.
+Speaker D: Now, the collection of the criteria as we saw in our previous meeting was based on the user requirements and trends found in the marketing reports and marketing strategy of our company.
+Speaker D: So, it's what we've discussed in the last meeting.
+Speaker D: Are we actually meeting those trends and requirements?
+Speaker D: Now, the findings that we came up with just to recap are here.
+Speaker D: The criteria that we want in this remote control are a fancy look and feel, technological innovation.
+Speaker D: It should be easy to use.
+Speaker D: It should incorporate current fashion trends and those the two main ones that were the spongy texture and the fruit and vegetable strong design colors.
+Speaker D: The design should minimize our eyes and be easy to locate.
+Speaker D: And we were still a slightly ambivalent as to whether to use voice recognition there, but that did seem to be the favored strategy, but there was also on the sideline, the thought of maybe having a beeper function.
+Speaker D: Okay.
+Speaker D: So, we can come back to that slide if you don't have a note of those.
+Speaker D: I'll just show you how we're going to evaluate our own feedback to this, to what we have so far.
+Speaker D: We're going to use a seven point scale where one is true and seven is false.
+Speaker D: We'll look at each of those criteria that I've just mentioned, I'll call that slide back up.
+Speaker D: And I will just do a preliminary rating of all those criteria on the white board here.
+Speaker D: Does that seem clear? Any questions there?
+Speaker D: So, we're going to look at these.
+Speaker A: Is it everybody's going to evaluate or just some of them?
+None: Yes.
+Speaker D: We're going to come to, we'll discuss each one and we'll come to our consensus rating between one and seven.
+Speaker D: Okay.
+Speaker D: One is true, seven is false.
+None: Right.
+Speaker D: So, I won't write all of that out again.
+Speaker D: It will just be criteria one, two, three, four, five, six or A, B, C, D, E, F to confuse it with the number rating.
+Speaker D: This is where I realize how tiny I actually am.
+Speaker E: Just write, Molly.
+Speaker E: Criteria.
+Speaker D: And rating.
+Speaker D: Actually, it might be an idea if we each did give our own individual rating, we could take an average at the end.
+Speaker D: Yeah, so you can.
+Speaker D: Okay.
+Speaker D: So, I'll just separate the ratings by obliques and if we go one, two, three, four, we know who's here.
+Speaker D: Okay.
+Speaker D: Criteria A, the fancy look and feel.
+Speaker D: How do we feel about this prototype model relating to fancy, is a fancy look and feel one is true, seven is false.
+Speaker D: My own rating for that would be a two.
+Speaker D: One is true and seven is false.
+Speaker F: Yeah, I'd probably put it.
+Speaker F: Two, yeah, two or three. No, three, three.
+Speaker C: Okay.
+Speaker C: Two.
+Speaker A: I would say four.
+Speaker D: Four.
+Speaker D: Okay.
+Speaker D: I think those up.
+Speaker D: We've got six and five, eleven divided by four is what?
+Speaker D: Two and three quarter.
+Speaker A: Yeah.
+None: Three.
+Speaker D: Two and three quarter.
+Speaker A: I think.
+Speaker A: Yeah.
+Speaker D: Yeah.
+Speaker D: Two point seven five. There we go.
+Speaker D: Okay.
+Speaker D: Criteria B, Criteria on B. Technologically innovative.
+Speaker D: I would give that A three.
+Speaker F: I'd give it a one.
+Speaker D: Not that you're biased.
+Speaker D: No, not at all.
+Speaker D: The designer.
+Speaker C: A two.
+Speaker A: Oh, sorry.
+Speaker A: I got it wrong.
+Speaker A: The first one reading, I'm sorry.
+Speaker A: Can you just make it two?
+Speaker A: The average.
+Speaker D: Yeah, I just thought you were rating to be a two.
+Speaker A: Is that what you're saying?
+Speaker A: Yeah, I just got.
+Speaker D: So I'll work out the average for that again at the end.
+Speaker D: It's a very slightly altered.
+Speaker D: Okay.
+Speaker D: I'm just waiting for you.
+Speaker D: Two point five for that one.
+Speaker A: One is a good choice.
+Speaker D: So you're waiting for this one part?
+Speaker D: Two.
+Speaker D: Okay.
+Speaker D: So that is eight.
+Speaker D: That brings it down to two.
+None: Two.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: Ease of use.
+Speaker D: Ease of use.
+Speaker D: Based on what you've said there, I would say one.
+Speaker D: Two.
+Speaker F: Two.
+Speaker F: Two.
+Speaker E: I would say a two.
+Speaker E: A two.
+Speaker C: Two.
+Speaker D: I should have said a two to make the arithmetic.
+Speaker D: We'll just put almost two because we're not going to get into silly decimally places.
+Speaker D: Okay.
+Speaker D: We want to really bring it down.
+Speaker D: Now we're looking at it incorporates current fashion trends.
+Speaker D: And that's particularly in relation to our market research finding about the spongy texture to the exterior and the fruit and vegetable design colors.
+Speaker D: Yeah.
+Speaker D: Right.
+Speaker D: So I'm just thinking before I give it my rating, you were limited in the use of materials for your prototype here.
+Speaker D: Yeah.
+Speaker F: Is this actually going to be the colors that you choose?
+Speaker F: No, the base color was white or all light blue, but the changeable faces would allow you to get any basically any one of a number of colors.
+Speaker F: It's full, full customer.
+Speaker D: Yeah.
+Speaker D: Yeah.
+Speaker D: Yeah.
+Speaker D: And the spongy feel is no problem with that.
+Speaker F: No, no, because that's the spongy feel would be in the rubber that you put around it.
+Speaker F: That otherwise is just sort of hard plastic.
+Speaker D: In that case, it's got to be a one for me.
+Speaker F: Yeah.
+Speaker F: I'll give it a one as well.
+Speaker C: Okay.
+Speaker A: One.
+Speaker D: That part was nice.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker D: Moving on to does the design minimize repetitive strain and juice?
+Speaker D: I don't think we've really touched on that.
+Speaker D: We've discussed it, we haven't really come up with anything that we felt could feasibly reduce that.
+Speaker D: We've talked about pointers, but the very use of a remote control, if you're someone who's zapping, who's sitting like that, we've found so many people did.
+Speaker D: How do you minimize that in such a small device?
+Speaker E: Well, the type of button that we're going to use in the bottom here, the material.
+Speaker E: It's not my society, it's meant to.
+Speaker E: Maybe because it's like with the size of the guy, it's quite small, but with the amount of stuff we're putting on it isn't that much.
+Speaker E: So maybe because there's more space, not kind of moving around to accurately the buttons in between, it's quite obvious, just big buttons.
+Speaker E: Right.
+Speaker D: I think I'm going to have to be mutual on that and give it a four.
+None: Yeah.
+Speaker F: Yeah, I'd go for a five actually.
+Speaker F: Okay.
+Speaker C: Four.
+Speaker C: Four.
+Speaker C: Four.
+Speaker C: Okay.
+Speaker C: Twenty one.
+Speaker C: Twenty one.
+Speaker C: So that's four point two five.
+Speaker B: Yep.
+Speaker D: And finally, last but not least, easy to locate.
+Speaker D: So we talked about voice recognition.
+Speaker D: We talked about a deeper, we really haven't come to any.
+Speaker F: Yeah, it was a voice recognition.
+Speaker D: It was the voice recognition.
+Speaker D: And we're happy with the costs.
+Speaker D: Yeah, yeah, that's feasible.
+Speaker D: That sounds good then.
+Speaker D: I'd go for, we can adjust the volume on that just as we could volume on TV.
+Speaker D: I think it would be a standard.
+Speaker F: I think it would probably be a standard.
+Speaker F: It would be a standard.
+Speaker F: It would be quite loud.
+Speaker E: So it would be built into, if you didn't hear it in the room, you were standing in and you realized it wasn't in that room.
+Speaker D: Okay.
+Speaker D: Logical.
+Speaker D: That's the one for me.
+Speaker D: Yeah, one.
+Speaker D: One.
+Speaker C: And one.
+Speaker F: I do realize that we might be being fairly biased because it is a problem.
+Speaker D: So how do we feel about this?
+Speaker D: We've got the highest rating of meeting specifications that is definitely true for two of the six criteria there.
+Speaker D: That is for incorporates current fashion trends and an easy to locate.
+Speaker D: The lowest rating we've got, which is really, it's not terribly low, it's closer and neutral, is for the minimization of repetitive strain engineering.
+Speaker D: Do we feel on the basis of these evaluation findings that we can go ahead and produce this as a prototype and market it, or do we have to make further modification?
+Speaker E: I don't think so.
+Speaker E: I think, yeah, I think.
+Speaker E: Yeah.
+Speaker D: Yeah.
+Speaker D: So I think for most of those rating that it's high enough, at the upper end of the scale for us to go ahead with that, and I really doubt if on the basis of current technology and our current capability, we could actually do much more than that.
+Speaker D: And then we're having a huge break.
+Speaker D: I know.
+Speaker D: Okay.
+Speaker D: And I hope that's clear to the team.
+Speaker D: Is there anything you would like to ask me about the findings for a lot?
+Speaker D: No.
+Speaker D: Thank you.
+Speaker D: I'm going to clean it now.
+Speaker E: Okay. Thank you.
+Speaker E: Okay.
+Speaker E: I've got finance here.
+Speaker E: I'm going to plug this in so you can all see it.
+Speaker E: That's okay.
+Speaker E: Oh, yeah.
+Speaker A: We do want to plug that.
+Speaker F: Yeah.
+None: So this.
+Speaker C: Right.
+Speaker E: Now I presume.
+Speaker E: That scream over that.
+Speaker E: Okay.
+Speaker E: We just type numbers into this and we come out with the final value.
+Speaker E: So are we still on for kinetic?
+Speaker E: Yeah.
+Speaker E: Okay.
+Speaker E: So it would have been handy to have this at the beginning.
+Speaker E: It might have been starting to start choice.
+Speaker E: Right.
+Speaker E: What's happening with the electronics?
+Speaker F: There's regular chip on print and.
+Speaker F: Oh, no, no, no.
+Speaker F: The, um.
+Speaker F: Yeah.
+Speaker F: It's you, you've put in three for the number of kinetic cells.
+Speaker F: This should just be one.
+Speaker F: In the top, it's the number.
+Speaker B: Oh, right. Okay.
+Speaker E: Thanks.
+Speaker F: Yeah.
+Speaker E: So would it be two?
+Speaker F: Yeah.
+Speaker F: Just, no, one reg.
+Speaker F: One chip.
+Speaker F: Yeah.
+Speaker F: One of them and one sample sensor and sample speed.
+Speaker C: Okay.
+Speaker F: Yeah.
+Speaker F: And they're double curve. No.
+Speaker E: One double curve.
+Speaker F: Two because it's too low.
+Speaker D: We don't have a flight.
+Speaker D: We can fit.
+Speaker E: So what's a single curve?
+Speaker E: Yeah, I'd say, I'd say it was.
+Speaker F: Yeah.
+Speaker B: I think, I think it's.
+Speaker F: So just one double.
+Speaker E: One double curve.
+Speaker F: And what no, because one.
+Speaker F: Yeah.
+Speaker F: One's double curved and then the other one is.
+Speaker D: Yeah.
+Speaker D: Plastic.
+Speaker D: Plastic and rubber.
+Speaker E: Yeah.
+Speaker E: Yeah.
+Speaker E: That's tickle one and maybe a little one color.
+Speaker A: No, I think rubber since it's being used just as a casing, we can put 0.5.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Because there are, I think it allows a 0.5.
+Speaker A: We can use that.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: What does it mean if you put 0.5.
+Speaker A: Yeah.
+Speaker D: It means we are not using a lot of rubber, actually.
+Speaker D: We are using this.
+Speaker A: We like saying we're using a very low quantity of rubber compared to plastic.
+Speaker A: See, it says case material.
+Speaker E: So we're not actually using plastic in a case.
+Speaker E: No, no, that's, it's as an extra.
+Speaker E: It's a greeting.
+Speaker E: It's a greeting.
+Speaker F: So that shouldn't be actually on there because that's not incorporated in the cost of the remote you get.
+Speaker F: But it is going to be part of the total question.
+Speaker D: There's nowhere else we can, we can put that in as there.
+Speaker D: There's nowhere else we can code with the rubber used in the case.
+Speaker D: So do we not have to code put in the cost somewhere there?
+None: Okay.
+Speaker E: We'll just put it in as, we'll put it in as half.
+Speaker E: We should just put it in as one because plastic is zero anyway.
+Speaker F: Yeah.
+Speaker F: Okay.
+Speaker E: There we go.
+Speaker E: Okay.
+Speaker E: Special color.
+Speaker E: Do we need that?
+Speaker D: You might do.
+Speaker E: I'm going to go for some of the more exotic ball regimes and such like color.
+Speaker E: Into face.
+Speaker F: Push button.
+Speaker F: Yeah.
+Speaker F: The push button is one and I'll see display one.
+Speaker F: One.
+Speaker F: One button.
+None: One button.
+None: One button.
+None: One button.
+None: One button.
+Speaker A: I think we could change the battery also instead of going for kynoting how about going for the standard battery.
+Speaker D: Is that not me Danny?
+Speaker D: If you click off that square now, it doesn't need any difference.
+Speaker D: Was that not?
+Speaker D: No, it was 7.5, it changed.
+Speaker D: So it's uncurbed completely and just actually making the rubber case the curve thing is not
+Speaker A: going to make a difference. Uncode flat.
+Speaker D: It's not me Danny, it's been a minute.
+Speaker F: No, well I just surprised this one.
+Speaker F: No, no, you've got to click off to calculate it again.
+Speaker E: Okay, there we go.
+Speaker E: It does slightly.
+Speaker F: It might be assuming that that is in euros, it could be in dollars.
+Speaker F: And then it would be fine because the exchange rate would make it a better point.
+Speaker E: We haven't been dealing with dollars though.
+Speaker A: I think it's the new one.
+Speaker E: Okay, so the highest regard is the electronics here.
+Speaker D: If we turn the interface, if we moved away from our much loved idea of a kinetic battery, just like in stone, the battery would make a huge difference.
+Speaker F: Yeah, the standard, it would make one difference.
+Speaker F: The biggest one would be taking away if you took away.
+Speaker A: What I feel is customers never said anything about the battery.
+Speaker A: It's internal, nobody looks into the battery.
+Speaker A: But shape and color, that's something we should take away.
+Speaker F: If you take away the voice recognition, then you've got it.
+Speaker A: Where's that special form?
+Speaker A: Do we see what difference it makes?
+Speaker D: Where's the voice recognition?
+Speaker F: It's samples sent to sample speaker.
+Speaker F: It took away that they'll make it 12.35.
+Speaker F: Well the kinetic is three.
+Speaker E: If we change it to the battery, that's minus three.
+Speaker F: Yeah, but you've minus three plus two.
+Speaker E: Oh, right.
+Speaker E: We can do it some other way.
+Speaker E: It doesn't have to be voice recognition.
+Speaker E: We could do the voice recognition for business class or something.
+Speaker E: Like an upgraded version.
+Speaker E: You could choose to have that.
+Speaker F: But I mean, I don't see why we have to set up 25 years now because they were saying they were quite willing to pay more for a better product.
+Speaker D: We're still working to...
+Speaker D: So should we just change it to head off?
+Speaker D: Head off.
+Speaker D: Head off.
+Speaker D: We're working to head off the specifications.
+Speaker D: This is what this project team is working for.
+Speaker D: We can do it in our recommendations with what we've found and the consensus that we've come to as a lot of meetings.
+Speaker D: We can.
+Speaker D: But we need to work to that specification to start.
+Speaker D: Yeah, we can say.
+Speaker D: The voice recognition sounds wonderful, but our object is so distinctive that that in itself is going to make it easier to locate as an in our first instance.
+Speaker D: As you say, we can offer the voice recognition initiative to business class customers.
+Speaker E: Okay, we can.
+Speaker E: Yeah, I make the price fit and then say, we recommend.
+Speaker E: We would have had this because it also sets up as a product.
+Speaker E: Because we don't have a background.
+Speaker E: Yeah.
+Speaker E: Because someone can be different associated with your company.
+Speaker E: Right, okay.
+Speaker D: So if we take voice recognition, I...
+Speaker F: Spell the 12.35.
+Speaker F: Is it 12.50?
+Speaker E: No, it's 12.25.
+Speaker E: Are you sure?
+Speaker D: Sorry.
+Speaker E: Not meaning to doubt your work.
+Speaker E: 12.25 times two years.
+Speaker E: 25.
+Speaker E: Are they going to be...
+Speaker D: It's 12.5.
+Speaker D: I didn't.
+Speaker D: I'm quite zero, one over euro.
+Speaker D: Which is less than 10.
+Speaker A: I don't remember, but it's said 50% is the cost.
+Speaker A: So half of the price was...
+Speaker E: The other one was where the price was not there.
+Speaker A: I don't know.
+Speaker C: What is the first one?
+Speaker E: That's two days.
+Speaker A: 12.5?
+Speaker C: Oh, so we are under the position.
+Speaker C: So we're okay.
+Speaker E: Okay.
+Speaker E: So, is that...
+Speaker E: Got us covered for the electronics then.
+Speaker E: We don't need something else to take that place.
+Speaker F: Nope.
+Speaker F: So that was just a bolt on X-ray.
+Speaker F: You could just take that out.
+Speaker F: And it would be fine.
+None: Okay.
+Speaker A: It seems fine.
+Speaker A: Yeah, I think it was.
+Speaker A: X-A-Boys are good mission.
+Speaker A: Everything is...
+Speaker E: All right.
+Speaker E: Done that.
+Speaker E: Okay.
+Speaker E: Project evaluation.
+Speaker E: We've done room for creativity, haven't we?
+Speaker E: Yeah.
+Speaker E: Got decisions that we would have made that we weren't.
+Speaker E: Didn't feel able to make.
+Speaker E: Appaging we discuss leadership and teamwork?
+Speaker F: Yes.
+Speaker E: In the sense that...
+Speaker E: Did you feel like a team or did you feel like...
+Speaker F: All right, so it's a team.
+Speaker D: I think we're talking.
+Speaker D: There was so much interaction, so much that we needed to...
+Speaker D: Find out, come together.
+Speaker D: And I've certainly felt heard, listened to, and that in relevant areas, we've been able to give and take, and adjust our remit.
+Speaker D: Yeah.
+Speaker D: We're in SSO.
+Speaker A: Yeah, I think it is a very constructive feedback by everybody.
+Speaker A: It's not like people trying to cut each other.
+Speaker A: It is more of a through-cohesivity move.
+Speaker A: We came to a very pretty creative design.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: And...
+Speaker A: Yeah, I think...
+Speaker A: Sarah, you coordinated the work very well.
+Speaker A: Thank you.
+Speaker E: How did you find it?
+Speaker F: Yeah, no, I thought it went really well.
+Speaker F: And I, yeah, I feel that everyone was listened to, and all the points that were raised seem to have been sorted out.
+Speaker F: But they didn't quite make the voice recognition in there, so that's good.
+Speaker F: Yeah.
+Speaker F: I think it would have made it into the final product if it was actually.
+Speaker F: If we'd seen the marketing before the initial specification was put out, I think maybe it would have come out a little different.
+Speaker E: Yeah.
+Speaker E: I like the fact that we could say an idea, and it'd be...
+Speaker E: I suggested that there wasn't the best idea, but no one felt my short time.
+Speaker E: Yeah.
+Speaker E: Yeah.
+Speaker E: You know, it didn't matter, saying what you thought, because if it wasn't something that was relevant, then it didn't matter, because it was just another idea.
+Speaker E: Mm.
+Speaker E: Um...
+Speaker E: Teamwork, well, you two created that wonderful specimen of a plaido model.
+Speaker E: Yeah.
+Speaker A: I think that was the best part of that.
+Speaker A: Yeah.
+Speaker E: Uh...
+Speaker E: I'm still not caught up.
+Speaker E: That's nothing to do with the teamwork, but...
+Speaker D: Um...
+Speaker D: Maybe we should think of branching out into children's toys, maybe mobile phones or something like that.
+Speaker D: If they go on...
+Speaker E: Yeah, that was quite fun.
+Speaker E: Um...
+Speaker E: Means whiteboard digital pens, etc.
+Speaker E: What does that mean?
+Speaker E: Um...
+Speaker D: I'd be evaluated for materials we had for communicating and sharing information.
+Speaker D: Yeah.
+Speaker D: Could it have been better? Was it adequate?
+Speaker F: Yeah, I think we probably would have used the actual email system more had we actually...
+Speaker E: Had time to kind of...
+Speaker F: Had more time, and if we'd been separated more.
+Speaker E: Yeah, because we could just sort of say, sorry, what did you say about that, or what do you think about that, rather than having to email it?
+Speaker E: Yeah.
+Speaker E: But it was nice having it there.
+Speaker E: Um...
+Speaker E: Like the whole picture of the thing.
+Speaker A: Yeah, but in like moving around a little.
+Speaker A: I think it's good, like...
+Speaker A: We spend time individually...
+Speaker A: I never thought of a remote control with a flip top.
+Speaker E: Yeah, I think it's really boring to other areas.
+Speaker D: It's bringing things from other areas in.
+Speaker D: I mean, nothing in me.
+Speaker D: But it's applying it to a different area.
+Speaker D: Vegetables.
+Speaker A: It's mine.
+Speaker A: Yeah.
+Speaker A: Yeah, no.
+Speaker A: Yeah, no.
+Speaker E: Yeah, no.
+Speaker E: Well, they have to come from somewhere.
+Speaker E: Absolutely, yeah.
+Speaker A: But they...
+Speaker A: As...
+Speaker E: Sorry, guys.
+Speaker E: Um, as we're shown by your presentation with all of the other controls, remote controls, no one's thought about it, particularly.
+Speaker E: I mean, they're slightly different.
+Speaker E: So, someone's been shot in a room and said, make ours a bit different from everyone else's, because there's something we should think about.
+Speaker E: But obviously, no one's put any great deal of thought into it.
+Speaker F: I don't think the companies are really concerned.
+Speaker F: They're just, like, we've got a DVD player.
+Speaker F: Does anyone remember the remote control?
+Speaker F: Can't you get the one that we used for the last one?
+Speaker F: Yeah, just jazz it off of it.
+Speaker F: They don't really think about it, because normally, the remote control isn't the product, which they're trying to ship.
+Speaker F: They're trying to ship the DVD player, the video player, the TV.
+Speaker E: But then when everything is really smart...
+Speaker E: Yeah.
+Speaker E: And you've just got this big chunk of black thing sitting on your coffee table.
+Speaker E: It doesn't go.
+Speaker E: If you could have something that's proper, funky thing, a funky item that's individual.
+Speaker E: Individual to you.
+Speaker E: I mean, they could even go into...
+Speaker E: You go in with an idea, and they design it on Photoshop, and then they just get it printed on the plastic.
+Speaker E: You pay a lot extra because it's individually being plastic was being made for you.
+Speaker E: Yeah.
+Speaker E: But people couldn't have anything that they wanted.
+Speaker A: Surprising to be just like people give a lot of attention to modifying mobile phones.
+Speaker A: Like every month you see a new launch or something like that.
+Speaker A: And new television products coming up.
+Speaker A: But nobody giving a much idea to this.
+Speaker D: I think this has been very market research-based.
+Speaker D: Because just going back to mobile phones, I mean, this is the first change in remote control devices that I can really say is obvious and visible.
+Speaker D: We see it in mobile phones a lot, and that's where we've heard a lot of ideas from.
+Speaker D: There are innovations in that that people don't really want.
+Speaker D: I see people wanting a model of the phone that really helps you with it, and they can't get it anymore.
+Speaker D: It's innovation for innovation's sake.
+Speaker D: And I think it's wonderful that our companies do R&D based.
+Speaker E: Well, it's innovation for money's sake.
+Speaker D: People have to keep up.
+Speaker D: The forcing it on to people.
+Speaker D: Yeah.
+Speaker D: Things that, you know, they might want to buy the thing they do.
+Speaker E: And you can't get...
+Speaker E: You've got your hands at the works fine, but you can't get battery anymore.
+Speaker E: And that type of phone is the phones that have been done.
+Speaker D: Oh, there's a cover to fit it on the wire.
+Speaker D: Yeah.
+Speaker C: That's nice.
+Speaker C: And...
+Speaker E: In closing...
+Speaker E: Closeable.
+Speaker E: Um...
+Speaker E: Our costs are below budget, with recommendations that the budget be increased.
+Speaker E: But I think...
+Speaker E: I don't know.
+Speaker E: What do you think?
+Speaker E: Do you think that takes into account, um...
+Speaker E: Overheads.
+Speaker E: Like, us being well paid for the thing.
+Speaker E: And the heating for the building.
+Speaker E: Do you think our budget includes everything, all the costs that are going out?
+Speaker E: I think it was just the product.
+Speaker E: I think that was just the physical.
+Speaker E: So it looks, well, it looks like it's going to be 50% profit.
+Speaker E: Yeah.
+Speaker E: Still gone.
+Speaker E: All of the overheads might have been.
+Speaker E: So maybe increasing it.
+Speaker E: You would also have to increase the price today.
+Speaker E: So don't.
+Speaker E: Yeah, I think...
+Speaker E: But you were saying that that's correct.
+Speaker E: Yeah, I don't.
+Speaker D: I think in the remake it's very specific.
+Speaker D: I think we've done what we required to do.
+Speaker D: And I think like the other project team, or a new project for us to look at those kind of things.
+Speaker D: I don't think that's something we have to look at.
+Speaker D: No.
+Speaker D: And the way we're breathing the cash for.
+Speaker F: Yeah.
+Speaker D: It was...
+Speaker D: We've done very well to get within budget.
+Speaker D: And we still make such an innovative item.
+Speaker D: Yeah.
+Speaker D: So I think people are really going to want to...
+Speaker E: To shame it won't ever get me.
+Speaker E: Maybe we're going to steal our ideal balance.
+Speaker D: It's top secret.
+Speaker F: It's conspiracy going on here.
+Speaker E: The project has been evaluated well and truly.
+Speaker E: Yeah.
+Speaker E: And we've got the meeting summary in question here.
+Speaker E: There's a final question.
+Speaker E: So we've got about 50 minutes to catch up with everything that I felt behind.
+Speaker E: So I'll be delegating it.
+Speaker E: In your last project, superbising.
+Speaker E: So good luck.
+Speaker A: Celebration, you didn't talk about that.
+Speaker E: I think it was celebration at the 25th time.
+Speaker E: That will be dance on the dance.
+Speaker E: That was...
+Speaker F: Okay.
+Speaker F: Was that it then?
+Speaker E: Yeah.
+Speaker E: Just the last I think.
+None: Awesome.
+Speaker E: I think I've got minutes for two of the meetings and...
+Speaker E: The last thing...
+Speaker E: It's a question I've done.
+Speaker D: Well, I didn't have to rate you on how much you include the meeting this time.
+Speaker F: Is that not the question asked or the how you thought you'd done in your...
+Speaker F: Thing?
+Speaker D: I'm right.
+Speaker D: But do we not sometimes evaluate the meeting?
+Speaker D: Yeah, there's this.
+Speaker F: Yeah.
+Speaker F: I think...
+Speaker F: Yeah, question is seven years.
+Speaker F: So I'm going to go to the 40 meeting.
+Speaker B: Yeah.
+Speaker E: I just got to...
+None: Okay.

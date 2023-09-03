@@ -1,0 +1,490 @@
+Speaker H: Hey, Mike, Mike one.
+None: Uh?
+None: Yes, please.
+Speaker D: I mean, we're testing oyster busting, but listen, you get to wait.
+Speaker C: Okay, so, uh, we've got some, uh, Zerax things to pass out.
+Speaker H: Yeah.
+Speaker H: I'm sorry for the table, but...
+None: There's a bruise.
+Speaker D: This one's nice though.
+Speaker D: This is the last column we use for imagination.
+None: Okay.
+Speaker D: Uh, this one's nice though.
+Speaker D: This has nice big font.
+Speaker J: Yeah.
+Speaker J: Yeah.
+Speaker D: Yeah.
+Speaker D: You get older, you have these different perspectives.
+Speaker D: I mean, lowering the word area to spine, but having big font.
+Speaker H: Extending the width.
+Speaker H: Put the cut off for some.
+Speaker E: Yeah, it's a nice little big line.
+Speaker H: Okay.
+Speaker H: Okay.
+Speaker H: So there is kind of summary of what has been done.
+Speaker H: Oh, summary of experiments since, well, since last week and also since the...
+Speaker H: We've started working this.
+Speaker H: So since last week, we've started to fill the column with, uh, features with net strain on PLP with our nine normalization, but with delta also, because the column must not completely, what?
+Speaker H: It's still not completely filled, but we have more results to compare with network using without BLP. And finally, delta seems very important.
+Speaker H: I don't know if you take, um, let's say, anyway, or a 2B.
+Speaker H: So the next, the second part of the table, uh, when we use the large training set using French Spanish and English, you have 106 without delta and 89 with the delta.
+Speaker D: And again, all of these numbers are with 100% being the baseline performance, but with the no cap straw system going straight into the edge.
+Speaker H: So now we see that the gap between the different training set is much, uh, much smaller.
+Speaker H: But actually, for English training on timid is still better than the other languages.
+Speaker H: And, yeah.
+Speaker H: And also for Italian, actually. If you take the second set of experiment for Italian, so the mismatched condition, um, when we use the training on timid, so it's multi-english, we have 91 number, and training with other languages is a little bit worse.
+Speaker D: Oh, I see it down near the bottom of this sheet.
+Speaker H: So, yeah. And, yeah. And here, the gap is still more important between using delta and not using delta.
+Speaker H: If I take the, the large training set, it's, we have 172, and 104 when we use delta.
+Speaker H: Even if the context is quite the same because without delta, we use 17 frames.
+Speaker H: Yeah. So, the second point is that we have no single cross-language experiments that we did not have last week.
+Speaker H: So, this is training the net on French only, or on English only, and testing on Italian.
+Speaker H: And training the net on French only, and Spanish only, and testing on the attitudes.
+Speaker H: And, yeah. What we see is that these nets are not as good, except for the multi-english, which is always one of the best.
+Speaker H: Yeah. Then, we've started to work on a large data base containing sentences from the French, from the Spanish, from the Tibet, from Spain, from English digits, and from Italian digits.
+Speaker H: So, this is another line, another set of lines in the table, and left to the same as what it's fine.
+Speaker H: And, actually, we did this before knowing the result about the delta. So, we have to redo the experiment training the net with PLP, but with delta.
+Speaker H: But, this net performed quite well. It's better than the net using French, Spanish, and English.
+Speaker H: So, we have also started feature combination experiments, mainly experiments using features and net outputs together.
+Speaker H: And, this is the results on the other document.
+Speaker H: We can discuss this after a problem, just to know if we need to.
+Speaker H: Yeah. So, basically, there are four kind of systems. The first one is combine two feature streams using each feature stream as its own MLP, so it's similar to the tandem that was proposed for the first multi-stream tandem for the first proposal.
+Speaker H: The second is using features and PLT transform MLP outputs, and the third one is to use a single PLT transform features as well as MLP outputs.
+Speaker H: Yeah. You can command this result.
+Speaker I: Yes, I would like to say that, for example, if we doesn't use the delta delta, we have an improve when we use some combination.
+Speaker H: But, we... Just to clear the numbers here are recognition accuracy. So, it's another one.
+Speaker I: Again, we switch to another one.
+Speaker I: Yes, and the base line is 82.
+Speaker C: The base line is 82.
+Speaker C: Yeah.
+Speaker H: So, it's experiment only on the Italian mismatched for the moment for this.
+Speaker I: This is Italian mismatched. Okay, I move.
+Speaker I: This is MLP, and it's obviously that the English MLP is dependent. For the rest of the experiment, I use multi-English, only multi-English.
+Speaker I: The result is that the MSG-3 feature doesn't work for the Italian database, because it never helps to increase the algorithms.
+Speaker H: Actually, if we look at the table, the huge table, we see that for TI digits, MLG performs as well as the PLP. But this is not a case for Italian.
+Speaker H: Where the error rate is almost twice the error rate of PLP.
+Speaker H: So, I don't think this is a bug, but this is something in probably the MLG process that...
+Speaker H: I don't know what exactly perhaps the fact that there's no low pass filter, well, or low-prim phase filter, and that there is some VC offset in the Italian.
+Speaker H: Well, something simple like that, but that we need to sort out if we want to get improvement by combining PLP and MSG, because on the moment the MSG doesn't bring much information.
+Speaker H: And as Karman said, if we combine the two, we have the result basically of PLP.
+Speaker D: The baseline system, when you said the baseline system was 82%, that was trained on what and tested on what.
+Speaker D: That was Italian mismatched digits, is the testing, and the training is Italian digits.
+Speaker D: So, the mismatch just refers to the noise and microphone, so forth. So, would that then correspond to the first line here of where the training is?
+Speaker D: Is the Italian digits...
+Speaker I: The training of the HTG?
+Speaker I: Yes.
+Speaker D: Training of the net, yeah. So, what that says is that in a matched condition, we end up with a fair amount worse putting in the PLP.
+Speaker D: Now, do we have a number I suppose for the matched? I don't mean matched, but use of Italian training on Italian digits for PLP only.
+Speaker H: So, basically this is in the table. So, the number is 52%.
+Speaker H: 52% of 82% of 18%. So, it's error rate.
+Speaker H: So, this is accuracy. So, we have 90%.
+Speaker H: Which is what we have also if we use PLP and MSG together, 89.7%.
+Speaker D: Okay, so, even just PLP, it is not in the matched condition. I wonder if it's the difference between PLP and Mellkebstra or whether it's that the net of some reason is...
+Speaker H:...it's not PLP and Mellkebstra give the same result. Well, we have this result. It's not...
+Speaker H: So, PLP is a result with PLP alone feeling HTK. That's what you mean. Just PLP.
+Speaker D: So, PLP. So, adding MSG, well, but that's without the neural net, right?
+Speaker H: Yeah, that's without the neural net. And that's the result, basically, that OGI as well. So, with the MFCC with online normalization.
+Speaker D: But, she had said 82%.
+Speaker H: But, this is without online normalization.
+Speaker H: Oh, this is the 82.
+Speaker H: 82 is the Aurora baseline. So, MFCC, then we can use...
+Speaker H: Well, OGI, they use MFCC, the baseline MFCC plus online normalization.
+Speaker D: I keep getting confused because this is accuracy.
+Speaker D: Alright, alright. So, this is... I was thinking, this was worse. Okay, so, this is all better because...
+Speaker D: I'm bigger than 82. Okay, I'm all better now. Okay.
+Speaker H: So, what happens is that when we apply online normalization, we jump to almost 90%.
+Speaker H: When we apply a neural network is the same. We jump to 90%.
+Speaker H: And whatever the normalization actually, if we use a neural network, even if the features are not correctly normalized, we jump to 90%.
+Speaker D: So, we go from 88.6 to 290.
+Speaker H: No, I mean 90, it's around 89.
+Speaker H: 89.
+Speaker D: And then, adding MFCC does nothing, basically.
+Speaker H: No.
+Speaker H: Okay.
+Speaker H: For Italian.
+Speaker H: For this case, right?
+Speaker D: Alright. So, actually, the answer for experiments with one is that adding MSG, if you does not help in that case...
+Speaker G: But don't, it's really good.
+Speaker D: And the multi-English does...
+Speaker D: So, if we think of this as an error rate, we start off with 18% error rate, roughly.
+Speaker D: And we almost cut that in half by putting in the online normalization and the neural net.
+Speaker D: And the MSG doesn't, however, particularly affect things.
+Speaker D: And we cut off, I guess, about 25% of the error.
+Speaker D: No, not quite that. Is it 2.6?
+Speaker D: Not 18, but 16% or something of the error.
+Speaker D: If we use multi-English instead of the magic condition.
+Speaker D: But the Italian track.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker I: We select these stats because it's the more difficult.
+Speaker D: Yes. Good.
+Speaker D: Okay. So, then, you're assuming multi-English is closer to the kind of thing that you could use, since you're not going to have magic data for the other languages and so forth.
+Speaker D: One thing is that, I think I asked you this before, but I want to double check.
+Speaker D: When you say ME in these other tests, that's the multi-English.
+Speaker D: But it is not all of the multi-English, right?
+Speaker D: It's a part of it.
+Speaker H: It's a part of it.
+Speaker H: Or one million frames.
+Speaker H: And the multi-English is how much?
+Speaker H: It's one million and the half.
+Speaker D: Yeah.
+Speaker D: Oh, so you use almost all these two thirds of it.
+Speaker D: So, it still, it hurts you.
+Speaker D: It seems to hurt you a fair amount to add in this French and Spanish.
+Speaker D: Yep.
+Speaker C: That's why it's too wide.
+Speaker B: Well, Stefan was saying that they weren't hand-label.
+Speaker B: Yeah.
+Speaker B: Yeah, he's French and Spanish.
+Speaker B: It's a bit...
+Speaker I: Maybe for that.
+Speaker D: Still.
+Speaker D: Okay.
+Speaker D: All right, go ahead.
+Speaker I: And then...
+Speaker I: With the experiment type 2, I first tried to combine some feature from the MLP and other feature.
+Speaker I: Another feature.
+Speaker I: And we can...
+Speaker I: First, the feature are without Delta Delta Delta and we can see that in this situation, the MSG3, the same help, nothing.
+Speaker I: And then I do the same, but with the Delta Delta Delta, PLP Delta Delta Delta.
+Speaker I: And the output of the MLP is without Delta Delta Delta.
+Speaker I: And we have a little bit less result than the...
+Speaker I: The baseline PLP with Delta Delta Delta.
+Speaker I: Maybe when we have the new...
+Speaker I: The new neural network, China with PLP Delta Delta Delta, maybe the final result must be better.
+Speaker I: I don't know.
+Speaker H: Actually, it's just to be so more...
+Speaker H: This number, this 87.1 number has to be compared with...
+Speaker D: Yes, yeah, I mean, you can't compare with the other because this is a with multi-English training.
+Speaker D: She has to compare it with the one over that you've got in a box, which is that 84.6.
+Speaker H: So...
+Speaker H: Yeah, but I mean, in this case, for the 87.1, we use MLP outputs for the PLP net and straight features with Delta Delta.
+Speaker H: And straight features with Delta Delta gives you what's on the first G, 88.6.
+Speaker D: No, no, no, no, not trained with multi-English.
+Speaker H: Yeah, but this is the second configuration.
+Speaker H: So we use feature or net outputs together with features.
+Speaker H: So, yeah, this is not perhaps not clear in, but in this table, the first column is for MLP and the second is for the features.
+Speaker H: So, you're saying, so, so, in the question, what, what has adding the MLP down?
+Speaker H: Yeah, so, actually, it, it decrease the accuracy because we have 88.6 and even the MLP alone, what gives the MLP alone?
+Speaker H: Multi-English PLP, oh no, it gives 83.6.
+Speaker H: So, we have 83.6 and 88.6 that gives 87.1.
+Speaker D: I thought it was 80.
+Speaker D: Okay, 83.6 and 88.6.
+Speaker F: Okay, is that right?
+Speaker I: Yeah.
+Speaker I: But, you don't know, but maybe if we have the neural network, it will be the PLP delta Delta Delta, maybe.
+Speaker I: Perhaps, yeah.
+Speaker D: But that's one thing. But see, the other thing is that, I mean, it's good to take the difficult case, but let's consider what that means.
+Speaker D: What, what we're saying is that, one of the things that, I mean, my interpretation of your, your, your, your suggestion is something like this, as motivation.
+Speaker D: When we train on data, that is in one sense or another similar to the testing data, then we get a wind by having a instrument in training.
+Speaker D: When we train on something that's quite different, we have a potential to have some problems.
+Speaker D: And, if we get something that helps us when it's somewhat similar and doesn't hurt us too much, when it, when it's quite different, that's maybe not so bad.
+Speaker D: So, the question is, if you took the same combination and you tried it out on, on, on, on, say digits, you know, was that experiment done?
+Speaker D: No, okay.
+Speaker D: Then, does that, you know, maybe with similar noise conditions and so forth, does it, does it then look much better?
+Speaker D: And so, what is the range over these different kinds of tests? So, anyway, okay.
+Speaker D: Yes.
+Speaker I: And, with this type of configuration, what I do, I experiment using the new neural net with, named BloodClath 27, and I have found more let the same result.
+Speaker H: So, it's slightly better.
+Speaker H: It's slightly better.
+Speaker I: Yeah, it's better, yes, it's better.
+Speaker D: And, and, you know, again, maybe if you use the delta there.
+Speaker D: Yeah, maybe.
+Speaker D: You bring it up to where it was, you know, at least about the same, for a difficult case.
+Speaker H: Yeah, so, well, so perhaps let's, let's jump at the last experiment.
+Speaker H: Yes.
+Speaker H: It's either less information from the neural network, if we use only the silence output, it's again better.
+Speaker H: So, it's 89.
+Speaker I: 40, 40, 40, 40, because in the situation, we prefer one kind of answer.
+Speaker I: Yeah.
+Speaker I: And then, with the first configuration, I am found that work, that's not work, work, work, but it's better the second configuration.
+Speaker I: Because, for the, in the PLP delta and delta delta, we have 85.3 agglance, and with the second configuration, we have 87.1.
+Speaker D: And, by the way, there was another suggestion that would apply to the second configuration, which was made by, and that was that if you have a feed two streams into HTK, and you change the variances, you scale the variances associated with these streams, you can effectively scale the streams.
+Speaker D: Right, so, you know, without changing the scripts, for HTK, which is the rule here, you can still change the variances, which would effectively change the scale of these two streams that come in.
+Speaker D: And so, if you do that, for instance, it may be the case that the MLP should not be considered as strongly.
+Speaker D: And so, this is just setting them to be equal weight. Maybe it shouldn't be equal weight. I'm sorry to say that gives more experiments if we want to look at that.
+Speaker D: Yeah, on the other hand, it's just experiments at the level of the HTK recognition. It's not even HTK. Well, I guess you have to do the HTK training also. Do you?
+Speaker D: Yeah, you have to change the... No, you can just do it. Once you've done the training, the training is just coming up with variances, so I guess you can scale them all.
+Speaker D: Scaled variances. But, is it... I mean, HTK models are diagonal variances, so... That's exactly the point I think that if you change what they are, it's diagonal variance matrices, but you say what those variances are.
+Speaker D: So, that, you know, it's diagonal means that then you're going to... It's going to generally multiply it.
+Speaker D: It's implicitly expenetuated to get probabilities, and so it's going to affect a range of things if you change the variances of some of the features. So, it's precisely given that model, you can very simply affect the strength of the two by the features.
+Speaker D: So, that was... I already suggested. Yeah. So... So, it could just be that repeating them equally, treating two streams equally is just not the right thing to do.
+Speaker D: Of course, it's potentially opening a can of worms because maybe it should be a different number of free queries. That's it.
+Speaker D: Okay. So, I guess the other thing is to take... Yeah, if you want more to take a couple of the most successful of these.
+Speaker H: Yeah, test, press everything. Yeah, try out these different tests.
+Speaker H: So, the next point here, we've had some discussion with Steven Chauen about the artillery stuff. So, we'll perhaps start something next week.
+Speaker H: The discussion with Inek, Sunil and Pratyba for trying to plug in our networks within their block diagram, where to plug in the network after the feature before or as a plug-in or as another path.
+Speaker H: The discussion about multi-bound traps actually in Inek would like to see, perhaps if you remember the block diagram, there is a temporal LDA followed by a spectral LDA for each critical bound.
+Speaker H: And it would like to replace these by a network which would make the system look like a trap. Well, basically it would be a trap system.
+Speaker H: Basically, this is a trap system, kind of trap system, I mean, but where the neural network are replaced by LDA.
+Speaker H: Yeah, and about multi-bound. I started multi-bound MLP training. Actually, I prefer to do exactly what I did when I was in Belgium.
+Speaker H: So, I take exactly the same configuration, seven bands with nine frames of context, which is trained on the T-MIT and on the large database. So, with Spine and everything.
+Speaker H: I started to train all the networks with larger contexts. So, this would be something between traps and multi-bound because we still have quite large bands, but with a lot of context also.
+Speaker H: Yeah, we still have to work on finish. Basically, to make a decision on which MLP can be the best across the different languages for the moment, it's the T-MIT network and perhaps the network trained on everything.
+Speaker H: So, we can test these two networks with delta and large networks. Test them also on finish and see which one is the best.
+Speaker H: Well, the next part of the document is basically a kind of summary of everything that has been done. So, we have 79 MLPs trained on 1, 2, 3, 4, 5, 10 on 10 different databases.
+Speaker H: The number of frames is also, so we have 1 million and half for some, 3 million for other and 6 million for the last one.
+Speaker H: Yeah, as we mentioned, T-MIT is the only that's unlabeled. And perhaps this is what makes the difference. Yeah, the other are just Viter B-Lite.
+Speaker H: So, these 79 MLPs differ on different things. First, with respect to the online normalization, there are that use bad online normalization and other good online normalization.
+Speaker H: With respect to the features, with respect to the use of delta or no, with respect to the hidden layer size and to the targets. But of course, we don't have all the combination of these different parameters.
+Speaker H: What's this? We only have 288 trained tests, not 2000. I was impressed by 2000.
+Speaker H: Yeah, basically the observation is what we discussed already, the MLG problem. The fact that the MLP trained on target task decreased the error rate.
+Speaker H: But when the MLP trained on the target task increased the error rate compared to using straight features. Except if the features are bad, actually except if the feature are not correctly online normalized.
+Speaker H: In this case, the T-M is still better even if it's trained on not on the target digits. Yeah, so it sounds like the net corrects some of the problems with some poor normalization. But if you can do good normalization, it's...
+Speaker H: So the fourth point is, yeah, the T-Mit plus noise seems to be the training set that gives the best network.
+Speaker D: Before you go on to the possible issue, so on the MSG problem, I think that in the short time solution, that is trying to figure out what we can proceed forward with to make the greatest progress.
+Speaker D: As I said with J-Rasta, I really like J-Rasta and I really like MSG. I think it's kind of in the category that it may be complicated.
+Speaker D: And it might be if someone's interested in it, certain encourage anybody to look into it in a longer term.
+Speaker H: So we get out of this particular rush for results, but in the short term, unless you have some strong idea of what's wrong.
+Speaker H: No bypass filter. Yeah, there's supposed to be an MSG. Supposed to have an online normalization now. There is an edge kind of a GC.
+Speaker D: Yeah, but also there's an online norm. Besides the a GC, there's an online normalization that you're supposed to be.
+Speaker D: Yeah, taking out means and variances and so forth. In fact, the online normalization that we're using came from the MSG design.
+Speaker H: Yeah, but this was the bad online normalization. Actually.
+Speaker I: Are you a result of still with the bad online two?
+Speaker H: Online two is good.
+Speaker D: Yeah, so yeah, I agree. It's probably something simple. If someone, you know, let's play with it for a little bit. I mean, you're going to do what you're going to do, but my guess would be that it's something that is a simple thing that could take a while to find.
+Speaker D: Yeah, and the other results observations two and three is, yeah, it's pretty much what we've seen that what we were concerned about is that if it's not on the target task, if it's on the target task, then it helps to have the MLP transforming it.
+Speaker D: If it's not on the target task, then depending on how different it is, you can get a reduction in performance.
+Speaker D: And the question is now how to get one and not the other or how to ameliorate the problems.
+Speaker D: Because it certainly does is nice to have in there when there is something like that.
+Speaker H: Yeah, so that's what you say.
+Speaker H: The reason is that perhaps the target, the task dependency, the language dependency, and the noise dependency.
+Speaker H: Well, but this is still not clear because I don't think we have enough result to talk about the language dependency.
+Speaker H: Well, the team network is still the best, but there is also the other difference, the fact that it's unlabeled.
+Speaker E: Hey.
+Speaker E: I don't have a link.
+Speaker D: I'm just sitting here.
+Speaker D: I don't think we want to mess with the microphones, but just have a seat.
+Speaker D: The summary of the first 45 minutes is that some stuff works and some stuff doesn't.
+Speaker H: Okay.
+Speaker H: We still have one of these.
+Speaker D: Yeah, I guess we can do a little better than that.
+Speaker D: I think if you start off with the other one, it sort of has it in words, and that has the associated result.
+None: Okay.
+Speaker D: So you're saying that although we see, yes, there's what you would expect in terms of a language dependency and a noise dependency.
+Speaker D: That is when the neural net is trained on one of those and tested on something different.
+Speaker D: You don't do as well as in the target thing, but you're saying that it is, although that general thing is observable so far, there's something you're not completely convinced about.
+Speaker D: And what is that?
+Speaker H: When you say not clear yet, what do you mean?
+Speaker H: I mean, the fact that for the IDGITs, the timet net is the best, which is the English net, but the other has likely worse.
+Speaker H: But you have to do affect the effect of changing language and the effect of training on something that's bitterly aligned instead of end and level.
+Speaker H: Yeah.
+Speaker D: Do you think the alignments are bad?
+Speaker D: I mean, have you looked at the alignments at all? What do the terribly alignments do?
+Speaker H: I don't know.
+Speaker H: Did you look at the Spanish alignments, Carmen?
+Speaker D: No.
+Speaker D: It's interesting to look at it, because I mean, that is just looking, but it's not clearly necessarily what you do so badly from a terribly aligned net.
+Speaker D: Depends on whether the ranking measure is that the engine is doing the alignment.
+Speaker F: Yeah.
+Speaker H: But perhaps it's not really the alignment that's bad, but just the phoneme string that's used for the alignment.
+Speaker H: The pronunciation.
+Speaker H: I mean, it's single pronunciation.
+Speaker H: French phoneme strings were corrected manually, so we ask people to listen to the sentence, and we give the phoneme string and they kind of correct them.
+Speaker H: But still, there might be errors just in the string of phonemes.
+Speaker H: Yeah, so this is not really the real deal, I mean.
+Speaker H: The third issue is the noise dependency, perhaps, but this is not clear yet, because all the nets are trained on the same noises.
+Speaker D: I thought some of the nets were trained with the spine and so forth, so they're not that nice.
+Speaker H: But the results are only coming for the nets.
+Speaker D: Okay, yeah, just don't need more results there with that.
+Speaker H: So, from these results, we have some questions with answers.
+Speaker H: What should be the network input?
+Speaker H: PLP work as well as MFCC, I mean.
+Speaker H: But it seems important to use the delta.
+Speaker H: We respect to the network size. There's one experiment that's still running, and we should have the result today, comparing networks with 500 and 1000 units.
+Speaker H: Still no answer actually.
+Speaker H: The training set, well, some kind of answer.
+Speaker H: We can tell which training set gives the best result, but we don't know exactly why.
+Speaker D: Right, I mean, the multi-English so far is the best.
+Speaker D: Multi-English just means Tim.
+Speaker D: So, yeah, so when you add other things into broad nets, it gets worse.
+Speaker H: So, some questions with answers. Training set.
+Speaker H: Training targets.
+Speaker D: I like that the training set is both questions with answers and without answers.
+Speaker D: It's multi-purpose.
+Speaker H: Training, so yeah, the training targets actually.
+Speaker H: The two of the main issues perhaps are still the language dependency and the noise dependency.
+Speaker H: And perhaps to try to reduce the language dependency, we should focus on finding some other kind of training targets.
+Speaker H: And labeling seems important because of the limit results.
+Speaker H: For a moment, we use phonetic targets, but we could also use articulatory targets, soft targets, perhaps even use networks that doesn't do classification, but just regression.
+Speaker H: So, trying to have neural networks that...
+Speaker H: There's a regression and, well, basically, compute features without noise.
+Speaker H: I mean, transform the noisy features in other features that are not noisy, but continuous features, not art targets.
+Speaker D: Yeah, that seems like a good thing to do, probably not again a short term sort of thing.
+Speaker D: I mean, one of the things about that is that...
+Speaker D: I guess the major risk you have there being is being dependent on the kind of noise.
+Speaker H: Yeah, but yeah, so this is...
+Speaker H: Well, this one thing could help perhaps to reduce language dependency and for the noise part, we could combine this with other approaches like, the clenchmit approach, so the idea of putting all the noise that we can find inside the database, I think clenchmit works using more than 50 different noises to train this network.
+Speaker H: So, this is one approach, and the other is multi-band.
+Speaker H: I think it's more robust to noise changes, so perhaps doing something like multi-band, train on a lot of noises with feature space targets.
+Speaker D: Yeah, if you could...
+Speaker D: It's interesting though, maybe if you just trained up, I mean, one fancy would be you have something like articulate-right targets, and you have some reasonable database, which is copied over many times with a range of different noises.
+Speaker D: And because what you're trying to do is come up with a core reasonable feature set, which is then going to be used by the HMF system.
+Speaker H: So, yeah, the future work is... well, try to connect to the... to plug in the system to the OGI system.
+Speaker H: There are still open questions there, where to put the MLB, basically.
+Speaker D: And I guess, you know, the real open question, I mean, there's lots of open questions, but one of the core core open questions for that is...
+Speaker D: If we take the best ones here, maybe not just the best ones, but the best few, or something, the most promising group from these other experiments, how well do they do over a range of these different tests, not just the Italian?
+Speaker D: And then, then, then, see, again, how we know that there's a loss of performance from the neural net is trained on conditions that are different than we're going to test on.
+Speaker D: But if you look over a range of these different tests, how well do these different ways combining the straight features with the MLB features stand out over that range?
+Speaker D: That seems like the real question, if you know that.
+Speaker D: So, if you just take PLP with double deltons, assume that's the feature.
+Speaker D: Look at these different ways of combining it, and take... let's say, just take multi-English, because that works pretty well for the training.
+Speaker D: Just look, take that case, and then look over all the different things. How does that compare between these?
+Speaker D: All the tests set. All different test sets, and for the couple different ways that you have of combining them.
+Speaker D: How well do they stand out over that?
+Speaker H: And perhaps doing this for changing the variance of the streams, and so on.
+Speaker H: That's another possibility.
+Speaker H: Different times.
+Speaker H: Yeah, so this would be more working on the MLP as an additional path instead of an insert to their diagram.
+Speaker H: Perhaps the insert idea is kind of strange because they make an LDA, and then we will, again, add a network that is discriminant and that...
+Speaker D: Yeah, this is a little strange, but on the other hand, they did before.
+Speaker H: And because of so perhaps we know that when we have very good features, the MLP doesn't help.
+Speaker D: So, I don't know.
+Speaker D: The other thing though is that...
+Speaker D: So, we want to get their path running here, right?
+Speaker D: So we can add this other stuff as an additional path, right?
+Speaker H: Yeah, the way we...
+Speaker D: Because what are doing LDA Rasta?
+Speaker D: What?
+Speaker D: They're doing LDA Rasta.
+Speaker H: Yeah, the way we want to do it, perhaps, is just to get the VAD labels and the final features.
+Speaker H: So they will send us the...
+Speaker H: Well, I see.
+Speaker H: So, the feature files and with the VAD binary labels so that we can get our MLP features and filter them with the VAD and then combine them with their feature stream.
+Speaker D: So, the first thing we're going to do there is to make sure that when we get those labels to the final features that we get the same result system without putting in a second path.
+Speaker H: Yeah.
+Speaker H: You mean...
+Speaker H: Yeah, just retraining...
+Speaker D: Yeah, just to make sure that we have...
+Speaker D: We understand properly what things are.
+Speaker D: The very first thing to do is to double check that we get the exact same results as the MLP and the K.
+Speaker D: I mean, I don't know that we need to...
+None:...training?
+Speaker D: I mean, we can just take their training files also, but just for the testing, just to make sure that we get the same results.
+Speaker D: We can duplicate it before we add in another...
+Speaker D:...because otherwise, yeah, we won't be able to do anything.
+Speaker H: Yeah, so LDA Rasta, I don't know if we want to...
+Speaker H: We can try networks with LDA Rasta, filter with features.
+None: I'm sorry.
+None: Yeah, well...
+None: Yeah.
+None: Oh, you know, the other thing is when you say...
+Speaker F: I'm sorry, I'm sorry, I'm sorry, I'm sorry, I'm sorry.
+Speaker D: When you're talking about combining MLP features, so, suppose we said, okay, we've got these different features and so forth, but the PLP seems pretty good.
+Speaker D: If we take the approach that Mike did, and have...
+Speaker D: I mean, one of the situations we have is we have these different conditions, different languages, we have different noises.
+Speaker D: If we have some drastically different conditions, then we're just trying to have different MLPs.
+Speaker D: And put them together. What Mike found for the reverberation case, at least, I mean, who knows if we'll work for these other ones, that you did have nice, interpretative effects.
+Speaker D: That is that, yes, if you knew what the reverberation condition was going to be, and you trained for that, then you got the best results.
+Speaker D: But if you had, say, a heavily reverberation case, and I know reverberation case, and then you fed the thing, something that was modest on a reverberation, then you get some results in between the two, so sort of behaviorism.
+Speaker D: That affair?
+Speaker E: Yeah, that's fair.
+Speaker E: It also seems like if you try to train a little bit, so much noise, you'll just like to put a little help in the right case,
+None: and you have space, so it's better. Yeah, so you think it's better to have several MLPs?
+Speaker F: Of course, it's easier.
+Speaker E: I don't know how you interpret this on.
+Speaker E: Yeah, I think I won't feel much for the work, but it's a lot of making it happen, which is a lot of pictures.
+Speaker D: It works better if what?
+Speaker E: Well, you were doing something that was, so maybe the analogy isn't quite right, you were doing something that was in a way a little better behaved.
+Speaker D: But, you know, it's a very simple variable, which is reverberation.
+Speaker D: Here the problem seems to be is that we don't have a really huge net with a really huge amount of training data, but we have, for this kind of task, I would think, sort of a modest amount, many million frames actually isn't that much.
+Speaker D: A modest amount of training data from a couple different conditions.
+Speaker D: So, the, that we anticipate in the test set in terms of language, and noise type, and channel characteristic, sort of all of them at a bunch of different dimensions.
+Speaker D: And so, I'm just concerned that we don't really have the data to train up.
+Speaker D: I mean, one of the things that we were seeing is that when we added in, we don't have a good explanation for this, we are seeing that we're adding in a few different databases, and the performance is getting worse.
+Speaker D: And we just take one of those databases, a pretty good one. It actually is better.
+Speaker D: And that says to me, yes, there might be some problems with the pronunciation models, some of the databases writing in or something like that, but one way or another, we don't have, seemingly, the ability to represent in the neural net of the size that we have, all of the variability that we're going to be covering.
+Speaker D: So, I'm hoping that this is another take on the efficiency arc we're making, which I'm hoping it would moderate size neural nets, that if we look at more constrained conditions, then we'll have enough parameters to really represent them.
+Speaker E: That also has a huge, and it's very online.
+Speaker E: I feel that I feel that the online conversation that we've over-bad, online conversation, has to do some extrusion.
+Speaker E: And take away the online conversation, online conversation, so that we can talk about that.
+Speaker G: So doing both is not right.
+Speaker E: That's not right, but if you fill in online conversation, then it might not be necessary to use the word that's going to be.
+Speaker D: I just sort of have a feeling, but yeah. I mean, I think it's true that the OGI-folk found that using LDA Rasta, which is a kind of log-rasta, it's just that they have, I mean, it's done the log domain as Eric Allen, and it's just that they've just trained up, right?
+Speaker D: That that benefited from online normalization.
+Speaker D: So they did, at least in their case, it did seem to be somewhat complimentary.
+Speaker D: So will it be in our case where we're using the neural net? I mean, they were not using the neural net.
+Speaker D: I don't know.
+Speaker D: Okay, so the other things you have here are trying to improve results from a single, yeah, make stuff better.
+Speaker D: Basically, yeah, and CPU memory issues, yeah, we've just sort of ignoring that.
+Speaker H: Yeah, so I don't know.
+Speaker H: Yeah, but I have to address this problem of CPU memory?
+Speaker D: Well, I think my impression, you folks have been looking at this more than me, but my impression was that there was a strict constraint on the delay.
+Speaker D: But beyond that, it was kind of that using less memory was better, using less CPU was better, something like that.
+Speaker F: Yeah, but yeah.
+Speaker H: So yeah, but we don't know. We have to get some reference point to where we, what's a reasonable number?
+Speaker H: Perhaps because it's too late or large.
+Speaker D: Well, I don't think we're completely off the wall. I mean, I think that if we have, I mean, the ultimate fallback that we could do, if we find, I mean, we find that we're not really going to worry about the MLP.
+Speaker D: Yeah, if the MLP ultimately, if they're all said and done, doesn't it really help? And we have it in. If the MLP does, we find help us enough in some conditions.
+Speaker D: We might even have more than one MLP. We could simply say that that is done on the server.
+Speaker D: And it's, we do the other manipulations that we're doing before that.
+Speaker D: So I think that's, that's okay.
+Speaker D: So I think the key thing was this plug-in doji.
+Speaker D: What are they, what are they going to be working on? We know what they're going to be working on while we take their features.
+Speaker H: They're starting to work on some kind of multiband. So that was pretty bad. Sunil, what was he doing?
+Speaker H: Sunil?
+Speaker H: Yeah. He was doing something new.
+Speaker I: I don't think so.
+Speaker I: I'm trying to tune.
+Speaker F: What? Networks?
+Speaker H: I think they were also mainly, well, working a little bit of new things like network and multiband, but mainly trying to tune their system as it is now.
+Speaker H: Just trying to get the best from this architecture.
+Speaker D: Okay, so I guess the way it would work is that you get, there be some point where you say, okay, this is their version one or whatever.
+Speaker D: And we get these VAD labels and features and so forth for all these test sets from them.
+Speaker D: And then that's what we work with.
+Speaker D: We have a certain level, we try to improve it with this other path.
+Speaker D: And then when it gets to be January, at some point, we say, okay, we have shown that we can improve this in this way.
+Speaker D: So now, what's your newest version?
+Speaker D: Maybe they'll have something that's better and then we combine it.
+Speaker D: This is always hard.
+Speaker D: I mean, I used to work with folks who were trying to improve a good HMEM system with the neural net system.
+Speaker D: And it was a common problem that you, oh, and this is actually a true not just for neural nets, but just for the general people working with rescoring and best lists or lattice systems.
+Speaker D: And then you get something from the other side at one point and you work really hard on making it better with rescoring.
+Speaker D: But they're working really hard too.
+Speaker D: So by the time you have improved their score, they have also improved their score.
+Speaker D: And now there isn't any difference because the other.
+Speaker D: So I guess at some point we'll have to, I don't know, I think we're integrated a little more tightly than happens.
+Speaker D: A lot of those cases, I think, at the moment they say that they have a better thing.
+Speaker D: What takes all the time here is that we're trying so many things, presumably, in a day we could turn around taking a new set of things from them and rescoring.
+Speaker D: Well, OK, I think this is good. I think that the most wide open thing is the issues about the different trainings, training targets and devices and so forth.
+Speaker H: So we can forget combining multiple features and MSG perhaps or focus more on the targets and on the training data.
+Speaker D: Yeah, I think for right now, I really like MSG. I think that one of the things I like about it is it has such different temporal properties.
+Speaker D: And I think that there is ultimately a really good potential for bringing in things with different temporal properties.
+Speaker D: But we only have limited time and there's a lot of other things we have to look at. It seems like much more core questions are issues about the training set and the training targets and fitting in what we're doing with what they're doing.
+Speaker D: But with limited time, yeah, I think we have to start cutting down. So I think so. And then, you know, once we have been going through this process and trying many different things, I would imagine certain things come up that you are curious about that you're not getting to.
+Speaker D: So when that does settles from the evaluation, I think that would be time to go back and take whatever intrigued you most, you know, got your most interested and work with it for the next round.
+Speaker D: As you can tell from these numbers, nothing that any of us are going to do is actually completely solve the problems.
+Speaker D: That's still exciting to do. Very, very quiet. Well, I figured that out.
+Speaker D: What were you involved in in this primarily?
+Speaker B: Helping out preparing, well, they've been kind of running all the experiments and stuff. I've been doing some work on the preparing all the data for them to train and to test out.
+Speaker B: Yeah, right now I'm focusing mainly on this final project I'm working on Jordan's class. What's that?
+Speaker B: I'm trying to, so there was a paper in ICSLP about this multi-band belief in that structure. This guy did basically use two HMMs with a dependency arrow between the two HMMs.
+Speaker B: I'm going to try coupling them instead of having the arrow that flows from one subband to another subband, trying having the arrows go both ways.
+Speaker B: I'm just going to see if that better models AC-creening in any way or... No? Yeah. That sounds interesting.
+Speaker D: Anything to do? No. Okay. Sound partner in the meeting. We got laughed out of them. Okay, everyone must contribute to our sound files here.
+Speaker D: Okay, so speaking of which, if we don't have anything else, we're happy with where we are. No, no, no, no, we're going. I think so. Yeah. Yeah. Do you happy? Yeah. Okay. Everyone, should be happy.
+Speaker D: You only have to be happy, you're almost done. Yeah. Okay.
+Speaker A: Actually, I should mention about the Linux machine in Sweden. Yeah. So it looks like the neural net tools are installed there. And Dan Ellis, I believe, knows something about using that machine.
+Speaker H: So if people are interested in getting jobs running on that, maybe I could help with that. Yeah, but I don't know if we really need a lot of machines.
+Speaker D: But we could start computing another niche table. Well, yeah, I think we want a different table, please. Yeah, sure.
+Speaker D: There's some different things that we're going to get at now. But yeah. So as far as you can tell, you're actually okay on CPU for training and so on.
+Speaker H: Yeah, I think so. Well, more is always better. But I don't think we have to train a lot of networks. You know, we just select what works fine.
+Speaker D: I'm okay. I'm okay. I'm okay. I'm disc.
+Speaker H: Okay. Yeah. Well, sometimes we have some problems. But they're correct. Yeah. We're starting to script busy. Yeah. Yeah.
+Speaker D: That's okay. Alright. So, we didn't give a channel out for you. You don't have to read the digits, but rest of it.
+Speaker D: Is it not? Well, I think I won't touch anything because I'm afraid of making the driver crash.
+Speaker D: It seems to do. Okay. So, I'll start off the connect my battery slow. Let's hope it works. Maybe you should go first.
+Speaker H: I'm reading transcript. 2571 to 590. 1943. 263.
+Speaker H: 24. 5. 7. 1. 8. 3067. 4. 4. 9. 3048. 4. 9. 9. 8. 4. 0. 1. 2. 0. 2. 8. 6. 9. 1. 4. 1. 5. 6. 9. 0. 7. 5. 4. 6. 6. 7. 8.
+Speaker H: 9. 00. 1. 2. 7. 3. 0. 7. 3.
+Speaker D: Transcript. 2. It's battery. Going down too. Oh, okay. I want you to go next.
+Speaker I: Transcript number 2511-2530. 1905. 004. 7. 1307. 2637. 2554.
+Speaker I: 3314. 354. 3314. 7. 0. 5. 6. 7. 0. 7. 9. 1. 0. 4. 0. 4. 7. 1. 7. 5. 2. 0. 4. 0.
+Speaker I: 234. 0. 5. 5. 2. 6. 8. 6. 8. 9. 0. 9. 0. 7. 6. 4. 7. 8. 6. 1. 9.
+Speaker D: Transcript. 2531-2550. 0. 0. 0. 0. 1035217. 311-0656. 4336-463.
+Speaker D: 5811-244. 699-7801. 8. 00. 9. 0. 1. 6. 0. 1. 2. 3. 8. 1. 2. 6. 0. 4. 3. 9. 4. 9. 5. 6. 0. 4. 8. 3. 8. 2. 4. 2. 9. 3. 3. 3. 0. 5.
+Speaker A: I'm reading transcript 2551-2570. 0. 0. 6. 6. 9. 5. 4. 7. 1. 2. 3. 0. 0. 5. 1. 6. 2. 5. 7. 7. 7. 7. 8. 9. 0. 0. 0. 5. 0. 8. 9. 0. 0. 8. 9. 0. 0. 0. 5. 0. 8. 9. 0. 0. 8. 9. 0. 0. 0. 8. 9. 9. 0. 0. 8. 9. 0. 0. 0. 8. 9. 0. 0. 0.
+Speaker A: 6 2 1 3 0 5 3 5 7 2 3 6 0 4 3 5 6 9 9 6 7 7 0 6 8 0 6 5 0 0 3 8 5 4 0 2
+Speaker B: I'm reading transcript 2491-2510 on Channel 2 8 9 0 7 9 0 2 1 4 0 6 2 6 3 1 3 8 2 205 8 4 4 5 6 0 8 8 1 2 0 6 9 6 2 0 4 4 3 0 7 3 0 7 1 2 0 5 4 1 5 1 5 6 6 9 7 5 9 1 3 8 7 2 9 7 2 6
+Speaker D: I guess we can turn off our microphones.
+None: I am always well gathered

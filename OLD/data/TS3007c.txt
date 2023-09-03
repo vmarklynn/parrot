@@ -1,0 +1,1947 @@
+0:00:00	SPEAKER_03
+ Hello again.
+
+0:00:04	SPEAKER_01
+ Hi.
+
+0:00:05	SPEAKER_01
+ Hey, Project Manager.
+
+0:00:07	SPEAKER_04
+ Project Manager, I'm talking to tell you I have little problems with my laptop.
+
+0:00:12	SPEAKER_04
+ Okay.
+
+0:00:13	SPEAKER_04
+ So I had a little less time to complete.
+
+0:00:16	SPEAKER_03
+ Okay.
+
+0:00:17	SPEAKER_04
+ A little problem.
+
+0:00:25	SPEAKER_04
+ What was it?
+
+0:00:28	SPEAKER_04
+ The laptop, the entire window.
+
+0:00:32	SPEAKER_04
+ It's hand.
+
+0:00:33	SPEAKER_04
+ Project Manager.
+
+0:00:35	SPEAKER_01
+ Yes.
+
+0:00:36	SPEAKER_05
+ Your Project Manager.
+
+0:00:40	SPEAKER_01
+ Welcome to the conceptual design meeting for real reaction.
+
+0:00:48	SPEAKER_03
+ Hello again.
+
+0:00:51	SPEAKER_03
+ It's the same as the last time.
+
+0:00:59	SPEAKER_03
+ Also this time there will be three presentations.
+
+0:01:03	SPEAKER_03
+ And we must reach the decision on the remote control concepts.
+
+0:01:10	SPEAKER_03
+ And at the end, when I finish it off, I have some info from a computer.
+
+0:01:20	SPEAKER_03
+ I'm from a master class.
+
+0:01:27	SPEAKER_02
+ Master.
+
+0:01:30	SPEAKER_01
+ Master.
+
+0:01:32	SPEAKER_03
+ The concepts where we must reach the decision on are from two sorts.
+
+0:01:44	SPEAKER_03
+ Component concepts and user interface concepts.
+
+0:01:54	SPEAKER_03
+ The first one is really about the total package with the, well, we have decided to do it with the touch screen.
+
+0:02:03	SPEAKER_03
+ But there must be a case around it, so it won't be as breakable.
+
+0:02:09	SPEAKER_03
+ How about the energy?
+
+0:02:11	SPEAKER_03
+ The interface concept with the type and the supplements were to put one button.
+
+0:02:19	SPEAKER_03
+ And I would say yes, can you begin?
+
+0:02:23	SPEAKER_03
+ Yeah, sure.
+
+0:02:24	SPEAKER_03
+ Okay.
+
+0:02:25	SPEAKER_03
+ At the end, I will take notes.
+
+0:02:27	SPEAKER_03
+ Okay.
+
+0:02:28	SPEAKER_03
+ At the end, the minutes will be at the shared corner.
+
+0:02:34	SPEAKER_00
+ And let me see.
+
+0:02:48	SPEAKER_00
+ I'll be talking about the components.
+
+0:02:53	SPEAKER_00
+ What I did was I reviewed previously used items by two different age groups below 45 and above.
+
+0:03:04	SPEAKER_00
+ And I just watched what the differences are.
+
+0:03:08	SPEAKER_00
+ I checked what to do we want and how can we aim at the target group.
+
+0:03:16	SPEAKER_00
+ Well, what I found was that a senior citizen, sorry, it's okay.
+
+0:03:27	SPEAKER_00
+ They like the traditional materials like wood and such more, wood and chrome.
+
+0:03:34	SPEAKER_00
+ And they like straightforward shapes.
+
+0:03:39	SPEAKER_00
+ They like luxurious styles, whereas the young and dynamic, they like more soft materials, think of the tilly-tilly-tobish, for instance, soft and fluffy and colorful.
+
+0:03:52	SPEAKER_00
+ Well, shapes are curved and round.
+
+0:03:55	SPEAKER_00
+ You get to have the picture.
+
+0:03:57	SPEAKER_00
+ And they like sports and gaming and it gives them vitality.
+
+0:04:02	SPEAKER_03
+ So, well, one little question about the material, a soft material for remote control.
+
+0:04:10	SPEAKER_00
+ No, I'll get to that.
+
+0:04:11	SPEAKER_00
+ You'll see.
+
+0:04:12	SPEAKER_00
+ Yeah.
+
+0:04:13	SPEAKER_00
+ First off, let's start with the energy.
+
+0:04:16	SPEAKER_00
+ I had a choice between a few different sources.
+
+0:04:20	SPEAKER_00
+ But the two basic sources that I found were the best possible were the battery versus kinetic.
+
+0:04:27	SPEAKER_00
+ When you move something, it gets energy.
+
+0:04:32	SPEAKER_00
+ I figured, well, that's kind of high-tech.
+
+0:04:34	SPEAKER_00
+ When you have any melt control, when you pick it up, it has power.
+
+0:04:38	SPEAKER_00
+ That would be actually very nice.
+
+0:04:40	SPEAKER_00
+ I figured.
+
+0:04:41	SPEAKER_00
+ We could also use a battery that's a bit...
+
+0:04:44	SPEAKER_01
+ When the power gets low, you have to shake it.
+
+0:04:46	SPEAKER_00
+ Yeah, you just have to shake it around a bit.
+
+0:04:49	SPEAKER_00
+ And then it has some more energy.
+
+0:04:52	SPEAKER_00
+ Oh, you could just go for a battery or you could go for both.
+
+0:04:57	SPEAKER_04
+ Have you considered the option of using a solar panel?
+
+0:04:59	SPEAKER_00
+ Yeah, I actually did.
+
+0:05:01	SPEAKER_00
+ But the thing is about solar panels, you have to have light.
+
+0:05:06	SPEAKER_00
+ Some light preferably.
+
+0:05:09	SPEAKER_00
+ You could use normal light, but you wouldn't get the same amount of energy that you would from a battery or something.
+
+0:05:16	SPEAKER_00
+ So, ultimate use of solar panels.
+
+0:05:22	SPEAKER_00
+ You could use solar panels, but you'd have to implement them into the remote control, leaving you a bit less space for the interface.
+
+0:05:34	SPEAKER_00
+ So, what's actually, I figured that seeing that you'll always be within the distance of TV from the TV comes a whole bunch of light.
+
+0:05:46	SPEAKER_00
+ So, it would actually power itself from the TV, but you would just take up all the space and you wouldn't have the full amount of power actually used.
+
+0:05:56	SPEAKER_00
+ But you prefer kinetic.
+
+0:05:57	SPEAKER_00
+ I prefer kinetic because it's...
+
+0:05:59	SPEAKER_00
+ Well, the costs aren't that much higher.
+
+0:06:02	SPEAKER_00
+ And it's just a bit more high-tech than a normal battery.
+
+0:06:06	SPEAKER_03
+ Yeah, if you don't move a remote, it could not.
+
+0:06:09	SPEAKER_00
+ No, but...
+
+0:06:10	SPEAKER_00
+ So, you pick it up and you press buttons and...
+
+0:06:13	SPEAKER_03
+ That's enough to keep the energy level...
+
+0:06:16	SPEAKER_00
+ Yeah, well, actually it is.
+
+0:06:18	SPEAKER_00
+ And if it isn't, you just shake it a bit and...
+
+0:06:21	SPEAKER_00
+ And it would power up again.
+
+0:06:23	SPEAKER_00
+ But like I said, you could use a battery that you'd just keep it on the recharging whenever it moves.
+
+0:06:28	SPEAKER_00
+ And for us, you'd just juice it on the battery.
+
+0:06:30	SPEAKER_01
+ And when the battery doesn't work, I usually shake it too.
+
+0:06:35	SPEAKER_01
+ I slam it on it.
+
+0:06:36	SPEAKER_00
+ Exactly.
+
+0:06:37	SPEAKER_00
+ Exactly.
+
+0:06:38	SPEAKER_00
+ Thank you, Tim.
+
+0:06:41	SPEAKER_00
+ Furthermore, you check the cases.
+
+0:06:45	SPEAKER_00
+ We have different options concerning the cases.
+
+0:06:48	SPEAKER_00
+ You simply add a basic standard model that was kind of square and I figured that's a bit boring.
+
+0:06:56	SPEAKER_00
+ So, you could go for the single curve or the double curve.
+
+0:07:00	SPEAKER_00
+ A single curve, it's just a nice curve.
+
+0:07:06	SPEAKER_00
+ But you could go in a double curve and that's like several different dimensions.
+
+0:07:11	SPEAKER_00
+ That gives you a whole new...
+
+0:07:13	SPEAKER_03
+ Dynamic loop.
+
+0:07:14	SPEAKER_00
+ Yeah, that gives you a younger and more high-tech look, I figured.
+
+0:07:18	SPEAKER_00
+ We'll discuss later.
+
+0:07:21	SPEAKER_01
+ Are you going to draw it?
+
+0:07:23	SPEAKER_00
+ What?
+
+0:07:24	SPEAKER_00
+ Do you want me to draw?
+
+0:07:26	SPEAKER_00
+ Yeah.
+
+0:07:27	SPEAKER_00
+ In 3D.
+
+0:07:28	SPEAKER_00
+ Yeah.
+
+0:07:29	SPEAKER_00
+ I can't imagine.
+
+0:07:31	SPEAKER_00
+ Yeah, I could show you.
+
+0:07:33	SPEAKER_00
+ I could show you.
+
+0:07:34	SPEAKER_00
+ Well, let's say you...
+
+0:07:39	SPEAKER_01
+ Yeah.
+
+0:07:40	SPEAKER_00
+ Let's say that's your standard...
+
+0:07:43	SPEAKER_01
+ Design?
+
+0:07:44	SPEAKER_01
+ Yeah.
+
+0:07:46	SPEAKER_00
+ That's a bit your standard design.
+
+0:07:51	SPEAKER_00
+ But you could actually go like something like this.
+
+0:07:58	SPEAKER_00
+ And then in 3D effect you could go...
+
+0:08:06	SPEAKER_00
+ So you just...
+
+0:08:08	SPEAKER_00
+ Yeah, this is a bit difficult to him.
+
+0:08:11	SPEAKER_00
+ I didn't take a major in art.
+
+0:08:14	SPEAKER_00
+ But you could have a whole new back.
+
+0:08:17	SPEAKER_00
+ The depth you could just play around a bit with.
+
+0:08:20	SPEAKER_00
+ You don't have to use standard...
+
+0:08:23	SPEAKER_03
+ A little artistic.
+
+0:08:24	SPEAKER_00
+ Yeah, it leaves more space for creativity.
+
+0:08:28	SPEAKER_00
+ It might be an idea, but just...
+
+0:08:32	SPEAKER_00
+ Well, plastic versus rubber, we could choose what's better.
+
+0:08:36	SPEAKER_00
+ Plastic or rubber.
+
+0:08:38	SPEAKER_00
+ I prefer rubber because it feels...
+
+0:08:41	SPEAKER_00
+ It's soft.
+
+0:08:42	SPEAKER_00
+ Yeah, it's soft.
+
+0:08:43	SPEAKER_00
+ I like soft.
+
+0:08:45	SPEAKER_00
+ You're from people, aren't they?
+
+0:08:47	SPEAKER_00
+ Yeah.
+
+0:08:48	SPEAKER_00
+ Plastic also has a cheap feeling to it.
+
+0:08:52	SPEAKER_00
+ Plastic... I usually associate plastic with something as cheap.
+
+0:08:57	SPEAKER_00
+ Maybe just me.
+
+0:09:00	SPEAKER_00
+ We could talk about a layer.
+
+0:09:04	SPEAKER_00
+ Furthermore, buttons, traditional touch screen.
+
+0:09:08	SPEAKER_00
+ Well, we discussed it in a previous meeting.
+
+0:09:10	SPEAKER_00
+ So I figured just leave it at LCD.
+
+0:09:14	SPEAKER_00
+ And chipset.
+
+0:09:15	SPEAKER_00
+ Well, if we are going to use traditional buttons, we could go with a simple chipset.
+
+0:09:21	SPEAKER_00
+ But if we decide to go on an LCD screen, we would use an advanced chipset, and that would bring the necessary cost with it.
+
+0:09:33	SPEAKER_00
+ So that's something we have to keep in mind.
+
+0:09:35	SPEAKER_00
+ If it isn't manageable budget-wise, we'd have to go off to simple buttons.
+
+0:09:41	SPEAKER_01
+ Well, I think we're going to sell 10 millions of them.
+
+0:09:47	SPEAKER_01
+ So I bet a big company in Korea or Taiwan, like Samsung, think of a big discount on chips.
+
+0:09:57	SPEAKER_01
+ Yeah, probably.
+
+0:09:58	SPEAKER_01
+ Usually chips aren't more expensive than $1.
+
+0:10:03	SPEAKER_00
+ Yeah, probably.
+
+0:10:05	SPEAKER_00
+ But yeah, that shouldn't be a real issue.
+
+0:10:08	SPEAKER_00
+ That shouldn't be that big issue.
+
+0:10:10	SPEAKER_00
+ I just had a... I put a big summary here, so we could discuss it a bit.
+
+0:10:15	SPEAKER_00
+ What are your ideas when concerning battery versus kinetic?
+
+0:10:20	SPEAKER_04
+ I think you should use kinetic as a backup.
+
+0:10:23	SPEAKER_00
+ Yeah, combination.
+
+0:10:25	SPEAKER_00
+ Yeah, combination.
+
+0:10:26	SPEAKER_00
+ You use the best thing and charge it up with kinetic.
+
+0:10:29	SPEAKER_00
+ When you pick it up, it charges up.
+
+0:10:31	SPEAKER_01
+ Like an...
+
+0:10:32	SPEAKER_01
+ Acu...
+
+0:10:33	SPEAKER_01
+ Yeah, yeah, yeah.
+
+0:10:35	SPEAKER_03
+ Just like the watch from Saika.
+
+0:10:38	SPEAKER_00
+ Yeah, exactly.
+
+0:10:40	SPEAKER_00
+ What do you think?
+
+0:10:42	SPEAKER_03
+ I would prefer both to combine them.
+
+0:10:47	SPEAKER_00
+ Okay.
+
+0:10:48	SPEAKER_00
+ Well, that would bring some more cost, but...
+
+0:10:52	SPEAKER_00
+ I mean...
+
+0:10:53	SPEAKER_00
+ Okay, right?
+
+0:10:55	SPEAKER_00
+ That's the project manager's problem too.
+
+0:10:58	SPEAKER_04
+ Fifty-cent.
+
+0:10:59	SPEAKER_04
+ Of course.
+
+0:11:00	SPEAKER_00
+ Yeah.
+
+0:11:01	SPEAKER_00
+ Fifty-cent.
+
+0:11:03	SPEAKER_00
+ And then we have single curve versus double curve.
+
+0:11:07	SPEAKER_04
+ Maybe I have something in my presentation to...
+
+0:11:11	SPEAKER_00
+ Okay.
+
+0:11:12	SPEAKER_00
+ No, we'll just wait.
+
+0:11:14	SPEAKER_00
+ Plastic versus rubber.
+
+0:11:16	SPEAKER_00
+ Rubber.
+
+0:11:17	SPEAKER_04
+ Rubber.
+
+0:11:18	SPEAKER_04
+ Isn't it possible to make combination what kind of rubber is?
+
+0:11:21	SPEAKER_04
+ It's an abandoned ball, so you've got to sit there around.
+
+0:11:25	SPEAKER_00
+ I figured it would be rather hard.
+
+0:11:28	SPEAKER_00
+ Rubber casing.
+
+0:11:29	SPEAKER_00
+ This is a casing, yeah.
+
+0:11:30	SPEAKER_00
+ Rubber casing because...
+
+0:11:31	SPEAKER_00
+ Or if you're using a touch screen, it's just a casing around it.
+
+0:11:37	SPEAKER_00
+ Yeah.
+
+0:11:38	SPEAKER_00
+ You could go for plastic, but I figured...
+
+0:11:40	SPEAKER_00
+ Yeah.
+
+0:11:41	SPEAKER_00
+ I would choose rubber.
+
+0:11:43	SPEAKER_04
+ Maybe I can ask it right now, the question that I have.
+
+0:11:46	SPEAKER_04
+ Is it possible...
+
+0:11:47	SPEAKER_04
+ Is it necessary to make a touch screen square?
+
+0:11:50	SPEAKER_04
+ It isn't, I think.
+
+0:11:52	SPEAKER_01
+ I don't know.
+
+0:11:53	SPEAKER_01
+ No.
+
+0:11:54	SPEAKER_01
+ I think touch screens are generally square.
+
+0:11:57	SPEAKER_01
+ But it's the case you put around it that makes it shape.
+
+0:12:00	SPEAKER_04
+ Especially in the trunnies.
+
+0:12:01	SPEAKER_04
+ No, maybe we can...
+
+0:12:02	SPEAKER_01
+ Yeah, okay, but if you have a square LCD screen, you put a case around it that has bulbs or that covers part of the LCD screen.
+
+0:12:13	SPEAKER_00
+ Yeah, that would solve...
+
+0:12:15	SPEAKER_00
+ That would solve...
+
+0:12:16	SPEAKER_00
+ Customizable.
+
+0:12:17	SPEAKER_00
+ Okay, I guess.
+
+0:12:18	SPEAKER_00
+ So, what are the opinions?
+
+0:12:22	SPEAKER_00
+ Rubber or plastic?
+
+0:12:23	SPEAKER_00
+ I prefer rubber.
+
+0:12:24	SPEAKER_00
+ Me too.
+
+0:12:25	SPEAKER_00
+ Me too.
+
+0:12:26	SPEAKER_00
+ Yeah, you too.
+
+0:12:27	SPEAKER_00
+ You sure?
+
+0:12:28	SPEAKER_04
+ You seem to hesitate a bit.
+
+0:12:29	SPEAKER_04
+ As long as it's firm and you don't...
+
+0:12:31	SPEAKER_04
+ Yeah.
+
+0:12:32	SPEAKER_04
+ It's not bendable or something.
+
+0:12:33	SPEAKER_04
+ I think that goes too far.
+
+0:12:35	SPEAKER_00
+ Yeah, it shouldn't flop over when you hold it.
+
+0:12:38	SPEAKER_00
+ Yeah.
+
+0:12:39	SPEAKER_00
+ No, no, no, no, no.
+
+0:12:41	SPEAKER_00
+ That's...
+
+0:12:42	SPEAKER_00
+ The chipset will hold it from place and the LCD screen will...
+
+0:12:46	SPEAKER_04
+ I think it bows back where you'd drop the...
+
+0:12:49	SPEAKER_00
+ Yeah, it might.
+
+0:12:51	SPEAKER_00
+ Traditional versus LCD, well, I figured we all...
+
+0:12:56	SPEAKER_00
+ Yeah.
+
+0:12:57	SPEAKER_00
+ And then also the simple versus advanced.
+
+0:13:00	SPEAKER_00
+ I figure if we go for LCD, we should have the advanced.
+
+0:13:04	SPEAKER_00
+ So that shouldn't be a problem.
+
+0:13:06	SPEAKER_00
+ Okay, well, that's my...
+
+0:13:07	SPEAKER_03
+ Thank you.
+
+0:13:08	SPEAKER_01
+ You're welcome.
+
+0:13:09	SPEAKER_01
+ Can I do my thing?
+
+0:13:11	SPEAKER_01
+ Yeah.
+
+0:13:12	SPEAKER_01
+ Do your thing.
+
+0:13:13	SPEAKER_01
+ Bring it on.
+
+0:13:19	SPEAKER_01
+ Expert map.
+
+0:13:20	SPEAKER_01
+ Okay.
+
+0:13:27	SPEAKER_01
+ Last week.
+
+0:13:31	SPEAKER_01
+ I went to Paris and Milan, which I'm trans-watching, from marketing.
+
+0:13:40	SPEAKER_01
+ Our research and development department and I went to Paris and Milan.
+
+0:13:46	SPEAKER_01
+ In Paris and Milan, we asked different people differing in age and in income, the amount of money to spend.
+
+0:13:58	SPEAKER_01
+ What they like in design and material nowadays.
+
+0:14:06	SPEAKER_01
+ Findings.
+
+0:14:07	SPEAKER_01
+ Our main audience, so that's people below 40, prefer the following.
+
+0:14:14	SPEAKER_01
+ At first, the colors of fruit, very basic colors, like Jana's explained.
+
+0:14:21	SPEAKER_01
+ Fresh colors, green, red, strawberry, red, yellow, banana, yellow.
+
+0:14:32	SPEAKER_01
+ Considering material, they like spongy material, like in a sponge bar, like soft material.
+
+0:14:44	SPEAKER_01
+ Jana mentioned it also.
+
+0:14:46	SPEAKER_01
+ I think he did some findings himself.
+
+0:14:51	SPEAKER_01
+ You were in Paris.
+
+0:14:54	SPEAKER_01
+ Like this.
+
+0:14:57	SPEAKER_01
+ Like big fleshy colors.
+
+0:15:00	SPEAKER_01
+ Fresh.
+
+0:15:01	SPEAKER_01
+ It's nice, I think.
+
+0:15:05	SPEAKER_01
+ Okay.
+
+0:15:06	SPEAKER_01
+ Our secondary audience, people above 40 years in age, they like the dark traditional colors.
+
+0:15:17	SPEAKER_01
+ Yeah.
+
+0:15:18	SPEAKER_01
+ Materials like wood.
+
+0:15:19	SPEAKER_02
+ Yeah.
+
+0:15:20	SPEAKER_02
+ Not a material which will build a remote controller.
+
+0:15:24	SPEAKER_01
+ Oh, you could.
+
+0:15:25	SPEAKER_01
+ No.
+
+0:15:26	SPEAKER_01
+ You could.
+
+0:15:27	SPEAKER_01
+ Yeah, but never seen.
+
+0:15:28	SPEAKER_01
+ No, okay, but just a wooden, okay.
+
+0:15:31	SPEAKER_01
+ Look.
+
+0:15:32	SPEAKER_01
+ Yeah.
+
+0:15:33	SPEAKER_01
+ Like you have those fake panels on the floor.
+
+0:15:37	SPEAKER_01
+ That isn't wood anyway.
+
+0:15:39	SPEAKER_01
+ Okay.
+
+0:15:40	SPEAKER_01
+ But that's our secondary audience.
+
+0:15:43	SPEAKER_01
+ So we decided to take the people below 40.
+
+0:15:49	SPEAKER_01
+ That doesn't apply.
+
+0:15:52	SPEAKER_01
+ Okay, the third.
+
+0:15:54	SPEAKER_01
+ There are some overall thoughts about new remote controls.
+
+0:15:58	SPEAKER_01
+ They have to look fancy.
+
+0:16:02	SPEAKER_01
+ They should be technological innovative.
+
+0:16:05	SPEAKER_01
+ That means they have to be fancy things in and easy to use, but that's common.
+
+0:16:14	SPEAKER_01
+ My personal preferences.
+
+0:16:17	SPEAKER_01
+ We have to aim at our main audience and therefore use fresh colors.
+
+0:16:23	SPEAKER_03
+ Would you prefer that you can choose the color of your remote control?
+
+0:16:29	SPEAKER_01
+ Oh, I'll come to that in a second point.
+
+0:16:31	SPEAKER_01
+ Yeah, think about removable covers as you know, a mobile telephone market, customize your own remote control.
+
+0:16:38	SPEAKER_01
+ Like the Nokia, the removable covers, just put a red on it and go to the shop and buy a green one.
+
+0:16:45	SPEAKER_01
+ A third material being used could well be stuff like rubber.
+
+0:16:51	SPEAKER_01
+ Two advantages.
+
+0:16:54	SPEAKER_01
+ It fits within the current market trends and it adds safety to your remote when you drop it.
+
+0:17:03	SPEAKER_01
+ So to come back to your question, I think any people in Milan and Paris also think that the rubber should be pretty hard.
+
+0:17:13	SPEAKER_01
+ Like seeing on regular mobile phones.
+
+0:17:19	SPEAKER_01
+ Actually, they have a lot in common.
+
+0:17:23	SPEAKER_00
+ Actually, it's all a phone that you could use in your remote.
+
+0:17:27	SPEAKER_03
+ Maybe you could use your remote as a phone.
+
+0:17:30	SPEAKER_01
+ That'd be a next step.
+
+0:17:33	SPEAKER_01
+ Exactly.
+
+0:17:35	SPEAKER_01
+ My second sheet of personal preferences.
+
+0:17:38	SPEAKER_01
+ We have to reconsider the speech function recognition.
+
+0:17:42	SPEAKER_01
+ It's very innovative.
+
+0:17:45	SPEAKER_02
+ So that you say SPSS and it goes through?
+
+0:17:48	SPEAKER_01
+ Yeah, like something.
+
+0:17:49	SPEAKER_01
+ You can see that a market is just screaming for new technologies like speech recognition and stuff.
+
+0:17:57	SPEAKER_01
+ But we have to keep the cost in mind.
+
+0:18:00	SPEAKER_01
+ Well, 50 years.
+
+0:18:02	SPEAKER_01
+ It can be very expensive.
+
+0:18:05	SPEAKER_01
+ Okay, second, building games like Snake or Tetris.
+
+0:18:14	SPEAKER_03
+ Also, the link with mobile phones.
+
+0:18:16	SPEAKER_03
+ Yeah, but you don't use the games when you're watching television.
+
+0:18:19	SPEAKER_01
+ No, okay.
+
+0:18:20	SPEAKER_01
+ But you don't use games when you're making a telephone call.
+
+0:18:23	SPEAKER_01
+ It's just the same.
+
+0:18:25	SPEAKER_04
+ When your parents are watching some boring program, you can take your remote and do something else.
+
+0:18:29	SPEAKER_01
+ Yeah.
+
+0:18:30	SPEAKER_01
+ Yeah, okay.
+
+0:18:31	SPEAKER_01
+ When you're at college.
+
+0:18:33	SPEAKER_00
+ You can take your remote to school.
+
+0:18:35	SPEAKER_01
+ You also take your iPad and go play games.
+
+0:18:41	SPEAKER_01
+ Oh, I do that.
+
+0:18:44	SPEAKER_01
+ Okay, and at third, I stick with it.
+
+0:18:49	SPEAKER_01
+ The login functionality with the slogan, take parental control to a new dimension.
+
+0:18:56	SPEAKER_05
+ Very nice.
+
+0:18:58	SPEAKER_03
+ Oh, so great.
+
+0:19:28	SPEAKER_04
+ Okay.
+
+0:19:35	SPEAKER_04
+ You interface content.
+
+0:19:38	SPEAKER_04
+ Well, it's just a simple PowerPoint markup.
+
+0:19:41	SPEAKER_04
+ I want to make it more dynamic for you, so I'll draw there.
+
+0:19:45	SPEAKER_04
+ But the main concept is take one big touch screen.
+
+0:19:52	SPEAKER_04
+ Always display the primary buttons, clear and visible.
+
+0:19:57	SPEAKER_04
+ Maybe even like this with uses of a lot of space.
+
+0:20:02	SPEAKER_04
+ And make the menu structure changeable.
+
+0:20:05	SPEAKER_04
+ So if you press system, yeah, well, multiple system options can maybe five or ten or one can fit in.
+
+0:20:14	SPEAKER_04
+ Or maybe even a step further when you want to have some other options that are not programmable with one horizontal button.
+
+0:20:25	SPEAKER_04
+ Other buttons can maybe display it here if that's necessary.
+
+0:20:29	SPEAKER_04
+ Well, how do we want to look at?
+
+0:20:33	SPEAKER_04
+ Yeah, that's a remote look.
+
+0:20:35	SPEAKER_04
+ Well, you've got to hold it in one hand.
+
+0:20:38	SPEAKER_04
+ So the middle, like all remotes have to be a little bit small so you can put it in inside your hands.
+
+0:20:49	SPEAKER_04
+ And some remotes you can use with a thumb, but I think that's too difficult for this one.
+
+0:20:54	SPEAKER_04
+ So you can make it a little broader here and here.
+
+0:20:59	SPEAKER_04
+ And maybe use your thumb on the main buttons and use your other hand on the menu structure.
+
+0:21:08	SPEAKER_04
+ So here are going to be the program buttons, one, two, three, four, etc.
+
+0:21:14	SPEAKER_04
+ And the volume control and program control maybe.
+
+0:21:19	SPEAKER_04
+ And down here, this could be one big LCD menu structure.
+
+0:21:29	SPEAKER_04
+ So you can use it in this way.
+
+0:21:38	SPEAKER_04
+ One thing you've got to keep in mind, keep the remote clear of too much functions at the same time.
+
+0:21:45	SPEAKER_04
+ Note that if you are changing the menu structure here, and well, I still believe you should keep displaying the buttons, but if you're programming the color of the TV, do not display 20 other options that are possible.
+
+0:22:00	SPEAKER_04
+ Just keep it as simple as possible.
+
+0:22:03	SPEAKER_04
+ And do not use too many levels.
+
+0:22:05	SPEAKER_04
+ Do not have to select a screen first and then brightness and then color and on plus and on push plus 20 times.
+
+0:22:12	SPEAKER_04
+ But just in one button, if possible.
+
+0:22:17	SPEAKER_04
+ And well, in all noted TV levels, channel one, two, and when you get to ten and want to go back, well, you have a problem, just most modern TV, you press one, zero and you go to ten and not to one and zero after that.
+
+0:22:35	SPEAKER_04
+ So a button less and things like teletext put them in the menu, things like, yeah.
+
+0:22:46	SPEAKER_01
+ What do you think about a back and forth club buttons?
+
+0:22:50	SPEAKER_01
+ Yeah, yeah, like in the index bar.
+
+0:22:53	SPEAKER_04
+ I was trying to tell that it's volume plus and minus and this is program plus a minus.
+
+0:23:03	SPEAKER_01
+ Okay, but that is for going from four to five.
+
+0:23:07	SPEAKER_01
+ Yes, but if you go from two to eight to one.
+
+0:23:10	SPEAKER_04
+ Oh, you're watching two sports on seventeen and your wife is watching.
+
+0:23:14	SPEAKER_04
+ You can switch on two easy.
+
+0:23:16	SPEAKER_04
+ Well, yes, I think that's a good idea.
+
+0:23:18	SPEAKER_04
+ But well, my question is would you be put it in the menu?
+
+0:23:23	SPEAKER_04
+ Yeah.
+
+0:23:24	SPEAKER_04
+ And if you're using that button a lot of times, well, of course, that menu will still be displayed on screen.
+
+0:23:29	SPEAKER_04
+ You just don't have to play games in between.
+
+0:23:33	SPEAKER_04
+ But if you're really switching between two channels, you won't have time to use the other options.
+
+0:23:39	SPEAKER_04
+ Yeah, well, already told that.
+
+0:23:44	SPEAKER_04
+ That's why I conclude here.
+
+0:23:48	SPEAKER_03
+ Okay.
+
+0:23:52	SPEAKER_03
+ I think we can discuss a little about the three kind of revolutionary things Tim came with.
+
+0:24:00	SPEAKER_03
+ This parental control games and the voice recognition.
+
+0:24:05	SPEAKER_03
+ There's not too much decision on that one.
+
+0:24:09	SPEAKER_03
+ So I think the parental control is a good function to put in the remote.
+
+0:24:15	SPEAKER_03
+ I don't know how you think about it.
+
+0:24:18	SPEAKER_04
+ Well, I agree, just put it in the menu structures somewhere.
+
+0:24:23	SPEAKER_04
+ Yeah, but properties and parents.
+
+0:24:26	SPEAKER_01
+ What I see, how I see it is you put it on the remote.
+
+0:24:33	SPEAKER_01
+ And then you have like a Windows log on screen with parents, children, something like that.
+
+0:24:43	SPEAKER_01
+ When you want to use a parents option.
+
+0:24:46	SPEAKER_04
+ It has to be fast. You don't want to go down and watch the news at eight o'clock and turn it on.
+
+0:24:51	SPEAKER_04
+ And wait 20 seconds for the log on screen and then remember your code and all kinds of settings.
+
+0:24:57	SPEAKER_03
+ Yeah, but I think most people find it much more important that their children don't watch sexual violence on the television.
+
+0:25:07	SPEAKER_03
+ And wait 10 or 15 seconds longer so they can finally watch it.
+
+0:25:12	SPEAKER_04
+ And then they use like Windows XP simple log on to just push one or two or three.
+
+0:25:19	SPEAKER_04
+ And if you push parents then you have to log in, go to three digits and if you log in, like two, one, three.
+
+0:25:28	SPEAKER_01
+ And it's in.
+
+0:25:29	SPEAKER_04
+ And if you push children, you don't have to automatically go.
+
+0:25:33	SPEAKER_04
+ But you can all have children's shadows over there.
+
+0:25:37	SPEAKER_00
+ I don't know if it's worth the time and effort we're going to spend on it because it's a simple function but it's going to take a lot of resources and a lot of time into programming because you'll have to start working with profiles and such.
+
+0:25:52	SPEAKER_00
+ And I'm not sure if it's actually worth investing that much time and effort into it.
+
+0:25:57	SPEAKER_03
+ Well, I think that there's big markets for it because you're in many times in magazines and stuff and you're in the news that they believe that children are influenced by television and we're aiming to below 40 years.
+
+0:26:18	SPEAKER_03
+ But there are a lot of people below 40 who have children in young age who want them to not watch violence or violence.
+
+0:26:27	SPEAKER_04
+ Well, maybe some ID on that. Just make the remote as it is.
+
+0:26:34	SPEAKER_04
+ But make an option to insert profiles because if my granddad would buy this remote, he wouldn't want to bother with all the obligations and things to do.
+
+0:26:45	SPEAKER_04
+ Just make it an option in the menu, install profiles or something.
+
+0:26:50	SPEAKER_01
+ Yeah.
+
+0:26:51	SPEAKER_03
+ That's a better idea.
+
+0:26:53	SPEAKER_01
+ It just has to be when it's delivered out of the store.
+
+0:26:58	SPEAKER_01
+ It has to be just simple and plain.
+
+0:27:01	SPEAKER_01
+ If you want to install a person, if I got kids, I could choose between two remote controls, one with parent control and one without.
+
+0:27:18	SPEAKER_01
+ And I would buy the one with.
+
+0:27:21	SPEAKER_04
+ I have still some questions I have about how to incorporate it.
+
+0:27:25	SPEAKER_04
+ As you were thinking about some channels that you cannot see.
+
+0:27:29	SPEAKER_04
+ Well, when I think you have all the standard channels and only maybe after 10 o'clock in the evening, the films and movies will come.
+
+0:27:41	SPEAKER_04
+ Maybe some timing will be needed instead of channels because if you're watching it, I don't know.
+
+0:27:52	SPEAKER_04
+ At day cartoons will come up, maybe Friday night.
+
+0:27:55	SPEAKER_04
+ I don't know.
+
+0:27:56	SPEAKER_03
+ Maybe it can work with showview.
+
+0:27:59	SPEAKER_03
+ You can control your video recorder with showview when you take in the number.
+
+0:28:04	SPEAKER_03
+ It will start and end recording.
+
+0:28:07	SPEAKER_03
+ But maybe there's some option that the kind of showview numbers are violent and they are blocked out.
+
+0:28:15	SPEAKER_04
+ This one just font is just that someone has to send all the showview numbers on the program's day to three modes.
+
+0:28:23	SPEAKER_04
+ And it will have to decide.
+
+0:28:25	SPEAKER_01
+ Yeah, but that isn't possible.
+
+0:28:27	SPEAKER_00
+ Well, if we incorporate the parental control, that's how we do it.
+
+0:28:36	SPEAKER_00
+ Well, whatever charges go up to the TV and pressures up, for instance.
+
+0:28:42	SPEAKER_00
+ Well, nobody stopping the child from checking the channel.
+
+0:28:50	SPEAKER_04
+ Well, yeah, you could say if parental control is on, it will go from 14 to 16 with that page up.
+
+0:28:58	SPEAKER_00
+ Oh, I'm not sure because for that to happen, you'll have to receive a signal from the remote control.
+
+0:29:05	SPEAKER_00
+ So it would have to be constant signaling.
+
+0:29:09	SPEAKER_00
+ But what maybe better is to incorporate a separate device that you can program with the remote control.
+
+0:29:17	SPEAKER_00
+ And that provides parental control, for instance.
+
+0:29:20	SPEAKER_00
+ And that's just an optional device.
+
+0:29:23	SPEAKER_00
+ So besides the remote control, you'll have a separate...
+
+0:29:28	SPEAKER_03
+ I wouldn't put it in an optional device.
+
+0:29:30	SPEAKER_03
+ And that it becomes too much, I think.
+
+0:29:33	SPEAKER_03
+ If we do it, we must do it in a kind of way, like a parent profile, and other ways.
+
+0:29:40	SPEAKER_01
+ And you know, when you install another device, children can still go up to the TV, pop open the thing.
+
+0:29:52	SPEAKER_00
+ Yeah, that's true.
+
+0:29:53	SPEAKER_00
+ But in the same instance, when you have remote control.
+
+0:29:58	SPEAKER_00
+ Yeah, of course.
+
+0:29:59	SPEAKER_00
+ But only difference is that people buying the remote control will now get added feature of parental control.
+
+0:30:07	SPEAKER_00
+ And those people wouldn't necessarily want it.
+
+0:30:09	SPEAKER_00
+ Yeah, it is.
+
+0:30:10	SPEAKER_00
+ Yeah, okay.
+
+0:30:11	SPEAKER_01
+ But it's just an added feature.
+
+0:30:14	SPEAKER_03
+ Okay, and what do you guys think of the games in the voice recognition?
+
+0:30:19	SPEAKER_03
+ I personally think that it becomes too much.
+
+0:30:21	SPEAKER_03
+ Yeah, well, yeah.
+
+0:30:22	SPEAKER_04
+ It's more like it gets you to the functionality.
+
+0:30:24	SPEAKER_04
+ Email to from management that it's very popular to use voice recognition.
+
+0:30:29	SPEAKER_04
+ But I don't think when you're watching TV and hearing loud noises from the TV, someone screaming, Ah, one! And you're channel smetches.
+
+0:30:38	SPEAKER_01
+ Yeah, like, voice recognition is too much, I think.
+
+0:30:42	SPEAKER_01
+ Okay, in games?
+
+0:30:43	SPEAKER_01
+ In games.
+
+0:30:44	SPEAKER_01
+ In those...
+
+0:30:45	SPEAKER_01
+ Yeah, I can see games happening.
+
+0:30:46	SPEAKER_04
+ Yeah, I put it on the chip anyway.
+
+0:30:48	SPEAKER_04
+ That doesn't look as good as it is.
+
+0:30:51	SPEAKER_04
+ It's a recent primary feature of the remote.
+
+0:30:54	SPEAKER_01
+ And that doesn't cost a lot of extra resources.
+
+0:30:57	SPEAKER_03
+ So that will... that must be in it, do you think?
+
+0:31:00	SPEAKER_00
+ Yeah, that would be nice.
+
+0:31:02	SPEAKER_03
+ Okay.
+
+0:31:03	SPEAKER_03
+ So the games are in it, the voice recognition are not an apparent control or...
+
+0:31:08	SPEAKER_01
+ Oh, it's in it, but...
+
+0:31:11	SPEAKER_01
+ But how do we do it?
+
+0:31:12	SPEAKER_01
+ I think so.
+
+0:31:13	SPEAKER_04
+ Well, I think also it's a good idea, but it's very difficult to incorporate.
+
+0:31:18	SPEAKER_04
+ So we should make it too complex.
+
+0:31:21	SPEAKER_04
+ Some manual function, you choose parental control and maybe profiles will emerge when you put it on.
+
+0:31:27	SPEAKER_04
+ But how it's going to work?
+
+0:31:30	SPEAKER_03
+ Yeah, it'll be perfect.
+
+0:31:31	SPEAKER_03
+ But will there...
+
+0:31:35	SPEAKER_03
+ Like the first idea from... you can buy it without...
+
+0:31:39	SPEAKER_03
+ With parental control?
+
+0:31:41	SPEAKER_03
+ Or are we going to put it in and just...
+
+0:31:44	SPEAKER_04
+ I think best would be to put it in and to make it in the menu option.
+
+0:31:48	SPEAKER_04
+ Yeah, to put it in always.
+
+0:31:50	SPEAKER_04
+ Yeah.
+
+0:31:51	SPEAKER_04
+ And you can just... when you buy it, you can select personal preference and prepare the control home and prepare for it or something.
+
+0:32:00	SPEAKER_00
+ Well, I don't know. I figured if you had two different remotes, you could choose one with...
+
+0:32:06	SPEAKER_00
+ Well, a receiver in it.
+
+0:32:09	SPEAKER_00
+ So you could actually easily build in parental control, but it would be more expensive.
+
+0:32:16	SPEAKER_00
+ So in that way, you could make cheap model and expensive model.
+
+0:32:20	SPEAKER_00
+ You could make the simple model and do large model for instance.
+
+0:32:25	SPEAKER_01
+ Oh, that's it.
+
+0:32:26	SPEAKER_01
+ Yeah, but...
+
+0:32:27	SPEAKER_01
+ DVs aren't capable of sending.
+
+0:32:29	SPEAKER_00
+ Yes, they are.
+
+0:32:30	SPEAKER_00
+ Yeah.
+
+0:32:31	SPEAKER_01
+ I thought they were just able to receive it.
+
+0:32:34	SPEAKER_03
+ Yeah, some, but most of them...
+
+0:32:37	SPEAKER_00
+ Yeah, that is true.
+
+0:32:39	SPEAKER_04
+ Maybe you just have to restrict it to what program.
+
+0:32:42	SPEAKER_04
+ So the parent says you cannot watch channel 7, 9 and 10.
+
+0:32:45	SPEAKER_04
+ Yeah.
+
+0:32:46	SPEAKER_04
+ And you cannot watch all channels after 10 o'clock and just some little clock in the...
+
+0:32:51	SPEAKER_04
+ Yeah, you could easily...
+
+0:32:52	SPEAKER_00
+ Just some rules.
+
+0:32:53	SPEAKER_00
+ You could easily do that with the remote control, but you still have the problem about the television itself.
+
+0:32:59	SPEAKER_04
+ Oh, no, it's very simple.
+
+0:33:01	SPEAKER_04
+ I have seen some of the remotes who have a clock in it.
+
+0:33:03	SPEAKER_04
+ Yeah, yeah, yeah.
+
+0:33:04	SPEAKER_04
+ So the remote doesn't transmit when it's off the clock.
+
+0:33:07	SPEAKER_04
+ Yeah, okay.
+
+0:33:08	SPEAKER_01
+ But on the TV, at least my TV, is a compartment which you can press.
+
+0:33:15	SPEAKER_01
+ And there are buttons behind it which you can use.
+
+0:33:18	SPEAKER_01
+ If you don't have a...
+
+0:33:20	SPEAKER_04
+ Food is very blunt, that's not our problem.
+
+0:33:23	SPEAKER_04
+ Just have the parents buy some glue and it's not part of the remote.
+
+0:33:28	SPEAKER_00
+ Yeah, of course.
+
+0:33:29	SPEAKER_00
+ Yeah, that is true.
+
+0:33:30	SPEAKER_00
+ Yeah, that is true.
+
+0:33:32	SPEAKER_00
+ Yeah, you could go...
+
+0:33:34	SPEAKER_00
+ Yeah, that would actually make things a lot more easy.
+
+0:33:37	SPEAKER_00
+ You could just blame it on television.
+
+0:33:40	SPEAKER_00
+ Make it that problem.
+
+0:33:42	SPEAKER_05
+ Yeah.
+
+0:33:43	SPEAKER_00
+ I think we could do that.
+
+0:33:45	SPEAKER_00
+ Yeah, sure.
+
+0:33:47	SPEAKER_00
+ I'm not sure what marketing thinks about it, but...
+
+0:33:50	SPEAKER_00
+ I have to...
+
+0:33:53	SPEAKER_01
+...consolve my legal advice.
+
+0:33:55	SPEAKER_03
+ Okay, so I think we have decided on the things that...
+
+0:34:03	SPEAKER_03
+ From Janus, the energy, the combination between battery and kinetic.
+
+0:34:08	SPEAKER_03
+ The case will be double-curved and rubber in a flashy, fruity color.
+
+0:34:15	SPEAKER_03
+ And with cover is removable.
+
+0:34:18	SPEAKER_03
+ The buttons will be touchscreen, but there may not be too many buttons.
+
+0:34:24	SPEAKER_03
+ And in the menu structure, there must not be five minutes to go.
+
+0:34:32	SPEAKER_03
+ Too many levels and it must be easy to use.
+
+0:34:37	SPEAKER_03
+ The parental control will be incorporated, but it must be not too complex.
+
+0:34:43	SPEAKER_03
+ And the games are in it.
+
+0:34:45	SPEAKER_03
+ So, I think we have...
+
+0:34:48	SPEAKER_03
+ Consensus.
+
+0:34:49	SPEAKER_03
+ Okay.
+
+0:34:50	SPEAKER_01
+ A little more...
+
+0:34:52	SPEAKER_01
+ Oh, I have one thing left.
+
+0:34:54	SPEAKER_01
+ Yeah.
+
+0:34:55	SPEAKER_01
+ Maybe for Jerome.
+
+0:34:56	SPEAKER_01
+ Yeah.
+
+0:34:57	SPEAKER_01
+ The fuse.
+
+0:35:00	SPEAKER_01
+ Maybe it's handy to build in an expert view and a simple view.
+
+0:35:06	SPEAKER_03
+ Like a mode or something.
+
+0:35:08	SPEAKER_03
+ Yeah.
+
+0:35:09	SPEAKER_01
+ Like in an expert view, you have a lot of...
+
+0:35:11	SPEAKER_01
+ Yeah, if you have anything...
+
+0:35:12	SPEAKER_04
+...thinking about it is just a menu structure when you don't use it.
+
+0:35:15	SPEAKER_04
+ It's simple.
+
+0:35:16	SPEAKER_03
+ Yeah.
+
+0:35:17	SPEAKER_04
+ When you put system properties, entire list pops up with...
+
+0:35:20	SPEAKER_04
+...all kind of stuff you can put.
+
+0:35:22	SPEAKER_01
+ Yeah, okay.
+
+0:35:23	SPEAKER_03
+ It's already incorporated a little in a concept.
+
+0:35:25	SPEAKER_00
+ You could actually build in a function that you can program it yourself for the more advanced users.
+
+0:35:30	SPEAKER_00
+ Yeah.
+
+0:35:31	SPEAKER_00
+ Which buttons do you want to in it?
+
+0:35:34	SPEAKER_00
+ Because you can build on the back-forward button and somebody would just want to watch two channels.
+
+0:35:40	SPEAKER_00
+ Yeah.
+
+0:35:41	SPEAKER_01
+ Just leave the other numbers away.
+
+0:35:43	SPEAKER_00
+ Yeah.
+
+0:35:44	SPEAKER_00
+ You could have people want to...
+
+0:35:46	SPEAKER_00
+ We take it to the other meeting, okay?
+
+0:35:48	SPEAKER_03
+ Okay.
+
+0:35:50	SPEAKER_03
+ A little chat to do and then we finish.
+
+0:35:52	SPEAKER_03
+ I went to a master class and two things can come in handy for us.
+
+0:35:59	SPEAKER_03
+ First thing is we talked about knowledge management, knowledge engineering and the fact that the idea of knowledge sharing and learning knowledge from other companies is all like that.
+
+0:36:14	SPEAKER_03
+ It's very hot at the moment. So it's mostly for the management expert to look what other marketing...
+
+0:36:20	SPEAKER_03
+ Marketing.
+
+0:36:21	SPEAKER_01
+ What did I said, management?
+
+0:36:22	SPEAKER_03
+ Management.
+
+0:36:23	SPEAKER_03
+ Just talking about myself.
+
+0:36:25	SPEAKER_03
+ Yeah, that's helpful.
+
+0:36:31	SPEAKER_01
+ Okay.
+
+0:36:32	SPEAKER_03
+ Go on.
+
+0:36:33	SPEAKER_03
+ What other companies had to do also with the marketing campaign when they put on a newer remote, just some...
+
+0:36:40	SPEAKER_03
+...amort expert.
+
+0:36:42	SPEAKER_03
+ And another one.
+
+0:36:45	SPEAKER_03
+ There are... yeah, benchmarking.
+
+0:36:47	SPEAKER_03
+ That's the word I saw.
+
+0:36:49	SPEAKER_03
+ I couldn't...
+
+0:36:51	SPEAKER_03
+ Okay.
+
+0:36:52	SPEAKER_03
+ Another thing is there was a survey and it came out that people like to buy things from a single large provider instead of those who are partnering with us.
+
+0:37:06	SPEAKER_03
+ So we must bring it as if a real reaction is a big company, a trustful company and...
+
+0:37:15	SPEAKER_01
+ I know a marketing name for a product.
+
+0:37:17	SPEAKER_01
+ Okay.
+
+0:37:18	SPEAKER_01
+ R to the third power.
+
+0:37:21	SPEAKER_01
+ R3.
+
+0:37:22	SPEAKER_01
+ Real reaction remote.
+
+0:37:24	SPEAKER_03
+ I had another idea to put the idea of a real reaction and a single brand and that kind of thing.
+
+0:37:34	SPEAKER_03
+ When you put on the remote, you see kind of just like when you tell a little animation.
+
+0:37:40	SPEAKER_03
+ Real reaction remote.
+
+0:37:43	SPEAKER_03
+ And with the motto, we put fashion in electronics.
+
+0:37:47	SPEAKER_03
+ And then you go...
+
+0:37:49	SPEAKER_01
+ Okay, but it has to be like a split second because you have to put in a code also.
+
+0:37:54	SPEAKER_04
+ You can show somebody a logo for.5 seconds.
+
+0:37:57	SPEAKER_04
+ They'll still remember it.
+
+0:37:59	SPEAKER_03
+ Yeah.
+
+0:38:00	SPEAKER_03
+ But lingo on every time you see it.
+
+0:38:02	SPEAKER_03
+ The idea from this thing is that we must present it as we are a single large provider who will stand on our own.
+
+0:38:08	SPEAKER_00
+ If you have the LCD screen, you can have a small logo at the bottom and you could just stay there.
+
+0:38:15	SPEAKER_00
+ That spins around.
+
+0:38:16	SPEAKER_01
+ Yeah, that spins around.
+
+0:38:17	SPEAKER_03
+ Also, but we are...
+
+0:38:20	SPEAKER_01
+ It's just like a globe in the internet.
+
+0:38:23	SPEAKER_01
+ Yeah, yeah.
+
+0:38:24	SPEAKER_01
+ Yeah, yeah.
+
+0:38:25	SPEAKER_01
+ Yeah, something like that.
+
+0:38:26	SPEAKER_03
+ Okay, but the small icon.
+
+0:38:27	SPEAKER_03
+ Think about that kind of thing.
+
+0:38:28	SPEAKER_03
+ That's what they said in the master club.
+
+0:38:30	SPEAKER_03
+ And she never.
+
+0:38:33	SPEAKER_03
+ Next meeting starts in 30 minutes.
+
+0:38:36	SPEAKER_03
+ So maybe you can go to Paris and Milana.
+
+0:38:39	SPEAKER_01
+ What's the game?
+
+0:38:40	SPEAKER_01
+ Who gave you the master class?
+
+0:38:41	SPEAKER_01
+ The master class.
+
+0:38:42	SPEAKER_01
+ Ronald Bathenberg.
+
+0:38:43	SPEAKER_03
+ French men, actually.
+
+0:38:45	SPEAKER_01
+ Okay, thanks.
+
+0:38:47	SPEAKER_03
+ Very special.
+
+0:38:49	SPEAKER_03
+ Next session.
+
+0:38:51	SPEAKER_03
+ ID, the industrial development center.
+
+0:38:57	SPEAKER_03
+ We'll work together on a prototype.
+
+0:39:01	SPEAKER_03
+ And we'll drawing it on the smart board.
+
+0:39:03	SPEAKER_03
+ So that's a kind of new one, I think.
+
+0:39:07	SPEAKER_03
+ And the marketing expert will be keeping busy with the product evaluation.
+
+0:39:14	SPEAKER_03
+ But the most specific instructions will be sent to you by email.
+
+0:39:17	SPEAKER_00
+ So we're going to work together right now?
+
+0:39:20	SPEAKER_03
+ Yeah, well, this is what I heard.
+
+0:39:23	SPEAKER_03
+ In the master class.
+
+0:39:28	SPEAKER_03
+ So you just wait for the specific instructions.
+
+0:39:32	SPEAKER_03
+ But I think it was a very good session.
+
+0:39:35	SPEAKER_03
+ Gentlemen.
+
+0:39:36	SPEAKER_03
+ Definitely.
+
+0:39:37	SPEAKER_04
+ No new.
+
+0:39:38	SPEAKER_04
+ Me too.
+
+0:39:39	SPEAKER_03
+ Well, thank you all.
+
+0:39:41	SPEAKER_01
+ Oh, thank you.
+
+0:39:42	SPEAKER_01
+ Thank you.
+
+0:39:43	SPEAKER_01
+ Thank you very much.
+
+0:39:44	SPEAKER_03
+ Thank you too.
+
+0:39:45	SPEAKER_03
+ Give me a good graduation.
+
+0:39:46	SPEAKER_03
+ Okay, guys.
+
+0:39:50	SPEAKER_03
+ You were a success.
+
+0:39:51	SPEAKER_03
+ Cheers.
+
+0:39:52	SPEAKER_03
+ See you in a whole hour.
+
+0:39:57	SPEAKER_03
+ But keep an eye on your laptop.
+
+0:40:00	SPEAKER_00
+ I'm not sure if we only, because I saw something about individual actions.
+
+0:40:04	SPEAKER_03
+ Yeah, but there's still my instructions that you will work together.
+
+0:40:10	SPEAKER_04
+ Yeah.
+
+0:40:11	SPEAKER_04
+ Here?
+
+0:40:12	SPEAKER_04
+ That's not my problem.
+
+0:40:13	SPEAKER_03
+ Bye bye.
+
+0:40:14	SPEAKER_03
+ No, I'm still managing.
+
+0:40:16	SPEAKER_03
+ The product manager always works alone.
+

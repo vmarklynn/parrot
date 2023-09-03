@@ -1,0 +1,2673 @@
+0:00:00	SPEAKER_03
+ A, A.
+
+0:00:04	SPEAKER_03
+ It's a string.
+
+0:00:08	SPEAKER_03
+ Test.
+
+0:00:12	SPEAKER_03
+ Test.
+
+0:00:16	SPEAKER_04
+ Test.
+
+0:00:20	SPEAKER_04
+ Test.
+
+0:00:24	SPEAKER_04
+ Test.
+
+0:00:30	SPEAKER_04
+ So, let's see.
+
+0:00:32	SPEAKER_04
+ Yeah, Barry's not here and Dave's not here.
+
+0:00:36	SPEAKER_04
+ I can say about this quickly to get through it.
+
+0:00:40	SPEAKER_04
+ David, I submitted this.
+
+0:00:42	SPEAKER_04
+ This is for you.
+
+0:00:44	SPEAKER_06
+ Yes, I do.
+
+0:00:48	SPEAKER_04
+ Yeah, it's interesting.
+
+0:00:50	SPEAKER_04
+ I mean, basically, we're dealing with reverberation.
+
+0:00:53	SPEAKER_04
+ When we deal with pure reverberation technique, it's using works really, really well.
+
+0:00:57	SPEAKER_04
+ When they have reverberation in here, we'll measure the signalized ratio.
+
+0:01:02	SPEAKER_04
+ It's about 9 dB.
+
+0:01:05	SPEAKER_04
+ So, fair amount of...
+
+0:01:07	SPEAKER_05
+ I mean, for that actual recording.
+
+0:01:11	SPEAKER_04
+ Yeah.
+
+0:01:14	SPEAKER_04
+ And actually, it brought up a question, which may be relevant to the Aurora stuff, too.
+
+0:01:18	SPEAKER_04
+ I know that when you figured out the filters that we're using for the MellScale, there were some experimentation that went on at OGI.
+
+0:01:31	SPEAKER_04
+ But one of the differences that we found between the two systems that we were using, the Aurora HTK system, baseline system, and the system that we were...
+
+0:01:41	SPEAKER_04
+ The other system we were using, the SRI system, was that the SRI system had maybe 100 hertz high pass.
+
+0:01:49	SPEAKER_04
+ And the Aurora HTK was like 24.
+
+0:01:53	SPEAKER_03
+ 64.
+
+0:01:55	SPEAKER_04
+ Yeah. If you're using the baseline...
+
+0:01:57	SPEAKER_04
+ Is that the band center?
+
+0:01:59	SPEAKER_03
+ No, the edge.
+
+0:02:00	SPEAKER_04
+ The edge is really 64.
+
+0:02:02	SPEAKER_04
+ Some reason...
+
+0:02:04	SPEAKER_00
+ So, the center would be somewhere around like 100 and...
+
+0:02:08	SPEAKER_00
+ 100 and 100 and maybe it's like 100 hertz.
+
+0:02:13	SPEAKER_04
+ But do you know, for instance, how far down there would be at 20 hertz?
+
+0:02:18	SPEAKER_04
+ What, how much rejection would there be at 20 hertz?
+
+0:02:21	SPEAKER_04
+ At 20 hertz.
+
+0:02:22	SPEAKER_04
+ Yeah, any idea what the curve looks like?
+
+0:02:25	SPEAKER_00
+ 20 hertz frequency...
+
+0:02:30	SPEAKER_00
+ Oh, it's zero at 20 hertz, right?
+
+0:02:32	SPEAKER_00
+ The filter?
+
+0:02:33	SPEAKER_01
+ Actually, the left edge of the first filter is 64.
+
+0:02:37	SPEAKER_00
+ So anything less than 64 is zero.
+
+0:02:39	SPEAKER_04
+ It's actually set to zero.
+
+0:02:41	SPEAKER_04
+ Yeah. You can filter that.
+
+0:02:43	SPEAKER_04
+ Oh, from the...
+
+0:02:44	SPEAKER_01
+ This is the filter bank.
+
+0:02:45	SPEAKER_01
+ Oh, so you're going to be doing this?
+
+0:02:47	SPEAKER_00
+ Yeah, it's zero.
+
+0:02:48	SPEAKER_00
+ Yeah, so it's a weight on the power spectrum.
+
+0:02:51	SPEAKER_00
+ Triangular weighting.
+
+0:02:52	SPEAKER_04
+ Right.
+
+0:02:53	SPEAKER_04
+ Okay.
+
+0:02:54	SPEAKER_04
+ Okay.
+
+0:02:56	SPEAKER_04
+ So that's still different than Dave thought, I think.
+
+0:02:59	SPEAKER_04
+ But still, it's possible that we're getting in some more noise.
+
+0:03:05	SPEAKER_04
+ So I wonder, was there...
+
+0:03:07	SPEAKER_04
+ There was experimentation with, say, throwing away that filter or something?
+
+0:03:11	SPEAKER_04
+ And...
+
+0:03:13	SPEAKER_00
+ Throwing away the first?
+
+0:03:15	SPEAKER_00
+ Yeah.
+
+0:03:17	SPEAKER_00
+ Okay, we've tried including the full band, right, from zero to four k.
+
+0:03:24	SPEAKER_00
+ And that's always worse than using 64 hertz.
+
+0:03:28	SPEAKER_04
+ Right.
+
+0:03:29	SPEAKER_04
+ But the question is whether 64 hertz is too low.
+
+0:03:35	SPEAKER_00
+ Yeah, I mean, make it 100 or something?
+
+0:03:38	SPEAKER_00
+ Yeah.
+
+0:03:39	SPEAKER_00
+ I think I've tried 100 and it was...
+
+0:03:42	SPEAKER_00
+ More or less the same as likely was.
+
+0:03:44	SPEAKER_00
+ On the same speech that car.
+
+0:03:47	None
+ Aurora.
+
+0:03:48	SPEAKER_04
+ It was on the speech that car.
+
+0:03:51	SPEAKER_00
+ Yeah.
+
+0:03:52	SPEAKER_00
+ So I tried 100 to 4 k.
+
+0:03:55	SPEAKER_00
+ Yeah.
+
+0:03:56	SPEAKER_04
+ So it was...
+
+0:03:59	SPEAKER_04
+ And on the...
+
+0:04:01	SPEAKER_04
+ The address also.
+
+0:04:04	SPEAKER_03
+ No, no, no.
+
+0:04:06	SPEAKER_00
+ I think I just tried it on speech that car.
+
+0:04:09	SPEAKER_04
+ Maybe something to look at sometime because what he was looking at was performance in this room.
+
+0:04:20	SPEAKER_04
+ Would that be more like...
+
+0:04:23	SPEAKER_04
+ Well, you think that'd be more like speech that car, I guess, in terms of the noise.
+
+0:04:27	SPEAKER_04
+ The speech that car is more sort of roughly stationary, a lot of it.
+
+0:04:32	SPEAKER_04
+ Yeah.
+
+0:04:33	SPEAKER_04
+ And TI digits maybe is not so much.
+
+0:04:35	SPEAKER_04
+ Yeah.
+
+0:04:36	SPEAKER_03
+ Yeah.
+
+0:04:37	SPEAKER_03
+ Okay, well maybe it's not a big deal.
+
+0:04:40	SPEAKER_04
+ But anyway, that was just something we wondered about.
+
+0:04:43	SPEAKER_04
+ But certainly a lot of the noise is below 100 hertz.
+
+0:04:50	SPEAKER_04
+ The signalized ratio looks fair and mouth better if you have passed filter it from this room.
+
+0:04:56	SPEAKER_04
+ But it's still pretty noisy.
+
+0:04:58	SPEAKER_04
+ Even 100 hertz up, it's still fairly noisy.
+
+0:05:01	SPEAKER_04
+ The signalized ratio is actually still pretty bad.
+
+0:05:06	SPEAKER_04
+ So, I mean, the main...
+
+0:05:09	SPEAKER_04
+ So that's something.
+
+0:05:10	SPEAKER_05
+ The far field.
+
+0:05:11	SPEAKER_05
+ Yeah, that's the far field.
+
+0:05:13	SPEAKER_04
+ Yeah, the near field would be pretty good.
+
+0:05:15	SPEAKER_05
+ So what is...
+
+0:05:16	SPEAKER_05
+ What's causing that?
+
+0:05:18	SPEAKER_04
+ Well, we got a video projector in here.
+
+0:05:21	SPEAKER_04
+ And which we keep on during every session we record.
+
+0:05:26	SPEAKER_04
+ We were aware of, but we thought it wasn't a bad thing.
+
+0:05:30	SPEAKER_04
+ That's a nice noise source.
+
+0:05:32	SPEAKER_04
+ And there's also the air conditioning, which is pretty low frequency kind of thing.
+
+0:05:42	SPEAKER_04
+ So those are major components, I think, for the stationary kind of stuff.
+
+0:05:50	SPEAKER_04
+ But I guess I've maybe said this last week too, but it really became apparent to us that we need to take a count of noise.
+
+0:05:58	SPEAKER_04
+ So I think when he gets done with his pre-limps study, I think one of the next things we want to do is to take this noise processing stuff and synthesize some speech from it.
+
+0:06:11	SPEAKER_04
+ What are his pre-limps?
+
+0:06:13	SPEAKER_04
+ I think in about a little less than two weeks.
+
+0:06:17	SPEAKER_02
+ Oh, wow.
+
+0:06:19	SPEAKER_04
+ Yeah.
+
+0:06:21	SPEAKER_04
+ Yeah.
+
+0:06:22	SPEAKER_04
+ So.
+
+0:06:25	SPEAKER_03
+ It might even be sooner.
+
+0:06:28	SPEAKER_03
+ I see this is 16th, 17th.
+
+0:06:31	SPEAKER_03
+ Yeah, I don't know if it's before.
+
+0:06:33	SPEAKER_05
+ It might even be a week.
+
+0:06:35	SPEAKER_05
+ So a week we can have.
+
+0:06:36	SPEAKER_04
+ I guess they were going to do it sometime during the semester.
+
+0:06:39	SPEAKER_04
+ They seem to be...
+
+0:06:40	SPEAKER_04
+ Well, the semester actually is starting out.
+
+0:06:42	SPEAKER_04
+ Is it already?
+
+0:06:43	SPEAKER_04
+ Yeah, the semester is late August.
+
+0:06:45	SPEAKER_04
+ They start here.
+
+0:06:46	SPEAKER_04
+ So they do it right at the beginning of the semester.
+
+0:06:49	SPEAKER_04
+ Yeah.
+
+0:06:51	SPEAKER_04
+ So, yeah, I mean, that was sort of one... I mean, the overall results seemed to be first place in the case of either artificial reverberation or a modest sized training set either way.
+
+0:07:06	SPEAKER_04
+ It helped a lot.
+
+0:07:09	SPEAKER_04
+ But if you had a really big training set, a recognizer system that was capable of taking advantage of a really large training set.
+
+0:07:18	SPEAKER_04
+ So one thing with the HTK is that it has...
+
+0:07:21	SPEAKER_04
+ As we're using... the configuration we're using is being gone by the terms of Aurora.
+
+0:07:26	SPEAKER_04
+ We have all those parameters just set as they are.
+
+0:07:29	SPEAKER_04
+ So even if we had 100 times as much data, we wouldn't go out to, you know, 10 or 100 times as many Gaussian or anything.
+
+0:07:36	SPEAKER_04
+ So it's kind of hard to take advantage of big chunks of data.
+
+0:07:42	SPEAKER_04
+ Whereas the other one does sort of expand as you have more training data.
+
+0:07:46	SPEAKER_04
+ So that's what's about the matric rate actually.
+
+0:07:49	SPEAKER_04
+ And so that one really benefited from the larger set.
+
+0:07:53	SPEAKER_04
+ And it was also a diverse set with different noises and so forth.
+
+0:07:57	SPEAKER_04
+ So that seemed to be...
+
+0:08:01	SPEAKER_04
+ So if you have that better recognizer, that can build up more parameters.
+
+0:08:07	SPEAKER_04
+ And if you have the natural room, which in this case has a pretty bad signal noise ratio, then in that case...
+
+0:08:15	SPEAKER_04
+ The right thing to do is just to use speaker adaptation.
+
+0:08:20	SPEAKER_04
+ And not bother with the psychostica processing.
+
+0:08:24	SPEAKER_04
+ But I think that that would not be true if we did some explicit noise processing as well as the kind of additional kind of things we were doing.
+
+0:08:33	SPEAKER_04
+ So that's sort of what we found.
+
+0:08:38	SPEAKER_05
+ I started working on the city state recognizer.
+
+0:08:52	SPEAKER_05
+ Oh, OK.
+
+0:08:53	SPEAKER_05
+ So I got a touch with Joe and from your email and things like that.
+
+0:08:58	SPEAKER_05
+ They added me to the list.
+
+0:09:00	SPEAKER_05
+ Oh, good question.
+
+0:09:01	SPEAKER_05
+ The mailing list.
+
+0:09:02	SPEAKER_05
+ He gave me all the pointers and everything that I needed.
+
+0:09:05	SPEAKER_05
+ So I downloaded the... There were two things that they had to download.
+
+0:09:10	SPEAKER_05
+ One was the software.
+
+0:09:13	SPEAKER_05
+ And another was a sample.
+
+0:09:17	SPEAKER_05
+ So I downloaded the software.
+
+0:09:20	SPEAKER_05
+ And piled all of that.
+
+0:09:22	SPEAKER_05
+ Oh, great.
+
+0:09:24	SPEAKER_05
+ And I grabbed the sample stuff that I haven't...
+
+0:09:28	SPEAKER_00
+ That sample was released only yesterday or the day before, right?
+
+0:09:31	SPEAKER_05
+ Well, I haven't grabbed that one yet.
+
+0:09:33	SPEAKER_05
+ So there was another short sample.
+
+0:09:36	SPEAKER_05
+ So I haven't grabbed the latest one that he just...
+
+0:09:39	SPEAKER_05
+ Oh, OK.
+
+0:09:40	SPEAKER_05
+ But the software is going to be fine and everything.
+
+0:09:46	SPEAKER_04
+ Is there any word yet about the issues about adjustments for different future sets?
+
+0:09:52	SPEAKER_05
+ No.
+
+0:09:53	SPEAKER_05
+ You asked me to write to him and I think I forgot to ask him about that.
+
+0:09:58	SPEAKER_05
+ I don't remember yet.
+
+0:10:03	SPEAKER_05
+ I'll check that.
+
+0:10:04	SPEAKER_05
+ Yeah.
+
+0:10:05	None
+ Yeah.
+
+0:10:06	SPEAKER_04
+ So that turned out to be an important issue for us.
+
+0:10:11	SPEAKER_04
+ Yeah.
+
+0:10:12	SPEAKER_05
+ Because they have...
+
+0:10:14	SPEAKER_05
+ The old send is the best.
+
+0:10:17	SPEAKER_00
+ Because they have already frozen those insertion penalties and all those stuff is what I feel.
+
+0:10:24	SPEAKER_00
+ Because they have this document explaining the recognizer and they have this tables with various language model weights insertion penalties.
+
+0:10:36	SPEAKER_05
+ OK.
+
+0:10:37	SPEAKER_00
+ I haven't seen that one yet.
+
+0:10:38	SPEAKER_00
+ It's there on that.
+
+0:10:39	SPEAKER_00
+ And on that, I mean, they have run some experiments using various insertion penalties and all those things.
+
+0:10:45	SPEAKER_00
+ Yeah.
+
+0:10:46	SPEAKER_04
+ I think they picked the values for what test set?
+
+0:10:51	SPEAKER_00
+ So the one that they have reported is NIST evaluation Wall Street Journal.
+
+0:10:57	SPEAKER_04
+ But that has nothing to do with testing.
+
+0:11:00	SPEAKER_00
+ So they are actually trying to fix those values using the clean training part of the Wall Street Journal, which is...
+
+0:11:12	SPEAKER_00
+ I mean, the Aurora.
+
+0:11:13	SPEAKER_00
+ Aurora has a clean subset.
+
+0:11:15	SPEAKER_00
+ I mean, they're going to train it and then they're going to run some evaluations.
+
+0:11:18	SPEAKER_04
+ So they're setting it based on that.
+
+0:11:21	SPEAKER_04
+ OK. So now we may come back to the situation where we may be looking for a modification of the features to account for the fact that we can't modify these parameters.
+
+0:11:33	SPEAKER_04
+ But it's still worth, I think, just chatting with Joe about the issue.
+
+0:11:39	SPEAKER_05
+ Do you think that something I should just send to him or do you think I should send it to this?
+
+0:11:44	SPEAKER_05
+ I'm mailing this.
+
+0:11:45	SPEAKER_04
+ Well, it's not a secret. We're certainly willing to talk about it with everybody.
+
+0:11:48	SPEAKER_04
+ But I think that it's probably best to start talking with him just to...
+
+0:11:56	SPEAKER_04
+ Yeah, it's a dialogue between two of you about what, you know, what does he think about this and what could be done about it.
+
+0:12:03	SPEAKER_04
+ If you get 10 people involved in it, there'll be a lot of perspectives based on you.
+
+0:12:10	SPEAKER_04
+ But I think it all should come up eventually. But if there's any way to move in a way that would be more open to different kinds of features.
+
+0:12:20	SPEAKER_04
+ But if there isn't, it's just kind of shut down.
+
+0:12:24	SPEAKER_04
+ And that's also, it's probably not worthwhile bringing it into a larger form where political issues will come in.
+
+0:12:30	SPEAKER_04
+ OK.
+
+0:12:31	SPEAKER_00
+ So this is now... It's compiled on a Solaris.
+
+0:12:36	SPEAKER_00
+ Yeah. Because there was some mail saying that it's not stable for Linux and all those.
+
+0:12:41	SPEAKER_05
+ Yeah, that was a particular version.
+
+0:12:43	SPEAKER_05
+ Soos. Yeah. Soos. Yeah.
+
+0:12:46	SPEAKER_03
+ Yeah.
+
+0:12:47	SPEAKER_03
+ OK.
+
+0:12:48	SPEAKER_03
+ So it should be OK.
+
+0:12:50	SPEAKER_05
+ It could be compiled by actually no errors.
+
+0:12:53	SPEAKER_04
+ There's a slightly off topic, but I noticed just glancing at the Hopkins Workshop website that...
+
+0:13:05	SPEAKER_04
+ I don't know, we'll see how much they accomplished. One of the things that they were trying to do.
+
+0:13:09	SPEAKER_04
+ And the graphical models thing was to put together a toolkit for doing arbitrary graphical models for speech recognition.
+
+0:13:21	SPEAKER_04
+ So Jeff, two Jeffs.
+
+0:13:24	SPEAKER_05
+ Who's the second Jeff?
+
+0:13:26	SPEAKER_04
+ Oh, do you know Jeff Swag?
+
+0:13:28	None
+ Yeah.
+
+0:13:29	SPEAKER_04
+ Oh, he was here for a couple of years and he got his PhD.
+
+0:13:36	SPEAKER_04
+ And he's been an IBM last couple of years.
+
+0:13:40	SPEAKER_04
+ OK.
+
+0:13:41	SPEAKER_04
+ So he did his PhD on dynamic basenets for speech recognition.
+
+0:13:48	SPEAKER_04
+ And he had some continuity built into the model, presumably to handle some inertia in the production system.
+
+0:13:58	SPEAKER_04
+ So...
+
+0:14:01	SPEAKER_01
+ I've been playing with first the VAD.
+
+0:14:10	SPEAKER_01
+ So it's exactly the same approach, but the features that the VAD neural network use are MFCC after noise compensation.
+
+0:14:24	SPEAKER_03
+ I think it results. What was it used before?
+
+0:14:29	SPEAKER_01
+ It was just PLP.
+
+0:14:34	SPEAKER_00
+ Yeah, it was actually...
+
+0:14:37	SPEAKER_00
+ No, it was just the noisy features, I guess.
+
+0:14:39	SPEAKER_01
+ Yeah, you see, not compensated features.
+
+0:14:45	SPEAKER_01
+ This is what we get after...
+
+0:14:50	SPEAKER_01
+ So actually, the features are noise compensated and there is also the LDA filter.
+
+0:14:57	SPEAKER_01
+ And then it's a pretty small neural network which use 9 frames of 6 features from C0 to C5 plus the first derivatives.
+
+0:15:10	SPEAKER_01
+ And it has 100 hidden units.
+
+0:15:13	SPEAKER_05
+ Is that 9 frames centered around the current frame?
+
+0:15:17	SPEAKER_04
+ So I'm sorry, there's how many inputs?
+
+0:15:21	SPEAKER_04
+ So it's 12 times 9 inputs and 100 hidden items.
+
+0:15:29	SPEAKER_01
+ Two outputs.
+
+0:15:32	SPEAKER_04
+ OK, next we have 11,000 parameters which actually shouldn't be a problem.
+
+0:15:39	SPEAKER_05
+ So what is different between this and...
+
+0:15:42	SPEAKER_01
+ So the previous system, it's based on the system that has a 53.66% improvement.
+
+0:15:49	SPEAKER_01
+ It's the same system, the only thing that changes the estimation of the silence probabilities.
+
+0:15:57	SPEAKER_01
+ Which now is based on cleaned features.
+
+0:16:01	SPEAKER_01
+ A lot better.
+
+0:16:04	SPEAKER_01
+ So it's not bad, but the problem is still that the latency is too large.
+
+0:16:11	SPEAKER_01
+ What's the latency?
+
+0:16:14	SPEAKER_01
+ The latency of the VAD is 220 milliseconds.
+
+0:16:20	SPEAKER_01
+ And the VAD is used for online normalization.
+
+0:16:26	SPEAKER_01
+ And it's used before the delta computation.
+
+0:16:29	SPEAKER_01
+ So if you add this components, it goes to 170.
+
+0:16:35	SPEAKER_04
+ I'm confused, you start off with 220 and you're under the output 170.
+
+0:16:39	SPEAKER_01
+ With 270.
+
+0:16:42	SPEAKER_01
+ If you add the delta computation, which is done afterwards.
+
+0:16:49	SPEAKER_04
+ So it's 220.
+
+0:16:51	SPEAKER_04
+ Is this at least 20 milliseconds frames?
+
+0:16:54	SPEAKER_04
+ Is that why?
+
+0:16:55	SPEAKER_04
+ Is it after-down?
+
+0:16:56	SPEAKER_01
+ The 220 is 100 milliseconds for the...
+
+0:17:00	SPEAKER_01
+ No, it's 40 milliseconds for the cleaning of the speech.
+
+0:17:08	SPEAKER_01
+ Then there is the neural network, which uses 9 frames.
+
+0:17:13	SPEAKER_01
+ So it adds 40 milliseconds.
+
+0:17:18	SPEAKER_01
+ After that, you have the filtering of the silence probabilities.
+
+0:17:26	SPEAKER_01
+ Which is a median filter.
+
+0:17:29	SPEAKER_01
+ It creates 100 milliseconds delay.
+
+0:17:34	SPEAKER_00
+ Plus there is a delta input.
+
+0:17:37	SPEAKER_01
+ And there is a delta input, which is...
+
+0:17:40	SPEAKER_04
+ 1.2 milliseconds for smoothing.
+
+0:17:43	SPEAKER_04
+ So it's...
+
+0:17:44	SPEAKER_03
+ 40 plus...
+
+0:17:47	SPEAKER_03
+ And then 40 is 40 plus...
+
+0:17:49	SPEAKER_03
+ 40 plus 100.
+
+0:17:52	SPEAKER_00
+ So it's 200 actually.
+
+0:17:55	SPEAKER_01
+ Yeah, there are 20 that comes from...
+
+0:17:58	SPEAKER_01
+ There is 10 that comes from the LDA filters also.
+
+0:18:02	SPEAKER_01
+ So it's 210, yeah.
+
+0:18:06	SPEAKER_00
+ If you're using...
+
+0:18:07	SPEAKER_00
+ But if you're using 3 frames...
+
+0:18:09	SPEAKER_00
+ If you're using 3 frames, it is 30 here for delta.
+
+0:18:12	SPEAKER_01
+ I think it's 5 frames.
+
+0:18:14	SPEAKER_00
+ So 5 frames are just 20.
+
+0:18:15	SPEAKER_00
+ Okay, so so 200 in time.
+
+0:18:18	SPEAKER_04
+ 40 for the cleaning of the speech.
+
+0:18:22	SPEAKER_04
+ 40 for the NN.
+
+0:18:24	SPEAKER_04
+ 100 for the smoothing.
+
+0:18:26	SPEAKER_01
+ 24 delta.
+
+0:18:28	SPEAKER_00
+ I think 24 delta.
+
+0:18:30	SPEAKER_00
+ I mean that's the input of the net.
+
+0:18:33	SPEAKER_03
+ And delta inputs in that.
+
+0:18:35	SPEAKER_00
+ Yeah, so it's like...
+
+0:18:37	SPEAKER_00
+ 5, 6, 7 plus delta.
+
+0:18:40	SPEAKER_00
+ 9 frames of.
+
+0:18:42	SPEAKER_04
+ And then 10 milliseconds for...
+
+0:18:44	SPEAKER_00
+ This is an LDA filter.
+
+0:18:46	SPEAKER_04
+ 10 milliseconds for LDA filter.
+
+0:18:49	SPEAKER_04
+ And another 10 milliseconds you said for the frame.
+
+0:18:52	SPEAKER_01
+ For the frame, I guess I computed 220 here.
+
+0:18:55	SPEAKER_01
+ Yes, it's for the...
+
+0:18:58	SPEAKER_04
+ Okay, and it's delta beside that.
+
+0:19:01	SPEAKER_01
+ So this is the features that are used by the network.
+
+0:19:04	SPEAKER_01
+ And then afterwards you have to compute the delta on the main feature stream, which is...
+
+0:19:11	SPEAKER_01
+ Delta and double delta, which is 15 milliseconds.
+
+0:19:15	SPEAKER_04
+ Yeah, now I mean after the noise part, the 40, the other 180...
+
+0:19:22	SPEAKER_04
+ Well, I mean...
+
+0:19:25	SPEAKER_04
+ Wait a minute, some of this is in parallel, isn't it?
+
+0:19:28	SPEAKER_04
+ I mean the LDA...
+
+0:19:30	SPEAKER_04
+ Well, the LDA is part of the VAD, right?
+
+0:19:34	SPEAKER_01
+ The VAD use LDA filter at features also.
+
+0:19:37	SPEAKER_01
+ Oh, it does.
+
+0:19:39	SPEAKER_04
+ Ah.
+
+0:19:42	SPEAKER_04
+ So in that case there isn't too much in parallel.
+
+0:19:47	SPEAKER_01
+ No, there is...
+
+0:19:54	SPEAKER_01
+ Just don't sampling, up sampling.
+
+0:19:58	SPEAKER_04
+ So the delta at the end is how much?
+
+0:20:02	SPEAKER_03
+ It's 50.
+
+0:20:05	SPEAKER_03
+ 50.
+
+0:20:08	SPEAKER_01
+ All right, so...
+
+0:20:09	SPEAKER_01
+ Well, we could probably put the delta before online normalization.
+
+0:20:15	SPEAKER_01
+ Should not make a big difference because...
+
+0:20:17	SPEAKER_05
+ We use this smaller window for the delta.
+
+0:20:20	SPEAKER_05
+ I guess there's a lot of things.
+
+0:20:23	SPEAKER_04
+ Yeah, if you put the delta before the...
+
+0:20:27	SPEAKER_04
+ Yeah, because then I click on parallel.
+
+0:20:31	SPEAKER_01
+ Yeah, because the time constant of the online normalization is pretty long compared to the delta window.
+
+0:20:38	SPEAKER_04
+ Okay, so...
+
+0:20:39	SPEAKER_04
+ And you ought to be able to pull off 20 milliseconds from somewhere else to get under 200, right?
+
+0:20:46	SPEAKER_04
+ I mean, it's 200 milliseconds for smoothing, it's sort of an arbitrary amount, it could be 80.
+
+0:20:52	SPEAKER_05
+ Yeah, probably.
+
+0:20:54	SPEAKER_05
+ So what's the baseline to be under?
+
+0:20:57	SPEAKER_04
+ Well, we don't know.
+
+0:20:58	SPEAKER_04
+ They're still arguing, but...
+
+0:21:00	SPEAKER_04
+ I mean, if it's 250, then we can keep the delta where it is if we shaved off 20.
+
+0:21:08	SPEAKER_04
+ If it's 200, if we shaved off 20, we could meet it by moving the delta back.
+
+0:21:15	SPEAKER_05
+ So, have you know that what you have is too much if they're still the same?
+
+0:21:19	SPEAKER_04
+ Oh, we don't, but it's just...
+
+0:21:20	SPEAKER_04
+ I mean, the main thing is that since we got burned last time, but not worrying about it very much, we're just staying conscious of it.
+
+0:21:27	SPEAKER_04
+ Oh, okay.
+
+0:21:28	SPEAKER_04
+ And so, I mean, if a week before we have to be done, someone says, well, you have to have 50 milliseconds less than you have now,
+
+0:21:34	SPEAKER_05
+ it would be pretty magic around here, so. That's still best.
+
+0:21:39	SPEAKER_05
+ That's a pretty big win, and it doesn't seem like you're in terms of your delay or...
+
+0:21:47	SPEAKER_05
+ That.
+
+0:21:48	SPEAKER_04
+ He added a bit on, I guess, because before we were able to have the noise stuff and the LDA being parallel, and now he's requiring it to be done first.
+
+0:22:01	SPEAKER_01
+ Well, I think the main thing, maybe it's the cleaning of the speech, which takes 40 milliseconds or so.
+
+0:22:07	SPEAKER_01
+ Right.
+
+0:22:08	SPEAKER_04
+ Well, so you say, let's say 10 minutes, I'll take seconds for the LDA.
+
+0:22:10	SPEAKER_04
+ LDA is pretty short, right now.
+
+0:22:12	SPEAKER_04
+ Well, 10, yeah.
+
+0:22:13	SPEAKER_04
+ And then four...
+
+0:22:14	SPEAKER_00
+ Yeah, the LDA, we don't know, is it very crucial for the features, right?
+
+0:22:19	SPEAKER_01
+ No, I just...
+
+0:22:20	SPEAKER_01
+ Yeah.
+
+0:22:21	SPEAKER_01
+ This is the first try, I mean, maybe it's not very useful.
+
+0:22:24	SPEAKER_04
+ But I think you have, I mean, you have 20 for Delta computation, which you now is already doing twice, right?
+
+0:22:29	SPEAKER_04
+ Were you doing that before?
+
+0:22:31	None
+ Hmm.
+
+0:22:34	SPEAKER_01
+ Well, in the proposal, the input of the VAD network were just three frames.
+
+0:22:40	SPEAKER_00
+ Yeah, just a static.
+
+0:22:41	SPEAKER_01
+ No, that's the features.
+
+0:22:42	SPEAKER_04
+ So what you have now is 40 for the noise, 20 for the Delta and 10 for the LDA.
+
+0:22:48	SPEAKER_04
+ That's 70 milliseconds of stuff, which was formerly in parallel, right?
+
+0:22:52	SPEAKER_04
+ So I think, you know, that's the difference, as far as the timing.
+
+0:22:57	SPEAKER_04
+ Yeah.
+
+0:22:58	SPEAKER_04
+ Right.
+
+0:22:59	SPEAKER_04
+ And you can experiment with cutting various pieces of these back a bit.
+
+0:23:04	SPEAKER_04
+ But, I mean, we're not...
+
+0:23:07	SPEAKER_04
+ We're not in terrible shape.
+
+0:23:09	SPEAKER_05
+ Yeah, that's what it seems like.
+
+0:23:11	SPEAKER_04
+ Yeah.
+
+0:23:12	SPEAKER_04
+ It's not like it's heading up to 100 milliseconds or something.
+
+0:23:14	SPEAKER_05
+ Where is this 57.02?
+
+0:23:15	SPEAKER_05
+ And in comparison to the last evaluation?
+
+0:23:18	SPEAKER_05
+ Well, it's, I think,
+
+0:23:20	SPEAKER_04
+ it's better than anything in any bodyguide. I was alright.
+
+0:23:23	SPEAKER_01
+ The best was 54.
+
+0:23:25	SPEAKER_01
+ Yeah, 5.
+
+0:23:26	SPEAKER_01
+ And our system was 49, but with the neural network.
+
+0:23:31	SPEAKER_01
+ With the neural net.
+
+0:23:32	SPEAKER_04
+ Yeah.
+
+0:23:33	SPEAKER_00
+ So this is like the first proposal.
+
+0:23:36	SPEAKER_00
+ The proposal wanted was 44, actually.
+
+0:23:38	SPEAKER_00
+ Yeah.
+
+0:23:39	SPEAKER_04
+ Yeah.
+
+0:23:40	SPEAKER_04
+ And we still have a neural net in.
+
+0:23:41	SPEAKER_04
+ So it's, you know, it's, you know, so it's, we're doing better.
+
+0:23:45	SPEAKER_04
+ I mean, we're getting really good.
+
+0:23:47	SPEAKER_04
+ Better recognition.
+
+0:23:48	SPEAKER_04
+ I mean, I'm sure other people work in this, I'm not sitting still either.
+
+0:23:51	SPEAKER_04
+ But, yeah.
+
+0:23:52	SPEAKER_04
+ But, I mean, important thing is that we learn how to do this better.
+
+0:23:58	SPEAKER_04
+ So.
+
+0:23:59	None
+ Yeah.
+
+0:24:01	SPEAKER_04
+ So our...
+
+0:24:05	SPEAKER_04
+ Yeah, you can see the kind of numbers that we're having, say, in speech deck car, which is a hard task.
+
+0:24:11	SPEAKER_04
+ It's really, you know, it's a sort of...
+
+0:24:15	SPEAKER_04
+ sort of reasonable numbers.
+
+0:24:17	SPEAKER_04
+ It's starting to be.
+
+0:24:19	SPEAKER_01
+ Yeah, even for a well-matched case, it's 60% ever-right reduction.
+
+0:24:24	SPEAKER_02
+ Yeah.
+
+0:24:25	SPEAKER_02
+ Yeah.
+
+0:24:27	SPEAKER_02
+ Yeah.
+
+0:24:28	SPEAKER_02
+ Yeah.
+
+0:24:30	SPEAKER_03
+ Okay.
+
+0:24:36	SPEAKER_06
+ Yeah.
+
+0:24:37	SPEAKER_01
+ So actually, this is in between what we had with the previous VAD and what Sunil did with an ideal VAD, which gave 62% improvement.
+
+0:24:52	SPEAKER_00
+ Yeah, it's almost...
+
+0:24:55	SPEAKER_00
+ It's almost an average.
+
+0:24:56	SPEAKER_00
+ It's a little around here.
+
+0:24:57	SPEAKER_00
+ Yeah.
+
+0:24:58	SPEAKER_06
+ What is that?
+
+0:24:59	SPEAKER_01
+ So if you use, like, an ideal VAD for dropping the frames...
+
+0:25:04	SPEAKER_01
+ All of the best we can get.
+
+0:25:06	SPEAKER_01
+ The best that we can get, that means that we estimate the second probability on the clean version of the utterances.
+
+0:25:14	SPEAKER_01
+ Then you can go up to 62% ever-right reduction, probably.
+
+0:25:20	SPEAKER_06
+ Yeah.
+
+0:25:23	SPEAKER_05
+ So that would be even...
+
+0:25:27	SPEAKER_05
+ That would change this number down here to 62.
+
+0:25:31	SPEAKER_01
+ Yeah.
+
+0:25:32	SPEAKER_01
+ Yeah, so you had a good, very good VAD that works as well as VAD working on clean speech.
+
+0:25:38	SPEAKER_01
+ Yeah.
+
+0:25:39	SPEAKER_05
+ Then you would go...
+
+0:25:40	SPEAKER_05
+ So that's sort of the best you could hope for.
+
+0:25:43	SPEAKER_04
+ So 53 is what you were getting with the old VAD.
+
+0:25:47	SPEAKER_04
+ Yeah.
+
+0:25:49	SPEAKER_04
+ And 62 with the...
+
+0:25:52	SPEAKER_04
+ You know, quote unquote cheating VAD and 57 is what you got with the real VAD.
+
+0:25:57	SPEAKER_04
+ That's great.
+
+0:25:59	None
+ Yeah.
+
+0:26:00	SPEAKER_01
+ The next thing is I started to play...
+
+0:26:04	SPEAKER_01
+ But I don't want to worry too much about the delay now.
+
+0:26:07	SPEAKER_01
+ Maybe it's better to wait for the decision.
+
+0:26:11	SPEAKER_01
+ Yeah.
+
+0:26:12	SPEAKER_01
+ The committee.
+
+0:26:13	SPEAKER_01
+ But I started to play with the...
+
+0:26:17	SPEAKER_01
+ TAN-DEM, your own network.
+
+0:26:20	SPEAKER_01
+ I just did the configuration that's very similar to VAD.
+
+0:26:25	SPEAKER_01
+ I just did the configuration that's very similar to what we did for the February proposal.
+
+0:26:33	SPEAKER_01
+ And...
+
+0:26:35	SPEAKER_01
+ So there is a first feature stream that use straight MFCC features.
+
+0:26:43	SPEAKER_01
+ Well, these features actually.
+
+0:26:45	SPEAKER_01
+ And the other stream is the output of a neural network using as input also these cleaned MFCC.
+
+0:26:58	SPEAKER_05
+ I don't know what is going into the 10 and that.
+
+0:27:04	SPEAKER_01
+ So there is just this video stream, the 15 MFCC plus delta and the bell delta.
+
+0:27:10	SPEAKER_01
+ So it makes 45 features that are used as input to the HTK.
+
+0:27:14	SPEAKER_01
+ And then there are more inputs that comes from the TAN-DEM MFCC.
+
+0:27:20	SPEAKER_01
+ Oh, okay.
+
+0:27:21	SPEAKER_04
+ Yeah, he likes using both.
+
+0:27:23	SPEAKER_04
+ So then it has one part that's discriminating with one part that's not.
+
+0:27:28	SPEAKER_01
+ So yeah, right now it seems that I just tested on speech that current while the experiment are running on the IDGs.
+
+0:27:40	SPEAKER_01
+ Well, it improves on the well matched and the mismatched conditions, but it gets worse on the highly mismatched.
+
+0:27:50	SPEAKER_01
+ Compared to these numbers?
+
+0:27:52	SPEAKER_01
+ Compared to these numbers, yeah.
+
+0:27:55	SPEAKER_01
+ Like on the well matched and medium mismatch, the gain is around 5% relative, but it goes down a lot more like 15% on the HM case.
+
+0:28:09	SPEAKER_04
+ You're just using the full 90 features.
+
+0:28:12	SPEAKER_04
+ You have 90 features?
+
+0:28:15	SPEAKER_01
+ From the networks, it's 28.
+
+0:28:20	SPEAKER_04
+ And from the other side, it's 45.
+
+0:28:22	SPEAKER_04
+ It's 45, yeah.
+
+0:28:23	SPEAKER_04
+ It's the 73 features.
+
+0:28:24	SPEAKER_04
+ You're just feeding them like that.
+
+0:28:26	SPEAKER_04
+ There isn't any KLT or anything like that.
+
+0:28:28	SPEAKER_01
+ There is a KLT after the neural network.
+
+0:28:30	SPEAKER_05
+ That's how you get added 28.
+
+0:28:32	SPEAKER_05
+ Yeah.
+
+0:28:33	SPEAKER_01
+ I don't know.
+
+0:28:36	SPEAKER_01
+ It's because it's what we did for the first proposal.
+
+0:28:40	SPEAKER_01
+ We tested it.
+
+0:28:41	SPEAKER_01
+ So we're trying to go down.
+
+0:28:43	SPEAKER_01
+ 27.
+
+0:28:44	SPEAKER_01
+ Yeah.
+
+0:28:45	SPEAKER_01
+ So I wanted to do something very similar to the proposal as a first try.
+
+0:28:52	SPEAKER_01
+ But we have to, for sure, we have to go down because the limit is now 60 features.
+
+0:28:59	SPEAKER_01
+ We have to find a way to decrease the number of features.
+
+0:29:05	SPEAKER_05
+ So it seems funny that I quite understand everything, but that adding features, I guess if you're keeping the backend fixed, maybe that's it.
+
+0:29:18	SPEAKER_05
+ Because it seems like just adding information shouldn't get worse results.
+
+0:29:23	SPEAKER_05
+ But I guess if you're keeping the number of Gaussian fixed in the recognized system.
+
+0:29:28	SPEAKER_04
+ Well, yeah.
+
+0:29:29	SPEAKER_04
+ But I mean, just in general, adding information, suppose the information you added was a really terrible feature and all that brought in was noise.
+
+0:29:39	None
+ Right?
+
+0:29:40	SPEAKER_04
+ So, or suppose it wasn't completely terrible, but it was completely equivalent to another one feature that you had, except it was noisier.
+
+0:29:53	SPEAKER_04
+ In that case, you wouldn't necessarily expect it to be better at all.
+
+0:29:57	SPEAKER_05
+ Oh, yeah.
+
+0:29:58	SPEAKER_05
+ I wasn't necessarily saying it should be better.
+
+0:30:00	SPEAKER_05
+ But it's worse.
+
+0:30:03	SPEAKER_04
+ On the highly mismatched condition, so highly mismatched condition means that in fact your training is a bad estimate of your test.
+
+0:30:11	SPEAKER_04
+ So having a greater number of features, if they aren't maybe the right features that you use, certainly can easily make things worse.
+
+0:30:22	SPEAKER_04
+ I mean, right, if you have lots and lots of data, and you have your training as representing a group of your tests, then getting more source of information should just help.
+
+0:30:34	SPEAKER_04
+ But it doesn't necessarily work that way.
+
+0:30:39	SPEAKER_04
+ So I wonder, well, what's your thought about what to do next with it?
+
+0:30:48	SPEAKER_01
+ I don't know, I'm surprised because I expected the neural net to help more when there is more mismatch as it was the case for the...
+
+0:30:59	SPEAKER_00
+ So was the training set the same as the February proposal?
+
+0:31:03	SPEAKER_00
+ Or the DLG?
+
+0:31:04	SPEAKER_01
+ Yeah, it's the same training set, so it's the same with the DLG.
+
+0:31:09	SPEAKER_01
+ Now, it's added.
+
+0:31:16	SPEAKER_04
+ Well, we might have to experiment with better training sets.
+
+0:31:23	SPEAKER_04
+ But the other thing is, I mean, before you found that was the best configuration, but you might have to retest those things now that we have different, the rest of it is different, right?
+
+0:31:34	SPEAKER_04
+ So, for instance, what's the effect of just putting the neural net on without the other path?
+
+0:31:44	SPEAKER_04
+ You know what the straight features do that gives you this.
+
+0:31:47	SPEAKER_04
+ You know what it does in combination, you know, necessarily, you know what.
+
+0:31:51	SPEAKER_05
+ What if you did what it makes sense to do the KLT on the full set of combined features?
+
+0:31:59	SPEAKER_05
+ Instead of just on the...
+
+0:32:01	SPEAKER_01
+ Yeah, I guess the reason I did it this way is that in February we tested different things like that.
+
+0:32:10	SPEAKER_01
+ So, I think two KLT, I think just a KLT for a network or having a global KLT.
+
+0:32:18	SPEAKER_01
+ So, you try the global KLT?
+
+0:32:22	SPEAKER_01
+ Yeah, and the difference is between these configurations were not huge, but it was marginally better with this configuration.
+
+0:32:35	SPEAKER_04
+ But, yeah, that's obviously another thing to try since things are different.
+
+0:32:40	SPEAKER_04
+ And I guess if the...
+
+0:32:42	SPEAKER_04
+ These are all...
+
+0:32:43	SPEAKER_04
+ So, all of these 73 features are going into the HMM.
+
+0:32:50	SPEAKER_04
+ Yeah.
+
+0:32:51	SPEAKER_04
+ And are there any delta's being computed of them?
+
+0:32:56	SPEAKER_01
+ Of the straight features, yeah.
+
+0:32:59	SPEAKER_04
+ So, not of the...
+
+0:33:01	SPEAKER_01
+ The tandem features are...
+
+0:33:04	SPEAKER_01
+ I know.
+
+0:33:05	SPEAKER_01
+...used that there are...
+
+0:33:06	SPEAKER_01
+ So, yeah, maybe we can add some context from these features.
+
+0:33:10	SPEAKER_01
+ So, it's good.
+
+0:33:11	SPEAKER_01
+ And, dating, this last work.
+
+0:33:14	SPEAKER_04
+ Yeah, but the other thing I was thinking was...
+
+0:33:19	SPEAKER_04
+ No, I lost track of what I was thinking.
+
+0:33:22	SPEAKER_05
+ What is the...
+
+0:33:24	SPEAKER_05
+ You said there's a limit of 16 features or something.
+
+0:33:28	SPEAKER_05
+ What's the relation between that and the...
+
+0:33:30	SPEAKER_05
+ I know, I should say.
+
+0:33:32	SPEAKER_05
+ 4800 bits per second.
+
+0:33:35	SPEAKER_01
+ No relation.
+
+0:33:37	SPEAKER_01
+ Not the relation.
+
+0:33:38	SPEAKER_01
+ The 4800 bits is for transmission of some features.
+
+0:33:45	SPEAKER_01
+ And, generally, it allows you to transmit like 15...
+
+0:33:49	SPEAKER_01
+...capsetrums.
+
+0:33:51	SPEAKER_04
+ The issue was that this is supposed to be a standard that's then going to be fed to somebody's recognize or somewhere, which might be...
+
+0:34:00	SPEAKER_04
+ It might be concerned how many parameters are used and so forth.
+
+0:34:04	SPEAKER_04
+ And so, they felt they wanted to settle a limit.
+
+0:34:08	SPEAKER_04
+ So, they chose 60.
+
+0:34:10	SPEAKER_04
+ Some people wanted to use hundreds of parameters and...
+
+0:34:13	SPEAKER_04
+...that bothered some other people.
+
+0:34:15	SPEAKER_04
+ So, it just chose that.
+
+0:34:17	SPEAKER_04
+ I think it's kind of arbitrary too.
+
+0:34:19	SPEAKER_04
+ But that's kind of what's chosen.
+
+0:34:21	SPEAKER_04
+ I remember what it was going to say.
+
+0:34:23	SPEAKER_04
+ What I was going to say is that maybe...
+
+0:34:26	SPEAKER_04
+...maybe with the noise removal, these things are now more correlated.
+
+0:34:31	SPEAKER_04
+ So, you have two sets of things that are kind of uncorrelated within themselves.
+
+0:34:37	SPEAKER_04
+ But they're pretty correlated with one another.
+
+0:34:40	SPEAKER_04
+ And they're being fed into these variants only, Gaussian and so forth.
+
+0:34:47	SPEAKER_04
+ And so, maybe it would be better idea now than it was before to have one kLT over everything.
+
+0:34:57	SPEAKER_04
+ To decore a little.
+
+0:34:58	SPEAKER_01
+ Yeah, I see.
+
+0:34:59	SPEAKER_04
+ Maybe.
+
+0:35:00	SPEAKER_00
+ What are the SNLs in the training set limit?
+
+0:35:04	SPEAKER_01
+ It's ranging from zero to clean.
+
+0:35:10	SPEAKER_01
+ Yeah, from zero to clean.
+
+0:35:14	SPEAKER_04
+ Yeah.
+
+0:35:15	SPEAKER_04
+ So, we found this macrophone data and so forth that we were using for these other experiments to be pretty good.
+
+0:35:23	SPEAKER_04
+ So, that's after you expose other alternatives that might be another way to start looking, is just improving the training set.
+
+0:35:30	SPEAKER_04
+ I mean, we were getting lots better recognition using that.
+
+0:35:38	SPEAKER_04
+ Of course, you do have the problem that we're not able to increase the number of Gaussian's or anything to match anything.
+
+0:35:52	SPEAKER_04
+ So, we're only improving the training of our feature set.
+
+0:35:55	SPEAKER_04
+ But that's still probably something.
+
+0:35:58	SPEAKER_05
+ So, you're saying at the macrophone data, the training of the neural net?
+
+0:36:01	SPEAKER_04
+ Yeah, that's the only place that we can train.
+
+0:36:03	SPEAKER_04
+ We can't train the other stuff with anything other than the standard amount.
+
+0:36:08	SPEAKER_05
+ What was the train on again?
+
+0:36:10	SPEAKER_01
+ The one that you?
+
+0:36:11	SPEAKER_01
+ It's timid with noise.
+
+0:36:13	SPEAKER_01
+ So, yeah, it's rather small.
+
+0:36:17	SPEAKER_03
+ How big is the net, by the way?
+
+0:36:20	SPEAKER_01
+ It's 500 unit units.
+
+0:36:24	SPEAKER_04
+ And again, you did experiments back then where you made it bigger.
+
+0:36:28	SPEAKER_04
+ That was sort of the threshold point.
+
+0:36:30	SPEAKER_04
+ Much less than that, it was worse.
+
+0:36:32	SPEAKER_04
+ Much more than that.
+
+0:36:33	SPEAKER_04
+ It wasn't much better.
+
+0:36:43	SPEAKER_00
+ So, is it the performance degradation in the high mismatch is something to do with the cleaning up that is done on the timid after adding noise?
+
+0:36:56	SPEAKER_00
+ All the noises are from the TI digits.
+
+0:37:01	SPEAKER_00
+ Well, it's like the high mismatch of the speech that car after cleaning up, maybe having more noise than the training set of timid after cleaning after you do the noise cleaning.
+
+0:37:17	SPEAKER_00
+ Earlier, you never had any compensation.
+
+0:37:20	SPEAKER_00
+ You just trained it straight away.
+
+0:37:22	SPEAKER_00
+ So, you had like all these different conditions of SNS.
+
+0:37:25	SPEAKER_00
+ Actually, in the training set of neural net, after cleaning up, you have now a different set of SNS for the training of the neural net.
+
+0:37:33	SPEAKER_00
+ And is it something to do with the mismatch that's created after the cleaning up, like the high mismatch?
+
+0:37:41	SPEAKER_01
+ You mean the more noisy utterances on the speech that car might be a lot more noisy than that?
+
+0:37:49	SPEAKER_00
+ I mean, SNR after the noise compensation of the speech deck.
+
+0:37:55	SPEAKER_04
+ So, the training that is being trained with noise compensated.
+
+0:37:57	SPEAKER_04
+ Yeah, it's tough, which makes sense.
+
+0:38:00	SPEAKER_04
+ But you're saying, yeah, the noisy or ones are still going to be even after our noise compensation.
+
+0:38:08	SPEAKER_04
+ You're still going to be pretty noisy.
+
+0:38:10	SPEAKER_00
+ So, now, the after-noise compensation, the neural net is seeing a different set of SNS than that was originally there in the training set of timid.
+
+0:38:19	SPEAKER_00
+ So, the net saw all the SNR conditions.
+
+0:38:22	SPEAKER_00
+ Now, after cleaning up, it's a different set of SNR.
+
+0:38:25	SPEAKER_00
+ That SNR may not be covering the whole set of SNS that you're getting in the speech deck.
+
+0:38:31	SPEAKER_04
+ Right, but the speech deck car that you're seeing is also reduced in noise.
+
+0:38:36	SPEAKER_00
+ Yeah, it is, but there could be some issues of...
+
+0:38:44	SPEAKER_01
+ Well, if the initial range of SNR is different, the problem was already there before.
+
+0:38:51	SPEAKER_04
+ Yeah, because...
+
+0:38:54	SPEAKER_04
+ Yeah, I mean, it depends on whether you believe that the noise compensation is equally reducing the noise, the test set and the training set.
+
+0:39:01	SPEAKER_04
+ I mean, you're saying there's a mismatch in noise that wasn't there before, but if they were both the same before, then if they were both reduced equally, then there would not be a mismatch.
+
+0:39:16	SPEAKER_04
+ So, I mean, this may be...
+
+0:39:19	SPEAKER_04
+ Haven't forbid this...
+
+0:39:21	SPEAKER_04
+ Most compensation process may be imperfect, but...
+
+0:39:25	SPEAKER_04
+ It's maybe stringing something differently.
+
+0:39:28	SPEAKER_00
+ No, that could be seen from the TI digits testing condition, because the noises are from the TI digits, right?
+
+0:39:35	SPEAKER_00
+ Noise.
+
+0:39:36	SPEAKER_00
+ Yeah, so...
+
+0:39:37	SPEAKER_00
+ So, cleaning up the TI digits and if the performance goes down in the TI digits mismatch, high mismatch like...
+
+0:39:45	SPEAKER_00
+ Cleaning training.
+
+0:39:46	SPEAKER_00
+...or a clean training or a zero-db test.
+
+0:39:48	SPEAKER_00
+ Yeah, so we'll see.
+
+0:39:49	SPEAKER_00
+ Yeah, then it's something to do.
+
+0:39:52	SPEAKER_04
+ I mean, one of the things about... I mean, the macrophone data, I think, was recorded over many different telephones.
+
+0:40:00	SPEAKER_04
+ And so, there's lots of different kinds of acoustic conditions.
+
+0:40:05	SPEAKER_04
+ It's not artificially added, no, I swear, anything.
+
+0:40:08	SPEAKER_04
+ So, it's not the same. I don't think there's anybody recording a record from a car, but I think it's varied enough that if...
+
+0:40:16	SPEAKER_04
+ If doing this adjustments, and playing around with it doesn't make it better, it seems like the most obvious thing to do is to improve the training set.
+
+0:40:25	SPEAKER_04
+ I mean, the condition... it gave us an enormous amount of improvement in what we were doing with meeting recorded digits, even though...
+
+0:40:35	SPEAKER_04
+ There again, these macrophone digits were very, very different from what we were going on here.
+
+0:40:42	SPEAKER_04
+ We weren't talking over telephone here, but it was just, I think, just having a nice variation in acoustic conditions was just a good thing.
+
+0:40:50	SPEAKER_06
+ Yeah.
+
+0:40:54	SPEAKER_01
+ Yeah, actually, to... when I observed on the HM cases that the number of deletions dramatically increases.
+
+0:41:05	SPEAKER_01
+ It doubles... when I had the neural network doubles, the number of deletions.
+
+0:41:13	SPEAKER_01
+ So, you don't know how to interpret that, but... I'm here either.
+
+0:41:22	SPEAKER_05
+ And... and... and...
+
+0:41:25	SPEAKER_05
+ I don't understand the same insertion substitution.
+
+0:41:28	SPEAKER_01
+ Maybe they're a little bit lower.
+
+0:41:35	SPEAKER_01
+ They are a little bit better for me, but...
+
+0:41:39	SPEAKER_04
+ Did they increase the number of deletions, even for the cases that got better?
+
+0:41:45	SPEAKER_04
+ No, it doesn't. So, it's only the highly mismatched.
+
+0:41:49	SPEAKER_04
+ And remind me again, the highly mismatched means that...
+
+0:41:52	SPEAKER_01
+ It's clean training, well, close microphone training.
+
+0:41:58	SPEAKER_01
+ Close microphone training, distant microphone, I speed, I think.
+
+0:42:03	SPEAKER_01
+ Well, the most noisy cases of the distant microphone from testing.
+
+0:42:10	SPEAKER_04
+ Right.
+
+0:42:13	SPEAKER_04
+ So, maybe the noise subtraction is... subtracting half speech.
+
+0:42:19	SPEAKER_01
+ But... I mean, but we thought the neural network is... well, it's a better one.
+
+0:42:29	SPEAKER_01
+ It's just when we add the neural networks.
+
+0:42:31	SPEAKER_01
+ Yeah, right.
+
+0:42:32	SPEAKER_04
+ The feature of the same insertion.
+
+0:42:34	SPEAKER_05
+ Well, that says that, you know, the models and the recognizer are really paying attention to the neural net features.
+
+0:42:45	SPEAKER_04
+ Yeah. But, yeah, actually, the timet noises are sort of a range of noises, and they're not so much the stationary driving kind of noises, right?
+
+0:43:00	SPEAKER_04
+ It's pretty different, isn't it?
+
+0:43:01	SPEAKER_01
+ There is a car noise, so there are just four noises.
+
+0:43:07	SPEAKER_01
+ The car, I think, Babel, Subway, right, and Street, or Airport or something.
+
+0:43:15	SPEAKER_01
+ Train station.
+
+0:43:18	SPEAKER_01
+ So, it's mostly while car is stationary, Babel is stationary background, plus some voices, some speech over it, and the other two are rather stationary also.
+
+0:43:34	SPEAKER_04
+ Well, I think that if you run it, actually, maybe you remember this, when you, in the old experiments, when you ran with the neural net only, and didn't have the side path with the pure features as well, did it make things better to have the neural net?
+
+0:43:56	SPEAKER_04
+ Was it about the same...
+
+0:43:59	SPEAKER_04
+ It was a little bit worse.
+
+0:44:02	SPEAKER_01
+ Then, just the features.
+
+0:44:06	SPEAKER_04
+ So, until you put the second path in with the pure features, the neural net wasn't helping at all.
+
+0:44:17	SPEAKER_01
+ What's interesting?
+
+0:44:19	SPEAKER_01
+ It was helping if the features were bad, just playing the B's around the MCC's.
+
+0:44:29	SPEAKER_01
+ But, as soon as we added the linearization, they were doing similar enough things.
+
+0:44:37	SPEAKER_04
+ Well, I still think it would be interesting to see what would happen if you just had the neural net without the side thing.
+
+0:44:44	SPEAKER_04
+ And the thing I have in mind is, maybe you'll see that the results are not just a little bit worse, maybe that there are a lot worse.
+
+0:44:55	SPEAKER_04
+ But if, on the other hand, it's somewhere in between what you're seeing now and what you'd have with just the pure features, then maybe there is some problem of a combination of these things, or correlation between them somehow.
+
+0:45:15	SPEAKER_04
+ If it really is the net, is hurting you at the moment, then I think the issue is to focus on improving the net.
+
+0:45:24	SPEAKER_04
+ So what's the overall, I mean, you haven't done all the experiments, but you said it was somewhat better, say, 5% better for the first two conditions and 15% worse for the other one.
+
+0:45:39	SPEAKER_04
+ But of course that one's rated lower, so I wonder what the net effect is.
+
+0:45:44	SPEAKER_01
+ I think it was 1 or 2%. That's not that bad, but it was like 2% relative worse once we did that curve.
+
+0:45:57	SPEAKER_01
+ I have to check that to a live.
+
+0:46:01	SPEAKER_00
+ Well, overall it will be still better, even if it is 15% worse, because the 15% worse is given like 25.
+
+0:46:11	SPEAKER_06
+ 0.25 weight.
+
+0:46:17	SPEAKER_04
+ Right, so the worst it could be if the other is exactly as it is 4% and in fact, since the others are somewhat better.
+
+0:46:25	SPEAKER_00
+ So either you get cancel load or you'll get almost the same?
+
+0:46:29	SPEAKER_01
+ Yeah, it was slightly worse.
+
+0:46:32	SPEAKER_04
+ Yeah, it should be pretty close to cancel that.
+
+0:46:35	SPEAKER_05
+ You know, I've been wondering about something. In a lot of the Hub 5 systems recently have been using LDA.
+
+0:46:44	SPEAKER_05
+ And they run LDA on the features right before they train models.
+
+0:46:52	SPEAKER_05
+ So there's the LDAs right there before the HMMs.
+
+0:46:56	SPEAKER_05
+ So you guys are using LDA, but it seems like it's pretty far back in the process.
+
+0:47:01	SPEAKER_00
+ This LDA is different from the LDA that you are talking about. The LDA that you are saying is like you take a block of features like 9 frames or something and then do an LDA on it and then reduce the dimensionality to something like 24 or something like that.
+
+0:47:15	SPEAKER_05
+ And then feed it to HMM.
+
+0:47:18	SPEAKER_00
+ Yeah, so this is like a 2-dimensional time.
+
+0:47:21	SPEAKER_00
+ So this is a 2-dimensional time.
+
+0:47:23	SPEAKER_00
+ And the LDA that we are applying is only in time, not in frequency, across frequency. So it's like more like a filtering in time rather than doing it.
+
+0:47:33	SPEAKER_05
+ So what about, I mean, I don't know if this is a good idea or not, but what if you put, ran the other kind of LDA on your features right before they go into the HMM?
+
+0:47:48	SPEAKER_01
+ Actually, I think, well, what we do with the HMM is something like that, except that it's not linear.
+
+0:47:56	SPEAKER_01
+ But it's like a nonlinear or discriminant.
+
+0:48:00	SPEAKER_05
+ Yeah, so sort of like the tandem stuff is kind of like it's nonlinear, I'll be.
+
+0:48:08	SPEAKER_01
+ But the other features that you have, the non-hand ones, while in the proposal they were transformed using PCA, but it might be that LDA.
+
+0:48:21	SPEAKER_04
+ The argument is kind of, and it's not like we really know, but the argument anyway is that we always have the problem.
+
+0:48:31	SPEAKER_04
+ So, the other thing is that LDA, they're good. They're good because you learn to distinguish between these categories that you want to be good at distinguishing between.
+
+0:48:42	SPEAKER_04
+ And PCA doesn't do that. PCA, or PCA, throws away pieces that are maybe not going to be helpful just because they're small.
+
+0:48:53	SPEAKER_04
+ But the problem is, training sets are perfect and testing sets are different. So you face the potential problem with discriminative stuff, B-L-D-A, or neural nets, that you are training to discriminate between categories in one space, but what you're really going to be getting is something else.
+
+0:49:10	SPEAKER_04
+ And so, Stefan's idea was, let's feed both this discriminatively trained thing and something that's not.
+
+0:49:21	SPEAKER_04
+ So, you have good set of features that everybody's worked really hard to make, and then you discriminatively train it, but you also take the path that doesn't have that, and putting those in together.
+
+0:49:33	SPEAKER_04
+ And that seems, so it's kind of like the combination of what Dan has been calling a feature combination versus posterior combination or something.
+
+0:49:45	SPEAKER_04
+ You have the posterior combination, but then you get the features from that and use them as feature combination with these other things.
+
+0:49:52	SPEAKER_04
+ And that seemed, at least on the last one, as he was saying, when he only did discriminative stuff, it actually didn't help at all in this particular case.
+
+0:50:01	SPEAKER_04
+ There was enough of a difference, I guess, between the testing and training. But by having them both there, the fact is, some of the time, the discriminative stuff is going to help you.
+
+0:50:10	SPEAKER_04
+ And some of the time, it's going to hurt you by combining two information sources.
+
+0:50:15	SPEAKER_05
+ So, you wouldn't necessarily then want to do LDA on the non-tandom features because that you're doing something to them.
+
+0:50:22	SPEAKER_04
+ I think that's counter to that idea. Now, again, we're just trying these different things. We don't really know what's going to work best.
+
+0:50:28	SPEAKER_04
+ But if that's the hypothesis, at least to be counter to that hypothesis, to do that.
+
+0:50:33	SPEAKER_04
+ And in principle, you would think that the neural net would do better at the discriminant part than LDA.
+
+0:50:42	SPEAKER_05
+ Well, maybe not. Yeah, exactly.
+
+0:50:44	SPEAKER_05
+ I mean, we were getting ready to do the tandem stuff for the Hubbive system. And Andreas and I talked about it.
+
+0:50:52	SPEAKER_05
+ And the idea, the thought was, well, yeah, the neural net should be better. But we should at least have a number to show that we did try the LDA in place of the neural net.
+
+0:51:07	SPEAKER_05
+ So we can show a clear path. You have a valid, then you have LDA, then you have the neural net.
+
+0:51:13	SPEAKER_05
+ You can see theoretically. So, I was just wondering, I think that's a good idea.
+
+0:51:18	SPEAKER_03
+ Did you do that?
+
+0:51:19	SPEAKER_05
+ No, that's what we're going to do next, as soon as I finish this.
+
+0:51:22	SPEAKER_05
+ Yeah. Yeah. No, well, that's a good idea.
+
+0:51:25	SPEAKER_04
+ You just want to show. I mean, it's not even believed it.
+
+0:51:29	SPEAKER_04
+ Oh, no, it believes it.
+
+0:51:30	SPEAKER_04
+ No, no, but it might not even be true. I mean, it's a great idea.
+
+0:51:33	SPEAKER_04
+ I mean, one of the things that always disturbed me in the resurgence of neural nets that happened in the 80s was that a lot of people, because neural nets were pretty easy to use.
+
+0:51:44	SPEAKER_04
+ A lot of people were just using them for all sorts of things without looking at all into the linear versions of them.
+
+0:51:51	SPEAKER_04
+ And people were doing their neural nets, but not looking at our filters.
+
+0:51:55	SPEAKER_04
+ So I think, yeah, it's definitely a good idea to try it.
+
+0:51:59	SPEAKER_05
+ Yeah, and everybody's putting that on their systems now.
+
+0:52:02	SPEAKER_05
+ That's what made me wonder about.
+
+0:52:04	SPEAKER_04
+ Well, even putting them in their systems off in the out of ten years.
+
+0:52:07	SPEAKER_05
+ Yeah, what I mean is it's like in the Hub5 evaluations, you know, and you read the system descriptions.
+
+0:52:12	SPEAKER_05
+ And now they all have that.
+
+0:52:14	SPEAKER_05
+ Everybody's got LDA on their features.
+
+0:52:17	SPEAKER_01
+ It's the transformation that are estimating, but they are trained on the same data as the final nature.
+
+0:52:24	SPEAKER_01
+ Yeah, so it's different.
+
+0:52:25	SPEAKER_05
+ Yeah, exactly, because they don't have these mismatches that you guys have.
+
+0:52:29	SPEAKER_05
+ So that's why I was wondering if maybe it's not even a good idea.
+
+0:52:32	SPEAKER_05
+ I don't know.
+
+0:52:33	SPEAKER_05
+ That's about it.
+
+0:52:35	SPEAKER_04
+ I mean, part of why I think part of why you were getting into the KLT, you were describing to me at one point that you wanted to see if, you know, getting good orthogonal features was in combining the different temporal ranges was the key thing that was happening, or whether it was the scrumid thing, right?
+
+0:52:55	SPEAKER_04
+ So you were just trying.
+
+0:52:56	SPEAKER_04
+ I think you, I mean, this is, it doesn't have the LDA aspect, but as far as the orthogonalizing transformation, you were trying that, at one point, right?
+
+0:53:04	SPEAKER_04
+ Thank you.
+
+0:53:05	SPEAKER_06
+ Yeah.
+
+0:53:07	SPEAKER_04
+ That's something.
+
+0:53:10	SPEAKER_04
+ That's what is well.
+
+0:53:11	SPEAKER_04
+ Yeah.
+
+0:53:13	SPEAKER_00
+ So, I've been exploring a parallel VAD without neural network with, like, less latency using SNR and energy after the cleaning up.
+
+0:53:28	SPEAKER_00
+ So what I've been trying was, after the, after the noise compensation, I was trying to find a feature based on the ratio of the energy that is after clean and before clean.
+
+0:53:43	SPEAKER_00
+ So that if, if they are like pretty close to one, which means it's speech, and it is, if it is close to zero, which is, so it's like it's scaled nicely to a probability value.
+
+0:53:53	SPEAKER_00
+ So, just trying with full band and multiple bands, separating them to different frequency bands and deriving separate decisions on each band and trying to combine them.
+
+0:54:05	SPEAKER_00
+ The advantage being like it doesn't have the latency of the neural network if it, if it can, and it gave me like one point, one more than one percent relative improvements.
+
+0:54:15	SPEAKER_00
+ So from 53.6, it went to 54.8. So it's like, from the slightly more than a person improvements, it's like, which means that it's doing a slightly better job than the previous VAD.
+
+0:54:27	SPEAKER_00
+ I'd lower delay.
+
+0:54:30	SPEAKER_00
+ So, sorry, this is still of the median.
+
+0:54:34	SPEAKER_00
+ It's still as the median field.
+
+0:54:36	SPEAKER_04
+ So it was most of the, yeah.
+
+0:54:38	SPEAKER_00
+ The delay that's gone is the input, which is the 60 millisecond, the 40 plus 20.
+
+0:54:46	SPEAKER_00
+ At the input of the neural network, you have this nine frames of context plus the delta.
+
+0:54:52	SPEAKER_04
+ Oh, plus the author, right?
+
+0:54:53	SPEAKER_00
+ Yeah.
+
+0:54:54	SPEAKER_00
+ So that delay plus the LDA.
+
+0:54:56	SPEAKER_00
+ So the delay is only the 40 millisecond of the noise cleaning plus the 100 milliseconds, smoothing a output.
+
+0:55:05	SPEAKER_00
+ So, yeah, so the, because the problem for me was to find a consistent threshold that works well across a different databases, because I, I try to make it work on speech.car, and it fails on TI digits, or try to make it work on that's just the Italian or something it doesn't work on the finish.
+
+0:55:23	SPEAKER_00
+ So, so there was, there was like some problem in balancing the deletions and insertions when I try different thresholds.
+
+0:55:31	SPEAKER_00
+ So the, I'm still trying to make it better by using some other features from the, after the cleanup, maybe some correlation or the correlation or some additional features.
+
+0:55:46	SPEAKER_00
+ So mainly the improvement of the word.
+
+0:55:50	SPEAKER_00
+ I've been trying.
+
+0:55:51	SPEAKER_04
+ Now this, this, this, before and after clean, it sounds like you think that's a good feature that, that you think that the, it appears to be a good feature, right?
+
+0:56:03	SPEAKER_04
+ Yeah, what about using the neural net?
+
+0:56:05	SPEAKER_00
+ Yeah, so, yeah, so that's, yeah, so we've been thinking about putting it into the neural net also.
+
+0:56:09	SPEAKER_00
+ Yeah, because we did that itself.
+
+0:56:11	SPEAKER_00
+ You don't have to worry about the threshold.
+
+0:56:13	SPEAKER_00
+ Yeah, yeah, so that's the, yeah.
+
+0:56:15	SPEAKER_04
+ Yeah, so if we, if we can live with latency or cut the latency elsewhere, then that would be a good thing.
+
+0:56:24	SPEAKER_04
+ Anybody has anybody, you guys or, or Naren, somebody tried the second, second stream thing?
+
+0:56:34	SPEAKER_00
+ Oh, I just, I just put the second stream in place and, and one experiment, just like, just to know whether everything is fine.
+
+0:56:42	SPEAKER_00
+ So it was like, 45 kept stream plus 23 mile log mail.
+
+0:56:47	SPEAKER_00
+ Yeah.
+
+0:56:48	SPEAKER_00
+ And it was like, it gave me the baseline performance of the Aurora, which is like zero improvement.
+
+0:56:54	SPEAKER_00
+ Yeah.
+
+0:56:55	SPEAKER_00
+ So I just tried it on the talent just to know whether everything is, but I didn't expect anything out of it because it was like a weird feature set.
+
+0:57:00	SPEAKER_04
+ Yeah.
+
+0:57:01	SPEAKER_04
+ Yeah, well, what I think, you know, what, the more what you want to do is, is, is put into another neural net.
+
+0:57:08	SPEAKER_03
+ Yeah.
+
+0:57:09	SPEAKER_04
+ But yeah, we're not quite there yet.
+
+0:57:12	SPEAKER_04
+ So we have to figure out the neural net.
+
+0:57:14	SPEAKER_04
+ I guess.
+
+0:57:15	SPEAKER_04
+ Yeah.
+
+0:57:16	SPEAKER_00
+ The other thing I was wondering was, if the neural net has any, because of the different noise, unseen noise conditions for the neural net, like you train it on those four noise conditions, but you're feeding it with like additional some four plus some few more conditions, which it doesn't seem actually from the wild testing.
+
+0:57:42	SPEAKER_00
+ Yeah.
+
+0:57:43	SPEAKER_00
+ Instead of just having those clean up kept stream should be feed some additional information like the, we have the VAD flag and should be feed the VAD flag also at the input.
+
+0:57:54	SPEAKER_00
+ So that it has some additional discriminating information at the input.
+
+0:58:01	SPEAKER_00
+ We have the VAD information also available at the back end.
+
+0:58:06	SPEAKER_00
+ So if it is something, the neural net is not able to discriminate the classes.
+
+0:58:11	SPEAKER_00
+ Yeah.
+
+0:58:12	SPEAKER_00
+ I mean, because most of it is, when we have dropped some silence, we have dropped silence, we haven't dropped silence for him still.
+
+0:58:20	SPEAKER_01
+ Still not yet.
+
+0:58:21	SPEAKER_00
+ Yeah. So the biggest classification will be the speech and silence.
+
+0:58:27	SPEAKER_00
+ So by having an additional feature which says this is speech and this is non speech.
+
+0:58:32	SPEAKER_00
+ I mean, it certainly helps in some unseen noise conditions for the neural net.
+
+0:58:36	SPEAKER_05
+ What do you have that feature available for the test data?
+
+0:58:40	SPEAKER_00
+ Well, I mean, we have, we are transmitting the VAD to the back end, feature to the back end because we are dropping it at the back end after everything.
+
+0:58:46	SPEAKER_00
+ All the features are computer.
+
+0:58:47	SPEAKER_00
+ Oh, oh, I see.
+
+0:58:48	SPEAKER_00
+ So that is coming from a separate neural net or some VAD, which is certainly giving you that also.
+
+0:58:57	SPEAKER_00
+ Yeah.
+
+0:58:58	SPEAKER_00
+ So it's an additional discriminating information.
+
+0:59:02	SPEAKER_04
+ You could feed it into the neural net.
+
+0:59:04	SPEAKER_04
+ And the other thing you could do is just modify the output probabilities of the neural net based on the fact that you have a silence probability.
+
+0:59:24	SPEAKER_04
+ So you have an independent estimator of what the silence probability is and you could multiply the two things and re-normalize.
+
+0:59:32	SPEAKER_04
+ Yeah, I mean, you have to do the non-linearity part.
+
+0:59:36	SPEAKER_04
+ Do that.
+
+0:59:37	SPEAKER_04
+ I mean, go backwards once the non-linearity would be.
+
+0:59:41	SPEAKER_05
+ But, uh, maybe I went, but in principle, wouldn't it be better to feed it in unless the net do that?
+
+0:59:47	SPEAKER_04
+ Well, not sure.
+
+0:59:49	SPEAKER_04
+ I mean, let's put it this way.
+
+0:59:50	SPEAKER_04
+ I mean, you have this complicated system with thousands of thousand parameters and you can tell it learn this thing or you can say, it's silence, go away.
+
+1:00:02	SPEAKER_04
+ I mean, I think the second one sounds a lot more direct.
+
+1:00:05	SPEAKER_05
+ What if you, right?
+
+1:00:06	SPEAKER_05
+ So what if you then, uh, since you know this, what if you only use the neural net on the speech portions?
+
+1:00:13	SPEAKER_05
+ Well, well, it's, well, it's that's the same.
+
+1:00:15	SPEAKER_05
+ Yeah, I mean, you have to actually run it continuously, but it's just.
+
+1:00:18	SPEAKER_05
+ I mean, train the net only on.
+
+1:00:20	SPEAKER_04
+ Well, no, you want to train it on the non-speech also because that's part of what you're learning in it to generate that it's, you have to distinguish between.
+
+1:00:28	SPEAKER_05
+ You need to multiply the output and it by this other decision.
+
+1:00:32	SPEAKER_05
+ Uh, then you don't care about whether that makes that distinction.
+
+1:00:37	SPEAKER_04
+ Wait, but this other thing isn't perfect.
+
+1:00:39	SPEAKER_04
+ Uh, so that you bring in some information in the net itself.
+
+1:00:43	SPEAKER_05
+ That's a good point.
+
+1:00:44	SPEAKER_04
+ Yeah.
+
+1:00:45	SPEAKER_04
+ Now, the only thing that bothers me about all this is that I, I, the fact it's sort of bothersome that you're getting more deletions.
+
+1:00:54	SPEAKER_01
+ Yeah.
+
+1:00:55	SPEAKER_01
+ So I might maybe look at, is it due to the fact that, uh, the probability of the silence, the output of the network is, uh, is too high to I or.
+
+1:01:10	SPEAKER_01
+ Yeah.
+
+1:01:11	SPEAKER_01
+ So maybe it's okay.
+
+1:01:12	SPEAKER_00
+ Yeah, it's not really doing any distinction between speech and non speech or I mean different MN classes.
+
+1:01:31	SPEAKER_05
+ I'd be interested to look at the, yeah, for the, but if you look at the, um, high mismatch, the output of the net on the high mismatch case and just look at, you know, the distribution versus the, the other ones, you, you see more peaks or something.
+
+1:01:50	SPEAKER_01
+ Yeah, yeah, entropy of the output.
+
+1:01:52	SPEAKER_01
+ Yeah.
+
+1:01:53	SPEAKER_04
+ For instance.
+
+1:01:54	SPEAKER_01
+ But it seems that the VAD network doesn't, well, it doesn't drop, uh, too many frames because the, the number of deletion is reasonable.
+
+1:02:04	SPEAKER_01
+ But it's just when we had to tend them, the final MLB at them.
+
+1:02:09	None
+ Yeah.
+
+1:02:09	SPEAKER_04
+ Now, the only problem is you don't want to take, I guess, wait for the output of the VAD before you can put something into the other system because I'll shoot up the latency a lot, right?
+
+1:02:19	SPEAKER_04
+ Am I missing something here?
+
+1:02:21	SPEAKER_01
+ Yeah, right.
+
+1:02:24	SPEAKER_04
+ Yeah. So that's maybe a problem with what I was just saying.
+
+1:02:27	SPEAKER_04
+ But, but I guess.
+
+1:02:29	SPEAKER_05
+ But if you were going to put it in as a feature, it means you already have it at the time you get to the tandem net, right?
+
+1:02:35	SPEAKER_00
+ Um, well, we, we don't have it actually because it's, it has a higher rate in the VAD as a.
+
+1:02:41	SPEAKER_04
+ Yeah.
+
+1:02:42	SPEAKER_04
+ Okay. It's kind of done, I mean, some of the things are not in parallel, but certainly it would be in parallel with a, with a tandem net in time.
+
+1:02:53	SPEAKER_04
+ So maybe if that doesn't work, um, but it'd be interesting to see if that was the problem anyway.
+
+1:02:59	SPEAKER_04
+ And, and, and I guess another alternative would be to take the feature that you're feeding into the VAD and feeding it into the other one as well.
+
+1:03:07	SPEAKER_04
+ And then maybe we just learn, learn it better.
+
+1:03:12	SPEAKER_04
+ Um, but that's, yeah, that's an interesting thing to try to see if what's going on is that in the highly mismatched condition, it's, um, causing deletions by having this silence probability up, up too high.
+
+1:03:29	SPEAKER_04
+ At some point where the VAD is saying it's actually speech. Yeah. So it's probably true.
+
+1:03:38	SPEAKER_04
+ Because well, the VAD said since the VAD is, is, is right a lot. Anyway, might be. Yeah, well, we just started working with it. These are some good ideas, I think.
+
+1:04:02	SPEAKER_01
+ Yeah, and the other thing, well, there are other issues, maybe for the tandem, like, what do we want to, we want to work on the targets.
+
+1:04:12	SPEAKER_01
+ Like, instead of using phonemes, using work on text dependent units.
+
+1:04:21	SPEAKER_01
+ But the time, yeah, I'm thinking also about dance work where we trained the network, not on phonemed targets, but on the HMM state targets.
+
+1:04:35	SPEAKER_01
+ And you know, it's giving slightly better results.
+
+1:04:41	SPEAKER_04
+ The problem is if you were going to run this on different tests, including large vocabulary. Yeah.
+
+1:04:53	SPEAKER_01
+ I was just thinking maybe about, like, generalized iPhones. Come up with a reasonable, not too large set of context dependent units.
+
+1:05:08	SPEAKER_01
+ Yeah. And then anyway, we would have to reduce this. Yeah.
+
+1:05:14	SPEAKER_04
+ Yeah. So, but. Yeah. Maybe. But I, it's all worth looking at, but it sounds to me like looking at the relationship between this and the speech and voice stuff is, is probably a key thing.
+
+1:05:31	SPEAKER_05
+ That and the correlation between stuff. So if, if the high mismatch case had been more like the other two cases, in terms of giving you just better performance, how would this number have changed?
+
+1:05:52	SPEAKER_01
+ It would be, yeah, around 5% better, I guess, if like, six if. Well, we don't know what's going to be a TI that it's, yeah, it's back.
+
+1:06:03	SPEAKER_01
+ If you extrapolate the speech that car will match in medium mismatch, it's around maybe five. So this would be 62.
+
+1:06:15	SPEAKER_01
+ So, around 60 must be. Right. Yeah. Well, it's around 5% because if everything is 5%.
+
+1:06:26	SPEAKER_01
+ All the other ones were 5%. I just have just speech that car. So, yeah.
+
+1:06:33	SPEAKER_01
+ So, I'm just running each, should have the result today during the afternoon.
+
+1:06:48	SPEAKER_04
+ Well. So, I won't be here for.
+
+1:06:57	SPEAKER_04
+ I'm leaving next Wednesday. May or may not be in the morning or the afternoon.
+
+1:07:04	SPEAKER_04
+ Are you, you're not going to be around the afternoon? Yeah. Oh, well, I'm talking about next week. I'm leaving, leaving next Wednesday.
+
+1:07:12	SPEAKER_04
+ This afternoon, oh, right for the meeting meeting. Yeah, that's just because of something on campus.
+
+1:07:17	SPEAKER_04
+ Ah, okay. Okay. But, yeah. So next week I won't. And the week after I won't. So, I'll be in Finland.
+
+1:07:27	SPEAKER_04
+ And the week after that I won't. By that time you'll be, you both become from here.
+
+1:07:34	SPEAKER_04
+ So, there'll be no, definitely no meeting on September 6th. What September 6th?
+
+1:07:42	SPEAKER_04
+ Ah, that's during your speech. Oh, so, Sonil will be in Oregon.
+
+1:07:48	SPEAKER_04
+ Stephanie and I will be in Denmark. Right. So, it'll be a few weeks really.
+
+1:07:56	SPEAKER_04
+ Before we have a meeting of the same cast of characters. But, I guess, just, I mean, you guys should probably meet and maybe bury.
+
+1:08:09	SPEAKER_04
+ I'll be around. And then, we'll start up again with Dave and, Dave and Barry and Stefan.
+
+1:08:19	SPEAKER_04
+ And us on the 20th. No. 13th.
+
+1:08:28	SPEAKER_05
+ So, you're going to be gone for the next three weeks or something. I've gone for two and a half weeks starting next Wednesday.
+
+1:08:39	SPEAKER_05
+ So, you won't get the next three of these meetings. Right.
+
+1:08:44	SPEAKER_04
+ I won't. I was probably four because of the three. See, 23rd, 36th. That's right. Next three.
+
+1:08:54	SPEAKER_04
+ And the third one probably won't be a meeting because, because, uh, Sonil, Stefan and I will not be here.
+
+1:09:06	SPEAKER_04
+ So, it's just the next two where there will be, there may as well be meetings, but I just won't be at them.
+
+1:09:19	SPEAKER_04
+ And then starting at the 13th. Uh, we'll have meetings again that we'll have to do without Sonil here somehow.
+
+1:09:28	SPEAKER_04
+ 31st. Yeah. Yeah. So.
+
+1:09:35	SPEAKER_05
+ When is the evaluation of November or something? Yeah, supposed to be November 15th. Does anybody heard anything different?
+
+1:09:43	SPEAKER_01
+ I don't know. The meeting is the five and six of December. So, yeah. Stentatively.
+
+1:09:53	SPEAKER_01
+ That's a proposed deal, I guess. Yeah. So, the evaluation should be a week before. Yeah.
+
+1:10:04	SPEAKER_04
+ But, no, this is good progress. So. Okay. Did it. Yeah.
+
+1:10:19	SPEAKER_05
+ That's good. L-352. 576456704693. 685091394648. 34427182. 187499845897. 1839.
+
+1:10:45	SPEAKER_05
+ 1839 01453629. 543 626673. 7151 60725942.
+
+1:10:58	SPEAKER_01
+ 888819818. Transcript L-353. 791126 542. 873 984 9646. 3574225961.
+
+1:11:19	SPEAKER_01
+ 599 97 985182. 75456653012. 9907 3926. 019 398 0350. 286 202 181.
+
+1:11:42	SPEAKER_00
+ Transcript L-354 296 8637605. 7156 1370 4256. 9537 0218 1863 987 111029.
+
+1:12:01	SPEAKER_00
+ 35334930315. 4086489503. 80289 791. 8991351804.
+
+1:12:18	SPEAKER_04
+ Transcript L-3508442322617. 1283199113. 4524596233. 3846552025.
+
+1:12:39	SPEAKER_04
+ 4693133646. 2846414464. 2994 3287 8742. 428207 480.
+
+1:12:55	SPEAKER_04
+ It's a wrap.
+

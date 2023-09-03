@@ -1,0 +1,274 @@
+Speaker A: Welcome back.
+Speaker A: I hope you had a good lunch together.
+Speaker A: This meeting the main agenda to discuss about the conceptual design meeting.
+Speaker A: And the agenda will be the opening and that's the product manager or secretary that's me and the presentations from the Christine and Agnes and Pernamishri Ed.
+Speaker A: Finally in this meeting we have to decide and we have to take a decision on the remote control concepts and the functional design.
+Speaker A: So we have 40 minutes.
+Speaker A: I think it's a little bit low but I hope we can finish it up.
+Speaker A: So I'll hand out to the functional team to the Christine to discuss about the components concept.
+Speaker C: Okay so if you could open the PowerPoint presentation I'm number 2.
+Speaker C: So, can we put it in slide show mode?
+Speaker C: Yes, please.
+Speaker C: Thank you.
+Speaker C: So we were looking specifically at the components, the following components, the case, the power supply, the means of communications with the television set.
+Speaker C: And then since we had talked about using some sort of speech recognition you have to have a microphone, well no you don't actually have to have a microphone in the device but maybe you do have a way, it has to hear the speaker and so it could be in the television set, it could be in the device but somewhere you have to put the microphone and a way of making beeps or sounds so you can find it when it gets lost.
+Speaker C: So the other thing that we, our method for going about this is we've looked at the historical record, what's worked, what hasn't.
+Speaker C: And then we also wanted to evaluate some new materials and we contacted manufacturing for their input because of course we might come up and choose the material that then manufacturing didn't have the technologies capabilities to offer us.
+Speaker C: So this is the approach that we took during our research.
+Speaker C: So for the case we told, we were making a specific assumption that it would be curved in design.
+Speaker C: Of course you know I wanted it to be expandable and shrinkable but that doesn't seem to be one of the choice, not an option we can really seriously explore.
+Speaker C: So then we were thinking about rubber but unfortunately that's been eliminated because of the heat factor and there might be some problems with how it goes with the board.
+Speaker C: And then plastic also has this problem of melting and it's brittle, it gets brittle after a while so still had titanium and wood available but unfortunately titanium has also been eliminated.
+Speaker C: The people in manufacturing said that it couldn't make curved cases out of titanium although how Apple did it with the power book I'm not quite sure but nevertheless they've eliminated all of our options except wood.
+Speaker C: So this is my finding and as she said it's an environmentally friendly material.
+Speaker C: So we're currently proposing, we'll get to all my personal preferences in just a second.
+Speaker C: So then there's this other matter of the chips and well you could use a simple design on the board but these simple chips but that's only works for the buttons.
+Speaker C: You don't get very much intelligence with this simple one.
+Speaker C: And then there was the regular which I regret that I've forgotten exactly why I'm eliminating that one.
+Speaker C: The other option was this advanced chip on print and we found that it includes this infrared sender which remember the beam was that was an important component of finding the right chip.
+Speaker C: And manufacturing has told us that they've recently developed a sensor and a speaker that would be integrated into this advanced chip on print.
+Speaker C: So we're now jumping right to our personal preferences.
+Speaker C: I'd really think we should use some of some really exotic woods like well you guys come from tropical countries so you can kind of think of some trees and some nice woods.
+Speaker C: I think that people might really want to design their own cases.
+Speaker C: You see they could do sort of a three dimensional design on the internet and then they could submit their orders kind of like you submit a custom car order you know and you can choose the color and the size of the wheels and the colors of the leather and things like that.
+Speaker C: And then I think we should go with the solar cells as well as the microphone and speaker on the advanced chip.
+Speaker C: So this is the findings of our research and my recommendations for the new remote control would be to have to be made out of wood.
+Speaker C: Do you have any problems with that?
+Speaker A: Can you go back one slide?
+Speaker C: I'm not sure.
+Speaker C: Well I know let's see.
+Speaker C: Let's go back up here.
+Speaker A: Yes.
+Speaker A: Question.
+Speaker A: What's mean exactly it wants a chip on print.
+Speaker A: What's the meaning of that?
+Speaker C: I think it's a multiple chip design and it's maybe printed onto the circuit board.
+Speaker C: I could find out more about that before the next meeting.
+Speaker A: Is it on a microprocessor based or?
+Speaker C: I don't know but I'll find out more on our next meeting.
+Speaker A: Okay that would be great.
+Speaker A: So if you find out from the technology background okay so that would be good.
+Speaker C: Sounds good.
+Speaker B: Well why was the plastic eliminated as a possible material?
+Speaker C: Because it gets brittle, cracks, we expect these remote controls to be around for several hundred years.
+Speaker C: So good expression.
+Speaker C: Good expression.
+Speaker D: Good expression.
+Speaker D: World after us.
+Speaker C: I don't know speak for yourself.
+Speaker B: I think with the window you'd run into the same types of problems.
+Speaker B: So I mean it chips it if you drop it.
+Speaker B: I'm not sure.
+Speaker A: So you're not convinced.
+Speaker A: Actually I'm ready to sell it.
+Speaker D: You're what?
+Speaker D: I'm ready to sell it.
+Speaker B: If you use really good quality wood then it might work but you can't just use.
+Speaker B: No you can sell oils with it.
+Speaker D: The only wood you can use are the ones that are hard to explain.
+Speaker D: Yeah exactly.
+Speaker D: But there's some very pretty woods out there.
+Speaker D: That's actually a very innovative idea.
+Speaker C: Okay good.
+Speaker C: I'm sorry I'm having a hard time keeping with control over my face.
+Speaker D: But it's actually a very innovative and different idea that you can choose your color of wood, your type of wood.
+Speaker D: Mistain.
+Speaker D: I mean each person is going to have their personalized individualized speech recognition remote control in wood.
+Speaker D: That's not on the market.
+Speaker A: Yeah so it looks good.
+Speaker A: The design, the functional design, what about you?
+Speaker B: In terms of comments on this or in terms of my own.
+Speaker B: Yes.
+Speaker B: In terms of wow.
+Speaker C: In terms of comments first.
+Speaker C: She works in the cubicle next to me so she was already a little bit prepared for this.
+Speaker C: Yeah.
+Speaker C: Luckily Ed was not.
+Speaker B: I think if we can get the quality materials then it shouldn't influence the design principles too much which you'll see with my presentation.
+Speaker B: One thing we'd have to check those with the users whether, how quickly the novelty wears off of having.
+Speaker C: Yeah you would want to have to have splinters in your hand while you're using it.
+Speaker B: Yeah for example.
+Speaker B: So I have to see how kid friendly it is and all that.
+Speaker C: But actually if your dog gets a hold of it they can use it for teething.
+Speaker D: I did that anyway with rubber and plastic so.
+Speaker C: Yeah I do it with other materials as well.
+Speaker D: Yeah.
+Speaker A: I'll show them up.
+Speaker A: Okay then let's move to Agni.
+Speaker B: Sure.
+Speaker D: I think so.
+Speaker B: Yeah that's the one.
+Speaker B: Yeah it's a very short presentation because I'm actually going to draw you the layout on the board so if you want to just go straight to the second slide.
+Speaker B: Which basically shows sort of I took the ideas that we were talking about last time and tried to put that into the remote control so the things that you can actually see on it are the on off switch volume and channel control the menu access button ergonomic shape which I completely agree with Christine's idea to have it sort of molded so it's slightly more ergonomic and comfortable to hold than the standard very straight remote controls.
+Speaker B: And actually the other thing with the wood if we take your customizing idea is that people can actually do sort of quasi measurements on their hand size if someone has larger hands.
+Speaker B: Right my hand you have a wider remote control.
+Speaker C: And yours for example.
+Speaker B: So that's actually a really good idea for custom customizability.
+Speaker B: One thing I thought might be kind of interesting is to put a flip screen on it just like you have on flip phones so that you don't have this case where someone sits on the remote control or accidentally puts their hand on it especially if you have little kids around.
+Speaker B: They're not pressing the buttons while you're trying to watch a TV show and accidentally change a channel or turn it off.
+Speaker B: And also you had issues with batteries running at so I thought maybe we could put a little battery life light on it that kind of goes dimmer and dimmer and dimmer as your battery starts to die.
+Speaker B: But in terms of invisible features, audio and tactile feedback on button presses and like you said speech recognition.
+Speaker B: So in terms of what this thing would actually look like, despite working in interface design I'm not the greatest artist in the world so you'll have to forgive me.
+Speaker B: You'd have something like this with an on off switch fairly big sort of in the corner and by itself so you don't accidentally turn your TV off while you're trying to maneuver other buttons.
+Speaker B: And then you have sort of one of those toggle displays for channels and volume sort of for surfing channels and then volume.
+Speaker B: So the volume would be the up and down because volume goes up and down and then channels left to right.
+Speaker B: And then here you'd have your sort of standard telephone-ish number pad.
+Speaker B: And then on one side you would have an access to the menu on your TV and on the other side a way to turn off the voice control so that if the user doesn't want to use their voice they can just turn it off and you don't have them out control accidentally changing things on you.
+Speaker B: So again you can have a little LCD light somewhere, the flip thing and have I forgotten anything?
+Speaker B: I don't think so.
+Speaker B: So as you can see it's a very very simple design which is one of the things I really wanted to keep.
+Speaker B: It's keep it simple not have too many buttons not have too many functionalities thrown into it.
+Speaker B: I think the design can pretty much carry over to everything although with the wood the flip screen might have to do something slightly different.
+Speaker C: It'd be like a copper hinge.
+Speaker B: But you also have to start watching after the wait because depending on how much the flip screen will add to the wait of the remote control you don't want it to start getting too heavy.
+Speaker B: But that's the general layout with the general functionalities if you come up with something else.
+Speaker B: As you can see there's still lots of space on the actual remote control and if you do it customizably you can make this thing fairly small or fairly large depending on personal preferences.
+Speaker B: So that's pretty much all I had to say.
+Speaker B: I mean everything else in terms of design issues.
+Speaker B: I mean the centering of the keypad and the channel is just depending on where your thumb is.
+Speaker B: And you tend to use the volume control and the browsing more than the actual number pad so that would be sort of in direct line of where your thumb goes when you're holding the remote control.
+Speaker B: The number pad a little bit lower because it's useless frequently.
+Speaker B: So once we decide exactly what we want then we can figure out the exact positioning.
+Speaker B: But more or less I think it should go along those lines.
+Speaker A: So what's your comments or simple design?
+Speaker D: So what consumers want?
+Speaker D: It's almost like Houston we have a product here.
+Speaker D: Problem is obviously going to be cost.
+Speaker D: I also have a very simple presentation.
+Speaker D: From the marketing point you have to see what the consumers want.
+Speaker D: I also have a copy to a different type of remote.
+Speaker D: This should only be one in here.
+Speaker D: But try and watch.
+None: Sure.
+Speaker D: It doesn't be a modified.
+Speaker D: They're stealing our product.
+Speaker D: We've been giving simple questionnaires and different areas because obviously we have to see what the consumers are looking for today because trends change very very quickly.
+Speaker D: In six months maybe this idea has already gone out the window.
+Speaker D: So it's going to be a question of how fast we can act.
+Speaker D: They already erased the rest of mine.
+Speaker C: No.
+Speaker C: Go to finance.
+Speaker C: No, no, no.
+Speaker D: Because I had another comment there.
+Speaker D: The market trend, this is what we know from the last questionnaires and all the surveys we've done.
+Speaker D: Fancy and feel good.
+Speaker D: That's what we've been looking for.
+Speaker D: Something that feels good in the hand that's easy to use.
+Speaker D: Looking for a next generation of innovation because all the remotes out there now, they're all very similar.
+Speaker D: They all do the same thing.
+Speaker D: We have to have something completely different.
+Speaker D: Easy to use has always become another major interest.
+Speaker D: With the whiteboard we can see that it's a remote that's easy to use.
+Speaker D: And I think this is another thing that's interesting is the consumers are actually willing to pay the price for exciting technology.
+Speaker D: So even if we have a product that may be more expensive, if it comes out right, if they didn't look and it looks and feels good and has technology.
+Speaker D: The second two, you can see the last one is a very easy, simple design.
+Speaker D: The second one, there's about 45,000 different buttons on it, which makes it fairly hard to read, very hard to use.
+Speaker D: The first one I see that they put in a display.
+Speaker D: Now, this is something else with the little flip up now.
+Speaker D: We're adding all kinds of things in, but with the little flip up, if you have a little display on the flip up and when you close it, everything is locked.
+Speaker D: Maybe the display also makes it easier to use because sometimes when you're looking for buttons, maybe if you see a display.
+Speaker C: Context sensitive instructions.
+Speaker C: Depending on what the mode, the TV or the DVD or something else.
+Speaker B: It was mostly the standard one.
+Speaker D: Now you have one with a very simple also, the idea is simple, but with a display.
+Speaker D: So you can see what you're doing.
+Speaker D: So maybe if we can incorporate the easiness of use, trendy, fancy, feels good.
+Speaker D: With a display, wood, designer wood, designer colors.
+Speaker C: Maybe what you could do is if somebody orders the device, you could send them like some sort of foam rubber ball and then they would squeeze it and it would take the shape of their hands.
+Speaker C: So it's really molded to your specific.
+Speaker C: The geometry of their hands would be.
+Speaker D: Hard they squeeze.
+Speaker D: You know what kind of wood is there?
+Speaker B: But for that you'd also have to do sort of an average across families.
+Speaker B: Unless everyone has their own personal remote.
+Speaker C: That actually would increase the revenue.
+Speaker D: But incorporating the three obviously would be something totally new on the market.
+Speaker D: Totally different.
+Speaker B: Already the customizability is a really good sort of medium.
+Speaker D: What it was, it was a Nokia that came out with the changeable colors.
+Speaker D: Take apart and put it on another face, take it off and put it on another face.
+Speaker B: And that took off.
+Speaker D: They sold millions.
+Speaker D: Millions.
+Speaker D: So, so the findings were the research, easy to use, something totally new.
+Speaker D: We have to come up with something totally new that is not on the market.
+Speaker C: We'd also have to consider that who we were going to get to make these custom cases in terms of manufacturing processes.
+Speaker C: We might want to learn about labor laws in different countries and stuff.
+Speaker C: So we can do it cheap, but you don't want to exploit labor in third world countries.
+Speaker C: So actually you could turn it around and say that the reason the cost is high for the device is because you're paying a working wage to the person who made the device.
+Speaker A: But we can get a production in countries like India.
+Speaker A: Cost of living is low.
+Speaker A: Yes, if it is like India or China or Malaysia.
+Speaker A: So you can go with better futures and better price and you can sell more.
+None: Good.
+Speaker C: Well, that would be something that manufacturing would have to explore more.
+Speaker D: Where would you manufacture this is?
+Speaker D: So another step.
+Speaker D: Yes.
+Speaker A: We're here to design.
+Speaker A: Yes.
+Speaker A: But that's a nice product.
+Speaker A: We can talk about the production later, okay, depends on the quantity.
+Speaker A: So we don't need to have our own fabric factory or something.
+Speaker A: So we can have a tie up with who do the fabric with the different electronic items.
+Speaker A: Then we can have a business tie up and to get to get the cost to sell more.
+Speaker A: So let's decide first about the components concept and interface concept.
+Speaker A: If it is acceptable for both of you, what Ed was talking.
+Speaker A: And you will design with the display or without display or just simple.
+Speaker B: I think it depends.
+Speaker B: I mean, I think it's a good idea.
+Speaker B: But we need to really think about how useful it's going to be because theoretically with a TV you already have a big display right in front of you.
+Speaker B: So if we're trying to keep costs down, then maybe sacrificing the display is a way to go.
+Speaker B: I mean, it depends on how much putting a display costs and what it would be used for.
+Speaker B: Very specifically what it would be used for.
+Speaker B: Because if it's only used for one little thing, then putting in a big display case or a big display that's probably expensive just to do the training on the chip for the speech recognition or whatever may not be the most cost efficient way to go.
+Speaker B: But that's just sort of speculation.
+Speaker C: I mean, what do you think Ed?
+Speaker C: You like the display in one of the concepts that you showed.
+Speaker C: Do you know how much it costs to add a little display like this?
+Speaker D: No.
+Speaker C: You want to take an action item to go find out?
+Speaker D: It's because we have to find out a cost on it.
+Speaker C: Sorry about that.
+Speaker D: No, that's no problem.
+Speaker D: I'm here for the pushing it after it's made.
+Speaker D: I will market it.
+Speaker D: Once we get a price on it, then we can market it.
+Speaker C: So the advanced chip on print is what we've determined in the engineering industrial design is the recommendation.
+Speaker C: And I think we've kind of come to some agreement regarding this concept of a wooden case.
+Speaker C: A customizable and...
+Speaker D: Nice, beautiful mahogany red wooden case.
+Speaker B: Would the buttons be wood too?
+Speaker C: I don't think so.
+Speaker C: No, I think they could be rubber like they are now.
+Speaker C: So you have that tactile experience.
+Speaker A: Yeah, so what we'll do is we will stick with the simple design for time being until the ad find out about how much it's cost to the extra in case we go for the display.
+Speaker A: So maybe what you can do is both of you can come up with the prototype, the model.
+Speaker A: Okay.
+Speaker B: Sure.
+Speaker C: So are we done with this meeting?
+Speaker A: Yeah, I hope.
+Speaker A: Is it okay if they will come up with the prototype design?
+Speaker A: Okay, then they can show you how it looks like and then we can submit to the...
+Speaker A: I will submit to the management.
+Speaker A: Okay.
+Speaker A: Then mean that time you can come up with the price, how much it's cost as extra for the display.
+Speaker A: And a marketing strategy.
+Speaker A: And a marketing strategy.
+Speaker A: That's very important.
+Speaker A: Fire.
+Speaker D: How much you can select?
+Speaker A: Of course you'll make money too.
+Speaker A: So not only fired, you make money too.
+Speaker A: Your commission.
+Speaker A: Okay, so any questions?
+Speaker A: No.
+Speaker A: So by next meeting, so please come up with the prototype.
+Speaker A: And then we can press it from there.
+Speaker A: Okay.
+Speaker A: So thanks for all your efforts and coming for the meeting again and see you soon there.
+Speaker A: Okay.
+Speaker A: Okay.
+None: Thank you.
+None: Okay.
+None: chime

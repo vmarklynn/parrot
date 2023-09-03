@@ -1,9 +1,17 @@
-from django.http import HttpResponse
+import whisper, hashlib, os, datetime, json, torch, pyannote, logging, sys
 from mangorest.mango import webapi
 from pyannote.audio import Pipeline
 from pyannote.core import Segment, Annotation, Timeline
-import whisper, hashlib, os, datetime, json, torch, pyannote
 from transformers import pipeline
+
+import parrot.summarizer as summarizer
+
+logging.basicConfig( level=logging.INFO,
+    format='%(levelname)s:%(name)s %(asctime)s %(filename)s:%(lineno)s:%(funcName)s: %(message)s',
+    #handlers=[ logging.FileHandler("/tmp/stream.log"), logging.StreamHandler()],
+    handlers=[ logging.StreamHandler()],
+)
+logger = logging.getLogger( "app.audio" )
 
 # Taken from https://github.com/yinruiqing/pyannote-whisper
 class PyanWhisper:
@@ -65,17 +73,18 @@ class PyanWhisper:
                 line = f'{seg.start:.2f} {seg.end:.2f} {spk} {sentence}\n'
                 fp.write(line)
                 
-#-----------------------------models------------------------------------------------------------------------               
-transcriber = whisper.load_model("base.en", device="cuda")
+#-----------------------------models-----------------------------------------------------------------
+device = "cuda" if torch.cuda.is_available() else "cpu"
+transcriber = whisper.load_model("base.en", device=device)
 diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
                                 use_auth_token="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")
-#--------------------------------------------------------------------------------------------------------    
+#---------------------------------------------------------------------------------------------------- 
 @webapi("/parrot/uploadfile")
 def uploadfile(request,  **kwargs):
     par = dict(request.GET)
     par.update(request.POST)
 
-    DESTDIR ="/tmp/parrot/"    
+    DESTDIR ="/tmp/parrot/"
     if (not os.path.exists(DESTDIR)):
         os.makedirs(DESTDIR)
     
@@ -90,24 +99,15 @@ def uploadfile(request,  **kwargs):
 
     print("Retuning ", ret)
     return ret
-
 #--------------------------------------------------------------------------------------------------------    
-@webapi("/parrot/processfile")
-def processfile(request, **kwargs):
-    print("\nProcessing file: ", kwargs)
-
-    # Upload
-    ret = uploadfile(request, **kwargs)
-    f = ret.split('\n')[1]
-    
-    print( f"Calling transcription: {f}\n")
-    result = transcriber.transcribe(f)
-    diarization = diarizer(f)
+def _transcribe_process(file):
+    result = transcriber.transcribe(file)
+    diarization = diarizer(file)
     final_result = PyanWhisper.diarize_text(result, diarization)
     
     # Write final result to a new file
     ret = ""
-    with open(f +".txt", "w") as new_f:
+    with open(file+".txt", "w") as new_f:
         for seg, spk, sent in final_result:
             start = str(datetime.timedelta(seconds=int(seg.start)))
             end = str(datetime.timedelta(seconds=int(seg.end)))
@@ -116,5 +116,30 @@ def processfile(request, **kwargs):
             ret += line
         transcription = ret
     
-    response = {'transcription': transcription, 'file_url': f, 'text': result["text"]}
-    return HttpResponse(json.dumps(response), content_type='application/json') 
+    response = { 'file_url': file, 
+                 'transcription': transcription,  
+                 'text': result["text"]
+                }
+
+    return response
+#--------------------------------------------------------------------------------------------------------    
+@webapi("/parrot/processfile")
+def processfile(request, **kwargs):
+    files = uploadfile(request, **kwargs).split("\n")
+    if ( len(files) <= 0 ):   return "WARNING: No files given!"
+    file = files[1]
+
+    if os.path.exists(file+".json"):
+        return open(file+".json", "r").read()
+
+    if os.path.exists(file+".processing"): return f"WARNING: {file}.being processed!"
+    open(file+".processing", "w").write("STARTED")
+
+    ret = _transcribe_process(file)
+    srt = summarizer.summarizeText( ret['transcription'])
+
+    with open (file +".json", "w") as f:
+        f.write(json.dumps(ret))
+
+    ret.update(srt)
+    return ret

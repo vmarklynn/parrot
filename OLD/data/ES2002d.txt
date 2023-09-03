@@ -1,0 +1,2664 @@
+0:00:00	SPEAKER_01
+ Okay, we're all set.
+
+0:00:05	SPEAKER_01
+ Right.
+
+0:00:06	SPEAKER_01
+ Well, this is the final detailed design meeting.
+
+0:00:12	SPEAKER_01
+ We're going to discuss the look and feel design, the easier interface design, and we're going to evaluate the product.
+
+0:00:18	SPEAKER_01
+ And the end result of this meeting has to be a decision on the details of this remote control, like absolute final decision.
+
+0:00:25	SPEAKER_01
+ And then I'm going to have to specify the final design in the final report.
+
+0:00:31	SPEAKER_01
+ So just from last time to recap, we said we were going to have a snowman shaped remote control with no LCD display, no need for talk back.
+
+0:00:42	SPEAKER_01
+ It was hopefully going to be kinetic power and battery with rubber buttons, maybe back lighting the buttons with some internal LEDs to shine through the casing, hopefully a job dial, incorporating the slogan somewhere as well.
+
+0:00:57	SPEAKER_01
+ Anything I missed?
+
+0:00:59	SPEAKER_01
+ Okay.
+
+0:01:00	SPEAKER_01
+ Sue, if you want to present your prototype, go ahead.
+
+0:01:08	SPEAKER_06
+ That's it.
+
+0:01:11	SPEAKER_06
+ Ninja Homa made in Japan.
+
+0:01:13	SPEAKER_02
+ There are a few tunes we've made.
+
+0:01:17	SPEAKER_02
+ We're looking at the expansion.
+
+0:01:19	SPEAKER_02
+ And it's going to be quite a lot expensive to have open up now what's the buttons and stuff inside.
+
+0:01:25	SPEAKER_02
+ So instead of this is going to be an LCD screen.
+
+0:01:28	SPEAKER_02
+ Just a very, very basic one, very small, with access to the menu through the screw wheel and confirm.
+
+0:01:34	SPEAKER_02
+ And button.
+
+0:01:35	SPEAKER_02
+ Okay.
+
+0:01:36	SPEAKER_02
+ Part of my, there's pretty much the same thing we discussed last time.
+
+0:01:42	SPEAKER_06
+ And there isn't a, it doesn't open up to the advanced functions.
+
+0:01:46	SPEAKER_06
+ So the advanced functions are still hidden from you, but they're hidden in this inset.
+
+0:01:50	SPEAKER_06
+ They're not in use.
+
+0:01:51	SPEAKER_06
+ Where are they?
+
+0:01:52	SPEAKER_06
+ They're in the LCD panel and the job dial.
+
+0:01:54	SPEAKER_06
+ All right.
+
+0:01:55	SPEAKER_01
+ So what kind of thing is going to be?
+
+0:01:58	SPEAKER_06
+ The LCD panel just displays functionally what you're doing.
+
+0:02:01	SPEAKER_06
+ If you're using an advanced function, right, like brightness, contrast, whatever, it would just say, you know, it's like, it only has four columns.
+
+0:02:10	SPEAKER_06
+ It's a very simple LCD.
+
+0:02:11	SPEAKER_06
+ Like, or as many, the minimum amount we need that they usually automatically know, like, this is brightness, or this is contrast.
+
+0:02:18	SPEAKER_06
+ It might even be one, a bit more complex LCD panel, which pictures like maybe the sun, or, you know, the symbols of the various.
+
+0:02:25	SPEAKER_06
+ And what is this here?
+
+0:02:27	SPEAKER_06
+ That's a number pad.
+
+0:02:28	SPEAKER_06
+ Okay.
+
+0:02:29	SPEAKER_01
+ So the number pad is where we're going to have the slogan.
+
+0:02:33	SPEAKER_06
+ Um, just like along the side.
+
+0:02:36	SPEAKER_01
+ Yeah.
+
+0:02:37	SPEAKER_01
+ Okay.
+
+0:02:38	SPEAKER_06
+ Cool.
+
+0:02:39	SPEAKER_06
+ You have this space here and then you have this thing on the side as well, or at the bottom.
+
+0:02:43	SPEAKER_06
+ So, the slogans are usually quite small, right?
+
+0:02:45	SPEAKER_06
+ They're not like huge.
+
+0:02:47	SPEAKER_06
+ So, there's, say, buttons about this size, right?
+
+0:02:53	SPEAKER_06
+ So you would still have plenty of space for a slogan.
+
+0:02:56	SPEAKER_01
+ So if this isn't to scale, what kind of dimensions are you thinking about here?
+
+0:03:02	SPEAKER_02
+ Well, I want the buttons to be bigger enough to push easily with my fingers.
+
+0:03:06	SPEAKER_02
+ So we're going to, maybe that'll be about the same size as in Pam and, yeah.
+
+0:03:10	SPEAKER_06
+ So that would be about centimeter for a button.
+
+0:03:14	SPEAKER_06
+ So one, two, three, four centimeters plus maybe half, five, six, seven, eight.
+
+0:03:24	SPEAKER_01
+ Yeah.
+
+0:03:25	SPEAKER_01
+ That sounds good.
+
+0:03:26	SPEAKER_01
+ That would be good.
+
+0:03:27	SPEAKER_01
+ So 10 centimeters in height.
+
+0:03:28	SPEAKER_01
+ Okay.
+
+0:03:29	SPEAKER_01
+ Um, that would be good.
+
+0:03:30	SPEAKER_01
+ In fact, a pen is about 10 centimeters usually.
+
+0:03:31	SPEAKER_01
+ So that would be, that sounds like a really good sign.
+
+0:03:33	SPEAKER_01
+ Yeah.
+
+0:03:34	SPEAKER_03
+ You see it there.
+
+0:03:40	SPEAKER_03
+ That's great.
+
+0:03:41	SPEAKER_01
+ And it's very bright as well.
+
+0:03:44	SPEAKER_01
+ So, um, okay.
+
+0:03:46	SPEAKER_03
+ Is it possible?
+
+0:03:47	SPEAKER_03
+ Uh, just going to bring up the idea of colors.
+
+0:03:50	SPEAKER_03
+ Is these, are these the colors that have production?
+
+0:03:52	SPEAKER_03
+ Um, is this just what we had available?
+
+0:03:54	SPEAKER_02
+ We're going to have again the sort of the foggy, um, yellow, masking that the app when you beat the button, right?
+
+0:04:00	SPEAKER_01
+ Okay.
+
+0:04:01	SPEAKER_01
+ I can do this list of all the things that it does.
+
+0:04:07	SPEAKER_02
+ So I can write them in the report.
+
+0:04:10	SPEAKER_02
+ Um, this button.
+
+0:04:11	SPEAKER_02
+ Um, because it's red, it's sort of very small.
+
+0:04:12	SPEAKER_02
+ I'm going to use it as, uh, it's going to be the power button if you hold it for maybe two seconds.
+
+0:04:17	SPEAKER_02
+ I'll send it in the mic if you want to make a change, or be used to be more popular and can use this as a jog though.
+
+0:04:24	SPEAKER_01
+ Okay. So that's like an okay button?
+
+0:04:26	SPEAKER_01
+ Yeah.
+
+0:04:27	SPEAKER_06
+ Mm-hmm.
+
+0:04:28	SPEAKER_06
+ Oh, we discussed how high it is, but how wide is it?
+
+0:04:30	SPEAKER_06
+ Okay.
+
+0:04:31	SPEAKER_06
+ How high is it?
+
+0:04:33	SPEAKER_06
+ No, as in the height.
+
+0:04:35	SPEAKER_06
+ Yeah.
+
+0:04:36	SPEAKER_06
+ But what about the width?
+
+0:04:37	SPEAKER_01
+ Oh, like depth of the...
+
+0:04:39	SPEAKER_01
+ We need five.
+
+0:04:40	SPEAKER_06
+ Yeah, we need about three and a half.
+
+0:04:42	SPEAKER_06
+ Okay.
+
+0:04:43	SPEAKER_01
+ Oh, is this to get an idea of scale from your...
+
+0:04:46	SPEAKER_01
+ Sure.
+
+0:04:47	SPEAKER_01
+ Sure.
+
+0:04:48	SPEAKER_01
+ Sure.
+
+0:04:49	SPEAKER_01
+ Okay.
+
+0:04:50	SPEAKER_02
+ No, what else can you do?
+
+0:04:52	SPEAKER_02
+ You can skip straight to the channel using these buttons.
+
+0:04:54	SPEAKER_01
+ Okay.
+
+0:05:01	SPEAKER_02
+ We're going to have the volume control here.
+
+0:05:03	SPEAKER_02
+ But because we've got the LCD and the jog dial, we just start with the new start as the volume.
+
+0:05:07	SPEAKER_01
+ Okay, jog dial for volume.
+
+0:05:11	SPEAKER_01
+ What else do you do as the jog dial?
+
+0:05:13	SPEAKER_02
+ You can use it for more advanced functions like contrast, color, and...
+
+0:05:18	SPEAKER_01
+ Contrast.
+
+0:05:19	SPEAKER_01
+ Contrast.
+
+0:05:20	SPEAKER_01
+ Brightness.
+
+0:05:21	SPEAKER_01
+ Yeah.
+
+0:05:22	SPEAKER_01
+ Yeah.
+
+0:05:23	SPEAKER_01
+ And then if not...
+
+0:05:24	SPEAKER_02
+ Um, it's whatever else we wanted to include as the advanced functions.
+
+0:05:27	SPEAKER_02
+ Um, but then I still got to inspect by the...
+
+0:05:30	SPEAKER_01
+ Well, as the designers, what are they?
+
+0:05:32	SPEAKER_02
+ Uh, what can a TV do?
+
+0:05:34	SPEAKER_06
+ Okay, things like, um, brightness contrast.
+
+0:05:38	SPEAKER_06
+ Uh-huh.
+
+0:05:39	SPEAKER_06
+ Um, maybe tuning the channels.
+
+0:05:41	SPEAKER_06
+ Okay, channels.
+
+0:05:42	SPEAKER_01
+ Um, what else?
+
+0:05:43	SPEAKER_01
+ Um, the various inputs.
+
+0:05:45	SPEAKER_06
+ So, you're having VCR, you're having, you know, which input you have.
+
+0:05:49	SPEAKER_01
+ Okay.
+
+0:05:50	SPEAKER_01
+ Exactly.
+
+0:05:51	SPEAKER_06
+ Probably color sharpness.
+
+0:05:52	SPEAKER_06
+ Yeah.
+
+0:05:53	SPEAKER_06
+ Color sharpness.
+
+0:05:54	SPEAKER_06
+ Um, a lot of these things will have to be, um, free and open for users to define them.
+
+0:05:59	SPEAKER_01
+ Okay, what about, uh, sign settings?
+
+0:06:02	SPEAKER_01
+ Or can you change any of those at all?
+
+0:06:04	SPEAKER_06
+ Yeah.
+
+0:06:05	SPEAKER_06
+ Audio.
+
+0:06:06	SPEAKER_06
+ We have like your basic...
+
+0:06:07	SPEAKER_06
+ Your base, your mid-range, your high-range.
+
+0:06:10	SPEAKER_06
+ Um, they have the bounce.
+
+0:06:12	SPEAKER_06
+ Yep.
+
+0:06:13	SPEAKER_06
+ Left-right-balance.
+
+0:06:15	SPEAKER_06
+ Um, maybe even pre-programmed.
+
+0:06:16	SPEAKER_06
+ Okay.
+
+0:06:17	SPEAKER_06
+ Um, the user could determine, like, a series of sound modes, and then what could happen would be, um, when you click on that, then we'll go to that setting.
+
+0:06:28	SPEAKER_01
+ Okay.
+
+0:06:29	SPEAKER_01
+ Yeah.
+
+0:06:30	SPEAKER_01
+ Is there anything else that it can do?
+
+0:06:33	SPEAKER_01
+ Cause that's fine.
+
+0:06:34	SPEAKER_01
+ You just need to know so I can write it down.
+
+0:06:37	SPEAKER_01
+ Okay.
+
+0:06:38	SPEAKER_01
+ Um, right?
+
+0:06:39	SPEAKER_01
+ I guess that's it.
+
+0:06:41	SPEAKER_01
+ So we can now, um, we can now have a little look at, uh, the Excel sheet and price this thing and see if we need to, um, if we need to rethink anything at all.
+
+0:06:57	SPEAKER_01
+ So, um, for this first part here, par-wise, have we got...
+
+0:07:01	SPEAKER_01
+ Battery.
+
+0:07:02	SPEAKER_01
+ Battery.
+
+0:07:03	SPEAKER_01
+ Do we have kinetic as well?
+
+0:07:04	SPEAKER_01
+ No.
+
+0:07:05	SPEAKER_01
+ No?
+
+0:07:06	SPEAKER_01
+ Okay.
+
+0:07:07	SPEAKER_01
+ Um, just battery.
+
+0:07:08	SPEAKER_06
+ We need...
+
+0:07:11	SPEAKER_01
+ That's because of cost restraints, is it?
+
+0:07:13	SPEAKER_01
+ Yeah.
+
+0:07:14	SPEAKER_01
+ Okay.
+
+0:07:15	SPEAKER_01
+ Um, what about the electronics here?
+
+0:07:16	SPEAKER_06
+ We need a...
+
+0:07:17	SPEAKER_06
+ The advanced chip.
+
+0:07:18	SPEAKER_06
+ Let me just confirm that.
+
+0:07:19	SPEAKER_06
+ Yes, I think so.
+
+0:07:27	None
+ Okay.
+
+0:07:28	SPEAKER_01
+ Um, the case, what does it mean by single and double, do you know?
+
+0:07:32	SPEAKER_02
+ I think single just be sort of one, or a double, where it doubles this sort of thing.
+
+0:07:37	SPEAKER_01
+ Double car.
+
+0:07:38	SPEAKER_01
+ Yep.
+
+0:07:39	None
+ Okay.
+
+0:07:40	SPEAKER_01
+ Um...
+
+0:07:41	SPEAKER_01
+ Plastic.
+
+0:07:42	SPEAKER_01
+ Is there any rubber at all in the button?
+
+0:07:46	SPEAKER_01
+ I think we're gonna have to skip a rubber.
+
+0:07:48	SPEAKER_01
+ Okay.
+
+0:07:49	SPEAKER_01
+ Um, and we want it to special colors, don't we?
+
+0:07:52	SPEAKER_01
+ So, I'll have to pop that.
+
+0:07:53	SPEAKER_01
+ Oh, no, wait.
+
+0:07:54	SPEAKER_01
+ How many colors have we got there?
+
+0:07:56	SPEAKER_06
+ For the case itself, one color.
+
+0:07:58	SPEAKER_06
+ It's one special color.
+
+0:07:59	SPEAKER_01
+ Just one color, okay.
+
+0:08:00	SPEAKER_06
+ Because the case unit itself, the rest of it.
+
+0:08:02	SPEAKER_01
+ Okay.
+
+0:08:03	SPEAKER_01
+ So, interface-wise, is it this third option we have?
+
+0:08:06	SPEAKER_06
+ It's one of the other ones.
+
+0:08:08	SPEAKER_06
+ Okay.
+
+0:08:09	SPEAKER_01
+ Um, then buttons.
+
+0:08:10	SPEAKER_01
+ I mean, we have one.
+
+0:08:11	SPEAKER_01
+ Two colors.
+
+0:08:12	SPEAKER_01
+ We've got push buttons as well.
+
+0:08:17	SPEAKER_06
+ Like, oh wait, so push button and integrated screw.
+
+0:08:24	SPEAKER_01
+ Okay.
+
+0:08:25	SPEAKER_02
+ We've got one button for this thing, because it's just one big sheet of rubber.
+
+0:08:29	SPEAKER_02
+ Uh-huh.
+
+0:08:30	SPEAKER_02
+ Um, not sure if that counts.
+
+0:08:32	SPEAKER_06
+ Okay.
+
+0:08:33	SPEAKER_06
+ So, let's just be safe and put, like, say, four buttons for that one.
+
+0:08:36	SPEAKER_01
+ Okay.
+
+0:08:37	SPEAKER_06
+ Okay.
+
+0:08:38	SPEAKER_06
+ Um, and maybe a special color for the months.
+
+0:08:41	SPEAKER_06
+ So, maybe four again.
+
+0:08:43	SPEAKER_06
+ Four.
+
+0:08:44	SPEAKER_01
+ So, why are we arriving at the number four?
+
+0:08:47	SPEAKER_01
+ Where does the number four come from?
+
+0:08:48	SPEAKER_06
+ Because that's one button, but it's the complexity of 12 buttons.
+
+0:08:52	SPEAKER_01
+ Okay.
+
+0:08:53	SPEAKER_01
+ All right.
+
+0:08:54	SPEAKER_06
+ So, we're just estimating that, yeah, it'll be less.
+
+0:08:56	SPEAKER_01
+ Okay.
+
+0:08:57	SPEAKER_01
+ Are we wanting them?
+
+0:09:01	SPEAKER_01
+ No.
+
+0:09:02	SPEAKER_01
+ Is everything going to be faster?
+
+0:09:04	SPEAKER_01
+ Okay.
+
+0:09:05	SPEAKER_01
+ So, we're all quite far over.
+
+0:09:08	SPEAKER_01
+ Something's going to have to go.
+
+0:09:11	SPEAKER_01
+ Um, we're at 16.8.
+
+0:09:13	SPEAKER_01
+ And...
+
+0:09:14	SPEAKER_03
+ How are we going to achieve this high end product?
+
+0:09:18	SPEAKER_01
+ Well, something has to go to the tune of 2.3 euro.
+
+0:09:25	SPEAKER_01
+ So, let me see.
+
+0:09:27	SPEAKER_01
+ What are we?
+
+0:09:28	SPEAKER_01
+ I mean...
+
+0:09:29	SPEAKER_01
+ Oh, yeah, sorry, 4.3.
+
+0:09:32	SPEAKER_02
+ Oh, we could take it once when we can get a single curve.
+
+0:09:35	SPEAKER_02
+ Just fill in those bits.
+
+0:09:37	None
+ Yeah.
+
+0:09:38	SPEAKER_05
+ And then we're...
+
+0:09:39	SPEAKER_05
+ How much did that say?
+
+0:09:40	SPEAKER_05
+ How much did that say?
+
+0:09:41	SPEAKER_05
+ That one say if you want one.
+
+0:09:42	SPEAKER_06
+ The other thing could be that, um, you could take away the LCD panel and advance chip together.
+
+0:09:47	SPEAKER_06
+ Um, because when you do something on the TV, the TV responds and reacts as well.
+
+0:09:53	SPEAKER_06
+ So, the user could be looking at the TV and pushing this thing so they may not need to...
+
+0:09:58	SPEAKER_06
+ So, when we scroll, we need just some way to get the TV to respond.
+
+0:10:02	SPEAKER_06
+ Okay, so...
+
+0:10:03	SPEAKER_06
+ Which I think is a technically doable thing, so...
+
+0:10:05	SPEAKER_01
+ So, what's our review suggestion?
+
+0:10:07	SPEAKER_01
+ Um, take away the LCD display.
+
+0:10:10	SPEAKER_01
+ Yep.
+
+0:10:11	SPEAKER_06
+ And the advance chip goes away as well.
+
+0:10:14	SPEAKER_01
+ To be replaced with a...
+
+0:10:16	SPEAKER_01
+ Regular chip.
+
+0:10:17	SPEAKER_01
+ Regular chip.
+
+0:10:18	SPEAKER_01
+ Okay.
+
+0:10:19	SPEAKER_06
+ So, what that means is that...
+
+0:10:22	SPEAKER_06
+ Oh.
+
+0:10:23	SPEAKER_01
+ So, we've got 0.3 to get rid of.
+
+0:10:26	SPEAKER_01
+ Um, and we have...
+
+0:10:28	SPEAKER_01
+ Where are the four...
+
+0:10:29	SPEAKER_01
+ The four push buttons are where exactly now?
+
+0:10:31	SPEAKER_06
+ The 12 buttons that you see there.
+
+0:10:33	SPEAKER_01
+ 12 buttons?
+
+0:10:34	SPEAKER_02
+ That's one piece of rubber, but it's going to have 12 buttons.
+
+0:10:37	SPEAKER_02
+ Yeah.
+
+0:10:38	SPEAKER_06
+ Functionally, you have to intercept.
+
+0:10:39	SPEAKER_06
+ So, 4 is a good estimate for...
+
+0:10:41	SPEAKER_01
+ Do you think?
+
+0:10:42	SPEAKER_06
+ Yeah.
+
+0:10:43	SPEAKER_06
+ So, you can't actually cut...
+
+0:10:45	SPEAKER_06
+ It's like three times the number of buttons.
+
+0:10:48	SPEAKER_01
+ Okay.
+
+0:10:49	SPEAKER_01
+ 4, 8, 12.
+
+0:10:50	SPEAKER_01
+ Is that one big button or is it 12 buttons?
+
+0:10:52	SPEAKER_01
+ How can it be something in between?
+
+0:10:54	SPEAKER_06
+ It needs to be more than one big button because if you open up your phone and then there's actually one button underneath, it's just that the panel itself is a single panel.
+
+0:11:03	SPEAKER_01
+ Okay.
+
+0:11:04	SPEAKER_01
+ Well, we have 0.3 to get rid of somewhere.
+
+0:11:07	SPEAKER_06
+ Just report that it has to be over budget.
+
+0:11:10	SPEAKER_06
+ Or the colors.
+
+0:11:12	SPEAKER_06
+ No, there's no...
+
+0:11:13	SPEAKER_06
+ Take away colors for the buttons.
+
+0:11:14	SPEAKER_06
+ Yeah, we could just go with normal color buttons.
+
+0:11:19	SPEAKER_01
+ Well, do you want color differentiation here?
+
+0:11:22	SPEAKER_06
+ No, that's not the button with all of this.
+
+0:11:23	SPEAKER_06
+ Oh, sorry.
+
+0:11:24	SPEAKER_06
+ The buttons only refer to the pads.
+
+0:11:26	SPEAKER_01
+ Right.
+
+0:11:27	SPEAKER_01
+ So...
+
+0:11:28	SPEAKER_01
+ Take that off.
+
+0:11:29	SPEAKER_01
+ Aww.
+
+0:11:30	SPEAKER_06
+ It's back to the original.
+
+0:11:33	SPEAKER_06
+ So then these just become normal color buttons.
+
+0:11:37	SPEAKER_06
+ So that might be some way of cutting the cost.
+
+0:11:41	SPEAKER_01
+ Okay.
+
+0:11:42	SPEAKER_01
+ Off that's the sheet.
+
+0:11:44	SPEAKER_01
+ And...
+
+0:11:45	SPEAKER_01
+ Right.
+
+0:11:46	SPEAKER_01
+ So take away that completely.
+
+0:11:48	SPEAKER_01
+ Aww.
+
+0:11:49	SPEAKER_01
+ And now we're under budget.
+
+0:11:51	SPEAKER_01
+ So we do have 0.5 euro to play with if we wanted.
+
+0:11:55	SPEAKER_03
+ How about with embossing the logo?
+
+0:11:57	SPEAKER_03
+ Isn't that going to cost us some money?
+
+0:11:59	SPEAKER_01
+ It doesn't say so.
+
+0:12:01	SPEAKER_02
+ I can't afford your current as a special form for the buttons.
+
+0:12:04	SPEAKER_01
+ Yeah.
+
+0:12:05	SPEAKER_01
+ Yeah, that's a good idea.
+
+0:12:07	SPEAKER_01
+ There's one.
+
+0:12:10	SPEAKER_01
+ Does that mean that one button has a special form or...?
+
+0:12:13	SPEAKER_02
+ I think one button.
+
+0:12:14	SPEAKER_02
+ There's just one button.
+
+0:12:15	SPEAKER_01
+ Yeah.
+
+0:12:16	SPEAKER_01
+ Okay.
+
+0:12:17	SPEAKER_01
+ Well, there we go.
+
+0:12:18	SPEAKER_01
+ So I'm just going to have to re-draw this nice.
+
+0:12:21	SPEAKER_01
+ We're not going to have the LCD anymore.
+
+0:12:23	SPEAKER_01
+ We're just going to have an on the TV.
+
+0:12:25	SPEAKER_01
+ It'll show you what you're doing.
+
+0:12:26	SPEAKER_01
+ But I think it's fair enough.
+
+0:12:28	SPEAKER_01
+ And so this is going to be one big thing here.
+
+0:12:31	SPEAKER_01
+ Erm...
+
+0:12:35	SPEAKER_03
+ Was the goal in your prototype design that it be as low profile as possible?
+
+0:12:41	SPEAKER_03
+ What do you mean by profile?
+
+0:12:43	SPEAKER_03
+ Sort of flat as possible.
+
+0:12:45	SPEAKER_02
+ No.
+
+0:12:48	SPEAKER_02
+ Yeah.
+
+0:12:49	SPEAKER_02
+ It's quite deep.
+
+0:12:50	SPEAKER_02
+ Yeah.
+
+0:12:51	SPEAKER_02
+ It's quite deep.
+
+0:12:52	SPEAKER_06
+ Yeah.
+
+0:12:53	SPEAKER_06
+ It's quite light and black.
+
+0:12:54	SPEAKER_06
+ Sure.
+
+0:12:55	SPEAKER_06
+ We didn't have enough play to make it.
+
+0:12:56	SPEAKER_06
+ Yeah.
+
+0:12:57	SPEAKER_06
+ Alright.
+
+0:12:58	SPEAKER_06
+ Okay.
+
+0:12:59	SPEAKER_06
+ Just...
+
+0:13:00	SPEAKER_06
+ So there's one more dimension to the thing which we need to add.
+
+0:13:02	SPEAKER_01
+ And you might want to add in a report length width and height.
+
+0:13:05	SPEAKER_01
+ Right.
+
+0:13:06	SPEAKER_01
+ Okay.
+
+0:13:07	SPEAKER_01
+ So just to...
+
+0:13:08	SPEAKER_01
+ Well, to be thorough then, width wise, we're looking at about what three centimeters or something?
+
+0:13:13	SPEAKER_01
+ Yeah.
+
+0:13:14	SPEAKER_01
+ So height wise...
+
+0:13:19	SPEAKER_01
+ High toward envisaging.
+
+0:13:22	SPEAKER_01
+ I like that.
+
+0:13:23	SPEAKER_01
+ I like two centimeters.
+
+0:13:25	SPEAKER_01
+ Okay.
+
+0:13:26	SPEAKER_03
+ Two's not very high at all though.
+
+0:13:28	SPEAKER_03
+ This is about two.
+
+0:13:32	SPEAKER_06
+ Slightly more than two.
+
+0:13:33	SPEAKER_06
+ Yeah.
+
+0:13:34	SPEAKER_06
+ I'm about that thick.
+
+0:13:35	SPEAKER_03
+ Okay.
+
+0:13:36	SPEAKER_01
+ Maybe closer to three.
+
+0:13:37	SPEAKER_01
+ Okay.
+
+0:13:38	SPEAKER_01
+ We'll say two point five.
+
+0:13:40	SPEAKER_01
+ Okay.
+
+0:13:41	SPEAKER_01
+ So we have it within cost anyway.
+
+0:13:46	SPEAKER_01
+ So yeah.
+
+0:13:47	SPEAKER_01
+ Project evaluation is this point.
+
+0:13:51	SPEAKER_01
+ Right.
+
+0:13:53	SPEAKER_01
+ Okay.
+
+0:13:54	SPEAKER_01
+ So can we close that?
+
+0:13:58	SPEAKER_01
+ This is what it's the final spec that's going to be.
+
+0:14:01	SPEAKER_01
+ So I'm just going to have to...
+
+0:14:04	SPEAKER_01
+ Yeah.
+
+0:14:05	SPEAKER_03
+ That's fine.
+
+0:14:06	SPEAKER_03
+ It's probably just...
+
+0:14:08	SPEAKER_03
+ It's worth getting into.
+
+0:14:11	SPEAKER_03
+ But just in that we want this to be stylish, should we think a little bit more out of the box in terms of a button grid?
+
+0:14:16	SPEAKER_03
+ Because I've seen there's lots of devices out there that instead of taking your standard nine square grid and they have it sort of stylized or in different concept.
+
+0:14:25	SPEAKER_06
+ I think that's something that's very hard to catch.
+
+0:14:28	SPEAKER_06
+ Yeah.
+
+0:14:29	SPEAKER_06
+ So you restrict the number of people when they try something.
+
+0:14:32	SPEAKER_06
+ Sure.
+
+0:14:33	SPEAKER_06
+ Okay.
+
+0:14:34	SPEAKER_06
+ The look and the color is something which is cool.
+
+0:14:35	SPEAKER_06
+ Yeah.
+
+0:14:36	SPEAKER_06
+ So there's also that factor of if it's too unfamiliar.
+
+0:14:39	SPEAKER_06
+ Okay.
+
+0:14:40	SPEAKER_06
+ Sure.
+
+0:14:41	SPEAKER_03
+ Because when you put it on the shelf...
+
+0:14:42	SPEAKER_06
+ Or button shape.
+
+0:14:43	SPEAKER_06
+ Square buttons.
+
+0:14:44	SPEAKER_06
+ Yeah.
+
+0:14:45	SPEAKER_06
+ Bunch shape might be a good idea to change.
+
+0:14:46	SPEAKER_06
+ Okay.
+
+0:14:47	SPEAKER_06
+ Rather than positioning.
+
+0:14:48	SPEAKER_06
+ Because I think positioning is...
+
+0:14:50	SPEAKER_06
+ Sure.
+
+0:14:51	SPEAKER_06
+ We're kind of ingrained into the telephone kind of.
+
+0:14:54	SPEAKER_01
+ Okay.
+
+0:14:55	SPEAKER_01
+ Right.
+
+0:14:56	SPEAKER_01
+ So at this point we...
+
+0:15:01	SPEAKER_01
+ Is it?
+
+0:15:03	SPEAKER_01
+ Discuss how satisfied we all are with these four points with the room for creativity in the project and leadership and teamwork and the stuff we have.
+
+0:15:16	SPEAKER_01
+ Or on this I guess.
+
+0:15:24	SPEAKER_03
+ Do you want me to...
+
+0:15:28	SPEAKER_03
+ Do you want me to do my design evaluation last?
+
+0:15:32	SPEAKER_03
+ I'm not really sure what that was.
+
+0:15:34	SPEAKER_03
+ Yeah.
+
+0:15:35	SPEAKER_01
+ Evaluation.
+
+0:15:36	SPEAKER_01
+ Yeah.
+
+0:15:37	SPEAKER_01
+ Go for that first.
+
+0:15:38	SPEAKER_01
+ I wasn't entirely sure what he was supposed to be doing that but you go for it.
+
+0:15:43	SPEAKER_03
+ All right.
+
+0:15:44	SPEAKER_03
+ So the way this works.
+
+0:15:45	SPEAKER_03
+ I'm going to need to plug in the PowerPoint.
+
+0:15:46	SPEAKER_03
+ Okay.
+
+0:15:47	SPEAKER_03
+ I'll try and do it as quick as possible.
+
+0:15:48	SPEAKER_03
+ Okay.
+
+0:15:49	SPEAKER_03
+ So I'll just go over your head if that's okay.
+
+0:15:53	SPEAKER_03
+ Yeah.
+
+0:15:54	SPEAKER_06
+ I don't think you need the power.
+
+0:15:56	SPEAKER_06
+ So what's that?
+
+0:15:57	SPEAKER_06
+ It's okay.
+
+0:15:58	SPEAKER_06
+ It's okay.
+
+0:15:59	SPEAKER_06
+ I don't need the power point.
+
+0:16:00	SPEAKER_06
+ The power cord itself.
+
+0:16:02	SPEAKER_03
+ Oh, of course.
+
+0:16:03	SPEAKER_06
+ Yeah.
+
+0:16:04	SPEAKER_06
+ Freedom.
+
+0:16:05	SPEAKER_06
+ A bit more.
+
+0:16:12	SPEAKER_03
+ So what this is is a sub-frust to use kind of like a...
+
+0:16:18	SPEAKER_03
+ I'm not sure what the idea is that I've set up, I've reviewed all of the points of discussion from the beginning and use that as a criteria of evaluation for the...
+
+0:16:31	SPEAKER_03
+ For the current design or the plan and so we can review that.
+
+0:16:36	SPEAKER_03
+ I think it's going to end up being sort of elementary because we're not going to properly use it to change anything but...
+
+0:16:47	SPEAKER_03
+ Okay, great.
+
+0:16:48	SPEAKER_03
+ And I'm going to write up our results on the board so this will be a way for us to go through and decide if we're...
+
+0:16:54	SPEAKER_03
+ To review where we're standing.
+
+0:16:57	SPEAKER_03
+ Okay.
+
+0:16:58	SPEAKER_03
+ So...
+
+0:16:59	SPEAKER_03
+ So sort of bringing together two things for design goals and also the market research that we had.
+
+0:17:07	SPEAKER_03
+ When we write this, one is high in succeeding or fitting to our original aim and seven is low.
+
+0:17:13	SPEAKER_03
+ Okay.
+
+0:17:14	SPEAKER_03
+ So these are... and then we've been asked to... to collectively write this so we can use try and just keep work on a consensus system.
+
+0:17:23	SPEAKER_03
+ So we just come to an agreement.
+
+0:17:26	SPEAKER_03
+ Okay.
+
+0:17:27	SPEAKER_03
+ Okay.
+
+0:17:28	SPEAKER_03
+ So the first one, the stylish look and feel.
+
+0:17:32	SPEAKER_06
+ I rate that pretty high.
+
+0:17:33	SPEAKER_01
+ Well, yeah.
+
+0:17:34	SPEAKER_01
+ I mean compared to most remote controls you see, that's pretty good.
+
+0:17:37	SPEAKER_01
+ I didn't know like a six or something.
+
+0:17:39	SPEAKER_01
+ Yeah.
+
+0:17:40	SPEAKER_03
+ What does anybody else say?
+
+0:17:41	SPEAKER_03
+ My only reservation was that we basically went with yellow because it's a company's color and I don't know if yellow is going to really be a hit.
+
+0:17:48	SPEAKER_01
+ But...
+
+0:17:49	SPEAKER_01
+ Okay.
+
+0:17:50	SPEAKER_01
+ I should apply that.
+
+0:17:52	SPEAKER_03
+ What do you guys think?
+
+0:17:53	SPEAKER_01
+ I would say five or six.
+
+0:17:55	SPEAKER_01
+ Okay.
+
+0:17:56	SPEAKER_06
+ Yep.
+
+0:17:57	SPEAKER_06
+ I'm fine with that.
+
+0:17:58	SPEAKER_06
+ Okay.
+
+0:17:59	SPEAKER_01
+ Okay.
+
+0:18:00	SPEAKER_03
+ Okay.
+
+0:18:01	SPEAKER_03
+ Oh, it's actually one to seven.
+
+0:18:02	SPEAKER_01
+ Oh, yes.
+
+0:18:03	SPEAKER_01
+ Sorry.
+
+0:18:04	SPEAKER_06
+ Then I would say two or three.
+
+0:18:06	SPEAKER_06
+ Okay.
+
+0:18:07	SPEAKER_06
+ Wait.
+
+0:18:08	SPEAKER_06
+ What's the scale?
+
+0:18:09	SPEAKER_06
+ One to seven.
+
+0:18:10	SPEAKER_06
+ One is high.
+
+0:18:11	SPEAKER_03
+ Okay.
+
+0:18:12	SPEAKER_02
+ Yeah.
+
+0:18:13	SPEAKER_02
+ Two is free.
+
+0:18:14	SPEAKER_02
+ Okay.
+
+0:18:15	SPEAKER_03
+ Okay.
+
+0:18:16	SPEAKER_03
+ So that's a bit more than five then.
+
+0:18:18	SPEAKER_03
+ Okay.
+
+0:18:19	SPEAKER_03
+ Control high tech innovation.
+
+0:18:22	SPEAKER_03
+ Well, how do we jog down?
+
+0:18:25	SPEAKER_03
+ So we had to remove a few of our features we wanted, but jog down.
+
+0:18:30	SPEAKER_03
+ I'd say it's more three or four.
+
+0:18:33	SPEAKER_06
+ Maybe, yeah, but going towards a little bit higher than medium.
+
+0:18:36	SPEAKER_06
+ Okay.
+
+0:18:37	SPEAKER_03
+ Okay.
+
+0:18:41	SPEAKER_03
+ Style reflects a fruit inspired colored line.
+
+0:18:45	SPEAKER_03
+ Let me say color.
+
+0:18:47	SPEAKER_06
+ The blue colors and don't actually represent the color except for the red button.
+
+0:18:53	SPEAKER_06
+ Okay.
+
+0:18:54	SPEAKER_06
+ For one of the yellow.
+
+0:18:55	SPEAKER_01
+ I mean, it could be a yellow color.
+
+0:18:57	SPEAKER_06
+ Yeah.
+
+0:18:58	SPEAKER_06
+ The yellow is more representative of the color, but the button itself, the blue can be anything else.
+
+0:19:02	SPEAKER_03
+ Okay.
+
+0:19:03	SPEAKER_03
+ So two.
+
+0:19:04	SPEAKER_03
+ Okay.
+
+0:19:05	SPEAKER_03
+ And design is simple to use, simple and features.
+
+0:19:10	SPEAKER_03
+ Yeah.
+
+0:19:11	SPEAKER_01
+ And it's really basic.
+
+0:19:12	SPEAKER_01
+ I mean, I'd give that nearly a one.
+
+0:19:15	SPEAKER_03
+ You guys think?
+
+0:19:16	SPEAKER_03
+ Yeah.
+
+0:19:17	SPEAKER_03
+ One.
+
+0:19:18	SPEAKER_03
+ Yeah.
+
+0:19:19	SPEAKER_03
+ One.
+
+0:19:20	None
+ That's fine.
+
+0:19:21	SPEAKER_03
+ Soft and spongy.
+
+0:19:23	SPEAKER_03
+ We achieved that.
+
+0:19:24	SPEAKER_03
+ We've used mostly plastic in the end.
+
+0:19:26	SPEAKER_03
+ It's going to be quite a bit of a compromise for price.
+
+0:19:31	SPEAKER_03
+ Bye.
+
+0:19:32	SPEAKER_03
+ Bye.
+
+0:19:33	SPEAKER_01
+ That's really low.
+
+0:19:35	SPEAKER_01
+ Well, I have to use a plastic.
+
+0:19:37	SPEAKER_01
+ Yeah.
+
+0:19:38	SPEAKER_01
+ It's closed.
+
+0:19:39	SPEAKER_03
+ Okay.
+
+0:19:40	SPEAKER_03
+ Yeah.
+
+0:19:41	SPEAKER_03
+ Could we use an entirely rubber frame?
+
+0:19:44	SPEAKER_03
+ Is that an option?
+
+0:19:46	SPEAKER_03
+ I think it would be close.
+
+0:19:47	SPEAKER_02
+ It would be more than plastic.
+
+0:19:48	SPEAKER_02
+ And then it seems like logo.
+
+0:19:50	SPEAKER_03
+ We've got it in there.
+
+0:19:52	SPEAKER_03
+ Yeah.
+
+0:19:53	SPEAKER_01
+ Gonna have that on the side.
+
+0:19:55	SPEAKER_03
+ And it's within budget.
+
+0:20:00	SPEAKER_03
+ Yep.
+
+0:20:04	SPEAKER_03
+ Okay.
+
+0:20:05	SPEAKER_03
+ So we can say then.
+
+0:20:08	SPEAKER_03
+ Out of a possible.
+
+0:20:10	SPEAKER_01
+ Or.
+
+0:20:11	SPEAKER_01
+ Yeah.
+
+0:20:12	SPEAKER_03
+ Yeah.
+
+0:20:13	SPEAKER_03
+ 49 with zero being highest.
+
+0:20:21	SPEAKER_03
+ And.
+
+0:20:22	SPEAKER_03
+ 15.5.
+
+0:20:23	SPEAKER_03
+ Pretty good.
+
+0:20:29	SPEAKER_03
+ Translate to something like.
+
+0:20:32	SPEAKER_03
+ About approximately 72% efficacy.
+
+0:20:38	SPEAKER_03
+ Of our original goal.
+
+0:20:40	SPEAKER_03
+ Right.
+
+0:20:41	SPEAKER_03
+ I think because if you turn that into.
+
+0:20:45	SPEAKER_03
+ A hundred.
+
+0:20:47	SPEAKER_03
+ It would be about.
+
+0:20:48	SPEAKER_01
+ Twice that.
+
+0:20:49	SPEAKER_01
+ About 31.
+
+0:20:51	SPEAKER_03
+ And then invert that.
+
+0:20:53	SPEAKER_01
+ So yeah, well, you have a 69.
+
+0:20:55	SPEAKER_01
+ Oh, right.
+
+0:20:56	SPEAKER_03
+ That's pretty good.
+
+0:21:00	SPEAKER_03
+ Okay.
+
+0:21:01	SPEAKER_03
+ That was just a little formality for us to go through.
+
+0:21:05	SPEAKER_03
+ Okay.
+
+0:21:06	SPEAKER_03
+ Oh, a hundred pound pen.
+
+0:21:09	SPEAKER_03
+ Sorry.
+
+0:21:11	SPEAKER_01
+ Nobody saw that on a stick.
+
+0:21:14	SPEAKER_06
+ Cameras did.
+
+0:21:17	SPEAKER_01
+ Is that your finish?
+
+0:21:19	SPEAKER_03
+ Yeah, that's that's me.
+
+0:21:20	SPEAKER_03
+ I did have one other one other frame.
+
+0:21:23	SPEAKER_03
+ I mean, I'm not knowing how we would deal with this information.
+
+0:21:26	SPEAKER_03
+ I thought, okay.
+
+0:21:28	SPEAKER_03
+ In theory, this kind of process would be, but refining our design.
+
+0:21:31	SPEAKER_03
+ Re-visiting our original goals.
+
+0:21:33	SPEAKER_03
+ It's not something I need to push through, but I thought.
+
+0:21:36	SPEAKER_03
+ We're thinking more about the dimensions.
+
+0:21:39	SPEAKER_03
+ Sort of like more of a three dimensional shapes as well as opposed to just that.
+
+0:21:42	SPEAKER_03
+ Flat.
+
+0:21:43	SPEAKER_03
+ Could our design of all the series of colors that it's more of like a line where we have like sort of the.
+
+0:21:48	SPEAKER_03
+ I don't know, like the harvest line or the vibrant.
+
+0:21:51	SPEAKER_03
+ Whatever, just some theme and we have different tones, line, green.
+
+0:21:56	SPEAKER_03
+ Okay.
+
+0:21:57	SPEAKER_03
+ It's just discussion.
+
+0:21:58	SPEAKER_03
+ I mean, obviously we can just abandon this.
+
+0:22:00	SPEAKER_03
+ It's fine.
+
+0:22:01	SPEAKER_03
+ Just thinking about what we originally said it to do.
+
+0:22:04	SPEAKER_03
+ Yep.
+
+0:22:05	SPEAKER_03
+ Okay.
+
+0:22:06	SPEAKER_03
+ Great.
+
+0:22:08	SPEAKER_01
+ Are you submitting the.
+
+0:22:12	SPEAKER_01
+ The evaluation criteria for my, I don't know what your instructions are being.
+
+0:22:17	SPEAKER_03
+ I think they record it and I haven't been asked to submit it yet.
+
+0:22:23	SPEAKER_01
+ Okay.
+
+0:22:24	SPEAKER_01
+ Just wondering if I need to shoot it in the minutes because if you're submitting it anyway.
+
+0:22:28	SPEAKER_01
+ I will.
+
+0:22:29	SPEAKER_01
+ Okay.
+
+0:22:30	SPEAKER_01
+ Great.
+
+0:22:31	SPEAKER_01
+ Right.
+
+0:22:33	SPEAKER_01
+ Well, next up then, because we've done finance is the project evaluation.
+
+0:22:39	SPEAKER_06
+ I'm listening.
+
+0:22:41	SPEAKER_06
+ I'm just trying to incorporate the logo into the.
+
+0:22:44	SPEAKER_06
+ So I'm playing with the play.
+
+0:22:47	SPEAKER_06
+ Just in case you're wondering.
+
+0:22:49	SPEAKER_06
+ Just about right.
+
+0:23:16	SPEAKER_01
+ Okay.
+
+0:23:22	SPEAKER_01
+ Do you want to just individually say you think about about these four points and not those four points.
+
+0:23:32	SPEAKER_01
+ My four points.
+
+0:23:34	SPEAKER_01
+ I don't know.
+
+0:23:37	SPEAKER_01
+ I like this printer cables.
+
+0:23:55	SPEAKER_03
+ I just have the two little buttons like clips.
+
+0:24:00	SPEAKER_01
+ Right.
+
+0:24:01	SPEAKER_01
+ Okay.
+
+0:24:02	SPEAKER_01
+ So here we are.
+
+0:24:07	SPEAKER_01
+ As I know, we'll do this alphabetically and to the start.
+
+0:24:11	SPEAKER_03
+ So what is it you're asking me now?
+
+0:24:13	SPEAKER_01
+ I don't know.
+
+0:24:14	SPEAKER_01
+ In your opinion on those four, these four points really and how we.
+
+0:24:17	SPEAKER_03
+ I sort of are working on setting this up.
+
+0:24:21	SPEAKER_03
+ Well, okay.
+
+0:24:22	SPEAKER_03
+ I'll just go through your system.
+
+0:24:24	SPEAKER_03
+ The room.
+
+0:24:25	SPEAKER_03
+ Is.
+
+0:24:26	SPEAKER_03
+ Is.
+
+0:24:32	SPEAKER_03
+ The main thing is, I think.
+
+0:24:35	SPEAKER_03
+ Our use of the space is more just to report on things as opposed to be creative and.
+
+0:24:39	SPEAKER_03
+ Constructive and would probably help to.
+
+0:24:43	SPEAKER_03
+ Have a sort of a cumulative effect of we have ideas and we come back and then the ideas are still in discussion.
+
+0:24:49	SPEAKER_03
+ In other words, this room is sort of a center point of creativity.
+
+0:24:58	SPEAKER_01
+ But do you feel that you were able to have quite a lot of creative input into this?
+
+0:25:02	SPEAKER_03
+ Yeah, yeah.
+
+0:25:03	SPEAKER_03
+ But that's just the thing is the question in terms of the first point there, the room.
+
+0:25:06	SPEAKER_03
+ It feels that the creativity goes on.
+
+0:25:08	SPEAKER_03
+ We leave and then we come here and then we kind of put out our ideas and then.
+
+0:25:12	SPEAKER_01
+ I don't think it means the room is in this room.
+
+0:25:15	SPEAKER_01
+ It means like, you know, all right, all right.
+
+0:25:19	SPEAKER_03
+ All right.
+
+0:25:20	SPEAKER_03
+ I just looked up and said, okay, wait for a digital pen to the room.
+
+0:25:23	SPEAKER_01
+ Oh, yeah.
+
+0:25:24	SPEAKER_01
+ Of course.
+
+0:25:25	SPEAKER_01
+ Yeah.
+
+0:25:26	SPEAKER_01
+ I think it means, I think it means did you feel you were able to give creative input.
+
+0:25:29	SPEAKER_03
+ Yeah.
+
+0:25:30	SPEAKER_03
+ Okay.
+
+0:25:31	SPEAKER_03
+ Yeah.
+
+0:25:32	SPEAKER_03
+ If answering the question in those terms, I'd say that actually there's sort of a tease of creativity because we're asked to work through this, but actually the guidelines are fairly contrived in terms of.
+
+0:25:44	SPEAKER_03
+ Okay.
+
+0:25:45	SPEAKER_03
+ Fashion trends, a fruit and vegetable color scheme, but then we're told that he's company company colors.
+
+0:25:52	SPEAKER_03
+ So what do we do?
+
+0:25:53	SPEAKER_03
+ We're told, okay.
+
+0:25:54	SPEAKER_03
+ I think in terms of style and looking feel and technology, but build something for 12 and a half pounds.
+
+0:26:00	SPEAKER_03
+ Okay.
+
+0:26:01	SPEAKER_03
+ So actually the creativity was more of like a sort of a formality than.
+
+0:26:08	SPEAKER_06
+ You feel like caged within whatever you strength.
+
+0:26:11	SPEAKER_06
+ It's like a balloon in a cage. You can go so big. If not hit the site.
+
+0:26:14	SPEAKER_01
+ The constraints do come in.
+
+0:26:15	SPEAKER_01
+ Actually, let's take each point and everybody discuss that.
+
+0:26:18	SPEAKER_01
+ Yeah.
+
+0:26:19	SPEAKER_01
+ So still on the topic of room for creativity.
+
+0:26:21	SPEAKER_01
+ Next up is great.
+
+0:26:23	SPEAKER_02
+ I agree with his point.
+
+0:26:25	SPEAKER_02
+ It's quite like fun to go to and then you have to have the end and go right.
+
+0:26:30	SPEAKER_02
+ Go everything out because we don't have enough money.
+
+0:26:32	SPEAKER_02
+ Yeah.
+
+0:26:33	SPEAKER_01
+ Yeah.
+
+0:26:34	None
+ Yeah.
+
+0:26:35	SPEAKER_06
+ I think another point is that the meetings are more brainstorming sessions than meetings.
+
+0:26:41	SPEAKER_06
+ So time is also a very strong factor and structure.
+
+0:26:45	SPEAKER_06
+ Yeah.
+
+0:26:46	SPEAKER_06
+ Because for brainstorming meeting, you want to structure that allows you to allows ideas to get tossed to be evaluated and to be reviewed and to get feedback and come back.
+
+0:26:55	SPEAKER_06
+ And I guess that point about the room not being very friendly to that, I think that's a very big thing. And I think the fact that we're wearing these things restricts.
+
+0:27:05	SPEAKER_06
+ I feel it because I wear my glasses right.
+
+0:27:07	SPEAKER_06
+ But that irritates me.
+
+0:27:09	SPEAKER_06
+ It does actually affect how, whether you feel comfortable to communicate.
+
+0:27:14	SPEAKER_06
+ I feel like I'm hiding behind the equipment rather than the equipment is helping me.
+
+0:27:19	SPEAKER_06
+ So you think a more relaxed atmosphere would be more kind of, not so much an atmosphere is very relaxed, but the actual environment creates boundaries to that.
+
+0:27:29	SPEAKER_06
+ And the time given also restricts.
+
+0:27:34	SPEAKER_01
+ Very good.
+
+0:27:35	SPEAKER_01
+ What about leadership?
+
+0:27:38	SPEAKER_01
+ I don't know if I did a good job or something.
+
+0:27:44	SPEAKER_03
+ I mean, my sense on that is sort of what kind of guidance and direction encouragement.
+
+0:27:49	SPEAKER_01
+ So I'm like your personal coach person and stuff like that.
+
+0:27:52	SPEAKER_03
+ Yeah, from in you as well.
+
+0:27:54	SPEAKER_03
+ I think I'm sort of acting as a team leader.
+
+0:27:57	SPEAKER_03
+ Okay.
+
+0:27:58	SPEAKER_03
+ Yeah, I think it's huge.
+
+0:28:00	SPEAKER_03
+ I think it's good.
+
+0:28:01	SPEAKER_03
+ I mean, my personal views on leadership is that effective leadership sort of gives people a certain room for freedom and delegation, but then to come back to something that they take great ownership and innovative thought with.
+
+0:28:13	SPEAKER_03
+ In reality, I think here the different elements of leadership, such as the original briefing and then the personal coach and then having you with the meeting agenda is actually quite a quite a, quite a confining framework to work with.
+
+0:28:30	SPEAKER_03
+ And so it is leadership, most of the point of sort of disempowering the team member.
+
+0:28:37	SPEAKER_03
+ Okay. But it's not bad leadership is just sort of fairly strong.
+
+0:28:43	SPEAKER_03
+ It turns it turns the individual into more of like a sort of predetermined mechanism as opposed to.
+
+0:28:50	SPEAKER_01
+ So they may be able to control him or.
+
+0:28:53	SPEAKER_05
+ Yeah.
+
+0:28:54	SPEAKER_05
+ I think controlling is not the right word.
+
+0:28:56	SPEAKER_05
+ I mean, the interaction is very structured.
+
+0:28:58	SPEAKER_06
+ I think structure is probably what you're saying that each individual is structured to one particular task and one rather than controlling.
+
+0:29:05	SPEAKER_06
+ I don't mean as a sense of control because decisions have been made in terms of a consensus, right?
+
+0:29:10	SPEAKER_06
+ We go around and we think about it, but that, you know, process actually says you have to do it in a certain way.
+
+0:29:17	SPEAKER_06
+ Okay.
+
+0:29:18	SPEAKER_06
+ It doesn't tell you, you know, sometimes you might want to be a bit more creative in terms of the process.
+
+0:29:23	SPEAKER_01
+ Yeah.
+
+0:29:24	SPEAKER_01
+ Not that.
+
+0:29:25	SPEAKER_01
+ Okay.
+
+0:29:26	SPEAKER_01
+ What about teamwork?
+
+0:29:27	SPEAKER_02
+ Did you want to correct? That was a bit hard because we could only discuss things in the meeting.
+
+0:29:35	SPEAKER_02
+ If we could just go up somebody outside meeting and have a quick talk to them, I would have been that a lot easier.
+
+0:29:40	SPEAKER_01
+ Okay.
+
+0:29:41	SPEAKER_06
+ You tried to use the common share folder to communicate, but it just comes back to us so slow in the email.
+
+0:29:50	SPEAKER_06
+ Yeah.
+
+0:29:51	SPEAKER_06
+ It doesn't have a messenger.
+
+0:29:55	SPEAKER_01
+ Did you guys get the email I sent you?
+
+0:29:58	SPEAKER_01
+ Yeah.
+
+0:29:59	SPEAKER_01
+ I was wondering if that got very good.
+
+0:30:01	SPEAKER_01
+ Okay.
+
+0:30:02	SPEAKER_01
+ So to summarize the teamwork issue, saying that if we could communicate outside the meeting, you know, just like quick questions, quick thoughts, whatever, it probably would be.
+
+0:30:14	SPEAKER_06
+ I think the tools that they were given, the tools that they were given to us are fancy, but they don't support collaboration.
+
+0:30:19	SPEAKER_06
+ I think that's the word.
+
+0:30:20	SPEAKER_06
+ They don't support the team working together.
+
+0:30:22	SPEAKER_03
+ Yeah.
+
+0:30:23	SPEAKER_06
+ They're still very individual tools.
+
+0:30:25	SPEAKER_03
+ Yeah.
+
+0:30:26	SPEAKER_03
+ I mean, sort of taking upon that idea, the way I see this is that it's the structure in which we've approached this whole task is quite contrary to the principle of teamwork because the tasks were sort of divided and then the work went on in isolation.
+
+0:30:46	SPEAKER_03
+ I don't know what you guys did while you were together.
+
+0:30:49	SPEAKER_03
+ Maybe that was different.
+
+0:30:51	SPEAKER_03
+ They don't find it.
+
+0:30:52	SPEAKER_03
+ But actually, if you imagine not entirely completely same task given to us, but us said, okay, first thing we have to do is come up with, let's say, a design concept and we sit here together and do it.
+
+0:31:07	SPEAKER_03
+ Yeah.
+
+0:31:08	SPEAKER_03
+ Well, that's what teamwork is, to say, okay, go off and don't talk to each other.
+
+0:31:12	SPEAKER_03
+ It actually sort of predisposes you to quite the contrary of teamwork.
+
+0:31:17	SPEAKER_03
+ Okay.
+
+0:31:18	SPEAKER_03
+ Not that we haven't done, I think, the best we could have done.
+
+0:31:20	SPEAKER_03
+ Okay.
+
+0:31:21	SPEAKER_03
+ I'm satisfied with it.
+
+0:31:23	SPEAKER_01
+ Right.
+
+0:31:24	SPEAKER_01
+ Anything else?
+
+0:31:25	SPEAKER_01
+ Teamwork tool?
+
+0:31:26	SPEAKER_01
+ No, okay.
+
+0:31:27	SPEAKER_01
+ Okay.
+
+0:31:28	SPEAKER_01
+ What about the, you know, how we use the whiteboard, the digital pens, the projector, stuff like that.
+
+0:31:36	SPEAKER_01
+ And did anybody think anything was really useful?
+
+0:31:38	SPEAKER_01
+ Anything was pretty un-
+
+0:31:41	SPEAKER_03
+ I think the whiteboard, for me, is the kind of thing I would use all the time, but it's not quite as useful to us as it could have been. Maybe just in the way that we use it in the sense that once we have an idea out there or while work was going on in between meetings, that could have been up on a board, you know, opposed to in like, in text.
+
+0:32:04	SPEAKER_03
+ And then we could then keep our ideas sort of building on that.
+
+0:32:08	SPEAKER_03
+ I know that people who design cars and, you know, in aviation, they quite often just have a simple, like, fiberglass prototype and it's completely, you know, abstract from the final product, but they use it as a kind of a product.
+
+0:32:19	SPEAKER_03
+ Yeah.
+
+0:32:20	SPEAKER_03
+ And so we're just, we're actually just, each of us discussing something in each of our own minds.
+
+0:32:26	SPEAKER_03
+ It wasn't until we had this year, you know, like at one point, I peaked across and looked at Craig's paper and I'm like, now I know what he's thinking because I saw his book.
+
+0:32:34	SPEAKER_03
+ But the, the whiteboard could have actually been this kind of continuing.
+
+0:32:38	SPEAKER_03
+ So do you think producing a prototype earlier in the process would have been a good idea.
+
+0:32:49	SPEAKER_06
+ I think the focus of it a lot was the PowerPoint as opposed to the, to the whiteboard.
+
+0:32:55	SPEAKER_06
+ And I think that that is also does.
+
+0:32:59	SPEAKER_06
+ Yeah.
+
+0:33:08	SPEAKER_06
+ The PowerPoint or maybe the whiteboard and the PowerPoint in the same place.
+
+0:33:11	SPEAKER_03
+ Yeah.
+
+0:33:12	SPEAKER_03
+ Because the PowerPoint was provided to us while we had time to prepare.
+
+0:33:16	SPEAKER_03
+ Whereas I can imagine if I've been encouraged to use paintbrush, for example, or whatever, I would have actually used it.
+
+0:33:24	SPEAKER_03
+ Just because that's sort of how we were set up to you go.
+
+0:33:29	SPEAKER_01
+ Okay.
+
+0:33:30	SPEAKER_01
+ Too many PowerPoint.
+
+0:33:32	SPEAKER_06
+ Yeah.
+
+0:33:33	SPEAKER_06
+ The plugin and the plugging spent, we spent a lot of time doing that and a lot of information on the PowerPoint.
+
+0:33:39	SPEAKER_06
+ I don't think, you know, we need it to actually, it could have, we could have gone through them very verbally, especially my slides.
+
+0:33:44	SPEAKER_06
+ I felt that, you know, as opposed to having to present them.
+
+0:33:48	SPEAKER_01
+ What about the digital pens?
+
+0:33:49	SPEAKER_01
+ Did you find them easy enough to use?
+
+0:33:52	SPEAKER_06
+ Yeah.
+
+0:33:55	SPEAKER_06
+ Yeah.
+
+0:33:56	SPEAKER_06
+ Conkey.
+
+0:33:57	SPEAKER_06
+ Agreed.
+
+0:33:58	SPEAKER_01
+ Okay.
+
+0:34:01	SPEAKER_06
+ Having to take it before you go off was a bit hindering as well.
+
+0:34:06	SPEAKER_06
+ Because you're halfway through a thought and then you run out of paper and then you have to jump.
+
+0:34:09	SPEAKER_01
+ I know I think at the very start of today, I like wrote a whole load of stuff.
+
+0:34:14	SPEAKER_01
+ Didn't click note on one.
+
+0:34:16	SPEAKER_01
+ Then went back and wrote one tiny thing on the another page.
+
+0:34:19	SPEAKER_01
+ But then did click note.
+
+0:34:22	SPEAKER_01
+ So I'm quite worried that I've just written over the top of it or something, but they'll have my paper anyway.
+
+0:34:25	SPEAKER_01
+ And I haven't done that.
+
+0:34:27	SPEAKER_06
+ I think the pen is very intuitive.
+
+0:34:28	SPEAKER_06
+ Everybody knows how to use it.
+
+0:34:30	SPEAKER_06
+ You don't have to worry.
+
+0:34:31	SPEAKER_06
+ Yeah.
+
+0:34:32	SPEAKER_06
+ I think the pen is good.
+
+0:34:33	SPEAKER_06
+ It's one of the best things.
+
+0:34:34	SPEAKER_03
+ On the topic of the technology, it just occurred to me that we actually didn't need to move our computers because each computer has all of the files.
+
+0:34:41	SPEAKER_03
+ Yeah.
+
+0:34:42	SPEAKER_00
+ It just occurred to me that.
+
+0:34:43	SPEAKER_03
+ Yeah.
+
+0:34:44	SPEAKER_03
+ We only needed one computer.
+
+0:34:45	SPEAKER_03
+ We only actually needed one computer.
+
+0:34:46	SPEAKER_03
+ Yeah.
+
+0:34:47	SPEAKER_06
+ There had been a fifth that could have just been sitting there ready to go.
+
+0:34:50	SPEAKER_06
+ And the computer may not be conducive to a meeting because you tend to look at your computer and want to have the urge to check something.
+
+0:34:59	SPEAKER_06
+ Yeah.
+
+0:35:00	SPEAKER_01
+ It's useful.
+
+0:35:01	SPEAKER_01
+ But do you think the computers just provide distraction in the meeting?
+
+0:35:04	SPEAKER_06
+ I think too many computers are just distracting.
+
+0:35:07	SPEAKER_06
+ Okay.
+
+0:35:08	SPEAKER_01
+ And I like to have things written down in front of me actually.
+
+0:35:12	SPEAKER_01
+ Like a lot of the stuff that was emailed to me.
+
+0:35:14	SPEAKER_01
+ I ended up being like riding down there or something.
+
+0:35:17	SPEAKER_01
+ So I could look at it really quickly and not have the distraction of all of that.
+
+0:35:21	SPEAKER_01
+ And I'll buy any videos.
+
+0:35:23	SPEAKER_01
+ What else?
+
+0:35:28	SPEAKER_01
+ I'm not really sure what they're looking for in the same new ideas.
+
+0:35:32	SPEAKER_01
+ I don't know.
+
+0:35:35	SPEAKER_01
+ Can you think of that?
+
+0:35:36	SPEAKER_01
+ Anything else that would have been helpful today at all?
+
+0:35:40	SPEAKER_03
+ The main one for me is that the process and the natural context would not have been interrupted by this necessity to discommunicate ourselves.
+
+0:35:59	SPEAKER_03
+ That's kind of a new idea for me is like just sort of that idea while you make it.
+
+0:36:11	SPEAKER_03
+ It's kind of hard to keep working forward on a team-based project when you're told you must now work away from the team.
+
+0:36:16	SPEAKER_01
+ Yeah.
+
+0:36:17	SPEAKER_01
+ I think it's quite good that we had time limits on the meetings because they really could have run on.
+
+0:36:21	SPEAKER_01
+ And my experience of meetings is that they really do.
+
+0:36:24	SPEAKER_01
+ I think it's been a lot of time to talk about the only thing is that when we had our meeting about the conceptual design, I thought maybe another 15 minutes would have been useful there.
+
+0:36:38	SPEAKER_01
+ I think maybe if we all have been working in the one room and they just said, you know, like, every hour or something, everybody makes sure you just have a short meeting and just to have something written down, just like, you know, a milestone if you like.
+
+0:36:53	SPEAKER_01
+ I'm not having meetings, but there you go.
+
+0:37:00	SPEAKER_01
+ So, in closing, I haven't got my five minutes to go.
+
+0:37:03	SPEAKER_01
+ Oh, there it is.
+
+0:37:04	SPEAKER_01
+ Five minutes to go.
+
+0:37:06	SPEAKER_01
+ Wonderful.
+
+0:37:07	SPEAKER_01
+ Okay.
+
+0:37:08	SPEAKER_01
+ Are the courses in the budget?
+
+0:37:09	SPEAKER_01
+ Yes, they are.
+
+0:37:10	SPEAKER_01
+ And is the project evaluated?
+
+0:37:12	SPEAKER_01
+ Yes, it is.
+
+0:37:13	SPEAKER_01
+ So, I celebrate.
+
+0:37:14	SPEAKER_06
+ So, we have Ninja Homo.
+
+0:37:17	SPEAKER_06
+ So, no, yeah.
+
+0:37:18	SPEAKER_01
+ Well, apparently, now I write the final report.
+
+0:37:20	SPEAKER_03
+ What are you guys doing now?
+
+0:37:22	SPEAKER_03
+ I don't know.
+
+0:37:23	SPEAKER_03
+ Oh, wow.
+
+0:37:24	SPEAKER_03
+ That is lovely.
+
+0:37:25	SPEAKER_01
+ Yeah.
+
+0:37:26	SPEAKER_01
+ I said Ninja Homo.
+
+0:37:27	SPEAKER_02
+ What did you call it?
+
+0:37:30	SPEAKER_06
+ Ninja Homo.
+
+0:37:31	SPEAKER_06
+ See, it looks like Homer Simpson.
+
+0:37:33	SPEAKER_06
+ So, is that the Stilogu or is it doing a thing?
+
+0:37:38	SPEAKER_01
+ Yeah, it's just the logo.
+
+0:37:39	SPEAKER_01
+ Just the logo and then, like, Ninja Homo.
+
+0:37:41	SPEAKER_01
+ Right, okay.
+
+0:37:42	SPEAKER_06
+ The red is supposed to represent the whatever else you want to print on the side of it.
+
+0:37:49	SPEAKER_06
+ It's crashing technology or something.
+
+0:37:53	SPEAKER_06
+ You can throw Homer when you're frustrated.
+
+0:37:59	SPEAKER_01
+ It's cool.
+
+0:38:00	SPEAKER_01
+ I'm kind of slightly gutted that we couldn't get Plastigand rubber.
+
+0:38:03	SPEAKER_01
+ I think that would have been nice.
+
+0:38:05	SPEAKER_01
+ Yeah.
+
+0:38:06	SPEAKER_01
+ Oh, well, maybe for now on real reactions, you should give us more money.
+
+0:38:10	SPEAKER_06
+ Oh, I did learn something.
+
+0:38:11	SPEAKER_06
+ Plato is useful.
+
+0:38:13	SPEAKER_06
+ No, it is.
+
+0:38:14	SPEAKER_06
+ It is useful in conceptualizing, in being more interested.
+
+0:38:18	SPEAKER_06
+ It's like you say it's something you can put your hands on and feel and touch.
+
+0:38:22	SPEAKER_06
+ Yeah.
+
+0:38:23	SPEAKER_06
+ Yeah, the sense where we were playing with the Plato and the ideas came with the Plato rather than with everything else.
+
+0:38:28	SPEAKER_06
+ You might want to write that.
+
+0:38:29	SPEAKER_06
+ No.
+
+0:38:30	SPEAKER_06
+ Okay.
+
+0:38:31	SPEAKER_06
+ I'm just filling with the Plato.
+
+0:38:32	SPEAKER_02
+ Yeah.
+
+0:38:33	SPEAKER_02
+ It's not true.
+
+0:38:34	SPEAKER_02
+ I forgot how you just did a smile.
+
+0:38:36	SPEAKER_02
+ Yeah, it's not funny, doesn't it?
+
+0:38:37	SPEAKER_01
+ The Plato's are actually edible, aren't they?
+
+0:38:40	SPEAKER_01
+ The whole Plato is in the Gulf, Montauk.
+
+0:38:42	SPEAKER_01
+ It's just sweet.
+
+0:38:43	SPEAKER_06
+ It's the stuff that your mom could make with preservedism.
+
+0:38:46	SPEAKER_01
+ And so what are your summarizing words about Plato?
+
+0:38:50	SPEAKER_06
+ It's helpful to the creative process.
+
+0:38:53	SPEAKER_06
+ It engages all your senses, not just your sight, but your sense of feel, your sense of touch, and it helps you to understand the dimension as well.
+
+0:39:02	SPEAKER_06
+ I think that's very helpful because it's such to pop up where it's on a piece of paper on a computer on a board.
+
+0:39:08	SPEAKER_06
+ Yeah.
+
+0:39:09	SPEAKER_06
+ Even with a treaty graphic thing, it still requires a lot of time.
+
+0:39:13	SPEAKER_06
+ Yeah.
+
+0:39:14	SPEAKER_06
+ It's tangible.
+
+0:39:16	SPEAKER_06
+ It becomes tangible.
+
+0:39:18	SPEAKER_01
+ It's tangible.
+
+0:39:22	SPEAKER_01
+ Okay.
+
+0:39:24	SPEAKER_01
+ Er...
+
+0:39:32	SPEAKER_01
+ I don't know if there's anything else.
+
+0:39:34	SPEAKER_01
+ Nope.
+
+0:39:35	SPEAKER_01
+ I need to discuss.
+
+0:39:37	SPEAKER_01
+ I'll pass the board up really.
+
+0:39:42	SPEAKER_03
+ Do we retreat to our...
+
+0:39:46	SPEAKER_06
+ I think we could probably do it here as long as we do it.
+
+0:39:50	SPEAKER_01
+ I'm sure that the thing will pop up any minute now.
+
+0:39:55	SPEAKER_06
+ Can we turn off the microphones?
+
+0:39:58	SPEAKER_01
+ Yeah.
+
+0:39:59	SPEAKER_01
+ The meeting's over.
+
+0:40:01	SPEAKER_06
+ And my microphone has no signal.
+
+0:40:05	None
+ Which would explain why you don't get into the sound.
+
+0:40:10	None
+ Yeah.
+
+0:40:13	SPEAKER_02
+ Might be because of the power storm.
+
+0:40:18	SPEAKER_03
+ I think the time has to run out first to get any more instructions.
+
+0:40:23	SPEAKER_05
+ Yeah.
+
+0:40:30	SPEAKER_03
+ Okay.
+
+0:40:48	SPEAKER_03
+ That's really cool.
+
+0:40:49	SPEAKER_03
+ I can see the...
+
+0:40:51	SPEAKER_03
+ I can see my own voice.
+
+0:40:54	SPEAKER_03
+ You really want...
+
+0:41:54	None
+ I can see my own voice.
+
+0:42:24	None
+ You can see my own voice.
+
+0:42:54	None
+ You can see my own voice.
+
+0:43:24	None
+ You can see my own voice.
+
+0:43:28	None
+ You can see my own voice.
+
+0:43:36	None
+ You can see my own voice.
+

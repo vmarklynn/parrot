@@ -1,0 +1,2121 @@
+0:00:00	SPEAKER_03
+ is it starting now?
+
+0:00:01	SPEAKER_03
+ Yeah.
+
+0:00:02	SPEAKER_03
+ So from what whatever we say from now on, it can be heard against us, right?
+
+0:00:07	SPEAKER_03
+ That's right.
+
+0:00:08	SPEAKER_06
+ And you're right to remain silent.
+
+0:00:12	SPEAKER_03
+ So the problem is that I actually don't know how these heard mean things are heard.
+
+0:00:17	SPEAKER_03
+ They are very informal.
+
+0:00:18	SPEAKER_03
+ So there's just people that say what's going on and that's usually what we do.
+
+0:00:21	SPEAKER_04
+ We just sort of go around and people say what's going on.
+
+0:00:24	SPEAKER_03
+ What's going on?
+
+0:00:25	SPEAKER_03
+ Okay.
+
+0:00:26	SPEAKER_03
+ The reason it is if I make a report on what's happening in Aurora in general, at least from my perspective.
+
+0:00:33	SPEAKER_03
+ That would be great.
+
+0:00:34	SPEAKER_03
+ And so I think that Carmen and Stefan reported on Amsterdam meeting, which was kind of interesting because for the first time we realized we are not friends really, but we are competitors.
+
+0:00:46	SPEAKER_03
+ Until then it was sort of like everything was like wonderful.
+
+0:00:50	SPEAKER_03
+ Yeah.
+
+0:00:51	SPEAKER_04
+ It seemed like there were still some issues that they were trying to decide.
+
+0:00:53	SPEAKER_03
+ There's plenty of issues.
+
+0:00:54	SPEAKER_03
+ Well, what happened was that they realized that two leading proposals, which was French Telecom, Alcatel and us, both had voice activity that extra.
+
+0:01:05	SPEAKER_03
+ Right.
+
+0:01:06	SPEAKER_03
+ And I saw a big surprise.
+
+0:01:07	SPEAKER_03
+ I mean, we could have told you that four months ago, except we didn't because nobody else was bringing it up.
+
+0:01:12	SPEAKER_03
+ Obviously, French Telecom didn't volunteer this information either.
+
+0:01:15	SPEAKER_03
+ Because we were working mainly on voice activity that extra four past several months because that's why he got the most thing.
+
+0:01:23	SPEAKER_03
+ And everybody said, well, this is not fair.
+
+0:01:25	SPEAKER_03
+ We didn't know that.
+
+0:01:27	SPEAKER_03
+ And of course, it's not working on features, really.
+
+0:01:30	SPEAKER_03
+ And I agreed.
+
+0:01:31	SPEAKER_03
+ I said, well, yeah, you are absolutely right.
+
+0:01:33	SPEAKER_03
+ I mean, if you wish that you provided a better and pointed speech because, or at least that if you could modify the recognizer to account for these long silences, because otherwise, that wasn't the correct thing.
+
+0:01:47	SPEAKER_03
+ And so then everybody asked us, well, we need to do a new evaluation.
+
+0:01:53	SPEAKER_03
+ We don't want to have to do that.
+
+0:01:54	SPEAKER_03
+ Or we have to do something about it.
+
+0:01:56	SPEAKER_03
+ And in principle, we agreed.
+
+0:01:58	SPEAKER_03
+ We said, yeah, because about in that case, we would like to change the algorithm because if we are working on different data, we probably will use a different set of tricks.
+
+0:02:12	SPEAKER_03
+ That unfortunately, nobody ever officially can somehow acknowledge that this can be done.
+
+0:02:17	SPEAKER_03
+ Because French Telecom was saying, no, no, no, no.
+
+0:02:19	SPEAKER_03
+ Now everybody has access to our code.
+
+0:02:22	SPEAKER_03
+ So everybody is going to copy what we did.
+
+0:02:25	SPEAKER_03
+ Well, our argument was everybody has access to our code.
+
+0:02:28	SPEAKER_03
+ And everybody always had access to our code.
+
+0:02:30	SPEAKER_03
+ We never deny that we saw that people are honest that if you copy something and if it is protected by a patent, then you negotiate or something, right?
+
+0:02:41	SPEAKER_03
+ I mean, if you find our technique useful, we are very happy.
+
+0:02:45	SPEAKER_03
+ But French Telecom was saying, no, no, no, there is a lot of little tricks which sort of I cannot be protected and you guys will take them.
+
+0:02:53	SPEAKER_03
+ Which probably is also true.
+
+0:02:54	SPEAKER_03
+ I mean, it might be that people will take the algorithms apart and use the blocks from that.
+
+0:03:02	SPEAKER_03
+ But I somehow think that it wouldn't be so bad as long as people are happy about it.
+
+0:03:06	SPEAKER_03
+ Honest about it.
+
+0:03:07	SPEAKER_03
+ And I think they have to be honest in the long run because winning the proposal again, what will be available will be a code.
+
+0:03:15	SPEAKER_03
+ So the people can go to code and say, well, listen, this is what you stole from me.
+
+0:03:19	SPEAKER_03
+ Right.
+
+0:03:20	SPEAKER_03
+ So let's deal with that.
+
+0:03:21	SPEAKER_03
+ So I don't see the problem.
+
+0:03:22	SPEAKER_03
+ The biggest problem, of course, is that our country, the French Telecom claims what we fulfilled the conditions we are the best, the standard.
+
+0:03:33	SPEAKER_03
+ And other people don't feel that because they now decide that the whole thing will be done on a well-appointed data.
+
+0:03:42	SPEAKER_03
+ Maybe that somebody will point the data based on clean speech because most of this speech that car has also closed-picking in Mike and points will be provided.
+
+0:03:53	SPEAKER_03
+ And we will run again.
+
+0:03:55	SPEAKER_03
+ Still not clear if we are going to run, if we are allowed to run new algorithms, but I assume so because we would fight for that really.
+
+0:04:04	SPEAKER_03
+ But since at least our experience is that only end-pointing Melkeps Room gets you 21 percent improvement overall and 27 improvement on speech.car.
+
+0:04:17	SPEAKER_03
+ Then obviously database, that means the baseline will go up.
+
+0:04:22	SPEAKER_03
+ And nobody can achieve 50 percent improvement.
+
+0:04:25	SPEAKER_03
+ So they agreed that there will be a 25 percent improvement required on the bad-limit message.
+
+0:04:35	SPEAKER_04
+ I thought the end-pointing really only helped in the noisy cases.
+
+0:04:39	SPEAKER_04
+ But you still have that with the MFCC, okay?
+
+0:04:42	SPEAKER_03
+ Yeah, but you have the same problem.
+
+0:04:44	SPEAKER_03
+ MFCC basically has an enormous number of insertions.
+
+0:04:48	SPEAKER_03
+ So now they want to say we will require 50 percent improvement only for well-matched condition and only 25 percent for the severe cases.
+
+0:04:59	SPEAKER_03
+ And they almost agreed on that except that it wasn't 100 percent agreed.
+
+0:05:03	SPEAKER_03
+ And so last time during the meeting I just brought up the issue.
+
+0:05:07	SPEAKER_03
+ So well, you know, quite frankly I've surprised how likely you are making these decisions because this is a major decision.
+
+0:05:15	SPEAKER_03
+ For two years we are fighting for 50 percent improvement.
+
+0:05:19	SPEAKER_03
+ And suddenly you are saying, oh no, we will do something.
+
+0:05:22	SPEAKER_03
+ Maybe we should discuss that.
+
+0:05:23	SPEAKER_03
+ And everybody's all be discussed that and you were not there.
+
+0:05:26	SPEAKER_03
+ And I saw a lot of other people there because not everybody participates at this teleconferencing thing.
+
+0:05:33	SPEAKER_03
+ Then they said, oh no, no, no, because everybody is invited.
+
+0:05:36	SPEAKER_03
+ However, there is only 10 or 15 lines.
+
+0:05:38	SPEAKER_03
+ So people can't even participate.
+
+0:05:41	SPEAKER_03
+ So they agreed.
+
+0:05:42	SPEAKER_03
+ And I saw they said, okay, we will discuss that.
+
+0:05:45	SPEAKER_03
+ Immediately Nokia raised the question.
+
+0:05:47	SPEAKER_03
+ I said, oh yeah, we agreed.
+
+0:05:48	SPEAKER_03
+ This is not good to dissolve the criteria.
+
+0:05:56	SPEAKER_03
+ So now officially Nokia is complaining and said they are looking for support.
+
+0:06:03	SPEAKER_03
+ I think Qualcomm is saying too, we shouldn't abandon the 50 percent yet.
+
+0:06:08	SPEAKER_03
+ We should at least try once again, one more round.
+
+0:06:11	SPEAKER_03
+ So this is where we are.
+
+0:06:13	SPEAKER_03
+ I hope that this is going to be adopted next Wednesday.
+
+0:06:17	SPEAKER_03
+ We are going to have another teleconferencing call.
+
+0:06:20	SPEAKER_03
+ So we will see where it goes.
+
+0:06:23	SPEAKER_04
+ So what about the issue of the weights for the different systems?
+
+0:06:27	SPEAKER_04
+ The well matched and medium ones?
+
+0:06:29	SPEAKER_03
+ Yeah, that's a very good point.
+
+0:06:32	SPEAKER_03
+ David says, well, we can manipulate this number by choosing the right weights anyways.
+
+0:06:37	SPEAKER_03
+ So you are right.
+
+0:06:39	SPEAKER_03
+ But of course, if you put a weight zero on the mismatch condition, highly mismatch, then you are done.
+
+0:06:49	SPEAKER_03
+ Advates were also already decided half a year ago.
+
+0:06:54	SPEAKER_03
+ And they are saying the same.
+
+0:06:56	SPEAKER_03
+ Of course people will not like it.
+
+0:06:58	SPEAKER_03
+ What is happening now is that I think that people try to match the criterion to solution.
+
+0:07:04	SPEAKER_03
+ They have solution.
+
+0:07:05	SPEAKER_03
+ Now they want to make sure the criterion is.
+
+0:07:08	SPEAKER_03
+ And I think that this is not the right way.
+
+0:07:10	SPEAKER_03
+ It may be that eventually it may have to happen.
+
+0:07:16	SPEAKER_03
+ But it should happen at the point where everybody feels comfortable that we did all of what we could.
+
+0:07:21	SPEAKER_03
+ And I don't think we did it, basically.
+
+0:07:22	SPEAKER_03
+ I think that this test was a little bit bogus because of the data.
+
+0:07:29	SPEAKER_03
+ And essentially there were some arbitrary decisions made in everything.
+
+0:07:38	SPEAKER_03
+ So this is where it is.
+
+0:07:40	SPEAKER_03
+ So what we are doing at OGI now is working basically on the parts which we, I think, a little bit neglected.
+
+0:07:51	SPEAKER_03
+ Like a noise separation.
+
+0:07:55	SPEAKER_03
+ So we are looking in a way which we can provide the better initial estimate of the male spectrum, basically, which would be more robust to noise.
+
+0:08:08	SPEAKER_03
+ And so far not much success.
+
+0:08:10	SPEAKER_03
+ We tried things which long time ago Bill Burns suggested instead of using Fourier spectrum from Fourier transform, used the spectrum from LPC model.
+
+0:08:22	SPEAKER_03
+ The argument there was, the LPC model feels the peaks of the spectrum.
+
+0:08:26	SPEAKER_03
+ So it may be naturally more robust in noise.
+
+0:08:29	SPEAKER_03
+ And I saw that, that makes sense.
+
+0:08:31	SPEAKER_03
+ But so far we can't get much out of it.
+
+0:08:36	SPEAKER_03
+ We may try some standard techniques like spectral subtraction.
+
+0:08:40	SPEAKER_03
+ You haven't tried that.
+
+0:08:41	SPEAKER_03
+ No, not much.
+
+0:08:43	SPEAKER_03
+ Or even I was thinking about looking back into this totally ad hoc techniques.
+
+0:08:48	SPEAKER_03
+ For instance, Dennis Scott was suggesting the one way to deal with noise speeches, add noise to everything.
+
+0:08:59	SPEAKER_03
+ So I mean, add more than amount of noise to all data.
+
+0:09:04	SPEAKER_03
+ So that makes any additive noise less effective, right?
+
+0:09:10	SPEAKER_03
+ Because you already had the noise and it was working at the time.
+
+0:09:15	SPEAKER_03
+ It was kind of like one of these things.
+
+0:09:16	SPEAKER_03
+ But if you think about it, it's actually pretty ingenious.
+
+0:09:19	SPEAKER_03
+ So one, you know, just take a spectrum and add to constant C to every value.
+
+0:09:26	SPEAKER_03
+ Yeah.
+
+0:09:27	SPEAKER_04
+ So you're making all your training data more uniform.
+
+0:09:29	SPEAKER_03
+ Exactly.
+
+0:09:30	SPEAKER_03
+ And if the new test data becomes noisy, it becomes effective because less noisy, basically.
+
+0:09:38	SPEAKER_03
+ But of course you cannot add too much noise because then your green recognition goes down.
+
+0:09:44	SPEAKER_03
+ But I mean, it's yet to be seen how much it's very simple technique.
+
+0:09:47	SPEAKER_03
+ It's indeed.
+
+0:09:48	SPEAKER_03
+ It's very simple technique.
+
+0:09:49	SPEAKER_03
+ You just take your spectrum and use whatever is coming from FFT at constant, you know, to power spectrum.
+
+0:10:01	SPEAKER_03
+ Or the other thing is of course, if you have a spectrum where you can start doing, you can start leaving out the parts which are law in energy.
+
+0:10:12	SPEAKER_03
+ And then perhaps one could try to find a whole model to such a spectrum because our whole model will still try to put the continuation basically of the model into these parts where which you said to zero.
+
+0:10:30	SPEAKER_03
+ So that's what we want to try.
+
+0:10:32	SPEAKER_03
+ I have visited from Bernou, kind of like young faculty, really hardworking.
+
+0:10:40	SPEAKER_03
+ So he's looking into that.
+
+0:10:43	SPEAKER_03
+ And then most of the effort is now also aimed at this trap recognition.
+
+0:10:51	SPEAKER_03
+ This is this recognition from temporal patterns.
+
+0:10:54	SPEAKER_03
+ What is that?
+
+0:10:55	SPEAKER_03
+ Ah, you don't know about traps.
+
+0:10:57	SPEAKER_04
+ The traps sound familiar, right?
+
+0:10:59	SPEAKER_03
+ Yeah, I mean, this is familiar, because we gave it a name.
+
+0:11:03	SPEAKER_03
+ But what it is is that normally what you do is that you recognize speech based on short spectrum.
+
+0:11:11	SPEAKER_03
+ Essentially, LPC, Melcappes' room, everything starts with spectral slice.
+
+0:11:19	SPEAKER_03
+ So if you're given the spectrogram, you're essentially sliding the spectrogram along the frequency axis and you keep shifting the thing.
+
+0:11:28	SPEAKER_03
+ But you have a spectrogram.
+
+0:11:29	SPEAKER_03
+ So you can say, well, you can also take the time trajectory of the energy at a given frequency.
+
+0:11:35	SPEAKER_03
+ And what you get is then you get a vector.
+
+0:11:39	SPEAKER_03
+ And this vector can be assigned to some phoneme.
+
+0:11:44	SPEAKER_03
+ Namely, you can say, I will say that this vector will describe the phoneme which is in the center of the vector.
+
+0:11:53	SPEAKER_03
+ And you can try to classify based on that.
+
+0:11:57	SPEAKER_03
+ So you can say, I'm sorry, it's a very different vector, very different properties.
+
+0:12:00	SPEAKER_03
+ We don't know much about it.
+
+0:12:03	SPEAKER_03
+ But the truth is you have many of those vectors.
+
+0:12:05	SPEAKER_03
+ Wow.
+
+0:12:06	SPEAKER_03
+ So you get many decisions.
+
+0:12:07	SPEAKER_03
+ And then you can start thinking about how to combine these decisions.
+
+0:12:11	SPEAKER_03
+ So exactly that's what it is.
+
+0:12:14	SPEAKER_03
+ Because if you run this recognition, you still get about 20% error.
+
+0:12:19	SPEAKER_03
+ That's 20% correct.
+
+0:12:20	SPEAKER_03
+ You know, on like frame by frame basis.
+
+0:12:26	SPEAKER_03
+ So it's much better than chance.
+
+0:12:28	SPEAKER_03
+ How wide are the frequency?
+
+0:12:30	SPEAKER_03
+ That's another thing.
+
+0:12:31	SPEAKER_03
+ Well, currently we start always with critical vent spectrum for various reasons.
+
+0:12:37	SPEAKER_03
+ But the latest observation is that you can get quite a big advantage of using two critical vents at the same time.
+
+0:12:47	SPEAKER_06
+ Are they adjacent?
+
+0:12:49	SPEAKER_03
+ Adjacent.
+
+0:12:50	SPEAKER_03
+ Adjacent.
+
+0:12:51	SPEAKER_03
+ And there are some reasons for that.
+
+0:12:54	SPEAKER_03
+ Because there are some reasons I could talk about.
+
+0:12:56	SPEAKER_03
+ We have to tell you about things like masking experiments, which yield critical vents, and also experiments with the release of masking, which actually tell you that something is happening across critical vents, across bands.
+
+0:13:12	SPEAKER_04
+ And how do you convert this energy over time in a particular frequency band into a vector of numbers?
+
+0:13:21	SPEAKER_03
+ I mean, a time T0 is one number.
+
+0:13:26	SPEAKER_03
+ Yeah, but what time number is it just to see a spectacular energy?
+
+0:13:29	SPEAKER_03
+ A logarithmic spectrum of energy in that band.
+
+0:13:32	SPEAKER_03
+ Yes, in that time interval.
+
+0:13:34	SPEAKER_03
+ Yes.
+
+0:13:35	SPEAKER_03
+ And that's what I'm saying then.
+
+0:13:38	SPEAKER_03
+ This is a starting vector.
+
+0:13:39	SPEAKER_03
+ It's just like short-term spectrum or something.
+
+0:13:43	SPEAKER_03
+ But now we are trying to understand what this vector actually represents.
+
+0:13:47	SPEAKER_03
+ For instance, question is like how correlated are the elements of this vector?
+
+0:13:52	SPEAKER_03
+ And so they are quite correlated, because I mean, especially the neighboring ones, right?
+
+0:13:56	SPEAKER_03
+ They represent the same, almost the same configuration of the vocal tract.
+
+0:14:00	SPEAKER_03
+ So there is a very high correlation.
+
+0:14:03	SPEAKER_03
+ So the classifiers which use the diagonal covariance matrix don't like it.
+
+0:14:08	SPEAKER_03
+ So we think they are decorulating them.
+
+0:14:11	SPEAKER_03
+ And the question is, can you describe elements of this vector by Gaussian distributions?
+
+0:14:17	SPEAKER_03
+ To what extent?
+
+0:14:18	SPEAKER_03
+ Because and so on and so on.
+
+0:14:23	SPEAKER_03
+ So we are learning quite a lot about that.
+
+0:14:26	SPEAKER_03
+ And then another issue is how many vectors we should be using.
+
+0:14:29	SPEAKER_03
+ I mean, the minimum is one.
+
+0:14:32	SPEAKER_03
+ But I mean, it's the critical band, the right dimension.
+
+0:14:36	SPEAKER_03
+ So we somehow made arbitrary decision, yes.
+
+0:14:40	SPEAKER_03
+ And then now we are thinking a lot how to use at least a neighboring band, because that seems to be happening.
+
+0:14:48	SPEAKER_03
+ This I somehow start to believe that's what's happening in a cognition.
+
+0:14:53	SPEAKER_03
+ So a lot of experiments point to the fact that people can split the signal into critical bands.
+
+0:15:00	SPEAKER_03
+ But then so you can, you are quite capable of processing a signal independently in individual critical bands.
+
+0:15:10	SPEAKER_03
+ And the question is, what is the question?
+
+0:15:11	SPEAKER_03
+ What is the most important thing that you are making in a particular massaging experiment tell you?
+
+0:15:13	SPEAKER_03
+ But at the same time, you most likely pay attention to at least neighboring bands when you are making any decisions.
+
+0:15:18	SPEAKER_03
+ You compare what's happening in this band to what's happening to the band to the neighboring bands.
+
+0:15:26	SPEAKER_03
+ And that's how you make a decision.
+
+0:15:29	SPEAKER_03
+ That's why the articulatory bands which have pleasure talks about, they are about two critical bands.
+
+0:15:35	SPEAKER_03
+ You need at least two, basically.
+
+0:15:36	SPEAKER_03
+ You need some relative relation.
+
+0:15:41	SPEAKER_03
+ Absolute number doesn't tell you the right thing.
+
+0:15:43	SPEAKER_03
+ You need to compare it to something else.
+
+0:15:46	SPEAKER_03
+ But it's what's happening in a closed neighborhood.
+
+0:15:49	SPEAKER_03
+ So if you are making a decision what's happening at one kilohertz, you want to know what's happening at 900 hertz.
+
+0:15:55	SPEAKER_03
+ And maybe at 1100 hertz.
+
+0:15:57	SPEAKER_03
+ But you don't much care what's happening at three kilohertz.
+
+0:16:00	SPEAKER_04
+ So it's really, it's sort of like saying that what's happening at one kilohertz depends on what's happening around it.
+
+0:16:07	SPEAKER_04
+ It's sort of relative.
+
+0:16:08	SPEAKER_03
+ To some extent it's also true.
+
+0:16:11	SPEAKER_03
+ But for instance, what humans are very much capable of doing is that if they are exactly the same thing happening in two neighboring critical bands, the cognition can discard it.
+
+0:16:27	SPEAKER_03
+ This what's happening.
+
+0:16:28	SPEAKER_03
+ Hey, okay, we need another voice here.
+
+0:16:33	SPEAKER_03
+ Yeah, I think so.
+
+0:16:35	SPEAKER_03
+ So, so for instance, if you if you if you add the noise, then normally masks the signal.
+
+0:16:48	SPEAKER_03
+ And you can show that if you add the noise outside the critical band that doesn't affect the decisions you making about the signal within a critical band.
+
+0:16:59	SPEAKER_03
+ Unless this noise is modulated.
+
+0:17:01	SPEAKER_03
+ But the noise is modulated with the same modulation frequency as the noise in a critical band.
+
+0:17:07	SPEAKER_03
+ The amount of masking is less.
+
+0:17:09	SPEAKER_03
+ The moment you moment you provide the noise in neighboring critical bands.
+
+0:17:14	SPEAKER_03
+ So the masking can normally it looks like sort of I start from from here.
+
+0:17:19	SPEAKER_03
+ So you have no noise.
+
+0:17:21	SPEAKER_03
+ Then you you are expanding the critical band.
+
+0:17:24	SPEAKER_03
+ So the amount of marking is increasing.
+
+0:17:27	SPEAKER_03
+ And when you hit certain point which is critical band, then the amount of masking is the same.
+
+0:17:33	SPEAKER_03
+ So that's the famous experiment of lecture a long time ago.
+
+0:17:37	SPEAKER_03
+ That's where people start thinking, wow, this is interesting.
+
+0:17:40	SPEAKER_03
+ So but if you if you if you modulate the noise, the masking goes up and the moment you start hitting the another critical band, the masking goes down.
+
+0:17:51	SPEAKER_03
+ So essentially that's a very clear indication that that that cognition can take into consideration was happening in the neighboring bands.
+
+0:18:03	SPEAKER_03
+ But if you go too far, you know, if you if the noise is very broad, you are not increasing much more.
+
+0:18:10	SPEAKER_03
+ So if you if you are far away from the signal, the frequency which the signal is, then even when the noise is commodulated, it's not helping you much.
+
+0:18:22	SPEAKER_03
+ So so things like this we are kind of playing with and with with the hope that perhaps we could eventually use this in a in a real recognizer.
+
+0:18:35	SPEAKER_03
+ Like partially, of course, we promise to do this on the the roar.
+
+0:18:41	SPEAKER_04
+ Probably won't have anything before the next time we have to evaluate.
+
+0:18:46	SPEAKER_03
+ Probably not.
+
+0:18:47	SPEAKER_03
+ And the most likely we will not have anything which which would comply with the rules.
+
+0:18:52	SPEAKER_03
+ Like because latency currently traps require significant latency.
+
+0:19:00	SPEAKER_03
+ A amount of processing because we don't know any better yet than to use the neural and classifiers in the traps.
+
+0:19:09	SPEAKER_03
+ Though the work which by is looking at now aims at trying to find out what to do with this vector so that a simple Gaussian classifier would be happier with it.
+
+0:19:22	SPEAKER_03
+ Or to what extent the Gaussian classifier should be unhappy and how to gocheneize the vector center.
+
+0:19:30	SPEAKER_03
+ So this is so what's happening.
+
+0:19:32	SPEAKER_03
+ And Sunil asked me for one month's vacation and since he didn't take any vacation for two years I had no I didn't have a heart to tell him no.
+
+0:19:43	SPEAKER_03
+ So he is in India.
+
+0:19:45	SPEAKER_03
+ Wow.
+
+0:19:46	SPEAKER_03
+ And getting married or something.
+
+0:19:48	SPEAKER_03
+ Well, he may be looking for a guy.
+
+0:19:51	SPEAKER_03
+ I don't I don't ask.
+
+0:19:54	SPEAKER_03
+ I know that when last time Narend did that he came back engaged.
+
+0:19:58	SPEAKER_03
+ Right.
+
+0:19:59	SPEAKER_03
+ I mean I've known other friends who I know.
+
+0:20:01	SPEAKER_04
+ They go back home in India for a month to come back married.
+
+0:20:04	SPEAKER_03
+ I know.
+
+0:20:05	SPEAKER_03
+ I know.
+
+0:20:06	SPEAKER_03
+ And then of course then what happened with Narend was that he started pushing me that he needs to get a PhD because they wouldn't give him his wife.
+
+0:20:12	SPEAKER_03
+ And she's very pretty and he loves her.
+
+0:20:16	SPEAKER_04
+ So we had to really finally had some incentive.
+
+0:20:18	SPEAKER_03
+ Oh yeah.
+
+0:20:19	SPEAKER_03
+ Well I had an incentive because he always had this plan except he never told me.
+
+0:20:24	SPEAKER_03
+ Sort of figured that he told me the day when we did very well at this evaluation of speaker recognition technology and he was involved there.
+
+0:20:35	SPEAKER_03
+ We were after presentation, we were driving home and he told me.
+
+0:20:39	SPEAKER_03
+ When did you were happy?
+
+0:20:41	SPEAKER_03
+ Yeah so I said well okay so he took another three quarter of the year but he was out.
+
+0:20:47	SPEAKER_03
+ So I wouldn't surprise me if he has a plan like that though though probably but still needs to get out first.
+
+0:20:55	SPEAKER_03
+ Good advice there a year earlier and such he needs to get out very first because he already has a four years served.
+
+0:21:05	SPEAKER_03
+ One year he was getting masters.
+
+0:21:09	SPEAKER_04
+ So when is the next evaluation?
+
+0:21:12	SPEAKER_04
+ June or something?
+
+0:21:13	SPEAKER_03
+ Which speaker recognition?
+
+0:21:15	SPEAKER_03
+ No for Aurora.
+
+0:21:16	SPEAKER_03
+ There have been no evaluation.
+
+0:21:19	SPEAKER_03
+ Next meeting is in June.
+
+0:21:21	SPEAKER_03
+ But like getting together are people supposed to rerun their system?
+
+0:21:28	SPEAKER_03
+ Nobody said that yet I assume so but nobody even said up yet the date for delivering and pointed data.
+
+0:21:37	SPEAKER_03
+ Wow.
+
+0:21:38	SPEAKER_03
+ That sort of stuff.
+
+0:21:39	SPEAKER_03
+ But what I think would be of course extremely useful if we can come to an next meeting and say well you know we did get 50% improvement.
+
+0:21:51	SPEAKER_03
+ If you are interested we eventually can tell you how but we can get 50% improvement because people will be saying it's impossible.
+
+0:22:01	SPEAKER_04
+ Do you know what the new baseline is?
+
+0:22:03	SPEAKER_03
+ I guess 22% better than old baseline.
+
+0:22:08	SPEAKER_04
+ Using your voice acting?
+
+0:22:10	SPEAKER_03
+ Yes.
+
+0:22:11	SPEAKER_03
+ But I assume that it will be similar.
+
+0:22:13	SPEAKER_03
+ I don't see the reason why it shouldn't be.
+
+0:22:15	SPEAKER_03
+ I don't see reason why it should be worse.
+
+0:22:18	SPEAKER_03
+ If it is worse then we will raise the objection and say well you know how come because we just use our voice activity detector which we don't claim even that it's wonderful.
+
+0:22:27	SPEAKER_03
+ It's just like one of them.
+
+0:22:29	SPEAKER_03
+ We get this sort of improvement how come that we don't see it on the other end pointed.
+
+0:22:35	SPEAKER_02
+ I guess it could be even better because the voice activity detector that they choose is something that cheating.
+
+0:22:44	SPEAKER_02
+ It's using the alignment of the spiritual cognition system.
+
+0:22:46	SPEAKER_02
+ Only the alignment from the King channel.
+
+0:22:49	SPEAKER_03
+ David told me yesterday or Harry, he told Harry from Qualcomm and Harry brought up his suggestion we should still go for 50%.
+
+0:22:59	SPEAKER_03
+ He says are you aware that your system does only 30% comparing to the baseline.
+
+0:23:07	SPEAKER_03
+ So they must have run already something.
+
+0:23:09	SPEAKER_03
+ So and Harry said yeah but I mean we think that we didn't say the last word yet that we have other things which we can try.
+
+0:23:22	SPEAKER_03
+ So there's a lot of discussion now about this new criterion because Nokia was objecting with Qualcomm's we basically supported that.
+
+0:23:32	SPEAKER_03
+ He said yes.
+
+0:23:33	SPEAKER_03
+ Now everybody else is saying well you guys must be out of your mind.
+
+0:23:37	SPEAKER_03
+ The Ginta here who doesn't speak for Ericsson anymore because he is not with Ericsson and Ericsson may not maybe draw from horror activity because they have so many troubles now.
+
+0:23:48	SPEAKER_03
+ Ericsson is laying off 20% of people.
+
+0:23:51	SPEAKER_03
+ Where's Ginta?
+
+0:23:53	SPEAKER_03
+ Ginta is already he got the job or he was working only for past two years or three years.
+
+0:23:58	SPEAKER_03
+ He got the job some factual.
+
+0:24:02	SPEAKER_03
+ Technical college not too far from Archen.
+
+0:24:05	SPEAKER_03
+ So it's like university professor and not quite a university not quite a sort of Archen university but it's a good school and he's happy.
+
+0:24:17	SPEAKER_03
+ And he was hoping to work with Ericsson like on a consulting basis but right now he doesn't look like that.
+
+0:24:27	SPEAKER_03
+ Anybody is even thinking about speech recognition.
+
+0:24:30	SPEAKER_03
+ He's thinking about survival.
+
+0:24:34	SPEAKER_03
+ So this is being discussed right now and it's possible that it may get through that we will still stick to 50%.
+
+0:24:47	SPEAKER_03
+ That means that nobody will probably get this improvement with the current system.
+
+0:24:53	SPEAKER_03
+ Which essentially I think we should be happy with because they would mean that at least people may be forced to look into alternative solutions.
+
+0:25:04	SPEAKER_02
+ But maybe we're not too far from 50% from the new deadline.
+
+0:25:10	SPEAKER_02
+ But not 60% over the current baseline.
+
+0:25:15	SPEAKER_03
+ We're getting there.
+
+0:25:18	SPEAKER_05
+ We are on 50, 55.
+
+0:25:23	SPEAKER_03
+ Is it like how did you come up with this number if you improved by 20% of all the deadlines?
+
+0:25:30	SPEAKER_03
+ It's just a kind of quick competition.
+
+0:25:32	SPEAKER_02
+ I don't know exactly if it depends on the weightings.
+
+0:25:39	SPEAKER_04
+ How's your documentation or what was you guys working on last week?
+
+0:25:55	SPEAKER_02
+ Finally we've not finished with this.
+
+0:26:02	SPEAKER_01
+ Yes, I do read another more time to improve the English and maybe to finish something in a small detail.
+
+0:26:10	SPEAKER_01
+ Something like that but it's more or less ready.
+
+0:26:13	SPEAKER_02
+ Yes.
+
+0:26:14	SPEAKER_02
+ What do we have to do to explain?
+
+0:26:17	SPEAKER_02
+ To include the experiments.
+
+0:26:28	SPEAKER_04
+ Have you been running some new experiments?
+
+0:26:30	SPEAKER_04
+ I thought I saw some jobs of yours running on it.
+
+0:26:32	SPEAKER_02
+ Yes, right.
+
+0:26:33	SPEAKER_02
+ We've done some strange things like removing C0 or C1 from the factor of parameters.
+
+0:26:44	SPEAKER_02
+ We noticed that C1 is almost not useful at all.
+
+0:26:48	SPEAKER_02
+ You can remove it from the factor.
+
+0:26:50	SPEAKER_02
+ It doesn't hurt.
+
+0:26:51	SPEAKER_02
+ Is this in the baseline?
+
+0:26:55	SPEAKER_02
+ In the nozzle.
+
+0:27:00	SPEAKER_03
+ So we were just discussing, since you mentioned that, driving in the car with Morgan this morning, we were discussing a good experiment for beginning graduate student who wants to get a lot of numbers from something.
+
+0:27:16	SPEAKER_03
+ Which is, imagine that you will start putting any coefficient which you are using in your vector in some general power.
+
+0:27:28	SPEAKER_03
+ General power.
+
+0:27:29	SPEAKER_03
+ Sort of you take a square root of something.
+
+0:27:34	SPEAKER_03
+ So suppose that you are working with C1.
+
+0:27:39	SPEAKER_03
+ So if you put it in a square root that effectively makes your model half as efficient.
+
+0:27:47	SPEAKER_03
+ Because a Gaussian mixture model, right, computes the mean.
+
+0:27:54	SPEAKER_03
+ But the mean is an exponent of the, whatever, your compression range.
+
+0:28:02	SPEAKER_03
+ So you compress in the range of this coefficient.
+
+0:28:05	SPEAKER_03
+ So it's becoming less efficient.
+
+0:28:08	SPEAKER_03
+ So Morgan was initially saying, well, this might be the alternative way how to play with a fetch factor.
+
+0:28:18	SPEAKER_03
+ You know, just compress the whole vector.
+
+0:28:20	SPEAKER_03
+ And I said, well, in that case, why don't we just start compressing individual elements like when, because in all days, we were doing, when people still were doing template matching and, you know, the distances, we were doing this liftering of parameters, right?
+
+0:28:34	SPEAKER_03
+ Because we observed that higher parameters were more important than lower for recognition.
+
+0:28:39	SPEAKER_03
+ Right.
+
+0:28:40	SPEAKER_03
+ Basically, that C1 contributes mainly slope and it's highly affected by frequency response of the recording equipment and that sort of thing.
+
+0:28:51	SPEAKER_03
+ So we were coming with all these various lifters.
+
+0:28:55	SPEAKER_03
+ Bell ups had this raised cosine lifter which still I think is built into a HTK.
+
+0:29:02	SPEAKER_03
+ All of the reasons unknown to everybody, but we had exponentially if there are triangle or if there is a number of lifters.
+
+0:29:13	SPEAKER_03
+ And so they may be a way to, to fill it with the insertion, insertion, as well as the deletions or giving a relative, physically modifying, rather important of various parameters.
+
+0:29:26	SPEAKER_03
+ The only, of course, problem is that there is infinite number of combinations.
+
+0:29:30	SPEAKER_03
+ You need a lot of graduate students and a lot of computing power.
+
+0:29:37	SPEAKER_04
+ Genetic algorithm basically tries to write them.
+
+0:29:40	SPEAKER_03
+ Exactly.
+
+0:29:41	SPEAKER_03
+ Oh.
+
+0:29:42	SPEAKER_03
+ If you were Bell ups or I shouldn't be saying this on a mic, right?
+
+0:29:48	SPEAKER_03
+ Or I'd be, that's what maybe is for somebody who would be doing.
+
+0:29:53	SPEAKER_03
+ I mean, the places which have a lot of computing power.
+
+0:29:57	SPEAKER_03
+ Because it is really, it's, it will be reasonable search.
+
+0:30:03	SPEAKER_03
+ But I wonder if there is in some way of doing this.
+
+0:30:08	SPEAKER_03
+ Search, like when we are searching, say for best discriminants.
+
+0:30:13	SPEAKER_04
+ You know, actually, I don't know that this wouldn't be all that bad.
+
+0:30:15	SPEAKER_04
+ I mean, you compute the features once, right?
+
+0:30:18	SPEAKER_04
+ And then, these exponents are just applied.
+
+0:30:21	SPEAKER_03
+ And everything is fixed.
+
+0:30:23	SPEAKER_03
+ Everything is fixed.
+
+0:30:24	SPEAKER_04
+ Is something that you would adjust for training or only recognition?
+
+0:30:27	SPEAKER_04
+ For both.
+
+0:30:28	SPEAKER_04
+ You would have to do it on both.
+
+0:30:29	SPEAKER_03
+ Yes.
+
+0:30:30	SPEAKER_03
+ You have to do both, both.
+
+0:30:31	SPEAKER_03
+ Because essentially you are saying this feature is not important.
+
+0:30:35	SPEAKER_03
+ Or less important.
+
+0:30:36	SPEAKER_03
+ So that's a painful one, yeah.
+
+0:30:39	SPEAKER_04
+ So for each set of exponents that you would try to repair a training.
+
+0:30:44	SPEAKER_03
+ But wait a minute.
+
+0:30:45	SPEAKER_03
+ You may not need to retrain the model.
+
+0:30:48	SPEAKER_03
+ You just may need to give less weight to a component of the model, which represents this particular feature.
+
+0:30:59	SPEAKER_03
+ You don't have to retrain it.
+
+0:31:00	SPEAKER_04
+ So if you, instead of altering the feature vectors.
+
+0:31:02	SPEAKER_03
+ You just multiply.
+
+0:31:04	SPEAKER_04
+ You modify the Gaussian.
+
+0:31:07	SPEAKER_03
+ You modify the Gaussian in a model.
+
+0:31:09	SPEAKER_03
+ But in a test data, you would have to put it in the power.
+
+0:31:11	SPEAKER_03
+ But in a training, in a training model, all you would have to do is to multiply.
+
+0:31:18	SPEAKER_03
+ And I, a model, I appropriate a constant.
+
+0:31:21	SPEAKER_04
+ But why, if you're altering the model, why would, in the test data, why would you have to mark with the capture footage?
+
+0:31:27	SPEAKER_03
+ Because in the test data, you can't, don't have a model.
+
+0:31:30	SPEAKER_03
+ You have only data.
+
+0:31:31	SPEAKER_04
+ I think you're running your data through that same model.
+
+0:31:35	SPEAKER_03
+ That is true.
+
+0:31:36	SPEAKER_03
+ I mean, so what do you want to do?
+
+0:31:37	SPEAKER_03
+ You want to say if, if you observe something like Stefan observes, that C1 is not important.
+
+0:31:43	SPEAKER_03
+ You can do two things.
+
+0:31:45	SPEAKER_03
+ If you have a trained recognizer in the model, you know the component, which, I mean, the dimension.
+
+0:31:53	SPEAKER_04
+ All of the mean and variances that correspond to Stefan's.
+
+0:31:56	SPEAKER_03
+ You know it.
+
+0:31:57	SPEAKER_03
+ But what I'm proposing now, if it is important, but not as important, you multiply it by 0.1 in a model.
+
+0:32:04	SPEAKER_03
+ But what do you multiply?
+
+0:32:06	SPEAKER_04
+ Because those are means, right?
+
+0:32:08	SPEAKER_06
+ You multiply in a standard deviation.
+
+0:32:10	SPEAKER_03
+ I think that you multiplied, I would have to look in the math.
+
+0:32:13	SPEAKER_03
+ I mean, how does the, yeah.
+
+0:32:15	SPEAKER_04
+ I think you'd have to modify the standard deviation or something.
+
+0:32:18	SPEAKER_03
+ Yeah.
+
+0:32:19	SPEAKER_03
+ Effectively, that's what you do.
+
+0:32:23	SPEAKER_03
+ That's what you do.
+
+0:32:24	SPEAKER_03
+ You modify the standard deviation as it was trained.
+
+0:32:29	SPEAKER_03
+ Effectively, you know, in front of the model, you put a constant.
+
+0:32:35	SPEAKER_03
+ Yeah, effectively what you do is you are modifying the deviation.
+
+0:32:39	SPEAKER_03
+ Right?
+
+0:32:40	SPEAKER_03
+ Spread, right?
+
+0:32:41	SPEAKER_03
+ Yeah, spread.
+
+0:32:42	SPEAKER_06
+ So same, same mean.
+
+0:32:43	SPEAKER_04
+ And, and, and, and, so by making the standard deviation narrower, your scores get worse for, unless it's exactly right on the mean.
+
+0:32:53	SPEAKER_03
+ Yes, no, by making it narrower, you're allowing all as variance.
+
+0:32:58	SPEAKER_03
+ Yes, so you're making this particular dimension less important.
+
+0:33:02	SPEAKER_03
+ Because what you have to do, fitting is the multi-dimensional machine, right?
+
+0:33:06	SPEAKER_03
+ It's a, it has a set in nine dimensions.
+
+0:33:09	SPEAKER_03
+ Or, set in dimensions, if you ignore delts, doesn't double delts.
+
+0:33:13	SPEAKER_03
+ So in order, if you, in order to make dimension which, which step and sees less important, I mean, not useful, less important, what you do is that this particular component in a model, you can multiply by, you can, you can basically, deweight it in a model.
+
+0:33:31	SPEAKER_03
+ But you can't do it in a, in a test data, because you don't have a model for, I mean, the test comes, but what you can do is that you put this particular component in, in, you, you compress it, that becomes a, it gets less variance, subsequently becomes less important.
+
+0:33:50	SPEAKER_04
+ You just do that to the test data and not do anything with your training.
+
+0:33:54	SPEAKER_03
+ That would be very bad, because your model was trained expecting, that wouldn't work.
+
+0:34:01	SPEAKER_03
+ Because your model was trained expecting the certain variance, variance on C1.
+
+0:34:06	SPEAKER_03
+ And because some other things, C1 is important.
+
+0:34:09	SPEAKER_03
+ After you trained the model, you sort of, you could do, you could do still what I was proposing initially, that during the training, you, you compress C1.
+
+0:34:22	SPEAKER_03
+ That becomes, then it becomes less important in a training.
+
+0:34:27	SPEAKER_03
+ And if you have, if you want to run an extensive experiment without retraining the model, you don't have to retrain the model.
+
+0:34:34	SPEAKER_03
+ You train it on the original vector.
+
+0:34:37	SPEAKER_03
+ But after you, when you are doing this parametric study of importance of C1, you will deweight C1 component in the model, and you will put in, it will compress the, this component in a test data.
+
+0:34:53	SPEAKER_04
+ Could you also, if you wanted to, by the same amount?
+
+0:34:56	SPEAKER_04
+ If you wanted to try an experiment, by leaving out, say, C1, couldn't you, in your test data, modify the, all of the C1 values to be, um, way outside of the normal range of the Gaussian, or C1 that was trained in the model, so that effectively, the C1 never really contributes to the score.
+
+0:35:23	SPEAKER_03
+ No, that would be C1 mismatch, right?
+
+0:35:26	SPEAKER_03
+ What do you have?
+
+0:35:27	SPEAKER_03
+ Yeah.
+
+0:35:28	SPEAKER_03
+ No, you don't do one that, because that would, that your model would be unlikely, your likelihood would be low, right?
+
+0:35:34	SPEAKER_03
+ Because you would be providing C1 mismatch.
+
+0:35:36	SPEAKER_04
+ But what if you set it to the mean of the model then?
+
+0:35:41	SPEAKER_04
+ And it was a, you set all C1s coming in through your test data, you, you change whatever value was there to the mean that your model had.
+
+0:35:50	SPEAKER_03
+ No, that would be very good match, right?
+
+0:35:52	SPEAKER_03
+ Yeah.
+
+0:35:53	SPEAKER_03
+ But you have several means, so.
+
+0:35:55	SPEAKER_03
+ I see what you are saying, but, no, no, I don't think that it would be the same, let me, you set it to a mean that would, no, you can't do that.
+
+0:36:05	SPEAKER_03
+ That's true, right?
+
+0:36:06	SPEAKER_03
+ You can't, you can't, Chuck, you can't do that.
+
+0:36:08	SPEAKER_03
+ Yeah.
+
+0:36:09	SPEAKER_03
+ Because that would be a really, fiddling with the data, you can't do that.
+
+0:36:13	SPEAKER_03
+ But what you can do, I'm confident, well, I'm reasonably confident and I'm putting in on the record, right?
+
+0:36:19	SPEAKER_03
+ I mean, people will listen to it for centuries now.
+
+0:36:22	SPEAKER_03
+ Yes, what you can do is you train the model with the, with the original data.
+
+0:36:30	SPEAKER_03
+ Then you decide that you want to see how important C, C1 is.
+
+0:36:35	SPEAKER_03
+ So what you will do is that the component in the model for C1, you will divide it by two and you will compare your test data by square root.
+
+0:36:49	SPEAKER_03
+ Then you will still have a perfect match except that this component of C1 will be half as important in an overall score.
+
+0:36:57	SPEAKER_03
+ Then you divide it by four and you take a square root.
+
+0:37:02	SPEAKER_03
+ Then if you think that some component is more important than it is based on training, then you multiply this particular component in the model by, by, yeah.
+
+0:37:18	SPEAKER_03
+ You multiply this component by number larger than one and you put your data in the power higher than one.
+
+0:37:27	SPEAKER_03
+ Then it becomes more important in the overall score, I believe.
+
+0:37:30	SPEAKER_03
+ But you have to do something to the mean also?
+
+0:37:33	SPEAKER_02
+ No, no.
+
+0:37:34	SPEAKER_02
+ But I think it's the variance is on the denominator in the Gaussian equation.
+
+0:37:41	SPEAKER_02
+ So I think it's maybe it's the contrary.
+
+0:37:44	SPEAKER_02
+ If you want to decrease the importance of parameters, you have to increase its variance.
+
+0:37:51	SPEAKER_03
+ Exactly.
+
+0:37:52	SPEAKER_03
+ So you may want to do it the other way around.
+
+0:37:56	SPEAKER_04
+ But if your original data for C1 had a mean of two and now you're changing that by squaring it, now your mean of your C1 original data has is four.
+
+0:38:16	SPEAKER_04
+ But your model still has a mean of two.
+
+0:38:19	SPEAKER_04
+ So even though you've expanded the range, your mean doesn't match anymore.
+
+0:38:23	SPEAKER_02
+ You're going to see.
+
+0:38:27	SPEAKER_02
+ I think what I see, what could be done is you don't change your features, which are computed once for all.
+
+0:38:34	SPEAKER_02
+ But you just tune the model.
+
+0:38:36	SPEAKER_02
+ So you have your features, you train your model on these features.
+
+0:38:41	SPEAKER_02
+ And then if you want to decrease the importance of C1, you just take the variance of the C1 component in the model and increase it if you want to decrease the importance of C1 or
+
+0:38:53	SPEAKER_03
+ increase it. You would have to modify the mean in the model.
+
+0:38:57	SPEAKER_03
+ I agree with you.
+
+0:38:59	SPEAKER_03
+ But it's doable, right?
+
+0:39:02	SPEAKER_03
+ It's predictable.
+
+0:39:03	SPEAKER_03
+ It's predictable.
+
+0:39:04	SPEAKER_03
+ Yeah, yeah, yeah, it's predictable.
+
+0:39:05	SPEAKER_04
+ But there's a simple thing, you could just just adjust the variance to get the effect I think that you're talking about.
+
+0:39:14	SPEAKER_04
+ It might be.
+
+0:39:15	SPEAKER_04
+ Could increase the variance to decrease the importance?
+
+0:39:18	SPEAKER_04
+ Yeah, because if you had a huge variance, it becomes a large number of you in a very small contribution.
+
+0:39:25	SPEAKER_04
+ Yeah.
+
+0:39:26	SPEAKER_06
+ The sharper the variance, the more important.
+
+0:39:31	SPEAKER_04
+ Yeah, you know, actually this reminds me of something that happened.
+
+0:39:35	SPEAKER_04
+ When I was at VBN, we were playing with putting pitch into the Mandarin recognizer.
+
+0:39:41	SPEAKER_04
+ And this particular pitch algorithm, when it didn't think there was any voicing, was spitting out zeros.
+
+0:39:47	SPEAKER_04
+ So we were getting, when we did clustering, we were getting groups of new OLA, with the mean of zero and basically zero variance.
+
+0:40:00	SPEAKER_04
+ So when any time any one of those vectors came in the head of zero and we got a great score, I mean it was just, you know, incredibly high score.
+
+0:40:09	SPEAKER_04
+ And so that was thrown everything off.
+
+0:40:11	SPEAKER_04
+ So if you have very small variance, you get really good scores when you get something that matches.
+
+0:40:18	SPEAKER_04
+ So that's a way, yeah.
+
+0:40:19	SPEAKER_04
+ Yeah, that's a way to increase the variance.
+
+0:40:22	SPEAKER_04
+ Yeah, that's interesting.
+
+0:40:23	SPEAKER_04
+ So in fact, that would be, that doesn't require any retraining.
+
+0:40:27	SPEAKER_04
+ Yeah, that's right.
+
+0:40:29	SPEAKER_02
+ So that means it's just, it's using the mother's and this thing.
+
+0:40:32	SPEAKER_04
+ Yeah.
+
+0:40:33	SPEAKER_04
+ So that would be, you modify the models, you could copy of your models with whatever variance modifications you make and rerun.
+
+0:40:41	SPEAKER_04
+ And then do a whole bunch of those.
+
+0:40:44	SPEAKER_04
+ That could be set up fairly easily, I think.
+
+0:40:46	SPEAKER_04
+ And you have a whole bunch of, you know, Chuck is getting his head in trouble.
+
+0:40:51	SPEAKER_04
+ That's an interesting idea, actually.
+
+0:40:57	SPEAKER_04
+ For testing me.
+
+0:40:58	SPEAKER_04
+ Yeah.
+
+0:40:59	SPEAKER_06
+ Did you say you got these HTKs set up on the new Linux box?
+
+0:41:05	SPEAKER_04
+ That's right.
+
+0:41:06	SPEAKER_04
+ In fact, and they're just, right now they're installing, increasing the memory on that.
+
+0:41:10	SPEAKER_03
+ And Chuck is sort of really fishing for how to keep his computer busy.
+
+0:41:14	SPEAKER_03
+ Yeah.
+
+0:41:15	SPEAKER_03
+ Absent.
+
+0:41:16	SPEAKER_03
+ You know, that's five processors on that.
+
+0:41:18	SPEAKER_03
+ Yeah, that's a good thing because then you just write the do loops and you pretend like you are working while you are sort of, you can go fishing.
+
+0:41:26	SPEAKER_03
+ Yeah.
+
+0:41:27	SPEAKER_03
+ You have an encyclopedia?
+
+0:41:29	SPEAKER_03
+ Yeah.
+
+0:41:30	SPEAKER_03
+ You are sort of in this mode like all of the DARPA people.
+
+0:41:35	SPEAKER_03
+ I've seen cities on the record.
+
+0:41:36	SPEAKER_03
+ I can say which company it was.
+
+0:41:39	SPEAKER_03
+ But it was reported to me that somebody visited a company and doing a discussion.
+
+0:41:46	SPEAKER_03
+ There was this guy who was always hitting the college returns on the computer.
+
+0:41:52	SPEAKER_03
+ So after two hours, the visitors were, why are you hitting this college again?
+
+0:41:57	SPEAKER_03
+ So well, you know, we have been paid by a computer.
+
+0:42:00	SPEAKER_03
+ I mean, we have a government contract and they pay us by by amount of computer time of use.
+
+0:42:06	SPEAKER_03
+ It was in all days when the PDP8 and it sort of think.
+
+0:42:10	SPEAKER_03
+ So we had to make it look like.
+
+0:42:15	SPEAKER_03
+ Because so they had, they literally had a monitor at the time, at the time, on a computer.
+
+0:42:20	SPEAKER_03
+ How much time is being spent?
+
+0:42:22	SPEAKER_03
+ Or on this particular project.
+
+0:42:25	SPEAKER_03
+ Nobody was looking, you know, what was coming up?
+
+0:42:28	SPEAKER_04
+ Have you ever seen those little, it's this thing that's a shape of a bird and has a red ball and it's big dips into the water?
+
+0:42:36	SPEAKER_04
+ So if you can hook that up so that it hit the keyboard.
+
+0:42:40	SPEAKER_04
+ Yeah.
+
+0:42:41	SPEAKER_04
+ That's an interesting thing.
+
+0:42:45	SPEAKER_03
+ It would be similar to a new, some people who were, they were seen in old communities, the Czechoslovakia, right?
+
+0:42:52	SPEAKER_03
+ So we were watching for American airplanes coming to spy on us at the time.
+
+0:42:57	SPEAKER_03
+ So there were three guys stationed in the middle of the woods on the van, lonely, watching the hour, pretty much spending even a half there because they were the service, right?
+
+0:43:08	SPEAKER_03
+ And so they very quickly, they made a difference with local guys and local people in the village and here.
+
+0:43:13	SPEAKER_03
+ And so, but they, there was one plane flying over, always above.
+
+0:43:18	SPEAKER_03
+ And so they was the only work they had.
+
+0:43:20	SPEAKER_03
+ They like, for in the afternoon they had to report, they was a plane from Prague to Bernal, basically, flying there.
+
+0:43:26	SPEAKER_03
+ So the very first thing was that they would always run back and, and for a clock and quickly make a call that plane is passing.
+
+0:43:36	SPEAKER_03
+ Then the second thing was that they, they took the line from this post to a local pub.
+
+0:43:41	SPEAKER_03
+ And they were calling from the pub.
+
+0:43:45	SPEAKER_03
+ But third thing, which they made, when they screwed up, finally they had to pass.
+
+0:43:48	SPEAKER_03
+ The pub owner to make this phone call.
+
+0:43:51	SPEAKER_03
+ They didn't even bother to be there anymore.
+
+0:43:54	SPEAKER_03
+ And one day there was, there was no plane.
+
+0:43:56	SPEAKER_03
+ At least they were sort of smart enough that they looked if the plane is flying there, right?
+
+0:44:01	SPEAKER_03
+ And the pub owner just, oh my, four o'clock, okay, quickly pick up the phone call and it is a plane flying.
+
+0:44:05	SPEAKER_03
+ There was no plane for some reason.
+
+0:44:07	SPEAKER_03
+ It was downed.
+
+0:44:08	SPEAKER_03
+ So they got in trouble.
+
+0:44:11	SPEAKER_03
+ But, but, that's a lot.
+
+0:44:18	SPEAKER_04
+ Maybe I could set that up.
+
+0:44:21	SPEAKER_03
+ Well, at least go test the assumption about C1, I mean, to begin with.
+
+0:44:26	SPEAKER_03
+ But then of course, one can then think about some predictable ways how to change all of them here.
+
+0:44:30	SPEAKER_03
+ They just like be used to do this, this dance measures.
+
+0:44:36	SPEAKER_03
+ It might be this.
+
+0:44:37	SPEAKER_04
+ So the first set of variants, waiting vectors would be just, you know, one modifying, one leaving the others the same.
+
+0:44:45	SPEAKER_03
+ Yeah.
+
+0:44:46	SPEAKER_03
+ And you do that for each one.
+
+0:44:48	SPEAKER_03
+ Because you see, I mean, what is happening here in the, in the, in the such a model is that it's, tell us you, yeah, what has a low variance is, is, is, is more reliable, right?
+
+0:44:58	None
+ Yeah.
+
+0:44:59	SPEAKER_05
+ When the data matches that.
+
+0:45:01	SPEAKER_04
+ Yeah.
+
+0:45:02	SPEAKER_04
+ Yeah.
+
+0:45:03	SPEAKER_04
+ Yeah.
+
+0:45:04	SPEAKER_03
+ Yeah.
+
+0:45:05	SPEAKER_03
+ How do we know, especially when it comes to noise?
+
+0:45:08	SPEAKER_04
+ But there could just naturally be low variance.
+
+0:45:11	SPEAKER_04
+ Because I, I've noticed in the higher, capster coefficients, the numbers seem to get smaller, right?
+
+0:45:18	SPEAKER_04
+ So they just naturally, yeah.
+
+0:45:22	SPEAKER_04
+ Yeah.
+
+0:45:23	SPEAKER_02
+ They have smaller means also.
+
+0:45:24	SPEAKER_04
+ Yeah.
+
+0:45:25	SPEAKER_04
+ Exactly.
+
+0:45:26	SPEAKER_04
+ And so it seems like they're already sort of compressed.
+
+0:45:30	SPEAKER_04
+ The range.
+
+0:45:31	SPEAKER_03
+ Yeah.
+
+0:45:32	SPEAKER_03
+ That's why people use these lifters, so inverse variance waiting lifters basically, that makes, you can do in distance more like a, man, all this distance with a diagonal covariance and you use all the variances, where, over the all data, what they would do is that they would wait each coefficient by inverse of the variance.
+
+0:45:52	SPEAKER_03
+ Turns out that the variance decreases at least as fast, I believe, as an index of the capster coefficient.
+
+0:45:58	SPEAKER_03
+ I think you can show that analytically.
+
+0:46:01	SPEAKER_03
+ So typically what happens is that you need to wait the higher coefficient smaller than the lower coefficients.
+
+0:46:20	SPEAKER_03
+ So when we talked about Aurora still, I wanted to make a plea for, encourage for more communication between, between a different parts of the distributed center.
+
+0:46:40	SPEAKER_03
+ Even when there is absolutely nothing to say about it, whether it's good in work, in work, I'm sure that is being appreciated in Oregon and maybe it will generate a similar response here.
+
+0:46:51	SPEAKER_02
+ Can't set up a webcam maybe.
+
+0:46:55	SPEAKER_02
+ Yeah.
+
+0:46:56	SPEAKER_03
+ Well, you know, nowadays, yeah, it's up actually do ever almost.
+
+0:47:07	SPEAKER_04
+ Is the, if we mail to Aurora in house, does that go up to you guys also?
+
+0:47:13	SPEAKER_04
+ I don't think so.
+
+0:47:14	SPEAKER_04
+ No.
+
+0:47:15	SPEAKER_04
+ Okay.
+
+0:47:16	SPEAKER_04
+ So we should do that.
+
+0:47:17	SPEAKER_04
+ Do we have a mailing list that includes the OJIP?
+
+0:47:19	SPEAKER_02
+ No.
+
+0:47:20	SPEAKER_04
+ We don't do.
+
+0:47:21	SPEAKER_04
+ Oh.
+
+0:47:22	SPEAKER_04
+ Maybe we should set that up.
+
+0:47:23	SPEAKER_03
+ That would make it easier.
+
+0:47:24	SPEAKER_03
+ Yeah.
+
+0:47:25	SPEAKER_04
+ Yeah.
+
+0:47:26	SPEAKER_03
+ And then we also can send it to the same address, right?
+
+0:47:32	SPEAKER_03
+ And it goes to everybody.
+
+0:47:33	None
+ Okay.
+
+0:47:34	SPEAKER_03
+ Because what's happening naturally in research, I know is that people essentially start working on something.
+
+0:47:43	SPEAKER_03
+ They don't want to be much bothered, right?
+
+0:47:44	SPEAKER_03
+ But what the, the, the, the danger is in a group like this is that two people are working on the same thing.
+
+0:47:50	SPEAKER_03
+ And of course, both of them come with a very good solution, but it could have been done somehow on a half of the effort.
+
+0:47:57	SPEAKER_03
+ Oh, that's another thing which I wanted to report.
+
+0:48:01	SPEAKER_03
+ Look-hash, I think, wrote a software for the Aurora 2 system.
+
+0:48:07	SPEAKER_03
+ Reasonably, the good one because he's doing it for Intel.
+
+0:48:11	SPEAKER_03
+ But I trust that we have a rights to use it or distribute it and everything.
+
+0:48:17	SPEAKER_03
+ Because Intel's intention originally was to distribute it free of charge anyways.
+
+0:48:22	SPEAKER_03
+ And so, so we make sure that at least you can see the software.
+
+0:48:28	SPEAKER_03
+ And if it is so-and-use, just that there might be a reasonable point for perhaps to start converging.
+
+0:48:37	SPEAKER_03
+ Because Morgan's point is that he's an experienced guy.
+
+0:48:40	SPEAKER_03
+ He says, well, you know, it's very difficult to collaborate if you are working with, supposedly, the same thing in quotes.
+
+0:48:46	SPEAKER_03
+ Except which is not the same, which one is using that set of filters and the other one is using another set of filters.
+
+0:48:56	SPEAKER_03
+ And then it's difficult to compare.
+
+0:49:02	SPEAKER_02
+ What about Harry?
+
+0:49:03	SPEAKER_02
+ We received a mid-nice tweak and he was starting to turn this on.
+
+0:49:07	SPEAKER_02
+ He got some experiments.
+
+0:49:09	SPEAKER_02
+ Yeah, they sent me.
+
+0:49:10	SPEAKER_02
+ And use this Intel.
+
+0:49:11	SPEAKER_02
+ Yeah, yeah.
+
+0:49:12	SPEAKER_05
+ Russian.
+
+0:49:13	None
+ Yeah.
+
+0:49:14	SPEAKER_03
+ Because Intel paid us, should I say, on a microphone, some amount of money, not much.
+
+0:49:21	SPEAKER_03
+ Not much, I can say, on a microphone.
+
+0:49:23	SPEAKER_03
+ Much less than we should have gotten.
+
+0:49:24	SPEAKER_03
+ But it's a matter of work.
+
+0:49:28	SPEAKER_03
+ And they wanted to have a software so that they can also play with it.
+
+0:49:32	SPEAKER_03
+ Which means that it has to be in certain environment.
+
+0:49:34	SPEAKER_03
+ They use actually some Intel libraries.
+
+0:49:39	SPEAKER_03
+ But in the process, look at just re-road the whole thing.
+
+0:49:42	SPEAKER_03
+ Because he figured rather than trying to make sense of an including axis of the wear.
+
+0:49:50	SPEAKER_03
+ Not for training of the nets, but I think he re-roads the, or maybe somehow reused over the parts of the thing.
+
+0:49:58	SPEAKER_03
+ So that the whole thing, including MLP, trained MLP, is one piece of software.
+
+0:50:05	SPEAKER_03
+ Wow.
+
+0:50:06	SPEAKER_03
+ Is it useful?
+
+0:50:09	SPEAKER_03
+ Yeah.
+
+0:50:10	SPEAKER_06
+ I mean, I remember when we were trying to put together all the axis software for the submit.
+
+0:50:16	SPEAKER_03
+ That's what he was saying, right?
+
+0:50:17	SPEAKER_03
+ He said that it was like, it was like just so many libraries.
+
+0:50:20	SPEAKER_03
+ I'm not going to knew what was used when.
+
+0:50:24	SPEAKER_03
+ So that's where he started.
+
+0:50:25	SPEAKER_03
+ And that's where he realized that it needs to be.
+
+0:50:27	SPEAKER_03
+ It needs to be at least cleaned up.
+
+0:50:30	SPEAKER_03
+ And so I think it is available.
+
+0:50:33	SPEAKER_02
+ The only thing I would check is, does he use Intel?
+
+0:50:39	SPEAKER_02
+ That's the library.
+
+0:50:41	SPEAKER_03
+ If it's the case, maybe not in the first approximation.
+
+0:50:46	SPEAKER_03
+ Maybe not in the first approximation.
+
+0:50:47	SPEAKER_03
+ Because I think he started first with the plain C or C++ or something.
+
+0:50:53	SPEAKER_03
+ I can check on that.
+
+0:50:57	SPEAKER_03
+ And otherwise, Intel libraries, I think they are available freely.
+
+0:51:04	SPEAKER_03
+ They may be running only on Windows or on the Intel architecture.
+
+0:51:10	SPEAKER_03
+ Yeah, on Intel architecture, main or unknown sound.
+
+0:51:13	SPEAKER_03
+ That is possible.
+
+0:51:14	SPEAKER_03
+ That's why Intel, of course, is distributing.
+
+0:51:19	SPEAKER_02
+ Well, at least there are optimized versions for the architecture.
+
+0:51:25	SPEAKER_02
+ I don't know.
+
+0:51:26	SPEAKER_02
+ I never checked carefully this.
+
+0:51:29	SPEAKER_03
+ I know there were some issues that initially, of course, we do all the development on Linux.
+
+0:51:33	SPEAKER_03
+ But we have only three sounds.
+
+0:51:39	SPEAKER_03
+ And we have them only because they have a spare board.
+
+0:51:42	SPEAKER_03
+ Otherwise, almost exclusively, working with PCs now with Intel.
+
+0:51:49	SPEAKER_03
+ In that way, Intel succeeded in us because they gave us too many good machines for very little money or nothing.
+
+0:51:58	SPEAKER_03
+ So we run everything on Intel.
+
+0:52:02	SPEAKER_04
+ Does anybody have anything else?
+
+0:52:09	SPEAKER_04
+ So we read some digits?
+
+0:52:11	SPEAKER_04
+ Yeah.
+
+0:52:12	SPEAKER_04
+ Yes.
+
+0:52:13	SPEAKER_04
+ So, you never know.
+
+0:52:14	SPEAKER_04
+ We've ever done this way that it works is each person goes around in turn.
+
+0:52:18	SPEAKER_04
+ And you say the transcript number.
+
+0:52:21	SPEAKER_04
+ And then you read the digits, the strings of numbers as individual digits.
+
+0:52:26	SPEAKER_04
+ So you don't say 850, say 850.
+
+0:52:27	SPEAKER_03
+ OK.
+
+0:52:28	SPEAKER_03
+ OK.
+
+0:52:29	SPEAKER_03
+ So can I try maybe start there?
+
+0:52:31	SPEAKER_03
+ Sure.
+
+0:52:32	SPEAKER_03
+ This transcript L101, 850720538, 118, 528759, 961, 459500, 882758720, 9348, 36396545820, 8248, 36396545, 8248, 8208441810, 002586186551, 4374402890.
+
+0:53:19	SPEAKER_04
+ Transcript L102, 29564526, 768484913, 489025645223, 292901317, 80929366600, 567421337, 66833321, 032669137991.
+
+0:53:56	SPEAKER_06
+ Transcript L-103, 76377732, 21923460, 6314, 940853, 6862, 009187681809, 009434532, 711150319, 08323095, 4922986786.
+
+0:54:44	SPEAKER_00
+ Transcript L-104, 695007490.
+
+0:54:53	SPEAKER_00
+ 915005169, 9299151207, 853890321541, 2041138553775399817105082722691869352.
+
+0:55:38	SPEAKER_02
+ Transcript L-100014953649643373138811481203611078862765, 627114991, 6223682766914236458283, 09231750.
+

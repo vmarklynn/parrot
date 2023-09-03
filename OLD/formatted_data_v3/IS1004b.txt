@@ -1,0 +1,462 @@
+Speaker C: Okay everybody is ready.
+Speaker C: Good morning again.
+Speaker C: So today we are going to have a second meeting.
+Speaker C: Oh Michael.
+Speaker C: Hi, you're late.
+Speaker C: You have a good reason for that?
+Speaker C: Yes.
+Speaker C: Very good.
+Speaker C: Okay, let's have a look to the agenda today.
+Speaker C: So we are going to have a meeting about the functional design.
+Speaker C: So first before starting, I'm just going to go quickly through the minutes of previous meeting.
+Speaker C: So basically we were not decided if we should go for universal or specific remote control but I have new inputs for about that topics.
+Speaker C: I'm going to share with you.
+Speaker C: And basically we decided to go to individual actions for each of you.
+Speaker C: So industrial designer was supposed to work on the working design.
+Speaker C: You prepare something for us.
+Speaker C: The UE guy also worked on that.
+Speaker C: And for our marketing expert should deliver some specs.
+Speaker C: All right.
+Speaker C: So we are going to go through three of your individual presentations.
+Speaker C: But first I would like quickly to give a name to the project.
+Speaker C: So I just put the quick clear remote.
+Speaker C: But if you have any other names that we could decide for just to keep something fun for our project, we could discuss quickly.
+Speaker C: Any ideas?
+Speaker A: What about the power stick?
+Speaker C: Yeah.
+Speaker C: What else?
+Speaker C: What else?
+None: Maybe a Spanish name.
+Speaker A: Especially if we sell it into the US market because there's a lot of Spanish speakers there.
+Speaker A: Maybe something that sounds cool in English but sounds funny in Spanish.
+Speaker A: Mando.
+Speaker A: Mando.
+Speaker C: Mando.
+Speaker C: Mando.
+Speaker C: Mando.
+None: MA.
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: D-O.
+Speaker C: Okay.
+Speaker D: It doesn't sound cool for me.
+Speaker D: But maybe for Spanish, for I4.
+Speaker A: What does it mean in Spanish?
+Speaker A: Control.
+Speaker A: Control.
+Speaker A: Because it also, like in English it sounds like the man's tool, you know, because men like to have control of the remote.
+Speaker D: Mando sounds Latino.
+Speaker D: Okay.
+Speaker C: So let's go for Mando.
+Speaker C: Yeah.
+Speaker C: Objection.
+Speaker C: Yeah.
+Speaker A: Great.
+Speaker A: Maybe we could have some like, you could have the fonts, you know, special so you have man in like in one font and then the O is like.
+Speaker A: Okay.
+Speaker A: Well, you don't want to cut women out of the potential buyers.
+Speaker A: Yeah.
+Speaker B: They're the most TV watchers so we should be careful.
+Speaker C: Okay.
+Speaker C: I think this is more a question of, I think this is more a question of, of look and feel.
+Speaker C: Something that should be addressed later.
+Speaker C: We should go to the other top.
+Speaker D: Yeah.
+Speaker D: Because the product will be international.
+Speaker A: Well, that's the thing.
+Speaker A: We need to know who we're selling it to before we can really decide on it.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker C: So let's stick to Mando for the name and we'll see for the look and feel later.
+Speaker C: So let's go for the three presentations right now.
+Speaker C: So we want to start.
+Speaker D: So maybe I should just start on the market here.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker C: Okay.
+Speaker C: So I have your slides somewhere.
+Speaker D: Yeah.
+Speaker D: Should be in participant four.
+Speaker C: participant four.
+None: Yeah.
+Speaker C: Yes, one.
+Speaker C: Yeah.
+Speaker C: That's coming.
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker D: Great.
+Speaker D: Okay.
+Speaker D: So I will give a brief outline about what I prepared for this meeting for the functional requirements and especially for the user requirements.
+Speaker D: I prepared a marketing report and just to find the weaknesses and the improvements we could do to the current remote controls.
+Speaker D: And also I did a study with for the incorporation of new technologies.
+Speaker D: It seems that the remote controls have remained the same for the last five, ten years.
+Speaker D: There is no significant difference between the first new controls.
+Speaker C: Okay.
+Speaker C: Yeah.
+Speaker C: Next slide.
+None: Okay.
+Speaker D: Well, most of the people think that remote controls are ugly, directly.
+Speaker D: So and they admitted that they should spend more money in a fancier remote control, which is good.
+Speaker D: Interesting point.
+Speaker D: Also, the people are worried about the air as I disease, which is if you repeat the same movement, which is not a with a not very appropriate device, you will have problems when you will get all.
+Speaker D: So people are worried about the shape of the remote control.
+Speaker D: They are also they get angry very often because they lost the remote control very often.
+Speaker D: So I think it would be a good point to find a solution to any beep, any alarm or something incorporated with the remote control every time it gets lost.
+Speaker D: And also I found that the younger people are the more interested they are in incorporating new technologies in the remote control.
+Speaker C: Okay.
+Speaker D: So in my opinion, the Mando is Mando shouldn't be very small because the smaller it is, the more like the the likelier is to get lost likelier or more likely more likely like like.
+Speaker D: Okay.
+Speaker D: People are so complain because they they they all have the same size of the buttons for buttons which are not very used like memorizing channels or all these kind of actions which are not very often.
+Speaker D: But they should they shouldn't have the same importance in the remote control.
+Speaker D: Also the design should fit the hand shape.
+Speaker D: So it may be interesting to to think in both prototypes for right and left handed people.
+Speaker A: Well, the thing is the most remote controls they use by more than one person.
+Speaker A: So unless you're kind of targeting single people, you know, you're gonna maybe cut out some a lot of your market.
+Speaker D: I don't know if any way I think it could be interesting to to release some a small fraction of.
+Speaker B: Oh, my face could be a universal design.
+Speaker B: Sure.
+Speaker B: A universal design which is which is good for both the hands.
+Speaker A: Yeah, still straight for yeah for your hand but not for a particular.
+Speaker B: That's right.
+Speaker B: Yeah, whether it's left hand or right hand but but don't you think that the two points are clashing one thing you are saying design should fit the hand shape and it should not be very small.
+Speaker B: Sorry.
+Speaker B: The first and the third point they are clashing.
+Speaker A: Well it can still be a bit you can still extend past the hand.
+Speaker A: Yeah.
+Speaker B: Okay.
+Speaker B: Like so fitting the hand doesn't mean much then.
+Speaker A: Well, it means like this right here is kind of is very thin and long.
+Speaker A: So instead of having you know you might have it kind of yeah a bit bigger or you know with maybe some some finger molds or something.
+Speaker B: So means design should be similar to that traditional ones.
+Speaker B: Little sleek longer.
+Speaker D: No, no.
+Speaker D: I was thinking of like something.
+Speaker C: Something with the shape of the pan.
+Speaker A: Yeah.
+Speaker A: Some finger grips maybe you could even have some buttons like you know.
+Speaker D: Yeah, it should be symmetrical.
+Speaker D: Not anymore.
+Speaker D: That's what.
+Speaker D: Yeah.
+Speaker C: And then finally.
+Speaker D: And finally the incorporation of LCD or a specific condition system in the remote control could also be interested but I don't know if the budget would be larger.
+Speaker C: Yeah.
+Speaker C: First I'm just wondering about the LCD stuff.
+Speaker D: But most of the young people to 30 to 30 years old were really interested in this kind of technology.
+Speaker C: Yeah.
+Speaker C: So maybe it's a good time for me to to bring you to some new new information.
+Speaker C: You had the new requirements from the head of thesis of the company and so they wanted so they want to they would like to be restricted to TV.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker C: I don't know if you had this information already.
+Speaker C: No.
+Speaker C: No.
+Speaker C: So they want has to restrict the remote control to TV only because of time limitations.
+Speaker C: They want also.
+Speaker D: So this marketing report is restricted to TV remote control.
+Speaker C: Excellent.
+Speaker C: So we have also to focus more on the internet aspects because well well TLA text is how they did now.
+Speaker C: And finally it should be clear that the corporate image that means color and logos of the car our company should be clearly identified in the product.
+Speaker A: Are we still working on this 25 euro price point because I think actually having looked at some of the remote out there this is quite a low price.
+Speaker A: If we're maybe I can get to this in my presentation though.
+Speaker A: Yeah.
+Speaker C: Yeah.
+Speaker C: So maybe you can jump to your presentations right now.
+Speaker C: Yep.
+Speaker C: Okay.
+Speaker C: So let's keep in mind about that this last point about LCD and speech.
+Speaker A: I think even if it was within budget to speech record rec system it might be a bit difficult because if you think if you're watching TV you're going to have a lot of this background noise from the TV which might interfere with the.
+Speaker C: Sorry.
+Speaker A: What is your following?
+Speaker A: Ah, participant three.
+Speaker A: You might have some background noise from the TV which will make the speech recognition much.
+Speaker D: Yeah but you should be able to activate or disactivate.
+Speaker D: So yeah.
+Speaker D: Right.
+Speaker A: Press a button to talk and the TV.
+Speaker A: 10 and 50.
+Speaker B: 10 so. Yeah, no it could be command control kind of thing.
+Speaker B: It require recognizes particular sequence and then it gets activated.
+Speaker B: Means you say you should say like this that remote control being on or beyond kind of thing and then remote control comes into the picture for the speech recognition.
+Speaker B: Because this kind of thing means speech is there from the TV also.
+Speaker B: So there should be something command controlled you start and then you stop.
+Speaker B: Yeah.
+Speaker B: So you're going to be a editor you are having two modes similarly.
+Speaker B: Otherwise it's just like idle.
+Speaker C: Okay.
+Speaker A: Okay.
+Speaker A: So could I describe the mouse maybe a bit easier to use the mouse or.
+Speaker A: Yeah.
+Speaker A: Thanks.
+None: Okay.
+Speaker C: The wheel doesn't work.
+Speaker A: Great.
+Speaker A: Okay.
+Speaker A: So while researching this topic I first of all just thought of a couple of things that I would like to see in a remote and just look to see if they're actually available in any current remotes and then also search for which are the top rated remote controls on opinions.com which is a you know a customer written basically review site.
+Speaker A: So there's a pretty wide range of remote controls these days and this remote control on the right here is one of the more extravagant but it's not really, it's by no means you know on its own in being so expensive there are a lot of expensive remote control out there.
+Speaker A: Yeah.
+Speaker A: It looks like a PDA.
+Speaker A: Yeah.
+Speaker A: Well basically all the functions are controlled through the LCD screen except for the really really kind of main functions which have a couple of of their own buttons.
+Speaker A: And if you look at a lot of the universal remotes out on the market I know we're working on television remote but a lot of the universal remotes out there have LCD screens which kind of helps when you're using multiple devices I suppose because you can have multiple kind of functions different functions on the screen at different times.
+Speaker A: But the thing that I find most interesting about this remote control and it's kind of difficult to see in this light but it has a scroll wheel on it which is kind of like a mouse scroll wheel which I think is it's a really kind of important design aspect because the thing is what the presentation is about is what we want the remote control to actually do and obviously the simplest thing that a remote control does is it just changes the channel.
+Speaker A: Yeah.
+Speaker A: I think that a scroll wheel is actually a pretty handy way of changing the channel because I know when I use the remote to change the channel I rarely use the numbers on the pad I usually use the up and down because most channels are two digit numbers and you have to press a special button to enter a two digit number and then the number so it's annoying.
+Speaker A: So I think a scroll wheel is quite handy.
+Speaker A: Now the scroll wheel is much more useful if you have an LCD screen and this brings us to the point you were mentioning before about the internet capability.
+Speaker A: One possibility if we, now we need to still talk about the price point because obviously a lot of this stuff can't be done for 25 euro but one possibility is to download program information into the LCD screen so that instead of actually saying I want to go to channel 37 because I know this program is on you know often you don't know what channel it's on or you don't know what's on.
+Speaker A: If you have a list of programs on your LCD screen you just scroll to that program rather than to a channel.
+Speaker A: So if you think about it's kind of like you know in mobile phones now you don't use, you don't remember people's phone number you remember the name and you go find that name and ring it.
+Speaker A: So this would be pretty kind of anything to have but we really need to discuss the price.
+Speaker A: So I mean there are cheaper, this is another multi-purpose remote control where it's very simple there's only a few buttons but each of those buttons does something different in a different context.
+Speaker A: So this is something else we might want to consider is really kind of limiting the number of buttons because this is the top rating universal remote control on opinions.
+Speaker A: It's really maybe worth thinking about limiting the number of buttons as much as possible because really I think people want to be able to find the button they're looking for without even looking at the remote control and give them a saying before about having different size buttons for different you know frequently used tasks.
+Speaker A: But I think also you know the location and shape of the buttons is important but also the number of buttons so if you have too many buttons it increases the difficulty of finding.
+Speaker B: But when this one problem means then the user has to understand each of that functionality.
+Speaker B: Yeah well because the same button is doing to anything.
+Speaker A: Yeah well we will have a bit of a simpler task in that we're only doing a television remote control.
+Speaker A: I think maybe one option is to have you know a little flip open door that you have hidden most of the time but contains the extra buttons like say the number of buttons for instance.
+Speaker A: I would if I had my perfect remote control I'd probably just have no numbers at all on it because they're just in the way they don't really do anything.
+Speaker A: Maybe you know although I do also find flip open doors a bit of a pain because sometimes they can break off or whatever but maybe a door that you can permanently remove or permanently have on would be good.
+Speaker A: But I think definitely you need to keep the buttons down to a minimum but not the let that kind of interfere with the functionality of the device.
+Speaker D: I think that the transition to this new remote control shouldn't be very abrupt, very hard because if people see a remote control without numbers they will think it's very difficult to learn, very difficult to build.
+Speaker A: It does something more important.
+Speaker A: Very different too.
+Speaker A: It depends on how you market it if you have the right advertisements showing how easy it is and how you can navigate to a program without the numbers then people might say that looks pretty easy.
+Speaker A: Okay can you continue please mate?
+Speaker A: Okay so I think one of the really kind of useful things you can do with internet connectivity would be to have this a program driven interface rather than the channel number.
+Speaker A: So if we can have a higher priced remote control it would really be worth something that would be worth implementing.
+Speaker A: There's the LCD screen which maybe is too expensive but I think also the scroll wheel I haven't mentioned it here, the scroll wheel could be used without an LCD screen just for changing channel numbers easily.
+Speaker A: I think even that would be a fairly cheap thing compared to an LCD screen to implement but I think it would be quite useful as well.
+Speaker A: And the other thing you said we need to keep it just television but I think maybe one option since this is supposed to be a kind of a fashionable device is you know there's a certain kind of cool or well factor that you can have with technology and maybe we want to make it something that's extensible to do other tasks.
+Speaker A: Say you have like another little kind of base unit that can also receive signals as well the television where you can say change the lighting in the room.
+Speaker A: That would be something maybe you could sell as an extra so that it doesn't have to be part of the initial development but you know later on you could, you know, you're also selling the potential of the device then you say potentially you can then do other cool stuff like change the lights, I don't know close the windows, whatever, turn the heating on.
+Speaker A: And I think that's something we may need to have as is at least as an optional extra to kind of make out product cool since we say we're putting the fashion in electronics.
+Speaker C: Okay, okay thanks.
+Speaker C: Yeah, you want to go?
+Speaker C: Yeah.
+Speaker C: Give me.
+Speaker B: So most of the things that you are discussing about a speech recognition are on my own end.
+Speaker B: Yeah, it should be.
+None: Great.
+Speaker C: Nope, that's one.
+Speaker C: That's your two.
+Speaker B: Okay, so the working design is user interface could be of two types.
+Speaker B: One is the usual press buttons which are there so that the user feels that he's doing some he's knowing about the technology.
+Speaker B: So he's pretty comfortable if he wants to get this and on top of that there there could be a speech recognition technology also being sitting on the remote.
+Speaker B: So the old kind of users who don't want to have any changes it can be useful for them.
+Speaker B: And the new users as our marketing expert was saying they can use the new guest mode which is speech recognition kind of thing.
+Speaker C: Okay, sorry to interrupt you but we have seen before that there is a new way of interacting that use wheel.
+Speaker B: That's right.
+Speaker B: So anyway that didn't come into my mind.
+Speaker B: Okay.
+Speaker B: So that is a possibility.
+Speaker B: These could be other kind of interfaces.
+Speaker B: It means we can have depending on the cost how much we can afford we can have different kind of interfaces.
+Speaker B: So speed buttons are something which is very everybody's familiar with.
+Speaker B: So if you go to the market and you say that buttons are there the people know what it is.
+Speaker B: And on top of that if we are having extra functionality if I are willing to shell the 25 euros money which we are thinking otherwise we are just like others in the market.
+Speaker B: So anyway that is the first user interface could be of more than one type and yeah that means we can do the online changes which cannot be done now actually.
+Speaker B: So apart from speech we can have this crawl kind of thing with the buttons.
+Speaker B: Now for buttons normal requirements like bit coding and all those things are required.
+Speaker B: And for voice limited vocabulary automatic speech recognition system is required and we require a microphone also to be sitting there on the remote.
+Speaker C: Yeah that increases the cost also.
+Speaker B: That's right but means we have to see how much what kind of microphones and stuff like
+Speaker C: that. Do you think that performance of such systems are enough to target of such technologies is enough?
+Speaker B: Yes if it is limited vocabulary usually it's enough.
+Speaker B: We can target means we can target 95% accuracy or somewhere.
+Speaker C: I imagine also that the microphone will be an ambient microphone because you are not going to speak.
+Speaker B: No it could be a little joke.
+Speaker C: So it could be a few centimeters.
+Speaker A: That's right.
+Speaker A: One other thing that speech recognition could really blow out the price for is when you want to sell into other markets though because I'm not sure exactly where we are going to sell this but I presume it's not just going to be English speaking countries.
+Speaker A: So then you have to train models for...
+Speaker B: It's more like there are different speech technologies which are existing.
+Speaker B: So DTW could be kind of which is the easiest.
+Speaker B: So you have to store some templates on the chip itself and it's just dynamic time warping where you try to find out what it is.
+Speaker B: Instead of having a model which is to be trained and being a microcontroller.
+Speaker C: Okay we should discuss that later after this slide.
+Speaker C: This is a very important issue in the discussion.
+Speaker C: Okay next.
+Speaker C: Yeah.
+Speaker C: It's finished.
+Speaker C: No no.
+Speaker B: Components.
+Speaker B: Components.
+Speaker B: Yeah.
+Speaker B: So we'll go to the next slide.
+Speaker B: Yeah sure.
+Speaker B: Yeah so this is the design which we are thinking.
+Speaker B: So we are having the power button and the switch which is not much and then we are having the bulb with us which is to indicate whether the power is on or not.
+Speaker B: And then there are two kind of things which can be...
+Speaker B: So one is the button interface which has not been shown because of lack of time.
+Speaker B: So we could not put that.
+Speaker B: So now where the ASR decoder is sitting.
+Speaker B: Similarly there are different kind of interfaces which could be there.
+Speaker B: So there is ASR decoder which could be there and then there could be another scroll button, scroll, scroller and then there could be buttons.
+Speaker B: And all of them they will just do the decoding and put it in the proper message format and then there is the chip which is sitting, the green one and it converts it into bitcodes and that bitcodes are sent by the infrared device to the receiver.
+Speaker C: Okay.
+Speaker B: So this is the easiest design that they could be.
+Speaker B: So in ASR decoder we can have things in parallel to have different technologies.
+Speaker B: So this was the...
+Speaker B: My personal preference was that we can have ASR sitting there on the remote control.
+Speaker A: Yeah I guess you could actually train the remote control as you are using it by saying you know, turn volume up and you press the button like people teach sign language to kids.
+Speaker A: Well, by speaking and doing it.
+Speaker B: As soon as you try to put a microchip kind of thing or something the price will go up.
+Speaker B: So these are the slight problems.
+Speaker C: So your opinion is that we should go for our subconscious.
+Speaker B: Yeah, the reason is that if we go into the market means, though I do not have much idea, but as the marketing expert presentation was.
+Speaker D: If you can sell a speech recognition remote control for 25 euros, everyone will buy it.
+Speaker D: So if you go on the job show.
+Speaker A: Actually, if I was using remote control to say turn the volume up because I can't hear it very well, I don't really want to drown out what people are saying by talking, you know, when I'm instead of pressing up on the remote control.
+Speaker A: You know, there's some dialogue all of a sudden that I can't hear.
+Speaker A: I'm trying to actually find out what's being said.
+Speaker A: So maybe speech recognition gets in the way more than it helps.
+Speaker D: Okay.
+Speaker D: So yeah, but you know the average frequency of passion bottoms it's about.
+Speaker A: Well, it depends if it's a remote control.
+Speaker D: It's about 80, 80, 80 pashes per hour or something like that.
+Speaker A: Maybe if the remote control is something that you don't actually have to pick up anymore, that would be a useful feature of the speech recognition.
+Speaker A: If you can leave it sitting on the table and you don't actually have to find it then.
+Speaker C: Okay, gentlemen, we have to take some decisions right now.
+Speaker C: So if I kind of summarize everything we say, while targeting TV, we need to have remote control which is fancy, which is easy to handle, to spoil, not too big.
+Speaker C: We have a good shape for that.
+Speaker C: A good shape, yes.
+Speaker C: We should bring new technologies for young people's.
+Speaker C: And as we have also requirements to use to push through the internet, maybe this is something we can stick to it.
+Speaker C: And also very interesting things I've seen on one of our competitors, this wheel that we can use to navigate.
+Speaker C: So my feeling is that regarding costs, budgets we have and target price, it's not possible to go to LCD and also to go to automatic speech recognition technologies.
+Speaker C: First, why not to go to LCD?
+Speaker C: Because in fact, as we are targeting TV, in fact we can use TV screen as a screen to feedback, to give some feedback information about what we could have.
+Speaker A: Well, it depends.
+Speaker A: Unless we have some input, some video input to the TV, or we have control over the TV, then we can't actually display that.
+Speaker A: Like if we produce the TV, then we can put menus up there.
+Speaker A: But otherwise we need to actually have something sitting in between the video signal and the TV to superimpose those menus.
+Speaker A: So that's an extra...
+Speaker C: Yeah, that's right.
+Speaker C: Don't we have contacts?
+Speaker C: We have people on TV or systems that exist in use?
+Speaker A: This is another...
+Speaker A: We still haven't really defined the remote.
+Speaker A: Are we still...
+Speaker A: You said we're focusing on TV, but is it still kind of like a universal remote in that it's a replacement remote control?
+Speaker A: Or is this something for our own line of televisions?
+Speaker A: Because that really makes a big difference.
+Speaker A: Because even if we have contacts, we can't really produce remote control that can bring up menus on other companies' TVs.
+Speaker A: It's just there are too many TVs out there.
+Speaker A: It's not really...
+Speaker C: That's a good point.
+Speaker C: What could be the cost of...
+Speaker C: Well, could we fit the targets in terms of cost if we go to LCD and remote control?
+Speaker A: For 25-year?
+Speaker A: I think it's impossible.
+Speaker A: It's impossible.
+Speaker A: Yeah.
+Speaker A: I think it would be good to know if there is any leverage in that Li-Wei in that 25-year?
+Speaker A: Because for 25-year, I think all we can really do is provide a very basic remote control.
+Speaker A: That seems to be kind of against the philosophy of our company, which is putting the fashion into electronics.
+Speaker A: I would like to know if there's any chance of increasing the unit price.
+Speaker C: What would be...
+Speaker C: So, you mean we should target something maybe which would be more expensive, but really fancy in terms to have really an added value?
+Speaker C: Yeah.
+Speaker C: Because...
+Speaker C: So, regarding the automatic speech recognition, I think this is...
+Speaker D: Well, question.
+Speaker D: What would be the goal of putting a LCD in remote control?
+Speaker D: What kind of information?
+Speaker A: Because you can have things like the program name instead of the channel number.
+Speaker D: But it's like an interactive program.
+Speaker D: Most of the TVs know where they are.
+Speaker D: They have teletext.
+Speaker D: Show the...
+Speaker C: Wow.
+Speaker C: Because they have teletext on it.
+Speaker C: You have a teletext signal that you can...
+Speaker C: Yeah.
+Speaker D: But most of the TVs have teletext nowadays.
+Speaker C: They have...
+Speaker C: Most of them have teletext, but we want to get rid...
+Speaker C: Well, one of our requirements is to move to teletext to the use of internet.
+Speaker C: So, to...
+Speaker A: You can get a lot more information.
+Speaker C: It grows more easily in the teletext, for instance, through your remote control.
+Speaker D: So, what would appear in the LCD?
+Speaker A: So you could have the name of the program.
+Speaker A: You could have the start time, you know, where it's up to...
+Speaker A: To start all the programs you could have...
+Speaker A: You could have even a little image of, you know, the main actors or something.
+Speaker A: So you can quickly just kind of even without reading...
+Speaker C: I don't know if this information is available from teletext also.
+Speaker A: Well, no, but there are other electronic program guides.
+Speaker A: They may not have pictures, but maybe they do.
+Speaker C: It also depends on the country.
+Speaker C: For the same reason that we cannot overlay information on the TV.
+Speaker C: We couldn't grab information which is not there.
+Speaker A: No, but I mean with the internet you have flexibility of where you get your information from.
+Speaker A: It's impossible that there are people out there providing that.
+Speaker C: So, I mean we need an extra internet connection to use the remote control if you're on the browser.
+Speaker C: Yeah.
+Speaker C: In addition to the TV.
+Speaker C: Or it should be a special TV connection.
+Speaker A: Well, I think we would definitely need the internet connection because even with...
+Speaker A: I don't think you could even get teletext information from the TV onto the remote control.
+Speaker A: Especially if we don't control the TV.
+Speaker A: I don't know, we need to find that out.
+Speaker C: Okay.
+Speaker C: We need to close the meeting.
+Speaker B: So just a small thing.
+Speaker B: What kind of market we are targeting?
+Speaker B: Is it that we are targeting the replacement remote market or what?
+Speaker B: So the remote has gone bad and the person wants to buy a new remote or because the cost of LCD thing could be as high as the TV itself.
+Speaker A: That is very important.
+Speaker A: No.
+Speaker A: If it's a really small TV.
+Speaker C: Wow.
+Speaker C: People go through buying another remote control when they broke.
+Speaker B: Broke.
+Speaker C: Broke they hold and they want to go for universal one and they take the fanciest they can have.
+Speaker C: So this is that we should target.
+Speaker C: So the commitment is following.
+Speaker C: We don't go for speech recognition technology.
+Speaker C: The LCD is still open to discussion.
+Speaker C: It is up to you to go through this way and to report me back next meeting.
+Speaker D: So...
+Speaker D: I think that the speech recognition technology would be cheaper than the LCD.
+Speaker C: Yeah, but not sure.
+Speaker C: Maybe it's cheaper but we have no...
+Speaker D: Because with the LCD you need more requirements.
+Speaker D: You need internet connection.
+Speaker D: You need more things.
+Speaker D: But for the speech recognition you don't need anything.
+Speaker D: You have to say, China 50 and that's it.
+Speaker A: I think the type of people that are going to want to buy a very stylish remote control with lots of new technologies is the kind of people that are going to have a wireless internet connection maybe or...
+Speaker D: But then we should move to another target because at $25.
+Speaker A: This is for $25.
+Speaker A: Can we increase the price point of this remote control?
+Speaker A: Because otherwise we need...
+Speaker C: Okay, this is not one question for you.
+Speaker C: Yeah, this is up to you to tell us.
+Speaker C: But I'm definitely not keen on...
+Speaker C: To move to another target?
+Speaker C: No, no, no.
+Speaker C: I'm definitely not keen on going to speech recognition technologies.
+Speaker C: I'm not confident enough.
+Speaker C: I'm not sure that we have a product.
+Speaker C: Really that work.
+Speaker A: That work.
+Speaker A: It's kind of hard to guarantee that you're going to...
+Speaker C: Yeah, how to guarantee such performances is very hard.
+Speaker D: The expert said 95%.
+Speaker A: 95% is not good enough.
+Speaker C: It's very bad.
+Speaker C: So this is the end of this discussion.
+Speaker C: Next meeting, you have the task you have to work on.
+Speaker C: So you have to work on the component concept.
+Speaker C: You have to work on user interface.
+Speaker C: And you have to go through a trend watching.
+Speaker C: So the question is still open about the LCD thing.
+Speaker C: I hope that next meeting we will take some decisions that are there.
+Speaker C: Thanks.
+Speaker C: Bye!
+None: this.

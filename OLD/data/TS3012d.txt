@@ -1,0 +1,1764 @@
+0:00:00	SPEAKER_01
+ Okay, things are expensive.
+
+0:00:04	None
+ Form blah blah, bite.
+
+0:00:08	SPEAKER_04
+ In other words.
+
+0:00:12	SPEAKER_02
+ Got it, we don't have any changes, do we?
+
+0:00:14	SPEAKER_02
+ So no.
+
+0:00:15	SPEAKER_00
+ Okay.
+
+0:00:16	None
+ There we go.
+
+0:00:26	SPEAKER_01
+ Okay, here we are again.
+
+0:00:31	SPEAKER_01
+ Detail design.
+
+0:00:32	SPEAKER_01
+ Oh, come on.
+
+0:00:36	SPEAKER_01
+ Well, I forgot to insert the minutes, but it's about the same thing we discussed before.
+
+0:00:43	SPEAKER_01
+ It opened anyway, I think.
+
+0:00:59	SPEAKER_01
+ Other design.
+
+0:01:00	SPEAKER_01
+ Anyway, we took rubber as the material last time.
+
+0:01:05	SPEAKER_01
+ We also know that you just been busy with it.
+
+0:01:07	SPEAKER_01
+ Took the advanced shift, to implement the advanced features.
+
+0:01:11	SPEAKER_01
+ Well, we discussed the design.
+
+0:01:13	SPEAKER_01
+ Those sharp corners, we rounded it off, like you see on the other screen, which is fine.
+
+0:01:18	SPEAKER_01
+ Barely, we agreed that the color should be yellow and black.
+
+0:01:22	SPEAKER_01
+ Yellow in the back, because it's more trendy than black anyway.
+
+0:01:28	SPEAKER_01
+ So, I'm okay, yeah.
+
+0:01:30	SPEAKER_01
+ We agreed that we would implement both LCD and speed recognition, but I'll get to that in a moment.
+
+0:01:36	SPEAKER_01
+ Because some changes in the financials have letters and implications anyway.
+
+0:01:41	SPEAKER_01
+ So, like I said, we had no insight into finances, no prices, but we have them now.
+
+0:01:46	SPEAKER_01
+ And it's bad.
+
+0:01:50	SPEAKER_01
+ Anyway, we are, uh, prototype presentation.
+
+0:01:56	SPEAKER_01
+ Well, first, you guys built the prototype, so you could present that.
+
+0:02:03	SPEAKER_00
+ But, um, let's see, what we had to do.
+
+0:02:08	SPEAKER_01
+ Now, you know, just go ahead and present the, we'll, we'll scrap it later because.
+
+0:02:12	SPEAKER_03
+ I think it's more or less the same.
+
+0:02:14	SPEAKER_02
+ It's basically what we agreed upon.
+
+0:02:16	SPEAKER_02
+ Not just a little bit.
+
+0:02:17	SPEAKER_00
+ Not much.
+
+0:02:18	SPEAKER_00
+ I didn't change that much.
+
+0:02:19	SPEAKER_01
+ No, no, no, no.
+
+0:02:20	SPEAKER_01
+ I didn't expect any of it.
+
+0:02:21	SPEAKER_01
+ You just colored it.
+
+0:02:23	SPEAKER_02
+ Final design.
+
+0:02:28	SPEAKER_02
+ Basically, into what we discussed, covered buttons, what we made of rubber, yellow color, black components, as you can see right over here.
+
+0:02:46	SPEAKER_02
+ I'll let the menu.
+
+0:02:47	SPEAKER_02
+ I'll let the menu.
+
+0:02:48	SPEAKER_02
+ I'll show you a different type of color for the menu, a bit darker yellow, so that it really shows in this keypad.
+
+0:02:59	SPEAKER_02
+ If you put them all black, it's not really that good of contrast.
+
+0:03:03	SPEAKER_01
+ So, and I suppose the yellow is not printed on the, on the rubber.
+
+0:03:07	SPEAKER_01
+ It's part of the rubber, I suppose.
+
+0:03:09	SPEAKER_01
+ Probably.
+
+0:03:10	SPEAKER_01
+ Yeah.
+
+0:03:11	SPEAKER_02
+ I think that's more durable anyway than printed onto.
+
+0:03:14	SPEAKER_02
+ I guess it's more easier to just paint it on the rubber than to the integration store again.
+
+0:03:22	SPEAKER_02
+ Okay.
+
+0:03:23	SPEAKER_02
+ So, we have, it's a bit round shaped.
+
+0:03:26	SPEAKER_02
+ That's what we had.
+
+0:03:31	SPEAKER_02
+ We chose the buttons to be teletext, okay button, favorite channel, and the mute.
+
+0:03:40	SPEAKER_02
+ So, that's basically what we chose there.
+
+0:03:42	SPEAKER_02
+ Okay.
+
+0:03:45	SPEAKER_03
+ This is just a description of what we see there.
+
+0:03:53	SPEAKER_01
+ That's pretty much it.
+
+0:03:56	SPEAKER_01
+ Okay.
+
+0:03:57	SPEAKER_01
+ That's my time to ruin everything.
+
+0:03:59	SPEAKER_01
+ Well, not ruin everything, but.
+
+0:04:01	SPEAKER_01
+ Oh, sorry.
+
+0:04:02	SPEAKER_01
+ No.
+
+0:04:03	SPEAKER_01
+ Finances.
+
+0:04:04	SPEAKER_01
+ That's what we have here.
+
+0:04:06	SPEAKER_01
+ What you drew.
+
+0:04:07	SPEAKER_01
+ We have battery power.
+
+0:04:09	SPEAKER_01
+ We have advanced chips and the sensor, sample sensor for speak recognition anyway.
+
+0:04:17	SPEAKER_01
+ So, which you see the, which is one of the most expensive parts.
+
+0:04:21	SPEAKER_01
+ So, well, we have seen one curve in design, rubber design, and we had a special color, suppose yellow is a special color.
+
+0:04:32	SPEAKER_01
+ So, it's just half a year for, you got push buttons and an LCD display.
+
+0:04:38	SPEAKER_01
+ Gives us a total of 17 euros in production cost, which is higher than the 12 and a half that we are permitted to use.
+
+0:04:46	SPEAKER_01
+ So, easy.
+
+0:04:47	SPEAKER_01
+ What do we scrape?
+
+0:04:49	SPEAKER_01
+ I think the best solution that I came up with is just to take out the speech recognition.
+
+0:04:54	SPEAKER_01
+ I'd say that too.
+
+0:04:55	SPEAKER_01
+ Because the LCD has more support on customer side.
+
+0:04:58	SPEAKER_01
+ There are 91% of the people or something like that, but 90% who favor an LCD display and only 60% that favor speech recognition.
+
+0:05:06	SPEAKER_02
+ I think it's harder to have a extra function with the speed tempo, which you can't do with a normal remote control, which people already do.
+
+0:05:14	SPEAKER_01
+ So, I took that out.
+
+0:05:17	SPEAKER_01
+ So, I was still stuck with 13, so I had to take out the special color, I suppose.
+
+0:05:22	SPEAKER_01
+ And, yeah, I didn't see anything else I could take out.
+
+0:05:26	SPEAKER_01
+ Yeah, I should take out the push buttons, but we need those.
+
+0:05:29	SPEAKER_01
+ So, generally what I came up with.
+
+0:05:33	SPEAKER_01
+ In order to have production cost of 12 and a half euros, scraped speech recognition and the separate covers can account for the, if people want it.
+
+0:05:44	SPEAKER_01
+ Well, just, then we'll just do it in black.
+
+0:05:46	SPEAKER_01
+ We'll just, delivered in black, it has all the function that it's supposed to have.
+
+0:05:50	SPEAKER_01
+ And if you want the custom design, then you can buy the separate covers.
+
+0:05:54	SPEAKER_01
+ You make it, or whatever you want.
+
+0:05:55	SPEAKER_02
+ I tend to disagree with you on that, because the trend issue was a big issue when we started designing this.
+
+0:06:01	SPEAKER_02
+ So, can't we just basically extend it to 13?
+
+0:06:06	SPEAKER_01
+ Okay, let's just see what we know we have to be under 12 and a half.
+
+0:06:09	SPEAKER_01
+ It's not, there's no go, we go over 12 and a half.
+
+0:06:12	SPEAKER_03
+ Okay, but there's another problem.
+
+0:06:14	SPEAKER_03
+ If you take another cover, for instance, black, then we also need another button frame, because black and black doesn't work, obviously.
+
+0:06:20	SPEAKER_01
+ I think you, that's what you were assigned to do really to see how both those work together.
+
+0:06:26	SPEAKER_01
+ Yeah.
+
+0:06:27	SPEAKER_01
+ So, I think, yeah, I think it's a good way to, to help people, to make, to keep product 22, just keep, just make new covers for it, like we agreed before.
+
+0:06:39	SPEAKER_01
+ I agree.
+
+0:06:40	SPEAKER_01
+ And everything that's left is the basic function that we want our product to have, because the expensive parts are in the advanced chip, but we need that for the LCD display.
+
+0:06:52	SPEAKER_01
+ Then again, we have the LCD display, which is also expensive, but let's go together.
+
+0:06:57	SPEAKER_01
+ And yeah, we could take out the curve.
+
+0:07:00	SPEAKER_01
+ Oh, say, let's, we could take out the curve, indeed.
+
+0:07:03	SPEAKER_01
+ We could take out the curve. Is that an option?
+
+0:07:05	SPEAKER_01
+ Yes.
+
+0:07:06	None
+ For you?
+
+0:07:07	SPEAKER_02
+ I think the other is more important than really the curve, because if you just end up with an entirely black,
+
+0:07:15	SPEAKER_01
+ I think it's, it'd be just ruin it, but the fact that I took that decision or took this example, actually not really the decision, but the example is because we do offer the, the possibility of adding your own custom cover so you can change them into any color you want.
+
+0:07:36	SPEAKER_01
+ So, it's just you deliver basic remote control with the possibility to change it into whatever you want.
+
+0:07:41	SPEAKER_03
+ Give me the note also, change the material. We take plastic for the basic cover.
+
+0:07:46	SPEAKER_01
+ You can take plastic, but I, that's something that's stuck into my mind is that something, something that really can't forward from the marketing research is that people like the, the squishy feeling of the spongy feeling of the, we can put that in, it really makes it, also makes it different from the existing remote control, and it's all plastic. So, which in, in term, rubber would increase durability because it doesn't break.
+
+0:08:09	SPEAKER_03
+ But what do you then suggest we lose? Because we have to lose two things and, I guess.
+
+0:08:14	SPEAKER_01
+ I, like I said, I lost the speech recognition and I lost a special color, which would make this.
+
+0:08:19	SPEAKER_01
+ Okay, and that's enough. Black and gray. Yeah, that's, that's enough.
+
+0:08:22	SPEAKER_01
+ So, black and gray is okay. I guess those are the basic colors.
+
+0:08:26	SPEAKER_02
+ Which we can fabricate. I think those people want to pay for it.
+
+0:08:31	SPEAKER_04
+ So, they want, why, why do we have to keep us on the 12th?
+
+0:08:37	SPEAKER_01
+ To ensure the profit. That's, that's the order. We're just, we're the project team and we got our orders from the, from, from the cost of our company, which say we don't want to spend more than 50 for this.
+
+0:08:48	SPEAKER_01
+ But that's not, that's not our decision to take. We have a budget of 1250 per product.
+
+0:08:54	SPEAKER_02
+ We need to stick to that.
+
+0:08:55	SPEAKER_01
+ Stick to that. I don't think it's really bad either. I mean, if we, we have the, the backup of, or the backup design thing.
+
+0:09:01	SPEAKER_01
+ I hope the people would like it. To have, I think they would do. I think they do like, we, we agreed upon that the, that the, the, the, the cover thing was a nice idea because you could have all sorts of designs.
+
+0:09:14	SPEAKER_01
+ Well, at the same time just manufacturing one product. One basic product, which you can turn into any, any taste you want.
+
+0:09:21	SPEAKER_01
+ I think it's the best solution.
+
+0:09:25	SPEAKER_01
+ To make those custom covers for the design aspect and keep the functionality between, of within the boundaries of your, of your budget.
+
+0:09:35	SPEAKER_03
+ That's what should make clear to our customer that we had to do this to stay under the cost. And that, that they know that this is an option and that we had to drop the option to stay under the cost that they know that.
+
+0:09:47	SPEAKER_01
+ Well, I don't think, yeah.
+
+0:09:49	SPEAKER_01
+ Perhaps it doesn't mean anything to the customer. Like, like, we don't care that you have to.
+
+0:09:53	SPEAKER_03
+ No, but perhaps I think, okay, the cover is such a nice idea. Let's, that, that then they allow us to make some more cost.
+
+0:10:02	SPEAKER_01
+ We can, we can at least tell them we didn't get that.
+
+0:10:06	SPEAKER_01
+ You don't know that.
+
+0:10:07	SPEAKER_01
+ I think it's, it should either be a pack, maybe it should, this should be sold in, in this, in stores with, with a standard cover or something.
+
+0:10:14	SPEAKER_03
+ No, I'm not talking about that customer, but the one that has given us the order to design this.
+
+0:10:18	SPEAKER_03
+ We could at least make it like this, but like you said, and then tell them, okay, we had to drop this and death just that you know.
+
+0:10:25	SPEAKER_03
+ It isn't still an option, but not for this price.
+
+0:10:28	SPEAKER_01
+ Yeah, it's true.
+
+0:10:30	SPEAKER_01
+ So actually, it's not that much of an increase, but yeah, we kind of contact them.
+
+0:10:34	SPEAKER_01
+ It's just the order that we got. So that's what we got to go with.
+
+0:10:38	SPEAKER_01
+ So it's either once final, just to get it, just to get it through final, it's either turned into plastic, drop the squishy feel, make it, make it more breakable, or turn it yellow.
+
+0:10:53	SPEAKER_01
+ So it's, so we have to decide on.
+
+0:10:59	SPEAKER_03
+ Let's say lose the curve.
+
+0:11:02	SPEAKER_01
+ I said lose the curve.
+
+0:11:03	SPEAKER_01
+ Oh, that's true. We could lose the curve.
+
+0:11:05	SPEAKER_01
+ Yeah, I forgot that. Sorry.
+
+0:11:07	SPEAKER_01
+ The curve.
+
+0:11:08	SPEAKER_02
+ So which curve is that? That's basically just this one.
+
+0:11:11	SPEAKER_01
+ Just the banana curve.
+
+0:11:14	SPEAKER_04
+ Yeah, so we could still have the comfort.
+
+0:11:17	SPEAKER_01
+ No, no, that would be a curve inside the thing, I guess.
+
+0:11:21	SPEAKER_01
+ Now, would you then would just be a straight remote, just like, like that?
+
+0:11:27	SPEAKER_01
+ Which would, yeah, turn it to something far more ordinary.
+
+0:11:32	SPEAKER_01
+ We could make it yellow then, but-
+
+0:11:35	SPEAKER_02
+ You second that.
+
+0:11:37	SPEAKER_01
+ You second that, you second, do we lose the curve?
+
+0:11:39	SPEAKER_02
+ No, that it would turn out to be a pretty straightforward remote control. Okay, yeah. It's not really-
+
+0:11:46	SPEAKER_01
+ So I think it would be a good idea to keep the curve, to separate from the rest of the remote control world, so to speak. So we keep the curve.
+
+0:11:57	SPEAKER_01
+ So the only solution is either to use the- lose the yellow or lose the rubber.
+
+0:12:03	SPEAKER_01
+ And I'm in favor of keeping the rubber because it has more advantages than the color yellow has.
+
+0:12:09	SPEAKER_02
+ I would say, I would agree with you on the color because that's an extra option.
+
+0:12:14	SPEAKER_02
+ An extra service we can deliver for a little bit more money.
+
+0:12:18	SPEAKER_01
+ So, yeah, I guess people are willing to pay for that, so I think we can take that option just with the idea in the back of our head that you can customize your remote control.
+
+0:12:27	SPEAKER_01
+ So I think that would still make it a nice product.
+
+0:12:30	SPEAKER_01
+ Okay, we're fine on that, so it's too bad. We can make the whole super thing, but- Anyways, we're here.
+
+0:12:39	SPEAKER_01
+ Yeah.
+
+0:12:41	SPEAKER_01
+ Basically what we discussed.
+
+0:12:42	SPEAKER_01
+ Just now.
+
+0:12:49	SPEAKER_01
+ I sort of expected that everything would turn out this way, but because everything cannot be for free.
+
+0:12:58	SPEAKER_01
+ I think it was too bad we didn't have the financial info the last time because that was really essential, because we spent entire stage designing a product of which we had no- idea what it would cost.
+
+0:13:13	SPEAKER_01
+ So, just something- I think it's really nothing stuck with reality actually.
+
+0:13:19	SPEAKER_03
+ Me too. I felt that blind throughout the project.
+
+0:13:22	SPEAKER_03
+ Because in the beginning I had no list of- Yeah, I think it would have been.
+
+0:13:25	SPEAKER_01
+ And then I had no list of available finances.
+
+0:13:28	SPEAKER_01
+ At least the last meeting I would have expected had to have that.
+
+0:13:31	SPEAKER_01
+ So, let's see if it sells.
+
+0:13:38	SPEAKER_01
+ I mean, I suppose this sells because it's very extended, but- I hope it sells.
+
+0:13:45	SPEAKER_01
+ I suppose it sells because it's good.
+
+0:13:48	SPEAKER_01
+ I mean, it's got everything for the reasonable price because we didn't know what it's going to cost anyway.
+
+0:13:59	SPEAKER_04
+ Okay.
+
+0:14:00	SPEAKER_04
+ Let's evaluate the product of us, our design.
+
+0:14:08	SPEAKER_04
+ I have some methods, requirements and scale-off.
+
+0:14:13	SPEAKER_04
+ I will present some statements and we will decide together what, if it's true or false.
+
+0:14:21	SPEAKER_04
+ Okay.
+
+0:14:22	SPEAKER_04
+ Then we see if the requirements of the user are fulfilled or not.
+
+0:14:27	SPEAKER_04
+ And I will make a new blank sheet.
+
+0:14:33	SPEAKER_04
+ So, the buttons, the look and feel, I thought it was okay, but that forms the settings screen, audio and channel.
+
+0:14:44	SPEAKER_04
+ They're stuck on the menu.
+
+0:14:46	SPEAKER_01
+ We are not- For the menu.
+
+0:14:48	SPEAKER_01
+ I think those are totally met because we really took them for the- They have the feel they want, they have the simplicity they want.
+
+0:14:54	SPEAKER_01
+ I think it's very well met.
+
+0:14:57	SPEAKER_01
+ Either two or one maybe.
+
+0:14:59	SPEAKER_01
+ I think we took that everything they wanted into consideration.
+
+0:15:02	SPEAKER_01
+ So, it could either be a two or one.
+
+0:15:04	SPEAKER_04
+ So, one and a half.
+
+0:15:08	SPEAKER_04
+ Which is not an option.
+
+0:15:11	SPEAKER_04
+ Oh yeah, let's create our own option.
+
+0:15:14	SPEAKER_04
+ Look and feel it everywhere, it's true.
+
+0:15:21	SPEAKER_04
+ So, and the next one.
+
+0:15:26	SPEAKER_04
+ Yeah.
+
+0:15:29	SPEAKER_04
+ When it's lost, you can find it.
+
+0:15:30	SPEAKER_01
+ Even for deaf people.
+
+0:15:31	SPEAKER_01
+ I don't think it's perfect, but we did everything possible to get it back.
+
+0:15:35	SPEAKER_01
+ Because it's stuck in your couch.
+
+0:15:37	SPEAKER_01
+ You can't see the light.
+
+0:15:38	SPEAKER_01
+ Maybe you can't hear it.
+
+0:15:40	SPEAKER_01
+ We tried.
+
+0:15:41	SPEAKER_01
+ So, I think that deserves a one.
+
+0:15:43	SPEAKER_00
+ Definitely.
+
+0:15:48	SPEAKER_04
+ That's okay then.
+
+0:15:52	SPEAKER_04
+ And the next one.
+
+0:15:54	SPEAKER_04
+ How is that?
+
+0:15:56	SPEAKER_04
+ We don't have a manual.
+
+0:15:59	SPEAKER_04
+ Yeah.
+
+0:16:01	SPEAKER_04
+ I think that's part of it.
+
+0:16:03	SPEAKER_03
+ It could be a little bit more difficult than a normal module.
+
+0:16:07	SPEAKER_03
+ But then again, it's for young people.
+
+0:16:10	SPEAKER_04
+ Yeah, and LCD tells a lot about-
+
+0:16:12	SPEAKER_02
+ And it's pretty straightforward. Navigation, not keys to navigate through the LCD manual.
+
+0:16:18	SPEAKER_04
+ I think it won't be a big problem.
+
+0:16:20	SPEAKER_04
+ So, it's a one or- One.
+
+0:16:22	SPEAKER_02
+ No.
+
+0:16:23	SPEAKER_00
+ I think what we did-
+
+0:16:25	SPEAKER_01
+ For the other phones, there was no issue on making manual actually. No, it really discusses.
+
+0:16:31	SPEAKER_01
+ I don't think it takes no.
+
+0:16:33	SPEAKER_01
+ It really doesn't take time to learn.
+
+0:16:35	SPEAKER_01
+ I think we took it so easy.
+
+0:16:36	SPEAKER_01
+ We have so little buttons, everything speaks for itself really.
+
+0:16:40	SPEAKER_01
+ So, I think it's two or one.
+
+0:16:42	SPEAKER_01
+ I guess maybe it's a two because the LCD is a little new.
+
+0:16:46	SPEAKER_01
+ There are some options hidden under the menu button.
+
+0:16:49	SPEAKER_01
+ So, I might make this a two instead of a one, I guess.
+
+0:16:52	SPEAKER_04
+ And LCD, you have to see it.
+
+0:16:55	SPEAKER_00
+ So, just make that a two.
+
+0:16:57	SPEAKER_04
+ Oh.
+
+0:16:59	SPEAKER_04
+ It's a little bit learning.
+
+0:17:07	SPEAKER_04
+ Okay.
+
+0:17:13	SPEAKER_04
+ Yeah.
+
+0:17:16	SPEAKER_04
+ It's a little bit same, but it tells you- Can you just see it in a good way?
+
+0:17:22	SPEAKER_01
+ I think so.
+
+0:17:23	SPEAKER_01
+ I think it's perfect.
+
+0:17:24	SPEAKER_01
+ The where it is, what it can do.
+
+0:17:26	SPEAKER_01
+ If it's useful.
+
+0:17:27	SPEAKER_01
+ I think so.
+
+0:17:28	SPEAKER_04
+ Yeah.
+
+0:17:29	SPEAKER_04
+ What are we displaying on the LCD screen?
+
+0:17:34	SPEAKER_04
+ Just only the channels and-
+
+0:17:38	SPEAKER_03
+ In the menu, sir. Things like brightness and those kind of things we've put in the menu.
+
+0:17:45	SPEAKER_03
+ Because we have no buttons for those.
+
+0:17:46	SPEAKER_02
+ There are basically menu options indeed.
+
+0:17:48	SPEAKER_04
+ Oh, in the LCD screen.
+
+0:17:50	SPEAKER_01
+ I mean, the LCD screen, the small screen.
+
+0:17:52	SPEAKER_01
+ And for the channel selection.
+
+0:17:54	SPEAKER_01
+ I thought it was- I thought the people wanted previews on there.
+
+0:17:58	SPEAKER_01
+ I'm sure that even possible.
+
+0:18:00	SPEAKER_01
+ Because it requires quite a bit of bandwidth.
+
+0:18:04	SPEAKER_01
+ I don't think it's possible really, but they didn't really define what should be used for.
+
+0:18:09	SPEAKER_01
+ Maybe a TV guide or something.
+
+0:18:11	SPEAKER_01
+ I think, for example, like TV guides, I think that's- Yeah.
+
+0:18:14	SPEAKER_01
+ That you can transmit through it and everything.
+
+0:18:16	SPEAKER_01
+ Just for extra information on your programs.
+
+0:18:18	SPEAKER_04
+ It must be clear.
+
+0:18:19	SPEAKER_01
+ It also thinks like- It must be for menus.
+
+0:18:21	SPEAKER_01
+ Or how about preferences of your- A lot of configuring your remote control for your favorite channel.
+
+0:18:26	SPEAKER_01
+ For people.
+
+0:18:27	SPEAKER_01
+ How do you configure that?
+
+0:18:29	SPEAKER_01
+ So that could be done by the LCD display.
+
+0:18:31	SPEAKER_01
+ I think it's good.
+
+0:18:32	SPEAKER_01
+ Maybe it's down to one because we're not using it perfectly.
+
+0:18:35	SPEAKER_01
+ We didn't give it- I don't think- if we're discussing now, we gave it enough thought though.
+
+0:18:40	SPEAKER_01
+ I think we should just lower it.
+
+0:18:41	SPEAKER_01
+ Maybe it's a three though.
+
+0:18:43	SPEAKER_01
+ You could have used it more effectively.
+
+0:18:45	SPEAKER_01
+ Probably.
+
+0:18:46	SPEAKER_04
+ Yeah, indeed.
+
+0:18:48	SPEAKER_04
+ So everybody's agree with the free on it.
+
+0:18:52	SPEAKER_01
+ We are using it, but it's not poorly used, but it's not efficiently used I think.
+
+0:18:57	SPEAKER_01
+ We could have even lost the selection button and done everything via LCD selection.
+
+0:19:02	SPEAKER_01
+ Yeah.
+
+0:19:03	SPEAKER_01
+ Now it's just extra.
+
+0:19:05	SPEAKER_01
+ To illustrate it.
+
+0:19:06	SPEAKER_01
+ Yeah.
+
+0:19:07	SPEAKER_01
+ Extra features.
+
+0:19:08	SPEAKER_01
+ Okay.
+
+0:19:09	SPEAKER_01
+ Free.
+
+0:19:10	SPEAKER_03
+ Nah, it's not really only an extra menu.
+
+0:19:13	SPEAKER_03
+ Nothing.
+
+0:19:14	SPEAKER_03
+ Seven.
+
+0:19:15	SPEAKER_04
+ Seven.
+
+0:19:16	SPEAKER_04
+ That's a- Can you talk to remote control?
+
+0:19:19	SPEAKER_01
+ Or we can say- Well, we can't talk anymore.
+
+0:19:21	SPEAKER_01
+ Yeah.
+
+0:19:22	SPEAKER_01
+ So we scraped that.
+
+0:19:23	SPEAKER_02
+ Or we could say neutral because we scratched the-
+
+0:19:27	SPEAKER_01
+ It's just to be a prick, but if you can talk to your remote control, it doesn't do anything. You can talk to it.
+
+0:19:31	SPEAKER_04
+ Not with the speech recognition.
+
+0:19:33	SPEAKER_04
+ Yeah.
+
+0:19:34	SPEAKER_04
+ All the trends and all the colors anymore.
+
+0:19:37	SPEAKER_04
+ So-
+
+0:19:38	SPEAKER_01
+ Well, we did take everything in consideration, of course. Yeah.
+
+0:19:42	SPEAKER_01
+ I think- I think it's okay.
+
+0:19:44	SPEAKER_04
+ But the colors, we don't have special colors.
+
+0:19:47	SPEAKER_01
+ No, we don't have the colors.
+
+0:19:48	SPEAKER_01
+ But we took into consideration the fact that it's customizable to the fashion.
+
+0:19:52	SPEAKER_01
+ Yeah, we don't have it.
+
+0:19:54	SPEAKER_02
+ So-
+
+0:19:55	SPEAKER_01
+ We don't have it. We do have it.
+
+0:19:57	SPEAKER_01
+ It's just sold as a package.
+
+0:19:58	SPEAKER_01
+ It's not part of the basic product.
+
+0:20:00	SPEAKER_03
+ Changing covers is also trends.
+
+0:20:02	SPEAKER_01
+ That's what I call trending.
+
+0:20:04	SPEAKER_01
+ I mean, the shape is trendy.
+
+0:20:06	SPEAKER_01
+ The functions are trendy.
+
+0:20:08	SPEAKER_01
+ It's just the colors that are not supporting the basic model.
+
+0:20:11	SPEAKER_01
+ Yeah.
+
+0:20:12	SPEAKER_01
+ Because yeah, it's just not affordable.
+
+0:20:14	SPEAKER_02
+ Maybe we should go with it too then.
+
+0:20:16	SPEAKER_02
+ Because it's not perfect.
+
+0:20:17	SPEAKER_02
+ Because we can't do it initially.
+
+0:20:19	SPEAKER_01
+ It's possible that you have to pay extra for the possibility of having a different color.
+
+0:20:26	SPEAKER_04
+ Oh, well.
+
+0:20:28	SPEAKER_04
+ Hmm.
+
+0:20:30	SPEAKER_04
+ The two, right?
+
+0:20:52	SPEAKER_04
+ The last one.
+
+0:20:54	SPEAKER_04
+ That's all score.
+
+0:20:56	SPEAKER_04
+ Overall.
+
+0:20:58	SPEAKER_04
+ It's a three.
+
+0:21:02	SPEAKER_04
+ 16.
+
+0:21:04	SPEAKER_04
+ 16.
+
+0:21:06	SPEAKER_04
+ Two points.
+
+0:21:07	SPEAKER_00
+ Two points.
+
+0:21:08	SPEAKER_04
+ Seven or something.
+
+0:21:11	SPEAKER_04
+ I don't know.
+
+0:21:13	SPEAKER_02
+ Sixteen divided by six.
+
+0:21:24	SPEAKER_02
+ Two, two, third.
+
+0:21:32	SPEAKER_04
+ So we can say it's the product is.
+
+0:21:35	SPEAKER_04
+ It's okay.
+
+0:21:37	SPEAKER_01
+ It's okay.
+
+0:21:38	SPEAKER_01
+ But mostly it's influenced by the fact that we didn't have enough resources to implement speech recognition.
+
+0:21:46	SPEAKER_01
+ Because yeah, that gives you a seven which ruins your average.
+
+0:21:50	SPEAKER_01
+ Without that it would be like it would be under two.
+
+0:21:55	SPEAKER_01
+ So I think even with this it's reasonable.
+
+0:21:59	SPEAKER_02
+ Yeah, if we make it into a four as in neutral because we didn't implement it so we can't say that we.
+
+0:22:06	SPEAKER_02
+ Yeah.
+
+0:22:07	SPEAKER_02
+ And it's really not well implemented.
+
+0:22:09	SPEAKER_02
+ We come out on average of two one eight.
+
+0:22:11	SPEAKER_01
+ I think it's two.
+
+0:22:12	SPEAKER_01
+ Okay.
+
+0:22:13	SPEAKER_02
+ Which is pretty good.
+
+0:22:14	SPEAKER_02
+ Yeah, two three.
+
+0:22:15	SPEAKER_02
+ At least on the positive side.
+
+0:22:17	SPEAKER_02
+ Yeah, definitely have done better if we've had more resources.
+
+0:22:22	SPEAKER_01
+ Yeah, I think it's probably.
+
+0:22:25	SPEAKER_01
+ I do admit that we did miss a little or didn't talk enough about the possibility of the LCD display.
+
+0:22:34	SPEAKER_01
+ We could have used it more efficiently.
+
+0:22:36	SPEAKER_01
+ We just didn't think of it that way.
+
+0:22:37	SPEAKER_04
+ Yeah, we've scored a few.
+
+0:22:39	SPEAKER_01
+ So like I said, changing channels, everything hidden in your LCD display.
+
+0:22:44	SPEAKER_01
+ So you just need the navigation buttons to do everything.
+
+0:22:47	SPEAKER_03
+ I think for this price, this is really a reasonable product.
+
+0:22:51	SPEAKER_01
+ I think we did very well.
+
+0:22:53	SPEAKER_01
+ Even if you look at this, we did quite well.
+
+0:22:55	SPEAKER_04
+ With an LCD screen.
+
+0:22:56	SPEAKER_01
+ Just looking for improvements what you could have improved.
+
+0:22:59	SPEAKER_03
+ If the people really want speech recognition then they must be prepared to pay more.
+
+0:23:05	SPEAKER_03
+ Because it's a combination.
+
+0:23:06	SPEAKER_01
+ I should get kids and just stick them in TV and say change the channel.
+
+0:23:10	SPEAKER_03
+ But for this price, you cannot ask that.
+
+0:23:13	SPEAKER_01
+ It's not affordable.
+
+0:23:15	SPEAKER_01
+ You should lose the LCD screen probably.
+
+0:23:18	SPEAKER_01
+ I think the LCD screen is more worth that speech recognition.
+
+0:23:22	SPEAKER_01
+ It's also more attractive.
+
+0:23:24	SPEAKER_01
+ Definitely.
+
+0:23:25	SPEAKER_01
+ Okay.
+
+0:23:26	SPEAKER_04
+ How's that?
+
+0:23:27	SPEAKER_04
+ Yeah.
+
+0:23:30	SPEAKER_01
+ So that's the final product without the speakers.
+
+0:23:34	SPEAKER_01
+ Let's see.
+
+0:23:35	SPEAKER_01
+ What was the left of that?
+
+0:23:37	SPEAKER_01
+ Another one.
+
+0:23:50	SPEAKER_05
+ Yeah.
+
+0:23:53	SPEAKER_01
+ We evaluate the products.
+
+0:23:56	SPEAKER_01
+ We're not.
+
+0:23:58	SPEAKER_01
+ General projects.
+
+0:23:59	SPEAKER_01
+ For example, I thought we were pretty creative.
+
+0:24:04	SPEAKER_01
+ We took the whole new approach of making exchangeable cover for example.
+
+0:24:09	SPEAKER_01
+ I thought it was pretty creative.
+
+0:24:12	SPEAKER_01
+ It was never ever listed somewhere.
+
+0:24:14	SPEAKER_04
+ Favorite channel?
+
+0:24:17	SPEAKER_01
+ Anyways, leadership is up to you.
+
+0:24:21	SPEAKER_01
+ Perhaps I screwed up.
+
+0:24:23	SPEAKER_01
+ For this speech recognition.
+
+0:24:25	SPEAKER_01
+ That's not from the inside.
+
+0:24:27	SPEAKER_01
+ I think we did pretty well as teamwork.
+
+0:24:29	SPEAKER_01
+ It was hard to work with one another if you cannot communicate in the meantime.
+
+0:24:35	SPEAKER_01
+ When I got the input for the financial results, initially I wanted to contact USA.
+
+0:24:40	SPEAKER_01
+ Look, you're doing the wrong thing.
+
+0:24:43	SPEAKER_01
+ You're wasting your time now because we're implementing stuff that we cannot afford.
+
+0:24:47	SPEAKER_01
+ It would be better if there was more communication between the director.
+
+0:24:52	SPEAKER_01
+ That's what we usually do.
+
+0:24:54	SPEAKER_01
+ Either call or email someone.
+
+0:24:59	SPEAKER_03
+ That was too bad.
+
+0:25:02	SPEAKER_03
+ It was the same thing that I had in the beginning.
+
+0:25:05	SPEAKER_01
+ It was using materials that I didn't have.
+
+0:25:08	SPEAKER_01
+ It didn't have or didn't know what they cost or what.
+
+0:25:11	SPEAKER_01
+ There was just too little information about what things actually cost and if you could use them.
+
+0:25:16	SPEAKER_01
+ That was a little unclear.
+
+0:25:19	SPEAKER_01
+ I think a smartboard was pretty cool.
+
+0:25:21	SPEAKER_01
+ It was easier to share them.
+
+0:25:24	SPEAKER_02
+ For actual design, I'd say the response time should be a little bit higher.
+
+0:25:29	SPEAKER_01
+ The response time is very bad.
+
+0:25:31	SPEAKER_01
+ It's good to visualize everything, but I think the response time could be a lot better.
+
+0:25:34	SPEAKER_02
+ The digital pen was definitely better to draw my ideas.
+
+0:25:38	SPEAKER_02
+ I know.
+
+0:25:39	SPEAKER_03
+ There's also one problem with this I noticed.
+
+0:25:43	SPEAKER_03
+ You have to finish a page.
+
+0:25:45	SPEAKER_03
+ No, you don't have to.
+
+0:25:46	SPEAKER_00
+ No, you don't.
+
+0:25:47	SPEAKER_01
+ I didn't check the finish button.
+
+0:25:49	SPEAKER_01
+ I just did you just copy it or whatever.
+
+0:25:52	SPEAKER_01
+ Only if you check the notes or press done, then it exports the word automatically.
+
+0:26:01	SPEAKER_01
+ That's not necessary to check either one of those two.
+
+0:26:04	SPEAKER_01
+ Okay, but I made a few.
+
+0:26:06	SPEAKER_01
+ You can just preview your page in the program.
+
+0:26:08	SPEAKER_01
+ Okay, but I made three pages.
+
+0:26:10	SPEAKER_03
+ They were not finished.
+
+0:26:11	SPEAKER_03
+ When the third one was finished, I wanted to download it.
+
+0:26:13	SPEAKER_03
+ Then it was not possible anymore.
+
+0:26:15	SPEAKER_03
+ You have to close all the pages before going further.
+
+0:26:19	SPEAKER_01
+ Okay, before starting a new page.
+
+0:26:21	SPEAKER_03
+ So you cannot work on one page at the same time?
+
+0:26:24	SPEAKER_03
+ That's not possible.
+
+0:26:25	SPEAKER_00
+ You have to finish it completely, then download it, then start a new one.
+
+0:26:28	SPEAKER_03
+ That's not very handy.
+
+0:26:30	SPEAKER_03
+ If you know that, then it's not possible.
+
+0:26:32	SPEAKER_00
+ Yeah, I understand it more.
+
+0:26:34	SPEAKER_01
+ Okay.
+
+0:26:35	SPEAKER_01
+ Any new ideas?
+
+0:26:36	SPEAKER_01
+ Yeah, more communication between those things.
+
+0:26:39	SPEAKER_01
+ I noticed that communication is very important because if you get new information, it's essential for the other teammates to know that as soon as possible.
+
+0:26:49	SPEAKER_01
+ Because you would avoid doing extra work because you were doing extra work now working on the speech recognition limitation, both on the technical and on the design side.
+
+0:27:00	SPEAKER_01
+ So I think that could have been better, but I think it's more of a setting here that you can communicate than somewhere else.
+
+0:27:09	SPEAKER_02
+ Yeah, it could possibly be a more real-time information base.
+
+0:27:15	SPEAKER_02
+ So we can all see.
+
+0:27:16	SPEAKER_01
+ Yeah, I think so.
+
+0:27:17	SPEAKER_01
+ Which information is available for you?
+
+0:27:19	SPEAKER_01
+ I'm not sure you got spammed as well.
+
+0:27:21	SPEAKER_01
+ I get to spend like every two minutes.
+
+0:27:23	SPEAKER_01
+ There was another email about master classes or something, which were totally useless actually.
+
+0:27:28	SPEAKER_01
+ I thought I should probably look into them.
+
+0:27:30	SPEAKER_01
+ They were all useless.
+
+0:27:32	SPEAKER_02
+ I personally did not have that.
+
+0:27:35	SPEAKER_02
+ That's probably your distribution.
+
+0:27:40	SPEAKER_02
+ What I also did not really assume you had that as well is that we finished up the design and then we checked the website.
+
+0:27:48	SPEAKER_02
+ And then there was just extra information.
+
+0:27:52	SPEAKER_04
+ After five minutes.
+
+0:27:53	SPEAKER_02
+ There was a little delay in that.
+
+0:27:55	SPEAKER_01
+ I didn't have any more information.
+
+0:27:57	SPEAKER_01
+ It's just always the same here.
+
+0:27:58	SPEAKER_01
+ So that's kind of an email change, but not for me.
+
+0:28:02	SPEAKER_01
+ I had no extra information to go.
+
+0:28:05	SPEAKER_01
+ I couldn't do any research myself.
+
+0:28:08	SPEAKER_01
+ I could have done a little extra work probably.
+
+0:28:12	SPEAKER_01
+ But I was busy enough anyway.
+
+0:28:17	SPEAKER_01
+ Any ideas found?
+
+0:28:20	SPEAKER_00
+ Or is that probably?
+
+0:28:27	SPEAKER_02
+ How much time do we have for this anyway?
+
+0:28:29	SPEAKER_00
+ I have no clue.
+
+0:28:34	SPEAKER_01
+ If the project is evaluated and it was within budget, we should celebrate.
+
+0:28:42	SPEAKER_02
+ Bring out the beer.
+
+0:28:46	SPEAKER_02
+ Champagne.
+
+0:28:49	SPEAKER_00
+ One more about it.
+
+0:28:53	SPEAKER_01
+ I'm not sure what we should still do.
+
+0:28:56	SPEAKER_01
+ I don't see, but all your tasks are finished, right?
+
+0:29:00	SPEAKER_03
+ I have no more emails.
+
+0:29:03	SPEAKER_03
+ It's being very silent now.
+
+0:29:06	SPEAKER_01
+ I still have the total report to finish up.
+
+0:29:11	SPEAKER_01
+ I think we took very little time now.
+
+0:29:15	SPEAKER_01
+ We're in agreement.
+
+0:29:18	SPEAKER_01
+ The design is okay.
+
+0:29:19	SPEAKER_01
+ One thing we missed though.
+
+0:29:21	SPEAKER_03
+ We have a product name.
+
+0:29:24	SPEAKER_03
+ It's better than a serial number.
+
+0:29:28	SPEAKER_03
+ Sony TR-something.
+
+0:29:32	SPEAKER_01
+ Think of a catchy name.
+
+0:29:35	SPEAKER_01
+ Until the beef.
+
+0:29:38	SPEAKER_04
+ Fruit name?
+
+0:29:42	SPEAKER_04
+ Banana remote.
+
+0:29:45	SPEAKER_01
+ It's the front.
+
+0:29:48	SPEAKER_01
+ It's not yellow.
+
+0:29:51	SPEAKER_02
+ I was going for the RC Deluxe, but it's not a catchy name or anything.
+
+0:29:59	SPEAKER_01
+ It's more?
+
+0:30:01	SPEAKER_03
+ No, it's not something with numbers.
+
+0:30:04	SPEAKER_03
+ Numbers are so meaningless to the panel.
+
+0:30:08	SPEAKER_02
+ Something with our company name.
+
+0:30:12	SPEAKER_02
+ Anything with that?
+
+0:30:19	SPEAKER_02
+ A real website which will help us out.
+
+0:30:29	SPEAKER_03
+ Real reaction.
+
+0:30:31	SPEAKER_01
+ Real reaction.
+
+0:30:32	SPEAKER_01
+ The future RC.
+
+0:30:36	SPEAKER_01
+ Step into the future of remote controlling your TV.
+
+0:30:40	SPEAKER_02
+ Is that a name or a campaign?
+
+0:30:43	SPEAKER_02
+ That's a catchy slogan.
+
+0:30:46	SPEAKER_02
+ Control your remote control.
+
+0:30:50	SPEAKER_01
+ I go for future RC.
+
+0:30:56	SPEAKER_03
+ The real reactor I don't find that bad at all?
+
+0:31:01	SPEAKER_01
+ Real reactor.
+
+0:31:04	SPEAKER_01
+ It makes me think of different products in a remote control.
+
+0:31:09	SPEAKER_01
+ Real reaction.
+
+0:31:16	SPEAKER_02
+ Stepping.
+
+0:31:41	SPEAKER_03
+ I'm looking for things in the name.
+
+0:31:51	SPEAKER_04
+ The triple R.
+
+0:31:58	SPEAKER_03
+ Real reaction.
+
+0:32:02	SPEAKER_03
+ Triple R.
+
+0:32:04	SPEAKER_04
+ Do you mean it like this?
+
+0:32:11	SPEAKER_04
+ Real reaction.
+
+0:32:14	SPEAKER_04
+ Remote control.
+
+0:32:17	SPEAKER_01
+ It should be longer because it's not a product name.
+
+0:32:23	SPEAKER_01
+ Triple R.
+
+0:32:27	SPEAKER_01
+ Triple R.
+
+0:32:31	SPEAKER_04
+ The triple R.
+
+0:32:36	SPEAKER_04
+ The triple R.
+
+0:32:41	None
+ The triple R.
+
+0:32:46	SPEAKER_01
+ The triple R.
+
+0:32:51	SPEAKER_02
+ I think I like it like this more.
+
+0:32:54	SPEAKER_01
+ Triple R or triple RC.
+
+0:32:58	SPEAKER_02
+ I like it.
+
+0:33:03	SPEAKER_01
+ I like it.
+
+0:33:08	SPEAKER_01
+ I like it like this.
+
+0:33:13	SPEAKER_01
+ The triple R.
+
+0:33:18	SPEAKER_01
+ The triple R.
+
+0:33:21	SPEAKER_01
+ The triple R.
+
+0:33:31	SPEAKER_03
+ The triple R.
+
+0:33:36	SPEAKER_03
+ The triple R.
+
+0:33:41	SPEAKER_03
+ Triple R.
+
+0:33:46	SPEAKER_02
+ The triple R.
+
+0:33:51	SPEAKER_02
+ The triple R.
+
+0:33:57	SPEAKER_04
+ The triple R.
+
+0:34:03	SPEAKER_01
+ The triple R.
+
+0:34:08	SPEAKER_01
+ The triple R.
+
+0:34:22	SPEAKER_01
+ The triple R.
+
+0:34:27	SPEAKER_01
+ The triple R.
+
+0:34:30	SPEAKER_01
+ The triple R.
+
+0:34:35	SPEAKER_01
+ The triple R.
+
+0:34:41	SPEAKER_01
+ The triple R.
+
+0:34:48	SPEAKER_00
+ The triple R.
+
+0:34:55	SPEAKER_03
+ The triple R.
+
+0:35:00	SPEAKER_05
+ The triple R.
+
+0:35:09	SPEAKER_04
+ The triple R.
+
+0:35:14	SPEAKER_04
+ The triple R.
+
+0:35:19	None
+ The triple R.
+
+0:35:24	None
+ The triple R.
+
+0:35:39	None
+ The double R.
+
+0:35:43	None
+ The triple R.
+
+0:35:48	SPEAKER_01
+ Could you guys draw me a picture of the file design to put on the cover of the report?
+
+0:36:00	SPEAKER_03
+ I'll try to do it all over again.
+
+0:36:10	SPEAKER_02
+ I don't really know whether we can save it as a picture of it.
+
+0:36:16	SPEAKER_03
+ Is it okay if I try?
+
+0:36:20	SPEAKER_04
+ I'll put it by need information.
+
+0:36:23	SPEAKER_03
+ It's okay.
+
+0:36:27	SPEAKER_03
+ It has been saving something.
+
+0:36:35	SPEAKER_03
+ Yes, I can export as you push.
+
+0:36:45	SPEAKER_03
+ Is it okay if I try not to put this, whatever I want.
+
+0:36:58	SPEAKER_03
+ My document is the wrong one.
+
+0:37:03	SPEAKER_04
+ Is it not that we're placing?
+
+0:37:07	SPEAKER_04
+ No.
+
+0:37:08	SPEAKER_04
+ Maybe it's not on the network of the rest.
+
+0:37:13	SPEAKER_02
+ I wouldn't take that one now.
+
+0:37:19	SPEAKER_03
+ That's pity.
+
+0:37:21	SPEAKER_03
+ That means that we have to draw it again.
+
+0:37:26	SPEAKER_03
+ Are you going to do that?
+
+0:37:31	None
+ Yes.
+
+0:37:36	SPEAKER_03
+ Yes.
+
+0:37:41	None
+ Okay.
+
+0:37:44	SPEAKER_03
+ Okay.
+
+0:37:50	SPEAKER_03
+ Yes, that's correct.
+
+0:37:57	SPEAKER_04
+ Okay.
+
+0:38:02	SPEAKER_03
+ No.
+
+0:38:05	SPEAKER_03
+ Oh, it's exposed.
+
+0:38:07	SPEAKER_04
+ Oh, yeah.
+
+0:38:10	SPEAKER_03
+ Okay.
+
+0:38:13	SPEAKER_04
+ Can I see scores?
+
+0:38:15	SPEAKER_04
+ Oh, of course.
+
+0:38:16	SPEAKER_04
+ Sorry.
+
+0:38:17	SPEAKER_04
+ One, one, two, three.
+
+0:38:20	SPEAKER_04
+ Okay.
+
+0:38:21	SPEAKER_04
+ Overall two.
+
+0:38:22	SPEAKER_04
+ Yes.
+
+0:38:26	SPEAKER_02
+ I see you later.
+
+0:38:28	SPEAKER_04
+ Yeah.
+
+0:38:35	None
+ Okay.
+

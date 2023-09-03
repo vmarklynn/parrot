@@ -1,0 +1,1152 @@
+0:00:00	SPEAKER_00
+ reminds me ofwater for dove year Okay, welcome to the second meeting of this design group.
+
+0:00:54	SPEAKER_00
+ Briefly go through the notes of the last meeting.
+
+0:00:59	SPEAKER_00
+ We've just done in note form and I haven't attributed anything to individuals because we're working strictly as a team here.
+
+0:01:13	SPEAKER_00
+ We saw that the problems with existing remote controls were the boring shape and boring color.
+
+0:01:27	SPEAKER_00
+ We saw that what we needed to do was to make sure that you guys control several items.
+
+0:01:37	SPEAKER_00
+ Switching was easy but you shouldn't need to point the thing at anything in particular.
+
+0:01:45	SPEAKER_00
+ That it needed to be controlled to make it interesting that the keys might be concave simply because that hasn't been done before that we know of.
+
+0:01:57	SPEAKER_00
+ Interchangeable, spacious so people can personalize it, illuminate it so that people can see it in dark rooms, that people might want it in addition to their existing remote controls.
+
+0:02:11	SPEAKER_00
+ It should always work whenever you use it but it should be too small but it gets lost.
+
+0:02:25	SPEAKER_00
+ Now I'll shortly ask for three presentations.
+
+0:02:41	SPEAKER_00
+ Before I do that however I will go through some new project requirements that the management has placed on us and will be challenging in terms of what we discussed at the first meeting.
+
+0:02:59	SPEAKER_00
+ The management has had its own thoughts on this and they didn't necessarily agree with what we thought.
+
+0:03:13	SPEAKER_00
+ As a result of that we will then talk through the functions that we see the device actually coming out and we have 40 minutes to do this in.
+
+0:03:33	SPEAKER_00
+ The new requirements are that the management team see that the teletext is no longer of any importance given the device on the internet and they wanted only to cover televisions.
+
+0:03:59	SPEAKER_00
+ What is not quite clear from their directive is whether they didn't want it to cover teletext or whether they didn't want it to cover videos, DVDs, satellite boxes which we saw as being fundamental to the exercise.
+
+0:04:22	SPEAKER_00
+ The actual wording of the directive is that it should cover television only on that basis.
+
+0:04:33	SPEAKER_00
+ I think we need to bear that in mind but possibly keep at the back of our minds.
+
+0:04:40	SPEAKER_00
+ The reality that people even with it no longer didn't look at teletext any more they certainly do look at other things.
+
+0:04:50	SPEAKER_00
+ The device has to incorporate the company logo and colors.
+
+0:04:56	SPEAKER_00
+ The logo being at the bottom of the screen there the two Rs in grey against the yellow background.
+
+0:05:05	SPEAKER_00
+ Now this doesn't necessarily mean that we have to give up some of our ideas about making it attractive to the market.
+
+0:05:13	SPEAKER_00
+ The other thing we have to do is to do some constraints as to how we might do that.
+
+0:05:20	SPEAKER_00
+ It also has to be simple which to some extent goes along with the first one and the way we've already said that it must be simple because that's what people want anyway.
+
+0:05:30	SPEAKER_00
+ We want it to be simple to get it to the market quickly which you see is their choice but we need to talk that through.
+
+0:05:51	SPEAKER_00
+ OK, so after meeting we'll be summarised and note sent out and etc.
+
+0:06:05	SPEAKER_00
+ OK, so we'll first of all have individual reports from everybody. Again there is no order of precedence here so I'll leave it up to you who thinks I'd like to go first.
+
+0:06:28	SPEAKER_01
+ I don't mind. I'm averse. I can steal the cable.
+
+0:06:35	SPEAKER_01
+ Cheers.
+
+0:07:05	SPEAKER_00
+ OK, so we'll start with the one that looks like a projection screen that I've got.
+
+0:07:34	SPEAKER_01
+ These are the functional requirements from there. Our guys don't have the research lab.
+
+0:07:42	SPEAKER_01
+ Take 100 people and cover all the aspects of what is needed by people and what they want to see.
+
+0:07:52	SPEAKER_01
+ Everything can from functionality and how individual functions are and how often they're used and which are necessary.
+
+0:08:06	SPEAKER_01
+ As we noticed, 5% of people find their remote controls ugly so some kind of a new style should be incorporated.
+
+0:08:25	SPEAKER_01
+ 8% of people said they'd spend more money on it which is a plus for us if we can make it a bit better or cost effective.
+
+0:08:38	SPEAKER_01
+ We can put price up.
+
+0:08:43	SPEAKER_01
+ The remote controls do not match the operate behavior of the user. I can take that to mean as the only one from the television or as a live live.
+
+0:08:59	SPEAKER_01
+ We've got six remote controls for our stereo system, a digital box, a DVD player, a video player and TV.
+
+0:09:14	SPEAKER_01
+ We've matched well to my behavior. Again, 75% use the sample.
+
+0:09:30	SPEAKER_01
+ We've changed channels of volume settings. I think a big issue is 50% usually use 10% of the buttons.
+
+0:09:49	SPEAKER_01
+ Some of the functions like audio settings aren't hardly used and are not considered relevant by the user.
+
+0:10:00	SPEAKER_01
+ Maybe fewer buttons which also make the design look sleager.
+
+0:10:08	SPEAKER_01
+ We've changed the illustrations of people losing the remote control.
+
+0:10:19	SPEAKER_01
+ We can use something else to find their remote control.
+
+0:10:27	SPEAKER_01
+ Time taking to learn new remote controls is to make it too complicated and easy to use for fresh time users.
+
+0:10:41	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:11:10	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:11:21	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:11:29	SPEAKER_00
+ We've also asked if people pay more for speech records.
+
+0:11:46	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:12:07	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:12:18	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:12:29	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:12:40	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:12:48	SPEAKER_01
+ We've also asked if people pay more for speech records.
+
+0:13:01	SPEAKER_02
+ We've also asked if people pay more for speech records.
+
+0:13:08	SPEAKER_02
+ We've also asked if people pay more for speech records.
+
+0:13:21	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:13:28	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:13:41	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:13:48	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:14:01	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:14:08	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:14:30	SPEAKER_00
+ We've asked if people pay more for speech records.
+
+0:14:35	SPEAKER_00
+ If we wanted something different, truly different, then the button must remake control.
+
+0:14:46	SPEAKER_03
+ Well the only problem I can think of with that is if you've got a lot of people that don't want to be bothered learning how to use new remote controls, if you just kind of take away everything that they're used to knowing, that's going to be quite a change.
+
+0:14:56	SPEAKER_01
+ But if you just lift it up and say channel 1, or even BC, you could even just have it left on, just put it down once on top of your TV and never have to.
+
+0:15:06	SPEAKER_02
+ Yeah, have it be kind of like the satellite box or the cable box and have it just go on the TV and then it doesn't matter where in the room you are, you won't lose it.
+
+0:15:15	SPEAKER_00
+ I can see technical problems with that in terms of the sound from the television, because if somebody actually on the television says, it's actually like that, I TV, only watching BBC, then it might change itself, so it probably needs to be possibly actually need a button on it, or it's too activated, or something just to identify that you've lifted it up on its use, and then just say, I don't know if it's all, and then, I mean that would certainly be truly different.
+
+0:15:56	SPEAKER_00
+ Because their audio settings not 0.8%, and if they weren't there, would people miss them?
+
+0:16:05	SPEAKER_03
+ But look at the importance of them, the volume settings.
+
+0:16:10	SPEAKER_01
+ Relates of 2 out of 10, yeah.
+
+0:16:12	SPEAKER_00
+ Volume, yes.
+
+0:16:13	SPEAKER_03
+ They're not used often, but they are quite important when they use it.
+
+0:16:16	SPEAKER_00
+ We need to identify things that people actually need, and it's a functional frequency and relevance, and I would say ignoring power for the moment.
+
+0:16:28	SPEAKER_00
+ The Chamblum volume, given that we've been told to ignore teletext, the Chamblum volume are the only ones that would appear to be essential.
+
+0:16:44	SPEAKER_00
+ So if we can design something that looks interesting, it all looks different, it incorporates the logo and the colors, and we can still have our interchangeable face, even if it's the yellow and grey.
+
+0:17:06	SPEAKER_00
+ Are there no buttons or buttons? There's an option.
+
+0:17:10	SPEAKER_01
+ I just thought I actually saw interrupt.
+
+0:17:14	SPEAKER_01
+ We're thinking about the technical problems of someone on the television saying a channel number, and we can maybe have an activation word, because I've seen a lot of computers before, which is addressed, or more to address, the computer, and then give it a command.
+
+0:17:35	SPEAKER_00
+ It depends on whether if you want to make this so simple that anybody can walk into the room and lift it up and say, yeah, that's a PVC worm.
+
+0:17:53	SPEAKER_00
+ You could actually print it on the device itself.
+
+0:17:57	SPEAKER_01
+ I'm missing the point of view. You could still lose this.
+
+0:18:02	SPEAKER_00
+ That's always been a problem, I think.
+
+0:18:07	SPEAKER_00
+ I suppose one can make it so desirable that people lose it, they can buy another one.
+
+0:18:17	SPEAKER_00
+ Anyway, sorry, carry on. I'll just carry on with...
+
+0:18:21	SPEAKER_00
+ Oh, I have. I have.
+
+0:18:22	SPEAKER_00
+ What's up to you?
+
+0:18:23	SPEAKER_00
+ No, no, no, you have the option of the...
+
+0:18:25	SPEAKER_00
+ Oh, okay.
+
+0:18:26	SPEAKER_00
+ In the middle of your report, so...
+
+0:18:27	SPEAKER_01
+ Well, I was just kind of wrapping up there. Yeah, I was thinking, yeah, you're such things that are relevant.
+
+0:18:33	SPEAKER_01
+ You can make things much more. I think the 80% of people with them are more on...
+
+0:18:38	SPEAKER_01
+...are more with it, looks better.
+
+0:18:41	SPEAKER_01
+ Combined with...
+
+0:18:43	SPEAKER_01
+...decreach the... or take out the limited functions that we don't really use much.
+
+0:18:49	SPEAKER_01
+ Well, it's been... or ready to get to vertex, but...
+
+0:18:52	SPEAKER_01
+...as my channel settings and stuff, it might turn people somewhere to build some people that want the whole functionality away.
+
+0:19:00	SPEAKER_01
+ Since if we're marketing under a kind of fashionable approach, then...
+
+0:19:04	SPEAKER_01
+...it would be fashionable. Passionable of practicality.
+
+0:19:08	SPEAKER_00
+ Because we could make it dual-function, with our voice recognition and...
+
+0:19:14	SPEAKER_00
+...we still have buttons on it.
+
+0:19:16	SPEAKER_00
+ Yeah, we could even have it as like...
+
+0:19:18	SPEAKER_01
+ Yeah, the buttons control this and the voice functions control the things that you would do all the time.
+
+0:19:23	SPEAKER_01
+ So...
+
+0:19:24	SPEAKER_00
+ Certainly could.
+
+0:19:25	SPEAKER_00
+ So, yeah, we could...
+
+0:19:27	SPEAKER_01
+...power on and channel selection and...
+
+0:19:30	SPEAKER_01
+...climps selection. We didn't have to, really.
+
+0:19:32	SPEAKER_00
+ Yeah, I mean, the advantage of doing the way the buttons all together is it makes them cheaper.
+
+0:19:36	SPEAKER_01
+ Yeah, it probably would look better, as well.
+
+0:19:38	SPEAKER_00
+ Yeah, it certainly...
+
+0:19:39	SPEAKER_00
+...but it's a possibility for making it visually very distinctive.
+
+0:19:44	SPEAKER_00
+ Yeah.
+
+0:19:45	SPEAKER_00
+ Because it does not have to be...
+
+0:19:48	SPEAKER_00
+...a oblong box...
+
+0:19:50	SPEAKER_01
+...lamed with a number of buttons.
+
+0:19:53	SPEAKER_00
+ Yeah.
+
+0:19:54	SPEAKER_00
+ Okay.
+
+0:19:55	SPEAKER_00
+ Who...
+
+0:19:57	SPEAKER_00
+ Yeah, yeah, that's definitely...
+
+0:19:59	SPEAKER_00
+...given that we bought the...
+
+0:20:01	SPEAKER_00
+...extensive discussion...
+
+0:20:04	SPEAKER_00
+...of the senses.
+
+0:20:06	None
+ Okay.
+
+0:20:07	SPEAKER_02
+ Well, I could do mine.
+
+0:20:09	SPEAKER_02
+ Don't like it.
+
+0:20:11	SPEAKER_01
+ Yeah.
+
+0:20:12	SPEAKER_02
+ Let's see if I can...
+
+0:20:14	SPEAKER_02
+...make this work.
+
+0:20:36	SPEAKER_03
+ Oh, you have to take, like, function and...
+
+0:20:38	SPEAKER_03
+...have something.
+
+0:20:39	SPEAKER_03
+ Oh, athlete.
+
+0:20:40	SPEAKER_02
+ Is it doing...
+
+0:20:48	SPEAKER_01
+ Yeah, give it a bit, 20 seconds.
+
+0:20:53	SPEAKER_03
+ Okay.
+
+0:20:54	SPEAKER_03
+ Okay.
+
+0:20:55	None
+ Okay.
+
+0:20:56	None
+ Okay.
+
+0:20:57	None
+ Okay.
+
+0:20:58	None
+ Okay.
+
+0:20:59	None
+ Okay.
+
+0:21:00	None
+ Okay.
+
+0:21:01	None
+ Okay.
+
+0:21:02	SPEAKER_02
+ Okay.
+
+0:21:03	SPEAKER_02
+ So this is just about the technical functions.
+
+0:21:06	SPEAKER_02
+ So the method I looked online for examples of other similar products and then just kind of...
+
+0:21:12	SPEAKER_02
+...retrying to brainstorm some possible design ideas and...
+
+0:21:16	SPEAKER_02
+...identify what the necessary things are, what people are...
+
+0:21:20	SPEAKER_02
+...what you really want to have a remote control do.
+
+0:21:23	SPEAKER_02
+ And then there are two different kinds that I found.
+
+0:21:26	SPEAKER_02
+ There's a user-centered one and an engineering-centered one, which I will have pictures of.
+
+0:21:30	SPEAKER_02
+ And then we kind of have to decide which one this should be.
+
+0:21:35	SPEAKER_02
+ So these are the two...
+
+0:21:39	SPEAKER_02
+...different ones.
+
+0:21:40	SPEAKER_02
+ This one.
+
+0:21:41	SPEAKER_02
+ This is the user-centered.
+
+0:21:42	SPEAKER_02
+ It has quite a few...
+
+0:21:45	SPEAKER_02
+...fewer buttons.
+
+0:21:47	SPEAKER_02
+ And then this is the engineering-centered, which has a lot more buttons.
+
+0:21:52	SPEAKER_02
+ And probably this is one that people complain about about having too many buttons that you don't use.
+
+0:21:59	SPEAKER_02
+ So basically, what remote control is is you...
+
+0:22:05	SPEAKER_02
+...it's to send messages to the television set, you know, turn on, off, switch the channels and the volume and things such as that.
+
+0:22:11	SPEAKER_02
+ And so for this product, it's going to be television only and then it has to have the logos...
+
+0:22:17	SPEAKER_02
+...for the company and the colors.
+
+0:22:21	SPEAKER_02
+ And so for my personal preferences, I think this one is easier to use.
+
+0:22:25	SPEAKER_02
+ It has quite a, you know, fewer buttons.
+
+0:22:29	SPEAKER_02
+ We want something that sends messages easily to the television.
+
+0:22:33	SPEAKER_02
+ And I was kind of wondering about this example that they have...
+
+0:22:37	SPEAKER_02
+...it looks kind of narrow at the top.
+
+0:22:39	SPEAKER_02
+ And I was thinking maybe if it were wider at the top, then that would be easier.
+
+0:22:45	SPEAKER_02
+ And so we have to decide what's going to make our product different.
+
+0:22:49	SPEAKER_02
+ The unique style, maybe have it light up.
+
+0:22:52	SPEAKER_02
+ It's visible in the dark, the changeable faceplates.
+
+0:22:56	SPEAKER_02
+ And the lighting up and visible, I was...
+
+0:22:58	SPEAKER_02
+...when we were talking about losing it, maybe to have a button on the television that you press.
+
+0:23:03	SPEAKER_02
+ Maybe if it makes it in a ways or a life set for something like that.
+
+0:23:06	SPEAKER_02
+ So it's easier to find if someone has hidden under the couch or something like that.
+
+0:23:12	SPEAKER_02
+ So that's my presentation.
+
+0:23:16	SPEAKER_00
+ Can I...I'm actually going to use the...
+
+0:23:22	SPEAKER_00
+...it's been of course great technical problems over here.
+
+0:23:24	SPEAKER_00
+ I'm actually going to use the...
+
+0:23:28	None
+...
+
+0:23:34	SPEAKER_02
+...they probably clip.
+
+0:23:36	SPEAKER_03
+ They're not connected to anything on the table.
+
+0:23:40	SPEAKER_03
+ So I'll just leave one more ground.
+
+0:23:48	SPEAKER_00
+ It's rather than the traditional, in fact, I've got you to go that far.
+
+0:24:10	SPEAKER_00
+ Something like this shape.
+
+0:24:16	SPEAKER_00
+ So it's something that you can...a more vertical shape.
+
+0:24:20	SPEAKER_00
+ That you can sort of hold in your hand.
+
+0:24:24	SPEAKER_00
+ I think...
+
+0:24:28	SPEAKER_00
+...such as, I mean, so we hold it like that, possibly with a couple of buttons like that.
+
+0:24:32	SPEAKER_00
+ But with the entire top, with the infrared or whatever source.
+
+0:24:38	SPEAKER_00
+ So that it's flying up in all directions.
+
+0:24:42	SPEAKER_00
+ So that, again, the neat look at the technicalities of...
+
+0:24:52	SPEAKER_00
+...actually achieving that in terms of whether the power requirements of the...
+
+0:24:58	SPEAKER_00
+...such a source, you know, compromise the...
+
+0:25:02	SPEAKER_00
+...our need for, you know, it being...
+
+0:25:06	SPEAKER_00
+...permanently...
+
+0:25:10	SPEAKER_00
+...you know, available, whether different technology.
+
+0:25:14	SPEAKER_00
+ I mean, all these remakes are presumably...
+
+0:25:18	SPEAKER_00
+...inforade, like they have been for a long time.
+
+0:25:21	SPEAKER_00
+ But we possibly need to be looking at something different.
+
+0:25:25	SPEAKER_00
+ You know, short range, not like the older radio remote controls.
+
+0:25:29	SPEAKER_00
+ We change next door to telly.
+
+0:25:33	SPEAKER_00
+ But I think basically if we're going to...
+
+0:25:38	SPEAKER_00
+...if minimum number of buttons is our priority, then we should...
+
+0:25:42	SPEAKER_00
+...it's going to say, we're going to really bite the bullets and reduce the buttons to...
+
+0:25:47	SPEAKER_00
+...ampsit minimum, you know, possibly we'll back up channel and volume buttons and...
+
+0:25:52	SPEAKER_00
+...on off, and nothing else.
+
+0:25:56	SPEAKER_00
+ So that it could...
+
+0:25:59	SPEAKER_00
+...unform a same dot like that, because again, except with some...
+
+0:26:03	SPEAKER_00
+...the wrist losing it.
+
+0:26:05	SPEAKER_00
+ Anyway, okay, so Kate, what's your...
+
+0:26:09	SPEAKER_00
+...our help thoughts on this?
+
+0:26:12	SPEAKER_02
+ Which one's this plug into?
+
+0:26:14	SPEAKER_02
+ I think it's all...
+
+0:26:16	SPEAKER_02
+...there.
+
+0:26:45	SPEAKER_03
+ I can't...
+
+0:26:46	SPEAKER_03
+...did you see the most green?
+
+0:26:48	SPEAKER_03
+ Oh, yeah.
+
+0:26:51	SPEAKER_02
+ That's kind of...
+
+0:26:52	SPEAKER_02
+...that's not cool to rain.
+
+0:26:54	SPEAKER_03
+ Oh, well, anyway.
+
+0:26:56	SPEAKER_03
+ Alright, yeah, so I'll just do my presentation on the working design.
+
+0:27:02	SPEAKER_03
+ There we go.
+
+0:27:07	SPEAKER_03
+ Okay, just at the...
+
+0:27:10	SPEAKER_03
+...the whole method of how the remote control works.
+
+0:27:13	SPEAKER_03
+ The basic function of the remote control is to send messages to another system, the...
+
+0:27:17	SPEAKER_03
+...the TV or the DVD player or whatever.
+
+0:27:19	SPEAKER_03
+ It does this by what we need to start off with in the energy source.
+
+0:27:23	SPEAKER_03
+ And this energy source will feed into an integrated circuit chip.
+
+0:27:27	SPEAKER_03
+ And the circuit chip is the part that actually composes the different messages...
+
+0:27:30	SPEAKER_03
+...within the remote, which will then be sent to the...
+
+0:27:34	SPEAKER_03
+...the television, the DVD to tell what to do.
+
+0:27:37	SPEAKER_03
+ And you need a user interface, which controls the chip and thus the messages.
+
+0:27:41	SPEAKER_03
+ And the user interface is basically just the design of the actual remote...
+
+0:27:46	SPEAKER_03
+...what you'll hold in the hands and what buttons will be on it.
+
+0:27:51	SPEAKER_02
+ Shoot.
+
+0:27:56	SPEAKER_03
+ Okay.
+
+0:27:58	SPEAKER_03
+ Just general findings.
+
+0:28:00	SPEAKER_03
+ What we need, technically speaking, for remote control is some sort of energy source.
+
+0:28:05	SPEAKER_03
+ Some sort of user interface, which I think we've mostly been talking about the user interface and the design of that.
+
+0:28:10	SPEAKER_03
+ A circuit chip within that to control and send the messages and send her and receive her.
+
+0:28:20	None
+ And...
+
+0:28:22	SPEAKER_03
+ Oops.
+
+0:28:24	SPEAKER_03
+ It's just sort of a little schematic diagram of what we're looking for.
+
+0:28:30	SPEAKER_03
+ This just kind of represents the energy source, which feeds into the circuit chip.
+
+0:28:34	SPEAKER_03
+ Which maybe then we could have that V into a switch, which would send signals to...
+
+0:28:39	SPEAKER_03
+...a subcomponent and onto a light bulb to light up once we start pressing buttons.
+
+0:28:45	SPEAKER_03
+ Also send signals to the infrared bulb, which will be the part that actually...
+
+0:28:51	SPEAKER_03
+...what?
+
+0:28:52	SPEAKER_03
+...send signals to the television and then you've got your happy little TV watcher there.
+
+0:28:58	SPEAKER_03
+ So my personal preference is, I just think we need sort of a big energy source that won't die out.
+
+0:29:06	SPEAKER_03
+ Perhaps some sort of rechargeable battery or a battery dock you could place in so it would constantly be charged.
+
+0:29:11	SPEAKER_03
+ You wouldn't have to be worrying about it running out of batteries and not changing channels for you.
+
+0:29:16	SPEAKER_03
+ A wide range of sender receiver so that you can hit the buttons from basically anywhere in the room and the channel will still be changed.
+
+0:29:24	SPEAKER_03
+ Also definitely a user-friendly interface.
+
+0:29:28	SPEAKER_03
+ And I think we've also mentioned adding a locating device on it, so when it does get stuck out of the couch cushions, as they inevitably do, you can find them easily.
+
+0:29:35	SPEAKER_03
+ And that's pretty much it.
+
+0:29:42	SPEAKER_00
+ Okay.
+
+0:29:43	SPEAKER_00
+ It seems to me there are a number of fundamental decisions to make before we...
+
+0:29:50	SPEAKER_00
+...you know, I think your point about the big energy source is a very valid one.
+
+0:29:57	SPEAKER_00
+ I don't suppose we've got any statistics on the die expectancy of the remote controls, particularly the independent ones.
+
+0:30:07	SPEAKER_00
+ Given the number of things you buy these days, we have a lithium whatever battery it that never needs to be placed in.
+
+0:30:18	SPEAKER_00
+ Perhaps we should have the disposable remote control of the battery relaxed, five, ten years, by which time...
+
+0:30:33	SPEAKER_00
+ I mean when all is set and done, digital television will be taken over in that time scale.
+
+0:30:41	SPEAKER_00
+ Perhaps we should have reduced the moving parts even more by not even having a battery compartment.
+
+0:30:48	SPEAKER_03
+ Just having one that's guaranteed to last five to ten years?
+
+0:30:51	SPEAKER_00
+ Yeah, if anybody manages to run it down, then you can run it well.
+
+0:30:54	SPEAKER_00
+ Thanks, Anna.
+
+0:30:55	SPEAKER_00
+ It's what it saves in cost and you know, there's a...
+
+0:31:02	SPEAKER_00
+ Well, so they marked it and it started to get impacted, so it's very practical.
+
+0:31:07	SPEAKER_00
+ I think the idea of a rechargeable one is...
+
+0:31:11	SPEAKER_00
+...and I see a really high tech in it, it sort of just recharges itself if it's the buy, you know, magnetic waves or whatever.
+
+0:31:18	SPEAKER_01
+ It could have like a...
+
+0:31:19	SPEAKER_01
+...like cordless floor in your house.
+
+0:31:21	SPEAKER_01
+ It's like a base.
+
+0:31:22	SPEAKER_00
+ Since they're old, a lot of people are really going to use it.
+
+0:31:25	SPEAKER_02
+ Yeah, people would think that people might forget...
+
+0:31:29	SPEAKER_02
+...people forget to put their cordless phones back on there.
+
+0:31:32	SPEAKER_00
+ Yeah, it's... I mean, I know the promise, because my wife goes out in the morning and says I want you to put the phone numbers charged.
+
+0:31:39	SPEAKER_00
+ And then she's had those days so long when she doesn't look that pain by now.
+
+0:31:44	SPEAKER_03
+ I only remember to charge my cell phone when battery dies.
+
+0:31:48	SPEAKER_03
+ When it turns itself off, that's when I plug it in.
+
+0:31:53	SPEAKER_00
+ Yeah, right, so what we think about the...
+
+0:31:59	SPEAKER_00
+...the department is the battery.
+
+0:32:02	SPEAKER_03
+ Yeah, I think that's a good idea.
+
+0:32:04	SPEAKER_00
+ That's pretty key to it.
+
+0:32:06	SPEAKER_00
+ We are really going for the ultimate in external simplicity here.
+
+0:32:11	SPEAKER_00
+ The cop costs in the manufacturing.
+
+0:32:16	SPEAKER_00
+ And, you know, they have a high tech in here, but then they will be cost effective.
+
+0:32:23	SPEAKER_02
+ Do they make batteries on that long?
+
+0:32:25	SPEAKER_00
+ I mean, certainly... I can't think of my head, but there are certainly things that you buy.
+
+0:32:33	SPEAKER_00
+ I mean, calculators, for example.
+
+0:32:35	SPEAKER_03
+ They usually have the little light source.
+
+0:32:38	SPEAKER_03
+ I don't think they're called...
+
+0:32:39	SPEAKER_00
+ They have the little solar.
+
+0:32:40	SPEAKER_00
+ Yeah, the little cells that...
+
+0:32:41	SPEAKER_00
+ Or something, I mean, the battery ones that are...
+
+0:32:44	SPEAKER_00
+...firmarily...
+
+0:32:46	SPEAKER_00
+...see, and in fact, I would...
+
+0:32:48	SPEAKER_03
+ Most of them don't, they have sort of a combination of the two.
+
+0:32:50	SPEAKER_03
+ Like, when there is light, they'll work off the light and then if they'll kick into this battery, so we can maybe do something like that, whereas there is a battery.
+
+0:32:57	SPEAKER_03
+ But if there's enough light, then it's using the light that's not actually draining the battery all the time.
+
+0:33:02	SPEAKER_03
+ But you will have the battery there for...
+
+0:33:04	SPEAKER_00
+ Yeah.
+
+0:33:05	SPEAKER_00
+ I mean, it's going into the technology a bit.
+
+0:33:07	SPEAKER_00
+ I mean, the actual time that a remote control is actually operating.
+
+0:33:12	SPEAKER_00
+ Our thing is...
+
+0:33:15	SPEAKER_00
+ It's probably...
+
+0:33:16	SPEAKER_00
+...no more than minutes in its entire life.
+
+0:33:19	SPEAKER_03
+ Well, it depends who's using it, who's just sitting there clicking the phone.
+
+0:33:23	SPEAKER_00
+ Yeah, some people are getting the noise from it.
+
+0:33:26	SPEAKER_00
+ Yeah.
+
+0:33:27	SPEAKER_00
+ And they're clicking a lot, yeah.
+
+0:33:28	SPEAKER_00
+ That's what the wrong mouth is.
+
+0:33:30	SPEAKER_01
+ Like, this...
+
+0:33:32	SPEAKER_01
+...my research thing says, number of times per hour, that's used, channel selection 168.
+
+0:33:38	SPEAKER_01
+ per hour.
+
+0:33:40	SPEAKER_02
+ Yeah, per hour.
+
+0:33:42	SPEAKER_02
+ Wow!
+
+0:33:43	SPEAKER_02
+ It's a lot.
+
+0:33:44	SPEAKER_02
+ Yeah.
+
+0:33:45	SPEAKER_00
+ I want to know, I can just say that.
+
+0:33:48	SPEAKER_00
+ That does sound excessive.
+
+0:33:50	SPEAKER_01
+ But then again, if you think it might have, you know, meant the use, it's like, you know, that's less than a second.
+
+0:33:58	SPEAKER_02
+ Yeah.
+
+0:33:59	SPEAKER_00
+ Well, that's right.
+
+0:34:00	SPEAKER_00
+ And I don't know what it is.
+
+0:34:02	SPEAKER_00
+ I don't know what it is.
+
+0:34:03	SPEAKER_00
+ I don't know what the signal is.
+
+0:34:04	SPEAKER_00
+ The signal is less as long as you keep the button pressed, or whether it's just a 10 to the second, no matter how impressive, or I don't know, I don't actually know.
+
+0:34:14	SPEAKER_02
+ But I think with digital TV, like I know on my cable box, you're not supposed to do that because the channel can't keep up with it.
+
+0:34:21	SPEAKER_02
+ If you just press it like that, so you're supposed to use the menu and go through the...
+
+0:34:24	SPEAKER_02
+...different channels that way instead of...
+
+0:34:30	None
+ Right.
+
+0:34:31	SPEAKER_00
+ So I've got my C-stage 5 minutes.
+
+0:34:39	SPEAKER_00
+ I don't know how long does that appear.
+
+0:34:41	SPEAKER_00
+ Oh.
+
+0:34:42	SPEAKER_00
+ Where are we getting?
+
+0:34:43	SPEAKER_00
+ Right.
+
+0:34:44	SPEAKER_00
+ So I'd need to sum up very quickly here.
+
+0:34:48	SPEAKER_00
+ We're looking at extreme simplicity.
+
+0:34:52	SPEAKER_00
+ We're looking at a radically different shape.
+
+0:34:57	SPEAKER_00
+ Possibly no buttons at all, but if you can incorporate channel change and volume buttons into the design, then that's fine.
+
+0:35:12	SPEAKER_00
+ Indeed, I mean, the role of the user interface, the designer becomes more involved here because, you know, shape is no longer a...
+
+0:35:24	SPEAKER_00
+...series constraint.
+
+0:35:27	SPEAKER_00
+ But we clearly only need the main buttons, although we clearly only need the main functions.
+
+0:35:34	SPEAKER_00
+ I don't see why we shouldn't go for voice recognition.
+
+0:35:40	SPEAKER_00
+ And the only buttons that I think we need are channel control, volume control, and on-off.
+
+0:35:50	SPEAKER_00
+ It needs to incorporate the portrait logo, the grey and yellow colour scheme, and there's no reason why we can't introduce interchangeable covers.
+
+0:36:07	SPEAKER_00
+ Does that accurately summarise what we've discussed?
+
+0:36:14	SPEAKER_01
+ Yeah.
+
+0:36:15	SPEAKER_01
+ Yep.
+
+0:36:16	SPEAKER_01
+ Right.
+
+0:36:17	SPEAKER_00
+ So...
+
+0:36:21	SPEAKER_02
+ I just have one question.
+
+0:36:23	SPEAKER_02
+ So are we doing just the television?
+
+0:36:25	SPEAKER_02
+ Are we doing...
+
+0:36:26	SPEAKER_02
+ Yeah, I'm doing just the television.
+
+0:36:27	SPEAKER_02
+ So not DVD.
+
+0:36:28	SPEAKER_02
+ No.
+
+0:36:29	SPEAKER_00
+ But, okay.
+
+0:36:30	SPEAKER_00
+ I think that's quite clear.
+
+0:36:31	SPEAKER_00
+ But maybe the information would be giving me the...
+
+0:36:33	SPEAKER_01
+ Okay.
+
+0:36:34	SPEAKER_01
+ Yeah.
+
+0:36:35	SPEAKER_01
+ That's the one.
+
+0:36:37	SPEAKER_01
+ And the constraints that you know what I got.
+
+0:36:40	SPEAKER_01
+ You know, I didn't even mention the text.
+
+0:36:42	SPEAKER_00
+ It's just a television.
+
+0:36:43	SPEAKER_00
+ That's one I sent to, which was mine too.
+
+0:36:45	SPEAKER_00
+ Oh, okay.
+
+0:36:46	SPEAKER_00
+ Oh, yeah.
+
+0:36:47	SPEAKER_00
+ Oh, yeah.
+
+0:36:48	SPEAKER_00
+ Okay.
+
+0:36:49	SPEAKER_00
+ I came there and sent head-off is...
+
+0:36:56	SPEAKER_00
+...that's...
+
+0:36:57	SPEAKER_00
+...that's there.
+
+0:36:58	SPEAKER_00
+ There we go.
+
+0:37:00	SPEAKER_00
+ Okay.
+
+0:37:01	SPEAKER_00
+ So we can all give some thought to that.
+
+0:37:05	SPEAKER_00
+ But what will it make me think about?
+
+0:37:07	SPEAKER_00
+ Okay.
+

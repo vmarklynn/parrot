@@ -1,0 +1,666 @@
+Speaker D: My mouth is not working anymore.
+Speaker C: I'm going to put it in.
+Speaker C: It's going to beep beep beep.
+Speaker B: Oh, I've got a nice little screen here over here.
+Speaker B: I've got this big black border on every side.
+Speaker A: OK.
+Speaker A: OK.
+Speaker A: Everybody ready?
+Speaker A: I'll fix it.
+Speaker A: Yeah, we're going with the functional design meeting.
+Speaker A: Again, presented by Martin.
+Speaker A: This is the agenda opening.
+Speaker A: We've got three presentations.
+Speaker A: And I'm going to show you some of the new project requirements that were sent to me.
+Speaker A: And we're going to make a decision on the remote control functions.
+Speaker A: We have 40 minutes.
+Speaker B: Yes.
+Speaker A: Well, this is the closing already.
+Speaker A: So well, we start off with the first presentation.
+Speaker A: I think we have to do it in the right order.
+Speaker A: Maybe you don't know what the right order is.
+Speaker A: I'm going to do it.
+Speaker A: Maybe we should start with the technical functions.
+Speaker C: OK.
+Speaker C: How can I get this on the one board?
+Speaker A: You don't file in the project document folder.
+Speaker A: You've already done that?
+Speaker D: Yes.
+None: And that one.
+Speaker A: Well, let's close this one.
+Speaker A: We'll just open the new one there.
+Speaker A: Oh, you're saying?
+Speaker A: Oh, yeah.
+Speaker A: I have to say something.
+Speaker A: Due to some technical problems, I haven't digitized the last meeting minutes.
+Speaker A: But I'll make sure that happens next time.
+Speaker A: And I'll get this one in digital form too.
+Speaker C: OK.
+Speaker C: We're going to talk about working design.
+Speaker C: Method of the remote control is electrical energy.
+Speaker C: It activates a chip in the remote.
+Speaker C: It's an electrical circuit which compose messages in the form of infrared signals to control the television.
+Speaker C: It's nowadays very known technology.
+Speaker C: The known technology can make the cost very low.
+Speaker C: It's a wide tail of remote controls in the world.
+Speaker C: And the components are very cheap.
+Speaker C: Diode's batteries and lead lights, they're needed.
+Speaker C: And they're everywhere available against a fair price.
+Speaker C: It's common technology.
+Speaker C: I could tell the circuit board, it's the most important part of the remote control.
+Speaker C: We can use for that fiberglass with copper wires.
+Speaker C: It can be made as fast as printing paper.
+Speaker C: It's all very making it all the time.
+Speaker C: And it's not very specialized technology.
+Speaker C: I haven't come to here, but I've got some images of remote controls.
+Speaker C: They were not very trendy or just a remote control, like everyone knows.
+Speaker C: So I don't know why I should put it here.
+Speaker A: Well, it's the technical side of the remote control.
+Speaker C: Yes, but I haven't made it because of the time.
+Speaker A: OK.
+Speaker A: Oh, let's skip that part time.
+Speaker A: But you don't think it's a problem to design the technical part of the remote control.
+Speaker A: It's going to be easy.
+Speaker A: Yes.
+Speaker A: OK.
+Speaker D: But nothing restricted for a user interface.
+Speaker C: No, it's just a part of a known technology.
+Speaker C: Remote control is nothing special nowadays.
+Speaker A: Regardless of what type of functions we want to implement, it doesn't really matter.
+Speaker C: I don't think so because of the old televisions, there are a few, maybe a couple of televisions with the new functions.
+Speaker C: But is it useful to put them on a standard remote?
+Speaker A: Well, we'll see.
+Speaker A: We'll see later on.
+Speaker D: Well, the technical functions.
+Speaker D: I don't know if you've got the same pictures as I got.
+Speaker D: No.
+Speaker D: I got these two.
+Speaker D: And I think we have to focus on the one hand, the expert view or the novice user.
+Speaker D: I think it's very much depending on the user requirements.
+Speaker D: I don't know who is.
+Speaker A: Well, there will be some user requirements later on.
+Speaker A: Yeah.
+Speaker D: I think that's very important to what kind of functions there we want to put in the remote control.
+Speaker A: Well, we'll keep this in mind and discuss it later on.
+Speaker D: Yeah.
+Speaker D: Well, we can put functions in it when we get user requirements.
+Speaker D: And we can update it.
+Speaker A: There's a big distinction between the style of remote.
+Speaker A: We should choose one.
+Speaker A: We should not compromise, but really choose for experts viewer or novice.
+Speaker A: I agree.
+Speaker A: Yeah.
+Speaker D: Well, that's what you want trying to say.
+Speaker D: Well, yeah.
+Speaker D: If you want to try a huge market, if you want to reach a huge market, like LVP people, we have to choose for novice user.
+Speaker D: But I don't know.
+Speaker D: It's really depending on how far the remote controls are already in use.
+Speaker A: Well, some of them, yeah.
+Speaker A: But it will be more clear when we come to some of the new requirements.
+Speaker A: Yeah.
+Speaker A: Yes.
+Speaker A: Probably.
+Speaker D: So.
+Speaker D: Well, there are at least basic functions, like just the channels, one, two, nine, all in an off which must be clear with a red button or something like that.
+Speaker D: Most standard volume, of course, and a mute function.
+Speaker D: And of course, the next and previous channel.
+Speaker D: I think that's just basic what we need.
+Speaker D: And from that on, we can see it's huge requirements for what we need more.
+Speaker D: Yeah.
+Speaker D: I just thought Yos was looking at the trendy, the trends in the market.
+Speaker D: Yes.
+Speaker D: And I don't know if there are any, if you put more functions, more buttons, maybe it's becoming less trendy or something like that.
+Speaker D: You can just.
+Speaker D: You can just find a conclusion like that.
+Speaker D: You can keep it in mind.
+Speaker D: Yeah.
+Speaker D: I don't know.
+Speaker D: I thought with less buttons, you can make a more trendier design.
+Speaker D: Yeah, more trendier design, I think.
+Speaker D: Sounds interesting.
+Speaker B: Yeah.
+Speaker D: Well, that's all I say.
+Speaker D: Okay.
+Speaker D: Right.
+Speaker A: Well, then the marketing expert can.
+Speaker A: Yes.
+Speaker A: Tell us something about the current market.
+Speaker B: Yeah.
+Speaker B: All right.
+Speaker B: All right.
+Speaker B: I've done some research for functional requirements.
+Speaker B: Yes.
+Speaker B: The working method.
+Speaker B: There were 100, 100 people, how do you say, watched using remote control in the usability lab?
+Speaker B: And they also filled out a questioner with a few questions.
+Speaker B: I've lined them up here.
+Speaker B: Ask whether common remote control looks good or not about willingness to spend money on remote control about zapping behavior and stuff like that.
+Speaker B: I've found some interesting things.
+Speaker B: We do got a market.
+Speaker B: Three out of four people claim to find remote controls ugly.
+Speaker B: So if we make a trendier design, we sure have 75% of the market which we can reach.
+Speaker B: Three out of four users zaps a lot, as I quoted here from the results.
+Speaker B: Zap buttons are used for 168 times per hour.
+Speaker B: That's quite a lot.
+Speaker B: Relevant options are, of course, power buttons, although only used once per hour.
+Speaker B: Channel selection, volume and buttons for text.
+Speaker B: And the more other functions like audio settings, video settings, sound settings are not said to be very important.
+Speaker B: It's very much used.
+Speaker B: Furthermore, 50% says they only use 10% of the buttons on the remote control.
+Speaker B: That doesn't say we can leave 90% off, but it sure says we shouldn't make it too complicated.
+Speaker B: 50% also claims to have last remote control very often in the world.
+Speaker B: An important thing here.
+Speaker B: The most important customers, which is over 70% of our market is in the age range of 36 to 65 years old.
+Speaker B: And elderly people, our market, are less interested in nice features, but more willingly to spend more money on remote control.
+Speaker B: What I was thinking, wrong side, we shouldn't implement too much features on our remote control because elderly people will get last group features for a higher usability, what I was claiming in the previous meeting.
+Speaker B: All the settings about audio settings, video settings and audio settings, which are not very often used, we could group them on one button and make them accessible in one menu button or whatever because they are used very rarely.
+Speaker B: There are a lot of options there, so we can really make, yeah, how do you say?
+Speaker B: We can spare buttons over there.
+Speaker B: If you want to implement PCR and DVD options, group them in the button not to, yeah, small buttons, so they won't be very, how do you say?
+Speaker B: Especially presence.
+Speaker B: Yes, won't be very present.
+Speaker B: Thank you.
+Speaker B: And a trendy look, although 70% of the market consists of elderly people who don't really care for trendy looks or whatever, I guess it can do no harm to make a trendy for the other 30%.
+Speaker B: That was kind of what I found.
+Speaker B: Okay.
+Speaker A: Well, then we, I'm going to show you some of the new project requirements and then we're going to discuss on what features we find important.
+Speaker A: Some of the new requirements make some of your findings quite irrelevant, I think.
+Speaker A: Because, decided to put, they have to set two additional requirements forward.
+Speaker A: Well, I see four.
+Speaker A: This is kind of strange.
+Speaker A: Well, they say that the data text becomes outdated since the popularity of the Internet.
+Speaker A: Well, I think that may be so, but, well, we can't just leave the data text button off.
+Speaker A: No, I agree.
+Speaker A: I agree.
+Speaker A: So the compromise we could make is just to make one teletext button, you know, like on and off and don't make a lot of special, put a lot of special features on it to make it transparent or, you know, it's just you want, you want to be able to make use of teletext but not to play with it that much.
+Speaker A: So we have to think of that.
+Speaker A: The remote controls should only be used for the television.
+Speaker A: Otherwise, the project becomes more complex, which endangers the time to market.
+Speaker A: So maybe we should leave all DVD and VCR related features off completely.
+Speaker B: Okay.
+Speaker A: I don't know.
+Speaker A: I think that's what they're trying to say.
+Speaker A: Our current customers are within the age group of 40 plus.
+Speaker A: New products should reach a new market with customers that are younger than 40.
+Speaker A: So you talked about the elderly where we're willing to spend more on the remote control and we're interested, but, well, they're not relevant because we are aiming at a younger, I don't really
+Speaker B: agree actually, to be honest. It's a very small market which we will approach then if we want to reach customers younger than 40.
+Speaker B: It's only like 30% of the total market.
+Speaker A: Yeah, but it's the fact that the bigger market you're talking about, we already covered it.
+Speaker A: Our company already sells remote control to the older people, but we also want a new customer group.
+Speaker A: That's the one we haven't covered yet.
+Speaker A: So I think that's what the problem is.
+Speaker A: We haven't got remote controls for you.
+Speaker A: Maybe we can compromise a little bit.
+Speaker A: Yeah, I think so.
+Speaker A: Maybe not too much then.
+Speaker A: No, no, but I think we have to just keep in mind what the older age group wants and maybe we can make a remote control that's primarily interesting for the younger group but isn't that bad for a older person either.
+Speaker A: Yes.
+Speaker A: Our corporate image should stay recognizable in our products.
+Speaker A: Our product, corporate color and slogan must be implemented in a new design.
+Speaker A: Okay, something is nice to know.
+Speaker D: What else are slogan?
+Speaker A: Sorry?
+Speaker A: Yeah.
+Speaker A: We have to look that up.
+Speaker B: Yeah, I'll have a look.
+Speaker A: We figured something about electronics.
+Speaker A: Oh, okay.
+Speaker A: I thought it might be, let's make things better or something.
+Speaker A: Sensors and simplicity.
+Speaker A: Okay, well, let's go back to the agenda.
+Speaker A: So if not the three presentations we know about the new project requirements.
+Speaker A: That means we can discuss under remote control functions.
+Speaker A: Well, if I can make a start, I think it's becoming more clear what kind of remote control is going to be and I already talked about maybe you're talking about remote control that has the can opener underneath it.
+Speaker A: I think we're looking for some, we're looking for a really simple remote control with only basic TV functions.
+Speaker B: Well, to be honest, if our aim group is still 40, not older than 40, maybe that's not very, we don't really need to have a simple remote control.
+Speaker B: I think we can implement more functions then because basically the younger people are more able to adapt to new technology and therefore will be a more.
+Speaker A: That's why a lot of the requirements, the account managers send me, I think they are contradicting each other because they want a simpler design and no other functions in just the fee but they do aim at the younger.
+Speaker D: But I think it's a lot of functions that aren't used.
+Speaker D: So why should we put a function in?
+Speaker D: Well, I think younger people are more looking for just a trendy look than more functions.
+Speaker A: I think we can make some discussions in functions.
+Speaker A: You have different kind of equipment in your room, like a TV and a DVD player.
+Speaker A: You can put very detailed functions regarding the TV set on your remote control with audio settings and screen settings.
+Speaker A: We don't want that. I think that was, that became clear.
+Speaker A: Maybe we should put something, I know that the younger people most likely have a DVD player.
+Speaker A: They want to control remotely.
+Speaker D: But the functions are not in the remote control we are making.
+Speaker A: The user requirements of the new project requirements still is not too, but maybe, I think we maybe should put some functions for other equipment on it.
+Speaker A: But just the basic functions, maybe like wind and wind.
+Speaker C: What do you guys want?
+Speaker C: Not much more than that.
+Speaker A: As far as possible.
+Speaker B: Or we could put them behind the flip flap or whatever.
+Speaker A: What do you think?
+Speaker A: Should we implement functions to control other devices?
+Speaker A: No, you don't think so.
+Speaker A: No, the new requirements.
+Speaker C: But you can put a play and stop.
+Speaker A: Well, maybe it's something, most of the time these functions don't support particular devices as well as their own remote control.
+Speaker A: A lot of DVD players have some tricky settings.
+Speaker D: If it's too simple, they won't use the remote control.
+Speaker D: They use their own.
+Speaker B: For example, a VCR, that's a better example in this case.
+Speaker B: I think on a remote control for television you don't need to be able to program the VCR to start recording at 3pm or whatever.
+Speaker A: But you can also do it with a play, stop, rewind and fast forward.
+Speaker A: I have to think DVD.
+Speaker A: I know.
+Speaker A: From my experience, a lot of DVD players, like forwarding, goes differently.
+Speaker A: You could do 2 speed or 8 speed or 16 speed.
+Speaker A: Sometimes a bit difficult.
+Speaker A: Maybe if we just leave the DVD functionality.
+Speaker A: I was thinking about putting it in.
+Speaker A: But concerning the project requirements.
+Speaker A: You should focus on the TV then.
+Speaker D: Keep it simple and look more.
+Speaker A: It's just a complementary remote and not a universal one.
+Speaker A: If you want to keep it simple, you can make a universal remote.
+Speaker A: It's only for television.
+Speaker A: It should be something that is like gadget on your coffee table.
+Speaker A: It's just when you jump on the couch, you pick up the nice remote, a simple one, just to put on the television, nothing more.
+Speaker A: Nothing more.
+Speaker A: Okay.
+Speaker A: All right.
+Speaker C: But what will you be able to handle a whole market?
+Speaker C: There are dozens of remote controls.
+Speaker A: We'll make this one trendy.
+Speaker A: Simple.
+Speaker A: We will come to that.
+Speaker A: First on the functions.
+Speaker A: So we should put zap buttons on it.
+Speaker A: Also numbers to go to this specific channel.
+Speaker D: Yes, definitely.
+Speaker D: It's too much integrated.
+Speaker A: A teletext button should be there, but just one big teletext button on and off.
+Speaker B: Yeah, maybe two or three other options.
+Speaker B: But not nothing more than that.
+Speaker B: I think stop function is very useful if you have a page with consist of more pages and you are not a very quick reader.
+Speaker B: Then I think it's very irritating if the next page shows up.
+Speaker A: I think it becomes too difficult.
+Speaker A: It's not a very common function.
+Speaker A: Wow.
+Speaker A: I use a fairly remote action.
+Speaker B: I use it.
+Speaker A: Yeah, maybe you do.
+Speaker A: I've never heard of it in the first place.
+Speaker A: We have to look at the market.
+Speaker A: Yeah, and teletext is becoming outdated.
+Speaker A: We just want to see what programs are on and what time it is probably.
+Speaker A: I don't know.
+Speaker A: I think that's kind of getting too complex for our remote.
+Speaker A: I don't know what you're using.
+Speaker D: I think.
+Speaker D: Yeah, it's Sunday.
+Speaker D: I always use it for the sucker.
+Speaker A: Yeah, but do you like to have such a stop button?
+Speaker A: Do you think it's a kind of a very rare and special function?
+Speaker D: When you look, for example, a couple of weeks ago, I looked at the flights.
+Speaker D: There are a lot of flights in one page.
+Speaker A: But that's kind of stuff we should do on the internet right now.
+Speaker A: Yes, you could have it.
+Speaker A: In the use of the environment.
+Speaker C: There are some buttons you can put it to access all the same pages.
+Speaker A: Well, yeah, lots of new televisions can store pages, you know, and then you can just skip manually through them using.
+Speaker A: I think we just put one teletext button on it.
+Speaker A: Then we meet the new requirements.
+Speaker A: We also meet the other thing.
+Speaker A: We have to choose for the simple design, I guess.
+Speaker A: What functions do we have to decide on?
+Speaker A: I don't know if we specifically name all the functions we want.
+Speaker A: We have the zebbunds, the volume.
+Speaker A: We do make them very big, the zebbunds.
+Speaker A: I think the plus and the minus, but that's considered to be 20 as well.
+Speaker A: Maybe you should place them on a kind of joystick.
+Speaker A: Yeah, something special way to zeb through the...
+Speaker A: It has to be...
+Speaker A: In quick, you have to use it very quickly.
+Speaker B: If you grab the remote, your hand should be on top of the plus.
+Speaker A: The buttons should make it possible to zeb through your channels in a rapid base.
+Speaker B: Yes.
+Speaker A: What should we decide on them?
+Speaker A: I think in the case of this simple remote control, the technical aspects which weren't worked out already, but it shouldn't be a problem then.
+Speaker C: No, it's just signals.
+Speaker C: Maybe...
+Speaker C: And the television does the rest.
+Speaker A: No, okay, but we don't have to.
+Speaker A: When we don't want to control other devices, I think it makes it even more simpler.
+Speaker D: The batteries maybe, if you use large batteries or small batteries...
+Speaker C: I think standard batteries.
+Speaker A: I think we should use...
+Speaker A: Not the watch kind of...
+Speaker A: Well, it has to be simple when I...
+Speaker A: The most ordinary batteries.
+Speaker A: Which are most likely to be found somewhere in the house.
+Speaker A: Yeah.
+Speaker A: How much time do we have left?
+Speaker C: I think about 20 minutes.
+Speaker C: But in a way we have to be special.
+Speaker A: Yeah, yeah, okay.
+Speaker A: But that's...
+Speaker A: If you think about that, thought about that.
+Speaker A: How we can...
+Speaker A: What the extra touch can be?
+Speaker A: Maybe just the design or the shape or some gadget kind of future.
+Speaker A: Or what's something about how we lose them?
+Speaker A: Maybe it should be a remote control.
+Speaker A: When you clip your hands, it makes some noise or some gadget kind of thing.
+Speaker A: I think that's more for...
+Speaker B: For an age range of 10 to 12 or whatever.
+Speaker A: I don't know.
+Speaker A: A lot of people like to have such kind of gate kind of things.
+Speaker A: It should be like a birthday present or something that you get someone in.
+Speaker A: That's a good one.
+Speaker A: Or maybe it should have a big light that can flash for something on it.
+Speaker A: Or...
+Speaker A: Or the can open it.
+Speaker A: Maybe it contains some future that you don't normally link to a remote control.
+Speaker A: I think it's very important because we're going to make such a basic remote control.
+Speaker A: We have to do something to make it special.
+Speaker A: It's going to cost 25 euros.
+Speaker B: I think the can opener is brilliant idea actually.
+Speaker B: But the television and beer is not a rare combination.
+Speaker A: Yeah, that's true.
+Speaker A: And I think it's going to be very...
+Speaker A: It has to be sturdy or something.
+Speaker A: Or maybe with bouncing pads so that you can just throw it on the floor or something.
+Speaker A: It has to be something special.
+Speaker A: It has to...
+Speaker A: People when they buy it, they have to think about this one less for a long time.
+Speaker A: We're really going to use it not something you throw away next week.
+Speaker A: No, that's true.
+Speaker A: So maybe I think that when we decide on these types of functions, basic functions, it's very important to find something like that.
+Speaker A: So there's a very important task for you.
+Speaker A: Maybe we can all think about it.
+Speaker A: Also for you, maybe it's very nice when you can be trending as a friend.
+Speaker A: You're friendly as well.
+Speaker A: So big buttons, flashy design, maybe some kind of gauges kind of thing.
+Speaker A: Yeah, a swappable front or whatever.
+Speaker A: Yeah.
+Speaker A: Or just different colors would be...
+Speaker A: I don't know if people also want to spend more money on fronts for their...
+Speaker A: You might control it too.
+Speaker A: Yeah, you never know.
+Speaker D: Yeah.
+Speaker D: More money for us.
+Speaker A: And I think we have to make it quite big.
+Speaker D: Quite big?
+Speaker C: Yes, definitely.
+Speaker A: Definitely.
+Speaker A: Also because it's expensive, it wanted to be something.
+Speaker A: It doesn't have much function.
+Speaker A: You don't want to get it all.
+Speaker B: It should be visible nearly anywhere in the room.
+Speaker B: As I said during my presentation, 50%.
+Speaker A: And it should not look nice when you put it on a table.
+Speaker A: I think you might want to put it standard.
+Speaker A: Yeah, it stands up.
+Speaker A: Yeah.
+Speaker A: You have to put it on its...
+Speaker A: So it's like a vase or something you put on a table.
+Speaker A: A vase?
+Speaker A: I don't know if you put it on a table.
+Speaker A: More like a statue.
+Speaker A: It's like a statue or something.
+Speaker A: Yeah, yeah, I see what you're doing.
+Speaker D: It's like four phones.
+Speaker A: But you also can put it somewhere...
+Speaker B: If you do that, but I don't know if that's possible within the production cost of 12 and a half euro.
+Speaker B: In the base, we could make a button and if you push it, the remote control itself makes noise.
+Speaker B: That's probably stupid.
+Speaker B: But as I found here, 50% was it 50?
+Speaker B: That's the first time.
+Speaker B: 50% often loses the remote control.
+Speaker A: Yeah, but when it gets lost, how can you press the button to make it?
+Speaker B: No, off the base.
+Speaker D: The thing you put it in.
+Speaker B: Oh, man, that's kind of nice.
+Speaker A: And then also you don't even need batteries because you can make it chargeable.
+Speaker B: Yeah, you can make it a chargeable one, yeah.
+Speaker A: Why not?
+Speaker A: Yeah, but, yeah, I think it might be...
+Speaker A: Why not?
+Speaker A: We don't...
+Speaker A: Yeah, maybe you...
+Speaker A: We don't know much about production costs, but when you can imagine that when you spend 25 euros on a remote control and it's basically promoting control and then the money, there must be money to spend on that kind of rechargeable...
+Speaker B: It should only cost 12 and a half euros, of course.
+Speaker A: Yeah, but we do it in Taiwan and so it's not going to be dead.
+Speaker A: Yeah, okay.
+Speaker A: I think it's a great idea.
+Speaker D: I think it's a good idea.
+Speaker A: Yeah.
+Speaker A: Some kind of bag.
+Speaker A: I've never seen that before.
+Speaker A: You make it...
+Speaker A: You see it with the...
+Speaker A: The mouses now.
+Speaker B: Yes, definitely.
+Speaker C: Yes, but it's handy.
+Speaker A: Well, you can recharge it, so you never have the battery problem.
+Speaker A: That's one thing.
+Speaker A: You can always find a lot of control about the handings.
+Speaker C: It's got a couple of controls.
+Speaker C: Remote controls nowadays can last two years, three years with two batteries.
+Speaker C: Okay.
+Speaker A: Well, maybe you could...
+Speaker A: And when it's too costly, you could probably skip the recharge.
+Speaker A: But you do need...
+Speaker A: Also, you would need a battery in the base unit as well, you know?
+Speaker B: Well, you could connect that to 220 volts, of course.
+Speaker D: Yeah, but that's not...
+Speaker A: Yeah, but then it's very easy to make it also rechargeable.
+Speaker A: I don't think that is going to cause much to make it also rechargeable.
+Speaker A: No, function in it.
+Speaker B: On the other hand, if you don't do it, we can also make a nice bay.
+Speaker B: I mean, it looks trendy and still put the bleep function in it.
+Speaker B: Yeah.
+Speaker B: I think the bay is definitely...
+Speaker A: I think it's a good idea.
+Speaker A: And make it...
+Speaker A: Well, it isn't most costly remote control.
+Speaker A: We can save on the functions.
+Speaker A: We just put some simple buttons in it, make it big and sturdy, nothing more.
+Speaker A: And just make sure there's some noise that it can make, or probably some kind of cheap light thing around it.
+Speaker A: That it lights up.
+Speaker A: Sure, why not?
+Speaker A: It's also nice.
+Speaker A: And as you put away, I think it's...
+Speaker A: Yeah.
+Speaker A: We have to...
+Speaker A: It's an easy market.
+Speaker A: We have to do something special.
+Speaker A: And for 25 euros, people want something special from your remote control.
+Speaker A: And we can deliver that in regards to the functions because we aren't going to...
+Speaker B: With eye candy, ear candy, whatever.
+Speaker B: Yeah, definitely.
+Speaker A: And then when you make it a nice looking shape, and then also you got the stand up thing.
+Speaker A: Yeah.
+Speaker A: I think it's a good idea.
+Speaker D: Yeah, it must be a gadget to have.
+Speaker D: Yeah, definitely.
+Speaker A: Well, we'll see what's possible concerning the costs, and if it's possible, we'll do that.
+Speaker A: And we even try to save up on other stuff to make sure we can do such a thing.
+Speaker A: And the first thing we most likeable thing to skip is the probability recharge function or something.
+Speaker A: If that's too expensive, we won't do that.
+Speaker A: But it would be nice.
+Speaker A: It would be nice, yes.
+Speaker A: It's the idea.
+Speaker A: I know the batteries last long nowadays.
+Speaker A: But people just think about, oh, I'll never have to buy any batteries again.
+Speaker A: Because it's very annoying when your battery is empty.
+Speaker A: And when you have some batteries around, and probably for two weeks, I think...
+Speaker B: Most television is break down before the battery pack is empty.
+Speaker B: No.
+Speaker B: Yes.
+Speaker A: So easy functions?
+Speaker A: Well, I think we'll work that out, stepping, numbers on it.
+Speaker D: Or just if it beep when the batteries are down.
+Speaker B: Yeah, why not?
+Speaker A: But it's also annoying.
+Speaker A: Because as long as it keeps working, you're not very motivated to do something about it.
+Speaker A: No, that's true.
+Speaker A: And you don't want to have those problems.
+Speaker A: And you won't have, if you have to rechargeable.
+Speaker A: And you don't have to use the unit.
+Speaker A: You can also put it on the side if people don't like it.
+Speaker A: But you pay for it.
+Speaker A: Yeah, but I mean, they pay for it because they think, oh, that's a great idea.
+Speaker A: I'm going to use it.
+Speaker A: And when time goes by and they think, oh, I'll never put them in a recharge, I don't think it lasts long enough, then they put it on the side and they can use it now and then.
+Speaker A: And when they look...
+Speaker A: I know for sure that everybody who buys this remote control within a couple of months, they will be in the situation that they're seeking for their remote control.
+Speaker A: They want to see something quick and they just push the button and I think really...
+Speaker A: Leave, leave all their days.
+Speaker A: Yeah.
+Speaker A: I've never...
+Speaker A: It's so simple, but I've never seen it.
+Speaker D: No.
+Speaker D: I ain't going to leave it just there.
+Speaker A: Maybe you should really...
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: Now, well, how much time have you got left?
+Speaker A: These clocks are in sync.
+Speaker A: Well, ladies.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: So we have 10 minutes or something?
+Speaker A: Something like that.
+Speaker B: Yeah.
+Speaker A: Yeah, but we're done.
+Speaker A: I think.
+Speaker A: We've decided on the functions.
+Speaker A: Well, there's some...
+Speaker A: There is a closing sheet.
+Speaker A: We have lunch break and then we have 30 minutes of individual work.
+Speaker B: Oh.
+None: Okay.
+Speaker A: I'll make sure I had some problems with digitizing the first minutes.
+Speaker A: The next minutes won't be a problem, but I'll try to make sure the first one will be in the folder too, but maybe it won't work, but you'll see.
+Speaker A: I think these are more important than the first one.
+Speaker D: Can you make an...
+Speaker D: A part of folder for the minutes?
+Speaker D: Oh, that's everything in one.
+Speaker A: Five minutes.
+Speaker A: Oh, five minutes.
+Speaker A: Yeah, because I did...
+Speaker A: The first minutes I did were a bit scratch, you know.
+Speaker A: Then I did a second one with a nicer layout, which I could use for the other ones as well, but I think I forgot to put done under the first one, and when you go right in second, it's not working when you try to write a second paper or something.
+Speaker A: Oh, that's fine.
+Speaker A: Yeah.
+Speaker A: You have to override it or something.
+Speaker A: I don't know.
+Speaker A: It wasn't on my pen.
+Speaker B: Should we, by the way, draw...
+Speaker A: What is going on?
+Speaker B: On our nice whiteboard.
+Speaker B: A little idea of the shape.
+Speaker B: Yeah.
+Speaker B: Probably.
+Speaker B: I don't know.
+Speaker B: Has anyone got...
+Speaker B: A little bit detailed ideas about the shape?
+Speaker C: I don't.
+Speaker C: Maybe like this pen.
+Speaker C: A bit bigger, I guess.
+Speaker B: Yeah, bigger.
+Speaker D: A little bit bigger, yeah, but...
+Speaker B: The shape is nice.
+Speaker B: It's something different.
+Speaker B: I'm going to want to feel more about that.
+Speaker A: I have to say, I have this again opening remote control in my head most of the time.
+Speaker A: Or I think some...
+Speaker A: Maybe we should...
+Speaker A: No, that will be too.
+Speaker A: Oh, I think we should...
+Speaker A: We could also...
+Speaker A: That would also be an idea, but I don't think...
+Speaker A: I don't know if it exists already.
+Speaker A: You should make a less-year-something design it.
+Speaker B: Okay.
+Speaker A: Yeah.
+Speaker A: That would also be nice.
+Speaker A: But then you...
+Speaker A: 12 and a half euros.
+Speaker A: Yeah, but then you don't have...
+Speaker A: Yeah, but it's not something that's in the production, because it's one time, you know?
+Speaker A: It's a single cost.
+Speaker A: Yeah.
+Speaker A: But then you can...
+Speaker A: Nah, I don't think it would be more expensive, because I bought the Alesi stuff more often and even small pencil holders or something are more expensive.
+Speaker A: Yeah.
+Speaker A: That's true.
+Speaker A: It would be nice idea, though.
+Speaker A: I don't know, I think it has to be...
+Speaker A: It has to have round forms or something.
+Speaker A: Like something like that or something.
+Speaker B: Something like that is very ergonomic.
+Speaker A: And then a...
+Speaker A: So?
+Speaker A: And base unit underneath it is also round.
+Speaker A: Put it in there, and it will wire on it.
+Speaker A: Maybe...
+Speaker A: Yeah.
+Speaker A: I don't know if some lights...
+Speaker A: A big...
+Speaker A: Well...
+Speaker A: A flashlight at the...
+Speaker D: A flashlight at the...
+Speaker A: Four-human program.
+Speaker A: A flashlight at the...
+Speaker B: Four-human program should be there, I guess, because your hands...
+Speaker B: And some of the extra functions will be in the smaller part.
+Speaker A: Some of the extra functions over here.
+Speaker A: Yeah.
+Speaker A: And the numbers on top, I guess.
+Speaker A: And in lights, maybe a ring of...
+Speaker A: No, no, you have to recharge functions.
+Speaker A: Maybe on the side of it.
+Speaker A: Maybe round...
+Speaker A: Around...
+Speaker A: Yeah, side of it.
+Speaker A: On the side of it.
+Speaker B: On the side of it.
+Speaker B: Maybe lights also around the four-human, the plus-minus program buttons.
+Speaker A: Yeah, but I also meant that the blinking light...
+Speaker A: You know the ones that also blink when you try to locate your remote.
+Speaker B: Okay.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker D: Well, probably at the side, you now look at the front.
+Speaker A: Yeah, yeah, exactly.
+Speaker A: When you see it from the side, it would look just like that.
+Speaker A: Yeah.
+Speaker D: And then there is...
+Speaker A: It's triple for lights or something.
+Speaker D: Yeah, okay, yeah.
+Speaker D: Something like that, yeah.
+Speaker A: Alright, I think it's nice for one thing.
+Speaker A: Maybe put something on top of it or you know, like this.
+Speaker A: Looks funny.
+Speaker A: I don't know.
+Speaker A: No.
+Speaker A: Or some bump.
+Speaker B: I think that'll be too big then.
+Speaker D: Yeah.
+Speaker D: Too big then.
+Speaker D: Bumpers or something?
+Speaker A: Well, I have to think about it.
+Speaker A: I think we're done.
+Speaker B: Yeah.
+Speaker B: Yes, we are.
+Speaker B: I'm alright.
+Speaker B: Yes, I guess it's lunch time.
+Speaker D: Okay then.
+None: Mm-hmm.
+Speaker A: I don't know.
+Speaker B: Half an hour?
+Speaker B: I thought our next individual round was half an hour.
+Speaker B: Yeah, I didn't know about a lunch break.
+Speaker D: Well...
+Speaker D: Oh, I missed it.
+None: I missed it.
+None: I missed it.
+None: I missed it.
+None: Whoo-hoo-hoo-hoo.
+None: I missed it.
+None: I missed it.

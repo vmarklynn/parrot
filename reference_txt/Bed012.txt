@@ -1,1 +1,0 @@
-The focus of the meeting was on a presentation of the work done already on the building of the Bayes-net. The complete prototype of the Bayes-net will be presented in the next meeting. After that, it will be possible to define interfaces and a dummy construction parser, in order to test and link modules together.

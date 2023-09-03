@@ -1,0 +1,306 @@
+None: All right.
+Speaker A: Thank you very much for coming to this third meeting of the design group.
+Speaker A: I think we made some definite progress to the last one.
+Speaker A: And come up with some interesting suggestions for our new remote control.
+Speaker A: Again, very quickly, just present some notes of that meeting.
+Speaker A: Now, the problem with existing remote controls we felt was that they were ugly and that people who prepared premium for something better.
+Speaker A: There's got lots of buttons on them that people don't use and find difficult to learn and people lose them.
+Speaker A: We thought that for our new remote control that everybody will want to rush out and buy, that we should look at speech recognition rather than buttons.
+Speaker A: And that if you have any buttons, there should be very few of them and only for those functions that are actually identified that the people use.
+Speaker A: We want to go for a long lasting battery that we guarantee for the life of the product and a shape that will be instantly recognizable, A, as a trendy remote control, and B, as a real reaction product so that when people are happy with that, they will want to buy everything else from us.
+Speaker A: So, again, we'll have the three presentations from the three of you and then we'll make a final decision.
+Speaker A: And the decision that we need to make today find NER, what energy source we want to use, whether it is practical to use a long lasting one.
+Speaker A: I think our discussion was around the fact that if we're going to go for a long lasting power supply then basically it's sealed for life.
+Speaker A: If anybody has managed to run one down, we'll give them another one.
+Speaker A: It will be prominently displayed as part of the advertising literature that it's for life, guaranteed for life.
+Speaker A: Now, the internal chip, and this is where I need Kate's expert advice and given that this has to go to market as quickly as possible, do we go for a custom-designed chip or do we buy one off the shelf and program it ourselves?
+Speaker A: I mean, I'm not an expert on these things, but presumably there must be loads of them already on the market that we can modify, but that's your area of expertise.
+Speaker A: And then the overall design of the case is Kendra's field.
+Speaker A: We had some discussions last time as to how we might go forward, and we'll finalise those today.
+Speaker A: This is all linked in with the user interface, whether we go for voice buttons or a bit of both.
+Speaker A: And then for the next meeting, Kate will be looking at the look, feel, and design, Kendra, how the user actually uses it, and of course the product evaluation.
+Speaker A: Kate and Kendra will be producing a model for us to look at.
+Speaker A: So if we can have the three presentations again, please, and perhaps we'd like to start.
+Speaker B: Kate, what was I saying?
+Speaker E: Okay, I'll just be talking about the components design.
+Speaker E: Okay, basically I just looked at what exactly do remotes do.
+Speaker E: Basically they wait for you to press a key or give a voice command, and then this is translated into light signals, which are then seen by the TV.
+Speaker E: The materials we're going to need to look at.
+Speaker E: The two big ones are the integrated circuit chip and the battery, and the integrated circuit chip works in conjunction with a diode, a transistor, a resonator, two more resistors, and a capacitor.
+Speaker E: And the battery works in conjunction with a resistor and a capacitor.
+Speaker E: Basically what happens is you'll press a number or give a voice command, and this creates a connection within the remote.
+Speaker E: And it allows the chip then senses this connection and produces a signal in the Morris code format.
+Speaker E: This signal is sent to the transistor, which amplifies it, and then sends it on to the light emitting diode, which is then changed into infrared light, which is sent to the TV and sort of seen by the TV, and which changes the channels.
+Speaker E: So as for how we should end up using this in our remote, a couple of main questions are the buttons.
+Speaker E: The fewer buttons you have, I guess the few internal connections and internal codes you're going to need.
+Speaker E: However, to not have buttons, or to use a voice command instead of buttons, might make these connections more difficult and raise the production cost.
+Speaker E: That's something we should think about.
+Speaker E: Also, we have to work within the company constraints, and the company has informed me via email that there are experts at push buttons, and that seems to be the most cost-effective way of producing it.
+Speaker E: Also, with battery connections, the company has some limits on the batteries we can use, so I was thinking perhaps a combination of solar cells with a backup basic battery, and somehow between the combination of that two, we might be able to come up with something that will last the lifetime, or the five to ten years, and we could still keep that original idea.
+Speaker E: We also need to look at the chips, custom-divine versus off-the-shelf, and the custom design will give us much more flexibility and enable us to incorporate the voice function that we all seem to have agreed upon.
+Speaker E: However, that's going to cost more, but the off-the-shelf is going to be cheaper, and it's going to be allowed us to produce it quicker and get it out there faster, but it's going to be less flexible with the features, especially things like voice activation, which haven't really been used in the company.
+Speaker E: There's not really chips out there, that would be easy to convert, so if we were definitely going to go with the voice option, we'd probably have to design our own chip.
+Speaker E: That pretty much sums it up.
+Speaker A: Sorry, can you just put that one back up again, please?
+Speaker E: I mean inevitably a custom design chip is going to be more expensive. Do we know by hand-notch?
+Speaker E: I don't actually have any price information.
+Speaker A: Do we know how long it will take to develop a custom chip?
+Speaker E: A lot longer than an off-the-shelf chip. The problem is the voice technology is not really highly developed, it's still in an experimental form, so it's hard to predict the time.
+Speaker A: Right, I think we need to make a decision here, given that the company wants us on the market quickly and cheaply, that would appear to effectively constrain us to an existing chip, unless they're for conventional button technology.
+Speaker A: Before we go around, does anybody have anything to say about that?
+Speaker C: I just have a question about that. Does it make a difference if there are just a few commands?
+Speaker C: For example, if you can pre-program in numbers 1 through 10 and pre-program say 9 channels and then just use the voice recognition to say channel 1, and then you've programmed in, say, BBC4 as your channel 1 as your favorites.
+Speaker C: I'd like to have a certain number of favorites.
+Speaker E: To incorporate the voice activation in it is sort of the trick. Once you've got the whole voice chip in there, then it's pretty much the world, the sky is your limit, but the big step is to actually get the voice activation chips in there and working.
+Speaker A: I find that it's surprising, given that mobile phones incorporate voice activated dialling.
+Speaker A: This information is from the internal information.
+Speaker A: Of course, mobile phones do tend to be more expensive.
+Speaker A: Because mobile phones are expensive, you can't say it's the voice recognition that these, but we don't know.
+Speaker A: Given that the technology is not well developed and given that it's never been done before, with the double risk, perhaps we ought to stick to two buttons.
+Speaker A: Since the last thing we want to do is present a project that doesn't work.
+Speaker B: Thoughts?
+Speaker D: Another thought, oh sorry, go ahead.
+Speaker D: I was just going to say that maybe we can cut cars somewhere else to bring them to the local cost.
+Speaker A: Do we think the voice technology is fundamental to the project?
+Speaker E: It's something we've discussed since the beginning.
+Speaker E: I think in our minds it's fundamental, but I don't know that the upper echelons of the company would necessarily agree with that.
+None: Thank you.
+None: Thank you.
+Speaker A: Thank you.
+Speaker A: Thank you.
+Speaker C: I think we're going to have the voice recognition for the whole thing.
+Speaker D: I think it's a second most important aspect to you, so it should be technologically innovative.
+Speaker A: If that means we've got four buttons, but I mean the same question, do we need the five buttons for channel change, up down, volume up down, and on off, just as a backup?
+Speaker E: I would say we do.
+Speaker A: Okay, sorry, did you want to say anything?
+Speaker C: Yes.
+Speaker B: It's going to work.
+Speaker C: Okay, so I did some research on the internet and what, you know, the user interface are just the aspects that are seen by users, commands and mechanisms for the operation, and they're just kind of a variety of choices.
+Speaker C: So, a lot of times they tend to look cluttered, and these were just a couple examples of different kinds that are a little bit more unusual. There are some special ones available, like this one right here, which is marketed towards children, different designs, and one of the things that we need to watch out for is a V in volume because people, some of the other ones, I think a little picture of what I thought ours could look like.
+Speaker C: So just kind of minimize the clutter, avoid too many buttons, and also one of the things that people have used is a slide button, like you have on a mouse, that possibly we could use that on the sides for volume, for example, have a slide button on the side, and then you can pre program the channel's voice recognition, and then the voice response sample, okay, to interrupt, okay, do you understand anything about slide controls? I mean, I think the reason they're used is push buttons is that they're simple, cheap, and I think they're about the same cost, really.
+Speaker E: I mean, I think it's just sort of, there's a lot of slide buttons out there, I think it's pretty much the same sort of connection.
+Speaker B: Fair enough, fine.
+Speaker C: Just because I'm, for example, if I'm using a mouse, I like to be able to slide it up and down, so I thought it might be good for volume to just be able to kind of roll it, and then have the up and down, and then the...
+Speaker A: So there's three buttons in the slider.
+Speaker A: Three buttons, the channel up there.
+Speaker D: If you've got a channel up down, you'd have a slider on that as well, because if you know what's on the thing, it kind of like it's got kind of...
+Speaker D: It kind of like sticks, I mean, up like one unit, if you're saying me?
+Speaker D: Yeah.
+Speaker D: So it kind of goes up one, then you can keep rolling up, but it's like a cog or something, so you kind of take it up one at a time.
+Speaker C: The only advantage I was thinking of to having the buttons on one side for the channel, and then the slider is that if you're just holding it in your hand and you pick it up, it's easy to know, okay, this is just a volume.
+Speaker C: That's quite a lot of what you're thinking.
+Speaker E: But it doesn't like pick up remote, so you're meant to change the channel and turn the volume, or the rest of it, so it would be kind of good to have and feel completely different.
+Speaker E: You'd know what you were fiddling with.
+Speaker E: Yeah, I think she'd have a bit of a mouse with that.
+Speaker A: I mean, this is what we have to come up with, is the actual shape that people instantly pick it up and know what it's going to do.
+Speaker A: Yeah.
+Speaker A: Okay, so we're looking at sliders for both volume and channel change.
+Speaker C: Well, I was thinking kind of just for the volume, but what do you guys think?
+Speaker D: I don't know, depending on the final shape of it, because you could have like, I don't know, where it is there, it looks like you can control the volume with your thumb, and then you can control the buttons.
+Speaker E: Yeah, in that kind of position, the fingers would be better for pressing.
+Speaker A: Yeah, I mean, it seems to me that it also has the advantage that the two are clearly different.
+Speaker A: Yeah.
+Speaker A: And there's no possibility of confusing the two.
+Speaker A: So, okay.
+Speaker A: That's just a long.
+Speaker A: Right.
+Speaker A: So, that's, sorry, that's all you.
+Speaker A: Yes.
+Speaker A: Okay, fine.
+Speaker C: Yeah.
+Speaker D: Oh, that's it.
+Speaker D: There we go.
+Speaker D: Yeah, this is my important trend watching.
+Speaker D: The digital is from Internet from Executive Summary for us on the top three things once it's back.
+Speaker D: You can see my, I've got reports from a past plan on new fashions.
+Speaker D: And the most important aspect is the look, it has to look fancy looking fuel.
+Speaker D: Instead of the current functional looking fuel, this is, this is a twice as important as the second aspect, which is the 10, logically innovative side of it.
+Speaker D: So, on the third being easy to use, it's probably a given before you have to try to incorporate.
+Speaker A: So, well, I mean, I think that's what we're suggesting to address all three of those.
+Speaker B: Yeah.
+Speaker B: Okay.
+None: Nice.
+Speaker D: Yeah, sorry.
+Speaker D: Yeah, and from the fashion watches from on, I have said, for vegetables are an important thing for clothes, furniture, shoes, etc.
+Speaker D: So, clothes, shoes, furniture.
+Speaker D: And a spongey material to be used on the outside.
+Speaker A: I'm not sure that's different, so, yeah.
+Speaker D: But I was going to say, yeah, for vegetables, important to this year, important to furniture.
+Speaker D: I just can't say, like, fashion, we're going for the, it looks fancy in fashion.
+Speaker D: So, obviously, the way we're going to be going through it.
+Speaker D: But, but, fashion don't last very long.
+Speaker E: Well, that can kind of tie into our changing face things, like we could have vegetable themed this year.
+Speaker E: Yeah.
+Speaker E: Whatever happens next year, we can have the space.
+Speaker D: Yeah.
+Speaker D: A spongey skin on it.
+Speaker C: And then we can just whip that off and...
+Speaker C: Yeah, like the kind you get on my canned wipes, you know, that kind of spongey.
+Speaker E: Yeah, weird, I don't know what that is, but yeah.
+Speaker A: Yeah.
+Speaker A: Also, we need to drop it without damaging it.
+Speaker A: Yeah.
+Speaker C: Yeah, that's true.
+Speaker D: Yeah, we could, if we could save, depending on the cost of the product itself, you know, could we have a cheaper, a cheaper power source, and then just have it annually renewed?
+Speaker D: Instead of having a ten year guarantee with interchangeable covers, we're going to buy a new one every year, a new one-wide new fashion's coming.
+Speaker A: I mean, it's, it's an interesting idea.
+Speaker A: It's like the old swatch watch, where only batteries have a lot changed in those, because people just bought a new one when it went to fashion.
+Speaker A: It's just never been seen as a fashion item before.
+Speaker A: Yeah.
+Speaker A: Yeah, so if they're made in sufficient quantity.
+Speaker E: I think it's easier sometimes to have them buy changeable covers for it than to buy a whole new one, because you don't feel like you're investing in a whole new product.
+Speaker A: I mean, we can... I mean, my feeling is that current power sources are such that for relative to little cost, you can make it last, you know, a long time.
+Speaker A: But if you also make it cheap enough that people are there changing the cover every year or even buying new one every year, then it's even better.
+Speaker C: What if we included the batteries in the cover?
+Speaker C: Oh, yeah.
+Speaker E: So, that also encourages them to buy new covers.
+Speaker C: Yeah, so can I see that?
+Speaker C: And then just this is the example.
+Speaker A: Yeah, I don't know.
+Speaker A: The immediate thing that comes to mind with that is that you then got the connection and you've immediately got a source of unreliability.
+Speaker A: Whereas the advantage of having it plumbed in is that the whole thing is all completely soldered together.
+Speaker A: Yeah, I guess that's...
+Speaker A: And it takes a reliability.
+Speaker A: But I mean, I know what you're saying and understand where you're coming from.
+Speaker D: But like more than just the battery, like a complete different, like you've only got like this bit to the bit you keep.
+Speaker D: And this is expensive, but this is like the chip and this is the microphone.
+Speaker D: And then this is the power source and the... but everyone sees.
+Speaker D: And then...
+Speaker A: I think if you're going to get it down that route, then we're talking about the cost slightly more than that.
+Speaker A: Just building the whole thing in one.
+Speaker A: Yeah, you're putting cheap production costs.
+Speaker A: And giving people the option of buying a new, a complete new thing.
+Speaker A: The advantage of a replaceable cover is that anything that doesn't have a cover on at all, it will still work totally.
+Speaker A: And people lose the cover.
+Speaker A: I mean, they might be well inclined to go out and spend however many euros on a new one.
+Speaker A: Rather than a complete new...
+Speaker E: Well, that's just it with the covers, you're sort of tricking them into continuing to spend their money on our products without making them feel like they're being ripped off having to buy a new product.
+Speaker A: Yeah, I mean, it's up to...
+Speaker A: It's up to...
+Speaker A: It's up to our marketing people to make turn it into a fashion item.
+Speaker A: And as external fashions change, then we get new covers on the market and readily available.
+Speaker E: And that's the sort of thing, once you get the mold set, you can just whip out different colors.
+Speaker C: If they have a fresh, fresh, fresh, fresh, fresh fruit and animal print and colors.
+Speaker A: Yeah, okay.
+Speaker A: Sorry, you can't finish the door.
+Speaker D: I don't watch that.
+Speaker D: I was just going to say, yeah, we're going to make this part of the fashion supply to furniture, so we're going to make this part to furniture.
+Speaker A: It's the sort of thing that we want people to have prominently displayed on their coffee table to say, this says something about me.
+Speaker A: This is fashionable.
+Speaker A: This is fashionable.
+Speaker A: I'm with it.
+Speaker A: I'm up to date.
+Speaker A: The design that I've got, then it could be a homemade design.
+Speaker A: This says this is not just a television remote control. This is a fashion accessory.
+Speaker A: So, I mean, the basic shape is what we give them that we've got.
+Speaker A: One on off button, presumably two buttons for channel change and one slider.
+Speaker A: And basically nothing else.
+Speaker A: We need to decide on the, just the basic shape of the thing.
+Speaker A: Now, whether we go down the fruit and veg roots, and I don't suggest we make it look like a banana.
+Speaker A: That's what the organic curved look, the two deliberately get away from the square look of most currents, remotes.
+Speaker A: Whether the fixed part of it is the corporate yellow.
+Speaker A: Because there's something in there, the corporate logo needs to be prominently displayed so that people look at it and say, right, that's a real reaction.
+Speaker A: Remote control, I want one of those.
+Speaker E: I don't know that we should make the whole thing.
+Speaker E: You'd have a yellow circle with the RR and it's on it.
+Speaker A: Yellow seems a bit of a strong color to make me feel like the thing, no, but we should like wipe the gray black or some sort of black color.
+Speaker A: We're simply required to incorporate the corporate logo prominently.
+Speaker A: Well, this is the whole point.
+Speaker A: Yes, I've got a real reaction remote control.
+Speaker A: Here's my real reaction, copy maker or whatever.
+Speaker A: And then people demand more real reaction stuff.
+Speaker C: Well, I was sort of picturing maybe a shape that's almost like a mouse.
+Speaker C: When they hold it, because a mouse is pretty comfortable to hold in your hand, maybe we could make it a slightly different shape so they could hold on to it.
+Speaker C: But that way they can have the volume on the side and then the channel buttons, the power, wherever.
+Speaker A: I mean, now it's just an idea that I had.
+Speaker A: Well, as I said, my idea was probably a bit fatter than this, but that sort of shape.
+Speaker E: You want to narrow it a mouse, because a mouse you're kind of just resting on it.
+Speaker E: You want something you can definitely grip.
+Speaker A: It's sort of a combination.
+Speaker A: The mouse but held.
+Speaker A: So you sort of hold it, you hand like that.
+Speaker A: Fiddle around it.
+Speaker C: Yeah, so yeah, maybe a little wider than this because this is pretty comfortable to hold.
+Speaker E: Maybe almost like a hairbrush, you'd get the width of that end of the hand and it widens up top.
+Speaker C: And then it would have a wider thing to have the light, the infrared light at the TV and just kind of change channels and adjust the volume.
+Speaker C: The power could be wherever up at the top or something.
+Speaker C: Cool.
+Speaker C: What do you guys think about that?
+Speaker D: Yeah, so it's okay, yeah, I'm just suddenly realizing that, yeah, we're discussing how much how good it's going to be to change channels.
+Speaker D: We still can just tell it to.
+Speaker D: We're starting to get away from the voice functionality of it.
+Speaker C: Oh, yeah.
+Speaker C: That's a very good point.
+Speaker A: That is a very good point.
+Speaker A: I think we decided that we were actually going down both routes.
+Speaker A: Yeah, we need the manual controls and that they should be of that form.
+Speaker A: Yeah.
+Speaker E: Do you know this shape also kind of lends itself to voice-ness because if you're holding it and you're fiddling, which you can also bring it up like that and it's like a blessing.
+Speaker D: Yeah, maybe we could, like we were leaving out the buttons for the forestry kind of used stuff.
+Speaker D: We could incorporate that into the voice.
+Speaker A: Honestly, my personal view is that if it's not there, people wouldn't use it anyway.
+Speaker A: I suppose.
+Speaker D: The areas for the off-chance, you know, the brightness is rough on your TV.
+Speaker D: The contrast is changing.
+Speaker A: It's certainly possible.
+Speaker A: I mean, but we're going beyond, given the state of the technology, we want something that we know will work.
+Speaker E: We can still incorporate the voice with less buttons.
+Speaker E: I mean, if the power button was also somehow like a menu button, you could press that or do voice commands.
+Speaker E: And the volume thing could also be to scroll through other options.
+Speaker E: And you could scroll through brightness.
+Speaker E: Yeah, I suppose you can minimize the buttons and still have those, you know, brightness and tint and stuff.
+Speaker A: I mean, I'm getting a clear message that we think that we should have those facilities available.
+Speaker C: We could have the channels and the power and then a menu button and then the volume.
+Speaker C: So have four buttons and the volume instead of three buttons on the volume.
+Speaker A: Okay, if we're going down that route, then we need some sort of display.
+Speaker A: Do we need some sort of...
+Speaker A: Yeah, that's the turn.
+Speaker E: Yeah, that usually could probably be the menu.
+Speaker E: And then hit menu and menu will come up on television and have like tint brightness.
+Speaker D: And you use the scroll through it.
+Speaker D: On to like a mouse, the scrolling button is actually a button as well. You could press it and press that.
+Speaker C: Yeah, press that.
+Speaker C: Yeah, that might be where you saw that work though, but yeah.
+Speaker C: Yeah, it's like the mouse where you just kind of click it. You just press it.
+Speaker C: Yeah, and you could just click that.
+Speaker C: So if you had like the menu, then you could scroll through and then click it to select.
+Speaker C: Yeah, you know what I mean?
+Speaker A: Yeah.
+Speaker A: Okay, we've got five minutes to go in this meeting.
+Speaker A: So I think we've actually very conveniently just come to a good point to sum up.
+Speaker A: So the Kate and Kendra now go away and play with a bit of plasticine or play dough or whatever it is on the other side of the Atlantic.
+Speaker A: And actually what we've discussed into something, I was going to say concrete.
+Speaker A: That's a slightly inappropriate word to something that we can see.
+Speaker A: And Andrew can go away and think about how we can actually market this as a concept.
+Speaker A: So not just a simple remote control.
+Speaker D: Can I just get some things clear as front of you?
+Speaker D: Yeah, of course.
+Speaker A: Energy source is going to be long term.
+Speaker A: I think we decided that we're going to, for simplicity of manufacturing and maintenance that we will go for a long term battery source.
+Speaker A: On the basis that if you're going through making a fashion statement, then people are more likely to change it anyway before it runs out.
+Speaker A: And making assumption that we can aim for a battery that will last most people for, I'll say at least five, ten years, and that we will guarantee it for five years.
+Speaker A: And we're having a custom chip.
+Speaker A: We're having a custom chip, but given we've cut the functions down, that will hopefully not be too problematic.
+Speaker A: But given the technological innovation is important, then we need to say it again technologically innovate.
+Speaker A: And we must resist any efforts to try and water that down.
+Speaker D: And in the tangible case.
+Speaker A: Interchangeable case seems to be important to the concept.
+Speaker A: It should be cheap if we avoid any electrical connections.
+Speaker A: If we can come up with some way of allowing people to actually personalize it to whatever they want, then this is totally new.
+Speaker A: We don't know whether to what extent people do it or not, but if they've at least got a good selection of covers that they can use anyway.
+Speaker A: And if we can keep them rolling, then get them in the supermarket when they go down to any of the famous supermarkets I wouldn't mention any names.
+Speaker A: It's good for the supermarket, it's good for those, and it hopefully makes them feel better.
+Speaker D: And are we going to have it being illuminated from inside onto the button?
+Speaker A: No, because we've got to say a few buttons that it actually makes that redundant.
+Speaker C: Yeah, and especially if we're making them so different to feel.
+Speaker A: And that solves one of the problems of battery life, because that would pop up the battery life.
+Speaker A: I mean, given the nature of the buttons we're having, it's actually unnecessary, I think.
+Speaker D: Are we having it at any angle?
+Speaker A: Or is it just as wide?
+Speaker A: Certainly wider angle than current, so that if you're holding it anyway, like your 92.
+Speaker A: And it will work most of the time.
+Speaker A: Not like my mum who points it at the ceiling and why the television doesn't work.
+Speaker A: I mean, I sort of had visage that if this was the thing, then sort of the hold of the top would be the infrared score.
+Speaker A: I mean, the reality is people are they're going to be looking at the television whilst they're using it, the chances are.
+Speaker A: So, it's all clear where we go from here.
+None: So,

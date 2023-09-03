@@ -1,0 +1,310 @@
+Speaker C: I'll set.
+Speaker C: Okay, cool.
+Speaker C: Right, so basically I'm just going to go over real quickly some news I just got from the board on how we're supposed to do with this remote control, and then I'm going to turn it over to you guys to make brief presentations on what you found, and then we'll have a bit of discussion.
+Speaker C: So basically, I've just found out from the board I don't know if you guys got this email as well, but it needs to be television only.
+Speaker C: So we're not doing DVD, we're not doing anything else, it's just going to be a television remote.
+Speaker C: It also needs to have the company colors included in it.
+Speaker C: So that's red and black, and it has to have the slogan.
+Speaker C: In case you guys forget the slogan, we put fashion in electronics.
+Speaker C: And no teletext.
+Speaker C: I'm not sure what teletext is, but I'm assuming you guys do, so we don't want to include that in this particular design for reasons that I don't really know.
+Speaker C: But it's the board, so there you go.
+Speaker C: So basically, given those guidelines, which we'll have some effect on how we design, we'll discuss it later, I mean, because it's television only, we'll be able to change our well, we can sacrifice more function for a better television remote.
+Speaker C: Anyway, so I'm going to turn it over to the industrial designer to go ahead and make a
+Speaker B: presentation. Okay.
+Speaker B: So do I implode this bit here?
+None: Yep.
+Speaker C: Might have to hit function F8, but it looks like it's going to come up.
+Speaker B: Okay.
+Speaker B: Right.
+Speaker B: That's page one of my presentation.
+Speaker D: Very nice.
+Speaker D: Pre-first PowerPoint is lovely.
+Speaker B: So the method, we're going to have to understand how remote controls work and we're going to successfully complete this project.
+Speaker B: Remote control works as follows.
+Speaker B: It's all pretty basic stuff, you guys.
+Speaker B: It sends a message to another system, so there's an energy source involved in that, like battery or solar power, something along those lines.
+Speaker B: There's an integrated circuit, just the microchip, and that actually composed the messages, and usually the way a remote control works is it sends infrared bits to another system.
+Speaker B: User interface controls the chip, basically that's the casing and the buttons, and accordingly, the messages as well.
+Speaker B: So my findings, I just did a preliminary study here, and I found that too much metal in remote design can potentially cause interference with the ability of the remote to send commands.
+Speaker B: Too much metal can cause remote to behave unexpectedly by receiving false signals.
+Speaker B: Too much metal is used, sometimes people pick up radio signals and the like.
+Speaker B: And there's also the possibility of the remote catching on fire and injuring the customer.
+Speaker B: I just think of those lawsuits, that would be really bad.
+Speaker B: Therefore, I suggest primarily plastic construction.
+Speaker B: Components, just some ideas that I had, energy source.
+Speaker B: It's kind of hip to be eco-friendly, so I thought maybe we could do something with solar power with an alkaline battery backup.
+Speaker B: User interface, since we can't use metal, I was thinking maybe a high-grade recycled plastic.
+Speaker B: The chip, silicon-based chip, I don't really see any way around that, we can't really be different in that respect.
+Speaker B: The sender, while I'm thinking infrared, because it is the industry standard, multi-channel, that's the word I made up, I don't really know what it means.
+Speaker B: Pal and NTSC compatible, and probably a 200-foot range.
+Speaker B: And the receiver, of course, is a number of electronic devices, but in this case, only one of these.
+Speaker B: Personal preferences, I really think that we should use plastic as opposed to metal.
+Speaker B: The company simply can't afford this kind of lawsuits, which admittedly is going to come at the cost of a certain aesthetic value, because we were thinking.
+Speaker C: Is there a way that we can use modern types of polymers or modern types of plastics that maybe do have some kind of aesthetic value?
+Speaker C: Like if we talk about, like, on the laptop, and the other ones we use, that's pretty nice, and you can do, is there some kind of nice color there in quality of plastic that we can work with?
+Speaker B: Yeah, that shouldn't be a problem.
+Speaker B: For example, the plastic they have in their laptop there is something that's perfectly possible for us to do.
+Speaker C: Great, thank you very much, Nathan.
+Speaker C: If next we can have the user interface developer, go ahead and make a brief presentation, that would be great as well.
+Speaker C: Just plug yourself in here.
+None: Hit function if they're real quickly, hold down.
+Speaker B: This is plugged in well.
+Speaker B: There it goes, computer adjusting.
+Speaker C: There you go, sweet.
+Speaker A: Well, so here we have my technical function design presentation.
+Speaker A: So a few of the requirements we need here, we basically need to offer an electronic device, it needs to be universal, and it possibly operates several different types of devices, although we now find that.
+Speaker A: Sorry, I couldn't get that get to use before.
+Speaker A: So some of my findings basically want to send messages to a television set.
+Speaker A: That would be any number of different things, such as switch on the television, switch to the next channel, that sort of thing, I think we're all quite intelligent and no what a normal remote control does.
+Speaker A: Now, some of the other things I found is a complicated remote control, I'm sorry that we can't quite see my red there very well, but this remote control has many functions.
+Speaker A: So it can do a lot of things, but it is quite complicated and most users will find that they won't use most of the functions because they don't know how to use them and don't want to take the time to learn how to do it.
+Speaker A: As you also notice, it's quite a boring design.
+Speaker A: Another remote control, slightly different, it's a simple remote control, many less buttons, but has many fewer functions, much easier for the user to manipulate and use.
+Speaker A: It also has a bit of a cheap look and is also quite boring.
+Speaker A: So my personal perspective revolutionized the idea of a remote control.
+Speaker A: So attaining the functionality of the complicated device but use a simple format of display for the user to work with.
+Speaker A: I was going to add another slide here, but I didn't quite have time there.
+Speaker A: Just incorporating some of the ideas that we had previously, like having multiple faceplates.
+Speaker C: Great, thanks for that Ron.
+Speaker D: I think so.
+Speaker D: I can plug in.
+Speaker D: That would be perfect, thank you.
+Speaker D: Slide your open ready.
+Speaker D: Or not.
+Speaker C: Give it a little bit.
+Speaker C: There we go.
+Speaker D: Okay, so this is me.
+Speaker D: Basically, I was looking through some marketing reports that we've got.
+Speaker D: We had a usability test where we were actually watching 100 people use TV remotes and see what it is that they're using and then they feel that questionnaire about what they like and what they don't about their general TV remote control practices.
+Speaker D: Pretty much through testing we were finding out that most of the time everybody's just using changing the channel, turning it on, using the volume, the majority of the time that's all that's going on.
+Speaker D: The other functions happen for some people, they're important, but the primary uses are really, really basic.
+Speaker D: And so, big complicated remotes, like the one we saw in the last presentation are really not the general public's use.
+Speaker D: They're not using a lot of it.
+Speaker D: They don't need it.
+Speaker D: They even find it frustrating when there are all those buttons they don't know what to do with.
+Speaker D: And we also found out that 50% of our people, the worst thing about a remote is how often they lose it and then they can't find it in the room.
+Speaker D: So, I think what we were talking about with a pager or something will really come into play with a lot of these people.
+Speaker D: There's also a survey about what they like about the remote and pretty much they all think they're hideous and not very useful.
+Speaker D: And the younger demographics are all really interested in voice recognition options.
+Speaker D: I don't know if that's something we're ready to look into technically, that's up to the design people, but it is something we're thinking about, especially since the younger demographics is obviously the one that's going to keep growing.
+Speaker D: So, if that's the direction we're headed into something to think about.
+Speaker D: But basically it really is the primary functions and getting it to look nice, which are the standards.
+Speaker D: So, it's a good start for us.
+Speaker C: That's great.
+Speaker C: Thank you, Sarah.
+Speaker C: Right.
+Speaker C: So, yeah, I'll just switch that back here.
+Speaker C: I'll finish up, which is a bit of discussion.
+Speaker C: I'll just go ahead and put that on the panel for the next phase.
+Speaker C: Right.
+Speaker C: So, I think we've covered most of these important questions through this, through you guys's presentations.
+Speaker C: We've got the industrial designers suggest, or pretty much emphatically suggested that we go with plastic.
+Speaker C: Sarah, she's recommended that we go for simpler functions, so fewer functions.
+Speaker C: But we need to decide who are we selling this to.
+Speaker C: Your stats suggested that 75% of people under 35 want to be thought about voice control.
+Speaker C: So, do we want to go for that, or do we want to go for an older demographic?
+Speaker C: And my thought is, we've got, if we're going to go for a sleek look, I mean, we are putting the fashion and electronics.
+Speaker D: We're not catering to the pensioners of the world, but we don't think so.
+Speaker C: So, maybe this, we should look into this younger demographic.
+Speaker C: So, we need to wonder how we can make it better and smaller and faster.
+Speaker C: We're constrained to plastic very well.
+Speaker C: We've got this idea, Ron, was saying we need to think about revolutionizing the way it's looking, which might be easier given that we're going for simpler function and that we're only going for tele.
+Speaker C: So, this voice operation thing is a good idea, assuming that it's doable, at least for the basic controls.
+Speaker C: Maybe we can balance it that way.
+Speaker C: You know, we can see.
+Speaker C: Okay, you can't say record alias tonight, except we might be able to say volume up.
+Speaker C: Yeah.
+Speaker B: Right.
+Speaker B: I think it would be possible to combine the locator device and the voice recognition technology.
+Speaker D: Oh, that could work.
+Speaker D: I like that.
+Speaker B: With a simple command like locate.
+Speaker B: Yeah, something very basic.
+Speaker B: It could start to be right.
+Speaker B: Or be found.
+Speaker D: Is that only going to be within our 200 foot range then?
+Speaker B: Oh, yeah, I think that's right.
+Speaker B: Doable.
+Speaker C: The difficulty, what would be in, I think, you can't speak into the remote that you're trying to find.
+Speaker C: Can you have something that picks up a voice from far away?
+Speaker C: It's a good point.
+Speaker C: It's hidden under the couch.
+Speaker C: But then again, you have this we thing.
+Speaker C: You know, just a little chip or whatever that has the page button.
+Speaker C: Maybe that could be voice activated too.
+Speaker A: A little sticky pad to stick on top of your television.
+Speaker A: I need to say slinging to that.
+Speaker A: Yeah.
+Speaker A: I don't know if you can see the lines here.
+Speaker C: Or an isolated magnet or something like, you know, something that wouldn't interfere.
+Speaker C: I don't know if that's the technical thing.
+Speaker C: Yeah, I like that.
+Speaker C: I like that.
+Speaker C: The voice recognition to the paging system.
+Speaker A: The other thing is we might be able to handle the simplicity of the remote control and kind of put the more complicated things into a voice control.
+Speaker A: So it could be sold to both the younger market and the older market.
+Speaker A: The younger market could use kind of the voice control method.
+Speaker A: The older market might get it just an option.
+Speaker A: Exactly.
+Speaker A: You might consider the older market could use this simpler design for the traditional buttons.
+Speaker A: I was thinking about the screen.
+Speaker D: Sorry.
+Speaker D: Oh, go ahead.
+Speaker D: The if we're going to do this touchpad screen thing, are we still do we know if that's an option technically right now?
+Speaker A: Definitely an option.
+Speaker A: Okay.
+Speaker A: I've looked into costs of touch screen methods and whatnot.
+Speaker A: They seem to be almost as cheap as a button method at this point.
+Speaker A: Okay.
+Speaker D: It seems like an interesting option, especially because then you could have like your primary screen just be these, you know, four or five basic functions and you have menu options or something to have all these other complicated voice recognition settings, things that you're not going to use every day and that a lot of people aren't going to use.
+Speaker D: But it is an option there for this high tech market that sort of be is this leak thing we're going for.
+Speaker B: It's kind of wonder though, for adding so much technology to this one remote, are we still going to be able to meet a 12 or 1250 euro goal for selling these things.
+Speaker B: It seems like you're not going to be able to handle all those functions with just one microchip.
+Speaker B: The microchip is probably the most expensive part of the whole mechanism.
+Speaker B: Yeah.
+Speaker B: So it's just something to consider.
+Speaker C: Absolutely.
+Speaker C: Okay.
+Speaker C: Well, yeah, I guess we'll cross that bridge and the later stages of development.
+Speaker C: But yeah, that's a perfectly viable question.
+Speaker C: Okay.
+Speaker C: So I'm seeing that we're going to just basically focus on this young demographic, aim it at them, but then in the sense that it's bells and whistles are available for anybody who wants them.
+Speaker C: But basically we'll make a sleek, simple function, remote control.
+Speaker C: I think this voice recognition thing is we've got a market for it.
+Speaker C: I don't think there's too many, more or less be cornering the market on as well.
+Speaker C: We don't have many.
+Speaker C: Yeah.
+Speaker C: Compared to a blast-man microphone.
+Speaker C: Right.
+Speaker C: We don't have many people.
+Speaker C: There's not very many competitors out there that do that.
+Speaker C: So cool.
+Speaker C: Right.
+Speaker C: I guess we've touched on most of this, the idea of a paging function, a touch-screen, faceplates.
+Speaker C: The thing with, I see, would there not be a, we'd have to maybe sacrifice the faceplates for a touch-screen?
+Speaker A: I'm not sure that's sincerely correct.
+Speaker A: I think if you kind of take the example of a mobile phone that kind of has a portion of the device is not interchangeable, whereas the surrounding portions are interchangeable.
+Speaker A: Okay.
+Speaker A: The case.
+Speaker A: We could have the casing.
+Speaker A: Okay.
+Speaker B: Back to the costs, the material, we have to ask whether we're going to include a certain number of faceplates with the package.
+Speaker B: That's something that we're, say we're including three or four faceplates, we can drive the costs up.
+Speaker B: The other question is if we don't include them, are we really in a position to evaluate that market?
+Speaker B: We haven't done any tests on faceplates and whether there's even interest out there.
+Speaker B: Okay.
+Speaker B: So we're going to go ahead, sounds kind of like a gimmick that wouldn't really go anywhere.
+Speaker C: Yeah, because it would have to, it's not like with cell phones, like we have a Nokia model X and then 10 people make faceplates for it.
+Speaker C: We just are a model of remote control.
+Speaker D: One publicity of a faceplate on a phone is you have it out and around it is sort of emblematic, whereas just sitting at home, so unless somebody comes over to watch TV.
+Speaker A: Yeah.
+Speaker A: Well, hopefully some people have people coming over to watch TV.
+Speaker A: Sure.
+Speaker A: And most people have their televisions in the living room.
+Speaker A: All right.
+Speaker C: Well, we can, we can discuss that one further when we think about whether when we do costs and so forth, true plastic is dead cheap and if we're making the whole thing out of plastic anyway.
+Speaker C: Yeah, cross-apriach later.
+Speaker C: But yeah, we will have to evaluate what's most important.
+Speaker C: I think we've had a bit of discussion already on these things.
+Speaker C: Any other questions, comments that came up in these presentations?
+Speaker A: Well, have we confirmed that we're going to go ahead with a touchscreen?
+Speaker C: Yeah, yeah.
+Speaker C: Okay.
+Speaker C: Yeah, I think that would be best.
+Speaker C: Let's based on what you guys have all said to me, let's go for a plastic case because that this is the on the cost.
+Speaker C: Try to look for some kind of high quality recycled plastic as you recommended.
+Speaker C: That's a great idea.
+Speaker C: With a touchscreen for the basic functions.
+Speaker C: And we'll, yeah, provisionally let's go for a touchscreen room with several sub-manues for possible extra stuff that one basically put the channel and the on and off switch on the touchscreen.
+Speaker C: Do we have, wait a minute, it occurs to me that if we have a touchscreen, people are going to have to recharge their remote controls.
+Speaker C: Yet at the same time, that might help for this whole complaint of it being lost.
+Speaker D: Because it would have a docking base.
+Speaker C: Mm-hmm.
+Speaker C: Then again, that costs as well.
+Speaker C: Yeah.
+Speaker A: So those new within that even the last 20 years, even with the touchscreen.
+Speaker A: Do they?
+Speaker A: Okay.
+Speaker B: So we have three reports that include one of those.
+Speaker D: And will somebody buy it if we tell them to?
+Speaker C: Well, I don't think, yeah, I can't see anybody buying a remote control that we have to plug in.
+Speaker C: So we'd have to see some kind of new battery technology.
+Speaker C: Okay.
+Speaker C: So let's go with a touchscreen with some kind of, you know, with some cutting edge battery technology.
+Speaker A: For 12 years.
+Speaker A: Yeah.
+Speaker C: Well, hey, you know, it's worth looking into.
+Speaker C: If not, we can always default to just doing a well-presented plastic.
+Speaker C: Simple.
+Speaker C: You know, it's, you know, well, yeah, I mean, you can put the, we could, I don't know.
+Speaker C: I mean, I suppose we could put the basics on the center easiest, you know, you know, people know the channel and volume function make them large and easy to get at.
+Speaker C: And then the other bits and bobs, you know, go through a menu.
+Speaker C: We'll do the aesthetics.
+Speaker C: Okay.
+Speaker C: So look for the touchscreen in the battery.
+Speaker C: Focus on presentation.
+Speaker C: With this voice recognition option as well.
+Speaker C: Just for the simple functions, the on, off, channels, volume, great.
+Speaker C: And a small paging function, even if you can't do voice recognition for the paging, you know, just some kind of simple button that's just, I guess, another infrared signal to the remote control and well to emit some kind of paging.
+Speaker C: Just okay.
+None: Right.
+Speaker C: So any comments, thoughts before we break into going to the next round of individual work on this?
+Speaker B: Since we're doing a touchscreen, we want to look into the possibility of people being able to input different types of skins for the, you know, the actual interface part of it and things like that.
+Speaker B: Or is it just going to be one touchscreen for everybody?
+Speaker A: Interesting.
+Speaker B: What would be on that touchscreen?
+Speaker B: Because you said earlier that we have to think about company colors and logo or something or motto.
+Speaker B: I can't remember exactly what you said.
+Speaker A: We put fashion into electronics.
+None: Yeah.
+Speaker C: It's my understanding that if you were going to do a skin, you'd need to have some way for people to download or import skins into the remote control.
+Speaker C: I think perhaps it's too much.
+Speaker C: Good idea.
+Speaker C: But yeah, I think that that one might just be, and just, yeah, I think that one might just be out of the range for this particular.
+Speaker C: A PDA would, it makes a lot of sense for a PDA because you're going to be using it to connect up to things anyway.
+Speaker C: I don't know what you guys think.
+Speaker B: I think we just need to come up with a nice black and red interface on the touchscreen.
+Speaker B: Yeah.
+Speaker A: It'd be okay.
+Speaker A: I'm in agreement with that.
+Speaker A: I'm wondering how we're going to get, we put fashion into electronics.
+Speaker D: Well, but if we're going to use a touchscreen where it's going to come on, like on your cell phone, it'll have your carrier provider name come up first like while it's loading and then it goes away.
+Speaker D: Perhaps it could be like a temporary comes on every time you turn it on and then that's it because it is a bit much to have it like engraved on the back.
+Speaker A: Yeah, true.
+Speaker A: I'm hoping for subliminal maybe half of a second as it turns.
+Speaker C: Yeah.
+Speaker C: Yeah.
+Speaker C: It seems like it would suffice to just have the RR on there.
+Speaker D: Yeah, you would think.
+Speaker C: But apparently not.
+Speaker B: People are going to want their remote to boot up and see flashing things.
+Speaker B: Come on.
+Speaker B: It's going to be on and ready to go.
+None: Yeah.
+Speaker C: Well, fair enough.
+Speaker C: Any of that would help the battery life too.
+Speaker C: And if the remote, they do have to press a button for the remote to turn on.
+Speaker C: Then again, who wants to turn on or remote control?
+Speaker A: Well, all you have to do is touch the screen and it automatically.
+Speaker A: Oh, it'll wake up.
+Speaker A: Okay.
+Speaker C: I'll go into it back to the remote.
+Speaker C: Go to the sleep mode.
+Speaker C: Okay.
+Speaker C: Oh, yeah.
+Speaker C: I like that.
+Speaker C: I like the idea of putting the logo in the boot up screen.
+Speaker C: Nice.
+None: Cool.
+Speaker C: So, any last things before we break?
+Speaker C: All right.
+Speaker C: Fair enough.
+Speaker C: Sounds good.
+Speaker C: I'm going to save the copy of this case you guys need reminders.
+Speaker C: I'm going to save a copy of this and the main set I'll do in a second and put them in the shared folder for a later reference.
+Speaker A: I've put my files in the shared folder.
+Speaker C: Brilliant.
+Speaker C: That's fab guys.
+None: Cool.
+None: All right.

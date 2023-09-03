@@ -69,6 +69,7 @@ class PyanWhisper:
             
 device = "cpu"
 if (torch.cuda.is_available() ):
+    pass;
     device = "cuda"
 
 

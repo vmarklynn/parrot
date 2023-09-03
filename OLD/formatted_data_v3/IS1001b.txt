@@ -1,0 +1,576 @@
+Speaker A: Okay, everyone's ready.
+Speaker A: Hello.
+Speaker A: So we are here for our functional design.
+Speaker A: Okay.
+Speaker A: So we are here for the functional design meeting.
+Speaker A: So first I will show the agenda.
+Speaker A: So we will, I will take notes during this meeting.
+Speaker A: So I will try to summarize it and put that somewhere in the shed folder if you want to look at it afterwards.
+Speaker A: So then each of you will lead the presentation on the task that has been required last time.
+Speaker A: So user requirements, specification, technical function design and working design.
+Speaker A: Then I will present you some new project requirements I received from the management board.
+Speaker A: Then we will take the decision on the remote control needed functions.
+Speaker A: And then I will assign you to task for the next part of the meeting, of the process.
+Speaker A: So we want to start the presentation of what the...
+Speaker B: Do you want to start?
+Speaker D: I can start.
+Speaker D: Should be my folder, no?
+Speaker A: Yeah, maybe there.
+Speaker D: Where are you?
+Speaker F: I'm still here.
+Speaker A: I'm going to go out.
+Speaker C: Okay.
+Speaker A: There is a technical problem.
+Speaker D: Do you think we said it in the wrong folder?
+Speaker D: Maybe.
+Speaker D: Is it possible?
+Speaker D: You put it somewhere in something like this.
+Speaker D: I don't remember the name of something like messenger army or something.
+Speaker B: What do you have in shortcut?
+Speaker B: Go up.
+Speaker B: Participant too.
+Speaker D: Yeah, go up.
+Speaker C: Yeah.
+Speaker D: Again?
+Speaker D: No.
+Speaker D: We are back.
+Speaker D: We have no...
+Speaker D: Maybe messenger army.
+Speaker D: Messenger.
+Speaker D: Over?
+None: Okay.
+Speaker D: No, there is nothing.
+None: There is no...
+Speaker A: We have a technical problem.
+Speaker D: Yeah.
+Speaker B: Otherwise, could you just describe by hand with the white ball?
+Speaker A: Yeah.
+Speaker A: If you remember, yeah.
+Speaker D: Yeah.
+Speaker D: So basically, what we want here is a remote control, right?
+Speaker D: Yeah.
+Speaker D: So the question goes first of all, what to control?
+Speaker D: So most people want to have a remote for the high-five and TV and stuff like that.
+Speaker D: But other people want also remote for controlling toys like robotic pets and robots and stuff.
+Speaker D: And other people also want to have remotes for controlling the whole house.
+Speaker D: Yeah.
+Speaker D: So there is a project I think called X-Houd or something like that.
+Speaker D: That does that.
+Speaker D: You can integrate your remote with computers and stuff.
+Speaker D: So there is one, not one thing.
+Speaker D: The other thing is the finder feature by whistling or whatever.
+Speaker D: If you have the finder feature, then you can also have at the same time, general voice commands if you want.
+Speaker D: Yeah.
+Speaker D: So I think it would be a package in that case.
+Speaker D: So the user in the Facebook consists of two parts.
+Speaker D: One is the voice command part and one is the actual buttons part.
+Speaker D: The buttons part would be a set of buttons for choosing devices, a set of buttons for spatial navigation and space, a set of buttons for linear access of medium and a set of buttons for random access.
+Speaker B: Okay.
+Speaker B: Yeah.
+Speaker B: What do you mean by linear access?
+Speaker D: Like a video tape goes forward backwards, fast and stuff.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker A: So spatial navigation, linear access, random access and there is a false one.
+Speaker A: So the button offers spatial navigation?
+Speaker D: Yeah.
+Speaker D: For spatial navigation, for example, you might have a TV in the menu and you're going to
+Speaker A: see it. Okay.
+Speaker A: Then linear access, then random access.
+Speaker D: Yeah.
+Speaker D: And also parameter.
+Speaker A: Ah, yeah.
+Speaker D: For a meter, okay.
+Speaker D: So if there are common parameters, maybe we should put spatial buttons for that.
+Speaker D: Okay.
+Speaker D: Or maybe we could have everything generic, but there are a lot of remotes on the market right now.
+Speaker D: Okay.
+Speaker D: So basically, this is most of the, almost everybody has the stuff.
+Speaker A: Okay.
+Speaker A: And voice command, did you?
+Speaker D: Voice command, we could specify anything.
+Speaker D: We could assign a command to any button.
+Speaker D: Okay.
+Speaker D: If we have enough processing power, I guess.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: Yeah.
+Speaker A: So that's, that close your investigations?
+Speaker A: Yeah.
+Speaker D: Yeah.
+Speaker D: I think so.
+Speaker A: Okay.
+Speaker A: Maybe we can have a look at the user requirements with.
+Speaker E: Yeah.
+Speaker E: Okay.
+Speaker E: I don't know if you can open.
+Speaker E: I don't know if I can open it.
+Speaker E: Maybe you can.
+Speaker A: It's not here.
+Speaker E: It's in, okay.
+Speaker E: It's in the same room.
+None: Yeah.
+Speaker E: Yeah.
+Speaker A: In which folder?
+Speaker E: You could do.
+Speaker E: Here.
+Speaker E: Here.
+None: Here.
+None: Short cut to random.
+Speaker E: But it's not.
+Speaker E: Yeah.
+None: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker E: Yeah.
+Speaker E: Yeah.
+None: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker F: Yeah.
+Speaker F: Yeah.
+Speaker F: Yeah.
+None: Yeah.
+Speaker A: Yeah.
+Speaker A: Maybe you can send it to me by email just to participant one.
+Speaker A: At AME.
+None: Yeah.
+Speaker A: I can do that.
+Speaker A: I'll try to show it to everyone.
+Speaker A: That would be more of a whatever.
+Speaker E: Okay.
+Speaker A: You said it?
+Speaker E: It's participant one.
+Speaker A: Yeah.
+Speaker A: This is the email.
+Speaker D: I'm designing the, you can run my face.
+None: Okay.
+None: Okay.
+Speaker E: You can.
+Speaker C: Okay.
+Speaker A: So maybe I can switch slides whenever you ask.
+Speaker A: That would be more convenient.
+Speaker A: So okay.
+Speaker A: Okay.
+Speaker E: So you can go.
+Speaker E: Okay.
+Speaker E: So in our usability lab, we observed the remote control use among 100 subjects.
+Speaker E: And this subject also filled a questionnaire.
+Speaker E: Okay.
+None: Yeah.
+Speaker E: And yeah, here are the results.
+Speaker E: So you can see that 75% of users find most remote controls ugly.
+Speaker E: So we have to find something to make them more nice, more kind.
+Speaker E: 80% of users would spend more money when a remote control would look fancy.
+Speaker E: 80% of users would spend more money when a remote control would look up.
+Speaker E: It's not good.
+Speaker E: So okay.
+Speaker A: So it's not really good.
+Speaker E: But I can say, yeah, 50, 75% of users say they zap a lot.
+Speaker E: So we have to have a remote control very hard for that.
+Speaker E: The buttons have to be like to say, resisting to shocks.
+Speaker E: And 50% of users say they only use 10% of the buttons in the remote control.
+Speaker E: So all the buttons we have to put are, have to have a use, a real use and not a medium.
+Speaker A: Okay.
+Speaker A: So fewer buttons may be good.
+Speaker E: But many buttons and, and you use able buttons.
+Speaker D: Okay.
+Speaker D: But what kind of remote controls do you think that?
+Speaker D: Sorry.
+Speaker D: What kind of task was it?
+Speaker D: It was a TV.
+Speaker E: Yeah.
+Speaker E: Yeah.
+Speaker E: Most, most is TV.
+Speaker A: Yeah.
+Speaker A: But in fact, we, it seems that we are going to make a TV remote control according to new requirements I receive from the management board.
+Speaker A: I will present them in the following.
+Speaker A: Ah, good.
+Speaker E: Okay.
+Speaker E: You can go.
+Speaker E: So there are the frustrations expressed by users.
+Speaker E: So they said they lost, uh, often the remote control in the room.
+Speaker E: So they want to have a way to, to find it.
+Speaker A: To find it.
+Speaker E: Yeah.
+Speaker E: Um, and, um, a lot of the time they, it takes too much time to learn how to use a new remote control.
+Speaker E: So they want something very, very simple and easy to use.
+Speaker E: And the remote controls are bad for.
+Speaker E: What is the other side?
+Speaker E: Um, other side.
+Speaker D: Yeah.
+Speaker D: Yeah, you're, you're a wrist can become painful.
+Speaker D: You can have talent in this.
+Speaker A: Ah, yeah.
+Speaker A: Yeah.
+Speaker D: I didn't knew that.
+Speaker D: If you also fit up on the computer in a strange position.
+Speaker A: Okay.
+Speaker A: So we have to make it, uh, more ergonomic.
+Speaker D: Yeah.
+Speaker D: But, uh, yeah.
+Speaker A: Have to say, it's your job.
+Speaker A: Oh.
+Speaker A: Uh, sorry.
+Speaker A: But the message from Microsoft.
+None: Okay.
+Speaker E: Before that, I have some, some, some, some thing.
+Speaker E: Yeah.
+Speaker E: Uh, to say before.
+Speaker E: Yeah.
+Speaker E: Um, we know that, uh, that as I use, uh, a lot, uh, remote control.
+Speaker E: Um, to, to change channel.
+Speaker E: Yeah.
+Speaker E: Um, and, um, to, to change the volume selection of the.
+Speaker E: Okay.
+Speaker E: And, uh, and not, uh, a lot for setting, for setting the, the channels and, uh, things, things like that.
+Speaker E: Okay.
+Speaker E: Um, it's better to put, uh, uh, something very easy to that and, uh, yeah.
+Speaker A: This function should be very accessible.
+Speaker A: Accessible, yes.
+Speaker A: Okay.
+Speaker A: This is the main function.
+Speaker A: Okay.
+Speaker E: So then we ask some questions to them and, um, we ask this question.
+Speaker E: If they prefer an LCD screen or on the remote function remote control and if they, um, pay more for a speech recognition in remote control and you can go, we have here the results of the first question of the questions.
+Speaker E: So you know that, um, for the younger, it's very important to have this and speech recognition.
+Speaker E: And the others is not so important, but, uh, we know that, uh, uh, people between 15 and 25 are people who watch a lot TV and who, who can use a lot this, uh, okay.
+Speaker E: So maybe we, we can have a speech recognition.
+Speaker A: Yeah.
+Speaker A: Maybe this is important.
+Speaker A: Yeah.
+Speaker A: Maybe those, uh, like those teenager customer can, uh, advise their parents to buy this equipment.
+Speaker A: And so we can, we have to take care of that point of view, I think, or so.
+Speaker E: Mm.
+Speaker E: Yeah.
+Speaker E: Okay.
+Speaker E: And after is the conclusion.
+Speaker E: So as we say before, I think, uh, uh, uh, remote control lightning in the dark.
+Speaker E: It's, it's a good thing.
+Speaker E: Okay.
+Speaker E: So many, many buttons like we, we said before, easy to use, uh, a way to find it easily in the room and, uh, resistance to, to short camp to, to.
+Speaker C: Okay.
+None: And I, okay.
+Speaker E: These are.
+Speaker E: I don't know if you see something else, important.
+Speaker B: I'm just thinking of something.
+Speaker B: Yeah.
+Speaker B: Um, we want to have a, no, I don't know if this is a good idea.
+Speaker B: We want to have a general remote control for everything.
+Speaker A: No, no, no, no.
+Speaker A: We, it seems that we know want to have a TV remote control.
+Speaker A: Okay.
+Speaker A: From the management port I receive an email because it would be costly.
+Speaker A: Uh, and, and also it would take more time to develop to have a general generic remote
+Speaker D: control. I, it's not true.
+Speaker D: I think that it would be too long to develop.
+Speaker D: I think that should be the same.
+Speaker A: Oh yeah.
+Speaker A: Because I received that email from management board and this seems to tell that, that if we want to be on the market as early as possible, we should focus on TV more.
+Speaker A: It seems that the market is more important.
+Speaker A: So maybe it's a good decision.
+Speaker D: I don't know what's your opinion.
+Speaker D: I'm not the, I'm gonna, I should know a bit more about how fast we can design.
+Speaker D: I don't think.
+Speaker D: Yeah.
+Speaker B: Yeah.
+Speaker B: Finished tonight.
+Speaker B: Okay.
+Speaker B: But basically, yeah, maybe I can continue with my, my opinion.
+Speaker B: My presentation would be okay.
+Speaker B: But I think we have some technical problems.
+Speaker B: So I'm just going to describe briefly what we do in the remote control.
+Speaker A: Maybe you can go to the whiteboard if you have some drawings to do.
+Speaker B: Do I have, oh yeah.
+Speaker B: I have enough cables.
+Speaker D: Okay.
+Speaker D: I feel like a dog is.
+Speaker B: Okay.
+Speaker B: So I'm just going to describe in fact for, for a remote control.
+Speaker B: This is quite easy.
+Speaker B: We just have, sorry.
+None: Okay.
+Speaker B: Are you okay?
+Speaker B: Like that.
+Speaker B: I'm just going to describe.
+Speaker B: Basically we have a battery, a power supply here.
+Speaker B: After that we just have a user interface.
+Speaker B: Let's say that something like that, which could be LCD, let's say, or an array of push button, something like that.
+Speaker B: Push button or LCD.
+Speaker B: After that we, we feed that into an electronic chip.
+Speaker B: So I say new, see, and I feed that to LED, which is infrared, which is an infrared component.
+Speaker B: And so what we, for myself, for us, this is quite easy.
+Speaker A: You see the central unit?
+Speaker B: Yeah.
+Speaker B: Okay.
+Speaker B: It's just a chip which does all the numerical computation, numerical computation according to you display.
+Speaker B: And so for us, this is quite easy.
+Speaker B: We just need to define what we want to do when the user interface wants something.
+Speaker B: And after that we just do the coding to send that to the, not the, to the television.
+Speaker B: Okay.
+Speaker B: So for us, this is quite easy.
+Speaker A: Okay.
+Speaker A: So this is quite easy.
+Speaker A: Yeah.
+Speaker B: And we just have to define the processing power that we need, especially if we want to do some speech recognition in that case, that we are going to use more.
+Speaker B: This will take more time to develop.
+Speaker B: Yeah, of course.
+Speaker B: Of course.
+Speaker B: But for a standard one, this is really easy.
+Speaker B: It's a question of one month and so on.
+Speaker A: Do you have a, you speak about voice control?
+Speaker A: No, no, no.
+Speaker A: I say standard button one.
+Speaker B: Yeah.
+Speaker B: So the standard remote control takes maybe one month to do that.
+Speaker D: So the only time problem is the voice recognition.
+Speaker D: Yeah, definitely.
+Speaker A: So do you have any idea of how long it would take to have voice recognition?
+Speaker B: No, I would say.
+Speaker B: Yeah.
+Speaker B: It's about eight months to have the first results.
+Speaker A: Okay.
+Speaker A: So it's a bit long.
+Speaker A: Yeah.
+Speaker A: Yeah.
+None: I can.
+Speaker A: One month for the standard one with button.
+Speaker A: Yeah.
+Speaker A: Even if we have a LCD display.
+Speaker B: Yeah, even.
+Speaker B: I mean, this is really standard devices now.
+Speaker B: And eight for speech recognition.
+Speaker B: Okay, yeah.
+Speaker A: Okay.
+Speaker A: So we can take this into account.
+Speaker A: So we think it would be good to go for like speech recognition.
+Speaker D: But we don't have time to market.
+Speaker B: And also how much?
+Speaker B: I think.
+Speaker B: I think we should.
+Speaker B: During the kickoff meeting, you said that we shouldn't, we shouldn't go up to.
+Speaker B: 12.5 euros.
+Speaker B: Yeah.
+Speaker B: So how many units should we sell to ever?
+Speaker A: Well, each unit is sell 25 euros.
+Speaker B: Yeah, but how many?
+None: Yeah.
+Speaker D: How much do you get?
+Speaker D: How much do you buy one million units?
+Speaker D: How much do you get?
+Speaker D: Yeah.
+Speaker D: How much do you cost for one hundred thousand?
+Speaker B: Usually, I get this is less than that two dollars per chip.
+Speaker D: Okay.
+Speaker D: Because we are.
+Speaker D: Because we are for a powerful one that has a good enough for a speech recognition.
+Speaker B: Yeah.
+Speaker B: Yeah.
+Speaker A: We can.
+Speaker A: So.
+Speaker A: It seems that we want to sell like four million units from the first meeting.
+Speaker A: Okay.
+Speaker D: Form a little.
+Speaker D: Okay.
+Speaker A: Maybe we can look at the new requirement I received from the management board and discussed all functions we want to have.
+Speaker B: I just had a question.
+Speaker B: Do you want to continue with your present?
+Speaker A: Yeah.
+Speaker A: I will continue.
+Speaker A: Well, ask your question if you want.
+Speaker B: You say that I don't remember my heart, but 30% of the people say that it's quite difficult to use the remote control.
+Speaker E: Yeah.
+Speaker B: Do they say that this is difficult, but for the same reason or do they have other reason?
+None: Oh.
+Speaker B: To, to, to keep in mind maybe to access to that money you should do something like that.
+Speaker E: Yeah.
+Speaker E: I think they say that it's difficult to learn how to use it.
+Speaker E: But when you know how to use it, it's okay.
+Speaker B: And it's not intuitive.
+Speaker B: Yeah.
+Speaker B: But yeah, maybe and what about if we design a remote control which can be configured as you want.
+Speaker B: You say that I want, I have six buttons.
+Speaker D: A lot of people are, if you have the LCD screen, you can do completely the way you want because the buttons also would look the way you want them.
+Speaker D: But also it would be hard to configure.
+Speaker D: I mean, imagine.
+Speaker D: So it's really something for the expert user.
+Speaker D: So I mean, there are markets and markets.
+Speaker D: I think the young people that are Christine here said that have a, yeah, it is.
+Speaker D: So for our young people, it would be cool.
+Speaker D: They are able to use it.
+Speaker D: Maybe their parents will not, but they will configure it.
+Speaker D: I guess I don't know if there's a study.
+Speaker A: Maybe it would be more complex to configure it to be simple than creating a simple project.
+Speaker D: Yeah.
+Speaker D: I think that if we make something that simple and needs to use that means that it will be exactly the same as everything else.
+Speaker D: Right.
+Speaker D: Yeah.
+Speaker D: Otherwise, if it's different, then of course it will have some of it has to learn to use it first.
+Speaker A: Yeah.
+Speaker A: But also we, we see that that most people find it, find remote controls to complex because they have too many buttons and they mainly use only channels and volume buttons.
+Speaker A: So we may just make a very easy to use remote control with mainly those buttons.
+Speaker A: Yeah.
+Speaker A: And maybe also some lightning stuff to, because most people find also hard to, to find the remote controls, lose it, et cetera.
+Speaker A: These are, these two points are the main frustration.
+Speaker A: So maybe if we design something very simple and easy to find when lost, it will add a serious competitive advantage without making something too complex and too long to develop.
+Speaker A: So, but let, let us see first the new requirement.
+Speaker A: So we don't have to, so this, this is a, is a, is a, this is in the same direction as we were speaking.
+Speaker A: So we don't have to make a very complex remote controls to access teletext and stuff like that.
+Speaker D: Just one button.
+Speaker A: Yeah, but then you have to, you have to define the buttons to surf amongst pages.
+Speaker D: Just write the, write the numbers.
+Speaker A: Yeah.
+Speaker D: So, wait.
+Speaker D: We're at with the channel keys, right?
+Speaker A: Yeah.
+Speaker A: So anyway, we don't have to include this feature because it's, it's not used anymore by users.
+Speaker A: They prefer to.
+Speaker D: Yeah.
+Speaker D: I'm sure that I don't like, but I don't see, just one button.
+Speaker A: Yeah.
+Speaker A: So, I don't know.
+Speaker A: If one button is still one more button, if, if, if we want to make it very simple, we have to reduce the number of buttons compared to the, to our competitors.
+Speaker A: Well, anyway, I have this point we can discuss also.
+Speaker A: So as I told before, it would be better if it's only for the TV because we want to be quick on the market.
+Speaker A: And then also we have to make very clear that this, this remote control is, is part of, of our products and show our co-operators logo and, and colors and the, and the design as well so that they identify it as one of our products.
+Speaker A: So this is the, the key point.
+Speaker A: So before finishing, we can define what would be the characteristic of the, of the control, of the remote control and which button do we need, which function do we want, etc.
+Speaker A: Capital.
+Speaker A: So, do you, so, so from, from the marketing expert, I think a key aspect is the easy to use aspect is should be very simple and most button are never used.
+Speaker A: Only 10% of the button are, are used often.
+Speaker A: So I think we have to do something very simple and I think we all agree on that point.
+Speaker D: No, well, if it is going to be just a TV remote control, it's going to be very simple.
+Speaker A: Yeah.
+Speaker A: Okay.
+Speaker A: So, yeah, the key point here is simple.
+Speaker A: Maybe so few buttons, channel volume control and what, what function do you see?
+Speaker D: Well, if you want to get as simple as possible and just let the very remote control, there is no other fraction of the country.
+Speaker A: Yeah.
+Speaker A: Maybe switch TV on and off.
+Speaker D: No, you want to keep it always on so that advertising can, rather than you can come back to us.
+Speaker A: Yeah.
+Speaker A: Something.
+Speaker A: So, a volume, maybe a mute button and an off button and that's all.
+Speaker B: I know that some, you say that many people are doing plenty of, a lot of zapping.
+Speaker B: Mm-hmm.
+Speaker B: I know, I discovered that when I did a quick look.
+Speaker B: They do not, so they do something which is quite nice now.
+Speaker B: You have a button, you press it and this is the previous channel which is come back.
+Speaker A: Yeah, this is cool.
+Speaker A: Maybe we can include that also, previous, previous channel button.
+Speaker A: So we have like channel button, the previous channel button, the volume button, press a mute button and just the traditional on off button.
+Speaker D: And of course, the channel changing buttons.
+Speaker D: Yeah.
+Speaker C: I took a lot of that.
+Speaker D: How should we implement them?
+Speaker D: Because they could be numerical only, they could be also incremental.
+Speaker A: Yeah.
+Speaker A: So, incremental definitely because zapping you, you switch them.
+Speaker B: Let's say that we can do something like that.
+Speaker B: This is incremental.
+Speaker B: But when you press it for a long time, you go five by five.
+Speaker B: You go five?
+Speaker B: Two faster?
+Speaker B: Two faster.
+None: Mm-hmm.
+Speaker D: It's an interesting idea that if you press it for a long time, it does something else in general.
+Speaker D: So if you have your 10 buttons for the numerical buttons and you have, instead of having just one memory, you have a few percent for a long time.
+Speaker D: No, it doesn't work.
+Speaker D: Maybe we should have also a digi, but have a complete keyboard and like console commands.
+Speaker D: That's it.
+Speaker D: Yeah.
+Speaker A: Okay, maybe we have also to have the jits only incremental.
+Speaker D: I don't know because if you have to, if you want to turn between three times for example, then you cannot work with just number and then incremental.
+Speaker A: Yeah.
+Speaker A: Because you have your previous channel button, if you have incremental only, it doesn't work, because the previous channel is either minus one or plus one.
+Speaker A: So I think we need also digits.
+Speaker A: Okay.
+Speaker A: Maybe we can make very obvious the channel and volume button and smaller button done there with the digits.
+Speaker D: Yeah, one user usually you would like to press the same button on the time.
+Speaker B: Yeah.
+Speaker B: If you can do something like that, we can design the remote control to have access.
+Speaker B: You know, some remote control have protection.
+Speaker B: And so you, you, yeah.
+Speaker B: Yeah.
+Speaker D: Yeah.
+Speaker D: Yeah.
+Speaker D: Just all just thinking there is a, I mean, you know, there's, there's some mask with a wheel like this.
+Speaker D: It's just having the up down buttons.
+Speaker D: Yeah.
+Speaker A: Yeah.
+Speaker A: Kind of just stick.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Yeah.
+Speaker A: Maybe we can have a wheel for incremental.
+Speaker A: Okay.
+Speaker A: So that I have the digit on the lower side that can be closed.
+Speaker A: So I say protected.
+Speaker A: And yeah, I think this is the lower side.
+Speaker D: I think you have to turn it.
+Speaker B: And do we, do we have a ball?
+Speaker B: Yeah.
+Speaker B: Not a wheel, but a ball.
+Speaker A: And you say, I would say the wheel is better.
+Speaker A: Because it is the expert of, yeah.
+Speaker D: Because it's not like a volume, it's smooth, yeah, it's only 10 to one by one.
+Speaker D: Yeah.
+Speaker D: So you have to, the user should like to, should fill the, the, the script.
+Speaker D: Yeah.
+Speaker D: Okay.
+Speaker A: Yeah.
+Speaker A: That's a good idea.
+Speaker A: And while also we have to decide the, so it should be lightning in the dark, I think because most people lost their remote control.
+Speaker A: It's quite easy.
+Speaker B: And we do that with backlight on the, if it's a blue, a blue lady and we serve that.
+Speaker A: And do we put an LCD display?
+Speaker A: Because it was important for young customers, if you remember.
+Speaker D: I think it's all important if you have multi-function.
+Speaker D: Yeah.
+Speaker D: If you have multi-function, then there's no point in having the, actually, just increase the cost.
+Speaker D: Okay.
+Speaker D: The user doesn't have an advantage.
+Speaker A: So no LCD.
+Speaker A: And so no speech as well because it would delay too much the development.
+Speaker D: Okay.
+Speaker D: The development goes as well.
+Speaker D: Yeah.
+Speaker D: But it would be cool.
+Speaker D: Because the user could say a CNN for example.
+Speaker D: A CNN.
+Speaker D: Yeah.
+Speaker A: That would be cool.
+Speaker A: But eight months is really long.
+Speaker A: Maybe we can just, 10 years.
+Speaker A: So I will, so we will move to next meeting.
+Speaker A: So in after the launch break, you are the individual action you are required to do, but you will be recalled those actions by email I think.
+Speaker A: But you can take notes if you want.
+Speaker A: But while the instruction will be sent.
+Speaker A: So thank you for your suggestion.
+Speaker A: And I will make a summary of that meeting that I will put in the shared folder.
+Speaker A: You can't see.
+Speaker A: And then you will be able to see what has been said on this meeting and what has been decided.
+Speaker A: Maybe for next meeting, send me your presentation before by email so that we can see them all together.
+Speaker D: That would be easier.
+Speaker D: What is the folder that people use?
+Speaker D: It works.
+Speaker D: No.
+Speaker A: No, it did not work.
+Speaker D: She sent it to me by email.
+Speaker A: So maybe this is better to send it by email.
+Speaker A: Okay.
+Speaker A: What is your email?
+Speaker A: So yeah.
+Speaker A: I'm, it's in the first email.
+Speaker A: So I'm participant one.
+Speaker A: I'm participant one.
+Speaker A: Where is that?
+Speaker A: It's here.
+Speaker A: participant one at enemy.
+Speaker A: Okay.
+Speaker A: So see you after lunch break.
+Speaker D: Can't think of.
+Speaker D: Okay.
+None: So next time we should try to fight.
+None: You don't fight anyMusic.
+None: you just fight a detENT FX

@@ -1,0 +1,347 @@
+Speaker D: Okay, how many batteries do you go through?
+None: You have no idea if there are a lot of kids.
+None: All right, you're recording.
+Speaker G: Thank you.
+None: All right.
+None: Good.
+None: So there's open for Nancy?
+Speaker C: Yeah.
+Speaker C: Okay, so let's get started. Nancy said she's coming.
+Speaker C: That means she will be.
+Speaker C: My suggestion is that Robert and Jono sort of give us a report on last week's adventures to start.
+Speaker C: So everybody knows there were these guys from Hyde Ober, actually from the FKI, part of the German SmartCon project who were here for the week.
+Speaker C: And I think got a lot done.
+Speaker E: Yeah, I think so too.
+Speaker E: We got to the point where we can now speak into this SmartCon system and it'll go all the way through and then say something like Roman numeral one Amsmartakos.
+Speaker E: It actually says Ruhmisch, Amsmartakos, which means it's just using German synthesis module for English sentences.
+Speaker E: Okay.
+Speaker E: So...
+Speaker E: There's no I.
+None: Okay.
+Speaker H: I am not going to get this out of the way.
+Speaker E: The synthesis is just a question of hopefully it's just a question of exchanging a couple of files once we have them.
+Speaker E: And it's not going to be a problem because we decided to stick to the so-called concept to speech approach.
+Speaker E: I'm going backwards now.
+Speaker E: So synthesis is where you sort of make these sounds.
+Speaker E: And concept to speech is feeding into this synthesis module, giving it what it needs to be said and the whole syntactic structure.
+Speaker E: So it can pronounce things better, presumably, than just with text to speech.
+Speaker E: And John O. learned how to write XML tags and did write the three joining grammar for some sentences now, right here.
+Speaker D: Yeah, so the way the dialogue manager works is it dumps out what it wants to know or what it wants to tell the person to an XML.
+Speaker D: And there's a conversion system for different to go from XML to something else.
+Speaker D: And so the knowledge base for the system that generates the syntactic structures for the generation is in a list of like, the knowledge base is in a list of like form.
+Speaker D: And then the thing that actually builds these syntactic structures is something based on prologue. So you have basically a goal and it says, OK, well, I'm going to try to do the greet the person goal.
+Speaker D: So it just starts, it binds some variables and it just decides to do some such goals.
+Speaker D: Basically, it just means build the tree.
+Speaker D: And it passes the tree on the generation module.
+Speaker E: But I think the part is that out of the 12 possible utterances that the German system can do, we've already written that the syntax trees for.
+Speaker D: Yeah, so the syntax trees are very simple.
+Speaker D: It's like most of the sentences in one tree.
+Speaker D: And instead of breaking down to small units and building big up, they basically take the sentences and basically cut them in half or into thirds or something like that and made trees out of those.
+Speaker D: And so, a Tillman wrote a little tool that can take a list of notation and generate an XML tree structure from the list.
+Speaker D: And so basically you just say, you know, noun goes to, you know, or, I don't, I've never been good at those. So there's like the VP goes to, and those things, and list, and I'm January for you.
+Speaker E: And because we're sticking to that structure of these synthesis modules, we need to be changed. So all that fancy stuff.
+Speaker E: And the Texas speech version of it, which is actually a simpler version, is going to be done in October, which is much too late for us.
+Speaker E: So this way we worked around that.
+Speaker E: The system, I can show you the system, I actually want at least, maybe you should be able to start it on your own if you want to play around with it in the future.
+Speaker E: Right now it's brittle and you need to start it up and then make 20 changes on 17 modules before they actually can stomach it, anything.
+Speaker E: And send in a couple of side queries on some dummy sender setup program so that it actually works because it's designed for this CVIT thing where you have the gesture recognition running with a Siemens virtual touch screen that we don't have here. And so we're doing it via mouse, but the whole system was designed to work with this thing.
+Speaker E: It was a lot of engineering stuff. No science in there whatsoever, but it's working now, and that's a good news.
+Speaker E: So everything actually did prove to be language independence except for the parsing and the generation.
+Speaker D: Well, I did need to generate different trees than the German ones.
+Speaker D: I mean, because the gerund in German is automatically taken care of with just a regular verb. So I'd have to have am walking or I'd have to have a little stand for the am.
+Speaker D: Okay. And when I built the tree.
+Speaker H: Yeah, I noticed that some of the examples they had had, you know, non-English word order isn't so on, you know, and all that good stuff.
+Speaker C: Yeah. So it might be worth Keith, you looking at this.
+Speaker H: Yeah. Well, tell me, I still don't really understand, like, I mean, we sort of say, you know, I still don't exactly understand, sort of, the information flow in this thing or what the modules are and so on.
+Speaker H: So, you know, like, just such and such module decides that it wants to achieve the goal of greeting the user. And then magically it sort of, I mean, how does it know which syntactic type of stuff is on that?
+Speaker C: Yeah. So I think it's not worth going over in the group, but sort of when you get free and you have the time, either Robert or John O'Reilly can walk you through it.
+Speaker C: Okay. And you can ask all the questions about how this all fits together.
+Speaker C: It's a messy, but once you understand it, you understand that it's, there's nothing really complicated about it.
+Speaker H: Okay. And I remember one thing that came up in the talk last Wednesday was this, I think he talked about the idea of like, he was talking about these lexicalized tree adjoining grammars where you sort of, for each word, you, for each lexical item, the lexical entry says what all the trees are that it can appear in. And of course, that's not, that's the opposite of constructional. That's, you know, that's, that's HPSG or whatever.
+Speaker C: Right. Now, we're not committed for our research to do any of those things.
+Speaker C: So, we are committed for our funding.
+Speaker C: Right. Okay. To make that stuff fit to that.
+Speaker C: No, to just get the demos they need.
+Speaker C: Okay. So between us all, we have to get them the demos they need.
+Speaker C: If it turns out, we can also give them lots more than that by tapping in the other things we do. That's great. But it turns out not to be an entity.
+Speaker C: It's not to be an entity of the contracts. Okay. And deliberately.
+Speaker C: So the reason I'd like you to understand what's going on in this demo system is not because it's important to the research. It's just for closure so that if we come up with a question of, could we fit this deeper stuff in there or something, you know what the hell? Right. We're talking about fitting in.
+Speaker C: Okay. So it's just, same, same actually with the rest of us.
+Speaker C: We just need to really understand what's there. Is there anything we can make use of?
+Speaker C: Is there anything we can give back beyond the sort of minimum requirements?
+Speaker C: But none of that has a short time fuse. Okay.
+Speaker C: So the demo requirements for this fall are sort of taking care of as of later this week or something.
+Speaker C: And then so it's probably 15 months or something until there's another serious demo requirement. I mean, we don't think about it for 15 months.
+Speaker C: It means we cannot think about it for six months. Right. Yeah.
+Speaker C: So the plan for this summer really is to step back from the applied project.
+Speaker C: Keep the context open, but actually go after the basic issues.
+Speaker C: Okay. And so the idea is there's this other subgroup that's worrying about formalizing the notation, getting a notation, but sort of in parallel with that, the hope is that in particular you will work on constructions in English and German for this domain.
+Speaker C: But not worry about parsing them or fitting them into smart com or any of the other, any other constraints for the time being. It's hard enough to get it semantically and syntactically right and get the constructions in their form and stuff.
+Speaker C: And I don't want you feeling that you have to somehow meet all these other constraints.
+Speaker C: And similarly, the parsing, we're going to worry about parsing the general case, you know, construction parser for general constructions. And if we need to cut down version for something or whatever, we'll worry about that later.
+Speaker C: Okay. So I'd like to, for the summer, turn into science mode.
+Speaker C: Okay. And I assume that's also your plan as well.
+Speaker H: So I mean, the point is that like the meetings so far that I've been at have sort of been geared towards this demo.
+Speaker H: Yeah. It's going to go away pretty soon. Right. Okay. And then sort of shift gears.
+Speaker E: Yeah. Fairly substantially. Yeah. What I think is a good idea that I can show to anyone who's interested. We can even make a sort of an internal demo.
+Speaker E: When I show you what I do, I speak into it and you hear a talk.
+Speaker E: Okay. And I can sort of walk through the information flow. This is like a half hour, 45 minutes, just fun. Okay. And so you, when somebody on the streets comes up to you and asks you what a smart code is right here. Give a sensible answer.
+Speaker C: So we could set that up as actually an institute wide thing.
+Speaker C: Just give a talk in the big room and so people know what's going on.
+Speaker C: When you're ready. Absolutely. Yeah. I mean, that's the kind of thing.
+Speaker C: That's a level at which we can just invite everybody and say, this is a project that we've been working on and here's a demo version and that's stuff like that.
+Speaker E: Okay. But we do want to have all the bugs out where you have to sort of pipe in extra XML messages from left and right before you. Indeed.
+Speaker E: Okay. Makes sense.
+Speaker C: But it's clear then, I think, actually roughly starting, let's say next, next meeting because this meeting we have one other thing to tie up besides the tripp report. Okay. But starting next meeting, I think we want to flip into this mode where there are a lot of issues.
+Speaker C: What's the ontology look like? You know, what the constructions look like?
+Speaker C: What's the execution engine look like? Mm-hmm.
+Speaker C: Lots of things. But more focused on an idealized version than just getting the demo out.
+Speaker C: Now, before we do that, let's get back in. Oh, but it's still, I think, useful for you to understand the demo version enough so that you can see what it is that it might eventually get retrofitted into or something.
+Speaker C: And John has already done that.
+Speaker C: Looked at the smart com stuff.
+Speaker D: What parts?
+Speaker C: What's the other parts? Yeah. Okay. Anyway, so the trip, the report on these last, we sort of interrupted you guys telling us about what happened last week.
+Speaker E: Maybe that was just amazing to see how unstable the whole thing is.
+Speaker E: And if you just take the, and I got the feeling that we are the only ones right now who have a running system, I don't know what the guys in Kaiser's Cloud 10 have running because the version that is the full version that's on the server does not work.
+Speaker E: And you need to do a lot of stuff to make it work.
+Speaker E: And so it's an even term that involves sort of said, yeah, that never was a really working version that did it without all the shortcuts that were able to do for the October version. So we actually maybe ahead of this is TeamCrop by now, the system, the integration group.
+Speaker E: And it was fun to some extent.
+Speaker E: But the outcome that is sort of a scientific interest is that I think both Ralph and Tillman, I know that they enjoyed it here.
+Speaker E: And they liked a lot of the stuff they saw here, what we have been thinking about.
+Speaker E: And I'm willing to cooperate by all means.
+Speaker E: And part of my responsibility is to use our internal group where server at EML make that open to all of us and them so that whatever we discuss in terms of parsing and generating and constructions, we sort of put it in there and they put what they do in there.
+Speaker E: And maybe we can even get some overlap, get some synergy out of that.
+Speaker E: And if I find someone at EML that is interested in that, I may even think that we could take constructions and generate from them because the tree-drone in grandma's that Tillman is using, as you said, nothing but a mathematical formalism. You can just do anything with it.
+Speaker E: It's syntactic trees, each piece of g-like stuff, or whether it's construction.
+Speaker E: So if you ever get to the generation side of constructing things, there might be something of interest there, but the moment we're, of course, definitely focused on the understanding pipeline.
+Speaker C: Any other visit reports for the stories?
+None: There So we now know I think what the landscape is like and so we just push on and do what we need to do. And one of the things we need to do is the, and then I think it's relatively tight, totally constrained, is to finish up this belief net stuff. So, and I was going to switch to start talking about that unless there are other more general questions.
+Speaker C: Okay, so here's where we are on the belief net stuff as far as I understand it. Going back I guess two weeks ago, Robert had laid out this belief net missing only the connections.
+Speaker C: Right? So I put all the dots down and we went through this and I think more or less convinced ourselves that at least the vast majority of the nodes that we needed for the demo level we were thinking of were in there. Yeah, we may run across one or two more, but of course the connections weren't. So Boschern and I went off and looked at some technical questions about were certain operations sort of legitimate belief net computations and was there some known problem with them or had someone already solved how to do this and stuff. And so Boschern tracked that down. The answer seems to be no, no one has done it, but yes, it's perfectly reasonable thing to do if that's what you set out to do. And so the current state of things is that again starting now we'd like to actually get a running belief net for this particular subdomain done in the next few weeks. So Boschern is switching projects as the first of June and he's going to leave us an inheritance which is a hopefully a belief net that does these things. And there are two aspects to it, one of which is technical getting the coding right and making it run and stuff like that. And the other is the actual semantics. What are the considerations in them and what are the ways in which they relate. So he doesn't need help from this group on the technical aspects or if he does we'll do that separately. But in terms of what are the decisions and stuff like that, that's something that we all have to work out. Is that right? I mean that's both you guys
+Speaker B: understanding where we are. Okay. So I guess is there like a latest version of the belief
+Speaker E: net or the proposed belief net? We had decided, we didn't decide we wanted to look into maybe getting it the visualization a bit clearer but I think if we do it sort of a paper version of all the nodes and then the connections between them. That should suffice.
+Speaker C: Yeah, that's a separate problem. We do in the long run want to do better visualization
+Speaker D: and all that's separable. Yeah. I did look into that in terms of you know exploding the nodes out and downing. Right. Java based on support that I can imagine a way of hacking at the code to do that. He'd probably take two weeks or so to actually go through and do it. And I went through all the other packages on Kevin Murphy's page. Right. And I couldn't find the necessary mix of free and with the gooey and with this thing that we can pay.
+Speaker C: If we can pay, you know, it's paying a thousand dollars or something we can do that. Okay.
+Speaker C: So don't view free as a absolute constraint. Okay. So then I'll go back and look at the
+Speaker B: one. Okay. And you can ask Kevin. The one that people seem to use is a hugin or whatever. Hugin. Yeah. That's free. I don't think it's is it free because I've seen it advertised
+Speaker C: in places. So maybe free documents like I don't know. I have a copy that I downloaded. So at one point it was free. But I know people do use hugin. So how do you spell that?
+Speaker C: Hugin. And Boston can give you a pointer. Not in any case. But being, you know, if it's probably for university, it's going to be real cheap anyway. But you know, it's $50,000.
+Speaker E: We aren't going to do it. I was supposed to just not to spend two weeks and change you know. The Java basically. I will send you a pointer to a Java app that does that. It's sort of a fish. You have a node and you click on it and it shows you all the connections.
+Speaker E: And you click on something else that moves away. That goes into the middle. And maybe there is an easy way of interfacing those two. If that doesn't work, it's not a problem we need to solve right now. But I'm what my job is I will give you the input terms of the internal structure. Maybe node by node or something like this. Or should I collect it all?
+Speaker B: That's a matter. Just any rough representation of the entire belief net. It's probably
+Speaker E: less. And you're going to be around, again, always two stays and three stays after noonish
+Speaker B: as usual. What were that change? I mean, yeah, I can, this week I guess I kind of have a lot of projects and stuff. But after that, I'll generally be more free. So yes, I can be around. I mean, generally, if you email me, I can be around other days. Yeah,
+Speaker C: this is not a crisis that, I mean, you do everybody who's student should, you know, do their work. Of course, there's no one good shape. And then we'll dig down on this.
+Speaker E: No, that's good. That means I have, I can spend this week doing it. How do you go about
+Speaker H: this process of deciding what these connections are? And there's an issue of how to weight the different things too. You just sort of gas and see if it sort of.
+Speaker C: Well, there's two different things you do. One is you design and the other is you learn.
+Speaker C: Okay. So what we're going to do initially is do design. And if you will, guess. Okay.
+Speaker C: That is, you know, use your best knowledge of the domain to hypothesize what the dependencies are and stuff. If it's done right and if you have data, then there are techniques for learning the numbers given the structure. And there are even techniques for learning the structure, although that takes a lot more data and it's not as, and so forth and so on.
+Speaker C: So, but for the limited amount of stuff we have for this particular exercise, I think we'll
+Speaker E: just design it. Hopefully as time passes, we get more and more data from Hydeburg and people actually using it and stuff. So, but this is the long run. But to solve our problems,
+Speaker H: mediocre design will do. Yeah, that's great. And by the way, speaking of data, are there I could swear, I could swear I saw it sitting on someone's desk at some point. But is there a transcript of any of the sort of initial interactions of people with the system? Because, you know, I'm still sort of itching to look at what, look at the stuff and see what people
+Speaker C: are doing. Yeah, make yourself. And of course, Keith would like the German as well as the English. So, whatever you guys can get. Oh, yeah, of course, German. You're native language. I can read that one. Okay. That's important. So, he'll get you some data. Okay.
+Speaker H: Yeah, I mean, I sort of found the audio of some of those and it kind of sounded like I didn't want to trudge through that. You know, it's just strange. But, yeah. We probably
+Speaker E: will not get those to describe because they were trial runs. But we have data in English
+Speaker C: and German already transcribed. Okay. Okay. Okay. So, while we're still at this sort of top level, anything else that we ought to talk about today? How was your finger?
+Speaker H: Oh, I just wanted to, like, mention as an issue, you know, last meeting I wasn't here because I went to a linguistics vocarium on the fictive motion stuff and that was pretty interesting and, you know, I mean, it seems to me that that will fairly obviously be of relevance to what we're doing here because, you know, people are likely to give descriptions like, you know, what's that thing right where you start to go up the hill or something like that, you know, meaning a few feet up the hill or whatever from some reference point and all that stuff. So I mean, I'm sure in terms of, you know, people trying to state locations or, you know, all that kind of stuff is going to be very relevant. So, um, that was, the talk was about English versus Japanese, which obviously the Japanese doesn't affect us directly except that some of the construction, what he talked about was, you know, in English we say things like, you know, your bike is parked across the street and we use these prepositional phrases, you know, well, if you work to move across the street, you would be at the bike. But in, in Japanese, the more conventionalized tendency is to use a sort of a description of where one has crossed to the river. There's a tree.
+Speaker H: You know, you can actually say things like, there's a tree where one has crossed the river, but no one has ever crossed the river or something like that. So the idea is that this really, you know, that's supposed to show that it's really fictive and so on.
+Speaker H: But the point is that that kind of construction is also used in English, you know, like right where you start to go up the hill or just when you get off the train or something like that to indicate where something is. So we'll have to think about how much is that used in German?
+Speaker E: Well, I was on a different side. I mean, the deep map project, which is undergoing some renovation at the moment, but this is a three language project German English Japanese.
+Speaker E: And we have, I have taken care that we have the Japanese generation and stuff. And so I looked into a special description so we can generate special descriptions how to get from A to B and information on objects in German English and Japanese.
+Speaker E: And there is a huge project on special descriptions differences in special descriptions. Well, if you're interested in that. So how, how, I mean, it does sort of go all the way down to the conceptual level to some extent.
+Speaker C: So where is this huge project?
+Speaker E: It's closed. It's the beta felt generation of special descriptions and whatever.
+Speaker C: Well, that may be another thing to keep us.
+Speaker E: But I think we should leave Japanese constructions maybe outside of the scope for now, but definitely it's interesting to look at it across the border there.
+Speaker A: So, I think it's a bit of any tension to the relative position of direction, relative to a speaker, for example, that some differences between Hebrew and English, we say, back in front of the car as you come here, you drop behind the car.
+Speaker A: In Hebrew, it means, back behind the car because the front of the car you can find it.
+Speaker A: Interesting.
+Speaker A: Well, in English, the front of the car is the absolute front of the car.
+Speaker A: So, the canonical direction of motion determines where the front is.
+Speaker E: I think did you ever get to look at the red paper that I sent you on that problem in English in German, Carol 93?
+Speaker E: There is a study on the differences between English and German on exactly that problem.
+Speaker E: They actually say the monkey in front of the car, worse than monkey. And they found statistically very significant differences in English and German.
+Speaker E: It might be, since there are only a finite number of ways of doing it, that the German might be more like Hebrew in that respect.
+Speaker E: The solution they proposed was that it was due to syntactic factors.
+Speaker E: That syntactic factors do play a role there, whether you're more likely to develop choices that lead you towards using intrinsic versus extrinsic reference frames.
+Speaker H: It seems to me that you can get both in English, depending, you know, like in front of the car, here's the car sideways to me and between me and the car is in front of the car.
+Speaker H: I can also give you a point of view of the paper of mine, which is the ultimate taxonomy of reference frames.
+Speaker E: I'm the only person in the world who actually knows how it works.
+Speaker E: Not really.
+Speaker C: Great. No, I've not seen that.
+Speaker A: It's called reference frames.
+Speaker E: It's special reference frames. You actually have only, if you want to have a, this is usually, this should be an L.
+Speaker E: Well, actually, you have only have two choices. You can either do a two point or a three point, which is, you familiar with the, with the orygo, whether it's a center orygo is the center of the frame of reference.
+Speaker E: And then you have the reference object and the object to be localized.
+Speaker E: In some cases, the orygo is the same as the reference object.
+Speaker E: So that would be origin.
+Speaker E: Orygo is a terminus technique in that sense. It's even used in the English literature. Orygo.
+Speaker E: Okay. All right. I've heard it. Okay. And so this videotape is in front of me.
+Speaker E: I'm the orygo, and I'm also the reference object. Those are two point.
+Speaker E: And three point relations is, if something has an intrinsic front side like this chair, then your shoe is behind the chair.
+Speaker E: And reference object. And no, from my point of view, your shoe is left of the chair.
+Speaker H: You can actually say things like, it's behind the tree from me or something like that, I think, in certain circumstances in English, right?
+Speaker H: From where I'm standing, it would appear that.
+Speaker D: So it's a bit like break it back for a time.
+Speaker C: Yeah, it sounds like it doesn't.
+Speaker E: And then here you, on this scale, you have it either be ego or allocentric.
+Speaker E: And that's basically it. So ego-centric, two point, ego-centric, three point, or you can have allocentric.
+Speaker E: So as seen from the church, the town hall is right of that fire station. Hardly ever used, but it's worth.
+Speaker C: Yeah, see this is getting into Ami's thing. He's very interested in that.
+Speaker C: So, yeah, well, why didn't you just put it on the webpage? There's this EDU, right?
+Speaker E: Yeah, it's also a lot of my home page at e-mail. And then that to me of a special description, or I'll send it link.
+Speaker C: Yeah, but just put it link on. Yeah.
+Speaker C: By the way, something that I didn't know until about a week ago or so is apparently there are separate brain areas for things within reach and things that are out of reach.
+Speaker C: So there's all this linguistic stuff about near and far or yawn and so forth.
+Speaker C: So there's this linguistic facts, but apparently, here's the way the findings go.
+Speaker C: That they do MRI and if you've got something within reach, then there's one of your areas lights up.
+Speaker C: And if something's out of reach, a different one. But here's the amazing result. They say, you get someone with a deficit so that they have perfectly normal ability at distance things.
+Speaker C: So the typical task is subdivisions. So there's a line on the wall over there and you give them a laser pointer and you say, where's the midpoint? They do fine.
+Speaker C: If you give them a line and if they touch it, they can't. They're just that part of the brain isn't functioning so they can't do that.
+Speaker C: Here's the real experiment. Same thing on the wall. Give them a laser. Where is it? They do it.
+Speaker C: Give them a stick. Long stick and so they do it. They can't do it. So there's a remapping of distance space into nearby space.
+Speaker A: So they don't get this within reach?
+Speaker C: It's not within reach. And you use it within reach. So I'll dig up this reference.
+Speaker C: First of all, I'll explain something that I've always wondered about. And I'll do this test on you guys as well.
+Speaker C: I have had an experience not often, but a certain number of times. When, for example, I'm working with a tool, a screwdriver or something, for a long time, I start feeling the tip directly.
+Speaker C: Not indirectly, but you actually can feel the tip. And people who are accomplished by Linus and stuff like that claim they also have this kind of thing where you get a direct sensation of physical sensation of the end of the tool.
+Speaker H: What's going on at the end of the tool?
+Speaker A: The extension of the tool. Yeah. Right. Have you had this? I think so. I mean, it's not exactly the same thing, but it's getting close to it.
+Speaker C: What does it feel like?
+Speaker C: It feels like you're as if your neurons had extended themselves out to this tool and you're feeling forces on it and so forth. And you deal directly with it.
+Speaker A: I was playing with those devices that allow you to manipulate objects when it's dangerous to get close.
+Speaker A: Right. You're being set your hands, something, and there's a correspondence.
+Speaker A: So I've played with it after a while. You don't feel the difference anymore.
+Speaker A: You stop back and suddenly it goes away.
+Speaker A: Right.
+Speaker C: So this was the first actual experimental evidence I've seen that was consistent with this anecdotal stuff.
+Speaker C: And of course, it makes a lovely story about why languages make this sensation.
+Speaker C: Of course, their behavioral differences too. Things you can reach are really quite different things you can't.
+Speaker C: But there seems to be an actual really deep embodied neural difference.
+Speaker C: So in addition to the...
+Speaker C: This is more proximal distal. Yeah, exactly. So in addition to ego and allocentric, which appear all of this place, you also apparently have this proximal distal thing which is very deeply embedded.
+Speaker E: Well, Dan Montello sort of... he does the cognitive map, Guro, done in Santa Barbara.
+Speaker E: And he always talks about these... he already, probably most likely without knowing this evidence, is talking about these small scale spaces that you can manipulate versus large scale.
+Speaker C: Well, there's a lot of behavioral things on this. But it was the first neurophysiological thing I saw.
+Speaker C: Anyway, yeah. So we'll look at this.
+Speaker C: And so all of these issues are now starting to come up. So now we're done with demos. We're starting to do science, right?
+Speaker C: So these issues about reference, spatial reference, discourse reference, all this sort of stuff.
+Speaker C: Dikesus, which is part of what you were talking about. So all of this stuff is coming up essentially starting now.
+Speaker C: So we're going to do all this. So there's that. And then there's also a set of system things that come up.
+Speaker C: So okay, we're not using their system. That means we need our system right in it follows.
+Speaker C: And so in addition to the business about just getting the linguistics right and the formalism and stuff, we're actually going to build something.
+Speaker C: And John O. is point person on the parser analyzer, whatever that is.
+Speaker C: And we're going to start on that in parallel with the grammar stuff.
+Speaker C: But to do that, we're going to need to make some decisions like ontology.
+Speaker C: So this is another thing we're going to get involved.
+Speaker C: And makes relatively early, I think, make some decisions on, is there an ontology API?
+Speaker C: There's a sort of standard way of getting things from ontologies and we build the parser and stuff around that.
+Speaker C: Or is there a particular ontology that we're going to standardize on?
+Speaker C: And if so, for example, is there something that we can use there?
+Speaker C: It does either the smart come project or one of the projects at EML have something that we can just pull out for that.
+Speaker C: So there are going to be some things like that which are not science but system.
+Speaker C: But we aren't going to ignore those because we're not only going, the plan is not only to lay out this thing but actually build some of it.
+Speaker C: And how much we build and so forth.
+Speaker C: Part of it, if it works right, is it looks like we're now in a position that the construction analyzer that we want for this applied project can be the same as the construction analyzer that Nancy needs for the child language modeling.
+Speaker C: So it's always been out of phase but it now seems that there's a good shot at that.
+Speaker C: So we've talked about it and the hope is that we can make these things the same thing.
+Speaker C: And of course it's only, in both cases, it's only one piece of a bigger system.
+Speaker C: But it would be nice if that piece were exactly the same piece. It was just this construction analyzer.
+Speaker C: And so we think we have a shot at that.
+Speaker C: So to come circle on that, this formalization task is trying to get the formalism into a shape where it can actually be of use to someone who's trying to do this.
+Speaker C: Yeah, where it actually is, it covers the whole range of things. And the thing that got Mark in the worst trouble is he had a very ambitious thing he was trying to do.
+Speaker C: And he insisted on trying to do it with a limited set of mechanisms that turned out inherently not to cover the space.
+Speaker C: And it just was just terribly frustrating form. And he seemed fully committed to both sides of this irreconcilable thing.
+Speaker C: And John O. is much more pragmatic. This is true, isn't it? Yes. So there's sort of really deep emotional commitment to certain theory being complete.
+Speaker C: It certainly hasn't been observed. Now you do, but that's okay. Because I don't have to implement that.
+Speaker C: Actually, the thing is you do, but the thing you have to implement is so small that...
+Speaker C: I think get something done. But to try to do something of scale and purist, particularly if what you're purist about doesn't actually work.
+Speaker C: And then the other thing is while we're doing this, Robert's going to pick a piece of this space for his absentee thesis. I think you all know that you can just, in Jeremy, almost just send him to the office.
+Speaker C: I'm just driving through this. I'm driving through. You put in your credit card as well. But anyway, so that's also got to be worked out hopefully over the next few weeks.
+Speaker C: So that it becomes clear what piece Robert wants to jump into. And while we're at this level, there's at least one new doctoral student in computer science who will be joining the project either next week or the first of August depending on the blindishments of Microsoft.
+Speaker C: And her name is Eva. Nobody believes this.
+Speaker C: Is this person someone who's in first year this year? No, first year coming. So she's now out here. She's moved. And she'll be a student as of that.
+Speaker C: And probably she'll pick up from you on the belief net stuff. So she'll be chasing you down and stuff like that.
+Speaker C: Against all traditions. And actually I talked today to a undergraduate who wants to do an honors thesis on this class. No, interestingly enough.
+Speaker C: You always get these people who are not in the class. Some of them. Yeah. So anyway, but she's another one of these ones. It was the 3.9 average and so forth and so on.
+Speaker C: So I've given her some things to read. So we'll see how this goes. Oh, there's yet another one of the incoming first incoming first year graduate students to rest into. So we'll see how that goes.
+Speaker C: Anyway, so I think as far as this group goes. It's certainly worth continuing for the next few weeks to get closure on the belief net and the ideas that are involved in that.
+Speaker C: And what are the what are the concepts we'll see whether it's going to make sense to have this be separate from the other.
+Speaker C: Bigger effort with the formalization stuff or not. I'm not sure. It probably depends on what your thesis turns out to be and how that goes.
+Speaker C: So I was and then I'm and you can decide, you know, how much time you want to put into it. And it's beginning to type shape shape. So.
+Speaker C: And I think you will find that if you want to look technically at some of the your traditional questions in this light, Keith, whose building constructions will be quite happy to see what you envision as the issues and the problems and how they might get reflected in constructions.
+Speaker C: I suspect that's right. Yeah.
+Speaker A: I have to go to prison and for June or July.
+Speaker C: And if it's useful, we can probably arrange for you to drop by and visit either at Heidelberg or at the German AI Center while you're in the neighborhood.
+Speaker A: Actually, I'm invited to do some consulting with a bank in Geneva, which has an affiliation with research institute in Geneva, which I forgot the name of.
+Speaker C: Well, we're connected to this. There's a very significant connection between we'll go through this. I see a sign and EPFL, which is the.
+Speaker C: Germany's got two big technical institutes. There's one in Zurich, ETH, and then it's one French speaking one in Loseon, OK, which is EPFL.
+Speaker C: So find out who they are associated with in Geneva. Probably we're connected to them.
+Speaker C: Yeah. And so anyway, we can undoubtedly get to give a talk at the email or something like that.
+Speaker E: I think the one you gave here a couple of weeks ago would be your interest.
+Speaker C: A lot of interest. Actually, either place, DFKI or.
+Speaker C: So, and if there is a book that you'll be building up some audience for it, and you'll get feedback from these guys, because they've actually these DFKI guys have done as much as anyone over the last decade in trying to build them.
+Speaker C: So we'll set that up.
+Speaker C: OK, so unless we want to start digging into the belief net and the decisions now, which would be fine.
+Speaker E: It's probably better if I come next week with the version 0.9.
+Speaker C: So how about a few two guys between now and next week come up with something that is partially proposed and partially questions.
+Speaker C: Here's what we think we understand. Here are the things we think we don't understand.
+Speaker C: And that we as a group will try to finish it.
+Speaker C: What I'd like to do is shoot for finishing all this next Monday.
+Speaker C: OK, these are the decisions. I don't think we're going to get lots more information. It's a design problem.
+Speaker C: And let's come up with a first cut at what they should look like.
+Speaker C: And then finish it up. Does that make sense?
+Speaker E: And this semester will be over next week, but then you have projects for one more week to come?
+Speaker B: No, I think I'll be done by this weekend.
+Speaker D: Same with you, no?
+Speaker D: Well, I have projects within my professor. One of my classes also has a final that he's giving us.
+Speaker D: And he's giving us five days to do it, which means it's going to be hard.
+Speaker C: Oh, it's taken on fine.
+Speaker C: Yeah, he's doing this.
+Speaker C: Akin.
+Speaker C: That would have been in my guess.
+Speaker C: But anyway, yeah.
+Speaker C: Pretty soon.
+Speaker D: OK, so I guess that's definitely the last day.
+Speaker D: Like it or not for me.
+Speaker C: So let's do this. And then we'll be making some separate.
+Speaker C: These guys are talking.
+Speaker C: We have a group on the formalization, Nancy and John O'Neil are going to talk about parsers.
+Speaker C: So there are various kinds of, of course, nothing gets done even in a meeting of seven people, right?
+Speaker C: So two or three people is the size in which actual work gets done.
+Speaker C: Yeah.
+Speaker C: So we'll do that.
+Speaker C: Great. Well, the other thing we want to do is catch up with Ellen and see what she's doing because the image schemas are going to be important.
+Speaker C: Yeah.
+Speaker C: But we want those, right?
+None: Yeah.
+Speaker C: And we want them formalized and stuff like that.
+Speaker C: Yeah.
+Speaker C: So let me make a note to do that.
+Speaker C: OK.
+Speaker H: Yeah, I'm actually probably going to be in contact with her pretty soon anyway, because various of us students were going to have a reading group about.
+Speaker H: Oh, right.
+Speaker C: Right. Right. Right. Right. That's great.
+Speaker C: Yeah. I should have mentioned that.
+Speaker C: OK.
+Speaker C: Although she said it's a secret.
+Speaker C: Right.
+Speaker C: The faculty.
+Speaker C: The faculty are posting that.
+Speaker C: I wouldn't say as much.
+Speaker C: But I'm sufficiently clueless that I count as eight.
+Speaker C: Yeah. Right.
+Speaker H: It's as if we didn't tell anyone at all.
+Speaker H: I'll ask her.
+Speaker H: I'm going to get a bit of a man to say it about.
+None: Yeah.
+None: I was like a little bossery.
+None: You could say you were using a little boss.
+Speaker F: OK.
+Speaker F: Fine. You could say.
+Speaker F: You could say. You could say.
+Speaker F: And I hope you.
+None: I don't know my question, but I'll give it my all.
+None: Yeah.

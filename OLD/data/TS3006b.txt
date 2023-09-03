@@ -1,0 +1,2610 @@
+0:00:00	None
+ it's not even cheap greenhouse Editor for that reason.
+
+0:00:04	None
+ No.
+
+0:00:20	None
+ Ah yeaahahah.
+
+0:00:22	None
+!
+
+0:00:24	SPEAKER_02
+ I didn't see it yet I think.
+
+0:00:40	SPEAKER_00
+ Did I miss something?
+
+0:00:43	SPEAKER_02
+ Yeah, pretty much.
+
+0:00:46	SPEAKER_02
+ I thought I'd come and mail you so I thought I'd just drop it in.
+
+0:00:49	SPEAKER_03
+ Hey, what's wrong with my computer?
+
+0:00:55	None
+ It's an iconita who is telling you.
+
+0:01:02	SPEAKER_02
+ Yeah, that's my presentation.
+
+0:01:08	SPEAKER_00
+ Oh, right.
+
+0:01:15	SPEAKER_03
+ Hey, everybody ready?
+
+0:01:20	SPEAKER_03
+ Sorry, I'm not a good player.
+
+0:01:25	SPEAKER_03
+ Okay, where do I find this?
+
+0:01:30	SPEAKER_00
+ I'm not a good player.
+
+0:01:34	SPEAKER_00
+ And then, I'm a paradise.
+
+0:01:41	SPEAKER_01
+ You read the new flash?
+
+0:01:44	SPEAKER_02
+ No, what was it?
+
+0:01:49	SPEAKER_02
+ Oh, no, press it.
+
+0:01:54	SPEAKER_03
+ Yeah, no, but my screen is reduced in size.
+
+0:01:59	SPEAKER_02
+ What?
+
+0:02:04	SPEAKER_03
+ Feedback?
+
+0:02:09	SPEAKER_00
+ Okay.
+
+0:02:14	SPEAKER_01
+ I'll delete.
+
+0:02:19	SPEAKER_01
+ Let's see.
+
+0:02:26	SPEAKER_01
+ So it doesn't draw the attention away.
+
+0:02:29	SPEAKER_00
+ I made my own map.
+
+0:02:33	SPEAKER_03
+ No, not this, but the task.
+
+0:02:43	SPEAKER_03
+ No, I just flipped it, close it, took it here and then this happened.
+
+0:02:54	SPEAKER_03
+ And that's not the way it's.
+
+0:03:04	SPEAKER_03
+ Where was it?
+
+0:03:07	SPEAKER_03
+ It's settings.
+
+0:03:11	SPEAKER_01
+ Okay, all right.
+
+0:03:14	SPEAKER_03
+ Thank you.
+
+0:03:17	SPEAKER_03
+ Do you guys like your task?
+
+0:03:20	SPEAKER_03
+ I get my function, you know, the information that I need.
+
+0:03:25	SPEAKER_01
+ So frustrating.
+
+0:03:30	SPEAKER_01
+ Yeah, I don't like the end and just typing it to that.
+
+0:03:33	SPEAKER_03
+ Oh, I have to do that.
+
+0:03:36	SPEAKER_03
+ So, this presentation is mainly based on my own ideas because I hadn't time to integrate the information yet.
+
+0:03:43	SPEAKER_02
+ Really annoying.
+
+0:03:48	SPEAKER_02
+ I'm not sure.
+
+0:03:53	SPEAKER_02
+ I'm not sure.
+
+0:03:58	SPEAKER_01
+ I'm not sure.
+
+0:04:03	SPEAKER_01
+ I'm not sure.
+
+0:04:08	SPEAKER_01
+ Okay.
+
+0:04:11	SPEAKER_01
+ So, I'm going to talk about functional requirements.
+
+0:04:21	SPEAKER_01
+ Well, some research has been done, has been done, observing of 100 subjects and usability lab using the remote control.
+
+0:04:26	SPEAKER_01
+ They also fill in a questionnaire.
+
+0:04:29	SPEAKER_01
+ The findings were, well, you can see them for yourself.
+
+0:04:33	SPEAKER_01
+ They dislike to look at field current remote controls.
+
+0:04:36	SPEAKER_01
+ They're ugly.
+
+0:04:41	SPEAKER_01
+ They do not match the operating behavior of the user, so they don't match what they want to have on it.
+
+0:04:47	SPEAKER_01
+ They're often lost somewhere in the room.
+
+0:04:51	SPEAKER_01
+ It takes too much time to learn how to use a new remote control.
+
+0:04:55	SPEAKER_01
+ And they're bad for error's eye.
+
+0:04:58	SPEAKER_01
+ I don't know how a user can read that, but okay.
+
+0:05:03	SPEAKER_01
+ There was also research on the most relevant and irrelevant functions.
+
+0:05:12	SPEAKER_01
+ Most irrelevant and less used were audio settings, mono stereo, pitch, bass, screen settings for brightness and color and stuff like that.
+
+0:05:22	SPEAKER_01
+ But they are used.
+
+0:05:25	SPEAKER_01
+ They do need to be under remote control.
+
+0:05:30	SPEAKER_01
+ And if you can't control the sound settings, I mean, if you dislike a very loud bass or something, you need to change that.
+
+0:05:39	SPEAKER_01
+ Yeah, we have to.
+
+0:05:41	SPEAKER_01
+ If he doesn't have an equalizer.
+
+0:05:44	SPEAKER_01
+ Yeah, I mean, we can't, my TV has, but we can leave them away.
+
+0:05:49	SPEAKER_01
+ Most relevant and most used functions, they speak for themselves, I guess.
+
+0:05:53	SPEAKER_01
+ Power button, channel volume selection, daily text, but we can skip that because I saw the new slash and daily text is so outdated that it should not be used anymore in the future.
+
+0:06:07	SPEAKER_01
+ So forget this one and channel settings.
+
+0:06:11	SPEAKER_01
+ So for programming your channels in the right order.
+
+0:06:14	SPEAKER_03
+ Where did you guys get that new slash?
+
+0:06:16	SPEAKER_03
+ Yeah, I didn't get anything.
+
+0:06:18	SPEAKER_01
+ On the project.
+
+0:06:20	SPEAKER_02
+ Not by mail.
+
+0:06:21	SPEAKER_02
+ I received mail, but you don't.
+
+0:06:22	SPEAKER_01
+ No, so it's a text file in the project folder.
+
+0:06:25	SPEAKER_01
+ So daily text can be skipped.
+
+0:06:27	SPEAKER_02
+ That's in the presentation.
+
+0:06:30	SPEAKER_01
+ There was some research on new features in the remote control about an LCD screen and speech recognition.
+
+0:06:37	SPEAKER_01
+ Well, we got an update for the audience or the targeted group.
+
+0:06:44	SPEAKER_01
+ So it's above 40, I guess.
+
+0:06:47	SPEAKER_01
+ The new product or below.
+
+0:06:50	SPEAKER_01
+ Because that's pretty relevant.
+
+0:06:53	SPEAKER_01
+ I thought our ads.
+
+0:06:54	SPEAKER_02
+ Our current customers are in the age group 40 plus.
+
+0:06:58	SPEAKER_02
+ Yeah.
+
+0:06:59	SPEAKER_02
+ And the new product should reach new markets.
+
+0:07:02	SPEAKER_02
+ Below.
+
+0:07:03	SPEAKER_01
+ Okay, well.
+
+0:07:04	SPEAKER_01
+ That's in the new.
+
+0:07:06	SPEAKER_01
+ Okay, that's good to know.
+
+0:07:09	SPEAKER_01
+ Because you see a clear distinction between the age groups concerning the features.
+
+0:07:14	SPEAKER_01
+ And above 40 people are not so interested in the screen or speech recognition.
+
+0:07:22	SPEAKER_01
+ But below that age they pretty much are.
+
+0:07:25	SPEAKER_01
+ So I think we can build that in.
+
+0:07:31	SPEAKER_01
+ Yeah, well, we can skip this part as well because I thought our ad above 40.
+
+0:07:36	SPEAKER_01
+ So we could skip the features, but we just have to build them in because they find it very interesting.
+
+0:07:43	SPEAKER_01
+ Well, we have to keep all the classic functions but make the buttons as user friendly as possible.
+
+0:07:51	SPEAKER_01
+ And also, so not only the design of the buttons but how you can push them and stuff like that.
+
+0:07:57	SPEAKER_01
+ So the physical aspect of it.
+
+0:08:02	SPEAKER_01
+ And I think certainly for the lower age groups, a nice design.
+
+0:08:06	SPEAKER_01
+ Which does not make the remote control or no to stay in your room.
+
+0:08:10	SPEAKER_01
+ It's actually a part of your interior of your design in your room.
+
+0:08:14	SPEAKER_01
+ So the people can say, whoa, what's that?
+
+0:08:17	SPEAKER_01
+ Well, that's my remote control.
+
+0:08:18	SPEAKER_01
+ So it has to look nice and feel nice and have all the functions.
+
+0:08:22	SPEAKER_02
+ But it also needs to have corporate identity.
+
+0:08:25	SPEAKER_01
+ Yeah.
+
+0:08:26	SPEAKER_01
+ So the logo has to be present and the colors as well.
+
+0:08:30	SPEAKER_02
+ We can change much of that.
+
+0:08:32	SPEAKER_01
+ Two years.
+
+0:08:33	SPEAKER_01
+ Yeah.
+
+0:08:34	SPEAKER_01
+ But I don't think that's a problem because the thing has to have a color anyway.
+
+0:08:38	SPEAKER_01
+ And most of the time there is a brand present on it.
+
+0:08:41	SPEAKER_01
+ So I think that's not going to affect it very much.
+
+0:08:45	SPEAKER_01
+ But that are the consequences of the marketing part.
+
+0:08:51	SPEAKER_02
+ It's open already so you can use all top.
+
+0:08:56	SPEAKER_00
+ Oh, you're here.
+
+0:09:10	SPEAKER_02
+ Oh, no.
+
+0:09:17	SPEAKER_00
+ You pressed all the four?
+
+0:09:19	SPEAKER_00
+ No, no, no.
+
+0:09:20	SPEAKER_00
+ I pressed the mouse button.
+
+0:09:21	SPEAKER_03
+ Oh, great.
+
+0:09:23	SPEAKER_03
+ That's a self-destruct button.
+
+0:09:25	SPEAKER_02
+ Yeah.
+
+0:09:26	SPEAKER_02
+ Maybe you can do it from your computer.
+
+0:09:27	SPEAKER_02
+ Yeah.
+
+0:09:28	SPEAKER_00
+ Yeah.
+
+0:09:29	SPEAKER_00
+ And if you go stand around here.
+
+0:09:31	SPEAKER_00
+ Yeah.
+
+0:09:32	SPEAKER_03
+ Sure.
+
+0:09:33	SPEAKER_02
+ All right.
+
+0:09:34	SPEAKER_02
+ That's nice.
+
+0:09:35	SPEAKER_02
+ Yeah.
+
+0:09:36	SPEAKER_02
+ All right.
+
+0:09:37	SPEAKER_00
+ I had two examples.
+
+0:09:45	SPEAKER_00
+ This one is the advanced one with a lot of options and functions and buttons.
+
+0:09:50	SPEAKER_00
+ This is the easy one.
+
+0:09:52	SPEAKER_00
+ I think we have to combine them.
+
+0:09:54	SPEAKER_00
+ And yeah, merge the best functions of all examples.
+
+0:09:59	SPEAKER_00
+ But yeah, the H is under 40.
+
+0:10:03	SPEAKER_01
+ Yeah.
+
+0:10:04	SPEAKER_01
+ And marketing research stated that that kind of users are not afraid of a lot of functions.
+
+0:10:10	SPEAKER_00
+ So not too much.
+
+0:10:13	SPEAKER_00
+ Yeah.
+
+0:10:14	SPEAKER_00
+ Yeah.
+
+0:10:15	SPEAKER_03
+ We do have to integrate the screen and the speech recognition.
+
+0:10:19	SPEAKER_03
+ Yeah.
+
+0:10:20	SPEAKER_00
+ All right.
+
+0:10:21	SPEAKER_00
+ Yeah.
+
+0:10:24	SPEAKER_00
+ This one we can remove for kids.
+
+0:10:26	SPEAKER_00
+ It's just only for adults.
+
+0:10:27	SPEAKER_00
+ So we can use some advanced options.
+
+0:10:29	SPEAKER_00
+ Yeah.
+
+0:10:30	SPEAKER_00
+ From age of 16.
+
+0:10:31	SPEAKER_00
+ Yeah.
+
+0:10:32	SPEAKER_00
+ But I prefer we use the basic options.
+
+0:10:34	SPEAKER_00
+ Yeah.
+
+0:10:35	SPEAKER_00
+ We have to make them very easy.
+
+0:10:36	SPEAKER_00
+ So for just zipping around channels, you can just push one button.
+
+0:10:40	SPEAKER_00
+ But if you want to use your video recorder or something else, you should use an advanced option.
+
+0:10:46	SPEAKER_01
+ Yeah.
+
+0:10:47	SPEAKER_01
+ But the news flash also stated that it should control only one device.
+
+0:10:50	SPEAKER_01
+ So only your television.
+
+0:10:52	SPEAKER_00
+ Yeah.
+
+0:10:53	SPEAKER_00
+ Okay.
+
+0:10:54	SPEAKER_00
+ So it's very easy.
+
+0:10:55	SPEAKER_01
+ Now, yeah.
+
+0:10:56	SPEAKER_00
+ So there are not extra options in this case.
+
+0:10:58	SPEAKER_00
+ Okay.
+
+0:10:59	SPEAKER_00
+ Also, yeah.
+
+0:11:00	SPEAKER_00
+ We have to make it fashionable.
+
+0:11:01	SPEAKER_00
+ Yeah.
+
+0:11:02	None
+ You want to set it before.
+
+0:11:03	SPEAKER_00
+ Yeah.
+
+0:11:04	SPEAKER_00
+ The basic functions.
+
+0:11:05	SPEAKER_00
+ Yeah.
+
+0:11:06	SPEAKER_00
+ Only use the extra functions if they are really needed.
+
+0:11:09	SPEAKER_02
+ Yeah.
+
+0:11:10	SPEAKER_02
+ So maybe you can hide them or something.
+
+0:11:11	SPEAKER_01
+ Yeah.
+
+0:11:12	SPEAKER_01
+ Well, what we can do with the screen is all the configuration options.
+
+0:11:15	SPEAKER_01
+ You can put that in the screen.
+
+0:11:17	SPEAKER_00
+ Yeah.
+
+0:11:18	SPEAKER_01
+ Screen menu to do that.
+
+0:11:21	SPEAKER_01
+ And then the basic function just under defies itself.
+
+0:11:24	SPEAKER_01
+ So it looks very simple and all the advanced features are hidden in the screen with a clear menu.
+
+0:11:29	SPEAKER_02
+ Yeah.
+
+0:11:30	SPEAKER_02
+ Uh, functionality is the screen.
+
+0:11:32	SPEAKER_02
+ What does the screen do?
+
+0:11:34	SPEAKER_02
+ All right.
+
+0:11:35	SPEAKER_01
+ All right.
+
+0:11:36	SPEAKER_02
+ It's low on power.
+
+0:11:38	SPEAKER_02
+ What are they?
+
+0:11:40	SPEAKER_01
+ So what does the screen do?
+
+0:11:42	SPEAKER_02
+ They said they needed it.
+
+0:11:44	SPEAKER_02
+ What does it do?
+
+0:11:45	SPEAKER_02
+ What do they want?
+
+0:11:46	SPEAKER_00
+ For the advanced functions, I think.
+
+0:11:49	SPEAKER_00
+ Yeah.
+
+0:11:50	SPEAKER_01
+ Well, it didn't say what they want to do with the screen.
+
+0:11:54	SPEAKER_01
+ My guess is pretty handy for advanced functions.
+
+0:11:59	SPEAKER_01
+ Right.
+
+0:12:00	SPEAKER_01
+ Searching for channels.
+
+0:12:01	SPEAKER_01
+ Yeah.
+
+0:12:02	SPEAKER_01
+ Searching for channels.
+
+0:12:03	SPEAKER_01
+ Programming them.
+
+0:12:04	SPEAKER_00
+ Nevermind.
+
+0:12:05	SPEAKER_00
+ I'm almost finished.
+
+0:12:08	SPEAKER_00
+ Okay.
+
+0:12:09	SPEAKER_00
+ We have to watch out for the, if we make it very fashionable, the functionality will go down.
+
+0:12:18	SPEAKER_00
+ So we have to make a compromise between functionality and fashion.
+
+0:12:23	SPEAKER_00
+ Complement them for them.
+
+0:12:24	SPEAKER_00
+ Yeah.
+
+0:12:25	SPEAKER_00
+ Yeah.
+
+0:12:26	SPEAKER_00
+ That was the end.
+
+0:12:28	SPEAKER_00
+ Yeah.
+
+0:12:29	SPEAKER_03
+ Okay.
+
+0:12:30	SPEAKER_03
+ Well, my presentation is a bit sucky.
+
+0:12:35	SPEAKER_03
+ Well, you can improvise, right?
+
+0:12:37	SPEAKER_03
+ Yeah, a little bit.
+
+0:12:39	SPEAKER_03
+ No.
+
+0:12:40	SPEAKER_03
+ No.
+
+0:12:41	SPEAKER_03
+ No.
+
+0:12:46	SPEAKER_02
+ Do you think there are requirements?
+
+0:12:47	SPEAKER_03
+ Yeah, I think that will be it.
+
+0:12:49	SPEAKER_03
+ No.
+
+0:12:50	SPEAKER_01
+ So we can go for it.
+
+0:12:52	SPEAKER_03
+ That was, you know, you know.
+
+0:12:54	SPEAKER_03
+ Let me check.
+
+0:12:55	SPEAKER_02
+ It's not really English.
+
+0:12:56	SPEAKER_03
+ I know.
+
+0:12:59	SPEAKER_02
+ The kickoff.
+
+0:13:01	SPEAKER_02
+ Our working design.
+
+0:13:02	SPEAKER_02
+ We got it.
+
+0:13:03	SPEAKER_01
+ So we can go for the look and feel of the left example and then a screen on top of it.
+
+0:13:12	SPEAKER_02
+ Here you go.
+
+0:13:13	SPEAKER_03
+ All right.
+
+0:13:14	SPEAKER_03
+ How do I skip pages?
+
+0:13:16	SPEAKER_02
+ Just press the keys.
+
+0:13:18	SPEAKER_03
+ Yeah.
+
+0:13:19	SPEAKER_03
+ All right.
+
+0:13:21	SPEAKER_03
+ Yeah.
+
+0:13:22	SPEAKER_03
+ Well, I was working on this before I got my information.
+
+0:13:25	SPEAKER_03
+ So I was just working off the top of my head using my common knowledge about remote controls and, well, the info on the website, which came to it.
+
+0:13:39	SPEAKER_03
+ So I didn't really know what kind of functions we had to put into it yet.
+
+0:13:46	SPEAKER_03
+ This is basically an overview of what we discussed in our last meeting.
+
+0:13:51	SPEAKER_03
+ Those were my starting points.
+
+0:13:54	SPEAKER_03
+ I was working on a, yeah, on a schedule and I was supposed to do it like this, but, yeah.
+
+0:14:06	SPEAKER_03
+ Then the information came and it was kind of exact with all the steps in the remote control that I had to follow.
+
+0:14:12	SPEAKER_03
+ So I was trying to organize them for myself and then make the design, the design, the actual design, but I never came around to do that.
+
+0:14:22	SPEAKER_03
+ So I'm not really sure what I'm supposed to say about it.
+
+0:14:26	SPEAKER_03
+ I mean, everything speaks for itself, I guess.
+
+0:14:29	SPEAKER_03
+ I mean, you press a button, it sends a signal to a chip, which translates it into infrared signal of certain spatial frequency.
+
+0:14:42	SPEAKER_03
+ Yeah, frequency.
+
+0:14:43	SPEAKER_03
+ And our temporal frequencies, actually, and then through a transformer, the signal gets boosted and then sent to the receiver on the TV to feel translated into the function.
+
+0:15:01	SPEAKER_03
+ Yeah, well, this was actually all I got around to do.
+
+0:15:08	SPEAKER_03
+ I mean, I don't know if I'm too slow for this stuff, but then work harder.
+
+0:15:13	SPEAKER_00
+ Should we make a list of all the functions we want to...
+
+0:15:17	SPEAKER_01
+ Yeah, we want to incorporate into it.
+
+0:15:21	SPEAKER_02
+ Okay, for those that didn't see yet, the basic new requirements of the management were no-time text, only for TV.
+
+0:15:34	SPEAKER_02
+ It should be designed for a user group below 40, but I don't think it's wrong if we can target the current customer group as well.
+
+0:15:44	SPEAKER_02
+ And the corporate identity should be clear in the design of the remote control.
+
+0:15:52	SPEAKER_02
+ And we have to decide on the functions and on the...
+
+0:15:58	SPEAKER_02
+ Let's see, what was it?
+
+0:16:00	SPEAKER_02
+ The target group.
+
+0:16:01	SPEAKER_02
+ We have to make me clear what that is.
+
+0:16:04	SPEAKER_01
+ The target group of users?
+
+0:16:06	SPEAKER_01
+ Yeah, it uses.
+
+0:16:07	SPEAKER_01
+ Because it says below 40, I mean...
+
+0:16:10	SPEAKER_01
+ Yeah, I think it's easy, but...
+
+0:16:12	SPEAKER_01
+ Yeah, or male and female.
+
+0:16:14	SPEAKER_01
+ Or in just...
+
+0:16:15	SPEAKER_01
+ No, it's below 40.
+
+0:16:16	SPEAKER_01
+ The marketing research started on the age of 16, 16 to 25, 25 to 35, 35 to 45, something like that.
+
+0:16:26	SPEAKER_02
+ So below 40 is okay, but we need an lower level in which to...
+
+0:16:33	SPEAKER_02
+ How do you miss?
+
+0:16:34	SPEAKER_02
+ So is it from 16 to 40?
+
+0:16:37	SPEAKER_02
+ Is it from 20 to 40?
+
+0:16:39	SPEAKER_01
+ Yeah, it's from 16 to 40.
+
+0:16:42	SPEAKER_01
+ I guess people of 16 are quite used to technology.
+
+0:16:46	SPEAKER_01
+ So they adapted pretty soon, I guess.
+
+0:16:48	SPEAKER_00
+ If we have a larger public, we have more options to sell our product.
+
+0:16:53	SPEAKER_03
+ Yeah, so what we might want to do is...
+
+0:16:57	SPEAKER_03
+ Yeah, have customized the screen functions, if you know what I mean.
+
+0:17:02	SPEAKER_03
+ Younger users are more acquainted with these kind of machines, they can use more advanced functions, but maybe elderly people don't understand it so well.
+
+0:17:13	SPEAKER_03
+ So they need a simpler remote.
+
+0:17:16	SPEAKER_03
+ And that you can choose what the design displays or whatever.
+
+0:17:20	SPEAKER_00
+ That's right, I wanted to make two different groups of functions.
+
+0:17:26	SPEAKER_00
+ The simple functions for the whole public and the advanced options for the younger people who are more experienced.
+
+0:17:35	SPEAKER_01
+ But they all incorporate it in the screen or just on the remote itself.
+
+0:17:40	SPEAKER_00
+ I should put the advanced options onto the screen display.
+
+0:17:46	SPEAKER_01
+ Yeah, like you have a visual of the brightness with a sliding bar and a bus and stuff like that for sound and visuals.
+
+0:17:55	SPEAKER_02
+ You should have a menu for all the issues.
+
+0:18:05	SPEAKER_01
+ Make a drawing.
+
+0:18:09	SPEAKER_01
+ Select.
+
+0:18:14	SPEAKER_01
+ That's okay.
+
+0:18:18	SPEAKER_02
+ That's very big.
+
+0:18:22	SPEAKER_02
+ Yeah, we get there.
+
+0:18:27	SPEAKER_01
+ Yeah, well, this is basically a remote.
+
+0:18:32	SPEAKER_01
+ Usually the power button is on top, I guess.
+
+0:18:39	SPEAKER_02
+ It should fit right into your hand.
+
+0:18:45	SPEAKER_01
+ Right.
+
+0:18:48	SPEAKER_01
+ Most people are right-handed, so maybe less than a special decision, but okay.
+
+0:18:54	SPEAKER_01
+ If you put it like here or something, I don't know.
+
+0:18:59	SPEAKER_01
+ Then you can put a screen on a mobile phone, also on top, I guess.
+
+0:19:05	SPEAKER_00
+ Yeah, but if you are using the normal functions, the basic functions, you normally do this.
+
+0:19:12	SPEAKER_02
+ So it should be a little bit longer so that you can put your thumb, also reach the middle, or you should screen at the bottom.
+
+0:19:22	SPEAKER_02
+ Then you can see it very clearly.
+
+0:19:24	SPEAKER_01
+ Okay, so you have your hand and the screen is below and the buttons are in the middle.
+
+0:19:31	SPEAKER_01
+ For example, if you put the screen here, it's more about the functions now than the layouts.
+
+0:19:37	SPEAKER_01
+ It doesn't work too well.
+
+0:19:44	SPEAKER_01
+ Yeah.
+
+0:19:47	SPEAKER_03
+ Yeah.
+
+0:19:50	SPEAKER_02
+ Right.
+
+0:19:52	SPEAKER_01
+ Okay, you get it.
+
+0:19:54	SPEAKER_01
+ For example, if you put all the...
+
+0:19:59	SPEAKER_01
+ Right.
+
+0:20:04	SPEAKER_02
+ You want the normal piece of paper and there's a 10?
+
+0:20:08	SPEAKER_01
+ Yeah.
+
+0:20:09	SPEAKER_01
+ Yeah, my piece is...
+
+0:20:12	SPEAKER_01
+ Kind of works.
+
+0:20:14	SPEAKER_01
+ Like if you have 10 buttons for all the channels, an ear button for flipping.
+
+0:20:24	SPEAKER_01
+ Yeah.
+
+0:20:25	SPEAKER_00
+ And the following?
+
+0:20:27	SPEAKER_01
+ Yeah.
+
+0:20:28	SPEAKER_01
+ That's usually like here, here, here, here.
+
+0:20:33	SPEAKER_01
+ Yeah.
+
+0:20:34	SPEAKER_01
+ So we have up and down for the channels.
+
+0:20:37	SPEAKER_01
+ Left and right.
+
+0:20:38	SPEAKER_01
+ Left and right for the volume.
+
+0:20:40	SPEAKER_02
+ Those can also be used for the menu.
+
+0:20:42	SPEAKER_03
+ Yeah, exactly.
+
+0:20:43	SPEAKER_03
+ Yeah.
+
+0:20:44	SPEAKER_03
+ But this is really your department that we need just functional displays.
+
+0:20:48	SPEAKER_01
+ Yeah.
+
+0:20:49	SPEAKER_01
+ And for a cursor, this is function.
+
+0:20:50	SPEAKER_01
+ And you...
+
+0:20:51	SPEAKER_01
+ Yeah.
+
+0:20:52	SPEAKER_01
+ If you can use the...
+
+0:20:53	SPEAKER_01
+ Most of the time you have one button in the middle.
+
+0:20:54	SPEAKER_01
+ It says menu.
+
+0:20:55	SPEAKER_01
+ Yeah.
+
+0:20:56	SPEAKER_01
+ And then if you press it, the screen gets activated and then you can use these buttons to scroll up and down.
+
+0:21:02	SPEAKER_01
+ And left and right to go into a function.
+
+0:21:04	SPEAKER_01
+ Yeah.
+
+0:21:05	SPEAKER_01
+ And then just...
+
+0:21:06	SPEAKER_01
+ Most of the time this menu button is also like, okay, to confirm a kind of action.
+
+0:21:11	SPEAKER_01
+ So you scroll into it, okay, you select a function like base.
+
+0:21:17	SPEAKER_01
+ You just adjust it with these two buttons.
+
+0:21:20	SPEAKER_01
+ Yeah.
+
+0:21:21	SPEAKER_01
+ Then okay to confirm.
+
+0:21:22	SPEAKER_01
+ And then on each screen, this should be an option to go back to an upper level.
+
+0:21:30	SPEAKER_01
+ And then finally say, okay, exit or one button to exit it.
+
+0:21:34	SPEAKER_01
+ Yeah.
+
+0:21:35	SPEAKER_01
+ In one time, I don't know that's not really my department.
+
+0:21:38	SPEAKER_01
+ That's more your department too.
+
+0:21:41	SPEAKER_00
+ It's a logo on the remote control.
+
+0:21:44	SPEAKER_01
+ Yeah.
+
+0:21:45	SPEAKER_01
+ But it should be if the screen is here, then the logo should be on top.
+
+0:21:50	SPEAKER_01
+ Yeah.
+
+0:21:51	SPEAKER_01
+ I mean, it's...
+
+0:21:52	SPEAKER_02
+ Yeah, but that depends on where you put the screen.
+
+0:21:54	SPEAKER_02
+ Yeah.
+
+0:21:55	SPEAKER_02
+ It's essential that there is a screen.
+
+0:21:56	SPEAKER_01
+ Yeah.
+
+0:21:57	SPEAKER_01
+ I mean, the position of the screen is also more essential than...
+
+0:21:59	SPEAKER_01
+ I mean, we look where we have space left and then put the logo over there.
+
+0:22:04	SPEAKER_02
+ And for the speech recognition part, if we want to incorporate that, we need the microphone.
+
+0:22:10	SPEAKER_02
+ Yeah.
+
+0:22:11	SPEAKER_01
+ So it should be...
+
+0:22:12	SPEAKER_01
+ I mean, if you have it in your hand here, it should be on top somewhere.
+
+0:22:16	SPEAKER_01
+ Yeah.
+
+0:22:17	SPEAKER_03
+ Why do we want to put the display in the bottom?
+
+0:22:19	SPEAKER_02
+ No, that's not sure.
+
+0:22:21	SPEAKER_02
+ That's not sure, but...
+
+0:22:22	SPEAKER_01
+ Maybe.
+
+0:22:23	SPEAKER_01
+ Maybe.
+
+0:22:24	SPEAKER_03
+ Because if you use the functions, your hand will block the display.
+
+0:22:28	SPEAKER_00
+ Yeah, okay.
+
+0:22:29	SPEAKER_00
+ But that's only for the basic function.
+
+0:22:31	SPEAKER_00
+ If you are going to use the iPhone option, you are going to press the menu button and then...
+
+0:22:36	SPEAKER_01
+ Yeah.
+
+0:22:37	SPEAKER_01
+ I mean, the screen on top looks more...
+
+0:22:39	SPEAKER_01
+ Normal.
+
+0:22:40	SPEAKER_01
+ Logical to me also because people use mobile phones and they also have a screen on top.
+
+0:22:45	SPEAKER_00
+ Okay.
+
+0:22:46	SPEAKER_01
+ Yeah.
+
+0:22:47	SPEAKER_01
+ So you just have to reach a little bit for the power button.
+
+0:22:51	SPEAKER_01
+ Yeah.
+
+0:22:52	SPEAKER_01
+ I mean, if you grab it...
+
+0:22:53	SPEAKER_01
+ Once it's on, it's on.
+
+0:22:54	SPEAKER_01
+ But most of the times, if a TV is on standby, people just press the check.
+
+0:22:57	SPEAKER_01
+ Yeah, we put it on top.
+
+0:22:59	SPEAKER_01
+ So we put this on top and then make the corporate logo like over here, R-R.
+
+0:23:07	SPEAKER_01
+ And the microphone, I mean, it can be very small if you look at your mobile phone.
+
+0:23:11	SPEAKER_01
+ So these are some stripes, little holes.
+
+0:23:15	SPEAKER_03
+ Maybe on the top or even on the side.
+
+0:23:18	SPEAKER_01
+ Yeah.
+
+0:23:19	SPEAKER_01
+ Maybe on the side, I mean, if the microphone is good...
+
+0:23:21	SPEAKER_02
+ Yeah.
+
+0:23:22	SPEAKER_02
+ Okay.
+
+0:23:23	SPEAKER_01
+ So on the top is better.
+
+0:23:25	SPEAKER_03
+ But if you hold the remote like this, if you put it on the top on the side, I don't know.
+
+0:23:32	SPEAKER_03
+ Yeah.
+
+0:23:33	SPEAKER_03
+ It should be able to...
+
+0:23:34	SPEAKER_02
+ Yeah.
+
+0:23:35	SPEAKER_02
+ It doesn't...
+
+0:23:36	SPEAKER_03
+ It doesn't...
+
+0:23:37	SPEAKER_03
+ Okay, well, leave this up to you.
+
+0:23:38	SPEAKER_01
+ Yeah, it doesn't matter that much.
+
+0:23:40	SPEAKER_01
+ So...
+
+0:23:41	SPEAKER_01
+ But the screen is on top.
+
+0:23:43	SPEAKER_01
+ Which functions did we have left?
+
+0:23:46	SPEAKER_01
+ I mean, this is basically numbers for you.
+
+0:23:49	SPEAKER_01
+ For you.
+
+0:23:50	SPEAKER_01
+ For you.
+
+0:23:51	SPEAKER_01
+ Channel up and down.
+
+0:23:52	SPEAKER_01
+ Channel up and down.
+
+0:23:53	SPEAKER_02
+ Up there.
+
+0:23:55	SPEAKER_02
+ Outphones options.
+
+0:23:56	SPEAKER_02
+ Yeah.
+
+0:23:57	SPEAKER_02
+ Maybe we should decide what outphones options we want to put in the LCD screen.
+
+0:24:01	SPEAKER_01
+ Yeah.
+
+0:24:02	SPEAKER_01
+ That's a good one.
+
+0:24:03	SPEAKER_03
+ Yeah.
+
+0:24:04	SPEAKER_03
+ So we needed to integrate those sound and image options, right?
+
+0:24:09	SPEAKER_03
+ Yeah.
+
+0:24:10	SPEAKER_02
+ Like...
+
+0:24:11	SPEAKER_03
+ Sound.
+
+0:24:12	SPEAKER_03
+ Sound.
+
+0:24:13	SPEAKER_03
+ So we need kind of an equalizer.
+
+0:24:15	SPEAKER_01
+ Yeah.
+
+0:24:16	SPEAKER_01
+ Equalizer.
+
+0:24:17	SPEAKER_01
+ So if you have sound.
+
+0:24:20	SPEAKER_01
+ But not too advanced.
+
+0:24:22	SPEAKER_01
+ Most TVs use only treble and bass.
+
+0:24:25	SPEAKER_01
+ Yeah.
+
+0:24:26	SPEAKER_01
+ Treble and middle bass or something.
+
+0:24:28	SPEAKER_01
+ Yeah.
+
+0:24:29	SPEAKER_01
+ It's pretty hard to write.
+
+0:24:31	SPEAKER_01
+ And...
+
+0:24:32	SPEAKER_01
+ Yeah.
+
+0:24:33	SPEAKER_01
+ Okay.
+
+0:24:34	SPEAKER_01
+ But you have sound?
+
+0:24:35	SPEAKER_02
+ Yeah.
+
+0:24:36	SPEAKER_01
+ Sound.
+
+0:24:37	SPEAKER_01
+ Yeah.
+
+0:24:38	SPEAKER_01
+ You have a digital...
+
+0:24:39	SPEAKER_01
+ Better write it down over there.
+
+0:24:40	SPEAKER_01
+ So we have sound.
+
+0:24:41	SPEAKER_01
+ Just a...
+
+0:24:42	SPEAKER_01
+ Secret.
+
+0:24:43	SPEAKER_01
+ Yeah.
+
+0:24:44	SPEAKER_01
+ Yeah.
+
+0:24:45	SPEAKER_01
+ Sound.
+
+0:24:46	SPEAKER_01
+ And then...
+
+0:24:47	SPEAKER_01
+ Within sound, I guess, treble and bass.
+
+0:24:51	SPEAKER_01
+ Yeah.
+
+0:24:52	SPEAKER_03
+ Yeah.
+
+0:24:53	SPEAKER_03
+ The mono stereo option.
+
+0:24:55	SPEAKER_01
+ Yeah.
+
+0:24:56	SPEAKER_03
+ And also...
+
+0:24:57	SPEAKER_03
+ There was something else also.
+
+0:24:58	SPEAKER_03
+ And then...
+
+0:24:59	SPEAKER_03
+ Pitch.
+
+0:25:00	SPEAKER_01
+ Pitch.
+
+0:25:01	SPEAKER_01
+ Yeah.
+
+0:25:02	SPEAKER_01
+ But pitch isn't that...
+
+0:25:03	SPEAKER_01
+ Yeah, that's the height.
+
+0:25:04	SPEAKER_01
+ Yeah.
+
+0:25:05	SPEAKER_01
+ The frequency is down.
+
+0:25:06	SPEAKER_01
+ Yeah.
+
+0:25:07	SPEAKER_01
+ Okay.
+
+0:25:08	SPEAKER_01
+ Why would you use that?
+
+0:25:09	SPEAKER_01
+ Yeah.
+
+0:25:10	SPEAKER_01
+ Isn't this...
+
+0:25:11	SPEAKER_03
+ It depends on the signal of the program you're watching.
+
+0:25:15	SPEAKER_02
+ Yeah.
+
+0:25:16	SPEAKER_02
+ And also the tuning part?
+
+0:25:19	SPEAKER_01
+ Programming part.
+
+0:25:21	SPEAKER_01
+ Yeah.
+
+0:25:22	SPEAKER_01
+ Channel programming.
+
+0:25:23	SPEAKER_01
+ So we have sound, yeah.
+
+0:25:24	SPEAKER_01
+ Channel programming.
+
+0:25:25	SPEAKER_01
+ And...
+
+0:25:26	SPEAKER_03
+ Yeah.
+
+0:25:27	SPEAKER_03
+ In the functionality of the...
+
+0:25:29	SPEAKER_03
+ Telefician.
+
+0:25:30	SPEAKER_03
+ No, no.
+
+0:25:31	SPEAKER_03
+ Of the remote.
+
+0:25:32	SPEAKER_03
+ Do we want the buttons to make sound when you press them?
+
+0:25:37	SPEAKER_03
+ As a confirmation?
+
+0:25:38	SPEAKER_03
+ Or whatever, you know?
+
+0:25:39	SPEAKER_03
+ I don't know.
+
+0:25:40	SPEAKER_01
+ I think it gets annoying.
+
+0:25:41	SPEAKER_01
+ I mean, most mobile phones use that in the beginning.
+
+0:25:44	SPEAKER_00
+ But...
+
+0:25:45	SPEAKER_00
+ You can disable...
+
+0:25:46	SPEAKER_03
+ Under the advanced option.
+
+0:25:48	SPEAKER_03
+ You can put those in.
+
+0:25:50	SPEAKER_00
+ The...
+
+0:25:51	SPEAKER_00
+ The telefician itself has also the options with brightness and screen color, etc.
+
+0:25:57	SPEAKER_00
+ So...
+
+0:25:58	SPEAKER_00
+ Contrast.
+
+0:25:59	SPEAKER_01
+ Yeah.
+
+0:26:00	SPEAKER_01
+ But people don't want to sit underneath...
+
+0:26:02	SPEAKER_01
+ Underneath in front of the telefician which is usually only three buttons and it's very hard to.
+
+0:26:07	SPEAKER_01
+ Contrast.
+
+0:26:08	SPEAKER_01
+ Yeah.
+
+0:26:09	SPEAKER_01
+ Contrast and brightness.
+
+0:26:10	None
+ Point.
+
+0:26:11	SPEAKER_01
+ Yeah.
+
+0:26:12	SPEAKER_01
+ That's the most used, I guess, if you don't get your money turned.
+
+0:26:17	SPEAKER_01
+ Yeah, well, I guess this were the only ones, I guess.
+
+0:26:21	SPEAKER_01
+ Okay.
+
+0:26:22	SPEAKER_01
+ It's easy.
+
+0:26:23	SPEAKER_01
+ Yeah.
+
+0:26:24	SPEAKER_03
+ But so we have...
+
+0:26:25	SPEAKER_03
+ We have TV options which is all this.
+
+0:26:26	SPEAKER_03
+ The sound...
+
+0:26:27	SPEAKER_02
+ The options.
+
+0:26:28	SPEAKER_03
+ The sound image.
+
+0:26:29	SPEAKER_03
+ And you have in the...
+
+0:26:30	SPEAKER_03
+ The...
+
+0:26:31	SPEAKER_03
+ Indeed.
+
+0:26:32	SPEAKER_03
+ The remote control options.
+
+0:26:34	SPEAKER_03
+ Yeah.
+
+0:26:35	SPEAKER_03
+ So we need two menus kind of thing.
+
+0:26:37	SPEAKER_02
+ Yeah.
+
+0:26:38	SPEAKER_02
+ You have basically a button menu which you can use directly.
+
+0:26:42	SPEAKER_02
+ Uh-huh.
+
+0:26:43	SPEAKER_02
+ According to the opris port and the LCD options.
+
+0:26:46	SPEAKER_02
+ Are activated based on some software options that's communicated with the infrared.
+
+0:26:52	SPEAKER_02
+ Yeah.
+
+0:26:53	SPEAKER_01
+ With the chip and then trans...
+
+0:26:54	SPEAKER_01
+ I mean...
+
+0:26:55	SPEAKER_02
+ So you have an additional processor in.
+
+0:27:00	SPEAKER_01
+ Yeah.
+
+0:27:01	SPEAKER_01
+ Well...
+
+0:27:02	SPEAKER_01
+ Yeah.
+
+0:27:03	SPEAKER_01
+ We have power button, whether that's present.
+
+0:27:05	SPEAKER_01
+ Channel volume selection present.
+
+0:27:07	SPEAKER_01
+ Numbers present.
+
+0:27:08	SPEAKER_01
+ Yeah.
+
+0:27:09	SPEAKER_01
+ Audio settings, monosterior pitch, bass, treble, screen settings, brightness and color.
+
+0:27:15	SPEAKER_02
+ Yeah.
+
+0:27:16	SPEAKER_02
+ Yeah.
+
+0:27:17	SPEAKER_01
+ Contrast this.
+
+0:27:18	SPEAKER_02
+ Yeah.
+
+0:27:19	SPEAKER_02
+ Okay.
+
+0:27:20	SPEAKER_02
+ Color and brightness.
+
+0:27:21	SPEAKER_01
+ Yeah.
+
+0:27:22	SPEAKER_01
+ Um...
+
+0:27:23	SPEAKER_01
+ And which is a channel setting.
+
+0:27:25	SPEAKER_01
+ So channel programming.
+
+0:27:26	SPEAKER_01
+ So you have an option to start scanning all the frequencies.
+
+0:27:31	SPEAKER_01
+ Yeah.
+
+0:27:32	SPEAKER_01
+ And when it encounters one.
+
+0:27:34	SPEAKER_01
+ Well, it shows on your TV.
+
+0:27:36	SPEAKER_01
+ And then you can...
+
+0:27:37	SPEAKER_01
+ Um...
+
+0:27:38	SPEAKER_01
+ Uh...
+
+0:27:39	SPEAKER_01
+ And then you can select a number in your remote.
+
+0:27:43	SPEAKER_02
+ So the channel program is auto-seek.
+
+0:27:46	SPEAKER_02
+ Yeah.
+
+0:27:47	SPEAKER_01
+ Auto-seek.
+
+0:27:48	SPEAKER_01
+ Uh...
+
+0:27:49	SPEAKER_02
+ Name a channel.
+
+0:27:51	SPEAKER_02
+ Or...
+
+0:27:52	SPEAKER_01
+ Well, most TVs automatically display the name which they get through the cable.
+
+0:27:57	SPEAKER_02
+ Oh, they get the ultimate name.
+
+0:27:59	SPEAKER_02
+ Yeah.
+
+0:28:00	SPEAKER_01
+ So you only have to choose the position on your...
+
+0:28:03	SPEAKER_01
+ It only has to match the channel frequency on your TV.
+
+0:28:07	SPEAKER_01
+ Yeah.
+
+0:28:08	SPEAKER_01
+ With the position on your TV.
+
+0:28:11	SPEAKER_01
+ And so your remote.
+
+0:28:13	SPEAKER_02
+ Yeah.
+
+0:28:14	SPEAKER_02
+ But can you also say I want Veronica on the channel number 5?
+
+0:28:18	SPEAKER_01
+ If you already programmed it.
+
+0:28:20	SPEAKER_01
+ Yeah.
+
+0:28:21	SPEAKER_01
+ If you want to move it.
+
+0:28:22	SPEAKER_01
+ Yeah.
+
+0:28:23	SPEAKER_01
+ That should be possible too.
+
+0:28:24	SPEAKER_01
+ How do you call that?
+
+0:28:25	SPEAKER_01
+ Yeah.
+
+0:28:26	SPEAKER_01
+ How do you call that?
+
+0:28:27	None
+ Mmm.
+
+0:28:28	SPEAKER_01
+ Well, you should be able to browse through a list or something which displays all the values, all the channels which are possible.
+
+0:28:38	SPEAKER_01
+ I mean like 1 to 30 or 4.9 here or whatever.
+
+0:28:42	SPEAKER_01
+ Just browse through it and then...
+
+0:28:44	SPEAKER_01
+ Um...
+
+0:28:45	SPEAKER_01
+ Some kind of way.
+
+0:28:47	SPEAKER_01
+ See if it is programmed.
+
+0:28:49	SPEAKER_02
+ Swap channels?
+
+0:28:51	SPEAKER_02
+ Yeah.
+
+0:28:52	SPEAKER_01
+ Swap channels.
+
+0:28:53	SPEAKER_02
+ Swap is good option.
+
+0:28:55	SPEAKER_02
+ Okay.
+
+0:28:56	SPEAKER_01
+ So most of the time, if you swap it.
+
+0:29:01	SPEAKER_01
+ Let's say for example you have RTL5 on channel 5.
+
+0:29:07	SPEAKER_01
+ And Veronica on channel 8 and you want to move Veronica to channel 5.
+
+0:29:12	SPEAKER_01
+ Most of the time you overwrite the previous one.
+
+0:29:17	SPEAKER_02
+ Well, that's sort of...
+
+0:29:20	SPEAKER_02
+ Yeah.
+
+0:29:21	SPEAKER_01
+ It's pretty...
+
+0:29:23	SPEAKER_01
+ Yeah.
+
+0:29:24	SPEAKER_01
+ I mean you have to look on the menu.
+
+0:29:27	SPEAKER_03
+ Those are working.
+
+0:29:28	SPEAKER_03
+ On the TV.
+
+0:29:29	SPEAKER_02
+ Also.
+
+0:29:30	SPEAKER_03
+ He only has to figure out how it has to look.
+
+0:29:34	SPEAKER_02
+ Yeah, but also which buttons you have to press to get a certain result.
+
+0:29:40	SPEAKER_02
+ Yeah, okay.
+
+0:29:41	SPEAKER_02
+ The working design was to specify how the physical interaction between the components was.
+
+0:29:48	SPEAKER_02
+ I...
+
+0:29:49	SPEAKER_02
+ Yeah.
+
+0:29:50	SPEAKER_03
+ It treated your homework.
+
+0:29:52	SPEAKER_03
+ But um...
+
+0:29:53	SPEAKER_03
+ Yeah.
+
+0:29:54	SPEAKER_01
+ Or is it too hard to just do it on your remote to program the channels?
+
+0:30:00	SPEAKER_03
+ No.
+
+0:30:01	SPEAKER_02
+ It should be able to do a thing with the television is difficult.
+
+0:30:06	SPEAKER_02
+ But that's not our part.
+
+0:30:08	SPEAKER_02
+ No.
+
+0:30:09	SPEAKER_02
+ We don't have to design protocol.
+
+0:30:11	SPEAKER_01
+ That's true.
+
+0:30:12	SPEAKER_01
+ That's true.
+
+0:30:13	SPEAKER_01
+ Thank God.
+
+0:30:14	SPEAKER_01
+ Yeah.
+
+0:30:15	SPEAKER_01
+ Okay.
+
+0:30:16	SPEAKER_01
+ So we have to figure out a way to do that easily.
+
+0:30:17	SPEAKER_01
+ I mean the auto-secret is not a problem.
+
+0:30:20	SPEAKER_01
+ You are a counter-channel and then it just says on which number do you want to save this?
+
+0:30:26	SPEAKER_01
+ And you just press the number on your remote and then say confirm.
+
+0:30:30	SPEAKER_01
+ And it's safe.
+
+0:30:31	SPEAKER_01
+ It's easier.
+
+0:30:32	SPEAKER_01
+ It's harder to, if you have already programmed it, to swap.
+
+0:30:37	SPEAKER_02
+ So we have to think of something for that.
+
+0:30:41	SPEAKER_02
+ The user interface design can design a menu for all the use functions.
+
+0:30:47	SPEAKER_01
+ Kind of structure into layers.
+
+0:30:49	SPEAKER_00
+ I mean you make a map with all the...
+
+0:30:52	SPEAKER_00
+ Yeah, because it's now...
+
+0:30:53	SPEAKER_00
+ There are also documents.
+
+0:30:55	SPEAKER_02
+ Yeah.
+
+0:30:56	SPEAKER_02
+ Yeah, I can.
+
+0:30:57	SPEAKER_02
+ I'll just try to reorganize things.
+
+0:31:02	SPEAKER_02
+ So you design the basic function menu for the LCD screen.
+
+0:31:15	SPEAKER_01
+ And the layout of the thing itself.
+
+0:31:17	SPEAKER_01
+ I think the layout of the screen.
+
+0:31:18	SPEAKER_02
+ I think you can concentrate more on the bit and placement and the placement of the screen itself on the...
+
+0:31:26	SPEAKER_00
+ Isn't that more than the...
+
+0:31:28	SPEAKER_00
+ This is the interface.
+
+0:31:29	SPEAKER_02
+ No, I think there's more in...
+
+0:31:32	SPEAKER_03
+ All the functional aspects of the...
+
+0:31:35	SPEAKER_03
+ Maybe more than...
+
+0:31:36	SPEAKER_03
+ I think I am in my department.
+
+0:31:38	SPEAKER_03
+ I have to know what it has to do.
+
+0:31:40	SPEAKER_03
+ So if you want to...
+
+0:31:42	SPEAKER_03
+ You know, the changing the channels kind of thing is...
+
+0:31:45	SPEAKER_03
+ I have to integrate that in the design.
+
+0:31:47	SPEAKER_02
+ So you lay out your function.
+
+0:31:49	SPEAKER_02
+ Yeah.
+
+0:31:50	SPEAKER_02
+ One function, okay.
+
+0:31:52	SPEAKER_03
+ I think that's a good example.
+
+0:31:54	SPEAKER_00
+ I have to make the menu layout also.
+
+0:31:58	SPEAKER_00
+ Yeah.
+
+0:31:59	SPEAKER_00
+ Yeah.
+
+0:32:00	SPEAKER_01
+ I guess so.
+
+0:32:02	SPEAKER_02
+ I think that's your department.
+
+0:32:03	SPEAKER_02
+ Yeah.
+
+0:32:04	SPEAKER_02
+ We have to kind of work together.
+
+0:32:06	SPEAKER_03
+ If I make the...
+
+0:32:08	SPEAKER_03
+ The menu, like...
+
+0:32:12	SPEAKER_03
+ I have to state which function has to be in the menu and then you have to decide it in the way that is your friend.
+
+0:32:18	SPEAKER_00
+ You are going to make a list of what functions are going to be on the menu screen.
+
+0:32:25	SPEAKER_00
+ And I'm going to make a nice menu.
+
+0:32:28	SPEAKER_00
+ Yeah.
+
+0:32:29	SPEAKER_01
+ With some layers in it.
+
+0:32:32	SPEAKER_02
+ Yeah.
+
+0:32:33	SPEAKER_02
+ And also...
+
+0:32:34	SPEAKER_02
+ Make clear which buttons to press to get certain results.
+
+0:32:37	SPEAKER_02
+ Yeah.
+
+0:32:38	SPEAKER_02
+ Because that's always difficult to every device that's on...
+
+0:32:41	SPEAKER_01
+ Yeah.
+
+0:32:42	SPEAKER_01
+ I guess this button, the okay menu, okay.
+
+0:32:47	SPEAKER_01
+ Or you can incorporate two different buttons like you have on your mobile phone.
+
+0:32:55	SPEAKER_01
+ So this is only to get in the menu or to exit it.
+
+0:32:58	SPEAKER_01
+ And then I want to confirm.
+
+0:33:01	SPEAKER_01
+ I want to go one step back.
+
+0:33:04	SPEAKER_01
+ So it's like the the say button on your mobile phone if you have a Nokia or like that or the no button.
+
+0:33:10	SPEAKER_01
+ To go one step back, it's only two extra buttons.
+
+0:33:14	SPEAKER_01
+ If it's very clear that they are for the screen.
+
+0:33:18	SPEAKER_00
+ I think we have to make two groups.
+
+0:33:22	SPEAKER_00
+ One group for the display and one group for the basic functions.
+
+0:33:26	SPEAKER_02
+ Yeah, but they're incorporated.
+
+0:33:28	SPEAKER_00
+ Yeah, because this is used for both.
+
+0:33:31	SPEAKER_00
+ Yeah.
+
+0:33:32	SPEAKER_00
+ But maybe that's not...
+
+0:33:34	SPEAKER_00
+ If you're zapping with your remote control, you can press the menu button and then you are suddenly into the...
+
+0:33:43	SPEAKER_01
+ To your screen.
+
+0:33:44	SPEAKER_01
+ Okay, so you should leave the menu button out of here.
+
+0:33:48	SPEAKER_01
+ And just put it under the screen.
+
+0:33:51	SPEAKER_00
+ Just group.
+
+0:33:53	SPEAKER_00
+ Yeah, we make these advanced functions and these basic functions.
+
+0:33:58	SPEAKER_00
+ We make a line between them.
+
+0:34:02	SPEAKER_01
+ But we should place the screen on top, right?
+
+0:34:06	SPEAKER_00
+ Well, oh yeah, okay.
+
+0:34:08	SPEAKER_00
+ We swap the...
+
+0:34:09	SPEAKER_02
+ You use the port.
+
+0:34:11	SPEAKER_02
+ Yeah, you just find out and then the headlady is out.
+
+0:34:15	SPEAKER_02
+ Do we do the extra two buttons or not?
+
+0:34:20	SPEAKER_03
+ I think you should.
+
+0:34:22	SPEAKER_03
+ It's easier if you put too many functions in one button, it gets confusing.
+
+0:34:26	SPEAKER_00
+ Yeah, okay, that's true.
+
+0:34:27	SPEAKER_00
+ So we have a menu button and a...
+
+0:34:29	SPEAKER_02
+ Okay, in Beck.
+
+0:34:30	SPEAKER_02
+ Yeah.
+
+0:34:31	SPEAKER_01
+ Okay, in Beck.
+
+0:34:32	SPEAKER_01
+ Yeah, our confirm and back.
+
+0:34:33	SPEAKER_02
+ The four arrows.
+
+0:34:35	SPEAKER_01
+ Yeah.
+
+0:34:36	SPEAKER_02
+ But those are still doubly used.
+
+0:34:39	SPEAKER_01
+ Should we save this picture or, you know, what it looks like?
+
+0:34:42	SPEAKER_00
+ Yeah, I'm not clear about the extra two buttons.
+
+0:34:45	SPEAKER_00
+ We have a menu button.
+
+0:34:47	SPEAKER_01
+ Yeah, yeah.
+
+0:34:48	SPEAKER_01
+ Just to activate the screen.
+
+0:34:51	SPEAKER_02
+ Yeah, okay.
+
+0:34:52	SPEAKER_02
+ So...
+
+0:34:53	SPEAKER_02
+ So you button access the menu in the LCD screen.
+
+0:34:56	SPEAKER_01
+ And then with these buttons, you can navigate.
+
+0:35:00	SPEAKER_01
+ You navigate.
+
+0:35:01	SPEAKER_02
+ Okay.
+
+0:35:02	SPEAKER_02
+ But you can also navigate the channels and the volume.
+
+0:35:05	SPEAKER_00
+ Okay, so that's not...
+
+0:35:06	SPEAKER_00
+ Yeah, those are both... both.
+
+0:35:09	SPEAKER_03
+ Hey, is it interesting for users if we put lead lights under the buttons so that if you...
+
+0:35:17	SPEAKER_03
+ Press on the menu function, that only the buttons that are used for the menu are...
+
+0:35:22	SPEAKER_03
+ Liden up, yeah.
+
+0:35:24	SPEAKER_01
+ Yeah.
+
+0:35:25	SPEAKER_01
+ That's very good ID.
+
+0:35:26	SPEAKER_02
+ Five minutes.
+
+0:35:27	SPEAKER_01
+ All right.
+
+0:35:28	SPEAKER_01
+ Yeah, that's a good ID because then it becomes clear which buttons are active now which you can use.
+
+0:35:34	SPEAKER_03
+ Yeah.
+
+0:35:35	SPEAKER_03
+ And then it's also easier to integrate several functions in one button.
+
+0:35:38	SPEAKER_03
+ Yeah.
+
+0:35:39	SPEAKER_03
+ Sure.
+
+0:35:40	SPEAKER_03
+ Okay.
+
+0:35:41	SPEAKER_01
+ Yeah.
+
+0:35:42	SPEAKER_02
+ So...
+
+0:35:43	SPEAKER_01
+ Anything else?
+
+0:35:44	SPEAKER_01
+ Those buttons are lit up.
+
+0:35:46	SPEAKER_01
+ But just one thing.
+
+0:35:48	SPEAKER_01
+ Should we use those two then?
+
+0:35:50	SPEAKER_01
+ Or only this two to scroll?
+
+0:35:52	SPEAKER_01
+ And then use the two functional buttons to confirm to go into something.
+
+0:35:57	SPEAKER_01
+ Oh no, we have to use this to adjust...
+
+0:36:00	SPEAKER_03
+ Or some some bars.
+
+0:36:05	SPEAKER_03
+ Or keep it optional because maybe you can... you know, go left, right and up and down.
+
+0:36:08	SPEAKER_01
+ Yeah.
+
+0:36:09	SPEAKER_01
+ Maybe we should use this also as an okay button still.
+
+0:36:11	SPEAKER_01
+ And then just only a back button.
+
+0:36:15	SPEAKER_02
+ Well, we have those buttons.
+
+0:36:17	SPEAKER_03
+ The problem with the okay button in the middle is sorry.
+
+0:36:20	SPEAKER_03
+ Yeah.
+
+0:36:21	SPEAKER_03
+ Sorry.
+
+0:36:22	SPEAKER_03
+ It's...
+
+0:36:23	SPEAKER_03
+ If you're pressing up and down, you can easily press it okay once you're not already at your...
+
+0:36:29	SPEAKER_00
+ Or maybe make one okay button...
+
+0:36:32	SPEAKER_00
+ And one back.
+
+0:36:33	SPEAKER_00
+ And one navigation button.
+
+0:36:34	SPEAKER_00
+ Yeah.
+
+0:36:35	SPEAKER_00
+ With the channel and the volume.
+
+0:36:38	SPEAKER_00
+ Yeah.
+
+0:36:39	SPEAKER_00
+ A multifunctional navigation button.
+
+0:36:41	SPEAKER_02
+ Okay.
+
+0:36:42	SPEAKER_02
+ That's what we decided.
+
+0:36:43	SPEAKER_02
+ Yeah.
+
+0:36:44	SPEAKER_02
+ Okay.
+
+0:36:45	SPEAKER_03
+ Okay.
+
+0:36:46	SPEAKER_03
+ So...
+
+0:36:47	SPEAKER_02
+ You want to close down?
+
+0:36:48	SPEAKER_02
+ Yeah.
+
+0:36:49	SPEAKER_02
+ I want to close down.
+
+0:36:50	SPEAKER_02
+ Sorry.
+
+0:36:51	SPEAKER_02
+ Sorry.
+
+0:36:52	SPEAKER_02
+ Not because it doesn't like you.
+
+0:36:53	SPEAKER_02
+ But we have lunch break already.
+
+0:36:54	SPEAKER_02
+ And then we can work for 30 minutes.
+
+0:36:56	SPEAKER_02
+ We'll have to write very fast to make the minute.
+
+0:37:00	SPEAKER_02
+ Yeah.
+
+0:37:01	SPEAKER_02
+ And then we'll see.
+
+0:37:04	SPEAKER_03
+ Alright.
+
+0:37:05	SPEAKER_03
+ How long is the lunch break?
+
+0:37:06	SPEAKER_02
+ I don't know.
+
+0:37:07	SPEAKER_02
+ We have to ask all of me.
+
+0:37:09	SPEAKER_00
+ Do we have to write down our stuff now?
+
+0:37:13	SPEAKER_00
+ First lunch break.
+
+0:37:15	SPEAKER_00
+ I believe that's first lunch break.
+
+0:37:17	SPEAKER_00
+ Everything in my head now.
+
+0:37:18	SPEAKER_00
+ Yeah.
+
+0:37:19	SPEAKER_00
+ There you go.
+
+0:37:20	SPEAKER_00
+ Okay.
+
+0:37:21	SPEAKER_00
+ Yeah.
+
+0:37:22	SPEAKER_00
+ Okay.
+
+0:37:23	SPEAKER_00
+ Yes.
+
+0:37:24	SPEAKER_01
+ I think you can put a laptop back in the room.
+
+0:37:29	SPEAKER_02
+ Yeah.
+
+0:37:30	SPEAKER_02
+ Yes, sir.
+
+0:37:31	SPEAKER_02
+ Time pressure.
+
+0:37:32	SPEAKER_02
+ Okay.
+
+0:37:33	SPEAKER_01
+ Yeah, it's a lot of pressure.
+
+0:37:36	SPEAKER_02
+ Yeah.
+
+0:37:37	SPEAKER_03
+ Sorry for my not finished presentation.
+
+0:37:42	SPEAKER_03
+ Sorry.
+
+0:37:43	SPEAKER_03
+ Yeah.
+
+0:37:44	SPEAKER_03
+ We'll kick your ass later.
+
+0:37:45	SPEAKER_01
+ Bring it on.
+
+0:37:46	SPEAKER_01
+ I don't know if it works.
+
+0:37:47	SPEAKER_01
+ You saved it.
+
+0:37:48	None
+ That's safe.
+
+0:37:49	None
+ Out of my head.
+
+0:37:50	SPEAKER_01
+ Yeah.
+
+0:37:55	SPEAKER_01
+ Okay.
+
+0:37:56	SPEAKER_01
+ We'll see.
+
+0:38:03	SPEAKER_01
+ Just shoot back my laptop.
+
+0:38:04	SPEAKER_01
+ Smart board.
+
+0:38:05	SPEAKER_01
+ Alright.
+
+0:38:06	SPEAKER_01
+ You can use it.
+
+0:38:07	SPEAKER_01
+ Yeah.
+
+0:38:08	SPEAKER_01
+ You can open it with picture preview or stuff like that.
+
+0:38:10	SPEAKER_00
+ Some maps with all the data we have.
+
+0:38:14	SPEAKER_02
+ Yeah.
+
+0:38:15	SPEAKER_02
+ I tried to organize it by these three.
+
+0:38:17	SPEAKER_00
+ Yeah.
+
+0:38:18	SPEAKER_00
+ Yeah.
+
+0:38:20	SPEAKER_00
+ It's just my own map.
+
+0:38:21	SPEAKER_00
+ Yeah.
+
+0:38:22	SPEAKER_02
+ I don't really mind.
+
+0:38:24	SPEAKER_02
+ I just put the minutes here.
+
+0:38:27	SPEAKER_02
+ We'll see.
+
+0:38:28	SPEAKER_00
+ But you've got some actual information.
+
+0:38:30	SPEAKER_02
+ Yeah.
+
+0:38:31	SPEAKER_02
+ That's in the functional design.
+
+0:38:32	SPEAKER_02
+ Okay.
+
+0:38:33	SPEAKER_02
+ Yeah.
+
+0:38:34	SPEAKER_02
+ It's just basically what I just showed.
+
+0:38:36	SPEAKER_00
+ Where do you get?
+
+0:38:38	SPEAKER_00
+ Yeah.
+
+0:38:39	SPEAKER_00
+ I got it by the only one.
+
+0:38:40	SPEAKER_00
+ Yeah.
+
+0:38:41	SPEAKER_02
+ Okay.
+
+0:38:42	SPEAKER_01
+ I'm glad you're here.
+
+0:38:43	SPEAKER_02
+ I don't do it.
+
+0:38:44	SPEAKER_01
+ Okay.
+
+0:38:45	SPEAKER_01
+ Alright.
+
+0:38:46	None
+ Yeah.
+
+0:38:48	SPEAKER_02
+ Make me proud.
+
+0:38:52	SPEAKER_03
+ I'll try to.
+
+0:38:54	SPEAKER_03
+ So first we have a lunch break now.
+
+0:38:56	SPEAKER_01
+ Yeah.
+
+0:38:57	SPEAKER_02
+ Alright.
+
+0:38:58	SPEAKER_02
+ I believe so.
+
+0:39:00	SPEAKER_02
+ Oh, just ask.
+
+0:39:03	SPEAKER_03
+ Mm-hmm.
+
+0:39:04	SPEAKER_03
+ I don't know where she's at though.
+
+0:39:07	None
+ Okay.
+

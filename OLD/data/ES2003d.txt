@@ -1,0 +1,1632 @@
+0:00:00	SPEAKER_01
+ should hopefully do a trick.
+
+0:00:17	SPEAKER_01
+ Sorry about this small delay.
+
+0:00:19	SPEAKER_01
+ I'm going a little bit behind schedule.
+
+0:00:34	SPEAKER_01
+ Okay, so just to try and roughly go over what we agreed in the last one.
+
+0:00:43	SPEAKER_01
+ We're going to go for something.
+
+0:00:45	SPEAKER_01
+ How was it the new black of a leaf?
+
+0:00:49	SPEAKER_01
+ Something that looks good because that seems to be in preference to actual functionality in the end, but we should never avoid functionality of course.
+
+0:00:58	SPEAKER_01
+ Many of our components are going to be standard off the shelf, but it seemed like we were going to require at least an advanced chip and we were still very much for the idea of using an LCD display.
+
+0:01:10	SPEAKER_01
+ Other things where we were hoping to use rubber, most likely going to be double curved, etc.
+
+0:01:17	SPEAKER_01
+ Okay, so due to your hard work we might as well let the two designers go first and show us the prototype.
+
+0:01:28	SPEAKER_01
+ Okay, that's right.
+
+0:01:29	SPEAKER_01
+ Why, how the best way to do this is I'm not sure, but...
+
+0:01:32	SPEAKER_00
+ Thank you, both.
+
+0:01:33	SPEAKER_00
+ Step up and outline our ideas.
+
+0:01:38	SPEAKER_00
+ Okay.
+
+0:01:40	SPEAKER_00
+ Now, doing the prototype gave us a bit more insight into the ergonomics of the design.
+
+0:01:48	SPEAKER_00
+ For one thing, it turned out that the only point at which it needs to be articulated for handedness is down here for the LED as it turned out.
+
+0:02:04	SPEAKER_00
+ The whole thing transfers from the right to left hand fairly well from the point of view of operating the function buttons in joystick.
+
+0:02:13	SPEAKER_00
+ So it might be an idea to be able to adjust the position as with the base of the joystick just a little bit.
+
+0:02:20	SPEAKER_00
+ So, perhaps I just thought you could simply have a slightly over-oiled shaped joystick that could then just be turned on a twisted round so that the stickier...
+
+0:02:34	SPEAKER_00
+ so that the bit that sticks out a bit more is on one side or the other.
+
+0:02:38	SPEAKER_00
+ But as you see with the holding it on the left hand, the LCD is nowhere useful, so that would need to be articulated.
+
+0:02:49	SPEAKER_00
+ If we're going to retain ergonomic design.
+
+0:02:54	SPEAKER_00
+ I got your note about keeping the cost down.
+
+0:03:00	SPEAKER_00
+ I'll say, yeah.
+
+0:03:01	SPEAKER_01
+ We'll go into that a bit more, but it's not.
+
+0:03:04	SPEAKER_00
+ This design could be done with plastic casing, though I would recommend around the grip part here in the middle, having to be just a rubber grip over that, which would allow for a slightly more bio-market form and a bit more ergonomic as well.
+
+0:03:26	SPEAKER_00
+ As for the single curve, well, this edge and this edge, like I said, would be nice to have some curvature to it, but it's not absolutely necessary.
+
+0:03:39	SPEAKER_00
+ Really the curve that's mostly needed is the underside so that the joystick rests over the edge of the hand like this.
+
+0:03:50	SPEAKER_00
+ Then you have the transmitter here.
+
+0:03:54	SPEAKER_00
+ No mean speaker for the remote control finder.
+
+0:04:00	SPEAKER_00
+ Any further comment?
+
+0:04:05	SPEAKER_03
+ Obviously it's going to be bulkier than it looks because it's going to be flat on one side, so the LCD will stick down like this one.
+
+0:04:14	SPEAKER_03
+ Because we can't get a curve.
+
+0:04:18	SPEAKER_03
+ Yeah, I mean that it costs and it's plastic as well, so it'll be as comfortable on the hand.
+
+0:04:24	SPEAKER_00
+ And with the rubber design, it could pretty much mould very much to the user's hand.
+
+0:04:32	SPEAKER_00
+ One nice feature if we could still do the rubber.
+
+0:04:35	SPEAKER_00
+ I thought it was to have the rubber extend beyond the end of the rigid substructure.
+
+0:04:45	SPEAKER_00
+ It has a sort of tail that you just drape over your wrist so it stays in position nicely.
+
+0:04:51	SPEAKER_00
+ Absolutely.
+
+0:04:55	SPEAKER_03
+ Yeah, that's it.
+
+0:04:58	SPEAKER_01
+ Okay, yeah, great.
+
+0:05:01	SPEAKER_02
+ Yeah, I've got a few load up my evaluation.
+
+0:05:04	SPEAKER_02
+ Yeah, okay.
+
+0:05:05	SPEAKER_01
+ We'll go for it.
+
+0:05:06	SPEAKER_04
+ Excellent work.
+
+0:05:22	SPEAKER_02
+ So, basically, we'll have a list of criteria that we need to rate their prototype by.
+
+0:05:37	SPEAKER_02
+ Then we will, it's a seven step kind of evaluation process.
+
+0:05:44	SPEAKER_02
+ So, not seven steps, seven scale.
+
+0:05:48	SPEAKER_02
+ So, after we finish doing all the ratings for each criteria, we average that and that would give us some type of confidence in our prototype.
+
+0:05:58	SPEAKER_02
+ And the criteria were based on real reactions, kind of goals and policies, marketing strategies, and also those are put together from the user requirements.
+
+0:06:12	SPEAKER_02
+ Okay, if you put the.
+
+0:06:18	SPEAKER_02
+ So, those are the criteria.
+
+0:06:22	SPEAKER_02
+ Perhaps I could put them a bit better, but you notice a few things that we've totally abandoned, which means that the product was scored very badly on some of those points.
+
+0:06:36	SPEAKER_02
+ So, we have them.
+
+0:06:42	SPEAKER_02
+ True.
+
+0:06:49	SPEAKER_02
+ Seven, eight.
+
+0:06:54	SPEAKER_02
+ Okay, so we have to go through each point.
+
+0:06:57	SPEAKER_02
+ We imagine it's actually straight and just give it a school.
+
+0:07:01	SPEAKER_02
+ So, how well would you say the prototype is how well we realize the dream of being able to stop remotes from being lost or to able to find them once they lost. I mean, is their home and things still the locator that's still.
+
+0:07:18	SPEAKER_02
+ Yeah, that's still part of the design.
+
+0:07:20	SPEAKER_02
+ Sure, and Adam, we can keep that in.
+
+0:07:22	SPEAKER_01
+ Yeah, I believe so.
+
+0:07:23	SPEAKER_01
+ So, I mean, I don't think anybody could actually stop a remote being lost because that would mean doing something a bit human.
+
+0:07:30	SPEAKER_01
+ But I'd like to think that we've done something about finding a damn thing once we have.
+
+0:07:35	SPEAKER_00
+ Sure.
+
+0:07:36	SPEAKER_00
+ And making it a bright color helps.
+
+0:07:37	SPEAKER_00
+ Personally, I would have gone for purple.
+
+0:07:40	SPEAKER_02
+ Bright color.
+
+0:07:41	SPEAKER_02
+ So, we still have that noise being done.
+
+0:07:43	SPEAKER_02
+ On a scale of one to seven, how would you guys rate it for finding it once it's lost?
+
+0:07:51	SPEAKER_00
+ I'd say number one.
+
+0:07:53	SPEAKER_02
+ Number one?
+
+0:07:54	SPEAKER_02
+ Okay.
+
+0:07:55	SPEAKER_02
+ Number one for the first criteria.
+
+0:07:58	SPEAKER_00
+ I think if it was just the sounder, then there's something I found with, what was he trying to find, the cardless phone on mobile.
+
+0:08:11	SPEAKER_00
+ You can hear it, but you can't quite pin it down where it is.
+
+0:08:15	SPEAKER_02
+ Yeah, you can tell what the mobile is.
+
+0:08:17	SPEAKER_03
+ What about the volume on the TV's turned up massively?
+
+0:08:23	SPEAKER_03
+ And this one I turned down the volume you can't find the remote.
+
+0:08:28	SPEAKER_03
+ Suppose you have to go to the TV and do a manual.
+
+0:08:31	SPEAKER_04
+ Yeah.
+
+0:08:32	SPEAKER_03
+ You wouldn't hear that it's speaking.
+
+0:08:36	SPEAKER_01
+ Just before we go through all of the steps.
+
+0:08:38	SPEAKER_01
+ You want to see something here?
+
+0:08:40	SPEAKER_01
+ Well, what we'll do is, if we can look at the criteria you're going to evaluate and then we'll come back to the product evaluation if that's all right.
+
+0:08:50	SPEAKER_01
+ That's fine.
+
+0:08:51	SPEAKER_01
+ Yeah.
+
+0:08:52	SPEAKER_02
+ That's the first one.
+
+0:08:53	SPEAKER_01
+ So is there anything here that you wanted to cover as a criteria that you've covered?
+
+0:09:05	SPEAKER_01
+ And then we'll come back pretty much properly to this.
+
+0:09:07	SPEAKER_01
+ Where's the main...
+
+0:09:08	SPEAKER_01
+ Is there any explaining or is there anything that you thought that really would stand out compared to the others?
+
+0:09:15	SPEAKER_02
+ A few.
+
+0:09:16	SPEAKER_02
+ Some have got neglected from my initial research is that rural reactions has a goal strategy that all of their products be inspired by interior fashion and clothing fashion.
+
+0:09:31	SPEAKER_02
+ That is why food and veg being popular in the home and in clothing was important.
+
+0:09:37	SPEAKER_02
+ And they want all their products to be somehow inspired by current trends and fashion.
+
+0:09:43	SPEAKER_02
+ So they say we put the fashion and electronics where they really mean it.
+
+0:09:46	SPEAKER_02
+ They're very big on fashion.
+
+0:09:48	SPEAKER_02
+ So, okay.
+
+0:09:49	SPEAKER_02
+ That's this bit right here.
+
+0:09:52	SPEAKER_02
+ And this bit is this one easy to use for visitors or for anybody.
+
+0:09:59	SPEAKER_02
+ I guess it's just the same as saying it's easy to use interface.
+
+0:10:03	SPEAKER_02
+ So we're kind of condensed into one.
+
+0:10:05	SPEAKER_02
+ And we can come back to it.
+
+0:10:06	SPEAKER_02
+ You said so.
+
+0:10:07	SPEAKER_01
+ No.
+
+0:10:08	SPEAKER_01
+ And which we will do very, very shortly.
+
+0:10:10	SPEAKER_01
+ Okay.
+
+0:10:18	SPEAKER_01
+ Slate problem we had was that we have an amazing four euros over budget for what we were hoping to do.
+
+0:10:27	SPEAKER_01
+ Most of it stems from the use of the LCD, which I think in the end accounted for about half of our extended trip because of course we required a chip as well.
+
+0:10:38	SPEAKER_01
+ The only way to get this down was either to ditch the LCD, at which point we removed a large part of how we were going to interface with the requirement buttons, etc.
+
+0:10:51	SPEAKER_01
+ Or what we did was that we, as an eyes of quickly going over it was altering the actual structure.
+
+0:11:00	SPEAKER_01
+ Changing it to plastic and a solid unit with a single curved design would allow us to come back into the proposed costs.
+
+0:11:09	SPEAKER_01
+ And we're just scraping it in.
+
+0:11:11	SPEAKER_01
+ We've got point two of a euro left over there.
+
+0:11:13	SPEAKER_01
+ So we're just managing it really.
+
+0:11:16	SPEAKER_01
+ Even then as well.
+
+0:11:18	SPEAKER_01
+ There was no criteria technically defined for a joystick.
+
+0:11:21	SPEAKER_01
+ So I've used what I think is appropriate with any luck.
+
+0:11:24	SPEAKER_01
+ That won't mean that we've incurred more cost than we can actually afford to.
+
+0:11:29	SPEAKER_01
+ It blows a lot of our really good ideas kind of slightly to one side.
+
+0:11:33	SPEAKER_01
+ For example, the possibility of having a USB connection is definitely not all valuable now.
+
+0:11:38	SPEAKER_01
+ Different languages.
+
+0:11:41	SPEAKER_01
+ That should still be viable.
+
+0:11:43	SPEAKER_01
+ We've got an advanced chip.
+
+0:11:44	SPEAKER_01
+ We've got the use of the LCD.
+
+0:11:45	SPEAKER_01
+ So being able to communicate in multiple languages is still very much a possibility.
+
+0:11:51	SPEAKER_01
+ But what's something we need to decide on is how we're going to go from here.
+
+0:11:56	SPEAKER_01
+ We do need to try and come up with an idea which could be continued with other people if need be.
+
+0:12:02	SPEAKER_01
+ Looking now can bring the Excel sheet up and show you if you wish.
+
+0:12:08	SPEAKER_01
+ I really think as much as it pains me is that we might have to go with plastic and some kind of solid design possibly meaning that the LCD wouldn't be in this perfect place.
+
+0:12:20	SPEAKER_01
+ It might be slightly between what would be good for left handed and what would be good for the right handed person.
+
+0:12:26	SPEAKER_00
+ I suppose one thing that could be done is have it circular and so that the pink is actually goes a bit over the pinky finger.
+
+0:12:37	SPEAKER_00
+ Okay.
+
+0:12:38	SPEAKER_01
+ So it very much is about making concessions unfortunately.
+
+0:12:44	SPEAKER_02
+ Do you have any data on how much different prints cost? I mean can you get the entire thing printed with a design?
+
+0:12:54	SPEAKER_01
+ I have as much information as I do.
+
+0:13:02	SPEAKER_01
+ So as you can see here for example the battery really not very little choice in that one.
+
+0:13:10	SPEAKER_01
+ We've gone from one of the cheaper options as well. Unfortunately we require the advanced chip if we're going to do what we're needing to.
+
+0:13:16	SPEAKER_01
+ I've said single curved. We really do need it to be that way for the ergonomics of it.
+
+0:13:22	SPEAKER_01
+ Plastic for some reason occurs no cost which I've had to very much make advantage of despite the fact that robbers only got a value to euros per unit.
+
+0:13:30	SPEAKER_01
+ Problem comes here as you can see in the interface.
+
+0:13:34	SPEAKER_01
+ If I've read this incorrectly then you can save 0.5 of a euro here and it's not per push button.
+
+0:13:42	SPEAKER_01
+ That might make sense because then a numeric keypad would come in at 4.5 euros which is an awful lot so that could well be wrong.
+
+0:13:51	SPEAKER_01
+ Even if we save 0.5 there it would just mean it was most likely placing it and actually just gaining a color for the unit which we set to be put to some one side.
+
+0:14:00	SPEAKER_01
+ As you can see the use of an LC display advanced chip and what would determine a scroll wheel here as well because it's an integrated school school push button.
+
+0:14:12	SPEAKER_01
+ It wasn't quite what I think they had in mind really joystick.
+
+0:14:15	SPEAKER_02
+ Why would that be more expensive than an individual push button? A scroll wheel together?
+
+0:14:21	SPEAKER_02
+ That's quite significantly expensive.
+
+0:14:24	SPEAKER_01
+ That's something I have to take up with the bean counters.
+
+0:14:31	SPEAKER_01
+ As you can see that's taken up well over half the price.
+
+0:14:35	SPEAKER_01
+ I'm very much open to suggestions of where we go but because we need to shed what was for euros off of the price of what we really desired.
+
+0:14:50	SPEAKER_01
+ This one comes in on the price as you can see but this was the one that sacrificed the curio for the case and for the actual case design.
+
+0:14:59	SPEAKER_02
+ We don't even have speakers here.
+
+0:15:02	SPEAKER_02
+ What about speakers and transmitters and stuff like that? I really like to tell them.
+
+0:15:08	SPEAKER_01
+ I know we haven't.
+
+0:15:11	SPEAKER_02
+ We have to receive our speakers plus the extra device itself that's going to be on the TV.
+
+0:15:20	SPEAKER_01
+ It literally would be a button.
+
+0:15:22	SPEAKER_03
+ We might have to express them.
+
+0:15:26	SPEAKER_01
+ It looks like almost nothing.
+
+0:15:30	SPEAKER_01
+ No good call.
+
+0:15:33	SPEAKER_01
+ I mean it's not on here but I'm doing a very valid point.
+
+0:15:38	SPEAKER_02
+ Do we have to use an advanced chip for the LCD?
+
+0:15:42	SPEAKER_02
+ Yeah.
+
+0:15:43	SPEAKER_02
+ Okay.
+
+0:15:44	SPEAKER_02
+ That's...
+
+0:15:45	SPEAKER_01
+ So if we're going to go with the LCD display then that's...
+
+0:15:49	SPEAKER_02
+ What's that hand down?
+
+0:15:50	SPEAKER_02
+ Dynamo.
+
+0:15:51	SPEAKER_02
+ You have to wind it up?
+
+0:15:53	SPEAKER_01
+ I feel like so yeah.
+
+0:15:56	SPEAKER_01
+ That would probably not be in keeping with the fashion statement.
+
+0:16:01	SPEAKER_01
+ Yeah.
+
+0:16:02	SPEAKER_03
+ This is basically the only new thing is the LCD on the...
+
+0:16:08	SPEAKER_01
+ Manipulated by the joystick here.
+
+0:16:10	SPEAKER_03
+ I'm just...
+
+0:16:11	SPEAKER_01
+ Which I'm defining as scroll wheel.
+
+0:16:16	SPEAKER_02
+ And we couldn't replace the joystick quite because we would need to pull extra buttons to replace it up down left and right and that would be more expensive than it.
+
+0:16:26	SPEAKER_02
+ But is the scroll wheel not just back and forth?
+
+0:16:29	SPEAKER_01
+ Yeah, it's just because there was no actual definition for what a joystick might be that...
+
+0:16:34	SPEAKER_01
+ That's what I've labeled it for, purposes of this evaluation.
+
+0:16:38	SPEAKER_03
+ The LCD basically is the big selling point of...
+
+0:16:41	SPEAKER_01
+ If we remove the LCD display we could save ourselves a fair amount.
+
+0:16:49	SPEAKER_03
+ Which you can't sort of make original but...
+
+0:16:52	SPEAKER_00
+ Yeah.
+
+0:16:53	SPEAKER_00
+ If we remove the LCD display then there would absolutely no point to any of these meetings.
+
+0:16:58	SPEAKER_00
+ But we just put our branding on any other remote control.
+
+0:17:02	SPEAKER_02
+ Yeah.
+
+0:17:03	SPEAKER_02
+ Yeah.
+
+0:17:04	SPEAKER_02
+ Okay.
+
+0:17:06	SPEAKER_01
+ It's a shame we should possibly...
+
+0:17:11	SPEAKER_01
+ If we could have increased the price we could have manufactured that and then we could have got some...
+
+0:17:15	SPEAKER_01
+ Part closer to what we were.
+
+0:17:16	SPEAKER_01
+ Does this open to you?
+
+0:17:17	SPEAKER_02
+ Does this bear in mind that...
+
+0:17:19	SPEAKER_02
+ I mean it's a bit ridiculous that they're going to charge us.
+
+0:17:23	SPEAKER_02
+ Was it like this much money for three million if we're going to buy three million components?
+
+0:17:30	SPEAKER_01
+ Again, you'll have to argue the accountants on that one.
+
+0:17:34	SPEAKER_01
+ But for the purposes of this meeting we're going to have to stick with these figures.
+
+0:17:39	SPEAKER_01
+ So...
+
+0:17:42	SPEAKER_01
+ I would say that it would seem like the general opinion is we're going to keep the LCD display because it's about what really separates us.
+
+0:17:48	SPEAKER_01
+ It's like the cost it's going to incur.
+
+0:17:54	SPEAKER_01
+ Our people maybe not happy with but are willing to go ahead with this and go in for a plastic solid case to keep the LCD.
+
+0:18:07	SPEAKER_00
+ I'm one thing I...
+
+0:18:08	SPEAKER_00
+ How much extra would it be to keep the articulation?
+
+0:18:15	SPEAKER_01
+ It's hard to tell. I would say that you're at least going to take double curved and even then I'm not quite sure if that's incorporating the idea of articulation.
+
+0:18:25	SPEAKER_01
+ Yeah.
+
+0:18:26	SPEAKER_00
+ Well, I think that it didn't require it to be double curved.
+
+0:18:31	SPEAKER_03
+ Yeah, it could still be single curved but it's just a little bit of articulation.
+
+0:18:35	SPEAKER_00
+ It's just that the case would come into it and would be made in two parts and then join together with an articulation.
+
+0:18:41	SPEAKER_02
+ Could we not get rid of the curved base and focus on the menu being the best interface?
+
+0:18:50	SPEAKER_02
+ Do we have restrictions on software?
+
+0:18:53	SPEAKER_03
+ That's what you need for the joystick.
+
+0:18:55	SPEAKER_00
+ Oh, but it has to be.
+
+0:18:57	SPEAKER_00
+ I mean, if you look closer at the prototype here, the lines here along grip are actually quite straight.
+
+0:19:08	SPEAKER_00
+ But the curve's all over the hand, is it?
+
+0:19:12	SPEAKER_00
+ Yeah, on the LCD, I mean, although we've done it with the curve, it could just as easily be done without curves.
+
+0:19:19	SPEAKER_00
+ The curve that's really needed is up here to keep the joystick in a good ergonomic position without to have it rest on the top of the hand.
+
+0:19:29	SPEAKER_00
+ Okay.
+
+0:19:30	SPEAKER_02
+ Sure.
+
+0:19:31	SPEAKER_02
+ Okay, my bad.
+
+0:19:32	SPEAKER_01
+ We wouldn't actually save a lot by reducing it anyway.
+
+0:19:36	SPEAKER_01
+ So, I mean, for the purposes of this meeting, maybe we can state that single curve still allows articulation.
+
+0:19:44	SPEAKER_01
+ Unless we hear otherwise, we could go ahead with that proposal.
+
+0:19:50	SPEAKER_02
+ Sure.
+
+0:19:51	SPEAKER_02
+ The product is not going to perform so well for my criteria.
+
+0:19:56	SPEAKER_01
+ Which is what we can get on to now.
+
+0:19:58	SPEAKER_01
+ As long as, so we're going to say, we'll have to keep an eye on the time as well, but we're going to say, um, Oh, wait a minute.
+
+0:20:07	SPEAKER_02
+ Single curve design sample speaker.
+
+0:20:09	SPEAKER_02
+ What is the sample speaker?
+
+0:20:11	SPEAKER_02
+ Is that somewhat similar to what we want?
+
+0:20:14	SPEAKER_02
+ It could well be the end of the course.
+
+0:20:16	SPEAKER_00
+ That voice response thing.
+
+0:20:17	SPEAKER_00
+ I forgot the email about.
+
+0:20:19	SPEAKER_00
+ I thought it was just completely pointless.
+
+0:20:21	SPEAKER_02
+ You got an email about voice response?
+
+0:20:23	SPEAKER_02
+ Yeah.
+
+0:20:24	SPEAKER_00
+ I did not.
+
+0:20:25	SPEAKER_00
+ All right.
+
+0:20:26	SPEAKER_00
+ But basically, it's saying that your labs had come up with a chip that you could say hello to and it would say hello back in a friendly female.
+
+0:20:35	SPEAKER_00
+ Okay.
+
+0:20:36	SPEAKER_01
+ We'll definitely won't go with that one.
+
+0:20:38	SPEAKER_01
+ We won't go with that one.
+
+0:20:39	SPEAKER_02
+ I mean, that's voice recognition.
+
+0:20:42	SPEAKER_01
+ Okay.
+
+0:20:43	SPEAKER_02
+ Okay.
+
+0:20:44	SPEAKER_02
+ Um, so, okay.
+
+0:20:46	SPEAKER_01
+ Battery definitely.
+
+0:20:48	SPEAKER_01
+ So it looks like we're going to get rid of the whole locate locator.
+
+0:20:53	SPEAKER_01
+ It looks like unless we can manage to put it in under point two years.
+
+0:20:59	SPEAKER_01
+ Okay.
+
+0:21:00	SPEAKER_01
+ Okay.
+
+0:21:04	SPEAKER_01
+ Maybe even slick.
+
+0:21:05	SPEAKER_01
+ Well, no, you have pretty much point two euros, I'd say.
+
+0:21:08	SPEAKER_01
+ So we'll leave that one for now.
+
+0:21:10	SPEAKER_03
+ Also, we don't for a special color at all.
+
+0:21:13	SPEAKER_01
+ It's a case of, um, I'm slightly unsure.
+
+0:21:19	SPEAKER_01
+ One point five of a euro for one push button doesn't sound quite right.
+
+0:21:22	SPEAKER_01
+ So maybe it's a case of a push button is maybe one or more.
+
+0:21:27	SPEAKER_01
+ Um, well, at which point for a case.
+
+0:21:32	SPEAKER_03
+ Oh, you already incorporated that.
+
+0:21:35	SPEAKER_02
+ Oh, special color for the case.
+
+0:21:37	SPEAKER_01
+ Well, you got point five there.
+
+0:21:39	SPEAKER_01
+ It's literally a case of whether or not this is correct.
+
+0:21:42	SPEAKER_01
+ I'm not quite sure if they're, I don't think they mean point five euros per button.
+
+0:21:47	SPEAKER_00
+ Okay.
+
+0:21:48	SPEAKER_00
+ Well, let's say that and then we can have our special color case and then we at least have.
+
+0:21:52	SPEAKER_00
+ Make it a little harder to lose.
+
+0:21:54	SPEAKER_00
+ There we go.
+
+0:21:55	SPEAKER_00
+ Because most, most remotes are a fairly dingy color that gets camouflaged under any pile of crap.
+
+0:22:01	SPEAKER_02
+ What's the default color, white or black?
+
+0:22:04	SPEAKER_01
+ Black probably normal color you'd see gray.
+
+0:22:07	SPEAKER_01
+ I quite like that color that you're fetching now.
+
+0:22:10	SPEAKER_01
+ It's definitely make it glow in the dark even better.
+
+0:22:14	SPEAKER_01
+ Yeah.
+
+0:22:15	SPEAKER_01
+ So, will we go with that then?
+
+0:22:21	SPEAKER_04
+ Okay.
+
+0:22:22	SPEAKER_01
+ It's not and we can see, we'll come back.
+
+0:22:25	SPEAKER_01
+ You're evaluation in which you're probably now going to pan us.
+
+0:22:29	SPEAKER_02
+ Okay.
+
+0:22:30	SPEAKER_02
+ Okay.
+
+0:22:31	SPEAKER_01
+ So, uh, just to give you an idea, um, you'll want to go maybe a bit quickly as well.
+
+0:22:38	SPEAKER_01
+ I'm not sure how much time we've not hit the five minute mark.
+
+0:22:40	SPEAKER_03
+ We're working yet, but okay.
+
+0:22:42	SPEAKER_03
+ Okay.
+
+0:22:43	SPEAKER_02
+ Okay.
+
+0:22:44	SPEAKER_02
+ Ability to start remote some ring gloss.
+
+0:22:46	SPEAKER_02
+ Let's find them once they lost.
+
+0:22:48	SPEAKER_02
+ Um, okay.
+
+0:22:50	SPEAKER_02
+ Special color.
+
+0:22:52	SPEAKER_01
+ Uh, four, four, three, three, we're being generous.
+
+0:22:58	SPEAKER_00
+ I think we can do three, three.
+
+0:23:00	SPEAKER_00
+ We're being generous here with a special color.
+
+0:23:02	SPEAKER_00
+ What I think make a difference.
+
+0:23:03	SPEAKER_00
+ It makes it stand out from, you know, it's lost in a big pile of crap.
+
+0:23:07	SPEAKER_00
+ It stands out from the rest of the crap.
+
+0:23:09	SPEAKER_00
+ Okay.
+
+0:23:11	SPEAKER_02
+ Okay.
+
+0:23:12	SPEAKER_02
+ We'd use the number of one use buttons.
+
+0:23:13	SPEAKER_02
+ We're down to two buttons.
+
+0:23:14	SPEAKER_02
+ Two buttons.
+
+0:23:15	SPEAKER_02
+ Okay.
+
+0:23:16	SPEAKER_02
+ So that's a one, you know, we're, that's.
+
+0:23:19	SPEAKER_01
+ I'd say we're doing well there.
+
+0:23:21	SPEAKER_02
+ Okay.
+
+0:23:22	SPEAKER_02
+ That was good.
+
+0:23:23	SPEAKER_02
+ Easy to use interface buttons.
+
+0:23:25	SPEAKER_02
+ Many, many is cool.
+
+0:23:26	SPEAKER_02
+ That's good.
+
+0:23:27	SPEAKER_02
+ Okay.
+
+0:23:28	SPEAKER_02
+ That's when I've done so badly.
+
+0:23:31	SPEAKER_02
+ Easy to use.
+
+0:23:33	SPEAKER_02
+ Oh, okay.
+
+0:23:34	SPEAKER_02
+ Let's forget that one.
+
+0:23:35	SPEAKER_02
+ Fancy looking.
+
+0:23:36	SPEAKER_00
+ It doesn't get much.
+
+0:23:40	SPEAKER_02
+ Sure.
+
+0:23:41	SPEAKER_02
+ We could do whatever we like with the LCD.
+
+0:23:43	SPEAKER_02
+ Yeah.
+
+0:23:44	SPEAKER_02
+ Let's just assume it's a good LCD display.
+
+0:23:46	SPEAKER_02
+ Maybe I was panicking for no reason.
+
+0:23:49	SPEAKER_03
+ I'll tell you go to because like the fans used to work the door.
+
+0:23:55	SPEAKER_03
+ Yeah.
+
+0:23:56	SPEAKER_02
+ Maybe a bit.
+
+0:23:57	SPEAKER_02
+ Yeah.
+
+0:23:58	SPEAKER_02
+ With the articulators.
+
+0:23:59	SPEAKER_02
+ There we go.
+
+0:24:00	SPEAKER_02
+ That's better.
+
+0:24:03	SPEAKER_02
+ To more accurate numbers.
+
+0:24:06	SPEAKER_02
+ No logically innovative.
+
+0:24:09	SPEAKER_02
+ Well, we're getting rid of the locator thing, which is a shame.
+
+0:24:13	SPEAKER_02
+ Which, yeah.
+
+0:24:15	SPEAKER_00
+ I don't need for this for that.
+
+0:24:18	SPEAKER_00
+ Free.
+
+0:24:19	SPEAKER_00
+ Yeah.
+
+0:24:20	SPEAKER_00
+ And the menus thing is something you don't normally see on a remote.
+
+0:24:28	SPEAKER_00
+ You see it in a lot of other places.
+
+0:24:32	SPEAKER_02
+ Yeah.
+
+0:24:33	SPEAKER_02
+ Mobile phones.
+
+0:24:34	SPEAKER_02
+ And what you're doing is moving the menu from the television to the remote control source.
+
+0:24:40	SPEAKER_02
+ You say free?
+
+0:24:41	SPEAKER_02
+ I might go as far as two on that.
+
+0:24:43	SPEAKER_02
+ Free.
+
+0:24:45	SPEAKER_00
+ I'm going to 10, 2, 3.
+
+0:24:48	None
+ OK.
+
+0:24:49	SPEAKER_01
+ OK.
+
+0:24:50	SPEAKER_01
+ And the next one anyway.
+
+0:24:52	SPEAKER_02
+ There are some people find pleasing.
+
+0:24:54	SPEAKER_02
+ Spungyness is what they really would have wanted.
+
+0:24:57	SPEAKER_01
+ It is.
+
+0:24:58	SPEAKER_01
+ Yep.
+
+0:24:59	SPEAKER_01
+ Don't blame them.
+
+0:25:01	SPEAKER_01
+ Because of the way that we've minimized the number of buttons and such.
+
+0:25:07	SPEAKER_01
+ Plastic.
+
+0:25:08	SPEAKER_01
+ It sucks.
+
+0:25:09	SPEAKER_01
+ But it's no worse than any of the other remote controls they have.
+
+0:25:12	SPEAKER_02
+ That's true.
+
+0:25:13	SPEAKER_02
+ It's not a step backwards.
+
+0:25:14	SPEAKER_03
+ Yeah.
+
+0:25:15	SPEAKER_00
+ Five.
+
+0:25:16	SPEAKER_00
+ I give it a six.
+
+0:25:18	SPEAKER_00
+ Yeah.
+
+0:25:19	SPEAKER_00
+ OK.
+
+0:25:20	SPEAKER_02
+ Let's give it a six.
+
+0:25:22	SPEAKER_02
+ OK.
+
+0:25:23	SPEAKER_02
+ That's totally from everything with balance.
+
+0:25:27	SPEAKER_02
+ Inspired by the latest interior and clothing fashion.
+
+0:25:31	SPEAKER_02
+ We could.
+
+0:25:32	SPEAKER_02
+ What color will we going to make it?
+
+0:25:33	SPEAKER_00
+ Leopard print on it.
+
+0:25:34	SPEAKER_00
+ I would say give us a selection of colors.
+
+0:25:38	SPEAKER_00
+ I don't know.
+
+0:25:42	SPEAKER_00
+ Yellow for the prototype.
+
+0:25:44	SPEAKER_00
+ If I were buying one, I'd go for the particle.
+
+0:25:48	SPEAKER_02
+ Leopard print would be cool.
+
+0:25:50	SPEAKER_03
+ But I think it's more OK.
+
+0:25:52	SPEAKER_03
+ Yeah.
+
+0:25:53	SPEAKER_03
+ The color of the border there.
+
+0:25:56	SPEAKER_03
+ It's fine.
+
+0:25:57	SPEAKER_03
+ That's not standard.
+
+0:25:59	SPEAKER_01
+ That yellow.
+
+0:26:00	SPEAKER_01
+ It would also help keep the product placement local.
+
+0:26:05	SPEAKER_01
+ But they're referring to the fruit and veg thing.
+
+0:26:10	SPEAKER_02
+ Is this like a banana type color?
+
+0:26:15	SPEAKER_02
+ Could we stretch?
+
+0:26:16	SPEAKER_02
+ No, there's no shape like a banana.
+
+0:26:19	SPEAKER_00
+ It's kind of dope.
+
+0:26:21	SPEAKER_00
+ It won't be when it's been.
+
+0:26:23	SPEAKER_02
+ Oh, like because it's flat.
+
+0:26:25	SPEAKER_00
+ What is this?
+
+0:26:26	SPEAKER_02
+ Fruit.
+
+0:26:27	SPEAKER_02
+ It's just flat.
+
+0:26:28	SPEAKER_00
+ I think this is not particularly fruit and veg.
+
+0:26:34	SPEAKER_00
+ Yeah.
+
+0:26:35	SPEAKER_02
+ We might have to suffer badly for this one as well.
+
+0:26:38	SPEAKER_02
+ Yeah.
+
+0:26:39	SPEAKER_01
+ Well, I mean, it's probably more fruit and veg than most other things that are fruit and veg.
+
+0:26:48	SPEAKER_01
+ So, what?
+
+0:26:49	SPEAKER_02
+ Four?
+
+0:26:50	SPEAKER_02
+ Four.
+
+0:26:51	SPEAKER_02
+ All right.
+
+0:26:52	SPEAKER_00
+ It's very ambitious.
+
+0:26:53	SPEAKER_00
+ Yeah.
+
+0:26:54	SPEAKER_00
+ I don't think fruit and veg is the sole criteria.
+
+0:26:58	SPEAKER_00
+ The sole criteria for being.
+
+0:27:01	SPEAKER_00
+ Inspired by the way.
+
+0:27:04	SPEAKER_00
+ Action for inspired by current passions.
+
+0:27:07	SPEAKER_00
+ I can't wait to start with that.
+
+0:27:12	SPEAKER_03
+ This is their motto.
+
+0:27:14	SPEAKER_03
+ Yeah.
+
+0:27:15	SPEAKER_03
+ I mean, this is their strategy.
+
+0:27:18	SPEAKER_02
+ I imagine we actually had some money invested in this and the amount that we invested is going to be proportional to the marks.
+
+0:27:25	SPEAKER_02
+ Might want to be a bit more skeptical about this one.
+
+0:27:33	SPEAKER_01
+ What would you think, yourself?
+
+0:27:35	SPEAKER_02
+ I would say, I mean, it's not at all.
+
+0:27:38	SPEAKER_02
+ Right.
+
+0:27:39	SPEAKER_02
+ In any way of shape or form.
+
+0:27:42	SPEAKER_01
+ Well, it's kind of curved and we can make it yellow.
+
+0:27:46	SPEAKER_01
+ And that's pretty much banana-like.
+
+0:27:48	SPEAKER_02
+ Okay.
+
+0:27:49	SPEAKER_02
+ Yellow banana light fingers.
+
+0:27:50	SPEAKER_02
+ I think it's okay.
+
+0:27:52	SPEAKER_01
+ It's got a curve to it.
+
+0:27:54	SPEAKER_02
+ Five.
+
+0:27:55	SPEAKER_02
+ Is that so unreadable?
+
+0:27:56	SPEAKER_02
+ Yeah.
+
+0:27:57	SPEAKER_01
+ I'm not stretching the use of a banana.
+
+0:28:00	SPEAKER_01
+ Yeah.
+
+0:28:01	SPEAKER_02
+ Okay.
+
+0:28:02	SPEAKER_02
+ So we have one, two, three, four, five, six, seven.
+
+0:28:10	SPEAKER_02
+ So five, seven, ten, sixteen, twenty one.
+
+0:28:18	SPEAKER_02
+ This gives us an average of three.
+
+0:28:24	SPEAKER_02
+ Well, this would be in the middle.
+
+0:28:28	SPEAKER_02
+ So it's not bad.
+
+0:28:31	SPEAKER_01
+ It's in a good section.
+
+0:28:33	SPEAKER_01
+ It's not bad and considering the...
+
+0:28:36	SPEAKER_01
+ Don't break the fan.
+
+0:28:38	SPEAKER_02
+ Oops.
+
+0:28:39	SPEAKER_02
+ Sorry.
+
+0:28:40	SPEAKER_02
+ I'm sorry.
+
+0:28:42	SPEAKER_01
+ What are you not badly scared of?
+
+0:28:47	SPEAKER_01
+ It's bad to design that.
+
+0:28:50	SPEAKER_01
+ Considering the price we have to get this in, we have a positive, you know, even based on the four of us being heavily biased.
+
+0:28:58	SPEAKER_01
+ Yeah.
+
+0:28:59	SPEAKER_01
+ It was going to be quite hard to get anything standing out, I'd say, possibly, based on the cost teachers.
+
+0:29:13	SPEAKER_02
+ Even if we were to increase this entire thing by seven, we were to go down a grade to four, we would have to do...
+
+0:29:24	SPEAKER_02
+ I mean, we weren't that kind of optimistic, too overly optimistic, you know, like we didn't add, we didn't subtract our whole seven points from the use of things.
+
+0:29:34	SPEAKER_02
+ So I think we're definitely on the good bit.
+
+0:29:36	SPEAKER_02
+ Even if we gave this one seven and this one seven, that's still only three extra points over seven.
+
+0:29:43	SPEAKER_02
+ You know, it's...
+
+0:29:44	SPEAKER_02
+ Yeah, we did. It was okay. It was good.
+
+0:29:47	SPEAKER_00
+ Personally, I think...
+
+0:29:51	SPEAKER_00
+ Given that the product only replaces a single remote control that you already got, I think we're really going to show out 25 euros for something that's only marginally good.
+
+0:30:12	SPEAKER_03
+ Well, depends here, what the target people are, like you'd say.
+
+0:30:20	SPEAKER_03
+ Maybe fashion conscious.
+
+0:30:24	SPEAKER_01
+ Maybe women target.
+
+0:30:25	SPEAKER_03
+ Oh, no, look at that. It's cool. It looks like a...
+
+0:30:28	SPEAKER_03
+ It's yellow. It looks like a banana. It's cool. It's got a look good in the sitting room.
+
+0:30:33	SPEAKER_03
+ And rather than LCD, whereas more technical, like more people in the divideds technology, like as good as going on LCD screens.
+
+0:30:46	SPEAKER_03
+ Only got two buttons and a joystick.
+
+0:30:50	SPEAKER_03
+ So which kind of people would be more likely to buy?
+
+0:30:56	SPEAKER_01
+ Probably the people technologically do. Usually it wants to buy pointless stuff.
+
+0:31:01	SPEAKER_02
+ I mean, my mom still has not learned how to use text messaging on her phone, and she's had it for a long time. She uses it to make phone calls and that's it.
+
+0:31:12	SPEAKER_02
+ So I think if my mom's a remote control like this, we're only two buttons and a joystick.
+
+0:31:19	SPEAKER_02
+ I mean, that'll probably be the first one she decides not to buy.
+
+0:31:23	SPEAKER_02
+ She'd be like, is this a remote control? I don't...
+
+0:31:26	SPEAKER_02
+ How do you use it and stuff like that?
+
+0:31:28	SPEAKER_02
+ Even if it is really user friendly to us, but we're used to using menus all the time.
+
+0:31:34	SPEAKER_00
+ That's one thing is that because it's technically innovative, for someone who's sort of technophobic, in fact, it simply looks unfamiliar or be daunting.
+
+0:31:48	SPEAKER_02
+ Yeah. I think it's totally radical to have a remote control, no numbered buttons.
+
+0:31:56	SPEAKER_02
+ But like radical, good.
+
+0:31:59	SPEAKER_01
+ Okay. I don't know how much longer we've got. At least five minutes, I think.
+
+0:32:04	SPEAKER_01
+ Quickly, we'll pop onto project evaluation.
+
+0:32:09	SPEAKER_01
+ So...
+
+0:32:14	SPEAKER_01
+ We've got these four criteria here for satisfaction.
+
+0:32:19	SPEAKER_01
+ Does anybody want to...
+
+0:32:24	SPEAKER_01
+ Do you have any opinions on any of them? For example, or backwards, I suppose, the ability to work in this project using the technology we've been presented with.
+
+0:32:38	SPEAKER_01
+ These people made good use of the pen and paper.
+
+0:32:44	SPEAKER_02
+ I would say...
+
+0:32:47	SPEAKER_02
+ I wrote Mary A. Page, but not.
+
+0:32:51	SPEAKER_01
+ I'm quite sure what the advantage for us using a digital pen might be.
+
+0:32:56	SPEAKER_00
+ I think it's a thing with digital pens, most of it.
+
+0:32:59	SPEAKER_00
+ I mean, the...
+
+0:33:02	SPEAKER_00
+ It goes into their corpus.
+
+0:33:05	SPEAKER_00
+ That would have been nice to be able to transfer the paper notes onto the computer.
+
+0:33:14	SPEAKER_01
+ Yeah, that would have been pretty good.
+
+0:33:16	SPEAKER_01
+ It does seem like paper's still a heavy consideration for taking notes.
+
+0:33:21	SPEAKER_01
+ So maybe this is literally just the way I owned it.
+
+0:33:27	SPEAKER_01
+ I heard people satisfied with the teamwork we've managed to display today.
+
+0:33:33	SPEAKER_02
+ I like it.
+
+0:33:37	SPEAKER_01
+ Leadership.
+
+0:33:40	SPEAKER_01
+ As much as can be leader than this thing.
+
+0:33:44	SPEAKER_01
+ I like that.
+
+0:33:47	SPEAKER_01
+ Last one was about a group of creativity.
+
+0:33:52	SPEAKER_00
+ Until accounts came along.
+
+0:33:57	SPEAKER_02
+ We're not lacking in ideas.
+
+0:34:03	SPEAKER_02
+ That was not the problem.
+
+0:34:06	SPEAKER_01
+ Yeah, I think in the end ideas can be used and sadly is meaning not so much that we weren't full of ideas but of ones that are going to allow us to actually build the thing.
+
+0:34:17	SPEAKER_01
+ It's a bit of a pity.
+
+0:34:19	SPEAKER_01
+ I would have to agree in that I think we needed a larger budget.
+
+0:34:24	SPEAKER_01
+ If you're going to, in your product, maybe a technological kind of sector, then you can afford to maybe chat to price up slightly from what it is because they will pay out.
+
+0:34:34	SPEAKER_01
+ They just cash the bevel.
+
+0:34:37	SPEAKER_00
+ I think retaining the modern biomarker for the new articulation would gain more profit in sales than it would lose in added expense.
+
+0:34:56	SPEAKER_03
+ The price was twice the assembly cost.
+
+0:35:02	SPEAKER_03
+ And would it have to be twice the, it could have had the assembly cost.
+
+0:35:10	SPEAKER_03
+ It could still set up for 25.
+
+0:35:15	SPEAKER_01
+ It's true.
+
+0:35:18	SPEAKER_01
+ I suppose these are all, will have to be taken up with a different group, I guess, as to who the costs involved.
+
+0:35:28	SPEAKER_01
+ But we've got a prototype.
+
+0:35:36	SPEAKER_01
+ So I think it's gone okay today considering the information that we've had at this point.
+
+0:35:43	SPEAKER_02
+ Maybe the accounts would have been better if we had a list to begin with.
+
+0:35:50	SPEAKER_01
+ It probably would have, you could have come up with a lot more solid design in the end.
+
+0:35:56	SPEAKER_01
+ I would have to agree.
+
+0:35:58	SPEAKER_01
+ It is very much a pity to get so far into the stage and then find out that maybe some of your ideas are just a bit too extensive.
+
+0:36:07	SPEAKER_01
+ Always hard to tell until you know the costs.
+
+0:36:15	SPEAKER_01
+ Okay.
+
+0:36:18	SPEAKER_01
+ So we're at a cost-within-budget, we are now that we have our slightly less than capable product.
+
+0:36:26	SPEAKER_01
+ We've evaluated it and we can see we came out with a value of three.
+
+0:36:32	SPEAKER_00
+ One thing I would say, I mean something that could perhaps be part of the product, the product testing and market research process would be to produce more cups of both versions and seeing just how much of a difference the over going over budget would make the sales.
+
+0:36:55	SPEAKER_02
+ Yeah, and like response from consumers.
+
+0:36:58	SPEAKER_00
+ We could even market two versions.
+
+0:37:05	SPEAKER_00
+ We keep you in a nice fine market.
+
+0:37:11	SPEAKER_01
+ And then the final one where you get to call it how.
+
+0:37:17	SPEAKER_01
+ Right.
+
+0:37:19	SPEAKER_01
+ Is there anything else that anybody would like to add?
+
+0:37:24	SPEAKER_01
+ Anything that's not been covered before I quickly write up a final report?
+
+0:37:34	SPEAKER_01
+ I don't know, I mean we've got a product, we maybe aren't as happy with it as we like to be, but we've got something we think we can maybe stick on to the market and sell.
+
+0:37:48	SPEAKER_01
+ And of course something we have been avoiding talking about because we've no information is selling them directly to the manufacturers.
+
+0:37:55	SPEAKER_01
+ There's a huge market.
+
+0:37:56	SPEAKER_01
+ I mean we briefly touched in it with no more knowledge than there's a little we can say on that.
+
+0:38:06	SPEAKER_01
+ Yeah.
+
+0:38:09	SPEAKER_01
+ So unless anybody's got anything they'd like to add, we can maybe round this up slightly earlier than we need to and then we can finish up the writing in such.
+
+0:38:23	SPEAKER_01
+ Yeah.
+
+0:38:27	SPEAKER_01
+ Okay.
+
+0:38:29	SPEAKER_01
+ Thank you for your participation.
+
+0:38:32	None
+ Thank you.
+
+0:38:37	SPEAKER_02
+ I was actually kind of upset at the budget and that we had to cut a lot of stuff.
+
+0:38:44	SPEAKER_02
+ But man, we can't have the located thing.
+
+0:38:49	SPEAKER_02
+ Yeah, that's a fact.
+
+0:38:53	SPEAKER_02
+ If it may be were the prices were made.
+
+0:38:57	SPEAKER_01
+ That's a question you've been asking about.
+
+0:39:04	None
+ Okay.
+
+0:39:09	None
+ Okay.
+

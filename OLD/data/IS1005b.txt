@@ -1,0 +1,864 @@
+0:00:00	None
+ get started.
+
+0:00:22	SPEAKER_02
+ So, nice to see you again.
+
+0:00:43	SPEAKER_02
+ So, for this meeting I will take the notes and do the minutes.
+
+0:00:54	SPEAKER_02
+ So we will see our free presentations.
+
+0:00:59	SPEAKER_02
+ We will start with the manager expert.
+
+0:01:04	SPEAKER_02
+ We will talk about user requirements, what user needs and what is desired for this device.
+
+0:01:14	SPEAKER_00
+ Okay, can I have the laptop over here?
+
+0:01:17	SPEAKER_02
+ Oh, I don't think so.
+
+0:01:19	SPEAKER_02
+ Okay, I have to get up.
+
+0:01:23	SPEAKER_02
+ I think it should stay in this meeting.
+
+0:01:27	SPEAKER_02
+ Okay, okay.
+
+0:01:34	SPEAKER_02
+ Okay.
+
+0:01:41	SPEAKER_02
+ Okay.
+
+0:01:46	SPEAKER_00
+ So, basically I am going to present some findings of a study we conducted into what users want in this remote control.
+
+0:02:06	SPEAKER_00
+ So, first of all, what we did is we conducted an experiment with 100 test subjects.
+
+0:02:16	SPEAKER_00
+ We put them in our usability laboratory and got them to play with remote controls and also after they have done that to complete a questionnaire to tell us what they like and what they don't like in remote controls.
+
+0:02:35	SPEAKER_00
+ So, basically the major things we found out was that basically users don't like the look and feel of most remote controls that are currently on the market.
+
+0:02:49	SPEAKER_00
+ They, you know, 75% of the people we did the experiments on found that remote controls that they used in the past were completely ugly.
+
+0:03:00	SPEAKER_00
+ They didn't match the operating behaviour of the user.
+
+0:03:05	SPEAKER_00
+ That is, you know, the way users use remote controls when they are watching TV, that the layout of the remote controls didn't match the way they used it.
+
+0:03:15	SPEAKER_00
+ And thirdly they say that half of the users that we tested said that they only used 10% of the buttons that are on remote controls.
+
+0:03:30	SPEAKER_00
+ So, we also collected some users statistics based on how these test subjects were using their remote control.
+
+0:03:39	SPEAKER_00
+ And from this we basically came up with the figure that the channel buttons, the channel selection buttons are the most, by far, the most used buttons on the remote control.
+
+0:03:52	SPEAKER_00
+ And you can see they used 168 times per hour on average while the user is watching TV.
+
+0:03:59	SPEAKER_00
+ The closest button that was used, the button that was used that was closest to the channel button was the teletext button, which was used 14 times per hour, followed by the volume button, which was 4 times per hour.
+
+0:04:16	SPEAKER_00
+ All the other buttons such as audio and picture selection configuration buttons and things were used less than or equal to 1 times per hour.
+
+0:04:29	SPEAKER_00
+ We also asked users which buttons had the most importance to them, which buttons they felt were the most important buttons on the remote control.
+
+0:04:39	SPEAKER_00
+ And basically they said the channel volume and power buttons had the highest relevance to users.
+
+0:04:45	SPEAKER_00
+ Note the only power was very infrequently used.
+
+0:04:48	SPEAKER_00
+ It only had a usage frequency of about 1 times per hour, but users ranked it as having a very, very high relevance.
+
+0:04:58	SPEAKER_00
+ And the audio and picture settings had a very, well, the users thought that the audio and picture settings weren't very important to them, and they used them very infrequently as well.
+
+0:05:14	SPEAKER_00
+ So we asked users what frustrates them the most about current remote controls.
+
+0:05:22	SPEAKER_00
+ And 50% of the users said that what frustrates them is losing their remote control, somewhere in the room and not being able to find it.
+
+0:05:34	SPEAKER_00
+ They also said that it takes a lot of time to learn a new remote control, especially when there's many buttons and it's an unintuitive interface.
+
+0:05:45	SPEAKER_00
+ And then thirdly, some users commented on the fact that the way that you have to hold and press buttons on a remote control are bad and cause repetitive strain injury.
+
+0:06:01	SPEAKER_00
+ We also asked some users about some specific features that they'd like to see in the remote control, in particular, do they want an LCD display?
+
+0:06:11	SPEAKER_00
+ And secondly, do they think speech recognition is a useful feature to have on our remote control?
+
+0:06:18	SPEAKER_00
+ Basically, our findings are that amongst younger age groups, the answer is overwhelmingly yes, they want these features, they want these high technology features.
+
+0:06:28	SPEAKER_00
+ For instance, 91% of people aged between 15 and 25 said yes, they want these features, whereas the trend was as users became older and older, they were less likely to want these features in a remote control.
+
+0:06:48	SPEAKER_00
+ So I guess it depends on where we're focusing out our market.
+
+0:06:52	SPEAKER_00
+ And as our company motto is putting fashion in electronics, I think we're focusing on the younger target demographic.
+
+0:07:03	SPEAKER_00
+ And so maybe we should think about adding these high technology features into our remote control.
+
+0:07:09	SPEAKER_00
+ That's my presentation, thank you.
+
+0:07:11	SPEAKER_02
+ Thank you.
+
+0:07:23	SPEAKER_02
+ So maybe now we can talk about user interface and about technical function of this device.
+
+0:07:37	SPEAKER_02
+ So Peter, can you talk about something about that?
+
+0:07:42	SPEAKER_03
+ Okay, yeah, but you think I'm using this.
+
+0:07:46	SPEAKER_01
+ I'm using it.
+
+0:07:47	SPEAKER_03
+ Sorry, I'm sorry.
+
+0:07:50	SPEAKER_01
+ Okay.
+
+0:07:52	SPEAKER_01
+ If I could go there.
+
+0:07:55	SPEAKER_01
+ This, okay.
+
+0:07:57	SPEAKER_03
+ You're scaring me with LCD man.
+
+0:08:02	SPEAKER_03
+ And speech recognition in real-o-tunate will be very expensive.
+
+0:08:07	SPEAKER_00
+ Yeah, it's true, but you know, the features that users want.
+
+0:08:12	SPEAKER_00
+ Yeah.
+
+0:08:13	SPEAKER_00
+ And our production cost of 1250 euros per unit is fairly high, I think.
+
+0:08:20	SPEAKER_00
+ So I think we can afford to add these sort of features into our remote.
+
+0:08:24	SPEAKER_03
+ At least we have a couple of months to work on it, so it will be cheaper by the way.
+
+0:08:29	SPEAKER_03
+ It's true.
+
+0:08:32	SPEAKER_01
+ There's D-H, but...
+
+0:08:34	SPEAKER_01
+ Okay.
+
+0:08:39	SPEAKER_01
+ Oh.
+
+0:08:53	SPEAKER_02
+ Oh, I hope I'm...
+
+0:08:59	SPEAKER_00
+ That's the wrong one, I think.
+
+0:09:01	SPEAKER_01
+ Yeah, it's still more...
+
+0:09:04	SPEAKER_02
+ Presentation tree?
+
+0:09:05	SPEAKER_02
+ Because you should have put yes.
+
+0:09:07	SPEAKER_02
+ Oh, yes.
+
+0:09:08	SPEAKER_02
+ Oh, yes.
+
+0:09:12	SPEAKER_02
+ Okay.
+
+0:09:21	SPEAKER_01
+ Okay, so here is my presentation about technical function design.
+
+0:09:26	SPEAKER_01
+ I will talk about different components of system and how they react together.
+
+0:09:31	SPEAKER_01
+ Okay.
+
+0:09:34	SPEAKER_01
+ First, what is the remote control?
+
+0:09:36	SPEAKER_01
+ Simply device, as you know, for sending some commands by some waves to another device to tell different commands with this device.
+
+0:09:48	SPEAKER_01
+ And the main idea is we don't use any cable and we can react simpler with the device.
+
+0:09:55	SPEAKER_01
+ It has different blocks, different blocks.
+
+0:10:00	SPEAKER_01
+ First, this remote control should have some electric circuits, making interface with keyboards and reading the keyboard commands and then make these keyboard commands, interpret these keyboard commands, and then there should be an electronic circuit making electronic signals according to these commands.
+
+0:10:29	SPEAKER_01
+ And finally, there is a transmitter which is a cord or a diode making waves to transmit through the air and this wave will be received by the other device like a television or whatever to realize their command.
+
+0:10:51	SPEAKER_01
+ Okay.
+
+0:10:54	SPEAKER_01
+ About what I found about these different blocks are usually there are two different metals for designing a remote control.
+
+0:11:05	SPEAKER_01
+ They are based on infrared waves or radio waves.
+
+0:11:11	SPEAKER_01
+ There are two different solutions.
+
+0:11:16	SPEAKER_01
+ This can be the differences between different kind of waves, infrared or radio waves.
+
+0:11:23	SPEAKER_01
+ And also, as I understood and I think it was a part of the presentation, people prefer to have remote control with less bottom.
+
+0:11:38	SPEAKER_01
+ So for the electronic part working and interfacing with buttons, we should try to design a remote control, having some simpler buttons or some rolling buttons just to search between different options and showing something on TV and putting less stuff on the remote control.
+
+0:12:05	SPEAKER_01
+ And personal preferences are certainly a remote control with working with radio waves is preferred because you can take it in any direction and you don't need to tune it any way.
+
+0:12:22	SPEAKER_01
+ And again, using bigger buttons and less number of buttons are also preferred.
+
+0:12:30	SPEAKER_01
+ As I see. Okay. That was my presentation.
+
+0:12:37	SPEAKER_00
+ I have a question.
+
+0:12:45	SPEAKER_00
+ Do you think radio waves will interfere with other appliances in the home?
+
+0:12:53	SPEAKER_01
+ I don't think so because we can make this wave in a specific frequency.
+
+0:13:01	SPEAKER_01
+ So they can be in a range which is not interfering with other devices inside the home.
+
+0:13:09	SPEAKER_02
+ Can we use any frequency? We have the right to use any frequency?
+
+0:13:14	SPEAKER_01
+ No, but as I know there is a range for this stuff, for designing this circuit.
+
+0:13:23	SPEAKER_01
+ We can tune our transmitter to work in this range.
+
+0:13:29	SPEAKER_01
+ For this range, we don't need to ask any permission.
+
+0:13:32	SPEAKER_02
+ Okay. And what happens with radio waves when two neighbors have the same remote control, for example?
+
+0:13:40	SPEAKER_02
+ Do they have the same frequency?
+
+0:13:46	SPEAKER_01
+ For this, I don't know the solution, but one solution can be something like putting a password or something inside the wave.
+
+0:13:56	SPEAKER_01
+ So only your team can understand identification.
+
+0:14:03	SPEAKER_03
+ But since it's exactly my feel so, it's kind of hand shaking when you start to communicate with your TV.
+
+0:14:13	SPEAKER_03
+ It's like hand shaking protocol with your remote.
+
+0:14:17	SPEAKER_03
+ So if two devices are trying to communicate with the TV set, then the one which has more energy in the wave is chosen.
+
+0:14:30	SPEAKER_03
+ This can be a problem sometimes, but most of the time it works okay.
+
+0:14:34	SPEAKER_01
+ The task force may simply or identification code may simply solve this problem, a specific remote control.
+
+0:14:44	SPEAKER_03
+ Yeah, but we don't have to think about this because I think as a function designer that we will use the already made circuits, which we probably buy its words to buy, and they have these problems solved.
+
+0:14:59	SPEAKER_03
+ So we don't have to think about these.
+
+0:15:02	SPEAKER_02
+ So maybe you can talk about the function.
+
+0:15:05	SPEAKER_03
+ Yes, I have only a couple of things because I had struggled a bit with the software that I'm supposed to use in this company.
+
+0:15:19	SPEAKER_03
+ I was used to use Linux before, but I tried to break through this.
+
+0:15:29	None
+ Yes.
+
+0:15:33	SPEAKER_03
+ Okay.
+
+0:15:38	SPEAKER_03
+ So I will speak about working design.
+
+0:15:55	SPEAKER_03
+ That's the first slide.
+
+0:15:59	SPEAKER_03
+ Okay, so presently I'm looking what is possible to use, what circuits to use and stuff like that because I didn't work with these circuits so far.
+
+0:16:14	SPEAKER_03
+ So I have to look what is available on the market for the communication for the IR circuits and so on.
+
+0:16:23	SPEAKER_03
+ So I'm currently looking what is available on the web and I wanted to ask you maybe afterwards after our discussion if we have some contacts in some company, which can report on what is going on there.
+
+0:16:39	SPEAKER_03
+ So I would be glad if you can tell me about that.
+
+0:16:44	SPEAKER_03
+ Okay, findings, that's the point that I'm working on currently, but so far I was looking what are the circuit radio wave radio frequency circuits are available now, but the prices are rather high.
+
+0:17:07	SPEAKER_03
+ So I know that the user interface people and these speak about radio frequency waves because you can make the TV do what you want, even if you are in the bathroom or so on.
+
+0:17:23	SPEAKER_03
+ But when you're not close to the TV you probably want to need to change the program and so on.
+
+0:17:38	SPEAKER_03
+ We will discuss it later maybe.
+
+0:17:56	SPEAKER_00
+ Are we planning to take off the shelf and OEM component for the radio wave circuit or are we planning to construct their own circuit board?
+
+0:18:12	SPEAKER_03
+ So we just buy a circuit board.
+
+0:18:31	SPEAKER_03
+ So I agree on using any kind of LCD, less buttons good for me as a designer of the circuit.
+
+0:18:45	SPEAKER_03
+ But the speech recognition we have to compare whether the price and what does it offer.
+
+0:18:54	SPEAKER_02
+ Yeah, I'm surprised it would be out of French or it would be maybe visible.
+
+0:19:01	SPEAKER_03
+ I was not thinking too much about the price, but if we use the LCD, even the radio frequency communication with the TV set and the backlight and related things like the photodiodes and stuff, it should be okay.
+
+0:19:20	SPEAKER_03
+ If we decide to use the speech recognition then we probably could struggle, but we'll see afterwards.
+
+0:19:27	SPEAKER_03
+ It depends on if the M.E. or U.I.D. wants to have it like in metal or in plastics these things.
+
+0:19:40	SPEAKER_03
+ It depends on you not because the electric devices, prices not so big in comparison to the overall shape and stuff like that.
+
+0:19:51	SPEAKER_03
+ We will discuss it afterwards.
+
+0:19:54	SPEAKER_03
+ This is nothing, this is just my note on what to use.
+
+0:20:00	SPEAKER_03
+ My personal preference is yes, I would like also preferably to use R.W. circuit, but from the point of view of the design and price, I would stick to the IRs, that's my opinion.
+
+0:20:14	SPEAKER_03
+ I mean if infrared circuit not the radio frequency.
+
+0:20:18	SPEAKER_02
+ Why? Because it's simpler.
+
+0:20:21	SPEAKER_03
+ Because the range where you can use it is fair, it's okay I think and the price is fairly cheap.
+
+0:20:32	SPEAKER_03
+ It's a price matter.
+
+0:20:35	SPEAKER_03
+ Just a price, otherwise I don't care what I put there because it's the chip which I buy or which we buy.
+
+0:20:44	SPEAKER_00
+ How much more expensive are we talking three times more expensive?
+
+0:20:51	SPEAKER_00
+ Three times more expensive?
+
+0:20:52	SPEAKER_03
+ Three to five.
+
+0:20:54	SPEAKER_03
+ Not ten times, but it depends.
+
+0:20:57	SPEAKER_00
+ That's a lot.
+
+0:20:59	SPEAKER_00
+ I think it's probably not worth spending the extra money because all the other remote controls on the market have infrared.
+
+0:21:06	SPEAKER_00
+ So people don't expect anything other than infrared.
+
+0:21:10	SPEAKER_03
+ So it's not worth spending the extra money.
+
+0:21:14	SPEAKER_03
+ They can't see the TV.
+
+0:21:16	SPEAKER_02
+ On the other side we want to have something new.
+
+0:21:21	SPEAKER_02
+ We want to have something new.
+
+0:21:25	SPEAKER_02
+ I think we should still think about it.
+
+0:21:28	SPEAKER_00
+ Based on my usability studies I feel that users prioritize the look and the feel and the trendiness above the difference between infrared or radio waves.
+
+0:21:42	SPEAKER_00
+ So I think we're better off spending money.
+
+0:21:45	SPEAKER_03
+ In the usability.
+
+0:21:58	SPEAKER_02
+ I have to inform you I receive an email from the management board today and they have new requirements for the remote control.
+
+0:22:12	SPEAKER_02
+ First, they said that something about teletext.
+
+0:22:20	SPEAKER_02
+ Apparently it becomes, according to them it becomes out of date, outdated.
+
+0:22:29	SPEAKER_02
+ Because of the internet popularity and everybody else internet at home and actually it's not useful to have teletext.
+
+0:22:43	SPEAKER_02
+ So I think we can avoid teletext.
+
+0:22:48	SPEAKER_02
+ The second thing is they suggest that we should use the remote control only for TV, not for DVD and other devices.
+
+0:22:59	SPEAKER_02
+ Because it makes it too complex and because we have no much time for this project we should stay on the specific TV remote control.
+
+0:23:12	SPEAKER_02
+ The third one is about the image of the company.
+
+0:23:21	SPEAKER_02
+ So we should keep the product should be recognized ever.
+
+0:23:34	SPEAKER_02
+ That means we should use the color of our company and maybe put somewhere the slogan of the company which is we put fashion in electronics.
+
+0:23:45	SPEAKER_02
+ So when people see the remote control they should say oh it's from a reaction and they should recognize the company.
+
+0:23:57	SPEAKER_02
+ So now we should take the decision what function we will have on this remote control.
+
+0:24:14	SPEAKER_02
+ So are we going to use LCD speech recognition?
+
+0:24:24	SPEAKER_00
+ Should we start with just the core, the basic functions that we need and then we can move on to the more advanced features?
+
+0:24:32	SPEAKER_03
+ The available things are LCD buttons and everything radio frequency depends and the recognition depends on you guys.
+
+0:24:44	SPEAKER_02
+ But first maybe what are the usual functions of standard control?
+
+0:24:56	SPEAKER_00
+ The obvious one is changing channels.
+
+0:25:07	SPEAKER_02
+ I think we should stick on very useful functions because we want less buttons.
+
+0:25:16	SPEAKER_02
+ So changing channel of course, volume, setting.
+
+0:25:22	SPEAKER_03
+ Just one note to the channel changing will we use only two buttons or numbered buttons?
+
+0:25:38	SPEAKER_03
+ I think it would be a button.
+
+0:25:42	SPEAKER_02
+ Another side we have more and more channels and if you want to pass through all the channels to get the channel you want.
+
+0:25:58	SPEAKER_03
+ Like 10 plus, 5 plus, 1 plus, 1 plus, or using the names and the keyboard.
+
+0:26:17	SPEAKER_02
+ Maybe you could have K buttons like documentary channel and movies.
+
+0:26:31	SPEAKER_02
+ If you want to see a movie you click on the movie button so you have all the movie channels.
+
+0:26:37	SPEAKER_03
+ It requires the use of LCD to tell you all the same feedback.
+
+0:26:51	SPEAKER_00
+ We could maybe incorporate the idea of the slider for the volume with the channel.
+
+0:27:10	SPEAKER_00
+ We have channel and volume.
+
+0:27:26	SPEAKER_03
+ So we are still speaking about common devices or we are inviting.
+
+0:27:31	SPEAKER_03
+ I think so.
+
+0:27:32	SPEAKER_00
+ Basically cool functions we want and then more advanced ones.
+
+0:27:36	SPEAKER_02
+ What about the settings of the TV? Because we don't choose very often but we need it anyway.
+
+0:27:44	SPEAKER_01
+ We don't have any, we don't have visual design, remote control and we don't have any access to the TV design or we can change some design.
+
+0:27:56	SPEAKER_01
+ One solution for this changing channels is to see a summary of all channels, some preview of all channels.
+
+0:28:07	SPEAKER_01
+ On the screen.
+
+0:28:09	SPEAKER_01
+ Not on the screen.
+
+0:28:11	SPEAKER_01
+ On the screen.
+
+0:28:12	SPEAKER_03
+ On the TV screen.
+
+0:28:14	SPEAKER_00
+ I don't think we are the ones.
+
+0:28:17	SPEAKER_00
+ This remote control we are developing is a generic control for all TVs.
+
+0:28:27	SPEAKER_03
+ I think it would be better to stick to the remote control and not bother to TV to print these things.
+
+0:28:34	SPEAKER_03
+ It will be still more expensive but for the LCD and this stuff is no problem in the Pride.
+
+0:28:41	SPEAKER_02
+ So what are we doing with the settings? Because if we want to do settings we need buttons for that and we want less buttons.
+
+0:28:50	SPEAKER_02
+ Maybe with the LCD we can do something with less buttons.
+
+0:28:56	SPEAKER_00
+ But then you don't want to make the LCD display too complicated.
+
+0:29:00	SPEAKER_00
+ At the same time.
+
+0:29:02	SPEAKER_00
+ I mean we can always have these less often used functions hidden somewhere under a cover or a back of under a slide.
+
+0:29:15	SPEAKER_03
+ We could have for example two buttons like simple mode and advanced mode.
+
+0:29:20	SPEAKER_03
+ Or like children and grandfathers modes and the TV manager mode.
+
+0:29:32	SPEAKER_00
+ We have five minutes left.
+
+0:29:38	SPEAKER_00
+ So I think the settings we agreed that they are required.
+
+0:29:43	SPEAKER_02
+ We should hide them somewhere in the menus of the LCD or in the back of the remote control.
+
+0:29:54	SPEAKER_00
+ What else?
+
+0:30:06	SPEAKER_00
+ I mean a power button obviously.
+
+0:30:08	SPEAKER_03
+ Yes. If I was thinking do we need a power button at all?
+
+0:30:13	SPEAKER_03
+ Should we do it like sleep mode after five minutes or not using it?
+
+0:30:17	SPEAKER_02
+ Because generally it's a kind of setting I think.
+
+0:30:20	SPEAKER_02
+ It should fit into settings.
+
+0:30:24	SPEAKER_02
+ Because it's not a very current useful function.
+
+0:30:29	SPEAKER_00
+ Well I think when I say power button they mean to turn the TV on and off.
+
+0:30:33	SPEAKER_02
+ No I think it's after five minutes or a timer.
+
+0:30:38	SPEAKER_00
+ But if you're watching TV for two hours you don't want your TV to turn off.
+
+0:30:43	SPEAKER_03
+ You don't want your TV to turn off.
+
+0:30:46	SPEAKER_03
+ You don't want your TV to turn off.
+
+0:30:48	SPEAKER_00
+ So you should kill this button.
+
+0:30:49	SPEAKER_00
+ I mean based on our usability studies again people said that the power button was a very relevant button.
+
+0:30:56	SPEAKER_00
+ It was nine out of ten.
+
+0:30:59	SPEAKER_03
+ What we could probably do is to keep the LCD and all the buttons and stuff.
+
+0:31:06	SPEAKER_03
+ We could make it like an opening stuff that if you open it you just turn on the TV and if you close it it will.
+
+0:31:16	SPEAKER_03
+ Turn off the TV if you like.
+
+0:31:20	SPEAKER_00
+ Okay.
+
+0:31:24	SPEAKER_00
+ I think we need to concentrate on the major usage of the control which is you sit down, you turn on your TV, you change channels, you change the volume, you turn the TV off.
+
+0:31:39	SPEAKER_00
+ And all the other functionality is not used very often.
+
+0:31:44	SPEAKER_01
+ They can be hired somewhere by a cover or something like this.
+
+0:31:48	SPEAKER_01
+ Like covering.
+
+0:31:51	SPEAKER_03
+ Yeah, like mobile phones.
+
+0:31:54	SPEAKER_03
+ Since we have the LCD we don't need too much buttons.
+
+0:32:02	SPEAKER_03
+ Okay, just the decision on the power button should we make it a button or something which would be for what?
+
+0:32:12	SPEAKER_03
+ I think a button.
+
+0:32:14	SPEAKER_00
+ I think it should be a button.
+
+0:32:17	SPEAKER_03
+ It's a button.
+
+0:32:20	SPEAKER_03
+ Okay, one nice big button.
+
+0:32:23	SPEAKER_03
+ Old-fashioned button to satisfy the grandmothers.
+
+0:32:27	SPEAKER_00
+ Okay.
+
+0:32:34	SPEAKER_02
+ So any other suggestions or functions?
+
+0:32:41	SPEAKER_00
+ What about things like the clock and timers?
+
+0:32:53	SPEAKER_03
+ Do we still have the time?
+
+0:32:55	SPEAKER_03
+ I just wonder.
+
+0:32:56	SPEAKER_02
+ Yeah, we have still one or two minutes.
+
+0:33:00	SPEAKER_03
+ What is the question?
+
+0:33:03	SPEAKER_00
+ You know, some features on their control to display a time or to display.
+
+0:33:08	SPEAKER_03
+ You know, TV or something like that.
+
+0:33:11	SPEAKER_03
+ But since we want to control all the televisions, it would probably be worse to set the timing on the remote.
+
+0:33:24	SPEAKER_03
+ Because if the TV turns on itself, if we add the time, we should be there.
+
+0:33:32	SPEAKER_02
+ Maybe a bigger display or something like that.
+
+0:33:37	SPEAKER_02
+ I mean, our users want to have the time on the remote.
+
+0:33:44	SPEAKER_00
+ It's a question.
+
+0:33:47	SPEAKER_02
+ Yeah, it's a trade-off.
+
+0:33:49	SPEAKER_02
+ In my opinion, we should have only useful things.
+
+0:33:52	SPEAKER_02
+ Because apparently the simplest is better.
+
+0:33:56	SPEAKER_03
+ Did you ever use the timing of turning on the TV?
+
+0:34:02	SPEAKER_03
+ And based on the...
+
+0:34:04	SPEAKER_00
+ Yeah, okay, very occasionally.
+
+0:34:05	SPEAKER_00
+ But I do use the display of the time quite often.
+
+0:34:09	SPEAKER_03
+ Yeah, but it can be on the display in the corner all the time on the remote.
+
+0:34:14	SPEAKER_00
+ Yeah, that's okay.
+
+0:34:15	SPEAKER_00
+ That's true.
+
+0:34:16	SPEAKER_01
+ Okay, so no time.
+
+0:34:19	SPEAKER_01
+ Do we need to include anything about the speech recognition and speech commands?
+
+0:34:24	SPEAKER_01
+ I think it will not take lots of place.
+
+0:34:29	SPEAKER_01
+ We just need a microphone and a software.
+
+0:34:32	SPEAKER_01
+ And it will be a little bit new and interesting.
+
+0:34:37	SPEAKER_01
+ So people may be attracted to buy this stuff.
+
+0:34:40	SPEAKER_01
+ And it's not very difficult to put a software inside the electronic device and put a microphone.
+
+0:34:48	SPEAKER_01
+ It doesn't take that much place and also that much.
+
+0:34:51	SPEAKER_01
+ It doesn't cost that much.
+
+0:34:53	SPEAKER_03
+ We should be careful about the battery life then.
+
+0:34:57	SPEAKER_02
+ So maybe we can think more about that and discuss that maybe last time.
+
+0:35:02	SPEAKER_02
+ Next time.
+
+0:35:03	SPEAKER_02
+ And now the meeting room is busy.
+
+0:35:06	SPEAKER_02
+ Somebody booked a meeting room just at 1pm.
+
+0:35:10	SPEAKER_02
+ So we should live.
+
+0:35:16	SPEAKER_02
+ So no, we are going for a small lunch.
+
+0:35:21	SPEAKER_02
+ It's founded by the company.
+
+0:35:24	SPEAKER_02
+ And after we have 13 minutes to do individual works.
+
+0:35:32	SPEAKER_02
+ And I will do the minutes.
+
+0:35:35	SPEAKER_02
+ And you are going to work on your individual works.
+
+0:35:41	SPEAKER_02
+ And you will receive as usual specific instructions and so on.
+
+0:35:46	SPEAKER_00
+ Okay, thank you.
+
+0:35:48	SPEAKER_00
+ Cool.
+
+0:35:49	SPEAKER_01
+ Thank you.
+
+0:36:19	None
+ Thank you.
+

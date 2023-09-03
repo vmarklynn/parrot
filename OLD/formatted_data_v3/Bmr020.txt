@@ -1,0 +1,930 @@
+Speaker E: Okay, we're recording.
+Speaker C: Say the word zero.
+Speaker C: I'm doing something.
+Speaker C: We have brackets, coffee sipping.
+Speaker C: It's not allowed, I think.
+Speaker B: Carly brackets.
+Speaker B: Is that voice?
+Speaker B: Still a voice.
+Speaker E: Okay.
+Speaker E: Okay.
+Speaker E: Channel two.
+Speaker E: Do you square brackets running?
+Speaker E: I have.
+Speaker E: He's poor transcribers.
+Speaker H: Not right now.
+Speaker H: I mean.
+Speaker F: There's going to be some zeros from this morning's meeting because I noticed that, very, I think, maybe you turned your mic off before the digits were...
+Speaker F: Oh, it's during digits also.
+Speaker F: It doesn't matter.
+Speaker G: So it's not that bad if it's at the end, but it's...
+Speaker E: Yeah.
+Speaker E:...and at the beginning it's bad.
+Speaker E: You want to keep it warm so you get good noise.
+Speaker E: Noise floors.
+Speaker E: It's a beautiful meeting.
+Speaker D: Oh, I know, I just showed a book.
+Speaker D: Yeah, I did that.
+Speaker B: Is there any way to change that in a software?
+Speaker B: Change what?
+Speaker B: Where, like, you just don't...
+Speaker B: Like, if you...
+Speaker B: If it starts catching zeros, like in the driver or something, in the card or somewhere in the hardware, where if you start seeing zeros on what cross-month channel, you just add some random noise floor, like a small noise floor.
+Speaker E: And certainly we could do that, but I don't think that's a good idea.
+Speaker E: We could do that in post-processing.
+Speaker E: Yeah.
+Speaker E: And the application needs a manual post-processing.
+Speaker D: Well, I think we don't know what the default is anymore.
+Speaker D: It's how we're using the front-end stuff, but for when we use the X-E, but it's argument.
+Speaker D: There is an option.
+Speaker D: An option, which...
+Speaker D: When I first put it in, that means when I answer real things, I did actually put in a random address.
+Speaker D: Okay.
+Speaker D: Then I realized that putting in random address, you could go to the equivalent to adding a lot of spectrum.
+Speaker D: Right.
+Speaker D: And it was a lot faster than you would say, to add a constant to the spectrum.
+Speaker D: To the certain thing.
+Speaker D: Okay.
+Speaker D: Calling random, or something.
+Speaker B: Right.
+None: So, this doesn't...
+Speaker D: Gee, here we all are.
+Speaker E: So, the only agenda items where Jane wanted to talk about some of the IBM transcription process.
+Speaker E: I sort of condensed the three things you said into that.
+Speaker E: And then, just...
+Speaker E: I only have, like, this afternoon and maybe tomorrow morning to get anything done before I go to Japan for 10 days.
+Speaker E: So, if there's anything that absolutely desperately needs to be done, should let me know now.
+Speaker D: You just sent off their speech paper.
+Speaker C: Right.
+Speaker C: I hope they accepted both, as a submission and as a paper.
+Speaker C: But...
+Speaker C: Well, yeah, you sent in.
+Speaker C: First, you have to read the first thing.
+Speaker C: We actually exceeded the delayed deadline by another day.
+Speaker C: So, oops.
+Speaker D: They had some extension.
+Speaker C: Well, yeah, Liz had sent them.
+Speaker C: I know what's saying.
+Speaker C: Could we please have another, I don't know, three days.
+Speaker C: There's a three days.
+Speaker C: They said yes.
+Speaker C: And then, did I say three?
+Speaker E: That was the same thing.
+Speaker E: Dave Galbert sent me an email.
+Speaker E: I think it's in the YouTube that there's a special topic section in Eurospeach on New Corp.
+Speaker E: Corp.
+Speaker E: Corp.
+Speaker E: And it's not due until, like, May 15th.
+Speaker E: Well, this isn't new or?
+Speaker E: No, it's new.
+Speaker E: No, it's new.
+Speaker E: And I got this.
+Speaker E: I thought it was a Jane as I thought being the most relevant person.
+Speaker E: So, I thought it was highly relevant.
+Speaker E: I'm interested to.
+Speaker H: Have you looked at the URL?
+Speaker H: I haven't gotten over to there yet, but what I just mentioned yesterday, yeah.
+Speaker G: I want to send a message.
+Speaker G: I think Christopher Throck was meant to.
+Speaker E: I'll help, but obviously I can't really do most of it.
+Speaker E: So, I don't need any help being that can certainly provide.
+Speaker C: But there were some interesting results in this paper, though.
+Speaker C: For instance, that Morgan accounted for 56% of the robustness meanings in terms of number four.
+Speaker C: Wow.
+Speaker C: In terms of what?
+Speaker C: Number four.
+Speaker H: It's just because he talks really fast.
+Speaker E: Do you mean...
+Speaker E: Oh, that's...
+Speaker H: Is it partly correctly identified words?
+Speaker E: No, well, according to the transcripts.
+Speaker E: That worked well regardless.
+Speaker E: I think it's he's in all of them.
+Speaker C: We've been working by name, we just...
+Speaker E: One participant.
+Speaker E: Did you identify him as a senior member?
+Speaker C: No, we identified him as the person dominating the conversation.
+Speaker D: Yeah.
+Speaker D: I think it's a RP thing, but it's a meal.
+Speaker D: But, other than that, the like, what was the rest of the paper about?
+Speaker C: Well, it was about...
+Speaker C: In terms of the reactions, three kinds of results, if you will.
+Speaker C: The one was that just the amount of overlap...
+Speaker C: That's the ugly subject.
+Speaker C: In terms of number of words, and also we computed something called a spurt, which is essentially a stretch of speech with no pause as exceeding five million seconds.
+Speaker C: And we computed how many overlap...
+Speaker C: Spurt's, there were, and how many overlap words there were, four different corpora, the meeting recorded meetings, the robust meetings, switchboard and call home.
+Speaker C: And found, and sort of compared the numbers, and found that the...
+Speaker C: You know, as you might expect, the meeting recorder, meetings are the most overlap.
+Speaker C: But next, we're switched what and call home, which both had roughly the same, almost identical in effect.
+Speaker C: And the robust meetings were at the least.
+Speaker C: So one sort of unexpected result there is that two party telephone conversations have about the same amount of overlap, sort of, you know, order of magnitude wise, as face-to-face meetings were...
+Speaker C: I have had that as a work-changing all my slides.
+Speaker C: Yeah.
+Speaker C: Also, in the Levenson, the pragmatics book, you know, textbook, I found this great quote where he says, you know, how people talk about how people are so good at turn-taking.
+Speaker C: And so, they're so good that generally, the overlap speech does not is less than 5%.
+Speaker C: So, this is way more than 5%.
+Speaker B: Did he mean face-to-face or...?
+Speaker C: Well, in real conversations, everyday conversations.
+Speaker C: I've been studying these conversation L.S. have been studying for years.
+Speaker H: Chris, no, it doesn't necessarily go against what he said, because he said generally speaking in order to go against that kind of line.
+Speaker H: Well, he's made a claim on the big hand-basing.
+Speaker G: Yeah, but 5% of time or 5% of work is going to ask that.
+Speaker G: Well, it's time.
+Speaker C: So, it's still...
+Speaker C: It's not a discussion.
+Speaker H: It just says that is it big bell curve and that you have something that has a nice range of...
+Speaker C: Yeah, so there are differences in how you measure it.
+Speaker C: But still, it's, you know, the difference between...
+Speaker C: between that number and what we have in meetings, which is more like, you know, close to...
+Speaker C: in meetings like these, you know, close to 20%.
+Speaker C: What was it like saying in the room?
+Speaker C: That's just meaning.
+Speaker C: Robustness meeting?
+Speaker C: It was about half of the...
+Speaker C: So, in terms of number of words, it's like 17 or 18% for the meeting recording meetings and about half that for...
+Speaker E: But I don't know if that's really a fair way of comparing between multi-party conversations and two-party conversations.
+Speaker E: Yeah, I didn't have to.
+Speaker E: I mean, that's just something.
+Speaker F: Yeah, I just wonder if you have to normalize, but then I'm going to speak or normalize.
+Speaker F: Yeah, I just need to look at that.
+Speaker C: But it's obviously to see if there's a dependence on that number of participants.
+Speaker E: I bet there's a weak dependence.
+Speaker E: I'm sure it's not a real strong one.
+Speaker E: There's not everybody talks.
+Speaker E: Right.
+Speaker E: You have a lot of, a lot of two-party subsets within the meeting.
+Speaker E: Well, regardless.
+Speaker E: It's an interesting result, right?
+Speaker C: Right.
+Speaker C: And we also computed this both with and without back channels.
+Speaker C: So, you might think that back channels have a special status because they're essentially just...
+Speaker E: We all said, aha, not at the same time.
+Speaker C: But even if you take out all the back channels, so basically you treat back channels as non-speech, as pauses, you still have significant overlap.
+Speaker C: You know, it goes down from maybe for a switchboard, it goes down from, I don't know, 14% of the words to maybe...
+Speaker C: I don't know, 11% or something.
+Speaker C: It's not a dramatic change.
+Speaker C: So it's...
+Speaker C: Anyway, so that was one side of results.
+Speaker C: And then the second one was just basically the stuff we had in the HLT paper on how overlaps affect the recognition performance.
+Speaker C: And we rescored things a little bit more carefully.
+Speaker C: We also fixed the transcripts in numerous ways.
+Speaker C: But mostly we added one number, which was, what if you basically score ignoring all...
+Speaker C: So the conjecture from the HLT results was that most of the added recognition errors from insertions due to background speech.
+Speaker C: So we scored all the recognition results in such a way that the...
+Speaker E: By the way, who's on channel 4?
+Speaker E: You're getting one red.
+Speaker G: Yeah, I was just wondering.
+Speaker B: That's me.
+Speaker C: Well, that's been working hard.
+Speaker C: That's right.
+Speaker C: Okay, so if you have the foreground speaker speaking here and then there's some background speech, maybe overlapping it somehow.
+Speaker C: And this is the time been that we used.
+Speaker C: Then of course you're going to get insertion errors here and here.
+Speaker C: Right, right?
+Speaker C: So we scored everything, and I must say that this scoring tools are pretty nice for this, where you just basically ignore everything outside of the region that was...
+Speaker C:...to be foreground speech.
+Speaker C: And where that was, we had to use the first alignment results from the four.
+Speaker C: So that's somewhat subject to error, but still we...
+Speaker C:...donded some hand checking, and we think that based on that, we think that the results are valid, and of course some errors are going to be in there.
+Speaker C: But basically what we found is after we take out these regions, so we only score the regions that were certified as foreground speech, the recognition error went down to almost the level of the non-overlapped speech.
+Speaker C: So that means that even if you do have background speech, if you can somehow separate out or find where it is, the recognizer does a good job, even though there isn't...
+Speaker E: Yeah, I guess that doesn't surprise me, because with the close talking mics, the signal will be so much stronger.
+Speaker E: What sort of normalization do you do?
+Speaker C: Well, we do...
+Speaker E: You know, we do recognize it, and the SRI recognize it.
+Speaker C: Well, we do VTL, MoCotractLengthNomization, and we make all the features have zero mean and unit variance over an entire utterance.
+Speaker C: Over the entire...
+Speaker C: Over the entire channel.
+Speaker C: Now we didn't rerun the recognizer for this.
+Speaker C: We just took the old...
+Speaker C: So this is actually a suboptimal way of doing it, right?
+Speaker C: The old recognition output, and we just scored it differently.
+Speaker C: So the recognize didn't have the benefit of knowing where the foreground speech started.
+Speaker D: Were you able to develop the...
+Speaker D: Did the problems with the local way also...
+Speaker C: Yeah, not completely, but...
+Speaker C: Yes, dramatically.
+Speaker C: So we have to...
+Speaker C: I mean, still...
+Speaker C: I should bring the table with results.
+Speaker D: We can look at it.
+Speaker D: I would presume that you still would have somewhat higher error with the local assertions.
+Speaker C: Yes.
+Speaker D: Because again, looking forward to the non-close mic case.
+Speaker D: I'm not looking forward to it.
+Speaker D: It's a high signal noise ratio.
+Speaker C: Right.
+Speaker C: Right.
+Speaker C: So that was number...
+Speaker C: That was the second set of...
+Speaker C: The second section.
+Speaker C: And then the third thing was we looked at...
+Speaker C: What we call interrupts, although that's maybe a misnomer.
+Speaker C: Basically, we looked at cases where...
+Speaker C: So we used the punctuation from the original transcripts.
+Speaker C: And we inferred the beginnings and ends of sentences.
+Speaker C: So...
+Speaker H: Did you use Eberler case also or not?
+Speaker H: Eberler case...
+Speaker C: No, we only used, you know, appearance, question marks and...
+Speaker C:...exclamation.
+Speaker C: And we know that there's...
+Speaker C: That's not a very...
+Speaker C: I mean, we miss a lot of them.
+Speaker C: Yes, okay.
+Speaker H: How about also or not?
+Speaker C: No, how about?
+Speaker C: Okay.
+Speaker C: And then we looked at locations where...
+Speaker C: If you have overlapping speech and someone else starts a sentence.
+Speaker C: You know, where do these...
+Speaker C: Where do other people start their...
+Speaker C:...turns, not turns really, but, you know, sentences?
+Speaker C: So we only looked at cases where there was a foreground speaker...
+Speaker C:...and then at the time...
+Speaker C: So the foreground speaker started into their sentence...
+Speaker C:...and then someone else started later.
+Speaker C: Somewhere in between the...
+Speaker C: And so...
+Speaker C: What?
+Speaker G: Sorry?
+Speaker G: Somewhere in between the...
+Speaker C: Yes.
+Speaker C: So that there was overlap between the two sentences.
+Speaker C: So the question was...
+Speaker C: How can we...
+Speaker C: What can we say about the places where the second...
+Speaker C:...or actually several second speakers...
+Speaker C:...start their interrupts, as we call them?
+Speaker F: Three words from the end.
+Speaker E: And pause the batteries.
+Speaker C: And we looked at this in terms of...
+Speaker C: On T closures, only.
+Speaker C: So we had...
+Speaker C: We had...
+Speaker C: For the purpose of this analysis, we tagged the word sequences...
+Speaker C:...and we timeline them.
+Speaker C: And we considered an interrupt...
+Speaker C:...if it occurred in the middle of a word...
+Speaker C:...we basically, you know, considered that to be interrupt...
+Speaker C:...as if it were at the beginning of the word.
+Speaker C: So that if any part of the word was overlap, it was considered an interrupted word.
+Speaker C: And then we looked at the location...
+Speaker C:...the...
+Speaker C:...you know, the features, the tags...
+Speaker C:...because we had tagged these word strings.
+Speaker C: Taked.
+Speaker C: That occurred right before these interrupt locations.
+Speaker C: And the tags we looked at are...
+Speaker C:...the spurt tag, which basically says...
+Speaker C:...are actually...
+Speaker C:...sorry, end of spurt.
+Speaker C: So whether there was a pause, essentially, here...
+Speaker C:...because spurt's defined as being, you know, 500-minute seconds or longer pauses.
+Speaker C: And then we had things like discourse markers, back channels, disloancies, field pauses.
+Speaker C: So disloan...
+Speaker C:...the ds are for...
+Speaker C:...the interruption points of disloancies.
+Speaker C: So where you hesitate or where you start them, repair.
+Speaker C: What else do we have?
+Speaker C: Repeated words, it's another kind of disloancies and so forth.
+Speaker C: So we had both the beginnings and ends of these.
+Speaker C: So the end of a field pause...
+Speaker C:...and the end of a discourse marker.
+Speaker C: And we just eyeballed.
+Speaker C: I mean, we didn't really hand tag all of these things.
+Speaker C: We just looked at the distribution of words.
+Speaker C: And so every...
+Speaker C:...so yeah, and okay.
+Speaker C: And aha, where the word deemed to be back channels and well and so and...
+Speaker C:...rights, where...
+Speaker C:...not right is a back channel.
+Speaker C: So we sort of just based on the lexical identity of the words we...
+Speaker C:...tapped them as one of these things.
+Speaker C: And of course, the interruption points we got from the original transcripts.
+Speaker C: So...
+Speaker C:...and then we looked at the distribution of these different kinds of tags...
+Speaker C:...overall and in particularly at the interruption points.
+Speaker C: And we found that there is a mark difference.
+Speaker C: So that for instance, after...
+Speaker C:...so at the end after a discourse marker or after back channel or after a field pause...
+Speaker C:...you're much more likely to be interrupted than before.
+Speaker C: Okay.
+Speaker C: And also of course, after spurt ends, which means basically in point-side pauses.
+Speaker C: So pauses are always an opportunity for...
+Speaker C: So we have this little histogram that shows these distributions.
+Speaker C: I wonder if it's not no big surprises, but this sort of...
+Speaker C:...it's a nice actually measure.
+Speaker F: I wonder about the cause and effect there.
+Speaker F: In other words, if you weren't going to pause, you...
+Speaker F:...will be because you're being interrupted.
+Speaker F: Right, there's no statement about cause and effect.
+Speaker F: Right.
+Speaker F: It's just a statistic.
+Speaker D: No, no, no.
+Speaker D: Yeah, he's right to me.
+Speaker D: Maybe we're intending to pause it all.
+Speaker D: Right.
+Speaker D: We're intending to stop for 57 milliseconds than chucking.
+Speaker D: Yeah.
+Speaker C: Pause for a second anyway.
+Speaker C: And that was basically it.
+Speaker C: And so we wrote this and then we found we were at six pages when we started cutting furiously.
+Speaker C: And we thought half of the material again and played with the latex stuff.
+Speaker C: And it was fun small, yeah?
+Speaker C: No, no, well, you couldn't really make everything smaller, but we...
+Speaker C: The abstract.
+Speaker C: Oh, I...
+Speaker C: You know, the gap between the two columns is like 10 millimeters, so I track it to eight millimeters.
+Speaker C: That helps seven stuff like that.
+Speaker F: Wasn't there some result under us?
+Speaker F: I thought maybe Liz presented this at some conference a while ago about back channels.
+Speaker F: And that they tend to happen when the pitch drops.
+Speaker F: You know, you had a falling pitch.
+Speaker F: Yeah.
+Speaker F: And so that's when people tend to back channel.
+Speaker C: We didn't talk about presenting.
+Speaker C: Right.
+Speaker C: Right.
+Speaker C: So that's... I take it that's something that Don will look at.
+Speaker C: Yeah, we're going to be looking at that.
+Speaker C: So this is purely based on, you know, the words.
+Speaker H: I have a reference for that though.
+Speaker F: How you do?
+Speaker F: So am I recalling correctly?
+Speaker H: Well, I didn't know about Liz's finding on that, but I know of another paper that talks about something.
+Speaker B: I think to see that reference too.
+Speaker F: It made me think about a cool little device that could be built to handle those people that call you.
+Speaker F: And just like to talk and talk and talk.
+Speaker F: And you just have this little detector that listens for these drops and pitch and gives them the back channel.
+Speaker F: So then you hook that to the phone and go off and do whatever you want to do while that thing keeps them busy.
+Speaker C: There's actually... there's this former student of here from Berkeley, Nigel Ward.
+Speaker C: He did a system in... he lives in Japan now and he did this back channeling, automatic back channeling system.
+Speaker C: So very... so exactly what you described for Japanese.
+Speaker C: And apparently for Japanese, it's really important that you back channel.
+Speaker C: It's really impolite if you don't.
+Speaker D: Actually, for a lot of these people, I think you just serve back channel continuously.
+Speaker F: It wouldn't matter if it's when I ran the Minervals course.
+Speaker E: There was of course a Monty Python sketch with that.
+Speaker E: Or the barber who was afraid of scissors was playing a tape of clipping sounds.
+Speaker E: And then they say, uh-huh, yeah, how about then Swordsteen?
+Speaker C: Anyway, so the paper is online.
+Speaker C: And I think I... I see a message to meeting recorded with the URL.
+Speaker C: Or one more thing.
+Speaker C: So I'm actually about to send Brian Kingsbury an email saying where he can find the material he wanted for this speech recognition experiment.
+Speaker C: So, but I haven't sent it out yet because actually my desktop locked up.
+Speaker C: I can't type anything.
+Speaker C: So if there's any suggestions for that, I was just going to...
+Speaker F: Is that the same directory that you had suggested?
+Speaker F: I made a directory. I called it...
+Speaker H: He still has his Unix account here, you know?
+Speaker H: He does?
+Speaker H: Yeah.
+Speaker C: Yeah, but he has to...
+Speaker C: He said he would prefer FTP.
+Speaker C: And also, the other person that wants to do... There's one person that SRI who wants to look at the...
+Speaker C: You know, the data we have so far.
+Speaker C: And so I figured FTP is the best approach.
+Speaker C: So what I did is I...
+Speaker C: I made a new directory after a check set that was going to be a good thing.
+Speaker C: So it's FTP, pub, real.
+Speaker C: Real, exactly.
+Speaker C: MTGC.
+Speaker C: What is it again?
+Speaker E: Has Danielis.
+Speaker C: Yeah, right. The same as the main list.
+Speaker C: And then under there... Actually, on this directory is not readable.
+Speaker C: It's only accessible.
+Speaker C: So in other words, to access anything under there, you have to be told what the name is.
+Speaker C: So that's sort of a quick and dirty way of doing access control.
+Speaker C: And the directory for this, I call it ISR0.1 because it's sort of meant for recognition.
+Speaker C: And then there I have a file that lists all the other files so that someone can get that file and then know the file names.
+Speaker C: And therefore download them.
+Speaker C: If you don't know the file names, you can't...
+Speaker B: Don't say.
+Speaker C: Anyway, so all I was going to do there was stick the transcripts after the way that we munched them for scoring.
+Speaker C: Because that's what he cares about.
+Speaker C: And then the waveforms that Don segmented.
+Speaker C: I mean, just basically tar them all up for each meeting and tar them all into one tar file and giz of them and stick them there.
+Speaker E: So they put digits in my own home directory, home FTP directory, but I'll probably move them there as well.
+Speaker F: So we could point Mari to this also for her March 01 request.
+Speaker C: March 01.
+Speaker C: Oh, remember, she was...
+Speaker F: We wanted that also.
+Speaker F: Well, she was saying that it would be nice if we had...
+Speaker F: Or was she talking...
+Speaker F: Yeah, she was saying it would be nice if they had the same set so that when they did experiments, they could compare.
+Speaker C: But they don't have a recognition.
+Speaker C: But yeah, I can see Mari on this one of that she knows.
+Speaker F: So for the thing that we need to give Brian the Beab's file, so I was going to probably put it in the same place.
+Speaker E: Yeah, I'll make another directory.
+Speaker F: Yeah, exactly.
+Speaker B: And Andreas, I think those files that I gave you are all down sampled.
+Speaker B: They are?
+Speaker B: I think so.
+Speaker B: Yeah.
+Speaker B: So either we should regenerate the original versions or we should just make a note of it.
+Speaker C: Okay, because in one directory there's two versions.
+Speaker B: Yeah, that's the first meeting I kept both versions.
+Speaker B: Just to check which one.
+Speaker B: There's significant difference.
+Speaker B: Okay, so for the other meetings it's the down sampled version.
+Speaker B: Yeah, down sampled, yeah.
+Speaker C: Oh, okay.
+Speaker C: Oh, that's important to know.
+Speaker C: Okay, so we should probably give them the non-down sampled versions.
+Speaker B: Yeah.
+Speaker B: So...
+Speaker C: Okay.
+Speaker C: All right, then I'll hold off on that and wait for you to...
+Speaker C: Probably by tomorrow.
+Speaker B: I'll send you an email.
+Speaker C: All right.
+Speaker C: Okay.
+Speaker C: Yeah, definitely they should have the full bandwidth.
+Speaker C: Yeah.
+Speaker B: Yeah, because I mean, I think Liz decided to go ahead with the down sampled versions because we can...
+Speaker B: Well, it's significant difference.
+Speaker B: It takes a less this space from all over the world.
+Speaker B: It does take a less this space.
+Speaker B: And apparently it didn't even better than the original versions, which, you know, is just probably random.
+Speaker B: It's a small difference, but they probably want the originals.
+Speaker C: Okay.
+Speaker C: Okay, good.
+Speaker C: Good thing.
+Speaker E: I think we're losing Dawn and Andreas at 330, right?
+Speaker B: Yeah.
+Speaker B: So, I'm going to put it in the description.
+Speaker D: It's fine.
+Speaker D: It's okay.
+Speaker D: It's okay.
+Speaker D: So, we're going to put the transcription in the next step.
+Speaker D: Okay.
+Speaker H: So, you know, Adam created a script to generate the beat file to then create something just into IBM.
+Speaker H: And you should probably talk about that, but you were going to use the originally transcribed file because I tightened the time bins, and that's also the one that they had already been trying to debug the first stage of this.
+Speaker H: And my understanding was that I haven't listened to it yet, but it sounded very good.
+Speaker H: And I understand that you guys were going to have a meeting today before this meeting.
+Speaker E: It was just to talk about how to generate it.
+Speaker E: Just so that while I'm gone, you can regenerate it if you decide to do it a different way.
+Speaker E: So Chuck and Tilo should now more or less know how to generate the file.
+Speaker E: And the other thing Chuck pointed out is that since this one is hand-marked, there are discourse boundaries.
+Speaker E: So when one person is speaking, there's breaks, whereas Tilo's won't have that.
+Speaker E: So what we're supposed to do is just write a script that if two chunks are very close to each other on the same channel, we'll just merge them.
+Speaker H: Oh, sure.
+Speaker H: Yeah, sure.
+Speaker E: Makes sense.
+Speaker E: And that will get around the problem of the one word, deep one word, deep one word,
+Speaker H: deep one word. Clever, yes.
+Speaker H: Clever.
+Speaker H: Yeah, excellent.
+Speaker F: After this morning, Tilo came in and said that there could be other differences between the already transcribed meeting with the beeps in it and one that has just been run through his process.
+Speaker F: So tomorrow, when we go to make the chunked file for IBM, we're going to actually compare the two.
+Speaker F: So he's going to run his process on that same meeting.
+Speaker F: And then we're going to do the beepify on both and listen to them and see if we notice any real differences.
+Speaker H: Okay, one thing that prevented us from applying, you from applying exactly the training.
+Speaker H: So that is a training meeting.
+Speaker F: Yeah, and we know that.
+Speaker F: We just want to see if there are any major differences between doing it on the hand.
+Speaker H: Oh, interesting.
+Speaker H: Ah, okay.
+Speaker H: Interesting idea.
+Speaker C: So this training meeting, is that some data where we have very accurate time marks for?
+Speaker H: I went back and hand marked the buttons.
+Speaker H: I mentioned that.
+Speaker H: Okay, yeah.
+Speaker F: But there's, yeah, but there is this one issue with them in that there are time boundaries in there that occur in the middle of speech.
+Speaker F: So like when we went to, when I was listening to the original file that I had, it's like you hear word, then you hear beep, and then you hear the continuation of what is the
+Speaker E: same sentence. That's because of channel overlap.
+Speaker F: Well, and so there are these chunks that look like that have, I mean, that's not going
+Speaker E: to be true of the foreground speaker that will only be if it's the background speaker.
+Speaker F: Right. So you'll have a chunk of channel A, which starts at zero and ends at 10.
+Speaker F: And then the same channel starting at 11, ending at 15, and then again starting at 16, ending at 20.
+Speaker F: Right.
+Speaker F: So there's three chunks where actually we can just make one chunk out of that, which is A, zero, 20.
+Speaker E: That's what I just said.
+Speaker F: Yeah.
+Speaker F: So I just want to make sure that it was like, so if you were to use these, you have to be careful not to pull up these individual.
+Speaker C: Right.
+Speaker C: So I mean, what I would, I was interested in this having, having time marks for the beginnings and ends of speech by each speaker.
+Speaker C: Oh, that's definitely probably because we could use that to find you in our alignment process to make it more accurate.
+Speaker C: Battery.
+Speaker C: So I don't care that, you know, there's actually a budding segments that we have to join together.
+Speaker C: That's fine.
+Speaker C: Okay.
+Speaker C: So I think that's the reason why I think that the beginnings and ends are actually
+Speaker F: close to the speech inside of that.
+Speaker C: Yeah. I think Jane tightened these up by hand.
+Speaker C: Okay.
+Speaker H: So what is the sort of how tight are they?
+Speaker H: Next good.
+Speaker H: They were reasonably tight, but not excruciatingly tight.
+Speaker H: That would have taken more time.
+Speaker C: No, no, I don't actually have like, yeah, that's fine because we don't want to, that's perfectly fine.
+Speaker C: In fact, it's good.
+Speaker C: I always want to have a little bit of pause or non-speech around the speech, say, for recognition purposes.
+Speaker C: But just, you know, again, I just want to have an idea of how much extra you allow so that I can interpret the numbers if I compare that with a forced alignment segmentation.
+Speaker H: I can't answer that, but my main goal was in these areas where you have a three-way overlap and one of the overlaps involved, yeah.
+Speaker H: And it's swimming in this huge bin.
+Speaker H: I wanted to get it so that it was closely localized.
+Speaker C: But are we talking about, I don't know, 10th of a second, you know, how much extra would you allow?
+Speaker H: I wanted to be able to be heard normally so that if you play back that bin and have it in the mode where it stops at the boundary, it sounds like a normal word.
+Speaker H: It doesn't sound like the person, it sounds normal.
+Speaker H: It's as if the person could have stopped there.
+Speaker H: Okay.
+Speaker H: And it wouldn't have been an awkward place to stop.
+Speaker H: Now sometimes, you know, these are involved in places where there was no time.
+Speaker H: And so there wouldn't be a gap afterwards because, I mean, in some cases, there are some people who have very long segments of discourse where, you know, they'll breathe and then I put a break.
+Speaker H: But other than that, it's really pretty continuous.
+Speaker H: This includes things like going from one sentence into the next one sentence into the next without really stopping.
+Speaker H: You know, in writing, you have this two spaces in a big gap, you know.
+Speaker H: But some people are planning and, you know, we always are planning what we're going to say next.
+Speaker H: But in which case, the gap between these two complete syntactic units, which of course spoken things are not always complete syntactically, but it would be a shorter break than maybe you might like.
+Speaker H: But the goal there was to not have the text be so crudely parsed in a time bin.
+Speaker H: I mean, because from a discourse purpose, it's more useful to be able to see.
+Speaker H: And also, you know, from a speech recognition purpose, my impression is that if you have too long a unit, it doesn't help you very much either because of the memory.
+Speaker H: That's why.
+Speaker H: So, that means that the amount of time after something is variable depending partly on context, but my general goal, when there was sufficient space room pause after it to have it be kind of a natural feeling gap, which I don't know what it would be quantified as.
+Speaker H: You know, well, the chase says that in producing narratives, the spurts that people use tend to be, what would be a pause might be something like two seconds.
+Speaker H: And that would be one speaker.
+Speaker H: The discourse, the people who look at turn-taking often do use, I was interested that you chose the, you know, the use, because I think that would be more consistent with sociolanguistics.
+Speaker C: Or we chose, you know, half a second because if you go much larger, you have, you know, your statement about how much overlap there is becomes less precise because you include more of actual pause time into what you consider overlap speech.
+Speaker C: So it's sort of a compromise.
+Speaker C: And it's also based, I mean, Liz suggested that value based on the distribution of pause times that you see in switchboard and other corpora.
+Speaker G: So yeah, I also used, I think, something around 0.5 seconds for the speech-man speech detector for minimum silence length.
+Speaker G: I see.
+Speaker G: So.
+Speaker H: Okay.
+Speaker H: In any case, this meeting that I hand, I handed just to two of them I mentioned before.
+Speaker H: Okay.
+Speaker C: And I sent email.
+Speaker C: At some point we will try to find you in our first alignment, maybe using those as references because, you know, what you would do is you would play with different parameters and to get an objective, you need an objective measure of how closely you can align the models to the actual speech.
+Speaker C: And that's where your data would be very important to have.
+Speaker C: So.
+Speaker G: And hopefully the new meetings which will start from the channelized version will have better time boundaries and alignments.
+Speaker C: Right.
+Speaker H: But I'd like this idea of, for our purposes, for the IBM preparation, having these joined together and it makes a lot of sense.
+Speaker H: And in terms of transcription, it would be easy to do it that way, the way that they have, with the longer units, not having to fuss with adding these things.
+Speaker G: Which could have one draw back if there is a back channel in between those three things, the back channel will occur at the end of those three and in the previous version which is used now, the back channel would be in between there somewhere.
+Speaker G: So that would be more natural.
+Speaker H: That's right.
+Speaker H: But you know, this brings me to the other stage of this which I discussed with you earlier today, which is the second stage is what to do in terms of the transcribers adjustment of these data.
+Speaker H: I discussed this with you.
+Speaker H: So the idea initially was we would get for the new meetings.
+Speaker H: So the E.D.U meetings that Tilo has now pre-segmented all of them for us on a channel by channel bases.
+Speaker H: And so I've assigned them to our transcribers and so far I've discussed it with one.
+Speaker H: And I had about an hour discussion with her about this yesterday.
+Speaker H: We went through E.D.U.
+Speaker H: One at some extent.
+Speaker H: And it occurred to me that basically what we have in this kind of a format is you could consider it as a staggered mixed file.
+Speaker H: We had some discussion over the weekend about at this other meeting that we were all at about whether the IBM transcribers should hear a single channel audio or a mixed channel audio.
+Speaker H: And in a way, by having this chunk and then the back channel after it, it's like a staggered mixed channel.
+Speaker H: The maximal gain from the IBM people may be in long stretches of connected speech.
+Speaker H: So it's basically a whole bunch of words which they can really do because of the continuity within that person's turn.
+Speaker H: So what I'm thinking, and it may be that not all meetings will be good for this, but what I'm thinking is that in the E.D.U meetings they tend to be driven by a couple of dominant speakers.
+Speaker H: And if the chunked files focused on the dominant speakers, then when it got patched together when it comes back from IBM, we can add the back channels.
+Speaker H: It seems to me that, you know, back channels per se wouldn't be so hard, but then there's this question of the time marking and whether the beeps would be, and I'm not exactly sure how that would work with the back channels.
+Speaker H: And certainly things that are intrusions of multiple words taken out of context and displaced in time from where they occurred, that would be hard.
+Speaker H: So my thought is, I'm having this transcriber go through the E.D.U. one meeting and indicate a start time for each dominant speaker and time for each dominant speaker and the idea that these units would be generated for the dominant speakers and maybe not for the other channels.
+Speaker E: The only disadvantage of that is then it's hard to use an automatic method to do that.
+Speaker E: The advantage is that it's probably faster to do that than it is to use the automated method and correct it.
+Speaker H: Well, I think the original plan was that the transcriber would adjust to the boundaries and all that for all the channels, but you know, that is so time consuming.
+Speaker H: And since we have a bottleneck here, we want to get IBM things that are usable as soon as possible, then the scene would be a way to get them a flood of data, which would be useful when it comes back to us.
+Speaker H: And also at the same time, when she goes through this, she'll be, if there's anything that was encoded as a pause but really has something transcribable in it, then she's going to make a mark.
+Speaker H: So that bin would be marked as double dots and she'll just add an S. And in the other case, if it's marked as speech and really there's nothing transcribable in it, then she's going to put a dash and I'll go through it and you know, with a substitution command, get it so that it's clear that those are the other category.
+Speaker H: I'll just, you know, re-code them.
+Speaker H: But the transcribable events that I'm considering in this continue to be left as well as speech and cough and things like that, so I'm not stripping at anything just, you know, being very lenient in what's considered speech.
+Speaker F: So Jane, in terms of the new procedure suggesting, what is the, so I'm a little confused because how do we know where to put beeps?
+Speaker H: Okay, so what it involves is really the original procedure, but only applied to a certain strategically chosen aspect of the data.
+Speaker E: We pick the easy parts of the data basically and transcribable marks it by hand.
+Speaker E: But after we've done T-Los thing.
+Speaker E: No.
+Speaker E: Yes.
+Speaker E: Oh, after.
+Speaker E: Okay, I didn't understand that.
+Speaker G: Okay.
+Speaker G: So I'm, no, I'm confused.
+Speaker H: Okay, we start with your pre-segmented version.
+Speaker E: Okay, leave the mics on and just put them on the table.
+Speaker E: Okay.
+Speaker B: Thanks.
+Speaker H: We start with the pre-segmented version.
+Speaker G: You start with the pre-segmentation.
+Speaker H: And then the transcriber, instead of going painstakingly through all the channels and moving the boundaries around and deciding if it's speech or not, but not transcribing anything.
+Speaker H: Okay, instead of doing that, which was our original plan, they just do that on the main channel.
+Speaker H: Yeah, so what they do is they identify who's the dominant speaker and when the speaker starts.
+Speaker G: Okay.
+Speaker H: So, I mean, you're still going to, so based on your pre-segmentation, that's the basic
+Speaker G: thing. And you just use the segments of the dominant speaker then for sending to IBM or.
+Speaker F: Exactly.
+Speaker F: So now Jane, my question is, when they're all done adjusting the time boundaries for the dominant speaker, have they then also erased the time boundaries for the other ones?
+Speaker F: No, no, no.
+Speaker F: So how will we know who?
+Speaker H: That's why she's notating the start and end points of the dominant speakers.
+Speaker H: So in EDU1, as far as I listen to it, you start off with a section by Jerry.
+Speaker H: So Jerry starts at minute, so and so, and goes until minute, so and so.
+Speaker H: And then Mark Pascon comes in and he starts at minute, such and such and goes until minute, so and so.
+Speaker H: Okay.
+Speaker H: And then meanwhile, she's listening to both of these guys' channels, determining if there are any cases of misclassification of speech as nothing and nothing in speech.
+Speaker H: Okay.
+Speaker H: Just the adjustments on those guys.
+Speaker H: But you know, I wanted to say, his segmentation is so good that the part that I listened to with her yesterday didn't need any adjustments to the bins so far we haven't.
+Speaker H: So this is not going to be a major part of the process.
+Speaker F: So if you don't have to adjust the bins, why not just do it for all the channels?
+Speaker F: Why not just throw all the channels to IBM?
+Speaker H: Well, there's the question of whether, well, okay, it's a question of how much time we want our transcriber to invest here when she's going to have to invest that when it comes back from IBM anyway.
+Speaker H: So if it's only inserting mums here and there, then wouldn't that be something that would be just as efficient to do at this end instead of having it go through IBM then be patched together then be double checked here.
+Speaker G: But then we could just use the output of the detector and do the beeping on it and send
+Speaker F: it to IBM without having to check anything.
+Speaker H: Well, I guess for some meetings, I'm sure it wouldn't see how good they are. I'm open to that.
+Speaker H: Yes, it's working well.
+Speaker G: It's on some meetings, it's good.
+Speaker H: I mean, we have to fix it when it comes back.
+Speaker H: You were saying that they differ in how well they work depending on channels to systems.
+Speaker G: We should perhaps just select meetings on which the speech non speech detection works well and just use those meetings to send to IBM and do the analysis.
+Speaker D: So I forget, it's from the little town of the water.
+Speaker G: It really depends.
+Speaker G: My impression is that it's better for meetings with fewer speakers and it's better for meetings than nobody is breathing.
+Speaker D: Yeah, that's it.
+Speaker F: So in fact, this might suggest an alternative sort of a hybrid between these two things.
+Speaker F: So the one suggestion is we run T-Lose thing and then we have somebody go and adjust all the time boundaries and we send it to IBM.
+Speaker F: The other one is we just run his thing and send it to IBM.
+Speaker F: There's another possibility if we find that there are some problems and that is we go ahead and we just run his and we generate the beeps file, then we have somebody listen to the beeps file and they write each section and say yes, no, whether that section is intelligible or not.
+Speaker F: It's just a little interface which for all the yeses, then that will be the final.
+Speaker H: It's interesting because that's directly related to the N-Task.
+Speaker F: Stress test.
+Speaker F: I mean, it wouldn't be that much fun for a transcriber to sit there, hear it, yes or no, but it would be quick.
+Speaker D: It would be kind of quick but they're still listening to everything.
+Speaker F: But there's no adjusting and that's what's slow.
+Speaker F: There's no adjusting of time boundaries.
+Speaker D: Well, this thing's just take time too.
+Speaker D: Yeah.
+Speaker D: I don't know.
+Speaker A: I really have to answer your thoughts.
+Speaker D: I mean, what's the worst that happens to transcribers?
+Speaker D: I mean, as long as on the other end they can say there's something.
+Speaker D: It's not a convention so they say, huh?
+Speaker D: Right.
+Speaker F: If I go I was later.
+Speaker F: That's true.
+Speaker F: We can just catch it, catch everything at this side.
+Speaker F: Maybe that's the best way to go.
+Speaker F: Just interesting.
+Speaker F: I mean, it just depends on how.
+Speaker F: Yeah.
+Speaker H: So I was going to say E-DU1 is good enough.
+Speaker H: Maybe we could include it in this set of this stuff we send.
+Speaker G: Yeah, I think there are some meetings we're with.
+Speaker E: I think it's possible like this.
+Speaker E: Until we generate a bunch of beeps files automatically.
+Speaker E: Yeah.
+Speaker F: We won't be able to include it with this first thing because there's a part of the process of the beep file which requires knowing the normalization coefficients.
+Speaker F: Oh, see.
+Speaker E: It's hard to do.
+Speaker E: It just takes five minutes rather than taking a second.
+Speaker E: Right.
+Speaker F: Except I don't think that the instructions for doing that was in that directory, right?
+Speaker F: I didn't see where you had generous easy messages.
+Speaker G: Doing the game that's no problem.
+Speaker F: Adjusting the game?
+Speaker F: Getting the coefficients for each channel.
+Speaker E: Yeah, that's no problem.
+Speaker E: Okay.
+Speaker E: So we just run that one.
+Speaker E: I have one program that I do it.
+Speaker E: You can find it.
+Speaker F: I do.
+Speaker F: And that J sounds that.
+Speaker D: Yep.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker D: Okay.
+Speaker D: I have a suggestion on that which is since really what this is is is trying to in the large send the right thing to them and there is going to be this post bus synced up.
+Speaker D: Why don't we check through a bunch of things by sampling it?
+Speaker D: Right.
+Speaker D: And other than saying we're going to listen to everything.
+Speaker E: I didn't mean listen to everything.
+Speaker D: So you do much to see if there is a little bit here in there.
+Speaker D: Yeah.
+Speaker D: It sounds like it's almost always right.
+Speaker D: There's not any big problem.
+Speaker D: You send it to him.
+Speaker D: Okay.
+Speaker D: And then they'll send us back with what they send back to us and we'll fix things up.
+Speaker D: Which is.
+Speaker D: We should.
+Speaker E: We should just double check with Brian on a few simple conventions on how they should mark things.
+Speaker F: When they when there's either no speech in there or something they don't understand things like that.
+Speaker E: Because what I had originally said to Brian was well they'll have to mark when they can't distinguish between the foreground and background.
+Speaker E: Because I thought that was going to be the most prevalent.
+Speaker E: But if we send them without editing then we're also going to have to have a notations forwards that are cut off.
+Speaker E: Yeah.
+Speaker E: And other sorts of acoustic problems.
+Speaker F: And they may just guess at what those cut off words are.
+Speaker F: But I mean we're going to adjust.
+Speaker F: But everything.
+Speaker E: But we would like them to do is be conservative so that they should only write down the transcript if they're sure.
+Speaker E: And otherwise they should mark it to a check.
+Speaker G: Yep.
+Speaker H: Well we have the unintelligibility convention.
+Speaker H: And actually they have one also.
+Speaker A: Brian.
+Speaker D: Maybe have an order of probably in the paper that I have not got my name.
+Speaker D: An order magnitude notion of how on a good meeting how often do you get segments that come into work and so forth.
+Speaker D: And then they're badly often.
+Speaker D: And what is the good meeting?
+Speaker D: The E.D.U meeting was a good meeting.
+Speaker D: Yeah.
+Speaker D: It was almost always doing the right thing.
+Speaker D: So I wanted to get some sense of what almost always meant.
+Speaker D: And then in a bad meeting or some meetings where he said he's had some problems.
+Speaker D: What does that mean?
+Speaker D: So does it mean one percent, ten percent?
+Speaker D: Does it mean five percent, fifty percent?
+Speaker G: So the number I gave in the paper is just some frame error rate so that's not really what will be effective for the transcribuses.
+Speaker G: They have to ensure that that's a real support or something.
+Speaker G: But the number is oops.
+Speaker G: So the speech, the amount of speech that is missed by the detector for a good meeting is around or under one percent I would say.
+Speaker G: But that can be more amount of speech, a more amount of the detector says there is speech but it's not.
+Speaker G: So that can be a lot when it's really a breathy channel.
+Speaker D: But I think that's less of a problem.
+Speaker D: And that's for good meeting.
+Speaker D: What about in a meeting that you said you had some more trouble with?
+Speaker G: I can't really, I don't have really representative numbers I think.
+Speaker G: I did this on four meetings and only five minutes of every meeting, of these meetings.
+Speaker G: So it's not that representative but it's perhaps.
+Speaker G: Yeah, it's perhaps then it's perhaps five percent or something which the speech frames which I missed but I can't really tell.
+Speaker D: So sometimes when I want to go back and look at it more in terms of how many times is there a spurt that's interrupted?
+Speaker H: The other problem is when it went on the breathy ones where you get breathing indicated a speech.
+Speaker H: And I guess we could just indicate to the transgarbers not to encode that if they still do the B file.
+Speaker D: That is probably less of a problem because if there's, if a word is split then they might have to listen to a few times to really understand it.
+Speaker D: I think that's really, it doesn't happen very often that the various cut in the middle or something that's really not normal.
+Speaker D: So what you're saying is that nearly always what happens when there's a problem is that there's some non-speech that there's marker speech.
+Speaker D: Well then we really should just send this stuff.
+Speaker D: That doesn't do any harm.
+Speaker D: They say here dog bark and they say what was the word?
+Speaker G: Yeah, I also thought of there are really some channels where it is almost only breathing in it and to reruns.
+Speaker G: I've got a method that looks into the cross correlation with the PCM mic and then to reject everything which seems to be breath.
+Speaker G: So I could run this on those pressy channels and perhaps throughout.
+Speaker D: Yeah, I think that would be good.
+Speaker D: I think none of this stuff is really something that these are.
+Speaker H: I'd be delighted with that.
+Speaker H: I was very impressed with the result.
+Speaker D: Yeah, the thing I was concerned about was that seemed kind of specialized to the media meeting and that meeting like this or something.
+Speaker D: Oh yeah, a bunch of different governments, speakers and how do you handle it?
+Speaker D: Oh yeah.
+Speaker H: I'm much prefer this. I was just trying to find a way because I don't think the staggered mix channel is awfully good as a way of handling overlaps.
+Speaker F: Well good. That really simplifies saying that.
+Speaker F: We can just get the meeting, process it, put the beeps file, send it off to IBM.
+Speaker G: We have very little work on our processes here in Trit.
+Speaker G: Listen to it and then sample it.
+Speaker F: Yeah, that would be very good.
+Speaker F: And then we can, you know, that'll be a good way to get the pipeline going.
+Speaker G: And there's one point which I, which I recalculate when I listen to one of the new meetings and that somebody is playing sound from his laptop.
+Speaker G: And the speech non-speech detector just assigns randomly the speech to one of the channels.
+Speaker G: So I didn't think of this before, but what shall we do about things like this?
+Speaker H: You suggested maybe just not sending that part of the meeting.
+Speaker G: But sometimes the laptop is in the background and somebody is talking and that's really a little bit confusing.
+Speaker G: It's a little bit confusing.
+Speaker E: Even a hand transcription with a hand transcriber would have trouble.
+Speaker G: Yeah, that's a second question. What will the transcribers do with the laptop sound?
+Speaker D: What was the laptop sound?
+Speaker G: Was it speech?
+Speaker H: So my standard approach has been if it's not someone close-miked, then they don't end up on one of the close-mike channels.
+Speaker H: They end up on a different channel.
+Speaker H: And we have any number of channels available.
+Speaker G: When this is sent to the IBM transcribers, I don't know if they can tell that's really...
+Speaker E: Yeah, because there will be no channel on the sheet.
+Speaker H: Well, they have a convention in their own procedures, which is for a background sound.
+Speaker E: Right, but in general, I don't think we want them transcribing the background because that would be too much work.
+Speaker E: Right, because in the overlap sections.
+Speaker F: Well, I don't think Jane's saying they're going to transcribe it, but they'll just mark it as being...
+Speaker E: There's some background stuff that's going to be right over the place.
+Speaker E: How will they tell the difference between that sort of background and the normal background of two people talking at once?
+Speaker H: Oh, I think it could be easy to say background laptop.
+Speaker F: Why would they treat them differently?
+Speaker E: Well, because otherwise it's going to be too much work for them to market.
+Speaker H: They'll be marketing it all over the place.
+Speaker H: Oh, background laptop or background LT wouldn't take any time.
+Speaker E: Sure, but how are they going to tell the difference between that and two people just talking at once?
+Speaker H: Oh, you can tell acoustically. Can't you tell?
+Speaker G: It's really good sound, so...
+Speaker H: Oh, is it?
+Speaker D: Well, isn't there a category something like sounds for someone for whom there is no close-mike?
+Speaker G: Yeah, that would be very important.
+Speaker E: How do we do that for the IBM folks?
+Speaker E: How can they tell that?
+Speaker F: Well, we may just have to do it when it gets back here.
+Speaker F: Yes, that's my opinion as well.
+Speaker E: Okay, that sounds good.
+Speaker E: And they'll just mark it however they mark it.
+Speaker E: So it'll correct it when it gets back.
+Speaker G: That is a category for...
+Speaker G: Yes, that's a problem.
+Speaker H: Well, as it comes back, when we have a...
+Speaker H: When we can use the channelized interface for coding it, then it'll be easy for us to handle.
+Speaker H: But if out of context they can't tell if it's a channeled speaker...
+Speaker H: When a close-mike speaker or not, then that would be confusing to them.
+Speaker H: Right.
+None: Okay.
+Speaker H: I don't know. I don't...
+Speaker H: Either way, it'd be fine with me, I don't really care.
+Speaker D: So, can we...
+Speaker D: You did it, get out of here?
+Speaker H: Yeah.
+Speaker H: I have one question.
+Speaker H: Do you think we should send that whole meeting to them and not worry about preprocessing it?
+Speaker H: Or...
+Speaker H: What I mean is, we should leave the part with the audio in the...
+Speaker H: Beap file that we send to IBM for that one, or should we start after the...
+Speaker H: That part of the meeting is over.
+Speaker H: And what we send...
+Speaker H: What?
+Speaker H: So the part where they're using sounds from their...
+Speaker H: From their laptop.
+Speaker G: With the laptops on for...
+None: Just...
+Speaker H: Have speech from the laptop.
+Speaker H: Should we just...
+Speaker H: Exercise that from what we send to IBM, or should we...
+Speaker H: Give it to them and let them do what they can.
+Speaker F: I think we should just...
+Speaker F: It's going to be too much work if we have to worry about that, I think.
+Speaker F: Yeah, I think if we just send it all to them, you know.
+Speaker F: Good.
+Speaker F: Let's see how it works.
+Speaker H: Yeah, and worry about it when we get back in.
+Speaker H: And give them freedom to indicate if it's just not workable.
+Speaker D: Yeah.
+Speaker D: Okay, excellent.
+Speaker D: Don't you lose mind having that.
+Speaker D: I think that's right.
+Speaker E: Yeah, we'll just have to listen to it and see how well it is.
+Speaker E: Okay.
+Speaker G: Sample it right there.
+Speaker G: Yeah.
+Speaker G: I think that will be a little bit of a problem, us.
+Speaker G: It really switches around between two different channels, I think.
+Speaker E: And they're very...
+Speaker E: It's very audible on the closed talking channels.
+Speaker G: Yeah.
+Speaker E: Oh well.
+Speaker E: Yeah, that's the same problem as the lapel mic.
+Speaker G: Yeah.
+Speaker H: Oh, interesting.
+Speaker G: Comparable, real.
+Speaker H: Okay, good.
+Speaker H: Digits.
+Speaker H: Okay, so we read the transcript number first.
+Speaker E: So we're going to do it all together separately.
+Speaker G: What time is it?
+Speaker G: Ah, why do we go together?
+Speaker D: Okay.
+Speaker D: That's what we do.
+Speaker D: One, two, three, go.
+Speaker D: Transcript.
+Speaker D: Transcript.
+Speaker G: All 58.
+Speaker F: 546.
+Speaker F: 437.
+Speaker F: 827.
+Speaker F: 948.
+Speaker F: 448.
+Speaker F: 498.
+Speaker F: 1, 2, 8.
+Speaker F: 922.
+Speaker F: 490.
+Speaker F: 422.
+Speaker F: 970.
+Speaker G: 970.
+Speaker A: 970.
+Speaker G: 970.
+Speaker G: 970.
+Speaker G: 970.
+Speaker G: 970.
+Speaker G: 970.
+Speaker G: 970.
+Speaker F: 970.
+Speaker F: 970.
+Speaker F: 970.
+Speaker F: 980.
+Speaker G: 970.
+Speaker A: 926.
+Speaker A: 5886.
+Speaker A: 6123.
+Speaker A: 324.
+Speaker A: 170.
+Speaker A: 517.
+Speaker A: 417.
+Speaker H: Okay, it's going to be interesting if there are any more errors in these.
+Speaker H: Yeah, they're really pretty low.
+Speaker F: You guys plug your errors when you do it?
+Speaker F: I do.
+Speaker F: Nope.
+Speaker F: I usually do it.
+Speaker F: I don't.
+Speaker F: You don't?
+Speaker F: Nope.
+Speaker F: How can you do that?
+Speaker G: I have so many errors in it, but I- You hate to have your eyes plugged?
+Speaker A: Really?

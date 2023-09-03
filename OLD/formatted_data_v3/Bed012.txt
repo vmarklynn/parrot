@@ -1,0 +1,629 @@
+None: Hello.
+Speaker B: I just put it to the back and to the front.
+Speaker B: It is, but it doesn't sit on the seat. I just put it to the back and to the front.
+Speaker B: Is it picking me up? I should be five.
+Speaker B: Hello. Test in.
+Speaker B: Tested enough? Oh, I'm a testing machine.
+Speaker C: I guess this is more or less known to get you up to day, Jono.
+Speaker C: This is what is a meeting for me.
+Speaker B: Did you add more stuff to it? Why? I don't know.
+Speaker B: There were notes in the middle.
+Speaker C: This is, so we thought that we can write up an element for each of the situation.
+Speaker C: We observed it in the base. What is the situation like at the entity that is mentioned?
+Speaker C: It is a stable. It is a forth going all the way through parking, location hotel, car, restroom, riots, fair strikes or disasters.
+Speaker B: This is a situation where all the things can be happening right now.
+Speaker B: Or what is the situation type?
+Speaker C: That is just specifying the input for the...
+Speaker B: Why are you specifying an XML?
+Speaker C: It forces us to be specific about the values here.
+Speaker C: This is what the input is going to be.
+Speaker B: This is a schema.
+Speaker B: Jono, this is what JavaBase takes.
+Speaker C: We are sure going to interface to get an XML document from somewhere.
+Speaker C: That XML document will say we were able to observe that the element of the location that the car is near.
+Speaker B: This is a situation context. Is that what the situation is for?
+Speaker C: This is just an XML document which defines a set of possible permissible XML structures which we view as input into the basenet.
+Speaker B: We can possibly run one of them transformations to put in the JavaBase or whatever it wants.
+Speaker C: Are you talking about the structure?
+Speaker C: When you observe a node...
+Speaker B: When you say the input to the JavaBase, it takes a certain format.
+Speaker B: Which I don't think is this. Although I don't know.
+Speaker C: No, it is certainly not this.
+Speaker B: You can just run a XML.
+Speaker B: Yeah, you can run it into the JavaBase format.
+Speaker C: That's no problem.
+Speaker C: I even think that once you have this running as a module, what you want is you want to say, give me the posterior probabilities of the go there, note when this is happening.
+Speaker C: The person said this, the car is there, it's raining and this is happening.
+Speaker C: With this you can specify what's happening in the situation and what's happening with the user.
+Speaker C: After we've done through the situation, we get the user vector.
+Speaker B: So this is...
+Speaker B: So this is just a specification of all the possible inputs.
+Speaker C: And all the possible outputs too.
+Speaker C: So we have, for example, the go there decision node, which has two elements going there, and it's posterior probability and not going there, and it's posterior probability.
+Speaker C: Because the output is always going to be all the decision notes and all the...
+Speaker C: all the posterior probabilities for all the values.
+Speaker B: And then we just look at the struct that we want to look at in terms of...
+Speaker B: we're only asking about one of the...
+Speaker B: So like, if I'm just interested in the going there node, I would just pull that information out of the struct that gets returned, that Java Bayes would output.
+Speaker C: Pretty much yes, but I think it's a little bit more complex.
+Speaker C: If I understand correctly, it always gives you all the posterior probabilities for all the values of all the decision notes.
+Speaker C: So when we input something, we always get the posterior probabilities for all of these.
+Speaker C: So there's no way of telling it not to tell us about the eva values.
+Speaker B: Yeah, okay, that's...
+Speaker C: Yeah, you're right.
+Speaker C: So we get this whole list of things, and the question is, what to do with it?
+Speaker C: What to hand on?
+Speaker C: How to interpret it, in a sense?
+Speaker C: So you said, if I'm only interested in whether he wants to go there or not, then I'd just look at that node...
+Speaker C: Look at that struct in the output, right?
+Speaker C: Yeah.
+Speaker C: Look at that struct in the output, even though I wouldn't call it a struct, but...
+Speaker B: Well, it's an XML structure that's being returned, right?
+Speaker C: So every part of the structure is a struct?
+Speaker B: Yeah, I just abbreviated it to struct in my head, starting going with that.
+Speaker C: That element or struct?
+Speaker C: Not a C struct.
+Speaker B: That's not what I was talking about.
+Speaker C: Yeah.
+Speaker C: Okay.
+Speaker C: And the reason is, I think it's a little bit more complex, so we can even think about it as an interesting problem in and of itself, is...
+Speaker C: So the...
+Speaker C: Let's look at an example.
+Speaker B: Well, we're going to just take the structure that's outputted, and then run another transformation on it that would just dump the one that we wanted out.
+Speaker C: Yeah, we'd need to prune, right?
+Speaker C: Throw things away.
+Speaker B: Well, actually, you don't even need to do that with XML.
+Speaker B: Can't you just look at one specific...
+Speaker B: Yeah, exactly.
+Speaker C: The...
+Speaker C: Circus allows you to say, just give me the value of that and that, and that.
+Speaker C: But we don't really know what we're interested in before we look at the complete, at the overall result.
+Speaker C: So the person said, um...
+Speaker C: Where is x?
+Speaker C: And so, we want to know, um, is...
+Speaker C: does he want info on this, or know the location, or does he want to go there?
+Speaker C: Let's assume this is our question.
+Speaker C: Sure.
+Speaker C: So...
+Speaker C: Um...
+Speaker C: Let's do this in parallel.
+None: So we get...
+Speaker C: So we get...
+Speaker C: Okay.
+Speaker C: Let's assume this is the output.
+Speaker C: So we should be able to conclude from that that, I mean, it's always going to give us a value of how likely we think it is that he wants to go there and does want to go there.
+Speaker C: Or how likely it is that he wants to get information, but maybe should just reverse this to make it a little bit more delicate.
+Speaker C: So does he want to know where it is, or does he want to go there?
+Speaker B: He wants to know where it is.
+Speaker C: Right.
+Speaker C: I tend to agree.
+Speaker C: And if it's...
+Speaker C: Well, I mean, you mean...
+Speaker C: If there's sort of a clear winner here, and this is pretty...
+Speaker C: indifferent, then we might conclude that he actually wants to just know where...
+Speaker C: He does want to go there.
+Speaker B: And I curiously, is there a reason why we wouldn't combine these three nodes into one smaller subnet that would just basically be the question for...
+Speaker B: We have where as x is the question, right?
+Speaker B: That would just be info on a location based upon...
+Speaker C: Or go there.
+Speaker C: A lot of people ask that if they actually just want to go there.
+Speaker C: People come up to you on campus and say, well, it's the library.
+Speaker C: You're going to say, go down that way.
+Speaker C: You're not going to say it's 500 yards away from you, or it's north of you, or...
+Speaker B: Well, I mean, so you just have three decisions for the final node that would link these three nodes in the...
+Speaker B: in the...
+Speaker B: Not together.
+Speaker C: I don't know what to understand, but you mean...
+Speaker C: But again, in this given this input, we also, in some situations, may want to postulate an opinion with a person who wants to go there now, the nicest way, use a cab, wants to know where it is because he wants something fixed there because he wants to visit it, or whatever.
+Speaker C: So all I'm saying is, whatever our input is, we're always going to get the full output.
+Speaker C: And some things will always be sort of...
+Speaker C: too not significant enough.
+Speaker B: Or it'll be tight.
+Speaker B: It'll be hard inside.
+Speaker B: But I guess the thing is...
+Speaker B: This is another smaller case of reasoning in the case of uncertainty, which makes me think, Bayesnet should be the way to solve these things.
+Speaker B: So if you had, for every construction, right?
+Speaker B: Oh.
+Speaker B: You could say, well, here's the where is construction.
+Speaker B: And for the where is construction, we know we need to look at this node that merges these three things together as for to decide the response.
+Speaker B: And since we have a finite number of constructions that we can deal with, we can have a finite number of nodes.
+Speaker C: Okay.
+Speaker B: So if we had to deal with arbitrary language, it wouldn't make any sense to do that because there'd be no way to generate the nodes for every possible sentence.
+Speaker B: But since we can only deal with a finite amount of stuff.
+Speaker C: So basically, the idea is to feed the output of that, believe in it, into another belief net.
+Speaker B: Yeah. So basically, take these three things and then put them into another belief net.
+Speaker C: But why only those three?
+Speaker C: Well, I mean, for the where is question.
+Speaker B: So we'd have a node for the where is question.
+Speaker C: Yeah. But we believe that all the decision nodes can be relevant for the where is.
+Speaker C: And how do I get to, or do I tell you something about?
+None: You can come in if you want.
+Speaker B: Is Putin online here?
+None: Yes, it is allowed.
+Speaker B: Is that actually you're not wearing your headphones?
+None: All right, just say I'll be back.
+Speaker B: Well, I see, I don't know if this is a good idea or not.
+Speaker B: I'm just throwing it out.
+Speaker B: But it seems like we could have, I mean, we could put all of the information that could possibly be relevant into the where is node answer.
+Speaker B: Node thing stuff.
+Speaker B: And, okay.
+Speaker C: I mean, let's not forget we're going to get some very strong input from these, from these discourse things, right?
+Speaker C: So tell me the location of X.
+Speaker C: Or where is X located?
+Speaker B: Wait.
+Speaker B: Yeah, I know, but the base net would be able to, the way that's on the, on the nodes in the base net would be able to deal with that, wouldn't it?
+Speaker B: Here's a, oh, I'll wait until you're plugged in.
+Speaker B: Oh, don't sit there. Sit here.
+Speaker B: You know how you don't like that one.
+Speaker A: It's okay.
+Speaker B: That's the weird one.
+Speaker B: That's someone that's painful.
+Speaker B: It hurts.
+Speaker B: You're so bad.
+Speaker B: I'm happy that they're recording that.
+Speaker B: That headphone.
+Speaker B: The headphone that you have to put on backwards with the little thing, and a little, a little phone block on it.
+Speaker B: It's a painful, painful microphone.
+Speaker C: I think it's called the crown.
+Speaker C: The crown.
+Speaker C: Yeah.
+Speaker C: It was just the Sony.
+Speaker A: The crown?
+Speaker A: Is that the actual name?
+Speaker A: Mm-hmm.
+Speaker B: The manufacturer.
+Speaker B: I don't see a manufacturer on it.
+Speaker B: Oh, here it is.
+Speaker B: This thingy.
+Speaker B: Yeah, it's the crown.
+Speaker B: The crown of pain.
+Speaker B: You're on that?
+Speaker B: Are you, are you my, is your mic on?
+Speaker B: Okay.
+Speaker B: So you've been working with these guys, you know what's going on.
+Speaker B: Yes, I have.
+Speaker B: I do.
+Speaker A: No, I do.
+Speaker A: It's a lot.
+Speaker A: So where are we?
+Speaker C: We're discussing this.
+Speaker A: I don't think you can handle French.
+Speaker C: So, we have something coming in.
+Speaker C: Person says where is X, and we get a certain, we have a situation vector, and a user vector, and everything is fine.
+Speaker C: And, and, and, and, and, or.
+Speaker B: Did you just take the microphone actually in the T?
+Speaker B: You know what?
+Speaker A: And, I'm not drinking tea, what are you talking about?
+Speaker C: Oh, yeah, sorry.
+Speaker C: Let's just assume our base net just has three decision notes for the time being.
+Speaker C: These three, he wants to know something about it.
+Speaker C: He wants to know where it is, he wants to go there.
+Speaker B: In terms of these would be how we would answer the question where is, right?
+Speaker B: We, this is, this is what he's, it seemed like he explained it to me earlier.
+Speaker B: We were, we want to know how to answer the question where is X.
+Speaker C: No, I can, I can do the timing note in here too, and say okay.
+Speaker B: Well, yeah, but in this, let's just deal with the simple case of, we're not worrying about timing or anything.
+Speaker B: We just want to know how we should answer where is X.
+Speaker B: Okay.
+Speaker C: And, um, okay, and go there has two values, right?
+Speaker C: Go there and not go there.
+Speaker C: Let's assume those are the posterior probabilities of that.
+Speaker C: InfoOn has two false and location.
+Speaker C: So he wants to know something about it, and he wants to know something, he wants to know where it is, has these values.
+Speaker C: And, um, Oh, I see why we can't do that.
+Speaker C: And, um, in this case, we would probably all agree that he wants to go there.
+Speaker C: I'll believe that things he wants to go there, right?
+Speaker C: In the, whatever, if we have something like this here, and this, like that, and maybe here also some,
+Speaker A: should probably make them happen. Yeah.
+Speaker C: Something like that.
+Speaker C: Then we would guess, aha, he, our belief net has stronger beliefs that he wants to know where it is, then actually wants to go there.
+Speaker C: Right?
+Speaker B: The, the, this is assumed though that they're evenly weighted.
+Speaker B: Like, I guess they are evenly weighted.
+Speaker A: The different decision nodes, you mean?
+Speaker B: Yeah, they go there, the info on the location.
+Speaker A: Well, yeah, this is making the assumption.
+Speaker A: Yes.
+Speaker C: I mean, by differently weighted, they don't fit into anything really anymore.
+Speaker A: Or I mean, why do we, if we trusted the go there node more, much more than we trusted the other ones, then we would conclude even in the situation that he wanted to go there.
+Speaker A: So in that sense, we weighed them equally.
+Speaker A: Okay.
+Speaker A: Makes sense.
+Speaker B: So the, but I guess the, the question that I was at, or wondering, or maybe Robert was proposing to me, is how do we make the decision on as to which one to listen to?
+Speaker A: Yeah, so the final decision is the combination of these three.
+Speaker A: So again, it's, it's some kind of a, base net.
+Speaker B: Yeah, actually.
+Speaker B: Okay, so then the question, is that my question is to you then would be?
+Speaker B: So the only reason we can make all these smaller base nets, because we know we can only deal with a finite set of constructions.
+Speaker B: Because if we're just taking arbitrary language, then we couldn't have a node for every possible question, you know?
+Speaker A: A decision on a February possible question, you mean?
+Speaker B: Well, in the case of, yeah, in the case of any piece of language, we wouldn't be able to answer it with this system, if we just, because we wouldn't have the correct node, basically what you're proposing is a, where is node, right?
+Speaker B: Yeah.
+Speaker B: And if we, and if someone says, you know, something in Mandarin, yeah, to the system, we would know which node to look at to answer that question, right?
+Speaker B: Yeah.
+Speaker B: So, but if we have a finite, what?
+Speaker C: I don't see a point.
+Speaker C: What, what, what I am thinking of what we're about to propose here is, we're always going to get the whole list of values in their parts here, probabilities.
+Speaker C: And now we need an expert system, or a belief net, or something that interprets that.
+Speaker C: That looks at all the values and says, the winner is, timing now go there.
+Speaker C: Go there timing now.
+Speaker C: Or the winner is info on function off.
+Speaker C: So, you want to know something about it and what it does.
+Speaker C: Right?
+Speaker C: Regardless of, yeah, but the input,
+Speaker B: but how does the expert, how does the expert system know which one to declare the winner, if it doesn't know what question it is, and how that question should be answered?
+Speaker C: Based on what the question was, so what the discourse, the autonomy, the situation, and the user model gave us, we came up with these values for these decisions.
+Speaker B: Yeah, I know, but how do we wait what we get out?
+Speaker B: As which ones are important?
+Speaker B: So, if we were to do it with a base net, we'd have to have a node for every question that we knew how to deal with, that would take all of the inputs and wait them appropriately for that question.
+Speaker B: Does that make sense?
+Speaker B: Yeah, it may.
+Speaker A: I mean, are you seeing that what happens if you try to scale this up to a situation where we're just dealing with arbitrary language?
+Speaker A: Is that your point?
+Speaker B: Well, no, I guess my question is, is the reason that we can make a node, or okay, so let me see if I'm confused.
+Speaker B: Are we going to make a node for every question?
+Speaker B: Does that make sense or not?
+Speaker B: Every question?
+Speaker A: Every construction.
+Speaker A: I don't necessarily, I would think.
+Speaker A: I mean, it's not based on constructions, it's based on things like, there's going to be a node for code, there are not, and there's going to be a node for attribute approach.
+Speaker B: So someone asked a question.
+Speaker B: How do we decide how to answer it?
+Speaker C: Well, look at, look, face yourself with this question, you get this, this is what you get.
+Speaker C: And now you have to make a decision, what do we think?
+Speaker C: What does this tell us?
+Speaker C: I'm not knowing what was asked and what happened, and whether the person was a tourist or a local, because all of these factors have presumably already gone into making these posterior probabilities.
+Speaker C: Yeah.
+Speaker C: What we need is a just a mechanism that says,
+Speaker B: there is, I just don't think a winner take all type of thing is the,
+Speaker A: I mean, in general, like, we won't just have those three, right? We'll have like many, many nodes.
+Speaker A: So we have to like, so that it's no longer possible to just look at the nodes themselves and figure out what the person is trying to say.
+Speaker C: Because there are interdependencies, right?
+Speaker C: No, so if, for example, the go there, posterior probability is so high, if it has a risk of certain height, then all of this becomes relevant.
+Speaker C: So even if the function or the history of something is scoring pretty good on the true node, true value.
+Speaker B: I don't know about that, because I would suggest that, I mean, do they have to be mutual?
+Speaker B: Do they have to be mutual exclusive?
+Speaker C: I think to some extent, they are, or maybe they're not.
+Speaker B: Because the way you describe what I meant, they weren't mutually exclusive to me.
+Speaker C: Well, if he doesn't want to go there, even if the enter posterior probability, so go there is no, enter is high, and info on this.
+Speaker B: Wait, I just added the other three that you had in the, those three nodes, they didn't seem like they were mutually exclusive.
+Speaker B: No, there's no.
+Speaker B: So yeah, but some things would drop out, and some things would still be important.
+Speaker B: But I guess what's confusing me is if we have a base net to deal with, another base net to deal with this stuff, yeah, is the only reason, okay, so I guess if we have another base net to deal with this stuff, the only reason we can design it is because we know what each question is asking.
+Speaker A: Yeah, that's true.
+Speaker B: And then so with the only reason, the way we would know what question is asking is based upon, oh, so let's say I had a construction parser, and I would know what each construction, the communicative intent of the construction was, and so then I would know how to wait the nodes appropriately in response.
+Speaker B: So no matter what they said, if I could map it onto a where is construction, I could say, ah, well, the intent here was where is, and I could look at those.
+Speaker A: Yeah, yeah, I mean, sure.
+Speaker A: You do need to know, do you need to have that kind of animation?
+Speaker C: Yeah, I'm also agreeing that a simple, take the ones where we have a clear winner, forget about the ones where it's all sort of middle ground, prune those out and just hand over the ones where we have a winner.
+Speaker C: Because that would be the easiest way.
+Speaker C: We just compose as an output on X-Route-Best message that says, go there, now enter historical information, and not care whether that's consistent with anything.
+Speaker C: Right? In this case, we say, definitely doesn't want to go there.
+Speaker C: He just wants to know where it is, or let's call this, let's look at, he wants to know something about the history of, so he said, tell me something about the history of that.
+Speaker C: Now, the, but for some reason, the endpoint approach gets a really high score, too.
+Speaker C: We can't expect this to be sort of open, 3333, open, 3333, open, 3333, right?
+Speaker C: Somebody needs to sap that, or no, there needs to be some knowledge that...
+Speaker B: Well, yeah, but the BayesNet that would merge, and realize I had my hand in between my mouth and my, my, my, my, my, my, my, my, my, my, my, my, so then the BayesNet that would merge, there, that would make the decision between go there, info on location, would have a node to tell you, which one of those three you wanted, and based upon that node, then you would look at the other stuff.
+Speaker B: I mean, does that make sense?
+Speaker C: Sort of one of those, that's, it's more like a decision tree, if you want. You first look at the real ones, and then...
+Speaker B: Yeah, I didn't intend to say that every possible, okay, there was confusion there, I didn't intend to say every possible thing should go into the BayesNet because some of the things aren't relevant in the BayesNet for a specific question, like the endpoint is not necessarily relevant in the BayesNet for where is until after you've decided whether you want to go there or not.
+Speaker C: Right.
+Speaker B: Show us the way, Bosch.
+Speaker B: I just see other things that, yeah,
+Speaker A: when you're asking specific questions, you don't even, like if you're asked a various question, you may not even look, like, ask for the posterior probability of the EVA node, right?
+Speaker A: Because that's what, I mean, in the BayesNet, you always ask for the posterior probability of a specific node.
+Speaker A: So, I mean, you may not even bother to compute things you don't need.
+Speaker C: And we're always computing all?
+Speaker A: No. You can compute the posterior probability of one subset of the nodes given some other nodes, but totally ignore some other nodes also.
+Speaker A: Basically, things you ignore get marginalized over.
+Speaker C: Yeah, but that's, that's a shifting the problem.
+Speaker C: Then you would have to make a decision, okay?
+Speaker C: Yeah, that's a various question, which is a node to our query?
+Speaker A: Yes.
+Speaker A: Well, I think that's what you want to do, right?
+Speaker B: Well, eventually you still have to pick up which ones you're looking at.
+Speaker B: So, it's pretty much the same problem.
+Speaker C: Yeah, it's apples and oranges.
+Speaker C: I mean, maybe it just makes a difference in terms of performance, computational times.
+Speaker C: Either you always have to compute all the posterior probabilities for all the values, all nodes, and then prune the ones you think that are the same.
+Speaker C: The ones you think that are irrelevant, or you just make a priori estimate of what you think might be relevant and query those.
+Speaker A: Yeah.
+None: So basically you'd have a decision tree query go there.
+None: If that's false, query this one, if that's true, query that one, and just basically do a binary search through the...
+None: I don't know if it would necessarily be that complicated, but...
+Speaker B: Well, in the case of go there, it would be, in the case, because if you needed to...
+Speaker B: If go there was true, you'd want to know what endpoint was, and if it was false, you'd want to look at either info on our history.
+Speaker A: Yeah.
+Speaker A: That's true, I guess.
+Speaker A: Yeah, so in a way you would have that.
+None: Awesome.
+None: Some would be boggled by the hug and software.
+None: Okay, why is that?
+Speaker B: I can't figure out how to get the probabilities into it.
+Speaker B: Like, I'd look at...
+Speaker B: It's some way...
+Speaker B: It's boggling me.
+Speaker B: Okay.
+Speaker B: All right.
+Speaker B: But hopefully it's...
+Speaker B: Oh yeah, I just think I haven't figured out what the terms in Huggin' Mean versus what Java-based terms are.
+Speaker B: Okay.
+Speaker C: By the way, do we know whether Jury and Nancy are coming?
+Speaker A: Or...
+Speaker A: They should come and they're done their stuff, basically, whenever that is.
+Speaker A: So...
+Speaker B: What do they need to do left?
+Speaker A: I guess Jury needs to enter Marx, but I don't know if he's going to do that now or later, but if he's going to enter Marx, he's going to take him away, I guess, and he won't be here.
+Speaker A: And what's Nancy doing?
+Speaker A: Nancy...
+Speaker A: She was sort of finishing up the calculation of Marx and his signing of grades, but I don't know if she should be here.
+Speaker A: Well, or she should be free after that, so...
+Speaker A: Assuming she's coming to this meeting.
+Speaker A: I don't know if she knows about it.
+Speaker B: She's on the email, let's try it.
+Speaker A: Okay.
+Speaker C: Okay.
+Speaker C: Because...
+Speaker C: Basically, what we also have decided prior to this meeting is that we would have a re-run of the three of us sitting together.
+Speaker C: Okay.
+Speaker C: So, we're going to come to this week, again, and finish up the values of this.
+Speaker C: So we have...
+Speaker C: Believe it or not, we have all the bottom ones here.
+Speaker C: Well, either the bunch of notes or...
+Speaker C: Yeah.
+Speaker C: Actually, what we have is this line.
+Speaker B: Right?
+Speaker B: What do the stretchers do? So, for instance, this location now has two inputs.
+Speaker A: Four.
+Speaker A: Those are the bottom things are inputs also.
+Speaker B: Oh, I see.
+Speaker B: Okay, that makes a lot more sense to me now.
+Speaker B: Because I thought it was like that one in Stuart's book about...
+Speaker B: Alarm in the dog.
+Speaker B: Yeah, or the earthquake in the alarm.
+Speaker A: Sorry, yeah, I'm confusing too.
+Speaker B: Yeah, there's a dog one too, but that's in Java Bay, isn't it?
+Speaker B: Maybe.
+Speaker B: Or there's something about bowel problems or something with the dog.
+Speaker C: And we have all the top ones, all the ones to which no arrows are pointing.
+Speaker C: What we're missing are the...
+Speaker C: These arrows are pointing where we're combining top ones.
+Speaker C: So we have to come up with values for this.
+Speaker C: This, this, this, this, and so forth.
+Speaker C: And maybe this fiddle around with it a little bit more.
+Speaker C: And then it's just edges.
+Speaker C: Many of edges.
+Speaker C: And we won't meet next Monday.
+Speaker B: So...
+Speaker B: Just a memorial day.
+Speaker A: Yeah, it would be next Tuesday, I guess.
+Speaker B: When's Jerry leaving for Italy?
+Speaker B: On Friday.
+Speaker B: Which Friday?
+Speaker B: This Friday.
+Speaker A: Oh, this Friday?
+Speaker B: As in four days?
+Speaker B: Yeah.
+Speaker B: Or three days?
+Speaker A: How long has he gone for?
+Speaker B: Two weeks.
+Speaker A: Italy, huh?
+Speaker A: What's there?
+Speaker C: That's a country.
+Speaker C: Billings.
+Speaker C: People.
+Speaker B: It does not account for anything.
+Speaker A: He's just visiting.
+Speaker A: Right.
+Speaker A: Just visiting.
+Speaker A: Vacation.
+Speaker A: Let's be honest, please.
+Speaker C: You can't really do that.
+Speaker C: Do you guys...
+Speaker C: Yeah.
+Speaker C: So part of what we actually want to do is sort of sketch out what we want to surprise him with when he comes back.
+Speaker C: I think we should disappoint him.
+Speaker C: Or have a finished construction parser and working belief net.
+Speaker B: That wouldn't be disappointing.
+Speaker B: I think we should absolutely know work for the two weeks that he's gone.
+Speaker C: Well, that's actually what I had planned.
+Speaker C: Personally, I had sort of sketched it out in my mind that you guys do a lot of work and I do nothing.
+Speaker C: And then I sort of...
+Speaker C: Oh, that sounds good too.
+Speaker C: Sort of bask in your glory.
+Speaker C: But you guys have any vacation plans because I myself am going to be gone.
+Speaker C: But this is actually not really important just this weekend.
+Speaker C: So we're going to go and get this.
+Speaker B: I want to be this guy this weekend too.
+Speaker C: But we're all going to be here on Tuesday again.
+Speaker C: Looks like it.
+Speaker C: Okay, then let's meet again next Tuesday and finish up this base net.
+Speaker C: And once we have finished it, I guess we can...
+Speaker C: And that's going to be more...
+Speaker C: Just you and me because Baskara is doing probabilistic, reclusive, structured, object oriented.
+Speaker B: Killing machines.
+Speaker C: Reasoning machines.
+Speaker B: And...
+Speaker B: Killing, reasoning.
+Speaker B: What's the difference?
+Speaker B: I think next Tuesday is it the whole group meeting or just working on it?
+Speaker C: The whole group and we present our results.
+Speaker C: A final definite.
+Speaker B: So when you're saying we need to do a run of...
+Speaker B: Like just working out the rest of the...
+Speaker C: Yeah, we should do this the upcoming days.
+Speaker C: So this weekend.
+Speaker B: When you say the whole group, you mean the four of us and Keith?
+Speaker C: And Ami might...
+Speaker B: Be here and it's possible that Nancy will be here.
+Speaker B: So...
+Speaker B: Yeah.
+Speaker C: Because once we have the...
+Speaker B: You just have to explain it to me then on Tuesday how it's all going to work out.
+Speaker B: Yeah.
+Speaker C: We were.
+Speaker C: Okay.
+Speaker C: Because once we have it sort of up and running then we can start defining the interfaces and then feed stuff into it and get stuff out of it and then hook it up to some fake construction parser.
+Speaker B: That you will have in about nine months or so, yeah.
+Speaker B: And the first bad version will be done in nine months.
+Speaker C: Yeah, I can worry about the ontology interface and you can...
+Speaker C: Keith can worry about the discourse.
+Speaker C: I mean this is pretty... I mean I hope everybody knows that these are just going to be dummy values, right?
+Speaker C: With...
+Speaker C: So if the endpoint...
+Speaker C: If the go there is yes and no then go there discourse will just be 50-50, right?
+Speaker A: What do you mean if the go there says no then the go there is...
+Speaker A: I don't understand.
+Speaker A: Like the go there depends on all those four things.
+Speaker C: Yeah. But what are the values of the go there discourse?
+Speaker A: Well it depends on this situation.
+Speaker A: The discourse is strongly indicating that...
+Speaker A: Yeah. But we have no discourse input.
+Speaker A: Oh I see.
+Speaker A: So you're specifically in our situation D and R are going to be...
+Speaker A: Yeah.
+Speaker A: Sure.
+Speaker B: So far we have...
+Speaker B: Is that what the Keith knows?
+Speaker B: Yeah.
+Speaker B: Okay. And you're taking it out for now.
+Speaker C: Well this is D...
+Speaker C: Okay.
+Speaker C: This I can...
+Speaker C: What the D's are.
+Speaker C: I can get it in here.
+Speaker C: So we have the...
+Speaker C: Let's call it Keith, John O.
+None: Note.
+Speaker C: Note.
+Speaker C: There is an H somewhere.
+Speaker C: There you go.
+Speaker A: People that have the same problem with my name.
+Speaker C: And...
+Speaker B: This is the H before the A or after the A.
+Speaker B: Oh and my name before the A.
+Speaker B: Okay good.
+Speaker B: Because when you said people have the same problem with it.
+Speaker B: Because my age goes after the A.
+Speaker B: People have a worse problem with my name.
+Speaker B: I always have to check every time I send you an email.
+Speaker B: A past email if yours to make sure I'm spilling your name correctly.
+Speaker B: That's good.
+Speaker B: I worry about you.
+Speaker C: I appreciate that.
+Speaker C: But when you abbreviate yourself as the busman, you don't use any H.
+Speaker A: Busman?
+Speaker A: Yeah, it's because of the chest player name Michael Busman.
+Speaker A: Busman, who is my hero?
+Speaker A: Okay.
+Speaker B: You're a geek.
+Speaker B: It's okay.
+Speaker B: How do you pronounce your name?
+Speaker B: Eva.
+Speaker B: Eva?
+Speaker B: Yeah.
+Speaker B: Not Eva.
+Speaker B: What if I were to call you Eva?
+Speaker B: I probably still respond to it.
+Speaker B: I thought people would call me Eva but...
+Speaker B: I don't know.
+Speaker B: And I just Eva, Eva.
+Speaker B: Like if I take the V and pronounce it like it was a German V.
+Speaker C: Which is F.
+Speaker B: Yeah.
+Speaker B: No idea.
+Speaker B: Loist.
+Speaker B: What?
+Speaker B: It sounds like an F.
+Speaker C: There's also an F in German which is why...
+Speaker C: It's just a difference between voice and unvoiced.
+None: Okay.
+Speaker B: As long as that's okay.
+Speaker B: I mean I might slip out and say it accidentally.
+Speaker A: That's all I'm saying.
+Speaker A: It's fine.
+Speaker A: Yeah, it doesn't matter what those nodes are anyway because we'll just make the weights here for now.
+Speaker C: Yeah.
+Speaker C: We'll make them 0 for now because who knows what they come up with.
+Speaker C: What's going to come in there?
+Speaker C: Okay.
+Speaker C: And...
+Speaker C: Then...
+Speaker C: Should we start on Thursday?
+Speaker C: And not meet tomorrow?
+Speaker C: Sure.
+Speaker C: I'll send an email.
+Speaker C: Make a time suggestion.
+Speaker B: Maybe it's okay so that we have one node per construction.
+Speaker B: Because even in people, like they don't know what you're talking about if you're using some sort of strange construction.
+Speaker C: Yeah, they would still sort of get the closest best fit.
+Speaker B: Yeah, but I mean that's what the construction parts would do.
+Speaker B: If you said something completely arbitrary, it would find the closest construction.
+Speaker B: But if you said something that was completely...
+Speaker B: Or theoretically the construction parts would do that.
+Speaker B: If you said something for which there was no construction whatsoever, people wouldn't have any idea what you're talking about.
+Speaker B: Like bust dog, fried egg.
+Speaker B: Or if you've something Chinese for sure.
+Speaker B: Or something in the internet.
+Speaker B: Or Cantonese is the case maybe.
+Speaker B: What do you think about that, boss?
+Speaker A: I mean...
+Speaker A: Well...
+Speaker A: But how many constructions could we possibly have nodes for?
+Speaker B: In this system or in...
+Speaker A: No, we...
+Speaker A: Like when people do this...
+Speaker B: Oh, and how many constructions do people have?
+Speaker A: Yeah.
+Speaker A: I have no idea.
+Speaker A: Is it considered to be like...
+Speaker A: Are they considered to be like very...
+Speaker A: Every now and then is the construction.
+Speaker A: Okay, so it's like...
+Speaker A: Thousands.
+Speaker B: Any form meaning pair to my understanding is a construction.
+Speaker B: And form starts at the level of...
+Speaker B: Or actually maybe even sounds.
+Speaker B: Yeah.
+Speaker B: And goes upwards until you get the die transitive construction.
+Speaker B: And then of course, I guess maybe there can be...
+Speaker B: Can there be combinations of the die...
+Speaker B: Yeah.
+Speaker B: The giving a speech construction.
+Speaker C: Retaric for construction, sir.
+Speaker C: But I mean...
+Speaker C: You know, you can probably count the ways.
+Speaker C: It's probably...
+Speaker B: I would definitely say it's finite.
+Speaker B: Yeah.
+Speaker B: And at least if you're a compiler, that's all that really matters.
+Speaker B: As long as your analysis is finite.
+Speaker A: How's this sound going to be finite again?
+Speaker B: No, I can't think of a way it would be infinite.
+Speaker B: Well, you can come up with new constructions.
+Speaker B: Yeah.
+Speaker B: If your brain is totally non-deterministic, then perhaps there's a way to get an infinite number of constructions.
+Speaker B: You have to worry about...
+Speaker A: What do you mean the fact that you can't say that it's impossible?
+Speaker B: Right.
+Speaker B: Because if you have a fixed number of neurons...
+Speaker B: Yeah.
+Speaker B: So the best case scenario would be the number of...
+Speaker B: Or the worst case scenario is the number of constructions equals the number of neurons.
+Speaker A: Well, two to the power of the number of neurons.
+Speaker B: But still, finite.
+Speaker C: Okay.
+Speaker B: No, wait, not necessarily.
+Speaker B: Is it...
+Speaker B: We can end the meeting.
+Speaker B: I just...
+Speaker B: Can't you use different levels of activation across...
+Speaker B: Hmm.
+Speaker B:...lots of different neurons to specify different values?
+None: Yeah.
+Speaker A: There's a bandwidth issue, right?
+Speaker A: Yeah.
+Speaker A: You can't do better than...
+Speaker C:...totally, by some other words, it gets really tough for a future.
+None: Transcribers, too.
+None: Transcribers, please.

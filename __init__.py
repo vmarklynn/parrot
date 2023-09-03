@@ -6,7 +6,7 @@ if (os.path.exists("parrot/services.py")
     and os.path.exists("parrot/summarizer_service.py")):
     # from . import services
     from . import transcribe_service
-    from . import summarizer_service
+    #from . import summarizer_service
 else:
     print("Services file does not exist")
     
