@@ -138,8 +138,8 @@ def processfile(request, **kwargs):
     ret = _transcribe_process(file)
     srt = summarizer.summarizeText( ret['transcription'])
 
+    ret.update(srt)
     with open (file +".json", "w") as f:
         f.write(json.dumps(ret))
 
-    ret.update(srt)
     return ret

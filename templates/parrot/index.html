@@ -64,7 +64,7 @@
 
 <textarea id="trans" rows=10 style="width: 100%;font-size: smaller;font-family: Courier, monospace;"></textarea>
 
-<div class="speaker-table" id="speaker-table" style="display: none;">
+<div class="speaker-table" id="speaker-table" style="display: none1;">
     <textarea id="summary" rows=3 style="width: 100%;font-size: smaller;font-family: Courier, monospace;"></textarea>
     <div>
         <table class="table table-striped table-bordered table-sm" width="100%">
@@ -82,7 +82,7 @@
     </div>
 
     <div class="audiobar" id="bottombar">
-        <audio  id="audiobar" src="" controls></audio>
+        <audio  id="audiobar" src="/static/parrot/test.wav" controls></audio>
         <div class=div1 style="vertical-align: top;">
             <input id="wordCount-ori" class="input1" value="0">
         </div>
@@ -155,7 +155,8 @@ function countWordsAfterColon(text) {
 function getFileNameWithExtension(filePath) {
     let pathArray = filePath.split('/');
     let fileName = pathArray[pathArray.length - 1];
-    return "../../../static/data/parrot/" + fileName;
+    //return "../../../static/data/parrot/" + fileName;
+    return "/static/parrot/" + fileName;
 }
 //----------------------------------------------------------------------------
 function displayTranscript(transcript) {
