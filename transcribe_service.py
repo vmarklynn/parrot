@@ -80,11 +80,10 @@ diarizer = Pipeline.from_pretrained("pyannote/speaker-diarization@2.1",
                                 use_auth_token="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")
 #---------------------------------------------------------------------------------------------------- 
 @webapi("/parrot/uploadfile")
-def uploadfile(request,  **kwargs):
+def uploadfile(request,  DESTDIR="/tmp/parrot/" , **kwargs):
     par = dict(request.GET)
     par.update(request.POST)
 
-    DESTDIR ="/tmp/parrot/"
     if (not os.path.exists(DESTDIR)):
         os.makedirs(DESTDIR)
     
@@ -125,7 +124,7 @@ def _transcribe_process(file):
 #--------------------------------------------------------------------------------------------------------    
 @webapi("/parrot/processfile")
 def processfile(request, **kwargs):
-    files = uploadfile(request, **kwargs).split("\n")
+    files = uploadfile(request, "parrot/static/parrot/data/", **kwargs).split("\n")
     if ( len(files) <= 0 ):   return "WARNING: No files given!"
     file = files[1]
 

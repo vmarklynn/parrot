@@ -82,7 +82,7 @@
     </div>
 
     <div class="audiobar" id="bottombar">
-        <audio  id="audiobar" src="/static/parrot_sample/test.wav" controls></audio>
+        <audio  id="audiobar" src="/static/data/test.wav" controls></audio>
         <div class=div1 style="vertical-align: top;">
             <input id="wordCount-ori" class="input1" value="0">
         </div>
@@ -156,7 +156,7 @@ function getFileNameWithExtension(filePath) {
     let pathArray = filePath.split('/');
     let fileName = pathArray[pathArray.length - 1];
     //return "../../../static/data/parrot/" + fileName;
-    return "/static/parrot/" + fileName;
+    return "/static/parrot/data/" + fileName;
 }
 //----------------------------------------------------------------------------
 function displayTranscript(transcript) {
@@ -203,11 +203,11 @@ function jumpToTime(timestamp) {
     if (timestamp) {
         var start = getTime(timestamp)
         var end = getTime(timestamp.split("-")[1])
-        $('#audiobar')[0].load()
+        //$('#audiobar')[0].load()
         $('#audiobar')[0].currentTime = start;
         $('#audiobar')[0].play();
-        console.log("Play: ", start, end-start)
-        setTimeout("$('#audiobar')[0].pause()", (end-start)*1000)
+        console.log("Play: ", start, end, end-start)
+        setTimeout("$('#audiobar')[0].pause()", (end-start+0.2)*1000)
     }
 }
 //----------------------------------------------------------------------------
