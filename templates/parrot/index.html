@@ -80,12 +80,12 @@
     <div >
         <div id="transcript-container" class="transcript-container"></div>
     </div>
+</div>
 
-    <div class="audiobar" id="bottombar">
-        <audio  id="audiobar" src="/static/data/test.wav" controls></audio>
-        <div class=div1 style="vertical-align: top;">
-            <input id="wordCount-ori" class="input1" value="0">
-        </div>
+<div class="audiobar" id="bottombar">
+    <audio  id="audiobar" src="/static/parrot/data/test.wav"  type="audio/wav" controls></audio>
+    <div class=div1 style="vertical-align: top;">
+        <input id="wordCount-ori" class="input1" value="0">
     </div>
 </div>
 </div>
@@ -99,6 +99,8 @@ $(document).ready(function() {
 });
 // ---------------------------------------------------------------------------
 var x1
+var AUD = document.getElementById("audiobar");
+
 function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     if ( responseTxt.startsWith("WAR")){
         return;
@@ -112,9 +114,13 @@ function handleUploadClickCB(responseTxt, statusTxt, xhr) {
     const wordCountOri = countWordsAfterColon(transcript);
     $('#wordCount-ori').val(wordCountOri);
     $('#audiobar').attr('src', getFileNameWithExtension(responseTxt.file_url));
+    AUD.load()
+    // DO NOT CHANGE THE FOLLOWING - FOR SOME REASON YOU NEED THESE TWO FOLLOWING LINES
+    AUD.currentTime = 1
+    AUD.load()
+
     displayTranscript();
     $('.speaker-table').show();
-    $('#audiobar')[0].load()
 
     const tableBody = document.getElementById('table-body');
     tableBody.innerHTML = '';
@@ -203,11 +209,9 @@ function jumpToTime(timestamp) {
     if (timestamp) {
         var start = getTime(timestamp)
         var end = getTime(timestamp.split("-")[1])
-        //$('#audiobar')[0].load()
-        $('#audiobar')[0].currentTime = start;
-        $('#audiobar')[0].play();
-        console.log("Play: ", start, end, end-start)
-        setTimeout("$('#audiobar')[0].pause()", (end-start+0.2)*1000)
+        AUD.currentTime = start;
+        AUD.play();
+        setTimeout("AUD.pause()", (end-start+0.2)*1000)
     }
 }
 //----------------------------------------------------------------------------
